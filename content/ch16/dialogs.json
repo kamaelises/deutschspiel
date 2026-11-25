@@ -1,0 +1,4506 @@
+[
+ {
+  "id": "ch16_d1",
+  "title_ru": "Рынок во Фрайберге",
+  "roles": {
+   "O": "Olga (одногруппница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch16_d1_01",
+    "role": "O",
+    "de": "Hallo! Heute ist Markt.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Привет! Сегодня рыночный день.",
+    "nouns": [
+     {
+      "lemma": "Markt",
+      "art": "der",
+      "pl": "Märkte"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hallo",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Heute",
+       "role": "когда"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "Markt",
+       "role": "кто"
+      }
+     ],
+     "text": "Hallo — привет, в вагон не входит. Дальше heute · ist · Markt.",
+     "topic": "verb2",
+     "why_de": "Вагон №1 занят: Heute. Действие ist всё равно в вагоне №2, а «кто» (Markt) — за ним: Heute ist Markt.",
+     "why_ru": "По-русски «Сегодня рыночный день» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, ist — вагон №2.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Hallo! Heute Markt ist.",
+      "ru": "Русский порядок: «кто» (Markt) перед действием, и ist уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+     },
+     "root": "Hallo — от holen «звать, позвать» (ahd. halōn/holōn): так окликали перевозчика (DWDS, Pfeifer); ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Hallo — привет, в вагон не входит. Дальше heute · ist · Markt."
+    },
+    "audio": "audio_v1/ch16_d1_01.mp3",
+    "tts": "Hallo! Heute ist Markt.",
+    "ipa": [
+     {
+      "w": "Hallo",
+      "ipa": "[haˈloː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Heute",
+      "ipa": "[ˈhɔɪ̯tə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Markt",
+      "ipa": "[maʁkt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: H… · когда: H… · действие (вагон №2): i… · кто: M…",
+    "gap": {
+     "text": "Hallo! Heute ___ ___.",
+     "answers": [
+      "ist",
+      "Markt"
+     ]
+    },
+    "task_ru": "Скажи: Привет! Сегодня рыночный день."
+   },
+   {
+    "id": "ch16_d1_02",
+    "role": "H",
+    "de": "Hier ist ein Stand.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Здесь прилавок.",
+    "nouns": [
+     {
+      "lemma": "Stand",
+      "art": "der",
+      "pl": "Stände"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hier",
+       "role": "где"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "ein Stand",
+       "role": "кто"
+      }
+     ],
+     "text": "Hier впереди, ist — вагон №2. der Stand → ein Stand.",
+     "topic": "verb2",
+     "why_de": "Вагон №1 занят: Hier. Действие ist всё равно в вагоне №2, а «кто» (ein Stand) — за ним: Hier ist ein Stand.",
+     "why_ru": "По-русски «Здесь прилавок» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, ist — вагон №2.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Hier ein Stand ist.",
+      "ru": "Русский порядок: «кто» (ein Stand) перед действием, и ist уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Hier впереди, ist — вагон №2. der Stand → ein Stand."
+    },
+    "audio": "audio_v1/ch16_d1_02.mp3",
+    "tts": "Hier ist ein Stand.",
+    "ipa": [
+     {
+      "w": "Hier",
+      "ipa": "[hiːɐ̯]",
+      "src": "override"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ein",
+      "ipa": "[aɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Stand",
+      "ipa": "[ʃtant]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "где: H… · действие (вагон №2): i… · кто: e… S…",
+    "gap": {
+     "text": "___ ___ ein Stand.",
+     "answers": [
+      "Hier",
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Здесь прилавок."
+   },
+   {
+    "id": "ch16_d1_03",
+    "role": "O",
+    "de": "Hier gibt es Honig und Fisch.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Здесь есть мёд и рыба.",
+    "nouns": [
+     {
+      "lemma": "Honig",
+      "art": "der",
+      "pl": "Honige"
+     },
+     {
+      "lemma": "Fisch",
+      "art": "der",
+      "pl": "Fische"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hier",
+       "role": "где"
+      },
+      {
+       "w": "gibt",
+       "role": "действие №2"
+      },
+      {
+       "w": "es",
+       "role": "кто"
+      },
+      {
+       "w": "Honig und Fisch",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Первым стоит hier, поэтому es — за gibt. «Здесь есть» = hier gibt es.",
+     "topic": "verb2",
+     "why_de": "Вагон №1 занят: Hier. Действие gibt всё равно в вагоне №2, а «кто» (es) — за ним: Hier gibt es Honig und Fisch.",
+     "why_ru": "По-русски «Здесь есть мёд и рыба» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, gibt — вагон №2.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Hier es gibt Honig und Fisch.",
+      "ru": "Русский порядок: «кто» (es) перед действием, и gibt уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+     },
+     "root": null,
+     "why_voice_ru": "Первым стоит hier, поэтому es — за gibt. «Здесь есть» = hier gibt es.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«где» · действие (вагон №2) · «кто» · «что»",
+      "items": [
+       {
+        "id": "ch16_004",
+        "de": "Hier gibt es Obst und Gemüse.",
+        "ru": "Здесь есть фрукты и овощи.",
+        "audio": "audio_v1/ch16_004.mp3",
+        "lesson": "L1",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 4,
+         "from": "Honig und Fisch",
+         "to": "Obst und Gemüse"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Hier · gibt · es. В каждом примере меняется один вагон — «что»: Honig und Fisch → Obst und Gemüse. Действие gibt всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch16_d1_03.mp3",
+    "tts": "Hier gibt es Honig und Fisch.",
+    "ipa": [
+     {
+      "w": "Hier",
+      "ipa": "[hiːɐ̯]",
+      "src": "override"
+     },
+     {
+      "w": "gibt",
+      "ipa": "[ɡiːpt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "es",
+      "ipa": "[ɛs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Honig",
+      "ipa": "[ˈhoːnɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Fisch",
+      "ipa": "[fɪʃ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "где: H… · действие (вагон №2): g… · кто: e… · кого-что: H… u… F…",
+    "gap": {
+     "text": "Hier ___ es Honig und ___.",
+     "answers": [
+      "gibt",
+      "Fisch"
+     ]
+    },
+    "task_ru": "Скажи: Здесь есть мёд и рыба."
+   },
+   {
+    "id": "ch16_d1_04",
+    "role": "H",
+    "de": "Und hier gibt es Obst und Gemüse.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А здесь есть фрукты и овощи.",
+    "nouns": [
+     {
+      "lemma": "Obst",
+      "art": "das",
+      "pl": ""
+     },
+     {
+      "lemma": "Gemüse",
+      "art": "das",
+      "pl": "Gemüse"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "hier",
+       "role": "где"
+      },
+      {
+       "w": "gibt",
+       "role": "действие №2"
+      },
+      {
+       "w": "es",
+       "role": "кто"
+      },
+      {
+       "w": "Obst und Gemüse",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Und не занимает вагон. Дальше тот же поезд: hier · gibt · es.",
+     "topic": "verb2",
+     "why_de": "Вагон №1 занят: hier. Действие gibt всё равно в вагоне №2, а «кто» (es) — за ним: Und hier gibt es Obst und Gemüse.",
+     "why_ru": "По-русски «А здесь есть фрукты и овощи» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, gibt — вагон №2.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Und hier es gibt Obst und Gemüse.",
+      "ru": "Русский порядок: «кто» (es) перед действием, и gibt уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+     },
+     "root": null,
+     "why_voice_ru": "Und не занимает вагон. Дальше тот же поезд: hier · gibt · es."
+    },
+    "audio": "audio_v1/ch16_d1_04.mp3",
+    "tts": "Und hier gibt es Obst und Gemüse.",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hier",
+      "ipa": "[hiːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gibt",
+      "ipa": "[ɡiːpt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "es",
+      "ipa": "[ɛs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Obst",
+      "ipa": "[oːpst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Gemüse",
+      "ipa": "[ɡəˈmyːzə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · где: h… · действие (вагон №2): g… · кто: e… · кого-что: O… u… G…",
+    "gap": {
+     "text": "Und hier ___ es Obst und ___.",
+     "answers": [
+      "gibt",
+      "Gemüse"
+     ]
+    },
+    "task_ru": "Скажи: А здесь есть фрукты и овощи."
+   },
+   {
+    "id": "ch16_d1_05",
+    "role": "O",
+    "de": "Hier riecht es herrlich!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Здесь замечательно пахнет!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hier",
+       "role": "где"
+      },
+      {
+       "w": "riecht",
+       "role": "действие №2"
+      },
+      {
+       "w": "es",
+       "role": "кто"
+      },
+      {
+       "w": "herrlich",
+       "role": "какой/как"
+      }
+     ],
+     "text": "es — «кто» пахнет. По-русски его нет, по-немецки в такой фразе оно нужно.",
+     "topic": "verb2",
+     "why_de": "Вагон №1 занят: Hier. Действие riecht всё равно в вагоне №2, а «кто» (es) — за ним: Hier riecht es herrlich!",
+     "why_ru": "По-русски «Здесь замечательно пахнет» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, riecht — вагон №2.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Hier es riecht herrlich!",
+      "ru": "Русский порядок: «кто» (es) перед действием, и riecht уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+     },
+     "root": null,
+     "why_voice_ru": "es — «кто» пахнет. По-русски его нет, по-немецки в такой фразе оно нужно."
+    },
+    "audio": "audio_v1/ch16_d1_05.mp3",
+    "tts": "Hier riecht es herrlich!",
+    "ipa": [
+     {
+      "w": "Hier",
+      "ipa": "[hiːɐ̯]",
+      "src": "override"
+     },
+     {
+      "w": "riecht",
+      "ipa": "[ʁiːçt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "es",
+      "ipa": "[ɛs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "herrlich",
+      "ipa": "[ˈhɛʁlɪç]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "где: H… · действие (вагон №2): r… · кто: e… · какой/как: h…",
+    "gap": {
+     "text": "___ ___ es herrlich!",
+     "answers": [
+      "Hier",
+      "riecht"
+     ]
+    },
+    "task_ru": "Скажи: Здесь замечательно пахнет!"
+   },
+   {
+    "id": "ch16_d1_06",
+    "role": "H",
+    "de": "Ja! Ich habe Hunger.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да! Я хочу есть.",
+    "nouns": [
+     {
+      "lemma": "Hunger",
+      "art": "der",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "действие №2"
+      },
+      {
+       "w": "Hunger",
+       "role": "кого-что"
+      }
+     ],
+     "text": "ja не занимает вагон. ich habe Hunger — «я имею голод», как в главе 4.",
+     "topic": "verb2",
+     "why_de": "Ich · habe · Hunger: действие habe — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Я хочу есть» — другая конструкция: по-немецки дословно — иметь голод: habe Hunger. Ich habe Hunger. Действие habe держит вагон №2.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ja! Ich Hunger habe.",
+      "ru": "Действие habe уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе habe — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "ja не занимает вагон. ich habe Hunger — «я имею голод», как в главе 4."
+    },
+    "audio": "audio_v1/ch16_d1_06.mp3",
+    "tts": "Ja! Ich habe Hunger.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Hunger",
+      "ipa": "[ˈhʊŋɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: I… · действие (вагон №2): h… · кого-что: H…",
+    "gap": {
+     "text": "Ja! Ich ___ ___.",
+     "answers": [
+      "habe",
+      "Hunger"
+     ]
+    },
+    "task_ru": "Скажи: Да! Я хочу есть."
+   },
+   {
+    "id": "ch16_d1_07",
+    "role": "O",
+    "de": "Ich esse eine Bratwurst.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я ем жареную сосиску.",
+    "nouns": [
+     {
+      "lemma": "Bratwurst",
+      "art": "die",
+      "pl": "Bratwürste"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "esse",
+       "role": "действие №2"
+      },
+      {
+       "w": "eine Bratwurst",
+       "role": "кого-что"
+      }
+     ],
+     "text": "die Bratwurst → eine Bratwurst.",
+     "topic": "verb2",
+     "why_de": "Ich · esse · eine Bratwurst: действие esse — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я ем жареную сосиску» — Ich esse eine Bratwurst. Разница одна: по-немецки esse держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich eine Bratwurst esse.",
+      "ru": "Действие esse уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе esse — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "die Bratwurst → eine Bratwurst.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «что»",
+      "items": [
+       {
+        "id": "ch16_007",
+        "de": "Ich esse Brot und Käse.",
+        "ru": "Я ем хлеб и сыр.",
+        "audio": "audio_v1/ch16_007.mp3",
+        "lesson": "L1",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "eine Bratwurst",
+         "to": "Brot und Käse"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Ich · esse. В каждом примере меняется один вагон — «что»: eine Bratwurst → Brot und Käse. Действие esse всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch16_d1_07.mp3",
+    "tts": "Ich esse eine Bratwurst.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "esse",
+      "ipa": "[ˈɛsə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "eine",
+      "ipa": "[ˈaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Bratwurst",
+      "ipa": "[ˈbʁaːtˌvʊʁst]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): e… · кого-что: e… B…",
+    "gap": {
+     "text": "Ich ___ eine ___.",
+     "answers": [
+      "esse",
+      "Bratwurst"
+     ]
+    },
+    "task_ru": "Скажи: Я ем жареную сосиску."
+   },
+   {
+    "id": "ch16_d1_08",
+    "role": "H",
+    "de": "Ich esse Brot und Käse.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я ем хлеб и сыр.",
+    "nouns": [
+     {
+      "lemma": "Brot",
+      "art": "das",
+      "pl": "Brote"
+     },
+     {
+      "lemma": "Käse",
+      "art": "der",
+      "pl": "Käse"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "esse",
+       "role": "действие №2"
+      },
+      {
+       "w": "Brot und Käse",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Тот же поезд, другая еда.",
+     "topic": "verb2",
+     "why_de": "Ich · esse · Brot und Käse: действие esse — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я ем хлеб и сыр» — Ich esse Brot und Käse. Разница одна: по-немецки esse держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich Brot und Käse esse.",
+      "ru": "Действие esse уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе esse — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Тот же поезд, другая еда.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «что»",
+      "items": [
+       {
+        "id": "ch16_006",
+        "de": "Ich esse eine Bratwurst.",
+        "ru": "Я ем жареную сосиску.",
+        "audio": "audio_v1/ch16_006.mp3",
+        "lesson": "L1",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "Brot und Käse",
+         "to": "eine Bratwurst"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Ich · esse. В каждом примере меняется один вагон — «что»: Brot und Käse → eine Bratwurst. Действие esse всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch16_d1_08.mp3",
+    "tts": "Ich esse Brot und Käse.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "esse",
+      "ipa": "[ˈɛsə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Brot",
+      "ipa": "[bʁoːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Käse",
+      "ipa": "[ˈkɛːzə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): e… · кого-что: B… u… K…",
+    "gap": {
+     "text": "Ich ___ Brot und ___.",
+     "answers": [
+      "esse",
+      "Käse"
+     ]
+    },
+    "task_ru": "Скажи: Я ем хлеб и сыр."
+   },
+   {
+    "id": "ch16_d1_09",
+    "role": "O",
+    "de": "Gut! Jetzt bin ich satt.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Хорошо! Теперь я сыта.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Gut",
+       "role": "да/нет"
+      },
+      {
+       "w": "Jetzt",
+       "role": "когда"
+      },
+      {
+       "w": "bin",
+       "role": "действие №2"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "satt",
+       "role": "какой/как"
+      }
+     ],
+     "text": "Jetzt впереди, поэтому ich за bin. Действие остаётся в вагоне №2.",
+     "topic": "verb2",
+     "why_de": "Вагон №1 занят: Jetzt. Действие bin всё равно в вагоне №2, а «кто» (ich) — за ним: Jetzt bin ich satt.",
+     "why_ru": "По-русски «Теперь я сыта» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, bin — вагон №2.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Gut! Jetzt ich bin satt.",
+      "ru": "Русский порядок: «кто» (ich) перед действием, и bin уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+     },
+     "root": "bin, bist — от древнего корня *bʰew- («быть»), а ist — от *es- (как русское «есть»); весь глагол sein собран из двух корней (DWDS, Wiktionary)",
+     "why_voice_ru": "Jetzt впереди, поэтому ich за bin. Действие остаётся в вагоне №2."
+    },
+    "audio": "audio_v1/ch16_d1_09.mp3",
+    "tts": "Gut! Jetzt bin ich satt.",
+    "ipa": [
+     {
+      "w": "Gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Jetzt",
+      "ipa": "[jɛt͡st]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bin",
+      "ipa": "[bɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "satt",
+      "ipa": "[zat]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: G… · когда: J… · действие (вагон №2): b… · кто: i… · какой/как: s…",
+    "gap": {
+     "text": "Gut! ___ ___ ich satt.",
+     "answers": [
+      "Jetzt",
+      "bin"
+     ]
+    },
+    "task_ru": "Скажи: Хорошо! Теперь я сыта."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch16_d2",
+  "title_ru": "Рождественский рынок: что нравится",
+  "roles": {
+   "O": "Olga (одногруппница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch16_d2_01",
+    "role": "O",
+    "de": "Hallo! Heute ist Weihnachtsmarkt.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Привет! Сегодня рождественский рынок.",
+    "nouns": [
+     {
+      "lemma": "Weihnachtsmarkt",
+      "art": "der",
+      "pl": "Weihnachtsmärkte"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hallo",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Heute",
+       "role": "когда"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "Weihnachtsmarkt",
+       "role": "кто"
+      }
+     ],
+     "text": "Hallo не занимает вагон. Дальше heute · ist · что.",
+     "topic": "verb2",
+     "why_de": "Вагон №1 занят: Heute. Действие ist всё равно в вагоне №2, а «кто» (Weihnachtsmarkt) — за ним: Heute ist Weihnachtsmarkt.",
+     "why_ru": "По-русски «Сегодня рождественский рынок» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, ist — вагон №2.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Hallo! Heute Weihnachtsmarkt ist.",
+      "ru": "Русский порядок: «кто» (Weihnachtsmarkt) перед действием, и ist уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+     },
+     "root": "Hallo — от holen «звать, позвать» (ahd. halōn/holōn): так окликали перевозчика (DWDS, Pfeifer); ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Hallo не занимает вагон. Дальше heute · ist · что.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«когда» · действие (вагон №2) · «кто»",
+      "items": [
+       {
+        "id": "ch16_d1_01",
+        "de": "Hallo! Heute ist Markt.",
+        "ru": "Привет! Сегодня рыночный день.",
+        "audio": "audio_v1/ch16_d1_01.mp3",
+        "lesson": "L1",
+        "part": 4,
+        "changed": {
+         "role": "кто",
+         "wagon": 3,
+         "from": "Weihnachtsmarkt",
+         "to": "Markt"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Heute · ist. В каждом примере меняется один вагон — «кто»: Weihnachtsmarkt → Markt. Действие ist всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch16_d2_01.mp3",
+    "tts": "Hallo! Heute ist Weihnachtsmarkt.",
+    "ipa": [
+     {
+      "w": "Hallo",
+      "ipa": "[haˈloː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Heute",
+      "ipa": "[ˈhɔɪ̯tə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Weihnachtsmarkt",
+      "ipa": "[ˈvaɪ̯naxt͡sˌmaʁkt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: H… · когда: H… · действие (вагон №2): i… · кто: W…",
+    "gap": {
+     "text": "Hallo! Heute ___ ___.",
+     "answers": [
+      "ist",
+      "Weihnachtsmarkt"
+     ]
+    },
+    "task_ru": "Скажи: Привет! Сегодня рождественский рынок."
+   },
+   {
+    "id": "ch16_d2_02",
+    "role": "H",
+    "de": "Hier ist ein Stand.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Здесь прилавок.",
+    "nouns": [
+     {
+      "lemma": "Stand",
+      "art": "der",
+      "pl": "Stände"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hier",
+       "role": "где"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "ein Stand",
+       "role": "кто"
+      }
+     ],
+     "text": "Как на рынке в L1: hier · ist · ein Stand.",
+     "topic": "verb2",
+     "why_de": "Вагон №1 занят: Hier. Действие ist всё равно в вагоне №2, а «кто» (ein Stand) — за ним: Hier ist ein Stand.",
+     "why_ru": "По-русски «Здесь прилавок» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, ist — вагон №2.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Hier ein Stand ist.",
+      "ru": "Русский порядок: «кто» (ein Stand) перед действием, и ist уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Как на рынке в L1: hier · ist · ein Stand."
+    },
+    "audio": "audio_v1/ch16_d2_02.mp3",
+    "tts": "Hier ist ein Stand.",
+    "ipa": [
+     {
+      "w": "Hier",
+      "ipa": "[hiːɐ̯]",
+      "src": "override"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ein",
+      "ipa": "[aɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Stand",
+      "ipa": "[ʃtant]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "где: H… · действие (вагон №2): i… · кто: e… S…",
+    "gap": {
+     "text": "___ ___ ein Stand.",
+     "answers": [
+      "Hier",
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Здесь прилавок."
+   },
+   {
+    "id": "ch16_d2_03",
+    "role": "O",
+    "de": "Hier gibt es einen Nussknacker.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Здесь есть щелкунчик.",
+    "nouns": [
+     {
+      "lemma": "Nussknacker",
+      "art": "der",
+      "pl": "Nussknacker"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hier",
+       "role": "где"
+      },
+      {
+       "w": "gibt",
+       "role": "действие №2"
+      },
+      {
+       "w": "es",
+       "role": "кто"
+      },
+      {
+       "w": "einen Nussknacker",
+       "role": "кого-что"
+      }
+     ],
+     "text": "hier · gibt · es, потом что есть: einen Nussknacker.",
+     "topic": "verb2",
+     "why_de": "Артикль — сигнал роли: der → den/einen показывает «кого-что»: Hier gibt es einen Nussknacker.",
+     "why_ru": "Похоже на русские окончания, только меняется не слово, а артикль: Hier gibt es einen Nussknacker.",
+     "layer": "akk",
+     "why_not": {
+      "wrong": "Hier gibt es ein Nussknacker.",
+      "ru": "Русская привычка: артикль не меняется. Немец слышит не ту роль: тут der-слово в роли «кого-что» — einen."
+     },
+     "root": null,
+     "why_voice_ru": "hier · gibt · es, потом что есть: einen Nussknacker.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«где» · действие (вагон №2) · «кто» · «что»",
+      "items": [
+       {
+        "id": "ch16_003",
+        "de": "Hier gibt es Honig und Fisch.",
+        "ru": "Здесь есть мёд и рыба.",
+        "audio": "audio_v1/ch16_003.mp3",
+        "lesson": "L1",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 4,
+         "from": "einen Nussknacker",
+         "to": "Honig und Fisch"
+        }
+       },
+       {
+        "id": "ch16_004",
+        "de": "Hier gibt es Obst und Gemüse.",
+        "ru": "Здесь есть фрукты и овощи.",
+        "audio": "audio_v1/ch16_004.mp3",
+        "lesson": "L1",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 4,
+         "from": "einen Nussknacker",
+         "to": "Obst und Gemüse"
+        }
+       },
+       {
+        "id": "ch16_009",
+        "de": "Hier gibt es Brot und Käse.",
+        "ru": "Здесь есть хлеб и сыр.",
+        "audio": "audio_v1/ch16_009.mp3",
+        "lesson": "L1",
+        "part": 6,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 4,
+         "from": "einen Nussknacker",
+         "to": "Brot und Käse"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Hier · gibt · es. В каждом примере меняется один вагон — «что»: einen Nussknacker → Honig und Fisch → Obst und Gemüse → Brot und Käse. Действие gibt всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch16_d2_03.mp3",
+    "tts": "Hier gibt es einen Nussknacker.",
+    "ipa": [
+     {
+      "w": "Hier",
+      "ipa": "[hiːɐ̯]",
+      "src": "override"
+     },
+     {
+      "w": "gibt",
+      "ipa": "[ɡiːpt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "es",
+      "ipa": "[ɛs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "einen",
+      "ipa": "[ˈaɪ̯nən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Nussknacker",
+      "ipa": "[ˈnʊsknakɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "где: H… · действие (вагон №2): g… · кто: e… · кого-что: e… N…",
+    "gap": {
+     "text": "Hier ___ es einen ___.",
+     "answers": [
+      "gibt",
+      "Nussknacker"
+     ]
+    },
+    "task_ru": "Скажи: Здесь есть щелкунчик."
+   },
+   {
+    "id": "ch16_d2_04",
+    "role": "H",
+    "de": "Welcher Nussknacker?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Какой щелкунчик?",
+    "nouns": [
+     {
+      "lemma": "Nussknacker",
+      "art": "der",
+      "pl": "Nussknacker"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Welcher Nussknacker",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      }
+     ],
+     "text": "Короткий вопрос: welcher — «какой из них». Окончание как у der.",
+     "topic": "questions",
+     "why_de": "Короткий вопрос без действия: Welcher Nussknacker (вопрос-слово). Действие уже сказали в прошлой реплике, его не повторяют.",
+     "why_ru": "По-русски так же коротко: «Какой щелкунчик?».",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — считать это готовой формулой. «Какой щелкунчик» — короткий вопрос, его слова меняют под ситуацию."
+     },
+     "root": null,
+     "why_voice_ru": "Короткий вопрос: welcher — «какой из них». Окончание как у der."
+    },
+    "audio": "audio_v1/ch16_d2_04.mp3",
+    "tts": "Welcher Nussknacker? Welcher Nussknacker?",
+    "ipa": [
+     {
+      "w": "Welcher",
+      "ipa": "[ˈvɛlçɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Nussknacker",
+      "ipa": "[ˈnʊsknakɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… N…",
+    "gap": {
+     "text": "Welcher ___?",
+     "answers": [
+      "Nussknacker"
+     ]
+    },
+    "task_ru": "Скажи: Какой щелкунчик?"
+   },
+   {
+    "id": "ch16_d2_05",
+    "role": "O",
+    "de": "Dieser Nussknacker.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Этот щелкунчик.",
+    "nouns": [
+     {
+      "lemma": "Nussknacker",
+      "art": "der",
+      "pl": "Nussknacker"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Dieser Nussknacker",
+       "role": "кого-что"
+      }
+     ],
+     "text": "dieser — «этот», показывает пальцем. Окончание как у der.",
+     "topic": "word_order",
+     "why_de": "Короткий ответ без действия: Dieser Nussknacker (что?).",
+     "why_ru": "По-русски так же коротко: «Этот щелкунчик».",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — считать это готовой формулой. «Этот щелкунчик» — короткий ответ, его слова меняют под ситуацию."
+     },
+     "root": null,
+     "why_voice_ru": "dieser — «этот», показывает пальцем. Окончание как у der."
+    },
+    "audio": "audio_v1/ch16_d2_05.mp3",
+    "tts": "Dieser Nussknacker. Dieser Nussknacker.",
+    "ipa": [
+     {
+      "w": "Dieser",
+      "ipa": "[ˈdiːzɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Nussknacker",
+      "ipa": "[ˈnʊsknakɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "S2 «Dieser Nussknacker»: не подходит к der Nussknacker в роли «кого-что»"
+    },
+    "ipa_src": "all",
+    "hint": "кого-что: D… N…",
+    "gap": {
+     "text": "Dieser ___.",
+     "answers": [
+      "Nussknacker"
+     ]
+    },
+    "task_ru": "Скажи: Этот щелкунчик."
+   },
+   {
+    "id": "ch16_d2_06",
+    "role": "H",
+    "de": "Dieser Nussknacker gefällt mir!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Этот щелкунчик мне нравится!",
+    "nouns": [
+     {
+      "lemma": "Nussknacker",
+      "art": "der",
+      "pl": "Nussknacker"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Dieser Nussknacker",
+       "role": "кто"
+      },
+      {
+       "w": "gefällt",
+       "role": "действие №2"
+      },
+      {
+       "w": "mir",
+       "role": "кому"
+      }
+     ],
+     "text": "Первой стоит вещь, а mir — после gefällt.",
+     "topic": "verb2",
+     "why_de": "Dieser Nussknacker · gefällt · mir: действие gefällt — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Этот щелкунчик мне нравится» — сначала «мне», потом «нравится». По-немецки обычно порядок другой: первой — вещь, которая нравится, потом gefällt, а mir — после него: Dieser Nussknacker gefällt mir! Можно и Mir gefällt …, но gefällt всё равно второе.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Dieser Nussknacker mir gefällt!",
+      "ru": "Действие gefällt уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе gefällt — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Первой стоит вещь, а mir — после gefällt.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «кому»",
+      "items": [
+       {
+        "id": "ch16_018",
+        "de": "Diese Kerze gefällt mir.",
+        "ru": "Эта свеча мне нравится.",
+        "audio": "audio_v1/ch16_018.mp3",
+        "lesson": "L2",
+        "part": 3,
+        "changed": {
+         "role": "кто",
+         "wagon": 1,
+         "from": "Dieser Nussknacker",
+         "to": "Diese Kerze"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: gefällt · mir. В каждом примере меняется один вагон — «кто»: Dieser Nussknacker → Diese Kerze. Действие gefällt всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch16_d2_06.mp3",
+    "tts": "Dieser Nussknacker gefällt mir!",
+    "ipa": [
+     {
+      "w": "Dieser",
+      "ipa": "[ˈdiːzɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Nussknacker",
+      "ipa": "[ˈnʊsknakɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gefällt",
+      "ipa": "[ɡəˈfɛlt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mir",
+      "ipa": "[miːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… N… · действие (вагон №2): g… · кому: m…",
+    "gap": {
+     "text": "Dieser ___ ___ mir!",
+     "answers": [
+      "Nussknacker",
+      "gefällt"
+     ]
+    },
+    "task_ru": "Скажи: Этот щелкунчик мне нравится!"
+   },
+   {
+    "id": "ch16_d2_07",
+    "role": "O",
+    "de": "Und welche Kerze gefällt dir?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А какая свеча тебе нравится?",
+    "nouns": [
+     {
+      "lemma": "Kerze",
+      "art": "die",
+      "pl": "Kerzen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "welche Kerze",
+       "role": "вопрос-слово",
+       "asks": "кто"
+      },
+      {
+       "w": "gefällt",
+       "role": "действие №2"
+      },
+      {
+       "w": "dir",
+       "role": "кому"
+      }
+     ],
+     "text": "Und не занимает вагон. die Kerze → welche Kerze; кому — dir.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово welche Kerze — вагон №1, действие gefällt — сразу за ним, вагон №2: Und welche Kerze gefällt dir? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «А какая свеча тебе нравится» можно сказать и в другом порядке. По-немецки порядок один: welche Kerze · gefällt · dir.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — переставить слова. В «Und welche Kerze gefällt dir?» действие gefällt держит своё место, и его не двигают."
+     },
+     "root": "dir — форма du («тебе»); du и русское «ты» — один древний корень *tū̌ (DWDS, Pfeifer)",
+     "why_voice_ru": "Und не занимает вагон. die Kerze → welche Kerze; кому — dir."
+    },
+    "audio": "audio_v1/ch16_d2_07.mp3",
+    "tts": "Und welche Kerze gefällt dir?",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "welche",
+      "ipa": "[ˈvɛlçə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kerze",
+      "ipa": "[ˈkɛʁt͡sə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gefällt",
+      "ipa": "[ɡəˈfɛlt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "dir",
+      "ipa": "[diːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · вопрос-слово: w… K… · действие (вагон №2): g… · кому: d…",
+    "gap": {
+     "text": "Und welche Kerze ___ ___?",
+     "answers": [
+      "gefällt",
+      "dir"
+     ]
+    },
+    "task_ru": "Скажи: А какая свеча тебе нравится?"
+   },
+   {
+    "id": "ch16_d2_08",
+    "role": "H",
+    "de": "Diese Kerze gefällt mir.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Эта свеча мне нравится.",
+    "nouns": [
+     {
+      "lemma": "Kerze",
+      "art": "die",
+      "pl": "Kerzen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Diese Kerze",
+       "role": "кто"
+      },
+      {
+       "w": "gefällt",
+       "role": "действие №2"
+      },
+      {
+       "w": "mir",
+       "role": "кому"
+      }
+     ],
+     "text": "die Kerze → diese Kerze. Тот же поезд.",
+     "topic": "verb2",
+     "why_de": "Diese Kerze · gefällt · mir: действие gefällt — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Эта свеча мне нравится» — сначала «мне», потом «нравится». По-немецки обычно порядок другой: первой — вещь, которая нравится, потом gefällt, а mir — после него: Diese Kerze gefällt mir. Можно и Mir gefällt …, но gefällt всё равно второе.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Diese Kerze mir gefällt.",
+      "ru": "Действие gefällt уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе gefällt — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "die Kerze → diese Kerze. Тот же поезд.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «кому»",
+      "items": [
+       {
+        "id": "ch16_016",
+        "de": "Dieser Nussknacker gefällt mir.",
+        "ru": "Этот щелкунчик мне нравится.",
+        "audio": "audio_v1/ch16_016.mp3",
+        "lesson": "L2",
+        "part": 3,
+        "changed": {
+         "role": "кто",
+         "wagon": 1,
+         "from": "Diese Kerze",
+         "to": "Dieser Nussknacker"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: gefällt · mir. В каждом примере меняется один вагон — «кто»: Diese Kerze → Dieser Nussknacker. Действие gefällt всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch16_d2_08.mp3",
+    "tts": "Diese Kerze gefällt mir.",
+    "ipa": [
+     {
+      "w": "Diese",
+      "ipa": "[ˈdiːzə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kerze",
+      "ipa": "[ˈkɛʁt͡sə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gefällt",
+      "ipa": "[ɡəˈfɛlt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mir",
+      "ipa": "[miːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… K… · действие (вагон №2): g… · кому: m…",
+    "gap": {
+     "text": "Diese ___ ___ mir.",
+     "answers": [
+      "Kerze",
+      "gefällt"
+     ]
+    },
+    "task_ru": "Скажи: Эта свеча мне нравится."
+   },
+   {
+    "id": "ch16_d2_09",
+    "role": "O",
+    "de": "Der Stern ist schön!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Звезда красивая!",
+    "nouns": [
+     {
+      "lemma": "Stern",
+      "art": "der",
+      "pl": "Sterne"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Der Stern",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "schön",
+       "role": "какой/как"
+      }
+     ],
+     "text": "der Stern, ist — вагон №2, schön — в конце.",
+     "topic": "verb2",
+     "why_de": "Der Stern · ist · schön: действие ist — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Звезда красивая» — без действия «есть». По-немецки без ist фразы нет: Der Stern ist schön!",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Der Stern schön!",
+      "ru": "Русская привычка — без действия, как «Звезда красивая». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "der Stern, ist — вагон №2, schön — в конце."
+    },
+    "audio": "audio_v1/ch16_d2_09.mp3",
+    "tts": "Der Stern ist schön!",
+    "ipa": [
+     {
+      "w": "Der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Stern",
+      "ipa": "[ʃtɛʁn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schön",
+      "ipa": "[ʃøːn]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… S… · действие (вагон №2): i… · какой/как: s…",
+    "gap": {
+     "text": "Der ___ ___ schön!",
+     "answers": [
+      "Stern",
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Звезда красивая!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch16_d3",
+  "title_ru": "Подарки на рождественском рынке",
+  "roles": {
+   "O": "Olga (одногруппница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch16_d3_01",
+    "role": "H",
+    "de": "Oma hat Geburtstag.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "У бабушки день рождения.",
+    "nouns": [
+     {
+      "lemma": "Oma",
+      "art": "die",
+      "pl": "Omas"
+     },
+     {
+      "lemma": "Geburtstag",
+      "art": "der",
+      "pl": "Geburtstage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Oma",
+       "role": "кто"
+      },
+      {
+       "w": "hat",
+       "role": "действие №2"
+      },
+      {
+       "w": "Geburtstag",
+       "role": "кого-что"
+      }
+     ],
+     "text": "hat — вагон №2. Дословно «бабушка имеет день рождения».",
+     "topic": "verb2",
+     "why_de": "Oma · hat · Geburtstag: действие hat — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «У бабушки день рождения» — без действия. По-немецки без hat фразы нет: Oma hat Geburtstag.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Oma Geburtstag.",
+      "ru": "Русская привычка — без действия, как «У бабушки день рождения». Без hat немец слышит обрывок, а не фразу."
+     },
+     "root": null,
+     "why_voice_ru": "hat — вагон №2. Дословно «бабушка имеет день рождения»."
+    },
+    "audio": "audio_v1/ch16_d3_01.mp3",
+    "tts": "Oma hat Geburtstag.",
+    "ipa": [
+     {
+      "w": "Oma",
+      "ipa": "[ˈoːma]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hat",
+      "ipa": "[hat]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Geburtstag",
+      "ipa": "[ɡəˈbuːɐ̯t͡sˌtaːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: O… · действие (вагон №2): h… · кого-что: G…",
+    "gap": {
+     "text": "Oma ___ ___.",
+     "answers": [
+      "hat",
+      "Geburtstag"
+     ]
+    },
+    "task_ru": "Скажи: У бабушки день рождения."
+   },
+   {
+    "id": "ch16_d3_02",
+    "role": "O",
+    "de": "Hast du schon ein Geschenk?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "У тебя уже есть подарок?",
+    "nouns": [
+     {
+      "lemma": "Geschenk",
+      "art": "das",
+      "pl": "Geschenke"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hast",
+       "role": "действие №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "schon",
+       "role": "когда"
+      },
+      {
+       "w": "ein Geschenk",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Вопрос «да/нет»: hast впереди. schon — «уже».",
+     "topic": "questions",
+     "why_de": "Действие впереди (Hast) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Hast du schon ein Geschenk?",
+     "why_ru": "По-русски «У тебя уже есть подарок» — вопрос только голосом, порядок как в ответе. По-немецки действие Hast выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Du hast schon ein Geschenk?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («У тебя уже есть подарок?!»). Обычный вопрос — действие впереди."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос «да/нет»: hast впереди. schon — «уже»."
+    },
+    "audio": "audio_v1/ch16_d3_02.mp3",
+    "tts": "Hast du schon ein Geschenk?",
+    "ipa": [
+     {
+      "w": "Hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schon",
+      "ipa": "[ʃoːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ein",
+      "ipa": "[aɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Geschenk",
+      "ipa": "[ɡəˈʃɛŋk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): H… · кто: d… · когда: s… · кого-что: e… G…",
+    "gap": {
+     "text": "___ du schon ein ___?",
+     "answers": [
+      "Hast",
+      "Geschenk"
+     ]
+    },
+    "task_ru": "Скажи: У тебя уже есть подарок?"
+   },
+   {
+    "id": "ch16_d3_03",
+    "role": "H",
+    "de": "Nein. Ich kaufe diesen Stern für Oma.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Нет. Я покупаю эту звезду для бабушки.",
+    "nouns": [
+     {
+      "lemma": "Oma",
+      "art": "die",
+      "pl": "Omas"
+     },
+     {
+      "lemma": "Stern",
+      "art": "der",
+      "pl": "Sterne"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Nein",
+       "role": "да/нет"
+      },
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "kaufe",
+       "role": "действие №2"
+      },
+      {
+       "w": "diesen Stern",
+       "role": "кого-что"
+      },
+      {
+       "w": "für Oma",
+       "role": "кому"
+      }
+     ],
+     "text": "Nein не занимает вагон. der Stern → diesen Stern, потому что это то, что покупают. Кому — после für.",
+     "topic": "verb2",
+     "why_de": "Ich · kaufe · diesen Stern · für Oma: действие kaufe — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я покупаю эту звезду для бабушки» — Ich kaufe diesen Stern für Oma. Разница одна: по-немецки kaufe держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Nein. Ich diesen Stern für Oma kaufe.",
+      "ru": "Действие kaufe уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе kaufe — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Nein не занимает вагон. der Stern → diesen Stern, потому что это то, что покупают. Кому — после für."
+    },
+    "audio": "audio_v1/ch16_d3_03.mp3",
+    "tts": "Nein. Ich kaufe diesen Stern für Oma.",
+    "ipa": [
+     {
+      "w": "Nein",
+      "ipa": "[naɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kaufe",
+      "ipa": "[ˈkaʊ̯fə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "diesen",
+      "ipa": "[ˈdiːzn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Stern",
+      "ipa": "[ʃtɛʁn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "für",
+      "ipa": "[fyːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Oma",
+      "ipa": "[ˈoːma]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: N… · кто: I… · действие (вагон №2): k… · кого-что: d… S… · кому: f… O…",
+    "gap": {
+     "text": "Nein. Ich ___ diesen ___ für Oma.",
+     "answers": [
+      "kaufe",
+      "Stern"
+     ]
+    },
+    "task_ru": "Скажи: Нет. Я покупаю эту звезду для бабушки."
+   },
+   {
+    "id": "ch16_d3_04",
+    "role": "O",
+    "de": "Und für wen ist die Kerze?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А для кого эта свеча?",
+    "nouns": [
+     {
+      "lemma": "Kerze",
+      "art": "die",
+      "pl": "Kerzen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "für wen",
+       "role": "кому"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "die Kerze",
+       "role": "кто"
+      }
+     ],
+     "text": "Und не занимает вагон. Вопрос про того, для кого, начинается с für wen.",
+     "topic": "questions",
+     "why_de": "Вагон №1 занят: für wen. Действие ist всё равно в вагоне №2, а «кто» (die Kerze) — за ним: Und für wen ist die Kerze?",
+     "why_ru": "По-русски «А для кого эта свеча» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, ist — вагон №2.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Und für wen die Kerze ist?",
+      "ru": "Русский порядок: «кто» (die Kerze) перед действием, и ist уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Und не занимает вагон. Вопрос про того, для кого, начинается с für wen."
+    },
+    "audio": "audio_v1/ch16_d3_04.mp3",
+    "tts": "Und für wen ist die Kerze?",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "für",
+      "ipa": "[fyːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wen",
+      "ipa": "[veːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kerze",
+      "ipa": "[ˈkɛʁt͡sə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · кому: f… w… · действие (вагон №2): i… · кто: d… K…",
+    "gap": {
+     "text": "Und für wen ___ die ___?",
+     "answers": [
+      "ist",
+      "Kerze"
+     ]
+    },
+    "task_ru": "Скажи: А для кого эта свеча?"
+   },
+   {
+    "id": "ch16_d3_05",
+    "role": "H",
+    "de": "Die Kerze ist für mich.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Свеча для меня.",
+    "nouns": [
+     {
+      "lemma": "Kerze",
+      "art": "die",
+      "pl": "Kerzen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Die Kerze",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "für mich",
+       "role": "кому"
+      }
+     ],
+     "text": "После für: ich → mich.",
+     "topic": "verb2",
+     "why_de": "Die Kerze · ist · für mich: действие ist — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Свеча для меня» — без действия «есть». По-немецки без ist фразы нет: Die Kerze ist für mich.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Die Kerze für mich.",
+      "ru": "Русская привычка — без действия, как «Свеча для меня». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "После für: ich → mich."
+    },
+    "audio": "audio_v1/ch16_d3_05.mp3",
+    "tts": "Die Kerze ist für mich.",
+    "ipa": [
+     {
+      "w": "Die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kerze",
+      "ipa": "[ˈkɛʁt͡sə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "für",
+      "ipa": "[fyːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mich",
+      "ipa": "[mɪç]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… K… · действие (вагон №2): i… · кому: f… m…",
+    "gap": {
+     "text": "Die ___ ___ für mich.",
+     "answers": [
+      "Kerze",
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Свеча для меня."
+   },
+   {
+    "id": "ch16_d3_06",
+    "role": "O",
+    "de": "Und dieser Nussknacker?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А этот щелкунчик?",
+    "nouns": [
+     {
+      "lemma": "Nussknacker",
+      "art": "der",
+      "pl": "Nussknacker"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "Dieser Nussknacker",
+       "role": "кто"
+      }
+     ],
+     "text": "Короткий вопрос: dieser Nussknacker — показываем пальцем.",
+     "topic": "questions",
+     "why_de": "Короткий вопрос без действия: Und («а/и») · Dieser Nussknacker (кто?). Действие уже сказали в прошлой реплике, его не повторяют.",
+     "why_ru": "По-русски так же коротко: «А этот щелкунчик?». Слово Und — просто «а», оно не занимает место в порядке слов.",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — считать это готовой формулой. «А этот щелкунчик» — короткий вопрос, его слова меняют под ситуацию."
+     },
+     "root": null,
+     "why_voice_ru": "Короткий вопрос: dieser Nussknacker — показываем пальцем."
+    },
+    "audio": "audio_v1/ch16_d3_06.mp3",
+    "tts": "Und dieser Nussknacker?",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "dieser",
+      "ipa": "[ˈdiːzɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Nussknacker",
+      "ipa": "[ˈnʊsknakɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · кто: D… N…",
+    "gap": {
+     "text": "Und dieser ___?",
+     "answers": [
+      "Nussknacker"
+     ]
+    },
+    "task_ru": "Скажи: А этот щелкунчик?"
+   },
+   {
+    "id": "ch16_d3_07",
+    "role": "H",
+    "de": "Dieser Nussknacker ist für dich!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Этот щелкунчик для тебя!",
+    "nouns": [
+     {
+      "lemma": "Nussknacker",
+      "art": "der",
+      "pl": "Nussknacker"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Dieser Nussknacker",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "für dich",
+       "role": "кому"
+      }
+     ],
+     "text": "После für: du → dich.",
+     "topic": "verb2",
+     "why_de": "Dieser Nussknacker · ist · für dich: действие ist — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Этот щелкунчик для тебя» — без действия «есть». По-немецки без ist фразы нет: Dieser Nussknacker ist für dich!",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Dieser Nussknacker für dich!",
+      "ru": "Русская привычка — без действия, как «Этот щелкунчик для тебя». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "После für: du → dich."
+    },
+    "audio": "audio_v1/ch16_d3_07.mp3",
+    "tts": "Dieser Nussknacker ist für dich!",
+    "ipa": [
+     {
+      "w": "Dieser",
+      "ipa": "[ˈdiːzɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Nussknacker",
+      "ipa": "[ˈnʊsknakɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "für",
+      "ipa": "[fyːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "dich",
+      "ipa": "[dɪç]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… N… · действие (вагон №2): i… · кому: f… d…",
+    "gap": {
+     "text": "Dieser ___ ___ für dich!",
+     "answers": [
+      "Nussknacker",
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Этот щелкунчик для тебя!"
+   },
+   {
+    "id": "ch16_d3_08",
+    "role": "O",
+    "de": "Für mich? Danke!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Для меня? Спасибо!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Für mich",
+       "role": "кому"
+      },
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Для меня — für mich. Danke не занимает вагон.",
+     "topic": "word_order",
+     "why_de": "Danke — готовая формула, дальше кусок по словам: Für mich (кому?).",
+     "why_ru": "По-русски так же коротко: «Для меня? Спасибо».",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — заучить всю фразу одним куском. Готовая формула тут только Danke, остальное — слова под ситуацию."
+     },
+     "root": null,
+     "why_voice_ru": "Для меня — für mich. Danke не занимает вагон."
+    },
+    "audio": "audio_v1/ch16_d3_08.mp3",
+    "tts": "Für mich? Danke!",
+    "ipa": [
+     {
+      "w": "Für",
+      "ipa": "[fyːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mich",
+      "ipa": "[mɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кому: F… m… · привет/вежливость: D…",
+    "gap": {
+     "text": "Für ___? Danke!",
+     "answers": [
+      "mich"
+     ]
+    },
+    "task_ru": "Скажи: Для меня? Спасибо!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch16_d4",
+  "title_ru": "У доски объявлений на рынке",
+  "roles": {
+   "O": "Olga (одногруппница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch16_d4_01",
+    "role": "O",
+    "de": "Hast du etwas gefunden?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ты что-нибудь нашёл?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hast",
+       "role": "помощник №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "etwas",
+       "role": "кого-что"
+      },
+      {
+       "w": "gefunden",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет» в прошлом: помощник hast впереди, gefunden — в конце.",
+     "topic": "perfekt",
+     "why_de": "Вопрос «да/нет» о прошлом: помощник Hast встаёт впереди, а что именно случилось, — в самый конец: Hast du etwas gefunden?",
+     "why_ru": "По-русски «Ты что-нибудь нашёл» — вопрос голосом, прошлое одним словом; по-немецки помощник впереди, а форма прошедшего — в самом конце: Hast du etwas gefunden?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Hast gefunden du etwas?",
+      "ru": "По-русски «Ты что-нибудь нашёл» — одно слово по порядку. По-немецки Hast … gefunden разнесены: gefunden — в самый конец."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос «да/нет» в прошлом: помощник hast впереди, gefunden — в конце."
+    },
+    "audio": "audio_v1/ch16_d4_01.mp3",
+    "tts": "Hast du etwas gefunden?",
+    "ipa": [
+     {
+      "w": "Hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "etwas",
+      "ipa": "[ˈɛtvas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gefunden",
+      "ipa": "[ɡəˈfʊndn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "помощник (вагон №1): H… · кто: d… · кого-что: e… · хвост действия: g…",
+    "gap": {
+     "text": "Hast du ___ gefunden?",
+     "answers": [
+      "etwas"
+     ]
+    },
+    "task_ru": "Скажи: Ты что-нибудь нашёл?"
+   },
+   {
+    "id": "ch16_d4_02",
+    "role": "H",
+    "de": "Ich habe nichts gefunden.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я ничего не нашёл.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "nichts",
+       "role": "кого-что"
+      },
+      {
+       "w": "gefunden",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "nichts — «ничего»: «не» в нём уже есть. habe — вагон №2, gefunden — в конце.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ich habe nichts gefunden.",
+     "why_ru": "По-русски «Я ничего не нашёл» — прошлое одним словом; по-немецки два слова, и они разнесены: Ich habe nichts gefunden.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Ich habe gefunden nichts.",
+      "ru": "По-русски «Я ничего не нашёл» — одно слово по порядку. По-немецки habe … gefunden разнесены: gefunden — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "nichts — «ничего»: «не» в нём уже есть. habe — вагон №2, gefunden — в конце.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «что» · хвост действия",
+      "items": [
+       {
+        "id": "ch16_034",
+        "de": "Ich habe etwas gefunden.",
+        "ru": "Я кое-что нашёл.",
+        "audio": "audio_v1/ch16_034.mp3",
+        "lesson": "L4",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "nichts",
+         "to": "etwas"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Ich · habe · gefunden. В каждом примере меняется один вагон — «что»: nichts → etwas. Действие habe всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch16_d4_02.mp3",
+    "tts": "Ich habe nichts gefunden.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "nichts",
+      "ipa": "[nɪçt͡s]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gefunden",
+      "ipa": "[ɡəˈfʊndn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · помощник (вагон №2): h… · кого-что: n… · хвост действия: g…",
+    "gap": {
+     "text": "Ich ___ ___ gefunden.",
+     "answers": [
+      "habe",
+      "nichts"
+     ]
+    },
+    "task_ru": "Скажи: Я ничего не нашёл."
+   },
+   {
+    "id": "ch16_d4_03",
+    "role": "O",
+    "de": "Hier gibt es etwas für dich!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Здесь есть кое-что для тебя!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hier",
+       "role": "где"
+      },
+      {
+       "w": "gibt",
+       "role": "действие №2"
+      },
+      {
+       "w": "es",
+       "role": "кто"
+      },
+      {
+       "w": "etwas",
+       "role": "кого-что"
+      },
+      {
+       "w": "für dich",
+       "role": "кому"
+      }
+     ],
+     "text": "Тот же поезд: hier · gibt · es. etwas — «что-то». После für: du → dich.",
+     "topic": "verb2",
+     "why_de": "Вагон №1 занят: Hier. Действие gibt всё равно в вагоне №2, а «кто» (es) — за ним: Hier gibt es etwas für dich!",
+     "why_ru": "По-русски «Здесь есть кое-что для тебя» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, gibt — вагон №2.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Hier es gibt etwas für dich!",
+      "ru": "Русский порядок: «кто» (es) перед действием, и gibt уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+     },
+     "root": null,
+     "why_voice_ru": "Тот же поезд: hier · gibt · es. etwas — «что-то». После für: du → dich."
+    },
+    "audio": "audio_v1/ch16_d4_03.mp3",
+    "tts": "Hier gibt es etwas für dich!",
+    "ipa": [
+     {
+      "w": "Hier",
+      "ipa": "[hiːɐ̯]",
+      "src": "override"
+     },
+     {
+      "w": "gibt",
+      "ipa": "[ɡiːpt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "es",
+      "ipa": "[ɛs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "etwas",
+      "ipa": "[ˈɛtvas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "für",
+      "ipa": "[fyːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "dich",
+      "ipa": "[dɪç]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "где: H… · действие (вагон №2): g… · кто: e… · кого-что: e… · кому: f… d…",
+    "gap": {
+     "text": "Hier ___ es ___ für dich!",
+     "answers": [
+      "gibt",
+      "etwas"
+     ]
+    },
+    "task_ru": "Скажи: Здесь есть кое-что для тебя!"
+   },
+   {
+    "id": "ch16_d4_04",
+    "role": "H",
+    "de": "Ich habe etwas gefunden.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я кое-что нашёл.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "etwas",
+       "role": "кого-что"
+      },
+      {
+       "w": "gefunden",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "etwas — «что-то» на месте «что»; gefunden — что сделано — в конце.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ich habe etwas gefunden.",
+     "why_ru": "По-русски «Я кое-что нашёл» — прошлое одним словом; по-немецки два слова, и они разнесены: Ich habe etwas gefunden.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Ich habe gefunden etwas.",
+      "ru": "По-русски «Я кое-что нашёл» — одно слово по порядку. По-немецки habe … gefunden разнесены: gefunden — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "etwas — «что-то» на месте «что»; gefunden — что сделано — в конце.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «что» · хвост действия",
+      "items": [
+       {
+        "id": "ch16_035",
+        "de": "Ich habe nichts gefunden.",
+        "ru": "Я ничего не нашёл.",
+        "audio": "audio_v1/ch16_035.mp3",
+        "lesson": "L4",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "etwas",
+         "to": "nichts"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Ich · habe · gefunden. В каждом примере меняется один вагон — «что»: etwas → nichts. Действие habe всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch16_d4_04.mp3",
+    "tts": "Ich habe etwas gefunden.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "etwas",
+      "ipa": "[ˈɛtvas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gefunden",
+      "ipa": "[ɡəˈfʊndn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · помощник (вагон №2): h… · кого-что: e… · хвост действия: g…",
+    "gap": {
+     "text": "Ich ___ ___ gefunden.",
+     "answers": [
+      "habe",
+      "etwas"
+     ]
+    },
+    "task_ru": "Скажи: Я кое-что нашёл."
+   },
+   {
+    "id": "ch16_d4_05",
+    "role": "O",
+    "de": "Hast du alles gelesen?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ты всё прочитал?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hast",
+       "role": "помощник №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "alles",
+       "role": "кого-что"
+      },
+      {
+       "w": "gelesen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет» в прошлом: hast впереди, gelesen — в конце. alles — «всё».",
+     "topic": "perfekt",
+     "why_de": "Вопрос «да/нет» о прошлом: помощник Hast встаёт впереди, а что именно случилось, — в самый конец: Hast du alles gelesen?",
+     "why_ru": "По-русски «Ты всё прочитал» — вопрос голосом, прошлое одним словом; по-немецки помощник впереди, а форма прошедшего — в самом конце: Hast du alles gelesen?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Hast gelesen du alles?",
+      "ru": "По-русски «Ты всё прочитал» — одно слово по порядку. По-немецки Hast … gelesen разнесены: gelesen — в самый конец."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос «да/нет» в прошлом: hast впереди, gelesen — в конце. alles — «всё»."
+    },
+    "audio": "audio_v1/ch16_d4_05.mp3",
+    "tts": "Hast du alles gelesen?",
+    "ipa": [
+     {
+      "w": "Hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "alles",
+      "ipa": "[ˈaləs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gelesen",
+      "ipa": "[ɡəˈleːzn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "помощник (вагон №1): H… · кто: d… · кого-что: a… · хвост действия: g…",
+    "gap": {
+     "text": "Hast du ___ gelesen?",
+     "answers": [
+      "alles"
+     ]
+    },
+    "task_ru": "Скажи: Ты всё прочитал?"
+   },
+   {
+    "id": "ch16_d4_06",
+    "role": "H",
+    "de": "Ich habe alles gelesen.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я всё прочитал.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "alles",
+       "role": "кого-что"
+      },
+      {
+       "w": "gelesen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "alles — «всё»: одно слово на месте «что». gelesen — в конце.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ich habe alles gelesen.",
+     "why_ru": "По-русски «Я всё прочитал» — прошлое одним словом; по-немецки два слова, и они разнесены: Ich habe alles gelesen.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Ich habe gelesen alles.",
+      "ru": "По-русски «Я всё прочитал» — одно слово по порядку. По-немецки habe … gelesen разнесены: gelesen — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "alles — «всё»: одно слово на месте «что». gelesen — в конце."
+    },
+    "audio": "audio_v1/ch16_d4_06.mp3",
+    "tts": "Ich habe alles gelesen.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "alles",
+      "ipa": "[ˈaləs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gelesen",
+      "ipa": "[ɡəˈleːzn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · помощник (вагон №2): h… · кого-что: a… · хвост действия: g…",
+    "gap": {
+     "text": "Ich ___ ___ gelesen.",
+     "answers": [
+      "habe",
+      "alles"
+     ]
+    },
+    "task_ru": "Скажи: Я всё прочитал."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch16_d5",
+  "title_ru": "На рынке: праздники и хорошее решение на год",
+  "roles": {
+   "O": "Olga (одногруппница)",
+   "H": "{hero_name} (герой)",
+   "M": "Max (одногруппник)"
+  },
+  "lines": [
+   {
+    "id": "ch16_d5_01",
+    "role": "H",
+    "de": "Was feiert ihr im Dezember?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Что вы празднуете в декабре?",
+    "nouns": [
+     {
+      "lemma": "Dezember",
+      "art": "der",
+      "pl": "Dezember"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "feiert",
+       "role": "действие №2"
+      },
+      {
+       "w": "ihr",
+       "role": "кто"
+      },
+      {
+       "w": "im Dezember",
+       "role": "когда"
+      }
+     ],
+     "text": "was — «что»: слово-вопрос впереди, действие feiert — сразу за ним. С ihr у действия хвост -t.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Was — вагон №1, действие feiert — сразу за ним, вагон №2: Was feiert ihr im Dezember? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Что вы празднуете в декабре» можно сказать и в другом порядке. По-немецки порядок один: Was · feiert · ihr · im Dezember.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Was ihr feiert im Dezember?",
+      "ru": "ihr встал перед feiert — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "was — «что»: слово-вопрос впереди, действие feiert — сразу за ним. С ihr у действия хвост -t."
+    },
+    "audio": "audio_v1/ch16_d5_01.mp3",
+    "tts": "Was feiert ihr im Dezember?",
+    "ipa": [
+     {
+      "w": "Was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "feiert",
+      "ipa": "[ˈfaɪ̯ɐt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ihr",
+      "ipa": "[iːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "im",
+      "ipa": "[ɪm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Dezember",
+      "ipa": "[deˈt͡sɛmbɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): f… · кто: i… · когда: i… D…",
+    "gap": {
+     "text": "Was ___ ihr im ___?",
+     "answers": [
+      "feiert",
+      "Dezember"
+     ]
+    },
+    "task_ru": "Скажи: Что вы празднуете в декабре?"
+   },
+   {
+    "id": "ch16_d5_02",
+    "role": "O",
+    "de": "Im Dezember feiern wir Weihnachten.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "В декабре мы празднуем Рождество.",
+    "nouns": [
+     {
+      "lemma": "Dezember",
+      "art": "der",
+      "pl": "Dezember"
+     },
+     {
+      "lemma": "Weihnachten",
+      "art": "das",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Im Dezember",
+       "role": "когда"
+      },
+      {
+       "w": "feiern",
+       "role": "действие №2"
+      },
+      {
+       "w": "wir",
+       "role": "кто"
+      },
+      {
+       "w": "Weihnachten",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Впереди время — im Dezember, а действие всё равно вагон №2: feiern, потом wir.",
+     "topic": "verb2",
+     "why_de": "Вагон №1 занят: Im Dezember. Действие feiern всё равно в вагоне №2, а «кто» (wir) — за ним: Im Dezember feiern wir Weihnachten.",
+     "why_ru": "По-русски «В декабре мы празднуем Рождество» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, feiern — вагон №2.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Im Dezember wir feiern Weihnachten.",
+      "ru": "Русский порядок: «кто» (wir) перед действием, и feiern уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+     },
+     "root": null,
+     "why_voice_ru": "Впереди время — im Dezember, а действие всё равно вагон №2: feiern, потом wir."
+    },
+    "audio": "audio_v1/ch16_d5_02.mp3",
+    "tts": "Im Dezember feiern wir Weihnachten.",
+    "ipa": [
+     {
+      "w": "Im",
+      "ipa": "[ɪm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Dezember",
+      "ipa": "[deˈt͡sɛmbɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "feiern",
+      "ipa": "[ˈfaɪ̯ɐn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wir",
+      "ipa": "[viːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Weihnachten",
+      "ipa": "[ˈvaɪ̯naxtn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "мн.ч. '' Weihnachten ≠ {'Weihnachten'}",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "когда: I… D… · действие (вагон №2): f… · кто: w… · кого-что: W…",
+    "gap": {
+     "text": "Im Dezember ___ wir ___.",
+     "answers": [
+      "feiern",
+      "Weihnachten"
+     ]
+    },
+    "task_ru": "Скажи: В декабре мы празднуем Рождество."
+   },
+   {
+    "id": "ch16_d5_03",
+    "role": "M",
+    "de": "Wir feiern Weihnachten.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Мы празднуем Рождество.",
+    "nouns": [
+     {
+      "lemma": "Weihnachten",
+      "art": "das",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wir",
+       "role": "кто"
+      },
+      {
+       "w": "feiern",
+       "role": "действие №2"
+      },
+      {
+       "w": "Weihnachten",
+       "role": "кого-что"
+      }
+     ],
+     "text": "С wir у feiern хвост -n: wir feiern.",
+     "topic": "verb2",
+     "why_de": "Wir · feiern · Weihnachten: действие feiern — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Мы празднуем Рождество» — Wir feiern Weihnachten. Разница одна: по-немецки feiern держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Wir Weihnachten feiern.",
+      "ru": "Действие feiern уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе feiern — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "С wir у feiern хвост -n: wir feiern."
+    },
+    "audio": "audio_v1/ch16_d5_03.mp3",
+    "tts": "Wir feiern Weihnachten.",
+    "ipa": [
+     {
+      "w": "Wir",
+      "ipa": "[viːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "feiern",
+      "ipa": "[ˈfaɪ̯ɐn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Weihnachten",
+      "ipa": "[ˈvaɪ̯naxtn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "мн.ч. '' Weihnachten ≠ {'Weihnachten'}",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: W… · действие (вагон №2): f… · кого-что: W…",
+    "gap": {
+     "text": "Wir ___ ___.",
+     "answers": [
+      "feiern",
+      "Weihnachten"
+     ]
+    },
+    "task_ru": "Скажи: Мы празднуем Рождество."
+   },
+   {
+    "id": "ch16_d5_04",
+    "role": "H",
+    "de": "Und was habt ihr im April gefeiert?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А что вы праздновали в апреле?",
+    "nouns": [
+     {
+      "lemma": "April",
+      "art": "der",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "habt",
+       "role": "помощник №2"
+      },
+      {
+       "w": "ihr",
+       "role": "кто"
+      },
+      {
+       "w": "im April",
+       "role": "когда"
+      },
+      {
+       "w": "gefeiert",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Прошлое: с ihr помощник habt — вагон №2, gefeiert — в конце. Und не занимает вагон.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Und was habt ihr im April gefeiert?",
+     "why_ru": "По-русски «А что вы праздновали в апреле» — прошлое одним словом; по-немецки два слова, и они разнесены: Und was habt ihr im April gefeiert?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Und was habt gefeiert ihr im April?",
+      "ru": "По-русски «А что вы праздновали в апреле» — одно слово по порядку. По-немецки habt … gefeiert разнесены: gefeiert — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "Прошлое: с ihr помощник habt — вагон №2, gefeiert — в конце. Und не занимает вагон."
+    },
+    "audio": "audio_v1/ch16_d5_04.mp3",
+    "tts": "Und was habt ihr im April gefeiert?",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habt",
+      "ipa": "[haːpt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ihr",
+      "ipa": "[iːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "im",
+      "ipa": "[ɪm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "April",
+      "ipa": "[aˈpʁɪl]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gefeiert",
+      "ipa": "[ɡəˈfaɪ̯ɐt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "мн.ч. '' April ≠ {'Aprile'}",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · вопрос-слово: w… · помощник (вагон №2): h… · кто: i… · когда: i… A… · хвост действия: g…",
+    "gap": {
+     "text": "Und was ___ ihr im ___ gefeiert?",
+     "answers": [
+      "habt",
+      "April"
+     ]
+    },
+    "task_ru": "Скажи: А что вы праздновали в апреле?"
+   },
+   {
+    "id": "ch16_d5_05",
+    "role": "O",
+    "de": "Wir haben Ostern gefeiert.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Мы праздновали Пасху.",
+    "nouns": [
+     {
+      "lemma": "Ostern",
+      "art": "das",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wir",
+       "role": "кто"
+      },
+      {
+       "w": "haben",
+       "role": "помощник №2"
+      },
+      {
+       "w": "Ostern",
+       "role": "кого-что"
+      },
+      {
+       "w": "gefeiert",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Прошлое: с wir помощник haben, gefeiert — в конце.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Wir haben Ostern gefeiert.",
+     "why_ru": "По-русски «Мы праздновали Пасху» — прошлое одним словом; по-немецки два слова, и они разнесены: Wir haben Ostern gefeiert.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Wir haben gefeiert Ostern.",
+      "ru": "По-русски «Мы праздновали Пасху» — одно слово по порядку. По-немецки haben … gefeiert разнесены: gefeiert — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "Прошлое: с wir помощник haben, gefeiert — в конце."
+    },
+    "audio": "audio_v1/ch16_d5_05.mp3",
+    "tts": "Wir haben Ostern gefeiert.",
+    "ipa": [
+     {
+      "w": "Wir",
+      "ipa": "[viːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "haben",
+      "ipa": "[ˈhaːbn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ostern",
+      "ipa": "[ˈoːstɐn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gefeiert",
+      "ipa": "[ɡəˈfaɪ̯ɐt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "мн.ч. '' Ostern ≠ {'Ostern'}",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: W… · помощник (вагон №2): h… · кого-что: O… · хвост действия: g…",
+    "gap": {
+     "text": "Wir ___ ___ gefeiert.",
+     "answers": [
+      "haben",
+      "Ostern"
+     ]
+    },
+    "task_ru": "Скажи: Мы праздновали Пасху."
+   },
+   {
+    "id": "ch16_d5_06",
+    "role": "M",
+    "de": "Was ist dein Vorsatz?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Какое у тебя решение?",
+    "nouns": [
+     {
+      "lemma": "Vorsatz",
+      "art": "der",
+      "pl": "Vorsätze"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "dein Vorsatz",
+       "role": "кто"
+      }
+     ],
+     "text": "was — слово-вопрос впереди, ist — вагон №2, потом «кто» — dein Vorsatz, твоё решение.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Was — вагон №1, действие ist — сразу за ним, вагон №2: Was ist dein Vorsatz? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Какое у тебя решение» можно сказать и в другом порядке. По-немецки порядок один: Was · ist · dein Vorsatz. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Was dein Vorsatz ist?",
+      "ru": "dein Vorsatz встал перед ist — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "was — слово-вопрос впереди, ist — вагон №2, потом «кто» — dein Vorsatz, твоё решение."
+    },
+    "audio": "audio_v1/ch16_d5_06.mp3",
+    "tts": "Was ist dein Vorsatz?",
+    "ipa": [
+     {
+      "w": "Was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "dein",
+      "ipa": "[daɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Vorsatz",
+      "ipa": "[ˈfoːɐ̯ˌzat͡s]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): i… · кто: d… V…",
+    "gap": {
+     "text": "Was ___ dein ___?",
+     "answers": [
+      "ist",
+      "Vorsatz"
+     ]
+    },
+    "task_ru": "Скажи: Какое у тебя решение?"
+   },
+   {
+    "id": "ch16_d5_07",
+    "role": "H",
+    "de": "Ich lerne jeden Tag Deutsch.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я учу немецкий ежедневно.",
+    "nouns": [
+     {
+      "lemma": "Tag",
+      "art": "der",
+      "pl": "Tage"
+     },
+     {
+      "lemma": "Deutsch",
+      "art": "das",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "lerne",
+       "role": "действие №2"
+      },
+      {
+       "w": "jeden Tag",
+       "role": "когда"
+      },
+      {
+       "w": "Deutsch",
+       "role": "кого-что"
+      }
+     ],
+     "text": "jeden Tag — «ежедневно», ответ на «когда». Действие lerne — вагон №2.",
+     "topic": "verb2",
+     "why_de": "Ich · lerne · jeden Tag · Deutsch: действие lerne — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я учу немецкий ежедневно» — Ich lerne jeden Tag Deutsch. Разница одна: по-немецки lerne держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich jeden Tag Deutsch lerne.",
+      "ru": "Действие lerne уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе lerne — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "jeden Tag — «ежедневно», ответ на «когда». Действие lerne — вагон №2."
+    },
+    "audio": "audio_v1/ch16_d5_07.mp3",
+    "tts": "Ich lerne jeden Tag Deutsch.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "lerne",
+      "ipa": "[ˈlɛʁnə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "jeden",
+      "ipa": "[ˈjeːdn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tag",
+      "ipa": "[taːk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Deutsch",
+      "ipa": "[dɔɪ̯t͡ʃ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): l… · когда: j… T… · кого-что: D…",
+    "gap": {
+     "text": "Ich ___ jeden Tag ___.",
+     "answers": [
+      "lerne",
+      "Deutsch"
+     ]
+    },
+    "task_ru": "Скажи: Я учу немецкий ежедневно."
+   },
+   {
+    "id": "ch16_d5_08",
+    "role": "O",
+    "de": "Ich esse jeden Tag Obst.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я ем фрукты ежедневно.",
+    "nouns": [
+     {
+      "lemma": "Tag",
+      "art": "der",
+      "pl": "Tage"
+     },
+     {
+      "lemma": "Obst",
+      "art": "das",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "esse",
+       "role": "действие №2"
+      },
+      {
+       "w": "jeden Tag",
+       "role": "когда"
+      },
+      {
+       "w": "Obst",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Тот же поезд: ich · esse · когда · что.",
+     "topic": "verb2",
+     "why_de": "Ich · esse · jeden Tag · Obst: действие esse — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я ем фрукты ежедневно» — Ich esse jeden Tag Obst. Разница одна: по-немецки esse держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich jeden Tag Obst esse.",
+      "ru": "Действие esse уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе esse — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Тот же поезд: ich · esse · когда · что."
+    },
+    "audio": "audio_v1/ch16_d5_08.mp3",
+    "tts": "Ich esse jeden Tag Obst.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "esse",
+      "ipa": "[ˈɛsə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "jeden",
+      "ipa": "[ˈjeːdn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tag",
+      "ipa": "[taːk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Obst",
+      "ipa": "[oːpst]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): e… · когда: j… T… · кого-что: O…",
+    "gap": {
+     "text": "Ich ___ jeden Tag ___.",
+     "answers": [
+      "esse",
+      "Obst"
+     ]
+    },
+    "task_ru": "Скажи: Я ем фрукты ежедневно."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch16_d6",
+  "title_ru": "Проверка главы: фильм, субтитры и немецкий",
+  "roles": {
+   "O": "Olga (одногруппница)",
+   "H": "{hero_name} (герой)",
+   "M": "Max (одногруппник)"
+  },
+  "lines": [
+   {
+    "id": "ch16_d6_01",
+    "role": "O",
+    "de": "Hast du einen Film gesehen?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ты видел фильм?",
+    "nouns": [
+     {
+      "lemma": "Film",
+      "art": "der",
+      "pl": "Filme"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hast",
+       "role": "помощник №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "einen Film",
+       "role": "кого-что"
+      },
+      {
+       "w": "gesehen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет» в прошлом: помощник hast впереди, gesehen — в конце.",
+     "topic": "perfekt",
+     "why_de": "Вопрос «да/нет» о прошлом: помощник Hast встаёт впереди, а что именно случилось, — в самый конец: Hast du einen Film gesehen?",
+     "why_ru": "По-русски «Ты видел фильм» — вопрос голосом, прошлое одним словом; по-немецки помощник впереди, а форма прошедшего — в самом конце: Hast du einen Film gesehen?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Hast gesehen du einen Film?",
+      "ru": "По-русски «Ты видел фильм» — одно слово по порядку. По-немецки Hast … gesehen разнесены: gesehen — в самый конец."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос «да/нет» в прошлом: помощник hast впереди, gesehen — в конце."
+    },
+    "audio": "audio_v1/ch16_d6_01.mp3",
+    "tts": "Hast du einen Film gesehen?",
+    "ipa": [
+     {
+      "w": "Hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "einen",
+      "ipa": "[ˈaɪ̯nən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Film",
+      "ipa": "[fɪlm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gesehen",
+      "ipa": "[ɡəˈzeːən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "помощник (вагон №1): H… · кто: d… · кого-что: e… F… · хвост действия: g…",
+    "gap": {
+     "text": "Hast du einen ___ gesehen?",
+     "answers": [
+      "Film"
+     ]
+    },
+    "task_ru": "Скажи: Ты видел фильм?"
+   },
+   {
+    "id": "ch16_d6_02",
+    "role": "H",
+    "de": "Ich habe einen Film gesehen.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я видел фильм.",
+    "nouns": [
+     {
+      "lemma": "Film",
+      "art": "der",
+      "pl": "Filme"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "einen Film",
+       "role": "кого-что"
+      },
+      {
+       "w": "gesehen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Ответ без Ja: ich habe … gesehen — habe в вагоне №2.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ich habe einen Film gesehen.",
+     "why_ru": "По-русски «Я видел фильм» — прошлое одним словом; по-немецки два слова, и они разнесены: Ich habe einen Film gesehen.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Ich habe gesehen einen Film.",
+      "ru": "По-русски «Я видел фильм» — одно слово по порядку. По-немецки habe … gesehen разнесены: gesehen — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "Ответ без Ja: ich habe … gesehen — habe в вагоне №2."
+    },
+    "audio": "audio_v1/ch16_d6_02.mp3",
+    "tts": "Ich habe einen Film gesehen.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "einen",
+      "ipa": "[ˈaɪ̯nən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Film",
+      "ipa": "[fɪlm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gesehen",
+      "ipa": "[ɡəˈzeːən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · помощник (вагон №2): h… · кого-что: e… F… · хвост действия: g…",
+    "gap": {
+     "text": "Ich ___ einen ___ gesehen.",
+     "answers": [
+      "habe",
+      "Film"
+     ]
+    },
+    "task_ru": "Скажи: Я видел фильм."
+   },
+   {
+    "id": "ch16_d6_03",
+    "role": "O",
+    "de": "Der Film gefällt mir.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Фильм мне нравится.",
+    "nouns": [
+     {
+      "lemma": "Film",
+      "art": "der",
+      "pl": "Filme"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Der Film",
+       "role": "кто"
+      },
+      {
+       "w": "gefällt",
+       "role": "действие №2"
+      },
+      {
+       "w": "mir",
+       "role": "кому"
+      }
+     ],
+     "text": "Вещь впереди, «кому» — после: Der Film · gefällt · mir.",
+     "topic": "verb2",
+     "why_de": "Der Film · gefällt · mir: действие gefällt — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Фильм мне нравится» — сначала «мне», потом «нравится». По-немецки обычно порядок другой: первой — вещь, которая нравится, потом gefällt, а mir — после него: Der Film gefällt mir. Можно и Mir gefällt …, но gefällt всё равно второе.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Der Film mir gefällt.",
+      "ru": "Действие gefällt уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе gefällt — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Вещь впереди, «кому» — после: Der Film · gefällt · mir.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «кому»",
+      "items": [
+       {
+        "id": "ch16_016",
+        "de": "Dieser Nussknacker gefällt mir.",
+        "ru": "Этот щелкунчик мне нравится.",
+        "audio": "audio_v1/ch16_016.mp3",
+        "lesson": "L2",
+        "part": 3,
+        "changed": {
+         "role": "кто",
+         "wagon": 1,
+         "from": "Der Film",
+         "to": "Dieser Nussknacker"
+        }
+       },
+       {
+        "id": "ch16_018",
+        "de": "Diese Kerze gefällt mir.",
+        "ru": "Эта свеча мне нравится.",
+        "audio": "audio_v1/ch16_018.mp3",
+        "lesson": "L2",
+        "part": 3,
+        "changed": {
+         "role": "кто",
+         "wagon": 1,
+         "from": "Der Film",
+         "to": "Diese Kerze"
+        }
+       },
+       {
+        "id": "ch16_020",
+        "de": "Dieser Stern gefällt mir.",
+        "ru": "Эта звезда мне нравится.",
+        "audio": "audio_v1/ch16_020.mp3",
+        "lesson": "L2",
+        "part": 6,
+        "changed": {
+         "role": "кто",
+         "wagon": 1,
+         "from": "Der Film",
+         "to": "Dieser Stern"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: gefällt · mir. В каждом примере меняется один вагон — «кто»: Der Film → Dieser Nussknacker → Diese Kerze → Dieser Stern. Действие gefällt всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch16_d6_03.mp3",
+    "tts": "Der Film gefällt mir.",
+    "ipa": [
+     {
+      "w": "Der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Film",
+      "ipa": "[fɪlm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gefällt",
+      "ipa": "[ɡəˈfɛlt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mir",
+      "ipa": "[miːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… F… · действие (вагон №2): g… · кому: m…",
+    "gap": {
+     "text": "Der ___ ___ mir.",
+     "answers": [
+      "Film",
+      "gefällt"
+     ]
+    },
+    "task_ru": "Скажи: Фильм мне нравится."
+   },
+   {
+    "id": "ch16_d6_04",
+    "role": "M",
+    "de": "Ich habe Untertitel gelesen.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я читал субтитры.",
+    "nouns": [
+     {
+      "lemma": "Untertitel",
+      "art": "der",
+      "pl": "Untertitel"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "Untertitel",
+       "role": "кого-что"
+      },
+      {
+       "w": "gelesen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Прошлое: habe — вагон №2, gelesen — в конце.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ich habe Untertitel gelesen.",
+     "why_ru": "По-русски «Я читал субтитры» — прошлое одним словом; по-немецки два слова, и они разнесены: Ich habe Untertitel gelesen.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Ich habe gelesen Untertitel.",
+      "ru": "По-русски «Я читал субтитры» — одно слово по порядку. По-немецки habe … gelesen разнесены: gelesen — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "Прошлое: habe — вагон №2, gelesen — в конце.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «что» · хвост действия",
+      "items": [
+       {
+        "id": "ch16_037",
+        "de": "Ich habe alles gelesen.",
+        "ru": "Я всё прочитал.",
+        "audio": "audio_v1/ch16_037.mp3",
+        "lesson": "L4",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "Untertitel",
+         "to": "alles"
+        }
+       },
+       {
+        "id": "ch16_t07",
+        "de": "Ich habe nichts gelesen.",
+        "ru": "Я ничего не прочитал.",
+        "audio": "audio_v1/ch16_t07.mp3",
+        "lesson": "L4",
+        "part": 6,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "Untertitel",
+         "to": "nichts"
+        }
+       },
+       {
+        "id": "ch16_t09",
+        "de": "Ich habe etwas gelesen.",
+        "ru": "Я кое-что прочитал.",
+        "audio": "audio_v1/ch16_t09.mp3",
+        "lesson": "L4",
+        "part": 11,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "Untertitel",
+         "to": "etwas"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Ich · habe · gelesen. В каждом примере меняется один вагон — «что»: Untertitel → alles → nichts → etwas. Действие habe всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch16_d6_04.mp3",
+    "tts": "Ich habe Untertitel gelesen.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Untertitel",
+      "ipa": "[ˈʊntɐˌtiːtl̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gelesen",
+      "ipa": "[ɡəˈleːzn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · помощник (вагон №2): h… · кого-что: U… · хвост действия: g…",
+    "gap": {
+     "text": "Ich ___ ___ gelesen.",
+     "answers": [
+      "habe",
+      "Untertitel"
+     ]
+    },
+    "task_ru": "Скажи: Я читал субтитры."
+   },
+   {
+    "id": "ch16_d6_05",
+    "role": "O",
+    "de": "Hast du Deutsch gelernt?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ты учил немецкий?",
+    "nouns": [
+     {
+      "lemma": "Deutsch",
+      "art": "das",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hast",
+       "role": "помощник №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "Deutsch",
+       "role": "кого-что"
+      },
+      {
+       "w": "gelernt",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет» в прошлом: помощник hast впереди, gelernt — в конце.",
+     "topic": "perfekt",
+     "why_de": "Вопрос «да/нет» о прошлом: помощник Hast встаёт впереди, а что именно случилось, — в самый конец: Hast du Deutsch gelernt?",
+     "why_ru": "По-русски «Ты учил немецкий» — вопрос голосом, прошлое одним словом; по-немецки помощник впереди, а форма прошедшего — в самом конце: Hast du Deutsch gelernt?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Hast gelernt du Deutsch?",
+      "ru": "По-русски «Ты учил немецкий» — одно слово по порядку. По-немецки Hast … gelernt разнесены: gelernt — в самый конец."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос «да/нет» в прошлом: помощник hast впереди, gelernt — в конце."
+    },
+    "audio": "audio_v1/ch16_d6_05.mp3",
+    "tts": "Hast du Deutsch gelernt?",
+    "ipa": [
+     {
+      "w": "Hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Deutsch",
+      "ipa": "[dɔɪ̯t͡ʃ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gelernt",
+      "ipa": "[ɡəˈlɛʁnt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "помощник (вагон №1): H… · кто: d… · кого-что: D… · хвост действия: g…",
+    "gap": {
+     "text": "Hast du ___ gelernt?",
+     "answers": [
+      "Deutsch"
+     ]
+    },
+    "task_ru": "Скажи: Ты учил немецкий?"
+   },
+   {
+    "id": "ch16_d6_06",
+    "role": "H",
+    "de": "Ich habe Deutsch gelernt.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я учил немецкий.",
+    "nouns": [
+     {
+      "lemma": "Deutsch",
+      "art": "das",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "Deutsch",
+       "role": "кого-что"
+      },
+      {
+       "w": "gelernt",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Тот же поезд: habe — вагон №2, gelernt — в конце.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ich habe Deutsch gelernt.",
+     "why_ru": "По-русски «Я учил немецкий» — прошлое одним словом; по-немецки два слова, и они разнесены: Ich habe Deutsch gelernt.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Ich habe gelernt Deutsch.",
+      "ru": "По-русски «Я учил немецкий» — одно слово по порядку. По-немецки habe … gelernt разнесены: gelernt — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "Тот же поезд: habe — вагон №2, gelernt — в конце."
+    },
+    "audio": "audio_v1/ch16_d6_06.mp3",
+    "tts": "Ich habe Deutsch gelernt.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Deutsch",
+      "ipa": "[dɔɪ̯t͡ʃ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gelernt",
+      "ipa": "[ɡəˈlɛʁnt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · помощник (вагон №2): h… · кого-что: D… · хвост действия: g…",
+    "gap": {
+     "text": "Ich ___ ___ gelernt.",
+     "answers": [
+      "habe",
+      "Deutsch"
+     ]
+    },
+    "task_ru": "Скажи: Я учил немецкий."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ }
+]

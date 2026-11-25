@@ -1,0 +1,7254 @@
+[
+ {
+  "id": "ch06_001",
+  "de": "Hast du Hunger?",
+  "ru": "Ты голоден?",
+  "nouns": [
+   {
+    "lemma": "Hunger",
+    "art": "der",
+    "pl": ""
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#380873 CC BY 2.0 FR (автор MUIRIEL)",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Hast",
+     "role": "действие №1"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "Hunger",
+     "role": "кого-что"
+    }
+   ],
+   "text": "По-немецки голод «имеют»: du hast Hunger — дословно «ты имеешь голод». Вопрос «да/нет»: действие hast впереди.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Hast) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Hast du Hunger?",
+   "why_ru": "По-русски «Ты голоден» — вопрос только голосом, порядок как в ответе. По-немецки действие Hast выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Du hast Hunger?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Ты голоден?!»). Обычный вопрос — действие впереди."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "По-немецки голод «имеют»: du hast Hunger — дословно «ты имеешь голод». Вопрос «да/нет»: действие hast впереди.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "действие (вагон №1) · «кто» · «что»",
+    "items": [
+     {
+      "id": "ch06_009",
+      "de": "Hast du WhatsApp?",
+      "ru": "У тебя есть WhatsApp?",
+      "audio": "audio_v1/ch06_009.mp3",
+      "lesson": "L1",
+      "part": 2,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "Hunger",
+       "to": "WhatsApp"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Hast · du. В каждом примере меняется один вагон — «что»: Hunger → WhatsApp. Действие Hast всё так же в вагоне №1.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch06_001.mp3",
+  "tts": "Hast du Hunger?",
+  "ipa": [
+   {
+    "w": "Hast",
+    "ipa": "[hast]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Hunger",
+    "ipa": "[ˈhʊŋɐ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_002",
+  "de": "Ich habe Hunger und Durst.",
+  "ru": "Я хочу есть и пить.",
+  "nouns": [
+   {
+    "lemma": "Hunger",
+    "art": "der",
+    "pl": ""
+   },
+   {
+    "lemma": "Durst",
+    "art": "der",
+    "pl": ""
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#1690550 CC BY 2.0 FR (автор Pfirsichbaeumchen)",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "habe",
+     "role": "действие №2"
+    },
+    {
+     "w": "Hunger und Durst",
+     "role": "кого-что"
+    }
+   ],
+   "text": "ich habe Hunger — дословно «я имею голод», ich habe Durst — «я имею жажду». Оба слова — предметы, с большой буквы.",
+   "topic": "verb2",
+   "why_de": "Ich · habe · Hunger und Durst: действие habe — вагон №2, опора всего предложения.",
+   "why_ru": "По-русски «Я хочу есть и пить» — другая конструкция: по-немецки дословно — иметь голод: habe Hunger. Ich habe Hunger und Durst. Действие habe держит вагон №2.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich Hunger und Durst habe.",
+    "ru": "Действие habe уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе habe — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "ich habe Hunger — дословно «я имею голод», ich habe Durst — «я имею жажду». Оба слова — предметы, с большой буквы."
+  },
+  "audio": "audio_v1/ch06_002.mp3",
+  "tts": "Ich habe Hunger und Durst.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "habe",
+    "ipa": "[ˈhaːbə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Hunger",
+    "ipa": "[ˈhʊŋɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "und",
+    "ipa": "[ʊnt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Durst",
+    "ipa": "[dʊʁst]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_003",
+  "de": "Was isst du heute?",
+  "ru": "Что ты ешь сегодня?",
+  "nouns": [],
+  "chunk": false,
+  "source": "tatoeba:#10355870 CC BY 2.0 FR (автор Pfirsichbaeumchen)",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Was",
+     "role": "вопрос-слово",
+     "asks": "кого-что"
+    },
+    {
+     "w": "isst",
+     "role": "действие №2"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "heute",
+     "role": "когда"
+    }
+   ],
+   "text": "was — вопрос-слово, за ним действие isst. С du: isst, а с ich — esse: e меняется на i, как в sprichst.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Was — вагон №1, действие isst — сразу за ним, вагон №2: Was isst du heute? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Что ты ешь сегодня» можно сказать и в другом порядке. По-немецки порядок один: Was · isst · du · heute.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Was du isst heute?",
+    "ru": "du встал перед isst — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "was — вопрос-слово, за ним действие isst. С du: isst, а с ich — esse: e меняется на i, как в sprichst."
+  },
+  "audio": "audio_v1/ch06_003.mp3",
+  "tts": "Was isst du heute?",
+  "ipa": [
+   {
+    "w": "Was",
+    "ipa": "[vas]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "isst",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "heute",
+    "ipa": "[ˈhɔɪ̯tə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_004",
+  "de": "Heute esse ich Brot und Käse.",
+  "ru": "Сегодня я ем хлеб и сыр.",
+  "nouns": [
+   {
+    "lemma": "Brot",
+    "art": "das",
+    "pl": "Brote"
+   },
+   {
+    "lemma": "Käse",
+    "art": "der",
+    "pl": "Käse"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Heute",
+     "role": "когда"
+    },
+    {
+     "w": "esse",
+     "role": "действие №2"
+    },
+    {
+     "w": "ich",
+     "role": "кто"
+    },
+    {
+     "w": "Brot und Käse",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Фраза начинается со слова heute. Действие esse остаётся в вагоне №2, а ich уходит за него. Brot и Käse здесь — еда «вообще», поэтому без артикля.",
+   "topic": "word_order",
+   "why_de": "Вагон №1 занят: Heute. Действие esse всё равно в вагоне №2, а «кто» (ich) — за ним: Heute esse ich Brot und Käse.",
+   "why_ru": "По-русски «Сегодня я ем хлеб и сыр» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, esse — вагон №2.",
+   "layer": "inv",
+   "why_not": {
+    "wrong": "Heute ich esse Brot und Käse.",
+    "ru": "Русский порядок: «кто» (ich) перед действием, и esse уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+   },
+   "root": null,
+   "why_voice_ru": "Фраза начинается со слова heute. Действие esse остаётся в вагоне №2, а ich уходит за него."
+  },
+  "audio": "audio_v1/ch06_004.mp3",
+  "tts": "Heute esse ich Brot und Käse.",
+  "ipa": [
+   {
+    "w": "Heute",
+    "ipa": "[ˈhɔɪ̯tə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "esse",
+    "ipa": "[ˈɛsə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Brot",
+    "ipa": "[bʁoːt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "und",
+    "ipa": "[ʊnt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Käse",
+    "ipa": "[ˈkɛːzə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_005",
+  "de": "Am Wochenende mache ich Suppe.",
+  "ru": "В выходные я варю суп.",
+  "nouns": [
+   {
+    "lemma": "Wochenende",
+    "art": "das",
+    "pl": "Wochenenden"
+   },
+   {
+    "lemma": "Suppe",
+    "art": "die",
+    "pl": "Suppen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Am Wochenende",
+     "role": "когда"
+    },
+    {
+     "w": "mache",
+     "role": "действие №2"
+    },
+    {
+     "w": "ich",
+     "role": "кто"
+    },
+    {
+     "w": "Suppe",
+     "role": "кого-что"
+    }
+   ],
+   "text": "am Wochenende — «в выходные»: один кусок «когда», он занимает вагон №1. Действие mache — в вагоне №2, ich — после него.",
+   "topic": "word_order",
+   "why_de": "Вагон №1 занят: Am Wochenende. Действие mache всё равно в вагоне №2, а «кто» (ich) — за ним: Am Wochenende mache ich Suppe.",
+   "why_ru": "По-русски «В выходные я варю суп» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, mache — вагон №2.",
+   "layer": "inv",
+   "why_not": {
+    "wrong": "Am Wochenende ich mache Suppe.",
+    "ru": "Русский порядок: «кто» (ich) перед действием, и mache уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+   },
+   "root": null,
+   "why_voice_ru": "am Wochenende — «в выходные»: один кусок «когда», он занимает вагон №1. Действие mache — в вагоне №2, ich — после него."
+  },
+  "audio": "audio_v1/ch06_005.mp3",
+  "tts": "Am Wochenende mache ich Suppe.",
+  "ipa": [
+   {
+    "w": "Am",
+    "ipa": "[am]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wochenende",
+    "ipa": "[ˈvɔxn̩ˌʔɛndə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "mache",
+    "ipa": "[ˈmaxə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Suppe",
+    "ipa": "[ˈzʊpə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_006",
+  "de": "Heute esse ich Suppe.",
+  "ru": "Сегодня я ем суп.",
+  "nouns": [
+   {
+    "lemma": "Suppe",
+    "art": "die",
+    "pl": "Suppen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Heute",
+     "role": "когда"
+    },
+    {
+     "w": "esse",
+     "role": "действие №2"
+    },
+    {
+     "w": "ich",
+     "role": "кто"
+    },
+    {
+     "w": "Suppe",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Тот же поезд: heute — вагон №1, esse — вагон №2, ich — за ним.",
+   "topic": "word_order",
+   "why_de": "Вагон №1 занят: Heute. Действие esse всё равно в вагоне №2, а «кто» (ich) — за ним: Heute esse ich Suppe.",
+   "why_ru": "По-русски «Сегодня я ем суп» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, esse — вагон №2.",
+   "layer": "inv",
+   "why_not": {
+    "wrong": "Heute ich esse Suppe.",
+    "ru": "Русский порядок: «кто» (ich) перед действием, и esse уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+   },
+   "root": null,
+   "why_voice_ru": "Тот же поезд: heute — вагон №1, esse — вагон №2, ich — за ним.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«когда» · действие (вагон №2) · «кто» · «что»",
+    "items": [
+     {
+      "id": "ch06_004",
+      "de": "Heute esse ich Brot und Käse.",
+      "ru": "Сегодня я ем хлеб и сыр.",
+      "audio": "audio_v1/ch06_004.mp3",
+      "lesson": "L1",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 4,
+       "from": "Suppe",
+       "to": "Brot und Käse"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Heute · esse · ich. В каждом примере меняется один вагон — «что»: Suppe → Brot und Käse. Действие esse всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch06_006.mp3",
+  "tts": "Heute esse ich Suppe.",
+  "ipa": [
+   {
+    "w": "Heute",
+    "ipa": "[ˈhɔɪ̯tə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "esse",
+    "ipa": "[ˈɛsə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Suppe",
+    "ipa": "[ˈzʊpə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_007",
+  "de": "Apfel, Banane, Orange, Tomate, Kartoffel, Zwiebel, Karotte, Paprika.",
+  "ru": "Яблоко, банан, апельсин, помидор, картофель, луковица, морковь, сладкий перец.",
+  "nouns": [
+   {
+    "lemma": "Apfel",
+    "art": "der",
+    "pl": "Äpfel"
+   },
+   {
+    "lemma": "Banane",
+    "art": "die",
+    "pl": "Bananen"
+   },
+   {
+    "lemma": "Orange",
+    "art": "die",
+    "pl": "Orangen"
+   },
+   {
+    "lemma": "Tomate",
+    "art": "die",
+    "pl": "Tomaten"
+   },
+   {
+    "lemma": "Kartoffel",
+    "art": "die",
+    "pl": "Kartoffeln"
+   },
+   {
+    "lemma": "Zwiebel",
+    "art": "die",
+    "pl": "Zwiebeln"
+   },
+   {
+    "lemma": "Karotte",
+    "art": "die",
+    "pl": "Karotten"
+   },
+   {
+    "lemma": "Paprika",
+    "art": "die",
+    "pl": "Paprika"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Apfel",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Banane",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Orange",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Tomate",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Kartoffel",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Zwiebel",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Karotte",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Paprika",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Слова курса: der Apfel, die Banane, die Orange, die Tomate, die Kartoffel, die Zwiebel, die Karotte, die Paprika.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Apfel — яблоко · die Banane — банан · die Orange — апельсин · die Tomate — помидор · die Kartoffel — картофель · die Zwiebel — луковица · die Karotte — морковь · die Paprika — сладкий перец.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Apfel, die Banane, die Orange, die Tomate, die Kartoffel, die Zwiebel, die Karotte, die Paprika."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: der Apfel, die Banane, die Orange, die Tomate, die Kartoffel, die Zwiebel, die Karotte, die Paprika."
+  },
+  "audio": "audio_v1/ch06_007.mp3",
+  "tts": "Apfel, Banane, Orange, Tomate, Kartoffel, Zwiebel, Karotte, Paprika.",
+  "ipa": [
+   {
+    "w": "Apfel",
+    "ipa": "[ˈap͡fl̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Banane",
+    "ipa": "[baˈnaːnə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Orange",
+    "ipa": "[oˈʁɑ̃ːʒə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Tomate",
+    "ipa": "[toˈmaːtə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kartoffel",
+    "ipa": "[kaʁˈtɔfl̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Zwiebel",
+    "ipa": "[ˈt͡sviːbl̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Karotte",
+    "ipa": "[kaˈʁɔtə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Paprika",
+    "ipa": "[ˈpapʁika]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_008",
+  "de": "Kartoffelsuppe, Tomatensuppe, Kartoffelsalat, Schnitzel, Spaghetti, Pizza.",
+  "ru": "Картофельный суп, томатный суп, картофельный салат, шницель, спагетти, пицца.",
+  "nouns": [
+   {
+    "lemma": "Kartoffelsuppe",
+    "art": "die",
+    "pl": "Kartoffelsuppen"
+   },
+   {
+    "lemma": "Tomatensuppe",
+    "art": "die",
+    "pl": "Tomatensuppen"
+   },
+   {
+    "lemma": "Kartoffelsalat",
+    "art": "der",
+    "pl": "Kartoffelsalate"
+   },
+   {
+    "lemma": "Schnitzel",
+    "art": "das",
+    "pl": "Schnitzel"
+   },
+   {
+    "lemma": "Spaghetti",
+    "art": "die",
+    "pl": "Spaghetti"
+   },
+   {
+    "lemma": "Pizza",
+    "art": "die",
+    "pl": "Pizzas"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Kartoffelsuppe",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Tomatensuppe",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Kartoffelsalat",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Schnitzel",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Spaghetti",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Pizza",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Слова курса — блюда: die Kartoffelsuppe, die Tomatensuppe, der Kartoffelsalat, das Schnitzel, die Spaghetti (много), die Pizza.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: die Kartoffelsuppe — картофельный суп · die Tomatensuppe — томатный суп · der Kartoffelsalat — картофельный салат · das Schnitzel — шницель · die Spaghetti — спагетти · die Pizza — пицца.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: die Kartoffelsuppe, die Tomatensuppe, der Kartoffelsalat, das Schnitzel, die Spaghetti, die Pizza."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса — блюда: die Kartoffelsuppe, die Tomatensuppe, der Kartoffelsalat, das Schnitzel, die Spaghetti (много), die Pizza."
+  },
+  "audio": "audio_v1/ch06_008.mp3",
+  "tts": "Kartoffelsuppe, Tomatensuppe, Kartoffelsalat, Schnitzel, Spaghetti, Pizza.",
+  "ipa": [
+   {
+    "w": "Kartoffelsuppe",
+    "ipa": "[kaʁˈtɔfl̩ˌzʊpə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Tomatensuppe",
+    "ipa": "[toˈmaːtn̩ˌzʊpə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kartoffelsalat",
+    "ipa": "[kaʁˈtɔfl̩zaˌlaːt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Schnitzel",
+    "ipa": "[ˈʃnɪt͡sl̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Spaghetti",
+    "ipa": "[ʃpaˈɡɛti]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Pizza",
+    "ipa": "[ˈpɪt͡sa]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_009",
+  "de": "Hast du WhatsApp?",
+  "ru": "У тебя есть WhatsApp?",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Hast",
+     "role": "действие №1"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "WhatsApp",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Вопрос «да/нет»: действие hast впереди.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Hast) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Hast du WhatsApp?",
+   "why_ru": "По-русски «У тебя есть WhatsApp» — вопрос только голосом, порядок как в ответе. По-немецки действие Hast выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Du hast WhatsApp?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («У тебя есть WhatsApp?!»). Обычный вопрос — действие впереди."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "Вопрос «да/нет»: действие hast впереди."
+  },
+  "audio": "audio_v1/ch06_009.mp3",
+  "tts": "Hast du WhatsApp?",
+  "ipa": [
+   {
+    "w": "Hast",
+    "ipa": "[hast]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "WhatsApp",
+    "ipa": "[ˈvɔt͡sˌʔɛp]",
+    "src": "override"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_010",
+  "de": "Ja, ich habe WhatsApp.",
+  "ru": "Да, у меня есть WhatsApp.",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Ja",
+     "role": "да/нет"
+    },
+    {
+     "w": "ich",
+     "role": "кто"
+    },
+    {
+     "w": "habe",
+     "role": "действие №2"
+    },
+    {
+     "w": "WhatsApp",
+     "role": "кого-что"
+    }
+   ],
+   "text": "ja не занимает вагон. ich habe — «я имею», по-русски «у меня есть».",
+   "topic": "verb2",
+   "why_de": "ich · habe · WhatsApp: действие habe — вагон №2, опора всего предложения.",
+   "why_ru": "По-русски тут «у меня» и «есть»: «я» спрятан в «у меня». По-немецки говорят «я имею» — ich habe. Поэтому ich нужен: Ja, ich habe WhatsApp.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ja, habe WhatsApp.",
+    "ru": "По-русски «у меня» — не «я», поэтому хочется начать без ich. По-немецки без ich фраза обрывается."
+   },
+   "root": null,
+   "why_voice_ru": "ja не занимает вагон. ich habe — «я имею», по-русски «у меня есть»."
+  },
+  "audio": "audio_v1/ch06_010.mp3",
+  "tts": "Ja, ich habe WhatsApp.",
+  "ipa": [
+   {
+    "w": "Ja",
+    "ipa": "[jaː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "habe",
+    "ipa": "[ˈhaːbə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "WhatsApp",
+    "ipa": "[ˈvɔt͡sˌʔɛp]",
+    "src": "override"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_011",
+  "de": "Was lernst du?",
+  "ru": "Что ты учишь?",
+  "nouns": [],
+  "chunk": false,
+  "source": "tatoeba:#392861 CC BY 2.0 FR (автор xtofu80)",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Was",
+     "role": "вопрос-слово",
+     "asks": "кого-что"
+    },
+    {
+     "w": "lernst",
+     "role": "действие №2"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    }
+   ],
+   "text": "was — «что». Вопрос-слово, потом действие. С du — хвост -st: du lernst.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Was — вагон №1, действие lernst — сразу за ним, вагон №2: Was lernst du? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Что ты учишь» можно сказать и в другом порядке. По-немецки порядок один: Was · lernst · du.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Was du lernst?",
+    "ru": "du встал перед lernst — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "was — «что». Вопрос-слово, потом действие. С du — хвост -st: du lernst."
+  },
+  "audio": "audio_v1/ch06_011.mp3",
+  "tts": "Was lernst du?",
+  "ipa": [
+   {
+    "w": "Was",
+    "ipa": "[vas]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "lernst",
+    "ipa": "[lɛʁnst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_012",
+  "de": "Ich hätte gern ein Kilo Kartoffeln.",
+  "ru": "Я бы хотел килограмм картофеля.",
+  "nouns": [
+   {
+    "lemma": "Kilo",
+    "art": "das",
+    "pl": "Kilo"
+   },
+   {
+    "lemma": "Kartoffel",
+    "art": "die",
+    "pl": "Kartoffeln"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "hätte",
+     "role": "действие №2"
+    },
+    {
+     "w": "gern",
+     "role": "добавка"
+    },
+    {
+     "w": "ein Kilo Kartoffeln",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Ich hätte gern — вежливая просьба, «я бы хотел». После меры ein Kilo продукт идёт сразу: Kartoffeln — без артикля и без изменений.",
+   "topic": "verb2",
+   "why_de": "Ich · hätte · gern · ein Kilo Kartoffeln: действие hätte — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Я бы хотел килограмм картофеля» — Ich hätte gern ein Kilo Kartoffeln. Разница одна: по-немецки hätte держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich gern ein Kilo Kartoffeln hätte.",
+    "ru": "Действие hätte уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе hätte — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "Ich hätte gern — вежливая просьба, «я бы хотел». После меры ein Kilo продукт идёт сразу: Kartoffeln — без артикля и без изменений."
+  },
+  "audio": "audio_v1/ch06_012.mp3",
+  "tts": "Ich hätte gern ein Kilo Kartoffeln.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "hätte",
+    "ipa": "[ˈhɛtə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gern",
+    "ipa": "[ɡɛʁn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ein",
+    "ipa": "[aɪ̯n]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kilo",
+    "ipa": "[ˈkiːlo]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kartoffeln",
+    "ipa": "[kaʁˈtɔfl̩n]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_013",
+  "de": "Sonst noch etwas?",
+  "ru": "Что-нибудь ещё?",
+  "nouns": [],
+  "chunk": true,
+  "source": "tatoeba:#816681 CC BY 2.0 FR (автор Pfirsichbaeumchen)",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Sonst noch etwas",
+     "role": "готовая фраза"
+    }
+   ],
+   "text": "Готовая фраза продавца: «что-нибудь ещё?». Учим целиком.",
+   "topic": "word_order",
+   "why_de": "Готовый вопрос продавца: «что-нибудь ещё?». Учим целиком: sonst — «ещё, кроме этого», noch etwas — «ещё что-то».",
+   "why_ru": "Как русское «Что-нибудь ещё?» — продавец говорит это одним куском, на слова не разбирают.",
+   "layer": "chunk",
+   "why_not": {
+    "wrong": "Noch etwas sonst?",
+    "ru": "Порядок слов в готовой фразе не меняют: Sonst noch etwas?"
+   },
+   "source": "tools/why_chunks.json",
+   "root": null,
+   "why_voice_ru": "Готовая фраза продавца: «что-нибудь ещё?». Учим целиком."
+  },
+  "audio": "audio_v1/ch06_013.mp3",
+  "tts": "Sonst noch etwas?",
+  "ipa": [
+   {
+    "w": "Sonst",
+    "ipa": "[zɔnst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "noch",
+    "ipa": "[nɔx]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "etwas",
+    "ipa": "[ˈɛtvas]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_014",
+  "de": "Eine Flasche Öl, bitte.",
+  "ru": "Бутылку масла, пожалуйста.",
+  "nouns": [
+   {
+    "lemma": "Flasche",
+    "art": "die",
+    "pl": "Flaschen"
+   },
+   {
+    "lemma": "Öl",
+    "art": "das",
+    "pl": "Öle"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Eine Flasche Öl",
+     "role": "кого-что"
+    },
+    {
+     "w": "bitte",
+     "role": "привет/вежливость"
+    }
+   ],
+   "text": "die Flasche — die-слово, поэтому eine. После меры Flasche продукт идёт сразу: Öl — без артикля.",
+   "topic": "word_order",
+   "why_de": "bitte — готовая формула, дальше кусок по словам: Eine Flasche Öl (что?).",
+   "why_ru": "По-русски так же коротко: «Бутылку масла, пожалуйста».",
+   "layer": "short",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — заучить всю фразу одним куском. Готовая формула тут только bitte, остальное — слова под ситуацию."
+   },
+   "root": null,
+   "why_voice_ru": "die Flasche — die-слово, поэтому eine. После меры Flasche продукт идёт сразу: Öl — без артикля."
+  },
+  "audio": "audio_v1/ch06_014.mp3",
+  "tts": "Eine Flasche Öl, bitte.",
+  "ipa": [
+   {
+    "w": "Eine",
+    "ipa": "[ˈaɪ̯nə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Flasche",
+    "ipa": "[ˈflaʃə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Öl",
+    "ipa": "[øːl]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "bitte",
+    "ipa": "[ˈbɪtə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_015",
+  "de": "Ist das alles?",
+  "ru": "Это всё?",
+  "nouns": [],
+  "chunk": false,
+  "source": "tatoeba:#672929 CC BY 2.0 FR (автор Eldad)",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Ist",
+     "role": "действие №1"
+    },
+    {
+     "w": "das",
+     "role": "кто"
+    },
+    {
+     "w": "alles",
+     "role": "кто"
+    }
+   ],
+   "text": "Вопрос «да/нет»: действие ist впереди. alles — «всё».",
+   "topic": "questions",
+   "why_de": "Действие впереди (Ist) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Ist das alles?",
+   "why_ru": "По-русски «Это всё» — вопрос только голосом, порядок как в ответе. По-немецки действие Ist выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Das ist alles?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Это всё?!»). Обычный вопрос — действие впереди."
+   },
+   "root": null,
+   "why_voice_ru": "Вопрос «да/нет»: действие ist впереди. alles — «всё»."
+  },
+  "audio": "audio_v1/ch06_015.mp3",
+  "tts": "Ist das alles?",
+  "ipa": [
+   {
+    "w": "Ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "das",
+    "ipa": "[das]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "alles",
+    "ipa": "[ˈaləs]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_016",
+  "de": "Das ist alles.",
+  "ru": "Это всё.",
+  "nouns": [],
+  "chunk": false,
+  "source": "tatoeba:#352023 CC BY 2.0 FR (автор MUIRIEL)",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Das",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "alles",
+     "role": "кто"
+    }
+   ],
+   "text": "Обычный поезд: das · ist · alles. Так заканчивают покупку.",
+   "topic": "verb2",
+   "why_de": "ist работает как знак «=»: das = alles. Действие держит вагон №2.",
+   "why_ru": "По-русски «Это всё» — без «есть». По-немецки без ist нельзя: Das ist alles.",
+   "layer": "eq",
+   "why_not": {
+    "wrong": "Das alles.",
+    "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "Обычный поезд: das · ist · alles. Так заканчивают покупку."
+  },
+  "audio": "audio_v1/ch06_016.mp3",
+  "tts": "Das ist alles.",
+  "ipa": [
+   {
+    "w": "Das",
+    "ipa": "[das]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "alles",
+    "ipa": "[ˈaləs]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_017",
+  "de": "Ich hätte gern ein Kilo Käse.",
+  "ru": "Я бы хотел килограмм сыра.",
+  "nouns": [
+   {
+    "lemma": "Kilo",
+    "art": "das",
+    "pl": "Kilo"
+   },
+   {
+    "lemma": "Käse",
+    "art": "der",
+    "pl": "Käse"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "hätte",
+     "role": "действие №2"
+    },
+    {
+     "w": "gern",
+     "role": "добавка"
+    },
+    {
+     "w": "ein Kilo Käse",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Та же просьба: Ich hätte gern + мера + продукт. После ein Kilo слово Käse — без артикля.",
+   "topic": "verb2",
+   "why_de": "Ich · hätte · gern · ein Kilo Käse: действие hätte — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Я бы хотел килограмм сыра» — Ich hätte gern ein Kilo Käse. Разница одна: по-немецки hätte держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich gern ein Kilo Käse hätte.",
+    "ru": "Действие hätte уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе hätte — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "Та же просьба: Ich hätte gern + мера + продукт. После ein Kilo слово Käse — без артикля.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · добавка · «что»",
+    "items": [
+     {
+      "id": "ch06_012",
+      "de": "Ich hätte gern ein Kilo Kartoffeln.",
+      "ru": "Я бы хотел килограмм картофеля.",
+      "audio": "audio_v1/ch06_012.mp3",
+      "lesson": "L2",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 4,
+       "from": "ein Kilo Käse",
+       "to": "ein Kilo Kartoffeln"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ich · hätte · gern. В каждом примере меняется один вагон — «что»: ein Kilo Käse → ein Kilo Kartoffeln. Действие hätte всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch06_017.mp3",
+  "tts": "Ich hätte gern ein Kilo Käse.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "hätte",
+    "ipa": "[ˈhɛtə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gern",
+    "ipa": "[ɡɛʁn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ein",
+    "ipa": "[aɪ̯n]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kilo",
+    "ipa": "[ˈkiːlo]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Käse",
+    "ipa": "[ˈkɛːzə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_018",
+  "de": "Dose, Glas, Kasten, Packung, Liter, Gramm, Pfund, Stück.",
+  "ru": "Жестяная банка, стеклянная банка, ящик, пачка, литр, грамм, фунт (полкило), штука.",
+  "nouns": [
+   {
+    "lemma": "Dose",
+    "art": "die",
+    "pl": "Dosen"
+   },
+   {
+    "lemma": "Glas",
+    "art": "das",
+    "pl": "Gläser"
+   },
+   {
+    "lemma": "Kasten",
+    "art": "der",
+    "pl": "Kästen"
+   },
+   {
+    "lemma": "Packung",
+    "art": "die",
+    "pl": "Packungen"
+   },
+   {
+    "lemma": "Liter",
+    "art": "der",
+    "pl": "Liter"
+   },
+   {
+    "lemma": "Gramm",
+    "art": "das",
+    "pl": "Gramme"
+   },
+   {
+    "lemma": "Pfund",
+    "art": "das",
+    "pl": "Pfunde"
+   },
+   {
+    "lemma": "Stück",
+    "art": "das",
+    "pl": "Stücke"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Dose",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Glas",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Kasten",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Packung",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Liter",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Gramm",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Pfund",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Stück",
+     "role": "слово",
+     "art": "das"
+    }
+   ],
+   "text": "Слова курса — упаковки и меры: die Dose, das Glas, der Kasten, die Packung, der Liter, das Gramm, das Pfund, das Stück.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: die Dose — жестяная банка · das Glas — стеклянная банка · der Kasten — ящик · die Packung — пачка · der Liter — литр · das Gramm — грамм · das Pfund — фунт · das Stück — штука.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: die Dose, das Glas, der Kasten, die Packung, der Liter, das Gramm, das Pfund, das Stück."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса — упаковки и меры: die Dose, das Glas, der Kasten, die Packung, der Liter, das Gramm, das Pfund, das Stück."
+  },
+  "audio": "audio_v1/ch06_018.mp3",
+  "tts": "Dose, Glas, Kasten, Packung, Liter, Gramm, Pfund, Stück.",
+  "ipa": [
+   {
+    "w": "Dose",
+    "ipa": "[ˈdoːzə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Glas",
+    "ipa": "[ɡlaːs]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kasten",
+    "ipa": "[ˈkastn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Packung",
+    "ipa": "[ˈpakʊŋ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Liter",
+    "ipa": "[ˈliːtɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Gramm",
+    "ipa": "[ɡʁam]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Pfund",
+    "ipa": "[p͡fʊnt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Stück",
+    "ipa": "[ʃtʏk]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_019",
+  "de": "Obst, Gemüse, Fleisch, Wurst, Salat, Pilz, Mineralwasser.",
+  "ru": "Фрукты, овощи, мясо, колбаса, салат, грибы, минеральная вода.",
+  "nouns": [
+   {
+    "lemma": "Obst",
+    "art": "das",
+    "pl": ""
+   },
+   {
+    "lemma": "Gemüse",
+    "art": "das",
+    "pl": "Gemüse"
+   },
+   {
+    "lemma": "Fleisch",
+    "art": "das",
+    "pl": ""
+   },
+   {
+    "lemma": "Wurst",
+    "art": "die",
+    "pl": "Würste"
+   },
+   {
+    "lemma": "Salat",
+    "art": "der",
+    "pl": "Salate"
+   },
+   {
+    "lemma": "Pilz",
+    "art": "der",
+    "pl": "Pilze"
+   },
+   {
+    "lemma": "Mineralwasser",
+    "art": "das",
+    "pl": "Mineralwässer"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Obst",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Gemüse",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Fleisch",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Wurst",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Salat",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Pilz",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Mineralwasser",
+     "role": "слово",
+     "art": "das"
+    }
+   ],
+   "text": "Слова курса — группы продуктов: das Obst, das Gemüse, das Fleisch, die Wurst, der Salat, der Pilz, das Mineralwasser.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: das Obst — фрукты · das Gemüse (ед. ч.) — овощи · das Fleisch — мясо · die Wurst — колбаса · der Salat — салат · der Pilz — грибы · das Mineralwasser — минеральная вода.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: das Obst, das Gemüse, das Fleisch, die Wurst, der Salat, der Pilz, das Mineralwasser."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса — группы продуктов: das Obst, das Gemüse, das Fleisch, die Wurst, der Salat, der Pilz, das Mineralwasser."
+  },
+  "audio": "audio_v1/ch06_019.mp3",
+  "tts": "Obst, Gemüse, Fleisch, Wurst, Salat, Pilz, Mineralwasser.",
+  "ipa": [
+   {
+    "w": "Obst",
+    "ipa": "[oːpst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Gemüse",
+    "ipa": "[ɡəˈmyːzə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fleisch",
+    "ipa": "[flaɪ̯ʃ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wurst",
+    "ipa": "[vʊʁst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Salat",
+    "ipa": "[zaˈlaːt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Pilz",
+    "ipa": "[pɪlt͡s]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Mineralwasser",
+    "ipa": "[mineˈʁaːlˌvasɐ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_020",
+  "de": "Was kostet das?",
+  "ru": "Сколько это стоит?",
+  "nouns": [],
+  "chunk": false,
+  "source": "tatoeba:#430928 CC BY 2.0 FR (автор MikeDee)",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Was",
+     "role": "вопрос-слово",
+     "asks": "кого-что"
+    },
+    {
+     "w": "kostet",
+     "role": "действие №2"
+    },
+    {
+     "w": "das",
+     "role": "кто"
+    }
+   ],
+   "text": "was — «что»; kostet — «стоит». Вопрос о цене: что? стоит! Один предмет — kostet.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Was — вагон №1, действие kostet — сразу за ним, вагон №2: Was kostet das? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Сколько это стоит» можно сказать и в другом порядке. По-немецки порядок один: Was · kostet · das.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Was das kostet?",
+    "ru": "das встал перед kostet — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": null,
+   "why_voice_ru": "was — «что»; kostet — «стоит». Вопрос о цене: что? стоит! Один предмет — kostet."
+  },
+  "audio": "audio_v1/ch06_020.mp3",
+  "tts": "Was kostet das?",
+  "ipa": [
+   {
+    "w": "Was",
+    "ipa": "[vas]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "kostet",
+    "ipa": "[ˈkɔstət]",
+    "src": "override"
+   },
+   {
+    "w": "das",
+    "ipa": "[das]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_021",
+  "de": "Die Kartoffeln kosten drei Euro fünfundzwanzig.",
+  "ru": "Картофель стоит три евро двадцать пять.",
+  "nouns": [
+   {
+    "lemma": "Kartoffel",
+    "art": "die",
+    "pl": "Kartoffeln"
+   },
+   {
+    "lemma": "Euro",
+    "art": "der",
+    "pl": "Euro"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Die Kartoffeln",
+     "role": "кто"
+    },
+    {
+     "w": "kosten",
+     "role": "действие №2"
+    },
+    {
+     "w": "drei Euro fünfundzwanzig",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Kartoffeln — их много, поэтому kosten (с -n). Цену называют так: евро, потом центы: drei Euro fünfundzwanzig — «три евро двадцать пять».",
+   "topic": "verb2",
+   "why_de": "Die Kartoffeln · kosten · drei Euro fünfundzwanzig: действие kosten — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Картофель стоит три евро двадцать пять» — Die Kartoffeln kosten drei Euro fünfundzwanzig. Разница одна: по-немецки kosten держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Die Kartoffeln drei Euro fünfundzwanzig kosten.",
+    "ru": "Действие kosten уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе kosten — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "Kartoffeln — их много, поэтому kosten (с -n). Цену называют так: евро, потом центы: drei Euro fünfundzwanzig — «три евро двадцать пять»."
+  },
+  "audio": "audio_v1/ch06_021.mp3",
+  "tts": "Die Kartoffeln kosten drei Euro fünfundzwanzig.",
+  "ipa": [
+   {
+    "w": "Die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kartoffeln",
+    "ipa": "[kaʁˈtɔfl̩n]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "kosten",
+    "ipa": "[ˈkɔstn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "drei",
+    "ipa": "[dʁaɪ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Euro",
+    "ipa": "[ˈɔɪ̯ʁo]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "fünfundzwanzig",
+    "ipa": "[ˌfʏnfʔʊntˈt͡svant͡sɪç]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_022",
+  "de": "Die Flasche Wasser kostet fünfzig Cent und fünfundzwanzig Cent Pfand.",
+  "ru": "Бутылка воды стоит пятьдесят центов и ещё двадцать пять центов залог.",
+  "nouns": [
+   {
+    "lemma": "Flasche",
+    "art": "die",
+    "pl": "Flaschen"
+   },
+   {
+    "lemma": "Wasser",
+    "art": "das",
+    "pl": "Wasser"
+   },
+   {
+    "lemma": "Cent",
+    "art": "der",
+    "pl": "Cent"
+   },
+   {
+    "lemma": "Pfand",
+    "art": "das",
+    "pl": "Pfänder"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Die Flasche Wasser",
+     "role": "кто"
+    },
+    {
+     "w": "kostet",
+     "role": "действие №2"
+    },
+    {
+     "w": "fünfzig Cent und fünfundzwanzig Cent Pfand",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Flasche — одна, поэтому kostet. Pfand — залог за бутылку: его платят сверху и получают назад, когда сдают бутылку.",
+   "topic": "verb2",
+   "why_de": "Die Flasche Wasser · kostet · fünfzig Cent und fünfundzwanzig Cent Pfand: действие kostet — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Бутылка воды стоит пятьдесят центов и ещё двадцать пять центов залог» — Die Flasche Wasser kostet fünfzig Cent und fünfundzwanzig Cent Pfand. Разница одна: по-немецки kostet держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Die Flasche Wasser fünfzig Cent und fünfundzwanzig Cent Pfand kostet.",
+    "ru": "Действие kostet уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе kostet — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "Flasche — одна, поэтому kostet. Pfand — залог за бутылку: его платят сверху и получают назад, когда сдают бутылку."
+  },
+  "audio": "audio_v1/ch06_022.mp3",
+  "tts": "Die Flasche Wasser kostet fünfzig Cent und fünfundzwanzig Cent Pfand.",
+  "ipa": [
+   {
+    "w": "Die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Flasche",
+    "ipa": "[ˈflaʃə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wasser",
+    "ipa": "[ˈvasɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "kostet",
+    "ipa": "[ˈkɔstət]",
+    "src": "override"
+   },
+   {
+    "w": "fünfzig",
+    "ipa": "[ˈfʏnft͡sɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Cent",
+    "ipa": "[t͡sɛnt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "und",
+    "ipa": "[ʊnt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "fünfundzwanzig",
+    "ipa": "[ˌfʏnfʔʊntˈt͡svant͡sɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Cent",
+    "ipa": "[t͡sɛnt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Pfand",
+    "ipa": "[p͡fant]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_023",
+  "de": "Das macht vier Euro.",
+  "ru": "Итого четыре евро.",
+  "nouns": [
+   {
+    "lemma": "Euro",
+    "art": "der",
+    "pl": "Euro"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Das",
+     "role": "кто"
+    },
+    {
+     "w": "macht",
+     "role": "действие №2"
+    },
+    {
+     "w": "vier Euro",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Кассир называет итог: das macht — дословно «это делает», по-русски «итого, с вас». Действие macht — в вагоне №2.",
+   "topic": "verb2",
+   "why_de": "Das · macht · vier Euro: действие macht — вагон №2, опора всего предложения.",
+   "why_ru": "По-русски «Итого четыре евро» — другие слова: это готовая фраза у кассы. Дословно Das macht … — это делает …, по-русски «итого». Действие macht держит вагон №2: Das macht vier Euro.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Das vier Euro macht.",
+    "ru": "Действие macht уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе macht — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "Кассир называет итог: das macht — дословно «это делает», по-русски «итого, с вас». Действие macht — в вагоне №2."
+  },
+  "audio": "audio_v1/ch06_023.mp3",
+  "tts": "Das macht vier Euro.",
+  "ipa": [
+   {
+    "w": "Das",
+    "ipa": "[das]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "macht",
+    "ipa": "[maxt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "vier",
+    "ipa": "[fiːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Euro",
+    "ipa": "[ˈɔɪ̯ʁo]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_024",
+  "de": "Mit Karte oder bar?",
+  "ru": "Картой или наличными?",
+  "nouns": [
+   {
+    "lemma": "Karte",
+    "art": "die",
+    "pl": "Karten"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Mit Karte",
+     "role": "какой/как"
+    },
+    {
+     "w": "oder",
+     "role": "связка"
+    },
+    {
+     "w": "bar",
+     "role": "какой/как"
+    }
+   ],
+   "text": "Готовый вопрос кассира: mit Karte — «картой», bar — «наличными». Учим целиком.",
+   "topic": "word_order",
+   "why_de": "Короткий вопрос без действия: Mit Karte (как?) · oder («или») · bar (как?). Действие понятно из ситуации, его не говорят.",
+   "why_ru": "По-русски так же коротко: «Картой или наличными?».",
+   "layer": "short",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — отвечать «да» или «нет». В вопросе с oder («или») выбирают одно из двух: Mit Karte · bar."
+   },
+   "root": null,
+   "why_voice_ru": "Готовый вопрос кассира: mit Karte — «картой», bar — «наличными». Учим целиком."
+  },
+  "audio": "audio_v1/ch06_024.mp3",
+  "tts": "Mit Karte oder bar?",
+  "ipa": [
+   {
+    "w": "Mit",
+    "ipa": "[mɪt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Karte",
+    "ipa": "[ˈkaʁtə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "oder",
+    "ipa": "[ˈoːdɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "bar",
+    "ipa": "[baːɐ̯]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_025",
+  "de": "Mit Karte, bitte.",
+  "ru": "Картой, пожалуйста.",
+  "nouns": [
+   {
+    "lemma": "Karte",
+    "art": "die",
+    "pl": "Karten"
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#406342 CC BY 2.0 FR (автор xtofu80)",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Mit Karte",
+     "role": "кого-что"
+    },
+    {
+     "w": "bitte",
+     "role": "привет/вежливость"
+    }
+   ],
+   "text": "Короткий ответ без действия: mit Karte — «картой», bitte — «пожалуйста».",
+   "topic": "word_order",
+   "why_de": "bitte — готовая формула, дальше кусок по словам: Mit Karte (что?).",
+   "why_ru": "По-русски так же коротко: «Картой, пожалуйста».",
+   "layer": "short",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — заучить всю фразу одним куском. Готовая формула тут только bitte, остальное — слова под ситуацию."
+   },
+   "root": null,
+   "why_voice_ru": "Короткий ответ без действия: mit Karte — «картой», bitte — «пожалуйста»."
+  },
+  "audio": "audio_v1/ch06_025.mp3",
+  "tts": "Mit Karte, bitte.",
+  "ipa": [
+   {
+    "w": "Mit",
+    "ipa": "[mɪt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Karte",
+    "ipa": "[ˈkaʁtə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "bitte",
+    "ipa": "[ˈbɪtə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_026",
+  "de": "Was kostet die Flasche Wasser?",
+  "ru": "Сколько стоит бутылка воды?",
+  "nouns": [
+   {
+    "lemma": "Flasche",
+    "art": "die",
+    "pl": "Flaschen"
+   },
+   {
+    "lemma": "Wasser",
+    "art": "das",
+    "pl": "Wasser"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Was",
+     "role": "вопрос-слово",
+     "asks": "кого-что"
+    },
+    {
+     "w": "kostet",
+     "role": "действие №2"
+    },
+    {
+     "w": "die Flasche Wasser",
+     "role": "кто"
+    }
+   ],
+   "text": "Один предмет — kostet. die Flasche — die-слово, поэтому die. Wasser после меры — без артикля.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Was — вагон №1, действие kostet — сразу за ним, вагон №2: Was kostet die Flasche Wasser? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Сколько стоит бутылка воды» можно сказать и в другом порядке. По-немецки порядок один: Was · kostet · die Flasche Wasser.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Was die Flasche Wasser kostet?",
+    "ru": "die Flasche Wasser встал перед kostet — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": null,
+   "why_voice_ru": "Один предмет — kostet. die Flasche — die-слово, поэтому die. Wasser после меры — без артикля.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "вопрос-слово · действие (вагон №2) · «кто»",
+    "items": [
+     {
+      "id": "ch06_020",
+      "de": "Was kostet das?",
+      "ru": "Сколько это стоит?",
+      "audio": "audio_v1/ch06_020.mp3",
+      "lesson": "L3",
+      "part": 3,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "die Flasche Wasser",
+       "to": "das"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Was · kostet. В каждом примере меняется один вагон — «кто»: die Flasche Wasser → das. Действие kostet всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch06_026.mp3",
+  "tts": "Was kostet die Flasche Wasser?",
+  "ipa": [
+   {
+    "w": "Was",
+    "ipa": "[vas]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "kostet",
+    "ipa": "[ˈkɔstət]",
+    "src": "override"
+   },
+   {
+    "w": "die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Flasche",
+    "ipa": "[ˈflaʃə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wasser",
+    "ipa": "[ˈvasɐ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_027",
+  "de": "Butter, Milch, Marmelade, Ei, Schinken, Orangensaft, Zitrone, Bohne.",
+  "ru": "Масло, молоко, джем, яйцо, ветчина, апельсиновый сок, лимон, фасоль.",
+  "nouns": [
+   {
+    "lemma": "Butter",
+    "art": "die",
+    "pl": ""
+   },
+   {
+    "lemma": "Milch",
+    "art": "die",
+    "pl": ""
+   },
+   {
+    "lemma": "Marmelade",
+    "art": "die",
+    "pl": "Marmeladen"
+   },
+   {
+    "lemma": "Ei",
+    "art": "das",
+    "pl": "Eier"
+   },
+   {
+    "lemma": "Schinken",
+    "art": "der",
+    "pl": "Schinken"
+   },
+   {
+    "lemma": "Orangensaft",
+    "art": "der",
+    "pl": "Orangensäfte"
+   },
+   {
+    "lemma": "Zitrone",
+    "art": "die",
+    "pl": "Zitronen"
+   },
+   {
+    "lemma": "Bohne",
+    "art": "die",
+    "pl": "Bohnen"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Butter",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Milch",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Marmelade",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Ei",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Schinken",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Orangensaft",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Zitrone",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Bohne",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Слова курса — продукты: die Butter, die Milch, die Marmelade, das Ei, der Schinken, der Orangensaft, die Zitrone, die Bohne.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: die Butter — масло · die Milch — молоко · die Marmelade — джем · das Ei — яйцо · der Schinken — ветчина · der Orangensaft — апельсиновый сок · die Zitrone — лимон · die Bohne — фасоль.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: die Butter, die Milch, die Marmelade, das Ei, der Schinken, der Orangensaft, die Zitrone, die Bohne."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса — продукты: die Butter, die Milch, die Marmelade, das Ei, der Schinken, der Orangensaft, die Zitrone, die Bohne."
+  },
+  "audio": "audio_v1/ch06_027.mp3",
+  "tts": "Butter, Milch, Marmelade, Ei, Schinken, Orangensaft, Zitrone, Bohne.",
+  "ipa": [
+   {
+    "w": "Butter",
+    "ipa": "[ˈbʊtɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Milch",
+    "ipa": "[mɪlç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Marmelade",
+    "ipa": "[ˌmaʁməˈlaːdə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Ei",
+    "ipa": "[aɪ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Schinken",
+    "ipa": "[ˈʃɪŋkn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Orangensaft",
+    "ipa": "[oˈʁɑ̃ːʒn̩ˌzaft]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Zitrone",
+    "ipa": "[t͡siˈtʁoːnə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bohne",
+    "ipa": "[ˈboːnə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_028",
+  "de": "Was kosten die Kartoffeln?",
+  "ru": "Сколько стоит картофель?",
+  "nouns": [
+   {
+    "lemma": "Kartoffel",
+    "art": "die",
+    "pl": "Kartoffeln"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Was",
+     "role": "вопрос-слово",
+     "asks": "кого-что"
+    },
+    {
+     "w": "kosten",
+     "role": "действие №2"
+    },
+    {
+     "w": "die Kartoffeln",
+     "role": "кто"
+    }
+   ],
+   "text": "Kartoffeln — их много, поэтому kosten (с -n). Вопрос: что? стоят! — Was kosten die Kartoffeln?",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Was — вагон №1, действие kosten — сразу за ним, вагон №2: Was kosten die Kartoffeln? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Сколько стоит картофель» можно сказать и в другом порядке. По-немецки порядок один: Was · kosten · die Kartoffeln.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Was die Kartoffeln kosten?",
+    "ru": "die Kartoffeln встал перед kosten — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": null,
+   "why_voice_ru": "Kartoffeln — их много, поэтому kosten (с -n). Вопрос: что? стоят! — Was kosten die Kartoffeln?"
+  },
+  "audio": "audio_v1/ch06_028.mp3",
+  "tts": "Was kosten die Kartoffeln?",
+  "ipa": [
+   {
+    "w": "Was",
+    "ipa": "[vas]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "kosten",
+    "ipa": "[ˈkɔstn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kartoffeln",
+    "ipa": "[kaʁˈtɔfl̩n]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_029",
+  "de": "Guten Abend!",
+  "ru": "Добрый вечер!",
+  "nouns": [
+   {
+    "lemma": "Abend",
+    "art": "der",
+    "pl": "Abende"
+   }
+  ],
+  "chunk": true,
+  "source": "tatoeba:#438751 CC BY 2.0 FR (автор xtofu80)",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Guten Abend",
+     "role": "привет/вежливость"
+    }
+   ],
+   "text": "Вечернее приветствие, учим целиком: guten Abend — «добрый вечер».",
+   "topic": "word_order",
+   "why_de": "Готовое пожелание «(желаю) доброго вечера».",
+   "why_ru": "Как русское «добрый вечер».",
+   "layer": "chunk",
+   "why_not": {
+    "wrong": "Gute Abend!",
+    "ru": "Частая ошибка — Gute вместо Guten. Вечером говорят Guten Abend."
+   },
+   "source": "tools/why_chunks.json",
+   "root": null,
+   "why_voice_ru": "Вечернее приветствие, учим целиком: guten Abend — «добрый вечер»."
+  },
+  "audio": "audio_v1/ch06_029.mp3",
+  "tts": "Guten Abend! Guten Abend!",
+  "ipa": [
+   {
+    "w": "Guten",
+    "ipa": "[ˈɡuːtn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Abend",
+    "ipa": "[ˈaːbn̩t]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_030",
+  "de": "Danke für die Einladung!",
+  "ru": "Спасибо за приглашение!",
+  "nouns": [
+   {
+    "lemma": "Einladung",
+    "art": "die",
+    "pl": "Einladungen"
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#1590910 CC BY 2.0 FR (автор Zaghawa)",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Danke",
+     "role": "привет/вежливость"
+    },
+    {
+     "w": "für die Einladung",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "Благодарим за что-то: danke für … — «спасибо за …». Einladung — приглашение, die-слово.",
+   "topic": "word_order",
+   "why_de": "Danke — готовая формула, дальше кусок по словам: für die Einladung (хвост действия).",
+   "why_ru": "По-русски так же коротко: «Спасибо за приглашение».",
+   "layer": "short",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — заучить всю фразу одним куском. Готовая формула тут только Danke, остальное — слова под ситуацию."
+   },
+   "root": null,
+   "why_voice_ru": "Благодарим за что-то: danke für … — «спасибо за …». Einladung — приглашение, die-слово."
+  },
+  "audio": "audio_v1/ch06_030.mp3",
+  "tts": "Danke für die Einladung!",
+  "ipa": [
+   {
+    "w": "Danke",
+    "ipa": "[ˈdaŋkə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "für",
+    "ipa": "[fyːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Einladung",
+    "ipa": "[ˈaɪ̯nˌlaːdʊŋ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_031",
+  "de": "Nimmst du den Salat oder die Suppe?",
+  "ru": "Ты возьмёшь салат или суп?",
+  "nouns": [
+   {
+    "lemma": "Salat",
+    "art": "der",
+    "pl": "Salate"
+   },
+   {
+    "lemma": "Suppe",
+    "art": "die",
+    "pl": "Suppen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Nimmst",
+     "role": "действие №1"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "den Salat oder die Suppe",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Вопрос без слова-вопроса: действие в начале. Выбор: den Salat oder die Suppe — у салата der стал den, у die Suppe ничего не меняется.",
+   "topic": "akkusativ",
+   "why_de": "Вопрос «или»: действие Nimmst впереди, в вагоне №1, как в вопросе «да/нет». Но «да» или «нет» тут не ответ: надо выбрать — den Salat или die Suppe. Голос: на den Salat вверх ↗, на die Suppe вниз ↘.",
+   "why_ru": "По-русски так же: «Ты возьмёшь салат или суп» — вопрос делает слово «или». Разница одна: по-немецки действие Nimmst стоит впереди, в вагоне №1.",
+   "layer": "alt",
+   "why_not": {
+    "wrong": "Du nimmst den Salat oder die Suppe?",
+    "ru": "Русский порядок: «кто» (du) перед действием. Немец поймёт, но сразу услышит ошибку: вопрос «или» начинают с действия Nimmst."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "Вопрос без слова-вопроса: действие в начале. Выбор: den Salat oder die Suppe — у салата der стал den, у die Suppe ничего не меняется."
+  },
+  "audio": "audio_v1/ch06_031.mp3",
+  "tts": "Nimmst du den Salat oder die Suppe?",
+  "ipa": [
+   {
+    "w": "Nimmst",
+    "ipa": "[nɪmst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "den",
+    "ipa": "[deːn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Salat",
+    "ipa": "[zaˈlaːt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "oder",
+    "ipa": "[ˈoːdɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Suppe",
+    "ipa": "[ˈzʊpə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_032",
+  "de": "Ich nehme den Salat.",
+  "ru": "Я возьму салат.",
+  "nouns": [
+   {
+    "lemma": "Salat",
+    "art": "der",
+    "pl": "Salate"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "nehme",
+     "role": "действие №2"
+    },
+    {
+     "w": "den Salat",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Салат — мужской: der Salat. Когда его берут, это вагон «кого-что», и der становится den: ich nehme den Salat. Для ich — nehme, для du — nimmst: е меняется на i.",
+   "topic": "akkusativ",
+   "why_de": "Артикль — сигнал роли: der → den/einen показывает «кого-что»: Ich nehme den Salat.",
+   "why_ru": "Похоже на русские окончания, только меняется не слово, а артикль: Ich nehme den Salat.",
+   "layer": "akk",
+   "why_not": {
+    "wrong": "Ich nehme der Salat.",
+    "ru": "Русская привычка: артикль не меняется. Немец слышит не ту роль: тут der-слово в роли «кого-что» — den."
+   },
+   "root": null,
+   "why_voice_ru": "Салат — мужской: der Salat. Когда его берут, это вагон «кого-что», и der становится den: ich nehme den Salat."
+  },
+  "audio": "audio_v1/ch06_032.mp3",
+  "tts": "Ich nehme den Salat.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "nehme",
+    "ipa": "[ˈneːmə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "den",
+    "ipa": "[deːn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Salat",
+    "ipa": "[zaˈlaːt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_033",
+  "de": "Nimmst du auch den Fisch?",
+  "ru": "Ты возьмёшь и рыбу?",
+  "nouns": [
+   {
+    "lemma": "Fisch",
+    "art": "der",
+    "pl": "Fische"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Nimmst",
+     "role": "действие №1"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "auch den Fisch",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Тот же вопрос: действие nimmst в начале. Fisch — der, а в вагоне «кого-что» der становится den.",
+   "topic": "akkusativ",
+   "why_de": "Действие впереди (Nimmst) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Nimmst du auch den Fisch?",
+   "why_ru": "По-русски «Ты возьмёшь и рыбу» — вопрос только голосом, порядок как в ответе. По-немецки действие Nimmst выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Du nimmst auch den Fisch?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Ты возьмёшь и рыбу?!»). Обычный вопрос — действие впереди."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "Тот же вопрос: действие nimmst в начале. Fisch — der, а в вагоне «кого-что» der становится den.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "действие (вагон №1) · «кто» · «что»",
+    "items": [
+     {
+      "id": "ch06_031",
+      "de": "Nimmst du den Salat oder die Suppe?",
+      "ru": "Ты возьмёшь салат или суп?",
+      "audio": "audio_v1/ch06_031.mp3",
+      "lesson": "L4",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "auch den Fisch",
+       "to": "den Salat oder die Suppe"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Nimmst · du. В каждом примере меняется один вагон — «что»: auch den Fisch → den Salat oder die Suppe. Действие Nimmst всё так же в вагоне №1.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch06_033.mp3",
+  "tts": "Nimmst du auch den Fisch?",
+  "ipa": [
+   {
+    "w": "Nimmst",
+    "ipa": "[nɪmst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "auch",
+    "ipa": "[aʊ̯x]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "den",
+    "ipa": "[deːn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fisch",
+    "ipa": "[fɪʃ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_034",
+  "de": "Der Fisch schmeckt sehr gut!",
+  "ru": "Рыба очень хороша на вкус!",
+  "nouns": [
+   {
+    "lemma": "Fisch",
+    "art": "der",
+    "pl": "Fische"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Der Fisch",
+     "role": "кто"
+    },
+    {
+     "w": "schmeckt",
+     "role": "действие №2"
+    },
+    {
+     "w": "sehr gut",
+     "role": "какой/как"
+    }
+   ],
+   "text": "Комплимент: der Fisch — тот, кто «делает» (вкусный), поэтому здесь der, а не den. schmeckt — «на вкус».",
+   "topic": "verb2",
+   "why_de": "Der Fisch · schmeckt · sehr gut: действие schmeckt — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Рыба очень хороша на вкус» — Der Fisch schmeckt sehr gut! Разница одна: по-немецки schmeckt держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Der Fisch sehr gut schmeckt!",
+    "ru": "Действие schmeckt уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе schmeckt — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "Комплимент: der Fisch — тот, кто «делает» (вкусный), поэтому здесь der, а не den. schmeckt — «на вкус»."
+  },
+  "audio": "audio_v1/ch06_034.mp3",
+  "tts": "Der Fisch schmeckt sehr gut!",
+  "ipa": [
+   {
+    "w": "Der",
+    "ipa": "[deːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fisch",
+    "ipa": "[fɪʃ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "schmeckt",
+    "ipa": "[ʃmɛkt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "sehr",
+    "ipa": "[zeːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gut",
+    "ipa": "[ɡuːt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_035",
+  "de": "Ich nehme den Fisch.",
+  "ru": "Я возьму рыбу.",
+  "nouns": [
+   {
+    "lemma": "Fisch",
+    "art": "der",
+    "pl": "Fische"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "nehme",
+     "role": "действие №2"
+    },
+    {
+     "w": "den Fisch",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Рыба — der Fisch. Берут её — вагон «кого-что», поэтому den Fisch.",
+   "topic": "akkusativ",
+   "why_de": "Артикль — сигнал роли: der → den/einen показывает «кого-что»: Ich nehme den Fisch.",
+   "why_ru": "Похоже на русские окончания, только меняется не слово, а артикль: Ich nehme den Fisch.",
+   "layer": "akk",
+   "why_not": {
+    "wrong": "Ich nehme der Fisch.",
+    "ru": "Русская привычка: артикль не меняется. Немец слышит не ту роль: тут der-слово в роли «кого-что» — den."
+   },
+   "root": null,
+   "why_voice_ru": "Рыба — der Fisch. Берут её — вагон «кого-что», поэтому den Fisch.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «что»",
+    "items": [
+     {
+      "id": "ch06_032",
+      "de": "Ich nehme den Salat.",
+      "ru": "Я возьму салат.",
+      "audio": "audio_v1/ch06_032.mp3",
+      "lesson": "L4",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "den Fisch",
+       "to": "den Salat"
+      }
+     },
+     {
+      "id": "ch06_036",
+      "de": "Ich nehme die Suppe.",
+      "ru": "Я возьму суп.",
+      "audio": "audio_v1/ch06_036.mp3",
+      "lesson": "L4",
+      "part": 5,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "den Fisch",
+       "to": "die Suppe"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ich · nehme. В каждом примере меняется один вагон — «что»: den Fisch → den Salat → die Suppe. Действие nehme всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch06_035.mp3",
+  "tts": "Ich nehme den Fisch.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "nehme",
+    "ipa": "[ˈneːmə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "den",
+    "ipa": "[deːn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fisch",
+    "ipa": "[fɪʃ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_036",
+  "de": "Ich nehme die Suppe.",
+  "ru": "Я возьму суп.",
+  "nouns": [
+   {
+    "lemma": "Suppe",
+    "art": "die",
+    "pl": "Suppen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "nehme",
+     "role": "действие №2"
+    },
+    {
+     "w": "die Suppe",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Суп — die Suppe. У die-слов метка в вагоне «кого-что» не меняется: die остаётся die.",
+   "topic": "akkusativ",
+   "why_de": "Ich · nehme · die Suppe: действие nehme — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Я возьму суп» — Ich nehme die Suppe. Разница одна: по-немецки nehme держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich die Suppe nehme.",
+    "ru": "Действие nehme уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе nehme — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "Суп — die Suppe. У die-слов метка в вагоне «кого-что» не меняется: die остаётся die.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «что»",
+    "items": [
+     {
+      "id": "ch06_032",
+      "de": "Ich nehme den Salat.",
+      "ru": "Я возьму салат.",
+      "audio": "audio_v1/ch06_032.mp3",
+      "lesson": "L4",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "die Suppe",
+       "to": "den Salat"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ich · nehme. В каждом примере меняется один вагон — «что»: die Suppe → den Salat. Действие nehme всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch06_036.mp3",
+  "tts": "Ich nehme die Suppe.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "nehme",
+    "ipa": "[ˈneːmə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Suppe",
+    "ipa": "[ˈzʊpə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_037",
+  "de": "Das schmeckt sehr gut!",
+  "ru": "Очень хорошо на вкус!",
+  "nouns": [],
+  "chunk": false,
+  "source": "tatoeba:#901690 CC BY 2.0 FR (автор futureboy)",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Das",
+     "role": "кто"
+    },
+    {
+     "w": "schmeckt",
+     "role": "действие №2"
+    },
+    {
+     "w": "sehr gut",
+     "role": "какой/как"
+    }
+   ],
+   "text": "Короткий комплимент хозяйке: das schmeckt sehr gut — «это очень вкусно». Действие schmeckt — в вагоне №2.",
+   "topic": "verb2",
+   "why_de": "Das · schmeckt · sehr gut: действие schmeckt — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Очень хорошо на вкус» — Das schmeckt sehr gut! Разница одна: по-немецки schmeckt держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Das sehr gut schmeckt!",
+    "ru": "Действие schmeckt уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе schmeckt — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "Короткий комплимент хозяйке: das schmeckt sehr gut — «это очень вкусно». Действие schmeckt — в вагоне №2.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «как»",
+    "items": [
+     {
+      "id": "ch06_034",
+      "de": "Der Fisch schmeckt sehr gut!",
+      "ru": "Рыба очень хороша на вкус!",
+      "audio": "audio_v1/ch06_034.mp3",
+      "lesson": "L4",
+      "part": 3,
+      "changed": {
+       "role": "кто",
+       "wagon": 1,
+       "from": "Das",
+       "to": "Der Fisch"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: schmeckt · sehr gut. В каждом примере меняется один вагон — «кто»: Das → Der Fisch. Действие schmeckt всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch06_037.mp3",
+  "tts": "Das schmeckt sehr gut!",
+  "ipa": [
+   {
+    "w": "Das",
+    "ipa": "[das]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "schmeckt",
+    "ipa": "[ʃmɛkt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "sehr",
+    "ipa": "[zeːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gut",
+    "ipa": "[ɡuːt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_038",
+  "de": "Abendessen, Essen, Tisch, Teller, Messer, Gabeln, Löffel, Gläser, Servietten, Blumen, Getränke, Wein, Nachtisch, Obstsalat.",
+  "ru": "Ужин, еда, стол, тарелка, нож, вилки, ложка, стаканы, салфетки, цветы, напитки, вино, десерт, фруктовый салат.",
+  "nouns": [
+   {
+    "lemma": "Abendessen",
+    "art": "das",
+    "pl": "Abendessen"
+   },
+   {
+    "lemma": "Essen",
+    "art": "das",
+    "pl": "Essen"
+   },
+   {
+    "lemma": "Tisch",
+    "art": "der",
+    "pl": "Tische"
+   },
+   {
+    "lemma": "Teller",
+    "art": "der",
+    "pl": "Teller"
+   },
+   {
+    "lemma": "Messer",
+    "art": "das",
+    "pl": "Messer"
+   },
+   {
+    "lemma": "Gabel",
+    "art": "die",
+    "pl": "Gabeln"
+   },
+   {
+    "lemma": "Löffel",
+    "art": "der",
+    "pl": "Löffel"
+   },
+   {
+    "lemma": "Glas",
+    "art": "das",
+    "pl": "Gläser"
+   },
+   {
+    "lemma": "Serviette",
+    "art": "die",
+    "pl": "Servietten"
+   },
+   {
+    "lemma": "Blume",
+    "art": "die",
+    "pl": "Blumen"
+   },
+   {
+    "lemma": "Getränk",
+    "art": "das",
+    "pl": "Getränke"
+   },
+   {
+    "lemma": "Wein",
+    "art": "der",
+    "pl": "Weine"
+   },
+   {
+    "lemma": "Nachtisch",
+    "art": "der",
+    "pl": "Nachtische"
+   },
+   {
+    "lemma": "Obstsalat",
+    "art": "der",
+    "pl": "Obstsalate"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Abendessen",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Essen",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Tisch",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Teller",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Messer",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Gabeln",
+     "role": "слово"
+    },
+    {
+     "w": "Löffel",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Gläser",
+     "role": "слово"
+    },
+    {
+     "w": "Servietten",
+     "role": "слово"
+    },
+    {
+     "w": "Blumen",
+     "role": "слово"
+    },
+    {
+     "w": "Getränke",
+     "role": "слово"
+    },
+    {
+     "w": "Wein",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Nachtisch",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Obstsalat",
+     "role": "слово",
+     "art": "der"
+    }
+   ],
+   "text": "Слова курса — стол и ужин (страница 106): das Abendessen, das Essen, der Tisch, der Teller, das Messer, die Gabel, der Löffel, das Glas, die Serviette, die Blume, das Getränk, der Wein, der Nachtisch, der Obstsalat.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: das Abendessen — ужин · das Essen — еда · der Tisch — стол · der Teller — тарелка · das Messer — нож · die Gabeln — вилки · der Löffel — ложка · die Gläser — стаканы · die Servietten — салфетки · die Blumen — цветы · die Getränke — напитки · der Wein — вино · der Nachtisch — десерт · der Obstsalat — фруктовый салат.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: das Abendessen, das Essen, der Tisch, der Teller, das Messer, der Löffel, der Wein, der Nachtisch, der Obstsalat."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса — стол и ужин (страница 106): das Abendessen, das Essen, der Tisch, der Teller, das Messer, die Gabel, der Löffel, das Glas, die"
+  },
+  "audio": "audio_v1/ch06_038.mp3",
+  "tts": "Abendessen, Essen, Tisch, Teller, Messer, Gabeln, Löffel, Gläser, Servietten, Blumen, Getränke, Wein, Nachtisch, Obstsalat.",
+  "ipa": [
+   {
+    "w": "Abendessen",
+    "ipa": "[ˈaːbn̩tˌʔɛsn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Essen",
+    "ipa": "[ˈɛsn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Tisch",
+    "ipa": "[tɪʃ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Teller",
+    "ipa": "[ˈtɛlɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Messer",
+    "ipa": "[ˈmɛsɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Gabeln",
+    "ipa": "[ˈɡaːbl̩n]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Löffel",
+    "ipa": "[ˈlœfl̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Gläser",
+    "ipa": "[ˈɡlɛːzɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Servietten",
+    "ipa": "[zɛʁˈvi̯ɛtn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Blumen",
+    "ipa": "[ˈbluːmən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Getränke",
+    "ipa": "[ɡəˈtʁɛŋkə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wein",
+    "ipa": "[vaɪ̯n]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Nachtisch",
+    "ipa": "[ˈnaːxˌtɪʃ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Obstsalat",
+    "ipa": "[ˈoːpstzaˌlaːt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_039",
+  "de": "Kuchen, Oliven, Würstchen, Eier, Bohnen, Zitronen, Kühlschrank, Einkaufszettel, Verkäuferin, Verkäufer, Käufer.",
+  "ru": "Пирог, оливки, сосиски, яйца, фасоль, лимоны, холодильник, список покупок, продавщица, продавец, покупатель.",
+  "nouns": [
+   {
+    "lemma": "Kuchen",
+    "art": "der",
+    "pl": "Kuchen"
+   },
+   {
+    "lemma": "Olive",
+    "art": "die",
+    "pl": "Oliven"
+   },
+   {
+    "lemma": "Würstchen",
+    "art": "das",
+    "pl": "Würstchen"
+   },
+   {
+    "lemma": "Ei",
+    "art": "das",
+    "pl": "Eier"
+   },
+   {
+    "lemma": "Bohne",
+    "art": "die",
+    "pl": "Bohnen"
+   },
+   {
+    "lemma": "Zitrone",
+    "art": "die",
+    "pl": "Zitronen"
+   },
+   {
+    "lemma": "Kühlschrank",
+    "art": "der",
+    "pl": "Kühlschränke"
+   },
+   {
+    "lemma": "Einkaufszettel",
+    "art": "der",
+    "pl": "Einkaufszettel"
+   },
+   {
+    "lemma": "Verkäuferin",
+    "art": "die",
+    "pl": "Verkäuferinnen"
+   },
+   {
+    "lemma": "Verkäufer",
+    "art": "der",
+    "pl": "Verkäufer"
+   },
+   {
+    "lemma": "Käufer",
+    "art": "der",
+    "pl": "Käufer"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Kuchen",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Oliven",
+     "role": "слово"
+    },
+    {
+     "w": "Würstchen",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Eier",
+     "role": "слово"
+    },
+    {
+     "w": "Bohnen",
+     "role": "слово"
+    },
+    {
+     "w": "Zitronen",
+     "role": "слово"
+    },
+    {
+     "w": "Kühlschrank",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Einkaufszettel",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Verkäuferin",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Verkäufer",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Käufer",
+     "role": "слово",
+     "art": "der"
+    }
+   ],
+   "text": "Слова курса — продукты и покупки (страницы 105 и 107): der Kuchen, die Olive, das Würstchen, das Ei, die Bohne, die Zitrone, der Kühlschrank, der Einkaufszettel, die Verkäuferin, der Verkäufer, der Käufer.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Kuchen — пирог · die Oliven — оливки · das Würstchen (ед. ч.) — сосиски · die Eier — яйца · die Bohnen — фасоль · die Zitronen — лимоны · der Kühlschrank — холодильник · der Einkaufszettel — список покупок · die Verkäuferin — продавщица · der Verkäufer — продавец · der Käufer — покупатель.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Kuchen, das Würstchen, der Kühlschrank, der Einkaufszettel, die Verkäuferin, der Verkäufer, der Käufer."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса — продукты и покупки (страницы 105 и 107): der Kuchen, die Olive, das Würstchen, das Ei, die Bohne, die Zitrone, der Kühlschrank, der"
+  },
+  "audio": "audio_v1/ch06_039.mp3",
+  "tts": "Kuchen, Oliven, Würstchen, Eier, Bohnen, Zitronen, Kühlschrank, Einkaufszettel, Verkäuferin, Verkäufer, Käufer.",
+  "ipa": [
+   {
+    "w": "Kuchen",
+    "ipa": "[ˈkuːxn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Oliven",
+    "ipa": "[oˈliːvn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Würstchen",
+    "ipa": "[ˈvʏʁstçən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Eier",
+    "ipa": "[ˈaɪ̯ɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bohnen",
+    "ipa": "[ˈboːnən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Zitronen",
+    "ipa": "[t͡siˈtʁoːnən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kühlschrank",
+    "ipa": "[ˈkyːlˌʃʁaŋk]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Einkaufszettel",
+    "ipa": "[ˈaɪ̯nkaʊ̯fsˌt͡sɛtl̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Verkäuferin",
+    "ipa": "[fɛɐ̯ˈkɔɪ̯fəʁɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Verkäufer",
+    "ipa": "[fɛɐ̯ˈkɔɪ̯fɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Käufer",
+    "ipa": "[ˈkɔɪ̯fɐ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_040",
+  "de": "Bananen, Orangen, Äpfel, Pilze, Karotten, Zwiebeln, Tomaten, Olivenöl, Supermarkt.",
+  "ru": "Бананы, апельсины, яблоки, грибы, морковь, лук, помидоры, оливковое масло, супермаркет.",
+  "nouns": [
+   {
+    "lemma": "Banane",
+    "art": "die",
+    "pl": "Bananen"
+   },
+   {
+    "lemma": "Orange",
+    "art": "die",
+    "pl": "Orangen"
+   },
+   {
+    "lemma": "Apfel",
+    "art": "der",
+    "pl": "Äpfel"
+   },
+   {
+    "lemma": "Pilz",
+    "art": "der",
+    "pl": "Pilze"
+   },
+   {
+    "lemma": "Karotte",
+    "art": "die",
+    "pl": "Karotten"
+   },
+   {
+    "lemma": "Zwiebel",
+    "art": "die",
+    "pl": "Zwiebeln"
+   },
+   {
+    "lemma": "Tomate",
+    "art": "die",
+    "pl": "Tomaten"
+   },
+   {
+    "lemma": "Olivenöl",
+    "art": "das",
+    "pl": "Olivenöle"
+   },
+   {
+    "lemma": "Supermarkt",
+    "art": "der",
+    "pl": "Supermärkte"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Bananen",
+     "role": "слово"
+    },
+    {
+     "w": "Orangen",
+     "role": "слово"
+    },
+    {
+     "w": "Äpfel",
+     "role": "слово"
+    },
+    {
+     "w": "Pilze",
+     "role": "слово"
+    },
+    {
+     "w": "Karotten",
+     "role": "слово"
+    },
+    {
+     "w": "Zwiebeln",
+     "role": "слово"
+    },
+    {
+     "w": "Tomaten",
+     "role": "слово"
+    },
+    {
+     "w": "Olivenöl",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Supermarkt",
+     "role": "слово",
+     "art": "der"
+    }
+   ],
+   "text": "Слова курса — продукты во множественном числе (страницы 102 и 103): много бананов, апельсинов, яблок, грибов, морковок, луковиц, помидоров.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: die Bananen — бананы · die Orangen — апельсины · die Äpfel — яблоки · die Pilze — грибы · die Karotten — морковь · die Zwiebeln — лук · die Tomaten — помидоры · das Olivenöl — оливковое масло · der Supermarkt — супермаркет.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: das Olivenöl, der Supermarkt."
+   },
+   "root": "Supermarkt = super- + Markt (Markt — рынок) — Wiktionary",
+   "why_voice_ru": "Слова курса — продукты во множественном числе (страницы 102 и 103): много бананов, апельсинов, яблок, грибов, морковок, луковиц, помидоров."
+  },
+  "audio": "audio_v1/ch06_040.mp3",
+  "tts": "Bananen, Orangen, Äpfel, Pilze, Karotten, Zwiebeln, Tomaten, Olivenöl, Supermarkt.",
+  "ipa": [
+   {
+    "w": "Bananen",
+    "ipa": "[baˈnaːnən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Orangen",
+    "ipa": "[oˈʁɑ̃ːʒn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Äpfel",
+    "ipa": "[ˈɛp͡fəl]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Pilze",
+    "ipa": "[ˈpɪlt͡sə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Karotten",
+    "ipa": "[kaˈʁɔtn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Zwiebeln",
+    "ipa": "[ˈt͡sviːbəln]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Tomaten",
+    "ipa": "[toˈmaːtn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Olivenöl",
+    "ipa": "[oˈliːvn̩ˌʔøːl]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Supermarkt",
+    "ipa": "[ˈzuːpɐˌmaʁkt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_041",
+  "de": "Schnitzel mit Kartoffelsalat, Spaghetti mit Tomatensoße.",
+  "ru": "Шницель с картофельным салатом, спагетти с томатным соусом.",
+  "nouns": [
+   {
+    "lemma": "Schnitzel",
+    "art": "das",
+    "pl": "Schnitzel"
+   },
+   {
+    "lemma": "Kartoffelsalat",
+    "art": "der",
+    "pl": "Kartoffelsalate"
+   },
+   {
+    "lemma": "Spaghetti",
+    "art": "die",
+    "pl": "Spaghetti"
+   },
+   {
+    "lemma": "Tomatensoße",
+    "art": "die",
+    "pl": "Tomatensoßen"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Schnitzel mit Kartoffelsalat",
+     "role": "кого-что"
+    },
+    {
+     "w": "Spaghetti mit Tomatensoße",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Слова курса — блюда (страница 103): Schnitzel mit Kartoffelsalat, Spaghetti mit Tomatensoße. Блюдо и «с чем» — через mit.",
+   "topic": "articles",
+   "why_de": "Короткий ответ без действия: Schnitzel mit Kartoffelsalat (что?) · Spaghetti mit Tomatensoße (что?).",
+   "why_ru": "По-русски так же коротко: «Шницель с картофельным салатом, спагетти с томатным соусом».",
+   "layer": "short",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — считать это готовой формулой. «Шницель с картофельным салатом, спагетти с томатным соусом» — короткий ответ, его слова меняют под ситуацию."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса — блюда (страница 103): Schnitzel mit Kartoffelsalat, Spaghetti mit Tomatensoße. Блюдо и «с чем» — через mit."
+  },
+  "audio": "audio_v1/ch06_041.mp3",
+  "tts": "Schnitzel mit Kartoffelsalat, Spaghetti mit Tomatensoße.",
+  "ipa": [
+   {
+    "w": "Schnitzel",
+    "ipa": "[ˈʃnɪt͡sl̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "mit",
+    "ipa": "[mɪt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kartoffelsalat",
+    "ipa": "[kaʁˈtɔfl̩zaˌlaːt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Spaghetti",
+    "ipa": "[ʃpaˈɡɛti]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "mit",
+    "ipa": "[mɪt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Tomatensoße",
+    "ipa": "[toˈmaːtn̩ˌzoːsə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_042",
+  "de": "Was magst du?",
+  "ru": "Что ты любишь?",
+  "nouns": [],
+  "chunk": false,
+  "source": "tatoeba:#392863 CC BY 2.0 FR (автор xtofu80)",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Was",
+     "role": "вопрос-слово",
+     "asks": "кого-что"
+    },
+    {
+     "w": "magst",
+     "role": "действие №2"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    }
+   ],
+   "text": "was — «что»; magst — «любишь» (для du). Вопрос о вкусе: что? любишь! Действие magst — вагон №2.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Was — вагон №1, действие magst — сразу за ним, вагон №2: Was magst du? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Что ты любишь» можно сказать и в другом порядке. По-немецки порядок один: Was · magst · du.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Was du magst?",
+    "ru": "du встал перед magst — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "was — «что»; magst — «любишь» (для du). Вопрос о вкусе: что? любишь! Действие magst — вагон №2.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "вопрос-слово · действие (вагон №2) · «кто»",
+    "items": [
+     {
+      "id": "ch06_011",
+      "de": "Was lernst du?",
+      "ru": "Что ты учишь?",
+      "audio": "audio_v1/ch06_011.mp3",
+      "lesson": "L1",
+      "part": 2,
+      "changed": {
+       "role": "действие №2",
+       "wagon": 2,
+       "from": "magst",
+       "to": "lernst"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Was · du. В каждом примере меняется один вагон — действие (вагон №2): magst → lernst.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch06_042.mp3",
+  "tts": "Was magst du?",
+  "ipa": [
+   {
+    "w": "Was",
+    "ipa": "[vas]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "magst",
+    "ipa": "[maːkst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_043",
+  "de": "Ich mag Brötchen mit Käse.",
+  "ru": "Я люблю булочки с сыром.",
+  "nouns": [
+   {
+    "lemma": "Brötchen",
+    "art": "das",
+    "pl": "Brötchen"
+   },
+   {
+    "lemma": "Käse",
+    "art": "der",
+    "pl": "Käse"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "mag",
+     "role": "действие №2"
+    },
+    {
+     "w": "Brötchen mit Käse",
+     "role": "кого-что"
+    }
+   ],
+   "text": "mag — «люблю» (для ich). Что любишь — вагон «кого-что». Brötchen — булочка, mit Käse — «с сыром».",
+   "topic": "verb2",
+   "why_de": "Ich · mag · Brötchen mit Käse: действие mag — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Я люблю булочки с сыром» — Ich mag Brötchen mit Käse. Разница одна: по-немецки mag держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich Brötchen mit Käse mag.",
+    "ru": "Действие mag уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе mag — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "mag — «люблю» (для ich). Что любишь — вагон «кого-что». Brötchen — булочка, mit Käse — «с сыром»."
+  },
+  "audio": "audio_v1/ch06_043.mp3",
+  "tts": "Ich mag Brötchen mit Käse.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "mag",
+    "ipa": "[maːk]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Brötchen",
+    "ipa": "[ˈbʁøːtçən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "mit",
+    "ipa": "[mɪt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Käse",
+    "ipa": "[ˈkɛːzə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_044",
+  "de": "Was trinkst du gern?",
+  "ru": "Что ты любишь пить?",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Was",
+     "role": "вопрос-слово",
+     "asks": "кого-что"
+    },
+    {
+     "w": "trinkst",
+     "role": "действие №2"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "gern",
+     "role": "добавка"
+    }
+   ],
+   "text": "gern — «охотно, люблю»: Was trinkst du gern? — «что ты любишь пить?». Действие trinkst — вагон №2.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Was — вагон №1, действие trinkst — сразу за ним, вагон №2: Was trinkst du gern? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Что ты любишь пить» можно сказать и в другом порядке. По-немецки порядок один: Was · trinkst · du · gern.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Was du trinkst gern?",
+    "ru": "du встал перед trinkst — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "gern — «охотно, люблю»: Was trinkst du gern? — «что ты любишь пить?». Действие trinkst — вагон №2."
+  },
+  "audio": "audio_v1/ch06_044.mp3",
+  "tts": "Was trinkst du gern?",
+  "ipa": [
+   {
+    "w": "Was",
+    "ipa": "[vas]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "trinkst",
+    "ipa": "[tʁɪŋkst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gern",
+    "ipa": "[ɡɛʁn]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_045",
+  "de": "Ich trinke gern Kaffee.",
+  "ru": "Я люблю пить кофе.",
+  "nouns": [
+   {
+    "lemma": "Kaffee",
+    "art": "der",
+    "pl": "Kaffees"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "trinke",
+     "role": "действие №2"
+    },
+    {
+     "w": "gern",
+     "role": "добавка"
+    },
+    {
+     "w": "Kaffee",
+     "role": "кого-что"
+    }
+   ],
+   "text": "gern — «охотно»: ich trinke gern — «люблю пить». Для ich — trinke, для du — trinkst.",
+   "topic": "verb2",
+   "why_de": "Ich · trinke · gern · Kaffee: действие trinke — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Я люблю пить кофе» — Ich trinke gern Kaffee. Разница одна: по-немецки trinke держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich gern Kaffee trinke.",
+    "ru": "Действие trinke уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе trinke — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "gern — «охотно»: ich trinke gern — «люблю пить». Для ich — trinke, для du — trinkst."
+  },
+  "audio": "audio_v1/ch06_045.mp3",
+  "tts": "Ich trinke gern Kaffee.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "trinke",
+    "ipa": "[ˈtʁɪŋkə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gern",
+    "ipa": "[ɡɛʁn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kaffee",
+    "ipa": "[ˈkafe]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_046",
+  "de": "Heute frühstücken Olga und ich zusammen.",
+  "ru": "Сегодня мы с Ольгой завтракаем вместе.",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Heute",
+     "role": "когда"
+    },
+    {
+     "w": "frühstücken",
+     "role": "действие №2"
+    },
+    {
+     "w": "Olga und ich",
+     "role": "кто"
+    },
+    {
+     "w": "zusammen",
+     "role": "добавка"
+    }
+   ],
+   "text": "«Olga und ich» — один блок: это одно место после действия. По-русски «мы с Ольгой», по-немецки Olga und ich — вместе, одним куском. Первым стоит слово heute (время), а действие frühstücken идёт сразу за ним.",
+   "topic": "word_order",
+   "why_de": "Вагон №1 занят: Heute. Действие frühstücken всё равно в вагоне №2, а «кто» (Olga und ich) — за ним: Heute frühstücken Olga und ich zusammen.",
+   "why_ru": "По-русски «Сегодня мы с Ольгой завтракаем вместе» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, frühstücken — вагон №2.",
+   "layer": "inv",
+   "why_not": {
+    "wrong": "Heute Olga und ich frühstücken zusammen.",
+    "ru": "Русский порядок: «кто» (Olga und ich) перед действием, и frühstücken уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+   },
+   "root": null,
+   "why_voice_ru": "«Olga und ich» — один блок: это одно место после действия. По-русски «мы с Ольгой», по-немецки Olga und ich — вместе, одним куском."
+  },
+  "audio": "audio_v1/ch06_046.mp3",
+  "tts": "Heute frühstücken Olga und ich zusammen.",
+  "ipa": [
+   {
+    "w": "Heute",
+    "ipa": "[ˈhɔɪ̯tə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "frühstücken",
+    "ipa": "[ˈfʁyːˌʃtʏkn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Olga",
+    "ipa": "[ˈɔlɡa]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "und",
+    "ipa": "[ʊnt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "zusammen",
+    "ipa": "[t͡suˈzamən]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_047",
+  "de": "Am Wochenende frühstücken wir zusammen.",
+  "ru": "В выходные мы завтракаем вместе.",
+  "nouns": [
+   {
+    "lemma": "Wochenende",
+    "art": "das",
+    "pl": "Wochenenden"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Am Wochenende",
+     "role": "когда"
+    },
+    {
+     "w": "frühstücken",
+     "role": "действие №2"
+    },
+    {
+     "w": "wir",
+     "role": "кто"
+    },
+    {
+     "w": "zusammen",
+     "role": "добавка"
+    }
+   ],
+   "text": "Начали со времени — am Wochenende. Один блок сообщает время, другой — «как». Вместе перед действием они не встают: время впереди, wir после действия.",
+   "topic": "word_order",
+   "why_de": "Вагон №1 занят: Am Wochenende. Действие frühstücken всё равно в вагоне №2, а «кто» (wir) — за ним: Am Wochenende frühstücken wir zusammen.",
+   "why_ru": "По-русски «В выходные мы завтракаем вместе» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, frühstücken — вагон №2.",
+   "layer": "inv",
+   "why_not": {
+    "wrong": "Am Wochenende wir frühstücken zusammen.",
+    "ru": "Русский порядок: «кто» (wir) перед действием, и frühstücken уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+   },
+   "root": null,
+   "why_voice_ru": "Начали со времени — am Wochenende. Один блок сообщает время, другой — «как». Вместе перед действием они не встают: время впереди, wir после действия."
+  },
+  "audio": "audio_v1/ch06_047.mp3",
+  "tts": "Am Wochenende frühstücken wir zusammen.",
+  "ipa": [
+   {
+    "w": "Am",
+    "ipa": "[am]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wochenende",
+    "ipa": "[ˈvɔxn̩ˌʔɛndə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "frühstücken",
+    "ipa": "[ˈfʁyːˌʃtʏkn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "wir",
+    "ipa": "[viːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "zusammen",
+    "ipa": "[t͡suˈzamən]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_048",
+  "de": "Gibt es heute Brötchen?",
+  "ru": "Есть ли сегодня булочки?",
+  "nouns": [
+   {
+    "lemma": "Brötchen",
+    "art": "das",
+    "pl": "Brötchen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Gibt",
+     "role": "действие №1"
+    },
+    {
+     "w": "es",
+     "role": "кто"
+    },
+    {
+     "w": "heute",
+     "role": "когда"
+    },
+    {
+     "w": "Brötchen",
+     "role": "кого-что"
+    }
+   ],
+   "text": "es gibt — «есть, имеется». Вопрос без слова-вопроса: действие gibt в начале. heute — «сегодня».",
+   "topic": "questions",
+   "why_de": "Gibt es heute Brötchen? — вопрос «да/нет»: действие gibt стоит впереди, es — сразу за ним.",
+   "why_ru": "По-русски вопрос делает частица «ли» (Есть ли…?) или голос. По-немецки — порядок: действие gibt выходит в начало.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "Es gibt heute Brötchen?",
+    "ru": "Порядок ответа с вопросительным голосом звучит как удивлённый переспрос, а не обычный вопрос."
+   },
+   "root": null,
+   "override": "tools/data_ch06.py WHY",
+   "why_voice_ru": "es gibt — «есть, имеется». Вопрос без слова-вопроса: действие gibt в начале. heute — «сегодня»."
+  },
+  "audio": "audio_v1/ch06_048.mp3",
+  "tts": "Gibt es heute Brötchen?",
+  "ipa": [
+   {
+    "w": "Gibt",
+    "ipa": "[ɡiːpt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "es",
+    "ipa": "[ɛs]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "heute",
+    "ipa": "[ˈhɔɪ̯tə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Brötchen",
+    "ipa": "[ˈbʁøːtçən]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_049",
+  "de": "Vier Brötchen und einen Kaffee, bitte.",
+  "ru": "Четыре булочки и чашку кофе, пожалуйста.",
+  "nouns": [
+   {
+    "lemma": "Brötchen",
+    "art": "das",
+    "pl": "Brötchen"
+   },
+   {
+    "lemma": "Kaffee",
+    "art": "der",
+    "pl": "Kaffees"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Vier Brötchen und einen Kaffee",
+     "role": "кого-что"
+    },
+    {
+     "w": "bitte",
+     "role": "привет/вежливость"
+    }
+   ],
+   "text": "Короткий заказ без действия. Kaffee — der-слово; в заказе ein превращается в einen: einen Kaffee.",
+   "topic": "akkusativ",
+   "why_de": "bitte — готовая формула, дальше кусок по словам: Vier Brötchen und einen Kaffee (что?).",
+   "why_ru": "По-русски так же коротко: «Четыре булочки и чашку кофе, пожалуйста».",
+   "layer": "short",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — заучить всю фразу одним куском. Готовая формула тут только bitte, остальное — слова под ситуацию."
+   },
+   "root": null,
+   "why_voice_ru": "Короткий заказ без действия. Kaffee — der-слово; в заказе ein превращается в einen: einen Kaffee."
+  },
+  "audio": "audio_v1/ch06_049.mp3",
+  "tts": "Vier Brötchen und einen Kaffee, bitte.",
+  "ipa": [
+   {
+    "w": "Vier",
+    "ipa": "[fiːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Brötchen",
+    "ipa": "[ˈbʁøːtçən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "und",
+    "ipa": "[ʊnt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "einen",
+    "ipa": "[ˈaɪ̯nən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kaffee",
+    "ipa": "[ˈkafe]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "bitte",
+    "ipa": "[ˈbɪtə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_050",
+  "de": "Ich trinke gern Wasser.",
+  "ru": "Я люблю пить воду.",
+  "nouns": [
+   {
+    "lemma": "Wasser",
+    "art": "das",
+    "pl": "Wasser"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "trinke",
+     "role": "действие №2"
+    },
+    {
+     "w": "gern",
+     "role": "добавка"
+    },
+    {
+     "w": "Wasser",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Для ich — trinke. gern — «люблю»: ich trinke gern.",
+   "topic": "verb2",
+   "why_de": "Ich · trinke · gern · Wasser: действие trinke — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Я люблю пить воду» — Ich trinke gern Wasser. Разница одна: по-немецки trinke держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich gern Wasser trinke.",
+    "ru": "Действие trinke уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе trinke — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "Для ich — trinke. gern — «люблю»: ich trinke gern.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · добавка · «что»",
+    "items": [
+     {
+      "id": "ch06_045",
+      "de": "Ich trinke gern Kaffee.",
+      "ru": "Я люблю пить кофе.",
+      "audio": "audio_v1/ch06_045.mp3",
+      "lesson": "L5",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 4,
+       "from": "Wasser",
+       "to": "Kaffee"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ich · trinke · gern. В каждом примере меняется один вагон — «что»: Wasser → Kaffee. Действие trinke всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch06_050.mp3",
+  "tts": "Ich trinke gern Wasser.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "trinke",
+    "ipa": "[ˈtʁɪŋkə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gern",
+    "ipa": "[ɡɛʁn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wasser",
+    "ipa": "[ˈvasɐ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_051",
+  "de": "Apfelsaft, Cola, Schokolade, Tee, Bäcker, Croissant, Frühstück, Joghurt, Kiosk, Käsebrötchen, Margarine, Mittagessen, Müsli, Pause, Pausenbrot, Zucker.",
+  "ru": "Яблочный сок, кола, шоколад, чай, пекарь, круассан, завтрак, йогурт, киоск, булочка с сыром, маргарин, обед, мюсли, перерыв, бутерброд на перерыв, сахар.",
+  "nouns": [
+   {
+    "lemma": "Apfelsaft",
+    "art": "der",
+    "pl": "Apfelsäfte"
+   },
+   {
+    "lemma": "Cola",
+    "art": "die",
+    "pl": "Colas"
+   },
+   {
+    "lemma": "Schokolade",
+    "art": "die",
+    "pl": "Schokoladen"
+   },
+   {
+    "lemma": "Tee",
+    "art": "der",
+    "pl": "Tees"
+   },
+   {
+    "lemma": "Bäcker",
+    "art": "der",
+    "pl": "Bäcker"
+   },
+   {
+    "lemma": "Croissant",
+    "art": "das",
+    "pl": "Croissants"
+   },
+   {
+    "lemma": "Frühstück",
+    "art": "das",
+    "pl": "Frühstücke"
+   },
+   {
+    "lemma": "Joghurt",
+    "art": "der",
+    "pl": "Joghurts"
+   },
+   {
+    "lemma": "Kiosk",
+    "art": "der",
+    "pl": "Kioske"
+   },
+   {
+    "lemma": "Käsebrötchen",
+    "art": "das",
+    "pl": "Käsebrötchen"
+   },
+   {
+    "lemma": "Margarine",
+    "art": "die",
+    "pl": "Margarinen"
+   },
+   {
+    "lemma": "Mittagessen",
+    "art": "das",
+    "pl": "Mittagessen"
+   },
+   {
+    "lemma": "Müsli",
+    "art": "das",
+    "pl": "Müslis"
+   },
+   {
+    "lemma": "Pause",
+    "art": "die",
+    "pl": "Pausen"
+   },
+   {
+    "lemma": "Pausenbrot",
+    "art": "das",
+    "pl": "Pausenbrote"
+   },
+   {
+    "lemma": "Zucker",
+    "art": "der",
+    "pl": "Zucker"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Apfelsaft",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Cola",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Schokolade",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Tee",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Bäcker",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Croissant",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Frühstück",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Joghurt",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Kiosk",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Käsebrötchen",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Margarine",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Mittagessen",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Müsli",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Pause",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Pausenbrot",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Zucker",
+     "role": "слово",
+     "art": "der"
+    }
+   ],
+   "text": "Слова курса — напитки и завтрак (стр. 108–109): der Apfelsaft, die Cola, die Schokolade, der Tee, der Bäcker, das Croissant, das Frühstück, der Joghurt, der Kiosk, das Käsebrötchen, die Margarine, das Mittagessen, das Müsli, die Pause, das Pausenbrot, der Zucker.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Apfelsaft — яблочный сок · die Cola — кола · die Schokolade — шоколад · der Tee — чай · der Bäcker — пекарь · das Croissant — круассан · das Frühstück — завтрак · der Joghurt — йогурт · der Kiosk — киоск · das Käsebrötchen — булочка с сыром · die Margarine — маргарин · das Mittagessen — обед · das Müsli — мюсли · die Pause — перерыв · das Pausenbrot — бутерброд на перерыв · der Zucker — сахар.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Apfelsaft, die Cola, die Schokolade, der Tee, der Bäcker, das Croissant, das Frühstück, der Joghurt, der Kiosk, das Käsebrötchen, die Margarine, das Mittagessen, das Müsli, die Pause, das Pausenbrot, der Zucker."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса — напитки и завтрак (стр."
+  },
+  "audio": "audio_v1/ch06_051.mp3",
+  "tts": "Apfelsaft, Cola, Schokolade, Tee, Bäcker, Croissant, Frühstück, Joghurt, Kiosk, Käsebrötchen, Margarine, Mittagessen, Müsli, Pause, Pausenbrot, Zucker.",
+  "ipa": [
+   {
+    "w": "Apfelsaft",
+    "ipa": "[ˈap͡fl̩ˌzaft]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Cola",
+    "ipa": "[ˈkoːla]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Schokolade",
+    "ipa": "[ʃokoˈlaːdə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Tee",
+    "ipa": "[teː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bäcker",
+    "ipa": "[ˈbɛkɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Croissant",
+    "ipa": "[kʁo̯aˈsɑ̃ː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Frühstück",
+    "ipa": "[ˈfʁyːˌʃtʏk]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Joghurt",
+    "ipa": "[ˈjoːɡʊʁt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kiosk",
+    "ipa": "[ˈkiːɔsk]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Käsebrötchen",
+    "ipa": "[ˈkɛːzəˌbʁøːtçən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Margarine",
+    "ipa": "[maʁɡaˈʁiːnə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Mittagessen",
+    "ipa": "[ˈmɪtaːkˌʔɛsn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Müsli",
+    "ipa": "[ˈmyːsli]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Pause",
+    "ipa": "[ˈpaʊ̯zə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Pausenbrot",
+    "ipa": "[ˈpaʊ̯zn̩ˌbʁoːt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Zucker",
+    "ipa": "[ˈt͡sʊkɐ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_052",
+  "de": "Käsekuchen, Soße, Tomatensoße, Wurstbrötchen.",
+  "ru": "Творожный пирог, соус, томатный соус, булочка с колбасой.",
+  "nouns": [
+   {
+    "lemma": "Käsekuchen",
+    "art": "der",
+    "pl": "Käsekuchen"
+   },
+   {
+    "lemma": "Soße",
+    "art": "die",
+    "pl": "Soßen"
+   },
+   {
+    "lemma": "Tomatensoße",
+    "art": "die",
+    "pl": "Tomatensoßen"
+   },
+   {
+    "lemma": "Wurstbrötchen",
+    "art": "das",
+    "pl": "Wurstbrötchen"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Käsekuchen",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Soße",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Tomatensoße",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Wurstbrötchen",
+     "role": "слово",
+     "art": "das"
+    }
+   ],
+   "text": "Слова курса — упражнения к странице 110: der Käsekuchen (пирог с творогом, Quark), die Soße, die Tomatensoße, das Wurstbrötchen.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Käsekuchen — творожный пирог · die Soße — соус · die Tomatensoße — томатный соус · das Wurstbrötchen — булочка с колбасой.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Käsekuchen, die Soße, die Tomatensoße, das Wurstbrötchen."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса — упражнения к странице 110: der Käsekuchen (пирог с творогом, Quark), die Soße, die Tomatensoße, das Wurstbrötchen."
+  },
+  "audio": "audio_v1/ch06_052.mp3",
+  "tts": "Käsekuchen, Soße, Tomatensoße, Wurstbrötchen.",
+  "ipa": [
+   {
+    "w": "Käsekuchen",
+    "ipa": "[ˈkɛːzəˌkuːxn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Soße",
+    "ipa": "[ˈzoːsə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Tomatensoße",
+    "ipa": "[toˈmaːtn̩ˌzoːsə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wurstbrötchen",
+    "ipa": "[ˈvʊʁstˌbʁøːtçən]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_053",
+  "de": "Was kostet der Fisch?",
+  "ru": "Сколько стоит рыба?",
+  "nouns": [
+   {
+    "lemma": "Fisch",
+    "art": "der",
+    "pl": "Fische"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Was",
+     "role": "вопрос-слово",
+     "asks": "кого-что"
+    },
+    {
+     "w": "kostet",
+     "role": "действие №2"
+    },
+    {
+     "w": "der Fisch",
+     "role": "кто"
+    }
+   ],
+   "text": "Один предмет — kostet. Рыба здесь — тот, о ком спрашиваем (кто), поэтому der Fisch, а не den: den — когда рыба «кого-что»: её берут, покупают, любят.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Was — вагон №1, действие kostet — сразу за ним, вагон №2: Was kostet der Fisch? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Сколько стоит рыба» можно сказать и в другом порядке. По-немецки порядок один: Was · kostet · der Fisch.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Was der Fisch kostet?",
+    "ru": "der Fisch встал перед kostet — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": null,
+   "why_voice_ru": "Один предмет — kostet.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "вопрос-слово · действие (вагон №2) · «кто»",
+    "items": [
+     {
+      "id": "ch06_020",
+      "de": "Was kostet das?",
+      "ru": "Сколько это стоит?",
+      "audio": "audio_v1/ch06_020.mp3",
+      "lesson": "L3",
+      "part": 3,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "der Fisch",
+       "to": "das"
+      }
+     },
+     {
+      "id": "ch06_026",
+      "de": "Was kostet die Flasche Wasser?",
+      "ru": "Сколько стоит бутылка воды?",
+      "audio": "audio_v1/ch06_026.mp3",
+      "lesson": "L3",
+      "part": 6,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "der Fisch",
+       "to": "die Flasche Wasser"
+      }
+     },
+     {
+      "id": "ch06_t05",
+      "de": "Was kostet die Flasche Öl?",
+      "ru": "Сколько стоит бутылка масла?",
+      "audio": "audio_v1/ch06_t05.mp3",
+      "lesson": "L3",
+      "part": 6,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "der Fisch",
+       "to": "die Flasche Öl"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Was · kostet. В каждом примере меняется один вагон — «кто»: der Fisch → das → die Flasche Wasser → die Flasche Öl. Действие kostet всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch06_053.mp3",
+  "tts": "Was kostet der Fisch?",
+  "ipa": [
+   {
+    "w": "Was",
+    "ipa": "[vas]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "kostet",
+    "ipa": "[ˈkɔstət]",
+    "src": "override"
+   },
+   {
+    "w": "der",
+    "ipa": "[deːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fisch",
+    "ipa": "[fɪʃ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_054",
+  "de": "Der Fisch kostet vier Euro.",
+  "ru": "Рыба стоит четыре евро.",
+  "nouns": [
+   {
+    "lemma": "Fisch",
+    "art": "der",
+    "pl": "Fische"
+   },
+   {
+    "lemma": "Euro",
+    "art": "der",
+    "pl": "Euro"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Der Fisch",
+     "role": "кто"
+    },
+    {
+     "w": "kostet",
+     "role": "действие №2"
+    },
+    {
+     "w": "vier Euro",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Один предмет — kostet. Цена: число и Euro. Рыба — кто, поэтому der Fisch.",
+   "topic": "verb2",
+   "why_de": "Der Fisch · kostet · vier Euro: действие kostet — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Рыба стоит четыре евро» — Der Fisch kostet vier Euro. Разница одна: по-немецки kostet держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Der Fisch vier Euro kostet.",
+    "ru": "Действие kostet уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе kostet — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "Один предмет — kostet. Цена: число и Euro. Рыба — кто, поэтому der Fisch."
+  },
+  "audio": "audio_v1/ch06_054.mp3",
+  "tts": "Der Fisch kostet vier Euro.",
+  "ipa": [
+   {
+    "w": "Der",
+    "ipa": "[deːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fisch",
+    "ipa": "[fɪʃ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "kostet",
+    "ipa": "[ˈkɔstət]",
+    "src": "override"
+   },
+   {
+    "w": "vier",
+    "ipa": "[fiːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Euro",
+    "ipa": "[ˈɔɪ̯ʁo]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_055",
+  "de": "Ich hätte gern einen Salat.",
+  "ru": "Я бы хотел салат.",
+  "nouns": [
+   {
+    "lemma": "Salat",
+    "art": "der",
+    "pl": "Salate"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "hätte",
+     "role": "действие №2"
+    },
+    {
+     "w": "gern",
+     "role": "добавка"
+    },
+    {
+     "w": "einen Salat",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Salat — der-слово; в вагоне «кого-что» ein превращается в einen: einen Salat. Так же, как einen Kaffee.",
+   "topic": "akkusativ",
+   "why_de": "Артикль — сигнал роли: der → den/einen показывает «кого-что»: Ich hätte gern einen Salat.",
+   "why_ru": "Похоже на русские окончания, только меняется не слово, а артикль: Ich hätte gern einen Salat.",
+   "layer": "akk",
+   "why_not": {
+    "wrong": "Ich hätte gern ein Salat.",
+    "ru": "Русская привычка: артикль не меняется. Немец слышит не ту роль: тут der-слово в роли «кого-что» — einen."
+   },
+   "root": null,
+   "why_voice_ru": "Salat — der-слово; в вагоне «кого-что» ein превращается в einen: einen Salat. Так же, как einen Kaffee.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · добавка · «что»",
+    "items": [
+     {
+      "id": "ch06_012",
+      "de": "Ich hätte gern ein Kilo Kartoffeln.",
+      "ru": "Я бы хотел килограмм картофеля.",
+      "audio": "audio_v1/ch06_012.mp3",
+      "lesson": "L2",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 4,
+       "from": "einen Salat",
+       "to": "ein Kilo Kartoffeln"
+      }
+     },
+     {
+      "id": "ch06_017",
+      "de": "Ich hätte gern ein Kilo Käse.",
+      "ru": "Я бы хотел килограмм сыра.",
+      "audio": "audio_v1/ch06_017.mp3",
+      "lesson": "L2",
+      "part": 6,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 4,
+       "from": "einen Salat",
+       "to": "ein Kilo Käse"
+      }
+     },
+     {
+      "id": "ch06_t04",
+      "de": "Ich hätte gern eine Flasche Öl.",
+      "ru": "Я бы хотел бутылку масла.",
+      "audio": "audio_v1/ch06_t04.mp3",
+      "lesson": "L2",
+      "part": 11,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 4,
+       "from": "einen Salat",
+       "to": "eine Flasche Öl"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ich · hätte · gern. В каждом примере меняется один вагон — «что»: einen Salat → ein Kilo Kartoffeln → ein Kilo Käse → eine Flasche Öl. Действие hätte всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch06_055.mp3",
+  "tts": "Ich hätte gern einen Salat.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "hätte",
+    "ipa": "[ˈhɛtə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gern",
+    "ipa": "[ɡɛʁn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "einen",
+    "ipa": "[ˈaɪ̯nən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Salat",
+    "ipa": "[zaˈlaːt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_056",
+  "de": "Ich hätte gern einen Fisch.",
+  "ru": "Я бы хотел рыбу.",
+  "nouns": [
+   {
+    "lemma": "Fisch",
+    "art": "der",
+    "pl": "Fische"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "hätte",
+     "role": "действие №2"
+    },
+    {
+     "w": "gern",
+     "role": "добавка"
+    },
+    {
+     "w": "einen Fisch",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Fisch — der-слово; в вагоне «кого-что» ein превращается в einen: einen Fisch.",
+   "topic": "akkusativ",
+   "why_de": "Артикль — сигнал роли: der → den/einen показывает «кого-что»: Ich hätte gern einen Fisch.",
+   "why_ru": "Похоже на русские окончания, только меняется не слово, а артикль: Ich hätte gern einen Fisch.",
+   "layer": "akk",
+   "why_not": {
+    "wrong": "Ich hätte gern ein Fisch.",
+    "ru": "Русская привычка: артикль не меняется. Немец слышит не ту роль: тут der-слово в роли «кого-что» — einen."
+   },
+   "root": null,
+   "why_voice_ru": "Fisch — der-слово; в вагоне «кого-что» ein превращается в einen: einen Fisch.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · добавка · «что»",
+    "items": [
+     {
+      "id": "ch06_012",
+      "de": "Ich hätte gern ein Kilo Kartoffeln.",
+      "ru": "Я бы хотел килограмм картофеля.",
+      "audio": "audio_v1/ch06_012.mp3",
+      "lesson": "L2",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 4,
+       "from": "einen Fisch",
+       "to": "ein Kilo Kartoffeln"
+      }
+     },
+     {
+      "id": "ch06_017",
+      "de": "Ich hätte gern ein Kilo Käse.",
+      "ru": "Я бы хотел килограмм сыра.",
+      "audio": "audio_v1/ch06_017.mp3",
+      "lesson": "L2",
+      "part": 6,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 4,
+       "from": "einen Fisch",
+       "to": "ein Kilo Käse"
+      }
+     },
+     {
+      "id": "ch06_t04",
+      "de": "Ich hätte gern eine Flasche Öl.",
+      "ru": "Я бы хотел бутылку масла.",
+      "audio": "audio_v1/ch06_t04.mp3",
+      "lesson": "L2",
+      "part": 11,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 4,
+       "from": "einen Fisch",
+       "to": "eine Flasche Öl"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ich · hätte · gern. В каждом примере меняется один вагон — «что»: einen Fisch → ein Kilo Kartoffeln → ein Kilo Käse → eine Flasche Öl. Действие hätte всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch06_056.mp3",
+  "tts": "Ich hätte gern einen Fisch.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "hätte",
+    "ipa": "[ˈhɛtə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gern",
+    "ipa": "[ɡɛʁn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "einen",
+    "ipa": "[ˈaɪ̯nən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fisch",
+    "ipa": "[fɪʃ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_057",
+  "de": "Gabel, Serviette, Tasse, Mengen, Verpackungen, Wochenmarkt, Geschirr, Besteck.",
+  "ru": "Вилка, салфетка, чашка, количества, упаковки, еженедельный рынок, посуда, столовые приборы.",
+  "nouns": [
+   {
+    "lemma": "Gabel",
+    "art": "die",
+    "pl": "Gabeln"
+   },
+   {
+    "lemma": "Serviette",
+    "art": "die",
+    "pl": "Servietten"
+   },
+   {
+    "lemma": "Tasse",
+    "art": "die",
+    "pl": "Tassen"
+   },
+   {
+    "lemma": "Menge",
+    "art": "die",
+    "pl": "Mengen"
+   },
+   {
+    "lemma": "Verpackung",
+    "art": "die",
+    "pl": "Verpackungen"
+   },
+   {
+    "lemma": "Wochenmarkt",
+    "art": "der",
+    "pl": "Wochenmärkte"
+   },
+   {
+    "lemma": "Geschirr",
+    "art": "das",
+    "pl": ""
+   },
+   {
+    "lemma": "Besteck",
+    "art": "das",
+    "pl": ""
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Gabel",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Serviette",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Tasse",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Mengen",
+     "role": "слово"
+    },
+    {
+     "w": "Verpackungen",
+     "role": "слово"
+    },
+    {
+     "w": "Wochenmarkt",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Geschirr",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Besteck",
+     "role": "слово",
+     "art": "das"
+    }
+   ],
+   "text": "Слова курса — посуда и покупки (стр. 113, 116): die Gabel, die Serviette, die Tasse, die Menge, die Verpackung, der Wochenmarkt, das Geschirr, das Besteck.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: die Gabel — вилка · die Serviette — салфетка · die Tasse — чашка · die Mengen — количества · die Verpackungen — упаковки · der Wochenmarkt — еженедельный рынок · das Geschirr — посуда · das Besteck — столовые приборы.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: die Gabel, die Serviette, die Tasse, der Wochenmarkt, das Geschirr, das Besteck."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса — посуда и покупки (стр. 113, 116): die Gabel, die Serviette, die Tasse, die Menge, die Verpackung, der Wochenmarkt, das Geschirr, das Besteck."
+  },
+  "audio": "audio_v1/ch06_057.mp3",
+  "tts": "Gabel, Serviette, Tasse, Mengen, Verpackungen, Wochenmarkt, Geschirr, Besteck.",
+  "ipa": [
+   {
+    "w": "Gabel",
+    "ipa": "[ˈɡaːbl̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Serviette",
+    "ipa": "[zɛʁˈvi̯ɛtə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Tasse",
+    "ipa": "[ˈtasə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Mengen",
+    "ipa": "[ˈmɛŋən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Verpackungen",
+    "ipa": "[fɛɐ̯ˈpakʊŋən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wochenmarkt",
+    "ipa": "[ˈvɔxn̩ˌmaʁkt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Geschirr",
+    "ipa": "[ɡəˈʃɪʁ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Besteck",
+    "ipa": "[bəˈʃtɛk]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "мн.ч. '' Geschirr ≠ {'Geschirre'}",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_t01",
+  "de": "Heute mache ich Suppe.",
+  "ru": "Сегодня я варю суп.",
+  "nouns": [
+   {
+    "lemma": "Suppe",
+    "art": "die",
+    "pl": "Suppen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch06_L1",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Heute",
+     "role": "когда"
+    },
+    {
+     "w": "mache",
+     "role": "действие №2"
+    },
+    {
+     "w": "ich",
+     "role": "кто"
+    },
+    {
+     "w": "Suppe",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Тот же поезд, другое «когда»: heute — вагон №1, mache — вагон №2, ich — за ним.",
+   "topic": "word_order",
+   "why_de": "Вагон №1 занят: Heute. Действие mache всё равно в вагоне №2, а «кто» (ich) — за ним: Heute mache ich Suppe.",
+   "why_ru": "По-русски «Сегодня я варю суп» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, mache — вагон №2.",
+   "layer": "inv",
+   "why_not": {
+    "wrong": "Heute ich mache Suppe.",
+    "ru": "Русский порядок: «кто» (ich) перед действием, и mache уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+   },
+   "root": null,
+   "why_voice_ru": "Тот же поезд, другое «когда»: heute — вагон №1, mache — вагон №2, ich — за ним.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«когда» · действие (вагон №2) · «кто» · «что»",
+    "items": [
+     {
+      "id": "ch06_005",
+      "de": "Am Wochenende mache ich Suppe.",
+      "ru": "В выходные я варю суп.",
+      "audio": "audio_v1/ch06_005.mp3",
+      "lesson": "L1",
+      "part": 3,
+      "changed": {
+       "role": "когда",
+       "wagon": 1,
+       "from": "Heute",
+       "to": "Am Wochenende"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: mache · ich · Suppe. В каждом примере меняется один вагон — «когда»: Heute → Am Wochenende. Действие mache всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch06_t01.mp3",
+  "tts": "Heute mache ich Suppe.",
+  "ipa": [
+   {
+    "w": "Heute",
+    "ipa": "[ˈhɔɪ̯tə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "mache",
+    "ipa": "[ˈmaxə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Suppe",
+    "ipa": "[ˈzʊpə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_t02",
+  "de": "Heute habe ich Hunger.",
+  "ru": "Сегодня я голоден.",
+  "nouns": [
+   {
+    "lemma": "Hunger",
+    "art": "der",
+    "pl": ""
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch06_L1",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Heute",
+     "role": "когда"
+    },
+    {
+     "w": "habe",
+     "role": "действие №2"
+    },
+    {
+     "w": "ich",
+     "role": "кто"
+    },
+    {
+     "w": "Hunger",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Фраза начинается со слова heute. Действие habe — в вагоне №2, ich — сразу за ним. Голод по-немецки «имеют».",
+   "topic": "word_order",
+   "why_de": "Вагон №1 занят: Heute. Действие habe всё равно в вагоне №2, а «кто» (ich) — за ним: Heute habe ich Hunger.",
+   "why_ru": "По-русски «Сегодня я голоден» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, habe — вагон №2.",
+   "layer": "inv",
+   "why_not": {
+    "wrong": "Heute ich habe Hunger.",
+    "ru": "Русский порядок: «кто» (ich) перед действием, и habe уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+   },
+   "root": null,
+   "why_voice_ru": "Фраза начинается со слова heute. Действие habe — в вагоне №2, ich — сразу за ним. Голод по-немецки «имеют»."
+  },
+  "audio": "audio_v1/ch06_t02.mp3",
+  "tts": "Heute habe ich Hunger.",
+  "ipa": [
+   {
+    "w": "Heute",
+    "ipa": "[ˈhɔɪ̯tə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "habe",
+    "ipa": "[ˈhaːbə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Hunger",
+    "ipa": "[ˈhʊŋɐ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_t03",
+  "de": "Ein Kilo Kartoffeln, bitte.",
+  "ru": "Килограмм картофеля, пожалуйста.",
+  "nouns": [
+   {
+    "lemma": "Kilo",
+    "art": "das",
+    "pl": "Kilo"
+   },
+   {
+    "lemma": "Kartoffel",
+    "art": "die",
+    "pl": "Kartoffeln"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch06_L2",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Ein Kilo Kartoffeln",
+     "role": "кого-что"
+    },
+    {
+     "w": "bitte",
+     "role": "привет/вежливость"
+    }
+   ],
+   "text": "Короткий заказ: мера + продукт + bitte. После ein Kilo слово Kartoffeln — без артикля.",
+   "topic": "word_order",
+   "why_de": "bitte — готовая формула, дальше кусок по словам: Ein Kilo Kartoffeln (что?).",
+   "why_ru": "По-русски так же коротко: «Килограмм картофеля, пожалуйста».",
+   "layer": "short",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — заучить всю фразу одним куском. Готовая формула тут только bitte, остальное — слова под ситуацию."
+   },
+   "root": null,
+   "why_voice_ru": "Короткий заказ: мера + продукт + bitte. После ein Kilo слово Kartoffeln — без артикля."
+  },
+  "audio": "audio_v1/ch06_t03.mp3",
+  "tts": "Ein Kilo Kartoffeln, bitte.",
+  "ipa": [
+   {
+    "w": "Ein",
+    "ipa": "[aɪ̯n]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kilo",
+    "ipa": "[ˈkiːlo]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kartoffeln",
+    "ipa": "[kaʁˈtɔfl̩n]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "bitte",
+    "ipa": "[ˈbɪtə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_t04",
+  "de": "Ich hätte gern eine Flasche Öl.",
+  "ru": "Я бы хотел бутылку масла.",
+  "nouns": [
+   {
+    "lemma": "Flasche",
+    "art": "die",
+    "pl": "Flaschen"
+   },
+   {
+    "lemma": "Öl",
+    "art": "das",
+    "pl": "Öle"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch06_L2",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "hätte",
+     "role": "действие №2"
+    },
+    {
+     "w": "gern",
+     "role": "добавка"
+    },
+    {
+     "w": "eine Flasche Öl",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Та же просьба с другой мерой: die Flasche → eine Flasche; Öl после неё — без артикля.",
+   "topic": "verb2",
+   "why_de": "Ich · hätte · gern · eine Flasche Öl: действие hätte — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Я бы хотел бутылку масла» — Ich hätte gern eine Flasche Öl. Разница одна: по-немецки hätte держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich gern eine Flasche Öl hätte.",
+    "ru": "Действие hätte уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе hätte — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "Та же просьба с другой мерой: die Flasche → eine Flasche; Öl после неё — без артикля.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · добавка · «что»",
+    "items": [
+     {
+      "id": "ch06_012",
+      "de": "Ich hätte gern ein Kilo Kartoffeln.",
+      "ru": "Я бы хотел килограмм картофеля.",
+      "audio": "audio_v1/ch06_012.mp3",
+      "lesson": "L2",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 4,
+       "from": "eine Flasche Öl",
+       "to": "ein Kilo Kartoffeln"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ich · hätte · gern. В каждом примере меняется один вагон — «что»: eine Flasche Öl → ein Kilo Kartoffeln. Действие hätte всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch06_t04.mp3",
+  "tts": "Ich hätte gern eine Flasche Öl.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "hätte",
+    "ipa": "[ˈhɛtə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gern",
+    "ipa": "[ɡɛʁn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "eine",
+    "ipa": "[ˈaɪ̯nə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Flasche",
+    "ipa": "[ˈflaʃə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Öl",
+    "ipa": "[øːl]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_t05",
+  "de": "Was kostet die Flasche Öl?",
+  "ru": "Сколько стоит бутылка масла?",
+  "nouns": [
+   {
+    "lemma": "Flasche",
+    "art": "die",
+    "pl": "Flaschen"
+   },
+   {
+    "lemma": "Öl",
+    "art": "das",
+    "pl": "Öle"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch06_L3",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Was",
+     "role": "вопрос-слово",
+     "asks": "кого-что"
+    },
+    {
+     "w": "kostet",
+     "role": "действие №2"
+    },
+    {
+     "w": "die Flasche Öl",
+     "role": "кто"
+    }
+   ],
+   "text": "Один предмет — kostet. die Flasche — die-слово. Öl после меры — без артикля.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Was — вагон №1, действие kostet — сразу за ним, вагон №2: Was kostet die Flasche Öl? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Сколько стоит бутылка масла» можно сказать и в другом порядке. По-немецки порядок один: Was · kostet · die Flasche Öl.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Was die Flasche Öl kostet?",
+    "ru": "die Flasche Öl встал перед kostet — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": null,
+   "why_voice_ru": "Один предмет — kostet. die Flasche — die-слово. Öl после меры — без артикля.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "вопрос-слово · действие (вагон №2) · «кто»",
+    "items": [
+     {
+      "id": "ch06_020",
+      "de": "Was kostet das?",
+      "ru": "Сколько это стоит?",
+      "audio": "audio_v1/ch06_020.mp3",
+      "lesson": "L3",
+      "part": 3,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "die Flasche Öl",
+       "to": "das"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Was · kostet. В каждом примере меняется один вагон — «кто»: die Flasche Öl → das. Действие kostet всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch06_t05.mp3",
+  "tts": "Was kostet die Flasche Öl?",
+  "ipa": [
+   {
+    "w": "Was",
+    "ipa": "[vas]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "kostet",
+    "ipa": "[ˈkɔstət]",
+    "src": "override"
+   },
+   {
+    "w": "die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Flasche",
+    "ipa": "[ˈflaʃə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Öl",
+    "ipa": "[øːl]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_t06",
+  "de": "Die Flasche Öl kostet drei Euro.",
+  "ru": "Бутылка масла стоит три евро.",
+  "nouns": [
+   {
+    "lemma": "Flasche",
+    "art": "die",
+    "pl": "Flaschen"
+   },
+   {
+    "lemma": "Öl",
+    "art": "das",
+    "pl": "Öle"
+   },
+   {
+    "lemma": "Euro",
+    "art": "der",
+    "pl": "Euro"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch06_L3",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Die Flasche Öl",
+     "role": "кто"
+    },
+    {
+     "w": "kostet",
+     "role": "действие №2"
+    },
+    {
+     "w": "drei Euro",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Один предмет — kostet. Цена: число и Euro.",
+   "topic": "verb2",
+   "why_de": "Die Flasche Öl · kostet · drei Euro: действие kostet — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Бутылка масла стоит три евро» — Die Flasche Öl kostet drei Euro. Разница одна: по-немецки kostet держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Die Flasche Öl drei Euro kostet.",
+    "ru": "Действие kostet уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе kostet — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "Один предмет — kostet. Цена: число и Euro."
+  },
+  "audio": "audio_v1/ch06_t06.mp3",
+  "tts": "Die Flasche Öl kostet drei Euro.",
+  "ipa": [
+   {
+    "w": "Die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Flasche",
+    "ipa": "[ˈflaʃə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Öl",
+    "ipa": "[øːl]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "kostet",
+    "ipa": "[ˈkɔstət]",
+    "src": "override"
+   },
+   {
+    "w": "drei",
+    "ipa": "[dʁaɪ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Euro",
+    "ipa": "[ˈɔɪ̯ʁo]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_t07",
+  "de": "Nimmst du den Fisch oder die Suppe?",
+  "ru": "Ты возьмёшь рыбу или суп?",
+  "nouns": [
+   {
+    "lemma": "Fisch",
+    "art": "der",
+    "pl": "Fische"
+   },
+   {
+    "lemma": "Suppe",
+    "art": "die",
+    "pl": "Suppen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch06_L4",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Nimmst",
+     "role": "действие №1"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "den Fisch oder die Suppe",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Действие nimmst в начале. der Fisch в вагоне «кого-что» — den Fisch; die Suppe не меняется.",
+   "topic": "akkusativ",
+   "why_de": "Вопрос «или»: действие Nimmst впереди, в вагоне №1, как в вопросе «да/нет». Но «да» или «нет» тут не ответ: надо выбрать — den Fisch или die Suppe. Голос: на den Fisch вверх ↗, на die Suppe вниз ↘.",
+   "why_ru": "По-русски так же: «Ты возьмёшь рыбу или суп» — вопрос делает слово «или». Разница одна: по-немецки действие Nimmst стоит впереди, в вагоне №1.",
+   "layer": "alt",
+   "why_not": {
+    "wrong": "Du nimmst den Fisch oder die Suppe?",
+    "ru": "Русский порядок: «кто» (du) перед действием. Немец поймёт, но сразу услышит ошибку: вопрос «или» начинают с действия Nimmst."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "Действие nimmst в начале. der Fisch в вагоне «кого-что» — den Fisch; die Suppe не меняется.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "действие (вагон №1) · «кто» · «что»",
+    "items": [
+     {
+      "id": "ch06_031",
+      "de": "Nimmst du den Salat oder die Suppe?",
+      "ru": "Ты возьмёшь салат или суп?",
+      "audio": "audio_v1/ch06_031.mp3",
+      "lesson": "L4",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "den Fisch oder die Suppe",
+       "to": "den Salat oder die Suppe"
+      }
+     },
+     {
+      "id": "ch06_033",
+      "de": "Nimmst du auch den Fisch?",
+      "ru": "Ты возьмёшь и рыбу?",
+      "audio": "audio_v1/ch06_033.mp3",
+      "lesson": "L4",
+      "part": 6,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "den Fisch oder die Suppe",
+       "to": "auch den Fisch"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Nimmst · du. В каждом примере меняется один вагон — «что»: den Fisch oder die Suppe → den Salat oder die Suppe → auch den Fisch. Действие Nimmst всё так же в вагоне №1.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch06_t07.mp3",
+  "tts": "Nimmst du den Fisch oder die Suppe?",
+  "ipa": [
+   {
+    "w": "Nimmst",
+    "ipa": "[nɪmst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "den",
+    "ipa": "[deːn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fisch",
+    "ipa": "[fɪʃ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "oder",
+    "ipa": "[ˈoːdɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Suppe",
+    "ipa": "[ˈzʊpə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_t08",
+  "de": "Ich nehme den Fisch und die Suppe.",
+  "ru": "Я возьму рыбу и суп.",
+  "nouns": [
+   {
+    "lemma": "Fisch",
+    "art": "der",
+    "pl": "Fische"
+   },
+   {
+    "lemma": "Suppe",
+    "art": "die",
+    "pl": "Suppen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch06_L4",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "nehme",
+     "role": "действие №2"
+    },
+    {
+     "w": "den Fisch und die Suppe",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Рыба — der, стала den; суп — die, не изменилась.",
+   "topic": "akkusativ",
+   "why_de": "Артикль — сигнал роли: der → den/einen показывает «кого-что»: Ich nehme den Fisch und die Suppe.",
+   "why_ru": "Похоже на русские окончания, только меняется не слово, а артикль: Ich nehme den Fisch und die Suppe.",
+   "layer": "akk",
+   "why_not": {
+    "wrong": "Ich nehme der Fisch und die Suppe.",
+    "ru": "Русская привычка: артикль не меняется. Немец слышит не ту роль: тут der-слово в роли «кого-что» — den."
+   },
+   "root": null,
+   "why_voice_ru": "Рыба — der, стала den; суп — die, не изменилась.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «что»",
+    "items": [
+     {
+      "id": "ch06_032",
+      "de": "Ich nehme den Salat.",
+      "ru": "Я возьму салат.",
+      "audio": "audio_v1/ch06_032.mp3",
+      "lesson": "L4",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "den Fisch und die Suppe",
+       "to": "den Salat"
+      }
+     },
+     {
+      "id": "ch06_036",
+      "de": "Ich nehme die Suppe.",
+      "ru": "Я возьму суп.",
+      "audio": "audio_v1/ch06_036.mp3",
+      "lesson": "L4",
+      "part": 5,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "den Fisch und die Suppe",
+       "to": "die Suppe"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ich · nehme. В каждом примере меняется один вагон — «что»: den Fisch und die Suppe → den Salat → die Suppe. Действие nehme всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch06_t08.mp3",
+  "tts": "Ich nehme den Fisch und die Suppe.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "nehme",
+    "ipa": "[ˈneːmə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "den",
+    "ipa": "[deːn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fisch",
+    "ipa": "[fɪʃ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "und",
+    "ipa": "[ʊnt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Suppe",
+    "ipa": "[ˈzʊpə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_t09",
+  "de": "Trinkst du gern Wasser?",
+  "ru": "Ты любишь пить воду?",
+  "nouns": [
+   {
+    "lemma": "Wasser",
+    "art": "das",
+    "pl": "Wasser"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch06_L5",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Trinkst",
+     "role": "действие №1"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "gern",
+     "role": "добавка"
+    },
+    {
+     "w": "Wasser",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Вопрос без слова-вопроса: действие trinkst в начале. gern — «охотно»: trinkst du gern — «любишь пить».",
+   "topic": "questions",
+   "why_de": "Действие впереди (Trinkst) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Trinkst du gern Wasser?",
+   "why_ru": "По-русски «Ты любишь пить воду» — вопрос только голосом, порядок как в ответе. По-немецки действие Trinkst выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Du trinkst gern Wasser?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Ты любишь пить воду?!»). Обычный вопрос — действие впереди."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "Вопрос без слова-вопроса: действие trinkst в начале. gern — «охотно»: trinkst du gern — «любишь пить»."
+  },
+  "audio": "audio_v1/ch06_t09.mp3",
+  "tts": "Trinkst du gern Wasser?",
+  "ipa": [
+   {
+    "w": "Trinkst",
+    "ipa": "[tʁɪŋkst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gern",
+    "ipa": "[ɡɛʁn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wasser",
+    "ipa": "[ˈvasɐ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_t10",
+  "de": "Ich mag Käse und Brötchen.",
+  "ru": "Я люблю сыр и булочки.",
+  "nouns": [
+   {
+    "lemma": "Käse",
+    "art": "der",
+    "pl": "Käse"
+   },
+   {
+    "lemma": "Brötchen",
+    "art": "das",
+    "pl": "Brötchen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch06_L5",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "mag",
+     "role": "действие №2"
+    },
+    {
+     "w": "Käse und Brötchen",
+     "role": "кого-что"
+    }
+   ],
+   "text": "mag — «люблю» для ich. Что любишь — вагон «кого-что»: Käse und Brötchen.",
+   "topic": "verb2",
+   "why_de": "Ich · mag · Käse und Brötchen: действие mag — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Я люблю сыр и булочки» — Ich mag Käse und Brötchen. Разница одна: по-немецки mag держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich Käse und Brötchen mag.",
+    "ru": "Действие mag уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе mag — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "mag — «люблю» для ich. Что любишь — вагон «кого-что»: Käse und Brötchen.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «что»",
+    "items": [
+     {
+      "id": "ch06_043",
+      "de": "Ich mag Brötchen mit Käse.",
+      "ru": "Я люблю булочки с сыром.",
+      "audio": "audio_v1/ch06_043.mp3",
+      "lesson": "L5",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "Käse und Brötchen",
+       "to": "Brötchen mit Käse"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ich · mag. В каждом примере меняется один вагон — «что»: Käse und Brötchen → Brötchen mit Käse. Действие mag всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch06_t10.mp3",
+  "tts": "Ich mag Käse und Brötchen.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "mag",
+    "ipa": "[maːk]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Käse",
+    "ipa": "[ˈkɛːzə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "und",
+    "ipa": "[ʊnt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Brötchen",
+    "ipa": "[ˈbʁøːtçən]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_t11",
+  "de": "Was kostet der Salat?",
+  "ru": "Сколько стоит салат?",
+  "nouns": [
+   {
+    "lemma": "Salat",
+    "art": "der",
+    "pl": "Salate"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch06_L6",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Was",
+     "role": "вопрос-слово",
+     "asks": "кого-что"
+    },
+    {
+     "w": "kostet",
+     "role": "действие №2"
+    },
+    {
+     "w": "der Salat",
+     "role": "кто"
+    }
+   ],
+   "text": "Один предмет — kostet. Салат здесь — тот, о ком спрашиваем (кто), поэтому der Salat.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Was — вагон №1, действие kostet — сразу за ним, вагон №2: Was kostet der Salat? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Сколько стоит салат» можно сказать и в другом порядке. По-немецки порядок один: Was · kostet · der Salat.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Was der Salat kostet?",
+    "ru": "der Salat встал перед kostet — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": null,
+   "why_voice_ru": "Один предмет — kostet. Салат здесь — тот, о ком спрашиваем (кто), поэтому der Salat.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "вопрос-слово · действие (вагон №2) · «кто»",
+    "items": [
+     {
+      "id": "ch06_020",
+      "de": "Was kostet das?",
+      "ru": "Сколько это стоит?",
+      "audio": "audio_v1/ch06_020.mp3",
+      "lesson": "L3",
+      "part": 3,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "der Salat",
+       "to": "das"
+      }
+     },
+     {
+      "id": "ch06_026",
+      "de": "Was kostet die Flasche Wasser?",
+      "ru": "Сколько стоит бутылка воды?",
+      "audio": "audio_v1/ch06_026.mp3",
+      "lesson": "L3",
+      "part": 6,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "der Salat",
+       "to": "die Flasche Wasser"
+      }
+     },
+     {
+      "id": "ch06_t05",
+      "de": "Was kostet die Flasche Öl?",
+      "ru": "Сколько стоит бутылка масла?",
+      "audio": "audio_v1/ch06_t05.mp3",
+      "lesson": "L3",
+      "part": 6,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "der Salat",
+       "to": "die Flasche Öl"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Was · kostet. В каждом примере меняется один вагон — «кто»: der Salat → das → die Flasche Wasser → die Flasche Öl. Действие kostet всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch06_t11.mp3",
+  "tts": "Was kostet der Salat?",
+  "ipa": [
+   {
+    "w": "Was",
+    "ipa": "[vas]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "kostet",
+    "ipa": "[ˈkɔstət]",
+    "src": "override"
+   },
+   {
+    "w": "der",
+    "ipa": "[deːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Salat",
+    "ipa": "[zaˈlaːt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch06_t12",
+  "de": "Der Salat kostet drei Euro.",
+  "ru": "Салат стоит три евро.",
+  "nouns": [
+   {
+    "lemma": "Salat",
+    "art": "der",
+    "pl": "Salate"
+   },
+   {
+    "lemma": "Euro",
+    "art": "der",
+    "pl": "Euro"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch06_L6",
+  "book": "Книга, урок 3 (haben: Hunger, Durst; gern), стр. PDF 77, 82; урок 6 (артикль и Akkusativ), стр. PDF 145–150; урок 7 (порядок слов), стр. PDF 168–170",
+  "why": {
+   "train": [
+    {
+     "w": "Der Salat",
+     "role": "кто"
+    },
+    {
+     "w": "kostet",
+     "role": "действие №2"
+    },
+    {
+     "w": "drei Euro",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Один предмет — kostet. Цена: число и Euro. Салат — кто, поэтому der Salat.",
+   "topic": "verb2",
+   "why_de": "Der Salat · kostet · drei Euro: действие kostet — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Салат стоит три евро» — Der Salat kostet drei Euro. Разница одна: по-немецки kostet держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Der Salat drei Euro kostet.",
+    "ru": "Действие kostet уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе kostet — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "Один предмет — kostet. Цена: число и Euro. Салат — кто, поэтому der Salat.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «что»",
+    "items": [
+     {
+      "id": "ch06_t06",
+      "de": "Die Flasche Öl kostet drei Euro.",
+      "ru": "Бутылка масла стоит три евро.",
+      "audio": "audio_v1/ch06_t06.mp3",
+      "lesson": "L3",
+      "part": 11,
+      "changed": {
+       "role": "кто",
+       "wagon": 1,
+       "from": "Der Salat",
+       "to": "Die Flasche Öl"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: kostet · drei Euro. В каждом примере меняется один вагон — «кто»: Der Salat → Die Flasche Öl. Действие kostet всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch06_t12.mp3",
+  "tts": "Der Salat kostet drei Euro.",
+  "ipa": [
+   {
+    "w": "Der",
+    "ipa": "[deːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Salat",
+    "ipa": "[zaˈlaːt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "kostet",
+    "ipa": "[ˈkɔstət]",
+    "src": "override"
+   },
+   {
+    "w": "drei",
+    "ipa": "[dʁaɪ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Euro",
+    "ipa": "[ˈɔɪ̯ʁo]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ }
+]

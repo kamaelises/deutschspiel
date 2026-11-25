@@ -1,0 +1,5807 @@
+[
+ {
+  "item_id": "ch11_L1_words_1",
+  "id": "ch11_L1_words_1",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_003",
+  "prompt": "Что значит «Geburtstag»?",
+  "answer": "день рождения",
+  "distractors": [
+   "подарок гостю",
+   "удача сегодня"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L1_words_2",
+  "id": "ch11_L1_words_2",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_005",
+  "prompt": "Что значит «Geschenk»?",
+  "answer": "подарок",
+  "distractors": [
+   "день рождения",
+   "поздравление"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L1_words_3",
+  "id": "ch11_L1_words_3",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_002",
+  "prompt": "Что значит «Glückwunsch»?",
+  "answer": "поздравление",
+  "distractors": [
+   "подарок",
+   "пирог"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L1_words_4",
+  "id": "ch11_L1_words_4",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_004",
+  "prompt": "Что значит «für dich»?",
+  "answer": "для тебя",
+  "distractors": [
+   "от тебя",
+   "без тебя"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L1_words_5",
+  "id": "ch11_L1_words_5",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_006",
+  "prompt": "Что значит «Glück»?",
+  "answer": "счастье, удача",
+  "distractors": [
+   "подарок",
+   "день рождения"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L1_listen_1",
+  "id": "ch11_L1_listen_1",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d1_01",
+  "prompt": "Послушай. Что спросила София?",
+  "answer": "Ольга, у тебя сегодня день рождения?",
+  "distractors": [
+   "Ольга, у тебя есть подарок?",
+   "Ольга, ты идёшь на праздник?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d1_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L1_listen_2",
+  "id": "ch11_L1_listen_2",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d1_02",
+  "prompt": "Послушай. Что ответила Ольга?",
+  "answer": "Да, у меня сегодня день рождения.",
+  "distractors": [
+   "Да, у меня сегодня праздник.",
+   "Нет, день рождения завтра."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d1_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L1_listen_3",
+  "id": "ch11_L1_listen_3",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d1_03",
+  "prompt": "Послушай. Что сказал герой?",
+  "answer": "С днём рождения, Ольга!",
+  "distractors": [
+   "Удачи, Ольга!",
+   "Спасибо, Ольга!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d1_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L1_listen_4",
+  "id": "ch11_L1_listen_4",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d1_06",
+  "prompt": "Послушай. Что сказал герой?",
+  "answer": "Это тебе.",
+  "distractors": [
+   "Это мне.",
+   "Это подарок."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d1_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L1_listen_5",
+  "id": "ch11_L1_listen_5",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d1_08",
+  "prompt": "Послушай. Что пожелала Ольге учительница?",
+  "answer": "Удачи, Ольга!",
+  "distractors": [
+   "С днём рождения, Ольга!",
+   "Спасибо, Ольга!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d1_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L1_read_1",
+  "id": "ch11_L1_read_1",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_001",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "С днём рождения!",
+  "distractors": [
+   "Удачи тебе!",
+   "Спасибо вам!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Alles Gute zum Geburtstag!"
+ },
+ {
+  "item_id": "ch11_L1_read_2",
+  "id": "ch11_L1_read_2",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_002",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Поздравляю от души!",
+  "distractors": [
+   "Удачи от души!",
+   "Спасибо от души!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Herzlichen Glückwunsch!"
+ },
+ {
+  "item_id": "ch11_L1_read_3",
+  "id": "ch11_L1_read_3",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_003",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У меня сегодня день рождения.",
+  "distractors": [
+   "У меня сегодня подарок.",
+   "У тебя сегодня день рождения."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe heute Geburtstag."
+ },
+ {
+  "item_id": "ch11_L1_read_4",
+  "id": "ch11_L1_read_4",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_005",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это подарок.",
+  "distractors": [
+   "Это тебе.",
+   "Это день рождения."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist ein Geschenk."
+ },
+ {
+  "item_id": "ch11_L1_read_5",
+  "id": "ch11_L1_read_5",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_006",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Удачи!",
+  "distractors": [
+   "С днём рождения!",
+   "Спасибо!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Viel Glück!"
+ },
+ {
+  "item_id": "ch11_L1_speak_1",
+  "id": "ch11_L1_speak_1",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_001",
+  "prompt": "Поздравь Ольгу: «С днём рождения!»",
+  "answer": "Alles Gute zum Geburtstag!",
+  "distractors": null,
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": "audio_v1/ch11_001.mp3",
+  "de": null,
+  "accept": [
+   "Alles Gute zum Geburtstag!"
+  ]
+ },
+ {
+  "item_id": "ch11_L1_speak_2",
+  "id": "ch11_L1_speak_2",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_002",
+  "prompt": "Поздравь иначе: «Поздравляю от души!»",
+  "answer": "Herzlichen Glückwunsch!",
+  "distractors": null,
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": "audio_v1/ch11_002.mp3",
+  "de": null,
+  "accept": [
+   "Herzlichen Glückwunsch!"
+  ]
+ },
+ {
+  "item_id": "ch11_L1_speak_3",
+  "id": "ch11_L1_speak_3",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_003",
+  "prompt": "Скажи: «У меня сегодня день рождения.»",
+  "answer": "Ich habe heute Geburtstag.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_003.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe heute Geburtstag."
+  ]
+ },
+ {
+  "item_id": "ch11_L1_speak_4",
+  "id": "ch11_L1_speak_4",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_004",
+  "prompt": "Вручи подарок: «Это тебе.»",
+  "answer": "Das ist für dich.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_004.mp3",
+  "de": null,
+  "accept": [
+   "Das ist für dich."
+  ]
+ },
+ {
+  "item_id": "ch11_L1_speak_5",
+  "id": "ch11_L1_speak_5",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_006",
+  "prompt": "Пожелай удачи: «Удачи!»",
+  "answer": "Viel Glück!",
+  "distractors": null,
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": "audio_v1/ch11_006.mp3",
+  "de": null,
+  "accept": [
+   "Viel Glück!"
+  ]
+ },
+ {
+  "item_id": "ch11_L1_write_1",
+  "id": "ch11_L1_write_1",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_001",
+  "prompt": "Впиши: «Alles Gute zum ___!» (день рождения)",
+  "answer": "Geburtstag",
+  "distractors": null,
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": "audio_v1/ch11_001.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L1_write_2",
+  "id": "ch11_L1_write_2",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_002",
+  "prompt": "Впиши: «Herzlichen ___!» (поздравление)",
+  "answer": "Glückwunsch",
+  "distractors": null,
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": "audio_v1/ch11_002.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L1_write_3",
+  "id": "ch11_L1_write_3",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_003",
+  "prompt": "Впиши: «Ich habe heute ___.» (день рождения)",
+  "answer": "Geburtstag",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_003.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L1_write_4",
+  "id": "ch11_L1_write_4",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_004",
+  "prompt": "Впиши: «Das ist ___ dich.» (для)",
+  "answer": "für",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_004.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L1_write_5",
+  "id": "ch11_L1_write_5",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_006",
+  "prompt": "Впиши: «Viel ___!» (счастье)",
+  "answer": "Glück",
+  "distractors": null,
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": "audio_v1/ch11_006.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L1_why_1",
+  "id": "ch11_L1_why_1",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_003",
+  "prompt": "Почему здесь стоит «habe»?",
+  "answer": "Про себя день рождения «имеют»: ich habe Geburtstag.",
+  "distractors": [
+   "habe здесь значит «праздную» — как по-русски.",
+   "habe всегда ставят перед словом heute."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe heute Geburtstag."
+ },
+ {
+  "item_id": "ch11_L1_why_2",
+  "id": "ch11_L1_why_2",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_002",
+  "prompt": "Почему «Herzlichen», а не «Herzliche»?",
+  "answer": "Glückwunsch — der-слово, и в пожелании перед ним -en.",
+  "distractors": [
+   "Glückwunsch — die-слово, и в пожелании перед ним -en.",
+   "-en добавляют всем словам с большой буквы."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Herzlichen Glückwunsch!"
+ },
+ {
+  "item_id": "ch11_L1_why_3",
+  "id": "ch11_L1_why_3",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_006",
+  "prompt": "Почему в «Viel Glück» нет артикля?",
+  "answer": "Glück не считают штуками — артикля нет.",
+  "distractors": [
+   "Viel — это и есть артикль.",
+   "Артикль нужен только слову Geschenk."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Viel Glück!"
+ },
+ {
+  "item_id": "ch11_L1_why_4",
+  "id": "ch11_L1_why_4",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_005",
+  "prompt": "Почему «ein Geschenk», а не «eine Geschenk»?",
+  "answer": "Geschenk — das-слово, поэтому ein.",
+  "distractors": [
+   "Geschenk — die-слово, а eine пишут редко.",
+   "Перед длинными словами ставят ein."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist ein Geschenk."
+ },
+ {
+  "item_id": "ch11_L1_why_5",
+  "id": "ch11_L1_why_5",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_004",
+  "prompt": "Почему в «Das ist für dich» нужно «ist»?",
+  "answer": "Без действия фразы нет: ist держит вагон №2.",
+  "distractors": [
+   "ist здесь значит «для», поэтому его ставят в начало.",
+   "ist ставят после слова für и до слова dich."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist für dich."
+ },
+ {
+  "item_id": "ch11_L1_transfer_1",
+  "id": "ch11_L1_transfer_1",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_t01",
+  "prompt": "Подарок стоит на столе, Ольга ещё не пришла. Скажи Софии, для кого он: «Это подарок для Ольги.»",
+  "answer": "Das ist ein Geschenk für Olga.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t01.mp3",
+  "de": null,
+  "accept": [
+   "Das ist ein Geschenk für Olga."
+  ]
+ },
+ {
+  "item_id": "ch11_L1_transfer_2",
+  "id": "ch11_L1_transfer_2",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_t02",
+  "prompt": "Ольга спрашивает про Софию. Спроси её: «У Софии сегодня день рождения?»",
+  "answer": "Hat Sofia heute Geburtstag?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t02.mp3",
+  "de": null,
+  "accept": [
+   "Hat Sofia heute Geburtstag?"
+  ]
+ },
+ {
+  "item_id": "ch11_L1_transfer_3",
+  "id": "ch11_L1_transfer_3",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_t02",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "У Софии сегодня день рождения?",
+  "distractors": [
+   "У Софии сегодня подарок?",
+   "У тебя сегодня день рождения?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L1_transfer_4",
+  "id": "ch11_L1_transfer_4",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_t02",
+  "prompt": "Впиши: «Hat Sofia heute ___?» (день рождения)",
+  "answer": "Geburtstag",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L1_transfer_5",
+  "id": "ch11_L1_transfer_5",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_t01",
+  "prompt": "Впиши: «Das ist ein ___ für Olga.» (подарок)",
+  "answer": "Geschenk",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L1_boss_1",
+  "id": "ch11_L1_boss_1",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_d1_02",
+  "prompt": "Почему в «Ja, ich habe heute Geburtstag» действие стоит после ich, а не после Ja?",
+  "answer": "Ja вагона не занимает: ich — №1, habe — №2.",
+  "distractors": [
+   "Ja — первое слово, а действие всегда третье.",
+   "Слово heute обязано стоять перед словом habe."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ja, ich habe heute Geburtstag."
+ },
+ {
+  "item_id": "ch11_L1_boss_2",
+  "id": "ch11_L1_boss_2",
+  "lesson": "ch11_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d1_04",
+  "prompt": "Послушай. Что сказала София?",
+  "answer": "Поздравляю от души!",
+  "distractors": [
+   "Удачи от души!",
+   "Спасибо от души!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d1_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L2_words_1",
+  "id": "ch11_L2_words_1",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_012",
+  "prompt": "Что значит «Wem gratulierst du?»",
+  "answer": "Кого ты поздравляешь?",
+  "distractors": [
+   "Кто тебя поздравляет?",
+   "Когда ты поздравляешь?"
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L2_words_2",
+  "id": "ch11_L2_words_2",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_013",
+  "prompt": "Что значит «Kollegin»?",
+  "answer": "коллега (женщина)",
+  "distractors": [
+   "начальница",
+   "подруга"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L2_words_3",
+  "id": "ch11_L2_words_3",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_014",
+  "prompt": "Что значит «Chef»?",
+  "answer": "начальник",
+  "distractors": [
+   "коллега",
+   "отец"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L2_words_4",
+  "id": "ch11_L2_words_4",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_015",
+  "prompt": "Что значит «Mutter»?",
+  "answer": "мама",
+  "distractors": [
+   "сестра",
+   "бабушка"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L2_words_5",
+  "id": "ch11_L2_words_5",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_016",
+  "prompt": "Что значит «gratulierst»?",
+  "answer": "поздравляешь",
+  "distractors": [
+   "я поздравляю",
+   "поздравляете"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L2_listen_1",
+  "id": "ch11_L2_listen_1",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d2_01",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Кого ты поздравляешь?",
+  "distractors": [
+   "Что ты будешь дарить?",
+   "Когда у тебя праздник?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d2_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L2_listen_2",
+  "id": "ch11_L2_listen_2",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d2_02",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Я поздравляю моего начальника.",
+  "distractors": [
+   "Я поздравляю мою коллегу.",
+   "Я поздравляю мою маму."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d2_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L2_listen_3",
+  "id": "ch11_L2_listen_3",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d2_03",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Ты поздравляешь и твою коллегу?",
+  "distractors": [
+   "Ты поздравляешь и твою маму?",
+   "Ты поздравляешь и твоего начальника?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d2_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L2_listen_4",
+  "id": "ch11_L2_listen_4",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d2_04",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Да, я поздравляю и мою коллегу.",
+  "distractors": [
+   "Нет, я не поздравляю коллегу.",
+   "Да, я поздравляю и мою маму."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d2_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L2_listen_5",
+  "id": "ch11_L2_listen_5",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d2_06",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Да, я поздравляю и мою маму.",
+  "distractors": [
+   "Да, я поздравляю и мою коллегу.",
+   "Нет, маму я не поздравляю."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d2_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L2_read_1",
+  "id": "ch11_L2_read_1",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_012",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Кого ты поздравляешь?",
+  "distractors": [
+   "Когда ты поздравляешь?",
+   "Что ты поздравляешь?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wem gratulierst du?"
+ },
+ {
+  "item_id": "ch11_L2_read_2",
+  "id": "ch11_L2_read_2",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_013",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я поздравляю мою коллегу.",
+  "distractors": [
+   "Я поздравляю мою маму.",
+   "Я поздравляю моего начальника."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich gratuliere meiner Kollegin."
+ },
+ {
+  "item_id": "ch11_L2_read_3",
+  "id": "ch11_L2_read_3",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_014",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я поздравляю моего начальника.",
+  "distractors": [
+   "Я поздравляю мою коллегу.",
+   "Начальник поздравляет меня."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich gratuliere meinem Chef."
+ },
+ {
+  "item_id": "ch11_L2_read_4",
+  "id": "ch11_L2_read_4",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_015",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я поздравляю мою маму.",
+  "distractors": [
+   "Я поздравляю мою коллегу.",
+   "Мама поздравляет меня."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich gratuliere meiner Mutter."
+ },
+ {
+  "item_id": "ch11_L2_read_5",
+  "id": "ch11_L2_read_5",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_016",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Ты поздравляешь твою маму?",
+  "distractors": [
+   "Я поздравляю твою маму.",
+   "Ты поздравляешь твою коллегу?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Gratulierst du deiner Mutter?"
+ },
+ {
+  "item_id": "ch11_L2_speak_1",
+  "id": "ch11_L2_speak_1",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_012",
+  "prompt": "Спроси Ольгу: «Кого ты поздравляешь?»",
+  "answer": "Wem gratulierst du?",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_012.mp3",
+  "de": null,
+  "accept": [
+   "Wem gratulierst du?"
+  ]
+ },
+ {
+  "item_id": "ch11_L2_speak_2",
+  "id": "ch11_L2_speak_2",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_013",
+  "prompt": "Скажи: «Я поздравляю мою коллегу.»",
+  "answer": "Ich gratuliere meiner Kollegin.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_013.mp3",
+  "de": null,
+  "accept": [
+   "Ich gratuliere meiner Kollegin."
+  ]
+ },
+ {
+  "item_id": "ch11_L2_speak_3",
+  "id": "ch11_L2_speak_3",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_014",
+  "prompt": "Скажи: «Я поздравляю моего начальника.»",
+  "answer": "Ich gratuliere meinem Chef.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_014.mp3",
+  "de": null,
+  "accept": [
+   "Ich gratuliere meinem Chef."
+  ]
+ },
+ {
+  "item_id": "ch11_L2_speak_4",
+  "id": "ch11_L2_speak_4",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_015",
+  "prompt": "Скажи: «Я поздравляю мою маму.»",
+  "answer": "Ich gratuliere meiner Mutter.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_015.mp3",
+  "de": null,
+  "accept": [
+   "Ich gratuliere meiner Mutter."
+  ]
+ },
+ {
+  "item_id": "ch11_L2_speak_5",
+  "id": "ch11_L2_speak_5",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_016",
+  "prompt": "Спроси: «Ты поздравляешь твою маму?»",
+  "answer": "Gratulierst du deiner Mutter?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch11_016.mp3",
+  "de": null,
+  "accept": [
+   "Gratulierst du deiner Mutter?"
+  ]
+ },
+ {
+  "item_id": "ch11_L2_write_1",
+  "id": "ch11_L2_write_1",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_012",
+  "prompt": "Впиши: «___ gratulierst du?» (кому)",
+  "answer": "Wem",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch11_012.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L2_write_2",
+  "id": "ch11_L2_write_2",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_013",
+  "prompt": "Впиши: «Ich gratuliere meiner ___.» (коллега)",
+  "answer": "Kollegin",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_013.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L2_write_3",
+  "id": "ch11_L2_write_3",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_014",
+  "prompt": "Впиши: «Ich gratuliere ___ Chef.» (моему)",
+  "answer": "meinem",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_014.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L2_write_4",
+  "id": "ch11_L2_write_4",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_015",
+  "prompt": "Впиши: «Ich gratuliere ___ Mutter.» (моей)",
+  "answer": "meiner",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_015.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L2_write_5",
+  "id": "ch11_L2_write_5",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_016",
+  "prompt": "Впиши: «Gratulierst du ___ Mutter?» (твоей)",
+  "answer": "deiner",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch11_016.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L2_why_1",
+  "id": "ch11_L2_why_1",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_012",
+  "prompt": "Почему здесь «Wem», а не «Wen»?",
+  "answer": "После gratulierst спрашивают, кому желают, — Wem.",
+  "distractors": [
+   "Wen значит «когда» и всегда стоит в конце фразы.",
+   "Wem ставят только перед словом du, и никогда иначе."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Wem gratulierst du?"
+ },
+ {
+  "item_id": "ch11_L2_why_2",
+  "id": "ch11_L2_why_2",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_013",
+  "prompt": "Почему «meiner Kollegin», а не «meine Kollegin»?",
+  "answer": "После gratuliere у слов с die форма meiner.",
+  "distractors": [
+   "Слово Kollegin — с der, поэтому meiner.",
+   "Meiner ставят перед любым словом."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich gratuliere meiner Kollegin."
+ },
+ {
+  "item_id": "ch11_L2_why_3",
+  "id": "ch11_L2_why_3",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_014",
+  "prompt": "Почему «meinem Chef», а не «mein Chef»?",
+  "answer": "После gratuliere у слов с der форма meinem.",
+  "distractors": [
+   "Слово Chef — с die, поэтому meinem.",
+   "Meinem ставят перед любым словом."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich gratuliere meinem Chef."
+ },
+ {
+  "item_id": "ch11_L2_why_4",
+  "id": "ch11_L2_why_4",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_015",
+  "prompt": "Почему «meiner Mutter», а не «meinem Mutter»?",
+  "answer": "Mutter — слово с die, поэтому форма meiner.",
+  "distractors": [
+   "Mutter — слово с der, поэтому meinem.",
+   "Meiner ставят только перед именами."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich gratuliere meiner Mutter."
+ },
+ {
+  "item_id": "ch11_L2_why_5",
+  "id": "ch11_L2_why_5",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_016",
+  "prompt": "Почему в вопросе «Gratulierst du deiner Mutter?» действие стоит первым?",
+  "answer": "Вопрос с ответом да или нет: действие впереди.",
+  "distractors": [
+   "Действие всегда стоит перед словом du.",
+   "Впереди ставят то, что важнее всего."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Gratulierst du deiner Mutter?"
+ },
+ {
+  "item_id": "ch11_L2_transfer_1",
+  "id": "ch11_L2_transfer_1",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_t04",
+  "prompt": "Ольга показывает фото. Скажи про её коллегу: «Я поздравляю твою коллегу.»",
+  "answer": "Ich gratuliere deiner Kollegin.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t04.mp3",
+  "de": null,
+  "accept": [
+   "Ich gratuliere deiner Kollegin."
+  ]
+ },
+ {
+  "item_id": "ch11_L2_transfer_2",
+  "id": "ch11_L2_transfer_2",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_t03",
+  "prompt": "Скажи Ольге про её маму: «Я поздравляю твою маму.»",
+  "answer": "Ich gratuliere deiner Mutter.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t03.mp3",
+  "de": null,
+  "accept": [
+   "Ich gratuliere deiner Mutter."
+  ]
+ },
+ {
+  "item_id": "ch11_L2_transfer_3",
+  "id": "ch11_L2_transfer_3",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_t03",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Я поздравляю твою маму.",
+  "distractors": [
+   "Я поздравляю мою маму.",
+   "Ты поздравляешь твою маму?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L2_transfer_4",
+  "id": "ch11_L2_transfer_4",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_t03",
+  "prompt": "Впиши: «Ich gratuliere ___ Mutter.» (твоей)",
+  "answer": "deiner",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L2_transfer_5",
+  "id": "ch11_L2_transfer_5",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_t04",
+  "prompt": "Впиши: «Ich gratuliere deiner ___.» (коллеге)",
+  "answer": "Kollegin",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L2_boss_1",
+  "id": "ch11_L2_boss_1",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_d2_04",
+  "prompt": "Почему в «Ja, ich gratuliere auch meiner Kollegin» слово auch стоит перед meiner Kollegin?",
+  "answer": "Auch — «тоже»: стоит перед тем, кого добавляем.",
+  "distractors": [
+   "Auch всегда стоит в самом конце любой фразы.",
+   "Слово auch заменяет форму meiner перед Kollegin."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ja, ich gratuliere auch meiner Kollegin."
+ },
+ {
+  "item_id": "ch11_L2_boss_2",
+  "id": "ch11_L2_boss_2",
+  "lesson": "ch11_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d2_05",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Ты поздравляешь и твою маму?",
+  "distractors": [
+   "Ты поздравляешь и твоего начальника?",
+   "Я поздравляю и твою маму."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d2_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L3_words_1",
+  "id": "ch11_L3_words_1",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_019",
+  "prompt": "Что значит «Sommer»?",
+  "answer": "лето",
+  "distractors": [
+   "зима",
+   "весна"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L3_words_2",
+  "id": "ch11_L3_words_2",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_020",
+  "prompt": "Что значит «Winter»?",
+  "answer": "зима",
+  "distractors": [
+   "лето",
+   "осень"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L3_words_3",
+  "id": "ch11_L3_words_3",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_021",
+  "prompt": "Что значит «Mai»?",
+  "answer": "май",
+  "distractors": [
+   "март",
+   "июнь"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L3_words_4",
+  "id": "ch11_L3_words_4",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_020",
+  "prompt": "Что значит «kalt»?",
+  "answer": "холодно",
+  "distractors": [
+   "тепло",
+   "жарко"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L3_words_5",
+  "id": "ch11_L3_words_5",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_019",
+  "prompt": "Что значит «warm»?",
+  "answer": "тепло",
+  "distractors": [
+   "холодно",
+   "красиво"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L3_listen_1",
+  "id": "ch11_L3_listen_1",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d3_01",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "София, у тебя день рождения в мае?",
+  "distractors": [
+   "София, у тебя день рождения сегодня?",
+   "София, у тебя праздник летом?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d3_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L3_listen_2",
+  "id": "ch11_L3_listen_2",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d3_02",
+  "prompt": "Послушай. Что ответила София?",
+  "answer": "Нет, у меня день рождения летом.",
+  "distractors": [
+   "Да, у меня день рождения в мае.",
+   "Нет, у меня день рождения зимой."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d3_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L3_listen_3",
+  "id": "ch11_L3_listen_3",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d3_03",
+  "prompt": "Послушай. Что сказал герой?",
+  "answer": "Летом тепло.",
+  "distractors": [
+   "Зимой холодно.",
+   "Летом жарко."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d3_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L3_listen_4",
+  "id": "ch11_L3_listen_4",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d3_04",
+  "prompt": "Послушай. Что сказала София?",
+  "answer": "А зимой холодно.",
+  "distractors": [
+   "А летом холодно.",
+   "А зимой тепло."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d3_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L3_listen_5",
+  "id": "ch11_L3_listen_5",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d3_06",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Нет, у меня день рождения в мае.",
+  "distractors": [
+   "Да, у меня день рождения зимой.",
+   "Нет, у меня день рождения летом."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d3_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L3_read_1",
+  "id": "ch11_L3_read_1",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_019",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Летом тепло.",
+  "distractors": [
+   "Зимой холодно.",
+   "В мае тепло."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Im Sommer ist es warm."
+ },
+ {
+  "item_id": "ch11_L3_read_2",
+  "id": "ch11_L3_read_2",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_020",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Зимой холодно.",
+  "distractors": [
+   "Летом тепло.",
+   "Зимой тепло."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Im Winter ist es kalt."
+ },
+ {
+  "item_id": "ch11_L3_read_3",
+  "id": "ch11_L3_read_3",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_021",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У меня день рождения в мае.",
+  "distractors": [
+   "У тебя день рождения в мае.",
+   "У меня день рождения летом."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe im Mai Geburtstag."
+ },
+ {
+  "item_id": "ch11_L3_read_4",
+  "id": "ch11_L3_read_4",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_022",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У тебя день рождения в мае?",
+  "distractors": [
+   "У меня день рождения в мае.",
+   "У тебя день рождения зимой?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Hast du im Mai Geburtstag?"
+ },
+ {
+  "item_id": "ch11_L3_read_5",
+  "id": "ch11_L3_read_5",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_023",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "В мае тепло.",
+  "distractors": [
+   "Летом тепло.",
+   "В мае холодно."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Im Mai ist es warm."
+ },
+ {
+  "item_id": "ch11_L3_speak_1",
+  "id": "ch11_L3_speak_1",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_019",
+  "prompt": "Скажи: «Летом тепло.»",
+  "answer": "Im Sommer ist es warm.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_019.mp3",
+  "de": null,
+  "accept": [
+   "Im Sommer ist es warm."
+  ]
+ },
+ {
+  "item_id": "ch11_L3_speak_2",
+  "id": "ch11_L3_speak_2",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_020",
+  "prompt": "Скажи: «Зимой холодно.»",
+  "answer": "Im Winter ist es kalt.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_020.mp3",
+  "de": null,
+  "accept": [
+   "Im Winter ist es kalt."
+  ]
+ },
+ {
+  "item_id": "ch11_L3_speak_3",
+  "id": "ch11_L3_speak_3",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_021",
+  "prompt": "Скажи: «У меня день рождения в мае.»",
+  "answer": "Ich habe im Mai Geburtstag.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_021.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe im Mai Geburtstag."
+  ]
+ },
+ {
+  "item_id": "ch11_L3_speak_4",
+  "id": "ch11_L3_speak_4",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_022",
+  "prompt": "Спроси Софию: «У тебя день рождения в мае?»",
+  "answer": "Hast du im Mai Geburtstag?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch11_022.mp3",
+  "de": null,
+  "accept": [
+   "Hast du im Mai Geburtstag?"
+  ]
+ },
+ {
+  "item_id": "ch11_L3_speak_5",
+  "id": "ch11_L3_speak_5",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_023",
+  "prompt": "Скажи: «В мае тепло.»",
+  "answer": "Im Mai ist es warm.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_023.mp3",
+  "de": null,
+  "accept": [
+   "Im Mai ist es warm."
+  ]
+ },
+ {
+  "item_id": "ch11_L3_write_1",
+  "id": "ch11_L3_write_1",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_019",
+  "prompt": "Впиши: «Im ___ ist es warm.» (лето)",
+  "answer": "Sommer",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_019.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L3_write_2",
+  "id": "ch11_L3_write_2",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_020",
+  "prompt": "Впиши: «Im Winter ist es ___.» (холодно)",
+  "answer": "kalt",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_020.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L3_write_3",
+  "id": "ch11_L3_write_3",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_021",
+  "prompt": "Впиши: «Ich habe im ___ Geburtstag.» (май)",
+  "answer": "Mai",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_021.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L3_write_4",
+  "id": "ch11_L3_write_4",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_021",
+  "prompt": "Впиши: «Ich ___ im Mai Geburtstag.» (имею)",
+  "answer": "habe",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_021.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L3_write_5",
+  "id": "ch11_L3_write_5",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_022",
+  "prompt": "Впиши: «Hast du ___ Mai Geburtstag?» (в)",
+  "answer": "im",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch11_022.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L3_why_1",
+  "id": "ch11_L3_why_1",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_019",
+  "prompt": "Почему «Im Sommer», а не «In Sommer»?",
+  "answer": "In + dem склеиваются в im: im Sommer, im Mai.",
+  "distractors": [
+   "Im ставят только перед словом Sommer, всегда.",
+   "In — слово для месяцев, а im — для зимы."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Im Sommer ist es warm."
+ },
+ {
+  "item_id": "ch11_L3_why_2",
+  "id": "ch11_L3_why_2",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_020",
+  "prompt": "Почему в «Im Winter ist es kalt» действие ist — второе?",
+  "answer": "Im Winter — вагон №1, а ist всё равно вагон №2.",
+  "distractors": [
+   "Im Winter занимает два вагона, а ist идёт третьим.",
+   "Слово es ставят перед ist, потому что оно короче."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Im Winter ist es kalt."
+ },
+ {
+  "item_id": "ch11_L3_why_3",
+  "id": "ch11_L3_why_3",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_021",
+  "prompt": "Почему здесь стоит «habe», а не «bin»?",
+  "answer": "Про себя день рождения «имеют»: ich habe Geburtstag.",
+  "distractors": [
+   "Bin ставят только перед словом im, и не иначе.",
+   "Habe здесь значит «праздную» — как по-русски."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe im Mai Geburtstag."
+ },
+ {
+  "item_id": "ch11_L3_why_4",
+  "id": "ch11_L3_why_4",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_022",
+  "prompt": "Почему вопрос «Hast du im Mai Geburtstag?» начинается с hast?",
+  "answer": "Вопрос с ответом да или нет: действие впереди.",
+  "distractors": [
+   "Hast всегда ставят перед словом im, чтобы не путать.",
+   "Впереди ставят то, что важнее всего в фразе."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Hast du im Mai Geburtstag?"
+ },
+ {
+  "item_id": "ch11_L3_why_5",
+  "id": "ch11_L3_why_5",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_021",
+  "prompt": "Почему в «Ich habe im Mai Geburtstag» слово im Mai стоит после habe?",
+  "answer": "Действие habe — вагон №2, дальше im Mai.",
+  "distractors": [
+   "Im Mai всегда ставят после слова Geburtstag.",
+   "Слово im Mai — это и есть действие фразы."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe im Mai Geburtstag."
+ },
+ {
+  "item_id": "ch11_L3_transfer_1",
+  "id": "ch11_L3_transfer_1",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_t05",
+  "prompt": "София спрашивает, когда у тебя день рождения. Ответь: «У меня день рождения зимой.»",
+  "answer": "Ich habe im Winter Geburtstag.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t05.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe im Winter Geburtstag."
+  ]
+ },
+ {
+  "item_id": "ch11_L3_transfer_2",
+  "id": "ch11_L3_transfer_2",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_t06",
+  "prompt": "Спроси Ольгу про лето: «У тебя день рождения летом?»",
+  "answer": "Hast du im Sommer Geburtstag?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t06.mp3",
+  "de": null,
+  "accept": [
+   "Hast du im Sommer Geburtstag?"
+  ]
+ },
+ {
+  "item_id": "ch11_L3_transfer_3",
+  "id": "ch11_L3_transfer_3",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_t06",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "У тебя день рождения летом?",
+  "distractors": [
+   "У тебя день рождения зимой?",
+   "У Ольги день рождения летом?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L3_transfer_4",
+  "id": "ch11_L3_transfer_4",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_t06",
+  "prompt": "Напиши по-немецки: «У тебя день рождения летом?»",
+  "answer": "Hast du im Sommer Geburtstag?",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L3_transfer_5",
+  "id": "ch11_L3_transfer_5",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_t05",
+  "prompt": "Впиши: «Ich habe ___ Winter Geburtstag.» (в)",
+  "answer": "im",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L3_boss_1",
+  "id": "ch11_L3_boss_1",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_d3_03",
+  "prompt": "Почему в «Im Sommer ist es warm» стоит es?",
+  "answer": "Фразе про погоду нужно es: оно занимает место «кто».",
+  "distractors": [
+   "Es здесь значит «лето», поэтому стоит после im.",
+   "Es ставят только в вопросах, перед словом ist."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Im Sommer ist es warm."
+ },
+ {
+  "item_id": "ch11_L3_boss_2",
+  "id": "ch11_L3_boss_2",
+  "lesson": "ch11_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d3_05",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "У тебя день рождения зимой?",
+  "distractors": [
+   "У тебя день рождения летом?",
+   "У меня день рождения зимой."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d3_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L4_words_1",
+  "id": "ch11_L4_words_1",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_025",
+  "prompt": "Что значит «wann»?",
+  "answer": "когда",
+  "distractors": [
+   "где",
+   "кто"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L4_words_2",
+  "id": "ch11_L4_words_2",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_028",
+  "prompt": "Что значит «Juni»?",
+  "answer": "июнь",
+  "distractors": [
+   "июль",
+   "май"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L4_words_3",
+  "id": "ch11_L4_words_3",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_026",
+  "prompt": "Что значит «am dritten Mai»?",
+  "answer": "третьего мая",
+  "distractors": [
+   "третье мая",
+   "в мае"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L4_words_4",
+  "id": "ch11_L4_words_4",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_027",
+  "prompt": "Что значит «der dritte Mai»?",
+  "answer": "третье мая",
+  "distractors": [
+   "третьего мая",
+   "в мае"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L4_words_5",
+  "id": "ch11_L4_words_5",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_028",
+  "prompt": "Что значит «am ersten Juni»?",
+  "answer": "первого июня",
+  "distractors": [
+   "первое июня",
+   "в июне"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L4_listen_1",
+  "id": "ch11_L4_listen_1",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d4_01",
+  "prompt": "Послушай. Что спросила София?",
+  "answer": "Когда у тебя день рождения?",
+  "distractors": [
+   "Где у тебя день рождения?",
+   "У тебя сегодня день рождения?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d4_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L4_listen_2",
+  "id": "ch11_L4_listen_2",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d4_02",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "У меня день рождения третьего мая.",
+  "distractors": [
+   "У меня день рождения первого мая.",
+   "У меня день рождения в июне."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d4_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L4_listen_3",
+  "id": "ch11_L4_listen_3",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d4_03",
+  "prompt": "Послушай. Что сказала София?",
+  "answer": "Сегодня третье мая!",
+  "distractors": [
+   "Сегодня первое мая!",
+   "Сегодня третье июня!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d4_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L4_listen_4",
+  "id": "ch11_L4_listen_4",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d4_05",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Да, у меня сегодня день рождения.",
+  "distractors": [
+   "Нет, у меня день рождения в июне.",
+   "Да, у меня день рождения летом."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d4_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L4_listen_5",
+  "id": "ch11_L4_listen_5",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d4_08",
+  "prompt": "Послушай. Что ответила София?",
+  "answer": "У меня день рождения первого июня.",
+  "distractors": [
+   "У меня день рождения третьего июня.",
+   "У меня день рождения первого мая."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d4_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L4_read_1",
+  "id": "ch11_L4_read_1",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_025",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Когда у тебя день рождения?",
+  "distractors": [
+   "У тебя сегодня день рождения?",
+   "Где у тебя день рождения?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wann hast du Geburtstag?"
+ },
+ {
+  "item_id": "ch11_L4_read_2",
+  "id": "ch11_L4_read_2",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_026",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У меня день рождения третьего мая.",
+  "distractors": [
+   "Сегодня третье мая.",
+   "У меня день рождения в мае."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe am dritten Mai Geburtstag."
+ },
+ {
+  "item_id": "ch11_L4_read_3",
+  "id": "ch11_L4_read_3",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_027",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Сегодня третье мая.",
+  "distractors": [
+   "Сегодня первое мая.",
+   "Сегодня третье июня."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Heute ist der dritte Mai."
+ },
+ {
+  "item_id": "ch11_L4_read_4",
+  "id": "ch11_L4_read_4",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_028",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У меня день рождения первого июня.",
+  "distractors": [
+   "У меня день рождения третьего июня.",
+   "У тебя день рождения первого июня?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe am ersten Juni Geburtstag."
+ },
+ {
+  "item_id": "ch11_L4_read_5",
+  "id": "ch11_L4_read_5",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_029",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У тебя день рождения первого июня?",
+  "distractors": [
+   "У меня день рождения первого июня.",
+   "У тебя день рождения в июне?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Hast du am ersten Juni Geburtstag?"
+ },
+ {
+  "item_id": "ch11_L4_speak_1",
+  "id": "ch11_L4_speak_1",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_025",
+  "prompt": "Спроси Софию: «Когда у тебя день рождения?»",
+  "answer": "Wann hast du Geburtstag?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch11_025.mp3",
+  "de": null,
+  "accept": [
+   "Wann hast du Geburtstag?"
+  ]
+ },
+ {
+  "item_id": "ch11_L4_speak_2",
+  "id": "ch11_L4_speak_2",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_026",
+  "prompt": "Скажи: «У меня день рождения третьего мая.»",
+  "answer": "Ich habe am dritten Mai Geburtstag.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_026.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe am dritten Mai Geburtstag."
+  ]
+ },
+ {
+  "item_id": "ch11_L4_speak_3",
+  "id": "ch11_L4_speak_3",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_027",
+  "prompt": "Скажи: «Сегодня третье мая.»",
+  "answer": "Heute ist der dritte Mai.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_027.mp3",
+  "de": null,
+  "accept": [
+   "Heute ist der dritte Mai."
+  ]
+ },
+ {
+  "item_id": "ch11_L4_speak_4",
+  "id": "ch11_L4_speak_4",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_028",
+  "prompt": "Скажи: «У меня день рождения первого июня.»",
+  "answer": "Ich habe am ersten Juni Geburtstag.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_028.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe am ersten Juni Geburtstag."
+  ]
+ },
+ {
+  "item_id": "ch11_L4_speak_5",
+  "id": "ch11_L4_speak_5",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_029",
+  "prompt": "Спроси Софию: «У тебя день рождения первого июня?»",
+  "answer": "Hast du am ersten Juni Geburtstag?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch11_029.mp3",
+  "de": null,
+  "accept": [
+   "Hast du am ersten Juni Geburtstag?"
+  ]
+ },
+ {
+  "item_id": "ch11_L4_write_1",
+  "id": "ch11_L4_write_1",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_025",
+  "prompt": "Впиши: «___ hast du Geburtstag?» (когда)",
+  "answer": "Wann",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch11_025.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L4_write_2",
+  "id": "ch11_L4_write_2",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_026",
+  "prompt": "Впиши: «Ich habe am ___ Mai Geburtstag.» (третьего)",
+  "answer": "dritten",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_026.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L4_write_3",
+  "id": "ch11_L4_write_3",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_027",
+  "prompt": "Впиши: «Heute ist der ___ Mai.» (третье)",
+  "answer": "dritte",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_027.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L4_write_4",
+  "id": "ch11_L4_write_4",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_028",
+  "prompt": "Впиши: «Ich habe ___ ersten Juni Geburtstag.» (маленькое слово перед датой)",
+  "answer": "am",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_028.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L4_write_5",
+  "id": "ch11_L4_write_5",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_028",
+  "prompt": "Впиши: «Ich habe am ersten ___ Geburtstag.» (июнь)",
+  "answer": "Juni",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_028.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L4_why_1",
+  "id": "ch11_L4_why_1",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_026",
+  "prompt": "Почему «am dritten Mai», а не «am dritte Mai»?",
+  "answer": "После am у числа другой хвост: am dritten.",
+  "distractors": [
+   "Dritte с am пишут только в письме.",
+   "Am dritten говорят лишь про май."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe am dritten Mai Geburtstag."
+ },
+ {
+  "item_id": "ch11_L4_why_2",
+  "id": "ch11_L4_why_2",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_027",
+  "prompt": "Почему в «Heute ist der dritte Mai» нет am?",
+  "answer": "Это ответ на вопрос какое число, а не когда.",
+  "distractors": [
+   "Am ставят только перед словом Geburtstag.",
+   "Heute уже значит am, второй не нужен."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Heute ist der dritte Mai."
+ },
+ {
+  "item_id": "ch11_L4_why_3",
+  "id": "ch11_L4_why_3",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_025",
+  "prompt": "Почему в «Wann hast du Geburtstag?» hast стоит вторым?",
+  "answer": "Wann — вагон №1, действие hast — вагон №2.",
+  "distractors": [
+   "Hast ставят вторым, потому что оно короче.",
+   "Wann и hast — одно слово, их не делят."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Wann hast du Geburtstag?"
+ },
+ {
+  "item_id": "ch11_L4_why_4",
+  "id": "ch11_L4_why_4",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_028",
+  "prompt": "Почему «am ersten Juni», а не «am einsten Juni»?",
+  "answer": "Первый — особое слово erste, не от eins.",
+  "distractors": [
+   "Einsten говорят только про январь.",
+   "Ersten — то же eins, только короче."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe am ersten Juni Geburtstag."
+ },
+ {
+  "item_id": "ch11_L4_why_5",
+  "id": "ch11_L4_why_5",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_028",
+  "prompt": "Почему в «am ersten Juni» Juni пишут с большой буквы?",
+  "answer": "Juni — слово-предмет, их пишут с большой.",
+  "distractors": [
+   "Месяцы с большой только в начале фразы.",
+   "Juni с большой, потому что после ersten."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe am ersten Juni Geburtstag."
+ },
+ {
+  "item_id": "ch11_L4_transfer_1",
+  "id": "ch11_L4_transfer_1",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_t07",
+  "prompt": "София спрашивает про твою дату. Ответь: «У меня день рождения третьего июня.»",
+  "answer": "Ich habe am dritten Juni Geburtstag.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t07.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe am dritten Juni Geburtstag."
+  ]
+ },
+ {
+  "item_id": "ch11_L4_transfer_2",
+  "id": "ch11_L4_transfer_2",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_t08",
+  "prompt": "Скажи Ольге, какое сегодня число: «Сегодня третье июня.»",
+  "answer": "Heute ist der dritte Juni.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t08.mp3",
+  "de": null,
+  "accept": [
+   "Heute ist der dritte Juni."
+  ]
+ },
+ {
+  "item_id": "ch11_L4_transfer_3",
+  "id": "ch11_L4_transfer_3",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_t08",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Сегодня третье июня.",
+  "distractors": [
+   "Сегодня третье мая.",
+   "Сегодня первое июня."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L4_transfer_4",
+  "id": "ch11_L4_transfer_4",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_t08",
+  "prompt": "Напиши по-немецки: «Сегодня третье июня.»",
+  "answer": "Heute ist der dritte Juni.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L4_transfer_5",
+  "id": "ch11_L4_transfer_5",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_t07",
+  "prompt": "Впиши: «Ich habe am ___ Juni Geburtstag.» (третьего)",
+  "answer": "dritten",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L4_boss_1",
+  "id": "ch11_L4_boss_1",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_d4_07",
+  "prompt": "Почему в «Und wann hast du Geburtstag?» und не занимает вагон?",
+  "answer": "Und только связывает фразы: вагон №1 — wann.",
+  "distractors": [
+   "Und — это действие, поэтому оно первое.",
+   "Und ставят только перед словом wann."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Danke! Und wann hast du Geburtstag?"
+ },
+ {
+  "item_id": "ch11_L4_boss_2",
+  "id": "ch11_L4_boss_2",
+  "lesson": "ch11_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d4_04",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "У тебя сегодня день рождения?",
+  "distractors": [
+   "У тебя завтра день рождения?",
+   "У меня сегодня день рождения."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d4_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L5_words_1",
+  "id": "ch11_L5_words_1",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_034",
+  "prompt": "Что значит «ihm»?",
+  "answer": "ему",
+  "distractors": [
+   "ей",
+   "его"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L5_words_2",
+  "id": "ch11_L5_words_2",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_032",
+  "prompt": "Что значит «ihr» в «Ich schenke ihr einen Kuchen»?",
+  "answer": "ей",
+  "distractors": [
+   "вы",
+   "ему"
+  ],
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L5_words_3",
+  "id": "ch11_L5_words_3",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_031",
+  "prompt": "Что значит «schenkst»?",
+  "answer": "даришь",
+  "distractors": [
+   "пишешь",
+   "желаешь"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L5_words_4",
+  "id": "ch11_L5_words_4",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_034",
+  "prompt": "Что значит «Buch»?",
+  "answer": "книга",
+  "distractors": [
+   "цветы",
+   "подарок"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L5_words_5",
+  "id": "ch11_L5_words_5",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_032",
+  "prompt": "Что значит «Kuchen»?",
+  "answer": "пирог",
+  "distractors": [
+   "книга",
+   "цветы"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L5_listen_1",
+  "id": "ch11_L5_listen_1",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d5_01",
+  "prompt": "Послушай. Что спросила София?",
+  "answer": "Что ты подаришь Ольге?",
+  "distractors": [
+   "Что ты подаришь ему?",
+   "Когда у Ольги день рождения?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d5_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L5_listen_2",
+  "id": "ch11_L5_listen_2",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d5_02",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Я подарю ей пирог.",
+  "distractors": [
+   "Я подарю ему пирог.",
+   "Я подарю ей книгу."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d5_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L5_listen_3",
+  "id": "ch11_L5_listen_3",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d5_03",
+  "prompt": "Послушай. Что сказала София?",
+  "answer": "А я подарю ей книгу.",
+  "distractors": [
+   "А я подарю ему книгу.",
+   "А я подарю ей пирог."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d5_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L5_listen_4",
+  "id": "ch11_L5_listen_4",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d5_04",
+  "prompt": "Послушай. Что сказал герой?",
+  "answer": "У моего начальника тоже день рождения в мае.",
+  "distractors": [
+   "У моей мамы тоже день рождения в мае.",
+   "У моего начальника день рождения в июне."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d5_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L5_listen_5",
+  "id": "ch11_L5_listen_5",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d5_06",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Я подарю ему книгу.",
+  "distractors": [
+   "Я подарю ей книгу.",
+   "Я подарю ему пирог."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d5_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L5_read_1",
+  "id": "ch11_L5_read_1",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_031",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Что ты подаришь Ольге?",
+  "distractors": [
+   "Что ты подаришь ему?",
+   "Что Ольга подарит тебе?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Was schenkst du Olga?"
+ },
+ {
+  "item_id": "ch11_L5_read_2",
+  "id": "ch11_L5_read_2",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_032",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я подарю ей пирог.",
+  "distractors": [
+   "Я подарю вам пирог.",
+   "Я подарю ему пирог."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich schenke ihr einen Kuchen."
+ },
+ {
+  "item_id": "ch11_L5_read_3",
+  "id": "ch11_L5_read_3",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_033",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Что ты ему подаришь?",
+  "distractors": [
+   "Что ты ей подаришь?",
+   "Что он тебе подарит?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Was schenkst du ihm?"
+ },
+ {
+  "item_id": "ch11_L5_read_4",
+  "id": "ch11_L5_read_4",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_034",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я подарю ему книгу.",
+  "distractors": [
+   "Я подарю ей книгу.",
+   "Он подарит мне книгу."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich schenke ihm ein Buch."
+ },
+ {
+  "item_id": "ch11_L5_read_5",
+  "id": "ch11_L5_read_5",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_035",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я подарю ему пирог.",
+  "distractors": [
+   "Я подарю ей пирог.",
+   "Я подарю ему книгу."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich schenke ihm einen Kuchen."
+ },
+ {
+  "item_id": "ch11_L5_speak_1",
+  "id": "ch11_L5_speak_1",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_031",
+  "prompt": "Спроси Софию: «Что ты подаришь Ольге?»",
+  "answer": "Was schenkst du Olga?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch11_031.mp3",
+  "de": null,
+  "accept": [
+   "Was schenkst du Olga?"
+  ]
+ },
+ {
+  "item_id": "ch11_L5_speak_2",
+  "id": "ch11_L5_speak_2",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_032",
+  "prompt": "Скажи: «Я подарю ей пирог.»",
+  "answer": "Ich schenke ihr einen Kuchen.",
+  "distractors": null,
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": "audio_v1/ch11_032.mp3",
+  "de": null,
+  "accept": [
+   "Ich schenke ihr einen Kuchen."
+  ]
+ },
+ {
+  "item_id": "ch11_L5_speak_3",
+  "id": "ch11_L5_speak_3",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_033",
+  "prompt": "Спроси: «Что ты ему подаришь?»",
+  "answer": "Was schenkst du ihm?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch11_033.mp3",
+  "de": null,
+  "accept": [
+   "Was schenkst du ihm?"
+  ]
+ },
+ {
+  "item_id": "ch11_L5_speak_4",
+  "id": "ch11_L5_speak_4",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_034",
+  "prompt": "Скажи: «Я подарю ему книгу.»",
+  "answer": "Ich schenke ihm ein Buch.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_034.mp3",
+  "de": null,
+  "accept": [
+   "Ich schenke ihm ein Buch."
+  ]
+ },
+ {
+  "item_id": "ch11_L5_speak_5",
+  "id": "ch11_L5_speak_5",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_035",
+  "prompt": "Скажи: «Я подарю ему пирог.»",
+  "answer": "Ich schenke ihm einen Kuchen.",
+  "distractors": null,
+  "rule_id": "topics/akkusativ",
+  "transfer": false,
+  "audio": "audio_v1/ch11_035.mp3",
+  "de": null,
+  "accept": [
+   "Ich schenke ihm einen Kuchen."
+  ]
+ },
+ {
+  "item_id": "ch11_L5_write_1",
+  "id": "ch11_L5_write_1",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_032",
+  "prompt": "Впиши: «Ich schenke ___ einen Kuchen.» (ей)",
+  "answer": "ihr",
+  "distractors": null,
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": "audio_v1/ch11_032.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L5_write_2",
+  "id": "ch11_L5_write_2",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_034",
+  "prompt": "Впиши: «Ich schenke ___ ein Buch.» (ему)",
+  "answer": "ihm",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_034.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L5_write_3",
+  "id": "ch11_L5_write_3",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_031",
+  "prompt": "Впиши: «Was ___ du Olga?» (даришь)",
+  "answer": "schenkst",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch11_031.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L5_write_4",
+  "id": "ch11_L5_write_4",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_034",
+  "prompt": "Впиши: «Ich ___ ihm ein Buch.» (дарю)",
+  "answer": "schenke",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_034.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L5_write_5",
+  "id": "ch11_L5_write_5",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_032",
+  "prompt": "Впиши: «Ich schenke ihr einen ___.» (пирог)",
+  "answer": "Kuchen",
+  "distractors": null,
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": "audio_v1/ch11_032.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L5_why_1",
+  "id": "ch11_L5_why_1",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_032",
+  "prompt": "Почему «Ich schenke ihr einen Kuchen», а не «Ich schenke sie einen Kuchen»?",
+  "answer": "Кому дарят — ihr, а sie — это её.",
+  "distractors": [
+   "Sie ставят только в вопросах.",
+   "Ihr — это вы, так вежливее."
+  ],
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich schenke ihr einen Kuchen."
+ },
+ {
+  "item_id": "ch11_L5_why_2",
+  "id": "ch11_L5_why_2",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_034",
+  "prompt": "Почему здесь ihm, а не ihn?",
+  "answer": "Ему — ihm: тот, кому подарок.",
+  "distractors": [
+   "Ihn ставят только с Kuchen.",
+   "Ihm — это он, просто короче."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich schenke ihm ein Buch."
+ },
+ {
+  "item_id": "ch11_L5_why_3",
+  "id": "ch11_L5_why_3",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_034",
+  "prompt": "Почему ihm стоит перед ein Buch?",
+  "answer": "Короткое ihm идёт перед подарком.",
+  "distractors": [
+   "Ein Buch всегда стоит в конце.",
+   "Ihm — действие, оно идёт вторым."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich schenke ihm ein Buch."
+ },
+ {
+  "item_id": "ch11_L5_why_4",
+  "id": "ch11_L5_why_4",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_032",
+  "prompt": "Почему в «Ich schenke ihr einen Kuchen» ihr значит «ей», а не «вы»?",
+  "answer": "После schenke ihr — тот, кому дарят.",
+  "distractors": [
+   "Ihr значит «вы» только в вопросах.",
+   "Ihr с маленькой — всегда «ей»."
+  ],
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich schenke ihr einen Kuchen."
+ },
+ {
+  "item_id": "ch11_L5_why_5",
+  "id": "ch11_L5_why_5",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_031",
+  "prompt": "Почему в «Was schenkst du Olga?» schenkst стоит вторым?",
+  "answer": "Was — вагон №1, действие schenkst — №2.",
+  "distractors": [
+   "Schenkst ставят перед du всегда.",
+   "Was и schenkst — одно целое."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Was schenkst du Olga?"
+ },
+ {
+  "item_id": "ch11_L5_transfer_1",
+  "id": "ch11_L5_transfer_1",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_t09",
+  "prompt": "Скажи Ольге: «Я подарю тебе пирог.»",
+  "answer": "Ich schenke dir einen Kuchen.",
+  "distractors": null,
+  "rule_id": "topics/akkusativ",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t09.mp3",
+  "de": null,
+  "accept": [
+   "Ich schenke dir einen Kuchen."
+  ]
+ },
+ {
+  "item_id": "ch11_L5_transfer_2",
+  "id": "ch11_L5_transfer_2",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_t10",
+  "prompt": "Спроси Софию: «Что ты подаришь своей маме?»",
+  "answer": "Was schenkst du deiner Mutter?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t10.mp3",
+  "de": null,
+  "accept": [
+   "Was schenkst du deiner Mutter?"
+  ]
+ },
+ {
+  "item_id": "ch11_L5_transfer_3",
+  "id": "ch11_L5_transfer_3",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_t10",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Что ты подаришь своей маме?",
+  "distractors": [
+   "Что ты подаришь своему начальнику?",
+   "Что тебе подарит мама?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L5_transfer_4",
+  "id": "ch11_L5_transfer_4",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_t10",
+  "prompt": "Напиши по-немецки: «Что ты подаришь своей маме?»",
+  "answer": "Was schenkst du deiner Mutter?",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L5_transfer_5",
+  "id": "ch11_L5_transfer_5",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_t09",
+  "prompt": "Впиши: «Ich schenke ___ einen Kuchen.» (тебе)",
+  "answer": "dir",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t09.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L5_boss_1",
+  "id": "ch11_L5_boss_1",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_d5_04",
+  "prompt": "Почему в «Mein Chef hat auch im Mai Geburtstag» стоит hat, а не habe?",
+  "answer": "Про другого — hat: habe только про себя.",
+  "distractors": [
+   "Hat ставят, когда праздник скоро.",
+   "Habe говорят только в вопросах."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Mein Chef hat auch im Mai Geburtstag."
+ },
+ {
+  "item_id": "ch11_L5_boss_2",
+  "id": "ch11_L5_boss_2",
+  "lesson": "ch11_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d5_05",
+  "prompt": "Послушай. Что спросила София?",
+  "answer": "Что ты ему подаришь?",
+  "distractors": [
+   "Что ты ей подаришь?",
+   "Что он тебе подарит?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d5_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L6_words_1",
+  "id": "ch11_L6_words_1",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_037",
+  "prompt": "Что значит «Party»?",
+  "answer": "вечеринка",
+  "distractors": [
+   "пирог",
+   "подарок"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L6_words_2",
+  "id": "ch11_L6_words_2",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_037",
+  "prompt": "Что значит «mache» в «Ich mache eine Party»?",
+  "answer": "устраиваю",
+  "distractors": [
+   "иду",
+   "дарю"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L6_words_3",
+  "id": "ch11_L6_words_3",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_038",
+  "prompt": "Что значит «kommst»?",
+  "answer": "приходишь",
+  "distractors": [
+   "даришь",
+   "живёшь"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L6_words_4",
+  "id": "ch11_L6_words_4",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_039",
+  "prompt": "Что значит «ab» в «ab acht Uhr»?",
+  "answer": "с, начиная с",
+  "distractors": [
+   "до",
+   "после"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L6_words_5",
+  "id": "ch11_L6_words_5",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_040",
+  "prompt": "Что значит «leider»?",
+  "answer": "к сожалению",
+  "distractors": [
+   "с удовольствием",
+   "сразу"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L6_listen_1",
+  "id": "ch11_L6_listen_1",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d6_01",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Я устраиваю в субботу вечеринку.",
+  "distractors": [
+   "Я устраиваю вечеринку в воскресенье.",
+   "Я иду в субботу на вечеринку."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d6_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L6_listen_2",
+  "id": "ch11_L6_listen_2",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d6_02",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "Когда вечеринка?",
+  "distractors": [
+   "Где вечеринка?",
+   "Кто придёт на вечеринку?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d6_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L6_listen_3",
+  "id": "ch11_L6_listen_3",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d6_03",
+  "prompt": "Послушай. Что ответила Ольга?",
+  "answer": "Вечеринка с восьми часов.",
+  "distractors": [
+   "Вечеринка до восьми часов.",
+   "Вечеринка в субботу."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d6_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L6_listen_4",
+  "id": "ch11_L6_listen_4",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d6_05",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Да, с удовольствием! Я приду.",
+  "distractors": [
+   "Нет, к сожалению, не могу.",
+   "Да, я устраиваю вечеринку."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d6_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L6_listen_5",
+  "id": "ch11_L6_listen_5",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d6_06",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "София, к сожалению, не может.",
+  "distractors": [
+   "София придёт с восьми часов.",
+   "София устраивает вечеринку."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d6_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L6_read_1",
+  "id": "ch11_L6_read_1",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_037",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я устраиваю вечеринку.",
+  "distractors": [
+   "Я иду на вечеринку.",
+   "Ты устраиваешь вечеринку."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich mache eine Party."
+ },
+ {
+  "item_id": "ch11_L6_read_2",
+  "id": "ch11_L6_read_2",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_038",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Ты придёшь на вечеринку?",
+  "distractors": [
+   "Ты устраиваешь вечеринку?",
+   "Когда вечеринка?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Kommst du zur Party?"
+ },
+ {
+  "item_id": "ch11_L6_read_3",
+  "id": "ch11_L6_read_3",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_039",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Вечеринка с восьми часов.",
+  "distractors": [
+   "Вечеринка до восьми часов.",
+   "Вечеринка в восемь вечера."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Party ist ab acht Uhr."
+ },
+ {
+  "item_id": "ch11_L6_read_4",
+  "id": "ch11_L6_read_4",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_040",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я, к сожалению, не могу.",
+  "distractors": [
+   "Я, к сожалению, не знаю.",
+   "Я с удовольствием могу."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich kann leider nicht."
+ },
+ {
+  "item_id": "ch11_L6_read_5",
+  "id": "ch11_L6_read_5",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_041",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я приду с восьми часов.",
+  "distractors": [
+   "Я приду до восьми часов.",
+   "Ты придёшь с восьми часов."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich komme ab acht Uhr."
+ },
+ {
+  "item_id": "ch11_L6_speak_1",
+  "id": "ch11_L6_speak_1",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_037",
+  "prompt": "Скажи: «Я устраиваю вечеринку.»",
+  "answer": "Ich mache eine Party.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_037.mp3",
+  "de": null,
+  "accept": [
+   "Ich mache eine Party."
+  ]
+ },
+ {
+  "item_id": "ch11_L6_speak_2",
+  "id": "ch11_L6_speak_2",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_038",
+  "prompt": "Спроси Ольгу: «Ты придёшь на вечеринку?»",
+  "answer": "Kommst du zur Party?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch11_038.mp3",
+  "de": null,
+  "accept": [
+   "Kommst du zur Party?"
+  ]
+ },
+ {
+  "item_id": "ch11_L6_speak_3",
+  "id": "ch11_L6_speak_3",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_039",
+  "prompt": "Скажи: «Вечеринка с восьми часов.»",
+  "answer": "Die Party ist ab acht Uhr.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_039.mp3",
+  "de": null,
+  "accept": [
+   "Die Party ist ab acht Uhr."
+  ]
+ },
+ {
+  "item_id": "ch11_L6_speak_4",
+  "id": "ch11_L6_speak_4",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_040",
+  "prompt": "Откажись вежливо: «Я, к сожалению, не могу.»",
+  "answer": "Ich kann leider nicht.",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch11_040.mp3",
+  "de": null,
+  "accept": [
+   "Ich kann leider nicht."
+  ]
+ },
+ {
+  "item_id": "ch11_L6_speak_5",
+  "id": "ch11_L6_speak_5",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_041",
+  "prompt": "Скажи: «Я приду с восьми часов.»",
+  "answer": "Ich komme ab acht Uhr.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_041.mp3",
+  "de": null,
+  "accept": [
+   "Ich komme ab acht Uhr."
+  ]
+ },
+ {
+  "item_id": "ch11_L6_write_1",
+  "id": "ch11_L6_write_1",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_037",
+  "prompt": "Впиши: «Ich ___ eine Party.» (устраиваю)",
+  "answer": "mache",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_037.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L6_write_2",
+  "id": "ch11_L6_write_2",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_038",
+  "prompt": "Впиши: «___ du zur Party?» (приходишь)",
+  "answer": "Kommst",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch11_038.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L6_write_3",
+  "id": "ch11_L6_write_3",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_039",
+  "prompt": "Впиши: «Die Party ist ___ acht Uhr.» (с)",
+  "answer": "ab",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_039.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L6_write_4",
+  "id": "ch11_L6_write_4",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_040",
+  "prompt": "Впиши: «Ich kann ___ nicht.» (к сожалению)",
+  "answer": "leider",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch11_040.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L6_write_5",
+  "id": "ch11_L6_write_5",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_041",
+  "prompt": "Впиши: «Ich ___ ab acht Uhr.» (приду)",
+  "answer": "komme",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch11_041.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L6_why_1",
+  "id": "ch11_L6_why_1",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_039",
+  "prompt": "Почему перед «acht Uhr» стоит «ab»?",
+  "answer": "ab — «с, начиная с»: с какого часа.",
+  "distractors": [
+   "ab — это «до»: до восьми часов.",
+   "ab ставят только перед словом Party."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Party ist ab acht Uhr."
+ },
+ {
+  "item_id": "ch11_L6_why_2",
+  "id": "ch11_L6_why_2",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_040",
+  "prompt": "Почему в «Ich kann leider nicht» слово kann стоит вторым?",
+  "answer": "kann держит вагон №2: Ich — №1.",
+  "distractors": [
+   "leider — это действие, оно идёт вторым.",
+   "nicht всегда ставят сразу после Ich."
+  ],
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich kann leider nicht."
+ },
+ {
+  "item_id": "ch11_L6_why_3",
+  "id": "ch11_L6_why_3",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_038",
+  "prompt": "Почему «zur Party», а не «zu Party»?",
+  "answer": "zur — это zu и der вместе.",
+  "distractors": [
+   "zur — это «мой»: к моей вечеринке.",
+   "Party — слово с der, поэтому zur."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": null,
+  "de": "Kommst du zur Party?"
+ },
+ {
+  "item_id": "ch11_L6_why_4",
+  "id": "ch11_L6_why_4",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_037",
+  "prompt": "Почему «eine Party», а не «ein Party»?",
+  "answer": "Party — слово с die, поэтому eine.",
+  "distractors": [
+   "Party — слово с das, поэтому eine.",
+   "eine ставят перед каждым словом с большой буквы."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich mache eine Party."
+ },
+ {
+  "item_id": "ch11_L6_why_5",
+  "id": "ch11_L6_why_5",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_d6_01",
+  "prompt": "Почему в «Ich mache am Samstag eine Party» слово mache стоит вторым?",
+  "answer": "mache держит вагон №2: Ich — №1.",
+  "distractors": [
+   "am Samstag всегда стоит первым.",
+   "mache ставят в конец, после Party."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich mache am Samstag eine Party."
+ },
+ {
+  "item_id": "ch11_L6_transfer_1",
+  "id": "ch11_L6_transfer_1",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_t11",
+  "prompt": "Ольга зовёт тебя на вечеринку. Ответь: «Я с удовольствием приду на вечеринку.»",
+  "answer": "Ich komme gern zur Party.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t11.mp3",
+  "de": null,
+  "accept": [
+   "Ich komme gern zur Party."
+  ]
+ },
+ {
+  "item_id": "ch11_L6_transfer_2",
+  "id": "ch11_L6_transfer_2",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_t12",
+  "prompt": "Спроси Ольгу: «Ты тоже придёшь на вечеринку?»",
+  "answer": "Kommst du auch zur Party?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t12.mp3",
+  "de": null,
+  "accept": [
+   "Kommst du auch zur Party?"
+  ]
+ },
+ {
+  "item_id": "ch11_L6_transfer_3",
+  "id": "ch11_L6_transfer_3",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_t12",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Ты тоже придёшь на вечеринку?",
+  "distractors": [
+   "Ты тоже устраиваешь вечеринку?",
+   "Ты придёшь на день рождения?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t12.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L6_transfer_4",
+  "id": "ch11_L6_transfer_4",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_t12",
+  "prompt": "Напиши по-немецки: «Ты тоже придёшь на вечеринку?»",
+  "answer": "Kommst du auch zur Party?",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t12.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L6_transfer_5",
+  "id": "ch11_L6_transfer_5",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_t11",
+  "prompt": "Впиши: «Ich komme ___ zur Party.» (с удовольствием)",
+  "answer": "gern",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t11.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L6_boss_1",
+  "id": "ch11_L6_boss_1",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_d6_02",
+  "prompt": "Герой спрашивает про время. Почему в «Wann ist die Party?» слово ist сразу после wann?",
+  "answer": "После вопрос-слова сразу идёт действие: wann · ist.",
+  "distractors": [
+   "ist ставят в самый конец фразы.",
+   "wann — само действие, оно и стоит вторым."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": null,
+  "de": "Wann ist die Party?"
+ },
+ {
+  "item_id": "ch11_L6_boss_2",
+  "id": "ch11_L6_boss_2",
+  "lesson": "ch11_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d6_04",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Ты придёшь на вечеринку?",
+  "distractors": [
+   "Ты устраиваешь вечеринку?",
+   "Когда вечеринка?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d6_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L7_words_1",
+  "id": "ch11_L7_words_1",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_043",
+  "prompt": "Что значит «feierst»?",
+  "answer": "празднуешь",
+  "distractors": [
+   "даришь",
+   "приходишь"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L7_words_2",
+  "id": "ch11_L7_words_2",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_044",
+  "prompt": "Что значит «feiere»?",
+  "answer": "праздную",
+  "distractors": [
+   "дарю",
+   "прихожу"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L7_words_3",
+  "id": "ch11_L7_words_3",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_045",
+  "prompt": "Что значит «Australien»?",
+  "answer": "Австралия",
+  "distractors": [
+   "Германия",
+   "Америка"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L7_words_4",
+  "id": "ch11_L7_words_4",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_046",
+  "prompt": "Что значит «Dezember»?",
+  "answer": "декабрь",
+  "distractors": [
+   "июнь",
+   "май"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L7_words_5",
+  "id": "ch11_L7_words_5",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_045",
+  "prompt": "Что значит «kalt»?",
+  "answer": "холодно",
+  "distractors": [
+   "тепло",
+   "жарко"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L7_listen_1",
+  "id": "ch11_L7_listen_1",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d7_01",
+  "prompt": "Послушай. Что спросила София?",
+  "answer": "Когда ты празднуешь день рождения?",
+  "distractors": [
+   "Где ты празднуешь день рождения?",
+   "Что ты подаришь на день рождения?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d7_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L7_listen_2",
+  "id": "ch11_L7_listen_2",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d7_02",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Я праздную в мае.",
+  "distractors": [
+   "Я праздную в июне.",
+   "Я праздную в декабре."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d7_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L7_listen_3",
+  "id": "ch11_L7_listen_3",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d7_03",
+  "prompt": "Послушай. Что сказала София?",
+  "answer": "В мае тепло.",
+  "distractors": [
+   "В мае холодно.",
+   "В декабре тепло."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d7_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L7_listen_4",
+  "id": "ch11_L7_listen_4",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d7_04",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "А в Австралии в мае холодно.",
+  "distractors": [
+   "А в Австралии в мае тепло.",
+   "А в Германии в мае холодно."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d7_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L7_listen_5",
+  "id": "ch11_L7_listen_5",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d7_05",
+  "prompt": "Послушай. Что сказала София?",
+  "answer": "Я праздную в декабре.",
+  "distractors": [
+   "Я праздную в мае.",
+   "Я праздную в июне."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d7_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L7_read_1",
+  "id": "ch11_L7_read_1",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_043",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Когда ты празднуешь день рождения?",
+  "distractors": [
+   "Где ты празднуешь день рождения?",
+   "Что ты празднуешь в мае?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wann feierst du Geburtstag?"
+ },
+ {
+  "item_id": "ch11_L7_read_2",
+  "id": "ch11_L7_read_2",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_044",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я праздную в мае.",
+  "distractors": [
+   "Я праздную в июне.",
+   "Ты празднуешь в мае."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich feiere im Mai."
+ },
+ {
+  "item_id": "ch11_L7_read_3",
+  "id": "ch11_L7_read_3",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_045",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "В Австралии в мае холодно.",
+  "distractors": [
+   "В Австралии в мае тепло.",
+   "В Германии в мае холодно."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "In Australien ist es im Mai kalt."
+ },
+ {
+  "item_id": "ch11_L7_read_4",
+  "id": "ch11_L7_read_4",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_046",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "В декабре холодно.",
+  "distractors": [
+   "В декабре тепло.",
+   "В мае холодно."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Im Dezember ist es kalt."
+ },
+ {
+  "item_id": "ch11_L7_read_5",
+  "id": "ch11_L7_read_5",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_047",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я праздную в декабре.",
+  "distractors": [
+   "Я праздную в мае.",
+   "Ты празднуешь в декабре."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich feiere im Dezember."
+ },
+ {
+  "item_id": "ch11_L7_speak_1",
+  "id": "ch11_L7_speak_1",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_043",
+  "prompt": "Спроси: «Когда ты празднуешь день рождения?»",
+  "answer": "Wann feierst du Geburtstag?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch11_043.mp3",
+  "de": null,
+  "accept": [
+   "Wann feierst du Geburtstag?"
+  ]
+ },
+ {
+  "item_id": "ch11_L7_speak_2",
+  "id": "ch11_L7_speak_2",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_044",
+  "prompt": "Скажи: «Я праздную в мае.»",
+  "answer": "Ich feiere im Mai.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_044.mp3",
+  "de": null,
+  "accept": [
+   "Ich feiere im Mai."
+  ]
+ },
+ {
+  "item_id": "ch11_L7_speak_3",
+  "id": "ch11_L7_speak_3",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_045",
+  "prompt": "Скажи: «В Австралии в мае холодно.»",
+  "answer": "In Australien ist es im Mai kalt.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_045.mp3",
+  "de": null,
+  "accept": [
+   "In Australien ist es im Mai kalt."
+  ]
+ },
+ {
+  "item_id": "ch11_L7_speak_4",
+  "id": "ch11_L7_speak_4",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_046",
+  "prompt": "Скажи: «В декабре холодно.»",
+  "answer": "Im Dezember ist es kalt.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_046.mp3",
+  "de": null,
+  "accept": [
+   "Im Dezember ist es kalt."
+  ]
+ },
+ {
+  "item_id": "ch11_L7_speak_5",
+  "id": "ch11_L7_speak_5",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_047",
+  "prompt": "Скажи: «Я праздную в декабре.»",
+  "answer": "Ich feiere im Dezember.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_047.mp3",
+  "de": null,
+  "accept": [
+   "Ich feiere im Dezember."
+  ]
+ },
+ {
+  "item_id": "ch11_L7_write_1",
+  "id": "ch11_L7_write_1",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_043",
+  "prompt": "Впиши: «___ feierst du Geburtstag?» (когда)",
+  "answer": "Wann",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch11_043.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L7_write_2",
+  "id": "ch11_L7_write_2",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_044",
+  "prompt": "Впиши: «Ich ___ im Mai.» (праздную)",
+  "answer": "feiere",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_044.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L7_write_3",
+  "id": "ch11_L7_write_3",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_045",
+  "prompt": "Впиши: «In ___ ist es im Mai kalt.» (Австралия)",
+  "answer": "Australien",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_045.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L7_write_4",
+  "id": "ch11_L7_write_4",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_046",
+  "prompt": "Впиши: «Im ___ ist es kalt.» (декабрь)",
+  "answer": "Dezember",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_046.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L7_write_5",
+  "id": "ch11_L7_write_5",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_047",
+  "prompt": "Впиши: «Ich feiere ___ Dezember.» (в)",
+  "answer": "im",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_047.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L7_why_1",
+  "id": "ch11_L7_why_1",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_045",
+  "prompt": "Почему в «In Australien ist es im Mai kalt» слово ist вторым, а не es?",
+  "answer": "Первым стал кусок «in Australien», ist всё равно №2.",
+  "distractors": [
+   "ist ставят после es, как в конце.",
+   "In Australien — это действие, оно вторым."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "In Australien ist es im Mai kalt."
+ },
+ {
+  "item_id": "ch11_L7_why_2",
+  "id": "ch11_L7_why_2",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_046",
+  "prompt": "Почему в «Im Dezember ist es kalt» есть es?",
+  "answer": "es — «оно»: так говорят о погоде, es — вагон №3.",
+  "distractors": [
+   "es — это «ты»: так спрашивают о погоде.",
+   "es ставят, когда слово длинное."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Im Dezember ist es kalt."
+ },
+ {
+  "item_id": "ch11_L7_why_3",
+  "id": "ch11_L7_why_3",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_043",
+  "prompt": "Почему в «Wann feierst du Geburtstag?» feierst сразу после wann?",
+  "answer": "После wann сразу идёт действие: wann · feierst.",
+  "distractors": [
+   "feierst ставят в конец, как Geburtstag.",
+   "wann — это и есть действие."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Wann feierst du Geburtstag?"
+ },
+ {
+  "item_id": "ch11_L7_why_4",
+  "id": "ch11_L7_why_4",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_044",
+  "prompt": "Почему «im Mai», а не «in Mai»?",
+  "answer": "im — это in и dem вместе: im Mai.",
+  "distractors": [
+   "im — это «мой»: мой май.",
+   "Mai — слово с die, поэтому im."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich feiere im Mai."
+ },
+ {
+  "item_id": "ch11_L7_why_5",
+  "id": "ch11_L7_why_5",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_d7_04",
+  "prompt": "Почему в «Und in Australien ist es …» ist всё равно вторым?",
+  "answer": "Und вагон не занимает: in Australien — №1, ist — №2.",
+  "distractors": [
+   "Und — это действие, оно идёт вторым, а in Australien — третьим.",
+   "ist уходит в конец после слова Und, как после запятой."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Und in Australien ist es im Mai kalt."
+ },
+ {
+  "item_id": "ch11_L7_transfer_1",
+  "id": "ch11_L7_transfer_1",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_t14",
+  "prompt": "Скажи Софии: «В Австралии в декабре тепло.»",
+  "answer": "In Australien ist es im Dezember warm.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t14.mp3",
+  "de": null,
+  "accept": [
+   "In Australien ist es im Dezember warm."
+  ]
+ },
+ {
+  "item_id": "ch11_L7_transfer_2",
+  "id": "ch11_L7_transfer_2",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_t13",
+  "prompt": "Спроси Софию: «Ты празднуешь в декабре?»",
+  "answer": "Feierst du im Dezember?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t13.mp3",
+  "de": null,
+  "accept": [
+   "Feierst du im Dezember?"
+  ]
+ },
+ {
+  "item_id": "ch11_L7_transfer_3",
+  "id": "ch11_L7_transfer_3",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_t13",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Ты празднуешь в декабре?",
+  "distractors": [
+   "Ты празднуешь в мае?",
+   "Когда ты празднуешь?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t13.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L7_transfer_4",
+  "id": "ch11_L7_transfer_4",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_t13",
+  "prompt": "Напиши по-немецки: «Ты празднуешь в декабре?»",
+  "answer": "Feierst du im Dezember?",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t13.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L7_transfer_5",
+  "id": "ch11_L7_transfer_5",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_t14",
+  "prompt": "Впиши: «In Australien ist es im Dezember ___.» (тепло)",
+  "answer": "warm",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t14.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L7_boss_1",
+  "id": "ch11_L7_boss_1",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_d7_02",
+  "prompt": "Герой называет месяц. Почему в «Ich feiere im Mai» после Ich стоит feiere?",
+  "answer": "feiere держит вагон №2: Ich — №1.",
+  "distractors": [
+   "feiere ставят в конец после Mai.",
+   "im Mai — это вагон №2."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich feiere im Mai."
+ },
+ {
+  "item_id": "ch11_L7_boss_2",
+  "id": "ch11_L7_boss_2",
+  "lesson": "ch11_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d7_06",
+  "prompt": "Послушай. Что сказал герой?",
+  "answer": "В декабре в Германии холодно.",
+  "distractors": [
+   "В декабре в Австралии холодно.",
+   "В мае в Германии холодно."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d7_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L8_words_1",
+  "id": "ch11_L8_words_1",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_051",
+  "prompt": "Что значит «machst» в «Was machst du?»",
+  "answer": "занимаешься",
+  "distractors": [
+   "даришь",
+   "празднуешь"
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L8_words_2",
+  "id": "ch11_L8_words_2",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_052",
+  "prompt": "Что значит «lerne»?",
+  "answer": "учу",
+  "distractors": [
+   "дарю",
+   "прихожу"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L8_words_3",
+  "id": "ch11_L8_words_3",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_050",
+  "prompt": "Что значит «aus»?",
+  "answer": "из",
+  "distractors": [
+   "в",
+   "на"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L8_words_4",
+  "id": "ch11_L8_words_4",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_050",
+  "prompt": "Что значит «Kiew»?",
+  "answer": "Киев",
+  "distractors": [
+   "Москва",
+   "Берлин"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L8_words_5",
+  "id": "ch11_L8_words_5",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_049",
+  "prompt": "Что значит «woher»?",
+  "answer": "откуда",
+  "distractors": [
+   "где",
+   "куда"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L8_listen_1",
+  "id": "ch11_L8_listen_1",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d8_02",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "Откуда ты?",
+  "distractors": [
+   "Где ты живёшь?",
+   "Что ты делаешь?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d8_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L8_listen_2",
+  "id": "ch11_L8_listen_2",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d8_03",
+  "prompt": "Послушай. Что ответила Адита?",
+  "answer": "Я из Индии.",
+  "distractors": [
+   "Я из Киева.",
+   "Я живу в Индии."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d8_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L8_listen_3",
+  "id": "ch11_L8_listen_3",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d8_04",
+  "prompt": "Послушай. Что спросила Адита?",
+  "answer": "А ты откуда?",
+  "distractors": [
+   "А где ты живёшь?",
+   "А что ты делаешь?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d8_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L8_listen_4",
+  "id": "ch11_L8_listen_4",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d8_05",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Я из Киева.",
+  "distractors": [
+   "Я из Индии.",
+   "Я живу в Москве."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d8_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L8_listen_5",
+  "id": "ch11_L8_listen_5",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d8_07",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Я учу немецкий.",
+  "distractors": [
+   "Я учу английский.",
+   "Я работаю в Германии."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d8_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L8_read_1",
+  "id": "ch11_L8_read_1",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_049",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Откуда ты?",
+  "distractors": [
+   "Где ты живёшь?",
+   "Откуда вы?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Woher kommst du?"
+ },
+ {
+  "item_id": "ch11_L8_read_2",
+  "id": "ch11_L8_read_2",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_050",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я из Киева.",
+  "distractors": [
+   "Я живу в Москве.",
+   "Я из Индии."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich komme aus Kiew."
+ },
+ {
+  "item_id": "ch11_L8_read_3",
+  "id": "ch11_L8_read_3",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_051",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Чем ты занимаешься?",
+  "distractors": [
+   "Что ты подаришь?",
+   "Где ты живёшь?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Was machst du?"
+ },
+ {
+  "item_id": "ch11_L8_read_4",
+  "id": "ch11_L8_read_4",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_052",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я учу немецкий.",
+  "distractors": [
+   "Я учу английский.",
+   "Ты учишь немецкий."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich lerne Deutsch."
+ },
+ {
+  "item_id": "ch11_L8_read_5",
+  "id": "ch11_L8_read_5",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_053",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я учу немецкий в Лейпциге.",
+  "distractors": [
+   "Я учу немецкий в Дрездене.",
+   "Я живу в Лейпциге."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich lerne Deutsch in Leipzig."
+ },
+ {
+  "item_id": "ch11_L8_speak_1",
+  "id": "ch11_L8_speak_1",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_049",
+  "prompt": "Спроси Адиту: «Откуда ты?»",
+  "answer": "Woher kommst du?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch11_049.mp3",
+  "de": null,
+  "accept": [
+   "Woher kommst du?"
+  ]
+ },
+ {
+  "item_id": "ch11_L8_speak_2",
+  "id": "ch11_L8_speak_2",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_050",
+  "prompt": "Скажи: «Я из Киева.»",
+  "answer": "Ich komme aus Kiew.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_050.mp3",
+  "de": null,
+  "accept": [
+   "Ich komme aus Kiew."
+  ]
+ },
+ {
+  "item_id": "ch11_L8_speak_3",
+  "id": "ch11_L8_speak_3",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_051",
+  "prompt": "Спроси: «Чем ты занимаешься?»",
+  "answer": "Was machst du?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch11_051.mp3",
+  "de": null,
+  "accept": [
+   "Was machst du?"
+  ]
+ },
+ {
+  "item_id": "ch11_L8_speak_4",
+  "id": "ch11_L8_speak_4",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_052",
+  "prompt": "Скажи: «Я учу немецкий.»",
+  "answer": "Ich lerne Deutsch.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_052.mp3",
+  "de": null,
+  "accept": [
+   "Ich lerne Deutsch."
+  ]
+ },
+ {
+  "item_id": "ch11_L8_speak_5",
+  "id": "ch11_L8_speak_5",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_053",
+  "prompt": "Скажи: «Я учу немецкий в Лейпциге.»",
+  "answer": "Ich lerne Deutsch in Leipzig.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_053.mp3",
+  "de": null,
+  "accept": [
+   "Ich lerne Deutsch in Leipzig."
+  ]
+ },
+ {
+  "item_id": "ch11_L8_write_1",
+  "id": "ch11_L8_write_1",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_049",
+  "prompt": "Впиши: «Woher ___ du?» (kommen, для du)",
+  "answer": "kommst",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch11_049.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L8_write_2",
+  "id": "ch11_L8_write_2",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_050",
+  "prompt": "Впиши: «Ich komme ___ Kiew.» (из)",
+  "answer": "aus",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch11_050.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L8_write_3",
+  "id": "ch11_L8_write_3",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_051",
+  "prompt": "Впиши: «Was ___ du?» (делаешь)",
+  "answer": "machst",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch11_051.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L8_write_4",
+  "id": "ch11_L8_write_4",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_052",
+  "prompt": "Впиши: «Ich ___ Deutsch.» (учу)",
+  "answer": "lerne",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_052.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L8_write_5",
+  "id": "ch11_L8_write_5",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_053",
+  "prompt": "Впиши: «Ich lerne Deutsch ___ Leipzig.» (в)",
+  "answer": "in",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_053.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L8_why_1",
+  "id": "ch11_L8_why_1",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_049",
+  "prompt": "Почему «Woher kommst du?», а не «Woher kommen du?»",
+  "answer": "С du у действия хвост -st: du kommst.",
+  "distractors": [
+   "С du хвост -en: du kommen.",
+   "Хвост -st ставят только в ответах."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Woher kommst du?"
+ },
+ {
+  "item_id": "ch11_L8_why_2",
+  "id": "ch11_L8_why_2",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_051",
+  "prompt": "Почему в «Was machst du?» слово machst вторым?",
+  "answer": "После вопрос-слова сразу действие: was · machst.",
+  "distractors": [
+   "machst ставят в самый конец фразы, после du.",
+   "was — это и есть действие, поэтому оно вторым."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Was machst du?"
+ },
+ {
+  "item_id": "ch11_L8_why_3",
+  "id": "ch11_L8_why_3",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_050",
+  "prompt": "Почему «aus Kiew», а не «aus der Kiew»?",
+  "answer": "Город здесь без артикля: aus Kiew.",
+  "distractors": [
+   "Перед городом всегда ставят der.",
+   "aus — это «в»: в Киеве."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich komme aus Kiew."
+ },
+ {
+  "item_id": "ch11_L8_why_4",
+  "id": "ch11_L8_why_4",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_052",
+  "prompt": "Почему «Ich lerne», а не «Ich lernst»?",
+  "answer": "С ich у действия хвост -e: ich lerne.",
+  "distractors": [
+   "С ich у действия хвост -st: ich lernst, как с du.",
+   "lerne — это форма «ты», а не форма «я»."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich lerne Deutsch."
+ },
+ {
+  "item_id": "ch11_L8_why_5",
+  "id": "ch11_L8_why_5",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_d8_08",
+  "prompt": "Почему в «Ich lerne auch Deutsch» слово auch стоит после lerne?",
+  "answer": "Действие lerne — вагон №2; auch идёт после него, перед Deutsch.",
+  "distractors": [
+   "auch — это действие, оно вторым.",
+   "Действие lerne — вагон №3; auch идёт после него, перед Deutsch."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich lerne auch Deutsch."
+ },
+ {
+  "item_id": "ch11_L8_transfer_1",
+  "id": "ch11_L8_transfer_1",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_t15",
+  "prompt": "Спроси Адиту: «Чем ты занимаешься в Лейпциге?»",
+  "answer": "Was machst du in Leipzig?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t15.mp3",
+  "de": null,
+  "accept": [
+   "Was machst du in Leipzig?"
+  ]
+ },
+ {
+  "item_id": "ch11_L8_transfer_2",
+  "id": "ch11_L8_transfer_2",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_t16",
+  "prompt": "Спроси Адиту: «Ты учишь немецкий?»",
+  "answer": "Lernst du Deutsch?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t16.mp3",
+  "de": null,
+  "accept": [
+   "Lernst du Deutsch?"
+  ]
+ },
+ {
+  "item_id": "ch11_L8_transfer_3",
+  "id": "ch11_L8_transfer_3",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_t16",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Ты учишь немецкий?",
+  "distractors": [
+   "Ты учишь английский?",
+   "Где ты учишь немецкий?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t16.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L8_transfer_4",
+  "id": "ch11_L8_transfer_4",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_t16",
+  "prompt": "Напиши по-немецки: «Ты учишь немецкий?»",
+  "answer": "Lernst du Deutsch?",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t16.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L8_transfer_5",
+  "id": "ch11_L8_transfer_5",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_t15",
+  "prompt": "Впиши: «Was machst du ___ Leipzig?» (в)",
+  "answer": "in",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t15.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L8_boss_1",
+  "id": "ch11_L8_boss_1",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_d8_01",
+  "prompt": "Адита представилась. Почему в «Ich bin Adita» слово bin вторым?",
+  "answer": "bin держит вагон №2: Ich — №1.",
+  "distractors": [
+   "bin ставят в конец после Adita.",
+   "Hallo — это вагон №2."
+  ],
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": null,
+  "de": "Hallo! Ich bin Adita."
+ },
+ {
+  "item_id": "ch11_L8_boss_2",
+  "id": "ch11_L8_boss_2",
+  "lesson": "ch11_L8",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d8_06",
+  "prompt": "Послушай. Что спросила Адита?",
+  "answer": "Чем ты занимаешься?",
+  "distractors": [
+   "Откуда ты?",
+   "Где ты живёшь?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d8_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L9_words_1",
+  "id": "ch11_L9_words_1",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_055",
+  "prompt": "Что значит «Schwester»?",
+  "answer": "сестра",
+  "distractors": [
+   "мама",
+   "подруга"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L9_words_2",
+  "id": "ch11_L9_words_2",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_057",
+  "prompt": "Что значит «kommt» в «Kommt deine Schwester zur Party?»",
+  "answer": "приходит",
+  "distractors": [
+   "дарит",
+   "празднует"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L9_words_3",
+  "id": "ch11_L9_words_3",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_056",
+  "prompt": "Что значит «schenke»?",
+  "answer": "дарю",
+  "distractors": [
+   "пишу",
+   "прихожу"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L9_words_4",
+  "id": "ch11_L9_words_4",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_056",
+  "prompt": "Что значит «meiner» в «meiner Schwester»?",
+  "answer": "моей",
+  "distractors": [
+   "твоей",
+   "нашей"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L9_words_5",
+  "id": "ch11_L9_words_5",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch11_055",
+  "prompt": "Что значит «am dritten Mai»?",
+  "answer": "третьего мая",
+  "distractors": [
+   "третье мая",
+   "в мае"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch11_L9_listen_1",
+  "id": "ch11_L9_listen_1",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d9_01",
+  "prompt": "Послушай. Что спросила София?",
+  "answer": "Когда у твоей сестры день рождения?",
+  "distractors": [
+   "Когда у тебя день рождения?",
+   "Где празднует твоя сестра?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d9_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L9_listen_2",
+  "id": "ch11_L9_listen_2",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d9_02",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "У моей сестры день рождения третьего мая.",
+  "distractors": [
+   "У моей сестры день рождения первого мая.",
+   "У моей мамы день рождения третьего мая."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d9_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L9_listen_3",
+  "id": "ch11_L9_listen_3",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d9_03",
+  "prompt": "Послушай. Что спросила София?",
+  "answer": "Что ты ей подаришь?",
+  "distractors": [
+   "Что ты ему подаришь?",
+   "Что она тебе подарит?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d9_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L9_listen_4",
+  "id": "ch11_L9_listen_4",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d9_04",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Я подарю моей сестре книгу.",
+  "distractors": [
+   "Я подарю моему брату книгу.",
+   "Я подарю моей сестре пирог."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d9_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L9_listen_5",
+  "id": "ch11_L9_listen_5",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d9_06",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Да! Она придёт с восьми часов.",
+  "distractors": [
+   "Нет, она не придёт.",
+   "Да! Она придёт до восьми часов."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d9_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L9_read_1",
+  "id": "ch11_L9_read_1",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_055",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У моей сестры день рождения третьего мая.",
+  "distractors": [
+   "У моей сестры день рождения первого мая.",
+   "У моей мамы день рождения третьего мая."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Meine Schwester hat am dritten Mai Geburtstag."
+ },
+ {
+  "item_id": "ch11_L9_read_2",
+  "id": "ch11_L9_read_2",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_056",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я подарю моей сестре книгу.",
+  "distractors": [
+   "Я подарю моей сестре пирог.",
+   "Я подарю моему брату книгу."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich schenke meiner Schwester ein Buch."
+ },
+ {
+  "item_id": "ch11_L9_read_3",
+  "id": "ch11_L9_read_3",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_057",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Твоя сестра придёт на вечеринку?",
+  "distractors": [
+   "Твоя сестра устраивает вечеринку?",
+   "Ты придёшь на вечеринку?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Kommt deine Schwester zur Party?"
+ },
+ {
+  "item_id": "ch11_L9_read_4",
+  "id": "ch11_L9_read_4",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_058",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я поздравляю мою сестру.",
+  "distractors": [
+   "Я подарю моей сестре книгу.",
+   "Я поздравляю моего начальника."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich gratuliere meiner Schwester."
+ },
+ {
+  "item_id": "ch11_L9_read_5",
+  "id": "ch11_L9_read_5",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch11_d9_06",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Да! Она придёт с восьми часов.",
+  "distractors": [
+   "Да! Она придёт до восьми часов.",
+   "Да! Ты придёшь с восьми часов."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ja! Sie kommt ab acht Uhr."
+ },
+ {
+  "item_id": "ch11_L9_speak_1",
+  "id": "ch11_L9_speak_1",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_055",
+  "prompt": "Скажи: «У моей сестры день рождения третьего мая.»",
+  "answer": "Meine Schwester hat am dritten Mai Geburtstag.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_055.mp3",
+  "de": null,
+  "accept": [
+   "Meine Schwester hat am dritten Mai Geburtstag."
+  ]
+ },
+ {
+  "item_id": "ch11_L9_speak_2",
+  "id": "ch11_L9_speak_2",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_056",
+  "prompt": "Скажи: «Я подарю моей сестре книгу.»",
+  "answer": "Ich schenke meiner Schwester ein Buch.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_056.mp3",
+  "de": null,
+  "accept": [
+   "Ich schenke meiner Schwester ein Buch."
+  ]
+ },
+ {
+  "item_id": "ch11_L9_speak_3",
+  "id": "ch11_L9_speak_3",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_057",
+  "prompt": "Спроси Софию: «Твоя сестра придёт на вечеринку?»",
+  "answer": "Kommt deine Schwester zur Party?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch11_057.mp3",
+  "de": null,
+  "accept": [
+   "Kommt deine Schwester zur Party?"
+  ]
+ },
+ {
+  "item_id": "ch11_L9_speak_4",
+  "id": "ch11_L9_speak_4",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_058",
+  "prompt": "Скажи: «Я поздравляю мою сестру.»",
+  "answer": "Ich gratuliere meiner Schwester.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_058.mp3",
+  "de": null,
+  "accept": [
+   "Ich gratuliere meiner Schwester."
+  ]
+ },
+ {
+  "item_id": "ch11_L9_speak_5",
+  "id": "ch11_L9_speak_5",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_d9_06",
+  "prompt": "Скажи: «Да! Она придёт с восьми часов.»",
+  "answer": "Ja! Sie kommt ab acht Uhr.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d9_06.mp3",
+  "de": null,
+  "accept": [
+   "Ja! Sie kommt ab acht Uhr."
+  ]
+ },
+ {
+  "item_id": "ch11_L9_write_1",
+  "id": "ch11_L9_write_1",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_055",
+  "prompt": "Впиши: «Meine Schwester ___ am dritten Mai Geburtstag.» (имеет)",
+  "answer": "hat",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_055.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L9_write_2",
+  "id": "ch11_L9_write_2",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_056",
+  "prompt": "Впиши: «Ich schenke ___ Schwester ein Buch.» (моей)",
+  "answer": "meiner",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_056.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L9_write_3",
+  "id": "ch11_L9_write_3",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_057",
+  "prompt": "Впиши: «___ deine Schwester zur Party?» (приходит)",
+  "answer": "Kommt",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch11_057.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L9_write_4",
+  "id": "ch11_L9_write_4",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_058",
+  "prompt": "Впиши: «Ich ___ meiner Schwester.» (поздравляю)",
+  "answer": "gratuliere",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_058.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L9_write_5",
+  "id": "ch11_L9_write_5",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_055",
+  "prompt": "Впиши: «Meine Schwester hat am ___ Mai Geburtstag.» (третьего)",
+  "answer": "dritten",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch11_055.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L9_why_1",
+  "id": "ch11_L9_why_1",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_055",
+  "prompt": "Почему «Meine Schwester hat», а не «Meine Schwester habe»?",
+  "answer": "Про другого человека — hat: habe только про себя.",
+  "distractors": [
+   "Habe говорят, когда праздник скоро.",
+   "Про другого человека — hat: habe не только про себя."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Meine Schwester hat am dritten Mai Geburtstag."
+ },
+ {
+  "item_id": "ch11_L9_why_2",
+  "id": "ch11_L9_why_2",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_056",
+  "prompt": "Почему «meiner Schwester», а не «meine Schwester»?",
+  "answer": "Кому — meiner: так же, как deiner Mutter.",
+  "distractors": [
+   "meine ставят, когда сестра старшая.",
+   "meiner — это «мой», а не «моей»."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich schenke meiner Schwester ein Buch."
+ },
+ {
+  "item_id": "ch11_L9_why_3",
+  "id": "ch11_L9_why_3",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_057",
+  "prompt": "Почему в «Kommt deine Schwester zur Party?» слово kommt впереди?",
+  "answer": "Вопрос «да/нет»: действие впереди, потом deine Schwester.",
+  "distractors": [
+   "kommt ставят первым, потому что Schwester — женское слово.",
+   "kommt впереди только в ответах."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Kommt deine Schwester zur Party?"
+ },
+ {
+  "item_id": "ch11_L9_why_4",
+  "id": "ch11_L9_why_4",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_d9_03",
+  "prompt": "Почему в «Was schenkst du ihr?» стоит ihr?",
+  "answer": "ihr — «ей»: сестру второй раз не называют.",
+  "distractors": [
+   "ihr — «ей»: сестру первый раз не называют.",
+   "ihr ставят перед каждым вопросом."
+  ],
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": null,
+  "de": "Was schenkst du ihr?"
+ },
+ {
+  "item_id": "ch11_L9_why_5",
+  "id": "ch11_L9_why_5",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_d9_06",
+  "prompt": "Почему в «Ja! Sie kommt ab acht Uhr» слово Ja не занимает вагон?",
+  "answer": "Ja — отдельное слово: вагон №1 у Sie, kommt — №2.",
+  "distractors": [
+   "Ja — это действие, оно занимает вагон №2 вместо kommt.",
+   "Ja всегда стоит в конце фразы, поэтому вагон ему не нужен."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Ja! Sie kommt ab acht Uhr."
+ },
+ {
+  "item_id": "ch11_L9_transfer_1",
+  "id": "ch11_L9_transfer_1",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_t17",
+  "prompt": "Скажи Софии: «У моей сестры день рождения в мае.»",
+  "answer": "Meine Schwester hat im Mai Geburtstag.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t17.mp3",
+  "de": null,
+  "accept": [
+   "Meine Schwester hat im Mai Geburtstag."
+  ]
+ },
+ {
+  "item_id": "ch11_L9_transfer_2",
+  "id": "ch11_L9_transfer_2",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch11_t18",
+  "prompt": "Спроси Софию: «Ты подаришь сестре книгу?»",
+  "answer": "Schenkst du deiner Schwester ein Buch?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t18.mp3",
+  "de": null,
+  "accept": [
+   "Schenkst du deiner Schwester ein Buch?"
+  ]
+ },
+ {
+  "item_id": "ch11_L9_transfer_3",
+  "id": "ch11_L9_transfer_3",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_t18",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Ты подаришь сестре книгу?",
+  "distractors": [
+   "Ты подаришь брату книгу?",
+   "Сестра подарит тебе книгу?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t18.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L9_transfer_4",
+  "id": "ch11_L9_transfer_4",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_t18",
+  "prompt": "Напиши по-немецки: «Ты подаришь сестре книгу?»",
+  "answer": "Schenkst du deiner Schwester ein Buch?",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t18.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L9_transfer_5",
+  "id": "ch11_L9_transfer_5",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch11_t17",
+  "prompt": "Впиши: «Meine Schwester hat ___ Mai Geburtstag.» (в)",
+  "answer": "im",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch11_t17.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch11_L9_boss_1",
+  "id": "ch11_L9_boss_1",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch11_d9_02",
+  "prompt": "Герой называет дату. Почему в «Meine Schwester hat am dritten Mai Geburtstag» слово hat вторым?",
+  "answer": "hat держит вагон №2: Meine Schwester — №1.",
+  "distractors": [
+   "hat ставят в конец после Geburtstag.",
+   "am dritten Mai — это вагон №2."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Meine Schwester hat am dritten Mai Geburtstag."
+ },
+ {
+  "item_id": "ch11_L9_boss_2",
+  "id": "ch11_L9_boss_2",
+  "lesson": "ch11_L9",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch11_d9_05",
+  "prompt": "Послушай. Что спросила София?",
+  "answer": "Твоя сестра придёт на вечеринку?",
+  "distractors": [
+   "Твоя сестра устраивает вечеринку?",
+   "Когда у твоей сестры день рождения?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch11_d9_05.mp3",
+  "de": null
+ }
+]

@@ -1,0 +1,6343 @@
+[
+ {
+  "id": "ch08_L1",
+  "title": "Комнаты: что есть в квартире?",
+  "pages_linie1": {
+   "pages": [
+    138,
+    139
+   ],
+   "sections": [
+    "1 Herzlich willkommen: Zimmer und Möbel",
+    "1c–d Was gibt es in der Wohnung?"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch08_001",
+   "ch08_002",
+   "ch08_003",
+   "ch08_004",
+   "ch08_005"
+  ],
+  "why_ids": [
+   "ch08_004",
+   "ch08_d1_07"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch08_d1",
+    "line_ids": [
+     "ch08_d1_01",
+     "ch08_d1_02",
+     "ch08_d1_03",
+     "ch08_d1_04",
+     "ch08_d1_05",
+     "ch08_d1_06",
+     "ch08_d1_07",
+     "ch08_d1_08",
+     "ch08_d1_09"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Frau Wagner — твоя хозяйка дома. Вспомни, как спросить, где кто живёт."
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch08_d1",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch08_d1_02",
+        "ch08_d1_03",
+        "ch08_d1_04",
+        "ch08_d1_06"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch08_d1",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "ch и sch: послушай Küche, ich — Schlafzimmer, schreibt и повтори парами",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch08_001",
+        "ch08_002",
+        "ch08_004",
+        "ch08_005"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "ch и sch: послушай Küche, ich — Schlafzimmer, schreibt и повтори парами — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "мост: русское «есть» — по-немецки два разных способа (es gibt / ist hier); einen после es gibt — как meinen/einen в роли «кого-что», без терминов",
+   "как слышу, так и пишу": "звук дня и диктант: «ш» пишется sch, мягкое «хь» — ch; комнаты — с большой буквы",
+   "учебник непонятен": "из Linie 1 — только темы и страницы 138–139, 152; подача своя",
+   "село, живой немецкий — Netto": "осмотр квартиры у хозяйки дома в селе; датчик дыма в спальне — реальная деталь Саксонии",
+   "любит аниме": "завязка — первый собственный дом попаданца; отрезки аниме — позже",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин (все 12 + 24 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Gibt es einen Keller?; перенос — Gibt es hier auch ein Bad?, Wo ist die Küche? (слова урока)",
+   "улучшать идеи автора": "идея автора «свой дом» (WISHES п. 38): комнаты урока — первые вещи постройки «Mein Haus»"
+  },
+  "kurs": {
+   "pages": [
+    138,
+    139
+   ],
+   "phrases_ids": [
+    "ch08_007"
+   ],
+   "note": "к курсу: на стр. 138–139 — план квартиры с подписями комнат; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch08_007",
+    "picture": "план квартиры: гостиная, детская, кабинет, коридор, туалет, вешалка у двери",
+    "words": [
+     {
+      "de": "das Wohnzimmer",
+      "ru": "гостиная"
+     },
+     {
+      "de": "das Kinderzimmer",
+      "ru": "детская"
+     },
+     {
+      "de": "das Arbeitszimmer",
+      "ru": "кабинет"
+     },
+     {
+      "de": "der Flur",
+      "ru": "коридор, прихожая"
+     },
+     {
+      "de": "die Toilette",
+      "ru": "туалет"
+     },
+     {
+      "de": "die Garderobe",
+      "ru": "вешалка в прихожей"
+     }
+    ],
+    "note": "эти слова есть на стр. 138–139; нажми — услышишь. В заданиях урока их нет."
+   },
+   "tasks": [
+    {
+     "id": "ch08_L1_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch08_007",
+     "prompt": "Слова курса. Послушай. Что значит «Flur»?",
+     "answer": "коридор, прихожая",
+     "distractors": [
+      "туалет",
+      "детская"
+     ],
+     "src": "Linie 1, стр. 138 (Flur)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Mein Haus (свой дом): осмотр квартиры — в доме появляются первые комнаты",
+   "npc": "Frau Wagner — хозяйка дома (на «вы»)"
+  },
+  "covers": [
+   "B03.6",
+   "L1-08-SCHREIB",
+   "L1-08-LERNEN"
+  ],
+  "covers_partial": [
+   "L1-08-S1"
+  ],
+  "covers_note": {
+   "L1-08-S1": "комнаты: Wohnung, Küche, Bad, Balkon, Keller, Schlafzimmer, Zimmer (сцена, части 3–6); вопрос «что есть в квартире?» — Was gibt es hier?; мебель — урок 2",
+   "B03.6": "es gibt — есть вообще (Es gibt einen Keller), ist hier — находится здесь (Das Schlafzimmer ist hier): часть 5, задания «почему»",
+   "L1-08-SCHREIB": "ch и sch: часть 7 (Küche / Schlafzimmer) и часть 10 (диктант: слышишь «ш» — sch, слышишь «хь» — ch)",
+   "L1-08-LERNEN": "Mit Bewegung lernen: часть 12 — пройди по квартире и назови комнаты вслух"
+  },
+  "goal": "После урока сможешь: спросить, что есть в квартире, назвать комнаты (das Zimmer — комната) и показать, где что: Es gibt eine Küche. — Das Schlafzimmer ist hier.",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Frau Wagner показывает тебе квартиру в своём доме.",
+      "Цель: спросить, что есть в квартире, и назвать комнаты."
+     ],
+     "voice_ru": "До сих пор ты снимал комнату. Теперь хозяйка дома, госпожа Вагнер, показывает тебе целую квартиру. Надо спросить, что в ней есть, — и понять ответ.",
+     "hook": "Загадка урока: по-русски «есть подвал» и «спальня здесь» можно сказать одним словом «есть». Немец говорит двумя разными способами. Какими?",
+     "anime_motif": "исекай: герой получает первый собственный дом в новом мире — пока пустые стены (без цитат)",
+     "npc": "Frau Wagner — хозяйка дома",
+     "more": "Frau Wagner скажет, что есть в квартире. Ты спросишь про балкон и про спальню. В учебнике глава на стр. 138 открывается словами Herzlich willkommen — «добро пожаловать».",
+     "goal": "После урока сможешь: спросить, что есть в квартире, назвать комнаты (das Zimmer — комната) и показать, где что: Es gibt eine Küche. — Das Schlafzimmer ist hier."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch08_008",
+      "ch08_009",
+      "ch08_010"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Frau Wagner — твоя хозяйка дома. Вспомни, как спросить, где кто живёт."
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch01_046",
+      "ch01_090",
+      "ch01_d8_08"
+     ],
+     "type": "retrieval: вопрос, не перечитывание",
+     "note": "фразы главы 1, урок 5 (ch01_046, ch01_090, ch01_d8_08) — те же, в главе 8 под своими id"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch08_001",
+      "ch08_002",
+      "ch08_003",
+      "ch08_004",
+      "ch08_005"
+     ],
+     "words": [
+      "Hier ist die Wohnung.",
+      "Es gibt eine Küche und ein Bad.",
+      "Gibt es auch einen Balkon?",
+      "Es gibt einen Keller.",
+      "Wo ist das Schlafzimmer? · das Zimmer"
+     ],
+     "words_ru": {
+      "Hier ist die Wohnung.": "Вот квартира.",
+      "Es gibt eine Küche und ein Bad.": "Есть кухня и ванная.",
+      "Gibt es auch einen Balkon?": "А балкон тоже есть?",
+      "Es gibt einen Keller.": "Есть подвал.",
+      "Wo ist das Schlafzimmer? · das Zimmer": "Где спальня? · комната"
+     },
+     "trap": "es gibt не переводят по словам. Это один кусок: «есть, имеется».",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch08_L1_words_1",
+      "ch08_L1_words_2",
+      "ch08_L1_words_3",
+      "ch08_L1_words_4",
+      "ch08_L1_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch08_d1",
+     "line_ids": [
+      "ch08_d1_01",
+      "ch08_d1_02",
+      "ch08_d1_03",
+      "ch08_d1_04",
+      "ch08_d1_05",
+      "ch08_d1_06",
+      "ch08_d1_07",
+      "ch08_d1_08",
+      "ch08_d1_09"
+     ],
+     "halves": [
+      [
+       "ch08_d1_01",
+       "ch08_d1_02",
+       "ch08_d1_03",
+       "ch08_d1_04",
+       "ch08_d1_05"
+      ],
+      [
+       "ch08_d1_06",
+       "ch08_d1_07",
+       "ch08_d1_08",
+       "ch08_d1_09"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_source": "SächsBO § 47 Abs. 4 (recht.sachsen.de, vorschrift_gesamt/1779)",
+     "life_detail": "В Саксонии в спальне и в коридоре, который к ней ведёт, должен висеть датчик дыма — Rauchwarnmelder (SächsBO § 47). Чтобы он работал, следит тот, кто живёт в квартире, если это не взял на себя хозяин.",
+     "task_ids": [
+      "ch08_L1_listen_1",
+      "ch08_L1_listen_2",
+      "ch08_L1_listen_3",
+      "ch08_L1_listen_4",
+      "ch08_L1_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch08_004",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "Что-то есть вообще — немец говорит es gibt: Es gibt einen Keller. После es gibt der-слово получает einen.",
+     "screen": [
+      "Es · gibt · einen Keller. (есть вообще)",
+      "Das Schlafzimmer · ist · hier. (находится здесь)"
+     ],
+     "answer_hook": "Ответ на загадку: что-то есть вообще — es gibt: Es gibt einen Keller. Показываешь, где оно, — ist: Das Schlafzimmer ist hier.",
+     "second": {
+      "why_id": "ch08_d1_07",
+      "voice_ru": "А когда показывают, где что находится, говорят ist: Das Schlafzimmer ist hier. Здесь es gibt не нужен."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch08_L1_why_1",
+      "ch08_L1_why_2",
+      "ch08_L1_why_3",
+      "ch08_L1_why_4",
+      "ch08_L1_why_5"
+     ],
+     "no_story": true,
+     "examples_button": {
+      "label": "Ещё примеры",
+      "why_ids": [
+       "ch08_004"
+      ]
+     }
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch08_006",
+     "pieces": [
+      "Keller?",
+      "einen",
+      "es",
+      "Gibt"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch08_d1_04",
+      "ch08_d1_05"
+     ],
+     "prompt": "Собери сам из знакомых кусков: ты смотришь другую квартиру, и тебе нужно место для велосипеда. Спроси хозяйку: «Подвал есть?»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch08_006",
+     "transfer_task_ids": [
+      "ch08_L1_transfer_1"
+     ],
+     "task_ids": [
+      "ch08_L1_write_1",
+      "ch08_L1_write_2",
+      "ch08_L1_write_3",
+      "ch08_L1_write_4",
+      "ch08_L1_write_5",
+      "ch08_L1_read_1",
+      "ch08_L1_read_2",
+      "ch08_L1_read_3",
+      "ch08_L1_read_4",
+      "ch08_L1_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "Küche",
+     "ipa_sym": "ç · ʃ",
+     "tip_ru": "Три буквы sch — один звук «ш»: Schlafzimmer. Две буквы ch после ü и i — мягкое «хь», как в слове «хитрый»: Küche, ich.",
+     "bridge_ru": "В русском так не пишут: один звук — одна буква, «ш» или «х». Немец пишет «ш» тремя буквами, а мягкое «хь» — двумя.",
+     "phrase_id": "ch08_002",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "Küche",
+       "ru": "ch = «хь»"
+      },
+      {
+       "de": "ich",
+       "ru": "ch = «хь»"
+      },
+      {
+       "de": "Schlafzimmer",
+       "ru": "sch = «ш»"
+      },
+      {
+       "de": "schreibt",
+       "ru": "sch = «ш»"
+      }
+     ],
+     "speak_task_ids": [
+      "ch08_L1_speak_1",
+      "ch08_L1_speak_2",
+      "ch08_L1_speak_3",
+      "ch08_L1_speak_4",
+      "ch08_L1_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Осмотр квартиры",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Frau Wagner (на «вы»)",
+     "turns": [
+      {
+       "prompt_id": "ch08_d1_01",
+       "prompt_de": "Guten Tag, hier ist die Wohnung.",
+       "prompt_audio": "audio_v1/ch08_d1_01.mp3",
+       "expected_id": "ch08_d1_02",
+       "expected_de": "Guten Tag, was gibt es hier?",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch08_d1_03",
+       "prompt_de": "Es gibt eine Küche und ein Bad.",
+       "prompt_audio": "audio_v1/ch08_d1_03.mp3",
+       "expected_id": "ch08_d1_04",
+       "expected_de": "Gibt es auch einen Balkon?",
+       "accept": [
+        {
+         "id": "ch08_003",
+         "de": "Gibt es auch einen Balkon?"
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch08_d1_05",
+       "prompt_de": "Nein, es gibt nur einen Keller.",
+       "prompt_audio": "audio_v1/ch08_d1_05.mp3",
+       "expected_id": "ch08_d1_06",
+       "expected_de": "Und wo ist das Schlafzimmer?",
+       "accept": [
+        {
+         "id": "ch08_005",
+         "de": "Wo ist das Schlafzimmer?"
+        }
+       ],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Спрашивай по порядку: что есть, есть ли балкон, где спальня. ИИ ответит фразами сцены.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch08_d1_05",
+     "task_ru": "Новичок смотрит квартиру вместе с тобой и не понял, что хозяйка ответила про балкон. Объясни ему по-русски, что она сказала.",
+     "expected_ru": "Нет, есть только подвал.",
+     "hint_ru": "nein — «нет»; es gibt — «есть, имеется»; nur — «только»",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1.1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch08_L1_dict_1",
+      "ch08_L1_dict_2",
+      "ch08_L1_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "ch и sch: слышишь «ш» — пиши три буквы sch (Schlafzimmer); слышишь мягкое «хь» — пиши ch (Küche). Комнаты — с большой буквы: Küche, Bad, Schlafzimmer."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch08_L1_transfer_2",
+      "ch08_L1_transfer_3",
+      "ch08_L1_transfer_4",
+      "ch08_L1_transfer_5",
+      "ch08_L1_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Квартира осмотрена: в твоём доме появились первые комнаты.",
+      "Совет на завтра: пройди по своему жилью и в каждой комнате скажи вслух, что это: Hier ist die Küche."
+     ],
+     "npc_phrase_id": "ch08_d1_09",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: Es gibt einen / eine / ein … — есть вообще · … ist hier — находится здесь. Слова запоминаются лучше на ходу — учебник называет это Mit Bewegung lernen: назвал комнату там, где стоишь.",
+     "next_hook": "Дальше: квартира пустая. Соседи покажут свою — с мебелью: «Unser Sofa ist neu».",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       138,
+       139
+      ],
+      "phrases_ids": [
+       "ch08_007"
+      ],
+      "note": "к курсу: на стр. 138–139 — план квартиры с подписями комнат; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch08_007",
+       "picture": "план квартиры: гостиная, детская, кабинет, коридор, туалет, вешалка у двери",
+       "words": [
+        {
+         "de": "das Wohnzimmer",
+         "ru": "гостиная"
+        },
+        {
+         "de": "das Kinderzimmer",
+         "ru": "детская"
+        },
+        {
+         "de": "das Arbeitszimmer",
+         "ru": "кабинет"
+        },
+        {
+         "de": "der Flur",
+         "ru": "коридор, прихожая"
+        },
+        {
+         "de": "die Toilette",
+         "ru": "туалет"
+        },
+        {
+         "de": "die Garderobe",
+         "ru": "вешалка в прихожей"
+        }
+       ],
+       "note": "эти слова есть на стр. 138–139; нажми — услышишь. В заданиях урока их нет."
+      },
+      "tasks": [
+       {
+        "id": "ch08_L1_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch08_007",
+        "prompt": "Слова курса. Послушай. Что значит «Flur»?",
+        "answer": "коридор, прихожая",
+        "distractors": [
+         "туалет",
+         "детская"
+        ],
+        "src": "Linie 1, стр. 138 (Flur)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      138,
+      139
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch08.py",
+  "new_words": [
+   "die Wohnung",
+   "es gibt",
+   "die Küche",
+   "das Bad",
+   "der Balkon",
+   "der Keller",
+   "das Schlafzimmer",
+   "das Zimmer",
+   "hier",
+   "einen"
+  ],
+  "known_before": [
+   "Guten Tag!",
+   "Wo …?",
+   "Was …?",
+   "ist",
+   "auch",
+   "nur",
+   "ein · eine",
+   "Danke!",
+   "Bitte!",
+   "Auf Wiedersehen!"
+  ],
+  "transfer_phrase_ids": [
+   "ch08_t01",
+   "ch08_t02"
+  ],
+  "built_phrase_ids": [
+   "ch08_006"
+  ],
+  "quiz_ids": [
+   "ch08_L1_words_1",
+   "ch08_L1_words_2",
+   "ch08_L1_words_3",
+   "ch08_L1_words_4",
+   "ch08_L1_words_5",
+   "ch08_L1_listen_1",
+   "ch08_L1_listen_2",
+   "ch08_L1_listen_3",
+   "ch08_L1_listen_4",
+   "ch08_L1_listen_5",
+   "ch08_L1_read_1",
+   "ch08_L1_read_2",
+   "ch08_L1_read_3",
+   "ch08_L1_read_4",
+   "ch08_L1_read_5",
+   "ch08_L1_speak_1",
+   "ch08_L1_speak_2",
+   "ch08_L1_speak_3",
+   "ch08_L1_speak_4",
+   "ch08_L1_speak_5",
+   "ch08_L1_write_1",
+   "ch08_L1_write_2",
+   "ch08_L1_write_3",
+   "ch08_L1_write_4",
+   "ch08_L1_write_5",
+   "ch08_L1_why_1",
+   "ch08_L1_why_2",
+   "ch08_L1_why_3",
+   "ch08_L1_why_4",
+   "ch08_L1_why_5",
+   "ch08_L1_transfer_1",
+   "ch08_L1_transfer_2",
+   "ch08_L1_transfer_3",
+   "ch08_L1_transfer_4",
+   "ch08_L1_transfer_5",
+   "ch08_L1_boss_1"
+  ],
+  "dictation_ids": [
+   "ch08_L1_dict_1",
+   "ch08_L1_dict_2",
+   "ch08_L1_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Frau Wagner показывает тебе квартиру в своём доме. Цель: спросить, что есть в квартире, и назвать комнаты. Загадка урока: по-русски «есть подвал» и «спальня здесь» можно сказать одним словом «есть». Немец говорит двумя разными способами. Какими?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Осмотр квартиры",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой на осмотре квартиры (ИИ — Frau Wagner)",
+   "situation": "wohnung_besichtigung",
+   "ai_plays": "Frau Wagner (на «вы»)",
+   "phrases": [
+    "ch08_d1_02",
+    "ch08_d1_04",
+    "ch08_003",
+    "ch08_d1_06",
+    "ch08_005"
+   ]
+  },
+  "outro": "Квартира осмотрена: в твоём доме появились первые комнаты. Совет на завтра: пройди по своему жилью и в каждой комнате скажи вслух, что это: Hier ist die Küche. Дальше: квартира пустая. Соседи покажут свою — с мебелью: «Unser Sofa ist neu».",
+  "detail_de_life": "В Саксонии в спальне и в коридоре, который к ней ведёт, должен висеть датчик дыма — Rauchwarnmelder (SächsBO § 47). Чтобы он работал, следит тот, кто живёт в квартире, если это не взял на себя хозяин.",
+  "detail_de_life_source": "SächsBO § 47 Abs. 4 (recht.sachsen.de, vorschrift_gesamt/1779)",
+  "task_ids": {
+   "words": [
+    "ch08_L1_words_1",
+    "ch08_L1_words_2",
+    "ch08_L1_words_3",
+    "ch08_L1_words_4",
+    "ch08_L1_words_5"
+   ],
+   "listen": [
+    "ch08_L1_listen_1",
+    "ch08_L1_listen_2",
+    "ch08_L1_listen_3",
+    "ch08_L1_listen_4",
+    "ch08_L1_listen_5"
+   ],
+   "read": [
+    "ch08_L1_read_1",
+    "ch08_L1_read_2",
+    "ch08_L1_read_3",
+    "ch08_L1_read_4",
+    "ch08_L1_read_5"
+   ],
+   "speak": [
+    "ch08_L1_speak_1",
+    "ch08_L1_speak_2",
+    "ch08_L1_speak_3",
+    "ch08_L1_speak_4",
+    "ch08_L1_speak_5"
+   ],
+   "write": [
+    "ch08_L1_write_1",
+    "ch08_L1_write_2",
+    "ch08_L1_write_3",
+    "ch08_L1_write_4",
+    "ch08_L1_write_5"
+   ],
+   "why": [
+    "ch08_L1_why_1",
+    "ch08_L1_why_2",
+    "ch08_L1_why_3",
+    "ch08_L1_why_4",
+    "ch08_L1_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch08_L1_transfer_1",
+   "ch08_L1_transfer_2",
+   "ch08_L1_transfer_3",
+   "ch08_L1_transfer_4",
+   "ch08_L1_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch08_008",
+   "ch08_009",
+   "ch08_010"
+  ],
+  "dialog_ids": [
+   "ch08_d1"
+  ],
+  "video": "video/ch08_L1.mp4"
+ },
+ {
+  "id": "ch08_L2",
+  "title": "Мебель и описания: наш — ваш — их",
+  "pages_linie1": {
+   "pages": [
+    139,
+    140
+   ],
+   "sections": [
+    "1 Herzlich willkommen: Zimmer und Möbel",
+    "2 Eure Wohnung ist sehr schön",
+    "Gegensätze"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch08_012",
+   "ch08_013",
+   "ch08_014",
+   "ch08_015",
+   "ch08_018"
+  ],
+  "why_ids": [
+   "ch08_013",
+   "ch08_011"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch08_d2",
+    "line_ids": [
+     "ch08_d2_01",
+     "ch08_d2_02",
+     "ch08_d2_03",
+     "ch08_d2_04",
+     "ch08_d2_05",
+     "ch08_d2_06",
+     "ch08_d2_07",
+     "ch08_d2_08",
+     "ch08_d2_09"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Frau Wagner показывала квартиру. Что есть, а где что?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch08_d2",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch08_d2_01",
+        "ch08_d2_03",
+        "ch08_d2_05",
+        "ch08_d2_07"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch08_d2",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "eu = «ой»: послушай euer, neu, heute, Euro и повтори парами",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch08_011",
+        "ch08_012",
+        "ch08_013",
+        "ch08_014"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "eu = «ой»: послушай euer, neu, heute, Euro и повтори парами — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "мост: русское «наш — наша» тоже меняется; у немца unser Sofa, но unsere Küche — как meine; «свой» отдельным словом нет",
+   "как слышу, так и пишу": "звук дня: eu пишется как слышится «ой»: neu, euer; предметы — с большой буквы",
+   "учебник непонятен": "из Linie 1 — только темы и страницы 139–140; подача своя",
+   "село, живой немецкий — Netto": "в гостях у соседей по дому; в объявлениях — möbliert / unmöbliert",
+   "любит аниме": "завязка — герой обставляет первое жильё в новом мире; отрезки аниме — позже",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин (все 12 + 24 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Ist euer Sofa neu?; перенос — Ist unser Balkon groß?, Eure Küche ist sehr groß.",
+   "улучшать идеи автора": "идея автора «свой дом» (WISHES п. 38): в доме появляется то, о чём урок"
+  },
+  "kurs": {
+   "pages": [
+    139,
+    140
+   ],
+   "phrases_ids": [
+    "ch08_017"
+   ],
+   "note": "к курсу: на стр. 139–140 — комната с мебелью и пары «большой — маленький»; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch08_017",
+    "picture": "комната с мебелью: кровать, картина, окно, комод, стеллаж, письменный стол, кресло, зеркало, батарея; на кухне — холодильник; рядом — стиральная машина",
+    "words": [
+     {
+      "de": "das Bett",
+      "ru": "кровать"
+     },
+     {
+      "de": "das Bild",
+      "ru": "картина"
+     },
+     {
+      "de": "das Fenster",
+      "ru": "окно"
+     },
+     {
+      "de": "die Kommode",
+      "ru": "комод"
+     },
+     {
+      "de": "das Regal",
+      "ru": "стеллаж"
+     },
+     {
+      "de": "der Schreibtisch",
+      "ru": "письменный стол"
+     },
+     {
+      "de": "der Schreibtischstuhl",
+      "ru": "стул к письменному столу"
+     },
+     {
+      "de": "der Sessel",
+      "ru": "кресло"
+     },
+     {
+      "de": "der Spiegel",
+      "ru": "зеркало"
+     },
+     {
+      "de": "der Kühlschrank",
+      "ru": "холодильник"
+     },
+     {
+      "de": "die Waschmaschine",
+      "ru": "стиральная машина"
+     },
+     {
+      "de": "die Heizung",
+      "ru": "батарея, отопление"
+     }
+    ],
+    "note": "эти слова есть на стр. 138–139; нажми — услышишь. В заданиях урока их нет."
+   },
+   "tasks": [
+    {
+     "id": "ch08_L2_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch08_017",
+     "prompt": "Слова курса. Послушай. Что значит «Spiegel»?",
+     "answer": "зеркало",
+     "distractors": [
+      "окно",
+      "картина"
+     ],
+     "src": "Linie 1, стр. 138 (Spiegel)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Mein Haus (свой дом): в гостях у соседей — первая мебель в доме",
+   "npc": "Anna — соседка по дому (на «ты»)"
+  },
+  "covers": [
+   "L1-08-S1",
+   "L1-08-S2",
+   "L1-08-G1",
+   "B12.3",
+   "B12.4",
+   "B19.1",
+   "B05.6"
+  ],
+  "covers_note": {
+   "L1-08-S1": "мебель: Sofa, Schrank, Möbel (сцена и части 3–6), остальная мебель Linie 1 — «Слова курса» с заданием; комнаты — урок 1",
+   "L1-08-S2": "Eure Wohnung ist sehr schön; пары alt — neu, groß — klein (сцена, части 3–6)",
+   "L1-08-G1": "unser / euer / ihr: unser Sofa, unsere Küche, euer Schrank, eure Wohnung, ihre Wohnung (часть 5, задания «почему»)",
+   "B12.3": "его, её, их: ihre = их (Ольги и Нико), окончание -e у die-слов: unsere Küche, eure Wohnung",
+   "B12.4": "«свой» отдельным словом не передаётся: мой, наш, ваш — по тому, чей предмет (часть 5)",
+   "B19.1": "прилагательное после ist описывает вещь: ist neu, ist alt, ist groß, ist klein — без окончания",
+   "B05.6": "Eure Möbel sind schön — «мебель» по-немецки во множественном числе (часть 3, фраза 018)"
+  },
+  "goal": "После урока сможешь: похвалить квартиру соседей (Eure Wohnung ist sehr schön!), сказать «наш, ваш, их» (unser Sofa, unsere Küche, ihr Balkon) и описать мебель: neu, alt, groß, klein.",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Анна и Ахмад позвали тебя посмотреть их квартиру.",
+      "Цель: похвалить квартиру и сказать, что чьё: наш, ваш, их."
+     ],
+     "voice_ru": "Анна живёт в твоём доме, этажом выше. Сегодня они с Ахмадом показывают тебе свою мебель: диван, шкаф, кухню. Нужно похвалить и спросить, что новое, а что старое.",
+     "hook": "Загадка урока: по-русски «наш диван» и «наша кухня» — слово меняется. А по-немецки — unser Sofa, а кухня?",
+     "anime_motif": "исекай: герой обставляет первое жильё в новом мире — пока у соседей учится, что где стоит (без цитат)",
+     "npc": "Anna — соседка",
+     "more": "Анна скажет, что у них новое, что старое. Ты похвалишь квартиру и спросишь про шкаф и кухню. Слова курса: кровать, окно, зеркало — на слух.",
+     "goal": "После урока сможешь: похвалить квартиру соседей (Eure Wohnung ist sehr schön!), сказать «наш, ваш, их» (unser Sofa, unsere Küche, ihr Balkon) и описать мебель: neu, alt, groß, klein."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch08_002",
+      "ch08_003",
+      "ch08_005"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Frau Wagner показывала квартиру. Что есть, а где что?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch08_002",
+      "ch08_003",
+      "ch08_005"
+     ],
+     "type": "retrieval: вопрос, не перечитывание"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch08_012",
+      "ch08_013",
+      "ch08_014",
+      "ch08_015",
+      "ch08_018"
+     ],
+     "words": [
+      "Unser Sofa ist neu.",
+      "Unsere Küche ist klein.",
+      "Euer Schrank ist alt.",
+      "Ja, ihre Wohnung ist groß.",
+      "Eure Möbel sind schön."
+     ],
+     "words_ru": {
+      "Unser Sofa ist neu.": "Наш диван новый.",
+      "Unsere Küche ist klein.": "Наша кухня маленькая.",
+      "Euer Schrank ist alt.": "Ваш шкаф старый.",
+      "Ja, ihre Wohnung ist groß.": "Да, их квартира большая.",
+      "Eure Möbel sind schön.": "Ваша мебель красивая."
+     },
+     "trap": "«мебель» по-русски одна, а Möbel по-немецки — много предметов: sind, не ist.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch08_L2_words_1",
+      "ch08_L2_words_2",
+      "ch08_L2_words_3",
+      "ch08_L2_words_4",
+      "ch08_L2_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch08_d2",
+     "line_ids": [
+      "ch08_d2_01",
+      "ch08_d2_02",
+      "ch08_d2_03",
+      "ch08_d2_04",
+      "ch08_d2_05",
+      "ch08_d2_06",
+      "ch08_d2_07",
+      "ch08_d2_08",
+      "ch08_d2_09"
+     ],
+     "halves": [
+      [
+       "ch08_d2_01",
+       "ch08_d2_02",
+       "ch08_d2_03",
+       "ch08_d2_04",
+       "ch08_d2_05"
+      ],
+      [
+       "ch08_d2_06",
+       "ch08_d2_07",
+       "ch08_d2_08",
+       "ch08_d2_09"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_source": "Duden: möbliert, unmöbliert",
+     "life_detail": "В объявлениях о съёме квартиры пишут «möbliert» — с мебелью — или «unmöbliert» — пустая. Если про мебель ничего не сказано, лучше спросить до подписи договора.",
+     "task_ids": [
+      "ch08_L2_listen_1",
+      "ch08_L2_listen_2",
+      "ch08_L2_listen_3",
+      "ch08_L2_listen_4",
+      "ch08_L2_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch08_013",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "unser, euer, ihr(e) работают как mein. Sofa — das-слово: unser Sofa, без окончания. Küche — die-слово: к unser добавляется -e: unsere Küche. Как meine Küche.",
+     "screen": [
+      "unser Sofa · euer Schrank (без окончания)",
+      "unsere Küche · eure Wohnung · ihre Wohnung (+ -e у die-слов)"
+     ],
+     "answer_hook": "Ответ на загадку: русское «наш — наша» немец тоже меняет: unser Sofa, но unsere Küche. К die-слову добавляется -e, как у meine.",
+     "second": {
+      "why_id": "ch08_011",
+      "voice_ru": "У euer перед -e одна e выпадает: eure (не «euere»). А ihre — «их» (Ольги и Нико): у die-слов то же -e, что у unsere и eure. Отдельного слова «свой» для этого нет: говорят «наш», «ваш», «их» по тому, чей предмет."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch08_L2_why_1",
+      "ch08_L2_why_2",
+      "ch08_L2_why_3",
+      "ch08_L2_why_4",
+      "ch08_L2_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch08_016",
+     "pieces": [
+      "neu?",
+      "Sofa",
+      "euer",
+      "Ist"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch08_d2_02",
+      "ch08_d2_03"
+     ],
+     "prompt": "Собери сам из знакомых кусков: Анна и Ахмад обставили всё заново. Спроси: «Ваш диван новый?»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch08_016",
+     "transfer_task_ids": [
+      "ch08_L2_transfer_1"
+     ],
+     "task_ids": [
+      "ch08_L2_write_1",
+      "ch08_L2_write_2",
+      "ch08_L2_write_3",
+      "ch08_L2_write_4",
+      "ch08_L2_write_5",
+      "ch08_L2_read_1",
+      "ch08_L2_read_2",
+      "ch08_L2_read_3",
+      "ch08_L2_read_4",
+      "ch08_L2_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "euer",
+     "ipa_sym": "ɔʏ",
+     "tip_ru": "Буквы eu — это «ой»: euer «ОЙэр», neu «ной», heute «ХОЙте», Euro «ОЙро». Не «эу».",
+     "bridge_ru": "В русском есть «ой!» — так же читается немецкое eu. Пиши и читай как «ой», а не как «е-у».",
+     "phrase_id": "ch08_014",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "euer",
+       "ru": "eu = «ой»"
+      },
+      {
+       "de": "neu",
+       "ru": "eu = «ой»"
+      },
+      {
+       "de": "heute",
+       "ru": "eu = «ой»"
+      },
+      {
+       "de": "Euro",
+       "ru": "eu = «ой»"
+      }
+     ],
+     "speak_task_ids": [
+      "ch08_L2_speak_1",
+      "ch08_L2_speak_2",
+      "ch08_L2_speak_3",
+      "ch08_L2_speak_4",
+      "ch08_L2_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "В гостях у соседей",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Anna (на «ты»)",
+     "turns": [
+      {
+       "prompt_id": "ch08_d2_02",
+       "prompt_de": "Danke, unser Sofa ist neu.",
+       "prompt_audio": "audio_v1/ch08_d2_02.mp3",
+       "expected_id": "ch08_d2_03",
+       "expected_de": "Ist euer Schrank auch neu?",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch08_d2_04",
+       "prompt_de": "Nein, der Schrank ist alt.",
+       "prompt_audio": "audio_v1/ch08_d2_04.mp3",
+       "expected_id": "ch08_d2_05",
+       "expected_de": "Ist die Küche groß?",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch08_d2_06",
+       "prompt_de": "Nein, unsere Küche ist klein.",
+       "prompt_audio": "audio_v1/ch08_d2_06.mp3",
+       "expected_id": "ch08_d2_07",
+       "expected_de": "Wohnen Olga und Nico auch hier?",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Спрашивай по порядку: шкаф тоже новый? кухня большая? Ольга и Нико тоже здесь? ИИ ответит фразами сцены.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch08_d2_08",
+     "task_ru": "Новичок не понял, чья квартира большая. Объясни ему по-русски, что ответила Анна.",
+     "expected_ru": "Да, их квартира большая.",
+     "hint_ru": "ihre — «их» (Ольги и Нико); groß — «большой»",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1.1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch08_L2_dict_1",
+      "ch08_L2_dict_2",
+      "ch08_L2_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "eu слышишь как «ой» — пиши eu: neu, euer. Предметы — с большой буквы: Sofa, Küche, Balkon."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch08_L2_transfer_2",
+      "ch08_L2_transfer_3",
+      "ch08_L2_transfer_4",
+      "ch08_L2_transfer_5",
+      "ch08_L2_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Соседи показали свою мебель: в твоём доме появился первый диван.",
+      "Совет на завтра: назови вслух пять вещей в своей комнате и скажи, какие они: Das Bett ist alt."
+     ],
+     "npc_phrase_id": "ch08_d2_09",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: unser Sofa · unsere Küche · euer Schrank · eure Wohnung · ihre Wohnung (= их) · Eure Möbel sind … — мебель во множественном числе.",
+     "next_hook": "Дальше: хочешь жить с кем-то вместе — wollen: «Wir wollen zusammen wohnen».",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       139,
+       140
+      ],
+      "phrases_ids": [
+       "ch08_017"
+      ],
+      "note": "к курсу: на стр. 139–140 — комната с мебелью и пары «большой — маленький»; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch08_017",
+       "picture": "комната с мебелью: кровать, картина, окно, комод, стеллаж, письменный стол, кресло, зеркало, батарея; на кухне — холодильник; рядом — стиральная машина",
+       "words": [
+        {
+         "de": "das Bett",
+         "ru": "кровать"
+        },
+        {
+         "de": "das Bild",
+         "ru": "картина"
+        },
+        {
+         "de": "das Fenster",
+         "ru": "окно"
+        },
+        {
+         "de": "die Kommode",
+         "ru": "комод"
+        },
+        {
+         "de": "das Regal",
+         "ru": "стеллаж"
+        },
+        {
+         "de": "der Schreibtisch",
+         "ru": "письменный стол"
+        },
+        {
+         "de": "der Schreibtischstuhl",
+         "ru": "стул к письменному столу"
+        },
+        {
+         "de": "der Sessel",
+         "ru": "кресло"
+        },
+        {
+         "de": "der Spiegel",
+         "ru": "зеркало"
+        },
+        {
+         "de": "der Kühlschrank",
+         "ru": "холодильник"
+        },
+        {
+         "de": "die Waschmaschine",
+         "ru": "стиральная машина"
+        },
+        {
+         "de": "die Heizung",
+         "ru": "батарея, отопление"
+        }
+       ],
+       "note": "эти слова есть на стр. 138–139; нажми — услышишь. В заданиях урока их нет."
+      },
+      "tasks": [
+       {
+        "id": "ch08_L2_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch08_017",
+        "prompt": "Слова курса. Послушай. Что значит «Spiegel»?",
+        "answer": "зеркало",
+        "distractors": [
+         "окно",
+         "картина"
+        ],
+        "src": "Linie 1, стр. 138 (Spiegel)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      139,
+      140
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch08.py",
+  "new_words": [
+   "unser · unsere",
+   "euer · eure",
+   "ihre = их",
+   "das Sofa",
+   "der Schrank",
+   "die Möbel",
+   "neu",
+   "alt",
+   "groß",
+   "klein"
+  ],
+  "known_before": [
+   "Ist …?",
+   "Wohnung · Küche · Balkon",
+   "sehr",
+   "schön",
+   "auch",
+   "Danke!",
+   "Olga · Nico",
+   "ihr (вы)"
+  ],
+  "transfer_phrase_ids": [
+   "ch08_t03",
+   "ch08_t04"
+  ],
+  "built_phrase_ids": [
+   "ch08_016"
+  ],
+  "quiz_ids": [
+   "ch08_L2_words_1",
+   "ch08_L2_words_2",
+   "ch08_L2_words_3",
+   "ch08_L2_words_4",
+   "ch08_L2_words_5",
+   "ch08_L2_listen_1",
+   "ch08_L2_listen_2",
+   "ch08_L2_listen_3",
+   "ch08_L2_listen_4",
+   "ch08_L2_listen_5",
+   "ch08_L2_read_1",
+   "ch08_L2_read_2",
+   "ch08_L2_read_3",
+   "ch08_L2_read_4",
+   "ch08_L2_read_5",
+   "ch08_L2_speak_1",
+   "ch08_L2_speak_2",
+   "ch08_L2_speak_3",
+   "ch08_L2_speak_4",
+   "ch08_L2_speak_5",
+   "ch08_L2_write_1",
+   "ch08_L2_write_2",
+   "ch08_L2_write_3",
+   "ch08_L2_write_4",
+   "ch08_L2_write_5",
+   "ch08_L2_why_1",
+   "ch08_L2_why_2",
+   "ch08_L2_why_3",
+   "ch08_L2_why_4",
+   "ch08_L2_why_5",
+   "ch08_L2_transfer_1",
+   "ch08_L2_transfer_2",
+   "ch08_L2_transfer_3",
+   "ch08_L2_transfer_4",
+   "ch08_L2_transfer_5",
+   "ch08_L2_boss_1"
+  ],
+  "dictation_ids": [
+   "ch08_L2_dict_1",
+   "ch08_L2_dict_2",
+   "ch08_L2_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Анна и Ахмад позвали тебя посмотреть их квартиру. Цель: похвалить квартиру и сказать, что чьё: наш, ваш, их. Загадка урока: по-русски «наш диван» и «наша кухня» — слово меняется. А по-немецки — unser Sofa, а кухня?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. В гостях у соседей",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой в гостях у соседей (ИИ — Anna)",
+   "situation": "gast_bei_nachbarn",
+   "ai_plays": "Anna (на «ты»)",
+   "phrases": [
+    "ch08_d2_03",
+    "ch08_d2_05",
+    "ch08_d2_07"
+   ]
+  },
+  "outro": "Соседи показали свою мебель: в твоём доме появился первый диван. Совет на завтра: назови вслух пять вещей в своей комнате и скажи, какие они: Das Bett ist alt. Дальше: хочешь жить с кем-то вместе — wollen: «Wir wollen zusammen wohnen».",
+  "detail_de_life": "В объявлениях о съёме квартиры пишут «möbliert» — с мебелью — или «unmöbliert» — пустая. Если про мебель ничего не сказано, лучше спросить до подписи договора.",
+  "detail_de_life_source": "Duden: möbliert, unmöbliert",
+  "task_ids": {
+   "words": [
+    "ch08_L2_words_1",
+    "ch08_L2_words_2",
+    "ch08_L2_words_3",
+    "ch08_L2_words_4",
+    "ch08_L2_words_5"
+   ],
+   "listen": [
+    "ch08_L2_listen_1",
+    "ch08_L2_listen_2",
+    "ch08_L2_listen_3",
+    "ch08_L2_listen_4",
+    "ch08_L2_listen_5"
+   ],
+   "read": [
+    "ch08_L2_read_1",
+    "ch08_L2_read_2",
+    "ch08_L2_read_3",
+    "ch08_L2_read_4",
+    "ch08_L2_read_5"
+   ],
+   "speak": [
+    "ch08_L2_speak_1",
+    "ch08_L2_speak_2",
+    "ch08_L2_speak_3",
+    "ch08_L2_speak_4",
+    "ch08_L2_speak_5"
+   ],
+   "write": [
+    "ch08_L2_write_1",
+    "ch08_L2_write_2",
+    "ch08_L2_write_3",
+    "ch08_L2_write_4",
+    "ch08_L2_write_5"
+   ],
+   "why": [
+    "ch08_L2_why_1",
+    "ch08_L2_why_2",
+    "ch08_L2_why_3",
+    "ch08_L2_why_4",
+    "ch08_L2_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch08_L2_transfer_1",
+   "ch08_L2_transfer_2",
+   "ch08_L2_transfer_3",
+   "ch08_L2_transfer_4",
+   "ch08_L2_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch08_002",
+   "ch08_003",
+   "ch08_005"
+  ],
+  "dialog_ids": [
+   "ch08_d2"
+  ],
+  "video": "video/ch08_L2.mp4"
+ },
+ {
+  "id": "ch08_L3",
+  "title": "Мы хотим жить вместе: wollen и рамка",
+  "pages_linie1": {
+   "pages": [
+    141
+   ],
+   "sections": [
+    "3 Wir wollen zusammen wohnen!"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch08_019",
+   "ch08_020",
+   "ch08_022",
+   "ch08_023",
+   "ch08_021"
+  ],
+  "why_ids": [
+   "ch08_020",
+   "ch08_023"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch08_d3",
+    "line_ids": [
+     "ch08_d3_01",
+     "ch08_d3_02",
+     "ch08_d3_03",
+     "ch08_d3_04",
+     "ch08_d3_05",
+     "ch08_d3_06",
+     "ch08_d3_07",
+     "ch08_d3_08"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Соседи показали мебель. Что чьё: наш, ваш?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch08_d3",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch08_d3_01",
+        "ch08_d3_02",
+        "ch08_d3_04",
+        "ch08_d3_06"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch08_d3",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "w и ll: послушай wollen, will, wohnen, wo и повтори парами",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch08_019",
+        "ch08_020",
+        "ch08_021",
+        "ch08_023"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "w и ll: послушай wollen, will, wohnen, wo и повтори парами — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "мост: по-русски «хочу жить» рядом; по-немецки хочу — вторым, жить — в самом конце (как два вагона на концах)",
+   "как слышу, так и пишу": "звук дня: w = «в»; ll после гласной — гласная короткая (will, wollen), h после гласной — долгая (wohnen)",
+   "учебник непонятен": "из Linie 1 — только темы и страница 141; подача своя",
+   "село, живой немецкий — Netto": "сосед по курсу ищет жильё во Фрайберге; WG — как в объявлениях",
+   "любит аниме": "завязка — двое героев решают построить дом вместе; отрезки аниме — позже",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин (все 12 + 24 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Willst du in Freiberg wohnen?; перенос — Willst du eine Wohnung mit Balkon?, Wir wollen in Freiberg wohnen.",
+   "улучшать идеи автора": "идея автора «свой дом» (WISHES п. 38): в доме появляется то, о чём урок"
+  },
+  "kurs": {
+   "pages": [
+    141
+   ],
+   "phrases_ids": [
+    "ch08_025"
+   ],
+   "note": "к курсу: на стр. 141 — объявления «Ищу жильё»: город, страна, центр, первый этаж; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch08_025",
+    "picture": "карточки с адресами: первый этаж, центр города, у работы, на природе, в отпуске",
+    "words": [
+     {
+      "de": "das Erdgeschoss",
+      "ru": "первый этаж"
+     },
+     {
+      "de": "das Zentrum",
+      "ru": "центр"
+     },
+     {
+      "de": "der Urlaub",
+      "ru": "отпуск"
+     },
+     {
+      "de": "die Arbeit",
+      "ru": "работа"
+     },
+     {
+      "de": "das Land",
+      "ru": "страна, деревня (на земле)"
+     },
+     {
+      "de": "die Stadt",
+      "ru": "город"
+     }
+    ],
+    "note": "эти слова есть на стр. 141; нажми — услышишь. В заданиях урока их нет."
+   },
+   "tasks": [
+    {
+     "id": "ch08_L3_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch08_025",
+     "prompt": "Слова курса. Послушай. Что значит «Urlaub»?",
+     "answer": "отпуск",
+     "distractors": [
+      "работа",
+      "центр"
+     ],
+     "src": "Linie 1, стр. 141 (Urlaub)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Mein Haus (свой дом): решаем, где и с кем жить — в доме появляется план",
+   "npc": "Ahmad — одногруппник (на «ты»)"
+  },
+  "covers": [
+   "L1-08-S3",
+   "L1-08-G3"
+  ],
+  "covers_partial": [
+   "L1-08-G2",
+   "B09.3"
+  ],
+  "covers_note": {
+   "L1-08-S3": "Wir wollen zusammen wohnen: сцена d3 и части 3–6; Land, Stadt, Zentrum, Erdgeschoss, Urlaub, Arbeit — «Слова курса» с заданием",
+   "L1-08-G3": "рамка: wollen в вагоне №2, второе действие в конце — Ich will in Freiberg wohnen (часть 5, задания «почему»)",
+   "L1-08-G2": "wollen: ich will, du willst, wir wollen; ihr wollt и dürfen — урок 5",
+   "B09.3": "wollen — «хочу» (часть 5); können и dürfen — в уроке 5"
+  },
+  "goal": "После урока сможешь: сказать, что хочешь (Ich will eine Wohnung. Wir wollen zusammen wohnen.), спросить «где вы хотите жить?» и поставить второе действие в конец: Ich will in Freiberg wohnen.",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Ахмад из твоей группы ищет жильё во Фрайберге.",
+      "Цель: сказать, что хочешь жить вместе, и спросить «где?»."
+     ],
+     "voice_ru": "Ахмад каждый день едет на курс из деревни и хочет жить ближе к Фрайбергу. Ты тоже думаешь о том, чтобы не жить одному. Надо сказать, чего вы хотите, — с глаголом wollen.",
+     "hook": "Загадка урока: «Я хочу жить во Фрайберге» — по-русски хочу и жить стоят рядом. А по-немецки они разъезжаются: один в начало, другой в самый конец. Где какой?",
+     "anime_motif": "исекай: два героя решают поселиться вместе и построить дом — первый общий план (без цитат)",
+     "npc": "Ahmad — одногруппник",
+     "more": "Ахмад скажет, где хочет жить. Ты предложишь жить вместе и спросишь про дом. В учебнике на стр. 141 — объявления о жилье.",
+     "goal": "После урока сможешь: сказать, что хочешь (Ich will eine Wohnung. Wir wollen zusammen wohnen.), спросить «где вы хотите жить?» и поставить второе действие в конец: Ich will in Freiberg wohnen."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch08_011",
+      "ch08_012",
+      "ch08_014"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Соседи показали мебель. Что чьё: наш, ваш?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch08_011",
+      "ch08_012",
+      "ch08_014"
+     ],
+     "type": "retrieval: вопрос, не перечитывание"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch08_019",
+      "ch08_020",
+      "ch08_022",
+      "ch08_023",
+      "ch08_021"
+     ],
+     "words": [
+      "Ich will eine Wohnung.",
+      "Wir wollen zusammen wohnen.",
+      "Willst du ein Haus mit Garten?",
+      "Ich will nicht allein wohnen.",
+      "Wo wollen wir wohnen?"
+     ],
+     "words_ru": {
+      "Ich will eine Wohnung.": "Я хочу квартиру.",
+      "Wir wollen zusammen wohnen.": "Мы хотим жить вместе.",
+      "Willst du ein Haus mit Garten?": "Ты хочешь дом с садом?",
+      "Ich will nicht allein wohnen.": "Я не хочу жить один.",
+      "Wo wollen wir wohnen?": "Где мы хотим жить?"
+     },
+     "trap": "wollen — не «хотеть жить» одним словом: хочу — вторым, жить — в самом конце.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch08_L3_words_1",
+      "ch08_L3_words_2",
+      "ch08_L3_words_3",
+      "ch08_L3_words_4",
+      "ch08_L3_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch08_d3",
+     "line_ids": [
+      "ch08_d3_01",
+      "ch08_d3_02",
+      "ch08_d3_03",
+      "ch08_d3_04",
+      "ch08_d3_05",
+      "ch08_d3_06",
+      "ch08_d3_07",
+      "ch08_d3_08"
+     ],
+     "halves": [
+      [
+       "ch08_d3_01",
+       "ch08_d3_02",
+       "ch08_d3_03",
+       "ch08_d3_04"
+      ],
+      [
+       "ch08_d3_05",
+       "ch08_d3_06",
+       "ch08_d3_07",
+       "ch08_d3_08"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_source": "Duden: Wohngemeinschaft",
+     "life_detail": "Жить вместе можно и в Wohngemeinschaft (WG): у каждого своя комната, кухня и ванная общие. В WG обычно договариваются заранее, кто за что платит и как делят уборку.",
+     "task_ids": [
+      "ch08_L3_listen_1",
+      "ch08_L3_listen_2",
+      "ch08_L3_listen_3",
+      "ch08_L3_listen_4",
+      "ch08_L3_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch08_020",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "wollen — помощник: он стоит вторым и меняется — ich will, du willst, wir wollen. Второе действие уходит в самый конец: Wir wollen zusammen wohnen.",
+     "screen": [
+      "Wir · wollen · zusammen · wohnen.",
+      "wollen — в вагоне №2 · wohnen — в конце (рамка)"
+     ],
+     "answer_hook": "Ответ на загадку: «хочу» — вторым словом: will; «жить» — в самом конце: wohnen. Между ними всё остальное: Ich will in Freiberg wohnen.",
+     "second": {
+      "why_id": "ch08_023",
+      "voice_ru": "Всё остальное встаёт внутрь рамки: Ich will nicht allein wohnen. nicht и allein — между will и wohnen, а wohnen всё равно в самом конце."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch08_L3_why_1",
+      "ch08_L3_why_2",
+      "ch08_L3_why_3",
+      "ch08_L3_why_4",
+      "ch08_L3_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch08_024",
+     "pieces": [
+      "wohnen?",
+      "Freiberg",
+      "in",
+      "du",
+      "Willst"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch08_d3_01",
+      "ch08_d3_02"
+     ],
+     "prompt": "Собери сам из знакомых кусков: Ахмад всё ещё думает о доме. Спроси на «ты»: «Ты хочешь жить во Фрайберге?»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch08_024",
+     "transfer_task_ids": [
+      "ch08_L3_transfer_1"
+     ],
+     "task_ids": [
+      "ch08_L3_write_1",
+      "ch08_L3_write_2",
+      "ch08_L3_write_3",
+      "ch08_L3_write_4",
+      "ch08_L3_write_5",
+      "ch08_L3_read_1",
+      "ch08_L3_read_2",
+      "ch08_L3_read_3",
+      "ch08_L3_read_4",
+      "ch08_L3_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "wollen",
+     "ipa_sym": "v · ɔ · oː",
+     "tip_ru": "w читается как «в»: wollen «ВОлен», wohnen «ВО:нен», wo «во:». Две одинаковые согласные после гласной (ll) — гласная короткая: will «вил», wollen. После гласной h или одна согласная — гласная долгая: wohnen, wo.",
+     "bridge_ru": "В русском w нет: пиши и читай её как «в». А долгота гласной в русском ничего не меняет, в немецком — меняет слово.",
+     "phrase_id": "ch08_020",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "wollen",
+       "ru": "w = «в», ll — короткое «о»"
+      },
+      {
+       "de": "will",
+       "ru": "w = «в», ll — короткое «и»"
+      },
+      {
+       "de": "wohnen",
+       "ru": "w = «в», долгое «о:»"
+      },
+      {
+       "de": "wo",
+       "ru": "w = «в», долгое «о:»"
+      }
+     ],
+     "speak_task_ids": [
+      "ch08_L3_speak_1",
+      "ch08_L3_speak_2",
+      "ch08_L3_speak_3",
+      "ch08_L3_speak_4",
+      "ch08_L3_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Где жить?",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Ahmad (на «ты»)",
+     "turns": [
+      {
+       "prompt_id": "ch08_d3_01",
+       "prompt_de": "Ich will in Freiberg wohnen.",
+       "prompt_audio": "audio_v1/ch08_d3_01.mp3",
+       "expected_id": "ch08_d3_02",
+       "expected_de": "Wo willst du wohnen?",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch08_d3_03",
+       "prompt_de": "Ich will eine Wohnung mit Balkon.",
+       "prompt_audio": "audio_v1/ch08_d3_03.mp3",
+       "expected_id": "ch08_d3_04",
+       "expected_de": "Wollen wir zusammen wohnen?",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch08_d3_05",
+       "prompt_de": "Ja, ich will nicht allein wohnen.",
+       "prompt_audio": "audio_v1/ch08_d3_05.mp3",
+       "expected_id": "ch08_d3_06",
+       "expected_de": "Und wo wollen wir wohnen?",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Спрашивай по порядку: где ты хочешь жить? давай жить вместе? где мы будем жить? ИИ ответит фразами сцены.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch08_d3_05",
+     "task_ru": "Новичок не понял, чего не хочет Ахмад. Объясни ему по-русски, что Ахмад ответил.",
+     "expected_ru": "Да, я не хочу жить один.",
+     "hint_ru": "will — «хочу»; nicht — «не»; allein — «один»; wohnen — «жить»",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1.1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch08_L3_dict_1",
+      "ch08_L3_dict_2",
+      "ch08_L3_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "w слышишь как «в» — пиши w: wollen, wohnen. ll после короткой гласной — две буквы: will, wollen. allein — тоже две l."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch08_L3_transfer_2",
+      "ch08_L3_transfer_3",
+      "ch08_L3_transfer_4",
+      "ch08_L3_transfer_5",
+      "ch08_L3_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Вы с Ахмадом решили: хотите жить вместе и иметь дом с садом.",
+      "Совет на завтра: скажи вслух три желания про жильё: Ich will einen Garten. Ich will nicht allein wohnen."
+     ],
+     "npc_phrase_id": "ch08_d3_08",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: ich will · du willst · wir wollen — wollen в вагоне №2, второе действие в конце (рамка) · Ich will nicht allein wohnen.",
+     "next_hook": "Дальше: как найти квартиру — объявления, Miete и большие числа.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       141
+      ],
+      "phrases_ids": [
+       "ch08_025"
+      ],
+      "note": "к курсу: на стр. 141 — объявления «Ищу жильё»: город, страна, центр, первый этаж; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch08_025",
+       "picture": "карточки с адресами: первый этаж, центр города, у работы, на природе, в отпуске",
+       "words": [
+        {
+         "de": "das Erdgeschoss",
+         "ru": "первый этаж"
+        },
+        {
+         "de": "das Zentrum",
+         "ru": "центр"
+        },
+        {
+         "de": "der Urlaub",
+         "ru": "отпуск"
+        },
+        {
+         "de": "die Arbeit",
+         "ru": "работа"
+        },
+        {
+         "de": "das Land",
+         "ru": "страна, деревня (на земле)"
+        },
+        {
+         "de": "die Stadt",
+         "ru": "город"
+        }
+       ],
+       "note": "эти слова есть на стр. 141; нажми — услышишь. В заданиях урока их нет."
+      },
+      "tasks": [
+       {
+        "id": "ch08_L3_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch08_025",
+        "prompt": "Слова курса. Послушай. Что значит «Urlaub»?",
+        "answer": "отпуск",
+        "distractors": [
+         "работа",
+         "центр"
+        ],
+        "src": "Linie 1, стр. 141 (Urlaub)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      141
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch08.py",
+  "new_words": [
+   "ich will · du willst",
+   "wir wollen",
+   "wohnen в конце",
+   "das Haus",
+   "der Garten",
+   "allein"
+  ],
+  "known_before": [
+   "wohnen",
+   "zusammen",
+   "in Freiberg",
+   "Wohnung mit Balkon",
+   "nicht",
+   "gern",
+   "heute",
+   "Bis morgen!"
+  ],
+  "transfer_phrase_ids": [
+   "ch08_t05",
+   "ch08_t06"
+  ],
+  "built_phrase_ids": [
+   "ch08_024"
+  ],
+  "quiz_ids": [
+   "ch08_L3_words_1",
+   "ch08_L3_words_2",
+   "ch08_L3_words_3",
+   "ch08_L3_words_4",
+   "ch08_L3_words_5",
+   "ch08_L3_listen_1",
+   "ch08_L3_listen_2",
+   "ch08_L3_listen_3",
+   "ch08_L3_listen_4",
+   "ch08_L3_listen_5",
+   "ch08_L3_read_1",
+   "ch08_L3_read_2",
+   "ch08_L3_read_3",
+   "ch08_L3_read_4",
+   "ch08_L3_read_5",
+   "ch08_L3_speak_1",
+   "ch08_L3_speak_2",
+   "ch08_L3_speak_3",
+   "ch08_L3_speak_4",
+   "ch08_L3_speak_5",
+   "ch08_L3_write_1",
+   "ch08_L3_write_2",
+   "ch08_L3_write_3",
+   "ch08_L3_write_4",
+   "ch08_L3_write_5",
+   "ch08_L3_why_1",
+   "ch08_L3_why_2",
+   "ch08_L3_why_3",
+   "ch08_L3_why_4",
+   "ch08_L3_why_5",
+   "ch08_L3_transfer_1",
+   "ch08_L3_transfer_2",
+   "ch08_L3_transfer_3",
+   "ch08_L3_transfer_4",
+   "ch08_L3_transfer_5",
+   "ch08_L3_boss_1"
+  ],
+  "dictation_ids": [
+   "ch08_L3_dict_1",
+   "ch08_L3_dict_2",
+   "ch08_L3_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Ахмад из твоей группы ищет жильё во Фрайберге. Цель: сказать, что хочешь жить вместе, и спросить «где?». Загадка урока: «Я хочу жить во Фрайберге» — по-русски хочу и жить стоят рядом. А по-немецки они разъезжаются: один в начало, другой в самый конец. Где какой?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Где жить?",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой на перемене (ИИ — Ahmad)",
+   "situation": "wohnung_suchen",
+   "ai_plays": "Ahmad (на «ты»)",
+   "phrases": [
+    "ch08_d3_02",
+    "ch08_d3_04",
+    "ch08_d3_06"
+   ]
+  },
+  "outro": "Вы с Ахмадом решили: хотите жить вместе и иметь дом с садом. Совет на завтра: скажи вслух три желания про жильё: Ich will einen Garten. Ich will nicht allein wohnen. Дальше: как найти квартиру — объявления, Miete и большие числа.",
+  "detail_de_life": "Жить вместе можно и в Wohngemeinschaft (WG): у каждого своя комната, кухня и ванная общие. В WG обычно договариваются заранее, кто за что платит и как делят уборку.",
+  "detail_de_life_source": "Duden: Wohngemeinschaft",
+  "task_ids": {
+   "words": [
+    "ch08_L3_words_1",
+    "ch08_L3_words_2",
+    "ch08_L3_words_3",
+    "ch08_L3_words_4",
+    "ch08_L3_words_5"
+   ],
+   "listen": [
+    "ch08_L3_listen_1",
+    "ch08_L3_listen_2",
+    "ch08_L3_listen_3",
+    "ch08_L3_listen_4",
+    "ch08_L3_listen_5"
+   ],
+   "read": [
+    "ch08_L3_read_1",
+    "ch08_L3_read_2",
+    "ch08_L3_read_3",
+    "ch08_L3_read_4",
+    "ch08_L3_read_5"
+   ],
+   "speak": [
+    "ch08_L3_speak_1",
+    "ch08_L3_speak_2",
+    "ch08_L3_speak_3",
+    "ch08_L3_speak_4",
+    "ch08_L3_speak_5"
+   ],
+   "write": [
+    "ch08_L3_write_1",
+    "ch08_L3_write_2",
+    "ch08_L3_write_3",
+    "ch08_L3_write_4",
+    "ch08_L3_write_5"
+   ],
+   "why": [
+    "ch08_L3_why_1",
+    "ch08_L3_why_2",
+    "ch08_L3_why_3",
+    "ch08_L3_why_4",
+    "ch08_L3_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch08_L3_transfer_1",
+   "ch08_L3_transfer_2",
+   "ch08_L3_transfer_3",
+   "ch08_L3_transfer_4",
+   "ch08_L3_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch08_011",
+   "ch08_012",
+   "ch08_014"
+  ],
+  "dialog_ids": [
+   "ch08_d3"
+  ],
+  "video": "video/ch08_L3.mp4"
+ },
+ {
+  "id": "ch08_L4",
+  "title": "Объявление: аренда и Nebenkosten",
+  "pages_linie1": {
+   "pages": [
+    142
+   ],
+   "sections": [
+    "4 Wir suchen eine Wohnung",
+    "Wohnungsanzeigen",
+    "Große Zahlen"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch08_027",
+   "ch08_028",
+   "ch08_029",
+   "ch08_030",
+   "ch08_031"
+  ],
+  "why_ids": [
+   "ch08_029",
+   "ch08_030"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch08_d4",
+    "line_ids": [
+     "ch08_d4_01",
+     "ch08_d4_02",
+     "ch08_d4_03",
+     "ch08_d4_04",
+     "ch08_d4_05",
+     "ch08_d4_06",
+     "ch08_d4_07",
+     "ch08_d4_08"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Ахмад хочет жить вместе. Что ты скажешь?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch08_d4",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch08_d4_02",
+        "ch08_d4_04",
+        "ch08_d4_06",
+        "ch08_d4_08"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch08_d4",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Большие числа: назови вслух vierhundert, vierhundertfünfzig, fünfzig и сложи: Miete + Nebenkosten",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch08_029",
+        "ch08_030",
+        "ch08_031",
+        "ch08_032"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Большие числа: назови вслух vierhundert, vierhundertfünfzig, fünfzig и сложи: Miete + Nebenkosten — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "мост: русское «четыреста пятьдесят» — три слова; немецкое vierhundertfünfzig — одно слово, собранное слева направо (как конструктор)",
+   "как слышу, так и пишу": "диктант: числа слитно одним словом; существительные (Miete, Nebenkosten, Euro) — с большой буквы",
+   "учебник непонятен": "из Linie 1 — только темы и страница 142; подача своя",
+   "село, живой немецкий — Netto": "объявление о жилье, аренда и расходы — как у хозяина дома и в Jobcenter",
+   "любит аниме": "завязка — герои считают деньги на первый дом; отрезки аниме — позже",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин (все 12 + 24 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Hat die Wohnung einen Keller?; перенос — Hat die Wohnung einen Balkon?, Die Miete ist vierhundertfünfzig Euro.",
+   "улучшать идеи автора": "идея автора «свой дом» (WISHES п. 38): в доме появляется то, о чём урок"
+  },
+  "kurs": {
+   "pages": [
+    142
+   ],
+   "phrases_ids": [
+    "ch08_034"
+   ],
+   "note": "к курсу: на стр. 142 — объявления о квартирах: этаж, площадь, парковка, WG; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch08_034",
+    "picture": "объявление: трёхкомнатная квартира, этаж, площадь, парковочное место, терраса, гараж, WG",
+    "words": [
+     {
+      "de": "die Etage",
+      "ru": "этаж"
+     },
+     {
+      "de": "die Fläche",
+      "ru": "площадь"
+     },
+     {
+      "de": "der Parkplatz",
+      "ru": "парковочное место"
+     },
+     {
+      "de": "die Terrasse",
+      "ru": "терраса"
+     },
+     {
+      "de": "die Garage",
+      "ru": "гараж"
+     },
+     {
+      "de": "die WG",
+      "ru": "квартира на несколько жильцов: у каждого своя комната (Wohngemeinschaft)"
+     },
+     {
+      "de": "die 3-Zimmerwohnung (Dreizimmerwohnung)",
+      "ru": "трёхкомнатная квартира"
+     }
+    ],
+    "note": "эти слова есть на стр. 142; нажми — услышишь. В заданиях урока их нет."
+   },
+   "tasks": [
+    {
+     "id": "ch08_L4_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch08_034",
+     "prompt": "Слова курса. Послушай. Что значит «Fläche»?",
+     "answer": "площадь",
+     "distractors": [
+      "этаж",
+      "парковка"
+     ],
+     "src": "Linie 1, стр. 142 (Fläche)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Mein Haus (свой дом): ищем жильё по объявлению — считаем аренду",
+   "npc": "Ahmad — одногруппник (на «ты»)"
+  },
+  "covers": [
+   "L1-08-S4",
+   "L1-08-AUSSPR",
+   "L1-08-MEDIAT"
+  ],
+  "covers_note": {
+   "L1-08-S4": "Wir suchen eine Wohnung: объявление (сцена d4, части 3–6); Wohnungsanzeigen и große Zahlen: Miete, Nebenkosten, vierhundert, vierhundertfünfzig; Etage, Fläche, Parkplatz, WG — «Слова курса» с заданием",
+   "L1-08-AUSSPR": "Pausen in Zahlwörtern: число читается как одно слово (VIERhundert), пауза — перед Euro (часть 7)",
+   "L1-08-MEDIAT": "Zahlwörter, einen Text in eigenen Worten wiedergeben: объясни новичку суммы объявления своими словами (часть 9)"
+  },
+  "goal": "После урока сможешь: прочитать объявление о квартире, спросить «сколько аренда?» (Wie hoch ist die Miete?), назвать большие суммы (vierhundert, vierhundertfünfzig Euro) и сказать, что есть в квартире: Die Wohnung hat einen Balkon.",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Ахмад нашёл объявление о квартире и показывает тебе.",
+      "Цель: понять аренду и расходы, назвать сумму."
+     ],
+     "voice_ru": "Вы с Ахмадом решили искать жильё вместе. Он нашёл объявление: аренда, расходы, балкон, подвал. Нужно спросить цену и сложить суммы.",
+     "hook": "Загадка урока: аренда vierhundert Euro, расходы fünfzig Euro. Как сказать сумму одним словом — и сколько это?",
+     "anime_motif": "исекай: герои считают деньги на первый дом — гильдия просит плату за землю (без цитат)",
+     "npc": "Ahmad — одногруппник",
+     "more": "Ахмад прочитает объявление: сколько аренда, сколько расходы, что есть в квартире. Ты спросишь цену и решишь, когда прийти.",
+     "goal": "После урока сможешь: прочитать объявление о квартире, спросить «сколько аренда?» (Wie hoch ist die Miete?), назвать большие суммы (vierhundert, vierhundertfünfzig Euro) и сказать, что есть в квартире: Die Wohnung hat einen Balkon."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch08_019",
+      "ch08_020",
+      "ch08_023"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Ахмад хочет жить вместе. Что ты скажешь?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch08_019",
+      "ch08_020",
+      "ch08_023"
+     ],
+     "type": "retrieval: вопрос, не перечитывание"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch08_027",
+      "ch08_028",
+      "ch08_029",
+      "ch08_030",
+      "ch08_031"
+     ],
+     "words": [
+      "Hier ist eine Anzeige.",
+      "Wie hoch ist die Miete?",
+      "Die Miete ist vierhundert Euro.",
+      "Nebenkosten sind noch fünfzig Euro.",
+      "Das sind zusammen vierhundertfünfzig Euro."
+     ],
+     "words_ru": {
+      "Hier ist eine Anzeige.": "Вот объявление.",
+      "Wie hoch ist die Miete?": "Сколько составляет аренда?",
+      "Die Miete ist vierhundert Euro.": "Аренда — четыреста евро.",
+      "Nebenkosten sind noch fünfzig Euro.": "Дополнительные расходы — ещё пятьдесят евро.",
+      "Das sind zusammen vierhundertfünfzig Euro.": "Вместе это четыреста пятьдесят евро."
+     },
+     "trap": "vierhundertfünfzig — не набор слов: это одно слово-число, собранное слева направо: 4 сотни и 50.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch08_L4_words_1",
+      "ch08_L4_words_2",
+      "ch08_L4_words_3",
+      "ch08_L4_words_4",
+      "ch08_L4_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch08_d4",
+     "line_ids": [
+      "ch08_d4_01",
+      "ch08_d4_02",
+      "ch08_d4_03",
+      "ch08_d4_04",
+      "ch08_d4_05",
+      "ch08_d4_06",
+      "ch08_d4_07",
+      "ch08_d4_08"
+     ],
+     "halves": [
+      [
+       "ch08_d4_01",
+       "ch08_d4_02",
+       "ch08_d4_03",
+       "ch08_d4_04"
+      ],
+      [
+       "ch08_d4_05",
+       "ch08_d4_06",
+       "ch08_d4_07",
+       "ch08_d4_08"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_source": "§ 551 BGB (gesetze-im-internet.de/bgb/__551.html)",
+     "life_detail": "В объявлениях пишут Kaltmiete — аренда без расходов — и Nebenkosten: это отопление, вода, вывоз мусора. Залог (Kaution) по закону — не больше трёх месячных арендных платежей без расходов (§ 551 BGB).",
+     "task_ids": [
+      "ch08_L4_listen_1",
+      "ch08_L4_listen_2",
+      "ch08_L4_listen_3",
+      "ch08_L4_listen_4",
+      "ch08_L4_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch08_029",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "Число с сотнями собирается слева направо, одним словом: vier + hundert — «четыре сотни». А vierhundertfünfzig — vier, hundert, fünfzig: четыреста пятьдесят. Сначала сотни, потом десятки.",
+     "screen": [
+      "vierhundert = vier + hundert → 400",
+      "vierhundertfünfzig = vier + hundert + fünfzig → 450"
+     ],
+     "answer_hook": "Ответ на загадку: vierhundert + fünfzig = vierhundertfünfzig, 450. Одно слово-число, слитно, слева направо: сотни, потом десятки.",
+     "second": {
+      "why_id": "ch08_030",
+      "voice_ru": "Nebenkosten — слово во множественном числе: расходов несколько, поэтому sind, а не ist. Nebenkosten — то, что платишь сверх аренды."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch08_L4_why_1",
+      "ch08_L4_why_2",
+      "ch08_L4_why_3",
+      "ch08_L4_why_4",
+      "ch08_L4_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch08_033",
+     "pieces": [
+      "einen Keller?",
+      "die Wohnung",
+      "Hat"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch08_d4_07",
+      "ch08_d4_01"
+     ],
+     "prompt": "Собери сам из знакомых кусков: в объявлении про подвал ничего не написано. Спроси Ахмада: «В квартире есть подвал?»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch08_033",
+     "transfer_task_ids": [
+      "ch08_L4_transfer_1"
+     ],
+     "task_ids": [
+      "ch08_L4_write_1",
+      "ch08_L4_write_2",
+      "ch08_L4_write_3",
+      "ch08_L4_write_4",
+      "ch08_L4_write_5",
+      "ch08_L4_read_1",
+      "ch08_L4_read_2",
+      "ch08_L4_read_3",
+      "ch08_L4_read_4",
+      "ch08_L4_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "vierhundert",
+     "ipa_sym": "ˈ (ударение)",
+     "tip_ru": "Длинное число читается как одно слово, без пауз внутри: VIERhundert, FÜNFzig. Ударение — на первой части. Пауза — перед словом Euro: vierhundert | Euro.",
+     "bridge_ru": "По-русски «четыреста пятьдесят» — три слова, и между ними дыхание. Немецкое vierhundertfünfzig — одно длинное слово: тяни без остановок, пауза только перед Euro.",
+     "phrase_id": "ch08_029",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "vierhundert",
+       "ru": "VIER-hundert: одно слово, ударение на VIER"
+      },
+      {
+       "de": "vierhundertfünfzig",
+       "ru": "VIER-hundert-fünfzig: без пауз внутри"
+      },
+      {
+       "de": "fünfzig",
+       "ru": "FÜNF-zig: ударение на FÜNF"
+      },
+      {
+       "de": "Euro",
+       "ru": "eu = «ой»: ОЙ-ро"
+      }
+     ],
+     "speak_task_ids": [
+      "ch08_L4_speak_1",
+      "ch08_L4_speak_2",
+      "ch08_L4_speak_3",
+      "ch08_L4_speak_4",
+      "ch08_L4_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Объявление о квартире",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Ahmad (на «ты»)",
+     "turns": [
+      {
+       "prompt_id": "ch08_d4_01",
+       "prompt_de": "Hier ist eine Anzeige.",
+       "prompt_audio": "audio_v1/ch08_d4_01.mp3",
+       "expected_id": "ch08_d4_02",
+       "expected_de": "Wie hoch ist die Miete?",
+       "accept": [
+        {
+         "id": "ch08_028",
+         "de": "Wie hoch ist die Miete?"
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch08_d4_03",
+       "prompt_de": "Die Miete ist vierhundert Euro.",
+       "prompt_audio": "audio_v1/ch08_d4_03.mp3",
+       "expected_id": "ch08_d4_04",
+       "expected_de": "Ist das alles?",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch08_d4_05",
+       "prompt_de": "Nebenkosten sind noch fünfzig Euro.",
+       "prompt_audio": "audio_v1/ch08_d4_05.mp3",
+       "expected_id": "ch08_d4_06",
+       "expected_de": "Sind das zusammen vierhundertfünfzig Euro?",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Спрашивай по порядку: сколько аренда? это всё? это вместе четыреста пятьдесят? ИИ ответит фразами сцены.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch08_031",
+     "task_ru": "Новичок прочитал в объявлении аренду и Nebenkosten и не понял, сколько платить в месяц. Объясни своими словами по-русски, что сказал Ахмад.",
+     "expected_ru": "Вместе это четыреста пятьдесят евро.",
+     "hint_ru": "zusammen — «вместе»; vierhundertfünfzig = 400 + 50 = 450",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1.1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch08_L4_dict_1",
+      "ch08_L4_dict_2",
+      "ch08_L4_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Числа пишутся слитно, одним словом: vierhundert, vierhundertfünfzig. Miete, Nebenkosten, Euro — с большой буквы."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch08_L4_transfer_2",
+      "ch08_L4_transfer_3",
+      "ch08_L4_transfer_4",
+      "ch08_L4_transfer_5",
+      "ch08_L4_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Вы с Ахмадом сложили аренду и расходы: 450 евро в месяц.",
+      "Совет на завтра: назови вслух цены в сотнях: vierhundert Euro, vierhundertfünfzig Euro."
+     ],
+     "npc_phrase_id": "ch08_d4_08",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: vier + hundert = 400 (число одним словом) · Miete + Nebenkosten = zusammen · Hat die Wohnung …? — есть ли в квартире …",
+     "next_hook": "Дальше: хозяин дома даёт правила. Что можно, а что нельзя: dürfen и man.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       142
+      ],
+      "phrases_ids": [
+       "ch08_034"
+      ],
+      "note": "к курсу: на стр. 142 — объявления о квартирах: этаж, площадь, парковка, WG; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch08_034",
+       "picture": "объявление: трёхкомнатная квартира, этаж, площадь, парковочное место, терраса, гараж, WG",
+       "words": [
+        {
+         "de": "die Etage",
+         "ru": "этаж"
+        },
+        {
+         "de": "die Fläche",
+         "ru": "площадь"
+        },
+        {
+         "de": "der Parkplatz",
+         "ru": "парковочное место"
+        },
+        {
+         "de": "die Terrasse",
+         "ru": "терраса"
+        },
+        {
+         "de": "die Garage",
+         "ru": "гараж"
+        },
+        {
+         "de": "die WG",
+         "ru": "квартира на несколько жильцов: у каждого своя комната (Wohngemeinschaft)"
+        },
+        {
+         "de": "die 3-Zimmerwohnung (Dreizimmerwohnung)",
+         "ru": "трёхкомнатная квартира"
+        }
+       ],
+       "note": "эти слова есть на стр. 142; нажми — услышишь. В заданиях урока их нет."
+      },
+      "tasks": [
+       {
+        "id": "ch08_L4_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch08_034",
+        "prompt": "Слова курса. Послушай. Что значит «Fläche»?",
+        "answer": "площадь",
+        "distractors": [
+         "этаж",
+         "парковка"
+        ],
+        "src": "Linie 1, стр. 142 (Fläche)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      142
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch08.py",
+  "new_words": [
+   "die Anzeige",
+   "die Miete",
+   "die Nebenkosten",
+   "wie hoch",
+   "vierhundert · vierhundertfünfzig",
+   "hat einen …"
+  ],
+  "known_before": [
+   "Wohnung · Balkon · Garten",
+   "Wir wollen …",
+   "Euro",
+   "sind",
+   "zusammen",
+   "hat",
+   "fünfzig",
+   "morgen"
+  ],
+  "transfer_phrase_ids": [
+   "ch08_t07",
+   "ch08_t08"
+  ],
+  "built_phrase_ids": [
+   "ch08_033"
+  ],
+  "quiz_ids": [
+   "ch08_L4_words_1",
+   "ch08_L4_words_2",
+   "ch08_L4_words_3",
+   "ch08_L4_words_4",
+   "ch08_L4_words_5",
+   "ch08_L4_listen_1",
+   "ch08_L4_listen_2",
+   "ch08_L4_listen_3",
+   "ch08_L4_listen_4",
+   "ch08_L4_listen_5",
+   "ch08_L4_read_1",
+   "ch08_L4_read_2",
+   "ch08_L4_read_3",
+   "ch08_L4_read_4",
+   "ch08_L4_read_5",
+   "ch08_L4_speak_1",
+   "ch08_L4_speak_2",
+   "ch08_L4_speak_3",
+   "ch08_L4_speak_4",
+   "ch08_L4_speak_5",
+   "ch08_L4_write_1",
+   "ch08_L4_write_2",
+   "ch08_L4_write_3",
+   "ch08_L4_write_4",
+   "ch08_L4_write_5",
+   "ch08_L4_why_1",
+   "ch08_L4_why_2",
+   "ch08_L4_why_3",
+   "ch08_L4_why_4",
+   "ch08_L4_why_5",
+   "ch08_L4_transfer_1",
+   "ch08_L4_transfer_2",
+   "ch08_L4_transfer_3",
+   "ch08_L4_transfer_4",
+   "ch08_L4_transfer_5",
+   "ch08_L4_boss_1"
+  ],
+  "dictation_ids": [
+   "ch08_L4_dict_1",
+   "ch08_L4_dict_2",
+   "ch08_L4_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Ахмад нашёл объявление о квартире и показывает тебе. Цель: понять аренду и расходы, назвать сумму. Загадка урока: аренда vierhundert Euro, расходы fünfzig Euro. Как сказать сумму одним словом — и сколько это?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Объявление о квартире",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой читает объявление вместе с Ахмадом (ИИ — Ahmad)",
+   "situation": "wohnungsanzeige",
+   "ai_plays": "Ahmad (на «ты»)",
+   "phrases": [
+    "ch08_d4_02",
+    "ch08_028",
+    "ch08_d4_04",
+    "ch08_d4_06"
+   ]
+  },
+  "outro": "Вы с Ахмадом сложили аренду и расходы: 450 евро в месяц. Совет на завтра: назови вслух цены в сотнях: vierhundert Euro, vierhundertfünfzig Euro. Дальше: хозяин дома даёт правила. Что можно, а что нельзя: dürfen и man.",
+  "detail_de_life": "В объявлениях пишут Kaltmiete — аренда без расходов — и Nebenkosten: это отопление, вода, вывоз мусора. Залог (Kaution) по закону — не больше трёх месячных арендных платежей без расходов (§ 551 BGB).",
+  "detail_de_life_source": "§ 551 BGB (gesetze-im-internet.de/bgb/__551.html)",
+  "task_ids": {
+   "words": [
+    "ch08_L4_words_1",
+    "ch08_L4_words_2",
+    "ch08_L4_words_3",
+    "ch08_L4_words_4",
+    "ch08_L4_words_5"
+   ],
+   "listen": [
+    "ch08_L4_listen_1",
+    "ch08_L4_listen_2",
+    "ch08_L4_listen_3",
+    "ch08_L4_listen_4",
+    "ch08_L4_listen_5"
+   ],
+   "read": [
+    "ch08_L4_read_1",
+    "ch08_L4_read_2",
+    "ch08_L4_read_3",
+    "ch08_L4_read_4",
+    "ch08_L4_read_5"
+   ],
+   "speak": [
+    "ch08_L4_speak_1",
+    "ch08_L4_speak_2",
+    "ch08_L4_speak_3",
+    "ch08_L4_speak_4",
+    "ch08_L4_speak_5"
+   ],
+   "write": [
+    "ch08_L4_write_1",
+    "ch08_L4_write_2",
+    "ch08_L4_write_3",
+    "ch08_L4_write_4",
+    "ch08_L4_write_5"
+   ],
+   "why": [
+    "ch08_L4_why_1",
+    "ch08_L4_why_2",
+    "ch08_L4_why_3",
+    "ch08_L4_why_4",
+    "ch08_L4_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch08_L4_transfer_1",
+   "ch08_L4_transfer_2",
+   "ch08_L4_transfer_3",
+   "ch08_L4_transfer_4",
+   "ch08_L4_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch08_019",
+   "ch08_020",
+   "ch08_023"
+  ],
+  "dialog_ids": [
+   "ch08_d4"
+  ],
+  "video": "video/ch08_L4.mp4"
+ },
+ {
+  "id": "ch08_L5",
+  "title": "Правила дома: dürfen и man",
+  "pages_linie1": {
+   "pages": [
+    143,
+    144
+   ],
+   "sections": [
+    "5 Davi fragt im Forum Wohnen",
+    "Regeln und Verbote",
+    "6 Wohnen in Deutschland"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch08_035",
+   "ch08_036",
+   "ch08_037",
+   "ch08_038"
+  ],
+  "why_ids": [
+   "ch08_035",
+   "ch08_036"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch08_d5",
+    "line_ids": [
+     "ch08_d5_01",
+     "ch08_d5_02",
+     "ch08_d5_03",
+     "ch08_d5_04",
+     "ch08_d5_05",
+     "ch08_d5_06",
+     "ch08_d5_07",
+     "ch08_d5_08"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Вспомни объявление: сколько аренда?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch08_d5",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch08_d5_01",
+        "ch08_d5_03",
+        "ch08_d5_05",
+        "ch08_d5_07"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch08_d5",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "ü и a: послушай dürfen, Küche — darf, man и повтори парами",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch08_035",
+        "ch08_036",
+        "ch08_037",
+        "ch08_038"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "ü и a: послушай dürfen, Küche — darf, man и повтори парами — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "мост: по-русски «можно» и «нельзя» — два слова; по-немецки один dürfen: darf и darf nicht. man — как русское «вечером нельзя шуметь» без «кто»",
+   "как слышу, так и пишу": "звук дня: ü в dürfen — губы трубочкой; man — с маленькой и одной n (не der Mann)",
+   "учебник непонятен": "из Linie 1 — только темы и страницы 143–144; подача своя",
+   "село, живой немецкий — Netto": "правила в доме хозяйки; дети во дворе — реальный закон о детском шуме",
+   "любит аниме": "завязка — свод правил гильдии в новом мире; отрезки аниме — позже",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин (все 12 + 24 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Darf man im Hof spielen?; перенос — Darf ich hier Musik hören?, Wir dürfen am Abend nicht laut sein.",
+   "улучшать идеи автора": "идея автора «свой дом» (WISHES п. 38): в доме появляется то, о чём урок"
+  },
+  "kurs": {
+   "pages": [
+    143,
+    144
+   ],
+   "phrases_ids": [
+    "ch08_040"
+   ],
+   "note": "к курсу: на стр. 143 — форум о правилах дома (жильцы, хозяин, соседи, вечеринки), на стр. 144 — как живут в Германии; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch08_040",
+    "picture": "дом: жильцы и хозяин у входа, соседи в коридоре подъезда, детская площадка во дворе",
+    "words": [
+     {
+      "de": "der Mieter",
+      "ru": "жилец (снимает квартиру)"
+     },
+     {
+      "de": "der Vermieter",
+      "ru": "хозяин квартиры (сдаёт её)"
+     },
+     {
+      "de": "der Nachbar (мн. ч. die Nachbarn)",
+      "ru": "сосед"
+     },
+     {
+      "de": "der Spielplatz",
+      "ru": "детская площадка"
+     },
+     {
+      "de": "der Hausflur",
+      "ru": "коридор в подъезде"
+     },
+     {
+      "de": "die Wohngemeinschaft",
+      "ru": "квартира на несколько жильцов"
+     }
+    ],
+    "note": "эти слова есть на стр. 143–144; нажми — услышишь. В заданиях урока их нет."
+   },
+   "tasks": [
+    {
+     "id": "ch08_L5_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch08_040",
+     "prompt": "Слова курса. Послушай. Что значит «Vermieter»?",
+     "answer": "хозяин квартиры",
+     "distractors": [
+      "жилец",
+      "сосед"
+     ],
+     "src": "Linie 1, стр. 143 (Vermieter)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Mein Haus (свой дом): правила дома — в доме появляется доска с правилами",
+   "npc": "Frau Wagner — хозяйка дома (на «вы»)"
+  },
+  "covers": [
+   "L1-08-S5",
+   "L1-08-G2",
+   "B10.7"
+  ],
+  "covers_partial": [
+   "L1-08-S6",
+   "L1-08-G3",
+   "B09.4"
+  ],
+  "covers_note": {
+   "L1-08-S5": "Regeln und Verbote: можно / нельзя в доме — музыка, вечер, животные, двор (сцена d5, части 3–6); Mieter, Vermieter, Nachbarn, Hausflur — «Слова курса» с заданием",
+   "L1-08-G2": "dürfen: ich darf, man darf, wir / Sie / die Kinder dürfen; wollen — урок 3 (часть 5, задания «почему»)",
+   "B09.4": "dürfen — «можно, разрешено»; darf nicht — «нельзя» (часть 5)",
+   "B10.7": "man — «люди вообще», форма как с er: man darf (часть 5, why_1)",
+   "L1-08-S6": "Wohnen in Deutschland: правила дома, двор и детская площадка, Wohngemeinschaft (слова курса); life_detail — § 22 Abs. 1a BImSchG",
+   "L1-08-G3": "рамка с dürfen: darf … hören, darf … sein (урок 3 — wollen)"
+  },
+  "goal": "После урока сможешь: спросить, что можно в доме (Darf man hier laut Musik hören?), сказать, что нельзя (Am Abend darf man nicht laut sein.), и понять ответ хозяйки дома.",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Ты живёшь в доме у Frau Wagner. Что здесь можно, а что нельзя?",
+      "Цель: спросить о правилах и понять ответ."
+     ],
+     "voice_ru": "В каждом немецком доме есть правила. Ты хочешь слушать музыку, завести животное, а у соседей дети играют во дворе. Спроси хозяйку дома, что можно.",
+     "hook": "Загадка урока: по-русски «можно» и «нельзя» — два разных слова. А немцу хватает одного глагола. Какого?",
+     "anime_motif": "исекай: в новом мире у гильдии свой свод правил — герой узнаёт, что разрешено (без цитат)",
+     "npc": "Frau Wagner — хозяйка дома",
+     "more": "Ты спросишь про музыку, животное и двор. В учебнике на стр. 143 жильцы спрашивают о правилах на форуме.",
+     "goal": "После урока сможешь: спросить, что можно в доме (Darf man hier laut Musik hören?), сказать, что нельзя (Am Abend darf man nicht laut sein.), и понять ответ хозяйки дома."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch08_028",
+      "ch08_029",
+      "ch08_030"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Вспомни объявление: сколько аренда?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch08_028",
+      "ch08_029",
+      "ch08_030"
+     ],
+     "type": "retrieval: вопрос, не перечитывание"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch08_035",
+      "ch08_036",
+      "ch08_037",
+      "ch08_038"
+     ],
+     "words": [
+      "Darf man hier laut Musik hören?",
+      "Am Abend darf man nicht laut sein.",
+      "Im Hof dürfen die Kinder spielen.",
+      "Darf ich ein Haustier haben?"
+     ],
+     "words_ru": {
+      "Darf man hier laut Musik hören?": "Здесь можно громко слушать музыку?",
+      "Am Abend darf man nicht laut sein.": "Вечером нельзя шуметь.",
+      "Im Hof dürfen die Kinder spielen.": "Во дворе детям можно играть.",
+      "Darf ich ein Haustier haben?": "Можно мне держать домашнее животное?"
+     },
+     "trap": "man — не «мужчина» (der Mann): man — «люди вообще», пишется с маленькой и одной n.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch08_L5_words_1",
+      "ch08_L5_words_2",
+      "ch08_L5_words_3",
+      "ch08_L5_words_4",
+      "ch08_L5_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch08_d5",
+     "line_ids": [
+      "ch08_d5_01",
+      "ch08_d5_02",
+      "ch08_d5_03",
+      "ch08_d5_04",
+      "ch08_d5_05",
+      "ch08_d5_06",
+      "ch08_d5_07",
+      "ch08_d5_08"
+     ],
+     "halves": [
+      [
+       "ch08_d5_01",
+       "ch08_d5_02",
+       "ch08_d5_03",
+       "ch08_d5_04"
+      ],
+      [
+       "ch08_d5_05",
+       "ch08_d5_06",
+       "ch08_d5_07",
+       "ch08_d5_08"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_source": "§ 22 Abs. 1a BImSchG (gesetze-im-internet.de/bimschg/__22.html)",
+     "life_detail": "Шум детей на детских площадках по закону, как правило, не считается вредным шумом (§ 22 Abs. 1a BImSchG). Поэтому на играющих детей жаловаться почти бесполезно.",
+     "task_ids": [
+      "ch08_L5_listen_1",
+      "ch08_L5_listen_2",
+      "ch08_L5_listen_3",
+      "ch08_L5_listen_4",
+      "ch08_L5_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch08_035",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "dürfen — «можно». Он меняется: ich darf, man darf, wir dürfen. Второе действие — в конце: Darf man hier laut Musik hören?",
+     "screen": [
+      "Darf · man · hier · laut · Musik · hören?",
+      "darf — впереди (вопрос) · hören — в конце (рамка)"
+     ],
+     "answer_hook": "Ответ на загадку: «можно» — darf, «нельзя» — darf nicht. Один глагол dürfen и маленькое nicht.",
+     "second": {
+      "why_id": "ch08_036",
+      "voice_ru": "Нельзя — это darf nicht: Am Abend darf man nicht laut sein. man — «люди вообще», по-русски так говорят без «кто»: «вечером нельзя шуметь»."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch08_L5_why_1",
+      "ch08_L5_why_2",
+      "ch08_L5_why_3",
+      "ch08_L5_why_4",
+      "ch08_L5_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch08_039",
+     "pieces": [
+      "spielen?",
+      "Hof",
+      "im",
+      "man",
+      "Darf"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch08_d5_01",
+      "ch08_d5_06"
+     ],
+     "prompt": "Собери сам из знакомых кусков: ты видишь двор, но детей там нет. Спроси хозяйку: «Во дворе можно играть?»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch08_039",
+     "transfer_task_ids": [
+      "ch08_L5_transfer_1"
+     ],
+     "task_ids": [
+      "ch08_L5_write_1",
+      "ch08_L5_write_2",
+      "ch08_L5_write_3",
+      "ch08_L5_write_4",
+      "ch08_L5_write_5",
+      "ch08_L5_read_1",
+      "ch08_L5_read_2",
+      "ch08_L5_read_3",
+      "ch08_L5_read_4",
+      "ch08_L5_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "dürfen",
+     "ipa_sym": "ʏ · a",
+     "tip_ru": "ü — губы трубочкой, как для «у», а говоришь «и»: dürfen «ДЮРфен». В darf — простое «а»: «дарф». Одно слово, два звука: ü в dürfen, a в darf.",
+     "bridge_ru": "В русском ü нет: ближе всего «ю» в слове «тюль». Губы вперёд — и звук готов.",
+     "phrase_id": "ch08_037",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "dürfen",
+       "ru": "ü — губы трубочкой"
+      },
+      {
+       "de": "Küche",
+       "ru": "ü — губы трубочкой"
+      },
+      {
+       "de": "darf",
+       "ru": "a — простое «а»"
+      },
+      {
+       "de": "man",
+       "ru": "a — простое «а»"
+      }
+     ],
+     "speak_task_ids": [
+      "ch08_L5_speak_1",
+      "ch08_L5_speak_2",
+      "ch08_L5_speak_3",
+      "ch08_L5_speak_4",
+      "ch08_L5_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Правила дома",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Frau Wagner (на «вы»)",
+     "turns": [
+      {
+       "prompt_id": "ch08_d5_02",
+       "prompt_de": "Ja. Am Abend darf man nicht laut sein.",
+       "prompt_audio": "audio_v1/ch08_d5_02.mp3",
+       "expected_id": "ch08_d5_03",
+       "expected_de": "Und darf ich ein Haustier haben?",
+       "accept": [
+        {
+         "id": "ch08_038",
+         "de": "Darf ich ein Haustier haben?"
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch08_d5_04",
+       "prompt_de": "Ja, Sie dürfen ein Haustier haben.",
+       "prompt_audio": "audio_v1/ch08_d5_04.mp3",
+       "expected_id": "ch08_d5_05",
+       "expected_de": "Wo dürfen die Kinder spielen?",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch08_d5_06",
+       "prompt_de": "Im Hof dürfen die Kinder spielen.",
+       "prompt_audio": "audio_v1/ch08_d5_06.mp3",
+       "expected_id": "ch08_d5_07",
+       "expected_de": "Gut, danke!",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Спрашивай по порядку: можно животное? где играть детям? поблагодари. ИИ ответит фразами сцены.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch08_d5_02",
+     "task_ru": "Новичок в доме хочет вечером устроить музыку. Объясни ему по-русски, что сказала хозяйка.",
+     "expected_ru": "Да. Вечером нельзя шуметь.",
+     "hint_ru": "am Abend — «вечером»; darf nicht — «нельзя»; laut sein — «шуметь»",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1.1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch08_L5_dict_1",
+      "ch08_L5_dict_2",
+      "ch08_L5_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "dürfen — с ü, darf — с a. man «люди» — с маленькой и одной n. Hof, Kinder, Musik — с большой буквы."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch08_L5_transfer_2",
+      "ch08_L5_transfer_3",
+      "ch08_L5_transfer_4",
+      "ch08_L5_transfer_5",
+      "ch08_L5_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Frau Wagner рассказала правила: в твоём доме появилась доска с правилами.",
+      "Совет на завтра: скажи вслух три правила своего дома: Am Abend darf man nicht laut sein."
+     ],
+     "npc_phrase_id": "ch08_d5_08",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: ich darf · man darf · wir dürfen — «можно»; darf nicht — «нельзя»; второе действие — в конце.",
+     "next_hook": "Дальше: у вас с Ахмадом новая квартира — и у каждого есть квартира мечты.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       143,
+       144
+      ],
+      "phrases_ids": [
+       "ch08_040"
+      ],
+      "note": "к курсу: на стр. 143 — форум о правилах дома (жильцы, хозяин, соседи, вечеринки), на стр. 144 — как живут в Германии; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch08_040",
+       "picture": "дом: жильцы и хозяин у входа, соседи в коридоре подъезда, детская площадка во дворе",
+       "words": [
+        {
+         "de": "der Mieter",
+         "ru": "жилец (снимает квартиру)"
+        },
+        {
+         "de": "der Vermieter",
+         "ru": "хозяин квартиры (сдаёт её)"
+        },
+        {
+         "de": "der Nachbar (мн. ч. die Nachbarn)",
+         "ru": "сосед"
+        },
+        {
+         "de": "der Spielplatz",
+         "ru": "детская площадка"
+        },
+        {
+         "de": "der Hausflur",
+         "ru": "коридор в подъезде"
+        },
+        {
+         "de": "die Wohngemeinschaft",
+         "ru": "квартира на несколько жильцов"
+        }
+       ],
+       "note": "эти слова есть на стр. 143–144; нажми — услышишь. В заданиях урока их нет."
+      },
+      "tasks": [
+       {
+        "id": "ch08_L5_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch08_040",
+        "prompt": "Слова курса. Послушай. Что значит «Vermieter»?",
+        "answer": "хозяин квартиры",
+        "distractors": [
+         "жилец",
+         "сосед"
+        ],
+        "src": "Linie 1, стр. 143 (Vermieter)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      143,
+      144
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch08.py",
+  "new_words": [
+   "darf · dürfen",
+   "man",
+   "laut",
+   "die Musik",
+   "hören",
+   "am Abend",
+   "der Hof",
+   "die Kinder",
+   "spielen",
+   "das Haustier"
+  ],
+  "known_before": [
+   "Frau Wagner",
+   "hier",
+   "ich · wir · Sie",
+   "nicht",
+   "haben",
+   "sein",
+   "wo",
+   "Ja · Gut · Danke · Bitte",
+   "Auf Wiedersehen!"
+  ],
+  "transfer_phrase_ids": [
+   "ch08_t09",
+   "ch08_t10"
+  ],
+  "built_phrase_ids": [
+   "ch08_039"
+  ],
+  "quiz_ids": [
+   "ch08_L5_words_1",
+   "ch08_L5_words_2",
+   "ch08_L5_words_3",
+   "ch08_L5_words_4",
+   "ch08_L5_words_5",
+   "ch08_L5_listen_1",
+   "ch08_L5_listen_2",
+   "ch08_L5_listen_3",
+   "ch08_L5_listen_4",
+   "ch08_L5_listen_5",
+   "ch08_L5_read_1",
+   "ch08_L5_read_2",
+   "ch08_L5_read_3",
+   "ch08_L5_read_4",
+   "ch08_L5_read_5",
+   "ch08_L5_speak_1",
+   "ch08_L5_speak_2",
+   "ch08_L5_speak_3",
+   "ch08_L5_speak_4",
+   "ch08_L5_speak_5",
+   "ch08_L5_write_1",
+   "ch08_L5_write_2",
+   "ch08_L5_write_3",
+   "ch08_L5_write_4",
+   "ch08_L5_write_5",
+   "ch08_L5_why_1",
+   "ch08_L5_why_2",
+   "ch08_L5_why_3",
+   "ch08_L5_why_4",
+   "ch08_L5_why_5",
+   "ch08_L5_transfer_1",
+   "ch08_L5_transfer_2",
+   "ch08_L5_transfer_3",
+   "ch08_L5_transfer_4",
+   "ch08_L5_transfer_5",
+   "ch08_L5_boss_1"
+  ],
+  "dictation_ids": [
+   "ch08_L5_dict_1",
+   "ch08_L5_dict_2",
+   "ch08_L5_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Ты живёшь в доме у Frau Wagner. Что здесь можно, а что нельзя? Цель: спросить о правилах и понять ответ. Загадка урока: по-русски «можно» и «нельзя» — два разных слова. А немцу хватает одного глагола. Какого?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Правила дома",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой спрашивает правила дома (ИИ — Frau Wagner)",
+   "situation": "hausordnung",
+   "ai_plays": "Frau Wagner (на «вы»)",
+   "phrases": [
+    "ch08_d5_03",
+    "ch08_038",
+    "ch08_d5_05",
+    "ch08_d5_07"
+   ]
+  },
+  "outro": "Frau Wagner рассказала правила: в твоём доме появилась доска с правилами. Совет на завтра: скажи вслух три правила своего дома: Am Abend darf man nicht laut sein. Дальше: у вас с Ахмадом новая квартира — и у каждого есть квартира мечты.",
+  "detail_de_life": "Шум детей на детских площадках по закону, как правило, не считается вредным шумом (§ 22 Abs. 1a BImSchG). Поэтому на играющих детей жаловаться почти бесполезно.",
+  "detail_de_life_source": "§ 22 Abs. 1a BImSchG (gesetze-im-internet.de/bimschg/__22.html)",
+  "task_ids": {
+   "words": [
+    "ch08_L5_words_1",
+    "ch08_L5_words_2",
+    "ch08_L5_words_3",
+    "ch08_L5_words_4",
+    "ch08_L5_words_5"
+   ],
+   "listen": [
+    "ch08_L5_listen_1",
+    "ch08_L5_listen_2",
+    "ch08_L5_listen_3",
+    "ch08_L5_listen_4",
+    "ch08_L5_listen_5"
+   ],
+   "read": [
+    "ch08_L5_read_1",
+    "ch08_L5_read_2",
+    "ch08_L5_read_3",
+    "ch08_L5_read_4",
+    "ch08_L5_read_5"
+   ],
+   "speak": [
+    "ch08_L5_speak_1",
+    "ch08_L5_speak_2",
+    "ch08_L5_speak_3",
+    "ch08_L5_speak_4",
+    "ch08_L5_speak_5"
+   ],
+   "write": [
+    "ch08_L5_write_1",
+    "ch08_L5_write_2",
+    "ch08_L5_write_3",
+    "ch08_L5_write_4",
+    "ch08_L5_write_5"
+   ],
+   "why": [
+    "ch08_L5_why_1",
+    "ch08_L5_why_2",
+    "ch08_L5_why_3",
+    "ch08_L5_why_4",
+    "ch08_L5_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch08_L5_transfer_1",
+   "ch08_L5_transfer_2",
+   "ch08_L5_transfer_3",
+   "ch08_L5_transfer_4",
+   "ch08_L5_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch08_028",
+   "ch08_029",
+   "ch08_030"
+  ],
+  "dialog_ids": [
+   "ch08_d5"
+  ],
+  "video": "video/ch08_L5.mp4"
+ },
+ {
+  "id": "ch08_L6",
+  "title": "Новая квартира и квартира мечты",
+  "pages_linie1": {
+   "pages": [
+    145,
+    153
+   ],
+   "sections": [
+    "7 Wir haben eine neue Wohnung",
+    "Traumwohnung",
+    "Mein Deutsch nach Kapitel 8"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch08_041",
+   "ch08_042",
+   "ch08_043",
+   "ch08_044"
+  ],
+  "why_ids": [
+   "ch08_041",
+   "ch08_042"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch08_d6",
+    "line_ids": [
+     "ch08_d6_01",
+     "ch08_d6_02",
+     "ch08_d6_03",
+     "ch08_d6_04",
+     "ch08_d6_05",
+     "ch08_d6_06",
+     "ch08_d6_07",
+     "ch08_d6_08"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Вспомни правила дома: что можно, что нельзя?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch08_d6",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch08_d6_01",
+        "ch08_d6_03",
+        "ch08_d6_06",
+        "ch08_d6_08"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch08_d6",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "au = «ау»: послушай Haus, auch, Frau, Traumwohnung и повтори парами",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch08_041",
+        "ch08_042",
+        "ch08_043",
+        "ch08_044"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "au = «ау»: послушай Haus, auch, Frau, Traumwohnung и повтори парами — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "мост: «у нас есть» — немец говорит «мы имеем»: wir haben; «у квартиры есть» — die Wohnung hat",
+   "как слышу, так и пишу": "звук дня: au = «ау» одним слогом; Traumwohnung — одним словом",
+   "учебник непонятен": "из Linie 1 — только темы и страницы 145, 153; подача своя",
+   "село, живой немецкий — Netto": "рядом с домом — супермаркет и школа; после переезда — Anmeldung за 2 недели (§ 17 BMG)",
+   "любит аниме": "завязка — финал арки: дом построен, впереди мечта; отрезки аниме — позже",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин (все 12 + 24 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Hat die Traumwohnung einen Pool?; перенос — Meine Traumwohnung hat einen Balkon., Es gibt eine Schule und einen Garten.",
+   "улучшать идеи автора": "идея автора «свой дом» (WISHES п. 38): в доме появляется то, о чём урок"
+  },
+  "kurs": {
+   "pages": [
+    145
+   ],
+   "phrases_ids": [
+    "ch08_046"
+   ],
+   "note": "к курсу: на стр. 145 — письмо о новой квартире и квартира мечты: адрес, метро, место, культура рядом; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch08_046",
+    "picture": "письмо о новой квартире: адрес на конверте, станция метро, площадь, театр рядом",
+    "words": [
+     {
+      "de": "die Adresse",
+      "ru": "адрес"
+     },
+     {
+      "de": "die U-Bahn",
+      "ru": "метро"
+     },
+     {
+      "de": "der Platz",
+      "ru": "место; площадь"
+     },
+     {
+      "de": "die Kultur",
+      "ru": "культура"
+     }
+    ],
+    "note": "эти слова есть на стр. 145; нажми — услышишь. В заданиях урока их нет."
+   },
+   "tasks": [
+    {
+     "id": "ch08_L6_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch08_046",
+     "prompt": "Слова курса. Послушай. Что значит «U-Bahn»?",
+     "answer": "метро",
+     "distractors": [
+      "адрес",
+      "площадь"
+     ],
+     "src": "Linie 1, стр. 145 (U-Bahn)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Mein Haus (свой дом): новая квартира готова — дом главы построен",
+   "npc": "Anna — соседка (на «ты»)"
+  },
+  "covers": [
+   "L1-08-S7",
+   "L1-08-REVIEW"
+  ],
+  "covers_partial": [
+   "L1-08-S6"
+  ],
+  "covers_note": {
+   "L1-08-S7": "Wir haben eine neue Wohnung; Traumwohnung: сцена d6 и части 3–6; Adresse, U-Bahn, Platz, Kultur — «Слова курса» с заданием",
+   "L1-08-REVIEW": "Mein Deutsch nach Kapitel 8: повтор главы — es gibt + einen/eine (урок 1), hat einen (урок 4), will + что хочу (урок 3), neu (урок 2); разминка части 2 — правила дома (урок 5)",
+   "L1-08-S6": "Wohnen in Deutschland: что есть рядом с домом — Supermarkt, Schule; life_detail — Ummeldung (§ 17 Abs. 1 BMG)"
+  },
+  "goal": "После урока сможешь: рассказать о новой квартире (Wir haben eine neue Wohnung!), сказать, что есть (Es gibt einen Supermarkt und eine Schule.), и описать квартиру мечты: Meine Traumwohnung hat einen Garten.",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Вы с Ахмадом нашли квартиру! Анна хочет всё узнать.",
+      "Цель: рассказать о новой квартире и о квартире мечты."
+     ],
+     "voice_ru": "Квартира найдена. Анна встречает тебя у дома и спрашивает: что в ней есть, что рядом? А у Анны есть своя квартира мечты.",
+     "hook": "Загадка урока: «у нас новая квартира» — по-русски «у нас … есть». Какой глагол возьмёт немец — и где у него «у нас»?",
+     "anime_motif": "исекай: дом героя построен — финал первой арки, впереди мечта о большом доме с садом (без цитат)",
+     "npc": "Anna — соседка",
+     "more": "Ты расскажешь, что есть в квартире и рядом. Анна расскажет о квартире мечты. В учебнике на стр. 145 — письмо о новой квартире, на стр. 153 — итог главы.",
+     "goal": "После урока сможешь: рассказать о новой квартире (Wir haben eine neue Wohnung!), сказать, что есть (Es gibt einen Supermarkt und eine Schule.), и описать квартиру мечты: Meine Traumwohnung hat einen Garten."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch08_035",
+      "ch08_036",
+      "ch08_038"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Вспомни правила дома: что можно, что нельзя?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch08_035",
+      "ch08_036",
+      "ch08_038"
+     ],
+     "type": "retrieval: вопрос, не перечитывание"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch08_041",
+      "ch08_042",
+      "ch08_043",
+      "ch08_044"
+     ],
+     "words": [
+      "Wir haben eine neue Wohnung!",
+      "Meine Traumwohnung hat einen Garten.",
+      "Es gibt einen Supermarkt und eine Schule.",
+      "Ich will eine Wohnung mit Pool."
+     ],
+     "words_ru": {
+      "Wir haben eine neue Wohnung!": "У нас новая квартира!",
+      "Meine Traumwohnung hat einen Garten.": "В квартире моей мечты есть сад.",
+      "Es gibt einen Supermarkt und eine Schule.": "Есть супермаркет и школа.",
+      "Ich will eine Wohnung mit Pool.": "Я хочу квартиру с бассейном."
+     },
+     "trap": "Traumwohnung — одно слово: «мечта» + Wohnung. Род — по последней части: die Wohnung → die Traumwohnung.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch08_L6_words_1",
+      "ch08_L6_words_2",
+      "ch08_L6_words_3",
+      "ch08_L6_words_4",
+      "ch08_L6_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch08_d6",
+     "line_ids": [
+      "ch08_d6_01",
+      "ch08_d6_02",
+      "ch08_d6_03",
+      "ch08_d6_04",
+      "ch08_d6_05",
+      "ch08_d6_06",
+      "ch08_d6_07",
+      "ch08_d6_08"
+     ],
+     "halves": [
+      [
+       "ch08_d6_01",
+       "ch08_d6_02",
+       "ch08_d6_03",
+       "ch08_d6_04"
+      ],
+      [
+       "ch08_d6_05",
+       "ch08_d6_06",
+       "ch08_d6_07",
+       "ch08_d6_08"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_source": "§ 17 Abs. 1 BMG (gesetze-im-internet.de/bmg/__17.html)",
+     "life_detail": "Переехал — зарегистрируйся по новому адресу (Anmeldung) в течение двух недель после въезда (§ 17 Abs. 1 BMG). Хозяин квартиры даёт для этого бумагу о въезде — Wohnungsgeberbestätigung (§ 19 BMG).",
+     "task_ids": [
+      "ch08_L6_listen_1",
+      "ch08_L6_listen_2",
+      "ch08_L6_listen_3",
+      "ch08_L6_listen_4",
+      "ch08_L6_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch08_041",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "По-русски «у нас есть квартира». Немец говорит «мы имеем»: Wir haben eine neue Wohnung. «У нас» — это wir, а «есть» — haben.",
+     "screen": [
+      "Wir · haben · eine neue Wohnung.",
+      "у нас есть = wir haben · у квартиры есть = die Wohnung hat"
+     ],
+     "answer_hook": "Ответ на загадку: глагол haben — «иметь». «У нас» — это wir: Wir haben eine neue Wohnung.",
+     "second": {
+      "why_id": "ch08_042",
+      "voice_ru": "Так же про квартиру: Meine Traumwohnung hat einen Garten — «у квартиры есть сад». Garten — der-слово: после hat — einen, как после es gibt."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch08_L6_why_1",
+      "ch08_L6_why_2",
+      "ch08_L6_why_3",
+      "ch08_L6_why_4",
+      "ch08_L6_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch08_045",
+     "pieces": [
+      "Pool?",
+      "einen",
+      "Traumwohnung",
+      "die",
+      "Hat"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch08_d6_04",
+      "ch08_044"
+     ],
+     "prompt": "Собери сам из знакомых кусков: Анна рассказала про сад. Спроси: «В квартире мечты есть бассейн?»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch08_045",
+     "transfer_task_ids": [
+      "ch08_L6_transfer_1"
+     ],
+     "task_ids": [
+      "ch08_L6_write_1",
+      "ch08_L6_write_2",
+      "ch08_L6_write_3",
+      "ch08_L6_write_4",
+      "ch08_L6_write_5",
+      "ch08_L6_read_1",
+      "ch08_L6_read_2",
+      "ch08_L6_read_3",
+      "ch08_L6_read_4",
+      "ch08_L6_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "Haus",
+     "ipa_sym": "aʊ̯",
+     "tip_ru": "au — это «ау», один слог: Haus «хаус», auch «аух», Frau «фрау», Traumwohnung «ТРАУМвонунг».",
+     "bridge_ru": "По-русски «ау» — два звука в разных слогах (па-у-ки). В немецком au — один слог, гласные сливаются.",
+     "phrase_id": "ch08_042",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "Haus",
+       "ru": "au = «ау»"
+      },
+      {
+       "de": "auch",
+       "ru": "au = «ау»"
+      },
+      {
+       "de": "Frau",
+       "ru": "au = «ау»"
+      },
+      {
+       "de": "Traumwohnung",
+       "ru": "au = «ау»"
+      }
+     ],
+     "speak_task_ids": [
+      "ch08_L6_speak_1",
+      "ch08_L6_speak_2",
+      "ch08_L6_speak_3",
+      "ch08_L6_speak_4",
+      "ch08_L6_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Новая квартира",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Anna (на «ты»)",
+     "turns": [
+      {
+       "prompt_id": "ch08_d6_02",
+       "prompt_de": "Gibt es auch einen Garten?",
+       "prompt_audio": "audio_v1/ch08_d6_02.mp3",
+       "expected_id": "ch08_d6_03",
+       "expected_de": "Nein, es gibt nur einen Balkon.",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch08_d6_05",
+       "prompt_de": "Gibt es auch einen Supermarkt?",
+       "prompt_audio": "audio_v1/ch08_d6_05.mp3",
+       "expected_id": "ch08_d6_06",
+       "expected_de": "Ja, es gibt einen Supermarkt und eine Schule.",
+       "accept": [
+        {
+         "id": "ch08_043",
+         "de": "Es gibt einen Supermarkt und eine Schule."
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch08_d6_07",
+       "prompt_de": "Und ich will eine Wohnung mit Pool!",
+       "prompt_audio": "audio_v1/ch08_d6_07.mp3",
+       "expected_id": "ch08_d6_08",
+       "expected_de": "Gut! Bis morgen!",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Отвечай Анне: есть ли сад? что ещё есть? попрощайся. ИИ спросит фразами сцены.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch08_d6_06",
+     "task_ru": "Ахмад не слышал разговор. Объясни ему по-русски, что ты сказал Анне.",
+     "expected_ru": "Да, есть супермаркет и школа.",
+     "hint_ru": "es gibt — «есть»; Supermarkt — «супермаркет»; Schule — «школа»",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1.1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch08_L6_dict_1",
+      "ch08_L6_dict_2",
+      "ch08_L6_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Traumwohnung — одним словом, с большой. au слышишь «ау» — пиши au. Supermarkt, Schule, Garten — с большой буквы."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch08_L6_transfer_2",
+      "ch08_L6_transfer_3",
+      "ch08_L6_transfer_4",
+      "ch08_L6_transfer_5",
+      "ch08_L6_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Квартира найдена: дом главы 8 построен.",
+      "Совет на завтра: расскажи вслух о своей квартире мечты: Meine Traumwohnung hat einen Garten."
+     ],
+     "npc_phrase_id": "ch08_d6_08",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: wir haben — «у нас есть» · die Wohnung hat einen … — «в квартире есть» · Es gibt einen / eine … — «есть, имеется».",
+     "next_hook": "Дальше: глава 9 — новая тема. Итог главы 8 — в «Книге заклинаний».",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       145
+      ],
+      "phrases_ids": [
+       "ch08_046"
+      ],
+      "note": "к курсу: на стр. 145 — письмо о новой квартире и квартира мечты: адрес, метро, место, культура рядом; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch08_046",
+       "picture": "письмо о новой квартире: адрес на конверте, станция метро, площадь, театр рядом",
+       "words": [
+        {
+         "de": "die Adresse",
+         "ru": "адрес"
+        },
+        {
+         "de": "die U-Bahn",
+         "ru": "метро"
+        },
+        {
+         "de": "der Platz",
+         "ru": "место; площадь"
+        },
+        {
+         "de": "die Kultur",
+         "ru": "культура"
+        }
+       ],
+       "note": "эти слова есть на стр. 145; нажми — услышишь. В заданиях урока их нет."
+      },
+      "tasks": [
+       {
+        "id": "ch08_L6_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch08_046",
+        "prompt": "Слова курса. Послушай. Что значит «U-Bahn»?",
+        "answer": "метро",
+        "distractors": [
+         "адрес",
+         "площадь"
+        ],
+        "src": "Linie 1, стр. 145 (U-Bahn)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      145
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch08.py",
+  "new_words": [
+   "neue",
+   "die Traumwohnung",
+   "der Supermarkt",
+   "die Schule",
+   "der Pool"
+  ],
+  "known_before": [
+   "haben · hat",
+   "es gibt",
+   "einen · eine",
+   "der Garten",
+   "der Balkon",
+   "will",
+   "mit",
+   "auch · nur",
+   "Super! · Gut!",
+   "Bis morgen!"
+  ],
+  "transfer_phrase_ids": [
+   "ch08_t11",
+   "ch08_t12"
+  ],
+  "built_phrase_ids": [
+   "ch08_045"
+  ],
+  "quiz_ids": [
+   "ch08_L6_words_1",
+   "ch08_L6_words_2",
+   "ch08_L6_words_3",
+   "ch08_L6_words_4",
+   "ch08_L6_words_5",
+   "ch08_L6_listen_1",
+   "ch08_L6_listen_2",
+   "ch08_L6_listen_3",
+   "ch08_L6_listen_4",
+   "ch08_L6_listen_5",
+   "ch08_L6_read_1",
+   "ch08_L6_read_2",
+   "ch08_L6_read_3",
+   "ch08_L6_read_4",
+   "ch08_L6_read_5",
+   "ch08_L6_speak_1",
+   "ch08_L6_speak_2",
+   "ch08_L6_speak_3",
+   "ch08_L6_speak_4",
+   "ch08_L6_speak_5",
+   "ch08_L6_write_1",
+   "ch08_L6_write_2",
+   "ch08_L6_write_3",
+   "ch08_L6_write_4",
+   "ch08_L6_write_5",
+   "ch08_L6_why_1",
+   "ch08_L6_why_2",
+   "ch08_L6_why_3",
+   "ch08_L6_why_4",
+   "ch08_L6_why_5",
+   "ch08_L6_transfer_1",
+   "ch08_L6_transfer_2",
+   "ch08_L6_transfer_3",
+   "ch08_L6_transfer_4",
+   "ch08_L6_transfer_5",
+   "ch08_L6_boss_1"
+  ],
+  "dictation_ids": [
+   "ch08_L6_dict_1",
+   "ch08_L6_dict_2",
+   "ch08_L6_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Вы с Ахмадом нашли квартиру! Анна хочет всё узнать. Цель: рассказать о новой квартире и о квартире мечты. Загадка урока: «у нас новая квартира» — по-русски «у нас … есть». Какой глагол возьмёт немец — и где у него «у нас»?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Новая квартира",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой рассказывает о новой квартире (ИИ — Anna)",
+   "situation": "neue_wohnung",
+   "ai_plays": "Anna (на «ты»)",
+   "phrases": [
+    "ch08_d6_03",
+    "ch08_d6_06",
+    "ch08_043",
+    "ch08_d6_08"
+   ]
+  },
+  "outro": "Квартира найдена: дом главы 8 построен. Совет на завтра: расскажи вслух о своей квартире мечты: Meine Traumwohnung hat einen Garten. Дальше: глава 9 — новая тема. Итог главы 8 — в «Книге заклинаний».",
+  "detail_de_life": "Переехал — зарегистрируйся по новому адресу (Anmeldung) в течение двух недель после въезда (§ 17 Abs. 1 BMG). Хозяин квартиры даёт для этого бумагу о въезде — Wohnungsgeberbestätigung (§ 19 BMG).",
+  "detail_de_life_source": "§ 17 Abs. 1 BMG (gesetze-im-internet.de/bmg/__17.html)",
+  "task_ids": {
+   "words": [
+    "ch08_L6_words_1",
+    "ch08_L6_words_2",
+    "ch08_L6_words_3",
+    "ch08_L6_words_4",
+    "ch08_L6_words_5"
+   ],
+   "listen": [
+    "ch08_L6_listen_1",
+    "ch08_L6_listen_2",
+    "ch08_L6_listen_3",
+    "ch08_L6_listen_4",
+    "ch08_L6_listen_5"
+   ],
+   "read": [
+    "ch08_L6_read_1",
+    "ch08_L6_read_2",
+    "ch08_L6_read_3",
+    "ch08_L6_read_4",
+    "ch08_L6_read_5"
+   ],
+   "speak": [
+    "ch08_L6_speak_1",
+    "ch08_L6_speak_2",
+    "ch08_L6_speak_3",
+    "ch08_L6_speak_4",
+    "ch08_L6_speak_5"
+   ],
+   "write": [
+    "ch08_L6_write_1",
+    "ch08_L6_write_2",
+    "ch08_L6_write_3",
+    "ch08_L6_write_4",
+    "ch08_L6_write_5"
+   ],
+   "why": [
+    "ch08_L6_why_1",
+    "ch08_L6_why_2",
+    "ch08_L6_why_3",
+    "ch08_L6_why_4",
+    "ch08_L6_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch08_L6_transfer_1",
+   "ch08_L6_transfer_2",
+   "ch08_L6_transfer_3",
+   "ch08_L6_transfer_4",
+   "ch08_L6_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch08_035",
+   "ch08_036",
+   "ch08_038"
+  ],
+  "dialog_ids": [
+   "ch08_d6"
+  ],
+  "video": "video/ch08_L6.mp4"
+ },
+ {
+  "id": "ch08_L7",
+  "title": "Повтор главы: объявление, Gegensätze и правила дома",
+  "pages_linie1": {
+   "pages": [
+    138,
+    139,
+    140,
+    142,
+    143,
+    144,
+    153
+   ],
+   "sections": [
+    "6 Wohnen in Deutschland",
+    "Mein Deutsch nach Kapitel 8"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch08_047",
+   "ch08_048",
+   "ch08_049",
+   "ch08_050",
+   "ch08_051"
+  ],
+  "why_ids": [
+   "ch08_051",
+   "ch08_d7_11"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch08_d7",
+    "line_ids": [
+     "ch08_d7_01",
+     "ch08_d7_02",
+     "ch08_d7_03",
+     "ch08_d7_04",
+     "ch08_d7_05",
+     "ch08_d7_06",
+     "ch08_d7_07",
+     "ch08_d7_08",
+     "ch08_d7_09",
+     "ch08_d7_10",
+     "ch08_d7_11"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Вспомни новую квартиру и что есть рядом."
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch08_d7",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch08_d7_02",
+        "ch08_d7_04",
+        "ch08_d7_06",
+        "ch08_d7_09"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch08_d7",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Pausen in Zahlwörtern: послушай vierhundertfünfzig | Euro — число одним словом, пауза перед Euro — и повтори",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch08_047",
+        "ch08_049",
+        "ch08_050",
+        "ch08_051"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Pausen in Zahlwörtern: послушай vierhundertfünfzig | Euro — число одним словом, пауза перед Euro — и повтори — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "мост: русское «не должен» — две мысли; немец различает muss nicht («не нужно») и darf nicht («нельзя»)",
+   "как слышу, так и пишу": "звук дня: длинное число-слово читается по частям с паузами; описания hell, dunkel — с маленькой буквы",
+   "учебник непонятен": "из Linie 1 — только темы и страницы 140, 142–144, 153; подача своя",
+   "село, живой немецкий — Netto": "объявление о квартире и расчёт Nebenkosten — реальные бумаги при аренде; § 556 BGB",
+   "любит аниме": "завязка — условия свитка перед новым домом; отрезки аниме — позже",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин (все 12 + 24 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Muss ich auch aufräumen?; перенос — Ist das Zimmer hell?, Du musst nicht kommen.",
+   "улучшать идеи автора": "идея автора «свой дом» (WISHES п. 38): в доме появляется то, о чём урок"
+  },
+  "kurs": {
+   "pages": [
+    138,
+    139,
+    140,
+    142,
+    143,
+    144,
+    153
+   ],
+   "phrases_ids": [
+    "ch08_053"
+   ],
+   "note": "к курсу: остальные слова главы 8 со страниц 138–139 (кухня и ванная, туалеты, терраса), 143–144 (правила дома) и 153 — узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch08_053",
+    "picture": "кухня и ванная (плита, мойка, раковина, душ, кофемашина), терраса с зонтом, правила дома: коляска, футбол, вечеринка, машина",
+    "words": [
+     {
+      "de": "die Dusche",
+      "ru": "душ"
+     },
+     {
+      "de": "der Herd",
+      "ru": "плита"
+     },
+     {
+      "de": "die Kaffeemaschine",
+      "ru": "кофемашина"
+     },
+     {
+      "de": "das Waschbecken",
+      "ru": "раковина (в ванной)"
+     },
+     {
+      "de": "die Spüle",
+      "ru": "мойка (на кухне)"
+     },
+     {
+      "de": "der Sonnenschirm",
+      "ru": "садовый зонт"
+     },
+     {
+      "de": "die Damentoilette",
+      "ru": "женский туалет"
+     },
+     {
+      "de": "die Herrentoilette",
+      "ru": "мужской туалет"
+     },
+     {
+      "de": "die Sprachschule",
+      "ru": "языковая школа"
+     },
+     {
+      "de": "das Bier",
+      "ru": "пиво"
+     },
+     {
+      "de": "der Kinderwagen",
+      "ru": "детская коляска"
+     },
+     {
+      "de": "das Auto",
+      "ru": "машина"
+     },
+     {
+      "de": "der Fußball",
+      "ru": "футбол; мяч"
+     },
+     {
+      "de": "die Party (мн. ч. die Partys)",
+      "ru": "вечеринка"
+     },
+     {
+      "de": "die Familie (мн. ч. die Familien)",
+      "ru": "семья"
+     },
+     {
+      "de": "die Terrasse (мн. ч. die Terrassen)",
+      "ru": "терраса"
+     }
+    ],
+    "note": "эти слова есть на стр. 138–139, 143–144 и 153; нажми — услышишь. В заданиях урока их нет."
+   },
+   "tasks": [
+    {
+     "id": "ch08_L7_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch08_053",
+     "prompt": "Слова курса. Послушай. Что значит «Herd»?",
+     "answer": "плита",
+     "distractors": [
+      "раковина",
+      "душ"
+     ],
+     "src": "Linie 1, стр. 138 (Herd)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Mein Haus (свой дом): повтор главы — дом готов, остаётся обставить его и принять правила",
+   "npc": "Anna — соседка (на «ты»)"
+  },
+  "covers": [
+   "L1-08-S6",
+   "L1-08-REVIEW",
+   "B09.3",
+   "B09.4",
+   "B10.4"
+  ],
+  "covers_note": {
+   "L1-08-S6": "Wohnen in Deutschland: объявление и расходы — Nebenkosten, расчёт раз в год (life_detail § 556 Abs. 3 BGB); правила дома — урок 5",
+   "L1-08-REVIEW": "Mein Deutsch nach Kapitel 8: повторение главы — разминка (урок 6), Gegensätze (урок 2), Miete (урок 4), wollen, dürfen, müssen в рамке (уроки 3, 5)",
+   "B09.3": "модальные глаголы одной сценой: will (хочу), muss (нужно), darf (можно) + второе действие в конце: Ich will aufräumen. Muss ich aufräumen? Darf ich … hören?",
+   "B09.4": "muss nicht — «не нужно» (Du musst nicht aufräumen), darf nicht — «нельзя» (Am Abend darf man nicht laut sein): часть 5, задания «почему»",
+   "B10.4": "Ich räume auf — но Ich will aufräumen: приставка возвращается к основе, одно слово в конце рамки (части 3, 5)"
+  },
+  "goal": "После урока сможешь: описать квартиру словами-противоположностями (Die Wohnung ist hell und ruhig. — Das Zimmer ist dunkel.), назвать аренду и различить «не нужно» и «нельзя»: Du musst nicht aufräumen. — Am Abend darf man nicht laut sein.",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Повторение главы 8: вы с Анной читаете Wohnungsanzeige — объявление о квартире.",
+      "Цель: описать квартиру словами-противоположностями (Gegensätze), назвать аренду и вспомнить Regeln und Verbote — правила дома."
+     ],
+     "voice_ru": "Глава 8 подходит к концу. Анна держит объявление о квартире, и вы читаете его вместе: светлая ли квартира, современная ли кухня, сколько аренда. Потом надо решить, кому убираться, и вспомнить правила дома. Так проходит Wohnen in Deutschland: сначала объявление, потом правила.",
+     "hook": "Загадка урока: по-русски «не должен» — одна фраза. Но «тебе не нужно убираться» и «здесь нельзя шуметь» — совсем разное. Что скажет немец в каждом случае?",
+     "anime_motif": "исекай: перед переездом в новый дом герой читает условия свитка — что обязательно, а что запрещено (без цитат)",
+     "npc": "Anna — соседка",
+     "more": "Ты спросишь Анну про квартиру из объявления и про аренду. Потом решите, кому убираться, и что нельзя вечером. В учебнике на стр. 153 — итог главы: Mein Deutsch nach Kapitel 8.",
+     "goal": "После урока сможешь: описать квартиру словами-противоположностями (Die Wohnung ist hell und ruhig. — Das Zimmer ist dunkel.), назвать аренду и различить «не нужно» и «нельзя»: Du musst nicht aufräumen. — Am Abend darf man nicht laut sein."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch08_041",
+      "ch08_042",
+      "ch08_043"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Вспомни новую квартиру и что есть рядом."
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch08_041",
+      "ch08_042",
+      "ch08_043"
+     ],
+     "type": "retrieval: вопрос, не перечитывание"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch08_047",
+      "ch08_048",
+      "ch08_049",
+      "ch08_050",
+      "ch08_051"
+     ],
+     "words": [
+      "Die Wohnung ist hell und ruhig.",
+      "Ist die Küche modern?",
+      "Das Zimmer ist dunkel.",
+      "Die Küche ist unmodern.",
+      "Du musst nicht aufräumen."
+     ],
+     "words_ru": {
+      "Die Wohnung ist hell und ruhig.": "Квартира светлая и тихая.",
+      "Ist die Küche modern?": "Кухня современная?",
+      "Das Zimmer ist dunkel.": "Комната тёмная.",
+      "Die Küche ist unmodern.": "Кухня несовременная.",
+      "Du musst nicht aufräumen.": "Тебе не нужно убираться."
+     },
+     "trap": "«Ich räume auf» — приставка auf стоит отдельно. После musst и will она возвращается: aufräumen — одно слово в конце.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch08_L7_words_1",
+      "ch08_L7_words_2",
+      "ch08_L7_words_3",
+      "ch08_L7_words_4",
+      "ch08_L7_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch08_d7",
+     "line_ids": [
+      "ch08_d7_01",
+      "ch08_d7_02",
+      "ch08_d7_03",
+      "ch08_d7_04",
+      "ch08_d7_05",
+      "ch08_d7_06",
+      "ch08_d7_07",
+      "ch08_d7_08",
+      "ch08_d7_09",
+      "ch08_d7_10",
+      "ch08_d7_11"
+     ],
+     "halves": [
+      [
+       "ch08_d7_01",
+       "ch08_d7_02",
+       "ch08_d7_03",
+       "ch08_d7_04",
+       "ch08_d7_05",
+       "ch08_d7_06"
+      ],
+      [
+       "ch08_d7_07",
+       "ch08_d7_08",
+       "ch08_d7_09",
+       "ch08_d7_10",
+       "ch08_d7_11"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_source": "§ 556 Abs. 2, 3 BGB (gesetze-im-internet.de/bgb/__556.html)",
+     "life_detail": "Если Nebenkosten платят авансом (Vorauszahlung, § 556 Abs. 2 BGB), раз в год хозяин обязан сделать расчёт — Nebenkostenabrechnung. Он должен сообщить его жильцу не позже чем через двенадцать месяцев после конца расчётного периода (§ 556 Abs. 3 BGB). Поэтому Wohnen in Deutschland — это не только аренда из объявления.",
+     "task_ids": [
+      "ch08_L7_listen_1",
+      "ch08_L7_listen_2",
+      "ch08_L7_listen_3",
+      "ch08_L7_listen_4",
+      "ch08_L7_listen_5",
+      "ch08_L7_listen_6"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch08_051",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "«Не нужно» и «нельзя» — разное. Du musst nicht aufräumen: необязательно. Man darf nicht laut sein: запрещено. Оба в рамке.",
+     "screen": [
+      "Du · musst · nicht · aufräumen. (не нужно)",
+      "Man · darf · nicht · laut · sein. (нельзя)"
+     ],
+     "answer_hook": "Ответ на загадку: «не нужно» — muss nicht: Du musst nicht aufräumen. «Нельзя» — darf nicht: Am Abend darf man nicht laut sein.",
+     "second": {
+      "why_id": "ch08_d7_11",
+      "voice_ru": "Muss nicht и darf nicht нельзя менять местами — смысл станет обратным. Это Modalverben: второе действие в конце, Satzklammer."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch08_L7_why_1",
+      "ch08_L7_why_2",
+      "ch08_L7_why_3",
+      "ch08_L7_why_4",
+      "ch08_L7_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch08_052",
+     "pieces": [
+      "aufräumen?",
+      "auch",
+      "ich",
+      "Muss"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch08_d7_07",
+      "ch08_051"
+     ],
+     "prompt": "Собери сам из знакомых кусков: ты сказал Анне: «Ich will heute aufräumen.» Представь, что ты на её месте, и спроси: «Мне тоже нужно убираться?»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch08_052",
+     "transfer_task_ids": [
+      "ch08_L7_transfer_1"
+     ],
+     "task_ids": [
+      "ch08_L7_write_1",
+      "ch08_L7_write_2",
+      "ch08_L7_write_3",
+      "ch08_L7_write_4",
+      "ch08_L7_write_5",
+      "ch08_L7_read_1",
+      "ch08_L7_read_2",
+      "ch08_L7_read_3",
+      "ch08_L7_read_4",
+      "ch08_L7_read_5",
+      "ch08_L7_read_6"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "vierhundert",
+     "ipa_sym": "ˈ (ударение)",
+     "tip_ru": "Pausen in Zahlwörtern: внутри числа-слова пауз нет — vierhundertfünfzig читается одним потоком, как пишется. Пауза — между числом и словом Euro: vierhundert | Euro.",
+     "bridge_ru": "По-русски «четыреста пятьдесят» — два слова, между ними можно вдохнуть. По-немецки vierhundertfünfzig — одно слово: без остановки внутри, пауза только перед Euro.",
+     "phrase_id": "ch08_d7_06",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "vierhundert",
+       "ru": "четыре сотни: одним словом, без паузы"
+      },
+      {
+       "de": "vierhundertfünfzig",
+       "ru": "четыреста пятьдесят: одним словом, без паузы"
+      },
+      {
+       "de": "fünfzig",
+       "ru": "пятьдесят"
+      },
+      {
+       "de": "Euro",
+       "ru": "евро: пауза перед ним — vierhundert | Euro"
+      }
+     ],
+     "speak_task_ids": [
+      "ch08_L7_speak_1",
+      "ch08_L7_speak_2",
+      "ch08_L7_speak_3",
+      "ch08_L7_speak_4",
+      "ch08_L7_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Объявление и уборка",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Anna (на «ты»)",
+     "turns": [
+      {
+       "prompt_id": "ch08_d7_04",
+       "prompt_de": "Nein, die Küche ist unmodern.",
+       "prompt_audio": "audio_v1/ch08_d7_04.mp3",
+       "expected_id": "ch08_d7_05",
+       "expected_de": "Wie hoch ist die Miete?",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch08_d7_08",
+       "prompt_de": "Muss ich auch aufräumen?",
+       "prompt_audio": "audio_v1/ch08_d7_08.mp3",
+       "expected_id": "ch08_d7_09",
+       "expected_de": "Nein, du musst nicht aufräumen.",
+       "accept": [
+        {
+         "id": "ch08_051",
+         "de": "Du musst nicht aufräumen."
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch08_d7_10",
+       "prompt_de": "Darf ich heute Abend laut sein?",
+       "prompt_audio": "audio_v1/ch08_d7_10.mp3",
+       "expected_id": "ch08_d7_11",
+       "expected_de": "Nein, am Abend darf man nicht laut sein.",
+       "accept": [
+        {
+         "id": "ch08_036",
+         "de": "Am Abend darf man nicht laut sein."
+        }
+       ],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Спроси про аренду, ответь Анне про уборку и про шум вечером. ИИ спросит фразами сцены.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch08_d7_06",
+     "task_ru": "Новичок не читал объявление, а числа-слова (Zahlwörter) ему трудны. Передай ему по-русски своими словами (einen Text in eigenen Worten wiedergeben), сколько стоит аренда.",
+     "expected_ru": "Аренда — четыреста евро.",
+     "hint_ru": "Zahlwörter: vier + hundert = 400; die Miete — «аренда»; Euro — «евро»",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1.1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch08_L7_dict_1",
+      "ch08_L7_dict_2",
+      "ch08_L7_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Описания hell, dunkel, ruhig, modern — с маленькой буквы: это не существительные. Zimmer, Küche, Miete — с большой. aufräumen — одним словом."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch08_L7_transfer_2",
+      "ch08_L7_transfer_3",
+      "ch08_L7_transfer_4",
+      "ch08_L7_transfer_5",
+      "ch08_L7_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Глава 8 повторена: объявление прочитано, правила усвоены.",
+      "Совет на завтра: опиши вслух свою комнату словами-противоположностями: Das Zimmer ist hell. — Die Küche ist unmodern."
+     ],
+     "npc_phrase_id": "ch08_d7_11",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: hell — dunkel, modern — unmodern (Gegensätze) · muss nicht — «не нужно», darf nicht — «нельзя» · Possessivartikel Plural: unser · euer · ihr — «наш · ваш · их». Итог главы — Mein Deutsch nach Kapitel 8: повторение пройдено.",
+     "next_hook": "Дальше: глава 9 — новая тема. Итог главы 8 — в «Книге заклинаний».",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       138,
+       139,
+       140,
+       142,
+       143,
+       144,
+       153
+      ],
+      "phrases_ids": [
+       "ch08_053"
+      ],
+      "note": "к курсу: остальные слова главы 8 со страниц 138–139 (кухня и ванная, туалеты, терраса), 143–144 (правила дома) и 153 — узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch08_053",
+       "picture": "кухня и ванная (плита, мойка, раковина, душ, кофемашина), терраса с зонтом, правила дома: коляска, футбол, вечеринка, машина",
+       "words": [
+        {
+         "de": "die Dusche",
+         "ru": "душ"
+        },
+        {
+         "de": "der Herd",
+         "ru": "плита"
+        },
+        {
+         "de": "die Kaffeemaschine",
+         "ru": "кофемашина"
+        },
+        {
+         "de": "das Waschbecken",
+         "ru": "раковина (в ванной)"
+        },
+        {
+         "de": "die Spüle",
+         "ru": "мойка (на кухне)"
+        },
+        {
+         "de": "der Sonnenschirm",
+         "ru": "садовый зонт"
+        },
+        {
+         "de": "die Damentoilette",
+         "ru": "женский туалет"
+        },
+        {
+         "de": "die Herrentoilette",
+         "ru": "мужской туалет"
+        },
+        {
+         "de": "die Sprachschule",
+         "ru": "языковая школа"
+        },
+        {
+         "de": "das Bier",
+         "ru": "пиво"
+        },
+        {
+         "de": "der Kinderwagen",
+         "ru": "детская коляска"
+        },
+        {
+         "de": "das Auto",
+         "ru": "машина"
+        },
+        {
+         "de": "der Fußball",
+         "ru": "футбол; мяч"
+        },
+        {
+         "de": "die Party (мн. ч. die Partys)",
+         "ru": "вечеринка"
+        },
+        {
+         "de": "die Familie (мн. ч. die Familien)",
+         "ru": "семья"
+        },
+        {
+         "de": "die Terrasse (мн. ч. die Terrassen)",
+         "ru": "терраса"
+        }
+       ],
+       "note": "эти слова есть на стр. 138–139, 143–144 и 153; нажми — услышишь. В заданиях урока их нет."
+      },
+      "tasks": [
+       {
+        "id": "ch08_L7_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch08_053",
+        "prompt": "Слова курса. Послушай. Что значит «Herd»?",
+        "answer": "плита",
+        "distractors": [
+         "раковина",
+         "душ"
+        ],
+        "src": "Linie 1, стр. 138 (Herd)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      138,
+      139,
+      140,
+      142,
+      143,
+      144,
+      153
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch08.py",
+  "new_words": [
+   "hell",
+   "dunkel",
+   "ruhig",
+   "modern",
+   "unmodern",
+   "aufräumen",
+   "musst · muss nicht"
+  ],
+  "known_before": [
+   "ist",
+   "die Wohnung",
+   "die Küche",
+   "das Zimmer",
+   "die Miete",
+   "will",
+   "darf nicht",
+   "man",
+   "Nein · Ja · Gut"
+  ],
+  "transfer_phrase_ids": [
+   "ch08_t13",
+   "ch08_t14"
+  ],
+  "built_phrase_ids": [
+   "ch08_052"
+  ],
+  "quiz_ids": [
+   "ch08_L7_words_1",
+   "ch08_L7_words_2",
+   "ch08_L7_words_3",
+   "ch08_L7_words_4",
+   "ch08_L7_words_5",
+   "ch08_L7_listen_1",
+   "ch08_L7_listen_2",
+   "ch08_L7_listen_3",
+   "ch08_L7_listen_4",
+   "ch08_L7_listen_5",
+   "ch08_L7_listen_6",
+   "ch08_L7_read_1",
+   "ch08_L7_read_2",
+   "ch08_L7_read_3",
+   "ch08_L7_read_4",
+   "ch08_L7_read_5",
+   "ch08_L7_read_6",
+   "ch08_L7_speak_1",
+   "ch08_L7_speak_2",
+   "ch08_L7_speak_3",
+   "ch08_L7_speak_4",
+   "ch08_L7_speak_5",
+   "ch08_L7_write_1",
+   "ch08_L7_write_2",
+   "ch08_L7_write_3",
+   "ch08_L7_write_4",
+   "ch08_L7_write_5",
+   "ch08_L7_why_1",
+   "ch08_L7_why_2",
+   "ch08_L7_why_3",
+   "ch08_L7_why_4",
+   "ch08_L7_why_5",
+   "ch08_L7_transfer_1",
+   "ch08_L7_transfer_2",
+   "ch08_L7_transfer_3",
+   "ch08_L7_transfer_4",
+   "ch08_L7_transfer_5",
+   "ch08_L7_boss_1"
+  ],
+  "dictation_ids": [
+   "ch08_L7_dict_1",
+   "ch08_L7_dict_2",
+   "ch08_L7_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Повторение главы 8: вы с Анной читаете Wohnungsanzeige — объявление о квартире. Цель: описать квартиру словами-противоположностями (Gegensätze), назвать аренду и вспомнить Regeln und Verbote — правила дома. Загадка урока: по-русски «не должен» — одна фраза. Но «тебе не нужно убираться» и «здесь нельзя шуметь» — совсем разное. Что скажет немец в каждом случае?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Объявление и уборка",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой читает объявление с Anna и договаривается об уборке (ИИ — Anna)",
+   "situation": "wohnungsanzeige",
+   "ai_plays": "Anna (на «ты»)",
+   "phrases": [
+    "ch08_d7_05",
+    "ch08_d7_09",
+    "ch08_051",
+    "ch08_d7_11",
+    "ch08_036"
+   ]
+  },
+  "outro": "Глава 8 повторена: объявление прочитано, правила усвоены. Совет на завтра: опиши вслух свою комнату словами-противоположностями: Das Zimmer ist hell. — Die Küche ist unmodern. Дальше: глава 9 — новая тема. Итог главы 8 — в «Книге заклинаний».",
+  "detail_de_life": "Если Nebenkosten платят авансом (Vorauszahlung, § 556 Abs. 2 BGB), раз в год хозяин обязан сделать расчёт — Nebenkostenabrechnung. Он должен сообщить его жильцу не позже чем через двенадцать месяцев после конца расчётного периода (§ 556 Abs. 3 BGB). Поэтому Wohnen in Deutschland — это не только аренда из объявления.",
+  "detail_de_life_source": "§ 556 Abs. 2, 3 BGB (gesetze-im-internet.de/bgb/__556.html)",
+  "task_ids": {
+   "words": [
+    "ch08_L7_words_1",
+    "ch08_L7_words_2",
+    "ch08_L7_words_3",
+    "ch08_L7_words_4",
+    "ch08_L7_words_5"
+   ],
+   "listen": [
+    "ch08_L7_listen_1",
+    "ch08_L7_listen_2",
+    "ch08_L7_listen_3",
+    "ch08_L7_listen_4",
+    "ch08_L7_listen_5",
+    "ch08_L7_listen_6"
+   ],
+   "read": [
+    "ch08_L7_read_1",
+    "ch08_L7_read_2",
+    "ch08_L7_read_3",
+    "ch08_L7_read_4",
+    "ch08_L7_read_5",
+    "ch08_L7_read_6"
+   ],
+   "speak": [
+    "ch08_L7_speak_1",
+    "ch08_L7_speak_2",
+    "ch08_L7_speak_3",
+    "ch08_L7_speak_4",
+    "ch08_L7_speak_5"
+   ],
+   "write": [
+    "ch08_L7_write_1",
+    "ch08_L7_write_2",
+    "ch08_L7_write_3",
+    "ch08_L7_write_4",
+    "ch08_L7_write_5"
+   ],
+   "why": [
+    "ch08_L7_why_1",
+    "ch08_L7_why_2",
+    "ch08_L7_why_3",
+    "ch08_L7_why_4",
+    "ch08_L7_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch08_L7_transfer_1",
+   "ch08_L7_transfer_2",
+   "ch08_L7_transfer_3",
+   "ch08_L7_transfer_4",
+   "ch08_L7_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch08_041",
+   "ch08_042",
+   "ch08_043"
+  ],
+  "dialog_ids": [
+   "ch08_d7"
+  ],
+  "video": "video/ch08_L7.mp4"
+ }
+]

@@ -1,0 +1,4448 @@
+[
+ {
+  "item_id": "ch08_L1_words_1",
+  "id": "ch08_L1_words_1",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_001",
+  "prompt": "Что значит «die Wohnung»?",
+  "answer": "квартира",
+  "distractors": [
+   "комната",
+   "кухня"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L1_words_2",
+  "id": "ch08_L1_words_2",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_002",
+  "prompt": "Что значит «die Küche»?",
+  "answer": "кухня",
+  "distractors": [
+   "ванная",
+   "спальня"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L1_words_3",
+  "id": "ch08_L1_words_3",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_002",
+  "prompt": "Что значит «das Bad»?",
+  "answer": "ванная",
+  "distractors": [
+   "кухня",
+   "подвал"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L1_words_4",
+  "id": "ch08_L1_words_4",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_004",
+  "prompt": "Что значит «der Keller»?",
+  "answer": "подвал",
+  "distractors": [
+   "балкон",
+   "ванная"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L1_words_5",
+  "id": "ch08_L1_words_5",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_002",
+  "prompt": "Что значит «es gibt»?",
+  "answer": "есть, имеется",
+  "distractors": [
+   "это здесь",
+   "мне нужно"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L1_listen_1",
+  "id": "ch08_L1_listen_1",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d1_01",
+  "prompt": "Послушай. Что показывает хозяйка?",
+  "answer": "квартиру",
+  "distractors": [
+   "кухню",
+   "подвал"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d1_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L1_listen_2",
+  "id": "ch08_L1_listen_2",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d1_03",
+  "prompt": "Послушай. Что есть в квартире?",
+  "answer": "кухня и ванная",
+  "distractors": [
+   "кухня и балкон",
+   "спальня и подвал"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d1_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L1_listen_3",
+  "id": "ch08_L1_listen_3",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d1_04",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "А балкон тоже есть?",
+  "distractors": [
+   "А подвал тоже есть?",
+   "Где балкон?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d1_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L1_listen_4",
+  "id": "ch08_L1_listen_4",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d1_05",
+  "prompt": "Послушай. Есть ли в квартире балкон?",
+  "answer": "нет, есть только подвал",
+  "distractors": [
+   "да, балкон есть",
+   "да, и подвал тоже"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d1_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L1_listen_5",
+  "id": "ch08_L1_listen_5",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d1_07",
+  "prompt": "Послушай. Что сказала хозяйка?",
+  "answer": "Спальня здесь.",
+  "distractors": [
+   "Спальни нет.",
+   "Кухня здесь."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d1_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L1_read_1",
+  "id": "ch08_L1_read_1",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_001",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Вот квартира.",
+  "distractors": [
+   "Вот кухня.",
+   "Где квартира?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Hier ist die Wohnung."
+ },
+ {
+  "item_id": "ch08_L1_read_2",
+  "id": "ch08_L1_read_2",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_002",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Есть кухня и ванная.",
+  "distractors": [
+   "Есть кухня и балкон.",
+   "Есть спальня и ванная."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Es gibt eine Küche und ein Bad."
+ },
+ {
+  "item_id": "ch08_L1_read_3",
+  "id": "ch08_L1_read_3",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_003",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "А балкон тоже есть?",
+  "distractors": [
+   "Балкона нет.",
+   "А подвал тоже есть?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Gibt es auch einen Balkon?"
+ },
+ {
+  "item_id": "ch08_L1_read_4",
+  "id": "ch08_L1_read_4",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_004",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Есть подвал.",
+  "distractors": [
+   "Есть балкон.",
+   "Подвала нет."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Es gibt einen Keller."
+ },
+ {
+  "item_id": "ch08_L1_read_5",
+  "id": "ch08_L1_read_5",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_005",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Где спальня?",
+  "distractors": [
+   "Где ванная?",
+   "Спальня здесь."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wo ist das Schlafzimmer?"
+ },
+ {
+  "item_id": "ch08_L1_speak_1",
+  "id": "ch08_L1_speak_1",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_d1_02",
+  "prompt": "Поздоровайся и спроси хозяйку: «Добрый день, что здесь есть?»",
+  "answer": "Guten Tag, was gibt es hier?",
+  "distractors": null,
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d1_02.mp3",
+  "de": null,
+  "accept": [
+   "Guten Tag, was gibt es hier?"
+  ]
+ },
+ {
+  "item_id": "ch08_L1_speak_2",
+  "id": "ch08_L1_speak_2",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_003",
+  "prompt": "Спроси: «А балкон тоже есть?» Голос в конце — вверх ↗.",
+  "answer": "Gibt es auch einen Balkon?",
+  "distractors": null,
+  "rule_id": "topics/intonation",
+  "transfer": false,
+  "audio": "audio_v1/ch08_003.mp3",
+  "de": null,
+  "accept": [
+   "Gibt es auch einen Balkon?"
+  ]
+ },
+ {
+  "item_id": "ch08_L1_speak_3",
+  "id": "ch08_L1_speak_3",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_005",
+  "prompt": "Спроси: «Где спальня?» В начале слова sch — «ш».",
+  "answer": "Wo ist das Schlafzimmer?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch08_005.mp3",
+  "de": null,
+  "accept": [
+   "Wo ist das Schlafzimmer?"
+  ]
+ },
+ {
+  "item_id": "ch08_L1_speak_4",
+  "id": "ch08_L1_speak_4",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_002",
+  "prompt": "Скажи: «Есть кухня и ванная.» В Küche ch — мягкое «хь».",
+  "answer": "Es gibt eine Küche und ein Bad.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch08_002.mp3",
+  "de": null,
+  "accept": [
+   "Es gibt eine Küche und ein Bad."
+  ]
+ },
+ {
+  "item_id": "ch08_L1_speak_5",
+  "id": "ch08_L1_speak_5",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_004",
+  "prompt": "Скажи: «Есть подвал.»",
+  "answer": "Es gibt einen Keller.",
+  "distractors": null,
+  "rule_id": "topics/akkusativ",
+  "transfer": false,
+  "audio": "audio_v1/ch08_004.mp3",
+  "de": null,
+  "accept": [
+   "Es gibt einen Keller."
+  ]
+ },
+ {
+  "item_id": "ch08_L1_write_1",
+  "id": "ch08_L1_write_1",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_002",
+  "prompt": "Впиши: «Es ___ eine Küche und ein Bad.» (есть, имеется)",
+  "answer": "gibt",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch08_002.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L1_write_2",
+  "id": "ch08_L1_write_2",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_004",
+  "prompt": "Впиши: «Es gibt ___ Keller.» (der Keller после es gibt)",
+  "answer": "einen",
+  "distractors": null,
+  "rule_id": "topics/akkusativ",
+  "transfer": false,
+  "audio": "audio_v1/ch08_004.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L1_write_3",
+  "id": "ch08_L1_write_3",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_001",
+  "prompt": "Впиши: «Hier ist die ___.» (квартира)",
+  "answer": "Wohnung",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch08_001.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L1_write_4",
+  "id": "ch08_L1_write_4",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_005",
+  "prompt": "Впиши: «Wo ist das ___?» (спальня)",
+  "answer": "Schlafzimmer",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch08_005.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L1_write_5",
+  "id": "ch08_L1_write_5",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_002",
+  "prompt": "Впиши: «Es gibt eine ___ und ein Bad.» (кухня)",
+  "answer": "Küche",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch08_002.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L1_why_1",
+  "id": "ch08_L1_why_1",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_004",
+  "prompt": "Почему «einen Keller», а не «ein Keller»?",
+  "answer": "Keller — der-слово: после es gibt ein меняется на einen.",
+  "distractors": [
+   "Keller — das-слово: после es gibt всегда пишут einen.",
+   "einen — потому что подвал в доме только один."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Es gibt einen Keller."
+ },
+ {
+  "item_id": "ch08_L1_why_2",
+  "id": "ch08_L1_why_2",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_002",
+  "prompt": "Почему «eine Küche», но «ein Bad»?",
+  "answer": "Küche — die-слово: eine. Bad — das-слово: ein.",
+  "distractors": [
+   "Кухня важнее ванной, поэтому с -e.",
+   "ein Bad — потому что ванная маленькая."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Es gibt eine Küche und ein Bad."
+ },
+ {
+  "item_id": "ch08_L1_why_3",
+  "id": "ch08_L1_why_3",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_003",
+  "prompt": "Почему вопрос «Gibt es auch einen Balkon?» начинается с gibt?",
+  "answer": "Это вопрос «да/нет»: gibt впереди.",
+  "distractors": [
+   "gibt — вежливое слово, оно стоит первым.",
+   "Так спрашивают только про балкон."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": null,
+  "de": "Gibt es auch einen Balkon?"
+ },
+ {
+  "item_id": "ch08_L1_why_4",
+  "id": "ch08_L1_why_4",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_d1_07",
+  "prompt": "Хозяйка показывает, где спальня. Почему она говорит ist hier, а не es gibt?",
+  "answer": "Она показывает место: ist hier — «находится здесь».",
+  "distractors": [
+   "ist hier — вежливее, с хозяйкой так говорят всегда.",
+   "es gibt говорят только про кухню и ванную."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Das Schlafzimmer ist hier."
+ },
+ {
+  "item_id": "ch08_L1_why_5",
+  "id": "ch08_L1_why_5",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_005",
+  "prompt": "Почему в «Wo ist das Schlafzimmer?» ist стоит сразу после wo?",
+  "answer": "wo — вагон №1, действие ist — сразу за ним.",
+  "distractors": [
+   "ist — короткое слово, оно стоит в середине.",
+   "Так бывает только в вопросах про комнаты."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": null,
+  "de": "Wo ist das Schlafzimmer?"
+ },
+ {
+  "item_id": "ch08_L1_transfer_1",
+  "id": "ch08_L1_transfer_1",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_t01",
+  "prompt": "В другой квартире спроси хозяйку: «А ванная здесь тоже есть?»",
+  "answer": "Gibt es hier auch ein Bad?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch08_t01.mp3",
+  "de": null,
+  "accept": [
+   "Gibt es hier auch ein Bad?"
+  ]
+ },
+ {
+  "item_id": "ch08_L1_transfer_2",
+  "id": "ch08_L1_transfer_2",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_t02",
+  "prompt": "Спроси хозяйку: «Где кухня?»",
+  "answer": "Wo ist die Küche?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch08_t02.mp3",
+  "de": null,
+  "accept": [
+   "Wo ist die Küche?"
+  ]
+ },
+ {
+  "item_id": "ch08_L1_transfer_3",
+  "id": "ch08_L1_transfer_3",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_t02",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Где кухня?",
+  "distractors": [
+   "Где спальня?",
+   "Кухня есть?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch08_t02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L1_transfer_4",
+  "id": "ch08_L1_transfer_4",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_t02",
+  "prompt": "Напиши по-немецки: «Где кухня?»",
+  "answer": "Wo ist die Küche?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch08_t02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L1_transfer_5",
+  "id": "ch08_L1_transfer_5",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_t02",
+  "prompt": "Почему «die Küche», а не «das Küche»?",
+  "answer": "Küche — die-слово: die Küche.",
+  "distractors": [
+   "После wo артикль меняется на die.",
+   "die — потому что кухня одна."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": true,
+  "audio": null,
+  "de": "Wo ist die Küche?"
+ },
+ {
+  "item_id": "ch08_L1_boss_1",
+  "id": "ch08_L1_boss_1",
+  "lesson": "ch08_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d1_06",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "А где спальня?",
+  "distractors": [
+   "А где кухня?",
+   "А спальня тоже есть?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d1_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L2_words_1",
+  "id": "ch08_L2_words_1",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_012",
+  "prompt": "Что значит «neu»?",
+  "answer": "новый",
+  "distractors": [
+   "старый",
+   "маленький"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L2_words_2",
+  "id": "ch08_L2_words_2",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_014",
+  "prompt": "Что значит «alt»?",
+  "answer": "старый",
+  "distractors": [
+   "новый",
+   "большой"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L2_words_3",
+  "id": "ch08_L2_words_3",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_015",
+  "prompt": "Что значит «groß»?",
+  "answer": "большой",
+  "distractors": [
+   "маленький",
+   "новый"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L2_words_4",
+  "id": "ch08_L2_words_4",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_013",
+  "prompt": "Что значит «klein»?",
+  "answer": "маленький",
+  "distractors": [
+   "большой",
+   "старый"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L2_words_5",
+  "id": "ch08_L2_words_5",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_012",
+  "prompt": "Что значит «unser»?",
+  "answer": "наш",
+  "distractors": [
+   "ваш",
+   "их"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L2_listen_1",
+  "id": "ch08_L2_listen_1",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d2_01",
+  "prompt": "Послушай. Что герой говорит о квартире?",
+  "answer": "она очень красивая",
+  "distractors": [
+   "она очень старая",
+   "она очень маленькая"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d2_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L2_listen_2",
+  "id": "ch08_L2_listen_2",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d2_02",
+  "prompt": "Послушай. Что новое у Анны?",
+  "answer": "диван",
+  "distractors": [
+   "шкаф",
+   "кухня"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d2_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L2_listen_3",
+  "id": "ch08_L2_listen_3",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d2_04",
+  "prompt": "Послушай. Какой шкаф?",
+  "answer": "старый",
+  "distractors": [
+   "новый",
+   "большой"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d2_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L2_listen_4",
+  "id": "ch08_L2_listen_4",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d2_06",
+  "prompt": "Послушай. Какая кухня?",
+  "answer": "маленькая",
+  "distractors": [
+   "большая",
+   "новая"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d2_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L2_listen_5",
+  "id": "ch08_L2_listen_5",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d2_08",
+  "prompt": "Послушай. Что ответила Анна?",
+  "answer": "Да, их квартира большая.",
+  "distractors": [
+   "Да, наша квартира большая.",
+   "Нет, их квартира маленькая."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d2_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L2_read_1",
+  "id": "ch08_L2_read_1",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_011",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Какая у вас красивая квартира!",
+  "distractors": [
+   "Какая у нас красивая квартира!",
+   "Какая у них красивая квартира!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Eure Wohnung ist sehr schön!"
+ },
+ {
+  "item_id": "ch08_L2_read_2",
+  "id": "ch08_L2_read_2",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_012",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Наш диван новый.",
+  "distractors": [
+   "Ваш диван новый.",
+   "Наш диван старый."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Unser Sofa ist neu."
+ },
+ {
+  "item_id": "ch08_L2_read_3",
+  "id": "ch08_L2_read_3",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_013",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Наша кухня маленькая.",
+  "distractors": [
+   "Наша кухня большая.",
+   "Ваша кухня маленькая."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Unsere Küche ist klein."
+ },
+ {
+  "item_id": "ch08_L2_read_4",
+  "id": "ch08_L2_read_4",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_014",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Ваш шкаф старый.",
+  "distractors": [
+   "Наш шкаф старый.",
+   "Ваш шкаф новый."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Euer Schrank ist alt."
+ },
+ {
+  "item_id": "ch08_L2_read_5",
+  "id": "ch08_L2_read_5",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_015",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Да, их квартира большая.",
+  "distractors": [
+   "Да, наша квартира большая.",
+   "Нет, их квартира маленькая."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ja, ihre Wohnung ist groß."
+ },
+ {
+  "item_id": "ch08_L2_speak_1",
+  "id": "ch08_L2_speak_1",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_011",
+  "prompt": "Скажи Анне и Ахмаду: «Какая у вас красивая квартира!» eu в Eure — «ой».",
+  "answer": "Eure Wohnung ist sehr schön!",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch08_011.mp3",
+  "de": null,
+  "accept": [
+   "Eure Wohnung ist sehr schön!"
+  ]
+ },
+ {
+  "item_id": "ch08_L2_speak_2",
+  "id": "ch08_L2_speak_2",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_012",
+  "prompt": "Скажи: «Наш диван новый.» eu в neu — «ой».",
+  "answer": "Unser Sofa ist neu.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch08_012.mp3",
+  "de": null,
+  "accept": [
+   "Unser Sofa ist neu."
+  ]
+ },
+ {
+  "item_id": "ch08_L2_speak_3",
+  "id": "ch08_L2_speak_3",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_013",
+  "prompt": "Скажи: «Наша кухня маленькая.»",
+  "answer": "Unsere Küche ist klein.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch08_013.mp3",
+  "de": null,
+  "accept": [
+   "Unsere Küche ist klein."
+  ]
+ },
+ {
+  "item_id": "ch08_L2_speak_4",
+  "id": "ch08_L2_speak_4",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_016",
+  "prompt": "Спроси: «Ваш диван новый?» Голос в конце — вверх ↗.",
+  "answer": "Ist euer Sofa neu?",
+  "distractors": null,
+  "rule_id": "topics/intonation",
+  "transfer": false,
+  "audio": "audio_v1/ch08_016.mp3",
+  "de": null,
+  "accept": [
+   "Ist euer Sofa neu?"
+  ]
+ },
+ {
+  "item_id": "ch08_L2_speak_5",
+  "id": "ch08_L2_speak_5",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_015",
+  "prompt": "Скажи: «Да, их квартира большая.»",
+  "answer": "Ja, ihre Wohnung ist groß.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch08_015.mp3",
+  "de": null,
+  "accept": [
+   "Ja, ihre Wohnung ist groß."
+  ]
+ },
+ {
+  "item_id": "ch08_L2_write_1",
+  "id": "ch08_L2_write_1",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_012",
+  "prompt": "Впиши: «___ Sofa ist neu.» (наш)",
+  "answer": "Unser",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch08_012.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L2_write_2",
+  "id": "ch08_L2_write_2",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_013",
+  "prompt": "Впиши: «Unsere ___ ist klein.» (кухня)",
+  "answer": "Küche",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch08_013.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L2_write_3",
+  "id": "ch08_L2_write_3",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_014",
+  "prompt": "Впиши: «Euer ___ ist alt.» (шкаф)",
+  "answer": "Schrank",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch08_014.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L2_write_4",
+  "id": "ch08_L2_write_4",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_015",
+  "prompt": "Впиши: «Ja, ihre Wohnung ist ___.» (большая)",
+  "answer": "groß",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch08_015.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L2_write_5",
+  "id": "ch08_L2_write_5",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_011",
+  "prompt": "Впиши: «___ Wohnung ist sehr schön!» (ваша)",
+  "answer": "Eure",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch08_011.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L2_why_1",
+  "id": "ch08_L2_why_1",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_013",
+  "prompt": "Почему «unsere Küche», но «unser Sofa»?",
+  "answer": "Küche — die-слово: у unser появляется -e, у Sofa — нет.",
+  "distractors": [
+   "Küche важнее, чем Sofa, поэтому у неё окончание.",
+   "unsere — это «наши»: кухонь здесь много."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Unsere Küche ist klein."
+ },
+ {
+  "item_id": "ch08_L2_why_2",
+  "id": "ch08_L2_why_2",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_011",
+  "prompt": "Почему «eure Wohnung», а не «euer Wohnung»?",
+  "answer": "Wohnung — die-слово: euer + -e = eure.",
+  "distractors": [
+   "Wohnung — особое слово, у него всегда eure.",
+   "euer пишут только в вопросах."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Eure Wohnung ist sehr schön!"
+ },
+ {
+  "item_id": "ch08_L2_why_3",
+  "id": "ch08_L2_why_3",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_014",
+  "prompt": "Почему «euer Schrank» без окончания?",
+  "answer": "Schrank — der-слово: окончания нет, как в «mein Schrank».",
+  "distractors": [
+   "Schrank — короткое слово, окончание не нужно.",
+   "Schrank — die-слово: окончания нет, как в «mein Schrank»."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Euer Schrank ist alt."
+ },
+ {
+  "item_id": "ch08_L2_why_4",
+  "id": "ch08_L2_why_4",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_d2_08",
+  "prompt": "Почему в «Ja, ihre Wohnung ist groß» ihre значит «их», а не «ваша»?",
+  "answer": "Речь об Ольге и Нико, а не о вас: ihre — «их». «Ваша» было бы eure.",
+  "distractors": [
+   "ihre всегда значит «ваша», как eure: просто пишется короче.",
+   "ihre значит «наша»: в ответе на вопрос."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ja, ihre Wohnung ist groß."
+ },
+ {
+  "item_id": "ch08_L2_why_5",
+  "id": "ch08_L2_why_5",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_018",
+  "prompt": "Почему «Eure Möbel sind schön», а не «ist schön»?",
+  "answer": "Möbel по-немецки — много предметов, множественное число: sind.",
+  "distractors": [
+   "Möbel — вежливое слово, с ним всегда говорят sind.",
+   "sind — потому что мебель новая и очень дорогая."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Eure Möbel sind schön."
+ },
+ {
+  "item_id": "ch08_L2_transfer_1",
+  "id": "ch08_L2_transfer_1",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_t03",
+  "prompt": "Спроси Анну: «Наш балкон большой?» (Ты говоришь про дом, где вы живёте вместе.)",
+  "answer": "Ist unser Balkon groß?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch08_t03.mp3",
+  "de": null,
+  "accept": [
+   "Ist unser Balkon groß?"
+  ]
+ },
+ {
+  "item_id": "ch08_L2_transfer_2",
+  "id": "ch08_L2_transfer_2",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_t04",
+  "prompt": "Скажи Анне: «Ваша кухня очень большая.»",
+  "answer": "Eure Küche ist sehr groß.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch08_t04.mp3",
+  "de": null,
+  "accept": [
+   "Eure Küche ist sehr groß."
+  ]
+ },
+ {
+  "item_id": "ch08_L2_transfer_3",
+  "id": "ch08_L2_transfer_3",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_t04",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Ваша кухня очень большая.",
+  "distractors": [
+   "Ваша кухня очень маленькая.",
+   "Наша кухня очень большая."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch08_t04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L2_transfer_4",
+  "id": "ch08_L2_transfer_4",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_t04",
+  "prompt": "Напиши по-немецки: «Ваша кухня очень большая.»",
+  "answer": "Eure Küche ist sehr groß.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch08_t04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L2_transfer_5",
+  "id": "ch08_L2_transfer_5",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_t04",
+  "prompt": "Почему «eure Küche», а не «euer Küche»?",
+  "answer": "Küche — die-слово: euer + -e = eure Küche.",
+  "distractors": [
+   "После sehr всегда пишут eure, а не euer.",
+   "euer — только для маленьких кухонь и комнат."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": true,
+  "audio": null,
+  "de": "Eure Küche ist sehr groß."
+ },
+ {
+  "item_id": "ch08_L2_boss_1",
+  "id": "ch08_L2_boss_1",
+  "lesson": "ch08_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d2_03",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "А ваш шкаф тоже новый?",
+  "distractors": [
+   "А ваш диван тоже новый?",
+   "А ваша кухня тоже большая?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d2_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L3_words_1",
+  "id": "ch08_L3_words_1",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_019",
+  "prompt": "Что значит «ich will»?",
+  "answer": "я хочу",
+  "distractors": [
+   "я могу",
+   "я живу"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L3_words_2",
+  "id": "ch08_L3_words_2",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_020",
+  "prompt": "Что значит «wir wollen»?",
+  "answer": "мы хотим",
+  "distractors": [
+   "мы можем",
+   "мы живём"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L3_words_3",
+  "id": "ch08_L3_words_3",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_022",
+  "prompt": "Что значит «das Haus»?",
+  "answer": "дом",
+  "distractors": [
+   "сад",
+   "квартира"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L3_words_4",
+  "id": "ch08_L3_words_4",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_d3_07",
+  "prompt": "Что значит «der Garten»?",
+  "answer": "сад",
+  "distractors": [
+   "двор",
+   "гараж"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L3_words_5",
+  "id": "ch08_L3_words_5",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_023",
+  "prompt": "Что значит «allein»?",
+  "answer": "один",
+  "distractors": [
+   "вместе",
+   "рядом"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L3_listen_1",
+  "id": "ch08_L3_listen_1",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d3_01",
+  "prompt": "Послушай. Что хочет Ахмад?",
+  "answer": "жить во Фрайберге",
+  "distractors": [
+   "жить в деревне",
+   "купить дом"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d3_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L3_listen_2",
+  "id": "ch08_L3_listen_2",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d3_03",
+  "prompt": "Послушай. Какую квартиру хочет Ахмад?",
+  "answer": "с балконом",
+  "distractors": [
+   "с садом",
+   "с подвалом"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d3_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L3_listen_3",
+  "id": "ch08_L3_listen_3",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d3_04",
+  "prompt": "Послушай. Что предложил герой?",
+  "answer": "жить вместе",
+  "distractors": [
+   "жить отдельно",
+   "снять комнату"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d3_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L3_listen_4",
+  "id": "ch08_L3_listen_4",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d3_05",
+  "prompt": "Послушай. Чего Ахмад не хочет?",
+  "answer": "жить один",
+  "distractors": [
+   "жить вместе",
+   "жить во Фрайберге"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d3_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L3_listen_5",
+  "id": "ch08_L3_listen_5",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d3_07",
+  "prompt": "Послушай. Что хотят Ахмад и герой?",
+  "answer": "дом с садом",
+  "distractors": [
+   "квартиру с балконом",
+   "комнату в подвале"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d3_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L3_read_1",
+  "id": "ch08_L3_read_1",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_019",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я хочу квартиру.",
+  "distractors": [
+   "Ты хочешь квартиру.",
+   "Я хочу дом."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich will eine Wohnung."
+ },
+ {
+  "item_id": "ch08_L3_read_2",
+  "id": "ch08_L3_read_2",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_020",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Мы хотим жить вместе.",
+  "distractors": [
+   "Мы живём вместе.",
+   "Вы хотите жить вместе?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wir wollen zusammen wohnen."
+ },
+ {
+  "item_id": "ch08_L3_read_3",
+  "id": "ch08_L3_read_3",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_021",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Где мы хотим жить?",
+  "distractors": [
+   "Где мы живём?",
+   "Где ты хочешь жить?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wo wollen wir wohnen?"
+ },
+ {
+  "item_id": "ch08_L3_read_4",
+  "id": "ch08_L3_read_4",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_022",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Ты хочешь дом с садом?",
+  "distractors": [
+   "Ты хочешь квартиру с балконом?",
+   "У тебя есть дом с садом?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Willst du ein Haus mit Garten?"
+ },
+ {
+  "item_id": "ch08_L3_read_5",
+  "id": "ch08_L3_read_5",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_023",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я не хочу жить один.",
+  "distractors": [
+   "Я хочу жить один.",
+   "Я не живу один."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich will nicht allein wohnen."
+ },
+ {
+  "item_id": "ch08_L3_speak_1",
+  "id": "ch08_L3_speak_1",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_019",
+  "prompt": "Скажи: «Я хочу квартиру.» w в will — «в».",
+  "answer": "Ich will eine Wohnung.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch08_019.mp3",
+  "de": null,
+  "accept": [
+   "Ich will eine Wohnung."
+  ]
+ },
+ {
+  "item_id": "ch08_L3_speak_2",
+  "id": "ch08_L3_speak_2",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_020",
+  "prompt": "Скажи: «Мы хотим жить вместе.» wollen — второе, wohnen — в конце.",
+  "answer": "Wir wollen zusammen wohnen.",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch08_020.mp3",
+  "de": null,
+  "accept": [
+   "Wir wollen zusammen wohnen."
+  ]
+ },
+ {
+  "item_id": "ch08_L3_speak_3",
+  "id": "ch08_L3_speak_3",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_021",
+  "prompt": "Спроси Ахмада: «Где мы хотим жить?»",
+  "answer": "Wo wollen wir wohnen?",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch08_021.mp3",
+  "de": null,
+  "accept": [
+   "Wo wollen wir wohnen?"
+  ]
+ },
+ {
+  "item_id": "ch08_L3_speak_4",
+  "id": "ch08_L3_speak_4",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_024",
+  "prompt": "Спроси Ахмада: «Ты хочешь жить во Фрайберге?» Голос в конце — вверх ↗.",
+  "answer": "Willst du in Freiberg wohnen?",
+  "distractors": null,
+  "rule_id": "topics/intonation",
+  "transfer": false,
+  "audio": "audio_v1/ch08_024.mp3",
+  "de": null,
+  "accept": [
+   "Willst du in Freiberg wohnen?"
+  ]
+ },
+ {
+  "item_id": "ch08_L3_speak_5",
+  "id": "ch08_L3_speak_5",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_023",
+  "prompt": "Скажи: «Я не хочу жить один.»",
+  "answer": "Ich will nicht allein wohnen.",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch08_023.mp3",
+  "de": null,
+  "accept": [
+   "Ich will nicht allein wohnen."
+  ]
+ },
+ {
+  "item_id": "ch08_L3_write_1",
+  "id": "ch08_L3_write_1",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_019",
+  "prompt": "Впиши: «Ich ___ eine Wohnung.» (хочу)",
+  "answer": "will",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch08_019.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L3_write_2",
+  "id": "ch08_L3_write_2",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_020",
+  "prompt": "Впиши: «Wir ___ zusammen wohnen.» (хотим)",
+  "answer": "wollen",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch08_020.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L3_write_3",
+  "id": "ch08_L3_write_3",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_021",
+  "prompt": "Впиши: «Wo ___ wir wohnen?» (хотим)",
+  "answer": "wollen",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch08_021.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L3_write_4",
+  "id": "ch08_L3_write_4",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_022",
+  "prompt": "Впиши: «___ du ein Haus mit Garten?» (хочешь)",
+  "answer": "Willst",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch08_022.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L3_write_5",
+  "id": "ch08_L3_write_5",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_023",
+  "prompt": "Впиши: «Ich will nicht ___ wohnen.» (один)",
+  "answer": "allein",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch08_023.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L3_why_1",
+  "id": "ch08_L3_why_1",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_020",
+  "prompt": "Почему в «Wir wollen zusammen wohnen» слово wohnen стоит в самом конце и не меняется?",
+  "answer": "wollen — помощник, он второй; wohnen уходит в конец: рамка.",
+  "distractors": [
+   "wohnen длинное, поэтому оно в конце, а короткие — вперёд.",
+   "wohnen меняют на wohnt, как после wir, и ставят в конец."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Wir wollen zusammen wohnen."
+ },
+ {
+  "item_id": "ch08_L3_why_2",
+  "id": "ch08_L3_why_2",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_019",
+  "prompt": "Почему «ich will», а не «ich wollen»?",
+  "answer": "С ich хвост пропадает, o → i: ich will.",
+  "distractors": [
+   "wollen с ich — вежливая форма, так говорят на «вы».",
+   "will — только для вопросов, а wollen — для ответов."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich will eine Wohnung."
+ },
+ {
+  "item_id": "ch08_L3_why_3",
+  "id": "ch08_L3_why_3",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_021",
+  "prompt": "Почему в «Wo wollen wir wohnen?» wohnen стоит в конце, а не рядом с wo?",
+  "answer": "wo — вагон №1, wollen — №2; wohnen уходит в конец: рамка.",
+  "distractors": [
+   "wohnen всегда стоит сразу после вопроса wo, как и wollen.",
+   "в вопросах с wo все глаголы идут в самый конец фразы."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Wo wollen wir wohnen?"
+ },
+ {
+  "item_id": "ch08_L3_why_4",
+  "id": "ch08_L3_why_4",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_023",
+  "prompt": "Почему в «Ich will nicht allein wohnen» nicht и allein стоят перед wohnen?",
+  "answer": "wohnen — второе действие, оно в конце; nicht и allein — внутри рамки.",
+  "distractors": [
+   "nicht всегда стоит в самом конце, а wohnen — перед ним.",
+   "allein — главное слово, поэтому оно стоит сразу после will."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich will nicht allein wohnen."
+ },
+ {
+  "item_id": "ch08_L3_why_5",
+  "id": "ch08_L3_why_5",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_d3_04",
+  "prompt": "Почему «Wollen wir zusammen wohnen?» начинается с wollen?",
+  "answer": "Это вопрос «да/нет»: действие впереди.",
+  "distractors": [
+   "wollen — вежливое слово, поэтому оно первое.",
+   "Так спрашивают только про жильё."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Wollen wir zusammen wohnen?"
+ },
+ {
+  "item_id": "ch08_L3_transfer_1",
+  "id": "ch08_L3_transfer_1",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_t05",
+  "prompt": "В другой раз спроси Ахмада: «Ты хочешь квартиру с балконом?»",
+  "answer": "Willst du eine Wohnung mit Balkon?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch08_t05.mp3",
+  "de": null,
+  "accept": [
+   "Willst du eine Wohnung mit Balkon?"
+  ]
+ },
+ {
+  "item_id": "ch08_L3_transfer_2",
+  "id": "ch08_L3_transfer_2",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_t06",
+  "prompt": "Скажи: «Мы хотим жить во Фрайберге.»",
+  "answer": "Wir wollen in Freiberg wohnen.",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": true,
+  "audio": "audio_v1/ch08_t06.mp3",
+  "de": null,
+  "accept": [
+   "Wir wollen in Freiberg wohnen."
+  ]
+ },
+ {
+  "item_id": "ch08_L3_transfer_3",
+  "id": "ch08_L3_transfer_3",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_t06",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Мы хотим жить во Фрайберге.",
+  "distractors": [
+   "Я хочу жить во Фрайберге.",
+   "Мы хотим дом во Фрайберге."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch08_t06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L3_transfer_4",
+  "id": "ch08_L3_transfer_4",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_t06",
+  "prompt": "Напиши по-немецки: «Мы хотим жить во Фрайберге.»",
+  "answer": "Wir wollen in Freiberg wohnen.",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": true,
+  "audio": "audio_v1/ch08_t06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L3_transfer_5",
+  "id": "ch08_L3_transfer_5",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_t06",
+  "prompt": "Почему в «Wir wollen in Freiberg wohnen» wohnen стоит после in Freiberg?",
+  "answer": "wohnen — второе действие: оно уходит в самый конец, рамка wollen … wohnen.",
+  "distractors": [
+   "wohnen всегда идёт после названия города или села.",
+   "wohnen — второе действие: оно уходит в самое начало, рамка wollen … wohnen."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": true,
+  "audio": null,
+  "de": "Wir wollen in Freiberg wohnen."
+ },
+ {
+  "item_id": "ch08_L3_boss_1",
+  "id": "ch08_L3_boss_1",
+  "lesson": "ch08_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d3_06",
+  "prompt": "Послушай. Что сказал герой?",
+  "answer": "А где мы хотим жить?",
+  "distractors": [
+   "А когда мы придём?",
+   "А сколько стоит дом?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d3_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L4_words_1",
+  "id": "ch08_L4_words_1",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_027",
+  "prompt": "Что значит «die Anzeige»?",
+  "answer": "объявление",
+  "distractors": [
+   "аренда",
+   "квартира"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L4_words_2",
+  "id": "ch08_L4_words_2",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_028",
+  "prompt": "Что значит «die Miete»?",
+  "answer": "аренда",
+  "distractors": [
+   "залог",
+   "этаж"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L4_words_3",
+  "id": "ch08_L4_words_3",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_030",
+  "prompt": "Что значит «die Nebenkosten»?",
+  "answer": "расходы сверх аренды",
+  "distractors": [
+   "залог за квартиру",
+   "сама плата за аренду"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L4_words_4",
+  "id": "ch08_L4_words_4",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_029",
+  "prompt": "Что значит «vierhundert»?",
+  "answer": "четыреста",
+  "distractors": [
+   "сорок",
+   "четыре"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L4_words_5",
+  "id": "ch08_L4_words_5",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_031",
+  "prompt": "Что значит «zusammen»?",
+  "answer": "вместе",
+  "distractors": [
+   "ещё",
+   "только"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L4_listen_1",
+  "id": "ch08_L4_listen_1",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d4_02",
+  "prompt": "Послушай. О чём спросил герой?",
+  "answer": "сколько составляет аренда",
+  "distractors": [
+   "где находится квартира",
+   "сколько стоит гараж"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d4_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L4_listen_2",
+  "id": "ch08_L4_listen_2",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d4_03",
+  "prompt": "Послушай. Сколько составляет аренда?",
+  "answer": "четыреста евро",
+  "distractors": [
+   "сорок евро",
+   "сто евро"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d4_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L4_listen_3",
+  "id": "ch08_L4_listen_3",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d4_05",
+  "prompt": "Послушай. Сколько составляют Nebenkosten?",
+  "answer": "пятьдесят евро",
+  "distractors": [
+   "пятнадцать евро",
+   "пятьсот евро"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d4_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L4_listen_4",
+  "id": "ch08_L4_listen_4",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d4_06",
+  "prompt": "Послушай. О чём спросил герой?",
+  "answer": "Это вместе четыреста пятьдесят евро?",
+  "distractors": [
+   "Это вместе четыреста евро?",
+   "Аренда четыреста пятьдесят евро?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d4_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L4_listen_5",
+  "id": "ch08_L4_listen_5",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d4_07",
+  "prompt": "Послушай. Что есть в квартире?",
+  "answer": "балкон и подвал",
+  "distractors": [
+   "кухня и ванная",
+   "сад и гараж"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d4_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L4_read_1",
+  "id": "ch08_L4_read_1",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_027",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Вот объявление.",
+  "distractors": [
+   "Вот квартира.",
+   "Где объявление?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Hier ist eine Anzeige."
+ },
+ {
+  "item_id": "ch08_L4_read_2",
+  "id": "ch08_L4_read_2",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_028",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Сколько составляет аренда?",
+  "distractors": [
+   "Сколько составляют дополнительные расходы?",
+   "Аренда большая?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie hoch ist die Miete?"
+ },
+ {
+  "item_id": "ch08_L4_read_3",
+  "id": "ch08_L4_read_3",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_029",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Аренда — четыреста евро.",
+  "distractors": [
+   "Аренда — сорок евро.",
+   "Дополнительные расходы — четыреста евро."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Miete ist vierhundert Euro."
+ },
+ {
+  "item_id": "ch08_L4_read_4",
+  "id": "ch08_L4_read_4",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_031",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Вместе это четыреста пятьдесят евро.",
+  "distractors": [
+   "Аренда — четыреста пятьдесят евро.",
+   "Вместе это сто пятьдесят евро."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das sind zusammen vierhundertfünfzig Euro."
+ },
+ {
+  "item_id": "ch08_L4_read_5",
+  "id": "ch08_L4_read_5",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_032",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "В квартире есть балкон и подвал.",
+  "distractors": [
+   "В квартире есть кухня и ванная.",
+   "В квартире нет балкона."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Wohnung hat einen Balkon und einen Keller."
+ },
+ {
+  "item_id": "ch08_L4_speak_1",
+  "id": "ch08_L4_speak_1",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_028",
+  "prompt": "Спроси Ахмада: «Сколько составляет аренда?» Действие ist — сразу за wie hoch.",
+  "answer": "Wie hoch ist die Miete?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch08_028.mp3",
+  "de": null,
+  "accept": [
+   "Wie hoch ist die Miete?"
+  ]
+ },
+ {
+  "item_id": "ch08_L4_speak_2",
+  "id": "ch08_L4_speak_2",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_029",
+  "prompt": "Скажи: «Аренда — четыреста евро.» Ударение — на VIER, пауза — перед Euro.",
+  "answer": "Die Miete ist vierhundert Euro.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch08_029.mp3",
+  "de": null,
+  "accept": [
+   "Die Miete ist vierhundert Euro."
+  ]
+ },
+ {
+  "item_id": "ch08_L4_speak_3",
+  "id": "ch08_L4_speak_3",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_030",
+  "prompt": "Скажи: «Дополнительные расходы — ещё пятьдесят евро.»",
+  "answer": "Nebenkosten sind noch fünfzig Euro.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch08_030.mp3",
+  "de": null,
+  "accept": [
+   "Nebenkosten sind noch fünfzig Euro."
+  ]
+ },
+ {
+  "item_id": "ch08_L4_speak_4",
+  "id": "ch08_L4_speak_4",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_033",
+  "prompt": "Спроси: «В квартире есть подвал?» Голос в конце — вверх ↗.",
+  "answer": "Hat die Wohnung einen Keller?",
+  "distractors": null,
+  "rule_id": "topics/intonation",
+  "transfer": false,
+  "audio": "audio_v1/ch08_033.mp3",
+  "de": null,
+  "accept": [
+   "Hat die Wohnung einen Keller?"
+  ]
+ },
+ {
+  "item_id": "ch08_L4_speak_5",
+  "id": "ch08_L4_speak_5",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_031",
+  "prompt": "Скажи: «Вместе это четыреста пятьдесят евро.»",
+  "answer": "Das sind zusammen vierhundertfünfzig Euro.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch08_031.mp3",
+  "de": null,
+  "accept": [
+   "Das sind zusammen vierhundertfünfzig Euro."
+  ]
+ },
+ {
+  "item_id": "ch08_L4_write_1",
+  "id": "ch08_L4_write_1",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_027",
+  "prompt": "Впиши: «Hier ist eine ___.» (объявление)",
+  "answer": "Anzeige",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch08_027.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L4_write_2",
+  "id": "ch08_L4_write_2",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_028",
+  "prompt": "Впиши: «Wie hoch ist die ___?» (аренда)",
+  "answer": "Miete",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch08_028.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L4_write_3",
+  "id": "ch08_L4_write_3",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_029",
+  "prompt": "Впиши число словом: «Die Miete ist ___ Euro.» (400)",
+  "answer": "vierhundert",
+  "distractors": null,
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v1/ch08_029.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L4_write_4",
+  "id": "ch08_L4_write_4",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_031",
+  "prompt": "Впиши число словом, слитно: «Das sind zusammen ___ Euro.» (450)",
+  "answer": "vierhundertfünfzig",
+  "distractors": null,
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v1/ch08_031.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L4_write_5",
+  "id": "ch08_L4_write_5",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_032",
+  "prompt": "Впиши: «Die Wohnung hat einen Balkon und einen ___.» (подвал)",
+  "answer": "Keller",
+  "distractors": null,
+  "rule_id": "topics/akkusativ",
+  "transfer": false,
+  "audio": "audio_v1/ch08_032.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L4_why_1",
+  "id": "ch08_L4_why_1",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_029",
+  "prompt": "Почему «vierhundert» — это 400, а не 4?",
+  "answer": "vier + hundert = «четыре сотни»: сначала сколько сотен, потом hundert.",
+  "distractors": [
+   "hundert — лишнее слово: vier уже значит 400, hundert ничего не добавляет.",
+   "vierhundert — это четыре и сто, то есть сто четыре: числа складывают."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Miete ist vierhundert Euro."
+ },
+ {
+  "item_id": "ch08_L4_why_2",
+  "id": "ch08_L4_why_2",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_030",
+  "prompt": "Почему «Nebenkosten sind noch fünfzig Euro» — sind, а не ist?",
+  "answer": "Nebenkosten — множественное число: поэтому sind.",
+  "distractors": [
+   "sind — вежливая форма от ist, как Sie.",
+   "Nebenkosten — множественное число: поэтому ist."
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": null,
+  "de": "Nebenkosten sind noch fünfzig Euro."
+ },
+ {
+  "item_id": "ch08_L4_why_3",
+  "id": "ch08_L4_why_3",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_028",
+  "prompt": "Почему в «Wie hoch ist die Miete?» действие ist стоит сразу за wie hoch?",
+  "answer": "wie hoch — вагон №1, действие ist — сразу за ним, вагон №2.",
+  "distractors": [
+   "ist — самое короткое слово, оно идёт после любого вопроса.",
+   "Так бывает только в вопросах про деньги."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie hoch ist die Miete?"
+ },
+ {
+  "item_id": "ch08_L4_why_4",
+  "id": "ch08_L4_why_4",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_d4_07",
+  "prompt": "Почему «einen Balkon» после hat, а не «ein Balkon»?",
+  "answer": "Balkon — der-слово: после hat ein меняется на einen.",
+  "distractors": [
+   "Balkon — das-слово: после hat всегда einen.",
+   "einen — потому что балкон в квартире один."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Ja, die Wohnung hat einen Balkon und einen Keller."
+ },
+ {
+  "item_id": "ch08_L4_why_5",
+  "id": "ch08_L4_why_5",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_d4_08",
+  "prompt": "Почему в «Wir wollen morgen kommen» слово kommen стоит в самом конце?",
+  "answer": "wollen — вторым, а второе действие kommen уходит в конец: рамка.",
+  "distractors": [
+   "kommen — длинное слово, поэтому оно идёт последним.",
+   "wollen — вторым, а первое действие kommen уходит в конец: рамка."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Gut! Wir wollen morgen kommen."
+ },
+ {
+  "item_id": "ch08_L4_transfer_1",
+  "id": "ch08_L4_transfer_1",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_t07",
+  "prompt": "В другом объявлении спроси: «В квартире есть балкон?»",
+  "answer": "Hat die Wohnung einen Balkon?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch08_t07.mp3",
+  "de": null,
+  "accept": [
+   "Hat die Wohnung einen Balkon?"
+  ]
+ },
+ {
+  "item_id": "ch08_L4_transfer_2",
+  "id": "ch08_L4_transfer_2",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_t08",
+  "prompt": "Скажи: «Аренда — четыреста пятьдесят евро.»",
+  "answer": "Die Miete ist vierhundertfünfzig Euro.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch08_t08.mp3",
+  "de": null,
+  "accept": [
+   "Die Miete ist vierhundertfünfzig Euro."
+  ]
+ },
+ {
+  "item_id": "ch08_L4_transfer_3",
+  "id": "ch08_L4_transfer_3",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_t08",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Аренда — четыреста пятьдесят евро.",
+  "distractors": [
+   "Аренда — четыреста евро.",
+   "Дополнительные расходы — четыреста пятьдесят евро."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch08_t08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L4_transfer_4",
+  "id": "ch08_L4_transfer_4",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_t08",
+  "prompt": "Напиши по-немецки: «Аренда — четыреста пятьдесят евро.»",
+  "answer": "Die Miete ist vierhundertfünfzig Euro.",
+  "distractors": null,
+  "rule_id": "cards/numbers",
+  "transfer": true,
+  "audio": "audio_v1/ch08_t08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L4_transfer_5",
+  "id": "ch08_L4_transfer_5",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_t08",
+  "prompt": "Почему «vierhundertfünfzig» — это 450?",
+  "answer": "vier + hundert + fünfzig: сначала сотни, потом десятки.",
+  "distractors": [
+   "fünfzig — это пять, а vier добавляет ещё сорок.",
+   "Так пишут только суммы в евро, а не другие числа."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": null,
+  "de": "Die Miete ist vierhundertfünfzig Euro."
+ },
+ {
+  "item_id": "ch08_L4_boss_1",
+  "id": "ch08_L4_boss_1",
+  "lesson": "ch08_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d4_08",
+  "prompt": "Послушай. Когда они хотят прийти?",
+  "answer": "завтра",
+  "distractors": [
+   "сегодня",
+   "в субботу"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d4_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L5_words_1",
+  "id": "ch08_L5_words_1",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_035",
+  "prompt": "Что значит «man darf»?",
+  "answer": "можно",
+  "distractors": [
+   "нужно",
+   "хочется"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L5_words_2",
+  "id": "ch08_L5_words_2",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_036",
+  "prompt": "Что значит «darf nicht»?",
+  "answer": "нельзя",
+  "distractors": [
+   "не хочу",
+   "не надо"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L5_words_3",
+  "id": "ch08_L5_words_3",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_037",
+  "prompt": "Что значит «der Hof»?",
+  "answer": "двор",
+  "distractors": [
+   "дом",
+   "сад"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L5_words_4",
+  "id": "ch08_L5_words_4",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_038",
+  "prompt": "Что значит «das Haustier»?",
+  "answer": "домашнее животное",
+  "distractors": [
+   "детская игрушка",
+   "домашняя музыка"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L5_words_5",
+  "id": "ch08_L5_words_5",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_036",
+  "prompt": "Что значит «am Abend»?",
+  "answer": "вечером",
+  "distractors": [
+   "утром",
+   "сегодня"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L5_listen_1",
+  "id": "ch08_L5_listen_1",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d5_01",
+  "prompt": "Послушай. О чём спросил герой?",
+  "answer": "можно ли громко слушать музыку",
+  "distractors": [
+   "можно ли держать животное",
+   "где можно играть детям"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d5_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L5_listen_2",
+  "id": "ch08_L5_listen_2",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d5_02",
+  "prompt": "Послушай. Когда нельзя шуметь?",
+  "answer": "вечером",
+  "distractors": [
+   "утром",
+   "днём"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d5_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L5_listen_3",
+  "id": "ch08_L5_listen_3",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d5_03",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "А можно мне держать домашнее животное?",
+  "distractors": [
+   "А можно мне громко слушать здесь музыку?",
+   "А где во дворе можно играть детям?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d5_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L5_listen_4",
+  "id": "ch08_L5_listen_4",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d5_04",
+  "prompt": "Послушай. Можно ли животное?",
+  "answer": "да, можно",
+  "distractors": [
+   "нет, нельзя",
+   "только во дворе"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d5_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L5_listen_5",
+  "id": "ch08_L5_listen_5",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d5_06",
+  "prompt": "Послушай. Где можно играть детям?",
+  "answer": "во дворе",
+  "distractors": [
+   "в подвале",
+   "в коридоре"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d5_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L5_read_1",
+  "id": "ch08_L5_read_1",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_035",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Здесь можно громко слушать музыку?",
+  "distractors": [
+   "Здесь нельзя громко слушать музыку.",
+   "Здесь можно тихо слушать музыку?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Darf man hier laut Musik hören?"
+ },
+ {
+  "item_id": "ch08_L5_read_2",
+  "id": "ch08_L5_read_2",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_036",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Вечером нельзя шуметь.",
+  "distractors": [
+   "Вечером можно шуметь.",
+   "Утром нельзя шуметь."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Abend darf man nicht laut sein."
+ },
+ {
+  "item_id": "ch08_L5_read_3",
+  "id": "ch08_L5_read_3",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_037",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Во дворе детям можно играть.",
+  "distractors": [
+   "Во дворе детям нельзя играть.",
+   "В саду детям можно играть."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Im Hof dürfen die Kinder spielen."
+ },
+ {
+  "item_id": "ch08_L5_read_4",
+  "id": "ch08_L5_read_4",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_038",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Можно мне держать домашнее животное?",
+  "distractors": [
+   "У меня есть домашнее животное.",
+   "Можно мне слушать музыку?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Darf ich ein Haustier haben?"
+ },
+ {
+  "item_id": "ch08_L5_read_5",
+  "id": "ch08_L5_read_5",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_039",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Во дворе можно играть?",
+  "distractors": [
+   "Во дворе нельзя играть.",
+   "Где можно играть?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Darf man im Hof spielen?"
+ },
+ {
+  "item_id": "ch08_L5_speak_1",
+  "id": "ch08_L5_speak_1",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_035",
+  "prompt": "Спроси: «Здесь можно громко слушать музыку?» darf — впереди, hören — в конце.",
+  "answer": "Darf man hier laut Musik hören?",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch08_035.mp3",
+  "de": null,
+  "accept": [
+   "Darf man hier laut Musik hören?"
+  ]
+ },
+ {
+  "item_id": "ch08_L5_speak_2",
+  "id": "ch08_L5_speak_2",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_036",
+  "prompt": "Скажи: «Вечером нельзя шуметь.»",
+  "answer": "Am Abend darf man nicht laut sein.",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch08_036.mp3",
+  "de": null,
+  "accept": [
+   "Am Abend darf man nicht laut sein."
+  ]
+ },
+ {
+  "item_id": "ch08_L5_speak_3",
+  "id": "ch08_L5_speak_3",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_037",
+  "prompt": "Скажи: «Во дворе детям можно играть.» ü в dürfen — губы трубочкой.",
+  "answer": "Im Hof dürfen die Kinder spielen.",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch08_037.mp3",
+  "de": null,
+  "accept": [
+   "Im Hof dürfen die Kinder spielen."
+  ]
+ },
+ {
+  "item_id": "ch08_L5_speak_4",
+  "id": "ch08_L5_speak_4",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_038",
+  "prompt": "Спроси хозяйку: «Можно мне держать домашнее животное?» Голос в конце — вверх ↗.",
+  "answer": "Darf ich ein Haustier haben?",
+  "distractors": null,
+  "rule_id": "topics/intonation",
+  "transfer": false,
+  "audio": "audio_v1/ch08_038.mp3",
+  "de": null,
+  "accept": [
+   "Darf ich ein Haustier haben?"
+  ]
+ },
+ {
+  "item_id": "ch08_L5_speak_5",
+  "id": "ch08_L5_speak_5",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_039",
+  "prompt": "Спроси: «Во дворе можно играть?»",
+  "answer": "Darf man im Hof spielen?",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch08_039.mp3",
+  "de": null,
+  "accept": [
+   "Darf man im Hof spielen?"
+  ]
+ },
+ {
+  "item_id": "ch08_L5_write_1",
+  "id": "ch08_L5_write_1",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_035",
+  "prompt": "Впиши: «___ man hier laut Musik hören?» (можно)",
+  "answer": "Darf",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch08_035.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L5_write_2",
+  "id": "ch08_L5_write_2",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_036",
+  "prompt": "Впиши: «Am Abend darf man ___ laut sein.» (не)",
+  "answer": "nicht",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch08_036.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L5_write_3",
+  "id": "ch08_L5_write_3",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_037",
+  "prompt": "Впиши: «Im Hof ___ die Kinder spielen.» (можно; детей много)",
+  "answer": "dürfen",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch08_037.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L5_write_4",
+  "id": "ch08_L5_write_4",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_038",
+  "prompt": "Впиши: «Darf ich ein Haustier ___?» (иметь)",
+  "answer": "haben",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch08_038.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L5_write_5",
+  "id": "ch08_L5_write_5",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_039",
+  "prompt": "Впиши: «Darf ___ im Hof spielen?» (люди вообще)",
+  "answer": "man",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch08_039.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L5_why_1",
+  "id": "ch08_L5_why_1",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_035",
+  "prompt": "Почему «man darf», а не «man dürfen»?",
+  "answer": "С man форма как с er: man darf.",
+  "distractors": [
+   "dürfen — только в вопросах.",
+   "darf — вежливая форма для хозяйки."
+  ],
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": null,
+  "de": "Darf man hier laut Musik hören?"
+ },
+ {
+  "item_id": "ch08_L5_why_2",
+  "id": "ch08_L5_why_2",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_037",
+  "prompt": "Почему «die Kinder dürfen», а не «darf»?",
+  "answer": "Детей много: dürfen, как с wir.",
+  "distractors": [
+   "darf — только про взрослых людей.",
+   "dürfen — потому что это во дворе."
+  ],
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": null,
+  "de": "Im Hof dürfen die Kinder spielen."
+ },
+ {
+  "item_id": "ch08_L5_why_3",
+  "id": "ch08_L5_why_3",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_036",
+  "prompt": "Как сказать «нельзя» с dürfen?",
+  "answer": "darf nicht: Am Abend darf man nicht laut sein.",
+  "distractors": [
+   "Нужен другой глагол, dürfen не подходит.",
+   "Только словом nein в начале фразы."
+  ],
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Abend darf man nicht laut sein."
+ },
+ {
+  "item_id": "ch08_L5_why_4",
+  "id": "ch08_L5_why_4",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_038",
+  "prompt": "Почему в «Darf ich ein Haustier haben?» haben стоит в конце?",
+  "answer": "haben — второе действие: в конце, рамка.",
+  "distractors": [
+   "haben длинное, поэтому оно последнее.",
+   "haben всегда идёт после Haustier."
+  ],
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": null,
+  "de": "Darf ich ein Haustier haben?"
+ },
+ {
+  "item_id": "ch08_L5_why_5",
+  "id": "ch08_L5_why_5",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_d5_05",
+  "prompt": "Почему в «Wo dürfen die Kinder spielen?» dürfen стоит сразу после wo?",
+  "answer": "wo — вагон №1, dürfen — вагон №2.",
+  "distractors": [
+   "dürfen всегда стоит вторым словом с конца.",
+   "Так спрашивают только про детей."
+  ],
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": null,
+  "de": "Wo dürfen die Kinder spielen?"
+ },
+ {
+  "item_id": "ch08_L5_transfer_1",
+  "id": "ch08_L5_transfer_1",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_t09",
+  "prompt": "В другом доме спроси: «Можно мне здесь слушать музыку?»",
+  "answer": "Darf ich hier Musik hören?",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": true,
+  "audio": "audio_v1/ch08_t09.mp3",
+  "de": null,
+  "accept": [
+   "Darf ich hier Musik hören?"
+  ]
+ },
+ {
+  "item_id": "ch08_L5_transfer_2",
+  "id": "ch08_L5_transfer_2",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_t10",
+  "prompt": "Скажи: «Нам нельзя вечером шуметь.»",
+  "answer": "Wir dürfen am Abend nicht laut sein.",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": true,
+  "audio": "audio_v1/ch08_t10.mp3",
+  "de": null,
+  "accept": [
+   "Wir dürfen am Abend nicht laut sein."
+  ]
+ },
+ {
+  "item_id": "ch08_L5_transfer_3",
+  "id": "ch08_L5_transfer_3",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_t10",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Нам нельзя вечером шуметь.",
+  "distractors": [
+   "Нам можно вечером шуметь.",
+   "Нам нельзя утром шуметь."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch08_t10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L5_transfer_4",
+  "id": "ch08_L5_transfer_4",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_t10",
+  "prompt": "Напиши по-немецки: «Нам нельзя вечером шуметь.»",
+  "answer": "Wir dürfen am Abend nicht laut sein.",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": true,
+  "audio": "audio_v1/ch08_t10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L5_transfer_5",
+  "id": "ch08_L5_transfer_5",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_t10",
+  "prompt": "Почему «wir dürfen», а не «wir darf»?",
+  "answer": "С wir — dürfen: нас много.",
+  "distractors": [
+   "darf — только в вопросах с wir.",
+   "dürfen — потому что сейчас вечер."
+  ],
+  "rule_id": "topics/modal",
+  "transfer": true,
+  "audio": null,
+  "de": "Wir dürfen am Abend nicht laut sein."
+ },
+ {
+  "item_id": "ch08_L5_boss_1",
+  "id": "ch08_L5_boss_1",
+  "lesson": "ch08_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d5_05",
+  "prompt": "Послушай. О чём спросил герой?",
+  "answer": "где можно играть детям",
+  "distractors": [
+   "можно ли держать животное",
+   "можно ли громко слушать музыку"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d5_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L6_words_1",
+  "id": "ch08_L6_words_1",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_041",
+  "prompt": "Что значит «neu»?",
+  "answer": "новый",
+  "distractors": [
+   "старый",
+   "большой"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L6_words_2",
+  "id": "ch08_L6_words_2",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_042",
+  "prompt": "Что значит «die Traumwohnung»?",
+  "answer": "квартира мечты",
+  "distractors": [
+   "съёмная квартира",
+   "старая квартира"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L6_words_3",
+  "id": "ch08_L6_words_3",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_043",
+  "prompt": "Что значит «der Supermarkt»?",
+  "answer": "супермаркет",
+  "distractors": [
+   "школа",
+   "парковка"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L6_words_4",
+  "id": "ch08_L6_words_4",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_043",
+  "prompt": "Что значит «die Schule»?",
+  "answer": "школа",
+  "distractors": [
+   "сад",
+   "магазин"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L6_words_5",
+  "id": "ch08_L6_words_5",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_044",
+  "prompt": "Что значит «der Pool»?",
+  "answer": "бассейн",
+  "distractors": [
+   "балкон",
+   "гараж"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L6_listen_1",
+  "id": "ch08_L6_listen_1",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d6_01",
+  "prompt": "Послушай. Что сказал герой?",
+  "answer": "У нас новая квартира!",
+  "distractors": [
+   "У нас старая квартира!",
+   "У нас новый дом!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d6_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L6_listen_2",
+  "id": "ch08_L6_listen_2",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d6_02",
+  "prompt": "Послушай. О чём спросила Анна?",
+  "answer": "есть ли сад",
+  "distractors": [
+   "есть ли балкон",
+   "есть ли школа"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d6_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L6_listen_3",
+  "id": "ch08_L6_listen_3",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d6_03",
+  "prompt": "Послушай. Что есть вместо сада?",
+  "answer": "только балкон",
+  "distractors": [
+   "только подвал",
+   "только гараж"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d6_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L6_listen_4",
+  "id": "ch08_L6_listen_4",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d6_04",
+  "prompt": "Послушай. Что есть в квартире мечты Анны?",
+  "answer": "сад",
+  "distractors": [
+   "дом",
+   "пол"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d6_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L6_listen_5",
+  "id": "ch08_L6_listen_5",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d6_06",
+  "prompt": "Послушай. Что есть, по словам героя?",
+  "answer": "супермаркет и школа",
+  "distractors": [
+   "школа и сад",
+   "супермаркет и метро"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d6_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L6_read_1",
+  "id": "ch08_L6_read_1",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_041",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У нас новая квартира!",
+  "distractors": [
+   "У нас большая квартира!",
+   "Нам нужна новая квартира!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wir haben eine neue Wohnung!"
+ },
+ {
+  "item_id": "ch08_L6_read_2",
+  "id": "ch08_L6_read_2",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_042",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "В квартире моей мечты есть сад.",
+  "distractors": [
+   "В моей квартире есть сад.",
+   "В квартире мечты есть балкон."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Meine Traumwohnung hat einen Garten."
+ },
+ {
+  "item_id": "ch08_L6_read_3",
+  "id": "ch08_L6_read_3",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_043",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Есть супермаркет и школа.",
+  "distractors": [
+   "Есть супермаркет и сад.",
+   "Школы и супермаркета нет."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Es gibt einen Supermarkt und eine Schule."
+ },
+ {
+  "item_id": "ch08_L6_read_4",
+  "id": "ch08_L6_read_4",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_044",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я хочу квартиру с бассейном.",
+  "distractors": [
+   "Я хочу квартиру с балконом.",
+   "У меня квартира с бассейном."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich will eine Wohnung mit Pool."
+ },
+ {
+  "item_id": "ch08_L6_read_5",
+  "id": "ch08_L6_read_5",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_045",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "В квартире мечты есть бассейн?",
+  "distractors": [
+   "В квартире мечты есть сад?",
+   "Где квартира мечты?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Hat die Traumwohnung einen Pool?"
+ },
+ {
+  "item_id": "ch08_L6_speak_1",
+  "id": "ch08_L6_speak_1",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_041",
+  "prompt": "Скажи Анне: «У нас новая квартира!»",
+  "answer": "Wir haben eine neue Wohnung!",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch08_041.mp3",
+  "de": null,
+  "accept": [
+   "Wir haben eine neue Wohnung!"
+  ]
+ },
+ {
+  "item_id": "ch08_L6_speak_2",
+  "id": "ch08_L6_speak_2",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_042",
+  "prompt": "Скажи: «В квартире моей мечты есть сад.» au в Traum — «ау».",
+  "answer": "Meine Traumwohnung hat einen Garten.",
+  "distractors": null,
+  "rule_id": "topics/akkusativ",
+  "transfer": false,
+  "audio": "audio_v1/ch08_042.mp3",
+  "de": null,
+  "accept": [
+   "Meine Traumwohnung hat einen Garten."
+  ]
+ },
+ {
+  "item_id": "ch08_L6_speak_3",
+  "id": "ch08_L6_speak_3",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_043",
+  "prompt": "Скажи: «Есть супермаркет и школа.»",
+  "answer": "Es gibt einen Supermarkt und eine Schule.",
+  "distractors": null,
+  "rule_id": "topics/akkusativ",
+  "transfer": false,
+  "audio": "audio_v1/ch08_043.mp3",
+  "de": null,
+  "accept": [
+   "Es gibt einen Supermarkt und eine Schule."
+  ]
+ },
+ {
+  "item_id": "ch08_L6_speak_4",
+  "id": "ch08_L6_speak_4",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_044",
+  "prompt": "Скажи: «Я хочу квартиру с бассейном.» (eine — какую-нибудь, одну из)",
+  "answer": "Ich will eine Wohnung mit Pool.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch08_044.mp3",
+  "de": null,
+  "accept": [
+   "Ich will eine Wohnung mit Pool."
+  ]
+ },
+ {
+  "item_id": "ch08_L6_speak_5",
+  "id": "ch08_L6_speak_5",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_045",
+  "prompt": "Спроси: «В квартире мечты есть бассейн?» Голос в конце — вверх ↗.",
+  "answer": "Hat die Traumwohnung einen Pool?",
+  "distractors": null,
+  "rule_id": "topics/intonation",
+  "transfer": false,
+  "audio": "audio_v1/ch08_045.mp3",
+  "de": null,
+  "accept": [
+   "Hat die Traumwohnung einen Pool?"
+  ]
+ },
+ {
+  "item_id": "ch08_L6_write_1",
+  "id": "ch08_L6_write_1",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_041",
+  "prompt": "Впиши: «Wir ___ eine neue Wohnung!» (имеем)",
+  "answer": "haben",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch08_041.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L6_write_2",
+  "id": "ch08_L6_write_2",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_042",
+  "prompt": "Впиши: «Meine ___ hat einen Garten.» (квартира мечты)",
+  "answer": "Traumwohnung",
+  "distractors": null,
+  "rule_id": "topics/akkusativ",
+  "transfer": false,
+  "audio": "audio_v1/ch08_042.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L6_write_3",
+  "id": "ch08_L6_write_3",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_043",
+  "prompt": "Впиши: «Es gibt einen ___ und eine Schule.» (супермаркет)",
+  "answer": "Supermarkt",
+  "distractors": null,
+  "rule_id": "topics/akkusativ",
+  "transfer": false,
+  "audio": "audio_v1/ch08_043.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L6_write_4",
+  "id": "ch08_L6_write_4",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_044",
+  "prompt": "Впиши: «Ich ___ eine Wohnung mit Pool.» (хочу)",
+  "answer": "will",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch08_044.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L6_write_5",
+  "id": "ch08_L6_write_5",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_045",
+  "prompt": "Впиши: «Hat die Traumwohnung ___ Pool?» (der Pool после hat)",
+  "answer": "einen",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch08_045.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L6_why_1",
+  "id": "ch08_L6_why_1",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_041",
+  "prompt": "Почему «Wir haben eine neue Wohnung», а не «Bei uns ist …»?",
+  "answer": "«У нас есть» по-немецки — wir haben.",
+  "distractors": [
+   "haben говорят только про деньги.",
+   "Так проще: bei uns пишут в письмах."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Wir haben eine neue Wohnung!"
+ },
+ {
+  "item_id": "ch08_L6_why_2",
+  "id": "ch08_L6_why_2",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_042",
+  "prompt": "Почему «einen Garten», а не «ein Garten»?",
+  "answer": "Garten — der-слово: после hat — einen.",
+  "distractors": [
+   "Garten — das-слово: после hat einen.",
+   "einen — потому что сад большой."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Meine Traumwohnung hat einen Garten."
+ },
+ {
+  "item_id": "ch08_L6_why_3",
+  "id": "ch08_L6_why_3",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_043",
+  "prompt": "Почему «einen Supermarkt», но «eine Schule»?",
+  "answer": "Supermarkt — der-слово: einen; Schule — die: eine.",
+  "distractors": [
+   "Supermarkt больше школы, поэтому einen.",
+   "Supermarkt — die-слово: einen; Schule — die: eine."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Es gibt einen Supermarkt und eine Schule."
+ },
+ {
+  "item_id": "ch08_L6_why_4",
+  "id": "ch08_L6_why_4",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_044",
+  "prompt": "Почему в «Ich will eine Wohnung mit Pool» нет второго действия в конце?",
+  "answer": "will + то, что хочешь: второго действия нет.",
+  "distractors": [
+   "Второе действие пропало, его забыли.",
+   "Pool — это и есть второе действие."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich will eine Wohnung mit Pool."
+ },
+ {
+  "item_id": "ch08_L6_why_5",
+  "id": "ch08_L6_why_5",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_d6_04",
+  "prompt": "Почему die Traumwohnung — die-слово?",
+  "answer": "Род по последней части: die Wohnung.",
+  "distractors": [
+   "Род по первой части: der Traum → die.",
+   "Все длинные слова — die-слова."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Meine Traumwohnung hat einen Garten."
+ },
+ {
+  "item_id": "ch08_L6_transfer_1",
+  "id": "ch08_L6_transfer_1",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_t11",
+  "prompt": "Расскажи о мечте: «В квартире моей мечты есть балкон.»",
+  "answer": "Meine Traumwohnung hat einen Balkon.",
+  "distractors": null,
+  "rule_id": "topics/akkusativ",
+  "transfer": true,
+  "audio": "audio_v1/ch08_t11.mp3",
+  "de": null,
+  "accept": [
+   "Meine Traumwohnung hat einen Balkon."
+  ]
+ },
+ {
+  "item_id": "ch08_L6_transfer_2",
+  "id": "ch08_L6_transfer_2",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_t12",
+  "prompt": "Скажи: «Есть школа и сад.»",
+  "answer": "Es gibt eine Schule und einen Garten.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch08_t12.mp3",
+  "de": null,
+  "accept": [
+   "Es gibt eine Schule und einen Garten."
+  ]
+ },
+ {
+  "item_id": "ch08_L6_transfer_3",
+  "id": "ch08_L6_transfer_3",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_t12",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Есть школа и сад.",
+  "distractors": [
+   "Есть школа и супермаркет.",
+   "Школы и сада нет."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch08_t12.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L6_transfer_4",
+  "id": "ch08_L6_transfer_4",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_t12",
+  "prompt": "Напиши по-немецки: «Есть школа и сад.»",
+  "answer": "Es gibt eine Schule und einen Garten.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch08_t12.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L6_transfer_5",
+  "id": "ch08_L6_transfer_5",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_t12",
+  "prompt": "Почему в «Es gibt eine Schule und einen Garten» gibt один, а не два?",
+  "answer": "Оба предмета идут после одного es gibt.",
+  "distractors": [
+   "Второй gibt опущен по ошибке: нужно «gibt … und gibt».",
+   "gibt ставят один раз и только в конце фразы."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": null,
+  "de": "Es gibt eine Schule und einen Garten."
+ },
+ {
+  "item_id": "ch08_L6_boss_1",
+  "id": "ch08_L6_boss_1",
+  "lesson": "ch08_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d6_07",
+  "prompt": "Послушай. Чего хочет Анна?",
+  "answer": "квартиру с бассейном",
+  "distractors": [
+   "квартиру с балконом",
+   "дом с большим гаражом"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d6_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L7_words_1",
+  "id": "ch08_L7_words_1",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_047",
+  "prompt": "Что значит «hell»?",
+  "answer": "светлый",
+  "distractors": [
+   "тёмный",
+   "очень тихий"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L7_words_2",
+  "id": "ch08_L7_words_2",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_047",
+  "prompt": "Что значит «ruhig»?",
+  "answer": "тихий",
+  "distractors": [
+   "шумный",
+   "очень старый"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L7_words_3",
+  "id": "ch08_L7_words_3",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_049",
+  "prompt": "Что значит «dunkel»?",
+  "answer": "тёмный",
+  "distractors": [
+   "светлый",
+   "новый"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L7_words_4",
+  "id": "ch08_L7_words_4",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_048",
+  "prompt": "Что значит «modern»?",
+  "answer": "современный",
+  "distractors": [
+   "очень старый",
+   "большой"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L7_words_5",
+  "id": "ch08_L7_words_5",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch08_050",
+  "prompt": "Что значит «unmodern»?",
+  "answer": "несовременный",
+  "distractors": [
+   "современный и новый",
+   "тёмный"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch08_L7_listen_1",
+  "id": "ch08_L7_listen_1",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d7_01",
+  "prompt": "Послушай. О чём спросил герой?",
+  "answer": "Квартира светлая и тихая?",
+  "distractors": [
+   "Квартира тёмная и шумная?",
+   "Кухня современная?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d7_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L7_listen_2",
+  "id": "ch08_L7_listen_2",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d7_02",
+  "prompt": "Послушай. Что тёмное в квартире?",
+  "answer": "комната",
+  "distractors": [
+   "кухня",
+   "квартира"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d7_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L7_listen_3",
+  "id": "ch08_L7_listen_3",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d7_04",
+  "prompt": "Послушай. Какая кухня?",
+  "answer": "несовременная",
+  "distractors": [
+   "современная",
+   "светлая и тихая"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d7_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L7_listen_4",
+  "id": "ch08_L7_listen_4",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d7_06",
+  "prompt": "Послушай. Сколько стоит аренда?",
+  "answer": "четыреста евро",
+  "distractors": [
+   "сто евро",
+   "четыреста пятьдесят евро"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d7_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L7_listen_5",
+  "id": "ch08_L7_listen_5",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d7_09",
+  "prompt": "Послушай. Что ответил герой про уборку?",
+  "answer": "тебе не нужно убираться",
+  "distractors": [
+   "тебе нельзя убираться",
+   "я хочу убраться вместе"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d7_09.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L7_listen_6",
+  "id": "ch08_L7_listen_6",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d7_11",
+  "prompt": "Послушай. Когда нельзя шуметь?",
+  "answer": "вечером",
+  "distractors": [
+   "утром",
+   "днём, когда тихо"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d7_11.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L7_read_1",
+  "id": "ch08_L7_read_1",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_047",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Квартира светлая и тихая.",
+  "distractors": [
+   "Квартира тёмная и шумная.",
+   "Квартира новая и большая."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Wohnung ist hell und ruhig."
+ },
+ {
+  "item_id": "ch08_L7_read_2",
+  "id": "ch08_L7_read_2",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_048",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Кухня современная?",
+  "distractors": [
+   "Кухня несовременная?",
+   "Где находится кухня?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ist die Küche modern?"
+ },
+ {
+  "item_id": "ch08_L7_read_3",
+  "id": "ch08_L7_read_3",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_049",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Комната тёмная.",
+  "distractors": [
+   "Комната светлая.",
+   "Комната маленькая и тёмная."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das Zimmer ist dunkel."
+ },
+ {
+  "item_id": "ch08_L7_read_4",
+  "id": "ch08_L7_read_4",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_050",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Кухня несовременная.",
+  "distractors": [
+   "Кухня современная.",
+   "Кухня светлая и новая."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Küche ist unmodern."
+ },
+ {
+  "item_id": "ch08_L7_read_5",
+  "id": "ch08_L7_read_5",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_051",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Тебе не нужно убираться.",
+  "distractors": [
+   "Тебе нельзя здесь убираться.",
+   "Ты хочешь убраться."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Du musst nicht aufräumen."
+ },
+ {
+  "item_id": "ch08_L7_read_6",
+  "id": "ch08_L7_read_6",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch08_052",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Мне тоже нужно убираться?",
+  "distractors": [
+   "Мне тоже можно здесь убираться?",
+   "Я тоже хочу убраться."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Muss ich auch aufräumen?"
+ },
+ {
+  "item_id": "ch08_L7_speak_1",
+  "id": "ch08_L7_speak_1",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_047",
+  "prompt": "Скажи: «Квартира светлая и тихая.»",
+  "answer": "Die Wohnung ist hell und ruhig.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch08_047.mp3",
+  "de": null,
+  "accept": [
+   "Die Wohnung ist hell und ruhig."
+  ]
+ },
+ {
+  "item_id": "ch08_L7_speak_2",
+  "id": "ch08_L7_speak_2",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_048",
+  "prompt": "Спроси: «Кухня современная?» Голос в конце — вверх ↗.",
+  "answer": "Ist die Küche modern?",
+  "distractors": null,
+  "rule_id": "topics/intonation",
+  "transfer": false,
+  "audio": "audio_v1/ch08_048.mp3",
+  "de": null,
+  "accept": [
+   "Ist die Küche modern?"
+  ]
+ },
+ {
+  "item_id": "ch08_L7_speak_3",
+  "id": "ch08_L7_speak_3",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_050",
+  "prompt": "Скажи: «Кухня несовременная.»",
+  "answer": "Die Küche ist unmodern.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch08_050.mp3",
+  "de": null,
+  "accept": [
+   "Die Küche ist unmodern."
+  ]
+ },
+ {
+  "item_id": "ch08_L7_speak_4",
+  "id": "ch08_L7_speak_4",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_051",
+  "prompt": "Скажи: «Тебе не нужно убираться.» С du — musst.",
+  "answer": "Du musst nicht aufräumen.",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch08_051.mp3",
+  "de": null,
+  "accept": [
+   "Du musst nicht aufräumen."
+  ]
+ },
+ {
+  "item_id": "ch08_L7_speak_5",
+  "id": "ch08_L7_speak_5",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_036",
+  "prompt": "Скажи: «Вечером нельзя шуметь.» darf nicht — «нельзя».",
+  "answer": "Am Abend darf man nicht laut sein.",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch08_036.mp3",
+  "de": null,
+  "accept": [
+   "Am Abend darf man nicht laut sein."
+  ]
+ },
+ {
+  "item_id": "ch08_L7_write_1",
+  "id": "ch08_L7_write_1",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_047",
+  "prompt": "Впиши: «Die Wohnung ist ___ und ruhig.» (светлая)",
+  "answer": "hell",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch08_047.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L7_write_2",
+  "id": "ch08_L7_write_2",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_049",
+  "prompt": "Впиши: «Das Zimmer ist ___.» (тёмная)",
+  "answer": "dunkel",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch08_049.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L7_write_3",
+  "id": "ch08_L7_write_3",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_050",
+  "prompt": "Впиши: «Die Küche ist ___.» (несовременная)",
+  "answer": "unmodern",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch08_050.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L7_write_4",
+  "id": "ch08_L7_write_4",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_051",
+  "prompt": "Впиши: «Du ___ nicht aufräumen.» (тебе не нужно)",
+  "answer": "musst",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch08_051.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L7_write_5",
+  "id": "ch08_L7_write_5",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_036",
+  "prompt": "Впиши: «Am Abend ___ man nicht laut sein.» (нельзя)",
+  "answer": "darf",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch08_036.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L7_why_1",
+  "id": "ch08_L7_why_1",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_051",
+  "prompt": "Как сказать «тебе не нужно убираться» (необязательно)?",
+  "answer": "musst nicht: Du musst nicht aufräumen.",
+  "distractors": [
+   "darf nicht: «не нужно» и «нельзя» — одно и то же.",
+   "Только словом nein в начале фразы."
+  ],
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": null,
+  "de": "Du musst nicht aufräumen."
+ },
+ {
+  "item_id": "ch08_L7_why_2",
+  "id": "ch08_L7_why_2",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_d7_11",
+  "prompt": "Чем «darf nicht» отличается от «muss nicht»?",
+  "answer": "darf nicht — «нельзя» (запрет); muss nicht — «не нужно».",
+  "distractors": [
+   "Это одно и то же: оба значат «не нужно», но darf nicht говорят строже.",
+   "muss nicht — вежливо, darf nicht — грубо."
+  ],
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": null,
+  "de": "Nein, am Abend darf man nicht laut sein."
+ },
+ {
+  "item_id": "ch08_L7_why_3",
+  "id": "ch08_L7_why_3",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_052",
+  "prompt": "Почему в «Muss ich auch aufräumen?» aufräumen стоит в конце?",
+  "answer": "aufräumen — второе действие: в конце, рамка.",
+  "distractors": [
+   "aufräumen длинное, поэтому оно последнее.",
+   "aufräumen всегда идёт после слова auch."
+  ],
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": null,
+  "de": "Muss ich auch aufräumen?"
+ },
+ {
+  "item_id": "ch08_L7_why_4",
+  "id": "ch08_L7_why_4",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_050",
+  "prompt": "Почему «unmodern» значит «несовременная»?",
+  "answer": "un- даёт противоположное: modern — unmodern.",
+  "distractors": [
+   "un- — это «очень»: «очень современная».",
+   "un- ставят, когда слово длинное."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Küche ist unmodern."
+ },
+ {
+  "item_id": "ch08_L7_why_5",
+  "id": "ch08_L7_why_5",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_049",
+  "prompt": "Почему после ist слово dunkel стоит без окончания?",
+  "answer": "После ist описание — как знак «=»: Das Zimmer ist dunkel.",
+  "distractors": [
+   "dunkel — исключение: оно всегда без окончания.",
+   "Окончание не пишут в коротких фразах."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Das Zimmer ist dunkel."
+ },
+ {
+  "item_id": "ch08_L7_transfer_1",
+  "id": "ch08_L7_transfer_1",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_t13",
+  "prompt": "Спроси про другую квартиру: «Комната светлая?»",
+  "answer": "Ist das Zimmer hell?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch08_t13.mp3",
+  "de": null,
+  "accept": [
+   "Ist das Zimmer hell?"
+  ]
+ },
+ {
+  "item_id": "ch08_L7_transfer_2",
+  "id": "ch08_L7_transfer_2",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch08_t14",
+  "prompt": "Скажи: «Тебе не нужно приходить.»",
+  "answer": "Du musst nicht kommen.",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": true,
+  "audio": "audio_v1/ch08_t14.mp3",
+  "de": null,
+  "accept": [
+   "Du musst nicht kommen."
+  ]
+ },
+ {
+  "item_id": "ch08_L7_transfer_3",
+  "id": "ch08_L7_transfer_3",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_t14",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Тебе не нужно приходить.",
+  "distractors": [
+   "Тебе нельзя приходить.",
+   "Мне не нужно приходить."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch08_t14.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L7_transfer_4",
+  "id": "ch08_L7_transfer_4",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch08_t14",
+  "prompt": "Напиши по-немецки: «Тебе не нужно приходить.»",
+  "answer": "Du musst nicht kommen.",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": true,
+  "audio": "audio_v1/ch08_t14.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch08_L7_transfer_5",
+  "id": "ch08_L7_transfer_5",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch08_t14",
+  "prompt": "Почему «Du musst nicht kommen» — это «не нужно», а не «нельзя»?",
+  "answer": "musst nicht — «необязательно»; «нельзя» — это darf nicht.",
+  "distractors": [
+   "nicht после musst всегда значит «нельзя», как darf nicht.",
+   "С du слово musst значит «нельзя»."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": true,
+  "audio": null,
+  "de": "Du musst nicht kommen."
+ },
+ {
+  "item_id": "ch08_L7_boss_1",
+  "id": "ch08_L7_boss_1",
+  "lesson": "ch08_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch08_d7_07",
+  "prompt": "Послушай. Что хочет сделать герой сегодня?",
+  "answer": "убраться",
+  "distractors": [
+   "купить мебель",
+   "послушать музыку"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch08_d7_07.mp3",
+  "de": null
+ }
+]

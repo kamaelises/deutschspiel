@@ -1,0 +1,6473 @@
+[
+ {
+  "id": "ch08_001",
+  "de": "Hier ist die Wohnung.",
+  "ru": "Вот квартира.",
+  "nouns": [
+   {
+    "lemma": "Wohnung",
+    "art": "die",
+    "pl": "Wohnungen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Hier",
+     "role": "где"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "die Wohnung",
+     "role": "кто"
+    }
+   ],
+   "text": "hier — «здесь»; Hier ist … — так показывают: «Вот …». hier заняло вагон №1, действие ist — вагон №2, а die Wohnung — за ним.",
+   "topic": "verb2",
+   "why_de": "Вагон №1 занят: Hier. Действие ist всё равно в вагоне №2, а «кто» (die Wohnung) — за ним: Hier ist die Wohnung.",
+   "why_ru": "По-русски «Вот квартира» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, ist — вагон №2.",
+   "layer": "inv",
+   "why_not": {
+    "wrong": "Hier die Wohnung ist.",
+    "ru": "Русский порядок: «кто» (die Wohnung) перед действием, и ist уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "hier — «здесь»; Hier ist … — так показывают: «Вот …»."
+  },
+  "audio": "audio_v1/ch08_001.mp3",
+  "tts": "Hier ist die Wohnung.",
+  "ipa": [
+   {
+    "w": "Hier",
+    "ipa": "[hiːɐ̯]",
+    "src": "override"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wohnung",
+    "ipa": "[ˈvoːnʊŋ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_002",
+  "de": "Es gibt eine Küche und ein Bad.",
+  "ru": "Есть кухня и ванная.",
+  "nouns": [
+   {
+    "lemma": "Küche",
+    "art": "die",
+    "pl": "Küchen"
+   },
+   {
+    "lemma": "Bad",
+    "art": "das",
+    "pl": "Bäder"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Es",
+     "role": "кто"
+    },
+    {
+     "w": "gibt",
+     "role": "действие №2"
+    },
+    {
+     "w": "eine Küche und ein Bad",
+     "role": "кого-что"
+    }
+   ],
+   "text": "es gibt — «есть, имеется»: так говорят, что что-то есть вообще. Küche — die-слово: eine. Bad — das-слово: ein.",
+   "topic": "verb2",
+   "why_de": "Es · gibt · eine Küche und ein Bad: действие gibt — вагон №2, опора всего предложения.",
+   "why_ru": "По-русски «Есть кухня и ванная» — «есть» в смысле имеется. По-немецки так говорят готовым оборотом es gibt, дословно — оно даёт: Es gibt eine Küche und ein Bad. Действие gibt держит вагон №2.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Es eine Küche und ein Bad gibt.",
+    "ru": "Действие gibt уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе gibt — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "es gibt — «есть, имеется»: так говорят, что что-то есть вообще. Küche — die-слово: eine. Bad — das-слово: ein.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «что»",
+    "items": [
+     {
+      "id": "ch08_004",
+      "de": "Es gibt einen Keller.",
+      "ru": "Есть подвал.",
+      "audio": "audio_v1/ch08_004.mp3",
+      "lesson": "L1",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "eine Küche und ein Bad",
+       "to": "einen Keller"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Es · gibt. В каждом примере меняется один вагон — «что»: eine Küche und ein Bad → einen Keller. Действие gibt всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch08_002.mp3",
+  "tts": "Es gibt eine Küche und ein Bad.",
+  "ipa": [
+   {
+    "w": "Es",
+    "ipa": "[ɛs]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gibt",
+    "ipa": "[ɡiːpt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "eine",
+    "ipa": "[ˈaɪ̯nə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Küche",
+    "ipa": "[ˈkʏçə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "und",
+    "ipa": "[ʊnt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ein",
+    "ipa": "[aɪ̯n]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bad",
+    "ipa": "[baːt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_003",
+  "de": "Gibt es auch einen Balkon?",
+  "ru": "А балкон тоже есть?",
+  "nouns": [
+   {
+    "lemma": "Balkon",
+    "art": "der",
+    "pl": "Balkons"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Gibt",
+     "role": "действие №1"
+    },
+    {
+     "w": "es",
+     "role": "кто"
+    },
+    {
+     "w": "auch",
+     "role": "добавка"
+    },
+    {
+     "w": "einen Balkon",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Вопрос «да/нет»: gibt впереди. Balkon — der-слово: после es gibt ein меняется на einen.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Gibt) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Gibt es auch einen Balkon?",
+   "why_ru": "По-русски «А балкон тоже есть» — вопрос только голосом, порядок как в ответе. По-немецки действие Gibt выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Es gibt auch einen Balkon?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («А балкон тоже есть?!»). Обычный вопрос — действие впереди."
+   },
+   "root": null,
+   "why_voice_ru": "Вопрос «да/нет»: gibt впереди. Balkon — der-слово: после es gibt ein меняется на einen."
+  },
+  "audio": "audio_v1/ch08_003.mp3",
+  "tts": "Gibt es auch einen Balkon?",
+  "ipa": [
+   {
+    "w": "Gibt",
+    "ipa": "[ɡiːpt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "es",
+    "ipa": "[ɛs]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "auch",
+    "ipa": "[aʊ̯x]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "einen",
+    "ipa": "[ˈaɪ̯nən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Balkon",
+    "ipa": "[balˈkɔ̃ː]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_004",
+  "de": "Es gibt einen Keller.",
+  "ru": "Есть подвал.",
+  "nouns": [
+   {
+    "lemma": "Keller",
+    "art": "der",
+    "pl": "Keller"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Es",
+     "role": "кто"
+    },
+    {
+     "w": "gibt",
+     "role": "действие №2"
+    },
+    {
+     "w": "einen Keller",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Keller — der-слово. После es gibt оно в роли «кого-что»: ein меняется на einen.",
+   "topic": "akkusativ",
+   "why_de": "Артикль — сигнал роли: der → den/einen показывает «кого-что»: Es gibt einen Keller.",
+   "why_ru": "Похоже на русские окончания, только меняется не слово, а артикль: Es gibt einen Keller.",
+   "layer": "akk",
+   "why_not": {
+    "wrong": "Es gibt ein Keller.",
+    "ru": "Русская привычка: артикль не меняется. Немец слышит не ту роль: тут der-слово в роли «кого-что» — einen."
+   },
+   "root": null,
+   "why_voice_ru": "Keller — der-слово. После es gibt оно в роли «кого-что»: ein меняется на einen.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «что»",
+    "items": [
+     {
+      "id": "ch08_002",
+      "de": "Es gibt eine Küche und ein Bad.",
+      "ru": "Есть кухня и ванная.",
+      "audio": "audio_v1/ch08_002.mp3",
+      "lesson": "L1",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "einen Keller",
+       "to": "eine Küche und ein Bad"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Es · gibt. В каждом примере меняется один вагон — «что»: einen Keller → eine Küche und ein Bad. Действие gibt всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch08_004.mp3",
+  "tts": "Es gibt einen Keller.",
+  "ipa": [
+   {
+    "w": "Es",
+    "ipa": "[ɛs]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gibt",
+    "ipa": "[ɡiːpt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "einen",
+    "ipa": "[ˈaɪ̯nən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Keller",
+    "ipa": "[ˈkɛlɐ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_005",
+  "de": "Wo ist das Schlafzimmer?",
+  "ru": "Где спальня?",
+  "nouns": [
+   {
+    "lemma": "Schlafzimmer",
+    "art": "das",
+    "pl": "Schlafzimmer"
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#12864693 CC BY 2.0 FR (автор Waldelfe)",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Wo",
+     "role": "вопрос-слово",
+     "asks": "где"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "das Schlafzimmer",
+     "role": "кто"
+    }
+   ],
+   "text": "wo — «где», вагон №1; действие ist — сразу за ним. Schlafzimmer — das-слово.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Wo — вагон №1, действие ist — сразу за ним, вагон №2: Wo ist das Schlafzimmer? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Где спальня» можно сказать и в другом порядке. По-немецки порядок один: Wo · ist · das Schlafzimmer. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Wo das Schlafzimmer ist?",
+    "ru": "das Schlafzimmer встал перед ist — действие ушло из вагона №2. После Wo немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "wo — «где», вагон №1; действие ist — сразу за ним. Schlafzimmer — das-слово."
+  },
+  "audio": "audio_v1/ch08_005.mp3",
+  "tts": "Wo ist das Schlafzimmer?",
+  "ipa": [
+   {
+    "w": "Wo",
+    "ipa": "[voː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "das",
+    "ipa": "[das]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Schlafzimmer",
+    "ipa": "[ˈʃlaːfˌt͡sɪmɐ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_006",
+  "de": "Gibt es einen Keller?",
+  "ru": "Подвал есть?",
+  "nouns": [
+   {
+    "lemma": "Keller",
+    "art": "der",
+    "pl": "Keller"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Gibt",
+     "role": "действие №1"
+    },
+    {
+     "w": "es",
+     "role": "кто"
+    },
+    {
+     "w": "einen Keller",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Вопрос «да/нет»: gibt впереди. Keller — der-слово: после es gibt — einen.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Gibt) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Gibt es einen Keller?",
+   "why_ru": "По-русски «Подвал есть» — вопрос только голосом, порядок как в ответе. По-немецки действие Gibt выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Es gibt einen Keller?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Подвал есть?!»). Обычный вопрос — действие впереди."
+   },
+   "root": null,
+   "why_voice_ru": "Вопрос «да/нет»: gibt впереди. Keller — der-слово: после es gibt — einen."
+  },
+  "audio": "audio_v1/ch08_006.mp3",
+  "tts": "Gibt es einen Keller?",
+  "ipa": [
+   {
+    "w": "Gibt",
+    "ipa": "[ɡiːpt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "es",
+    "ipa": "[ɛs]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "einen",
+    "ipa": "[ˈaɪ̯nən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Keller",
+    "ipa": "[ˈkɛlɐ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_007",
+  "de": "Wohnzimmer, Kinderzimmer, Arbeitszimmer, Flur, Toilette, Garderobe.",
+  "ru": "Гостиная, детская, кабинет, коридор, туалет, вешалка.",
+  "nouns": [
+   {
+    "lemma": "Wohnzimmer",
+    "art": "das",
+    "pl": "Wohnzimmer"
+   },
+   {
+    "lemma": "Kinderzimmer",
+    "art": "das",
+    "pl": "Kinderzimmer"
+   },
+   {
+    "lemma": "Arbeitszimmer",
+    "art": "das",
+    "pl": "Arbeitszimmer"
+   },
+   {
+    "lemma": "Flur",
+    "art": "der",
+    "pl": "Flure"
+   },
+   {
+    "lemma": "Toilette",
+    "art": "die",
+    "pl": "Toiletten"
+   },
+   {
+    "lemma": "Garderobe",
+    "art": "die",
+    "pl": "Garderoben"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Wohnzimmer",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Kinderzimmer",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Arbeitszimmer",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Flur",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Toilette",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Garderobe",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Слова курса: das Wohnzimmer, das Kinderzimmer, das Arbeitszimmer, der Flur, die Toilette, die Garderobe.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: das Wohnzimmer — гостиная · das Kinderzimmer — детская · das Arbeitszimmer — кабинет · der Flur — коридор · die Toilette — туалет · die Garderobe — вешалка.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: das Wohnzimmer, das Kinderzimmer, das Arbeitszimmer, der Flur, die Toilette, die Garderobe."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: das Wohnzimmer, das Kinderzimmer, das Arbeitszimmer, der Flur, die Toilette, die Garderobe."
+  },
+  "audio": "audio_v1/ch08_007.mp3",
+  "tts": "Wohnzimmer, Kinderzimmer, Arbeitszimmer, Flur, Toilette, Garderobe.",
+  "ipa": [
+   {
+    "w": "Wohnzimmer",
+    "ipa": "[ˈvoːnˌt͡sɪmɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kinderzimmer",
+    "ipa": "[ˈkɪndɐˌt͡sɪmɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Arbeitszimmer",
+    "ipa": "[ˈaʁbaɪ̯t͡sˌt͡sɪmɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Flur",
+    "ipa": "[fluːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Toilette",
+    "ipa": "[toˈlɛtə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Garderobe",
+    "ipa": "[ɡaʁdəˈʁoːbə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_008",
+  "de": "Wo wohnen Sie?",
+  "ru": "Где вы живёте?",
+  "nouns": [],
+  "chunk": true,
+  "source": "tatoeba:#703779 CC BY 2.0 FR (автор Esperantostern)",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Wo",
+     "role": "вопрос-слово",
+     "asks": "где"
+    },
+    {
+     "w": "wohnen",
+     "role": "действие №2"
+    },
+    {
+     "w": "Sie",
+     "role": "кто"
+    }
+   ],
+   "text": "wo — «где»: вопрос-слово, за ним действие.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Wo — вагон №1, действие wohnen — сразу за ним, вагон №2: Wo wohnen Sie? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Где вы живёте» можно сказать и в другом порядке. По-немецки порядок один: Wo · wohnen · Sie.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Wo Sie wohnen?",
+    "ru": "Sie встал перед wohnen — действие ушло из вагона №2. После Wo немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": null,
+   "why_voice_ru": "wo — «где»: вопрос-слово, за ним действие."
+  },
+  "audio": "audio_v1/ch08_008.mp3",
+  "tts": "Wo wohnen Sie?",
+  "ipa": [
+   {
+    "w": "Wo",
+    "ipa": "[voː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "wohnen",
+    "ipa": "[ˈvoːnən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Sie",
+    "ipa": "[ziː]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_009",
+  "de": "Ich wohne bei Freiberg.",
+  "ru": "Я живу возле Фрайберга.",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "wohne",
+     "role": "действие №2"
+    },
+    {
+     "w": "bei Freiberg",
+     "role": "где"
+    }
+   ],
+   "text": "bei — «возле»: рядом с городом. С ich — wohne.",
+   "topic": "verb2",
+   "why_de": "Ich · wohne · bei Freiberg: действие wohne — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Я живу возле Фрайберга» — Ich wohne bei Freiberg. Разница одна: по-немецки wohne держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich bei Freiberg wohne.",
+    "ru": "Действие wohne уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе wohne — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "bei — «возле»: рядом с городом. С ich — wohne."
+  },
+  "audio": "audio_v1/ch08_009.mp3",
+  "tts": "Ich wohne bei Freiberg.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "wohne",
+    "ipa": "[ˈvoːnə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "bei",
+    "ipa": "[baɪ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Freiberg",
+    "ipa": "[ˈfʁaɪ̯ˌbɛʁk]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_010",
+  "de": "Das ist Frau Wagner.",
+  "ru": "Это госпожа Вагнер.",
+  "nouns": [
+   {
+    "lemma": "Frau",
+    "art": "die",
+    "pl": "Frauen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Das",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "Frau Wagner",
+     "role": "кто"
+    }
+   ],
+   "text": "Так представляют человека: Das ist + Frau + фамилия.",
+   "topic": "verb2",
+   "why_de": "ist работает как знак «=»: das = Frau Wagner. Действие держит вагон №2.",
+   "why_ru": "По-русски «Это госпожа Вагнер» — без «есть». По-немецки без ist нельзя: Das ist Frau Wagner.",
+   "layer": "eq",
+   "why_not": {
+    "wrong": "Das Frau Wagner.",
+    "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "Так представляют человека: Das ist + Frau + фамилия."
+  },
+  "audio": "audio_v1/ch08_010.mp3",
+  "tts": "Das ist Frau Wagner.",
+  "ipa": [
+   {
+    "w": "Das",
+    "ipa": "[das]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Frau",
+    "ipa": "[fʁaʊ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wagner",
+    "ipa": "[ˈvaːɡnɐ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_011",
+  "de": "Eure Wohnung ist sehr schön!",
+  "ru": "Какая у вас красивая квартира!",
+  "nouns": [
+   {
+    "lemma": "Wohnung",
+    "art": "die",
+    "pl": "Wohnungen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Eure Wohnung",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "sehr schön",
+     "role": "какой/как"
+    }
+   ],
+   "text": "eure — «ваша»: к die-слову Wohnung добавляется -e, как в «meine Wohnung». sehr schön — «очень красивая»: ist, как знак «=».",
+   "topic": "verb2",
+   "why_de": "Eure Wohnung · ist · sehr schön: действие ist — вагон №2, опора всего предложения.",
+   "why_ru": "По-русски «Какая у вас красивая квартира» — без действия «есть». По-немецки без ist фразы нет: Eure Wohnung ist sehr schön!",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Eure Wohnung sehr schön!",
+    "ru": "Русская привычка — без действия, как «Какая у вас красивая квартира». Без ist немец слышит обрывок, а не фразу."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "eure — «ваша»: к die-слову Wohnung добавляется -e, как в «meine Wohnung». sehr schön — «очень красивая»: ist, как знак «=»."
+  },
+  "audio": "audio_v1/ch08_011.mp3",
+  "tts": "Eure Wohnung ist sehr schön!",
+  "ipa": [
+   {
+    "w": "Eure",
+    "ipa": "[ˈɔɪ̯ʁə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wohnung",
+    "ipa": "[ˈvoːnʊŋ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "sehr",
+    "ipa": "[zeːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "schön",
+    "ipa": "[ʃøːn]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_012",
+  "de": "Unser Sofa ist neu.",
+  "ru": "Наш диван новый.",
+  "nouns": [
+   {
+    "lemma": "Sofa",
+    "art": "das",
+    "pl": "Sofas"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Unser Sofa",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "neu",
+     "role": "какой/как"
+    }
+   ],
+   "text": "unser — «наш». Sofa — das-слово: unser без окончания, как «mein Sofa». neu — «новый»: ist как знак «=».",
+   "topic": "verb2",
+   "why_de": "Unser Sofa · ist · neu: действие ist — вагон №2, опора всего предложения.",
+   "why_ru": "По-русски «Наш диван новый» — без действия «есть». По-немецки без ist фразы нет: Unser Sofa ist neu.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Unser Sofa neu.",
+    "ru": "Русская привычка — без действия, как «Наш диван новый». Без ist немец слышит обрывок, а не фразу."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "unser — «наш». Sofa — das-слово: unser без окончания, как «mein Sofa». neu — «новый»: ist как знак «=»."
+  },
+  "audio": "audio_v1/ch08_012.mp3",
+  "tts": "Unser Sofa ist neu.",
+  "ipa": [
+   {
+    "w": "Unser",
+    "ipa": "[ˈʊnzɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Sofa",
+    "ipa": "[ˈzoːfa]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "neu",
+    "ipa": "[nɔɪ̯]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_013",
+  "de": "Unsere Küche ist klein.",
+  "ru": "Наша кухня маленькая.",
+  "nouns": [
+   {
+    "lemma": "Küche",
+    "art": "die",
+    "pl": "Küchen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Unsere Küche",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "klein",
+     "role": "какой/как"
+    }
+   ],
+   "text": "Küche — die-слово: к unser добавляется -e: unsere Küche, как «meine Küche».",
+   "topic": "verb2",
+   "why_de": "Unsere Küche · ist · klein: действие ist — вагон №2, опора всего предложения.",
+   "why_ru": "По-русски «Наша кухня маленькая» — без действия «есть». По-немецки без ist фразы нет: Unsere Küche ist klein.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Unsere Küche klein.",
+    "ru": "Русская привычка — без действия, как «Наша кухня маленькая». Без ist немец слышит обрывок, а не фразу."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "Küche — die-слово: к unser добавляется -e: unsere Küche, как «meine Küche»."
+  },
+  "audio": "audio_v1/ch08_013.mp3",
+  "tts": "Unsere Küche ist klein.",
+  "ipa": [
+   {
+    "w": "Unsere",
+    "ipa": "[ˈʊnzəʁə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Küche",
+    "ipa": "[ˈkʏçə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "klein",
+    "ipa": "[klaɪ̯n]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_014",
+  "de": "Euer Schrank ist alt.",
+  "ru": "Ваш шкаф старый.",
+  "nouns": [
+   {
+    "lemma": "Schrank",
+    "art": "der",
+    "pl": "Schränke"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Euer Schrank",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "alt",
+     "role": "какой/как"
+    }
+   ],
+   "text": "euer — «ваш». Schrank — der-слово: euer без окончания. Перед -e у euer одна e пропадает: eure Wohnung, но euer Schrank.",
+   "topic": "verb2",
+   "why_de": "Euer Schrank · ist · alt: действие ist — вагон №2, опора всего предложения.",
+   "why_ru": "По-русски «Ваш шкаф старый» — без действия «есть». По-немецки без ist фразы нет: Euer Schrank ist alt.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Euer Schrank alt.",
+    "ru": "Русская привычка — без действия, как «Ваш шкаф старый». Без ist немец слышит обрывок, а не фразу."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "euer — «ваш». Schrank — der-слово: euer без окончания. Перед -e у euer одна e пропадает: eure Wohnung, но euer Schrank."
+  },
+  "audio": "audio_v1/ch08_014.mp3",
+  "tts": "Euer Schrank ist alt.",
+  "ipa": [
+   {
+    "w": "Euer",
+    "ipa": "[ˈɔɪ̯ɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Schrank",
+    "ipa": "[ʃʁaŋk]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "alt",
+    "ipa": "[alt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_015",
+  "de": "Ja, ihre Wohnung ist groß.",
+  "ru": "Да, их квартира большая.",
+  "nouns": [
+   {
+    "lemma": "Wohnung",
+    "art": "die",
+    "pl": "Wohnungen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Ja",
+     "role": "да/нет"
+    },
+    {
+     "w": "ihre Wohnung",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "groß",
+     "role": "какой/как"
+    }
+   ],
+   "text": "ihre — «их»: к die-слову Wohnung добавляется -e, как у unsere и eure. groß — «большой»: ist как знак «=».",
+   "topic": "verb2",
+   "why_de": "ihre Wohnung · ist · groß: действие ist — вагон №2, опора всего предложения.",
+   "why_ru": "По-русски «Да, их квартира большая» — без действия «есть». По-немецки без ist фразы нет: Ja, ihre Wohnung ist groß.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ja, ihre Wohnung groß.",
+    "ru": "Русская привычка — без действия, как «Да, их квартира большая». Без ist немец слышит обрывок, а не фразу."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "ihre — «их»: к die-слову Wohnung добавляется -e, как у unsere и eure. groß — «большой»: ist как знак «=»."
+  },
+  "audio": "audio_v1/ch08_015.mp3",
+  "tts": "Ja, ihre Wohnung ist groß.",
+  "ipa": [
+   {
+    "w": "Ja",
+    "ipa": "[jaː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ihre",
+    "ipa": "[ˈiːʁə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wohnung",
+    "ipa": "[ˈvoːnʊŋ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "groß",
+    "ipa": "[ɡʁoːs]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_016",
+  "de": "Ist euer Sofa neu?",
+  "ru": "Ваш диван новый?",
+  "nouns": [
+   {
+    "lemma": "Sofa",
+    "art": "das",
+    "pl": "Sofas"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Ist",
+     "role": "действие №1"
+    },
+    {
+     "w": "euer Sofa",
+     "role": "кто"
+    },
+    {
+     "w": "neu",
+     "role": "какой/как"
+    }
+   ],
+   "text": "Вопрос «да/нет»: ist впереди. euer Sofa — das-слово: euer без окончания.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Ist) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Ist euer Sofa neu?",
+   "why_ru": "По-русски «Ваш диван новый» — вопрос только голосом, порядок как в ответе. По-немецки действие Ist выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Euer Sofa ist neu?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Ваш диван новый?!»). Обычный вопрос — действие впереди."
+   },
+   "root": null,
+   "why_voice_ru": "Вопрос «да/нет»: ist впереди. euer Sofa — das-слово: euer без окончания."
+  },
+  "audio": "audio_v1/ch08_016.mp3",
+  "tts": "Ist euer Sofa neu?",
+  "ipa": [
+   {
+    "w": "Ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "euer",
+    "ipa": "[ˈɔɪ̯ɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Sofa",
+    "ipa": "[ˈzoːfa]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "neu",
+    "ipa": "[nɔɪ̯]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_017",
+  "de": "Bett, Bild, Fenster, Kommode, Regal, Schreibtisch, Schreibtischstuhl, Sessel, Spiegel, Kühlschrank, Waschmaschine, Heizung.",
+  "ru": "Кровать, картина, окно, комод, стеллаж, письменный стол, стул к столу, кресло, зеркало, холодильник, стиральная машина, батарея.",
+  "nouns": [
+   {
+    "lemma": "Bett",
+    "art": "das",
+    "pl": "Betten"
+   },
+   {
+    "lemma": "Bild",
+    "art": "das",
+    "pl": "Bilder"
+   },
+   {
+    "lemma": "Fenster",
+    "art": "das",
+    "pl": "Fenster"
+   },
+   {
+    "lemma": "Kommode",
+    "art": "die",
+    "pl": "Kommoden"
+   },
+   {
+    "lemma": "Regal",
+    "art": "das",
+    "pl": "Regale"
+   },
+   {
+    "lemma": "Schreibtisch",
+    "art": "der",
+    "pl": "Schreibtische"
+   },
+   {
+    "lemma": "Schreibtischstuhl",
+    "art": "der",
+    "pl": "Schreibtischstühle"
+   },
+   {
+    "lemma": "Sessel",
+    "art": "der",
+    "pl": "Sessel"
+   },
+   {
+    "lemma": "Spiegel",
+    "art": "der",
+    "pl": "Spiegel"
+   },
+   {
+    "lemma": "Kühlschrank",
+    "art": "der",
+    "pl": "Kühlschränke"
+   },
+   {
+    "lemma": "Waschmaschine",
+    "art": "die",
+    "pl": "Waschmaschinen"
+   },
+   {
+    "lemma": "Heizung",
+    "art": "die",
+    "pl": "Heizungen"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Bett",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Bild",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Fenster",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Kommode",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Regal",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Schreibtisch",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Schreibtischstuhl",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Sessel",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Spiegel",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Kühlschrank",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Waschmaschine",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Heizung",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Слова курса: das Bett, das Bild, das Fenster, die Kommode, das Regal, der Schreibtisch, der Schreibtischstuhl, der Sessel, der Spiegel, der Kühlschrank, die Waschmaschine, die Heizung.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: das Bett — кровать · das Bild — картина · das Fenster — окно · die Kommode — комод · das Regal — стеллаж · der Schreibtisch — письменный стол · der Schreibtischstuhl — стул к столу · der Sessel — кресло · der Spiegel — зеркало · der Kühlschrank — холодильник · die Waschmaschine — стиральная машина · die Heizung — батарея.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: das Bett, das Bild, das Fenster, die Kommode, das Regal, der Schreibtisch, der Schreibtischstuhl, der Sessel, der Spiegel, der Kühlschrank, die Waschmaschine, die Heizung."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: das Bett, das Bild, das Fenster, die Kommode, das Regal, der Schreibtisch, der Schreibtischstuhl, der Sessel, der Spiegel, der Kühlschrank, die Waschmaschine, die"
+  },
+  "audio": "audio_v1/ch08_017.mp3",
+  "tts": "Bett, Bild, Fenster, Kommode, Regal, Schreibtisch, Schreibtischstuhl, Sessel, Spiegel, Kühlschrank, Waschmaschine, Heizung.",
+  "ipa": [
+   {
+    "w": "Bett",
+    "ipa": "[bɛt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bild",
+    "ipa": "[bɪlt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fenster",
+    "ipa": "[ˈfɛnstɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kommode",
+    "ipa": "[kɔˈmoːdə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Regal",
+    "ipa": "[ʁeˈɡaːl]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Schreibtisch",
+    "ipa": "[ˈʃʁaɪ̯pˌtɪʃ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Schreibtischstuhl",
+    "ipa": "[ˈʃʁaɪ̯ptɪʃˌʃtuːl]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Sessel",
+    "ipa": "[ˈzɛsl̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Spiegel",
+    "ipa": "[ˈʃpiːɡl̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kühlschrank",
+    "ipa": "[ˈkyːlˌʃʁaŋk]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Waschmaschine",
+    "ipa": "[ˈvaʃmaˌʃiːnə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Heizung",
+    "ipa": "[ˈhaɪ̯t͡sʊŋ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_018",
+  "de": "Eure Möbel sind schön.",
+  "ru": "Ваша мебель красивая.",
+  "nouns": [
+   {
+    "lemma": "Möbel",
+    "art": "das",
+    "pl": "Möbel"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Eure Möbel",
+     "role": "кто"
+    },
+    {
+     "w": "sind",
+     "role": "действие №2"
+    },
+    {
+     "w": "schön",
+     "role": "какой/как"
+    }
+   ],
+   "text": "По-русски «мебель» — одна, по-немецки Möbel — «предметы», их много: поэтому sind, а не ist.",
+   "topic": "verb2",
+   "why_de": "Eure Möbel · sind · schön: действие sind — вагон №2, опора всего предложения.",
+   "why_ru": "По-русски «Ваша мебель красивая» — без действия «есть». По-немецки без sind фразы нет: Eure Möbel sind schön.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Eure Möbel schön.",
+    "ru": "Русская привычка — без действия, как «Ваша мебель красивая». Без sind немец слышит обрывок, а не фразу."
+   },
+   "root": null,
+   "why_voice_ru": "По-русски «мебель» — одна, по-немецки Möbel — «предметы», их много: поэтому sind, а не ist."
+  },
+  "audio": "audio_v1/ch08_018.mp3",
+  "tts": "Eure Möbel sind schön.",
+  "ipa": [
+   {
+    "w": "Eure",
+    "ipa": "[ˈɔɪ̯ʁə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Möbel",
+    "ipa": "[ˈmøːbl̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "sind",
+    "ipa": "[zɪnt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "schön",
+    "ipa": "[ʃøːn]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_019",
+  "de": "Ich will eine Wohnung.",
+  "ru": "Я хочу квартиру.",
+  "nouns": [
+   {
+    "lemma": "Wohnung",
+    "art": "die",
+    "pl": "Wohnungen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "will",
+     "role": "действие №2"
+    },
+    {
+     "w": "eine Wohnung",
+     "role": "кого-что"
+    }
+   ],
+   "text": "will — «хочу». С ich у wollen хвост пропадает и o меняется на i: ich will. Wohnung — die-слово: eine.",
+   "topic": "verb2",
+   "why_de": "Ich · will · eine Wohnung: действие will — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Я хочу квартиру» — Ich will eine Wohnung. Разница одна: по-немецки will держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich eine Wohnung will.",
+    "ru": "Действие will уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе will — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "will — «хочу». С ich у wollen хвост пропадает и o меняется на i: ich will. Wohnung — die-слово: eine."
+  },
+  "audio": "audio_v1/ch08_019.mp3",
+  "tts": "Ich will eine Wohnung.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "will",
+    "ipa": "[vɪl]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "eine",
+    "ipa": "[ˈaɪ̯nə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wohnung",
+    "ipa": "[ˈvoːnʊŋ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_020",
+  "de": "Wir wollen zusammen wohnen.",
+  "ru": "Мы хотим жить вместе.",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Wir",
+     "role": "кто"
+    },
+    {
+     "w": "wollen",
+     "role": "пульт №2"
+    },
+    {
+     "w": "zusammen",
+     "role": "добавка"
+    },
+    {
+     "w": "wohnen",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "wollen — вагон №2, помощник: меняется по лицу. Второе действие wohnen уходит в самый конец и не меняется: wollen … wohnen — рамка.",
+   "topic": "modal",
+   "why_de": "«Пульт» держит вагон №2, а главное действие уходит в конец: Wir wollen zusammen wohnen.",
+   "why_ru": "По-русски «Мы хотим жить вместе» — действия рядом; по-немецки между ними помещается остальное: Wir wollen zusammen wohnen.",
+   "layer": "modal",
+   "why_not": {
+    "wrong": "Wir wollen wohnen zusammen.",
+    "ru": "По-русски «Мы хотим жить вместе» — оба действия рядом. По-немецки wohnen сразу за wollen — ошибка: оно ждёт в самом конце."
+   },
+   "root": null,
+   "why_voice_ru": "wollen — вагон №2, помощник: меняется по лицу. Второе действие wohnen уходит в самый конец и не меняется: wollen … wohnen — рамка."
+  },
+  "audio": "audio_v1/ch08_020.mp3",
+  "tts": "Wir wollen zusammen wohnen.",
+  "ipa": [
+   {
+    "w": "Wir",
+    "ipa": "[viːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "wollen",
+    "ipa": "[ˈvɔlən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "zusammen",
+    "ipa": "[t͡suˈzamən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "wohnen",
+    "ipa": "[ˈvoːnən]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_021",
+  "de": "Wo wollen wir wohnen?",
+  "ru": "Где мы хотим жить?",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Wo",
+     "role": "вопрос-слово",
+     "asks": "где"
+    },
+    {
+     "w": "wollen",
+     "role": "пульт №2"
+    },
+    {
+     "w": "wir",
+     "role": "кто"
+    },
+    {
+     "w": "wohnen",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "wo — вагон №1, wollen — №2: с wir хвост -en. wohnen — в конце.",
+   "topic": "questions",
+   "why_de": "«Пульт» держит вагон №2, а главное действие уходит в конец: Wo wollen wir wohnen?",
+   "why_ru": "По-русски «Где мы хотим жить» — действия рядом; по-немецки между ними помещается остальное: Wo wollen wir wohnen?",
+   "layer": "modal",
+   "why_not": {
+    "wrong": "Wo wollen wohnen wir?",
+    "ru": "По-русски «Где мы хотим жить» — оба действия рядом. По-немецки wohnen сразу за wollen — ошибка: оно ждёт в самом конце."
+   },
+   "root": null,
+   "why_voice_ru": "wo — вагон №1, wollen — №2: с wir хвост -en. wohnen — в конце."
+  },
+  "audio": "audio_v1/ch08_021.mp3",
+  "tts": "Wo wollen wir wohnen?",
+  "ipa": [
+   {
+    "w": "Wo",
+    "ipa": "[voː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "wollen",
+    "ipa": "[ˈvɔlən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "wir",
+    "ipa": "[viːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "wohnen",
+    "ipa": "[ˈvoːnən]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_022",
+  "de": "Willst du ein Haus mit Garten?",
+  "ru": "Ты хочешь дом с садом?",
+  "nouns": [
+   {
+    "lemma": "Haus",
+    "art": "das",
+    "pl": "Häuser"
+   },
+   {
+    "lemma": "Garten",
+    "art": "der",
+    "pl": "Gärten"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Willst",
+     "role": "действие №1"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "ein Haus mit Garten",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Вопрос «да/нет»: действие впереди. С du у wollen хвост -st и меняется гласная: du willst. Haus — das-слово: ein. Garten после mit остаётся как есть.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Willst) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Willst du ein Haus mit Garten?",
+   "why_ru": "По-русски «Ты хочешь дом с садом» — вопрос только голосом, порядок как в ответе. По-немецки действие Willst выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Du willst ein Haus mit Garten?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Ты хочешь дом с садом?!»). Обычный вопрос — действие впереди."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "Вопрос «да/нет»: действие впереди. С du у wollen хвост -st и меняется гласная: du willst. Haus — das-слово: ein. Garten после mit остаётся как есть."
+  },
+  "audio": "audio_v1/ch08_022.mp3",
+  "tts": "Willst du ein Haus mit Garten?",
+  "ipa": [
+   {
+    "w": "Willst",
+    "ipa": "[vɪlst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ein",
+    "ipa": "[aɪ̯n]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Haus",
+    "ipa": "[haʊ̯s]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "mit",
+    "ipa": "[mɪt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Garten",
+    "ipa": "[ˈɡaʁtn̩]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_023",
+  "de": "Ich will nicht allein wohnen.",
+  "ru": "Я не хочу жить один.",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "will",
+     "role": "пульт №2"
+    },
+    {
+     "w": "nicht",
+     "role": "«не»"
+    },
+    {
+     "w": "allein",
+     "role": "какой/как"
+    },
+    {
+     "w": "wohnen",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "nicht и allein стоят внутри рамки: will … wohnen. Второе действие wohnen — в конце.",
+   "topic": "modal",
+   "why_de": "«Пульт» держит вагон №2, а главное действие уходит в конец: Ich will nicht allein wohnen.",
+   "why_ru": "По-русски «Я не хочу жить один» — действия рядом; по-немецки между ними помещается остальное: Ich will nicht allein wohnen.",
+   "layer": "modal",
+   "why_not": {
+    "wrong": "Ich will wohnen nicht allein.",
+    "ru": "По-русски «Я не хочу жить один» — оба действия рядом. По-немецки wohnen сразу за will — ошибка: оно ждёт в самом конце."
+   },
+   "root": null,
+   "why_voice_ru": "nicht и allein стоят внутри рамки: will … wohnen. Второе действие wohnen — в конце."
+  },
+  "audio": "audio_v1/ch08_023.mp3",
+  "tts": "Ich will nicht allein wohnen.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "will",
+    "ipa": "[vɪl]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "nicht",
+    "ipa": "[nɪçt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "allein",
+    "ipa": "[aˈlaɪ̯n]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "wohnen",
+    "ipa": "[ˈvoːnən]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_024",
+  "de": "Willst du in Freiberg wohnen?",
+  "ru": "Ты хочешь жить во Фрайберге?",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Willst",
+     "role": "пульт №1"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "in Freiberg",
+     "role": "где"
+    },
+    {
+     "w": "wohnen",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "Вопрос «да/нет»: willst впереди, wohnen — в самом конце: рамка.",
+   "topic": "modal",
+   "why_de": "Вопрос «да/нет»: «пульт» Willst встаёт впереди, а главное действие — в самый конец: Willst du in Freiberg wohnen?",
+   "why_ru": "По-русски «Ты хочешь жить во Фрайберге» — вопрос голосом; по-немецки вопрос делает «пульт» впереди, главное действие ждёт в конце: Willst du in Freiberg wohnen?",
+   "layer": "modal",
+   "why_not": {
+    "wrong": "Willst wohnen du in Freiberg?",
+    "ru": "По-русски «Ты хочешь жить во Фрайберге» — оба действия рядом. По-немецки wohnen сразу за Willst — ошибка: оно ждёт в самом конце."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "Вопрос «да/нет»: willst впереди, wohnen — в самом конце: рамка."
+  },
+  "audio": "audio_v1/ch08_024.mp3",
+  "tts": "Willst du in Freiberg wohnen?",
+  "ipa": [
+   {
+    "w": "Willst",
+    "ipa": "[vɪlst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "in",
+    "ipa": "[ɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Freiberg",
+    "ipa": "[ˈfʁaɪ̯ˌbɛʁk]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "wohnen",
+    "ipa": "[ˈvoːnən]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_025",
+  "de": "Erdgeschoss, Zentrum, Urlaub, Arbeit, Land, Stadt.",
+  "ru": "Первый этаж, центр, отпуск, работа, страна, город.",
+  "nouns": [
+   {
+    "lemma": "Erdgeschoss",
+    "art": "das",
+    "pl": "Erdgeschosse"
+   },
+   {
+    "lemma": "Zentrum",
+    "art": "das",
+    "pl": "Zentren"
+   },
+   {
+    "lemma": "Urlaub",
+    "art": "der",
+    "pl": "Urlaube"
+   },
+   {
+    "lemma": "Arbeit",
+    "art": "die",
+    "pl": "Arbeiten"
+   },
+   {
+    "lemma": "Land",
+    "art": "das",
+    "pl": "Länder"
+   },
+   {
+    "lemma": "Stadt",
+    "art": "die",
+    "pl": "Städte"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Erdgeschoss",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Zentrum",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Urlaub",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Arbeit",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Land",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Stadt",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Слова курса: das Erdgeschoss, das Zentrum, der Urlaub, die Arbeit, das Land, die Stadt.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: das Erdgeschoss — первый этаж · das Zentrum — центр · der Urlaub — отпуск · die Arbeit — работа · das Land — страна · die Stadt — город.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: das Erdgeschoss, das Zentrum, der Urlaub, die Arbeit, das Land, die Stadt."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: das Erdgeschoss, das Zentrum, der Urlaub, die Arbeit, das Land, die Stadt."
+  },
+  "audio": "audio_v1/ch08_025.mp3",
+  "tts": "Erdgeschoss, Zentrum, Urlaub, Arbeit, Land, Stadt.",
+  "ipa": [
+   {
+    "w": "Erdgeschoss",
+    "ipa": "[ˈeːɐ̯tɡəˌʃɔs]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Zentrum",
+    "ipa": "[ˈt͡sɛntʁʊm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Urlaub",
+    "ipa": "[ˈuːɐ̯ˌlaʊ̯p]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Arbeit",
+    "ipa": "[ˈaʁbaɪ̯t]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Land",
+    "ipa": "[lant]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Stadt",
+    "ipa": "[ʃtat]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_026",
+  "de": "Ich will heute aufräumen.",
+  "ru": "Я хочу сегодня убраться.",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "will",
+     "role": "пульт №2"
+    },
+    {
+     "w": "heute",
+     "role": "когда"
+    },
+    {
+     "w": "aufräumen",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "В «Ich räume auf» приставка auf стоит отдельно. После will aufräumen возвращается в конец одним словом: will … aufräumen.",
+   "topic": "modal",
+   "why_de": "«Пульт» держит вагон №2, а главное действие уходит в конец: Ich will heute aufräumen.",
+   "why_ru": "По-русски «Я хочу сегодня убраться» — действия рядом; по-немецки между ними помещается остальное: Ich will heute aufräumen.",
+   "layer": "modal",
+   "why_not": {
+    "wrong": "Ich will aufräumen heute.",
+    "ru": "По-русски «Я хочу сегодня убраться» — оба действия рядом. По-немецки aufräumen сразу за will — ошибка: оно ждёт в самом конце."
+   },
+   "root": null,
+   "why_voice_ru": "В «Ich räume auf» приставка auf стоит отдельно. После will aufräumen возвращается в конец одним словом: will … aufräumen."
+  },
+  "audio": "audio_v1/ch08_026.mp3",
+  "tts": "Ich will heute aufräumen.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "will",
+    "ipa": "[vɪl]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "heute",
+    "ipa": "[ˈhɔɪ̯tə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "aufräumen",
+    "ipa": "[ˈaʊ̯fˌʁɔɪ̯mən]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_027",
+  "de": "Hier ist eine Anzeige.",
+  "ru": "Вот объявление.",
+  "nouns": [
+   {
+    "lemma": "Anzeige",
+    "art": "die",
+    "pl": "Anzeigen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Hier",
+     "role": "где"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "eine Anzeige",
+     "role": "кто"
+    }
+   ],
+   "text": "Anzeige — die-слово: eine. hier — вагон №1, действие ist — вагон №2.",
+   "topic": "verb2",
+   "why_de": "Вагон №1 занят: Hier. Действие ist всё равно в вагоне №2, а «кто» (eine Anzeige) — за ним: Hier ist eine Anzeige.",
+   "why_ru": "По-русски «Вот объявление» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, ist — вагон №2.",
+   "layer": "inv",
+   "why_not": {
+    "wrong": "Hier eine Anzeige ist.",
+    "ru": "Русский порядок: «кто» (eine Anzeige) перед действием, и ist уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "Anzeige — die-слово: eine. hier — вагон №1, действие ist — вагон №2.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«где» · действие (вагон №2) · «кто»",
+    "items": [
+     {
+      "id": "ch08_001",
+      "de": "Hier ist die Wohnung.",
+      "ru": "Вот квартира.",
+      "audio": "audio_v1/ch08_001.mp3",
+      "lesson": "L1",
+      "part": 3,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "eine Anzeige",
+       "to": "die Wohnung"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Hier · ist. В каждом примере меняется один вагон — «кто»: eine Anzeige → die Wohnung. Действие ist всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch08_027.mp3",
+  "tts": "Hier ist eine Anzeige.",
+  "ipa": [
+   {
+    "w": "Hier",
+    "ipa": "[hiːɐ̯]",
+    "src": "override"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "eine",
+    "ipa": "[ˈaɪ̯nə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Anzeige",
+    "ipa": "[ˈanˌt͡saɪ̯ɡə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_028",
+  "de": "Wie hoch ist die Miete?",
+  "ru": "Сколько составляет аренда?",
+  "nouns": [
+   {
+    "lemma": "Miete",
+    "art": "die",
+    "pl": "Mieten"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Wie hoch",
+     "role": "вопрос-слово",
+     "asks": ""
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "die Miete",
+     "role": "кто"
+    }
+   ],
+   "text": "wie hoch — вопрос о размере: «насколько высока». Действие ist — сразу за вопрос-словом. Miete — die-слово.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Wie hoch — вагон №1, действие ist — сразу за ним, вагон №2: Wie hoch ist die Miete? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Сколько составляет аренда» можно сказать и в другом порядке. По-немецки порядок один: Wie hoch · ist · die Miete. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Wie hoch die Miete ist?",
+    "ru": "die Miete встал перед ist — действие ушло из вагона №2. После Wie hoch немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "wie hoch — вопрос о размере: «насколько высока». Действие ist — сразу за вопрос-словом. Miete — die-слово."
+  },
+  "audio": "audio_v1/ch08_028.mp3",
+  "tts": "Wie hoch ist die Miete?",
+  "ipa": [
+   {
+    "w": "Wie",
+    "ipa": "[viː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "hoch",
+    "ipa": "[hoːx]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Miete",
+    "ipa": "[ˈmiːtə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_029",
+  "de": "Die Miete ist vierhundert Euro.",
+  "ru": "Аренда — четыреста евро.",
+  "nouns": [
+   {
+    "lemma": "Miete",
+    "art": "die",
+    "pl": "Mieten"
+   },
+   {
+    "lemma": "Euro",
+    "art": "der",
+    "pl": "Euro"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Die Miete",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "vierhundert Euro",
+     "role": "кого-что"
+    }
+   ],
+   "text": "vierhundert = vier + hundert: «четыре сотни» = 400. Сначала сколько сотен, потом hundert; пишется слитно.",
+   "topic": "verb2",
+   "why_de": "Die Miete · ist · vierhundert Euro: действие ist — вагон №2, опора всего предложения.",
+   "why_ru": "По-русски «Аренда — четыреста евро» — без действия «есть». По-немецки без ist фразы нет: Die Miete ist vierhundert Euro.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Die Miete vierhundert Euro.",
+    "ru": "Русская привычка — без действия, как «Аренда — четыреста евро». Без ist немец слышит обрывок, а не фразу."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "vierhundert = vier + hundert: «четыре сотни» = 400. Сначала сколько сотен, потом hundert; пишется слитно."
+  },
+  "audio": "audio_v1/ch08_029.mp3",
+  "tts": "Die Miete ist vierhundert Euro.",
+  "ipa": [
+   {
+    "w": "Die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Miete",
+    "ipa": "[ˈmiːtə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "vierhundert",
+    "ipa": "[ˈfiːɐ̯ˌhʊndɐt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Euro",
+    "ipa": "[ˈɔɪ̯ʁo]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_030",
+  "de": "Nebenkosten sind noch fünfzig Euro.",
+  "ru": "Дополнительные расходы — ещё пятьдесят евро.",
+  "nouns": [
+   {
+    "lemma": "Euro",
+    "art": "der",
+    "pl": "Euro"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Nebenkosten",
+     "role": "кто"
+    },
+    {
+     "w": "sind",
+     "role": "действие №2"
+    },
+    {
+     "w": "noch fünfzig Euro",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Nebenkosten — слово во множественном числе (расходов несколько): поэтому sind, а не ist. Neben-kosten — «расходы рядом (с арендой)». noch — «ещё».",
+   "topic": "verb2",
+   "why_de": "Nebenkosten · sind · noch fünfzig Euro: действие sind — вагон №2, опора всего предложения.",
+   "why_ru": "По-русски «Дополнительные расходы — ещё пятьдесят евро» — без действия «есть». По-немецки без sind фразы нет: Nebenkosten sind noch fünfzig Euro.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Nebenkosten noch fünfzig Euro.",
+    "ru": "Русская привычка — без действия, как «Дополнительные расходы — ещё пятьдесят евро». Без sind немец слышит обрывок, а не фразу."
+   },
+   "root": null,
+   "why_voice_ru": "Nebenkosten — слово во множественном числе (расходов несколько): поэтому sind, а не ist. Neben-kosten — «расходы рядом (с арендой)». noch — «ещё»."
+  },
+  "audio": "audio_v1/ch08_030.mp3",
+  "tts": "Nebenkosten sind noch fünfzig Euro.",
+  "ipa": [
+   {
+    "w": "Nebenkosten",
+    "ipa": "[ˈneːbn̩ˌkɔstn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "sind",
+    "ipa": "[zɪnt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "noch",
+    "ipa": "[nɔx]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "fünfzig",
+    "ipa": "[ˈfʏnft͡sɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Euro",
+    "ipa": "[ˈɔɪ̯ʁo]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_031",
+  "de": "Das sind zusammen vierhundertfünfzig Euro.",
+  "ru": "Вместе это четыреста пятьдесят евро.",
+  "nouns": [
+   {
+    "lemma": "Euro",
+    "art": "der",
+    "pl": "Euro"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Das",
+     "role": "кто"
+    },
+    {
+     "w": "sind",
+     "role": "действие №2"
+    },
+    {
+     "w": "zusammen",
+     "role": "добавка"
+    },
+    {
+     "w": "vierhundertfünfzig Euro",
+     "role": "кого-что"
+    }
+   ],
+   "text": "vierhundertfünfzig = vier + hundert + fünfzig: сначала сотни, потом десятки, 400 + 50 = 450; пишется слитно. das — вагон №1, sind — вагон №2: сумма — это много евро, поэтому sind. zusammen — «вместе».",
+   "topic": "word_order",
+   "why_de": "Das · sind · zusammen · vierhundertfünfzig Euro: действие sind — вагон №2, опора всего предложения.",
+   "why_ru": "По-русски «Вместе это четыреста пятьдесят евро» — без действия «есть». По-немецки без sind фразы нет: Das sind zusammen vierhundertfünfzig Euro.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Das zusammen vierhundertfünfzig Euro.",
+    "ru": "Русская привычка — без действия, как «Вместе это четыреста пятьдесят евро». Без sind немец слышит обрывок, а не фразу."
+   },
+   "root": null,
+   "why_voice_ru": "vierhundertfünfzig = vier + hundert + fünfzig: сначала сотни, потом десятки, 400 + 50 = 450; пишется слитно."
+  },
+  "audio": "audio_v1/ch08_031.mp3",
+  "tts": "Das sind zusammen vierhundertfünfzig Euro.",
+  "ipa": [
+   {
+    "w": "Das",
+    "ipa": "[das]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "sind",
+    "ipa": "[zɪnt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "zusammen",
+    "ipa": "[t͡suˈzamən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "vierhundertfünfzig",
+    "ipa": "[…]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Euro",
+    "ipa": "[ˈɔɪ̯ʁo]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_032",
+  "de": "Die Wohnung hat einen Balkon und einen Keller.",
+  "ru": "В квартире есть балкон и подвал.",
+  "nouns": [
+   {
+    "lemma": "Wohnung",
+    "art": "die",
+    "pl": "Wohnungen"
+   },
+   {
+    "lemma": "Balkon",
+    "art": "der",
+    "pl": "Balkons"
+   },
+   {
+    "lemma": "Keller",
+    "art": "der",
+    "pl": "Keller"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Die Wohnung",
+     "role": "кто"
+    },
+    {
+     "w": "hat",
+     "role": "действие №2"
+    },
+    {
+     "w": "einen Balkon und einen Keller",
+     "role": "кого-что"
+    }
+   ],
+   "text": "hat — «имеет, у неё есть»: с die Wohnung. Balkon и Keller — der-слова: после hat ein меняется на einen, как после es gibt.",
+   "topic": "akkusativ",
+   "why_de": "Артикль — сигнал роли: der → den/einen показывает «кого-что»: Die Wohnung hat einen Balkon und einen Keller.",
+   "why_ru": "Похоже на русские окончания, только меняется не слово, а артикль: Die Wohnung hat einen Balkon und einen Keller.",
+   "layer": "akk",
+   "why_not": {
+    "wrong": "Die Wohnung hat ein Balkon und einen Keller.",
+    "ru": "Русская привычка: артикль не меняется. Немец слышит не ту роль: тут der-слово в роли «кого-что» — einen."
+   },
+   "root": null,
+   "why_voice_ru": "hat — «имеет, у неё есть»: с die Wohnung. Balkon и Keller — der-слова: после hat ein меняется на einen, как после es gibt."
+  },
+  "audio": "audio_v1/ch08_032.mp3",
+  "tts": "Die Wohnung hat einen Balkon und einen Keller.",
+  "ipa": [
+   {
+    "w": "Die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wohnung",
+    "ipa": "[ˈvoːnʊŋ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "hat",
+    "ipa": "[hat]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "einen",
+    "ipa": "[ˈaɪ̯nən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Balkon",
+    "ipa": "[balˈkɔ̃ː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "und",
+    "ipa": "[ʊnt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "einen",
+    "ipa": "[ˈaɪ̯nən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Keller",
+    "ipa": "[ˈkɛlɐ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_033",
+  "de": "Hat die Wohnung einen Keller?",
+  "ru": "В квартире есть подвал?",
+  "nouns": [
+   {
+    "lemma": "Wohnung",
+    "art": "die",
+    "pl": "Wohnungen"
+   },
+   {
+    "lemma": "Keller",
+    "art": "der",
+    "pl": "Keller"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Hat",
+     "role": "действие №1"
+    },
+    {
+     "w": "die Wohnung",
+     "role": "кто"
+    },
+    {
+     "w": "einen Keller",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Вопрос «да/нет»: hat впереди. Keller — der-слово: после hat — einen.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Hat) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Hat die Wohnung einen Keller?",
+   "why_ru": "По-русски «В квартире есть подвал» — вопрос только голосом, порядок как в ответе. По-немецки действие Hat выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Die Wohnung hat einen Keller?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («В квартире есть подвал?!»). Обычный вопрос — действие впереди."
+   },
+   "root": null,
+   "why_voice_ru": "Вопрос «да/нет»: hat впереди. Keller — der-слово: после hat — einen."
+  },
+  "audio": "audio_v1/ch08_033.mp3",
+  "tts": "Hat die Wohnung einen Keller?",
+  "ipa": [
+   {
+    "w": "Hat",
+    "ipa": "[hat]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wohnung",
+    "ipa": "[ˈvoːnʊŋ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "einen",
+    "ipa": "[ˈaɪ̯nən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Keller",
+    "ipa": "[ˈkɛlɐ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_034",
+  "de": "Etage, Fläche, Parkplatz, Terrasse, Garage, WG, Dreizimmerwohnung.",
+  "ru": "Этаж, площадь, парковочное место, терраса, гараж, квартира на несколько жильцов, трёхкомнатная квартира.",
+  "nouns": [
+   {
+    "lemma": "Etage",
+    "art": "die",
+    "pl": "Etagen"
+   },
+   {
+    "lemma": "Fläche",
+    "art": "die",
+    "pl": "Flächen"
+   },
+   {
+    "lemma": "Parkplatz",
+    "art": "der",
+    "pl": "Parkplätze"
+   },
+   {
+    "lemma": "Terrasse",
+    "art": "die",
+    "pl": "Terrassen"
+   },
+   {
+    "lemma": "Garage",
+    "art": "die",
+    "pl": "Garagen"
+   },
+   {
+    "lemma": "WG",
+    "art": "die",
+    "pl": "WGs"
+   },
+   {
+    "lemma": "Dreizimmerwohnung",
+    "art": "die",
+    "pl": "Dreizimmerwohnungen"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Etage",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Fläche",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Parkplatz",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Terrasse",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Garage",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "WG",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Dreizimmerwohnung",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Слова курса: die Etage, die Fläche, der Parkplatz, die Terrasse, die Garage, die WG, die Dreizimmerwohnung (в объявлении: 3-Zimmerwohnung).",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: die Etage — этаж · die Fläche — площадь · der Parkplatz — парковочное место · die Terrasse — терраса · die Garage — гараж · die WG — квартира на несколько жильцов · die Dreizimmerwohnung — трёхкомнатная квартира.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: die Etage, die Fläche, der Parkplatz, die Terrasse, die Garage, die WG, die Dreizimmerwohnung."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: die Etage, die Fläche, der Parkplatz, die Terrasse, die Garage, die WG, die Dreizimmerwohnung (в объявлении: 3-Zimmerwohnung)."
+  },
+  "audio": "audio_v1/ch08_034.mp3",
+  "tts": "Etage, Fläche, Parkplatz, Terrasse, Garage, WG, Dreizimmerwohnung.",
+  "ipa": [
+   {
+    "w": "Etage",
+    "ipa": "[eˈtaːʒə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fläche",
+    "ipa": "[ˈflɛçə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Parkplatz",
+    "ipa": "[ˈpaʁkˌplat͡s]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Terrasse",
+    "ipa": "[tɛˈʁasə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Garage",
+    "ipa": "[ɡaˈʁaːʒə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "WG",
+    "ipa": "[veːˈɡeː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Dreizimmerwohnung",
+    "ipa": "[dʁaɪ̯ˈt͡sɪmɐˌvoːnʊŋ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_035",
+  "de": "Darf man hier laut Musik hören?",
+  "ru": "Здесь можно громко слушать музыку?",
+  "nouns": [
+   {
+    "lemma": "Musik",
+    "art": "die",
+    "pl": ""
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Darf",
+     "role": "пульт №1"
+    },
+    {
+     "w": "man",
+     "role": "кто"
+    },
+    {
+     "w": "hier",
+     "role": "где"
+    },
+    {
+     "w": "laut",
+     "role": "какой/как"
+    },
+    {
+     "w": "Musik",
+     "role": "кого-что"
+    },
+    {
+     "w": "hören",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "darf — от dürfen: «можно, разрешено». man — «люди вообще»; с man форма как с er: man darf. Вопрос «да/нет»: darf впереди, второе действие hören — в конце: рамка.",
+   "topic": "modal",
+   "why_de": "Вопрос «да/нет»: «пульт» Darf встаёт впереди, а главное действие — в самый конец: Darf man hier laut Musik hören?",
+   "why_ru": "По-русски «Здесь можно громко слушать музыку» — вопрос голосом; по-немецки вопрос делает «пульт» впереди, главное действие ждёт в конце: Darf man hier laut Musik hören?",
+   "layer": "modal",
+   "why_not": {
+    "wrong": "Darf hören man hier laut Musik?",
+    "ru": "По-русски «Здесь можно громко слушать музыку» — оба действия рядом. По-немецки hören сразу за Darf — ошибка: оно ждёт в самом конце."
+   },
+   "root": null,
+   "why_voice_ru": "darf — от dürfen: «можно, разрешено». man — «люди вообще»; с man форма как с er: man darf."
+  },
+  "audio": "audio_v1/ch08_035.mp3",
+  "tts": "Darf man hier laut Musik hören?",
+  "ipa": [
+   {
+    "w": "Darf",
+    "ipa": "[daʁf]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "man",
+    "ipa": "[man]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "hier",
+    "ipa": "[hiːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "laut",
+    "ipa": "[laʊ̯t]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Musik",
+    "ipa": "[muˈziːk]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "hören",
+    "ipa": "[ˈhøːʁən]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_036",
+  "de": "Am Abend darf man nicht laut sein.",
+  "ru": "Вечером нельзя шуметь.",
+  "nouns": [
+   {
+    "lemma": "Abend",
+    "art": "der",
+    "pl": "Abende"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Am Abend",
+     "role": "когда"
+    },
+    {
+     "w": "darf",
+     "role": "пульт №2"
+    },
+    {
+     "w": "man",
+     "role": "кто"
+    },
+    {
+     "w": "nicht",
+     "role": "«не»"
+    },
+    {
+     "w": "laut",
+     "role": "какой/как"
+    },
+    {
+     "w": "sein",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "am Abend — «когда», вагон №1; darf — вагон №2, man — за ним. darf nicht — «нельзя». nicht стоит перед laut sein: отрицается «шуметь». sein — в конце.",
+   "topic": "modal",
+   "why_de": "«Пульт» держит вагон №2, а главное действие уходит в конец: Am Abend darf man nicht laut sein.",
+   "why_ru": "По-русски «Вечером нельзя шуметь» — действия рядом; по-немецки между ними помещается остальное: Am Abend darf man nicht laut sein.",
+   "layer": "modal",
+   "why_not": {
+    "wrong": "Am Abend darf sein man nicht laut.",
+    "ru": "По-русски «Вечером нельзя шуметь» — оба действия рядом. По-немецки sein сразу за darf — ошибка: оно ждёт в самом конце."
+   },
+   "root": null,
+   "why_voice_ru": "am Abend — «когда», вагон №1; darf — вагон №2, man — за ним. darf nicht — «нельзя». nicht стоит перед laut sein: отрицается «шуметь»."
+  },
+  "audio": "audio_v1/ch08_036.mp3",
+  "tts": "Am Abend darf man nicht laut sein.",
+  "ipa": [
+   {
+    "w": "Am",
+    "ipa": "[am]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Abend",
+    "ipa": "[ˈaːbn̩t]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "darf",
+    "ipa": "[daʁf]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "man",
+    "ipa": "[man]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "nicht",
+    "ipa": "[nɪçt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "laut",
+    "ipa": "[laʊ̯t]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "sein",
+    "ipa": "[zaɪ̯n]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_037",
+  "de": "Im Hof dürfen die Kinder spielen.",
+  "ru": "Во дворе детям можно играть.",
+  "nouns": [
+   {
+    "lemma": "Hof",
+    "art": "der",
+    "pl": "Höfe"
+   },
+   {
+    "lemma": "Kind",
+    "art": "das",
+    "pl": "Kinder"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Im Hof",
+     "role": "где"
+    },
+    {
+     "w": "dürfen",
+     "role": "пульт №2"
+    },
+    {
+     "w": "die Kinder",
+     "role": "кто"
+    },
+    {
+     "w": "spielen",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "im Hof — «где», вагон №1. dürfen — вагон №2: детей много, поэтому dürfen, а не darf. Второе действие spielen — в конце.",
+   "topic": "modal",
+   "why_de": "«Пульт» держит вагон №2, а главное действие уходит в конец: Im Hof dürfen die Kinder spielen.",
+   "why_ru": "По-русски «Во дворе детям можно играть» — действия рядом; по-немецки между ними помещается остальное: Im Hof dürfen die Kinder spielen.",
+   "layer": "modal",
+   "why_not": {
+    "wrong": "Im Hof dürfen spielen die Kinder.",
+    "ru": "По-русски «Во дворе детям можно играть» — оба действия рядом. По-немецки spielen сразу за dürfen — ошибка: оно ждёт в самом конце."
+   },
+   "root": null,
+   "why_voice_ru": "im Hof — «где», вагон №1. dürfen — вагон №2: детей много, поэтому dürfen, а не darf. Второе действие spielen — в конце."
+  },
+  "audio": "audio_v1/ch08_037.mp3",
+  "tts": "Im Hof dürfen die Kinder spielen.",
+  "ipa": [
+   {
+    "w": "Im",
+    "ipa": "[ɪm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Hof",
+    "ipa": "[hoːf]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "dürfen",
+    "ipa": "[ˈdʏʁfn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kinder",
+    "ipa": "[ˈkɪndɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "spielen",
+    "ipa": "[ˈʃpiːlən]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_038",
+  "de": "Darf ich ein Haustier haben?",
+  "ru": "Можно мне держать домашнее животное?",
+  "nouns": [
+   {
+    "lemma": "Haustier",
+    "art": "das",
+    "pl": "Haustiere"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Darf",
+     "role": "пульт №1"
+    },
+    {
+     "w": "ich",
+     "role": "кто"
+    },
+    {
+     "w": "ein Haustier",
+     "role": "кого-что"
+    },
+    {
+     "w": "haben",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "Вопрос «да/нет»: darf впереди. С ich — darf, без хвоста, как с man. haben — в конце. Haustier — das-слово: ein.",
+   "topic": "modal",
+   "why_de": "Вопрос «да/нет»: «пульт» Darf встаёт впереди, а главное действие — в самый конец: Darf ich ein Haustier haben?",
+   "why_ru": "По-русски «Можно мне держать домашнее животное» — вопрос голосом; по-немецки вопрос делает «пульт» впереди, главное действие ждёт в конце: Darf ich ein Haustier haben?",
+   "layer": "modal",
+   "why_not": {
+    "wrong": "Darf haben ich ein Haustier?",
+    "ru": "По-русски «Можно мне держать домашнее животное» — оба действия рядом. По-немецки haben сразу за Darf — ошибка: оно ждёт в самом конце."
+   },
+   "root": null,
+   "why_voice_ru": "Вопрос «да/нет»: darf впереди. С ich — darf, без хвоста, как с man. haben — в конце. Haustier — das-слово: ein."
+  },
+  "audio": "audio_v1/ch08_038.mp3",
+  "tts": "Darf ich ein Haustier haben?",
+  "ipa": [
+   {
+    "w": "Darf",
+    "ipa": "[daʁf]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ein",
+    "ipa": "[aɪ̯n]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Haustier",
+    "ipa": "[ˈhaʊ̯sˌtiːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "haben",
+    "ipa": "[ˈhaːbn̩]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_039",
+  "de": "Darf man im Hof spielen?",
+  "ru": "Во дворе можно играть?",
+  "nouns": [
+   {
+    "lemma": "Hof",
+    "art": "der",
+    "pl": "Höfe"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Darf",
+     "role": "пульт №1"
+    },
+    {
+     "w": "man",
+     "role": "кто"
+    },
+    {
+     "w": "im Hof",
+     "role": "где"
+    },
+    {
+     "w": "spielen",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "Вопрос «да/нет»: darf впереди, spielen — в конце. man — «люди вообще».",
+   "topic": "modal",
+   "why_de": "Вопрос «да/нет»: «пульт» Darf встаёт впереди, а главное действие — в самый конец: Darf man im Hof spielen?",
+   "why_ru": "По-русски «Во дворе можно играть» — вопрос голосом; по-немецки вопрос делает «пульт» впереди, главное действие ждёт в конце: Darf man im Hof spielen?",
+   "layer": "modal",
+   "why_not": {
+    "wrong": "Darf spielen man im Hof?",
+    "ru": "По-русски «Во дворе можно играть» — оба действия рядом. По-немецки spielen сразу за Darf — ошибка: оно ждёт в самом конце."
+   },
+   "root": null,
+   "why_voice_ru": "Вопрос «да/нет»: darf впереди, spielen — в конце. man — «люди вообще»."
+  },
+  "audio": "audio_v1/ch08_039.mp3",
+  "tts": "Darf man im Hof spielen?",
+  "ipa": [
+   {
+    "w": "Darf",
+    "ipa": "[daʁf]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "man",
+    "ipa": "[man]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "im",
+    "ipa": "[ɪm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Hof",
+    "ipa": "[hoːf]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "spielen",
+    "ipa": "[ˈʃpiːlən]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_040",
+  "de": "Mieter, Vermieter, Nachbar, Spielplatz, Hausflur, Wohngemeinschaft.",
+  "ru": "Жилец, хозяин квартиры, сосед, детская площадка, коридор в подъезде, квартира на несколько жильцов.",
+  "nouns": [
+   {
+    "lemma": "Mieter",
+    "art": "der",
+    "pl": "Mieter"
+   },
+   {
+    "lemma": "Vermieter",
+    "art": "der",
+    "pl": "Vermieter"
+   },
+   {
+    "lemma": "Nachbar",
+    "art": "der",
+    "pl": "Nachbarn"
+   },
+   {
+    "lemma": "Spielplatz",
+    "art": "der",
+    "pl": "Spielplätze"
+   },
+   {
+    "lemma": "Hausflur",
+    "art": "der",
+    "pl": "Hausflure"
+   },
+   {
+    "lemma": "Wohngemeinschaft",
+    "art": "die",
+    "pl": "Wohngemeinschaften"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Mieter",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Vermieter",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Nachbar",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Spielplatz",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Hausflur",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Wohngemeinschaft",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Слова курса: der Mieter, der Vermieter, der Nachbar, der Spielplatz, der Hausflur, die Wohngemeinschaft.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Mieter — жилец · der Vermieter — хозяин квартиры · der Nachbar — сосед · der Spielplatz — детская площадка · der Hausflur — коридор в подъезде · die Wohngemeinschaft — квартира на несколько жильцов.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Mieter, der Vermieter, der Nachbar, der Spielplatz, der Hausflur, die Wohngemeinschaft."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: der Mieter, der Vermieter, der Nachbar, der Spielplatz, der Hausflur, die Wohngemeinschaft."
+  },
+  "audio": "audio_v1/ch08_040.mp3",
+  "tts": "Mieter, Vermieter, Nachbar, Spielplatz, Hausflur, Wohngemeinschaft.",
+  "ipa": [
+   {
+    "w": "Mieter",
+    "ipa": "[ˈmiːtɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Vermieter",
+    "ipa": "[fɛɐ̯ˈmiːtɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Nachbar",
+    "ipa": "[ˈnaxˌbaːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Spielplatz",
+    "ipa": "[ˈʃpiːlˌplat͡s]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Hausflur",
+    "ipa": "[ˈhaʊ̯sˌfluːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wohngemeinschaft",
+    "ipa": "[ˈvoːnɡəˌmaɪ̯nʃaft]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_041",
+  "de": "Wir haben eine neue Wohnung!",
+  "ru": "У нас новая квартира!",
+  "nouns": [
+   {
+    "lemma": "Wohnung",
+    "art": "die",
+    "pl": "Wohnungen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Wir",
+     "role": "кто"
+    },
+    {
+     "w": "haben",
+     "role": "действие №2"
+    },
+    {
+     "w": "eine neue Wohnung",
+     "role": "кого-что"
+    }
+   ],
+   "text": "haben — «иметь»: по-немецки «мы имеем», по-русски «у нас есть». neu перед die-словом с eine получает -e: eine neue Wohnung.",
+   "topic": "verb2",
+   "why_de": "Wir · haben · eine neue Wohnung: действие haben — вагон №2, опора всего предложения.",
+   "why_ru": "По-русски «У нас новая квартира» — без действия. По-немецки без haben фразы нет: Wir haben eine neue Wohnung!",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Wir eine neue Wohnung!",
+    "ru": "Русская привычка — без действия, как «У нас новая квартира». Без haben немец слышит обрывок, а не фразу."
+   },
+   "root": null,
+   "why_voice_ru": "haben — «иметь»: по-немецки «мы имеем», по-русски «у нас есть». neu перед die-словом с eine получает -e: eine neue Wohnung."
+  },
+  "audio": "audio_v1/ch08_041.mp3",
+  "tts": "Wir haben eine neue Wohnung!",
+  "ipa": [
+   {
+    "w": "Wir",
+    "ipa": "[viːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "haben",
+    "ipa": "[ˈhaːbn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "eine",
+    "ipa": "[ˈaɪ̯nə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "neue",
+    "ipa": "[ˈnɔɪ̯ə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wohnung",
+    "ipa": "[ˈvoːnʊŋ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_042",
+  "de": "Meine Traumwohnung hat einen Garten.",
+  "ru": "В квартире моей мечты есть сад.",
+  "nouns": [
+   {
+    "lemma": "Traumwohnung",
+    "art": "die",
+    "pl": "Traumwohnungen"
+   },
+   {
+    "lemma": "Garten",
+    "art": "der",
+    "pl": "Gärten"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Meine Traumwohnung",
+     "role": "кто"
+    },
+    {
+     "w": "hat",
+     "role": "действие №2"
+    },
+    {
+     "w": "einen Garten",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Traumwohnung = Traum + Wohnung: «квартира-мечта», род по последней части — die. Garten — der-слово: после hat — einen.",
+   "topic": "akkusativ",
+   "why_de": "Артикль — сигнал роли: der → den/einen показывает «кого-что»: Meine Traumwohnung hat einen Garten.",
+   "why_ru": "Похоже на русские окончания, только меняется не слово, а артикль: Meine Traumwohnung hat einen Garten.",
+   "layer": "akk",
+   "why_not": {
+    "wrong": "Meine Traumwohnung hat ein Garten.",
+    "ru": "Русская привычка: артикль не меняется. Немец слышит не ту роль: тут der-слово в роли «кого-что» — einen."
+   },
+   "root": null,
+   "why_voice_ru": "Traumwohnung = Traum + Wohnung: «квартира-мечта», род по последней части — die. Garten — der-слово: после hat — einen."
+  },
+  "audio": "audio_v1/ch08_042.mp3",
+  "tts": "Meine Traumwohnung hat einen Garten.",
+  "ipa": [
+   {
+    "w": "Meine",
+    "ipa": "[ˈmaɪ̯nə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Traumwohnung",
+    "ipa": "[ˈtʁaʊ̯mˌvoːnʊŋ]",
+    "src": "override"
+   },
+   {
+    "w": "hat",
+    "ipa": "[hat]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "einen",
+    "ipa": "[ˈaɪ̯nən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Garten",
+    "ipa": "[ˈɡaʁtn̩]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_043",
+  "de": "Es gibt einen Supermarkt und eine Schule.",
+  "ru": "Есть супермаркет и школа.",
+  "nouns": [
+   {
+    "lemma": "Supermarkt",
+    "art": "der",
+    "pl": "Supermärkte"
+   },
+   {
+    "lemma": "Schule",
+    "art": "die",
+    "pl": "Schulen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Es",
+     "role": "кто"
+    },
+    {
+     "w": "gibt",
+     "role": "действие №2"
+    },
+    {
+     "w": "einen Supermarkt und eine Schule",
+     "role": "кого-что"
+    }
+   ],
+   "text": "es gibt — «есть, имеется». Supermarkt — der-слово: einen. Schule — die-слово: eine.",
+   "topic": "akkusativ",
+   "why_de": "Артикль — сигнал роли: der → den/einen показывает «кого-что»: Es gibt einen Supermarkt und eine Schule.",
+   "why_ru": "Похоже на русские окончания, только меняется не слово, а артикль: Es gibt einen Supermarkt und eine Schule.",
+   "layer": "akk",
+   "why_not": {
+    "wrong": "Es gibt ein Supermarkt und eine Schule.",
+    "ru": "Русская привычка: артикль не меняется. Немец слышит не ту роль: тут der-слово в роли «кого-что» — einen."
+   },
+   "root": "Supermarkt = super- + Markt (Markt — рынок) — Wiktionary",
+   "why_voice_ru": "es gibt — «есть, имеется». Supermarkt — der-слово: einen. Schule — die-слово: eine.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «что»",
+    "items": [
+     {
+      "id": "ch08_002",
+      "de": "Es gibt eine Küche und ein Bad.",
+      "ru": "Есть кухня и ванная.",
+      "audio": "audio_v1/ch08_002.mp3",
+      "lesson": "L1",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "einen Supermarkt und eine Schule",
+       "to": "eine Küche und ein Bad"
+      }
+     },
+     {
+      "id": "ch08_004",
+      "de": "Es gibt einen Keller.",
+      "ru": "Есть подвал.",
+      "audio": "audio_v1/ch08_004.mp3",
+      "lesson": "L1",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "einen Supermarkt und eine Schule",
+       "to": "einen Keller"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Es · gibt. В каждом примере меняется один вагон — «что»: einen Supermarkt und eine Schule → eine Küche und ein Bad → einen Keller. Действие gibt всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch08_043.mp3",
+  "tts": "Es gibt einen Supermarkt und eine Schule.",
+  "ipa": [
+   {
+    "w": "Es",
+    "ipa": "[ɛs]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gibt",
+    "ipa": "[ɡiːpt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "einen",
+    "ipa": "[ˈaɪ̯nən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Supermarkt",
+    "ipa": "[ˈzuːpɐˌmaʁkt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "und",
+    "ipa": "[ʊnt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "eine",
+    "ipa": "[ˈaɪ̯nə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Schule",
+    "ipa": "[ˈʃuːlə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_044",
+  "de": "Ich will eine Wohnung mit Pool.",
+  "ru": "Я хочу квартиру с бассейном.",
+  "nouns": [
+   {
+    "lemma": "Wohnung",
+    "art": "die",
+    "pl": "Wohnungen"
+   },
+   {
+    "lemma": "Pool",
+    "art": "der",
+    "pl": "Pools"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "will",
+     "role": "действие №2"
+    },
+    {
+     "w": "eine Wohnung mit Pool",
+     "role": "кого-что"
+    }
+   ],
+   "text": "will — «хочу»; второго действия нет: will + то, что хочешь. Pool — der-слово, после mit без артикля.",
+   "topic": "verb2",
+   "why_de": "Ich · will · eine Wohnung mit Pool: действие will — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Я хочу квартиру с бассейном» — Ich will eine Wohnung mit Pool. Разница одна: по-немецки will держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich eine Wohnung mit Pool will.",
+    "ru": "Действие will уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе will — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "will — «хочу»; второго действия нет: will + то, что хочешь. Pool — der-слово, после mit без артикля.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «что»",
+    "items": [
+     {
+      "id": "ch08_019",
+      "de": "Ich will eine Wohnung.",
+      "ru": "Я хочу квартиру.",
+      "audio": "audio_v1/ch08_019.mp3",
+      "lesson": "L3",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "eine Wohnung mit Pool",
+       "to": "eine Wohnung"
+      }
+     },
+     {
+      "id": "ch08_d3_03",
+      "de": "Ich will eine Wohnung mit Balkon.",
+      "ru": "Я хочу квартиру с балконом.",
+      "audio": "audio_v1/ch08_d3_03.mp3",
+      "lesson": "L3",
+      "part": 4,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "eine Wohnung mit Pool",
+       "to": "eine Wohnung mit Balkon"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ich · will. В каждом примере меняется один вагон — «что»: eine Wohnung mit Pool → eine Wohnung → eine Wohnung mit Balkon. Действие will всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch08_044.mp3",
+  "tts": "Ich will eine Wohnung mit Pool.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "will",
+    "ipa": "[vɪl]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "eine",
+    "ipa": "[ˈaɪ̯nə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wohnung",
+    "ipa": "[ˈvoːnʊŋ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "mit",
+    "ipa": "[mɪt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Pool",
+    "ipa": "[puːl]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_045",
+  "de": "Hat die Traumwohnung einen Pool?",
+  "ru": "В квартире мечты есть бассейн?",
+  "nouns": [
+   {
+    "lemma": "Traumwohnung",
+    "art": "die",
+    "pl": "Traumwohnungen"
+   },
+   {
+    "lemma": "Pool",
+    "art": "der",
+    "pl": "Pools"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Hat",
+     "role": "действие №1"
+    },
+    {
+     "w": "die Traumwohnung",
+     "role": "кто"
+    },
+    {
+     "w": "einen Pool",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Вопрос «да/нет»: hat впереди. Pool — der-слово: после hat — einen.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Hat) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Hat die Traumwohnung einen Pool?",
+   "why_ru": "По-русски «В квартире мечты есть бассейн» — вопрос только голосом, порядок как в ответе. По-немецки действие Hat выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Die Traumwohnung hat einen Pool?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («В квартире мечты есть бассейн?!»). Обычный вопрос — действие впереди."
+   },
+   "root": null,
+   "why_voice_ru": "Вопрос «да/нет»: hat впереди. Pool — der-слово: после hat — einen."
+  },
+  "audio": "audio_v1/ch08_045.mp3",
+  "tts": "Hat die Traumwohnung einen Pool?",
+  "ipa": [
+   {
+    "w": "Hat",
+    "ipa": "[hat]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Traumwohnung",
+    "ipa": "[ˈtʁaʊ̯mˌvoːnʊŋ]",
+    "src": "override"
+   },
+   {
+    "w": "einen",
+    "ipa": "[ˈaɪ̯nən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Pool",
+    "ipa": "[puːl]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_046",
+  "de": "Adresse, U-Bahn, Platz, Kultur.",
+  "ru": "Адрес, метро, площадь (место), культура.",
+  "nouns": [
+   {
+    "lemma": "Adresse",
+    "art": "die",
+    "pl": "Adressen"
+   },
+   {
+    "lemma": "U-Bahn",
+    "art": "die",
+    "pl": "U-Bahnen"
+   },
+   {
+    "lemma": "Platz",
+    "art": "der",
+    "pl": "Plätze"
+   },
+   {
+    "lemma": "Kultur",
+    "art": "die",
+    "pl": "Kulturen"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Adresse",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "U-Bahn",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Platz",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Kultur",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Слова курса: die Adresse, die U-Bahn, der Platz, die Kultur.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: die Adresse — адрес · die U-Bahn — метро · der Platz — площадь · die Kultur — культура.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: die Adresse, die U-Bahn, der Platz, die Kultur."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: die Adresse, die U-Bahn, der Platz, die Kultur."
+  },
+  "audio": "audio_v1/ch08_046.mp3",
+  "tts": "Adresse, U-Bahn, Platz, Kultur.",
+  "ipa": [
+   {
+    "w": "Adresse",
+    "ipa": "[aˈdʁɛsə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "U-Bahn",
+    "ipa": "[ˈuːˌbaːn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Platz",
+    "ipa": "[plat͡s]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kultur",
+    "ipa": "[kʊlˈtuːɐ̯]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_047",
+  "de": "Die Wohnung ist hell und ruhig.",
+  "ru": "Квартира светлая и тихая.",
+  "nouns": [
+   {
+    "lemma": "Wohnung",
+    "art": "die",
+    "pl": "Wohnungen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Die Wohnung",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "hell und ruhig",
+     "role": "какой/как"
+    }
+   ],
+   "text": "hell — «светлая», ruhig — «тихая»: ist как знак «=», описание стоит после него. Пара «светлый — тёмный» — Gegensätze (противоположности): hell — dunkel.",
+   "topic": "verb2",
+   "why_de": "Die Wohnung · ist · hell und ruhig: действие ist — вагон №2, опора всего предложения.",
+   "why_ru": "По-русски «Квартира светлая и тихая» — без действия «есть». По-немецки без ist фразы нет: Die Wohnung ist hell und ruhig.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Die Wohnung hell und ruhig.",
+    "ru": "Русская привычка — без действия, как «Квартира светлая и тихая». Без ist немец слышит обрывок, а не фразу."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "hell — «светлая», ruhig — «тихая»: ist как знак «=», описание стоит после него. Пара «светлый — тёмный» — Gegensätze (противоположности): hell — dunkel."
+  },
+  "audio": "audio_v1/ch08_047.mp3",
+  "tts": "Die Wohnung ist hell und ruhig.",
+  "ipa": [
+   {
+    "w": "Die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wohnung",
+    "ipa": "[ˈvoːnʊŋ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "hell",
+    "ipa": "[hɛl]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "und",
+    "ipa": "[ʊnt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ruhig",
+    "ipa": "[ˈʁuːɪç]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_048",
+  "de": "Ist die Küche modern?",
+  "ru": "Кухня современная?",
+  "nouns": [
+   {
+    "lemma": "Küche",
+    "art": "die",
+    "pl": "Küchen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Ist",
+     "role": "действие №1"
+    },
+    {
+     "w": "die Küche",
+     "role": "кто"
+    },
+    {
+     "w": "modern",
+     "role": "какой/как"
+    }
+   ],
+   "text": "Вопрос «да/нет»: ist впереди. modern — «современная»: описание после существительного, без окончания.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Ist) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Ist die Küche modern?",
+   "why_ru": "По-русски «Кухня современная» — вопрос только голосом, порядок как в ответе. По-немецки действие Ist выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Die Küche ist modern?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Кухня современная?!»). Обычный вопрос — действие впереди."
+   },
+   "root": null,
+   "why_voice_ru": "Вопрос «да/нет»: ist впереди. modern — «современная»: описание после существительного, без окончания.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "действие (вагон №1) · «кто» · «как»",
+    "items": [
+     {
+      "id": "ch08_d2_05",
+      "de": "Ist die Küche groß?",
+      "ru": "Кухня большая?",
+      "audio": "audio_v1/ch08_d2_05.mp3",
+      "lesson": "L2",
+      "part": 4,
+      "changed": {
+       "role": "какой/как",
+       "wagon": 3,
+       "from": "modern",
+       "to": "groß"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ist · die Küche. В каждом примере меняется один вагон — «как»: modern → groß. Действие Ist всё так же в вагоне №1.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch08_048.mp3",
+  "tts": "Ist die Küche modern?",
+  "ipa": [
+   {
+    "w": "Ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Küche",
+    "ipa": "[ˈkʏçə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "modern",
+    "ipa": "[moˈdɛʁn]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_049",
+  "de": "Das Zimmer ist dunkel.",
+  "ru": "Комната тёмная.",
+  "nouns": [
+   {
+    "lemma": "Zimmer",
+    "art": "das",
+    "pl": "Zimmer"
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#5246837 CC BY 2.0 FR (автор Sudajaengi)",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Das Zimmer",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "dunkel",
+     "role": "какой/как"
+    }
+   ],
+   "text": "dunkel — «тёмная», противоположность hell. После ist описание стоит без окончания.",
+   "topic": "verb2",
+   "why_de": "Das Zimmer · ist · dunkel: действие ist — вагон №2, опора всего предложения.",
+   "why_ru": "По-русски «Комната тёмная» — без действия «есть». По-немецки без ist фразы нет: Das Zimmer ist dunkel.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Das Zimmer dunkel.",
+    "ru": "Русская привычка — без действия, как «Комната тёмная». Без ist немец слышит обрывок, а не фразу."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "dunkel — «тёмная», противоположность hell. После ist описание стоит без окончания."
+  },
+  "audio": "audio_v1/ch08_049.mp3",
+  "tts": "Das Zimmer ist dunkel.",
+  "ipa": [
+   {
+    "w": "Das",
+    "ipa": "[das]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Zimmer",
+    "ipa": "[ˈt͡sɪmɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "dunkel",
+    "ipa": "[ˈdʊŋkl̩]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_050",
+  "de": "Die Küche ist unmodern.",
+  "ru": "Кухня несовременная.",
+  "nouns": [
+   {
+    "lemma": "Küche",
+    "art": "die",
+    "pl": "Küchen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Die Küche",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "unmodern",
+     "role": "какой/как"
+    }
+   ],
+   "text": "un- перед словом даёт противоположное: modern — «современная», unmodern — «несовременная».",
+   "topic": "verb2",
+   "why_de": "Die Küche · ist · unmodern: действие ist — вагон №2, опора всего предложения.",
+   "why_ru": "По-русски «Кухня несовременная» — без действия «есть». По-немецки без ist фразы нет: Die Küche ist unmodern.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Die Küche unmodern.",
+    "ru": "Русская привычка — без действия, как «Кухня несовременная». Без ist немец слышит обрывок, а не фразу."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "un- перед словом даёт противоположное: modern — «современная», unmodern — «несовременная»."
+  },
+  "audio": "audio_v1/ch08_050.mp3",
+  "tts": "Die Küche ist unmodern.",
+  "ipa": [
+   {
+    "w": "Die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Küche",
+    "ipa": "[ˈkʏçə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "unmodern",
+    "ipa": "[ˈʊnmoˌdɛʁn]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_051",
+  "de": "Du musst nicht aufräumen.",
+  "ru": "Тебе не нужно убираться.",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Du",
+     "role": "кто"
+    },
+    {
+     "w": "musst",
+     "role": "пульт №2"
+    },
+    {
+     "w": "nicht",
+     "role": "«не»"
+    },
+    {
+     "w": "aufräumen",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "musst — от müssen: «нужно, обязан». musst nicht — «не нужно» (необязательно), это не «нельзя». С du у müssen хвост -st. Второе действие aufräumen — в конце одним словом: musst … aufräumen — рамка.",
+   "topic": "modal",
+   "why_de": "«Пульт» держит вагон №2, а главное действие уходит в конец: Du musst nicht aufräumen.",
+   "why_ru": "По-русски «Тебе не нужно убираться» — действия рядом; по-немецки между ними помещается остальное: Du musst nicht aufräumen.",
+   "layer": "modal",
+   "why_not": {
+    "wrong": "Du musst aufräumen nicht.",
+    "ru": "По-русски «Тебе не нужно убираться» — оба действия рядом. По-немецки aufräumen сразу за musst — ошибка: оно ждёт в самом конце."
+   },
+   "root": null,
+   "why_voice_ru": "musst — от müssen: «нужно, обязан». musst nicht — «не нужно» (необязательно), это не «нельзя». С du у müssen хвост -st."
+  },
+  "audio": "audio_v1/ch08_051.mp3",
+  "tts": "Du musst nicht aufräumen.",
+  "ipa": [
+   {
+    "w": "Du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "musst",
+    "ipa": "[mʊst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "nicht",
+    "ipa": "[nɪçt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "aufräumen",
+    "ipa": "[ˈaʊ̯fˌʁɔɪ̯mən]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_052",
+  "de": "Muss ich auch aufräumen?",
+  "ru": "Мне тоже нужно убираться?",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Muss",
+     "role": "пульт №1"
+    },
+    {
+     "w": "ich",
+     "role": "кто"
+    },
+    {
+     "w": "auch",
+     "role": "добавка"
+    },
+    {
+     "w": "aufräumen",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "Вопрос «да/нет»: muss впереди, aufräumen — в конце: рамка. С ich — muss, без хвоста.",
+   "topic": "modal",
+   "why_de": "Вопрос «да/нет»: «пульт» Muss встаёт впереди, а главное действие — в самый конец: Muss ich auch aufräumen?",
+   "why_ru": "По-русски «Мне тоже нужно убираться» — вопрос голосом; по-немецки вопрос делает «пульт» впереди, главное действие ждёт в конце: Muss ich auch aufräumen?",
+   "layer": "modal",
+   "why_not": {
+    "wrong": "Muss aufräumen ich auch?",
+    "ru": "По-русски «Мне тоже нужно убираться» — оба действия рядом. По-немецки aufräumen сразу за Muss — ошибка: оно ждёт в самом конце."
+   },
+   "root": null,
+   "why_voice_ru": "Вопрос «да/нет»: muss впереди, aufräumen — в конце: рамка. С ich — muss, без хвоста."
+  },
+  "audio": "audio_v1/ch08_052.mp3",
+  "tts": "Muss ich auch aufräumen?",
+  "ipa": [
+   {
+    "w": "Muss",
+    "ipa": "[mʊs]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "auch",
+    "ipa": "[aʊ̯x]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "aufräumen",
+    "ipa": "[ˈaʊ̯fˌʁɔɪ̯mən]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_053",
+  "de": "Dusche, Herd, Kaffeemaschine, Waschbecken, Spüle, Sonnenschirm, Damentoilette, Herrentoilette, Sprachschule, Bier, Kinderwagen, Auto, Fußball, Party, Familie, Terrasse.",
+  "ru": "Душ, плита, кофемашина, раковина (в ванной), мойка (на кухне), садовый зонт, женский туалет, мужской туалет, языковая школа, пиво, детская коляска, машина, футбол, вечеринка, семья, терраса.",
+  "nouns": [
+   {
+    "lemma": "Dusche",
+    "art": "die",
+    "pl": "Duschen"
+   },
+   {
+    "lemma": "Herd",
+    "art": "der",
+    "pl": "Herde"
+   },
+   {
+    "lemma": "Kaffeemaschine",
+    "art": "die",
+    "pl": "Kaffeemaschinen"
+   },
+   {
+    "lemma": "Waschbecken",
+    "art": "das",
+    "pl": "Waschbecken"
+   },
+   {
+    "lemma": "Spüle",
+    "art": "die",
+    "pl": "Spülen"
+   },
+   {
+    "lemma": "Sonnenschirm",
+    "art": "der",
+    "pl": "Sonnenschirme"
+   },
+   {
+    "lemma": "Damentoilette",
+    "art": "die",
+    "pl": "Damentoiletten"
+   },
+   {
+    "lemma": "Herrentoilette",
+    "art": "die",
+    "pl": "Herrentoiletten"
+   },
+   {
+    "lemma": "Sprachschule",
+    "art": "die",
+    "pl": "Sprachschulen"
+   },
+   {
+    "lemma": "Bier",
+    "art": "das",
+    "pl": "Biere"
+   },
+   {
+    "lemma": "Kinderwagen",
+    "art": "der",
+    "pl": "Kinderwagen"
+   },
+   {
+    "lemma": "Auto",
+    "art": "das",
+    "pl": "Autos"
+   },
+   {
+    "lemma": "Fußball",
+    "art": "der",
+    "pl": "Fußbälle"
+   },
+   {
+    "lemma": "Party",
+    "art": "die",
+    "pl": "Partys"
+   },
+   {
+    "lemma": "Familie",
+    "art": "die",
+    "pl": "Familien"
+   },
+   {
+    "lemma": "Terrasse",
+    "art": "die",
+    "pl": "Terrassen"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Dusche",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Herd",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Kaffeemaschine",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Waschbecken",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Spüle",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Sonnenschirm",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Damentoilette",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Herrentoilette",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Sprachschule",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Bier",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Kinderwagen",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Auto",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Fußball",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Party",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Familie",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Terrasse",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Слова курса: die Dusche, der Herd, die Kaffeemaschine, das Waschbecken, die Spüle, der Sonnenschirm, die Damentoilette, die Herrentoilette, die Sprachschule, das Bier, der Kinderwagen, das Auto, der Fußball, die Party, die Familie, die Terrasse.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: die Dusche — душ · der Herd — плита · die Kaffeemaschine — кофемашина · das Waschbecken — раковина · die Spüle — мойка · der Sonnenschirm — садовый зонт · die Damentoilette — женский туалет · die Herrentoilette — мужской туалет · die Sprachschule — языковая школа · das Bier — пиво · der Kinderwagen — детская коляска · das Auto — машина · der Fußball — футбол · die Party — вечеринка · die Familie — семья · die Terrasse — терраса.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: die Dusche, der Herd, die Kaffeemaschine, das Waschbecken, die Spüle, der Sonnenschirm, die Damentoilette, die Herrentoilette, die Sprachschule, das Bier, der Kinderwagen, das Auto, der Fußball, die Party, die Familie, die Terrasse."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: die Dusche, der Herd, die Kaffeemaschine, das Waschbecken, die Spüle, der Sonnenschirm, die Damentoilette, die Herrentoilette, die Sprachschule, das Bier, der Kinderwagen, das"
+  },
+  "audio": "audio_v1/ch08_053.mp3",
+  "tts": "Dusche, Herd, Kaffeemaschine, Waschbecken, Spüle, Sonnenschirm, Damentoilette, Herrentoilette, Sprachschule, Bier, Kinderwagen, Auto, Fußball, Party, Familie, Terrasse.",
+  "ipa": [
+   {
+    "w": "Dusche",
+    "ipa": "[ˈduːʃə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Herd",
+    "ipa": "[heːɐ̯t]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kaffeemaschine",
+    "ipa": "[ˈkafemaˌʃiːnə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Waschbecken",
+    "ipa": "[ˈvaʃˌbɛkn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Spüle",
+    "ipa": "[ˈʃpyːlə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Sonnenschirm",
+    "ipa": "[ˈzɔnənˌʃɪʁm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Damentoilette",
+    "ipa": "[ˈdaːmənto̯aˌlɛtə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Herrentoilette",
+    "ipa": "[ˈhɛʁəntoˌlɛtə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Sprachschule",
+    "ipa": "[ˈʃpʁaːxˌʃuːlə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bier",
+    "ipa": "[biːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kinderwagen",
+    "ipa": "[ˈkɪndɐˌvaːɡn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Auto",
+    "ipa": "[ˈaʊ̯to]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fußball",
+    "ipa": "[ˈfuːsˌbal]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Party",
+    "ipa": "[ˈpaːɐ̯ti]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Familie",
+    "ipa": "[faˈmiːli̯ə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Terrasse",
+    "ipa": "[tɛˈʁasə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_t01",
+  "de": "Gibt es hier auch ein Bad?",
+  "ru": "А ванная здесь тоже есть?",
+  "nouns": [
+   {
+    "lemma": "Bad",
+    "art": "das",
+    "pl": "Bäder"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch08_L1",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Gibt",
+     "role": "действие №1"
+    },
+    {
+     "w": "es",
+     "role": "кто"
+    },
+    {
+     "w": "hier",
+     "role": "где"
+    },
+    {
+     "w": "auch",
+     "role": "добавка"
+    },
+    {
+     "w": "ein Bad",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Вопрос «да/нет»: gibt впереди. Bad — das-слово: после es gibt остаётся ein.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Gibt) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Gibt es hier auch ein Bad?",
+   "why_ru": "По-русски «А ванная здесь тоже есть» — вопрос только голосом, порядок как в ответе. По-немецки действие Gibt выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Es gibt hier auch ein Bad?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («А ванная здесь тоже есть?!»). Обычный вопрос — действие впереди."
+   },
+   "root": null,
+   "why_voice_ru": "Вопрос «да/нет»: gibt впереди. Bad — das-слово: после es gibt остаётся ein."
+  },
+  "audio": "audio_v1/ch08_t01.mp3",
+  "tts": "Gibt es hier auch ein Bad?",
+  "ipa": [
+   {
+    "w": "Gibt",
+    "ipa": "[ɡiːpt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "es",
+    "ipa": "[ɛs]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "hier",
+    "ipa": "[hiːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "auch",
+    "ipa": "[aʊ̯x]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ein",
+    "ipa": "[aɪ̯n]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bad",
+    "ipa": "[baːt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_t02",
+  "de": "Wo ist die Küche?",
+  "ru": "Где кухня?",
+  "nouns": [
+   {
+    "lemma": "Küche",
+    "art": "die",
+    "pl": "Küchen"
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#3091280 CC BY 2.0 FR (автор sinequanon28)",
+  "transfer": true,
+  "lesson": "ch08_L1",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Wo",
+     "role": "вопрос-слово",
+     "asks": "где"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "die Küche",
+     "role": "кто"
+    }
+   ],
+   "text": "wo — вагон №1, действие ist — за ним. Küche — die-слово: die Küche.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Wo — вагон №1, действие ist — сразу за ним, вагон №2: Wo ist die Küche? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Где кухня» можно сказать и в другом порядке. По-немецки порядок один: Wo · ist · die Küche. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Wo die Küche ist?",
+    "ru": "die Küche встал перед ist — действие ушло из вагона №2. После Wo немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "wo — вагон №1, действие ist — за ним. Küche — die-слово: die Küche.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "вопрос-слово · действие (вагон №2) · «кто»",
+    "items": [
+     {
+      "id": "ch08_005",
+      "de": "Wo ist das Schlafzimmer?",
+      "ru": "Где спальня?",
+      "audio": "audio_v1/ch08_005.mp3",
+      "lesson": "L1",
+      "part": 3,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "die Küche",
+       "to": "das Schlafzimmer"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Wo · ist. В каждом примере меняется один вагон — «кто»: die Küche → das Schlafzimmer. Действие ist всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch08_t02.mp3",
+  "tts": "Wo ist die Küche?",
+  "ipa": [
+   {
+    "w": "Wo",
+    "ipa": "[voː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Küche",
+    "ipa": "[ˈkʏçə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_t03",
+  "de": "Ist unser Balkon groß?",
+  "ru": "Наш балкон большой?",
+  "nouns": [
+   {
+    "lemma": "Balkon",
+    "art": "der",
+    "pl": "Balkons"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch08_L2",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Ist",
+     "role": "действие №1"
+    },
+    {
+     "w": "unser Balkon",
+     "role": "кто"
+    },
+    {
+     "w": "groß",
+     "role": "какой/как"
+    }
+   ],
+   "text": "Вопрос «да/нет»: ist впереди. Balkon — der-слово: unser без окончания.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Ist) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Ist unser Balkon groß?",
+   "why_ru": "По-русски «Наш балкон большой» — вопрос только голосом, порядок как в ответе. По-немецки действие Ist выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Unser Balkon ist groß?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Наш балкон большой?!»). Обычный вопрос — действие впереди."
+   },
+   "root": null,
+   "why_voice_ru": "Вопрос «да/нет»: ist впереди. Balkon — der-слово: unser без окончания.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "действие (вагон №1) · «кто» · «как»",
+    "items": [
+     {
+      "id": "ch08_d2_05",
+      "de": "Ist die Küche groß?",
+      "ru": "Кухня большая?",
+      "audio": "audio_v1/ch08_d2_05.mp3",
+      "lesson": "L2",
+      "part": 4,
+      "changed": {
+       "role": "кто",
+       "wagon": 2,
+       "from": "unser Balkon",
+       "to": "die Küche"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ist · groß. В каждом примере меняется один вагон — «кто»: unser Balkon → die Küche. Действие Ist всё так же в вагоне №1.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch08_t03.mp3",
+  "tts": "Ist unser Balkon groß?",
+  "ipa": [
+   {
+    "w": "Ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "unser",
+    "ipa": "[ˈʊnzɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Balkon",
+    "ipa": "[balˈkɔ̃ː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "groß",
+    "ipa": "[ɡʁoːs]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_t04",
+  "de": "Eure Küche ist sehr groß.",
+  "ru": "Ваша кухня очень большая.",
+  "nouns": [
+   {
+    "lemma": "Küche",
+    "art": "die",
+    "pl": "Küchen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch08_L2",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Eure Küche",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "sehr groß",
+     "role": "какой/как"
+    }
+   ],
+   "text": "Küche — die-слово: euer + -e = eure Küche.",
+   "topic": "verb2",
+   "why_de": "Eure Küche · ist · sehr groß: действие ist — вагон №2, опора всего предложения.",
+   "why_ru": "По-русски «Ваша кухня очень большая» — без действия «есть». По-немецки без ist фразы нет: Eure Küche ist sehr groß.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Eure Küche sehr groß.",
+    "ru": "Русская привычка — без действия, как «Ваша кухня очень большая». Без ist немец слышит обрывок, а не фразу."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "Küche — die-слово: euer + -e = eure Küche."
+  },
+  "audio": "audio_v1/ch08_t04.mp3",
+  "tts": "Eure Küche ist sehr groß.",
+  "ipa": [
+   {
+    "w": "Eure",
+    "ipa": "[ˈɔɪ̯ʁə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Küche",
+    "ipa": "[ˈkʏçə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "sehr",
+    "ipa": "[zeːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "groß",
+    "ipa": "[ɡʁoːs]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_t05",
+  "de": "Willst du eine Wohnung mit Balkon?",
+  "ru": "Ты хочешь квартиру с балконом?",
+  "nouns": [
+   {
+    "lemma": "Wohnung",
+    "art": "die",
+    "pl": "Wohnungen"
+   },
+   {
+    "lemma": "Balkon",
+    "art": "der",
+    "pl": "Balkons"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch08_L3",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Willst",
+     "role": "действие №1"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "eine Wohnung mit Balkon",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Вопрос «да/нет»: willst впереди. Wohnung — die-слово: eine.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Willst) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Willst du eine Wohnung mit Balkon?",
+   "why_ru": "По-русски «Ты хочешь квартиру с балконом» — вопрос только голосом, порядок как в ответе. По-немецки действие Willst выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Du willst eine Wohnung mit Balkon?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Ты хочешь квартиру с балконом?!»). Обычный вопрос — действие впереди."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "Вопрос «да/нет»: willst впереди. Wohnung — die-слово: eine.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "действие (вагон №1) · «кто» · «что»",
+    "items": [
+     {
+      "id": "ch08_022",
+      "de": "Willst du ein Haus mit Garten?",
+      "ru": "Ты хочешь дом с садом?",
+      "audio": "audio_v1/ch08_022.mp3",
+      "lesson": "L3",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "eine Wohnung mit Balkon",
+       "to": "ein Haus mit Garten"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Willst · du. В каждом примере меняется один вагон — «что»: eine Wohnung mit Balkon → ein Haus mit Garten. Действие Willst всё так же в вагоне №1.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch08_t05.mp3",
+  "tts": "Willst du eine Wohnung mit Balkon?",
+  "ipa": [
+   {
+    "w": "Willst",
+    "ipa": "[vɪlst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "eine",
+    "ipa": "[ˈaɪ̯nə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wohnung",
+    "ipa": "[ˈvoːnʊŋ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "mit",
+    "ipa": "[mɪt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Balkon",
+    "ipa": "[balˈkɔ̃ː]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_t06",
+  "de": "Wir wollen in Freiberg wohnen.",
+  "ru": "Мы хотим жить во Фрайберге.",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch08_L3",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Wir",
+     "role": "кто"
+    },
+    {
+     "w": "wollen",
+     "role": "пульт №2"
+    },
+    {
+     "w": "in Freiberg",
+     "role": "где"
+    },
+    {
+     "w": "wohnen",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "wollen — вагон №2, с wir хвост -en. wohnen — в конце: рамка.",
+   "topic": "modal",
+   "why_de": "«Пульт» держит вагон №2, а главное действие уходит в конец: Wir wollen in Freiberg wohnen.",
+   "why_ru": "По-русски «Мы хотим жить во Фрайберге» — действия рядом; по-немецки между ними помещается остальное: Wir wollen in Freiberg wohnen.",
+   "layer": "modal",
+   "why_not": {
+    "wrong": "Wir wollen wohnen in Freiberg.",
+    "ru": "По-русски «Мы хотим жить во Фрайберге» — оба действия рядом. По-немецки wohnen сразу за wollen — ошибка: оно ждёт в самом конце."
+   },
+   "root": null,
+   "why_voice_ru": "wollen — вагон №2, с wir хвост -en. wohnen — в конце: рамка."
+  },
+  "audio": "audio_v1/ch08_t06.mp3",
+  "tts": "Wir wollen in Freiberg wohnen.",
+  "ipa": [
+   {
+    "w": "Wir",
+    "ipa": "[viːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "wollen",
+    "ipa": "[ˈvɔlən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "in",
+    "ipa": "[ɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Freiberg",
+    "ipa": "[ˈfʁaɪ̯ˌbɛʁk]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "wohnen",
+    "ipa": "[ˈvoːnən]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_t07",
+  "de": "Hat die Wohnung einen Balkon?",
+  "ru": "В квартире есть балкон?",
+  "nouns": [
+   {
+    "lemma": "Wohnung",
+    "art": "die",
+    "pl": "Wohnungen"
+   },
+   {
+    "lemma": "Balkon",
+    "art": "der",
+    "pl": "Balkons"
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#3518117 CC BY 2.0 FR (автор VilhelmsPort)",
+  "transfer": true,
+  "lesson": "ch08_L4",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Hat",
+     "role": "действие №1"
+    },
+    {
+     "w": "die Wohnung",
+     "role": "кто"
+    },
+    {
+     "w": "einen Balkon",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Вопрос «да/нет»: hat впереди. Balkon — der-слово: после hat — einen.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Hat) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Hat die Wohnung einen Balkon?",
+   "why_ru": "По-русски «В квартире есть балкон» — вопрос только голосом, порядок как в ответе. По-немецки действие Hat выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Die Wohnung hat einen Balkon?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («В квартире есть балкон?!»). Обычный вопрос — действие впереди."
+   },
+   "root": null,
+   "why_voice_ru": "Вопрос «да/нет»: hat впереди. Balkon — der-слово: после hat — einen."
+  },
+  "audio": "audio_v1/ch08_t07.mp3",
+  "tts": "Hat die Wohnung einen Balkon?",
+  "ipa": [
+   {
+    "w": "Hat",
+    "ipa": "[hat]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wohnung",
+    "ipa": "[ˈvoːnʊŋ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "einen",
+    "ipa": "[ˈaɪ̯nən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Balkon",
+    "ipa": "[balˈkɔ̃ː]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_t08",
+  "de": "Die Miete ist vierhundertfünfzig Euro.",
+  "ru": "Аренда — четыреста пятьдесят евро.",
+  "nouns": [
+   {
+    "lemma": "Miete",
+    "art": "die",
+    "pl": "Mieten"
+   },
+   {
+    "lemma": "Euro",
+    "art": "der",
+    "pl": "Euro"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch08_L4",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Die Miete",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "vierhundertfünfzig Euro",
+     "role": "кого-что"
+    }
+   ],
+   "text": "vierhundertfünfzig = vier + hundert + fünfzig = 450: сначала сотни, потом десятки.",
+   "topic": "verb2",
+   "why_de": "Die Miete · ist · vierhundertfünfzig Euro: действие ist — вагон №2, опора всего предложения.",
+   "why_ru": "По-русски «Аренда — четыреста пятьдесят евро» — без действия «есть». По-немецки без ist фразы нет: Die Miete ist vierhundertfünfzig Euro.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Die Miete vierhundertfünfzig Euro.",
+    "ru": "Русская привычка — без действия, как «Аренда — четыреста пятьдесят евро». Без ist немец слышит обрывок, а не фразу."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "vierhundertfünfzig = vier + hundert + fünfzig = 450: сначала сотни, потом десятки.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «что»",
+    "items": [
+     {
+      "id": "ch08_029",
+      "de": "Die Miete ist vierhundert Euro.",
+      "ru": "Аренда — четыреста евро.",
+      "audio": "audio_v1/ch08_029.mp3",
+      "lesson": "L4",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "vierhundertfünfzig Euro",
+       "to": "vierhundert Euro"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Die Miete · ist. В каждом примере меняется один вагон — «что»: vierhundertfünfzig Euro → vierhundert Euro. Действие ist всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch08_t08.mp3",
+  "tts": "Die Miete ist vierhundertfünfzig Euro.",
+  "ipa": [
+   {
+    "w": "Die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Miete",
+    "ipa": "[ˈmiːtə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "vierhundertfünfzig",
+    "ipa": "[…]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Euro",
+    "ipa": "[ˈɔɪ̯ʁo]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_t09",
+  "de": "Darf ich hier Musik hören?",
+  "ru": "Можно мне здесь слушать музыку?",
+  "nouns": [
+   {
+    "lemma": "Musik",
+    "art": "die",
+    "pl": ""
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch08_L5",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Darf",
+     "role": "пульт №1"
+    },
+    {
+     "w": "ich",
+     "role": "кто"
+    },
+    {
+     "w": "hier",
+     "role": "где"
+    },
+    {
+     "w": "Musik",
+     "role": "кого-что"
+    },
+    {
+     "w": "hören",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "Вопрос «да/нет»: darf впереди, hören — в конце. С ich — darf.",
+   "topic": "modal",
+   "why_de": "Вопрос «да/нет»: «пульт» Darf встаёт впереди, а главное действие — в самый конец: Darf ich hier Musik hören?",
+   "why_ru": "По-русски «Можно мне здесь слушать музыку» — вопрос голосом; по-немецки вопрос делает «пульт» впереди, главное действие ждёт в конце: Darf ich hier Musik hören?",
+   "layer": "modal",
+   "why_not": {
+    "wrong": "Darf hören ich hier Musik?",
+    "ru": "По-русски «Можно мне здесь слушать музыку» — оба действия рядом. По-немецки hören сразу за Darf — ошибка: оно ждёт в самом конце."
+   },
+   "root": null,
+   "why_voice_ru": "Вопрос «да/нет»: darf впереди, hören — в конце. С ich — darf."
+  },
+  "audio": "audio_v1/ch08_t09.mp3",
+  "tts": "Darf ich hier Musik hören?",
+  "ipa": [
+   {
+    "w": "Darf",
+    "ipa": "[daʁf]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "hier",
+    "ipa": "[hiːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Musik",
+    "ipa": "[muˈziːk]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "hören",
+    "ipa": "[ˈhøːʁən]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_t10",
+  "de": "Wir dürfen am Abend nicht laut sein.",
+  "ru": "Нам нельзя вечером шуметь.",
+  "nouns": [
+   {
+    "lemma": "Abend",
+    "art": "der",
+    "pl": "Abende"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch08_L5",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Wir",
+     "role": "кто"
+    },
+    {
+     "w": "dürfen",
+     "role": "пульт №2"
+    },
+    {
+     "w": "am Abend",
+     "role": "когда"
+    },
+    {
+     "w": "nicht",
+     "role": "«не»"
+    },
+    {
+     "w": "laut",
+     "role": "какой/как"
+    },
+    {
+     "w": "sein",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "С wir — dürfen. dürfen nicht — «нельзя». sein — в конце.",
+   "topic": "modal",
+   "why_de": "«Пульт» держит вагон №2, а главное действие уходит в конец: Wir dürfen am Abend nicht laut sein.",
+   "why_ru": "По-русски «Нам нельзя вечером шуметь» — действия рядом; по-немецки между ними помещается остальное: Wir dürfen am Abend nicht laut sein.",
+   "layer": "modal",
+   "why_not": {
+    "wrong": "Wir dürfen sein am Abend nicht laut.",
+    "ru": "По-русски «Нам нельзя вечером шуметь» — оба действия рядом. По-немецки sein сразу за dürfen — ошибка: оно ждёт в самом конце."
+   },
+   "root": null,
+   "why_voice_ru": "С wir — dürfen. dürfen nicht — «нельзя». sein — в конце."
+  },
+  "audio": "audio_v1/ch08_t10.mp3",
+  "tts": "Wir dürfen am Abend nicht laut sein.",
+  "ipa": [
+   {
+    "w": "Wir",
+    "ipa": "[viːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "dürfen",
+    "ipa": "[ˈdʏʁfn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "am",
+    "ipa": "[am]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Abend",
+    "ipa": "[ˈaːbn̩t]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "nicht",
+    "ipa": "[nɪçt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "laut",
+    "ipa": "[laʊ̯t]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "sein",
+    "ipa": "[zaɪ̯n]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_t11",
+  "de": "Meine Traumwohnung hat einen Balkon.",
+  "ru": "В квартире моей мечты есть балкон.",
+  "nouns": [
+   {
+    "lemma": "Traumwohnung",
+    "art": "die",
+    "pl": "Traumwohnungen"
+   },
+   {
+    "lemma": "Balkon",
+    "art": "der",
+    "pl": "Balkons"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch08_L6",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Meine Traumwohnung",
+     "role": "кто"
+    },
+    {
+     "w": "hat",
+     "role": "действие №2"
+    },
+    {
+     "w": "einen Balkon",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Balkon — der-слово: после hat — einen.",
+   "topic": "akkusativ",
+   "why_de": "Артикль — сигнал роли: der → den/einen показывает «кого-что»: Meine Traumwohnung hat einen Balkon.",
+   "why_ru": "Похоже на русские окончания, только меняется не слово, а артикль: Meine Traumwohnung hat einen Balkon.",
+   "layer": "akk",
+   "why_not": {
+    "wrong": "Meine Traumwohnung hat ein Balkon.",
+    "ru": "Русская привычка: артикль не меняется. Немец слышит не ту роль: тут der-слово в роли «кого-что» — einen."
+   },
+   "root": null,
+   "why_voice_ru": "Balkon — der-слово: после hat — einen.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «что»",
+    "items": [
+     {
+      "id": "ch08_042",
+      "de": "Meine Traumwohnung hat einen Garten.",
+      "ru": "В квартире моей мечты есть сад.",
+      "audio": "audio_v1/ch08_042.mp3",
+      "lesson": "L6",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "einen Balkon",
+       "to": "einen Garten"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Meine Traumwohnung · hat. В каждом примере меняется один вагон — «что»: einen Balkon → einen Garten. Действие hat всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch08_t11.mp3",
+  "tts": "Meine Traumwohnung hat einen Balkon.",
+  "ipa": [
+   {
+    "w": "Meine",
+    "ipa": "[ˈmaɪ̯nə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Traumwohnung",
+    "ipa": "[ˈtʁaʊ̯mˌvoːnʊŋ]",
+    "src": "override"
+   },
+   {
+    "w": "hat",
+    "ipa": "[hat]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "einen",
+    "ipa": "[ˈaɪ̯nən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Balkon",
+    "ipa": "[balˈkɔ̃ː]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_t12",
+  "de": "Es gibt eine Schule und einen Garten.",
+  "ru": "Есть школа и сад.",
+  "nouns": [
+   {
+    "lemma": "Schule",
+    "art": "die",
+    "pl": "Schulen"
+   },
+   {
+    "lemma": "Garten",
+    "art": "der",
+    "pl": "Gärten"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch08_L6",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Es",
+     "role": "кто"
+    },
+    {
+     "w": "gibt",
+     "role": "действие №2"
+    },
+    {
+     "w": "eine Schule und einen Garten",
+     "role": "кого-что"
+    }
+   ],
+   "text": "es gibt — «есть». Schule — die-слово: eine; Garten — der-слово: einen.",
+   "topic": "akkusativ",
+   "why_de": "Es · gibt · eine Schule und einen Garten: действие gibt — вагон №2, опора всего предложения.",
+   "why_ru": "По-русски «Есть школа и сад» — «есть» в смысле имеется. По-немецки так говорят готовым оборотом es gibt, дословно — оно даёт: Es gibt eine Schule und einen Garten. Действие gibt держит вагон №2.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Es eine Schule und einen Garten gibt.",
+    "ru": "Действие gibt уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе gibt — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "es gibt — «есть». Schule — die-слово: eine; Garten — der-слово: einen.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «что»",
+    "items": [
+     {
+      "id": "ch08_002",
+      "de": "Es gibt eine Küche und ein Bad.",
+      "ru": "Есть кухня и ванная.",
+      "audio": "audio_v1/ch08_002.mp3",
+      "lesson": "L1",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "eine Schule und einen Garten",
+       "to": "eine Küche und ein Bad"
+      }
+     },
+     {
+      "id": "ch08_004",
+      "de": "Es gibt einen Keller.",
+      "ru": "Есть подвал.",
+      "audio": "audio_v1/ch08_004.mp3",
+      "lesson": "L1",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "eine Schule und einen Garten",
+       "to": "einen Keller"
+      }
+     },
+     {
+      "id": "ch08_043",
+      "de": "Es gibt einen Supermarkt und eine Schule.",
+      "ru": "Есть супермаркет и школа.",
+      "audio": "audio_v1/ch08_043.mp3",
+      "lesson": "L6",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "eine Schule und einen Garten",
+       "to": "einen Supermarkt und eine Schule"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Es · gibt. В каждом примере меняется один вагон — «что»: eine Schule und einen Garten → eine Küche und ein Bad → einen Keller → einen Supermarkt und eine Schule. Действие gibt всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch08_t12.mp3",
+  "tts": "Es gibt eine Schule und einen Garten.",
+  "ipa": [
+   {
+    "w": "Es",
+    "ipa": "[ɛs]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gibt",
+    "ipa": "[ɡiːpt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "eine",
+    "ipa": "[ˈaɪ̯nə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Schule",
+    "ipa": "[ˈʃuːlə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "und",
+    "ipa": "[ʊnt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "einen",
+    "ipa": "[ˈaɪ̯nən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Garten",
+    "ipa": "[ˈɡaʁtn̩]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_t13",
+  "de": "Ist das Zimmer hell?",
+  "ru": "Комната светлая?",
+  "nouns": [
+   {
+    "lemma": "Zimmer",
+    "art": "das",
+    "pl": "Zimmer"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch08_L7",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Ist",
+     "role": "действие №1"
+    },
+    {
+     "w": "das Zimmer",
+     "role": "кто"
+    },
+    {
+     "w": "hell",
+     "role": "какой/как"
+    }
+   ],
+   "text": "Вопрос «да/нет»: ist впереди. hell — «светлая», как знак «=» после ist.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Ist) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Ist das Zimmer hell?",
+   "why_ru": "По-русски «Комната светлая» — вопрос только голосом, порядок как в ответе. По-немецки действие Ist выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Das Zimmer ist hell?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Комната светлая?!»). Обычный вопрос — действие впереди."
+   },
+   "root": null,
+   "why_voice_ru": "Вопрос «да/нет»: ist впереди. hell — «светлая», как знак «=» после ist."
+  },
+  "audio": "audio_v1/ch08_t13.mp3",
+  "tts": "Ist das Zimmer hell?",
+  "ipa": [
+   {
+    "w": "Ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "das",
+    "ipa": "[das]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Zimmer",
+    "ipa": "[ˈt͡sɪmɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "hell",
+    "ipa": "[hɛl]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch08_t14",
+  "de": "Du musst nicht kommen.",
+  "ru": "Тебе не нужно приходить.",
+  "nouns": [],
+  "chunk": false,
+  "source": "tatoeba:#2441659 CC BY 2.0 FR (автор karstenenh)",
+  "transfer": true,
+  "lesson": "ch08_L7",
+  "book": "Книга, урок 3 (es gibt), стр. PDF 78; урок 5 (деньги и мебель), стр. PDF 129; урок 9 (модальные глаголы), стр. PDF 216–218; урок 10 (приставки и man), стр. PDF 238–242; урок 12 (притяжательные), стр. PDF 291–293; урок 19 (прилагательное), стр. PDF 441",
+  "why": {
+   "train": [
+    {
+     "w": "Du",
+     "role": "кто"
+    },
+    {
+     "w": "musst",
+     "role": "пульт №2"
+    },
+    {
+     "w": "nicht",
+     "role": "«не»"
+    },
+    {
+     "w": "kommen",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "С du — musst. musst nicht — «не нужно» (необязательно). kommen — в конце: рамка.",
+   "topic": "modal",
+   "why_de": "«Пульт» держит вагон №2, а главное действие уходит в конец: Du musst nicht kommen.",
+   "why_ru": "По-русски «Тебе не нужно приходить» — действия рядом; по-немецки между ними помещается остальное: Du musst nicht kommen.",
+   "layer": "modal",
+   "why_not": {
+    "wrong": "Du musst kommen nicht.",
+    "ru": "По-русски «Тебе не нужно приходить» — оба действия рядом. По-немецки kommen сразу за musst — ошибка: оно ждёт в самом конце."
+   },
+   "root": null,
+   "why_voice_ru": "С du — musst. musst nicht — «не нужно» (необязательно). kommen — в конце: рамка.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «не» · хвост действия",
+    "items": [
+     {
+      "id": "ch08_051",
+      "de": "Du musst nicht aufräumen.",
+      "ru": "Тебе не нужно убираться.",
+      "audio": "audio_v1/ch08_051.mp3",
+      "lesson": "L7",
+      "part": 3,
+      "changed": {
+       "role": "хвост действия",
+       "wagon": 4,
+       "from": "kommen",
+       "to": "aufräumen"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Du · musst · nicht. В каждом примере меняется один вагон — хвост действия: kommen → aufräumen. Действие musst всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch08_t14.mp3",
+  "tts": "Du musst nicht kommen.",
+  "ipa": [
+   {
+    "w": "Du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "musst",
+    "ipa": "[mʊst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "nicht",
+    "ipa": "[nɪçt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "kommen",
+    "ipa": "[ˈkɔmən]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ }
+]

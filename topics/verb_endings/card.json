@@ -1,0 +1,498 @@
+{
+ "topic": "verb_endings",
+ "title": "Паровоз с табличкой: кончик действия — под того, кто делает",
+ "minutes": 2,
+ "steps": [
+  {
+   "type": "picture",
+   "text": "Действие — паровоз на месте №2. На паровозе табличка — кончик слова. Кончик меняется под того, кто едет в поезде.",
+   "items": [
+    {
+     "who": "ich",
+     "end": "-e",
+     "de": "höre"
+    },
+    {
+     "who": "du",
+     "end": "-st",
+     "de": "hörst"
+    },
+    {
+     "who": "er / sie / es",
+     "end": "-t",
+     "de": "hört"
+    },
+    {
+     "who": "wir",
+     "end": "-en",
+     "de": "hören"
+    },
+    {
+     "who": "ihr",
+     "end": "-t",
+     "de": "hört"
+    },
+    {
+     "who": "sie / Sie",
+     "end": "-en",
+     "de": "hören"
+    }
+   ],
+   "note": "Шесть «кто» — а разных кончиков только четыре: -e, -st, -t, -en.",
+   "src": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "idea",
+   "text": "Почему немцы всегда говорят «я», «ты», «мы»? Потому что кончики повторяются: -t и у «он», и у «вы, ребята»; -en и у «мы», и у «они». По одному кончику не понять, кто делает, — поэтому «кто» называют вслух. По-русски «работаю» — и так ясно, что это я. По-немецки нужно сказать: Ich arbeite. А место действия не меняется: всё равно вагон №2.",
+   "src": [
+    2,
+    3,
+    8
+   ]
+  },
+  {
+   "type": "examples",
+   "text": "Одна фраза — меняем только «кто». Слушай, как меняется кончик.",
+   "items": [
+    "ich_hoere",
+    "du_hoerst",
+    "bruder_hoert",
+    "wir_hoeren",
+    "ihr_hoert"
+   ],
+   "src": [
+    1,
+    7
+   ]
+  },
+  {
+   "type": "hint",
+   "text": "Если слово кончается на -t или -d (arbeiten, finden), перед -st и -t вставляем e — иначе кончик не слышно: du arbeitest, er arbeitet.",
+   "items": [
+    "du_arbeitest",
+    "oma_arbeitet"
+   ],
+   "src": [
+    4
+   ]
+  },
+  {
+   "type": "trap",
+   "text": "Тут русский мешает. Хочется сказать просто «Arbeite heute lange» (= «Работаю сегодня долго»). Но для немца «Arbeite!» звучит как приказ «Работай!». Нужно назвать себя: Ich arbeite heute lange.",
+   "items": [
+    {
+     "wrong": "Arbeite heute lange.",
+     "right": "Ich arbeite heute lange.",
+     "audio": "ich_arbeite"
+    }
+   ],
+   "src": [
+    3
+   ]
+  },
+  {
+   "type": "recall",
+   "text": "Сначала скажи сам, потом проверь.",
+   "items": [
+    {
+     "q": "«Ты хорошо играешь» (spielen)",
+     "a": "Du spielst gut.",
+     "audio": "du_spielst"
+    },
+    {
+     "q": "«Она живёт в деревне» (wohnen)",
+     "a": "Sie wohnt im Dorf.",
+     "audio": "sie_wohnt"
+    },
+    {
+     "q": "Почини: «Du arbeitst heute lange.»",
+     "a": "Du arbeitest heute lange.",
+     "audio": "du_arbeitest"
+    },
+    {
+     "q": "Найди сам: какой кончик во фразе «Ihr hört Musik im Auto» и почему?",
+     "a": "-t: «вы, ребята» (ihr) → hör + t.",
+     "audio": "ihr_hoert",
+     "kind": "find"
+    }
+   ],
+   "src": [
+    1,
+    4
+   ]
+  },
+  {
+   "type": "live",
+   "text": "Вживую: кончики в официальной немецкой озвучке аниме (Crunchyroll).",
+   "items": [
+    {
+     "yt": "hKOc3nlewug",
+     "channel": "Crunchyroll Deutschland",
+     "title": "JUJUTSU KAISEN, 3 сезон — «Yuji vs. Panda»",
+     "start": 2,
+     "end": 10,
+     "embed": true,
+     "said_de": "Allerdings arbeite ich auch erst seit einem halben Monat hier.",
+     "said_ru": "Правда, я и работаю-то здесь всего полмесяца.",
+     "train": [
+      {
+       "role": "впрочем",
+       "de": "Allerdings",
+       "ru": "правда"
+      },
+      {
+       "role": "действие №2",
+       "de": "arbeite",
+       "ru": "работаю"
+      },
+      {
+       "role": "кто",
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "role": "когда / где",
+       "de": "auch erst seit einem halben Monat hier",
+       "ru": "всего полмесяца здесь"
+      }
+     ],
+     "why": "Говорит «я» — значит кончик -e: arbeite. И снова поезд: первый вагон «правда», действие второе, «я» — в вагоне №3."
+    },
+    {
+     "yt": "SrPLyEhd598",
+     "channel": "Crunchyroll Deutschland",
+     "title": "Frieren — «Kurz und schmerzlos»",
+     "start": 0,
+     "end": 7,
+     "embed": true,
+     "said_de": "Du sammelst Magie um deinen Hals.",
+     "said_ru": "Ты собираешь магию вокруг своей шеи.",
+     "train": [
+      {
+       "role": "кто",
+       "de": "Du",
+       "ru": "ты"
+      },
+      {
+       "role": "действие №2",
+       "de": "sammelst",
+       "ru": "собираешь"
+      },
+      {
+       "role": "что",
+       "de": "Magie",
+       "ru": "магию"
+      },
+      {
+       "role": "где",
+       "de": "um deinen Hals",
+       "ru": "вокруг шеи"
+      }
+     ],
+     "why": "Говорят «ты» — слышен кончик -st: sammelst. Послушай, как звучит «-st» в конце."
+    }
+   ],
+   "own": [
+    {
+     "id": "profi",
+     "note": "в стиле игры: du → -st"
+    },
+    {
+     "id": "zusammen",
+     "note": "в стиле аниме: wir → -en"
+    }
+   ],
+   "src": [
+    1,
+    8
+   ]
+  },
+  {
+   "type": "videos",
+   "text": "Не понял — покажи по-другому.",
+   "items": [
+    "IpS08GWDJ9I",
+    "9h8p08qziG0",
+    "ZI65YkHZoQM"
+   ],
+   "src": [
+    1,
+    4
+   ]
+  }
+ ],
+ "why_examples": [
+  {
+   "de": "Du schaust einen Film.",
+   "ru": "Ты смотришь фильм.",
+   "audio": "du_schaust",
+   "train": [
+    {
+     "role": "кто",
+     "de": "Du",
+     "ru": "ты"
+    },
+    {
+     "role": "действие №2",
+     "de": "schaust",
+     "ru": "смотришь"
+    },
+    {
+     "role": "что",
+     "de": "einen Film",
+     "ru": "фильм"
+    }
+   ],
+   "why": "«Ты» — кончик -st. Слово schauen («смотреть») теряет -en и получает -st: schau + st."
+  },
+  {
+   "de": "Mein Bruder hört Musik im Auto.",
+   "ru": "Мой брат слушает музыку в машине.",
+   "audio": "bruder_hoert",
+   "train": [
+    {
+     "role": "кто",
+     "de": "Mein Bruder",
+     "ru": "мой брат"
+    },
+    {
+     "role": "действие №2",
+     "de": "hört",
+     "ru": "слушает"
+    },
+    {
+     "role": "что",
+     "de": "Musik",
+     "ru": "музыку"
+    },
+    {
+     "role": "где",
+     "de": "im Auto",
+     "ru": "в машине"
+    }
+   ],
+   "why": "Брат — это «он», значит кончик -t. «Mein Bruder» — два слова, но один вагон, поэтому действие всё равно второе."
+  },
+  {
+   "de": "Heute arbeitet Oma im Garten.",
+   "ru": "Сегодня бабушка работает в саду.",
+   "audio": "oma_arbeitet",
+   "train": [
+    {
+     "role": "когда",
+     "de": "Heute",
+     "ru": "сегодня"
+    },
+    {
+     "role": "действие №2",
+     "de": "arbeitet",
+     "ru": "работает"
+    },
+    {
+     "role": "кто",
+     "de": "Oma",
+     "ru": "бабушка"
+    },
+    {
+     "role": "где",
+     "de": "im Garten",
+     "ru": "в саду"
+    }
+   ],
+   "why": "Бабушка — «она», кончик -t; после arbeit- вставляем e, чтобы -t было слышно. Первый вагон — «сегодня», поэтому «бабушка» едет в вагоне №3."
+  }
+ ],
+ "phrases": [
+  {
+   "id": "ich_hoere",
+   "de": "Ich höre Musik im Auto.",
+   "ru": "Я слушаю музыку в машине.",
+   "audio": "audio_v3/ich_hoere.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "du_hoerst",
+   "de": "Du hörst Musik im Auto.",
+   "ru": "Ты слушаешь музыку в машине.",
+   "audio": "audio_v3/du_hoerst.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "bruder_hoert",
+   "de": "Mein Bruder hört Musik im Auto.",
+   "ru": "Мой брат слушает музыку в машине.",
+   "audio": "audio_v3/bruder_hoert.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "wir_hoeren",
+   "de": "Wir hören Musik im Auto.",
+   "ru": "Мы слушаем музыку в машине.",
+   "audio": "audio_v3/wir_hoeren.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "ihr_hoert",
+   "de": "Ihr hört Musik im Auto.",
+   "ru": "Вы (ребята) слушаете музыку в машине.",
+   "audio": "audio_v3/ihr_hoert.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "du_schaust",
+   "de": "Du schaust einen Film.",
+   "ru": "Ты смотришь фильм.",
+   "audio": "audio_v3/du_schaust.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "ich_arbeite",
+   "de": "Ich arbeite heute lange.",
+   "ru": "Я сегодня долго работаю.",
+   "audio": "audio_v3/ich_arbeite.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "du_arbeitest",
+   "de": "Du arbeitest heute lange.",
+   "ru": "Ты сегодня долго работаешь.",
+   "audio": "audio_v3/du_arbeitest.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "du_spielst",
+   "de": "Du spielst gut.",
+   "ru": "Ты хорошо играешь.",
+   "audio": "audio_v3/du_spielst.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "sie_wohnt",
+   "de": "Sie wohnt im Dorf.",
+   "ru": "Она живёт в деревне.",
+   "audio": "audio_v3/sie_wohnt.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "oma_arbeitet",
+   "de": "Heute arbeitet Oma im Garten.",
+   "ru": "Сегодня бабушка работает в саду.",
+   "audio": "audio_v3/oma_arbeitet.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "profi",
+   "de": "Du spielst wie ein echter Profi.",
+   "ru": "Ты играешь как настоящий профи.",
+   "audio": "audio_v3/profi.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "zusammen",
+   "de": "Wir kämpfen zusammen!",
+   "ru": "Мы сражаемся вместе!",
+   "audio": "audio_v3/zusammen.mp3",
+   "asr": "ok"
+  }
+ ],
+ "videos": [
+  {
+   "yt": "IpS08GWDJ9I",
+   "author": "Deutsch mit Yehor",
+   "start": 122,
+   "end": 206,
+   "embed": true,
+   "idea": "Отрезаем -en и цепляем кончик под каждого «кто»"
+  },
+  {
+   "yt": "9h8p08qziG0",
+   "author": "Super Easy German",
+   "start": 0,
+   "end": 43,
+   "embed": true,
+   "idea": "sagen в живых мини-фразах: ich sage, du sagst, er sagt… (по-немецки)"
+  },
+  {
+   "yt": "ZI65YkHZoQM",
+   "author": "Школа німецької (Ihor Kolesnykov)",
+   "start": 20,
+   "end": 67,
+   "embed": true,
+   "idea": "Кончики для «мы / вы / они» (по-украински)"
+  }
+ ],
+ "sources": [
+  {
+   "what": "Формы действий (spielen, schauen, wohnen, arbeiten, kämpfen, sammeln)",
+   "where": "Wiktionary (de), раздел Präsens; arbeiten — Imperativ «arbeite»",
+   "license": "проверка; CC BY-SA 4.0, тексты не копируем"
+  },
+  {
+   "what": "Карта темы и страницы",
+   "where": "Е. Чулков «Немецкий от A до Ja!», урок 3, стр. 71–75; урок 7, стр. 168",
+   "license": "только ссылка на страницу"
+  },
+  {
+   "what": "Приёмы учителей",
+   "where": "topic.csv (Егор, Беккер, Рябенков, Колесников, Super Easy German, DW)",
+   "license": "ссылки и официальный YouTube-плеер"
+  },
+  {
+   "what": "Куски «Вживую»",
+   "where": "YouTube-канал Crunchyroll Deutschland (официальный); фраза по автосубтитрам",
+   "license": "официальный плеер, embed проверен oEmbed"
+  },
+  {
+   "what": "Голос",
+   "where": "Piper, голос Thorsten high",
+   "license": "код MIT, данные CC0"
+  }
+ ],
+ "terms": [
+  {
+   "term": "кончик действия",
+   "plain": "последние буквы слова-действия; меняются под того, кто делает",
+   "scheme": "табличка на паровозе: ich -e, du -st, er -t, wir -en, ihr -t, sie -en",
+   "example": "Ich höre · Du hörst · Er hört",
+   "find": "recall: «Найди сам…»"
+  }
+ ],
+ "help_by_error": {
+  "verb_form": {
+   "show": "Матрица: та же фраза, меняется только «кто»; подсветить кончик цветом",
+   "phrases": [
+    "ich_hoere",
+    "du_hoerst",
+    "bruder_hoert",
+    "wir_hoeren",
+    "ihr_hoert"
+   ],
+   "step": "examples"
+  },
+  "order": {
+   "show": "Открыть «поезд» (word_order): действие — вагон №2",
+   "link": "word_order"
+  },
+  "article": {
+   "show": "Открыть «der · die · das» (articles)",
+   "link": "articles"
+  },
+  "listen": {
+   "show": "Замедлить и повторить только конец слова-действия: hör-t, hör-st",
+   "phrases": [
+    "du_hoerst",
+    "ihr_hoert"
+   ]
+  },
+  "word": {
+   "show": "Картинка + звук слова-действия (слушать, играть, работать) в одной знакомой фразе",
+   "phrases": [
+    "du_spielst",
+    "sie_wohnt"
+   ]
+  }
+ }
+}

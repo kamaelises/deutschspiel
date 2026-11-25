@@ -1,0 +1,489 @@
+{
+ "topic": "questions",
+ "title": "Вопросы: кто первым садится в поезд",
+ "minutes": 2,
+ "steps": [
+  {
+   "type": "picture",
+   "text": "Два вида вопросов — два поезда. Вопрос «да/нет»: действие садится в вагон №1. Вопрос со словом (где? когда?): вопрос-слово — вагон №1, действие — как всегда №2.",
+   "items": [
+    {
+     "train": [
+      {
+       "role": "действие №1",
+       "de": "Wohnst",
+       "ru": "живёшь"
+      },
+      {
+       "role": "кто",
+       "de": "du",
+       "ru": "ты"
+      },
+      {
+       "role": "где",
+       "de": "im Dorf",
+       "ru": "в деревне"
+      }
+     ],
+     "audio": "wohnst_dorf",
+     "kind": "да/нет"
+    },
+    {
+     "train": [
+      {
+       "role": "вопрос-слово",
+       "de": "Wo",
+       "ru": "где"
+      },
+      {
+       "role": "действие №2",
+       "de": "wohnt",
+       "ru": "живёт"
+      },
+      {
+       "role": "кто",
+       "de": "deine Oma",
+       "ru": "твоя бабушка"
+      }
+     ],
+     "audio": "wo_oma",
+     "kind": "вопрос-слово"
+    }
+   ],
+   "src": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "idea",
+   "text": "Почему так? Первый вагон сразу говорит, чего ты ждёшь. Действие впереди — «ответь мне да или нет». Вопрос-слово впереди — «скажи мне, где / когда / что». Поэтому немцу не нужно ждать конца фразы, чтобы понять, что это вопрос. По-русски вопрос часто делает только голос: «Ты живёшь в деревне?» По-немецки работает и место, и голос.",
+   "src": [
+    1,
+    2,
+    4
+   ]
+  },
+  {
+   "type": "examples",
+   "text": "Послушай и повтори. Смотри, кто сидит в вагоне №1.",
+   "items": [
+    "wohnst_dorf",
+    "morgen_zeit",
+    "wo_oma",
+    "wann_bus",
+    "abend_spielst"
+   ],
+   "src": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "hint",
+   "text": "Вопрос-слово с маленькими словами рядом — это один вагон: «Um wie viel Uhr» (во сколько?) — четыре слова, но один вагон. Действие стоит сразу после него.",
+   "items": [
+    "uhr_bus"
+   ],
+   "src": [
+    3
+   ]
+  },
+  {
+   "type": "trap",
+   "text": "Тут русский мешает. «Ты сегодня играешь?» хочется сказать как «Du spielst heute?» — только голосом. Для обычного вопроса «да/нет» действие идёт первым: Spielst du heute? — ✓",
+   "items": [
+    {
+     "wrong": "Du spielst heute?",
+     "right": "Spielst du heute?",
+     "audio": "spielst_heute"
+    }
+   ],
+   "src": [
+    4
+   ]
+  },
+  {
+   "type": "recall",
+   "text": "Сначала скажи сам, потом проверь.",
+   "items": [
+    {
+     "q": "Сделай вопрос «да/нет»: «Du spielst heute.»",
+     "a": "Spielst du heute?",
+     "audio": "spielst_heute"
+    },
+    {
+     "q": "Ответь «да» на этот вопрос.",
+     "a": "Ja, ich spiele heute. (Ja — не вагон, дальше обычный поезд)",
+     "audio": "ja_spiele"
+    },
+    {
+     "q": "Спроси «где?»: «Oma wohnt im Dorf.» → ?",
+     "a": "Wo wohnt Oma?",
+     "audio": "wo_wohnt_oma"
+    },
+    {
+     "q": "Найди сам: в «Wann kommt der Bus?» — где вопрос-слово, а где действие?",
+     "a": "Wann — вопрос-слово (вагон №1), kommt — действие (вагон №2), der Bus — кто (вагон №3).",
+     "audio": "wann_bus",
+     "kind": "find"
+    }
+   ],
+   "src": [
+    1,
+    2,
+    6,
+    7
+   ]
+  },
+  {
+   "type": "live",
+   "text": "Вживую: вопросы в официальной немецкой озвучке аниме (Crunchyroll).",
+   "items": [
+    {
+     "yt": "cSVJeaNQ3Ww",
+     "channel": "Crunchyroll Deutschland",
+     "title": "Detektiv Conan, фильм 28 — трейлер (синхрон)",
+     "start": 0,
+     "end": 9,
+     "embed": true,
+     "said_de": "Kennst du ihn?",
+     "said_ru": "Ты его знаешь?",
+     "train": [
+      {
+       "role": "действие №1",
+       "de": "Kennst",
+       "ru": "знаешь"
+      },
+      {
+       "role": "кто",
+       "de": "du",
+       "ru": "ты"
+      },
+      {
+       "role": "кого",
+       "de": "ihn",
+       "ru": "его"
+      }
+     ],
+     "why": "Вопрос «да/нет»: действие kennst впереди, «ты» сразу за ним. Послушай, как голос идёт вверх."
+    },
+    {
+     "yt": "aGpa483ndpg",
+     "channel": "Crunchyroll Deutschland",
+     "title": "Die Tagebücher der Apothekerin — «Maomao bricht Jinshi»",
+     "start": 32,
+     "end": 38,
+     "embed": true,
+     "said_de": "Was tut ihr da?",
+     "said_ru": "Что вы там делаете?",
+     "train": [
+      {
+       "role": "вопрос-слово",
+       "de": "Was",
+       "ru": "что"
+      },
+      {
+       "role": "действие №2",
+       "de": "tut",
+       "ru": "делаете"
+      },
+      {
+       "role": "кто",
+       "de": "ihr",
+       "ru": "вы"
+      },
+      {
+       "role": "где",
+       "de": "da",
+       "ru": "там"
+      }
+     ],
+     "why": "Вопрос со словом: was — вагон №1, действие tut — №2, «вы» — №3. Ответить «да» нельзя — нужно сказать, что именно."
+    }
+   ],
+   "own": [
+    {
+     "id": "bereit_kampf",
+     "note": "в стиле аниме: да/нет — действие №1"
+    },
+    {
+     "id": "wo_boss",
+     "note": "в стиле игры: вопрос-слово — действие — кто"
+    }
+   ],
+   "src": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "videos",
+   "text": "Не понял — покажи по-другому.",
+   "items": [
+    "-mxNBwpx98U",
+    "zuIHhuWt0WM",
+    "9UkuarOM3UY"
+   ],
+   "src": [
+    1,
+    2
+   ]
+  }
+ ],
+ "why_examples": [
+  {
+   "de": "Wohnst du im Dorf?",
+   "ru": "Ты живёшь в деревне?",
+   "audio": "wohnst_dorf",
+   "train": [
+    {
+     "role": "действие №1",
+     "de": "Wohnst",
+     "ru": "живёшь"
+    },
+    {
+     "role": "кто",
+     "de": "du",
+     "ru": "ты"
+    },
+    {
+     "role": "где",
+     "de": "im Dorf",
+     "ru": "в деревне"
+    }
+   ],
+   "why": "Ждём ответ «да» или «нет» — поэтому действие садится в вагон №1, «ты» — сразу за ним."
+  },
+  {
+   "de": "Wo wohnt deine Oma?",
+   "ru": "Где живёт твоя бабушка?",
+   "audio": "wo_oma",
+   "train": [
+    {
+     "role": "вопрос-слово",
+     "de": "Wo",
+     "ru": "где"
+    },
+    {
+     "role": "действие №2",
+     "de": "wohnt",
+     "ru": "живёт"
+    },
+    {
+     "role": "кто",
+     "de": "deine Oma",
+     "ru": "твоя бабушка"
+    }
+   ],
+   "why": "Ждём ответ «где» — вопрос-слово впереди. Действие, как в обычной фразе, на месте №2."
+  },
+  {
+   "de": "Um wie viel Uhr kommt der Bus?",
+   "ru": "Во сколько приходит автобус?",
+   "audio": "uhr_bus",
+   "train": [
+    {
+     "role": "вопрос-слово",
+     "de": "Um wie viel Uhr",
+     "ru": "во сколько"
+    },
+    {
+     "role": "действие №2",
+     "de": "kommt",
+     "ru": "приходит"
+    },
+    {
+     "role": "кто",
+     "de": "der Bus",
+     "ru": "автобус"
+    }
+   ],
+   "why": "«Um wie viel Uhr» — четыре слова, но один вопрос, значит один вагон. Действие всё равно второе."
+  }
+ ],
+ "phrases": [
+  {
+   "id": "wo_oma",
+   "de": "Wo wohnt deine Oma?",
+   "ru": "Где живёт твоя бабушка?",
+   "audio": "audio_v1/wo_oma.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "wohnst_dorf",
+   "de": "Wohnst du im Dorf?",
+   "ru": "Ты живёшь в деревне?",
+   "audio": "audio_v1/wohnst_dorf.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "wann_bus",
+   "de": "Wann kommt der Bus?",
+   "ru": "Когда приходит автобус?",
+   "audio": "audio_v1/wann_bus.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "uhr_bus",
+   "de": "Um wie viel Uhr kommt der Bus?",
+   "ru": "Во сколько приходит автобус?",
+   "audio": "audio_v1/uhr_bus.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "morgen_zeit",
+   "de": "Hast du morgen Zeit?",
+   "ru": "У тебя завтра есть время?",
+   "audio": "audio_v1/morgen_zeit.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "abend_spielst",
+   "de": "Was spielst du am Abend?",
+   "ru": "Во что ты играешь вечером?",
+   "audio": "audio_v1/abend_spielst.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "spielst_heute",
+   "de": "Spielst du heute?",
+   "ru": "Ты сегодня играешь?",
+   "audio": "audio_v1/spielst_heute.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "ja_spiele",
+   "de": "Ja, ich spiele heute.",
+   "ru": "Да, я сегодня играю.",
+   "audio": "audio_v1/ja_spiele.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "wo_wohnt_oma",
+   "de": "Wo wohnt Oma?",
+   "ru": "Где живёт бабушка?",
+   "audio": "audio_v1/wo_wohnt_oma.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "bereit_kampf",
+   "de": "Bist du bereit für den Kampf?",
+   "ru": "Ты готов к бою?",
+   "audio": "audio_v1/bereit_kampf.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "wo_boss",
+   "de": "Wo ist der Boss?",
+   "ru": "Где босс?",
+   "audio": "audio_v1/wo_boss.mp3",
+   "asr": "ok"
+  }
+ ],
+ "terms": [
+  {
+   "term": "вопрос-слово",
+   "plain": "слово, которым спрашивают: wo (где), wann (когда), was (что), wie (как), wer (кто), woher (откуда)",
+   "scheme": "вагон №1 в вопросе со словом",
+   "example": "Wo wohnt deine Oma?",
+   "find": "recall: «Найди сам…»"
+  },
+  {
+   "term": "действие №1",
+   "plain": "в вопросе «да/нет» действие садится в первый вагон",
+   "scheme": "поезд: действие впереди",
+   "example": "Wohnst du im Dorf?",
+   "find": "recall: «Сделай вопрос…»"
+  }
+ ],
+ "help_by_error": {
+  "order": {
+   "show": "Два поезда рядом: «да/нет» — перетащи действие в вагон №1; со словом — вопрос-слово №1, действие №2",
+   "phrases": [
+    "wohnst_dorf",
+    "wo_oma"
+   ],
+   "step": "picture"
+  },
+  "verb_form": {
+   "show": "Кончик под «кто»: в вопросе он тот же, что в обычной фразе (du → -st). Открыть verb_endings",
+   "phrases": [
+    "spielst_heute"
+   ],
+   "link": "verb_endings"
+  },
+  "article": {
+   "show": "Открыть «der · die · das» (articles)",
+   "link": "articles"
+  },
+  "listen": {
+   "show": "Замедлить и прослушать только начало: первое слово скажет, какой это вопрос; потом — голос вверх в конце",
+   "phrases": [
+    "morgen_zeit",
+    "wann_bus"
+   ]
+  },
+  "word": {
+   "show": "Карточки вопрос-слов с картинкой: wo 📍, wann 🕒, was ❓, wer 👤, woher 🧭 + звук",
+   "phrases": [
+    "wo_oma",
+    "wann_bus",
+    "abend_spielst"
+   ]
+  }
+ },
+ "videos": [
+  {
+   "yt": "-mxNBwpx98U",
+   "author": "Deutsch mit Yehor",
+   "start": 441,
+   "end": 605,
+   "embed": true,
+   "idea": "Два вида вопросов: действие №1 или вопрос-слово №1"
+  },
+  {
+   "yt": "zuIHhuWt0WM",
+   "author": "Илья Рябенков",
+   "start": 0,
+   "end": 40,
+   "embed": true,
+   "idea": "Утверждение → вопрос → вопрос со словом за 40 секунд"
+  },
+  {
+   "yt": "9UkuarOM3UY",
+   "author": "Школа німецької (Ihor Kolesnykov)",
+   "start": 21,
+   "end": 89,
+   "embed": true,
+   "idea": "W-Fragen на примере «Woher kommst du?» (по-украински)"
+  }
+ ],
+ "sources": [
+  {
+   "what": "Правило: в вопросе «да/нет» действие первое, в вопросе со словом — второе",
+   "where": "Duden online «Satzklammer»; Wiktionary «Entscheidungsfrage», «Ergänzungsfrage», «Fragewort»",
+   "license": "проверка, тексты не копируем"
+  },
+  {
+   "what": "Карта темы и страницы",
+   "where": "Е. Чулков «Немецкий от A до Ja!», урок 7, стр. 171–175",
+   "license": "только ссылка на страницу"
+  },
+  {
+   "what": "Приёмы учителей",
+   "where": "topic.csv (Егор, Рябенков, Беккер, Колесников, DW)",
+   "license": "ссылки и официальный YouTube-плеер"
+  },
+  {
+   "what": "Куски «Вживую»",
+   "where": "YouTube-канал Crunchyroll Deutschland (официальный); фраза по автосубтитрам",
+   "license": "официальный плеер, embed проверен oEmbed"
+  },
+  {
+   "what": "Голос",
+   "where": "Piper, голос Thorsten high",
+   "license": "код MIT, данные CC0"
+  }
+ ]
+}

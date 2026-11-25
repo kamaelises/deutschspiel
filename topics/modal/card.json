@@ -1,0 +1,485 @@
+{
+ "topic": "modal",
+ "title": "Могу, должен, хочу: пульт на №2, действие — в последнем вагоне",
+ "minutes": 2,
+ "steps": [
+  {
+   "type": "picture",
+   "text": "kann (могу), muss (должен), will (хочу), möchte (хотел бы) — это «пульт». Пульт садится на место №2. А само действие — в словарной форме, на -en — уезжает в последний вагон.",
+   "items": [
+    {
+     "train": [
+      {
+       "role": "кто",
+       "de": "Ich",
+       "ru": "я"
+      },
+      {
+       "role": "пульт №2",
+       "de": "kann",
+       "ru": "могу"
+      },
+      {
+       "role": "когда",
+       "de": "heute",
+       "ru": "сегодня"
+      },
+      {
+       "role": "хвост действия",
+       "de": "spielen",
+       "ru": "играть"
+      }
+     ],
+     "audio": "kann_spielen"
+    }
+   ],
+   "src": [
+    1
+   ]
+  },
+  {
+   "type": "idea",
+   "text": "Почему так? Пульт сразу говорит, КАК ты относишься к делу: могу, должен, хочу. А что именно делать, немец узнаёт в самом конце — как две подставки по краям полки с книгами: между ними можно поставить сколько угодно вагонов (когда, где, с кем). Само действие при этом не меняется: всегда как в словаре — spielen, arbeiten, kochen.",
+   "src": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "examples",
+   "text": "Послушай: пульт на №2, действие — последнее слово.",
+   "items": [
+    "kann_spielen",
+    "muss_frueh",
+    "kannst_kochen",
+    "wollen_film",
+    "moechte_kaffee"
+   ],
+   "src": [
+    1,
+    8
+   ]
+  },
+  {
+   "type": "hint",
+   "text": "У пульта «я» и «он» звучат одинаково и без кончика: ich kann — er kann, ich muss — er muss. Кончик есть у «ты»: du kannst, du musst.",
+   "items": [
+    "kann_spielen",
+    "kannst_kochen"
+   ],
+   "src": [
+    3
+   ]
+  },
+  {
+   "type": "trap",
+   "text": "Тут русский мешает. «Я могу хорошо играть» — по-русски «играть» в середине. По-немецки «Ich kann spielen gut» — ✗. Действие ждёт в конце: Ich kann gut spielen — ✓",
+   "items": [
+    {
+     "wrong": "Ich kann spielen heute.",
+     "right": "Ich kann heute spielen.",
+     "audio": "kann_spielen"
+    }
+   ],
+   "src": [
+    4
+   ]
+  },
+  {
+   "type": "recall",
+   "text": "Сначала скажи сам, потом проверь.",
+   "items": [
+    {
+     "q": "«Мне сегодня нужно готовить» (müssen, kochen)",
+     "a": "Ich muss heute kochen.",
+     "audio": "muss_kochen"
+    },
+    {
+     "q": "Добавь «не»: «Ich kann heute kommen.»",
+     "a": "Ich kann heute nicht kommen. (nicht — перед хвостом действия)",
+     "audio": "kann_nicht_kommen"
+    },
+    {
+     "q": "Найди сам две части действия в «Morgen muss ich früh arbeiten»",
+     "a": "muss — пульт на №2, arbeiten — последний вагон.",
+     "audio": "muss_frueh",
+     "kind": "find"
+    }
+   ],
+   "src": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "live",
+   "text": "Вживую: пульт и последний вагон в официальной немецкой озвучке аниме (Crunchyroll).",
+   "items": [
+    {
+     "yt": "WkTQEYNC1No",
+     "channel": "Crunchyroll Deutschland",
+     "title": "Demon Slayer — официальный трейлер (дт. синхрон)",
+     "start": 69,
+     "end": 75,
+     "embed": true,
+     "said_de": "Na, dann kann die Party ja losgehen.",
+     "said_ru": "Ну, тогда вечеринка может начинаться.",
+     "train": [
+      {
+       "role": "связка",
+       "de": "Na, dann",
+       "ru": "ну, тогда"
+      },
+      {
+       "role": "пульт №2",
+       "de": "kann",
+       "ru": "может"
+      },
+      {
+       "role": "кто",
+       "de": "die Party",
+       "ru": "вечеринка"
+      },
+      {
+       "role": "хвост действия",
+       "de": "losgehen",
+       "ru": "начаться"
+      }
+     ],
+     "why": "Na — не вагон; dann — вагон №1. Пульт kann — №2, а само действие losgehen («начаться») ждёт в самом конце."
+    },
+    {
+     "yt": "cSVJeaNQ3Ww",
+     "channel": "Crunchyroll Deutschland",
+     "title": "Detektiv Conan, фильм 28 — трейлер (синхрон)",
+     "start": 60,
+     "end": 64,
+     "embed": true,
+     "said_de": "Ich kann Kansuke nicht einfach so zurücklassen.",
+     "said_ru": "Я не могу просто так бросить Кансукэ.",
+     "train": [
+      {
+       "role": "кто",
+       "de": "Ich",
+       "ru": "я"
+      },
+      {
+       "role": "пульт №2",
+       "de": "kann",
+       "ru": "могу"
+      },
+      {
+       "role": "кого",
+       "de": "Kansuke",
+       "ru": "Кансукэ"
+      },
+      {
+       "role": "«не»",
+       "de": "nicht einfach so",
+       "ru": "не просто так"
+      },
+      {
+       "role": "хвост действия",
+       "de": "zurücklassen",
+       "ru": "оставить"
+      }
+     ],
+     "why": "Между пультом kann и действием zurücklassen — целый ряд вагонов: кого, «не», как. Действие всё равно последнее."
+    }
+   ],
+   "own": [
+    {
+     "id": "staerker",
+     "note": "в стиле аниме: will + werden в конце"
+    },
+    {
+     "id": "boss_besiegen",
+     "note": "в стиле игры: musst + besiegen в конце"
+    }
+   ],
+   "src": [
+    1
+   ]
+  },
+  {
+   "type": "videos",
+   "text": "Не понял — покажи по-другому.",
+   "items": [
+    "rb7lG1k0qfc",
+    "jzk3KJBzR-E",
+    "5KRGa7khY7o"
+   ],
+   "src": [
+    1
+   ]
+  }
+ ],
+ "why_examples": [
+  {
+   "de": "Morgen muss ich früh arbeiten.",
+   "ru": "Завтра я должен рано работать.",
+   "audio": "muss_frueh",
+   "train": [
+    {
+     "role": "когда",
+     "de": "Morgen",
+     "ru": "завтра"
+    },
+    {
+     "role": "пульт №2",
+     "de": "muss",
+     "ru": "должен"
+    },
+    {
+     "role": "кто",
+     "de": "ich",
+     "ru": "я"
+    },
+    {
+     "role": "когда точно",
+     "de": "früh",
+     "ru": "рано"
+    },
+    {
+     "role": "хвост действия",
+     "de": "arbeiten",
+     "ru": "работать"
+    }
+   ],
+   "why": "Начали с «завтра» — пульт muss всё равно второй, «я» — третий. Действие arbeiten — последний вагон, без кончика."
+  },
+  {
+   "de": "Du kannst gut kochen.",
+   "ru": "Ты умеешь хорошо готовить.",
+   "audio": "kannst_kochen",
+   "train": [
+    {
+     "role": "кто",
+     "de": "Du",
+     "ru": "ты"
+    },
+    {
+     "role": "пульт №2",
+     "de": "kannst",
+     "ru": "умеешь"
+    },
+    {
+     "role": "как",
+     "de": "gut",
+     "ru": "хорошо"
+    },
+    {
+     "role": "хвост действия",
+     "de": "kochen",
+     "ru": "готовить"
+    }
+   ],
+   "why": "Кончик -st получает пульт (kannst), а не действие: kochen остаётся как в словаре."
+  },
+  {
+   "de": "Ich möchte einen Kaffee, bitte.",
+   "ru": "Я бы хотел кофе, пожалуйста.",
+   "audio": "moechte_kaffee",
+   "train": [
+    {
+     "role": "кто",
+     "de": "Ich",
+     "ru": "я"
+    },
+    {
+     "role": "пульт №2",
+     "de": "möchte",
+     "ru": "хотел бы"
+    },
+    {
+     "role": "кого-что",
+     "de": "einen Kaffee",
+     "ru": "кофе"
+    },
+    {
+     "role": "привет/вежливость",
+     "de": "bitte",
+     "ru": "пожалуйста"
+    }
+   ],
+   "why": "Второе действие можно не говорить — и так ясно, что кофе хотят получить. möchte — мягко и вежливо, для кафе и магазина."
+  }
+ ],
+ "phrases": [
+  {
+   "id": "kann_spielen",
+   "de": "Ich kann heute spielen.",
+   "ru": "Я могу сегодня поиграть.",
+   "audio": "audio_v1/kann_spielen.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "muss_frueh",
+   "de": "Morgen muss ich früh arbeiten.",
+   "ru": "Завтра я должен рано работать.",
+   "audio": "audio_v1/muss_frueh.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "kannst_kochen",
+   "de": "Du kannst gut kochen.",
+   "ru": "Ты умеешь хорошо готовить.",
+   "audio": "audio_v1/kannst_kochen.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "moechte_kaffee",
+   "de": "Ich möchte einen Kaffee, bitte.",
+   "ru": "Я бы хотел кофе, пожалуйста.",
+   "audio": "audio_v1/moechte_kaffee.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "wollen_film",
+   "de": "Wir wollen heute zusammen kochen.",
+   "ru": "Мы хотим сегодня вместе готовить.",
+   "audio": "audio_v1/wollen_film.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "kann_nicht_kommen",
+   "de": "Ich kann heute nicht kommen.",
+   "ru": "Я сегодня не могу прийти.",
+   "audio": "audio_v1/kann_nicht_kommen.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "muss_kochen",
+   "de": "Ich muss heute kochen.",
+   "ru": "Мне сегодня нужно готовить.",
+   "audio": "audio_v1/muss_kochen.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "staerker",
+   "de": "Ich will stärker werden!",
+   "ru": "Я хочу стать сильнее!",
+   "audio": "audio_v1/staerker.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "boss_besiegen",
+   "de": "Du musst den Boss besiegen.",
+   "ru": "Ты должен победить босса.",
+   "audio": "audio_v1/boss_besiegen.mp3",
+   "asr": "ok"
+  }
+ ],
+ "terms": [
+  {
+   "term": "пульт (kann, muss, will, möchte)",
+   "plain": "слово «могу / должен / хочу», которое стоит на №2 и меняет кончик",
+   "scheme": "поезд: кто | пульт №2 | … | действие в конце",
+   "example": "Ich kann heute spielen.",
+   "find": "recall: «Найди сам…»"
+  },
+  {
+   "term": "словарная форма (на -en)",
+   "plain": "действие как в словаре: spielen, kochen — без кончика под «кто»",
+   "scheme": "последний вагон",
+   "example": "Du kannst gut kochen.",
+   "find": "recall: «Найди сам…»"
+  }
+ ],
+ "help_by_error": {
+  "order": {
+   "show": "Поезд с двумя частями: перетащи действие в последний вагон; пульт оставь на №2",
+   "phrases": [
+    "kann_spielen",
+    "muss_frueh"
+   ],
+   "step": "picture"
+  },
+  "verb_form": {
+   "show": "Кончик — только у пульта (du kannst), действие — как в словаре; ich kann = er kann",
+   "phrases": [
+    "kannst_kochen",
+    "kann_spielen"
+   ],
+   "step": "hint"
+  },
+  "article": {
+   "show": "Открыть карточку «кого / что»: einen Kaffee",
+   "link": "akkusativ"
+  },
+  "listen": {
+   "show": "Замедлить и дослушать до конца: последнее слово — это само действие",
+   "phrases": [
+    "wollen_film",
+    "muss_frueh"
+   ]
+  },
+  "word": {
+   "show": "4 пульта картинками: kann 💪, muss ⚠️, will 🎯, möchte 🙏 + звук и фраза",
+   "phrases": [
+    "kann_spielen",
+    "muss_kochen",
+    "wollen_film",
+    "moechte_kaffee"
+   ]
+  }
+ },
+ "videos": [
+  {
+   "yt": "rb7lG1k0qfc",
+   "author": "Deutsch mit Yehor",
+   "start": 587,
+   "end": 627,
+   "embed": true,
+   "idea": "möchte — вежливо, will — прямо"
+  },
+  {
+   "yt": "jzk3KJBzR-E",
+   "author": "Илья Рябенков",
+   "start": 296,
+   "end": 336,
+   "embed": true,
+   "idea": "Пульт (kann, muss…) на втором месте, действие — в конце (рамка)"
+  },
+  {
+   "yt": "5KRGa7khY7o",
+   "author": "Super Easy German",
+   "start": 0,
+   "end": 47,
+   "embed": true,
+   "idea": "müssen в живых сценках: ich muss, du musst… (по-немецки)"
+  }
+ ],
+ "sources": [
+  {
+   "what": "Рамка: пульт на №2, действие в конце",
+   "where": "Duden online «Satzklammer»",
+   "license": "проверка, тексты не копируем"
+  },
+  {
+   "what": "Формы können / müssen / wollen / mögen",
+   "where": "Wiktionary (de), Präsens",
+   "license": "проверка; CC BY-SA 4.0"
+  },
+  {
+   "what": "Карта темы и страницы",
+   "where": "Е. Чулков «Немецкий от A до Ja!», урок 9, стр. 211–220",
+   "license": "только ссылка на страницу"
+  },
+  {
+   "what": "Приёмы учителей",
+   "where": "topic.csv (Беккер, Рябенков, Егор, Super Easy German)",
+   "license": "ссылки и официальный YouTube-плеер"
+  },
+  {
+   "what": "Куски «Вживую»",
+   "where": "YouTube-канал Crunchyroll Deutschland (официальный); фраза по автосубтитрам",
+   "license": "официальный плеер, embed проверен oEmbed"
+  },
+  {
+   "what": "Голос",
+   "where": "Piper, голос Thorsten high",
+   "license": "код MIT, данные CC0"
+  }
+ ]
+}

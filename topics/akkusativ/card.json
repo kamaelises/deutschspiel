@@ -1,0 +1,479 @@
+{
+ "topic": "akkusativ",
+ "title": "«Кого / что»: метка der становится den",
+ "minutes": 2,
+ "steps": [
+  {
+   "type": "picture",
+   "text": "Сцена: собака ищет мяч. Собака — «кто делает», мяч — «кого / что ищут». У вагона «кого-что» метка меняется — но только у der-слов (синих): der → den.",
+   "items": [
+    {
+     "train": [
+      {
+       "role": "кто",
+       "de": "Der Hund",
+       "ru": "собака"
+      },
+      {
+       "role": "действие №2",
+       "de": "sucht",
+       "ru": "ищет"
+      },
+      {
+       "role": "кого-что",
+       "de": "den Ball",
+       "ru": "мяч"
+      }
+     ],
+     "audio": "hund_ball"
+    },
+    {
+     "table": [
+      {
+       "was": "der Ball",
+       "becomes": "den Ball"
+      },
+      {
+       "was": "ein Ball",
+       "becomes": "einen Ball"
+      },
+      {
+       "was": "die Milch",
+       "becomes": "die Milch"
+      },
+      {
+       "was": "das Schwert",
+       "becomes": "das Schwert"
+      }
+     ]
+    }
+   ],
+   "src": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "idea",
+   "text": "Почему так? По-русски меняется само слово: мяч → мяча, друг → друга. В немецком слово остаётся, а меняется метка перед ним — как бирка «это ищут». Благодаря бирке вагоны можно переставить: Den Ball sucht der Hund — и всё равно ясно, кто ищет, а что ищут. Бирку меняют только синие der-слова; die, das и много предметов не меняются.",
+   "src": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "examples",
+   "text": "Послушай: у синих слов слышно -en (den, einen).",
+   "items": [
+    "hund_ball",
+    "suche_schluessel",
+    "habe_hund",
+    "kaufe_milch",
+    "pizza_kaffee"
+   ],
+   "src": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "hint",
+   "text": "Спроси от действия: «ищу КОГО / ЧТО?». Ответ — вагон «кого-что». Если слово синее (der) — ставь den или einen. Красное и зелёное оставь как есть.",
+   "items": [
+    "suche_schluessel",
+    "kaufe_milch"
+   ],
+   "src": [
+    2
+   ]
+  },
+  {
+   "type": "trap",
+   "text": "Тут русский мешает. «У меня есть собака» — по-русски «собака» не меняется, и хочется «Ich habe ein Hund» — ✗. После habe собака — это «что у меня есть», а der Hund синий: Ich habe einen Hund — ✓.",
+   "items": [
+    {
+     "wrong": "Ich habe ein Hund.",
+     "right": "Ich habe einen Hund.",
+     "audio": "habe_hund"
+    }
+   ],
+   "src": [
+    4
+   ]
+  },
+  {
+   "type": "recall",
+   "text": "Сначала скажи сам, потом проверь.",
+   "items": [
+    {
+     "q": "«Я ищу ключ» (der Schlüssel)",
+     "a": "Ich suche den Schlüssel.",
+     "audio": "suche_schluessel"
+    },
+    {
+     "q": "«Мне нужен ключ» — какой-то, любой (der Schlüssel)",
+     "a": "Ich brauche einen Schlüssel.",
+     "audio": "brauche_schluessel"
+    },
+    {
+     "q": "Найди сам вагон «кого-что» и метку: «Meine Oma kauft den Kuchen.»",
+     "a": "den Kuchen: der Kuchen → den (покупают ЧТО? — пирог).",
+     "audio": "oma_kuchen",
+     "kind": "find"
+    }
+   ],
+   "src": [
+    1,
+    2,
+    6
+   ]
+  },
+  {
+   "type": "live",
+   "text": "Вживую: «кого-что» в официальной немецкой озвучке аниме (Crunchyroll).",
+   "items": [
+    {
+     "yt": "iY78JEbp3-4",
+     "channel": "Crunchyroll Deutschland",
+     "title": "Welcome to Demon School! Iruma-kun, 4 сезон",
+     "start": 40,
+     "end": 46,
+     "embed": true,
+     "said_de": "Ich nehme deinen Stoß an.",
+     "said_ru": "Я принимаю твой удар.",
+     "train": [
+      {
+       "role": "кто",
+       "de": "Ich",
+       "ru": "я"
+      },
+      {
+       "role": "действие №2",
+       "de": "nehme",
+       "ru": "принимаю"
+      },
+      {
+       "role": "кого-что",
+       "de": "deinen Stoß",
+       "ru": "твой удар"
+      },
+      {
+       "role": "хвост действия",
+       "de": "an",
+       "ru": "(от annehmen)"
+      }
+     ],
+     "why": "der Stoß — синее слово. Его принимают (что?), поэтому dein → deinen: та же бирка -en, что у den и einen."
+    },
+    {
+     "yt": "SrPLyEhd598",
+     "channel": "Crunchyroll Deutschland",
+     "title": "Frieren — «Kurz und schmerzlos»",
+     "start": 0,
+     "end": 7,
+     "embed": true,
+     "said_de": "Du sammelst Magie um deinen Hals.",
+     "said_ru": "Ты собираешь магию вокруг своей шеи.",
+     "train": [
+      {
+       "role": "кто",
+       "de": "Du",
+       "ru": "ты"
+      },
+      {
+       "role": "действие №2",
+       "de": "sammelst",
+       "ru": "собираешь"
+      },
+      {
+       "role": "что",
+       "de": "Magie",
+       "ru": "магию"
+      },
+      {
+       "role": "где",
+       "de": "um deinen Hals",
+       "ru": "вокруг шеи"
+      }
+     ],
+     "why": "der Hals синий. После um («вокруг») тоже бирка -en: deinen Hals. А Magie (die) не меняется."
+    }
+   ],
+   "own": [
+    {
+     "id": "schatz",
+     "note": "в стиле игры: der Schatz → den Schatz"
+    },
+    {
+     "id": "schwert",
+     "note": "в стиле аниме: das Schwert не меняется"
+    }
+   ],
+   "src": [
+    1,
+    7
+   ]
+  },
+  {
+   "type": "videos",
+   "text": "Не понял — покажи по-другому.",
+   "items": [
+    "wUYPkQFmDzk",
+    "4u5v9Ymp8rk",
+    "5b2KoJnwzJw"
+   ],
+   "src": [
+    1,
+    2
+   ]
+  }
+ ],
+ "why_examples": [
+  {
+   "de": "Der Hund sucht den Ball.",
+   "ru": "Собака ищет мяч.",
+   "audio": "hund_ball",
+   "train": [
+    {
+     "role": "кто",
+     "de": "Der Hund",
+     "ru": "собака"
+    },
+    {
+     "role": "действие №2",
+     "de": "sucht",
+     "ru": "ищет"
+    },
+    {
+     "role": "кого-что",
+     "de": "den Ball",
+     "ru": "мяч"
+    }
+   ],
+   "why": "Собака ищет — у неё обычная метка der. Мяч ищут — у него бирка den."
+  },
+  {
+   "de": "Den Ball sucht der Hund.",
+   "ru": "Мяч ищет собака.",
+   "audio": "ball_hund",
+   "train": [
+    {
+     "role": "кого-что",
+     "de": "Den Ball",
+     "ru": "мяч"
+    },
+    {
+     "role": "действие №2",
+     "de": "sucht",
+     "ru": "ищет"
+    },
+    {
+     "role": "кто",
+     "de": "der Hund",
+     "ru": "собака"
+    }
+   ],
+   "why": "Вагоны поменялись местами, но бирки остались: den — «ищут», der — «ищет». Поэтому смысл тот же."
+  },
+  {
+   "de": "Ich kaufe eine Pizza und einen Kaffee.",
+   "ru": "Я покупаю пиццу и кофе.",
+   "audio": "pizza_kaffee",
+   "train": [
+    {
+     "role": "кто",
+     "de": "Ich",
+     "ru": "я"
+    },
+    {
+     "role": "действие №2",
+     "de": "kaufe",
+     "ru": "покупаю"
+    },
+    {
+     "role": "кого-что",
+     "de": "eine Pizza und einen Kaffee",
+     "ru": "пиццу и кофе"
+    }
+   ],
+   "why": "die Pizza (красная) не меняется: eine. der Kaffee (синий) меняется: einen."
+  }
+ ],
+ "phrases": [
+  {
+   "id": "hund_ball",
+   "de": "Der Hund sucht den Ball.",
+   "ru": "Собака ищет мяч.",
+   "audio": "audio_v1/hund_ball.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "ball_hund",
+   "de": "Den Ball sucht der Hund.",
+   "ru": "Мяч ищет собака.",
+   "audio": "audio_v1/ball_hund.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "pizza_kaffee",
+   "de": "Ich kaufe eine Pizza und einen Kaffee.",
+   "ru": "Я покупаю пиццу и кофе.",
+   "audio": "audio_v1/pizza_kaffee.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "suche_schluessel",
+   "de": "Ich suche den Schlüssel.",
+   "ru": "Я ищу ключ.",
+   "audio": "audio_v1/suche_schluessel.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "habe_hund",
+   "de": "Ich habe einen Hund.",
+   "ru": "У меня есть собака.",
+   "audio": "audio_v1/habe_hund.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "kaufe_milch",
+   "de": "Ich kaufe die Milch.",
+   "ru": "Я покупаю молоко.",
+   "audio": "audio_v1/kaufe_milch.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "brauche_schluessel",
+   "de": "Ich brauche einen Schlüssel.",
+   "ru": "Мне нужен ключ.",
+   "audio": "audio_v1/brauche_schluessel.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "oma_kuchen",
+   "de": "Meine Oma kauft den Kuchen.",
+   "ru": "Моя бабушка покупает пирог.",
+   "audio": "audio_v1/oma_kuchen.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "schatz",
+   "de": "Ich finde den Schatz!",
+   "ru": "Я нахожу сокровище!",
+   "audio": "audio_v1/schatz.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "schwert",
+   "de": "Ich nehme das Schwert.",
+   "ru": "Я беру меч.",
+   "audio": "audio_v1/schwert.mp3",
+   "asr": "ok"
+  }
+ ],
+ "terms": [
+  {
+   "term": "вагон «кого-что»",
+   "plain": "тот, на кого направлено действие: ищу КОГО / ЧТО",
+   "scheme": "поезд: кто | действие №2 | кого-что",
+   "example": "Der Hund sucht den Ball.",
+   "find": "recall: «Найди сам…»"
+  },
+  {
+   "term": "бирка den / einen",
+   "plain": "синее der-слово в вагоне «кого-что» меняет метку",
+   "scheme": "таблица der → den, ein → einen; die, das — без изменений",
+   "example": "Ich habe einen Hund.",
+   "find": "recall: «Найди сам…»"
+  }
+ ],
+ "help_by_error": {
+  "article": {
+   "show": "Таблица 2×4: der → den, ein → einen; die / das не меняются; цвет слова + картинка",
+   "phrases": [
+    "habe_hund",
+    "kaufe_milch",
+    "schwert"
+   ],
+   "step": "picture"
+  },
+  "order": {
+   "show": "Поезд «Den Ball sucht der Hund»: переставь вагоны — бирки остаются",
+   "phrases": [
+    "hund_ball",
+    "ball_hund"
+   ]
+  },
+  "verb_form": {
+   "show": "Открыть verb_endings: кончик действия по «кто» (sucht, suchst)",
+   "link": "verb_endings"
+  },
+  "listen": {
+   "show": "Замедлить и слушать -en в den / einen; сравнить пары der Ball — den Ball",
+   "phrases": [
+    "hund_ball",
+    "brauche_schluessel"
+   ]
+  },
+  "word": {
+   "show": "Картинка + звук предмета с меткой и цветом (der Schlüssel 🔑, der Kuchen 🍰)",
+   "phrases": [
+    "suche_schluessel",
+    "oma_kuchen"
+   ]
+  }
+ },
+ "videos": [
+  {
+   "yt": "wUYPkQFmDzk",
+   "author": "Deutsch mit Yehor",
+   "start": 22,
+   "end": 148,
+   "embed": true,
+   "idea": "Слово не меняется — меняется метка: der Freund → den Freund"
+  },
+  {
+   "yt": "4u5v9Ymp8rk",
+   "author": "Школа німецької (Ihor Kolesnykov)",
+   "start": 72,
+   "end": 160,
+   "embed": true,
+   "idea": "der → den, ich kaufe den Tisch (по-украински)"
+  },
+  {
+   "yt": "5b2KoJnwzJw",
+   "author": "Илья Рябенков",
+   "start": 22,
+   "end": 64,
+   "embed": true,
+   "idea": "Кого-что: меняется только метка у der-слов (кольцо, коротко)"
+  }
+ ],
+ "sources": [
+  {
+   "what": "Формы метки в «кого-что»",
+   "where": "Wiktionary «den» (Akkusativ Singular m = den, f = die, n = das, Plural = die), «einen»",
+   "license": "проверка; CC BY-SA 4.0"
+  },
+  {
+   "what": "Карта темы и страницы",
+   "where": "Е. Чулков «Немецкий от A до Ja!», урок 6, стр. 147–150",
+   "license": "только ссылка на страницу"
+  },
+  {
+   "what": "Приёмы учителей",
+   "where": "topic.csv (Егор, Беккер, Колесников, Рябенков)",
+   "license": "ссылки и официальный YouTube-плеер"
+  },
+  {
+   "what": "Куски «Вживую»",
+   "where": "YouTube-канал Crunchyroll Deutschland (официальный); фраза по автосубтитрам",
+   "license": "официальный плеер, embed проверен oEmbed"
+  },
+  {
+   "what": "Голос",
+   "where": "Piper, голос Thorsten high",
+   "license": "код MIT, данные CC0"
+  }
+ ]
+}

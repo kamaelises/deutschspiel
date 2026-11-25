@@ -1,0 +1,557 @@
+{
+ "topic": "reading",
+ "title": "Как читать по-немецки: 9 ловушек",
+ "minutes": 2,
+ "steps": [
+  {
+   "type": "picture",
+   "text": "Немецкие буквы почти всегда звучат одинаково. Запомни 9 «ловушек» — и большинство слов прочитаешь сам.",
+   "items": [
+    {
+     "letters": "ei",
+     "sound": "ай",
+     "de": "nein",
+     "read": "найн"
+    },
+    {
+     "letters": "ie",
+     "sound": "и: (долго)",
+     "de": "viel",
+     "read": "фи:л"
+    },
+    {
+     "letters": "eu",
+     "sound": "ой",
+     "de": "heute",
+     "read": "хо́йтэ"
+    },
+    {
+     "letters": "sch",
+     "sound": "ш",
+     "de": "schön",
+     "read": "шё:н"
+    },
+    {
+     "letters": "ch",
+     "sound": "х / хь",
+     "de": "Buch · ich",
+     "read": "бу:х · ихь"
+    },
+    {
+     "letters": "z",
+     "sound": "ц",
+     "de": "Zeit",
+     "read": "цайт"
+    },
+    {
+     "letters": "w",
+     "sound": "в",
+     "de": "wohnt",
+     "read": "во:нт"
+    },
+    {
+     "letters": "v",
+     "sound": "ф",
+     "de": "Vater",
+     "read": "фа́:та"
+    },
+    {
+     "letters": "s + звук",
+     "sound": "з",
+     "de": "Sohn",
+     "read": "зо:н"
+    }
+   ],
+   "src": [
+    1,
+    2,
+    3,
+    4,
+    6
+   ]
+  },
+  {
+   "type": "idea",
+   "text": "Почему так? В немецком у каждого сочетания букв свой звук, и он почти не меняется от слова к слову — не как в английском. Поэтому одно правило работает везде: увидел ei — говоришь «ай» в mein, dein, nein. Русские буквы в приложении — только подсказка. Некоторых звуков в русском нет: ü, ö, мягкое «хь», горловое r и долгие звуки. Где стоит значок 👂 — слушай, а не читай.",
+   "src": [
+    1,
+    8,
+    9
+   ]
+  },
+  {
+   "type": "examples",
+   "text": "Нажми — послушай — прочитай сам. Под фразой — подсказка русскими буквами.",
+   "items": [
+    "vater_hier",
+    "heute_schoen",
+    "wie_viel_zeit",
+    "nein_danke",
+    "ich_buch"
+   ],
+   "src": [
+    1,
+    2,
+    3,
+    6
+   ]
+  },
+  {
+   "type": "hint",
+   "text": "Двоеточие «:» в подсказке — тяни звук. Sohn — «зо:н» (долго), Sonne — «зо́нэ» (коротко). Это разные слова: сын и солнце.",
+   "items": [
+    "sohn_sonne"
+   ],
+   "src": [
+    11
+   ]
+  },
+  {
+   "type": "trap",
+   "text": "Тут русский мешает. 1) Русский смягчает звук перед «и» и «е» — немецкий нет: dir — «ди:а», а не «дьир». 2) -er в конце — не «эр», а короткое «а»: Vater — «фа́:та», hier — «хи:а».",
+   "items": [
+    {
+     "wrong": "фа́тэр",
+     "right": "фа́:та",
+     "audio": "vater_hier"
+    }
+   ],
+   "src": [
+    7,
+    10
+   ]
+  },
+  {
+   "type": "recall",
+   "text": "Сначала прочитай вслух сам, потом послушай.",
+   "items": [
+    {
+     "q": "Как прочитать: Wein?",
+     "a": "«вайн»: ei = ай, w = в",
+     "audio": "q_wein"
+    },
+    {
+     "q": "Bier — коротко или долго?",
+     "a": "Долго: «би:а» (ie = долгое и, -r в конце = а)",
+     "audio": "q_bier"
+    },
+    {
+     "q": "Где звук «ц»: Zug или Sohn?",
+     "a": "Zug — «цу:к» (z = ц). В Sohn s = з: «зо:н»",
+     "audio": "q_zug"
+    },
+    {
+     "q": "Найди сам все ловушки во фразе «Zeit für den Boss!»",
+     "a": "Z = «ц», ei = «ай», ü — 👂 слушай: «цайт фю:а дэ:н бос»",
+     "audio": "own_boss",
+     "kind": "find"
+    }
+   ],
+   "src": [
+    2,
+    3,
+    4,
+    7
+   ]
+  },
+  {
+   "type": "live",
+   "text": "Вживую: прислушайся к звукам ü и «х» в официальной немецкой озвучке аниме.",
+   "items": [
+    {
+     "yt": "WkTQEYNC1No",
+     "channel": "Crunchyroll Deutschland",
+     "title": "Demon Slayer — официальный трейлер (дт. синхрон)",
+     "start": 34,
+     "end": 40,
+     "embed": true,
+     "said_de": "Was für eine wundervolle Nacht.",
+     "said_ru": "Какая чудесная ночь.",
+     "read": "вас фю:а а́йнэ ву́ндафолэ нахт",
+     "train": [
+      {
+       "role": "какая",
+       "de": "Was für eine wundervolle Nacht",
+       "ru": "какая чудесная ночь"
+      }
+     ],
+     "why": "für — звук ü (👂 слушай: язык как для «и», губы как для «у»); Nacht — ch после a: твёрдое «х»; w — «в»; -er в wunder- — короткое «а»."
+    },
+    {
+     "yt": "iY78JEbp3-4",
+     "channel": "Crunchyroll Deutschland",
+     "title": "Welcome to Demon School! Iruma-kun, 4 сезон",
+     "start": 58,
+     "end": 63,
+     "embed": true,
+     "said_de": "Ich nehme deine Gefühle an.",
+     "said_ru": "Я принимаю твои чувства.",
+     "read": "ихь нэ́:мэ да́йнэ гэфю́:лэ ан",
+     "train": [
+      {
+       "role": "кто",
+       "de": "Ich",
+       "ru": "я"
+      },
+      {
+       "role": "действие №2",
+       "de": "nehme",
+       "ru": "принимаю"
+      },
+      {
+       "role": "что",
+       "de": "deine Gefühle",
+       "ru": "твои чувства"
+      },
+      {
+       "role": "хвост действия",
+       "de": "an",
+       "ru": "(хвостик от annehmen)"
+      }
+     ],
+     "why": "ich — мягкое «хь» (👂); ei — «ай»; Gefühle — долгое ü (👂). И поезд: «я» — №1, nehme — №2, хвостик an — в конце."
+    }
+   ],
+   "own": [
+    {
+     "id": "own_boss",
+     "note": "в стиле игры: z = ц, ei = ай, ü 👂"
+    },
+    {
+     "id": "own_schoen",
+     "note": "в стиле аниме: sch = ш, ö 👂, ich-«хь» в dich"
+    }
+   ],
+   "src": [
+    6,
+    9
+   ]
+  },
+  {
+   "type": "videos",
+   "text": "Не понял — покажи по-другому.",
+   "items": [
+    "M0ScnKfcD3I",
+    "zcFO0vU9E6U",
+    "qCPCp6FwXK4"
+   ],
+   "src": [
+    1,
+    9
+   ]
+  }
+ ],
+ "why_examples": [
+  {
+   "de": "Mein Vater wohnt hier.",
+   "ru": "Мой папа живёт здесь.",
+   "audio": "vater_hier",
+   "read": "майн фа́:та во:нт хи:а",
+   "train": [
+    {
+     "role": "кто",
+     "de": "Mein Vater",
+     "ru": "мой папа"
+    },
+    {
+     "role": "действие №2",
+     "de": "wohnt",
+     "ru": "живёт"
+    },
+    {
+     "role": "где",
+     "de": "hier",
+     "ru": "здесь"
+    }
+   ],
+   "why": "ei = «ай», v = «ф», w = «в», -er и -r в конце = короткое «а». И поезд: «мой папа» — один вагон, действие второе."
+  },
+  {
+   "de": "Heute ist es schön.",
+   "ru": "Сегодня хорошо.",
+   "audio": "heute_schoen",
+   "read": "хо́йтэ ист эс шё:н",
+   "train": [
+    {
+     "role": "когда",
+     "de": "Heute",
+     "ru": "сегодня"
+    },
+    {
+     "role": "действие №2",
+     "de": "ist",
+     "ru": "есть"
+    },
+    {
+     "role": "кто",
+     "de": "es",
+     "ru": "оно"
+    },
+    {
+     "role": "какое",
+     "de": "schön",
+     "ru": "хорошо"
+    }
+   ],
+   "why": "eu = «ой», sch = «ш», ö — 👂 слушай. Начали с «сегодня» — поэтому es едет за действием, в вагоне №3."
+  },
+  {
+   "de": "Wie viel Zeit hast du?",
+   "ru": "Сколько у тебя времени?",
+   "audio": "wie_viel_zeit",
+   "read": "ви: фи:л цайт хаст ду:",
+   "train": [
+    {
+     "role": "вопрос",
+     "de": "Wie viel Zeit",
+     "ru": "сколько времени"
+    },
+    {
+     "role": "действие №2",
+     "de": "hast",
+     "ru": "имеешь"
+    },
+    {
+     "role": "кто",
+     "de": "du",
+     "ru": "ты"
+    }
+   ],
+   "why": "ie = долгое «и:», v = «ф», z = «ц», ei = «ай». В вопросе со словом «сколько» действие тоже второе."
+  }
+ ],
+ "phrases": [
+  {
+   "id": "vater_hier",
+   "de": "Mein Vater wohnt hier.",
+   "ru": "Мой папа живёт здесь.",
+   "audio": "audio_v1/vater_hier.mp3",
+   "asr": "ok",
+   "ipa": "maɪ̯n ˈfaːtɐ voːnt hiːɐ̯",
+   "ru_read": "майн фа́:та во:нт хи:а",
+   "listen": [
+    "долгота"
+   ]
+  },
+  {
+   "id": "heute_schoen",
+   "de": "Heute ist es schön.",
+   "ru": "Сегодня хорошо.",
+   "audio": "audio_v1/heute_schoen.mp3",
+   "asr": "ok",
+   "ipa": "ˈhɔɪ̯tə ɪst ɛs ʃøːn",
+   "ru_read": "хо́йтэ ист эс шё:н",
+   "listen": [
+    "ö"
+   ]
+  },
+  {
+   "id": "wie_viel_zeit",
+   "de": "Wie viel Zeit hast du?",
+   "ru": "Сколько у тебя времени?",
+   "audio": "audio_v1/wie_viel_zeit.mp3",
+   "asr": "ok",
+   "ipa": "viː fiːl t͡saɪ̯t hast duː",
+   "ru_read": "ви: фи:л цайт хаст ду:",
+   "listen": [
+    "долгота"
+   ]
+  },
+  {
+   "id": "nein_danke",
+   "de": "Nein, danke.",
+   "ru": "Нет, спасибо.",
+   "audio": "audio_v1/nein_danke.mp3",
+   "asr": "ok",
+   "ipa": "naɪ̯n ˈdaŋkə",
+   "ru_read": "найн да́нкэ",
+   "listen": [
+    "ng"
+   ]
+  },
+  {
+   "id": "ich_buch",
+   "de": "Ich lese ein Buch im Bett.",
+   "ru": "Я читаю книгу в кровати.",
+   "audio": "audio_v1/ich_buch.mp3",
+   "asr": "ok",
+   "ipa": "ɪç ˈleːzə aɪ̯n buːx ɪm bɛt",
+   "ru_read": "ихь лэ́:зэ айн бу:х им бэт",
+   "listen": [
+    "ich-Laut",
+    "долгота"
+   ]
+  },
+  {
+   "id": "sohn_sonne",
+   "de": "Der Sohn liegt in der Sonne.",
+   "ru": "Сын лежит на солнце.",
+   "audio": "audio_v1/sohn_sonne.mp3",
+   "asr": "ok",
+   "ipa": "deːɐ̯ zoːn liːkt ɪn deːɐ̯ ˈzɔnə",
+   "ru_read": "дэ:а зо:н ли:кт ин дэ:а зо́нэ",
+   "listen": [
+    "долгота"
+   ]
+  },
+  {
+   "id": "q_wein",
+   "de": "Wein, Wein.",
+   "ru": "вино",
+   "audio": "audio_v1/q_wein.mp3",
+   "asr": "ok",
+   "ipa": "vaɪ̯n vaɪ̯n",
+   "ru_read": "вайн вайн",
+   "listen": []
+  },
+  {
+   "id": "q_bier",
+   "de": "Das Bier. Das ist das Bier.",
+   "ru": "пиво. Это пиво.",
+   "audio": "audio_v1/q_bier.mp3",
+   "asr": "ok",
+   "ipa": "das biːɐ̯ das ɪst das biːɐ̯",
+   "ru_read": "дас би:а дас ист дас би:а",
+   "listen": [
+    "долгота"
+   ]
+  },
+  {
+   "id": "q_zug",
+   "de": "Der Zug. Das ist der Zug.",
+   "ru": "поезд. Это поезд.",
+   "audio": "audio_v1/q_zug.mp3",
+   "asr": "ok",
+   "ipa": "deːɐ̯ t͡suːk das ɪst deːɐ̯ t͡suːk",
+   "ru_read": "дэ:а цу:к дас ист дэ:а цу:к",
+   "listen": [
+    "долгота"
+   ]
+  },
+  {
+   "id": "own_boss",
+   "de": "Zeit für den Boss!",
+   "ru": "Время для босса!",
+   "audio": "audio_v1/own_boss.mp3",
+   "asr": "ok",
+   "ipa": "t͡saɪ̯t fyːɐ̯ deːn bɔs",
+   "ru_read": "цайт фю:а дэ:н бос",
+   "listen": [
+    "ü",
+    "долгота"
+   ]
+  },
+  {
+   "id": "own_schoen",
+   "de": "Schön, dich zu sehen!",
+   "ru": "Рад тебя видеть!",
+   "audio": "audio_v1/own_schoen.mp3",
+   "asr": "ok",
+   "ipa": "ʃøːn dɪç t͡suː ˈzeːən",
+   "ru_read": "шё:н дихь цу: зэ́:эн",
+   "listen": [
+    "ö",
+    "ich-Laut",
+    "долгота"
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "yt": "M0ScnKfcD3I",
+   "author": "Илья Рябенков",
+   "start": 40,
+   "end": 160,
+   "embed": true,
+   "idea": "Все главные правила чтения за 2 минуты: s, sch, ch, r, v, st/sp, ei, eu, умлауты"
+  },
+  {
+   "yt": "zcFO0vU9E6U",
+   "author": "Deutsch mit Yehor",
+   "start": 258,
+   "end": 330,
+   "embed": true,
+   "idea": "Буквы, которые путают: v и w, z = «ц»"
+  },
+  {
+   "yt": "qCPCp6FwXK4",
+   "author": "Super Easy German",
+   "start": 0,
+   "end": 62,
+   "embed": true,
+   "idea": "Умлауты ä, ö, ü — слушать носителей (по-немецки)"
+  }
+ ],
+ "sources": [
+  {
+   "what": "Звучание слов (IPA)",
+   "where": "de.wiktionary.org, {{Lautschrift}}; таблица research/topics/reading/ipa_to_cyrillic.csv",
+   "license": "CC BY-SA 4.0; русские буквы — наша приблизительная подсказка"
+  },
+  {
+   "what": "Правила чтения и страницы",
+   "where": "Е. Чулков «Немецкий от A до Ja!», «Как читать транскрипцию» стр. 16–17; урок 1, стр. 21–37",
+   "license": "только ссылка на страницу"
+  },
+  {
+   "what": "Приёмы учителей",
+   "where": "topic.csv (Рябенков, Егор, Беккер, Super Easy German, DW)",
+   "license": "ссылки и официальный плеер"
+  },
+  {
+   "what": "Куски «Вживую»",
+   "where": "YouTube-канал Crunchyroll Deutschland (официальный); фраза по автосубтитрам",
+   "license": "официальный плеер, embed проверен oEmbed"
+  },
+  {
+   "what": "Голос",
+   "where": "Piper, голос Thorsten high",
+   "license": "код MIT, данные CC0"
+  }
+ ],
+ "terms": [
+  {
+   "term": "ловушка (сочетание букв)",
+   "plain": "буквы, которые читаются не так, как кажется русскому глазу",
+   "scheme": "таблица 9 ловушек: буквы → звук → пример",
+   "example": "Zeit — «цайт»",
+   "find": "recall: «Найди сам…»"
+  },
+  {
+   "term": "👂 слушай, а не читай",
+   "plain": "звука нет в русском, русские буквы только примерно",
+   "scheme": "значок 👂 у слова",
+   "example": "schön, für, ich",
+   "find": "recall: «Найди сам…» (ü)"
+  }
+ ],
+ "help_by_error": {
+  "listen": {
+   "show": "Слово медленно (0.7), по слогам, 3 раза; русские буквы и 👂 рядом",
+   "phrases": [
+    "heute_schoen",
+    "own_schoen"
+   ],
+   "step": "examples"
+  },
+  "word": {
+   "show": "Картинка + звук + русские буквы-подсказка (ru_read)",
+   "phrases": [
+    "vater_hier",
+    "ich_buch"
+   ]
+  },
+  "order": {
+   "show": "Открыть «поезд» (word_order)",
+   "link": "word_order"
+  },
+  "article": {
+   "show": "Открыть «der · die · das» (articles)",
+   "link": "articles"
+  },
+  "verb_form": {
+   "show": "Открыть «кончик действия» (verb_endings)",
+   "link": "verb_endings"
+  }
+ }
+}

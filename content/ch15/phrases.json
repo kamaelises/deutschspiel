@@ -1,0 +1,7314 @@
+[
+ {
+  "id": "ch15_001",
+  "de": "Ich habe Englisch gelernt.",
+  "ru": "Я учил английский.",
+  "nouns": [
+   {
+    "lemma": "Englisch",
+    "art": "das",
+    "pl": ""
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "habe",
+     "role": "помощник №2"
+    },
+    {
+     "w": "Englisch",
+     "role": "кого-что"
+    },
+    {
+     "w": "gelernt",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "Прошлое — два слова: помощник habe в вагоне №2 включает «уже было», gelernt — что сделано — в конце.",
+   "topic": "perfekt",
+   "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ich habe Englisch gelernt.",
+   "why_ru": "По-русски «Я учил английский» — прошлое одним словом; по-немецки два слова, и они разнесены: Ich habe Englisch gelernt.",
+   "layer": "perfekt",
+   "why_not": {
+    "wrong": "Ich habe gelernt Englisch.",
+    "ru": "По-русски «Я учил английский» — одно слово по порядку. По-немецки habe … gelernt разнесены: gelernt — в самый конец."
+   },
+   "root": null,
+   "why_voice_ru": "Прошлое — два слова: помощник habe в вагоне №2 включает «уже было», gelernt — что сделано — в конце."
+  },
+  "audio": "audio_v1/ch15_001.mp3",
+  "tts": "Ich habe Englisch gelernt.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "habe",
+    "ipa": "[ˈhaːbə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Englisch",
+    "ipa": "[ˈɛŋlɪʃ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gelernt",
+    "ipa": "[ɡəˈlɛʁnt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_002",
+  "de": "In der Schule.",
+  "ru": "В школе.",
+  "nouns": [
+   {
+    "lemma": "Schule",
+    "art": "die",
+    "pl": "Schulen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "In der Schule",
+     "role": "где"
+    }
+   ],
+   "text": "Ответ на wo — «где». die Schule после in — «где?» — звучит in der Schule.",
+   "topic": "word_order",
+   "why_de": "Короткий ответ без действия: In der Schule (где? — место).",
+   "why_ru": "По-русски так же коротко: «В школе».",
+   "layer": "short",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — считать это готовой формулой. «В школе» — короткий ответ, его слова меняют под ситуацию."
+   },
+   "root": null,
+   "why_voice_ru": "Ответ на wo — «где». die Schule после in — «где?» — звучит in der Schule."
+  },
+  "audio": "audio_v1/ch15_002.mp3",
+  "tts": "In der Schule.",
+  "ipa": [
+   {
+    "w": "In",
+    "ipa": "[ɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "der",
+    "ipa": "[deːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Schule",
+    "ipa": "[ˈʃuːlə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_003",
+  "de": "Im Kurs.",
+  "ru": "На курсе.",
+  "nouns": [
+   {
+    "lemma": "Kurs",
+    "art": "der",
+    "pl": "Kurse"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Im Kurs",
+     "role": "где"
+    }
+   ],
+   "text": "im — это in и dem, склеенные вместе. der Kurs после in — «где?» — даёт im Kurs.",
+   "topic": "word_order",
+   "why_de": "Короткий ответ без действия: Im Kurs (где? — место).",
+   "why_ru": "По-русски так же коротко: «На курсе».",
+   "layer": "short",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — считать это готовой формулой. «На курсе» — короткий ответ, его слова меняют под ситуацию."
+   },
+   "root": null,
+   "why_voice_ru": "im — это in и dem, склеенные вместе. der Kurs после in — «где?» — даёт im Kurs."
+  },
+  "audio": "audio_v1/ch15_003.mp3",
+  "tts": "Im Kurs. Im Kurs.",
+  "ipa": [
+   {
+    "w": "Im",
+    "ipa": "[ɪm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kurs",
+    "ipa": "[kʊʁs]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_004",
+  "de": "Wann hast du das gelernt?",
+  "ru": "Когда ты это учил?",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Wann",
+     "role": "вопрос-слово",
+     "asks": "когда"
+    },
+    {
+     "w": "hast",
+     "role": "помощник №2"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "das",
+     "role": "кого-что"
+    },
+    {
+     "w": "gelernt",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "wann — «когда». Вопрос-слово — вагон №1, помощник hast — сразу за ним, gelernt — в конце.",
+   "topic": "perfekt",
+   "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Wann hast du das gelernt?",
+   "why_ru": "По-русски «Когда ты это учил» — прошлое одним словом; по-немецки два слова, и они разнесены: Wann hast du das gelernt?",
+   "layer": "perfekt",
+   "why_not": {
+    "wrong": "Wann hast gelernt du das?",
+    "ru": "По-русски «Когда ты это учил» — одно слово по порядку. По-немецки hast … gelernt разнесены: gelernt — в самый конец."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "wann — «когда». Вопрос-слово — вагон №1, помощник hast — сразу за ним, gelernt — в конце."
+  },
+  "audio": "audio_v1/ch15_004.mp3",
+  "tts": "Wann hast du das gelernt?",
+  "ipa": [
+   {
+    "w": "Wann",
+    "ipa": "[van]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "hast",
+    "ipa": "[hast]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "das",
+    "ipa": "[das]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gelernt",
+    "ipa": "[ɡəˈlɛʁnt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_005",
+  "de": "Mit sieben Jahren.",
+  "ru": "В семь лет.",
+  "nouns": [
+   {
+    "lemma": "Jahr",
+    "art": "das",
+    "pl": "Jahre"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Mit sieben Jahren",
+     "role": "когда"
+    }
+   ],
+   "text": "Возраст говорят через mit: mit sieben Jahren — «в семь лет». Дословно — «с семью годами».",
+   "topic": "word_order",
+   "why_de": "Короткий ответ без действия: Mit sieben Jahren (когда?).",
+   "why_ru": "По-русски так же коротко: «В семь лет».",
+   "layer": "short",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — считать это готовой формулой. «В семь лет» — короткий ответ, его слова меняют под ситуацию."
+   },
+   "root": null,
+   "why_voice_ru": "Возраст говорят через mit: mit sieben Jahren — «в семь лет». Дословно — «с семью годами»."
+  },
+  "audio": "audio_v1/ch15_005.mp3",
+  "tts": "Mit sieben Jahren.",
+  "ipa": [
+   {
+    "w": "Mit",
+    "ipa": "[mɪt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "sieben",
+    "ipa": "[ˈziːbn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Jahren",
+    "ipa": "[ˈjaːʁən]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_006",
+  "de": "Ich habe Russisch in der Schule gelernt.",
+  "ru": "Я учил русский в школе.",
+  "nouns": [
+   {
+    "lemma": "Russisch",
+    "art": "das",
+    "pl": ""
+   },
+   {
+    "lemma": "Schule",
+    "art": "die",
+    "pl": "Schulen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "habe",
+     "role": "помощник №2"
+    },
+    {
+     "w": "Russisch",
+     "role": "кого-что"
+    },
+    {
+     "w": "in der Schule",
+     "role": "где"
+    },
+    {
+     "w": "gelernt",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "Тот же поезд: habe — вагон №2, gelernt — в конце. Между ними — что и где.",
+   "topic": "perfekt",
+   "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ich habe Russisch in der Schule gelernt.",
+   "why_ru": "По-русски «Я учил русский в школе» — прошлое одним словом; по-немецки два слова, и они разнесены: Ich habe Russisch in der Schule gelernt.",
+   "layer": "perfekt",
+   "why_not": {
+    "wrong": "Ich habe gelernt Russisch in der Schule.",
+    "ru": "По-русски «Я учил русский в школе» — одно слово по порядку. По-немецки habe … gelernt разнесены: gelernt — в самый конец."
+   },
+   "root": null,
+   "why_voice_ru": "Тот же поезд: habe — вагон №2, gelernt — в конце. Между ними — что и где.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «что» · «где» · хвост действия",
+    "items": [
+     {
+      "id": "ch15_d1_04",
+      "de": "Ich habe Englisch in der Schule gelernt.",
+      "ru": "Я учил английский в школе.",
+      "audio": "audio_v1/ch15_d1_04.mp3",
+      "lesson": "L1",
+      "part": 4,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "Russisch",
+       "to": "Englisch"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ich · habe · in der Schule · gelernt. В каждом примере меняется один вагон — «что»: Russisch → Englisch. Действие habe всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch15_006.mp3",
+  "tts": "Ich habe Russisch in der Schule gelernt.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "habe",
+    "ipa": "[ˈhaːbə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Russisch",
+    "ipa": "[ˈʁʊsɪʃ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "in",
+    "ipa": "[ɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "der",
+    "ipa": "[deːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Schule",
+    "ipa": "[ˈʃuːlə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gelernt",
+    "ipa": "[ɡəˈlɛʁnt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_007",
+  "de": "Ich lerne Deutsch.",
+  "ru": "Я учу немецкий.",
+  "nouns": [
+   {
+    "lemma": "Deutsch",
+    "art": "das",
+    "pl": ""
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#3685927 CC BY 2.0 FR (автор Pfirsichbaeumchen)",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "lerne",
+     "role": "действие №2"
+    },
+    {
+     "w": "Deutsch",
+     "role": "кого-что"
+    }
+   ],
+   "text": "С ich у действия хвост -e: ich lerne. Deutsch — язык, с большой буквы.",
+   "topic": "verb2",
+   "why_de": "Ich · lerne · Deutsch: действие lerne — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Я учу немецкий» — Ich lerne Deutsch. Разница одна: по-немецки lerne держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich Deutsch lerne.",
+    "ru": "Действие lerne уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе lerne — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "С ich у действия хвост -e: ich lerne. Deutsch — язык, с большой буквы."
+  },
+  "audio": "audio_v1/ch15_007.mp3",
+  "tts": "Ich lerne Deutsch.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "lerne",
+    "ipa": "[ˈlɛʁnə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Deutsch",
+    "ipa": "[dɔɪ̯t͡ʃ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_008",
+  "de": "Was lernst du?",
+  "ru": "Что ты учишь?",
+  "nouns": [],
+  "chunk": false,
+  "source": "tatoeba:#392861 CC BY 2.0 FR (автор xtofu80)",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Was",
+     "role": "вопрос-слово",
+     "asks": "кого-что"
+    },
+    {
+     "w": "lernst",
+     "role": "действие №2"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    }
+   ],
+   "text": "was — «что». Вопрос-слово, потом действие. С du — хвост -st: du lernst.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Was — вагон №1, действие lernst — сразу за ним, вагон №2: Was lernst du? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Что ты учишь» можно сказать и в другом порядке. По-немецки порядок один: Was · lernst · du.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Was du lernst?",
+    "ru": "du встал перед lernst — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "was — «что». Вопрос-слово, потом действие. С du — хвост -st: du lernst."
+  },
+  "audio": "audio_v1/ch15_008.mp3",
+  "tts": "Was lernst du?",
+  "ipa": [
+   {
+    "w": "Was",
+    "ipa": "[vas]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "lernst",
+    "ipa": "[lɛʁnst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_009",
+  "de": "Sprichst du Englisch?",
+  "ru": "Ты говоришь по-английски?",
+  "nouns": [
+   {
+    "lemma": "Englisch",
+    "art": "das",
+    "pl": ""
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#376088 CC BY 2.0 FR (автор MUIRIEL)",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Sprichst",
+     "role": "действие №1"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "Englisch",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Вопрос «да/нет»: действие впереди. С du — sprichst.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Sprichst) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Sprichst du Englisch?",
+   "why_ru": "По-русски «Ты говоришь по-английски» — вопрос только голосом, порядок как в ответе. По-немецки действие Sprichst выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Du sprichst Englisch?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Ты говоришь по-английски?!»). Обычный вопрос — действие впереди."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "Вопрос «да/нет»: действие впереди. С du — sprichst."
+  },
+  "audio": "audio_v1/ch15_009.mp3",
+  "tts": "Sprichst du Englisch?",
+  "ipa": [
+   {
+    "w": "Sprichst",
+    "ipa": "[ʃpʁɪçst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Englisch",
+    "ipa": "[ˈɛŋlɪʃ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_010",
+  "de": "Kindergarten, Schule, Universität, Fahrschule, Musikschule, Volkshochschule.",
+  "ru": "Детский сад, школа, университет, автошкола, музыкальная школа, народная школа для взрослых.",
+  "nouns": [
+   {
+    "lemma": "Kindergarten",
+    "art": "der",
+    "pl": "Kindergärten"
+   },
+   {
+    "lemma": "Schule",
+    "art": "die",
+    "pl": "Schulen"
+   },
+   {
+    "lemma": "Universität",
+    "art": "die",
+    "pl": "Universitäten"
+   },
+   {
+    "lemma": "Fahrschule",
+    "art": "die",
+    "pl": "Fahrschulen"
+   },
+   {
+    "lemma": "Musikschule",
+    "art": "die",
+    "pl": "Musikschulen"
+   },
+   {
+    "lemma": "Volkshochschule",
+    "art": "die",
+    "pl": "Volkshochschulen"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Kindergarten",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Schule",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Universität",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Fahrschule",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Musikschule",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Volkshochschule",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Слова курса — где учатся: der Kindergarten, die Schule, die Universität, die Fahrschule, die Musikschule, die Volkshochschule.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Kindergarten — детский сад · die Schule — школа · die Universität — университет · die Fahrschule — автошкола · die Musikschule — музыкальная школа · die Volkshochschule — народная школа для взрослых.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Kindergarten, die Schule, die Universität, die Fahrschule, die Musikschule, die Volkshochschule."
+   },
+   "root": "Kindergarten = Kind + Garten (Kind — ребёнок; Garten — сад) — Wiktionary",
+   "why_voice_ru": "Слова курса — где учатся: der Kindergarten, die Schule, die Universität, die Fahrschule, die Musikschule, die Volkshochschule."
+  },
+  "audio": "audio_v1/ch15_010.mp3",
+  "tts": "Kindergarten, Schule, Universität, Fahrschule, Musikschule, Volkshochschule.",
+  "ipa": [
+   {
+    "w": "Kindergarten",
+    "ipa": "[ˈkɪndɐˌɡaʁtn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Schule",
+    "ipa": "[ˈʃuːlə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Universität",
+    "ipa": "[ˌunivɛʁziˈtɛːt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fahrschule",
+    "ipa": "[ˈfaːɐ̯ˌʃuːlə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Musikschule",
+    "ipa": "[muˈziːkˌʃuːlə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Volkshochschule",
+    "ipa": "[ˈfɔlkshoːxˌʃuːlə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_011",
+  "de": "Baby, Kind, Schüler, Teenager, Student, Rentner.",
+  "ru": "Младенец, ребёнок, школьник, подросток, студент, пенсионер.",
+  "nouns": [
+   {
+    "lemma": "Baby",
+    "art": "das",
+    "pl": "Babys"
+   },
+   {
+    "lemma": "Kind",
+    "art": "das",
+    "pl": "Kinder"
+   },
+   {
+    "lemma": "Schüler",
+    "art": "der",
+    "pl": "Schüler"
+   },
+   {
+    "lemma": "Teenager",
+    "art": "der",
+    "pl": "Teenager"
+   },
+   {
+    "lemma": "Student",
+    "art": "der",
+    "pl": "Studenten"
+   },
+   {
+    "lemma": "Rentner",
+    "art": "der",
+    "pl": "Rentner"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Baby",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Kind",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Schüler",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Teenager",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Student",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Rentner",
+     "role": "слово",
+     "art": "der"
+    }
+   ],
+   "text": "Слова курса — кто учится: das Baby, das Kind, der Schüler, der Teenager, der Student, der Rentner.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: das Baby — младенец · das Kind — ребёнок · der Schüler — школьник · der Teenager — подросток · der Student — студент · der Rentner — пенсионер.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: das Baby, das Kind, der Schüler, der Teenager, der Student, der Rentner."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса — кто учится: das Baby, das Kind, der Schüler, der Teenager, der Student, der Rentner."
+  },
+  "audio": "audio_v1/ch15_011.mp3",
+  "tts": "Baby, Kind, Schüler, Teenager, Student, Rentner.",
+  "ipa": [
+   {
+    "w": "Baby",
+    "ipa": "[ˈbeːbi]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kind",
+    "ipa": "[kɪnt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Schüler",
+    "ipa": "[ˈʃyːlɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Teenager",
+    "ipa": "[ˈtiːnʔɛɪ̯d͡ʒɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Student",
+    "ipa": "[ʃtuˈdɛnt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Rentner",
+    "ipa": "[ˈʁɛntnɐ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_012",
+  "de": "Ausbildung, Praktikum, Firma, Beruf, Fremdsprache, Instrument.",
+  "ru": "Профессиональное обучение, практика, фирма, профессия, иностранный язык, инструмент.",
+  "nouns": [
+   {
+    "lemma": "Ausbildung",
+    "art": "die",
+    "pl": "Ausbildungen"
+   },
+   {
+    "lemma": "Praktikum",
+    "art": "das",
+    "pl": "Praktika"
+   },
+   {
+    "lemma": "Firma",
+    "art": "die",
+    "pl": "Firmen"
+   },
+   {
+    "lemma": "Beruf",
+    "art": "der",
+    "pl": "Berufe"
+   },
+   {
+    "lemma": "Fremdsprache",
+    "art": "die",
+    "pl": "Fremdsprachen"
+   },
+   {
+    "lemma": "Instrument",
+    "art": "das",
+    "pl": "Instrumente"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Ausbildung",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Praktikum",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Firma",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Beruf",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Fremdsprache",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Instrument",
+     "role": "слово",
+     "art": "das"
+    }
+   ],
+   "text": "Слова курса — чему и где учатся взрослые: die Ausbildung, das Praktikum, die Firma, der Beruf, die Fremdsprache, das Instrument.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: die Ausbildung — профессиональное обучение · das Praktikum — практика · die Firma — фирма · der Beruf — профессия · die Fremdsprache — иностранный язык · das Instrument — инструмент.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: die Ausbildung, das Praktikum, die Firma, der Beruf, die Fremdsprache, das Instrument."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса — чему и где учатся взрослые: die Ausbildung, das Praktikum, die Firma, der Beruf, die Fremdsprache, das Instrument."
+  },
+  "audio": "audio_v1/ch15_012.mp3",
+  "tts": "Ausbildung, Praktikum, Firma, Beruf, Fremdsprache, Instrument.",
+  "ipa": [
+   {
+    "w": "Ausbildung",
+    "ipa": "[ˈaʊ̯sˌbɪldʊŋ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Praktikum",
+    "ipa": "[ˈpʁaktikʊm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Firma",
+    "ipa": "[ˈfɪʁma]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Beruf",
+    "ipa": "[bəˈʁuːf]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fremdsprache",
+    "ipa": "[ˈfʁɛmtˌʃpʁaːxə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Instrument",
+    "ipa": "[ˌɪnstʁuˈmɛnt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_013",
+  "de": "Von wem hast du das gelernt?",
+  "ru": "От кого ты этому научился?",
+  "nouns": [],
+  "chunk": false,
+  "source": "tatoeba:#1139192 CC BY 2.0 FR (автор Esperantostern)",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Von wem",
+     "role": "от кого"
+    },
+    {
+     "w": "hast",
+     "role": "помощник №2"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "das",
+     "role": "кого-что"
+    },
+    {
+     "w": "gelernt",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "Von wem — «от кого»: вопрос-кусок, вагон №1. Дальше как в уроке 1: помощник hast — вагон №2, gelernt — в конце.",
+   "topic": "perfekt",
+   "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Von wem hast du das gelernt?",
+   "why_ru": "По-русски «От кого ты этому научился» — прошлое одним словом; по-немецки два слова, и они разнесены: Von wem hast du das gelernt?",
+   "layer": "perfekt",
+   "why_not": {
+    "wrong": "Von wem hast gelernt du das?",
+    "ru": "По-русски «От кого ты этому научился» — одно слово по порядку. По-немецки hast … gelernt разнесены: gelernt — в самый конец."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "Von wem — «от кого»: вопрос-кусок, вагон №1. Дальше как в уроке 1: помощник hast — вагон №2, gelernt — в конце."
+  },
+  "audio": "audio_v1/ch15_013.mp3",
+  "tts": "Von wem hast du das gelernt?",
+  "ipa": [
+   {
+    "w": "Von",
+    "ipa": "[fɔn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "wem",
+    "ipa": "[veːm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "hast",
+    "ipa": "[hast]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "das",
+    "ipa": "[das]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gelernt",
+    "ipa": "[ɡəˈlɛʁnt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_014",
+  "de": "Ich habe das von meinem Onkel gelernt.",
+  "ru": "Этому я научился у моего дяди.",
+  "nouns": [
+   {
+    "lemma": "Onkel",
+    "art": "der",
+    "pl": "Onkel"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "habe",
+     "role": "помощник №2"
+    },
+    {
+     "w": "das",
+     "role": "кого-что"
+    },
+    {
+     "w": "von meinem Onkel",
+     "role": "от кого"
+    },
+    {
+     "w": "gelernt",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "После von слово «мой» меняется: der Onkel → von meinem Onkel. «От кого» — кусок von + meinem + Onkel, он стоит между habe и gelernt.",
+   "topic": "perfekt",
+   "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ich habe das von meinem Onkel gelernt.",
+   "why_ru": "По-русски «Этому я научился у моего дяди» — прошлое одним словом; по-немецки два слова, и они разнесены: Ich habe das von meinem Onkel gelernt.",
+   "layer": "perfekt",
+   "why_not": {
+    "wrong": "Ich habe gelernt das von meinem Onkel.",
+    "ru": "По-русски «Этому я научился у моего дяди» — одно слово по порядку. По-немецки habe … gelernt разнесены: gelernt — в самый конец."
+   },
+   "root": null,
+   "why_voice_ru": "После von слово «мой» меняется: der Onkel → von meinem Onkel."
+  },
+  "audio": "audio_v1/ch15_014.mp3",
+  "tts": "Ich habe das von meinem Onkel gelernt.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "habe",
+    "ipa": "[ˈhaːbə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "das",
+    "ipa": "[das]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "von",
+    "ipa": "[fɔn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "meinem",
+    "ipa": "[ˈmaɪ̯nəm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Onkel",
+    "ipa": "[ˈɔŋkl̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gelernt",
+    "ipa": "[ɡəˈlɛʁnt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_015",
+  "de": "Von meiner Mutter.",
+  "ru": "От моей мамы.",
+  "nouns": [
+   {
+    "lemma": "Mutter",
+    "art": "die",
+    "pl": "Mütter"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Von meiner Mutter",
+     "role": "от кого"
+    }
+   ],
+   "text": "Короткий ответ на «от кого». die Mutter после von: не meine, а meiner.",
+   "topic": "word_order",
+   "why_de": "Короткий ответ без действия: Von meiner Mutter (от кого?).",
+   "why_ru": "По-русски так же коротко: «От моей мамы».",
+   "layer": "short",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — считать это готовой формулой. «От моей мамы» — короткий ответ, его слова меняют под ситуацию."
+   },
+   "root": null,
+   "why_voice_ru": "Короткий ответ на «от кого». die Mutter после von: не meine, а meiner."
+  },
+  "audio": "audio_v1/ch15_015.mp3",
+  "tts": "Von meiner Mutter.",
+  "ipa": [
+   {
+    "w": "Von",
+    "ipa": "[fɔn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "meiner",
+    "ipa": "[ˈmaɪ̯nɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Mutter",
+    "ipa": "[ˈmʊtɐ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_016",
+  "de": "Von meinem Freund.",
+  "ru": "От моего друга.",
+  "nouns": [
+   {
+    "lemma": "Freund",
+    "art": "der",
+    "pl": "Freunde"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Von meinem Freund",
+     "role": "от кого"
+    }
+   ],
+   "text": "Короткий ответ на «от кого». der Freund после von: meinem Freund — как meinem Onkel.",
+   "topic": "word_order",
+   "why_de": "Короткий ответ без действия: Von meinem Freund (от кого?).",
+   "why_ru": "По-русски так же коротко: «От моего друга».",
+   "layer": "short",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — считать это готовой формулой. «От моего друга» — короткий ответ, его слова меняют под ситуацию."
+   },
+   "root": null,
+   "why_voice_ru": "Короткий ответ на «от кого». der Freund после von: meinem Freund — как meinem Onkel."
+  },
+  "audio": "audio_v1/ch15_016.mp3",
+  "tts": "Von meinem Freund.",
+  "ipa": [
+   {
+    "w": "Von",
+    "ipa": "[fɔn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "meinem",
+    "ipa": "[ˈmaɪ̯nəm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Freund",
+    "ipa": "[fʁɔɪ̯nt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_017",
+  "de": "Ich habe Englisch von meiner Mutter gelernt.",
+  "ru": "Я учил английский у моей мамы.",
+  "nouns": [
+   {
+    "lemma": "Englisch",
+    "art": "das",
+    "pl": ""
+   },
+   {
+    "lemma": "Mutter",
+    "art": "die",
+    "pl": "Mütter"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "habe",
+     "role": "помощник №2"
+    },
+    {
+     "w": "Englisch",
+     "role": "кого-что"
+    },
+    {
+     "w": "von meiner Mutter",
+     "role": "от кого"
+    },
+    {
+     "w": "gelernt",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "die Mutter после von: meiner. Помощник habe — вагон №2, gelernt — в конце, между ними — что и от кого.",
+   "topic": "perfekt",
+   "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ich habe Englisch von meiner Mutter gelernt.",
+   "why_ru": "По-русски «Я учил английский у моей мамы» — прошлое одним словом; по-немецки два слова, и они разнесены: Ich habe Englisch von meiner Mutter gelernt.",
+   "layer": "perfekt",
+   "why_not": {
+    "wrong": "Ich habe gelernt Englisch von meiner Mutter.",
+    "ru": "По-русски «Я учил английский у моей мамы» — одно слово по порядку. По-немецки habe … gelernt разнесены: gelernt — в самый конец."
+   },
+   "root": null,
+   "why_voice_ru": "die Mutter после von: meiner. Помощник habe — вагон №2, gelernt — в конце, между ними — что и от кого."
+  },
+  "audio": "audio_v1/ch15_017.mp3",
+  "tts": "Ich habe Englisch von meiner Mutter gelernt.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "habe",
+    "ipa": "[ˈhaːbə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Englisch",
+    "ipa": "[ˈɛŋlɪʃ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "von",
+    "ipa": "[fɔn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "meiner",
+    "ipa": "[ˈmaɪ̯nɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Mutter",
+    "ipa": "[ˈmʊtɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gelernt",
+    "ipa": "[ɡəˈlɛʁnt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_018",
+  "de": "Ich habe Deutsch von meinem Freund gelernt.",
+  "ru": "Я учил немецкий у моего друга.",
+  "nouns": [
+   {
+    "lemma": "Deutsch",
+    "art": "das",
+    "pl": ""
+   },
+   {
+    "lemma": "Freund",
+    "art": "der",
+    "pl": "Freunde"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "habe",
+     "role": "помощник №2"
+    },
+    {
+     "w": "Deutsch",
+     "role": "кого-что"
+    },
+    {
+     "w": "von meinem Freund",
+     "role": "от кого"
+    },
+    {
+     "w": "gelernt",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "der Freund после von: meinem Freund. Тот же поезд: habe — вагон №2, gelernt — в конце.",
+   "topic": "perfekt",
+   "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ich habe Deutsch von meinem Freund gelernt.",
+   "why_ru": "По-русски «Я учил немецкий у моего друга» — прошлое одним словом; по-немецки два слова, и они разнесены: Ich habe Deutsch von meinem Freund gelernt.",
+   "layer": "perfekt",
+   "why_not": {
+    "wrong": "Ich habe gelernt Deutsch von meinem Freund.",
+    "ru": "По-русски «Я учил немецкий у моего друга» — одно слово по порядку. По-немецки habe … gelernt разнесены: gelernt — в самый конец."
+   },
+   "root": null,
+   "why_voice_ru": "der Freund после von: meinem Freund. Тот же поезд: habe — вагон №2, gelernt — в конце."
+  },
+  "audio": "audio_v1/ch15_018.mp3",
+  "tts": "Ich habe Deutsch von meinem Freund gelernt.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "habe",
+    "ipa": "[ˈhaːbə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Deutsch",
+    "ipa": "[dɔɪ̯t͡ʃ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "von",
+    "ipa": "[fɔn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "meinem",
+    "ipa": "[ˈmaɪ̯nəm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Freund",
+    "ipa": "[fʁɔɪ̯nt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gelernt",
+    "ipa": "[ɡəˈlɛʁnt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_019",
+  "de": "Bruder, Schwester, Tante, Lehrerin, Lehrer, Fahrlehrer.",
+  "ru": "Брат, сестра, тётя, учительница, учитель, инструктор автошколы.",
+  "nouns": [
+   {
+    "lemma": "Bruder",
+    "art": "der",
+    "pl": "Brüder"
+   },
+   {
+    "lemma": "Schwester",
+    "art": "die",
+    "pl": "Schwestern"
+   },
+   {
+    "lemma": "Tante",
+    "art": "die",
+    "pl": "Tanten"
+   },
+   {
+    "lemma": "Lehrerin",
+    "art": "die",
+    "pl": "Lehrerinnen"
+   },
+   {
+    "lemma": "Lehrer",
+    "art": "der",
+    "pl": "Lehrer"
+   },
+   {
+    "lemma": "Fahrlehrer",
+    "art": "der",
+    "pl": "Fahrlehrer"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Bruder",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Schwester",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Tante",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Lehrerin",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Lehrer",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Fahrlehrer",
+     "role": "слово",
+     "art": "der"
+    }
+   ],
+   "text": "Слова курса — от кого учатся: der Bruder, die Schwester, die Tante, die Lehrerin, der Lehrer, der Fahrlehrer.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Bruder — брат · die Schwester — сестра · die Tante — тётя · die Lehrerin — учительница · der Lehrer — учитель · der Fahrlehrer — инструктор автошколы.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Bruder, die Schwester, die Tante, die Lehrerin, der Lehrer, der Fahrlehrer."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса — от кого учатся: der Bruder, die Schwester, die Tante, die Lehrerin, der Lehrer, der Fahrlehrer."
+  },
+  "audio": "audio_v1/ch15_019.mp3",
+  "tts": "Bruder, Schwester, Tante, Lehrerin, Lehrer, Fahrlehrer.",
+  "ipa": [
+   {
+    "w": "Bruder",
+    "ipa": "[ˈbʁuːdɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Schwester",
+    "ipa": "[ˈʃvɛstɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Tante",
+    "ipa": "[ˈtantə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Lehrerin",
+    "ipa": "[ˈleːʁəʁɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Lehrer",
+    "ipa": "[ˈleːʁɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fahrlehrer",
+    "ipa": "[ˈfaːɐ̯ˌleːʁɐ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_020",
+  "de": "Spielst du Klavier?",
+  "ru": "Ты играешь на пианино?",
+  "nouns": [
+   {
+    "lemma": "Klavier",
+    "art": "das",
+    "pl": "Klaviere"
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#8634449 CC BY 2.0 FR (автор Melang)",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Spielst",
+     "role": "действие №1"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "Klavier",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Вопрос «да/нет»: действие spielst впереди. С du — хвост -st: du spielst.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Spielst) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Spielst du Klavier?",
+   "why_ru": "По-русски «Ты играешь на пианино» — вопрос только голосом, порядок как в ответе. По-немецки действие Spielst выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Du spielst Klavier?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Ты играешь на пианино?!»). Обычный вопрос — действие впереди."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "Вопрос «да/нет»: действие spielst впереди. С du — хвост -st: du spielst."
+  },
+  "audio": "audio_v1/ch15_020.mp3",
+  "tts": "Spielst du Klavier?",
+  "ipa": [
+   {
+    "w": "Spielst",
+    "ipa": "[ʃpiːlst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Klavier",
+    "ipa": "[klaˈviːɐ̯]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_021",
+  "de": "Ja, ich spiele Klavier.",
+  "ru": "Да, я играю на пианино.",
+  "nouns": [
+   {
+    "lemma": "Klavier",
+    "art": "das",
+    "pl": "Klaviere"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Ja",
+     "role": "да/нет"
+    },
+    {
+     "w": "ich",
+     "role": "кто"
+    },
+    {
+     "w": "spiele",
+     "role": "действие №2"
+    },
+    {
+     "w": "Klavier",
+     "role": "кого-что"
+    }
+   ],
+   "text": "ja не занимает вагон. С ich у действия хвост -e: ich spiele.",
+   "topic": "verb2",
+   "why_de": "ich · spiele · Klavier: действие spiele — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Да, я играю на пианино» — Ja, ich spiele Klavier. Разница одна: по-немецки spiele держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ja, ich Klavier spiele.",
+    "ru": "Действие spiele уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе spiele — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "ja не занимает вагон. С ich у действия хвост -e: ich spiele."
+  },
+  "audio": "audio_v1/ch15_021.mp3",
+  "tts": "Ja, ich spiele Klavier.",
+  "ipa": [
+   {
+    "w": "Ja",
+    "ipa": "[jaː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "spiele",
+    "ipa": "[ˈʃpiːlə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Klavier",
+    "ipa": "[klaˈviːɐ̯]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_022",
+  "de": "Spielst du nicht Gitarre?",
+  "ru": "Ты не играешь на гитаре?",
+  "nouns": [
+   {
+    "lemma": "Gitarre",
+    "art": "die",
+    "pl": "Gitarren"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Spielst",
+     "role": "действие №1"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "nicht",
+     "role": "«не»"
+    },
+    {
+     "w": "Gitarre",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Вопрос с nicht: действие впереди, nicht — перед тем, что отрицают. Ждать ответ «да» тут нельзя: на вопрос «не играешь?» есть два разных ответа.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Spielst) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Spielst du nicht Gitarre?",
+   "why_ru": "По-русски «Ты не играешь на гитаре» — вопрос только голосом, порядок как в ответе. По-немецки действие Spielst выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Du spielst nicht Gitarre?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Ты не играешь на гитаре?!»). Обычный вопрос — действие впереди."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "Вопрос с nicht: действие впереди, nicht — перед тем, что отрицают. Ждать ответ «да» тут нельзя: на вопрос «не играешь?» есть два разных ответа."
+  },
+  "audio": "audio_v1/ch15_022.mp3",
+  "tts": "Spielst du nicht Gitarre?",
+  "ipa": [
+   {
+    "w": "Spielst",
+    "ipa": "[ʃpiːlst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "nicht",
+    "ipa": "[nɪçt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Gitarre",
+    "ipa": "[ɡiˈtaʁə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_023",
+  "de": "Doch, ich spiele auch Gitarre.",
+  "ru": "Да, играю — и на гитаре тоже.",
+  "nouns": [
+   {
+    "lemma": "Gitarre",
+    "art": "die",
+    "pl": "Gitarren"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Doch",
+     "role": "да/нет"
+    },
+    {
+     "w": "ich",
+     "role": "кто"
+    },
+    {
+     "w": "spiele",
+     "role": "действие №2"
+    },
+    {
+     "w": "auch",
+     "role": "добавка"
+    },
+    {
+     "w": "Gitarre",
+     "role": "кого-что"
+    }
+   ],
+   "text": "doch — ответ «нет, наоборот»: он опровергает «не» в вопросе. После Doch — обычная фраза: ich spiele. auch — «тоже».",
+   "topic": "verb2",
+   "why_de": "ich · spiele · auch · Gitarre: действие spiele — вагон №2, опора всего предложения.",
+   "why_ru": "По-русски «Да, играю — и на гитаре тоже» — без «я». По-немецки ich нужен: Doch, ich spiele auch Gitarre.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Doch, spiele auch Gitarre.",
+    "ru": "По-русски «Да, играю — и на гитаре тоже» — без «я». По-немецки без ich фраза обрывается."
+   },
+   "root": null,
+   "why_voice_ru": "doch — ответ «нет, наоборот»: он опровергает «не» в вопросе. После Doch — обычная фраза: ich spiele. auch — «тоже»."
+  },
+  "audio": "audio_v1/ch15_023.mp3",
+  "tts": "Doch, ich spiele auch Gitarre.",
+  "ipa": [
+   {
+    "w": "Doch",
+    "ipa": "[dɔx]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "spiele",
+    "ipa": "[ˈʃpiːlə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "auch",
+    "ipa": "[aʊ̯x]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Gitarre",
+    "ipa": "[ɡiˈtaʁə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_024",
+  "de": "Nein, ich spiele kein Klavier.",
+  "ru": "Нет, я не играю на пианино.",
+  "nouns": [
+   {
+    "lemma": "Klavier",
+    "art": "das",
+    "pl": "Klaviere"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Nein",
+     "role": "да/нет"
+    },
+    {
+     "w": "ich",
+     "role": "кто"
+    },
+    {
+     "w": "spiele",
+     "role": "действие №2"
+    },
+    {
+     "w": "kein Klavier",
+     "role": "кого-что"
+    }
+   ],
+   "text": "nein подтверждает «не»: правда, не играю. kein Klavier — «ни на каком пианино»: kein вместо ein.",
+   "topic": "verb2",
+   "why_de": "kein — это «ноль штук»: отрицание встроено прямо в артикль: Nein, ich spiele kein Klavier.",
+   "why_ru": "По-русски «Нет, я не играю на пианино» — «нет» отдельным словом; по-немецки — kein вместо ein: Nein, ich spiele kein Klavier.",
+   "layer": "kein",
+   "why_not": {
+    "wrong": "Nein, ich spiele keine Klavier.",
+    "ru": "Klavier — das-слово, у него kein без хвоста, как ein Klavier. Форма keine — только для die-слов и множественного числа."
+   },
+   "root": null,
+   "why_voice_ru": "nein подтверждает «не»: правда, не играю. kein Klavier — «ни на каком пианино»: kein вместо ein."
+  },
+  "audio": "audio_v1/ch15_024.mp3",
+  "tts": "Nein, ich spiele kein Klavier.",
+  "ipa": [
+   {
+    "w": "Nein",
+    "ipa": "[naɪ̯n]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "spiele",
+    "ipa": "[ˈʃpiːlə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "kein",
+    "ipa": "[kaɪ̯n]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Klavier",
+    "ipa": "[klaˈviːɐ̯]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_025",
+  "de": "Doch, ich spiele auch Klavier.",
+  "ru": "Да, играю — и на пианино тоже.",
+  "nouns": [
+   {
+    "lemma": "Klavier",
+    "art": "das",
+    "pl": "Klaviere"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Doch",
+     "role": "да/нет"
+    },
+    {
+     "w": "ich",
+     "role": "кто"
+    },
+    {
+     "w": "spiele",
+     "role": "действие №2"
+    },
+    {
+     "w": "auch",
+     "role": "добавка"
+    },
+    {
+     "w": "Klavier",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Тот же ответ doch. auch стоит перед тем, что добавляем: auch Klavier.",
+   "topic": "verb2",
+   "why_de": "ich · spiele · auch · Klavier: действие spiele — вагон №2, опора всего предложения.",
+   "why_ru": "По-русски «Да, играю — и на пианино тоже» — без «я». По-немецки ich нужен: Doch, ich spiele auch Klavier.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Doch, spiele auch Klavier.",
+    "ru": "По-русски «Да, играю — и на пианино тоже» — без «я». По-немецки без ich фраза обрывается."
+   },
+   "root": null,
+   "why_voice_ru": "Тот же ответ doch. auch стоит перед тем, что добавляем: auch Klavier.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · добавка · «что»",
+    "items": [
+     {
+      "id": "ch15_023",
+      "de": "Doch, ich spiele auch Gitarre.",
+      "ru": "Да, играю — и на гитаре тоже.",
+      "audio": "audio_v1/ch15_023.mp3",
+      "lesson": "L3",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 4,
+       "from": "Klavier",
+       "to": "Gitarre"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: ich · spiele · auch. В каждом примере меняется один вагон — «что»: Klavier → Gitarre. Действие spiele всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch15_025.mp3",
+  "tts": "Doch, ich spiele auch Klavier.",
+  "ipa": [
+   {
+    "w": "Doch",
+    "ipa": "[dɔx]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "spiele",
+    "ipa": "[ˈʃpiːlə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "auch",
+    "ipa": "[aʊ̯x]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Klavier",
+    "ipa": "[klaˈviːɐ̯]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_026",
+  "de": "Fest, Plakat, Person, Aktivität.",
+  "ru": "Праздник, плакат, человек, занятие.",
+  "nouns": [
+   {
+    "lemma": "Fest",
+    "art": "das",
+    "pl": "Feste"
+   },
+   {
+    "lemma": "Plakat",
+    "art": "das",
+    "pl": "Plakate"
+   },
+   {
+    "lemma": "Person",
+    "art": "die",
+    "pl": "Personen"
+   },
+   {
+    "lemma": "Aktivität",
+    "art": "die",
+    "pl": "Aktivitäten"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Fest",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Plakat",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Person",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Aktivität",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Слова курса: das Fest, das Plakat, die Person, die Aktivität.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: das Fest — праздник · das Plakat — плакат · die Person — человек · die Aktivität — занятие.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: das Fest, das Plakat, die Person, die Aktivität."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: das Fest, das Plakat, die Person, die Aktivität."
+  },
+  "audio": "audio_v1/ch15_026.mp3",
+  "tts": "Fest, Plakat, Person, Aktivität.",
+  "ipa": [
+   {
+    "w": "Fest",
+    "ipa": "[fɛst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Plakat",
+    "ipa": "[plaˈkaːt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Person",
+    "ipa": "[pɛʁˈzoːn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Aktivität",
+    "ipa": "[aktiviˈtɛːt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_027",
+  "de": "Der Ausflug ist morgen.",
+  "ru": "Экскурсия завтра.",
+  "nouns": [
+   {
+    "lemma": "Ausflug",
+    "art": "der",
+    "pl": "Ausflüge"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Der Ausflug",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "morgen",
+     "role": "когда"
+    }
+   ],
+   "text": "ist как знак «=»: der Ausflug = завтра. morgen — «завтра»: время отвечает на вопрос «когда».",
+   "topic": "verb2",
+   "why_de": "Der Ausflug · ist · morgen: действие ist — вагон №2, опора всего предложения.",
+   "why_ru": "По-русски «Экскурсия завтра» — без действия «есть». По-немецки без ist фразы нет: Der Ausflug ist morgen.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Der Ausflug morgen.",
+    "ru": "Русская привычка — без действия, как «Экскурсия завтра». Без ist немец слышит обрывок, а не фразу."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "ist как знак «=»: der Ausflug = завтра. morgen — «завтра»: время отвечает на вопрос «когда»."
+  },
+  "audio": "audio_v1/ch15_027.mp3",
+  "tts": "Der Ausflug ist morgen.",
+  "ipa": [
+   {
+    "w": "Der",
+    "ipa": "[deːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Ausflug",
+    "ipa": "[ˈaʊ̯sˌfluːk]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "morgen",
+    "ipa": "[ˈmɔʁɡn̩]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_028",
+  "de": "Entschuldigung, ich habe Grippe.",
+  "ru": "Извините, у меня грипп.",
+  "nouns": [
+   {
+    "lemma": "Grippe",
+    "art": "die",
+    "pl": "Grippen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Entschuldigung",
+     "role": "привет/вежливость"
+    },
+    {
+     "w": "ich",
+     "role": "кто"
+    },
+    {
+     "w": "habe",
+     "role": "действие №2"
+    },
+    {
+     "w": "Grippe",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Entschuldigung не занимает вагон. ich habe — «у меня есть»: ich habe Grippe — «у меня грипп».",
+   "topic": "verb2",
+   "why_de": "ich · habe · Grippe: действие habe — вагон №2, опора всего предложения.",
+   "why_ru": "По-русски «Извините, у меня грипп» — без действия. По-немецки без habe фразы нет: Entschuldigung, ich habe Grippe.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Entschuldigung, ich Grippe.",
+    "ru": "Русская привычка — без действия, как «Извините, у меня грипп». Без habe немец слышит обрывок, а не фразу."
+   },
+   "root": null,
+   "why_voice_ru": "Entschuldigung не занимает вагон. ich habe — «у меня есть»: ich habe Grippe — «у меня грипп»."
+  },
+  "audio": "audio_v1/ch15_028.mp3",
+  "tts": "Entschuldigung, ich habe Grippe.",
+  "ipa": [
+   {
+    "w": "Entschuldigung",
+    "ipa": "[ɛntˈʃʊldɪɡʊŋ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "habe",
+    "ipa": "[ˈhaːbə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Grippe",
+    "ipa": "[ˈɡʁɪpə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_029",
+  "de": "Ich bin morgen nicht im Kurs.",
+  "ru": "Завтра меня не будет на курсе.",
+  "nouns": [
+   {
+    "lemma": "Kurs",
+    "art": "der",
+    "pl": "Kurse"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "bin",
+     "role": "действие №2"
+    },
+    {
+     "w": "morgen",
+     "role": "когда"
+    },
+    {
+     "w": "nicht",
+     "role": "«не»"
+    },
+    {
+     "w": "im Kurs",
+     "role": "где"
+    }
+   ],
+   "text": "bin держит вагон №2. nicht стоит перед тем, что отрицают: перед im Kurs — «не на курсе».",
+   "topic": "negation",
+   "why_de": "nicht ставят прямо перед тем, что отрицают: здесь — перед im: Ich bin morgen nicht im Kurs.",
+   "why_ru": "По-русски «Завтра меня не будет на курсе» — «не» перед действием. По-немецки nicht стоит перед im, а не перед действием: Ich bin morgen nicht im Kurs.",
+   "layer": "nicht",
+   "why_not": {
+    "wrong": "Ich nicht bin morgen im Kurs.",
+    "ru": "Русский порядок «Завтра меня не будет на курсе»: «не» перед действием. По-немецки nicht перед bin не встаёт: его ставят перед тем, что отрицают."
+   },
+   "root": "bin, bist — от древнего корня *bʰew- («быть»), а ist — от *es- (как русское «есть»); весь глагол sein собран из двух корней (DWDS, Wiktionary)",
+   "why_voice_ru": "bin держит вагон №2. nicht стоит перед тем, что отрицают: перед im Kurs — «не на курсе»."
+  },
+  "audio": "audio_v1/ch15_029.mp3",
+  "tts": "Ich bin morgen nicht im Kurs.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "bin",
+    "ipa": "[bɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "morgen",
+    "ipa": "[ˈmɔʁɡn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "nicht",
+    "ipa": "[nɪçt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "im",
+    "ipa": "[ɪm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kurs",
+    "ipa": "[kʊʁs]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_030",
+  "de": "Schade! Gute Besserung!",
+  "ru": "Жаль! Выздоравливай!",
+  "nouns": [
+   {
+    "lemma": "Besserung",
+    "art": "die",
+    "pl": "Besserungen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Schade",
+     "role": "чувство"
+    },
+    {
+     "w": "Gute Besserung",
+     "role": "привет/вежливость"
+    }
+   ],
+   "text": "Две готовые формулы подряд: Schade — «жаль», Gute Besserung — пожелание больному.",
+   "topic": "word_order",
+   "why_de": "Здесь 2 готовые формулы подряд: Schade + Gute Besserung. Их учим целиком, по одной; действия нет — поэтому и поезда нет.",
+   "why_ru": "По-русски так же — 2 куска подряд: «Жаль! Выздоравливай».",
+   "layer": "formulas",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — склеить всё в одно и переводить по словам. Тут 2 куска, их учим целиком: Schade · Gute Besserung."
+   },
+   "root": null,
+   "why_voice_ru": "Две готовые формулы подряд: Schade — «жаль», Gute Besserung — пожелание больному."
+  },
+  "audio": "audio_v1/ch15_030.mp3",
+  "tts": "Schade! Gute Besserung!",
+  "ipa": [
+   {
+    "w": "Schade",
+    "ipa": "[ˈʃaːdə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Gute",
+    "ipa": "[ˈɡuːtə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Besserung",
+    "ipa": "[ˈbɛsəʁʊŋ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_031",
+  "de": "Ich bin nicht im Kurs.",
+  "ru": "Меня нет на курсе.",
+  "nouns": [
+   {
+    "lemma": "Kurs",
+    "art": "der",
+    "pl": "Kurse"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "bin",
+     "role": "действие №2"
+    },
+    {
+     "w": "nicht",
+     "role": "«не»"
+    },
+    {
+     "w": "im Kurs",
+     "role": "где"
+    }
+   ],
+   "text": "Тот же поезд: bin — вагон №2, nicht — перед im Kurs.",
+   "topic": "negation",
+   "why_de": "nicht ставят прямо перед тем, что отрицают: здесь — перед im: Ich bin nicht im Kurs.",
+   "why_ru": "По-русски «Меня нет на курсе» — «не» перед действием. По-немецки nicht стоит перед im, а не перед действием: Ich bin nicht im Kurs.",
+   "layer": "nicht",
+   "why_not": {
+    "wrong": "Ich nicht bin im Kurs.",
+    "ru": "Русский порядок «Меня нет на курсе»: «не» перед действием. По-немецки nicht перед bin не встаёт: его ставят перед тем, что отрицают."
+   },
+   "root": "bin, bist — от древнего корня *bʰew- («быть»), а ist — от *es- (как русское «есть»); весь глагол sein собран из двух корней (DWDS, Wiktionary)",
+   "why_voice_ru": "Тот же поезд: bin — вагон №2, nicht — перед im Kurs."
+  },
+  "audio": "audio_v1/ch15_031.mp3",
+  "tts": "Ich bin nicht im Kurs.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "bin",
+    "ipa": "[bɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "nicht",
+    "ipa": "[nɪçt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "im",
+    "ipa": "[ɪm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kurs",
+    "ipa": "[kʊʁs]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_032",
+  "de": "Brief, Wald, Zahnarzt, Feier, Picknick, Kindergeburtstag.",
+  "ru": "Письмо, лес, стоматолог, праздник, пикник, день рождения ребёнка.",
+  "nouns": [
+   {
+    "lemma": "Brief",
+    "art": "der",
+    "pl": "Briefe"
+   },
+   {
+    "lemma": "Wald",
+    "art": "der",
+    "pl": "Wälder"
+   },
+   {
+    "lemma": "Zahnarzt",
+    "art": "der",
+    "pl": "Zahnärzte"
+   },
+   {
+    "lemma": "Feier",
+    "art": "die",
+    "pl": "Feiern"
+   },
+   {
+    "lemma": "Picknick",
+    "art": "das",
+    "pl": "Picknicke"
+   },
+   {
+    "lemma": "Kindergeburtstag",
+    "art": "der",
+    "pl": "Kindergeburtstage"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Brief",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Wald",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Zahnarzt",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Feier",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Picknick",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Kindergeburtstag",
+     "role": "слово",
+     "art": "der"
+    }
+   ],
+   "text": "Слова курса — письмо об экскурсии: der Brief, der Wald, der Zahnarzt, die Feier, das Picknick, der Kindergeburtstag.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Brief — письмо · der Wald — лес · der Zahnarzt — стоматолог · die Feier — праздник · das Picknick — пикник · der Kindergeburtstag — день рождения ребёнка.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Brief, der Wald, der Zahnarzt, die Feier, das Picknick, der Kindergeburtstag."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса — письмо об экскурсии: der Brief, der Wald, der Zahnarzt, die Feier, das Picknick, der Kindergeburtstag."
+  },
+  "audio": "audio_v1/ch15_032.mp3",
+  "tts": "Brief, Wald, Zahnarzt, Feier, Picknick, Kindergeburtstag.",
+  "ipa": [
+   {
+    "w": "Brief",
+    "ipa": "[bʁiːf]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wald",
+    "ipa": "[valt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Zahnarzt",
+    "ipa": "[ˈt͡saːnˌʔaːɐ̯t͡st]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Feier",
+    "ipa": "[ˈfaɪ̯ɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Picknick",
+    "ipa": "[ˈpɪkˌnɪk]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kindergeburtstag",
+    "ipa": "[ˈkɪndɐɡəˌbuːɐ̯t͡staːk]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_033",
+  "de": "Hört Podcasts auf Deutsch!",
+  "ru": "Слушайте подкасты на немецком!",
+  "nouns": [
+   {
+    "lemma": "Podcast",
+    "art": "der",
+    "pl": "Podcasts"
+   },
+   {
+    "lemma": "Deutsch",
+    "art": "das",
+    "pl": ""
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Hört",
+     "role": "действие №1"
+    },
+    {
+     "w": "Podcasts",
+     "role": "кого-что"
+    },
+    {
+     "w": "auf Deutsch",
+     "role": "какой/как"
+    }
+   ],
+   "text": "Просьба к нескольким друзьям (Imperativ: ihr-Form): берут ihr hört и убирают ihr — Hört! Действие впереди, в вагоне №1.",
+   "topic": "word_order",
+   "why_de": "Просьба нескольким людям, которым говоришь «ты»: действие Hört впереди; местоимение можно не говорить: Hört Podcasts auf Deutsch! Так немец сразу показывает, что ждёт действия.",
+   "why_ru": "По-русски «Слушайте подкасты на немецком» — глагол во множественном числе. По-немецки так же, без отдельного местоимения: Hört.",
+   "layer": "imper",
+   "why_not": {
+    "wrong": "Hören Podcasts auf Deutsch!",
+    "ru": "Ошибка — инфинитив вместо приказа: Hören — это название действия, не просьба. Группе друзей нужно Hört."
+   },
+   "root": null,
+   "override": "tools/data_ch15.py WHY",
+   "why_voice_ru": "Просьба к нескольким друзьям (Imperativ: ihr-Form): берут ihr hört и убирают ihr — Hört! Действие впереди, в вагоне №1."
+  },
+  "audio": "audio_v1/ch15_033.mp3",
+  "tts": "Hört Podcasts auf Deutsch!",
+  "ipa": [
+   {
+    "w": "Hört",
+    "ipa": "[høːɐ̯t]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Podcasts",
+    "ipa": "[ˈpɔtkaːst͡s]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "auf",
+    "ipa": "[aʊ̯f]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Deutsch",
+    "ipa": "[dɔɪ̯t͡ʃ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_034",
+  "de": "Lest Bilderbücher!",
+  "ru": "Читайте книжки с картинками!",
+  "nouns": [
+   {
+    "lemma": "Bilderbuch",
+    "art": "das",
+    "pl": "Bilderbücher"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Lest",
+     "role": "действие №1"
+    },
+    {
+     "w": "Bilderbücher",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Та же просьба к друзьям: ihr lest → Lest! Форма как с ihr, только без ihr.",
+   "topic": "word_order",
+   "why_de": "Просьба нескольким людям, которым говоришь «ты»: действие Lest впереди; местоимение можно не говорить: Lest Bilderbücher! Так немец сразу показывает, что ждёт действия.",
+   "why_ru": "По-русски «Читайте книжки с картинками» — глагол во множественном числе. По-немецки так же, без отдельного местоимения: Lest.",
+   "layer": "imper",
+   "why_not": {
+    "wrong": "Liest Bilderbücher!",
+    "ru": "Ошибка — менять гласную: Liest. В приказе группе друзей гласная остаётся: Lest."
+   },
+   "root": null,
+   "override": "tools/data_ch15.py WHY",
+   "why_voice_ru": "Та же просьба к друзьям: ihr lest → Lest! Форма как с ihr, только без ihr."
+  },
+  "audio": "audio_v1/ch15_034.mp3",
+  "tts": "Lest Bilderbücher! Lest Bilderbücher!",
+  "ipa": [
+   {
+    "w": "Lest",
+    "ipa": "[leːst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bilderbücher",
+    "ipa": "[ˈbɪldɐˌbyːçɐ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_035",
+  "de": "Schreibt Notizen!",
+  "ru": "Пишите заметки!",
+  "nouns": [
+   {
+    "lemma": "Notiz",
+    "art": "die",
+    "pl": "Notizen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Schreibt",
+     "role": "действие №1"
+    },
+    {
+     "w": "Notizen",
+     "role": "кого-что"
+    }
+   ],
+   "text": "ihr schreibt → Schreibt! Действие — вагон №1, за ним — что писать.",
+   "topic": "word_order",
+   "why_de": "Просьба нескольким людям, которым говоришь «ты»: действие Schreibt впереди; местоимение можно не говорить: Schreibt Notizen! Так немец сразу показывает, что ждёт действия.",
+   "why_ru": "По-русски «Пишите заметки» — глагол во множественном числе. По-немецки так же, без отдельного местоимения: Schreibt.",
+   "layer": "imper",
+   "why_not": {
+    "wrong": "Schreiben Notizen!",
+    "ru": "Ошибка — инфинитив вместо приказа: Schreiben — это название действия, не просьба. Группе друзей нужно Schreibt."
+   },
+   "root": null,
+   "override": "tools/data_ch15.py WHY",
+   "why_voice_ru": "ihr schreibt → Schreibt! Действие — вагон №1, за ним — что писать."
+  },
+  "audio": "audio_v1/ch15_035.mp3",
+  "tts": "Schreibt Notizen! Schreibt Notizen!",
+  "ipa": [
+   {
+    "w": "Schreibt",
+    "ipa": "[ʃʁaɪ̯pt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Notizen",
+    "ipa": "[noˈtiːt͡sn̩]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_036",
+  "de": "Spielt ihr ein Instrument?",
+  "ru": "Вы играете на каком-нибудь инструменте?",
+  "nouns": [
+   {
+    "lemma": "Instrument",
+    "art": "das",
+    "pl": "Instrumente"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Spielt",
+     "role": "действие №1"
+    },
+    {
+     "w": "ihr",
+     "role": "кто"
+    },
+    {
+     "w": "ein Instrument",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Вопрос «да/нет» к нескольким друзьям: действие впереди, за ним ihr. С ihr у действия хвост -t: ihr spielt.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Spielt) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Spielt ihr ein Instrument?",
+   "why_ru": "По-русски «Вы играете на каком-нибудь инструменте» — вопрос только голосом, порядок как в ответе. По-немецки действие Spielt выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Ihr spielt ein Instrument?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Вы играете на каком-нибудь инструменте?!»). Обычный вопрос — действие впереди."
+   },
+   "root": null,
+   "why_voice_ru": "Вопрос «да/нет» к нескольким друзьям: действие впереди, за ним ihr. С ihr у действия хвост -t: ihr spielt."
+  },
+  "audio": "audio_v1/ch15_036.mp3",
+  "tts": "Spielt ihr ein Instrument?",
+  "ipa": [
+   {
+    "w": "Spielt",
+    "ipa": "[ʃpiːlt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ihr",
+    "ipa": "[iːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ein",
+    "ipa": "[aɪ̯n]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Instrument",
+    "ipa": "[ˌɪnstʁuˈmɛnt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_037",
+  "de": "Ich spiele Gitarre.",
+  "ru": "Я играю на гитаре.",
+  "nouns": [
+   {
+    "lemma": "Gitarre",
+    "art": "die",
+    "pl": "Gitarren"
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#1713379 CC BY 2.0 FR (автор Pfirsichbaeumchen)",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "spiele",
+     "role": "действие №2"
+    },
+    {
+     "w": "Gitarre",
+     "role": "кого-что"
+    }
+   ],
+   "text": "С ich у действия хвост -e: ich spiele. Действие — вагон №2.",
+   "topic": "verb2",
+   "why_de": "Ich · spiele · Gitarre: действие spiele — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Я играю на гитаре» — Ich spiele Gitarre. Разница одна: по-немецки spiele держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich Gitarre spiele.",
+    "ru": "Действие spiele уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе spiele — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "С ich у действия хвост -e: ich spiele. Действие — вагон №2."
+  },
+  "audio": "audio_v1/ch15_037.mp3",
+  "tts": "Ich spiele Gitarre.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "spiele",
+    "ipa": "[ˈʃpiːlə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Gitarre",
+    "ipa": "[ɡiˈtaʁə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_038",
+  "de": "Hört ihr Podcasts auf Deutsch?",
+  "ru": "Вы слушаете подкасты на немецком?",
+  "nouns": [
+   {
+    "lemma": "Podcast",
+    "art": "der",
+    "pl": "Podcasts"
+   },
+   {
+    "lemma": "Deutsch",
+    "art": "das",
+    "pl": ""
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Hört",
+     "role": "действие №1"
+    },
+    {
+     "w": "ihr",
+     "role": "кто"
+    },
+    {
+     "w": "Podcasts",
+     "role": "кого-что"
+    },
+    {
+     "w": "auf Deutsch",
+     "role": "какой/как"
+    }
+   ],
+   "text": "Вопрос к друзьям: hört впереди, за ним ihr. Уберёшь ihr — выйдет просьба: Hört Podcasts auf Deutsch!",
+   "topic": "questions",
+   "why_de": "Действие впереди (Hört) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Hört ihr Podcasts auf Deutsch?",
+   "why_ru": "По-русски «Вы слушаете подкасты на немецком» — вопрос только голосом, порядок как в ответе. По-немецки действие Hört выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Ihr hört Podcasts auf Deutsch?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Вы слушаете подкасты на немецком?!»). Обычный вопрос — действие впереди."
+   },
+   "root": null,
+   "why_voice_ru": "Вопрос к друзьям: hört впереди, за ним ihr. Уберёшь ihr — выйдет просьба: Hört Podcasts auf Deutsch!"
+  },
+  "audio": "audio_v1/ch15_038.mp3",
+  "tts": "Hört ihr Podcasts auf Deutsch?",
+  "ipa": [
+   {
+    "w": "Hört",
+    "ipa": "[høːɐ̯t]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ihr",
+    "ipa": "[iːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Podcasts",
+    "ipa": "[ˈpɔtkaːst͡s]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "auf",
+    "ipa": "[aʊ̯f]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Deutsch",
+    "ipa": "[dɔɪ̯t͡ʃ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_039",
+  "de": "Musikinstrument, Flöte, Geige, Trommel, Schlagzeug, Keyboard, Xylophon.",
+  "ru": "Музыкальный инструмент, флейта, скрипка, барабан, ударная установка, синтезатор, ксилофон.",
+  "nouns": [
+   {
+    "lemma": "Musikinstrument",
+    "art": "das",
+    "pl": "Musikinstrumente"
+   },
+   {
+    "lemma": "Flöte",
+    "art": "die",
+    "pl": "Flöten"
+   },
+   {
+    "lemma": "Geige",
+    "art": "die",
+    "pl": "Geigen"
+   },
+   {
+    "lemma": "Trommel",
+    "art": "die",
+    "pl": "Trommeln"
+   },
+   {
+    "lemma": "Schlagzeug",
+    "art": "das",
+    "pl": "Schlagzeuge"
+   },
+   {
+    "lemma": "Keyboard",
+    "art": "das",
+    "pl": "Keyboards"
+   },
+   {
+    "lemma": "Xylophon",
+    "art": "das",
+    "pl": "Xylophone"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Musikinstrument",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Flöte",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Geige",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Trommel",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Schlagzeug",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Keyboard",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Xylophon",
+     "role": "слово",
+     "art": "das"
+    }
+   ],
+   "text": "Слова курса — Musikinstrumente: das Musikinstrument, die Flöte, die Geige, die Trommel, das Schlagzeug, das Keyboard, das Xylophon.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: das Musikinstrument — музыкальный инструмент · die Flöte — флейта · die Geige — скрипка · die Trommel — барабан · das Schlagzeug — ударная установка · das Keyboard — синтезатор · das Xylophon — ксилофон.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: das Musikinstrument, die Flöte, die Geige, die Trommel, das Schlagzeug, das Keyboard, das Xylophon."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса — Musikinstrumente: das Musikinstrument, die Flöte, die Geige, die Trommel, das Schlagzeug, das Keyboard, das Xylophon."
+  },
+  "audio": "audio_v1/ch15_039.mp3",
+  "tts": "Musikinstrument, Flöte, Geige, Trommel, Schlagzeug, Keyboard, Xylophon.",
+  "ipa": [
+   {
+    "w": "Musikinstrument",
+    "ipa": "[muˈziːkʔɪnstʁuˌmɛnt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Flöte",
+    "ipa": "[ˈfløːtə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Geige",
+    "ipa": "[ˈɡaɪ̯ɡə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Trommel",
+    "ipa": "[ˈtʁɔml̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Schlagzeug",
+    "ipa": "[ˈʃlaːkˌt͡sɔɪ̯k]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Keyboard",
+    "ipa": "[ˈkiːˌboːɐ̯t]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Xylophon",
+    "ipa": "[ksyloˈfoːn]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_040",
+  "de": "Chor, Lied, Unterricht, Zettel, Einkaufszettel, Tipp, Übung.",
+  "ru": "Хор, песня, занятие (урок), листок, список покупок, совет, упражнение.",
+  "nouns": [
+   {
+    "lemma": "Chor",
+    "art": "der",
+    "pl": "Chöre"
+   },
+   {
+    "lemma": "Lied",
+    "art": "das",
+    "pl": "Lieder"
+   },
+   {
+    "lemma": "Unterricht",
+    "art": "der",
+    "pl": "Unterrichte"
+   },
+   {
+    "lemma": "Zettel",
+    "art": "der",
+    "pl": "Zettel"
+   },
+   {
+    "lemma": "Einkaufszettel",
+    "art": "der",
+    "pl": "Einkaufszettel"
+   },
+   {
+    "lemma": "Tipp",
+    "art": "der",
+    "pl": "Tipps"
+   },
+   {
+    "lemma": "Übung",
+    "art": "die",
+    "pl": "Übungen"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Chor",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Lied",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Unterricht",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Zettel",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Einkaufszettel",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Tipp",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Übung",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Слова курса — как учат: der Chor, das Lied, der Unterricht, der Zettel, der Einkaufszettel, der Tipp, die Übung.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Chor — хор · das Lied — песня · der Unterricht — занятие · der Zettel — листок · der Einkaufszettel — список покупок · der Tipp — совет · die Übung — упражнение.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Chor, das Lied, der Unterricht, der Zettel, der Einkaufszettel, der Tipp, die Übung."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса — как учат: der Chor, das Lied, der Unterricht, der Zettel, der Einkaufszettel, der Tipp, die Übung."
+  },
+  "audio": "audio_v1/ch15_040.mp3",
+  "tts": "Chor, Lied, Unterricht, Zettel, Einkaufszettel, Tipp, Übung.",
+  "ipa": [
+   {
+    "w": "Chor",
+    "ipa": "[koːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Lied",
+    "ipa": "[liːt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Unterricht",
+    "ipa": "[ˈʊntɐˌʁɪçt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Zettel",
+    "ipa": "[ˈt͡sɛtl̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Einkaufszettel",
+    "ipa": "[ˈaɪ̯nkaʊ̯fsˌt͡sɛtl̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Tipp",
+    "ipa": "[tɪp]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Übung",
+    "ipa": "[ˈyːbʊŋ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_041",
+  "de": "Radio, Video, Sendung, Nachricht, Untertitel, Wort, Satz.",
+  "ru": "Радио, видео, передача, сообщение, субтитр, слово, предложение.",
+  "nouns": [
+   {
+    "lemma": "Radio",
+    "art": "das",
+    "pl": "Radios"
+   },
+   {
+    "lemma": "Video",
+    "art": "das",
+    "pl": "Videos"
+   },
+   {
+    "lemma": "Sendung",
+    "art": "die",
+    "pl": "Sendungen"
+   },
+   {
+    "lemma": "Nachricht",
+    "art": "die",
+    "pl": "Nachrichten"
+   },
+   {
+    "lemma": "Untertitel",
+    "art": "der",
+    "pl": "Untertitel"
+   },
+   {
+    "lemma": "Wort",
+    "art": "das",
+    "pl": "Wörter"
+   },
+   {
+    "lemma": "Satz",
+    "art": "der",
+    "pl": "Sätze"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Radio",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Video",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Sendung",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Nachricht",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Untertitel",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Wort",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Satz",
+     "role": "слово",
+     "art": "der"
+    }
+   ],
+   "text": "Слова курса — учить на слух и глазами: das Radio, das Video, die Sendung, die Nachricht, der Untertitel, das Wort, der Satz.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: das Radio — радио · das Video — видео · die Sendung — передача · die Nachricht — сообщение · der Untertitel — субтитр · das Wort — слово · der Satz — предложение.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: das Radio, das Video, die Sendung, die Nachricht, der Untertitel, das Wort, der Satz."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса — учить на слух и глазами: das Radio, das Video, die Sendung, die Nachricht, der Untertitel, das Wort, der Satz."
+  },
+  "audio": "audio_v1/ch15_041.mp3",
+  "tts": "Radio, Video, Sendung, Nachricht, Untertitel, Wort, Satz.",
+  "ipa": [
+   {
+    "w": "Radio",
+    "ipa": "[ˈʁaːdi̯o]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Video",
+    "ipa": "[ˈviːdeo]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Sendung",
+    "ipa": "[ˈzɛndʊŋ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Nachricht",
+    "ipa": "[ˈnaːxˌʁɪçt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Untertitel",
+    "ipa": "[ˈʊntɐˌtiːtl̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wort",
+    "ipa": "[vɔʁt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Satz",
+    "ipa": "[zat͡s]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_042",
+  "de": "Dialog, Lösung, Gruppe, Ausländerin.",
+  "ru": "Диалог, решение, группа, иностранка.",
+  "nouns": [
+   {
+    "lemma": "Dialog",
+    "art": "der",
+    "pl": "Dialoge"
+   },
+   {
+    "lemma": "Lösung",
+    "art": "die",
+    "pl": "Lösungen"
+   },
+   {
+    "lemma": "Gruppe",
+    "art": "die",
+    "pl": "Gruppen"
+   },
+   {
+    "lemma": "Ausländerin",
+    "art": "die",
+    "pl": "Ausländerinnen"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Dialog",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Lösung",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Gruppe",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Ausländerin",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Слова курса — задания курса: der Dialog, die Lösung, die Gruppe, die Ausländerin.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Dialog — диалог · die Lösung — решение · die Gruppe — группа · die Ausländerin — иностранка.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Dialog, die Lösung, die Gruppe, die Ausländerin."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса — задания курса: der Dialog, die Lösung, die Gruppe, die Ausländerin."
+  },
+  "audio": "audio_v1/ch15_042.mp3",
+  "tts": "Dialog, Lösung, Gruppe, Ausländerin.",
+  "ipa": [
+   {
+    "w": "Dialog",
+    "ipa": "[diaˈloːk]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Lösung",
+    "ipa": "[ˈløːzʊŋ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Gruppe",
+    "ipa": "[ˈɡʁʊpə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Ausländerin",
+    "ipa": "[ˈaʊ̯sˌlɛndəʁɪn]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_043",
+  "de": "Ich habe Fußball gespielt.",
+  "ru": "Я играл в футбол.",
+  "nouns": [
+   {
+    "lemma": "Fußball",
+    "art": "der",
+    "pl": "Fußbälle"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "habe",
+     "role": "помощник №2"
+    },
+    {
+     "w": "Fußball",
+     "role": "кого-что"
+    },
+    {
+     "w": "gespielt",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "Прошлое, как в уроке 1: habe — вагон №2, что сделано — gespielt — в конце. gelernt и gespielt устроены одинаково: ge + основа + t.",
+   "topic": "perfekt",
+   "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ich habe Fußball gespielt.",
+   "why_ru": "По-русски «Я играл в футбол» — прошлое одним словом; по-немецки два слова, и они разнесены: Ich habe Fußball gespielt.",
+   "layer": "perfekt",
+   "why_not": {
+    "wrong": "Ich habe gespielt Fußball.",
+    "ru": "По-русски «Я играл в футбол» — одно слово по порядку. По-немецки habe … gespielt разнесены: gespielt — в самый конец."
+   },
+   "root": null,
+   "why_voice_ru": "Прошлое, как в уроке 1: habe — вагон №2, что сделано — gespielt — в конце."
+  },
+  "audio": "audio_v1/ch15_043.mp3",
+  "tts": "Ich habe Fußball gespielt.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "habe",
+    "ipa": "[ˈhaːbə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fußball",
+    "ipa": "[ˈfuːsˌbal]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gespielt",
+    "ipa": "[ɡəˈʃpiːlt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_044",
+  "de": "Wo hast du Fußball gespielt?",
+  "ru": "Где ты играл в футбол?",
+  "nouns": [
+   {
+    "lemma": "Fußball",
+    "art": "der",
+    "pl": "Fußbälle"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Wo",
+     "role": "вопрос-слово",
+     "asks": "где"
+    },
+    {
+     "w": "hast",
+     "role": "помощник №2"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "Fußball",
+     "role": "кого-что"
+    },
+    {
+     "w": "gespielt",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "wo — «где». Вопрос-слово, помощник hast — сразу за ним, gespielt — в конце.",
+   "topic": "perfekt",
+   "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Wo hast du Fußball gespielt?",
+   "why_ru": "По-русски «Где ты играл в футбол» — прошлое одним словом; по-немецки два слова, и они разнесены: Wo hast du Fußball gespielt?",
+   "layer": "perfekt",
+   "why_not": {
+    "wrong": "Wo hast gespielt du Fußball?",
+    "ru": "По-русски «Где ты играл в футбол» — одно слово по порядку. По-немецки hast … gespielt разнесены: gespielt — в самый конец."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "wo — «где». Вопрос-слово, помощник hast — сразу за ним, gespielt — в конце."
+  },
+  "audio": "audio_v1/ch15_044.mp3",
+  "tts": "Wo hast du Fußball gespielt?",
+  "ipa": [
+   {
+    "w": "Wo",
+    "ipa": "[voː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "hast",
+    "ipa": "[hast]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fußball",
+    "ipa": "[ˈfuːsˌbal]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gespielt",
+    "ipa": "[ɡəˈʃpiːlt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_045",
+  "de": "Ich habe im Club Fußball gespielt.",
+  "ru": "Я играл в футбол в клубе.",
+  "nouns": [
+   {
+    "lemma": "Club",
+    "art": "der",
+    "pl": "Clubs"
+   },
+   {
+    "lemma": "Fußball",
+    "art": "der",
+    "pl": "Fußbälle"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "habe",
+     "role": "помощник №2"
+    },
+    {
+     "w": "im Club",
+     "role": "где"
+    },
+    {
+     "w": "Fußball",
+     "role": "кого-что"
+    },
+    {
+     "w": "gespielt",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "im — это in и dem вместе: der Club после in — «где?» — даёт im Club. Между habe и gespielt — где и что.",
+   "topic": "perfekt",
+   "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ich habe im Club Fußball gespielt.",
+   "why_ru": "По-русски «Я играл в футбол в клубе» — прошлое одним словом; по-немецки два слова, и они разнесены: Ich habe im Club Fußball gespielt.",
+   "layer": "perfekt",
+   "why_not": {
+    "wrong": "Ich habe gespielt im Club Fußball.",
+    "ru": "По-русски «Я играл в футбол в клубе» — одно слово по порядку. По-немецки habe … gespielt разнесены: gespielt — в самый конец."
+   },
+   "root": null,
+   "why_voice_ru": "im — это in и dem вместе: der Club после in — «где?» — даёт im Club. Между habe и gespielt — где и что."
+  },
+  "audio": "audio_v1/ch15_045.mp3",
+  "tts": "Ich habe im Club Fußball gespielt.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "habe",
+    "ipa": "[ˈhaːbə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "im",
+    "ipa": "[ɪm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Club",
+    "ipa": "[klʊp]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fußball",
+    "ipa": "[ˈfuːsˌbal]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gespielt",
+    "ipa": "[ɡəˈʃpiːlt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_046",
+  "de": "Olga hat im Club Fußball gespielt.",
+  "ru": "Ольга играла в футбол в клубе.",
+  "nouns": [
+   {
+    "lemma": "Club",
+    "art": "der",
+    "pl": "Clubs"
+   },
+   {
+    "lemma": "Fußball",
+    "art": "der",
+    "pl": "Fußbälle"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Olga",
+     "role": "кто"
+    },
+    {
+     "w": "hat",
+     "role": "помощник №2"
+    },
+    {
+     "w": "im Club",
+     "role": "где"
+    },
+    {
+     "w": "Fußball",
+     "role": "кого-что"
+    },
+    {
+     "w": "gespielt",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "Olga — «она»: помощник hat. А gespielt не меняется — оно такое же, как с ich.",
+   "topic": "perfekt",
+   "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Olga hat im Club Fußball gespielt.",
+   "why_ru": "По-русски «Ольга играла в футбол в клубе» — прошлое одним словом; по-немецки два слова, и они разнесены: Olga hat im Club Fußball gespielt.",
+   "layer": "perfekt",
+   "why_not": {
+    "wrong": "Olga hat gespielt im Club Fußball.",
+    "ru": "По-русски «Ольга играла в футбол в клубе» — одно слово по порядку. По-немецки hat … gespielt разнесены: gespielt — в самый конец."
+   },
+   "root": null,
+   "why_voice_ru": "Olga — «она»: помощник hat. А gespielt не меняется — оно такое же, как с ich."
+  },
+  "audio": "audio_v1/ch15_046.mp3",
+  "tts": "Olga hat im Club Fußball gespielt.",
+  "ipa": [
+   {
+    "w": "Olga",
+    "ipa": "[ˈɔlɡa]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "hat",
+    "ipa": "[hat]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "im",
+    "ipa": "[ɪm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Club",
+    "ipa": "[klʊp]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fußball",
+    "ipa": "[ˈfuːsˌbal]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gespielt",
+    "ipa": "[ɡəˈʃpiːlt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_047",
+  "de": "Ich habe in der Schule Fußball gespielt.",
+  "ru": "Я играл в футбол в школе.",
+  "nouns": [
+   {
+    "lemma": "Schule",
+    "art": "die",
+    "pl": "Schulen"
+   },
+   {
+    "lemma": "Fußball",
+    "art": "der",
+    "pl": "Fußbälle"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "habe",
+     "role": "помощник №2"
+    },
+    {
+     "w": "in der Schule",
+     "role": "где"
+    },
+    {
+     "w": "Fußball",
+     "role": "кого-что"
+    },
+    {
+     "w": "gespielt",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "Тот же поезд: habe — вагон №2, gespielt — в конце. Между ними — где и что.",
+   "topic": "perfekt",
+   "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ich habe in der Schule Fußball gespielt.",
+   "why_ru": "По-русски «Я играл в футбол в школе» — прошлое одним словом; по-немецки два слова, и они разнесены: Ich habe in der Schule Fußball gespielt.",
+   "layer": "perfekt",
+   "why_not": {
+    "wrong": "Ich habe gespielt in der Schule Fußball.",
+    "ru": "По-русски «Я играл в футбол в школе» — одно слово по порядку. По-немецки habe … gespielt разнесены: gespielt — в самый конец."
+   },
+   "root": null,
+   "why_voice_ru": "Тот же поезд: habe — вагон №2, gespielt — в конце. Между ними — где и что.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «где» · «что» · хвост действия",
+    "items": [
+     {
+      "id": "ch15_045",
+      "de": "Ich habe im Club Fußball gespielt.",
+      "ru": "Я играл в футбол в клубе.",
+      "audio": "audio_v1/ch15_045.mp3",
+      "lesson": "L6",
+      "part": 3,
+      "changed": {
+       "role": "где",
+       "wagon": 3,
+       "from": "in der Schule",
+       "to": "im Club"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ich · habe · Fußball · gespielt. В каждом примере меняется один вагон — «где»: in der Schule → im Club. Действие habe всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch15_047.mp3",
+  "tts": "Ich habe in der Schule Fußball gespielt.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "habe",
+    "ipa": "[ˈhaːbə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "in",
+    "ipa": "[ɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "der",
+    "ipa": "[deːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Schule",
+    "ipa": "[ˈʃuːlə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fußball",
+    "ipa": "[ˈfuːsˌbal]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gespielt",
+    "ipa": "[ɡəˈʃpiːlt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_048",
+  "de": "Sohn, Tochter, Eltern, Vater, Opa, Freundin, Nachbarn.",
+  "ru": "Сын, дочь, родители, отец, дедушка, подруга, соседи.",
+  "nouns": [
+   {
+    "lemma": "Sohn",
+    "art": "der",
+    "pl": "Söhne"
+   },
+   {
+    "lemma": "Tochter",
+    "art": "die",
+    "pl": "Töchter"
+   },
+   {
+    "lemma": "Eltern",
+    "art": "die",
+    "pl": "Eltern"
+   },
+   {
+    "lemma": "Vater",
+    "art": "der",
+    "pl": "Väter"
+   },
+   {
+    "lemma": "Opa",
+    "art": "der",
+    "pl": "Opas"
+   },
+   {
+    "lemma": "Freundin",
+    "art": "die",
+    "pl": "Freundinnen"
+   },
+   {
+    "lemma": "Nachbar",
+    "art": "der",
+    "pl": "Nachbarn"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Sohn",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Tochter",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Eltern",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Vater",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Opa",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Freundin",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Nachbarn",
+     "role": "слово"
+    }
+   ],
+   "text": "Слова курса — кто рядом: der Sohn, die Tochter, die Eltern, der Vater, der Opa, die Freundin, die Nachbarn.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Sohn — сын · die Tochter — дочь · die Eltern — родители · der Vater — отец · der Opa — дедушка · die Freundin — подруга · die Nachbarn — соседи.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Sohn, die Tochter, die Eltern, der Vater, der Opa, die Freundin."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса — кто рядом: der Sohn, die Tochter, die Eltern, der Vater, der Opa, die Freundin, die Nachbarn."
+  },
+  "audio": "audio_v1/ch15_048.mp3",
+  "tts": "Sohn, Tochter, Eltern, Vater, Opa, Freundin, Nachbarn.",
+  "ipa": [
+   {
+    "w": "Sohn",
+    "ipa": "[zoːn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Tochter",
+    "ipa": "[ˈtɔxtɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Eltern",
+    "ipa": "[ˈɛltɐn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Vater",
+    "ipa": "[ˈfaːtɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Opa",
+    "ipa": "[ˈoːpa]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Freundin",
+    "ipa": "[ˈfʁɔɪ̯ndɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Nachbarn",
+    "ipa": "[ˈnaxbaːɐ̯n]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "артикль die Eltern ≠ set()",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_049",
+  "de": "Erwachsene, Rentnerin, Schülerin, Studentin, Kassiererin, Programmiererin, Erzieher, Hausmann.",
+  "ru": "Взрослый (взрослая), пенсионерка, школьница, студентка, кассирша, программистка, воспитатель, домохозяин.",
+  "nouns": [
+   {
+    "lemma": "Erwachsene",
+    "art": "die",
+    "pl": "Erwachsenen"
+   },
+   {
+    "lemma": "Rentnerin",
+    "art": "die",
+    "pl": "Rentnerinnen"
+   },
+   {
+    "lemma": "Schülerin",
+    "art": "die",
+    "pl": "Schülerinnen"
+   },
+   {
+    "lemma": "Studentin",
+    "art": "die",
+    "pl": "Studentinnen"
+   },
+   {
+    "lemma": "Kassiererin",
+    "art": "die",
+    "pl": "Kassiererinnen"
+   },
+   {
+    "lemma": "Programmiererin",
+    "art": "die",
+    "pl": "Programmiererinnen"
+   },
+   {
+    "lemma": "Erzieher",
+    "art": "der",
+    "pl": "Erzieher"
+   },
+   {
+    "lemma": "Hausmann",
+    "art": "der",
+    "pl": "Hausmänner"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Erwachsene",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Rentnerin",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Schülerin",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Studentin",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Kassiererin",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Programmiererin",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Erzieher",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Hausmann",
+     "role": "слово",
+     "art": "der"
+    }
+   ],
+   "text": "Слова курса — кто чем занят: die Erwachsene, die Rentnerin, die Schülerin, die Studentin, die Kassiererin, die Programmiererin, der Erzieher, der Hausmann.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: die Erwachsene — взрослый · die Rentnerin — пенсионерка · die Schülerin — школьница · die Studentin — студентка · die Kassiererin — кассирша · die Programmiererin — программистка · der Erzieher — воспитатель · der Hausmann — домохозяин.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: die Erwachsene, die Rentnerin, die Schülerin, die Studentin, die Kassiererin, die Programmiererin, der Erzieher, der Hausmann."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса — кто чем занят: die Erwachsene, die Rentnerin, die Schülerin, die Studentin, die Kassiererin, die Programmiererin, der Erzieher, der Hausmann."
+  },
+  "audio": "audio_v1/ch15_049.mp3",
+  "tts": "Erwachsene, Rentnerin, Schülerin, Studentin, Kassiererin, Programmiererin, Erzieher, Hausmann.",
+  "ipa": [
+   {
+    "w": "Erwachsene",
+    "ipa": "[ɛɐ̯ˈvaksənə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Rentnerin",
+    "ipa": "[ˈʁɛntnəʁɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Schülerin",
+    "ipa": "[ˈʃyːləʁɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Studentin",
+    "ipa": "[ʃtuˈdɛntɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kassiererin",
+    "ipa": "[kaˈsiːʁəʁɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Programmiererin",
+    "ipa": "[pʁoɡʁaˈmiːʁəʁɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Erzieher",
+    "ipa": "[ɛɐ̯ˈt͡siːɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Hausmann",
+    "ipa": "[ˈhaʊ̯sˌman]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_050",
+  "de": "Kinderkrippe, Dorf, Club, Supermarkt, Computerfirma.",
+  "ru": "Ясли, деревня, клуб, супермаркет, компьютерная фирма.",
+  "nouns": [
+   {
+    "lemma": "Kinderkrippe",
+    "art": "die",
+    "pl": "Kinderkrippen"
+   },
+   {
+    "lemma": "Dorf",
+    "art": "das",
+    "pl": "Dörfer"
+   },
+   {
+    "lemma": "Club",
+    "art": "der",
+    "pl": "Clubs"
+   },
+   {
+    "lemma": "Supermarkt",
+    "art": "der",
+    "pl": "Supermärkte"
+   },
+   {
+    "lemma": "Computerfirma",
+    "art": "die",
+    "pl": "Computerfirmen"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Kinderkrippe",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Dorf",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Club",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Supermarkt",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Computerfirma",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Слова курса — где бывают: die Kinderkrippe, das Dorf, der Club, der Supermarkt, die Computerfirma.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: die Kinderkrippe — ясли · das Dorf — деревня · der Club — клуб · der Supermarkt — супермаркет · die Computerfirma — компьютерная фирма.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: die Kinderkrippe, das Dorf, der Club, der Supermarkt, die Computerfirma."
+   },
+   "root": "Supermarkt = super- + Markt (Markt — рынок) — Wiktionary",
+   "why_voice_ru": "Слова курса — где бывают: die Kinderkrippe, das Dorf, der Club, der Supermarkt, die Computerfirma."
+  },
+  "audio": "audio_v1/ch15_050.mp3",
+  "tts": "Kinderkrippe, Dorf, Club, Supermarkt, Computerfirma.",
+  "ipa": [
+   {
+    "w": "Kinderkrippe",
+    "ipa": "[ˈkɪndɐˌkʁɪpə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Dorf",
+    "ipa": "[dɔʁf]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Club",
+    "ipa": "[klʊp]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Supermarkt",
+    "ipa": "[ˈzuːpɐˌmaʁkt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Computerfirma",
+    "ipa": "[kɔmˈpjuːtɐˌfɪʁma]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_051",
+  "de": "Handy, PC, E-Mail, Nachrichten, Informatik, Plan, Wunsch.",
+  "ru": "Мобильный телефон, компьютер, электронное письмо, новости, информатика, план, желание.",
+  "nouns": [
+   {
+    "lemma": "Handy",
+    "art": "das",
+    "pl": "Handys"
+   },
+   {
+    "lemma": "PC",
+    "art": "der",
+    "pl": "PCs"
+   },
+   {
+    "lemma": "E-Mail",
+    "art": "die",
+    "pl": "E-Mails"
+   },
+   {
+    "lemma": "Nachricht",
+    "art": "die",
+    "pl": "Nachrichten"
+   },
+   {
+    "lemma": "Informatik",
+    "art": "die",
+    "pl": ""
+   },
+   {
+    "lemma": "Plan",
+    "art": "der",
+    "pl": "Pläne"
+   },
+   {
+    "lemma": "Wunsch",
+    "art": "der",
+    "pl": "Wünsche"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Handy",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "PC",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "E-Mail",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Nachrichten",
+     "role": "слово"
+    },
+    {
+     "w": "Informatik",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Plan",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Wunsch",
+     "role": "слово",
+     "art": "der"
+    }
+   ],
+   "text": "Слова курса — связь и планы: das Handy, der PC, die E-Mail, die Nachrichten, die Informatik, der Plan, der Wunsch.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: das Handy — мобильный телефон · der PC — компьютер · die E-Mail — электронное письмо · die Nachrichten — новости · die Informatik — информатика · der Plan — план · der Wunsch — желание.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: das Handy, der PC, die E-Mail, die Informatik, der Plan, der Wunsch."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса — связь и планы: das Handy, der PC, die E-Mail, die Nachrichten, die Informatik, der Plan, der Wunsch."
+  },
+  "audio": "audio_v1/ch15_051.mp3",
+  "tts": "Handy, PC, E-Mail, Nachrichten, Informatik, Plan, Wunsch.",
+  "ipa": [
+   {
+    "w": "Handy",
+    "ipa": "[ˈhɛndi]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "PC",
+    "ipa": "[peˈt͡seː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "E-Mail",
+    "ipa": "[ˈiːmeɪ̯l]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Nachrichten",
+    "ipa": "[ˈnaːxˌʁɪçtn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Informatik",
+    "ipa": "[ɪnfɔʁˈmaːtɪk]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Plan",
+    "ipa": "[plaːn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wunsch",
+    "ipa": "[vʊnʃ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_052",
+  "de": "Arzt, Bauchschmerzen, Zahnschmerzen, Fieber, Elternabend, Führerschein, Deutschkurs.",
+  "ru": "Врач, боль в животе, зубная боль, температура, родительское собрание, водительские права, курс немецкого.",
+  "nouns": [
+   {
+    "lemma": "Arzt",
+    "art": "der",
+    "pl": "Ärzte"
+   },
+   {
+    "lemma": "Bauchschmerzen",
+    "art": "die",
+    "pl": "Bauchschmerzen"
+   },
+   {
+    "lemma": "Zahnschmerzen",
+    "art": "die",
+    "pl": "Zahnschmerzen"
+   },
+   {
+    "lemma": "Fieber",
+    "art": "das",
+    "pl": ""
+   },
+   {
+    "lemma": "Elternabend",
+    "art": "der",
+    "pl": "Elternabende"
+   },
+   {
+    "lemma": "Führerschein",
+    "art": "der",
+    "pl": "Führerscheine"
+   },
+   {
+    "lemma": "Deutschkurs",
+    "art": "der",
+    "pl": "Deutschkurse"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Arzt",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Bauchschmerzen",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Zahnschmerzen",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Fieber",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Elternabend",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Führerschein",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Deutschkurs",
+     "role": "слово",
+     "art": "der"
+    }
+   ],
+   "text": "Слова курса — болезнь и справки: der Arzt, die Bauchschmerzen, die Zahnschmerzen, das Fieber, der Elternabend, der Führerschein, der Deutschkurs.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Arzt — врач · die Bauchschmerzen — боль в животе · die Zahnschmerzen — зубная боль · das Fieber — температура · der Elternabend — родительское собрание · der Führerschein — водительские права · der Deutschkurs — курс немецкого.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Arzt, die Bauchschmerzen, die Zahnschmerzen, das Fieber, der Elternabend, der Führerschein, der Deutschkurs."
+   },
+   "root": "Deutschkurs = Deutsch + Kurs (Deutsch — немецкий; Kurs — курс) — Wiktionary",
+   "why_voice_ru": "Слова курса — болезнь и справки: der Arzt, die Bauchschmerzen, die Zahnschmerzen, das Fieber, der Elternabend, der Führerschein, der Deutschkurs."
+  },
+  "audio": "audio_v1/ch15_052.mp3",
+  "tts": "Arzt, Bauchschmerzen, Zahnschmerzen, Fieber, Elternabend, Führerschein, Deutschkurs.",
+  "ipa": [
+   {
+    "w": "Arzt",
+    "ipa": "[aːɐ̯t͡st]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bauchschmerzen",
+    "ipa": "[ˈbaʊ̯xˌʃmɛʁt͡sn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Zahnschmerzen",
+    "ipa": "[ˈt͡saːnˌʃmɛʁt͡sn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fieber",
+    "ipa": "[ˈfiːbɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Elternabend",
+    "ipa": "[ˈɛltɐnˌʔaːbn̩t]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Führerschein",
+    "ipa": "[ˈfyːʁɐˌʃaɪ̯n]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Deutschkurs",
+    "ipa": "[ˈdɔɪ̯t͡ʃˌkʊʁs]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "нет в Wiktionary: Bauchschmerzen",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_053",
+  "de": "Hobby, Sport, Fußball, Volleyball, Tischtennis, Skateboard.",
+  "ru": "Хобби, спорт, футбол, волейбол, настольный теннис, скейтборд.",
+  "nouns": [
+   {
+    "lemma": "Hobby",
+    "art": "das",
+    "pl": "Hobbys"
+   },
+   {
+    "lemma": "Sport",
+    "art": "der",
+    "pl": ""
+   },
+   {
+    "lemma": "Fußball",
+    "art": "der",
+    "pl": "Fußbälle"
+   },
+   {
+    "lemma": "Volleyball",
+    "art": "der",
+    "pl": "Volleybälle"
+   },
+   {
+    "lemma": "Tischtennis",
+    "art": "das",
+    "pl": ""
+   },
+   {
+    "lemma": "Skateboard",
+    "art": "das",
+    "pl": "Skateboards"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Hobby",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Sport",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Fußball",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Volleyball",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Tischtennis",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Skateboard",
+     "role": "слово",
+     "art": "das"
+    }
+   ],
+   "text": "Слова курса — хобби и спорт: das Hobby, der Sport, der Fußball, der Volleyball, das Tischtennis, das Skateboard.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: das Hobby — хобби · der Sport — спорт · der Fußball — футбол · der Volleyball — волейбол · das Tischtennis — настольный теннис · das Skateboard — скейтборд.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: das Hobby, der Sport, der Fußball, der Volleyball, das Tischtennis, das Skateboard."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса — хобби и спорт: das Hobby, der Sport, der Fußball, der Volleyball, das Tischtennis, das Skateboard."
+  },
+  "audio": "audio_v1/ch15_053.mp3",
+  "tts": "Hobby, Sport, Fußball, Volleyball, Tischtennis, Skateboard.",
+  "ipa": [
+   {
+    "w": "Hobby",
+    "ipa": "[ˈhɔbi]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Sport",
+    "ipa": "[ʃpɔʁt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fußball",
+    "ipa": "[ˈfuːsˌbal]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Volleyball",
+    "ipa": "[ˈvɔlɛɪ̯ˌbal]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Tischtennis",
+    "ipa": "[ˈtɪʃˌtɛnɪs]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Skateboard",
+    "ipa": "[ˈskɛɪ̯tboːɐ̯t]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "мн.ч. '' Sport ≠ {'Sporte'}",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_054",
+  "de": "Süßspeise, Vorspeise, Hauptspeise, Nachtisch.",
+  "ru": "Сладкое блюдо, закуска, основное блюдо, десерт.",
+  "nouns": [
+   {
+    "lemma": "Süßspeise",
+    "art": "die",
+    "pl": "Süßspeisen"
+   },
+   {
+    "lemma": "Vorspeise",
+    "art": "die",
+    "pl": "Vorspeisen"
+   },
+   {
+    "lemma": "Hauptspeise",
+    "art": "die",
+    "pl": "Hauptspeisen"
+   },
+   {
+    "lemma": "Nachtisch",
+    "art": "der",
+    "pl": "Nachtische"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Süßspeise",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Vorspeise",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Hauptspeise",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Nachtisch",
+     "role": "слово",
+     "art": "der"
+    }
+   ],
+   "text": "Слова курса — блюда: die Süßspeise, die Vorspeise, die Hauptspeise, der Nachtisch.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: die Süßspeise — сладкое блюдо · die Vorspeise — закуска · die Hauptspeise — основное блюдо · der Nachtisch — десерт.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: die Süßspeise, die Vorspeise, die Hauptspeise, der Nachtisch."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса — блюда: die Süßspeise, die Vorspeise, die Hauptspeise, der Nachtisch."
+  },
+  "audio": "audio_v1/ch15_054.mp3",
+  "tts": "Süßspeise, Vorspeise, Hauptspeise, Nachtisch.",
+  "ipa": [
+   {
+    "w": "Süßspeise",
+    "ipa": "[ˈzyːsˌʃpaɪ̯zə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Vorspeise",
+    "ipa": "[ˈfoːɐ̯ˌʃpaɪ̯zə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Hauptspeise",
+    "ipa": "[ˈhaʊ̯ptˌʃpaɪ̯zə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Nachtisch",
+    "ipa": "[ˈnaːxˌtɪʃ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_055",
+  "de": "Kultur, Partner, Partnerin, Fahrlehrerin.",
+  "ru": "Культура, партнёр, партнёрша, инструкторша автошколы.",
+  "nouns": [
+   {
+    "lemma": "Kultur",
+    "art": "die",
+    "pl": "Kulturen"
+   },
+   {
+    "lemma": "Partner",
+    "art": "der",
+    "pl": "Partner"
+   },
+   {
+    "lemma": "Partnerin",
+    "art": "die",
+    "pl": "Partnerinnen"
+   },
+   {
+    "lemma": "Fahrlehrerin",
+    "art": "die",
+    "pl": "Fahrlehrerinnen"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Kultur",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Partner",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Partnerin",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Fahrlehrerin",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Слова курса: die Kultur, der Partner, die Partnerin, die Fahrlehrerin.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: die Kultur — культура · der Partner — партнёр · die Partnerin — партнёрша · die Fahrlehrerin — инструкторша автошколы.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: die Kultur, der Partner, die Partnerin, die Fahrlehrerin."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: die Kultur, der Partner, die Partnerin, die Fahrlehrerin."
+  },
+  "audio": "audio_v1/ch15_055.mp3",
+  "tts": "Kultur, Partner, Partnerin, Fahrlehrerin.",
+  "ipa": [
+   {
+    "w": "Kultur",
+    "ipa": "[kʊlˈtuːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Partner",
+    "ipa": "[ˈpaʁtnɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Partnerin",
+    "ipa": "[ˈpaʁtnəʁɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fahrlehrerin",
+    "ipa": "[ˈfaːɐ̯ˌleːʁəʁɪn]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_056",
+  "de": "bedienen, losgehen, malen, mitgeben, nähen, programmieren, schminken, stricken.",
+  "ru": "Обслуживать, отправляться, рисовать, дать с собой, шить, программировать, красить лицо, вязать.",
+  "nouns": [],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "bedienen",
+     "role": "слово"
+    },
+    {
+     "w": "losgehen",
+     "role": "слово"
+    },
+    {
+     "w": "malen",
+     "role": "слово"
+    },
+    {
+     "w": "mitgeben",
+     "role": "слово"
+    },
+    {
+     "w": "nähen",
+     "role": "слово"
+    },
+    {
+     "w": "programmieren",
+     "role": "слово"
+    },
+    {
+     "w": "schminken",
+     "role": "слово"
+    },
+    {
+     "w": "stricken",
+     "role": "слово"
+    }
+   ],
+   "text": "Слова курса — что делают руками и головой: bedienen, losgehen, malen, mitgeben, nähen, programmieren, schminken, stricken.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а глаголы: их учим по одному и без артикля — только слово и его значение.",
+   "why_ru": "По-русски тоже список, слово за словом: bedienen — обслуживать · losgehen — отправляться · malen — рисовать · mitgeben — дать с собой · nähen — шить · programmieren — программировать · schminken — красить лицо · stricken — вязать.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить список одним куском. Это отдельные глаголы, у каждого свой звук и своё значение."
+   },
+   "root": null,
+   "override": "tools/data_ch15.py WHY",
+   "why_voice_ru": "Слова курса — что делают руками и головой: bedienen, losgehen, malen, mitgeben, nähen, programmieren, schminken, stricken."
+  },
+  "audio": "audio_v1/ch15_056.mp3",
+  "tts": "bedienen, losgehen, malen, mitgeben, nähen, programmieren, schminken, stricken.",
+  "ipa": [
+   {
+    "w": "bedienen",
+    "ipa": "[bəˈdiːnən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "losgehen",
+    "ipa": "[ˈloːsˌɡeːən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "malen",
+    "ipa": "[ˈmaːlən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "mitgeben",
+    "ipa": "[ˈmɪtˌɡeːbn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "nähen",
+    "ipa": "[ˈnɛːən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "programmieren",
+    "ipa": "[pʁoɡʁaˈmiːʁən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "schminken",
+    "ipa": "[ˈʃmɪŋkn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "stricken",
+    "ipa": "[ˈʃtʁɪkn̩]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "UPPERCASE_SENTENCE_START: bedienen",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_057",
+  "de": "gar nicht, gerade, normalerweise, ungefähr, zurück.",
+  "ru": "Совсем нет, как раз, обычно, примерно, назад.",
+  "nouns": [],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "gar nicht",
+     "role": "слово"
+    },
+    {
+     "w": "gerade",
+     "role": "слово"
+    },
+    {
+     "w": "normalerweise",
+     "role": "слово"
+    },
+    {
+     "w": "ungefähr",
+     "role": "слово"
+    },
+    {
+     "w": "zurück",
+     "role": "слово"
+    }
+   ],
+   "text": "Слова курса: gar nicht, gerade, normalerweise, ungefähr, zurück.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова-помощники: gar nicht, gerade, normalerweise, ungefähr, zurück — по одному. Учим их без артикля — только слово и его значение.",
+   "why_ru": "По-русски тоже список: gar nicht — совсем нет · gerade — как раз · normalerweise — обычно · ungefähr — примерно · zurück — назад.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить список одним куском. Это отдельные слова, у каждого свой звук и своё значение."
+   },
+   "root": null,
+   "override": "tools/data_ch15.py WHY",
+   "why_voice_ru": "Слова курса: gar nicht, gerade, normalerweise, ungefähr, zurück."
+  },
+  "audio": "audio_v1/ch15_057.mp3",
+  "tts": "gar nicht, gerade, normalerweise, ungefähr, zurück.",
+  "ipa": [
+   {
+    "w": "gar",
+    "ipa": "[ɡaːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "nicht",
+    "ipa": "[nɪçt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gerade",
+    "ipa": "[ɡəˈʁaːdə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "normalerweise",
+    "ipa": "[nɔʁˈmaːlɐvaɪ̯zə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ungefähr",
+    "ipa": "[ˈʊnɡəfɛːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "zurück",
+    "ipa": "[t͡suˈʁʏk]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "UPPERCASE_SENTENCE_START: gar",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_t01",
+  "de": "Olga hat Englisch in der Schule gelernt.",
+  "ru": "Ольга учила английский в школе.",
+  "nouns": [
+   {
+    "lemma": "Englisch",
+    "art": "das",
+    "pl": ""
+   },
+   {
+    "lemma": "Schule",
+    "art": "die",
+    "pl": "Schulen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch15_L1",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Olga",
+     "role": "кто"
+    },
+    {
+     "w": "hat",
+     "role": "помощник №2"
+    },
+    {
+     "w": "Englisch",
+     "role": "кого-что"
+    },
+    {
+     "w": "in der Schule",
+     "role": "где"
+    },
+    {
+     "w": "gelernt",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "Olga — «она»: помощник hat. А gelernt не меняется — оно такое же, как с ich.",
+   "topic": "perfekt",
+   "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Olga hat Englisch in der Schule gelernt.",
+   "why_ru": "По-русски «Ольга учила английский в школе» — прошлое одним словом; по-немецки два слова, и они разнесены: Olga hat Englisch in der Schule gelernt.",
+   "layer": "perfekt",
+   "why_not": {
+    "wrong": "Olga hat gelernt Englisch in der Schule.",
+    "ru": "По-русски «Ольга учила английский в школе» — одно слово по порядку. По-немецки hat … gelernt разнесены: gelernt — в самый конец."
+   },
+   "root": null,
+   "why_voice_ru": "Olga — «она»: помощник hat. А gelernt не меняется — оно такое же, как с ich."
+  },
+  "audio": "audio_v1/ch15_t01.mp3",
+  "tts": "Olga hat Englisch in der Schule gelernt.",
+  "ipa": [
+   {
+    "w": "Olga",
+    "ipa": "[ˈɔlɡa]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "hat",
+    "ipa": "[hat]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Englisch",
+    "ipa": "[ˈɛŋlɪʃ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "in",
+    "ipa": "[ɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "der",
+    "ipa": "[deːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Schule",
+    "ipa": "[ˈʃuːlə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gelernt",
+    "ipa": "[ɡəˈlɛʁnt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_t02",
+  "de": "Ich habe Deutsch im Kurs gelernt.",
+  "ru": "Я учил немецкий на курсе.",
+  "nouns": [
+   {
+    "lemma": "Deutsch",
+    "art": "das",
+    "pl": ""
+   },
+   {
+    "lemma": "Kurs",
+    "art": "der",
+    "pl": "Kurse"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch15_L1",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "habe",
+     "role": "помощник №2"
+    },
+    {
+     "w": "Deutsch",
+     "role": "кого-что"
+    },
+    {
+     "w": "im Kurs",
+     "role": "где"
+    },
+    {
+     "w": "gelernt",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "Помощник habe — вагон №2, а что сделано — gelernt — уходит в конец.",
+   "topic": "perfekt",
+   "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ich habe Deutsch im Kurs gelernt.",
+   "why_ru": "По-русски «Я учил немецкий на курсе» — прошлое одним словом; по-немецки два слова, и они разнесены: Ich habe Deutsch im Kurs gelernt.",
+   "layer": "perfekt",
+   "why_not": {
+    "wrong": "Ich habe gelernt Deutsch im Kurs.",
+    "ru": "По-русски «Я учил немецкий на курсе» — одно слово по порядку. По-немецки habe … gelernt разнесены: gelernt — в самый конец."
+   },
+   "root": null,
+   "why_voice_ru": "Помощник habe — вагон №2, а что сделано — gelernt — уходит в конец."
+  },
+  "audio": "audio_v1/ch15_t02.mp3",
+  "tts": "Ich habe Deutsch im Kurs gelernt.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "habe",
+    "ipa": "[ˈhaːbə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Deutsch",
+    "ipa": "[dɔɪ̯t͡ʃ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "im",
+    "ipa": "[ɪm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kurs",
+    "ipa": "[kʊʁs]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gelernt",
+    "ipa": "[ɡəˈlɛʁnt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_t03",
+  "de": "Wo hast du Deutsch gelernt?",
+  "ru": "Где ты учил немецкий?",
+  "nouns": [
+   {
+    "lemma": "Deutsch",
+    "art": "das",
+    "pl": ""
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#2773200 CC BY 2.0 FR (автор Pfirsichbaeumchen)",
+  "transfer": true,
+  "lesson": "ch15_L1",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Wo",
+     "role": "вопрос-слово",
+     "asks": "где"
+    },
+    {
+     "w": "hast",
+     "role": "помощник №2"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "Deutsch",
+     "role": "кого-что"
+    },
+    {
+     "w": "gelernt",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "wo — вагон №1, помощник hast — вагон №2, gelernt — в конце.",
+   "topic": "perfekt",
+   "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Wo hast du Deutsch gelernt?",
+   "why_ru": "По-русски «Где ты учил немецкий» — прошлое одним словом; по-немецки два слова, и они разнесены: Wo hast du Deutsch gelernt?",
+   "layer": "perfekt",
+   "why_not": {
+    "wrong": "Wo hast gelernt du Deutsch?",
+    "ru": "По-русски «Где ты учил немецкий» — одно слово по порядку. По-немецки hast … gelernt разнесены: gelernt — в самый конец."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "wo — вагон №1, помощник hast — вагон №2, gelernt — в конце.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "вопрос-слово · действие (вагон №2) · «кто» · «что» · хвост действия",
+    "items": [
+     {
+      "id": "ch15_d1_03",
+      "de": "Wo hast du Englisch gelernt?",
+      "ru": "Где ты учил английский?",
+      "audio": "audio_v1/ch15_d1_03.mp3",
+      "lesson": "L1",
+      "part": 4,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 4,
+       "from": "Deutsch",
+       "to": "Englisch"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Wo · hast · du · gelernt. В каждом примере меняется один вагон — «что»: Deutsch → Englisch. Действие hast всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch15_t03.mp3",
+  "tts": "Wo hast du Deutsch gelernt?",
+  "ipa": [
+   {
+    "w": "Wo",
+    "ipa": "[voː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "hast",
+    "ipa": "[hast]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Deutsch",
+    "ipa": "[dɔɪ̯t͡ʃ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gelernt",
+    "ipa": "[ɡəˈlɛʁnt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_t04",
+  "de": "Ich habe Englisch von meinem Freund gelernt.",
+  "ru": "Я учил английский у моего друга.",
+  "nouns": [
+   {
+    "lemma": "Englisch",
+    "art": "das",
+    "pl": ""
+   },
+   {
+    "lemma": "Freund",
+    "art": "der",
+    "pl": "Freunde"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch15_L2",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "habe",
+     "role": "помощник №2"
+    },
+    {
+     "w": "Englisch",
+     "role": "кого-что"
+    },
+    {
+     "w": "von meinem Freund",
+     "role": "от кого"
+    },
+    {
+     "w": "gelernt",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "der Freund после von: meinem Freund. Помощник habe — вагон №2, gelernt — в конце.",
+   "topic": "perfekt",
+   "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ich habe Englisch von meinem Freund gelernt.",
+   "why_ru": "По-русски «Я учил английский у моего друга» — прошлое одним словом; по-немецки два слова, и они разнесены: Ich habe Englisch von meinem Freund gelernt.",
+   "layer": "perfekt",
+   "why_not": {
+    "wrong": "Ich habe gelernt Englisch von meinem Freund.",
+    "ru": "По-русски «Я учил английский у моего друга» — одно слово по порядку. По-немецки habe … gelernt разнесены: gelernt — в самый конец."
+   },
+   "root": null,
+   "why_voice_ru": "der Freund после von: meinem Freund. Помощник habe — вагон №2, gelernt — в конце.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «что» · от кого · хвост действия",
+    "items": [
+     {
+      "id": "ch15_017",
+      "de": "Ich habe Englisch von meiner Mutter gelernt.",
+      "ru": "Я учил английский у моей мамы.",
+      "audio": "audio_v1/ch15_017.mp3",
+      "lesson": "L2",
+      "part": 3,
+      "changed": {
+       "role": "от кого",
+       "wagon": 4,
+       "from": "von meinem Freund",
+       "to": "von meiner Mutter"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ich · habe · Englisch · gelernt. В каждом примере меняется один вагон — от кого: von meinem Freund → von meiner Mutter. Действие habe всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch15_t04.mp3",
+  "tts": "Ich habe Englisch von meinem Freund gelernt.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "habe",
+    "ipa": "[ˈhaːbə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Englisch",
+    "ipa": "[ˈɛŋlɪʃ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "von",
+    "ipa": "[fɔn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "meinem",
+    "ipa": "[ˈmaɪ̯nəm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Freund",
+    "ipa": "[fʁɔɪ̯nt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gelernt",
+    "ipa": "[ɡəˈlɛʁnt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_t05",
+  "de": "Von wem hast du Englisch gelernt?",
+  "ru": "У кого ты учил английский?",
+  "nouns": [
+   {
+    "lemma": "Englisch",
+    "art": "das",
+    "pl": ""
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch15_L2",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Von wem",
+     "role": "от кого"
+    },
+    {
+     "w": "hast",
+     "role": "помощник №2"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "Englisch",
+     "role": "кого-что"
+    },
+    {
+     "w": "gelernt",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "Von wem — вагон №1, помощник hast — вагон №2, gelernt — в конце.",
+   "topic": "perfekt",
+   "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Von wem hast du Englisch gelernt?",
+   "why_ru": "По-русски «У кого ты учил английский» — прошлое одним словом; по-немецки два слова, и они разнесены: Von wem hast du Englisch gelernt?",
+   "layer": "perfekt",
+   "why_not": {
+    "wrong": "Von wem hast gelernt du Englisch?",
+    "ru": "По-русски «У кого ты учил английский» — одно слово по порядку. По-немецки hast … gelernt разнесены: gelernt — в самый конец."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "Von wem — вагон №1, помощник hast — вагон №2, gelernt — в конце.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "от кого · действие (вагон №2) · «кто» · «что» · хвост действия",
+    "items": [
+     {
+      "id": "ch15_013",
+      "de": "Von wem hast du das gelernt?",
+      "ru": "От кого ты этому научился?",
+      "audio": "audio_v1/ch15_013.mp3",
+      "lesson": "L2",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 4,
+       "from": "Englisch",
+       "to": "das"
+      }
+     },
+     {
+      "id": "ch15_d2_03",
+      "de": "Von wem hast du Deutsch gelernt?",
+      "ru": "У кого ты учил немецкий?",
+      "audio": "audio_v1/ch15_d2_03.mp3",
+      "lesson": "L2",
+      "part": 4,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 4,
+       "from": "Englisch",
+       "to": "Deutsch"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Von wem · hast · du · gelernt. В каждом примере меняется один вагон — «что»: Englisch → das → Deutsch. Действие hast всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch15_t05.mp3",
+  "tts": "Von wem hast du Englisch gelernt?",
+  "ipa": [
+   {
+    "w": "Von",
+    "ipa": "[fɔn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "wem",
+    "ipa": "[veːm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "hast",
+    "ipa": "[hast]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Englisch",
+    "ipa": "[ˈɛŋlɪʃ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gelernt",
+    "ipa": "[ɡəˈlɛʁnt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_t06",
+  "de": "Ich habe das von meiner Mutter gelernt.",
+  "ru": "Этому я научился у моей мамы.",
+  "nouns": [
+   {
+    "lemma": "Mutter",
+    "art": "die",
+    "pl": "Mütter"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch15_L2",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "habe",
+     "role": "помощник №2"
+    },
+    {
+     "w": "das",
+     "role": "кого-что"
+    },
+    {
+     "w": "von meiner Mutter",
+     "role": "от кого"
+    },
+    {
+     "w": "gelernt",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "die Mutter после von: meiner. Помощник habe — вагон №2, gelernt — в конце.",
+   "topic": "perfekt",
+   "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ich habe das von meiner Mutter gelernt.",
+   "why_ru": "По-русски «Этому я научился у моей мамы» — прошлое одним словом; по-немецки два слова, и они разнесены: Ich habe das von meiner Mutter gelernt.",
+   "layer": "perfekt",
+   "why_not": {
+    "wrong": "Ich habe gelernt das von meiner Mutter.",
+    "ru": "По-русски «Этому я научился у моей мамы» — одно слово по порядку. По-немецки habe … gelernt разнесены: gelernt — в самый конец."
+   },
+   "root": null,
+   "why_voice_ru": "die Mutter после von: meiner. Помощник habe — вагон №2, gelernt — в конце.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «что» · от кого · хвост действия",
+    "items": [
+     {
+      "id": "ch15_014",
+      "de": "Ich habe das von meinem Onkel gelernt.",
+      "ru": "Этому я научился у моего дяди.",
+      "audio": "audio_v1/ch15_014.mp3",
+      "lesson": "L2",
+      "part": 3,
+      "changed": {
+       "role": "от кого",
+       "wagon": 4,
+       "from": "von meiner Mutter",
+       "to": "von meinem Onkel"
+      }
+     },
+     {
+      "id": "ch15_017",
+      "de": "Ich habe Englisch von meiner Mutter gelernt.",
+      "ru": "Я учил английский у моей мамы.",
+      "audio": "audio_v1/ch15_017.mp3",
+      "lesson": "L2",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "das",
+       "to": "Englisch"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ich · habe · gelernt. В каждом примере меняется один вагон — «что»: das → Englisch; от кого: von meiner Mutter → von meinem Onkel. Действие habe всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch15_t06.mp3",
+  "tts": "Ich habe das von meiner Mutter gelernt.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "habe",
+    "ipa": "[ˈhaːbə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "das",
+    "ipa": "[das]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "von",
+    "ipa": "[fɔn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "meiner",
+    "ipa": "[ˈmaɪ̯nɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Mutter",
+    "ipa": "[ˈmʊtɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gelernt",
+    "ipa": "[ɡəˈlɛʁnt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_t07",
+  "de": "Spielst du Gitarre?",
+  "ru": "Ты играешь на гитаре?",
+  "nouns": [
+   {
+    "lemma": "Gitarre",
+    "art": "die",
+    "pl": "Gitarren"
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#3519417 CC BY 2.0 FR (автор Pfirsichbaeumchen)",
+  "transfer": true,
+  "lesson": "ch15_L3",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Spielst",
+     "role": "действие №1"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "Gitarre",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Вопрос «да/нет»: действие spielst впереди, с du — хвост -st.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Spielst) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Spielst du Gitarre?",
+   "why_ru": "По-русски «Ты играешь на гитаре» — вопрос только голосом, порядок как в ответе. По-немецки действие Spielst выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Du spielst Gitarre?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Ты играешь на гитаре?!»). Обычный вопрос — действие впереди."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "Вопрос «да/нет»: действие spielst впереди, с du — хвост -st.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "действие (вагон №1) · «кто» · «что»",
+    "items": [
+     {
+      "id": "ch15_020",
+      "de": "Spielst du Klavier?",
+      "ru": "Ты играешь на пианино?",
+      "audio": "audio_v1/ch15_020.mp3",
+      "lesson": "L3",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "Gitarre",
+       "to": "Klavier"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Spielst · du. В каждом примере меняется один вагон — «что»: Gitarre → Klavier. Действие Spielst всё так же в вагоне №1.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch15_t07.mp3",
+  "tts": "Spielst du Gitarre?",
+  "ipa": [
+   {
+    "w": "Spielst",
+    "ipa": "[ʃpiːlst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Gitarre",
+    "ipa": "[ɡiˈtaʁə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_t08",
+  "de": "Spielst du nicht Klavier?",
+  "ru": "Ты не играешь на пианино?",
+  "nouns": [
+   {
+    "lemma": "Klavier",
+    "art": "das",
+    "pl": "Klaviere"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch15_L3",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Spielst",
+     "role": "действие №1"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "nicht",
+     "role": "«не»"
+    },
+    {
+     "w": "Klavier",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Вопрос с nicht: действие впереди, nicht — перед Klavier.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Spielst) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Spielst du nicht Klavier?",
+   "why_ru": "По-русски «Ты не играешь на пианино» — вопрос только голосом, порядок как в ответе. По-немецки действие Spielst выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Du spielst nicht Klavier?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Ты не играешь на пианино?!»). Обычный вопрос — действие впереди."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "Вопрос с nicht: действие впереди, nicht — перед Klavier.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "действие (вагон №1) · «кто» · «не» · «что»",
+    "items": [
+     {
+      "id": "ch15_022",
+      "de": "Spielst du nicht Gitarre?",
+      "ru": "Ты не играешь на гитаре?",
+      "audio": "audio_v1/ch15_022.mp3",
+      "lesson": "L3",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 4,
+       "from": "Klavier",
+       "to": "Gitarre"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Spielst · du · nicht. В каждом примере меняется один вагон — «что»: Klavier → Gitarre. Действие Spielst всё так же в вагоне №1.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch15_t08.mp3",
+  "tts": "Spielst du nicht Klavier?",
+  "ipa": [
+   {
+    "w": "Spielst",
+    "ipa": "[ʃpiːlst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "nicht",
+    "ipa": "[nɪçt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Klavier",
+    "ipa": "[klaˈviːɐ̯]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_t09",
+  "de": "Ich spiele auch Klavier.",
+  "ru": "Я тоже играю на пианино.",
+  "nouns": [
+   {
+    "lemma": "Klavier",
+    "art": "das",
+    "pl": "Klaviere"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch15_L3",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "spiele",
+     "role": "действие №2"
+    },
+    {
+     "w": "auch",
+     "role": "добавка"
+    },
+    {
+     "w": "Klavier",
+     "role": "кого-что"
+    }
+   ],
+   "text": "auch стоит перед тем, что добавляем. С ich — spiele.",
+   "topic": "verb2",
+   "why_de": "Ich · spiele · auch · Klavier: действие spiele — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Я тоже играю на пианино» — Ich spiele auch Klavier. Разница одна: по-немецки spiele держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich auch Klavier spiele.",
+    "ru": "Действие spiele уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе spiele — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "auch стоит перед тем, что добавляем. С ich — spiele."
+  },
+  "audio": "audio_v1/ch15_t09.mp3",
+  "tts": "Ich spiele auch Klavier.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "spiele",
+    "ipa": "[ˈʃpiːlə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "auch",
+    "ipa": "[aʊ̯x]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Klavier",
+    "ipa": "[klaˈviːɐ̯]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_t10",
+  "de": "Entschuldigung, ich bin morgen nicht im Kurs.",
+  "ru": "Извините, завтра меня не будет на курсе.",
+  "nouns": [
+   {
+    "lemma": "Kurs",
+    "art": "der",
+    "pl": "Kurse"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch15_L4",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Entschuldigung",
+     "role": "привет/вежливость"
+    },
+    {
+     "w": "ich",
+     "role": "кто"
+    },
+    {
+     "w": "bin",
+     "role": "действие №2"
+    },
+    {
+     "w": "morgen",
+     "role": "когда"
+    },
+    {
+     "w": "nicht",
+     "role": "«не»"
+    },
+    {
+     "w": "im Kurs",
+     "role": "где"
+    }
+   ],
+   "text": "Entschuldigung не занимает вагон. Дальше тот же поезд: bin — вагон №2, nicht — перед im Kurs.",
+   "topic": "negation",
+   "why_de": "nicht ставят прямо перед тем, что отрицают: здесь — перед im: Entschuldigung, ich bin morgen nicht im Kurs.",
+   "why_ru": "По-русски «Извините, завтра меня не будет на курсе» — «не» перед действием. По-немецки nicht стоит перед im, а не перед действием: Entschuldigung, ich bin morgen nicht im Kurs.",
+   "layer": "nicht",
+   "why_not": {
+    "wrong": "Entschuldigung, ich nicht bin morgen im Kurs.",
+    "ru": "Русский порядок «Извините, завтра меня не будет на курсе»: «не» перед действием. По-немецки nicht перед bin не встаёт: его ставят перед тем, что отрицают."
+   },
+   "root": "bin, bist — от древнего корня *bʰew- («быть»), а ist — от *es- (как русское «есть»); весь глагол sein собран из двух корней (DWDS, Wiktionary)",
+   "why_voice_ru": "Entschuldigung не занимает вагон. Дальше тот же поезд: bin — вагон №2, nicht — перед im Kurs."
+  },
+  "audio": "audio_v1/ch15_t10.mp3",
+  "tts": "Entschuldigung, ich bin morgen nicht im Kurs.",
+  "ipa": [
+   {
+    "w": "Entschuldigung",
+    "ipa": "[ɛntˈʃʊldɪɡʊŋ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "bin",
+    "ipa": "[bɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "morgen",
+    "ipa": "[ˈmɔʁɡn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "nicht",
+    "ipa": "[nɪçt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "im",
+    "ipa": "[ɪm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kurs",
+    "ipa": "[kʊʁs]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_t11",
+  "de": "Der Ausflug ist nicht morgen.",
+  "ru": "Экскурсия не завтра.",
+  "nouns": [
+   {
+    "lemma": "Ausflug",
+    "art": "der",
+    "pl": "Ausflüge"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch15_L4",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Der Ausflug",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "nicht",
+     "role": "«не»"
+    },
+    {
+     "w": "morgen",
+     "role": "когда"
+    }
+   ],
+   "text": "nicht ставят перед тем, что отрицают: тут — перед morgen.",
+   "topic": "negation",
+   "why_de": "nicht ставят прямо перед тем, что отрицают: здесь — перед morgen: Der Ausflug ist nicht morgen.",
+   "why_ru": "По-русски «Экскурсия не завтра» — «не» тоже стоит перед тем, что отрицают. По-немецки так же: nicht — прямо перед morgen: Der Ausflug ist nicht morgen.",
+   "layer": "nicht",
+   "why_not": {
+    "wrong": "Der Ausflug nicht ist morgen.",
+    "ru": "Ошибка — поставить nicht перед ist, как «не» перед глаголом. По-немецки, как и в «Экскурсия не завтра», nicht стоит перед тем, что отрицают."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "nicht ставят перед тем, что отрицают: тут — перед morgen."
+  },
+  "audio": "audio_v1/ch15_t11.mp3",
+  "tts": "Der Ausflug ist nicht morgen.",
+  "ipa": [
+   {
+    "w": "Der",
+    "ipa": "[deːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Ausflug",
+    "ipa": "[ˈaʊ̯sˌfluːk]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "nicht",
+    "ipa": "[nɪçt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "morgen",
+    "ipa": "[ˈmɔʁɡn̩]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_t12",
+  "de": "Lest Bilderbücher auf Deutsch!",
+  "ru": "Читайте книжки с картинками на немецком!",
+  "nouns": [
+   {
+    "lemma": "Bilderbuch",
+    "art": "das",
+    "pl": "Bilderbücher"
+   },
+   {
+    "lemma": "Deutsch",
+    "art": "das",
+    "pl": ""
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch15_L5",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Lest",
+     "role": "действие №1"
+    },
+    {
+     "w": "Bilderbücher",
+     "role": "кого-что"
+    },
+    {
+     "w": "auf Deutsch",
+     "role": "какой/как"
+    }
+   ],
+   "text": "Просьба к друзьям: ihr lest без ihr — Lest! Действие впереди.",
+   "topic": "word_order",
+   "why_de": "Просьба нескольким людям, которым говоришь «ты»: действие Lest впереди; местоимение можно не говорить: Lest Bilderbücher auf Deutsch! Так немец сразу показывает, что ждёт действия.",
+   "why_ru": "По-русски «Читайте книжки с картинками на немецком» — глагол во множественном числе. По-немецки так же, без отдельного местоимения: Lest.",
+   "layer": "imper",
+   "why_not": {
+    "wrong": "Liest Bilderbücher auf Deutsch!",
+    "ru": "Ошибка — менять гласную: Liest. В приказе группе друзей гласная остаётся: Lest."
+   },
+   "root": null,
+   "override": "tools/data_ch15.py WHY",
+   "why_voice_ru": "Просьба к друзьям: ihr lest без ihr — Lest! Действие впереди."
+  },
+  "audio": "audio_v1/ch15_t12.mp3",
+  "tts": "Lest Bilderbücher auf Deutsch!",
+  "ipa": [
+   {
+    "w": "Lest",
+    "ipa": "[leːst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bilderbücher",
+    "ipa": "[ˈbɪldɐˌbyːçɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "auf",
+    "ipa": "[aʊ̯f]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Deutsch",
+    "ipa": "[dɔɪ̯t͡ʃ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_t13",
+  "de": "Spielt ihr Klavier?",
+  "ru": "Вы играете на пианино?",
+  "nouns": [
+   {
+    "lemma": "Klavier",
+    "art": "das",
+    "pl": "Klaviere"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch15_L5",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Spielt",
+     "role": "действие №1"
+    },
+    {
+     "w": "ihr",
+     "role": "кто"
+    },
+    {
+     "w": "Klavier",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Вопрос к друзьям: действие впереди, ihr за ним.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Spielt) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Spielt ihr Klavier?",
+   "why_ru": "По-русски «Вы играете на пианино» — вопрос только голосом, порядок как в ответе. По-немецки действие Spielt выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Ihr spielt Klavier?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Вы играете на пианино?!»). Обычный вопрос — действие впереди."
+   },
+   "root": null,
+   "why_voice_ru": "Вопрос к друзьям: действие впереди, ihr за ним.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "действие (вагон №1) · «кто» · «что»",
+    "items": [
+     {
+      "id": "ch15_036",
+      "de": "Spielt ihr ein Instrument?",
+      "ru": "Вы играете на каком-нибудь инструменте?",
+      "audio": "audio_v1/ch15_036.mp3",
+      "lesson": "L5",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "Klavier",
+       "to": "ein Instrument"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Spielt · ihr. В каждом примере меняется один вагон — «что»: Klavier → ein Instrument. Действие Spielt всё так же в вагоне №1.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch15_t13.mp3",
+  "tts": "Spielt ihr Klavier?",
+  "ipa": [
+   {
+    "w": "Spielt",
+    "ipa": "[ʃpiːlt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ihr",
+    "ipa": "[iːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Klavier",
+    "ipa": "[klaˈviːɐ̯]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_t14",
+  "de": "Spielt Klavier!",
+  "ru": "Играйте на пианино!",
+  "nouns": [
+   {
+    "lemma": "Klavier",
+    "art": "das",
+    "pl": "Klaviere"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch15_L5",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Spielt",
+     "role": "действие №1"
+    },
+    {
+     "w": "Klavier",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Просьба к друзьям: ihr spielt без ihr — Spielt! Действие впереди.",
+   "topic": "word_order",
+   "why_de": "Просьба нескольким людям, которым говоришь «ты»: действие Spielt впереди; местоимение можно не говорить: Spielt Klavier! Так немец сразу показывает, что ждёт действия.",
+   "why_ru": "По-русски «Играйте на пианино» — глагол во множественном числе. По-немецки так же, без отдельного местоимения: Spielt.",
+   "layer": "imper",
+   "why_not": {
+    "wrong": "Spielen Klavier!",
+    "ru": "Ошибка — инфинитив вместо приказа: Spielen — это название действия, не просьба. Группе друзей нужно Spielt."
+   },
+   "root": null,
+   "override": "tools/data_ch15.py WHY",
+   "why_voice_ru": "Просьба к друзьям: ihr spielt без ihr — Spielt! Действие впереди."
+  },
+  "audio": "audio_v1/ch15_t14.mp3",
+  "tts": "Spielt Klavier! Spielt Klavier!",
+  "ipa": [
+   {
+    "w": "Spielt",
+    "ipa": "[ʃpiːlt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Klavier",
+    "ipa": "[klaˈviːɐ̯]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_t15",
+  "de": "Hast du Gitarre gespielt?",
+  "ru": "Ты играл на гитаре?",
+  "nouns": [
+   {
+    "lemma": "Gitarre",
+    "art": "die",
+    "pl": "Gitarren"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch15_L6",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Hast",
+     "role": "помощник №1"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "Gitarre",
+     "role": "кого-что"
+    },
+    {
+     "w": "gespielt",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "Вопрос «да/нет» в прошлом: помощник hast впереди, gespielt — в конце.",
+   "topic": "perfekt",
+   "why_de": "Вопрос «да/нет» о прошлом: помощник Hast встаёт впереди, а что именно случилось, — в самый конец: Hast du Gitarre gespielt?",
+   "why_ru": "По-русски «Ты играл на гитаре» — вопрос голосом, прошлое одним словом; по-немецки помощник впереди, а форма прошедшего — в самом конце: Hast du Gitarre gespielt?",
+   "layer": "perfekt",
+   "why_not": {
+    "wrong": "Hast gespielt du Gitarre?",
+    "ru": "По-русски «Ты играл на гитаре» — одно слово по порядку. По-немецки Hast … gespielt разнесены: gespielt — в самый конец."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "Вопрос «да/нет» в прошлом: помощник hast впереди, gespielt — в конце.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "действие (вагон №1) · «кто» · «что» · хвост действия",
+    "items": [
+     {
+      "id": "ch15_d6_01",
+      "de": "Hast du Fußball gespielt?",
+      "ru": "Ты играл в футбол?",
+      "audio": "audio_v1/ch15_d6_01.mp3",
+      "lesson": "L6",
+      "part": 4,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "Gitarre",
+       "to": "Fußball"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Hast · du · gespielt. В каждом примере меняется один вагон — «что»: Gitarre → Fußball. Действие Hast всё так же в вагоне №1.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch15_t15.mp3",
+  "tts": "Hast du Gitarre gespielt?",
+  "ipa": [
+   {
+    "w": "Hast",
+    "ipa": "[hast]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Gitarre",
+    "ipa": "[ɡiˈtaʁə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gespielt",
+    "ipa": "[ɡəˈʃpiːlt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_t16",
+  "de": "Olga hat Klavier gespielt.",
+  "ru": "Ольга играла на пианино.",
+  "nouns": [
+   {
+    "lemma": "Klavier",
+    "art": "das",
+    "pl": "Klaviere"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch15_L6",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Olga",
+     "role": "кто"
+    },
+    {
+     "w": "hat",
+     "role": "помощник №2"
+    },
+    {
+     "w": "Klavier",
+     "role": "кого-что"
+    },
+    {
+     "w": "gespielt",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "Olga — «она»: помощник hat, gespielt — в конце, как с ich.",
+   "topic": "perfekt",
+   "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Olga hat Klavier gespielt.",
+   "why_ru": "По-русски «Ольга играла на пианино» — прошлое одним словом; по-немецки два слова, и они разнесены: Olga hat Klavier gespielt.",
+   "layer": "perfekt",
+   "why_not": {
+    "wrong": "Olga hat gespielt Klavier.",
+    "ru": "По-русски «Ольга играла на пианино» — одно слово по порядку. По-немецки hat … gespielt разнесены: gespielt — в самый конец."
+   },
+   "root": null,
+   "why_voice_ru": "Olga — «она»: помощник hat, gespielt — в конце, как с ich."
+  },
+  "audio": "audio_v1/ch15_t16.mp3",
+  "tts": "Olga hat Klavier gespielt.",
+  "ipa": [
+   {
+    "w": "Olga",
+    "ipa": "[ˈɔlɡa]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "hat",
+    "ipa": "[hat]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Klavier",
+    "ipa": "[klaˈviːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gespielt",
+    "ipa": "[ɡəˈʃpiːlt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch15_t17",
+  "de": "Wo hast du Gitarre gespielt?",
+  "ru": "Где ты играл на гитаре?",
+  "nouns": [
+   {
+    "lemma": "Gitarre",
+    "art": "die",
+    "pl": "Gitarren"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch15_L6",
+  "book": "Книга, урок 13 (прошедшее время: помощник + ge-форма), стр. PDF 309; урок 7.7 (doch), стр. PDF 177; урок 8.6 (короткие ответы), стр. PDF 198; урок 17.3 (просьба к «вы» — ihr), стр. PDF 402",
+  "why": {
+   "train": [
+    {
+     "w": "Wo",
+     "role": "вопрос-слово",
+     "asks": "где"
+    },
+    {
+     "w": "hast",
+     "role": "помощник №2"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "Gitarre",
+     "role": "кого-что"
+    },
+    {
+     "w": "gespielt",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "wo — вагон №1, помощник hast — вагон №2, gespielt — в конце.",
+   "topic": "perfekt",
+   "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Wo hast du Gitarre gespielt?",
+   "why_ru": "По-русски «Где ты играл на гитаре» — прошлое одним словом; по-немецки два слова, и они разнесены: Wo hast du Gitarre gespielt?",
+   "layer": "perfekt",
+   "why_not": {
+    "wrong": "Wo hast gespielt du Gitarre?",
+    "ru": "По-русски «Где ты играл на гитаре» — одно слово по порядку. По-немецки hast … gespielt разнесены: gespielt — в самый конец."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "wo — вагон №1, помощник hast — вагон №2, gespielt — в конце.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "вопрос-слово · действие (вагон №2) · «кто» · «что» · хвост действия",
+    "items": [
+     {
+      "id": "ch15_044",
+      "de": "Wo hast du Fußball gespielt?",
+      "ru": "Где ты играл в футбол?",
+      "audio": "audio_v1/ch15_044.mp3",
+      "lesson": "L6",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 4,
+       "from": "Gitarre",
+       "to": "Fußball"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Wo · hast · du · gespielt. В каждом примере меняется один вагон — «что»: Gitarre → Fußball. Действие hast всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch15_t17.mp3",
+  "tts": "Wo hast du Gitarre gespielt?",
+  "ipa": [
+   {
+    "w": "Wo",
+    "ipa": "[voː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "hast",
+    "ipa": "[hast]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Gitarre",
+    "ipa": "[ɡiˈtaʁə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gespielt",
+    "ipa": "[ɡəˈʃpiːlt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ }
+]

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="de"><head>
+<script>window.__dsPublic=1;window.__mfAiOff=1;(function(){var f=window.fetch.bind(window),re=/^\/(ollama|lt|asr|phon)\//;window.fetch=function(u,o){var s=typeof u==='string'?u:(u&&u.url)||'';if(re.test(s))return Promise.resolve(new Response('{"ok":false,"public":true}',{status:503,headers:{'Content-Type':'application/json'}}));return f(u,o);};})();</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>DeutschSpiel: Vertikaler Schnitt (Elternhaus)</title>
+<style>
+@font-face { font-family: 'Pixelify Sans'; src: url(fonts/PixelifySans.ttf); font-weight: 400 700; }
+html, body { margin: 0; height: 100%; background: #1d130b; overflow: hidden; }
+#stage { position: absolute; left: 0; top: 0; width: 960px; height: 540px; transform-origin: 0 0; }
+#game, #game canvas { position: absolute; left: 0; top: 0; width: 960px; height: 540px; }
+#ui { position: absolute; left: 0; top: 0; width: 960px; height: 540px; pointer-events: none; font-family: Roboto, 'Segoe UI', system-ui, sans-serif; font-weight: 600; }
+#ui .ui, #ui button { pointer-events: auto; }
+.hud { position: absolute; display: flex; gap: 8px; align-items: center; color: #2e1e12; font-size: 22px; }
+.hud .ui-nameplate { padding: 0 10px; display: flex; align-items: center; gap: 6px; height: 36px; }
+.hud img { height: 24px; image-rendering: pixelated; }
+#goal { left: 12px; top: 10px; } #clock { right: 12px; top: 10px; } #bag { right: 12px; bottom: 12px; }
+#bag.ui-btn { font-size: 20px; padding: 0 14px; color: #2e1e12; }
+#dlg { position: absolute; left: 40px; right: 40px; bottom: 16px; display: none; }
+.portrait { position: absolute; bottom: 190px; width: 128px; height: 128px; image-rendering: pixelated; filter: drop-shadow(3px 3px 0 #3b2314); transition: opacity .2s; }
+#pL { left: 10px; } #pR { right: 10px; transform: scaleX(-1); }
+#who { display: inline-flex; align-items: center; height: 36px; padding: 0 14px; font-size: 22px; margin-left: 20px; position: relative; top: 4px; z-index: 2; }
+#bubble { padding: 6px 14px 8px; min-height: 84px; font-size: 26px; line-height: 1.25; }
+#bubble #ru { font-size: 18px; opacity: .75; margin-top: 4px; min-height: 22px; }
+#btns { display: flex; gap: 10px; justify-content: flex-end; margin-top: 18px; }
+#btns .ui-btn { font-family: inherit; font-size: 22px; padding: 0 18px; min-width: 110px; height: 52px; color: #2e1e12; }
+#micHelp { position: absolute; left: 50%; top: 60px; transform: translateX(-50%); width: 560px; display: none; padding: 10px 14px; font-family: sans-serif; font-size: 16px; line-height: 1.35; color: #2e1e12; background: #f3e3c3; border: 3px solid #3b2314; border-radius: 6px; z-index: 30; }
+#bSpeak.rec { box-shadow: 0 0 0 3px #e24848; }
+#toast { position: absolute; left: 50%; top: 90px; transform: translateX(-50%); font-size: 30px; color: #fff; text-shadow: 2px 2px 0 #3b2314; display: none; }
+#reward { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 380px; display: none; text-align: center; font-size: 26px; padding: 8px 10px 16px; }
+#reward img { height: 72px; margin: 6px 8px; image-rendering: pixelated; }
+#reward .ui-btn { margin-top: 10px; font-family: inherit; font-size: 22px; padding: 0 22px; height: 52px; }
+#bFurn { right: 172px; bottom: 12px; font-size: 20px; padding: 0 14px; color: #2e1e12; }
+#furnBar { position: absolute; left: 8px; right: 8px; bottom: 8px; display: none; gap: 6px; padding: 6px; overflow-x: auto; align-items: stretch; }
+#furnBar .ui-btn { font-family: inherit; color: #2e1e12; display: flex; flex-direction: column; align-items: center; justify-content: center; min-width: 74px; height: 72px; padding: 1px 5px; font-size: 13px; line-height: 1.1; }
+#furnBar .ui-btn img { height: 30px; image-rendering: pixelated; object-fit: contain; max-width: 70px; }
+#furnBar small { font-size: 11px; opacity: .8; }
+#bMap { right: 330px; bottom: 12px; font-size: 20px; padding: 0 14px; color: #2e1e12; }
+#mapPanel { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: none; padding: 8px 14px 12px; text-align: center; color: #2e1e12; }
+#mapPanel .mapTitle { font-size: 22px; margin-bottom: 4px; }
+#mapPanel .mapGrid { display: grid; grid-template-columns: 200px 200px; gap: 4px 14px; }
+#mapPanel .place { cursor: pointer; } #mapPanel .place img { width: 200px; height: 160px; image-rendering: pixelated; display: block; border: 2px solid #3b2314; }
+#mapPanel .place.open img { box-shadow: 0 0 0 3px #ffd23f; }
+#mapPanel .pl { font-size: 18px; margin-top: 2px; } #mapPanel .pr { font-size: 13px; opacity: .8; }
+#mapPanel .ui-btn { margin-top: 4px; font-family: inherit; font-size: 20px; height: 44px; padding: 0 18px; color: #2e1e12; }
+#bOut { position: absolute; right: 8px; top: -6px; z-index: 3; font-family: inherit; font-size: 16px; height: 36px; padding: 0 12px; color: #2e1e12; }
+#reset { position: absolute; left: 12px; bottom: 6px; font-size: 12px; color: #fff8; pointer-events: auto; cursor: pointer; }
+body.down img, body.down .portrait { image-rendering: auto !important; }
+#de { font-weight: 700; } #ru { font-weight: 500; }
+</style>
+<link rel="stylesheet" href="ui_kit.css">
+</head><body>
+<div id="stage">
+  <div id="game"></div>
+  <div id="ui">
+    <div class="hud" id="goal"><div class="ui ui-nameplate"><img id="icoCoin" alt="">&nbsp;<span id="coins">0</span></div><div class="ui ui-nameplate" id="goalTxt">Ziel: Elternhaus</div></div>
+    <div class="hud" id="clock"><div class="ui ui-nameplate">Morgen · Sonne</div></div>
+    <button class="ui ui-btn hud" id="bag">Rucksack</button>
+    <button class="ui ui-btn hud" id="bFurn">Einrichten</button>
+    <button class="ui ui-btn hud" id="bMap">Karte</button>
+    <div id="dlg"><img class="portrait" id="pL" alt=""><img class="portrait" id="pR" alt=""><div class="ui ui-nameplate" id="who"></div><div class="ui ui-bubble" id="bubble"><div id="de"></div><div id="ru"></div></div>
+      <div id="btns"><button class="ui ui-btn" id="bHear">Hören</button><button class="ui ui-btn" id="bSpeak">Sprechen</button><button class="ui ui-btn" id="bSkip" style="display:none">Ohne Mikro</button><button class="ui ui-btn" id="bNext">Weiter</button></div></div>
+    <div id="micHelp"></div>
+    <div id="toast"></div>
+    <div class="ui ui-panel-paper" id="reward"><div>Belohnung!</div><div id="rwItems"></div><div id="rwTxt" style="font-size:20px"></div><button class="ui ui-btn" id="bBack">Zum Hof</button></div>
+    <div id="reset">Reset</div>
+  </div>
+</div>
+<script src="phaser.min.js"></script>
+<script src="time.js"></script><script src="time_fx.js"></script>
+<script src="speech_game.js"></script>
+<script src="where.js"></script>
+<script src="furnish.js"></script>
+<script src="map.js"></script>
+<script src="portraits.js"></script>
+<script src="main.js"></script>
+<script src="ort.js"></script>
+<script src="dungeon.js"></script>
+<script src="overworld.js"></script>
+<script src="responsive.js"></script>
+<script src="walk.js"></script>
+<script src="combat.js"></script>
+<script src="light.js"></script><script src="shade.js"></script>
+<script src="arena.js"></script>
+<script src="town.js"></script>
+<script src="furn_room.js"></script>
+<script src="embed.js"></script>
+<script src="ru_labels.js"></script>
+<script src="skills.js"></script><script src="research.js"></script>
+<script src="loot.js"></script><script src="anim.js"></script><script src="fx.js"></script><script src="welt_plus.js"></script>
+<script src="system.js"></script>
+<script src="quests.js"></script><script src="board.js"></script>
+<script src="album.js"></script>
+<script src="fishing.js"></script>
+<script src="garden.js"></script>
+<script src="economy.js"></script><script src="restore.js"></script><script src="town_plus.js"></script>
+<script src="mentor.js"></script><script src="friend.js"></script>
+</body></html>

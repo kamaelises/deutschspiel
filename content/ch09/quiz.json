@@ -1,0 +1,4454 @@
+[
+ {
+  "item_id": "ch09_L1_words_1",
+  "id": "ch09_L1_words_1",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_001",
+  "prompt": "Что значит «Freizeit»?",
+  "answer": "свободное время",
+  "distractors": [
+   "рабочее время",
+   "время обеда"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L1_words_2",
+  "id": "ch09_L1_words_2",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_002",
+  "prompt": "Что значит «am Computer»?",
+  "answer": "на компьютере",
+  "distractors": [
+   "в свободное время",
+   "на курсе немецкого"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L1_words_3",
+  "id": "ch09_L1_words_3",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_003",
+  "prompt": "Что значит «gern»?",
+  "answer": "охотно, с удовольствием",
+  "distractors": [
+   "редко, через силу",
+   "быстро, без остановки"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L1_words_4",
+  "id": "ch09_L1_words_4",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_004",
+  "prompt": "Что значит «ich schwimme»?",
+  "answer": "я плаваю",
+  "distractors": [
+   "я играю",
+   "я учу"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L1_words_5",
+  "id": "ch09_L1_words_5",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_005",
+  "prompt": "Что значит «immer»?",
+  "answer": "всегда",
+  "distractors": [
+   "иногда",
+   "никогда"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L1_words_6",
+  "id": "ch09_L1_words_6",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_011",
+  "prompt": "Что значит «selten»?",
+  "answer": "редко",
+  "distractors": [
+   "часто",
+   "никогда"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L1_listen_1",
+  "id": "ch09_L1_listen_1",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d1_01",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Что ты делаешь в свободное время?",
+  "distractors": [
+   "Что ты учишь в свободное время?",
+   "Как часто ты это делаешь?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d1_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L1_listen_2",
+  "id": "ch09_L1_listen_2",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d1_02",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Я играю на компьютере.",
+  "distractors": [
+   "Я учу немецкий.",
+   "Я плаваю с удовольствием."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d1_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L1_listen_3",
+  "id": "ch09_L1_listen_3",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d1_04",
+  "prompt": "Послушай. Когда герой играет?",
+  "answer": "вечером",
+  "distractors": [
+   "утром",
+   "ночью"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d1_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L1_listen_4",
+  "id": "ch09_L1_listen_4",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d1_10",
+  "prompt": "Послушай. Утром герой плавает …",
+  "answer": "часто",
+  "distractors": [
+   "всегда",
+   "никогда"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d1_10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L1_listen_5",
+  "id": "ch09_L1_listen_5",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d1_12",
+  "prompt": "Послушай. Как часто герой плавает вечером?",
+  "answer": "иногда",
+  "distractors": [
+   "всегда",
+   "никогда"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d1_12.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L1_listen_6",
+  "id": "ch09_L1_listen_6",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d1_14",
+  "prompt": "Послушай. Как часто герой плавает в выходные?",
+  "answer": "редко",
+  "distractors": [
+   "часто",
+   "никогда"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d1_14.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L1_read_1",
+  "id": "ch09_L1_read_1",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_003",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Что ты любишь делать?",
+  "distractors": [
+   "Что ты учишь?",
+   "Как часто ты это делаешь?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Was machst du gern?"
+ },
+ {
+  "item_id": "ch09_L1_read_2",
+  "id": "ch09_L1_read_2",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_d1_03",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Как часто ты это делаешь?",
+  "distractors": [
+   "Что ты любишь делать?",
+   "Что ты делаешь вечером?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie oft machst du das?"
+ },
+ {
+  "item_id": "ch09_L1_read_3",
+  "id": "ch09_L1_read_3",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_d1_05",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Ты и ночью тоже играешь?",
+  "distractors": [
+   "Ты играешь только ночью?",
+   "Ты и утром тоже играешь?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Spielst du auch in der Nacht?"
+ },
+ {
+  "item_id": "ch09_L1_read_4",
+  "id": "ch09_L1_read_4",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_d1_09",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Как часто ты плаваешь?",
+  "distractors": [
+   "Где ты плаваешь?",
+   "Ты любишь плавать?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie oft schwimmst du?"
+ },
+ {
+  "item_id": "ch09_L1_read_5",
+  "id": "ch09_L1_read_5",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_d1_12",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Вечером я иногда плаваю.",
+  "distractors": [
+   "Вечером я никогда не плаваю.",
+   "Утром я иногда плаваю."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Abend schwimme ich manchmal."
+ },
+ {
+  "item_id": "ch09_L1_speak_1",
+  "id": "ch09_L1_speak_1",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_d1_01",
+  "prompt": "Спроси однокурсника: «Что ты делаешь в свободное время?»",
+  "answer": "Was machst du in der Freizeit?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d1_01.mp3",
+  "de": null,
+  "accept": [
+   "Was machst du in der Freizeit?"
+  ]
+ },
+ {
+  "item_id": "ch09_L1_speak_2",
+  "id": "ch09_L1_speak_2",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_002",
+  "prompt": "Ответь про себя: «Я играю на компьютере.» spiele — «шпи:лэ».",
+  "answer": "Ich spiele am Computer.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_002.mp3",
+  "de": null,
+  "accept": [
+   "Ich spiele am Computer."
+  ]
+ },
+ {
+  "item_id": "ch09_L1_speak_3",
+  "id": "ch09_L1_speak_3",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_d1_03",
+  "prompt": "Узнай, как часто: «Как часто ты это делаешь?»",
+  "answer": "Wie oft machst du das?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d1_03.mp3",
+  "de": null,
+  "accept": [
+   "Wie oft machst du das?"
+  ]
+ },
+ {
+  "item_id": "ch09_L1_speak_4",
+  "id": "ch09_L1_speak_4",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_005",
+  "prompt": "Скажи: «Вечером я всегда играю.» Начни со слова «вечером».",
+  "answer": "Am Abend spiele ich immer.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_005.mp3",
+  "de": null,
+  "accept": [
+   "Am Abend spiele ich immer."
+  ]
+ },
+ {
+  "item_id": "ch09_L1_speak_5",
+  "id": "ch09_L1_speak_5",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_004",
+  "prompt": "Скажи: «Я плаваю с удовольствием.»",
+  "answer": "Ich schwimme gern.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_004.mp3",
+  "de": null,
+  "accept": [
+   "Ich schwimme gern."
+  ]
+ },
+ {
+  "item_id": "ch09_L1_write_1",
+  "id": "ch09_L1_write_1",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_005",
+  "prompt": "Впиши действие: «Am Abend ___ ich immer.» (играю)",
+  "answer": "spiele",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_005.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L1_write_2",
+  "id": "ch09_L1_write_2",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_004",
+  "prompt": "Впиши слово: «Ich schwimme ___.» (с удовольствием)",
+  "answer": "gern",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_004.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L1_write_3",
+  "id": "ch09_L1_write_3",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_001",
+  "prompt": "Впиши слово: «Was machst du in der ___?» (свободное время)",
+  "answer": "Freizeit",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch09_001.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L1_write_4",
+  "id": "ch09_L1_write_4",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_d1_10",
+  "prompt": "Впиши слово: «Am Morgen schwimme ich ___.» (часто)",
+  "answer": "oft",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d1_10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L1_write_5",
+  "id": "ch09_L1_write_5",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_d1_05",
+  "prompt": "Впиши действие: «___ du auch in der Nacht?» (играешь)",
+  "answer": "Spielst",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d1_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L1_why_1",
+  "id": "ch09_L1_why_1",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_005",
+  "prompt": "Почему «Am Abend spiele ich», а не «Am Abend ich spiele»?",
+  "answer": "Вагон №1 занят: Am Abend. Действие spiele остаётся в вагоне №2, поэтому ich — после него.",
+  "distractors": [
+   "Вагон №1 занят: Am Abend. Действие spiele остаётся в вагоне №2, поэтому ich — перед него.",
+   "Слово ich ставят в конец, когда говорят о себе."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Abend spiele ich immer."
+ },
+ {
+  "item_id": "ch09_L1_why_2",
+  "id": "ch09_L1_why_2",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_004",
+  "prompt": "Почему «Ich schwimme gern», а не «Ich gern schwimme»?",
+  "answer": "Действие schwimme держит вагон №2, а gern стоит после действия.",
+  "distractors": [
+   "Слово gern ставят после действия только в вопросе.",
+   "Действие schwimme держит вагон №3, а gern стоит после действия."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich schwimme gern."
+ },
+ {
+  "item_id": "ch09_L1_why_3",
+  "id": "ch09_L1_why_3",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_d1_03",
+  "prompt": "Почему в «Wie oft machst du das?» слово machst стоит перед du?",
+  "answer": "wie oft — вопрос-слово из двух слов: за ним сразу действие machst.",
+  "distractors": [
+   "wie oft — слово «да/нет» из двух слов: за ним сразу действие machst.",
+   "Слово du ставят в конец в коротком вопросе."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie oft machst du das?"
+ },
+ {
+  "item_id": "ch09_L1_why_4",
+  "id": "ch09_L1_why_4",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_d1_05",
+  "prompt": "Почему в «Spielst du auch in der Nacht?» слово Spielst стоит первым?",
+  "answer": "Это вопрос «да/нет»: действие Spielst впереди.",
+  "distractors": [
+   "Spielst — самое длинное слово во фразе.",
+   "Так начинают фразу, когда говорят про ночь."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Spielst du auch in der Nacht?"
+ },
+ {
+  "item_id": "ch09_L1_why_5",
+  "id": "ch09_L1_why_5",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_d1_12",
+  "prompt": "Почему «Am Abend schwimme ich», а не «Am Abend ich schwimme»?",
+  "answer": "Вагон №1 занят: Am Abend, поэтому действие schwimme — в вагоне №2, а ich — за ним.",
+  "distractors": [
+   "Вагон №1 занят: Am Abend, поэтому действие schwimme — в вагоне №2, а ich — перед ним.",
+   "Слово manchmal тянет действие schwimme к себе."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Abend schwimme ich manchmal."
+ },
+ {
+  "item_id": "ch09_L1_transfer_1",
+  "id": "ch09_L1_transfer_1",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_t01",
+  "prompt": "Теперь спроси Ольгу ты: «Ты часто играешь на компьютере?»",
+  "answer": "Spielst du oft am Computer?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch09_t01.mp3",
+  "de": null,
+  "accept": [
+   "Spielst du oft am Computer?"
+  ]
+ },
+ {
+  "item_id": "ch09_L1_transfer_2",
+  "id": "ch09_L1_transfer_2",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_t02",
+  "prompt": "Расскажи о себе по-новому: «Иногда я плаваю вечером.» Начни со слова «иногда».",
+  "answer": "Manchmal schwimme ich am Abend.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch09_t02.mp3",
+  "de": null,
+  "accept": [
+   "Manchmal schwimme ich am Abend."
+  ]
+ },
+ {
+  "item_id": "ch09_L1_transfer_3",
+  "id": "ch09_L1_transfer_3",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_t02",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Иногда я плаваю вечером.",
+  "distractors": [
+   "Иногда я играю вечером.",
+   "Вечером я всегда плаваю."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch09_t02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L1_transfer_4",
+  "id": "ch09_L1_transfer_4",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_t02",
+  "prompt": "Впиши действие: «Manchmal ___ ich am Abend.» (плаваю)",
+  "answer": "schwimme",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch09_t02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L1_transfer_5",
+  "id": "ch09_L1_transfer_5",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_t02",
+  "prompt": "Почему «Manchmal schwimme ich», а не «Manchmal ich schwimme»?",
+  "answer": "Вагон №1 занят: Manchmal. Действие schwimme — в вагоне №2, ich — за ним.",
+  "distractors": [
+   "Вагон №1 занят: Manchmal. Действие schwimme — в вагоне №2, ich — перед ним.",
+   "Действие schwimme впереди, потому что это вопрос."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": null,
+  "de": "Manchmal schwimme ich am Abend."
+ },
+ {
+  "item_id": "ch09_L1_boss_1",
+  "id": "ch09_L1_boss_1",
+  "lesson": "ch09_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d1_06",
+  "prompt": "Послушай. Как часто герой играет ночью?",
+  "answer": "никогда",
+  "distractors": [
+   "всегда",
+   "иногда"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d1_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L2_words_1",
+  "id": "ch09_L2_words_1",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_012",
+  "prompt": "Что значит «Kommst du mit?»",
+  "answer": "Ты с нами?",
+  "distractors": [
+   "Ты уходишь?",
+   "Ты что-нибудь купишь?"
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L2_words_2",
+  "id": "ch09_L2_words_2",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_013",
+  "prompt": "Что значит «Ja, ich komme mit.»?",
+  "answer": "Да, я тоже иду.",
+  "distractors": [
+   "Да, я приду позже.",
+   "Нет, я не приду."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L2_words_3",
+  "id": "ch09_L2_words_3",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_015",
+  "prompt": "Что значит «ihn» в «Ich nehme ihn mit.»?",
+  "answer": "его",
+  "distractors": [
+   "её",
+   "их"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L2_words_4",
+  "id": "ch09_L2_words_4",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_016",
+  "prompt": "Что значит «sie» в «Ich nehme sie mit.»?",
+  "answer": "её",
+  "distractors": [
+   "его",
+   "их"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L2_words_5",
+  "id": "ch09_L2_words_5",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_017",
+  "prompt": "Что значит «es» в «Ich nehme es mit.» (про телефон)?",
+  "answer": "его",
+  "distractors": [
+   "её",
+   "их"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L2_listen_1",
+  "id": "ch09_L2_listen_1",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d2_01",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Ты в субботу с нами?",
+  "distractors": [
+   "Ты в воскресенье дома?",
+   "Ты в субботу работаешь?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d2_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L2_listen_2",
+  "id": "ch09_L2_listen_2",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d2_03",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Мы играем во фрисби.",
+  "distractors": [
+   "Мы играем в футбол.",
+   "Мы играем в шахматы."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d2_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L2_listen_3",
+  "id": "ch09_L2_listen_3",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d2_05",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Ты возьмёшь свой мяч с собой?",
+  "distractors": [
+   "Ты возьмёшь свою сумку с собой?",
+   "Ты возьмёшь свой телефон с собой?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d2_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L2_listen_4",
+  "id": "ch09_L2_listen_4",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d2_08",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Я возьму её с собой.",
+  "distractors": [
+   "Я возьму его с собой.",
+   "Я возьму их с собой."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d2_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L2_listen_5",
+  "id": "ch09_L2_listen_5",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d2_10",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Я возьму его с собой.",
+  "distractors": [
+   "Я возьму её с собой.",
+   "Я возьму их с собой."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d2_10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L2_read_1",
+  "id": "ch09_L2_read_1",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_014",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я возьму мой мяч с собой.",
+  "distractors": [
+   "Я возьму твой мяч с собой.",
+   "Я возьму мою сумку с собой."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich nehme meinen Ball mit."
+ },
+ {
+  "item_id": "ch09_L2_read_2",
+  "id": "ch09_L2_read_2",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_d2_05",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Ты возьмёшь свой мяч с собой?",
+  "distractors": [
+   "Ты возьмёшь свою сумку с собой?",
+   "Я возьму свой мяч с собой."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Nimmst du deinen Ball mit?"
+ },
+ {
+  "item_id": "ch09_L2_read_3",
+  "id": "ch09_L2_read_3",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_d2_03",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Мы играем во фрисби.",
+  "distractors": [
+   "Они играют во фрисби.",
+   "Мы играем в футбол."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wir spielen Frisbee."
+ },
+ {
+  "item_id": "ch09_L2_read_4",
+  "id": "ch09_L2_read_4",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_d2_07",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "А твою сумку?",
+  "distractors": [
+   "А твой мяч?",
+   "А твой телефон?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Und deine Tasche?"
+ },
+ {
+  "item_id": "ch09_L2_read_5",
+  "id": "ch09_L2_read_5",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_d2_09",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "А твой телефон?",
+  "distractors": [
+   "А твою сумку?",
+   "А твой мяч?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Und dein Handy?"
+ },
+ {
+  "item_id": "ch09_L2_speak_1",
+  "id": "ch09_L2_speak_1",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_d2_01",
+  "prompt": "Позови друга: «Ты в субботу с нами?»",
+  "answer": "Kommst du am Samstag mit?",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d2_01.mp3",
+  "de": null,
+  "accept": [
+   "Kommst du am Samstag mit?"
+  ]
+ },
+ {
+  "item_id": "ch09_L2_speak_2",
+  "id": "ch09_L2_speak_2",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_013",
+  "prompt": "Согласись: «Да, я тоже иду.»",
+  "answer": "Ja, ich komme mit.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_013.mp3",
+  "de": null,
+  "accept": [
+   "Ja, ich komme mit."
+  ]
+ },
+ {
+  "item_id": "ch09_L2_speak_3",
+  "id": "ch09_L2_speak_3",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_015",
+  "prompt": "Про мяч скажи коротко: «Я возьму его с собой.»",
+  "answer": "Ich nehme ihn mit.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_015.mp3",
+  "de": null,
+  "accept": [
+   "Ich nehme ihn mit."
+  ]
+ },
+ {
+  "item_id": "ch09_L2_speak_4",
+  "id": "ch09_L2_speak_4",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_016",
+  "prompt": "Про сумку скажи коротко: «Я возьму её с собой.»",
+  "answer": "Ich nehme sie mit.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_016.mp3",
+  "de": null,
+  "accept": [
+   "Ich nehme sie mit."
+  ]
+ },
+ {
+  "item_id": "ch09_L2_speak_5",
+  "id": "ch09_L2_speak_5",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_017",
+  "prompt": "Про телефон скажи коротко: «Я возьму его с собой.»",
+  "answer": "Ich nehme es mit.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_017.mp3",
+  "de": null,
+  "accept": [
+   "Ich nehme es mit."
+  ]
+ },
+ {
+  "item_id": "ch09_L2_write_1",
+  "id": "ch09_L2_write_1",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_015",
+  "prompt": "Впиши слово: «Ich nehme ___ mit.» (мяч — его)",
+  "answer": "ihn",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_015.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L2_write_2",
+  "id": "ch09_L2_write_2",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_016",
+  "prompt": "Впиши слово: «Ich nehme ___ mit.» (сумка — её)",
+  "answer": "sie",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_016.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L2_write_3",
+  "id": "ch09_L2_write_3",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_017",
+  "prompt": "Впиши слово: «Ich nehme ___ mit.» (телефон — его)",
+  "answer": "es",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_017.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L2_write_4",
+  "id": "ch09_L2_write_4",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_014",
+  "prompt": "Впиши слово: «Ich nehme ___ Ball mit.» (свой)",
+  "answer": "meinen",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_014.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L2_write_5",
+  "id": "ch09_L2_write_5",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_d2_05",
+  "prompt": "Впиши слово: «Nimmst du ___ Ball mit?» (свой, твой)",
+  "answer": "deinen",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d2_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L2_why_1",
+  "id": "ch09_L2_why_1",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_015",
+  "prompt": "Почему про мяч говорят «ihn», а не «er»?",
+  "answer": "Мяч в вагоне «кого-что»: er → ihn. Так заменяют слово с der.",
+  "distractors": [
+   "Потому что Ball — слово среднего рода, а у них всегда ihn.",
+   "Потому что ihn по правилу ставят в самый конец фразы."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich nehme ihn mit."
+ },
+ {
+  "item_id": "ch09_L2_why_2",
+  "id": "ch09_L2_why_2",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_016",
+  "prompt": "Почему про сумку говорят «sie», а не «ihn»?",
+  "answer": "Tasche — слово с die, а ihn подходит только вместо слов с der.",
+  "distractors": [
+   "Потому что Tasche — слово женского рода, а ihn женский.",
+   "Потому что sie короче, чем ihn."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich nehme sie mit."
+ },
+ {
+  "item_id": "ch09_L2_why_3",
+  "id": "ch09_L2_why_3",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_017",
+  "prompt": "Почему про телефон говорят «es»?",
+  "answer": "Handy — слово с das; вместо слов с das говорят es.",
+  "distractors": [
+   "Потому что Handy — слово с der, а вместо der говорят es.",
+   "Потому что телефон маленький, а для мелочей говорят es."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich nehme es mit."
+ },
+ {
+  "item_id": "ch09_L2_why_4",
+  "id": "ch09_L2_why_4",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_014",
+  "prompt": "Почему «meinen Ball», а не «mein Ball»?",
+  "answer": "Ball — слово с der; в вагоне «кого-что» mein меняется на meinen.",
+  "distractors": [
+   "Потому что Ball — слово с das, а у das mein → meinen.",
+   "Потому что meinen по правилу говорят в начале фразы."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich nehme meinen Ball mit."
+ },
+ {
+  "item_id": "ch09_L2_why_5",
+  "id": "ch09_L2_why_5",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_012",
+  "prompt": "Почему в «Kommst du mit?» слово mit стоит в конце?",
+  "answer": "Это «хвост» действия: mit отрывается от kommst и уходит в самый конец.",
+  "distractors": [
+   "Потому что mit — это вопрос-слово, и оно уходит в конец.",
+   "Потому что слово du должно стоять рядом с mit, в самом конце."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Kommst du mit?"
+ },
+ {
+  "item_id": "ch09_L2_transfer_1",
+  "id": "ch09_L2_transfer_1",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_t03",
+  "prompt": "Спроси Ольгу про мяч: «Ты возьмёшь его с собой?»",
+  "answer": "Nimmst du ihn mit?",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch09_t03.mp3",
+  "de": null,
+  "accept": [
+   "Nimmst du ihn mit?"
+  ]
+ },
+ {
+  "item_id": "ch09_L2_transfer_2",
+  "id": "ch09_L2_transfer_2",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_t04",
+  "prompt": "Скажи Ольге: «Я возьму мой телефон с собой.»",
+  "answer": "Ich nehme mein Handy mit.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch09_t04.mp3",
+  "de": null,
+  "accept": [
+   "Ich nehme mein Handy mit."
+  ]
+ },
+ {
+  "item_id": "ch09_L2_transfer_3",
+  "id": "ch09_L2_transfer_3",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_t04",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Я возьму мой телефон с собой.",
+  "distractors": [
+   "Я возьму мою сумку с собой.",
+   "Я возьму мой мяч с собой."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch09_t04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L2_transfer_4",
+  "id": "ch09_L2_transfer_4",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_t04",
+  "prompt": "Впиши слово: «Ich nehme ___ Handy mit.» (мой)",
+  "answer": "mein",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch09_t04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L2_transfer_5",
+  "id": "ch09_L2_transfer_5",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_t04",
+  "prompt": "Почему «mein Handy», а не «meinen Handy»?",
+  "answer": "Handy — слово с das: у слов с das mein не меняется в вагоне «кого-что».",
+  "distractors": [
+   "Потому что Handy стоит перед mit, а перед mit -en не пишут.",
+   "Потому что форму meinen говорят только про людей, не про вещи."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": null,
+  "de": "Ich nehme mein Handy mit."
+ },
+ {
+  "item_id": "ch09_L2_boss_1",
+  "id": "ch09_L2_boss_1",
+  "lesson": "ch09_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d2_06",
+  "prompt": "Послушай. Что ответил герой про мяч?",
+  "answer": "Да, я возьму его с собой.",
+  "distractors": [
+   "Да, я возьму её с собой.",
+   "Нет, я не возьму его."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d2_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L3_words_1",
+  "id": "ch09_L3_words_1",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_021",
+  "prompt": "Что значит «Wohin gehen wir?»",
+  "answer": "Куда мы идём?",
+  "distractors": [
+   "Где мы живём?",
+   "Когда мы идём?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L3_words_2",
+  "id": "ch09_L3_words_2",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_022",
+  "prompt": "Что значит «in den Park»?",
+  "answer": "в парк",
+  "distractors": [
+   "в городе",
+   "в кино"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L3_words_3",
+  "id": "ch09_L3_words_3",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_023",
+  "prompt": "Что значит «in die Stadt»?",
+  "answer": "в город",
+  "distractors": [
+   "в парк",
+   "в кино"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L3_words_4",
+  "id": "ch09_L3_words_4",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_024",
+  "prompt": "Что значит «ins Kino»?",
+  "answer": "в кино",
+  "distractors": [
+   "в город",
+   "в бассейн"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L3_words_5",
+  "id": "ch09_L3_words_5",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_025",
+  "prompt": "Что значит «Eintritt»?",
+  "answer": "вход",
+  "distractors": [
+   "билет",
+   "касса"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L3_listen_1",
+  "id": "ch09_L3_listen_1",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d3_01",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Что мы будем делать в субботу?",
+  "distractors": [
+   "Куда мы пойдём в субботу?",
+   "Что мы будем делать в воскресенье?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d3_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L3_listen_2",
+  "id": "ch09_L3_listen_2",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d3_03",
+  "prompt": "Послушай. Что ответила Ольга?",
+  "answer": "Мы идём в парк.",
+  "distractors": [
+   "Мы идём в кино.",
+   "Мы идём в город."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d3_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L3_listen_3",
+  "id": "ch09_L3_listen_3",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d3_05",
+  "prompt": "Послушай. Что Ольга сказала про вечер?",
+  "answer": "Мы идём в кино.",
+  "distractors": [
+   "Мы идём в парк.",
+   "Мы идём в город."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d3_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L3_listen_4",
+  "id": "ch09_L3_listen_4",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d3_07",
+  "prompt": "Послушай. Что сказала Ольга про билеты?",
+  "answer": "Билеты стоят восемь евро.",
+  "distractors": [
+   "Билеты стоят четыре евро.",
+   "Вход бесплатный."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d3_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L3_listen_5",
+  "id": "ch09_L3_listen_5",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d3_09",
+  "prompt": "Послушай. Что Ольга сказала про кино?",
+  "answer": "Кино в восемь часов.",
+  "distractors": [
+   "Кино в семь часов.",
+   "Кино в девять часов."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d3_09.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L3_read_1",
+  "id": "ch09_L3_read_1",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_020",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Что мы будем делать в субботу?",
+  "distractors": [
+   "Куда мы пойдём в субботу?",
+   "Что мы будем делать в воскресенье?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Was machen wir am Samstag?"
+ },
+ {
+  "item_id": "ch09_L3_read_2",
+  "id": "ch09_L3_read_2",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_025",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Сколько стоит вход?",
+  "distractors": [
+   "Сколько стоит билет?",
+   "Когда начинается вход?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Was kostet der Eintritt?"
+ },
+ {
+  "item_id": "ch09_L3_read_3",
+  "id": "ch09_L3_read_3",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_026",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Билеты стоят восемь евро.",
+  "distractors": [
+   "Билет стоит восемь евро.",
+   "Билеты стоят семь евро."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Karten kosten acht Euro."
+ },
+ {
+  "item_id": "ch09_L3_read_4",
+  "id": "ch09_L3_read_4",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_d3_10",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Хорошо. В воскресенье мы идём в город.",
+  "distractors": [
+   "Хорошо. В субботу мы идём в город.",
+   "Хорошо. В воскресенье мы идём в кино."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Gut. Am Sonntag gehen wir in die Stadt."
+ },
+ {
+  "item_id": "ch09_L3_read_5",
+  "id": "ch09_L3_read_5",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_d3_11",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "А в бассейн мы тоже идём?",
+  "distractors": [
+   "А в бассейн мы идём только днём?",
+   "А в кино мы тоже идём?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Gehen wir auch ins Schwimmbad?"
+ },
+ {
+  "item_id": "ch09_L3_speak_1",
+  "id": "ch09_L3_speak_1",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_021",
+  "prompt": "Спроси: «Куда мы идём?»",
+  "answer": "Wohin gehen wir?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch09_021.mp3",
+  "de": null,
+  "accept": [
+   "Wohin gehen wir?"
+  ]
+ },
+ {
+  "item_id": "ch09_L3_speak_2",
+  "id": "ch09_L3_speak_2",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_022",
+  "prompt": "Скажи: «Мы идём в парк.»",
+  "answer": "Wir gehen in den Park.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_022.mp3",
+  "de": null,
+  "accept": [
+   "Wir gehen in den Park."
+  ]
+ },
+ {
+  "item_id": "ch09_L3_speak_3",
+  "id": "ch09_L3_speak_3",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_023",
+  "prompt": "Скажи: «Мы идём в город.»",
+  "answer": "Wir gehen in die Stadt.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_023.mp3",
+  "de": null,
+  "accept": [
+   "Wir gehen in die Stadt."
+  ]
+ },
+ {
+  "item_id": "ch09_L3_speak_4",
+  "id": "ch09_L3_speak_4",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_024",
+  "prompt": "Скажи: «Мы идём в кино.»",
+  "answer": "Wir gehen ins Kino.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_024.mp3",
+  "de": null,
+  "accept": [
+   "Wir gehen ins Kino."
+  ]
+ },
+ {
+  "item_id": "ch09_L3_speak_5",
+  "id": "ch09_L3_speak_5",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_025",
+  "prompt": "Спроси на кассе: «Сколько стоит вход?»",
+  "answer": "Was kostet der Eintritt?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch09_025.mp3",
+  "de": null,
+  "accept": [
+   "Was kostet der Eintritt?"
+  ]
+ },
+ {
+  "item_id": "ch09_L3_write_1",
+  "id": "ch09_L3_write_1",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_022",
+  "prompt": "Впиши слово: «Wir gehen in ___ Park.» (в парк)",
+  "answer": "den",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_022.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L3_write_2",
+  "id": "ch09_L3_write_2",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_023",
+  "prompt": "Впиши слово: «Wir gehen in ___ Stadt.» (в город)",
+  "answer": "die",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_023.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L3_write_3",
+  "id": "ch09_L3_write_3",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_024",
+  "prompt": "Впиши слово: «Wir gehen ___ Kino.» (в кино, in и das вместе)",
+  "answer": "ins",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_024.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L3_write_4",
+  "id": "ch09_L3_write_4",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_021",
+  "prompt": "Впиши слово: «___ gehen wir?» (куда)",
+  "answer": "Wohin",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch09_021.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L3_write_5",
+  "id": "ch09_L3_write_5",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_026",
+  "prompt": "Впиши слово: «Die Karten ___ acht Euro.» (стоят)",
+  "answer": "kosten",
+  "distractors": null,
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v1/ch09_026.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L3_why_1",
+  "id": "ch09_L3_why_1",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_022",
+  "prompt": "Почему «in den Park», а не «in der Park»?",
+  "answer": "Идём туда — метка кого-что: у слов с der артикль меняется на den.",
+  "distractors": [
+   "Потому что Park стоит в конце фразы, а там всегда den.",
+   "Потому что der говорят только про город, а про парк — den."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Wir gehen in den Park."
+ },
+ {
+  "item_id": "ch09_L3_why_2",
+  "id": "ch09_L3_why_2",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_023",
+  "prompt": "Почему «in die Stadt», а не «in den Stadt»?",
+  "answer": "Stadt — слово с die; у слов с die артикль не меняется.",
+  "distractors": [
+   "Потому что город — большое место.",
+   "Потому что den говорят после in у всех слов."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Wir gehen in die Stadt."
+ },
+ {
+  "item_id": "ch09_L3_why_3",
+  "id": "ch09_L3_why_3",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_024",
+  "prompt": "Почему говорят «ins Kino», а не «in das Kino»?",
+  "answer": "In и das склеиваются в одно слово ins.",
+  "distractors": [
+   "Потому что Kino — слово с der.",
+   "Потому что ins ставят в конец фразы."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Wir gehen ins Kino."
+ },
+ {
+  "item_id": "ch09_L3_why_4",
+  "id": "ch09_L3_why_4",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_021",
+  "prompt": "Чем «wohin» отличается от «wo»?",
+  "answer": "wohin — «куда» (движение туда), wo — «где» (место).",
+  "distractors": [
+   "wohin — «когда», а wo — «где»: это вопрос о времени.",
+   "wohin и wo — одно и то же слово, wohin просто длиннее."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": null,
+  "de": "Wohin gehen wir?"
+ },
+ {
+  "item_id": "ch09_L3_why_5",
+  "id": "ch09_L3_why_5",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_026",
+  "prompt": "Почему «Die Karten kosten», а не «kostet»?",
+  "answer": "Karten — билетов несколько: kosten.",
+  "distractors": [
+   "Потому что Euro стоит после действия.",
+   "Потому что die ставят перед kosten."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Karten kosten acht Euro."
+ },
+ {
+  "item_id": "ch09_L3_transfer_1",
+  "id": "ch09_L3_transfer_1",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_t05",
+  "prompt": "Предложи Ольге: «Мы пойдём в парк?»",
+  "answer": "Gehen wir in den Park?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch09_t05.mp3",
+  "de": null,
+  "accept": [
+   "Gehen wir in den Park?"
+  ]
+ },
+ {
+  "item_id": "ch09_L3_transfer_2",
+  "id": "ch09_L3_transfer_2",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_t06",
+  "prompt": "Скажи Ольге: «В воскресенье мы идём в кино.»",
+  "answer": "Am Sonntag gehen wir ins Kino.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch09_t06.mp3",
+  "de": null,
+  "accept": [
+   "Am Sonntag gehen wir ins Kino."
+  ]
+ },
+ {
+  "item_id": "ch09_L3_transfer_3",
+  "id": "ch09_L3_transfer_3",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_t06",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "В воскресенье мы идём в кино.",
+  "distractors": [
+   "В воскресенье мы идём в город.",
+   "В субботу мы идём в кино."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch09_t06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L3_transfer_4",
+  "id": "ch09_L3_transfer_4",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_t06",
+  "prompt": "Впиши слово: «Am Sonntag gehen wir ___ Kino.» (в кино)",
+  "answer": "ins",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch09_t06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L3_transfer_5",
+  "id": "ch09_L3_transfer_5",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_t06",
+  "prompt": "Почему «Am Sonntag gehen wir», а не «Am Sonntag wir gehen»?",
+  "answer": "Вагон №1 занят: Am Sonntag. Действие gehen — в вагоне №2, wir — за ним.",
+  "distractors": [
+   "После слова Sonntag слово wir по правилу не говорят.",
+   "Действие gehen стоит впереди, потому что это вопрос да/нет."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": null,
+  "de": "Am Sonntag gehen wir ins Kino."
+ },
+ {
+  "item_id": "ch09_L3_boss_1",
+  "id": "ch09_L3_boss_1",
+  "lesson": "ch09_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d3_12",
+  "prompt": "Послушай. Что ответил герой про бассейн?",
+  "answer": "Да, с удовольствием.",
+  "distractors": [
+   "Нет, не хочу.",
+   "Да, но позже."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d3_12.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L4_words_1",
+  "id": "ch09_L4_words_1",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_029",
+  "prompt": "Что значит «gestern»?",
+  "answer": "вчера",
+  "distractors": [
+   "сегодня",
+   "завтра"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L4_words_2",
+  "id": "ch09_L4_words_2",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_030",
+  "prompt": "Что значит «Ich habe Deutsch gelernt.»?",
+  "answer": "Я учил немецкий.",
+  "distractors": [
+   "Я учу немецкий.",
+   "Я забыл немецкий."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L4_words_3",
+  "id": "ch09_L4_words_3",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_031",
+  "prompt": "Что значит «gespielt»?",
+  "answer": "играл",
+  "distractors": [
+   "играю",
+   "учил"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L4_words_4",
+  "id": "ch09_L4_words_4",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_032",
+  "prompt": "Что значит «Ich habe gearbeitet.»?",
+  "answer": "Я работал.",
+  "distractors": [
+   "Я работаю.",
+   "Я отдыхал."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L4_words_5",
+  "id": "ch09_L4_words_5",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_033",
+  "prompt": "Что значит «Heute spiele ich Fußball.»?",
+  "answer": "Сегодня я играю в футбол.",
+  "distractors": [
+   "Вчера я играл в футбол.",
+   "Сегодня я смотрю футбол."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L4_listen_1",
+  "id": "ch09_L4_listen_1",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d4_01",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Что ты делал вчера?",
+  "distractors": [
+   "Что ты делаешь сегодня?",
+   "Где ты был вчера?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d4_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L4_listen_2",
+  "id": "ch09_L4_listen_2",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d4_02",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Вчера я учил немецкий.",
+  "distractors": [
+   "Вчера я играл в футбол.",
+   "Вчера я работал."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d4_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L4_listen_3",
+  "id": "ch09_L4_listen_3",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d4_04",
+  "prompt": "Послушай. Что делал герой вечером?",
+  "answer": "Вечером я играл в шахматы.",
+  "distractors": [
+   "Вечером я играл в футбол.",
+   "Вечером я работал."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d4_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L4_listen_4",
+  "id": "ch09_L4_listen_4",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d4_05",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Вчера я работала.",
+  "distractors": [
+   "Сегодня я работаю.",
+   "Вчера я отдыхала."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d4_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L4_listen_5",
+  "id": "ch09_L4_listen_5",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d4_07",
+  "prompt": "Послушай. До скольки работала Ольга?",
+  "answer": "До половины пятого.",
+  "distractors": [
+   "До половины шестого.",
+   "До пяти часов."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d4_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L4_read_1",
+  "id": "ch09_L4_read_1",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_029",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Что ты делал вчера?",
+  "distractors": [
+   "Что ты делаешь сегодня?",
+   "Что ты делал вечером?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Was hast du gestern gemacht?"
+ },
+ {
+  "item_id": "ch09_L4_read_2",
+  "id": "ch09_L4_read_2",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_031",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Вчера я играл в футбол.",
+  "distractors": [
+   "Сегодня я играю в футбол.",
+   "Вчера я играл в шахматы."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Gestern habe ich Fußball gespielt."
+ },
+ {
+  "item_id": "ch09_L4_read_3",
+  "id": "ch09_L4_read_3",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_d4_04",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Вечером я играл в шахматы.",
+  "distractors": [
+   "Вечером я играю в шахматы.",
+   "Утром я играл в шахматы."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Abend habe ich Schach gespielt."
+ },
+ {
+  "item_id": "ch09_L4_read_4",
+  "id": "ch09_L4_read_4",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_d4_06",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Как долго ты работала?",
+  "distractors": [
+   "Где ты работала?",
+   "Когда ты работала?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie lange hast du gearbeitet?"
+ },
+ {
+  "item_id": "ch09_L4_read_5",
+  "id": "ch09_L4_read_5",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_d4_08",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Сегодня я играю в футбол.",
+  "distractors": [
+   "Вчера я играл в футбол.",
+   "Сегодня я смотрю футбол."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Heute spiele ich Fußball."
+ },
+ {
+  "item_id": "ch09_L4_speak_1",
+  "id": "ch09_L4_speak_1",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_029",
+  "prompt": "Спроси: «Что ты делал вчера?»",
+  "answer": "Was hast du gestern gemacht?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch09_029.mp3",
+  "de": null,
+  "accept": [
+   "Was hast du gestern gemacht?"
+  ]
+ },
+ {
+  "item_id": "ch09_L4_speak_2",
+  "id": "ch09_L4_speak_2",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_030",
+  "prompt": "Скажи: «Я учил немецкий.»",
+  "answer": "Ich habe Deutsch gelernt.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch09_030.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe Deutsch gelernt."
+  ]
+ },
+ {
+  "item_id": "ch09_L4_speak_3",
+  "id": "ch09_L4_speak_3",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_031",
+  "prompt": "Скажи: «Вчера я играл в футбол.» Начни со слова «вчера».",
+  "answer": "Gestern habe ich Fußball gespielt.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch09_031.mp3",
+  "de": null,
+  "accept": [
+   "Gestern habe ich Fußball gespielt."
+  ]
+ },
+ {
+  "item_id": "ch09_L4_speak_4",
+  "id": "ch09_L4_speak_4",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_032",
+  "prompt": "Скажи: «Я работал.»",
+  "answer": "Ich habe gearbeitet.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch09_032.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe gearbeitet."
+  ]
+ },
+ {
+  "item_id": "ch09_L4_speak_5",
+  "id": "ch09_L4_speak_5",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_d4_06",
+  "prompt": "Спроси Ольгу: «Как долго ты работала?»",
+  "answer": "Wie lange hast du gearbeitet?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d4_06.mp3",
+  "de": null,
+  "accept": [
+   "Wie lange hast du gearbeitet?"
+  ]
+ },
+ {
+  "item_id": "ch09_L4_write_1",
+  "id": "ch09_L4_write_1",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_030",
+  "prompt": "Впиши слово: «Ich habe Deutsch ___.» (учил)",
+  "answer": "gelernt",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch09_030.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L4_write_2",
+  "id": "ch09_L4_write_2",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_031",
+  "prompt": "Впиши слово: «Gestern habe ich Fußball ___.» (играл)",
+  "answer": "gespielt",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch09_031.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L4_write_3",
+  "id": "ch09_L4_write_3",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_029",
+  "prompt": "Впиши слово: «Was hast du gestern ___?» (делал)",
+  "answer": "gemacht",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch09_029.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L4_write_4",
+  "id": "ch09_L4_write_4",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_032",
+  "prompt": "Впиши слово: «Ich habe ___.» (работал)",
+  "answer": "gearbeitet",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch09_032.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L4_write_5",
+  "id": "ch09_L4_write_5",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_029",
+  "prompt": "Впиши слово: «Was ___ du gestern gemacht?» (помощник: ты)",
+  "answer": "hast",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch09_029.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L4_why_1",
+  "id": "ch09_L4_why_1",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_030",
+  "prompt": "Почему «Ich habe Deutsch gelernt», а не «Ich habe gelernt Deutsch»?",
+  "answer": "Помощник habe — в вагоне №2, а слово на ge- — в самом конце фразы.",
+  "distractors": [
+   "Потому что Deutsch надо ставить в самый конец.",
+   "Помощник habe — в вагоне №2, а слово на ge- — в самом начале фразы."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe Deutsch gelernt."
+ },
+ {
+  "item_id": "ch09_L4_why_2",
+  "id": "ch09_L4_why_2",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_031",
+  "prompt": "Почему «Gestern habe ich», а не «Gestern ich habe»?",
+  "answer": "Вагон №1 занят: Gestern. Помощник habe — в вагоне №2, ich — за ним.",
+  "distractors": [
+   "Потому что вчера помощник ставят в самое начало.",
+   "Вагон №1 занят: Gestern. Помощник habe — в вагоне №2, ich — перед ним."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Gestern habe ich Fußball gespielt."
+ },
+ {
+  "item_id": "ch09_L4_why_3",
+  "id": "ch09_L4_why_3",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_032",
+  "prompt": "Почему «gearbeitet», а не «gearbeitt»?",
+  "answer": "Корень arbeit кончается на t, поэтому перед последним t добавляют e.",
+  "distractors": [
+   "Потому что слова на ge- у всех кончаются на et, неважно какой корень.",
+   "Потому что arbeit — длинное слово, и его надо растянуть на лишний слог."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe gearbeitet."
+ },
+ {
+  "item_id": "ch09_L4_why_4",
+  "id": "ch09_L4_why_4",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_029",
+  "prompt": "Почему в «Was hast du gestern gemacht?» слово gemacht стоит в конце?",
+  "answer": "Что именно случилось, говорят в самом конце: помощник hast — на втором месте.",
+  "distractors": [
+   "Потому что вопрос всегда кончается на слово с ge-.",
+   "Что именно случилось, говорят впереди: помощник hast — на втором месте."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Was hast du gestern gemacht?"
+ },
+ {
+  "item_id": "ch09_L4_why_5",
+  "id": "ch09_L4_why_5",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_033",
+  "prompt": "Почему «Ich spiele Fußball» — одно слово spiele, а «Ich habe Fußball gespielt» — два слова: habe и gespielt?",
+  "answer": "Играю сейчас — хватает одного слова spiele. Рассказ о том, что было, — два слова: habe и gespielt.",
+  "distractors": [
+   "Потому что в слове Heute всегда нужен помощник: он стоит рядом с этим словом.",
+   "Потому что heute — вопрос-слово, а после вопрос-слова всегда ставят два слова."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Heute spiele ich Fußball."
+ },
+ {
+  "item_id": "ch09_L4_transfer_1",
+  "id": "ch09_L4_transfer_1",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_t07",
+  "prompt": "Расскажи по-новому: «Я вчера играл в футбол.» Начни с «я».",
+  "answer": "Ich habe gestern Fußball gespielt.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch09_t07.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe gestern Fußball gespielt."
+  ]
+ },
+ {
+  "item_id": "ch09_L4_transfer_2",
+  "id": "ch09_L4_transfer_2",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_t08",
+  "prompt": "Спроси Ольгу: «Где ты работала?»",
+  "answer": "Wo hast du gearbeitet?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch09_t08.mp3",
+  "de": null,
+  "accept": [
+   "Wo hast du gearbeitet?"
+  ]
+ },
+ {
+  "item_id": "ch09_L4_transfer_3",
+  "id": "ch09_L4_transfer_3",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_t08",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Где ты работал?",
+  "distractors": [
+   "Как долго ты работала?",
+   "Где ты играла?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch09_t08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L4_transfer_4",
+  "id": "ch09_L4_transfer_4",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_t08",
+  "prompt": "Впиши слово: «Wo hast du ___?» (работал)",
+  "answer": "gearbeitet",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": "audio_v1/ch09_t08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L4_transfer_5",
+  "id": "ch09_L4_transfer_5",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_t08",
+  "prompt": "Почему в «Wo hast du gearbeitet?» слово gearbeitet стоит в конце?",
+  "answer": "Помощник hast — на втором месте, а что именно случилось — в самом конце.",
+  "distractors": [
+   "Помощник hast — на втором месте, а что именно случилось — в самом начале.",
+   "Потому что вопрос кончается на du."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": null,
+  "de": "Wo hast du gearbeitet?"
+ },
+ {
+  "item_id": "ch09_L4_boss_1",
+  "id": "ch09_L4_boss_1",
+  "lesson": "ch09_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d4_06",
+  "prompt": "Послушай. О чём спросил герой?",
+  "answer": "про длительность",
+  "distractors": [
+   "про место",
+   "про время суток"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d4_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L5_words_1",
+  "id": "ch09_L5_words_1",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_041",
+  "prompt": "Что значит «Hast du Bier getrunken?»?",
+  "answer": "Ты пил пиво?",
+  "distractors": [
+   "Ты ел пиццу?",
+   "Ты пил молоко?"
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L5_words_2",
+  "id": "ch09_L5_words_2",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_037",
+  "prompt": "Что значит «geschrieben»?",
+  "answer": "написал",
+  "distractors": [
+   "прочитал",
+   "купил"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L5_words_3",
+  "id": "ch09_L5_words_3",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_039",
+  "prompt": "Что значит «Ich habe alles gegessen.»?",
+  "answer": "Я всё съел.",
+  "distractors": [
+   "Я ничего не ел.",
+   "Я всё выпил."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L5_words_4",
+  "id": "ch09_L5_words_4",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_040",
+  "prompt": "Что значит «getrunken»?",
+  "answer": "пил",
+  "distractors": [
+   "ел",
+   "готовил"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L5_words_5",
+  "id": "ch09_L5_words_5",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_038",
+  "prompt": "Что значит «Die Wäsche habe ich gewaschen.»?",
+  "answer": "Бельё я постирал.",
+  "distractors": [
+   "Бельё я купил.",
+   "Бельё я принёс."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L5_listen_1",
+  "id": "ch09_L5_listen_1",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d5_01",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Что ты сегодня делал?",
+  "distractors": [
+   "Что ты делал вчера?",
+   "Где ты был сегодня?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d5_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L5_listen_2",
+  "id": "ch09_L5_listen_2",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d5_02",
+  "prompt": "Послушай. Что сделал герой?",
+  "answer": "Я написал электронное письмо.",
+  "distractors": [
+   "Я прочитал электронное письмо.",
+   "Я получил электронное письмо."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d5_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L5_listen_3",
+  "id": "ch09_L5_listen_3",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d5_04",
+  "prompt": "Послушай. Что сделал герой?",
+  "answer": "Бельё я постирал.",
+  "distractors": [
+   "Бельё я купил.",
+   "Письмо я написал."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d5_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L5_listen_4",
+  "id": "ch09_L5_listen_4",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d5_08",
+  "prompt": "Послушай. Что пил герой?",
+  "answer": "Я пил стакан молока.",
+  "distractors": [
+   "Я пил стакан воды.",
+   "Я ел пиццу."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d5_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L5_listen_5",
+  "id": "ch09_L5_listen_5",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d5_10",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Нет, я не пил пива.",
+  "distractors": [
+   "Да, я пил пиво.",
+   "Нет, я не ел пиццу."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d5_10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L5_read_1",
+  "id": "ch09_L5_read_1",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_036",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Что ты сегодня делал?",
+  "distractors": [
+   "Что ты делал вчера?",
+   "Что ты сегодня ел?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Was hast du heute gemacht?"
+ },
+ {
+  "item_id": "ch09_L5_read_2",
+  "id": "ch09_L5_read_2",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_041",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Ты пил пиво?",
+  "distractors": [
+   "Ты ел пиццу?",
+   "Ты пил вчера?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Hast du Bier getrunken?"
+ },
+ {
+  "item_id": "ch09_L5_read_3",
+  "id": "ch09_L5_read_3",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_d5_03",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "А бельё?",
+  "distractors": [
+   "А письмо?",
+   "А пицца?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Und die Wäsche?"
+ },
+ {
+  "item_id": "ch09_L5_read_4",
+  "id": "ch09_L5_read_4",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_d5_06",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Да, я всё съел.",
+  "distractors": [
+   "Нет, я не ел.",
+   "Да, я всё выпил."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ja, ich habe alles gegessen."
+ },
+ {
+  "item_id": "ch09_L5_read_5",
+  "id": "ch09_L5_read_5",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_d5_09",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "А пиво?",
+  "distractors": [
+   "А пицца?",
+   "А молоко?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Und Bier?"
+ },
+ {
+  "item_id": "ch09_L5_speak_1",
+  "id": "ch09_L5_speak_1",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_036",
+  "prompt": "Спроси: «Что ты сегодня делал?»",
+  "answer": "Was hast du heute gemacht?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch09_036.mp3",
+  "de": null,
+  "accept": [
+   "Was hast du heute gemacht?"
+  ]
+ },
+ {
+  "item_id": "ch09_L5_speak_2",
+  "id": "ch09_L5_speak_2",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_037",
+  "prompt": "Скажи: «Я написал письмо.»",
+  "answer": "Ich habe eine E-Mail geschrieben.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch09_037.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe eine E-Mail geschrieben."
+  ]
+ },
+ {
+  "item_id": "ch09_L5_speak_3",
+  "id": "ch09_L5_speak_3",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_039",
+  "prompt": "Скажи: «Я всё съел.»",
+  "answer": "Ich habe alles gegessen.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch09_039.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe alles gegessen."
+  ]
+ },
+ {
+  "item_id": "ch09_L5_speak_4",
+  "id": "ch09_L5_speak_4",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_040",
+  "prompt": "Скажи: «Я пил один стакан молока.»",
+  "answer": "Ich habe ein Glas Milch getrunken.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch09_040.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe ein Glas Milch getrunken."
+  ]
+ },
+ {
+  "item_id": "ch09_L5_speak_5",
+  "id": "ch09_L5_speak_5",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_038",
+  "prompt": "Скажи: «Бельё я постирал.» Начни со слова «бельё».",
+  "answer": "Die Wäsche habe ich gewaschen.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch09_038.mp3",
+  "de": null,
+  "accept": [
+   "Die Wäsche habe ich gewaschen."
+  ]
+ },
+ {
+  "item_id": "ch09_L5_write_1",
+  "id": "ch09_L5_write_1",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_039",
+  "prompt": "Впиши слово: «Ich habe alles ___.» (съел)",
+  "answer": "gegessen",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch09_039.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L5_write_2",
+  "id": "ch09_L5_write_2",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_040",
+  "prompt": "Впиши слово: «Ich habe ein Glas Milch ___.» (пил)",
+  "answer": "getrunken",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch09_040.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L5_write_3",
+  "id": "ch09_L5_write_3",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_037",
+  "prompt": "Впиши слово: «Ich habe eine E-Mail ___.» (написал)",
+  "answer": "geschrieben",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch09_037.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L5_write_4",
+  "id": "ch09_L5_write_4",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_038",
+  "prompt": "Впиши слово: «Die Wäsche habe ich ___.» (постирал)",
+  "answer": "gewaschen",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch09_038.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L5_write_5",
+  "id": "ch09_L5_write_5",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_041",
+  "prompt": "Впиши слово: «___ du Bier getrunken?» (помощник)",
+  "answer": "Hast",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch09_041.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L5_why_1",
+  "id": "ch09_L5_why_1",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_039",
+  "prompt": "Почему «gegessen», а не «gegesst»?",
+  "answer": "Это особое слово: его запоминают по одному, а не по правилу.",
+  "distractors": [
+   "Потому что все слова на ge- по правилу кончаются на en.",
+   "Потому что корень ess слишком короткий для окончания t."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe alles gegessen."
+ },
+ {
+  "item_id": "ch09_L5_why_2",
+  "id": "ch09_L5_why_2",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_038",
+  "prompt": "Почему «Die Wäsche habe ich gewaschen», а не «Die Wäsche ich habe gewaschen»?",
+  "answer": "Первое место занято: Die Wäsche. habe — на втором, ich — после него.",
+  "distractors": [
+   "Потому что ich по правилу ставят после слова gewaschen.",
+   "Потому что Die Wäsche здесь — это помощник, а не предмет."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Wäsche habe ich gewaschen."
+ },
+ {
+  "item_id": "ch09_L5_why_3",
+  "id": "ch09_L5_why_3",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_041",
+  "prompt": "Почему в «Hast du Bier getrunken?» слово Hast стоит первым?",
+  "answer": "Это вопрос да/нет: помощник идёт вперёд, а getrunken остаётся в самом конце.",
+  "distractors": [
+   "Это вопрос да/нет: помощник идёт вперёд, а getrunken остаётся впереди.",
+   "Потому что такой вопрос начинается со слова getrunken."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Hast du Bier getrunken?"
+ },
+ {
+  "item_id": "ch09_L5_why_4",
+  "id": "ch09_L5_why_4",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_040",
+  "prompt": "Почему «Ich habe ein Glas Milch getrunken», а не «Ich habe getrunken ein Glas Milch»?",
+  "answer": "Слово getrunken остаётся в самом конце, всё остальное — перед ним.",
+  "distractors": [
+   "Потому что слово ein должно стоять в самом конце фразы.",
+   "Потому что Milch — это помощник и стоит на втором месте."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe ein Glas Milch getrunken."
+ },
+ {
+  "item_id": "ch09_L5_why_5",
+  "id": "ch09_L5_why_5",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_d5_10",
+  "prompt": "Почему «Ich habe kein Bier getrunken», а не «Ich habe nicht Bier getrunken»?",
+  "answer": "Перед словом с предметом отрицание — kein: оно стоит вместо ein.",
+  "distractors": [
+   "Потому что nicht по-немецки ставят только в самом конце фразы.",
+   "Потому что слово Bier — это помощник и стоит на втором месте."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Nein, ich habe kein Bier getrunken."
+ },
+ {
+  "item_id": "ch09_L5_transfer_1",
+  "id": "ch09_L5_transfer_1",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_t09",
+  "prompt": "Спроси Ольгу: «Что ты ел вчера?»",
+  "answer": "Was hast du gestern gegessen?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch09_t09.mp3",
+  "de": null,
+  "accept": [
+   "Was hast du gestern gegessen?"
+  ]
+ },
+ {
+  "item_id": "ch09_L5_transfer_2",
+  "id": "ch09_L5_transfer_2",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_t10",
+  "prompt": "Скажи по-новому: «В понедельник я пил один стакан молока.»",
+  "answer": "Am Montag habe ich ein Glas Milch getrunken.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch09_t10.mp3",
+  "de": null,
+  "accept": [
+   "Am Montag habe ich ein Glas Milch getrunken."
+  ]
+ },
+ {
+  "item_id": "ch09_L5_transfer_3",
+  "id": "ch09_L5_transfer_3",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_t10",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "В понедельник я пил стакан молока.",
+  "distractors": [
+   "В субботу я пил стакан молока.",
+   "В понедельник я пил стакан воды."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch09_t10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L5_transfer_4",
+  "id": "ch09_L5_transfer_4",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_t10",
+  "prompt": "Впиши слово: «___ Montag habe ich ein Glas Milch getrunken.» (в понедельник)",
+  "answer": "Am",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch09_t10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L5_transfer_5",
+  "id": "ch09_L5_transfer_5",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_t10",
+  "prompt": "Почему в «Am Montag habe ich ein Glas Milch getrunken.» слово ich стоит после habe?",
+  "answer": "Вагон №1 занят: Am Montag. Помощник habe — в вагоне №2, ich — за ним.",
+  "distractors": [
+   "Потому что ich по правилу стоит сразу после слова Montag.",
+   "Потому что habe — это вагон №1 и поэтому стоит первым."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": null,
+  "de": "Am Montag habe ich ein Glas Milch getrunken."
+ },
+ {
+  "item_id": "ch09_L5_boss_1",
+  "id": "ch09_L5_boss_1",
+  "lesson": "ch09_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d5_07",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "А что ты пил?",
+  "distractors": [
+   "А что ты ел?",
+   "А что ты делал?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d5_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L6_words_1",
+  "id": "ch09_L6_words_1",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_047",
+  "prompt": "Что значит «arbeitet»?",
+  "answer": "работает",
+  "distractors": [
+   "отдыхает",
+   "учится"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L6_words_2",
+  "id": "ch09_L6_words_2",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_048",
+  "prompt": "Что значит «Wann arbeitet der Busfahrer?»?",
+  "answer": "Когда работает водитель автобуса?",
+  "distractors": [
+   "Где работает водитель автобуса?",
+   "Кто работает водителем?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L6_words_3",
+  "id": "ch09_L6_words_3",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_049",
+  "prompt": "Что значит «in der Nacht»?",
+  "answer": "ночью",
+  "distractors": [
+   "утром",
+   "вечером"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L6_words_4",
+  "id": "ch09_L6_words_4",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_050",
+  "prompt": "Что значит «Was möchtest du machen?»?",
+  "answer": "Что ты хочешь делать?",
+  "distractors": [
+   "Что ты сделал?",
+   "Что ты делаешь?"
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L6_words_5",
+  "id": "ch09_L6_words_5",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_051",
+  "prompt": "Что значит «Ich möchte Gitarre spielen.»?",
+  "answer": "Я хочу играть на гитаре.",
+  "distractors": [
+   "Я буду играть на гитаре.",
+   "Я люблю играть на гитаре."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L6_listen_1",
+  "id": "ch09_L6_listen_1",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d6_01",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Кто работает в субботу?",
+  "distractors": [
+   "Кто работает в воскресенье?",
+   "Где работает пекарь?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d6_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L6_listen_2",
+  "id": "ch09_L6_listen_2",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d6_02",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Пекарь работает в субботу.",
+  "distractors": [
+   "Пекарь работает в воскресенье.",
+   "Пилот работает в субботу."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d6_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L6_listen_3",
+  "id": "ch09_L6_listen_3",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d6_04",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Водитель автобуса работает вечером.",
+  "distractors": [
+   "Водитель автобуса работает утром.",
+   "Пилот работает вечером."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d6_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L6_listen_4",
+  "id": "ch09_L6_listen_4",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d6_08",
+  "prompt": "Послушай. Что сказал герой?",
+  "answer": "Я хочу играть на гитаре.",
+  "distractors": [
+   "Я хочу играть в футбол.",
+   "Я хочу плавать в бассейне."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d6_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L6_listen_5",
+  "id": "ch09_L6_listen_5",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d6_09",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Курс во вторник.",
+  "distractors": [
+   "Курс в воскресенье.",
+   "Курс в субботу."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d6_09.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L6_read_1",
+  "id": "ch09_L6_read_1",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_047",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Пекарь работает в субботу.",
+  "distractors": [
+   "Пекарь отдыхает в субботу.",
+   "Пекарь работает в воскресенье."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Der Bäcker arbeitet am Samstag."
+ },
+ {
+  "item_id": "ch09_L6_read_2",
+  "id": "ch09_L6_read_2",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_049",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Пилот работает ночью.",
+  "distractors": [
+   "Пилот работает днём.",
+   "Пилот спит ночью."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Der Pilot arbeitet in der Nacht."
+ },
+ {
+  "item_id": "ch09_L6_read_3",
+  "id": "ch09_L6_read_3",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_050",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Что ты хочешь делать?",
+  "distractors": [
+   "Что ты делал вчера?",
+   "Что ты хочешь есть?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Was möchtest du machen?"
+ },
+ {
+  "item_id": "ch09_L6_read_4",
+  "id": "ch09_L6_read_4",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_d6_03",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Когда работает водитель автобуса?",
+  "distractors": [
+   "Где работает водитель автобуса?",
+   "Кто работает водителем?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wann arbeitet der Busfahrer?"
+ },
+ {
+  "item_id": "ch09_L6_read_5",
+  "id": "ch09_L6_read_5",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_d6_10",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Хорошо. Я приду во вторник.",
+  "distractors": [
+   "Хорошо. Я приду в субботу.",
+   "Хорошо. Я не приду."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Gut. Ich komme am Dienstag."
+ },
+ {
+  "item_id": "ch09_L6_speak_1",
+  "id": "ch09_L6_speak_1",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_046",
+  "prompt": "Спроси: «Кто работает в субботу?»",
+  "answer": "Wer arbeitet am Samstag?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch09_046.mp3",
+  "de": null,
+  "accept": [
+   "Wer arbeitet am Samstag?"
+  ]
+ },
+ {
+  "item_id": "ch09_L6_speak_2",
+  "id": "ch09_L6_speak_2",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_047",
+  "prompt": "Скажи: «Пекарь работает в субботу.»",
+  "answer": "Der Bäcker arbeitet am Samstag.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_047.mp3",
+  "de": null,
+  "accept": [
+   "Der Bäcker arbeitet am Samstag."
+  ]
+ },
+ {
+  "item_id": "ch09_L6_speak_3",
+  "id": "ch09_L6_speak_3",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_049",
+  "prompt": "Скажи: «Пилот работает ночью.»",
+  "answer": "Der Pilot arbeitet in der Nacht.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_049.mp3",
+  "de": null,
+  "accept": [
+   "Der Pilot arbeitet in der Nacht."
+  ]
+ },
+ {
+  "item_id": "ch09_L6_speak_4",
+  "id": "ch09_L6_speak_4",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_050",
+  "prompt": "Спроси: «Что ты хочешь делать?»",
+  "answer": "Was möchtest du machen?",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch09_050.mp3",
+  "de": null,
+  "accept": [
+   "Was möchtest du machen?"
+  ]
+ },
+ {
+  "item_id": "ch09_L6_speak_5",
+  "id": "ch09_L6_speak_5",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_051",
+  "prompt": "Скажи: «Я хочу играть на гитаре.»",
+  "answer": "Ich möchte Gitarre spielen.",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch09_051.mp3",
+  "de": null,
+  "accept": [
+   "Ich möchte Gitarre spielen."
+  ]
+ },
+ {
+  "item_id": "ch09_L6_write_1",
+  "id": "ch09_L6_write_1",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_047",
+  "prompt": "Впиши слово: «Der Bäcker ___ am Samstag.» (работает)",
+  "answer": "arbeitet",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_047.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L6_write_2",
+  "id": "ch09_L6_write_2",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_051",
+  "prompt": "Впиши слово: «Ich möchte Gitarre ___.» (играть)",
+  "answer": "spielen",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch09_051.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L6_write_3",
+  "id": "ch09_L6_write_3",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_048",
+  "prompt": "Впиши слово: «___ arbeitet der Busfahrer?» (когда)",
+  "answer": "Wann",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch09_048.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L6_write_4",
+  "id": "ch09_L6_write_4",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_050",
+  "prompt": "Впиши слово: «Was ___ du machen?» (хочешь)",
+  "answer": "möchtest",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch09_050.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L6_write_5",
+  "id": "ch09_L6_write_5",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_049",
+  "prompt": "Впиши слово: «Der Pilot arbeitet in der ___.» (ночь)",
+  "answer": "Nacht",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_049.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L6_why_1",
+  "id": "ch09_L6_why_1",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_047",
+  "prompt": "Почему «arbeitet», а не «arbeitt»?",
+  "answer": "Корень arbeit кончается на t, поэтому перед хвостом -t появляется e.",
+  "distractors": [
+   "Потому что после слова с der всегда ставят окончание et.",
+   "Потому что arbeitet — особое слово, его учат наизусть."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Der Bäcker arbeitet am Samstag."
+ },
+ {
+  "item_id": "ch09_L6_why_2",
+  "id": "ch09_L6_why_2",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_048",
+  "prompt": "Почему в «Wann arbeitet der Busfahrer?» действие стоит сразу после Wann?",
+  "answer": "После вопросительного слова сразу идёт действие, а потом тот, кто его делает.",
+  "distractors": [
+   "Потому что Busfahrer должен стоять первым, а действие — в конце.",
+   "Потому что arbeitet в вопросе ставят в самый конец фразы."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": null,
+  "de": "Wann arbeitet der Busfahrer?"
+ },
+ {
+  "item_id": "ch09_L6_why_3",
+  "id": "ch09_L6_why_3",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_051",
+  "prompt": "Почему в «Ich möchte Gitarre spielen.» слово spielen стоит в самом конце?",
+  "answer": "möchte — на втором месте, а второе действие уходит в самый конец.",
+  "distractors": [
+   "Потому что Gitarre должна стоять последней во фразе.",
+   "Потому что spielen ставят на второе место, а möchte — в конец."
+  ],
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich möchte Gitarre spielen."
+ },
+ {
+  "item_id": "ch09_L6_why_4",
+  "id": "ch09_L6_why_4",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_050",
+  "prompt": "Почему в «Was möchtest du machen?» слово machen стоит в конце?",
+  "answer": "После was идёт möchtest, а само действие machen — в самом конце.",
+  "distractors": [
+   "Потому что du в вопросе по правилу стоит последним.",
+   "Потому что machen — это вопрос-слово, как was и wann."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Was möchtest du machen?"
+ },
+ {
+  "item_id": "ch09_L6_why_5",
+  "id": "ch09_L6_why_5",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_d6_10",
+  "prompt": "Почему «Ich komme am Dienstag», а не «Ich am Dienstag komme»?",
+  "answer": "Действие komme — в вагоне №2, а am Dienstag — после него.",
+  "distractors": [
+   "Потому что Ich ставят в конец.",
+   "Потому что am Dienstag всегда на втором месте."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Gut. Ich komme am Dienstag."
+ },
+ {
+  "item_id": "ch09_L6_transfer_1",
+  "id": "ch09_L6_transfer_1",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_t11",
+  "prompt": "Спроси Ольгу: «Когда работает пекарь?»",
+  "answer": "Wann arbeitet der Bäcker?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch09_t11.mp3",
+  "de": null,
+  "accept": [
+   "Wann arbeitet der Bäcker?"
+  ]
+ },
+ {
+  "item_id": "ch09_L6_transfer_2",
+  "id": "ch09_L6_transfer_2",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_t12",
+  "prompt": "Скажи по-новому: «Я хочу играть в футбол.»",
+  "answer": "Ich möchte Fußball spielen.",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": true,
+  "audio": "audio_v1/ch09_t12.mp3",
+  "de": null,
+  "accept": [
+   "Ich möchte Fußball spielen."
+  ]
+ },
+ {
+  "item_id": "ch09_L6_transfer_3",
+  "id": "ch09_L6_transfer_3",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_t12",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Я хочу играть в футбол.",
+  "distractors": [
+   "Я хочу играть на гитаре.",
+   "Я играю в футбол."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch09_t12.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L6_transfer_4",
+  "id": "ch09_L6_transfer_4",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_t12",
+  "prompt": "Прочитай новую фразу. Что это значит?",
+  "answer": "Я хочу играть в футбол.",
+  "distractors": [
+   "Я люблю футбол.",
+   "Я играл в футбол."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": null,
+  "de": "Ich möchte Fußball spielen."
+ },
+ {
+  "item_id": "ch09_L6_transfer_5",
+  "id": "ch09_L6_transfer_5",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_t12",
+  "prompt": "Почему в «Ich möchte Fußball spielen.» слово spielen стоит в самом конце?",
+  "answer": "möchte — на втором месте, а второе действие уходит в конец.",
+  "distractors": [
+   "Потому что Fußball по правилу ставят в самый конец.",
+   "Потому что spielen стоит на втором месте, а möchte — в конце."
+  ],
+  "rule_id": "topics/modal",
+  "transfer": true,
+  "audio": null,
+  "de": "Ich möchte Fußball spielen."
+ },
+ {
+  "item_id": "ch09_L6_boss_1",
+  "id": "ch09_L6_boss_1",
+  "lesson": "ch09_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d6_07",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Что ты хочешь делать?",
+  "distractors": [
+   "Что ты сделал вчера?",
+   "Что ты любишь есть?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d6_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L7_words_1",
+  "id": "ch09_L7_words_1",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_058",
+  "prompt": "Что значит «Lauftreff»?",
+  "answer": "встреча бегунов",
+  "distractors": [
+   "курс танцев",
+   "спортбар"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L7_words_2",
+  "id": "ch09_L7_words_2",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_059",
+  "prompt": "Что значит «Nimmst du deinen Hund mit?»?",
+  "answer": "Ты возьмёшь своего пса с собой?",
+  "distractors": [
+   "Ты покормишь своего пса?",
+   "Ты возьмёшь мой мяч с собой?"
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L7_words_3",
+  "id": "ch09_L7_words_3",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_060",
+  "prompt": "Что значит «ihn» в «Ja, ich nehme ihn mit.»?",
+  "answer": "его",
+  "distractors": [
+   "её",
+   "их"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L7_words_4",
+  "id": "ch09_L7_words_4",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_061",
+  "prompt": "Что значит «Tanzkurs»?",
+  "answer": "курс танцев",
+  "distractors": [
+   "танцевальный вечер",
+   "курс плавания"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L7_words_5",
+  "id": "ch09_L7_words_5",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch09_057",
+  "prompt": "Что значит «am Wochenende»?",
+  "answer": "на выходных",
+  "distractors": [
+   "в понедельник",
+   "вечером"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch09_L7_listen_1",
+  "id": "ch09_L7_listen_1",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d7_02",
+  "prompt": "Послушай. Что делал герой?",
+  "answer": "Я играл на гитаре.",
+  "distractors": [
+   "Я играл в футбол.",
+   "Я учил немецкий."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d7_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L7_listen_2",
+  "id": "ch09_L7_listen_2",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d7_04",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "Куда вы идёте?",
+  "distractors": [
+   "Когда вы идёте?",
+   "Кто идёт?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d7_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L7_listen_3",
+  "id": "ch09_L7_listen_3",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d7_05",
+  "prompt": "Послушай. Куда идёт Ольга?",
+  "answer": "Мы идём в парк.",
+  "distractors": [
+   "Мы идём в кино.",
+   "Мы идём в город."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d7_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L7_listen_4",
+  "id": "ch09_L7_listen_4",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d7_09",
+  "prompt": "Послушай. Когда встреча?",
+  "answer": "Встреча бегунов в десять часов.",
+  "distractors": [
+   "Встреча бегунов в восемь часов.",
+   "Курс танцев в десять часов."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d7_09.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L7_listen_5",
+  "id": "ch09_L7_listen_5",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d7_10",
+  "prompt": "Послушай. Что сказал герой?",
+  "answer": "Хорошо. Вечером у меня курс танцев.",
+  "distractors": [
+   "Хорошо. Утром у меня курс танцев.",
+   "Хорошо. Вечером я иду в кино."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d7_10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L7_read_1",
+  "id": "ch09_L7_read_1",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_057",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Что ты делал на выходных?",
+  "distractors": [
+   "Что ты делаешь на выходных?",
+   "Где ты был в субботу?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Was hast du am Wochenende gemacht?"
+ },
+ {
+  "item_id": "ch09_L7_read_2",
+  "id": "ch09_L7_read_2",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_060",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Да, я возьму его с собой.",
+  "distractors": [
+   "Нет, я не возьму его.",
+   "Да, я возьму её с собой."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ja, ich nehme ihn mit."
+ },
+ {
+  "item_id": "ch09_L7_read_3",
+  "id": "ch09_L7_read_3",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_d7_03",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Ты в воскресенье с нами?",
+  "distractors": [
+   "Ты в субботу с нами?",
+   "Ты в воскресенье дома?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Kommst du am Sonntag mit?"
+ },
+ {
+  "item_id": "ch09_L7_read_4",
+  "id": "ch09_L7_read_4",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_d7_08",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Когда встреча бегунов?",
+  "distractors": [
+   "Где встреча бегунов?",
+   "Кто идёт на встречу?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wann ist der Lauftreff?"
+ },
+ {
+  "item_id": "ch09_L7_read_5",
+  "id": "ch09_L7_read_5",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_061",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Вечером у меня курс танцев.",
+  "distractors": [
+   "Вечером я иду танцевать.",
+   "Утром у меня курс танцев."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Abend habe ich einen Tanzkurs."
+ },
+ {
+  "item_id": "ch09_L7_speak_1",
+  "id": "ch09_L7_speak_1",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_057",
+  "prompt": "Спроси: «Что ты делал на выходных?»",
+  "answer": "Was hast du am Wochenende gemacht?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch09_057.mp3",
+  "de": null,
+  "accept": [
+   "Was hast du am Wochenende gemacht?"
+  ]
+ },
+ {
+  "item_id": "ch09_L7_speak_2",
+  "id": "ch09_L7_speak_2",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_059",
+  "prompt": "Спроси: «Ты возьмёшь своего пса с собой?»",
+  "answer": "Nimmst du deinen Hund mit?",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_059.mp3",
+  "de": null,
+  "accept": [
+   "Nimmst du deinen Hund mit?"
+  ]
+ },
+ {
+  "item_id": "ch09_L7_speak_3",
+  "id": "ch09_L7_speak_3",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_060",
+  "prompt": "Скажи: «Да, я возьму его с собой.»",
+  "answer": "Ja, ich nehme ihn mit.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_060.mp3",
+  "de": null,
+  "accept": [
+   "Ja, ich nehme ihn mit."
+  ]
+ },
+ {
+  "item_id": "ch09_L7_speak_4",
+  "id": "ch09_L7_speak_4",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_058",
+  "prompt": "Скажи: «Встреча бегунов в десять часов.»",
+  "answer": "Der Lauftreff ist um zehn Uhr.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_058.mp3",
+  "de": null,
+  "accept": [
+   "Der Lauftreff ist um zehn Uhr."
+  ]
+ },
+ {
+  "item_id": "ch09_L7_speak_5",
+  "id": "ch09_L7_speak_5",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_061",
+  "prompt": "Скажи: «Вечером у меня курс танцев.» Начни со слов «вечером».",
+  "answer": "Am Abend habe ich einen Tanzkurs.",
+  "distractors": null,
+  "rule_id": "topics/akkusativ",
+  "transfer": false,
+  "audio": "audio_v1/ch09_061.mp3",
+  "de": null,
+  "accept": [
+   "Am Abend habe ich einen Tanzkurs."
+  ]
+ },
+ {
+  "item_id": "ch09_L7_write_1",
+  "id": "ch09_L7_write_1",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_059",
+  "prompt": "Впиши слово: «Nimmst du ___ Hund mit?» (своего)",
+  "answer": "deinen",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch09_059.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L7_write_2",
+  "id": "ch09_L7_write_2",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_060",
+  "prompt": "Впиши слово: «Ja, ich nehme ___ mit.» (его)",
+  "answer": "ihn",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_060.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L7_write_3",
+  "id": "ch09_L7_write_3",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_057",
+  "prompt": "Впиши слово: «Was hast du am Wochenende ___?» (делал)",
+  "answer": "gemacht",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch09_057.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L7_write_4",
+  "id": "ch09_L7_write_4",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_058",
+  "prompt": "Впиши слово: «Der Lauftreff ist um ___ Uhr.» (десять)",
+  "answer": "zehn",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch09_058.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L7_write_5",
+  "id": "ch09_L7_write_5",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch09_061",
+  "prompt": "Впиши слово: «Am Abend ___ ich einen Tanzkurs.» (у меня есть)",
+  "answer": "habe",
+  "distractors": null,
+  "rule_id": "topics/akkusativ",
+  "transfer": false,
+  "audio": "audio_v1/ch09_061.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L7_why_1",
+  "id": "ch09_L7_why_1",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_059",
+  "prompt": "Почему «deinen Hund», а не «dein Hund»?",
+  "answer": "Hund — слово с der: в вагоне кого-что dein становится deinen.",
+  "distractors": [
+   "Потому что Hund — слово с die, а у слов с die всегда deinen.",
+   "Потому что после Nimmst по правилу всегда идёт форма deinen."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Nimmst du deinen Hund mit?"
+ },
+ {
+  "item_id": "ch09_L7_why_2",
+  "id": "ch09_L7_why_2",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_060",
+  "prompt": "Почему «Ich nehme ihn mit», а не «Ich nehme er mit»?",
+  "answer": "Собаку берут — это вагон кого-что, а там er меняется на ihn.",
+  "distractors": [
+   "Потому что ihn — это «она» в вагоне кого-что.",
+   "Потому что er можно ставить только в конце фразы."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ja, ich nehme ihn mit."
+ },
+ {
+  "item_id": "ch09_L7_why_3",
+  "id": "ch09_L7_why_3",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_061",
+  "prompt": "Почему «Am Abend habe ich», а не «Am Abend ich habe»?",
+  "answer": "Вагон №1 занят: Am Abend. habe — в вагоне №2, ich — за ним.",
+  "distractors": [
+   "Потому что ich по правилу ставят в самый конец фразы.",
+   "Потому что habe здесь — это слово «когда», вагон №1."
+  ],
+  "rule_id": "topics/akkusativ",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Abend habe ich einen Tanzkurs."
+ },
+ {
+  "item_id": "ch09_L7_why_4",
+  "id": "ch09_L7_why_4",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_057",
+  "prompt": "Почему в «Was hast du am Wochenende gemacht?» слово gemacht в конце?",
+  "answer": "Помощник hast — на втором месте, а gemacht — в самом конце.",
+  "distractors": [
+   "Потому что am Wochenende тянет gemacht в конец.",
+   "Потому что gemacht — это вопрос-слово, как was и wann."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Was hast du am Wochenende gemacht?"
+ },
+ {
+  "item_id": "ch09_L7_why_5",
+  "id": "ch09_L7_why_5",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_d7_04",
+  "prompt": "Почему «Wohin geht ihr?», а не «Wohin ihr geht?»?",
+  "answer": "После вопросительного слова сразу идёт действие geht, а потом ihr.",
+  "distractors": [
+   "Потому что ihr в вопросе всегда стоит в самом конце фразы.",
+   "Потому что geht здесь — это вопрос-слово, как wohin."
+  ],
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": null,
+  "de": "Wohin geht ihr?"
+ },
+ {
+  "item_id": "ch09_L7_transfer_1",
+  "id": "ch09_L7_transfer_1",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_t13",
+  "prompt": "Спроси Ольгу: «Ты играл на гитаре на выходных?»",
+  "answer": "Hast du am Wochenende Gitarre gespielt?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch09_t13.mp3",
+  "de": null,
+  "accept": [
+   "Hast du am Wochenende Gitarre gespielt?"
+  ]
+ },
+ {
+  "item_id": "ch09_L7_transfer_2",
+  "id": "ch09_L7_transfer_2",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch09_t14",
+  "prompt": "Скажи по-новому: «Курс танцев в восемь часов.»",
+  "answer": "Der Tanzkurs ist um acht Uhr.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch09_t14.mp3",
+  "de": null,
+  "accept": [
+   "Der Tanzkurs ist um acht Uhr."
+  ]
+ },
+ {
+  "item_id": "ch09_L7_transfer_3",
+  "id": "ch09_L7_transfer_3",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_t14",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Курс танцев в восемь часов.",
+  "distractors": [
+   "Встреча бегунов в восемь часов.",
+   "Курс танцев в десять часов."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch09_t14.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch09_L7_transfer_4",
+  "id": "ch09_L7_transfer_4",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch09_t14",
+  "prompt": "Прочитай новую фразу. Что это значит?",
+  "answer": "Курс танцев в восемь часов.",
+  "distractors": [
+   "Курс танцев в среду.",
+   "Танцевальная школа в городе."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": null,
+  "de": "Der Tanzkurs ist um acht Uhr."
+ },
+ {
+  "item_id": "ch09_L7_transfer_5",
+  "id": "ch09_L7_transfer_5",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch09_t14",
+  "prompt": "Почему в «Der Tanzkurs ist um acht Uhr.» слово ist стоит вторым?",
+  "answer": "Der Tanzkurs — вагон №1, действие ist — в вагоне №2.",
+  "distractors": [
+   "Потому что ist по правилу ставят в самый конец фразы.",
+   "Потому что Uhr — это действие, а ist — слово «когда»."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": null,
+  "de": "Der Tanzkurs ist um acht Uhr."
+ },
+ {
+  "item_id": "ch09_L7_boss_1",
+  "id": "ch09_L7_boss_1",
+  "lesson": "ch09_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch09_d7_06",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "Ты возьмёшь своего пса с собой?",
+  "distractors": [
+   "Ты возьмёшь свой мяч с собой?",
+   "Ты пойдёшь со своим псом?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch09_d7_06.mp3",
+  "de": null
+ }
+]

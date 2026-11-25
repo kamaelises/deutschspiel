@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<script>window.__dsPublic=1;window.__mfAiOff=1;(function(){var f=window.fetch.bind(window),re=/^\/(ollama|lt|asr|phon)\//;window.fetch=function(u,o){var s=typeof u==='string'?u:(u&&u.url)||'';if(re.test(s))return Promise.resolve(new Response('{"ok":false,"public":true}',{status:503,headers:{'Content-Type':'application/json'}}));return f(u,o);};})();</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DeutschSpiel</title>
+<meta name="description" content="Немецкий A1 → B2 как игра. Личное приложение, работает без интернета.">
+<meta name="theme-color" content="#f6f4ef" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121316" media="(prefers-color-scheme: dark)">
+<meta name="robots" content="noindex, nofollow">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <script type="module" crossorigin src="./assets/index-JAuAD4NR.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-D_kEA69Z.css">
+</head>
+<body>
+<header class="top">
+  <button class="icon-btn" id="backBtn" aria-label="Назад" hidden>←</button>
+  <h1 id="title">DeutschSpiel</h1>
+  <span id="aiBadge" class="mute" style="font-size:13px"></span>
+</header>
+<main id="view" tabindex="-1"></main>
+<nav class="tabs" aria-label="Разделы">
+  <a href="#/welt" data-tab="welt"><span aria-hidden="true">🏡</span>Мир</a>
+  <a href="#/" data-tab="home"><span aria-hidden="true">📚</span>Уроки</a>
+  <a href="#/review" data-tab="review"><span aria-hidden="true">🔁</span>Повтор</a>
+  <a href="#/listen" data-tab="listen"><span aria-hidden="true">🎧</span>Слушать</a>
+  <a href="#/games" data-tab="games"><span aria-hidden="true">🎮</span>Игры</a>
+  <a href="#/settings" data-tab="settings"><span aria-hidden="true">⚙️</span>Ещё</a>
+</nav>
+<div class="sub" id="sub" aria-live="polite"><div class="lab">🔊 Голос говорит:</div><div class="de" id="subDe"></div><div class="ru" id="subRu"></div></div>
+<div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

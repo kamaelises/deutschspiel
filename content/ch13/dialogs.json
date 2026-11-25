@@ -1,0 +1,5170 @@
+[
+ {
+  "id": "ch13_d1",
+  "title_ru": "Перемена: что с тобой?",
+  "roles": {
+   "O": "Olga (одногруппница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch13_d1_01",
+    "role": "O",
+    "de": "Hallo! Wie geht es dir?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Привет! Как у тебя дела?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hallo",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Wie",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "geht",
+       "role": "действие №2"
+      },
+      {
+       "w": "es",
+       "role": "кто"
+      },
+      {
+       "w": "dir",
+       "role": "кому"
+      }
+     ],
+     "text": "Вопрос из главы 1. Ольге — на «ты», поэтому dir. Hallo не занимает вагон.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wie — вагон №1, действие geht — сразу за ним, вагон №2: Wie geht es dir? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Как у тебя дела» можно сказать и в другом порядке. По-немецки порядок один: Wie · geht · es · dir. Действия geht в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Hallo! Wie es geht dir?",
+      "ru": "es встал перед geht — действие ушло из вагона №2. После Wie немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "Hallo — от holen «звать, позвать» (ahd. halōn/holōn): так окликали перевозчика (DWDS, Pfeifer); dir — форма du («тебе»); du и русское «ты» — один древний корень *tū̌ (DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос из главы 1. Ольге — на «ты», поэтому dir. Hallo не занимает вагон."
+    },
+    "audio": "audio_v1/ch13_d1_01.mp3",
+    "tts": "Hallo! Wie geht es dir?",
+    "ipa": [
+     {
+      "w": "Hallo",
+      "ipa": "[haˈloː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wie",
+      "ipa": "[viː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "geht",
+      "ipa": "[ɡeːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "es",
+      "ipa": "[ɛs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "dir",
+      "ipa": "[diːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: H… · вопрос-слово: W… · действие (вагон №2): g… · кто: e… · кому: d…",
+    "gap": {
+     "text": "Hallo! Wie ___ es ___?",
+     "answers": [
+      "geht",
+      "dir"
+     ]
+    },
+    "task_ru": "Скажи: Привет! Как у тебя дела?"
+   },
+   {
+    "id": "ch13_d1_02",
+    "role": "H",
+    "de": "Nicht so gut.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Не очень хорошо.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Nicht",
+       "role": "«не»"
+      },
+      {
+       "w": "so",
+       "role": "какой/как"
+      },
+      {
+       "w": "gut",
+       "role": "какой/как"
+      }
+     ],
+     "text": "Короткий ответ на «как дела?»: nicht — «не», so gut — «так хорошо». Вместе — «не очень хорошо».",
+     "topic": "word_order",
+     "why_de": "Короткий ответ без действия: Nicht («не») · so (как?) · gut (как?).",
+     "why_ru": "По-русски так же коротко: «Не очень хорошо».",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — считать это готовой формулой. «Не очень хорошо» — короткий ответ, его слова меняют под ситуацию."
+     },
+     "root": null,
+     "why_voice_ru": "Короткий ответ на «как дела?»: nicht — «не», so gut — «так хорошо». Вместе — «не очень хорошо»."
+    },
+    "audio": "audio_v1/ch13_d1_02.mp3",
+    "tts": "Nicht so gut.",
+    "ipa": [
+     {
+      "w": "Nicht",
+      "ipa": "[nɪçt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "so",
+      "ipa": "[zoː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "«не»: N… · какой/как: s… · какой/как: g…",
+    "gap": {
+     "text": "Nicht so ___.",
+     "answers": [
+      "gut"
+     ]
+    },
+    "task_ru": "Скажи: Не очень хорошо."
+   },
+   {
+    "id": "ch13_d1_03",
+    "role": "O",
+    "de": "Was ist los?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Что случилось?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Was ist los",
+       "role": "вопрос-слово",
+       "asks": ""
+      }
+     ],
+     "text": "Готовая фраза: так спрашивают друга, когда видно, что с ним что-то не так. Учим целиком.",
+     "topic": "questions",
+     "why_de": "Was ist los? — готовая фраза: так спрашивают, когда видно, что у человека что-то не так. Её говорят целиком.",
+     "why_ru": "По-русски «Что случилось?» — про то, что уже было. Немец спрашивает про сейчас: в середине стоит ist.",
+     "layer": "short",
+     "why_not": {
+      "wrong": "Was los?",
+      "ru": "Русская привычка — пропустить действие. Без ist немец слышит обрывок, а не вопрос."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "override": "tools/data_ch13.py WHY",
+     "why_voice_ru": "Готовая фраза: так спрашивают друга, когда видно, что с ним что-то не так. Учим целиком."
+    },
+    "audio": "audio_v1/ch13_d1_03.mp3",
+    "tts": "Was ist los?",
+    "ipa": [
+     {
+      "w": "Was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "los",
+      "ipa": "[loːs]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… i… l…",
+    "gap": {
+     "text": "Was ist ___?",
+     "answers": [
+      "los"
+     ]
+    },
+    "task_ru": "Скажи: Что случилось?"
+   },
+   {
+    "id": "ch13_d1_04",
+    "role": "H",
+    "de": "Ich bin krank.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я болен.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "bin",
+       "role": "действие №2"
+      },
+      {
+       "w": "krank",
+       "role": "какой/как"
+      }
+     ],
+     "text": "krank — «больной»: это какой ты сейчас. Для этого немцу нужен bin: ich bin krank.",
+     "topic": "verb2",
+     "why_de": "Ich · bin · krank: действие bin — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Я болен» — без действия «есть». По-немецки без bin фразы нет: Ich bin krank.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich krank.",
+      "ru": "Русская привычка — без действия, как «Я болен». Без bin немец слышит обрывок, а не фразу."
+     },
+     "root": "bin, bist — от древнего корня *bʰew- («быть»), а ist — от *es- (как русское «есть»); весь глагол sein собран из двух корней (DWDS, Wiktionary)",
+     "why_voice_ru": "krank — «больной»: это какой ты сейчас. Для этого немцу нужен bin: ich bin krank."
+    },
+    "audio": "audio_v1/ch13_d1_04.mp3",
+    "tts": "Ich bin krank.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bin",
+      "ipa": "[bɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "krank",
+      "ipa": "[kʁaŋk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): b… · какой/как: k…",
+    "gap": {
+     "text": "Ich ___ krank.",
+     "answers": [
+      "bin"
+     ]
+    },
+    "task_ru": "Скажи: Я болен."
+   },
+   {
+    "id": "ch13_d1_05",
+    "role": "H",
+    "de": "Ich habe Husten und Schnupfen.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "У меня кашель и насморк.",
+    "nouns": [
+     {
+      "lemma": "Husten",
+      "art": "der",
+      "pl": "Husten"
+     },
+     {
+      "lemma": "Schnupfen",
+      "art": "der",
+      "pl": "Schnupfen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "действие №2"
+      },
+      {
+       "w": "Husten und Schnupfen",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Болезнь по-немецки «имеют»: ich habe Husten. und соединяет два слова в одном вагоне: Husten und Schnupfen.",
+     "topic": "verb2",
+     "why_de": "Ich · habe · Husten und Schnupfen: действие habe — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «У меня кашель и насморк» — без действия. По-немецки без habe фразы нет: Ich habe Husten und Schnupfen.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich Husten und Schnupfen.",
+      "ru": "Русская привычка — без действия, как «У меня кашель и насморк». Без habe немец слышит обрывок, а не фразу."
+     },
+     "root": null,
+     "why_voice_ru": "Болезнь по-немецки «имеют»: ich habe Husten. und соединяет два слова в одном вагоне: Husten und Schnupfen.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «что»",
+      "items": [
+       {
+        "id": "ch13_002",
+        "de": "Ich habe Husten.",
+        "ru": "У меня кашель.",
+        "audio": "audio_v1/ch13_002.mp3",
+        "lesson": "L1",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "Husten und Schnupfen",
+         "to": "Husten"
+        }
+       },
+       {
+        "id": "ch13_003",
+        "de": "Ich habe Schnupfen.",
+        "ru": "У меня насморк.",
+        "audio": "audio_v1/ch13_003.mp3",
+        "lesson": "L1",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "Husten und Schnupfen",
+         "to": "Schnupfen"
+        }
+       },
+       {
+        "id": "ch13_004",
+        "de": "Ich habe Fieber.",
+        "ru": "У меня температура.",
+        "audio": "audio_v1/ch13_004.mp3",
+        "lesson": "L1",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "Husten und Schnupfen",
+         "to": "Fieber"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Ich · habe. В каждом примере меняется один вагон — «что»: Husten und Schnupfen → Husten → Schnupfen → Fieber. Действие habe всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch13_d1_05.mp3",
+    "tts": "Ich habe Husten und Schnupfen.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Husten",
+      "ipa": "[ˈhuːstn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Schnupfen",
+      "ipa": "[ˈʃnʊp͡fn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): h… · кого-что: H… u… S…",
+    "gap": {
+     "text": "Ich ___ Husten und ___.",
+     "answers": [
+      "habe",
+      "Schnupfen"
+     ]
+    },
+    "task_ru": "Скажи: У меня кашель и насморк."
+   },
+   {
+    "id": "ch13_d1_06",
+    "role": "O",
+    "de": "Hast du auch Fieber?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А температура у тебя тоже есть?",
+    "nouns": [
+     {
+      "lemma": "Fieber",
+      "art": "das",
+      "pl": "Fieber"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hast",
+       "role": "действие №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "auch",
+       "role": "добавка"
+      },
+      {
+       "w": "Fieber",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Вопрос «да/нет»: действие hast впереди. auch — «тоже»: стоит перед тем, что добавляем.",
+     "topic": "questions",
+     "why_de": "Действие впереди (Hast) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Hast du auch Fieber?",
+     "why_ru": "По-русски «А температура у тебя тоже есть» — вопрос только голосом, порядок как в ответе. По-немецки действие Hast выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Du hast auch Fieber?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («А температура у тебя тоже есть?!»). Обычный вопрос — действие впереди."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос «да/нет»: действие hast впереди. auch — «тоже»: стоит перед тем, что добавляем."
+    },
+    "audio": "audio_v1/ch13_d1_06.mp3",
+    "tts": "Hast du auch Fieber?",
+    "ipa": [
+     {
+      "w": "Hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "auch",
+      "ipa": "[aʊ̯x]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Fieber",
+      "ipa": "[ˈfiːbɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): H… · кто: d… · добавка: a… · кого-что: F…",
+    "gap": {
+     "text": "___ du auch ___?",
+     "answers": [
+      "Hast",
+      "Fieber"
+     ]
+    },
+    "task_ru": "Скажи: А температура у тебя тоже есть?"
+   },
+   {
+    "id": "ch13_d1_07",
+    "role": "H",
+    "de": "Ja, ich habe Fieber.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, у меня температура.",
+    "nouns": [
+     {
+      "lemma": "Fieber",
+      "art": "das",
+      "pl": "Fieber"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "действие №2"
+      },
+      {
+       "w": "Fieber",
+       "role": "кого-что"
+      }
+     ],
+     "text": "ja не занимает вагон. Дальше поезд: ich · habe · Fieber, без артикля.",
+     "topic": "verb2",
+     "why_de": "ich · habe · Fieber: действие habe — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Да, у меня температура» — без действия. По-немецки без habe фразы нет: Ja, ich habe Fieber.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ja, ich Fieber.",
+      "ru": "Русская привычка — без действия, как «Да, у меня температура». Без habe немец слышит обрывок, а не фразу."
+     },
+     "root": null,
+     "why_voice_ru": "ja не занимает вагон. Дальше поезд: ich · habe · Fieber, без артикля."
+    },
+    "audio": "audio_v1/ch13_d1_07.mp3",
+    "tts": "Ja, ich habe Fieber.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Fieber",
+      "ipa": "[ˈfiːbɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: i… · действие (вагон №2): h… · кого-что: F…",
+    "gap": {
+     "text": "Ja, ich ___ ___.",
+     "answers": [
+      "habe",
+      "Fieber"
+     ]
+    },
+    "task_ru": "Скажи: Да, у меня температура."
+   },
+   {
+    "id": "ch13_d1_08",
+    "role": "O",
+    "de": "Du hast eine Erkältung.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "У тебя простуда.",
+    "nouns": [
+     {
+      "lemma": "Erkältung",
+      "art": "die",
+      "pl": "Erkältungen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Du",
+       "role": "кто"
+      },
+      {
+       "w": "hast",
+       "role": "действие №2"
+      },
+      {
+       "w": "eine Erkältung",
+       "role": "кого-что"
+      }
+     ],
+     "text": "С du — hast. die Erkältung — die-слово, поэтому eine: простуда одна, её можно посчитать.",
+     "topic": "verb2",
+     "why_de": "Du · hast · eine Erkältung: действие hast — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «У тебя простуда» — без действия. По-немецки без hast фразы нет: Du hast eine Erkältung.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Du eine Erkältung.",
+      "ru": "Русская привычка — без действия, как «У тебя простуда». Без hast немец слышит обрывок, а не фразу."
+     },
+     "root": null,
+     "why_voice_ru": "С du — hast. die Erkältung — die-слово, поэтому eine: простуда одна, её можно посчитать."
+    },
+    "audio": "audio_v1/ch13_d1_08.mp3",
+    "tts": "Du hast eine Erkältung.",
+    "ipa": [
+     {
+      "w": "Du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "eine",
+      "ipa": "[ˈaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Erkältung",
+      "ipa": "[ɛɐ̯ˈkɛltʊŋ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… · действие (вагон №2): h… · кого-что: e… E…",
+    "gap": {
+     "text": "Du ___ eine ___.",
+     "answers": [
+      "hast",
+      "Erkältung"
+     ]
+    },
+    "task_ru": "Скажи: У тебя простуда."
+   },
+   {
+    "id": "ch13_d1_09",
+    "role": "O",
+    "de": "Tschüss! Gute Besserung!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Пока! Поправляйся!",
+    "nouns": [
+     {
+      "lemma": "Besserung",
+      "art": "die",
+      "pl": "Besserungen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Tschüss",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Gute Besserung",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Tschüss — «пока». Gute Besserung — пожелание больному. die Besserung — die-слово, поэтому Gute с -e.",
+     "topic": "word_order",
+     "why_de": "Здесь 2 готовые формулы подряд: Tschüss + Gute Besserung. Их учим целиком, по одной; действия нет — поэтому и поезда нет.",
+     "why_ru": "По-русски так же — 2 куска подряд: «Пока! Поправляйся».",
+     "layer": "formulas",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — склеить всё в одно и переводить по словам. Тут 2 куска, их учим целиком: Tschüss · Gute Besserung."
+     },
+     "root": null,
+     "why_voice_ru": "Tschüss — «пока». Gute Besserung — пожелание больному. die Besserung — die-слово, поэтому Gute с -e."
+    },
+    "audio": "audio_v1/ch13_d1_09.mp3",
+    "tts": "Tschüss! Gute Besserung!",
+    "ipa": [
+     {
+      "w": "Tschüss",
+      "ipa": "[t͡ʃʏs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Gute",
+      "ipa": "[ˈɡuːtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Besserung",
+      "ipa": "[ˈbɛsəʁʊŋ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: T… · привет/вежливость: G… B…",
+    "gap": {
+     "text": "Tschüss! Gute ___!",
+     "answers": [
+      "Besserung"
+     ]
+    },
+    "task_ru": "Скажи: Пока! Поправляйся!"
+   },
+   {
+    "id": "ch13_d1_10",
+    "role": "H",
+    "de": "Danke! Tschüss!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Спасибо! Пока!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Tschüss",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Короткий ответ: спасибо и «пока». С одногруппницей — на «ты»: tschüss.",
+     "topic": "word_order",
+     "why_de": "Здесь 2 готовые формулы подряд: Danke + Tschüss. Их учим целиком, по одной; действия нет — поэтому и поезда нет.",
+     "why_ru": "По-русски так же — 2 куска подряд: «Спасибо! Пока».",
+     "layer": "formulas",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — склеить всё в одно и переводить по словам. Тут 2 куска, их учим целиком: Danke · Tschüss."
+     },
+     "root": null,
+     "why_voice_ru": "Короткий ответ: спасибо и «пока». С одногруппницей — на «ты»: tschüss."
+    },
+    "audio": "audio_v1/ch13_d1_10.mp3",
+    "tts": "Danke! Tschüss! Danke! Tschüss!",
+    "ipa": [
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tschüss",
+      "ipa": "[t͡ʃʏs]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: D… · привет/вежливость: T…",
+    "gap": {
+     "text": "Danke! ___!",
+     "answers": [
+      "Tschüss"
+     ]
+    },
+    "task_ru": "Скажи: Спасибо! Пока!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch13_d2",
+  "title_ru": "Звонок в приёмную врача",
+  "roles": {
+   "R": "Регистратура (Praxis)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch13_d2_01",
+    "role": "R",
+    "de": "Praxis Wagner, guten Tag!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Приёмная врача Вагнера, добрый день!",
+    "nouns": [
+     {
+      "lemma": "Praxis",
+      "art": "die",
+      "pl": "Praxen"
+     },
+     {
+      "lemma": "Tag",
+      "art": "der",
+      "pl": "Tage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Praxis Wagner",
+       "role": "кто"
+      },
+      {
+       "w": "guten Tag",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Так отвечают по телефону в приёмной врача: название и «добрый день».",
+     "topic": "word_order",
+     "why_de": "Praxis Wagner, guten Tag! — так в Германии отвечают по телефону в приёмной: сначала место, потом приветствие. Говорят целиком.",
+     "why_ru": "По-русски «Приёмная врача Вагнера, добрый день!» — так же: сначала место, потом приветствие. Это готовая фраза для телефона.",
+     "layer": "short",
+     "why_not": {
+      "wrong": "Wagner Praxis, guten Tag!",
+      "ru": "Порядок как в «Приёмная врача Вагнера»: сначала Praxis, потом имя — Praxis Wagner."
+     },
+     "root": null,
+     "override": "tools/data_ch13.py WHY",
+     "why_voice_ru": "Так отвечают по телефону в приёмной врача: название и «добрый день»."
+    },
+    "audio": "audio_v1/ch13_d2_01.mp3",
+    "tts": "Praxis Wagner, guten Tag!",
+    "ipa": [
+     {
+      "w": "Praxis",
+      "ipa": "[ˈpʁaksɪs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wagner",
+      "ipa": "[ˈvaːɡnɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "guten",
+      "ipa": "[ˈɡuːtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tag",
+      "ipa": "[taːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: P… W… · привет/вежливость: g… T…",
+    "gap": {
+     "text": "Praxis ___, guten Tag!",
+     "answers": [
+      "Wagner"
+     ]
+    },
+    "task_ru": "Скажи: Приёмная врача Вагнера, добрый день!"
+   },
+   {
+    "id": "ch13_d2_02",
+    "role": "H",
+    "de": "Guten Tag!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Добрый день!",
+    "nouns": [
+     {
+      "lemma": "Tag",
+      "art": "der",
+      "pl": "Tage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Guten Tag",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Ответное приветствие, на «Sie» — как днём.",
+     "topic": "word_order",
+     "why_de": "Готовое пожелание «(желаю) доброго дня»: днём, в магазине и в ведомстве.",
+     "why_ru": "Как русское «добрый день».",
+     "layer": "chunk",
+     "why_not": {
+      "wrong": "Gute Tag!",
+      "ru": "Частая ошибка — Gute вместо Guten. Днём говорят Guten Tag."
+     },
+     "source": "tools/why_chunks.json",
+     "root": null,
+     "why_voice_ru": "Ответное приветствие, на «Sie» — как днём."
+    },
+    "audio": "audio_v1/ch13_d2_02.mp3",
+    "tts": "Guten Tag! Guten Tag!",
+    "ipa": [
+     {
+      "w": "Guten",
+      "ipa": "[ˈɡuːtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tag",
+      "ipa": "[taːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… T…",
+    "gap": {
+     "text": "Guten ___!",
+     "answers": [
+      "Tag"
+     ]
+    },
+    "task_ru": "Скажи: Добрый день!"
+   },
+   {
+    "id": "ch13_d2_03",
+    "role": "H",
+    "de": "Ich habe Fieber.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "У меня температура.",
+    "nouns": [
+     {
+      "lemma": "Fieber",
+      "art": "das",
+      "pl": "Fieber"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "действие №2"
+      },
+      {
+       "w": "Fieber",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Болезнь «имеют»: ich habe Fieber, без артикля.",
+     "topic": "verb2",
+     "why_de": "Ich · habe · Fieber: действие habe — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «У меня температура» — без действия. По-немецки без habe фразы нет: Ich habe Fieber.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich Fieber.",
+      "ru": "Русская привычка — без действия, как «У меня температура». Без habe немец слышит обрывок, а не фразу."
+     },
+     "root": null,
+     "why_voice_ru": "Болезнь «имеют»: ich habe Fieber, без артикля.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «что»",
+      "items": [
+       {
+        "id": "ch13_002",
+        "de": "Ich habe Husten.",
+        "ru": "У меня кашель.",
+        "audio": "audio_v1/ch13_002.mp3",
+        "lesson": "L1",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "Fieber",
+         "to": "Husten"
+        }
+       },
+       {
+        "id": "ch13_003",
+        "de": "Ich habe Schnupfen.",
+        "ru": "У меня насморк.",
+        "audio": "audio_v1/ch13_003.mp3",
+        "lesson": "L1",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "Fieber",
+         "to": "Schnupfen"
+        }
+       },
+       {
+        "id": "ch13_d1_05",
+        "de": "Ich habe Husten und Schnupfen.",
+        "ru": "У меня кашель и насморк.",
+        "audio": "audio_v1/ch13_d1_05.mp3",
+        "lesson": "L1",
+        "part": 4,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "Fieber",
+         "to": "Husten und Schnupfen"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Ich · habe. В каждом примере меняется один вагон — «что»: Fieber → Husten → Schnupfen → Husten und Schnupfen. Действие habe всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch13_d2_03.mp3",
+    "tts": "Ich habe Fieber.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Fieber",
+      "ipa": "[ˈfiːbɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): h… · кого-что: F…",
+    "gap": {
+     "text": "Ich ___ ___.",
+     "answers": [
+      "habe",
+      "Fieber"
+     ]
+    },
+    "task_ru": "Скажи: У меня температура."
+   },
+   {
+    "id": "ch13_d2_04",
+    "role": "H",
+    "de": "Ich möchte einen Termin.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я хочу записаться на приём.",
+    "nouns": [
+     {
+      "lemma": "Termin",
+      "art": "der",
+      "pl": "Termine"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "möchte",
+       "role": "действие №2"
+      },
+      {
+       "w": "einen Termin",
+       "role": "кого-что"
+      }
+     ],
+     "text": "möchte — вежливое «я хочу». Termin — der-слово, а здесь он «кого-что», поэтому einen.",
+     "topic": "modal",
+     "why_de": "Артикль — сигнал роли: der → den/einen показывает «кого-что»: Ich möchte einen Termin.",
+     "why_ru": "Похоже на русские окончания, только меняется не слово, а артикль: Ich möchte einen Termin.",
+     "layer": "akk",
+     "why_not": {
+      "wrong": "Ich möchte ein Termin.",
+      "ru": "Русская привычка: артикль не меняется. Немец слышит не ту роль: тут der-слово в роли «кого-что» — einen."
+     },
+     "root": null,
+     "why_voice_ru": "möchte — вежливое «я хочу». Termin — der-слово, а здесь он «кого-что», поэтому einen."
+    },
+    "audio": "audio_v1/ch13_d2_04.mp3",
+    "tts": "Ich möchte einen Termin.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "möchte",
+      "ipa": "[ˈmœçtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "einen",
+      "ipa": "[ˈaɪ̯nən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Termin",
+      "ipa": "[tɛʁˈmiːn]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): m… · кого-что: e… T…",
+    "gap": {
+     "text": "Ich ___ einen ___.",
+     "answers": [
+      "möchte",
+      "Termin"
+     ]
+    },
+    "task_ru": "Скажи: Я хочу записаться на приём."
+   },
+   {
+    "id": "ch13_d2_05",
+    "role": "R",
+    "de": "Der Arzt sagt, Sie sollen heute kommen.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Врач говорит, вам надо прийти сегодня.",
+    "nouns": [
+     {
+      "lemma": "Arzt",
+      "art": "der",
+      "pl": "Ärzte"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Der Arzt",
+       "role": "кто"
+      },
+      {
+       "w": "sagt",
+       "role": "действие №2"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "sollen",
+       "role": "пульт №2"
+      },
+      {
+       "w": "heute",
+       "role": "когда"
+      },
+      {
+       "w": "kommen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Врач говорит — sagt, и дальше пересказ: с Sie — sollen. Второе действие kommen уходит в самый конец.",
+     "topic": "modal",
+     "why_de": "sollen — чужая воля: так передают, что велел врач. Der Arzt · sagt, потом пересказ: Sie · sollen · heute · kommen — второе действие kommen в самом конце.",
+     "why_ru": "По-русски «Врач говорит, вам надо прийти сегодня» — те же куски. По-немецки kommen уходит в самый конец.",
+     "layer": "modal",
+     "why_not": {
+      "wrong": "Der Arzt sagt, Sie sollen kommen heute.",
+      "ru": "Второе действие kommen не стоит сразу за sollen: оно уходит в самый конец."
+     },
+     "root": null,
+     "override": "tools/data_ch13.py WHY",
+     "why_voice_ru": "Врач говорит — sagt, и дальше пересказ: с Sie — sollen. Второе действие kommen уходит в самый конец."
+    },
+    "audio": "audio_v1/ch13_d2_05.mp3",
+    "tts": "Der Arzt sagt, Sie sollen heute kommen.",
+    "ipa": [
+     {
+      "w": "Der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Arzt",
+      "ipa": "[aːɐ̯t͡st]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "sagt",
+      "ipa": "[zaːkt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "sollen",
+      "ipa": "[ˈzɔlən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "heute",
+      "ipa": "[ˈhɔɪ̯tə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kommen",
+      "ipa": "[ˈkɔmən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… A… · действие (вагон №2): s… · кто: S… · пульт (вагон №2): s… · когда: h… · хвост действия: k…",
+    "gap": {
+     "text": "Der ___ ___, Sie sollen heute kommen.",
+     "answers": [
+      "Arzt",
+      "sagt"
+     ]
+    },
+    "task_ru": "Скажи: Врач говорит, вам надо прийти сегодня."
+   },
+   {
+    "id": "ch13_d2_06",
+    "role": "R",
+    "de": "Um neun Uhr.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "В девять часов.",
+    "nouns": [
+     {
+      "lemma": "Uhr",
+      "art": "die",
+      "pl": "Uhren"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Um neun Uhr",
+       "role": "когда"
+      }
+     ],
+     "text": "Короткий ответ на вопрос «когда?»: um + число + Uhr.",
+     "topic": "word_order",
+     "why_de": "Короткий ответ без действия: Um neun Uhr (когда?).",
+     "why_ru": "По-русски так же коротко: «В девять часов».",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — считать это готовой формулой. «В девять часов» — короткий ответ, его слова меняют под ситуацию."
+     },
+     "root": null,
+     "why_voice_ru": "Короткий ответ на вопрос «когда?»: um + число + Uhr."
+    },
+    "audio": "audio_v1/ch13_d2_06.mp3",
+    "tts": "Um neun Uhr.",
+    "ipa": [
+     {
+      "w": "Um",
+      "ipa": "[ʊm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "neun",
+      "ipa": "[nɔɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Uhr",
+      "ipa": "[uːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "когда: U… n… U…",
+    "gap": {
+     "text": "Um neun ___.",
+     "answers": [
+      "Uhr"
+     ]
+    },
+    "task_ru": "Скажи: В девять часов."
+   },
+   {
+    "id": "ch13_d2_07",
+    "role": "H",
+    "de": "Ja, danke!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, спасибо!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "danke",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "ja и danke не занимают вагон: это короткий ответ.",
+     "topic": "word_order",
+     "why_de": "Здесь 2 готовые формулы подряд: Ja + danke. Их учим целиком, по одной; действия нет — поэтому и поезда нет.",
+     "why_ru": "По-русски так же — 2 куска подряд: «Да, спасибо».",
+     "layer": "formulas",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — склеить всё в одно и переводить по словам. Тут 2 куска, их учим целиком: Ja · danke."
+     },
+     "root": null,
+     "why_voice_ru": "ja и danke не занимают вагон: это короткий ответ."
+    },
+    "audio": "audio_v1/ch13_d2_07.mp3",
+    "tts": "Ja, danke! Ja, danke!",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · привет/вежливость: d…",
+    "gap": {
+     "text": "Ja, ___!",
+     "answers": [
+      "danke"
+     ]
+    },
+    "task_ru": "Скажи: Да, спасибо!"
+   },
+   {
+    "id": "ch13_d2_08",
+    "role": "R",
+    "de": "Gute Besserung! Auf Wiedersehen!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Поправляйтесь! До свидания!",
+    "nouns": [
+     {
+      "lemma": "Besserung",
+      "art": "die",
+      "pl": "Besserungen"
+     },
+     {
+      "lemma": "Wiedersehen",
+      "art": "das",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Gute Besserung",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Auf Wiedersehen",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Gute Besserung — пожелание больному. die Besserung — die-слово, поэтому Gute с -e. Прощание на «Sie»: auf Wiedersehen.",
+     "topic": "word_order",
+     "why_de": "Здесь 2 готовые формулы подряд: Gute Besserung + Auf Wiedersehen. Их учим целиком, по одной; действия нет — поэтому и поезда нет.",
+     "why_ru": "По-русски так же — 2 куска подряд: «Поправляйтесь! До свидания».",
+     "layer": "formulas",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — склеить всё в одно и переводить по словам. Тут 2 куска, их учим целиком: Gute Besserung · Auf Wiedersehen."
+     },
+     "root": "Wiedersehen = wieder + sehen (wieder — снова; sehen — видеть) — Wiktionary",
+     "why_voice_ru": "Gute Besserung — пожелание больному. die Besserung — die-слово, поэтому Gute с -e. Прощание на «Sie»: auf Wiedersehen."
+    },
+    "audio": "audio_v1/ch13_d2_08.mp3",
+    "tts": "Gute Besserung! Auf Wiedersehen!",
+    "ipa": [
+     {
+      "w": "Gute",
+      "ipa": "[ˈɡuːtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Besserung",
+      "ipa": "[ˈbɛsəʁʊŋ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Auf",
+      "ipa": "[aʊ̯f]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wiedersehen",
+      "ipa": "[ˈviːdɐˌzeːən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "мн.ч. '' Wiedersehen ≠ {'Wiedersehen'}",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… B… · привет/вежливость: A… W…",
+    "gap": {
+     "text": "Gute Besserung! Auf ___!",
+     "answers": [
+      "Wiedersehen"
+     ]
+    },
+    "task_ru": "Скажи: Поправляйтесь! До свидания!"
+   },
+   {
+    "id": "ch13_d2_09",
+    "role": "H",
+    "de": "Danke! Auf Wiedersehen!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Спасибо! До свидания!",
+    "nouns": [
+     {
+      "lemma": "Wiedersehen",
+      "art": "das",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Auf Wiedersehen",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Короткий ответ: спасибо и прощание на «Sie»: auf Wiedersehen.",
+     "topic": "word_order",
+     "why_de": "Здесь 2 готовые формулы подряд: Danke + Auf Wiedersehen. Их учим целиком, по одной; действия нет — поэтому и поезда нет.",
+     "why_ru": "По-русски так же — 2 куска подряд: «Спасибо! До свидания».",
+     "layer": "formulas",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — склеить всё в одно и переводить по словам. Тут 2 куска, их учим целиком: Danke · Auf Wiedersehen."
+     },
+     "root": "Wiedersehen = wieder + sehen (wieder — снова; sehen — видеть) — Wiktionary",
+     "why_voice_ru": "Короткий ответ: спасибо и прощание на «Sie»: auf Wiedersehen."
+    },
+    "audio": "audio_v1/ch13_d2_09.mp3",
+    "tts": "Danke! Auf Wiedersehen!",
+    "ipa": [
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Auf",
+      "ipa": "[aʊ̯f]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wiedersehen",
+      "ipa": "[ˈviːdɐˌzeːən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "мн.ч. '' Wiedersehen ≠ {'Wiedersehen'}",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: D… · привет/вежливость: A… W…",
+    "gap": {
+     "text": "Danke! Auf ___!",
+     "answers": [
+      "Wiedersehen"
+     ]
+    },
+    "task_ru": "Скажи: Спасибо! До свидания!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch13_d3",
+  "title_ru": "У врача: что болит?",
+  "roles": {
+   "A": "Dr. Wagner (Ärztin)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch13_d3_01",
+    "role": "A",
+    "de": "Guten Tag! Was fehlt Ihnen?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Добрый день! Что вас беспокоит?",
+    "nouns": [
+     {
+      "lemma": "Tag",
+      "art": "der",
+      "pl": "Tage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Guten Tag",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Was",
+       "role": "вопрос-слово",
+       "asks": "кто"
+      },
+      {
+       "w": "fehlt",
+       "role": "действие №2"
+      },
+      {
+       "w": "Ihnen",
+       "role": "кому"
+      }
+     ],
+     "text": "Так врач спрашивает больного, что с ним. Вопрос-слово was, за ним действие fehlt. Ihnen — «вам».",
+     "topic": "questions",
+     "why_de": "Was fehlt Ihnen? — так врач спрашивает больного. Вопрос-слово was первое, сразу за ним действие fehlt, потом Ihnen — «вам».",
+     "why_ru": "По-русски «Что вас беспокоит?» — так же: «что» первое, потом действие. Ihnen — «вам», на «Sie».",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Guten Tag! Was fehlt dir?",
+      "ru": "Так спрашивают друга, на «ты». Врач говорит больному на «Sie»: Was fehlt Ihnen?"
+     },
+     "root": null,
+     "override": "tools/data_ch13.py WHY",
+     "why_voice_ru": "Так врач спрашивает больного, что с ним. Вопрос-слово was, за ним действие fehlt. Ihnen — «вам»."
+    },
+    "audio": "audio_v1/ch13_d3_01.mp3",
+    "tts": "Guten Tag! Was fehlt Ihnen?",
+    "ipa": [
+     {
+      "w": "Guten",
+      "ipa": "[ˈɡuːtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tag",
+      "ipa": "[taːk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "fehlt",
+      "ipa": "[feːlt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ihnen",
+      "ipa": "[ˈiːnən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… T… · вопрос-слово: W… · действие (вагон №2): f… · кому: I…",
+    "gap": {
+     "text": "Guten Tag! Was ___ ___?",
+     "answers": [
+      "fehlt",
+      "Ihnen"
+     ]
+    },
+    "task_ru": "Скажи: Добрый день! Что вас беспокоит?"
+   },
+   {
+    "id": "ch13_d3_02",
+    "role": "H",
+    "de": "Mein Kopf tut weh.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "У меня болит голова.",
+    "nouns": [
+     {
+      "lemma": "Kopf",
+      "art": "der",
+      "pl": "Köpfe"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Mein Kopf",
+       "role": "кто"
+      },
+      {
+       "w": "tut",
+       "role": "действие №2"
+      },
+      {
+       "w": "weh",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "«Моя голова делает больно»: tut стоит вторым, weh уходит в конец.",
+     "topic": "verb2",
+     "why_de": "Mein Kopf tut weh. — tut и weh вместе значат «болит»: tut стоит вторым, а weh уходит в самый конец. «Кто» здесь — сама часть тела: mein Kopf.",
+     "why_ru": "По-русски «У меня болит голова» — с «у меня». Немец говорит про саму часть тела: mein Kopf tut weh, как будто она сама делает больно.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Mein Kopf tut.",
+      "ru": "Без weh остаётся только tut — непонятно, что случилось. weh — вторая часть действия, она стоит в конце."
+     },
+     "root": null,
+     "override": "tools/data_ch13.py WHY",
+     "why_voice_ru": "«Моя голова делает больно»: tut стоит вторым, weh уходит в конец.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · хвост действия",
+      "items": [
+       {
+        "id": "ch13_024",
+        "de": "Mein Bauch tut weh.",
+        "ru": "У меня болит живот.",
+        "audio": "audio_v1/ch13_024.mp3",
+        "lesson": "L3",
+        "part": 3,
+        "changed": {
+         "role": "кто",
+         "wagon": 1,
+         "from": "Mein Kopf",
+         "to": "Mein Bauch"
+        }
+       },
+       {
+        "id": "ch13_025",
+        "de": "Mein Hals tut weh.",
+        "ru": "У меня болит горло.",
+        "audio": "audio_v1/ch13_025.mp3",
+        "lesson": "L3",
+        "part": 3,
+        "changed": {
+         "role": "кто",
+         "wagon": 1,
+         "from": "Mein Kopf",
+         "to": "Mein Hals"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: tut · weh. В каждом примере меняется один вагон — «кто»: Mein Kopf → Mein Bauch → Mein Hals. Действие tut всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch13_d3_02.mp3",
+    "tts": "Mein Kopf tut weh.",
+    "ipa": [
+     {
+      "w": "Mein",
+      "ipa": "[maɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kopf",
+      "ipa": "[kɔp͡f]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "tut",
+      "ipa": "[tuːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "weh",
+      "ipa": "[veː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: M… K… · действие (вагон №2): t… · хвост действия: w…",
+    "gap": {
+     "text": "Mein ___ ___ weh.",
+     "answers": [
+      "Kopf",
+      "tut"
+     ]
+    },
+    "task_ru": "Скажи: У меня болит голова."
+   },
+   {
+    "id": "ch13_d3_03",
+    "role": "H",
+    "de": "Mein Bauch tut auch weh.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "У меня живот тоже болит.",
+    "nouns": [
+     {
+      "lemma": "Bauch",
+      "art": "der",
+      "pl": "Bäuche"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Mein Bauch",
+       "role": "кто"
+      },
+      {
+       "w": "tut",
+       "role": "действие №2"
+      },
+      {
+       "w": "auch",
+       "role": "добавка"
+      },
+      {
+       "w": "weh",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Тот же поезд: mein Bauch · tut · … weh. auch — «тоже» — стоит перед weh, а weh всё равно в самом конце.",
+     "topic": "verb2",
+     "why_de": "Mein Bauch tut auch weh. — tut и weh вместе значат «болит»: tut стоит вторым, а weh уходит в самый конец. «Кто» здесь — сама часть тела: mein Bauch.",
+     "why_ru": "По-русски «У меня живот тоже болит» — с «у меня». Немец говорит про саму часть тела: mein Bauch tut weh, как будто она сама делает больно.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Mein Bauch tut weh auch.",
+      "ru": "weh уходит в самый конец, даже когда есть auch: Mein Bauch tut auch weh."
+     },
+     "root": null,
+     "override": "tools/data_ch13.py WHY",
+     "why_voice_ru": "Тот же поезд: mein Bauch · tut · … weh. auch — «тоже» — стоит перед weh, а weh всё равно в самом конце."
+    },
+    "audio": "audio_v1/ch13_d3_03.mp3",
+    "tts": "Mein Bauch tut auch weh.",
+    "ipa": [
+     {
+      "w": "Mein",
+      "ipa": "[maɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Bauch",
+      "ipa": "[baʊ̯x]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "tut",
+      "ipa": "[tuːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "auch",
+      "ipa": "[aʊ̯x]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "weh",
+      "ipa": "[veː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: M… B… · действие (вагон №2): t… · добавка: a… · хвост действия: w…",
+    "gap": {
+     "text": "Mein ___ ___ auch weh.",
+     "answers": [
+      "Bauch",
+      "tut"
+     ]
+    },
+    "task_ru": "Скажи: У меня живот тоже болит."
+   },
+   {
+    "id": "ch13_d3_04",
+    "role": "A",
+    "de": "Öffnen Sie bitte den Mund.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Откройте, пожалуйста, рот.",
+    "nouns": [
+     {
+      "lemma": "Mund",
+      "art": "der",
+      "pl": "Münder"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Öffnen",
+       "role": "действие №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "bitte",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "den Mund",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Просьба на «вы»: действие Öffnen первое, потом Sie. bitte места не занимает.",
+     "topic": "word_order",
+     "why_de": "Просьба на «вы»: действие Öffnen впереди + Sie: Öffnen Sie bitte den Mund. Так немец сразу показывает, что ждёт действия.",
+     "why_ru": "По-русски «Откройте, пожалуйста, рот» — без «вы». По-немецки Sie нужен, сразу после Öffnen.",
+     "layer": "imper",
+     "why_not": {
+      "wrong": "Öffnen bitte den Mund.",
+      "ru": "По-русски «Откройте, пожалуйста, рот» — без «вы». По-немецки без Sie это уже не просьба на «вы», а ошибка."
+     },
+     "root": null,
+     "why_voice_ru": "Просьба на «вы»: действие Öffnen первое, потом Sie. bitte места не занимает."
+    },
+    "audio": "audio_v1/ch13_d3_04.mp3",
+    "tts": "Öffnen Sie bitte den Mund.",
+    "ipa": [
+     {
+      "w": "Öffnen",
+      "ipa": "[ˈœfnən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "den",
+      "ipa": "[deːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Mund",
+      "ipa": "[mʊnt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): Ö… · кто: S… · привет/вежливость: b… · кого-что: d… M…",
+    "gap": {
+     "text": "___ Sie bitte den ___.",
+     "answers": [
+      "Öffnen",
+      "Mund"
+     ]
+    },
+    "task_ru": "Скажи: Откройте, пожалуйста, рот."
+   },
+   {
+    "id": "ch13_d3_05",
+    "role": "A",
+    "de": "Tut der Hals weh?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Горло болит?",
+    "nouns": [
+     {
+      "lemma": "Hals",
+      "art": "der",
+      "pl": "Hälse"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Tut",
+       "role": "действие №1"
+      },
+      {
+       "w": "der Hals",
+       "role": "кто"
+      },
+      {
+       "w": "weh",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет»: tut впереди, а weh — в самом конце.",
+     "topic": "questions",
+     "why_de": "Действие впереди (Tut) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Tut der Hals weh?",
+     "why_ru": "По-русски «Горло болит» — вопрос только голосом, порядок как в ответе. По-немецки действие Tut выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Der Hals tut weh?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Горло болит?!»). Обычный вопрос — действие впереди."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос «да/нет»: tut впереди, а weh — в самом конце."
+    },
+    "audio": "audio_v1/ch13_d3_05.mp3",
+    "tts": "Tut der Hals weh?",
+    "ipa": [
+     {
+      "w": "Tut",
+      "ipa": "[tuːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Hals",
+      "ipa": "[hals]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "weh",
+      "ipa": "[veː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): T… · кто: d… H… · хвост действия: w…",
+    "gap": {
+     "text": "___ der ___ weh?",
+     "answers": [
+      "Tut",
+      "Hals"
+     ]
+    },
+    "task_ru": "Скажи: Горло болит?"
+   },
+   {
+    "id": "ch13_d3_06",
+    "role": "H",
+    "de": "Ja, mein Hals tut weh.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, у меня болит горло.",
+    "nouns": [
+     {
+      "lemma": "Hals",
+      "art": "der",
+      "pl": "Hälse"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "mein Hals",
+       "role": "кто"
+      },
+      {
+       "w": "tut",
+       "role": "действие №2"
+      },
+      {
+       "w": "weh",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "ja не занимает вагон. Дальше поезд: mein Hals · tut · weh.",
+     "topic": "verb2",
+     "why_de": "Ja, mein Hals tut weh. — tut и weh вместе значат «болит»: tut стоит вторым, а weh уходит в самый конец. «Кто» здесь — сама часть тела: mein Hals.",
+     "why_ru": "По-русски «Да, у меня болит горло» — с «у меня». Немец говорит про саму часть тела: mein Hals tut weh, как будто она сама делает больно.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ja, mein Hals tut.",
+      "ru": "Без weh остаётся только tut — непонятно, что случилось. weh — вторая часть действия, она стоит в конце."
+     },
+     "root": null,
+     "override": "tools/data_ch13.py WHY",
+     "why_voice_ru": "ja не занимает вагон. Дальше поезд: mein Hals · tut · weh."
+    },
+    "audio": "audio_v1/ch13_d3_06.mp3",
+    "tts": "Ja, mein Hals tut weh.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mein",
+      "ipa": "[maɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Hals",
+      "ipa": "[hals]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "tut",
+      "ipa": "[tuːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "weh",
+      "ipa": "[veː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: m… H… · действие (вагон №2): t… · хвост действия: w…",
+    "gap": {
+     "text": "Ja, mein ___ ___ weh.",
+     "answers": [
+      "Hals",
+      "tut"
+     ]
+    },
+    "task_ru": "Скажи: Да, у меня болит горло."
+   },
+   {
+    "id": "ch13_d3_07",
+    "role": "A",
+    "de": "Sie haben eine Erkältung.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "У вас простуда.",
+    "nouns": [
+     {
+      "lemma": "Erkältung",
+      "art": "die",
+      "pl": "Erkältungen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "haben",
+       "role": "действие №2"
+      },
+      {
+       "w": "eine Erkältung",
+       "role": "кого-что"
+      }
+     ],
+     "text": "С Sie — haben. die Erkältung — die-слово, поэтому eine.",
+     "topic": "verb2",
+     "why_de": "Sie · haben · eine Erkältung: действие haben — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «У вас простуда» — без действия. По-немецки без haben фразы нет: Sie haben eine Erkältung.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Sie eine Erkältung.",
+      "ru": "Русская привычка — без действия, как «У вас простуда». Без haben немец слышит обрывок, а не фразу."
+     },
+     "root": null,
+     "why_voice_ru": "С Sie — haben. die Erkältung — die-слово, поэтому eine."
+    },
+    "audio": "audio_v1/ch13_d3_07.mp3",
+    "tts": "Sie haben eine Erkältung.",
+    "ipa": [
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "haben",
+      "ipa": "[ˈhaːbn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "eine",
+      "ipa": "[ˈaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Erkältung",
+      "ipa": "[ɛɐ̯ˈkɛltʊŋ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: S… · действие (вагон №2): h… · кого-что: e… E…",
+    "gap": {
+     "text": "Sie ___ eine ___.",
+     "answers": [
+      "haben",
+      "Erkältung"
+     ]
+    },
+    "task_ru": "Скажи: У вас простуда."
+   },
+   {
+    "id": "ch13_d3_08",
+    "role": "A",
+    "de": "Trinken Sie viel Tee!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Пейте много чая!",
+    "nouns": [
+     {
+      "lemma": "Tee",
+      "art": "der",
+      "pl": "Tees"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Trinken",
+       "role": "действие №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "viel Tee",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Совет врача — просьба на «вы»: действие Trinken первое, потом Sie.",
+     "topic": "word_order",
+     "why_de": "Просьба на «вы»: действие Trinken впереди + Sie: Trinken Sie viel Tee! Так немец сразу показывает, что ждёт действия.",
+     "why_ru": "По-русски «Пейте много чая» — без «вы». По-немецки Sie нужен, сразу после Trinken.",
+     "layer": "imper",
+     "why_not": {
+      "wrong": "Trinken viel Tee!",
+      "ru": "По-русски «Пейте много чая» — без «вы». По-немецки без Sie это уже не просьба на «вы», а ошибка."
+     },
+     "root": null,
+     "why_voice_ru": "Совет врача — просьба на «вы»: действие Trinken первое, потом Sie."
+    },
+    "audio": "audio_v1/ch13_d3_08.mp3",
+    "tts": "Trinken Sie viel Tee!",
+    "ipa": [
+     {
+      "w": "Trinken",
+      "ipa": "[ˈtʁɪŋkn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "viel",
+      "ipa": "[fiːl]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tee",
+      "ipa": "[teː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): T… · кто: S… · кого-что: v… T…",
+    "gap": {
+     "text": "___ Sie viel ___!",
+     "answers": [
+      "Trinken",
+      "Tee"
+     ]
+    },
+    "task_ru": "Скажи: Пейте много чая!"
+   },
+   {
+    "id": "ch13_d3_09",
+    "role": "H",
+    "de": "Danke! Auf Wiedersehen!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Спасибо! До свидания!",
+    "nouns": [
+     {
+      "lemma": "Wiedersehen",
+      "art": "das",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Auf Wiedersehen",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Короткий ответ: спасибо и прощание на «Sie»: auf Wiedersehen.",
+     "topic": "word_order",
+     "why_de": "Здесь 2 готовые формулы подряд: Danke + Auf Wiedersehen. Их учим целиком, по одной; действия нет — поэтому и поезда нет.",
+     "why_ru": "По-русски так же — 2 куска подряд: «Спасибо! До свидания».",
+     "layer": "formulas",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — склеить всё в одно и переводить по словам. Тут 2 куска, их учим целиком: Danke · Auf Wiedersehen."
+     },
+     "root": "Wiedersehen = wieder + sehen (wieder — снова; sehen — видеть) — Wiktionary",
+     "why_voice_ru": "Короткий ответ: спасибо и прощание на «Sie»: auf Wiedersehen."
+    },
+    "audio": "audio_v1/ch13_d3_09.mp3",
+    "tts": "Danke! Auf Wiedersehen!",
+    "ipa": [
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Auf",
+      "ipa": "[aʊ̯f]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wiedersehen",
+      "ipa": "[ˈviːdɐˌzeːən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "мн.ч. '' Wiedersehen ≠ {'Wiedersehen'}",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: D… · привет/вежливость: A… W…",
+    "gap": {
+     "text": "Danke! Auf ___!",
+     "answers": [
+      "Wiedersehen"
+     ]
+    },
+    "task_ru": "Скажи: Спасибо! До свидания!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch13_d4",
+  "title_ru": "В аптеке: от кашля",
+  "roles": {
+   "P": "Apothekerin (аптекарь)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch13_d4_01",
+    "role": "P",
+    "de": "Guten Tag! Was möchten Sie?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Добрый день! Что вы хотите?",
+    "nouns": [
+     {
+      "lemma": "Tag",
+      "art": "der",
+      "pl": "Tage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Guten Tag",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "möchten",
+       "role": "действие №2"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      }
+     ],
+     "text": "Вопрос-слово was, за ним действие möchten. На «Sie» — möchten.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Was — вагон №1, действие möchten — сразу за ним, вагон №2: Was möchten Sie? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Что вы хотите» можно сказать и в другом порядке. По-немецки порядок один: Was · möchten · Sie.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Guten Tag! Was Sie möchten?",
+      "ru": "Sie встал перед möchten — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос-слово was, за ним действие möchten. На «Sie» — möchten."
+    },
+    "audio": "audio_v1/ch13_d4_01.mp3",
+    "tts": "Guten Tag! Was möchten Sie?",
+    "ipa": [
+     {
+      "w": "Guten",
+      "ipa": "[ˈɡuːtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tag",
+      "ipa": "[taːk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "möchten",
+      "ipa": "[ˈmœçtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… T… · вопрос-слово: W… · действие (вагон №2): m… · кто: S…",
+    "gap": {
+     "text": "Guten Tag! Was ___ Sie?",
+     "answers": [
+      "möchten"
+     ]
+    },
+    "task_ru": "Скажи: Добрый день! Что вы хотите?"
+   },
+   {
+    "id": "ch13_d4_02",
+    "role": "H",
+    "de": "Ich habe Husten, aber ich habe kein Fieber.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "У меня кашель, но температуры у меня нет.",
+    "nouns": [
+     {
+      "lemma": "Husten",
+      "art": "der",
+      "pl": "Husten"
+     },
+     {
+      "lemma": "Fieber",
+      "art": "das",
+      "pl": "Fieber"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "действие №2"
+      },
+      {
+       "w": "Husten",
+       "role": "кого-что"
+      },
+      {
+       "w": "aber",
+       "role": "связка"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "действие №2"
+      },
+      {
+       "w": "kein Fieber",
+       "role": "кого-что"
+      }
+     ],
+     "text": "aber — «но»: у порога второй фразы, места не занимает. Дальше ich · habe · kein Fieber.",
+     "topic": "word_order",
+     "why_de": "Ich habe Husten, aber ich habe kein Fieber. — aber («но») стоит у порога второй фразы и места не занимает. Дальше обычный поезд: ich · habe · kein Fieber.",
+     "why_ru": "По-русски «У меня кашель, но температуры у меня нет» — две фразы через «но». По-немецки так же, а действие во второй фразе снова второе: ich · habe · kein Fieber.",
+     "layer": "kein",
+     "why_not": {
+      "wrong": "Ich habe Husten, aber habe ich kein Fieber.",
+      "ru": "aber места не занимает: после него сначала ich, потом действие. Оно снова второе."
+     },
+     "root": null,
+     "override": "tools/data_ch13.py WHY",
+     "why_voice_ru": "aber — «но»: у порога второй фразы, места не занимает. Дальше ich · habe · kein Fieber."
+    },
+    "audio": "audio_v1/ch13_d4_02.mp3",
+    "tts": "Ich habe Husten, aber ich habe kein Fieber.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Husten",
+      "ipa": "[ˈhuːstn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "aber",
+      "ipa": "[ˈaːbɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kein",
+      "ipa": "[kaɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Fieber",
+      "ipa": "[ˈfiːbɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): h… · кого-что: H… · связка: a… · кто: i… · действие (вагон №2): h… · кого-что: k… F…",
+    "gap": {
+     "text": "Ich ___ ___, aber ich habe kein Fieber.",
+     "answers": [
+      "habe",
+      "Husten"
+     ]
+    },
+    "task_ru": "Скажи: У меня кашель, но температуры у меня нет."
+   },
+   {
+    "id": "ch13_d4_03",
+    "role": "H",
+    "de": "Haben Sie etwas gegen Husten?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "У вас есть что-нибудь от кашля?",
+    "nouns": [
+     {
+      "lemma": "Husten",
+      "art": "der",
+      "pl": "Husten"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Haben",
+       "role": "действие №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "etwas gegen Husten",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Вопрос «да/нет»: действие Haben впереди. gegen — «против, от».",
+     "topic": "questions",
+     "why_de": "Действие впереди (Haben) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Haben Sie etwas gegen Husten?",
+     "why_ru": "По-русски «У вас есть что-нибудь от кашля» — вопрос только голосом, порядок как в ответе. По-немецки действие Haben выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Sie haben etwas gegen Husten?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («У вас есть что-нибудь от кашля?!»). Обычный вопрос — действие впереди."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос «да/нет»: действие Haben впереди. gegen — «против, от»."
+    },
+    "audio": "audio_v1/ch13_d4_03.mp3",
+    "tts": "Haben Sie etwas gegen Husten?",
+    "ipa": [
+     {
+      "w": "Haben",
+      "ipa": "[ˈhaːbn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "etwas",
+      "ipa": "[ˈɛtvas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gegen",
+      "ipa": "[ˈɡeːɡn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Husten",
+      "ipa": "[ˈhuːstn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): H… · кто: S… · кого-что: e… g… H…",
+    "gap": {
+     "text": "___ Sie etwas gegen ___?",
+     "answers": [
+      "Haben",
+      "Husten"
+     ]
+    },
+    "task_ru": "Скажи: У вас есть что-нибудь от кашля?"
+   },
+   {
+    "id": "ch13_d4_04",
+    "role": "P",
+    "de": "Möchten Sie Tabletten oder Tropfen?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Вы хотите таблетки или капли?",
+    "nouns": [
+     {
+      "lemma": "Tablette",
+      "art": "die",
+      "pl": "Tabletten"
+     },
+     {
+      "lemma": "Tropfen",
+      "art": "der",
+      "pl": "Tropfen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Möchten",
+       "role": "действие №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "Tabletten oder Tropfen",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Вопрос с oder: выбирают одно из двух. oder места не занимает.",
+     "topic": "questions",
+     "why_de": "Вопрос «или»: действие Möchten впереди, в вагоне №1, как в вопросе «да/нет». Но «да» или «нет» тут не ответ: надо выбрать — Tabletten или Tropfen. Голос: на Tabletten вверх ↗, на Tropfen вниз ↘.",
+     "why_ru": "По-русски так же: «Вы хотите таблетки или капли» — вопрос делает слово «или». Разница одна: по-немецки действие Möchten стоит впереди, в вагоне №1.",
+     "layer": "alt",
+     "why_not": {
+      "wrong": "Sie möchten Tabletten oder Tropfen?",
+      "ru": "Это не ошибка, но звучит как переспрос. Обычный вопрос «или» начинают с действия Möchten."
+     },
+     "root": null,
+     "override": "tools/data_ch13.py WHY",
+     "why_voice_ru": "Вопрос с oder: выбирают одно из двух. oder места не занимает."
+    },
+    "audio": "audio_v1/ch13_d4_04.mp3",
+    "tts": "Möchten Sie Tabletten oder Tropfen?",
+    "ipa": [
+     {
+      "w": "Möchten",
+      "ipa": "[ˈmœçtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tabletten",
+      "ipa": "[taˈblɛtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "oder",
+      "ipa": "[ˈoːdɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tropfen",
+      "ipa": "[ˈtʁɔp͡fn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): M… · кто: S… · кого-что: T… o… T…",
+    "gap": {
+     "text": "___ Sie Tabletten oder ___?",
+     "answers": [
+      "Möchten",
+      "Tropfen"
+     ]
+    },
+    "task_ru": "Скажи: Вы хотите таблетки или капли?"
+   },
+   {
+    "id": "ch13_d4_05",
+    "role": "H",
+    "de": "Ich möchte keine Tabletten, sondern Tropfen.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я хочу не таблетки, а капли.",
+    "nouns": [
+     {
+      "lemma": "Tablette",
+      "art": "die",
+      "pl": "Tabletten"
+     },
+     {
+      "lemma": "Tropfen",
+      "art": "der",
+      "pl": "Tropfen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "möchte",
+       "role": "действие №2"
+      },
+      {
+       "w": "keine Tabletten",
+       "role": "кого-что"
+      },
+      {
+       "w": "sondern",
+       "role": "связка"
+      },
+      {
+       "w": "Tropfen",
+       "role": "кого-что"
+      }
+     ],
+     "text": "sondern — «а» после «не»: keine Tabletten, sondern Tropfen.",
+     "topic": "negation",
+     "why_de": "Ich möchte keine Tabletten, sondern Tropfen. — sondern ставят после keine, когда исправляют одну деталь: не это, а то.",
+     "why_ru": "По-русски «Я хочу не таблетки, а капли»: сначала не, потом а. По-немецки так же — keine …, sondern ….",
+     "layer": "kein",
+     "why_not": {
+      "wrong": "Ich möchte keine Tabletten, aber Tropfen.",
+      "ru": "aber — это просто но, без исправления. После keine деталь исправляют словом sondern."
+     },
+     "root": null,
+     "override": "tools/data_ch13.py WHY",
+     "why_voice_ru": "sondern — «а» после «не»: keine Tabletten, sondern Tropfen."
+    },
+    "audio": "audio_v1/ch13_d4_05.mp3",
+    "tts": "Ich möchte keine Tabletten, sondern Tropfen.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "möchte",
+      "ipa": "[ˈmœçtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "keine",
+      "ipa": "[ˈkaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tabletten",
+      "ipa": "[taˈblɛtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "sondern",
+      "ipa": "[ˈzɔndɐn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tropfen",
+      "ipa": "[ˈtʁɔp͡fn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): m… · кого-что: k… T… · связка: s… · кого-что: T…",
+    "gap": {
+     "text": "Ich ___ keine ___, sondern Tropfen.",
+     "answers": [
+      "möchte",
+      "Tabletten"
+     ]
+    },
+    "task_ru": "Скажи: Я хочу не таблетки, а капли."
+   },
+   {
+    "id": "ch13_d4_06",
+    "role": "P",
+    "de": "Nehmen Sie dreimal am Tag zehn Tropfen.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Принимайте по десять капель три раза в день.",
+    "nouns": [
+     {
+      "lemma": "Tag",
+      "art": "der",
+      "pl": "Tage"
+     },
+     {
+      "lemma": "Tropfen",
+      "art": "der",
+      "pl": "Tropfen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Nehmen",
+       "role": "действие №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "dreimal am Tag",
+       "role": "когда"
+      },
+      {
+       "w": "zehn Tropfen",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Просьба на «вы»: действие Nehmen первое, потом Sie.",
+     "topic": "word_order",
+     "why_de": "Просьба на «вы»: действие Nehmen впереди + Sie: Nehmen Sie dreimal am Tag zehn Tropfen. Так немец сразу показывает, что ждёт действия.",
+     "why_ru": "По-русски «Принимайте по десять капель три раза в день» — без «вы». По-немецки Sie нужен, сразу после Nehmen.",
+     "layer": "imper",
+     "why_not": {
+      "wrong": "Nehmen dreimal am Tag zehn Tropfen.",
+      "ru": "По-русски «Принимайте по десять капель три раза в день» — без «вы». По-немецки без Sie это уже не просьба на «вы», а ошибка."
+     },
+     "root": null,
+     "why_voice_ru": "Просьба на «вы»: действие Nehmen первое, потом Sie."
+    },
+    "audio": "audio_v1/ch13_d4_06.mp3",
+    "tts": "Nehmen Sie dreimal am Tag zehn Tropfen.",
+    "ipa": [
+     {
+      "w": "Nehmen",
+      "ipa": "[ˈneːmən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "dreimal",
+      "ipa": "[ˈdʁaɪ̯maːl]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tag",
+      "ipa": "[taːk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "zehn",
+      "ipa": "[t͡seːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tropfen",
+      "ipa": "[ˈtʁɔp͡fn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): N… · кто: S… · когда: d… a… T… · кого-что: z… T…",
+    "gap": {
+     "text": "___ Sie dreimal am Tag zehn ___.",
+     "answers": [
+      "Nehmen",
+      "Tropfen"
+     ]
+    },
+    "task_ru": "Скажи: Принимайте по десять капель три раза в день."
+   },
+   {
+    "id": "ch13_d4_07",
+    "role": "H",
+    "de": "Ich nehme Tropfen und ich trinke viel Tee.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я принимаю капли и пью много чая.",
+    "nouns": [
+     {
+      "lemma": "Tropfen",
+      "art": "der",
+      "pl": "Tropfen"
+     },
+     {
+      "lemma": "Tee",
+      "art": "der",
+      "pl": "Tees"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "nehme",
+       "role": "действие №2"
+      },
+      {
+       "w": "Tropfen",
+       "role": "кого-что"
+      },
+      {
+       "w": "und",
+       "role": "связка"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "trinke",
+       "role": "действие №2"
+      },
+      {
+       "w": "viel Tee",
+       "role": "кого-что"
+      }
+     ],
+     "text": "und у порога второй фразы: und · ich · trinke.",
+     "topic": "verb2",
+     "why_de": "Ich nehme Tropfen und ich trinke viel Tee. — und («и») стоит у порога второй фразы и места не занимает. Дальше обычный поезд: ich · trinke · viel Tee.",
+     "why_ru": "По-русски «Я принимаю капли и пью много чая» — две фразы через «и». По-немецки так же, а действие во второй фразе снова второе: ich · trinke · viel Tee.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich nehme Tropfen und trinke ich viel Tee.",
+      "ru": "und места не занимает: после него сначала ich, потом действие. Оно снова второе."
+     },
+     "root": null,
+     "override": "tools/data_ch13.py WHY",
+     "why_voice_ru": "und у порога второй фразы: und · ich · trinke."
+    },
+    "audio": "audio_v1/ch13_d4_07.mp3",
+    "tts": "Ich nehme Tropfen und ich trinke viel Tee.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "nehme",
+      "ipa": "[ˈneːmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tropfen",
+      "ipa": "[ˈtʁɔp͡fn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "trinke",
+      "ipa": "[ˈtʁɪŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "viel",
+      "ipa": "[fiːl]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tee",
+      "ipa": "[teː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): n… · кого-что: T… · связка: u… · кто: i… · действие (вагон №2): t… · кого-что: v… T…",
+    "gap": {
+     "text": "Ich ___ ___ und ich trinke viel Tee.",
+     "answers": [
+      "nehme",
+      "Tropfen"
+     ]
+    },
+    "task_ru": "Скажи: Я принимаю капли и пью много чая."
+   },
+   {
+    "id": "ch13_d4_08",
+    "role": "P",
+    "de": "Gute Besserung! Auf Wiedersehen!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Поправляйтесь! До свидания!",
+    "nouns": [
+     {
+      "lemma": "Besserung",
+      "art": "die",
+      "pl": "Besserungen"
+     },
+     {
+      "lemma": "Wiedersehen",
+      "art": "das",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Gute Besserung",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Auf Wiedersehen",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Пожелание больному и прощание на «Sie». die Besserung — die-слово, поэтому Gute с -e.",
+     "topic": "word_order",
+     "why_de": "Здесь 2 готовые формулы подряд: Gute Besserung + Auf Wiedersehen. Их учим целиком, по одной; действия нет — поэтому и поезда нет.",
+     "why_ru": "По-русски так же — 2 куска подряд: «Поправляйтесь! До свидания».",
+     "layer": "formulas",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — склеить всё в одно и переводить по словам. Тут 2 куска, их учим целиком: Gute Besserung · Auf Wiedersehen."
+     },
+     "root": "Wiedersehen = wieder + sehen (wieder — снова; sehen — видеть) — Wiktionary",
+     "why_voice_ru": "Пожелание больному и прощание на «Sie». die Besserung — die-слово, поэтому Gute с -e."
+    },
+    "audio": "audio_v1/ch13_d4_08.mp3",
+    "tts": "Gute Besserung! Auf Wiedersehen!",
+    "ipa": [
+     {
+      "w": "Gute",
+      "ipa": "[ˈɡuːtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Besserung",
+      "ipa": "[ˈbɛsəʁʊŋ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Auf",
+      "ipa": "[aʊ̯f]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wiedersehen",
+      "ipa": "[ˈviːdɐˌzeːən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "мн.ч. '' Wiedersehen ≠ {'Wiedersehen'}",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… B… · привет/вежливость: A… W…",
+    "gap": {
+     "text": "Gute Besserung! Auf ___!",
+     "answers": [
+      "Wiedersehen"
+     ]
+    },
+    "task_ru": "Скажи: Поправляйтесь! До свидания!"
+   },
+   {
+    "id": "ch13_d4_09",
+    "role": "H",
+    "de": "Danke! Auf Wiedersehen!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Спасибо! До свидания!",
+    "nouns": [
+     {
+      "lemma": "Wiedersehen",
+      "art": "das",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Auf Wiedersehen",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Короткий ответ: спасибо и прощание на «Sie»: auf Wiedersehen.",
+     "topic": "word_order",
+     "why_de": "Здесь 2 готовые формулы подряд: Danke + Auf Wiedersehen. Их учим целиком, по одной; действия нет — поэтому и поезда нет.",
+     "why_ru": "По-русски так же — 2 куска подряд: «Спасибо! До свидания».",
+     "layer": "formulas",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — склеить всё в одно и переводить по словам. Тут 2 куска, их учим целиком: Danke · Auf Wiedersehen."
+     },
+     "root": "Wiedersehen = wieder + sehen (wieder — снова; sehen — видеть) — Wiktionary",
+     "why_voice_ru": "Короткий ответ: спасибо и прощание на «Sie»: auf Wiedersehen."
+    },
+    "audio": "audio_v1/ch13_d4_09.mp3",
+    "tts": "Danke! Auf Wiedersehen!",
+    "ipa": [
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Auf",
+      "ipa": "[aʊ̯f]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wiedersehen",
+      "ipa": "[ˈviːdɐˌzeːən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "мн.ч. '' Wiedersehen ≠ {'Wiedersehen'}",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: D… · привет/вежливость: A… W…",
+    "gap": {
+     "text": "Danke! Auf ___!",
+     "answers": [
+      "Wiedersehen"
+     ]
+    },
+    "task_ru": "Скажи: Спасибо! До свидания!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch13_d5",
+  "title_ru": "Fit bleiben: пойдёшь со мной?",
+  "roles": {
+   "O": "Olga (одногруппница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch13_d5_01",
+    "role": "O",
+    "de": "Was machst du für die Gesundheit?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Что ты делаешь для здоровья?",
+    "nouns": [
+     {
+      "lemma": "Gesundheit",
+      "art": "die",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "machst",
+       "role": "действие №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "für die Gesundheit",
+       "role": "добавка"
+      }
+     ],
+     "text": "Вопрос-слово was, за ним действие machst.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Was — вагон №1, действие machst — сразу за ним, вагон №2: Was machst du für die Gesundheit? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Что ты делаешь для здоровья» можно сказать и в другом порядке. По-немецки порядок один: Was · machst · du · für die Gesundheit.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Was du machst für die Gesundheit?",
+      "ru": "du встал перед machst — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос-слово was, за ним действие machst."
+    },
+    "audio": "audio_v1/ch13_d5_01.mp3",
+    "tts": "Was machst du für die Gesundheit?",
+    "ipa": [
+     {
+      "w": "Was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "machst",
+      "ipa": "[maxst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "für",
+      "ipa": "[fyːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Gesundheit",
+      "ipa": "[ɡəˈzʊnthaɪ̯t]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): m… · кто: d… · добавка: f… d… G…",
+    "gap": {
+     "text": "Was ___ du für die Gesundheit?",
+     "answers": [
+      "machst"
+     ]
+    },
+    "task_ru": "Скажи: Что ты делаешь для здоровья?"
+   },
+   {
+    "id": "ch13_d5_02",
+    "role": "H",
+    "de": "Ich mache gern Sport.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я люблю заниматься спортом.",
+    "nouns": [
+     {
+      "lemma": "Sport",
+      "art": "der",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "mache",
+       "role": "действие №2"
+      },
+      {
+       "w": "gern",
+       "role": "добавка"
+      },
+      {
+       "w": "Sport",
+       "role": "кого-что"
+      }
+     ],
+     "text": "gern — «с удовольствием». Действие mache — второе.",
+     "topic": "verb2",
+     "why_de": "Ich · mache · gern · Sport: действие mache — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я люблю заниматься спортом» — Ich mache gern Sport. Разница одна: по-немецки mache держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich gern Sport mache.",
+      "ru": "Действие mache уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе mache — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "gern — «с удовольствием». Действие mache — второе."
+    },
+    "audio": "audio_v1/ch13_d5_02.mp3",
+    "tts": "Ich mache gern Sport.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mache",
+      "ipa": "[ˈmaxə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gern",
+      "ipa": "[ɡɛʁn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sport",
+      "ipa": "[ʃpɔʁt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "мн.ч. '' Sport ≠ {'Sporte'}",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): m… · добавка: g… · кого-что: S…",
+    "gap": {
+     "text": "Ich ___ gern ___.",
+     "answers": [
+      "mache",
+      "Sport"
+     ]
+    },
+    "task_ru": "Скажи: Я люблю заниматься спортом."
+   },
+   {
+    "id": "ch13_d5_03",
+    "role": "H",
+    "de": "Ich schwimme zweimal in der Woche.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я плаваю два раза в неделю.",
+    "nouns": [
+     {
+      "lemma": "Woche",
+      "art": "die",
+      "pl": "Wochen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "schwimme",
+       "role": "действие №2"
+      },
+      {
+       "w": "zweimal in der Woche",
+       "role": "когда"
+      }
+     ],
+     "text": "zweimal in der Woche — «два раза в неделю».",
+     "topic": "verb2",
+     "why_de": "Ich · schwimme · zweimal in der Woche: действие schwimme — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я плаваю два раза в неделю» — Ich schwimme zweimal in der Woche. Разница одна: по-немецки schwimme держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich zweimal in der Woche schwimme.",
+      "ru": "Действие schwimme уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе schwimme — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "zweimal in der Woche — «два раза в неделю»."
+    },
+    "audio": "audio_v1/ch13_d5_03.mp3",
+    "tts": "Ich schwimme zweimal in der Woche.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schwimme",
+      "ipa": "[ˈʃvɪmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "zweimal",
+      "ipa": "[ˈt͡svaɪ̯maːl]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "in",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Woche",
+      "ipa": "[ˈvɔxə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): s… · когда: z… i… d… W…",
+    "gap": {
+     "text": "Ich ___ zweimal in der ___.",
+     "answers": [
+      "schwimme",
+      "Woche"
+     ]
+    },
+    "task_ru": "Скажи: Я плаваю два раза в неделю."
+   },
+   {
+    "id": "ch13_d5_04",
+    "role": "O",
+    "de": "Meine Freundin arbeitet im Fitnessstudio.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Моя подруга работает в фитнес-клубе.",
+    "nouns": [
+     {
+      "lemma": "Freundin",
+      "art": "die",
+      "pl": "Freundinnen"
+     },
+     {
+      "lemma": "Fitnessstudio",
+      "art": "das",
+      "pl": "Fitnessstudios"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Meine Freundin",
+       "role": "кто"
+      },
+      {
+       "w": "arbeitet",
+       "role": "действие №2"
+      },
+      {
+       "w": "im Fitnessstudio",
+       "role": "где"
+      }
+     ],
+     "text": "die Freundin — поэтому meine. im Fitnessstudio — «где?».",
+     "topic": "verb2",
+     "why_de": "Meine Freundin · arbeitet · im Fitnessstudio: действие arbeitet — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Моя подруга работает в фитнес-клубе» — Meine Freundin arbeitet im Fitnessstudio. Разница одна: по-немецки arbeitet держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Meine Freundin im Fitnessstudio arbeitet.",
+      "ru": "Действие arbeitet уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе arbeitet — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "die Freundin — поэтому meine. im Fitnessstudio — «где?»."
+    },
+    "audio": "audio_v1/ch13_d5_04.mp3",
+    "tts": "Meine Freundin arbeitet im Fitnessstudio.",
+    "ipa": [
+     {
+      "w": "Meine",
+      "ipa": "[ˈmaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Freundin",
+      "ipa": "[ˈfʁɔɪ̯ndɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "arbeitet",
+      "ipa": "[ˈaʁbaɪ̯tət]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "im",
+      "ipa": "[ɪm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Fitnessstudio",
+      "ipa": "[ˈfɪtnɛsˌʃtuːdi̯o]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: M… F… · действие (вагон №2): a… · где: i… F…",
+    "gap": {
+     "text": "Meine Freundin ___ im ___.",
+     "answers": [
+      "arbeitet",
+      "Fitnessstudio"
+     ]
+    },
+    "task_ru": "Скажи: Моя подруга работает в фитнес-клубе."
+   },
+   {
+    "id": "ch13_d5_05",
+    "role": "O",
+    "de": "Kommst du heute mit?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ты пойдёшь сегодня со мной?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Kommst",
+       "role": "действие №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "heute",
+       "role": "когда"
+      },
+      {
+       "w": "mit",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет»: kommst впереди, mit — в самом конце.",
+     "topic": "questions",
+     "why_de": "У действия есть «хвост»: он отрывается и встаёт в самый конец: Kommst du heute mit?",
+     "why_ru": "По-русски «Ты пойдёшь сегодня со мной» — действие одним куском; по-немецки хвост mit отрывается и уезжает в конец: Kommst du heute mit?",
+     "layer": "sep",
+     "why_not": {
+      "wrong": "Kommst mit du heute?",
+      "ru": "Хвост mit нельзя ставить сразу за Kommst: он уезжает в самый конец предложения."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос «да/нет»: kommst впереди, mit — в самом конце."
+    },
+    "audio": "audio_v1/ch13_d5_05.mp3",
+    "tts": "Kommst du heute mit?",
+    "ipa": [
+     {
+      "w": "Kommst",
+      "ipa": "[kɔmst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "heute",
+      "ipa": "[ˈhɔɪ̯tə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mit",
+      "ipa": "[mɪt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): K… · кто: d… · когда: h… · хвост действия: m…",
+    "gap": {
+     "text": "___ du ___ mit?",
+     "answers": [
+      "Kommst",
+      "heute"
+     ]
+    },
+    "task_ru": "Скажи: Ты пойдёшь сегодня со мной?"
+   },
+   {
+    "id": "ch13_d5_06",
+    "role": "H",
+    "de": "Ich habe heute keine Zeit, aber am Samstag komme ich mit.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Сегодня у меня нет времени, но в субботу я пойду вместе.",
+    "nouns": [
+     {
+      "lemma": "Zeit",
+      "art": "die",
+      "pl": "Zeiten"
+     },
+     {
+      "lemma": "Samstag",
+      "art": "der",
+      "pl": "Samstage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "действие №2"
+      },
+      {
+       "w": "heute",
+       "role": "когда"
+      },
+      {
+       "w": "keine Zeit",
+       "role": "кого-что"
+      },
+      {
+       "w": "aber",
+       "role": "связка"
+      },
+      {
+       "w": "am Samstag",
+       "role": "когда"
+      },
+      {
+       "w": "komme",
+       "role": "действие №2"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "mit",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "aber у порога. am Samstag — вагон №1, komme — второе, mit — в конце.",
+     "topic": "word_order",
+     "why_de": "Ich habe heute keine Zeit, aber am Samstag komme ich mit. — aber у порога и места не занимает. Дальше am Samstag — место 1, поэтому komme — второе, ich — после него, а mit — в самом конце.",
+     "why_ru": "По-русски «Сегодня у меня нет времени, но в субботу я пойду вместе» — «в субботу» можно поставить где угодно. По-немецки после am Samstag действие komme сразу второе.",
+     "layer": "sep",
+     "why_not": {
+      "wrong": "Ich habe heute keine Zeit, aber am Samstag ich komme mit.",
+      "ru": "Русский порядок: сначала ich, потом действие. Но am Samstag уже заняло место 1, поэтому сначала komme, потом ich."
+     },
+     "root": null,
+     "override": "tools/data_ch13.py WHY",
+     "why_voice_ru": "aber у порога. am Samstag — вагон №1, komme — второе, mit — в конце."
+    },
+    "audio": "audio_v1/ch13_d5_06.mp3",
+    "tts": "Ich habe heute keine Zeit, aber am Samstag komme ich mit.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "heute",
+      "ipa": "[ˈhɔɪ̯tə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "keine",
+      "ipa": "[ˈkaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Zeit",
+      "ipa": "[t͡saɪ̯t]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "aber",
+      "ipa": "[ˈaːbɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Samstag",
+      "ipa": "[ˈzamstaːk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "komme",
+      "ipa": "[ˈkɔmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mit",
+      "ipa": "[mɪt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): h… · когда: h… · кого-что: k… Z… · связка: a… · когда: a… S… · действие (вагон №2): k… · кто: i… · хвост действия: m…",
+    "gap": {
+     "text": "Ich ___ heute keine ___, aber am Samstag komme ich mit.",
+     "answers": [
+      "habe",
+      "Zeit"
+     ]
+    },
+    "task_ru": "Скажи: Сегодня у меня нет времени, но в субботу я пойду вместе."
+   },
+   {
+    "id": "ch13_d5_07",
+    "role": "O",
+    "de": "Wann hast du Zeit?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Когда у тебя есть время?",
+    "nouns": [
+     {
+      "lemma": "Zeit",
+      "art": "die",
+      "pl": "Zeiten"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wann",
+       "role": "вопрос-слово",
+       "asks": "когда"
+      },
+      {
+       "w": "hast",
+       "role": "действие №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "Zeit",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Вопрос-слово wann, за ним действие hast.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wann — вагон №1, действие hast — сразу за ним, вагон №2: Wann hast du Zeit? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Когда у тебя есть время» можно сказать и в другом порядке. По-немецки порядок один: Wann · hast · du · Zeit.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wann du hast Zeit?",
+      "ru": "du встал перед hast — действие ушло из вагона №2. После Wann немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос-слово wann, за ним действие hast."
+    },
+    "audio": "audio_v1/ch13_d5_07.mp3",
+    "tts": "Wann hast du Zeit?",
+    "ipa": [
+     {
+      "w": "Wann",
+      "ipa": "[van]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Zeit",
+      "ipa": "[t͡saɪ̯t]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): h… · кто: d… · кого-что: Z…",
+    "gap": {
+     "text": "Wann ___ du ___?",
+     "answers": [
+      "hast",
+      "Zeit"
+     ]
+    },
+    "task_ru": "Скажи: Когда у тебя есть время?"
+   },
+   {
+    "id": "ch13_d5_08",
+    "role": "H",
+    "de": "Am Samstag um zehn Uhr.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "В субботу в десять часов.",
+    "nouns": [
+     {
+      "lemma": "Samstag",
+      "art": "der",
+      "pl": "Samstage"
+     },
+     {
+      "lemma": "Uhr",
+      "art": "die",
+      "pl": "Uhren"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Am Samstag um zehn Uhr",
+       "role": "когда"
+      }
+     ],
+     "text": "Короткий ответ на вопрос «когда?»: действие не нужно.",
+     "topic": "word_order",
+     "why_de": "Короткий ответ без действия: Am Samstag um zehn Uhr (когда?).",
+     "why_ru": "По-русски так же коротко: «В субботу в десять часов».",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — считать это готовой формулой. «В субботу в десять часов» — короткий ответ, его слова меняют под ситуацию."
+     },
+     "root": null,
+     "why_voice_ru": "Короткий ответ на вопрос «когда?»: действие не нужно."
+    },
+    "audio": "audio_v1/ch13_d5_08.mp3",
+    "tts": "Am Samstag um zehn Uhr.",
+    "ipa": [
+     {
+      "w": "Am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Samstag",
+      "ipa": "[ˈzamstaːk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "um",
+      "ipa": "[ʊm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "zehn",
+      "ipa": "[t͡seːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Uhr",
+      "ipa": "[uːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "когда: A… S… u… z… U…",
+    "gap": {
+     "text": "Am Samstag um zehn ___.",
+     "answers": [
+      "Uhr"
+     ]
+    },
+    "task_ru": "Скажи: В субботу в десять часов."
+   },
+   {
+    "id": "ch13_d5_09",
+    "role": "O",
+    "de": "Ja, gut! Tschüss!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, хорошо! Пока!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "gut",
+       "role": "какой/как"
+      },
+      {
+       "w": "Tschüss",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Короткий ответ: да, хорошо — и «пока» на «ты».",
+     "topic": "word_order",
+     "why_de": "Короткий ответ: Ja + gut (как?). Действие из вопроса не повторяют — его уже сказали.",
+     "why_ru": "По-русски так же коротко: «Да, хорошо! Пока».",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — заучить всю фразу одним куском. Готовая формула тут только Tschüss, остальное — слова под ситуацию."
+     },
+     "root": null,
+     "why_voice_ru": "Короткий ответ: да, хорошо — и «пока» на «ты»."
+    },
+    "audio": "audio_v1/ch13_d5_09.mp3",
+    "tts": "Ja, gut! Tschüss!",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tschüss",
+      "ipa": "[t͡ʃʏs]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · какой/как: g… · привет/вежливость: T…",
+    "gap": {
+     "text": "Ja, gut! ___!",
+     "answers": [
+      "Tschüss"
+     ]
+    },
+    "task_ru": "Скажи: Да, хорошо! Пока!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch13_d6",
+  "title_ru": "Проверка главы: болезнь, врач и суббота",
+  "roles": {
+   "O": "Olga (одногруппница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch13_d6_01",
+    "role": "O",
+    "de": "Kommst du heute mit?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ты пойдёшь сегодня со мной?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Kommst",
+       "role": "действие №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "heute",
+       "role": "когда"
+      },
+      {
+       "w": "mit",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет»: kommst впереди, mit — в самом конце.",
+     "topic": "questions",
+     "why_de": "У действия есть «хвост»: он отрывается и встаёт в самый конец: Kommst du heute mit?",
+     "why_ru": "По-русски «Ты пойдёшь сегодня со мной» — действие одним куском; по-немецки хвост mit отрывается и уезжает в конец: Kommst du heute mit?",
+     "layer": "sep",
+     "why_not": {
+      "wrong": "Kommst mit du heute?",
+      "ru": "Хвост mit нельзя ставить сразу за Kommst: он уезжает в самый конец предложения."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос «да/нет»: kommst впереди, mit — в самом конце."
+    },
+    "audio": "audio_v1/ch13_d6_01.mp3",
+    "tts": "Kommst du heute mit?",
+    "ipa": [
+     {
+      "w": "Kommst",
+      "ipa": "[kɔmst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "heute",
+      "ipa": "[ˈhɔɪ̯tə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mit",
+      "ipa": "[mɪt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): K… · кто: d… · когда: h… · хвост действия: m…",
+    "gap": {
+     "text": "___ du ___ mit?",
+     "answers": [
+      "Kommst",
+      "heute"
+     ]
+    },
+    "task_ru": "Скажи: Ты пойдёшь сегодня со мной?"
+   },
+   {
+    "id": "ch13_d6_02",
+    "role": "H",
+    "de": "Nein, ich habe Husten und Fieber.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Нет, у меня кашель и температура.",
+    "nouns": [
+     {
+      "lemma": "Husten",
+      "art": "der",
+      "pl": "Husten"
+     },
+     {
+      "lemma": "Fieber",
+      "art": "das",
+      "pl": "Fieber"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Nein",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "действие №2"
+      },
+      {
+       "w": "Husten",
+       "role": "кого-что"
+      },
+      {
+       "w": "und",
+       "role": "связка"
+      },
+      {
+       "w": "Fieber",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Nein стоит у порога. Дальше обычный поезд: ich · habe · Husten und Fieber.",
+     "topic": "verb2",
+     "why_de": "ich · habe · Husten · Fieber: действие habe — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Нет, у меня кашель и температура» — без действия. По-немецки без habe фразы нет: Nein, ich habe Husten und Fieber.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Nein, ich Husten und Fieber.",
+      "ru": "Русская привычка — без действия, как «Нет, у меня кашель и температура». Без habe немец слышит обрывок, а не фразу."
+     },
+     "root": null,
+     "why_voice_ru": "Nein стоит у порога. Дальше обычный поезд: ich · habe · Husten und Fieber."
+    },
+    "audio": "audio_v1/ch13_d6_02.mp3",
+    "tts": "Nein, ich habe Husten und Fieber.",
+    "ipa": [
+     {
+      "w": "Nein",
+      "ipa": "[naɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Husten",
+      "ipa": "[ˈhuːstn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Fieber",
+      "ipa": "[ˈfiːbɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: N… · кто: i… · действие (вагон №2): h… · кого-что: H… · связка: u… · кого-что: F…",
+    "gap": {
+     "text": "Nein, ich ___ ___ und Fieber.",
+     "answers": [
+      "habe",
+      "Husten"
+     ]
+    },
+    "task_ru": "Скажи: Нет, у меня кашель и температура."
+   },
+   {
+    "id": "ch13_d6_03",
+    "role": "O",
+    "de": "Geh zum Arzt!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Иди к врачу!",
+    "nouns": [
+     {
+      "lemma": "Arzt",
+      "art": "der",
+      "pl": "Ärzte"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Geh",
+       "role": "действие №1"
+      },
+      {
+       "w": "zum Arzt",
+       "role": "куда"
+      }
+     ],
+     "text": "Просьба на «ты»: основа действия — Geh, впереди. zum — «к» и артикль слитно.",
+     "topic": "word_order",
+     "why_de": "Просьба на «ты»: основа действия — Geh, впереди. zum — «к» и артикль слитно: Arzt — der-слово.",
+     "why_ru": "По-русски «Иди к врачу!» — слово «ты» тоже не нужно. По-немецки так же: Geh, без du.",
+     "layer": "imper",
+     "why_not": {
+      "wrong": "Du gehst zum Arzt!",
+      "ru": "Это рассказ, а не просьба. Просьбу на «ты» говорят без du: Geh!"
+     },
+     "root": null,
+     "override": "tools/data_ch13.py WHY",
+     "why_voice_ru": "Просьба на «ты»: основа действия — Geh, впереди. zum — «к» и артикль слитно."
+    },
+    "audio": "audio_v1/ch13_d6_03.mp3",
+    "tts": "Geh zum Arzt!",
+    "ipa": [
+     {
+      "w": "Geh",
+      "ipa": "[ɡeː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "zum",
+      "ipa": "[t͡sʊm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Arzt",
+      "ipa": "[aːɐ̯t͡st]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): G… · куда: z… A…",
+    "gap": {
+     "text": "___ zum ___!",
+     "answers": [
+      "Geh",
+      "Arzt"
+     ]
+    },
+    "task_ru": "Скажи: Иди к врачу!"
+   },
+   {
+    "id": "ch13_d6_04",
+    "role": "H",
+    "de": "Ich habe um neun Uhr einen Termin.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "У меня в девять запись на приём.",
+    "nouns": [
+     {
+      "lemma": "Uhr",
+      "art": "die",
+      "pl": "Uhren"
+     },
+     {
+      "lemma": "Termin",
+      "art": "der",
+      "pl": "Termine"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "действие №2"
+      },
+      {
+       "w": "um neun Uhr",
+       "role": "когда"
+      },
+      {
+       "w": "einen Termin",
+       "role": "кого-что"
+      }
+     ],
+     "text": "um neun Uhr — «в девять часов». Termin — der-слово, а здесь он «кого-что»: einen.",
+     "topic": "verb2",
+     "why_de": "Артикль — сигнал роли: der → den/einen показывает «кого-что»: Ich habe um neun Uhr einen Termin.",
+     "why_ru": "Похоже на русские окончания, только меняется не слово, а артикль: Ich habe um neun Uhr einen Termin.",
+     "layer": "akk",
+     "why_not": {
+      "wrong": "Ich habe um neun Uhr ein Termin.",
+      "ru": "Русская привычка: артикль не меняется. Немец слышит не ту роль: тут der-слово в роли «кого-что» — einen."
+     },
+     "root": null,
+     "why_voice_ru": "um neun Uhr — «в девять часов». Termin — der-слово, а здесь он «кого-что»: einen."
+    },
+    "audio": "audio_v1/ch13_d6_04.mp3",
+    "tts": "Ich habe um neun Uhr einen Termin.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "um",
+      "ipa": "[ʊm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "neun",
+      "ipa": "[nɔɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Uhr",
+      "ipa": "[uːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "einen",
+      "ipa": "[ˈaɪ̯nən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Termin",
+      "ipa": "[tɛʁˈmiːn]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): h… · когда: u… n… U… · кого-что: e… T…",
+    "gap": {
+     "text": "Ich ___ um neun Uhr einen ___.",
+     "answers": [
+      "habe",
+      "Termin"
+     ]
+    },
+    "task_ru": "Скажи: У меня в девять запись на приём."
+   },
+   {
+    "id": "ch13_d6_05",
+    "role": "O",
+    "de": "Gut! Trink viel Tee!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Хорошо! Пей много чая!",
+    "nouns": [
+     {
+      "lemma": "Tee",
+      "art": "der",
+      "pl": "Tees"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Gut",
+       "role": "да/нет"
+      },
+      {
+       "w": "Trink",
+       "role": "действие №1"
+      },
+      {
+       "w": "viel Tee",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Gut стоит у порога. Просьба на «ты»: основа действия — Trink, впереди. Дальше — что: viel Tee.",
+     "topic": "word_order",
+     "why_de": "Gut стоит у порога и места не занимает. Просьба на «ты»: основа действия — Trink, впереди. Дальше — что: viel Tee.",
+     "why_ru": "По-русски «Хорошо! Пей много чая!» — слово «ты» тоже не нужно. По-немецки так же: Trink, без du.",
+     "layer": "imper",
+     "why_not": {
+      "wrong": "Gut! Du trinkst viel Tee!",
+      "ru": "Это рассказ, а не просьба. Просьбу на «ты» говорят без du: Trink!"
+     },
+     "root": null,
+     "override": "tools/data_ch13.py WHY",
+     "why_voice_ru": "Gut стоит у порога. Просьба на «ты»: основа действия — Trink, впереди. Дальше — что: viel Tee."
+    },
+    "audio": "audio_v1/ch13_d6_05.mp3",
+    "tts": "Gut! Trink viel Tee!",
+    "ipa": [
+     {
+      "w": "Gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Trink",
+      "ipa": "[tʁɪŋk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "viel",
+      "ipa": "[fiːl]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tee",
+      "ipa": "[teː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "не внесено в nouns: Trink",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: G… · действие (вагон №1): T… · кого-что: v… T…",
+    "gap": {
+     "text": "Gut! ___ viel ___!",
+     "answers": [
+      "Trink",
+      "Tee"
+     ]
+    },
+    "task_ru": "Скажи: Хорошо! Пей много чая!"
+   },
+   {
+    "id": "ch13_d6_06",
+    "role": "H",
+    "de": "Danke, Olga! Aber am Samstag habe ich Zeit.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Спасибо, Ольга! Но в субботу у меня есть время.",
+    "nouns": [
+     {
+      "lemma": "Samstag",
+      "art": "der",
+      "pl": "Samstage"
+     },
+     {
+      "lemma": "Zeit",
+      "art": "die",
+      "pl": "Zeiten"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Olga",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Aber",
+       "role": "связка"
+      },
+      {
+       "w": "am Samstag",
+       "role": "когда"
+      },
+      {
+       "w": "habe",
+       "role": "действие №2"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "Zeit",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Aber у порога и места не занимает. Am Samstag — вагон №1, поэтому habe — второе, ich — после него.",
+     "topic": "word_order",
+     "why_de": "Danke, Olga! Aber am Samstag habe ich Zeit. — aber у порога и места не занимает. Дальше am Samstag — место 1, поэтому habe — второе, ich — после него.",
+     "why_ru": "По-русски «Спасибо, Ольга! Но в субботу у меня есть время» — «в субботу» можно поставить где угодно. По-немецки после am Samstag действие habe сразу второе.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Danke, Olga! Aber am Samstag ich habe Zeit.",
+      "ru": "Русский порядок: сначала ich, потом действие. Но am Samstag уже заняло место 1, поэтому сначала habe, потом ich."
+     },
+     "root": null,
+     "override": "tools/data_ch13.py WHY",
+     "why_voice_ru": "Aber у порога и места не занимает. Am Samstag — вагон №1, поэтому habe — второе, ich — после него."
+    },
+    "audio": "audio_v1/ch13_d6_06.mp3",
+    "tts": "Danke, Olga! Aber am Samstag habe ich Zeit.",
+    "ipa": [
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Olga",
+      "ipa": "[ˈɔlɡa]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Aber",
+      "ipa": "[ˈaːbɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Samstag",
+      "ipa": "[ˈzamstaːk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Zeit",
+      "ipa": "[t͡saɪ̯t]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "не внесено в nouns: Aber",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: D… · привет/вежливость: O… · связка: A… · когда: a… S… · действие (вагон №2): h… · кто: i… · кого-что: Z…",
+    "gap": {
+     "text": "Danke, Olga! Aber am Samstag ___ ich ___.",
+     "answers": [
+      "habe",
+      "Zeit"
+     ]
+    },
+    "task_ru": "Скажи: Спасибо, Ольга! Но в субботу у меня есть время."
+   },
+   {
+    "id": "ch13_d6_07",
+    "role": "O",
+    "de": "Gut! Kommst du am Samstag um zehn Uhr mit?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Хорошо! Ты пойдёшь со мной в субботу в десять?",
+    "nouns": [
+     {
+      "lemma": "Samstag",
+      "art": "der",
+      "pl": "Samstage"
+     },
+     {
+      "lemma": "Uhr",
+      "art": "die",
+      "pl": "Uhren"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Gut",
+       "role": "да/нет"
+      },
+      {
+       "w": "Kommst",
+       "role": "действие №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "am Samstag",
+       "role": "когда"
+      },
+      {
+       "w": "um zehn Uhr",
+       "role": "когда"
+      },
+      {
+       "w": "mit",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет»: kommst впереди, mit — в самом конце.",
+     "topic": "questions",
+     "why_de": "У действия есть «хвост»: он отрывается и встаёт в самый конец: Kommst du am Samstag um zehn Uhr mit?",
+     "why_ru": "По-русски «Ты пойдёшь со мной в субботу в десять» — действие одним куском; по-немецки хвост mit отрывается и уезжает в конец: Kommst du am Samstag um zehn Uhr mit?",
+     "layer": "sep",
+     "why_not": {
+      "wrong": "Gut! Kommst mit du am Samstag um zehn Uhr?",
+      "ru": "Хвост mit нельзя ставить сразу за Kommst: он уезжает в самый конец предложения."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос «да/нет»: kommst впереди, mit — в самом конце."
+    },
+    "audio": "audio_v1/ch13_d6_07.mp3",
+    "tts": "Gut! Kommst du am Samstag um zehn Uhr mit?",
+    "ipa": [
+     {
+      "w": "Gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kommst",
+      "ipa": "[kɔmst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Samstag",
+      "ipa": "[ˈzamstaːk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "um",
+      "ipa": "[ʊm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "zehn",
+      "ipa": "[t͡seːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Uhr",
+      "ipa": "[uːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mit",
+      "ipa": "[mɪt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "не внесено в nouns: Kommst",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: G… · действие (вагон №1): K… · кто: d… · когда: a… S… · когда: u… z… U… · хвост действия: m…",
+    "gap": {
+     "text": "Gut! ___ du am ___ um zehn Uhr mit?",
+     "answers": [
+      "Kommst",
+      "Samstag"
+     ]
+    },
+    "task_ru": "Скажи: Хорошо! Ты пойдёшь со мной в субботу в десять?"
+   },
+   {
+    "id": "ch13_d6_08",
+    "role": "H",
+    "de": "Ja, ich komme gern mit.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, я с удовольствием пойду.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "komme",
+       "role": "действие №2"
+      },
+      {
+       "w": "gern",
+       "role": "добавка"
+      },
+      {
+       "w": "mit",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Ja стоит у порога. gern — «с удовольствием», mit — в самом конце.",
+     "topic": "verb2",
+     "why_de": "У действия есть «хвост»: он отрывается и встаёт в самый конец: Ja, ich komme gern mit.",
+     "why_ru": "По-русски «Да, я с удовольствием пойду» — действие одним куском; по-немецки хвост mit отрывается и уезжает в конец: Ja, ich komme gern mit.",
+     "layer": "sep",
+     "why_not": {
+      "wrong": "Ja, ich komme mit gern.",
+      "ru": "Хвост mit нельзя ставить сразу за komme: он уезжает в самый конец предложения."
+     },
+     "root": null,
+     "why_voice_ru": "Ja стоит у порога. gern — «с удовольствием», mit — в самом конце."
+    },
+    "audio": "audio_v1/ch13_d6_08.mp3",
+    "tts": "Ja, ich komme gern mit.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "komme",
+      "ipa": "[ˈkɔmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gern",
+      "ipa": "[ɡɛʁn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mit",
+      "ipa": "[mɪt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: i… · действие (вагон №2): k… · добавка: g… · хвост действия: m…",
+    "gap": {
+     "text": "Ja, ich ___ gern mit.",
+     "answers": [
+      "komme"
+     ]
+    },
+    "task_ru": "Скажи: Да, я с удовольствием пойду."
+   },
+   {
+    "id": "ch13_d6_09",
+    "role": "O",
+    "de": "Ja, gut! Tschüss!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, хорошо! Пока!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "gut",
+       "role": "какой/как"
+      },
+      {
+       "w": "Tschüss",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Короткий ответ: да, хорошо — и «пока» на «ты».",
+     "topic": "word_order",
+     "why_de": "Короткий ответ: Ja + gut (как?). Действие из вопроса не повторяют — его уже сказали.",
+     "why_ru": "По-русски так же коротко: «Да, хорошо! Пока».",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — заучить всю фразу одним куском. Готовая формула тут только Tschüss, остальное — слова под ситуацию."
+     },
+     "root": null,
+     "why_voice_ru": "Короткий ответ: да, хорошо — и «пока» на «ты»."
+    },
+    "audio": "audio_v1/ch13_d6_09.mp3",
+    "tts": "Ja, gut! Tschüss!",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tschüss",
+      "ipa": "[t͡ʃʏs]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · какой/как: g… · привет/вежливость: T…",
+    "gap": {
+     "text": "Ja, gut! ___!",
+     "answers": [
+      "Tschüss"
+     ]
+    },
+    "task_ru": "Скажи: Да, хорошо! Пока!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ }
+]

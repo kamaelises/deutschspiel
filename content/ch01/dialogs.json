@@ -1,0 +1,6841 @@
+[
+ {
+  "id": "ch01_d1",
+  "title_ru": "Новый сосед",
+  "roles": {
+   "A": "{hero_name} (герой)",
+   "B": "Herr Schmidt"
+  },
+  "lines": [
+   {
+    "id": "ch01_d1_01",
+    "role": "A",
+    "de": "Guten Morgen!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Доброе утро!",
+    "nouns": [
+     {
+      "lemma": "Morgen",
+      "art": "der",
+      "pl": "Morgen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Guten Morgen",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Утро — значит Guten Morgen.",
+     "topic": "word_order",
+     "why_de": "Готовое пожелание «(желаю) доброго утра». Немцы говорят его целиком.",
+     "why_ru": "Как русское «доброго утра!»: пожелание учат куском, по словам не разбирают.",
+     "layer": "chunk",
+     "why_not": {
+      "wrong": "Gute Morgen!",
+      "ru": "Частая ошибка — Gute вместо Guten. Учи кусок целиком: Guten Morgen. Почему так — в следующих уроках."
+     },
+     "source": "tools/why_chunks.json",
+     "root": "Morgen — germ. *murgina-, вероятно от «сумерки, рассвет»; возможно, родня русского «морок» (ie. *mer(ə)k- «мерцать, темнеть»; DWDS, Pfeifer)",
+     "why_voice_ru": "Утро — значит Guten Morgen."
+    },
+    "audio": "audio_v1/ch01_d1_01.mp3",
+    "tts": "Guten Morgen! Guten Morgen!",
+    "ipa": [
+     {
+      "w": "Guten",
+      "ipa": "[ˈɡuːtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Morgen",
+      "ipa": "[ˈmɔʁɡn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… M…",
+    "gap": {
+     "text": "Guten ___!",
+     "answers": [
+      "Morgen"
+     ]
+    },
+    "task_ru": "Скажи: Доброе утро!"
+   },
+   {
+    "id": "ch01_d1_02",
+    "role": "B",
+    "de": "Guten Morgen!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Доброе утро!",
+    "nouns": [
+     {
+      "lemma": "Morgen",
+      "art": "der",
+      "pl": "Morgen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Guten Morgen",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Отвечают тем же.",
+     "topic": "word_order",
+     "why_de": "Готовое пожелание «(желаю) доброго утра». Немцы говорят его целиком.",
+     "why_ru": "Как русское «доброго утра!»: пожелание учат куском, по словам не разбирают.",
+     "layer": "chunk",
+     "why_not": {
+      "wrong": "Gute Morgen!",
+      "ru": "Частая ошибка — Gute вместо Guten. Учи кусок целиком: Guten Morgen. Почему так — в следующих уроках."
+     },
+     "source": "tools/why_chunks.json",
+     "root": "Morgen — germ. *murgina-, вероятно от «сумерки, рассвет»; возможно, родня русского «морок» (ie. *mer(ə)k- «мерцать, темнеть»; DWDS, Pfeifer)",
+     "why_voice_ru": "Отвечают тем же."
+    },
+    "audio": "audio_v1/ch01_d1_02.mp3",
+    "tts": "Guten Morgen! Guten Morgen!",
+    "ipa": [
+     {
+      "w": "Guten",
+      "ipa": "[ˈɡuːtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Morgen",
+      "ipa": "[ˈmɔʁɡn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… M…",
+    "gap": {
+     "text": "Guten ___!",
+     "answers": [
+      "Morgen"
+     ]
+    },
+    "task_ru": "Скажи: Доброе утро!"
+   },
+   {
+    "id": "ch01_d1_03",
+    "role": "A",
+    "de": "Ich bin Max, Ihr neuer Nachbar.",
+    "de_template": "Ich bin {hero_name}, Ihr neuer Nachbar.",
+    "audio_regen_on_name": true,
+    "ru": "Я {hero_name}, ваш новый сосед.",
+    "nouns": [
+     {
+      "lemma": "Nachbar",
+      "art": "der",
+      "pl": "Nachbarn"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "bin",
+       "role": "действие №2"
+      },
+      {
+       "w": "{hero_name}, Ihr neuer Nachbar",
+       "role": "кто"
+      }
+     ],
+     "text": "bin как «=»: я = {hero_name} = сосед.",
+     "topic": "verb2",
+     "why_de": "bin работает как знак «=»: ich = {hero_name}, Ihr neuer Nachbar. Действие держит вагон №2.",
+     "why_ru": "По-русски «Я {hero_name}, ваш новый сосед» — без «есть». По-немецки без bin нельзя: Ich bin {hero_name}, Ihr neuer Nachbar.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Ich {hero_name}, Ihr neuer Nachbar.",
+      "ru": "Русская привычка — пропустить «есть». Без bin немец слышит обрывок, а не фразу."
+     },
+     "root": "bin, bist — от древнего корня *bʰew- («быть»), а ist — от *es- (как русское «есть»); весь глагол sein собран из двух корней (DWDS, Wiktionary)",
+     "why_voice_ru": "bin как «=»: я = {hero_name} = сосед."
+    },
+    "audio": "audio_v3/ch01_d1_03.mp3",
+    "tts": "Ich bin Max, Ihr neuer Nachbar.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bin",
+      "ipa": "[bɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Max",
+      "ipa": "[maks]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ihr",
+      "ipa": "[iːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "neuer",
+      "ipa": "[ˈnɔɪ̯ɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Nachbar",
+      "ipa": "[ˈnaxˌbaːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): b… · кто: M… I… n… N…",
+    "gap": {
+     "text": "Ich ___ {hero_name}, Ihr neuer ___.",
+     "answers": [
+      "bin",
+      "Nachbar"
+     ],
+     "accept_any_name": true
+    },
+    "task_ru": "Скажи: Я {hero_name}, ваш новый сосед."
+   },
+   {
+    "id": "ch01_d1_04",
+    "role": "B",
+    "de": "Mein Name ist Schmidt.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Меня зовут Шмидт.",
+    "nouns": [
+     {
+      "lemma": "Name",
+      "art": "der",
+      "pl": "Namen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Mein Name",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "Schmidt",
+       "role": "кто"
+      }
+     ],
+     "text": "Name — «имя»; на «вы» немцы часто называют только фамилию.",
+     "topic": "verb2",
+     "why_de": "ist работает как знак «=»: mein Name = Schmidt. Действие держит вагон №2.",
+     "why_ru": "Дословно «моё имя есть Schmidt». По-русски «моё имя — Schmidt» — без «есть». По-немецки ist нужен: Mein Name ist Schmidt.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Mein Name Schmidt.",
+      "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "Name и русское «имя» — дальняя родня: один древний корень *h₁nómn̥ (Wiktionary); ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Name — «имя»; на «вы» немцы часто называют только фамилию."
+    },
+    "audio": "audio_v1/ch01_d1_04.mp3",
+    "tts": "Mein Name ist Schmidt.",
+    "ipa": [
+     {
+      "w": "Mein",
+      "ipa": "[maɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Name",
+      "ipa": "[ˈnaːmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Schmidt",
+      "ipa": "[ʃmɪt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: M… N… · действие (вагон №2): i… · кто: S…",
+    "gap": {
+     "text": "Mein ___ ___ Schmidt.",
+     "answers": [
+      "Name",
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Меня зовут Шмидт."
+   },
+   {
+    "id": "ch01_d1_05",
+    "role": "B",
+    "de": "Woher kommen Sie?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Откуда вы?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Woher",
+       "role": "вопрос-слово",
+       "asks": "откуда"
+      },
+      {
+       "w": "kommen",
+       "role": "действие №2"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      }
+     ],
+     "text": "Вопрос-слово, потом действие.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Woher — вагон №1, действие kommen — сразу за ним, вагон №2: Woher kommen Sie? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Откуда вы» можно сказать и в другом порядке. По-немецки порядок один: Woher · kommen · Sie. Действия kommen в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Woher Sie kommen?",
+      "ru": "Sie встал перед kommen — действие ушло из вагона №2. После Woher немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос-слово, потом действие."
+    },
+    "audio": "audio_v1/ch01_d1_05.mp3",
+    "tts": "Woher kommen Sie?",
+    "ipa": [
+     {
+      "w": "Woher",
+      "ipa": "[voˈheːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kommen",
+      "ipa": "[ˈkɔmən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): k… · кто: S…",
+    "gap": {
+     "text": "Woher ___ Sie?",
+     "answers": [
+      "kommen"
+     ]
+    },
+    "task_ru": "Скажи: Откуда вы?"
+   },
+   {
+    "id": "ch01_d1_06",
+    "role": "A",
+    "de": "Ich komme aus der Ukraine.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я из Украины.",
+    "nouns": [
+     {
+      "lemma": "Ukraine",
+      "art": "die",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "komme",
+       "role": "действие №2"
+      },
+      {
+       "w": "aus der Ukraine",
+       "role": "откуда"
+      }
+     ],
+     "text": "die Ukraine → aus der Ukraine.",
+     "topic": "articles",
+     "why_de": "Ich · komme · aus der Ukraine: действие komme — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Я из Украины» — без действия. По-немецки без komme фразы нет: Ich komme aus der Ukraine.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich aus der Ukraine.",
+      "ru": "Русская привычка — без действия, как «Я из Украины». Без komme немец слышит обрывок, а не фразу."
+     },
+     "root": null,
+     "why_voice_ru": "die Ukraine → aus der Ukraine."
+    },
+    "audio": "audio_v1/ch01_d1_06.mp3",
+    "tts": "Ich komme aus der Ukraine.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "komme",
+      "ipa": "[ˈkɔmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "aus",
+      "ipa": "[aʊ̯s]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ukraine",
+      "ipa": "[ˌukʁaˈiːnə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): k… · откуда: a… d… U…",
+    "gap": {
+     "text": "Ich ___ aus der Ukraine.",
+     "answers": [
+      "komme"
+     ]
+    },
+    "task_ru": "Скажи: Я из Украины."
+   },
+   {
+    "id": "ch01_d1_07",
+    "role": "B",
+    "de": "Herzlich willkommen im Dorf!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Добро пожаловать в деревню!",
+    "nouns": [
+     {
+      "lemma": "Dorf",
+      "art": "das",
+      "pl": "Dörfer"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Herzlich willkommen",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "im Dorf",
+       "role": "где"
+      }
+     ],
+     "text": "das Dorf → im Dorf («где»).",
+     "topic": "articles",
+     "why_de": "Herzlich willkommen — готовая формула, дальше кусок по словам: im Dorf (где? — место).",
+     "why_ru": "По-русски так же коротко: «Добро пожаловать в деревню».",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — бросить маленькое im: нужен весь кусок im Dorf, одно название без im ответом не будет."
+     },
+     "root": null,
+     "why_voice_ru": "das Dorf → im Dorf («где»)."
+    },
+    "audio": "audio_v1/ch01_d1_07.mp3",
+    "tts": "Herzlich willkommen im Dorf!",
+    "ipa": [
+     {
+      "w": "Herzlich",
+      "ipa": "[ˈhɛʁt͡slɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "willkommen",
+      "ipa": "[vɪlˈkɔmən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "im",
+      "ipa": "[ɪm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Dorf",
+      "ipa": "[dɔʁf]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: H… w… · где: i… D…",
+    "gap": {
+     "text": "Herzlich willkommen im ___!",
+     "answers": [
+      "Dorf"
+     ]
+    },
+    "task_ru": "Скажи: Добро пожаловать в деревню!"
+   },
+   {
+    "id": "ch01_d1_08",
+    "role": "A",
+    "de": "Danke, auf Wiedersehen!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Спасибо, до свидания!",
+    "nouns": [
+     {
+      "lemma": "Wiedersehen",
+      "art": "das",
+      "pl": "Wiedersehen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "auf Wiedersehen",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Вежливое прощание с соседом на «вы».",
+     "topic": "word_order",
+     "why_de": "Здесь 2 готовые формулы подряд: Danke + auf Wiedersehen. Их учим целиком, по одной; действия нет — поэтому и поезда нет.",
+     "why_ru": "По-русски так же — 2 куска подряд: «Спасибо, до свидания».",
+     "layer": "formulas",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — склеить всё в одно и переводить по словам. Тут 2 куска, их учим целиком: Danke · auf Wiedersehen."
+     },
+     "root": "Wiedersehen = wieder + sehen (wieder — снова; sehen — видеть) — Wiktionary",
+     "why_voice_ru": "Вежливое прощание с соседом на «вы»."
+    },
+    "audio": "audio_v1/ch01_d1_08.mp3",
+    "tts": "Danke, auf Wiedersehen!",
+    "ipa": [
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "auf",
+      "ipa": "[aʊ̯f]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wiedersehen",
+      "ipa": "[ˈviːdɐˌzeːən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: D… · привет/вежливость: a… W…",
+    "gap": {
+     "text": "Danke, auf ___!",
+     "answers": [
+      "Wiedersehen"
+     ]
+    },
+    "task_ru": "Скажи: Спасибо, до свидания!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": "Теперь ты встречаешь соседа вечером (Guten Abend) и он спрашивает, где ты живёшь."
+  }
+ },
+ {
+  "id": "ch01_d2",
+  "title_ru": "Первый день на курсе",
+  "roles": {
+   "L": "Frau Becker (Lehrerin)",
+   "O": "{hero_name} (герой)",
+   "A": "Ahmad"
+  },
+  "lines": [
+   {
+    "id": "ch01_d2_01",
+    "role": "L",
+    "de": "Guten Tag, ich bin Frau Becker.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Добрый день, я госпожа Беккер.",
+    "nouns": [
+     {
+      "lemma": "Tag",
+      "art": "der",
+      "pl": "Tage"
+     },
+     {
+      "lemma": "Frau",
+      "art": "die",
+      "pl": "Frauen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Guten Tag",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "bin",
+       "role": "действие №2"
+      },
+      {
+       "w": "Frau Becker",
+       "role": "кто"
+      }
+     ],
+     "text": "Приветствие не занимает вагон; поезд — с ich.",
+     "topic": "verb2",
+     "why_de": "Guten Tag — не вагон, дальше тот же поезд: кто · bin · кто, и bin работает как знак «=»: ich = Frau Becker.",
+     "why_ru": "По-русски «Добрый день, я госпожа Беккер» — без «есть». По-немецки без bin нельзя: Guten Tag, ich bin Frau Becker.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Guten Tag, ich Frau Becker.",
+      "ru": "Русская привычка — пропустить «есть». Без bin немец слышит обрывок, а не фразу."
+     },
+     "root": "bin, bist — от древнего корня *bʰew- («быть»), а ist — от *es- (как русское «есть»); весь глагол sein собран из двух корней (DWDS, Wiktionary)",
+     "why_voice_ru": "Приветствие не занимает вагон; поезд — с ich."
+    },
+    "audio": "audio_v1/ch01_d2_01.mp3",
+    "tts": "Guten Tag, ich bin Frau Becker.",
+    "ipa": [
+     {
+      "w": "Guten",
+      "ipa": "[ˈɡuːtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tag",
+      "ipa": "[taːk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bin",
+      "ipa": "[bɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Frau",
+      "ipa": "[fʁaʊ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Becker",
+      "ipa": "[ˈbɛkɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… T… · кто: i… · действие (вагон №2): b… · кто: F… B…",
+    "gap": {
+     "text": "Guten Tag, ich ___ Frau ___.",
+     "answers": [
+      "bin",
+      "Becker"
+     ]
+    },
+    "task_ru": "Скажи: Добрый день, я госпожа Беккер."
+   },
+   {
+    "id": "ch01_d2_02",
+    "role": "L",
+    "de": "Wie heißen Sie?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Как вас зовут?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wie",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "heißen",
+       "role": "действие №2"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      }
+     ],
+     "text": "Вопрос-слово, действие, потом Sie.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wie — вагон №1, действие heißen — сразу за ним, вагон №2: Wie heißen Sie? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Как вас зовут» можно сказать и в другом порядке. По-немецки порядок один: Wie · heißen · Sie.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wie Sie heißen?",
+      "ru": "Sie встал перед heißen — действие ушло из вагона №2. После Wie немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос-слово, действие, потом Sie."
+    },
+    "audio": "audio_v1/ch01_d2_02.mp3",
+    "tts": "Wie heißen Sie?",
+    "ipa": [
+     {
+      "w": "Wie",
+      "ipa": "[viː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "heißen",
+      "ipa": "[ˈhaɪ̯sn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): h… · кто: S…",
+    "gap": {
+     "text": "Wie ___ Sie?",
+     "answers": [
+      "heißen"
+     ]
+    },
+    "task_ru": "Скажи: Как вас зовут?"
+   },
+   {
+    "id": "ch01_d2_03",
+    "role": "O",
+    "de": "Ich heiße Max.",
+    "de_template": "Ich heiße {hero_name}.",
+    "audio_regen_on_name": true,
+    "ru": "Меня зовут {hero_name}.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "heiße",
+       "role": "действие №2"
+      },
+      {
+       "w": "{hero_name}",
+       "role": "кто"
+      }
+     ],
+     "text": "С ich — heiße.",
+     "topic": "verb2",
+     "why_de": "Ich · heiße · {hero_name}: действие heiße — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Меня зовут {hero_name}» — без «я». По-немецки Ich нужен: Ich heiße {hero_name}.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Heiße {hero_name}.",
+      "ru": "По-русски «Меня зовут {hero_name}» — без «я». По-немецки без Ich фраза обрывается."
+     },
+     "root": null,
+     "why_voice_ru": "С ich — heiße."
+    },
+    "audio": "audio_v3/ch01_d2_03.mp3",
+    "tts": "Ich heiße Max.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "heiße",
+      "ipa": "[ˈhaɪ̯sə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Max",
+      "ipa": "[maks]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): h… · кто: {hero_name}",
+    "gap": {
+     "text": "Ich ___ {hero_name}.",
+     "answers": [
+      "heiße"
+     ],
+     "accept_any_name": true
+    },
+    "task_ru": "Скажи: Меня зовут {hero_name}."
+   },
+   {
+    "id": "ch01_d2_04",
+    "role": "L",
+    "de": "Woher kommen Sie, Max?",
+    "de_template": "Woher kommen Sie, {hero_name}?",
+    "audio_regen_on_name": true,
+    "ru": "Откуда вы, {hero_name}?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Woher",
+       "role": "вопрос-слово",
+       "asks": "откуда"
+      },
+      {
+       "w": "kommen",
+       "role": "действие №2"
+      },
+      {
+       "w": "Sie, {hero_name}",
+       "role": "кто"
+      }
+     ],
+     "text": "Имя в конце — просто обращение.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Woher — вагон №1, действие kommen — сразу за ним, вагон №2: Woher kommen Sie, {hero_name}? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Откуда вы, {hero_name}» можно сказать и в другом порядке. По-немецки порядок один: Woher · kommen · Sie, {hero_name}. Действия kommen в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Woher Sie kommen, {hero_name}?",
+      "ru": "Sie встал перед kommen — действие ушло из вагона №2. После Woher немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "Имя в конце — просто обращение."
+    },
+    "audio": "audio_v3/ch01_d2_04.mp3",
+    "tts": "Woher kommen Sie, Max?",
+    "ipa": [
+     {
+      "w": "Woher",
+      "ipa": "[voˈheːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kommen",
+      "ipa": "[ˈkɔmən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Max",
+      "ipa": "[maks]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): k… · кто: S… M…",
+    "gap": {
+     "text": "Woher ___ Sie, {hero_name}?",
+     "answers": [
+      "kommen"
+     ],
+     "accept_any_name": true
+    },
+    "task_ru": "Скажи: Откуда вы, {hero_name}?"
+   },
+   {
+    "id": "ch01_d2_05",
+    "role": "O",
+    "de": "Ich komme aus der Ukraine.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я из Украины.",
+    "nouns": [
+     {
+      "lemma": "Ukraine",
+      "art": "die",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "komme",
+       "role": "действие №2"
+      },
+      {
+       "w": "aus der Ukraine",
+       "role": "откуда"
+      }
+     ],
+     "text": "aus der Ukraine — кусок целиком.",
+     "topic": "articles",
+     "why_de": "Ich · komme · aus der Ukraine: действие komme — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Я из Украины» — без действия. По-немецки без komme фразы нет: Ich komme aus der Ukraine.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich aus der Ukraine.",
+      "ru": "Русская привычка — без действия, как «Я из Украины». Без komme немец слышит обрывок, а не фразу."
+     },
+     "root": null,
+     "why_voice_ru": "aus der Ukraine — кусок целиком."
+    },
+    "audio": "audio_v1/ch01_d2_05.mp3",
+    "tts": "Ich komme aus der Ukraine.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "komme",
+      "ipa": "[ˈkɔmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "aus",
+      "ipa": "[aʊ̯s]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ukraine",
+      "ipa": "[ˌukʁaˈiːnə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): k… · откуда: a… d… U…",
+    "gap": {
+     "text": "Ich ___ aus der Ukraine.",
+     "answers": [
+      "komme"
+     ]
+    },
+    "task_ru": "Скажи: Я из Украины."
+   },
+   {
+    "id": "ch01_d2_06",
+    "role": "A",
+    "de": "Mein Name ist Ahmad, ich komme aus Syrien.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Меня зовут Ахмад, я из Сирии.",
+    "nouns": [
+     {
+      "lemma": "Name",
+      "art": "der",
+      "pl": "Namen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Mein Name",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "Ahmad",
+       "role": "кто"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "komme",
+       "role": "действие №2"
+      },
+      {
+       "w": "aus Syrien",
+       "role": "откуда"
+      }
+     ],
+     "text": "Два коротких поезда подряд, у каждого действие в вагоне №2.",
+     "topic": "verb2",
+     "why_de": "ist работает как знак «=»: mein Name = Ahmad. Действие держит вагон №2.",
+     "why_ru": "Дословно «моё имя есть Ahmad». По-русски «моё имя — Ahmad» — без «есть». По-немецки ist нужен: Mein Name ist Ahmad, ich komme aus Syrien.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Mein Name Ahmad, ich komme aus Syrien.",
+      "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "Name и русское «имя» — дальняя родня: один древний корень *h₁nómn̥ (Wiktionary); ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Два коротких поезда подряд, у каждого действие в вагоне №2."
+    },
+    "audio": "audio_v1/ch01_d2_06.mp3",
+    "tts": "Mein Name ist Ahmad, ich komme aus Syrien.",
+    "ipa": [
+     {
+      "w": "Mein",
+      "ipa": "[maɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Name",
+      "ipa": "[ˈnaːmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ahmad",
+      "ipa": "[…]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "komme",
+      "ipa": "[ˈkɔmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "aus",
+      "ipa": "[aʊ̯s]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Syrien",
+      "ipa": "[ˈzyːʁiən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: M… N… · действие (вагон №2): i… · кто: A… · кто: i… · действие (вагон №2): k… · откуда: a… S…",
+    "gap": {
+     "text": "Mein ___ ___ Ahmad, ich komme aus Syrien.",
+     "answers": [
+      "Name",
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Меня зовут Ахмад, я из Сирии."
+   },
+   {
+    "id": "ch01_d2_07",
+    "role": "L",
+    "de": "Wo wohnen Sie?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Где вы живёте?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wo",
+       "role": "вопрос-слово",
+       "asks": "где"
+      },
+      {
+       "w": "wohnen",
+       "role": "действие №2"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      }
+     ],
+     "text": "wo = где.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wo — вагон №1, действие wohnen — сразу за ним, вагон №2: Wo wohnen Sie? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Где вы живёте» можно сказать и в другом порядке. По-немецки порядок один: Wo · wohnen · Sie.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wo Sie wohnen?",
+      "ru": "Sie встал перед wohnen — действие ушло из вагона №2. После Wo немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "wo = где."
+    },
+    "audio": "audio_v1/ch01_d2_07.mp3",
+    "tts": "Wo wohnen Sie?",
+    "ipa": [
+     {
+      "w": "Wo",
+      "ipa": "[voː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wohnen",
+      "ipa": "[ˈvoːnən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): w… · кто: S…",
+    "gap": {
+     "text": "Wo ___ Sie?",
+     "answers": [
+      "wohnen"
+     ]
+    },
+    "task_ru": "Скажи: Где вы живёте?"
+   },
+   {
+    "id": "ch01_d2_08",
+    "role": "O",
+    "de": "Ich wohne in einem Dorf bei Freiberg.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я живу в деревне под Фрайбергом.",
+    "nouns": [
+     {
+      "lemma": "Dorf",
+      "art": "das",
+      "pl": "Dörfer"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "wohne",
+       "role": "действие №2"
+      },
+      {
+       "w": "in einem Dorf bei Freiberg",
+       "role": "где"
+      }
+     ],
+     "text": "Два «где» подряд: в деревне + возле Лейпцига.",
+     "topic": "word_order",
+     "why_de": "Ich · wohne · in einem Dorf bei Freiberg: действие wohne — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я живу в деревне под Фрайбергом» — Ich wohne in einem Dorf bei Freiberg. Разница одна: по-немецки wohne держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich in einem Dorf bei Freiberg wohne.",
+      "ru": "Действие wohne уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе wohne — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Два «где» подряд: в деревне + возле Лейпцига."
+    },
+    "audio": "audio_v1fix2/ch01_d2_08.mp3",
+    "tts": "Ich wohne in einem Dorf bei Freiberg.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wohne",
+      "ipa": "[ˈvoːnə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "in",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "einem",
+      "ipa": "[ˈaɪ̯nəm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Dorf",
+      "ipa": "[dɔʁf]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bei",
+      "ipa": "[baɪ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Freiberg",
+      "ipa": "[ˈfʁaɪ̯ˌbɛʁk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): w… · где: i… e… D… b… F…",
+    "gap": {
+     "text": "Ich ___ in einem Dorf bei ___.",
+     "answers": [
+      "wohne",
+      "Freiberg"
+     ]
+    },
+    "task_ru": "Скажи: Я живу в деревне под Фрайбергом."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": "Новый участник курса: спроси его имя, откуда он и где живёт."
+  }
+ },
+ {
+  "id": "ch01_d3",
+  "title_ru": "Как дела?",
+  "roles": {
+   "A": "{hero_name} (герой)",
+   "B": "Olga (соседка)"
+  },
+  "lines": [
+   {
+    "id": "ch01_d3_01",
+    "role": "A",
+    "de": "Hallo, Olga, wie geht es dir?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Привет, Ольга, как дела?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hallo",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Olga",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "wie",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "geht",
+       "role": "действие №2"
+      },
+      {
+       "w": "es",
+       "role": "кто"
+      },
+      {
+       "w": "dir",
+       "role": "кому"
+      }
+     ],
+     "text": "С подругой — на «ты»: dir.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово wie — вагон №1, действие geht — сразу за ним, вагон №2: Hallo, Olga, wie geht es dir? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Привет, Ольга, как дела» можно сказать и в другом порядке. По-немецки порядок один: wie · geht · es · dir. Действия geht в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Hallo, Olga, wie es geht dir?",
+      "ru": "es встал перед geht — действие ушло из вагона №2. После wie немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "Hallo — от holen «звать, позвать» (ahd. halōn/holōn): так окликали перевозчика (DWDS, Pfeifer); dir — форма du («тебе»); du и русское «ты» — один древний корень *tū̌ (DWDS, Pfeifer)",
+     "why_voice_ru": "С подругой — на «ты»: dir."
+    },
+    "audio": "audio_v3/ch01_d3_01.mp3",
+    "tts": "Hallo, Olga, wie geht es dir?",
+    "ipa": [
+     {
+      "w": "Hallo",
+      "ipa": "[haˈloː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Olga",
+      "ipa": "[ˈɔlɡa]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wie",
+      "ipa": "[viː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "geht",
+      "ipa": "[ɡeːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "es",
+      "ipa": "[ɛs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "dir",
+      "ipa": "[diːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: H… · привет/вежливость: O… · вопрос-слово: w… · действие (вагон №2): g… · кто: e… · кому: d…",
+    "gap": {
+     "text": "Hallo, Olga, wie ___ es ___?",
+     "answers": [
+      "geht",
+      "dir"
+     ]
+    },
+    "task_ru": "Скажи: Привет, Ольга, как дела?"
+   },
+   {
+    "id": "ch01_d3_02",
+    "role": "B",
+    "de": "Danke, gut, und dir?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Спасибо, хорошо, а у тебя?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "gut",
+       "role": "какой/как"
+      },
+      {
+       "w": "und",
+       "role": "связка"
+      },
+      {
+       "w": "dir",
+       "role": "кому"
+      }
+     ],
+     "text": "Вернуть вопрос коротко: und dir?",
+     "topic": "questions",
+     "why_de": "Короткий ответ + вопрос обратно: Danke, gut — «спасибо, хорошо», und dir? — «а тебе?». Действия нет — это готовые куски.",
+     "why_ru": "Как по-русски «Спасибо, хорошо. А у тебя?» — коротко и сразу вопрос обратно.",
+     "layer": "chunk",
+     "why_not": {
+      "wrong": "Danke, gut, und du?",
+      "ru": "На «Wie geht es dir?» обратно спрашивают dir («тебе»), как в самом вопросе. du — это «ты», тут не подходит."
+     },
+     "source": "tools/why_chunks.json",
+     "root": "dir — форма du («тебе»); du и русское «ты» — один древний корень *tū̌ (DWDS, Pfeifer)",
+     "why_voice_ru": "Вернуть вопрос коротко: und dir?"
+    },
+    "audio": "audio_v1/ch01_d3_02.mp3",
+    "tts": "Danke, gut, und dir?",
+    "ipa": [
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "dir",
+      "ipa": "[diːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: D… · какой/как: g… · связка: u… · кому: d…",
+    "gap": {
+     "text": "Danke, gut, und ___?",
+     "answers": [
+      "dir"
+     ]
+    },
+    "task_ru": "Скажи: Спасибо, хорошо, а у тебя?"
+   },
+   {
+    "id": "ch01_d3_03",
+    "role": "A",
+    "de": "Es geht so, ich bin müde.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Так себе, я устал.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Es",
+       "role": "кто"
+      },
+      {
+       "w": "geht",
+       "role": "действие №2"
+      },
+      {
+       "w": "so",
+       "role": "какой/как"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "bin",
+       "role": "действие №2"
+      },
+      {
+       "w": "müde",
+       "role": "какой/как"
+      }
+     ],
+     "text": "Два коротких поезда; у каждого действие в вагоне №2.",
+     "topic": "verb2",
+     "why_de": "bin работает как знак «=». Действие держит вагон №2.",
+     "why_ru": "По-русски «Так себе, я устал» — без «есть». По-немецки без bin нельзя: Es geht so, ich bin müde.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Es so, ich bin müde.",
+      "ru": "Русская привычка — пропустить «есть». Без geht немец слышит обрывок, а не фразу."
+     },
+     "root": "bin, bist — от древнего корня *bʰew- («быть»), а ist — от *es- (как русское «есть»); весь глагол sein собран из двух корней (DWDS, Wiktionary)",
+     "why_voice_ru": "Два коротких поезда; у каждого действие в вагоне №2."
+    },
+    "audio": "audio_v1/ch01_d3_03.mp3",
+    "tts": "Es geht so, ich bin müde.",
+    "ipa": [
+     {
+      "w": "Es",
+      "ipa": "[ɛs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "geht",
+      "ipa": "[ɡeːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "so",
+      "ipa": "[zoː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bin",
+      "ipa": "[bɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "müde",
+      "ipa": "[ˈmyːdə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: E… · действие (вагон №2): g… · какой/как: s… · кто: i… · действие (вагон №2): b… · какой/как: m…",
+    "gap": {
+     "text": "Es ___ so, ich bin müde.",
+     "answers": [
+      "geht"
+     ]
+    },
+    "task_ru": "Скажи: Так себе, я устал."
+   },
+   {
+    "id": "ch01_d3_04",
+    "role": "B",
+    "de": "Dann bis morgen!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Тогда до завтра!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Dann bis morgen",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "dann = «тогда».",
+     "topic": "word_order",
+     "why_de": "dann — «тогда» + готовая формула bis morgen.",
+     "why_ru": "Ровно как русское «тогда до завтра».",
+     "layer": "chunk",
+     "why_not": {
+      "wrong": "Dann bis Morgen!",
+      "ru": "morgen здесь — «завтра», с маленькой буквы. Morgen с большой — «утро»."
+     },
+     "source": "tools/why_chunks.json",
+     "root": null,
+     "why_voice_ru": "dann = «тогда»."
+    },
+    "audio": "audio_v1/ch01_d3_04.mp3",
+    "tts": "Dann bis morgen!",
+    "ipa": [
+     {
+      "w": "Dann",
+      "ipa": "[dan]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bis",
+      "ipa": "[bɪs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "morgen",
+      "ipa": "[ˈmɔʁɡn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: D… b… m…",
+    "gap": {
+     "text": "Dann bis ___!",
+     "answers": [
+      "morgen"
+     ]
+    },
+    "task_ru": "Скажи: Тогда до завтра!"
+   },
+   {
+    "id": "ch01_d3_05",
+    "role": "A",
+    "de": "Ja, bis morgen, tschüss!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, до завтра, пока!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "bis morgen",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "tschüss",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Прощание с подругой — tschüss.",
+     "topic": "word_order",
+     "why_de": "Здесь 3 готовые формулы подряд: Ja + bis morgen + tschüss. Их учим целиком, по одной; действия нет — поэтому и поезда нет.",
+     "why_ru": "По-русски так же — 3 куска подряд: «Да, до завтра, пока».",
+     "layer": "formulas",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — склеить всё в одно и переводить по словам. Тут 3 куска, их учим целиком: Ja · bis morgen · tschüss."
+     },
+     "root": null,
+     "why_voice_ru": "Прощание с подругой — tschüss."
+    },
+    "audio": "audio_v1/ch01_d3_05.mp3",
+    "tts": "Ja, bis morgen, tschüss!",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bis",
+      "ipa": "[bɪs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "morgen",
+      "ipa": "[ˈmɔʁɡn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "tschüss",
+      "ipa": "[t͡ʃʏs]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · привет/вежливость: b… m… · привет/вежливость: t…",
+    "gap": {
+     "text": "Ja, bis morgen, ___!",
+     "answers": [
+      "tschüss"
+     ]
+    },
+    "task_ru": "Скажи: Да, до завтра, пока!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": "Ответь подруге, что у тебя всё хорошо, и попрощайся до завтра."
+  }
+ },
+ {
+  "id": "ch01_d4",
+  "title_ru": "Утро у забора",
+  "roles": {
+   "S": "Herr Schmidt (сосед)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch01_d4_01",
+    "role": "S",
+    "de": "Guten Morgen!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Доброе утро!",
+    "nouns": [
+     {
+      "lemma": "Morgen",
+      "art": "der",
+      "pl": "Morgen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Guten Morgen",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Утро — значит Guten Morgen.",
+     "topic": "articles",
+     "why_de": "Готовое пожелание «(желаю) доброго утра». Немцы говорят его целиком.",
+     "why_ru": "Как русское «доброго утра!»: пожелание учат куском, по словам не разбирают.",
+     "layer": "chunk",
+     "why_not": {
+      "wrong": "Gute Morgen!",
+      "ru": "Частая ошибка — Gute вместо Guten. Учи кусок целиком: Guten Morgen. Почему так — в следующих уроках."
+     },
+     "source": "tools/why_chunks.json",
+     "root": "Morgen — germ. *murgina-, вероятно от «сумерки, рассвет»; возможно, родня русского «морок» (ie. *mer(ə)k- «мерцать, темнеть»; DWDS, Pfeifer)",
+     "why_voice_ru": "Утро — значит Guten Morgen."
+    },
+    "audio": "audio_v3/ch01_d4_01.mp3",
+    "tts": "Guten Morgen! Guten Morgen!",
+    "ipa": [
+     {
+      "w": "Guten",
+      "ipa": "[ˈɡuːtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Morgen",
+      "ipa": "[ˈmɔʁɡn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… M…",
+    "gap": {
+     "text": "Guten ___!",
+     "answers": [
+      "Morgen"
+     ]
+    },
+    "task_ru": "Скажи: Доброе утро!"
+   },
+   {
+    "id": "ch01_d4_02",
+    "role": "H",
+    "de": "Guten Morgen! Ich bin Max.",
+    "de_template": "Guten Morgen! Ich bin {hero_name}.",
+    "audio_regen_on_name": true,
+    "ru": "Доброе утро! Я {hero_name}.",
+    "nouns": [
+     {
+      "lemma": "Morgen",
+      "art": "der",
+      "pl": "Morgen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Guten Morgen",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "bin",
+       "role": "действие №2"
+      },
+      {
+       "w": "{hero_name}",
+       "role": "кто"
+      }
+     ],
+     "text": "Приветствие не занимает вагон. Дальше поезд: кто · bin · кто. Соседу можно и с фамилией: Ich bin {hero_name} + фамилия.",
+     "topic": "verb2",
+     "why_de": "bin работает как знак «=»: ich = {hero_name}. Действие держит вагон №2.",
+     "why_ru": "По-русски «Я {hero_name}» — без «есть». По-немецки без bin нельзя: Ich bin {hero_name}.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Guten Morgen! Ich {hero_name}.",
+      "ru": "Русская привычка — пропустить «есть». Без bin немец слышит обрывок, а не фразу."
+     },
+     "root": "Morgen — germ. *murgina-, вероятно от «сумерки, рассвет»; возможно, родня русского «морок» (ie. *mer(ə)k- «мерцать, темнеть»; DWDS, Pfeifer); bin, bist — от древнего корня *bʰew- («быть»), а ist — от *es- (как русское «есть»); весь глагол sein собран из двух корней (DWDS, Wiktionary)",
+     "why_voice_ru": "Приветствие не занимает вагон. Дальше поезд: кто · bin · кто. Соседу можно и с фамилией: Ich bin {hero_name} + фамилия."
+    },
+    "audio": "audio_v3/ch01_d4_02.mp3",
+    "tts": "Guten Morgen! Ich bin Max.",
+    "ipa": [
+     {
+      "w": "Guten",
+      "ipa": "[ˈɡuːtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Morgen",
+      "ipa": "[ˈmɔʁɡn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bin",
+      "ipa": "[bɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Max",
+      "ipa": "[maks]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… M… · кто: I… · действие (вагон №2): b… · кто: {hero_name}",
+    "gap": {
+     "text": "Guten Morgen! Ich ___ {hero_name}.",
+     "answers": [
+      "bin"
+     ],
+     "accept_any_name": true
+    },
+    "task_ru": "Скажи: Доброе утро! Я {hero_name}."
+   },
+   {
+    "id": "ch01_d4_03",
+    "role": "S",
+    "de": "Mein Name ist Schmidt.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Меня зовут Шмидт.",
+    "nouns": [
+     {
+      "lemma": "Name",
+      "art": "der",
+      "pl": "Namen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Mein Name",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "Schmidt",
+       "role": "кто"
+      }
+     ],
+     "text": "ist как «=»: mein Name = Schmidt. Name — «имя»; на «вы» немцы часто называют только фамилию.",
+     "topic": "verb2",
+     "why_de": "ist работает как знак «=»: mein Name = Schmidt. Действие держит вагон №2.",
+     "why_ru": "Дословно «моё имя есть Schmidt». По-русски «моё имя — Schmidt» — без «есть». По-немецки ist нужен: Mein Name ist Schmidt.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Mein Name Schmidt.",
+      "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "Name и русское «имя» — дальняя родня: один древний корень *h₁nómn̥ (Wiktionary); ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "ist как «=»: mein Name = Schmidt. Name — «имя»; на «вы» немцы часто называют только фамилию."
+    },
+    "audio": "audio_v4/ch01_d4_03.mp3",
+    "tts": "Mein Name ist Schmidt.",
+    "ipa": [
+     {
+      "w": "Mein",
+      "ipa": "[maɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Name",
+      "ipa": "[ˈnaːmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Schmidt",
+      "ipa": "[ʃmɪt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: M… N… · действие (вагон №2): i… · кто: S…",
+    "gap": {
+     "text": "Mein ___ ___ Schmidt.",
+     "answers": [
+      "Name",
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Меня зовут Шмидт."
+   },
+   {
+    "id": "ch01_d4_04",
+    "role": "H",
+    "de": "Auf Wiedersehen!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "До свидания!",
+    "nouns": [
+     {
+      "lemma": "Wiedersehen",
+      "art": "das",
+      "pl": "Wiedersehen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Auf Wiedersehen",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Вежливое прощание на «вы».",
+     "topic": "word_order",
+     "why_de": "Готовая вежливая формула прощания: на «вы», в ведомстве, начальнику.",
+     "why_ru": "Это и есть «до свидания»: wieder — снова, sehen — видеть.",
+     "layer": "chunk",
+     "why_not": {
+      "wrong": "Tschüss! (начальнику)",
+      "ru": "Tschüss — разговорное (DWDS). Начальнику и в ведомстве лучше Auf Wiedersehen."
+     },
+     "source": "tools/why_chunks.json",
+     "root": "Wiedersehen ← wieder «снова» + sehen «видеть» (Wiktionary)",
+     "why_voice_ru": "Вежливое прощание на «вы»."
+    },
+    "audio": "audio_v4/ch01_d4_04.mp3",
+    "tts": "Auf Wiedersehen! Auf Wiedersehen!",
+    "ipa": [
+     {
+      "w": "Auf",
+      "ipa": "[aʊ̯f]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wiedersehen",
+      "ipa": "[ˈviːdɐˌzeːən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: A… W…",
+    "gap": {
+     "text": "Auf ___!",
+     "answers": [
+      "Wiedersehen"
+     ]
+    },
+    "task_ru": "Скажи: До свидания!"
+   },
+   {
+    "id": "ch01_d4_05",
+    "role": "S",
+    "de": "Tschüss!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Пока!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Tschüss",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Сосед прощается попроще: tschüss — разговорное.",
+     "topic": "word_order",
+     "why_de": "Разговорное прощание: друзьям, соседям, в магазине.",
+     "why_ru": "Как русское «пока».",
+     "layer": "chunk",
+     "why_not": {
+      "wrong": "Tschüss! (на приёме в Jobcenter)",
+      "ru": "В ведомстве лучше Auf Wiedersehen: tschüss — разговорное (DWDS)."
+     },
+     "source": "tools/why_chunks.json",
+     "root": "tschüss ← франц. adieu, лат. ad Deum — «к Богу» (DWDS)",
+     "why_voice_ru": "Сосед прощается попроще: tschüss — разговорное."
+    },
+    "audio": "audio_v4/ch01_d4_05.mp3",
+    "tts": "Tschüss! Tschüss!",
+    "ipa": [
+     {
+      "w": "Tschüss",
+      "ipa": "[t͡ʃʏs]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: T…",
+    "gap": {
+     "text": "___!",
+     "answers": [
+      "Tschüss"
+     ]
+    },
+    "task_ru": "Скажи: Пока!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": "Утро, ты идёшь к Netto, у калитки другой сосед. Поздоровайся, назови себя и попрощайся — только фразами урока 1 (как здороваться днём и вечером — в следующих уроках)."
+  }
+ },
+ {
+  "id": "ch01_d5",
+  "title_ru": "День: курс и вечер у забора",
+  "roles": {
+   "L": "Frau Becker (учительница)",
+   "H": "{hero_name} (герой)",
+   "S": "Herr Schmidt (сосед)"
+  },
+  "lines": [
+   {
+    "id": "ch01_d5_01",
+    "role": "L",
+    "de": "Guten Tag! Wie heißen Sie?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Добрый день! Как вас зовут?",
+    "nouns": [
+     {
+      "lemma": "Tag",
+      "art": "der",
+      "pl": "Tage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Guten Tag",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Wie",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "heißen",
+       "role": "действие №2"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      }
+     ],
+     "text": "Днём — Guten Tag. После вопрос-слова Wie сразу действие heißen, Sie — после.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wie — вагон №1, действие heißen — сразу за ним, вагон №2: Wie heißen Sie? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Как вас зовут» можно сказать и в другом порядке. По-немецки порядок один: Wie · heißen · Sie.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Guten Tag! Wie Sie heißen?",
+      "ru": "Sie встал перед heißen — действие ушло из вагона №2. После Wie немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "Днём — Guten Tag. После вопрос-слова Wie сразу действие heißen, Sie — после."
+    },
+    "audio": "audio_v4/ch01_d5_01.mp3",
+    "tts": "Guten Tag! Wie heißen Sie?",
+    "ipa": [
+     {
+      "w": "Guten",
+      "ipa": "[ˈɡuːtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tag",
+      "ipa": "[taːk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wie",
+      "ipa": "[viː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "heißen",
+      "ipa": "[ˈhaɪ̯sn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… T… · вопрос-слово: W… · действие (вагон №2): h… · кто: S…",
+    "gap": {
+     "text": "Guten Tag! Wie ___ Sie?",
+     "answers": [
+      "heißen"
+     ]
+    },
+    "task_ru": "Скажи: Добрый день! Как вас зовут?"
+   },
+   {
+    "id": "ch01_d5_02",
+    "role": "H",
+    "de": "Mein Name ist Max.",
+    "de_template": "Mein Name ist {hero_name}.",
+    "audio_regen_on_name": true,
+    "ru": "Меня зовут {hero_name}.",
+    "nouns": [
+     {
+      "lemma": "Name",
+      "art": "der",
+      "pl": "Namen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Mein Name",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "{hero_name}",
+       "role": "кто"
+      }
+     ],
+     "text": "Ответ из урока 1: ist работает как знак «=».",
+     "topic": "verb2",
+     "why_de": "ist работает как знак «=»: mein Name = {hero_name}. Действие держит вагон №2.",
+     "why_ru": "Дословно «моё имя есть {hero_name}». По-русски «моё имя — {hero_name}» — без «есть». По-немецки ist нужен: Mein Name ist {hero_name}.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Mein Name {hero_name}.",
+      "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "Name и русское «имя» — дальняя родня: один древний корень *h₁nómn̥ (Wiktionary); ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Ответ из урока 1: ist работает как знак «=».",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «кто»",
+      "items": [
+       {
+        "id": "ch01_d4_03",
+        "de": "Mein Name ist Schmidt.",
+        "ru": "Меня зовут Шмидт.",
+        "audio": "audio_v4/ch01_d4_03.mp3",
+        "lesson": "L1",
+        "part": 3,
+        "changed": {
+         "role": "кто",
+         "wagon": 3,
+         "from": "{hero_name}",
+         "to": "Schmidt"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Mein Name · ist. В каждом примере меняется один вагон — «кто»: {hero_name} → Schmidt. Действие ist всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v4/ch01_d5_02.mp3",
+    "tts": "Mein Name ist Max.",
+    "ipa": [
+     {
+      "w": "Mein",
+      "ipa": "[maɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Name",
+      "ipa": "[ˈnaːmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Max",
+      "ipa": "[maks]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: M… N… · действие (вагон №2): i… · кто: {hero_name}",
+    "gap": {
+     "text": "Mein ___ ___ {hero_name}.",
+     "answers": [
+      "Name",
+      "ist"
+     ],
+     "accept_any_name": true
+    },
+    "task_ru": "Скажи: Меня зовут {hero_name}."
+   },
+   {
+    "id": "ch01_d5_03",
+    "role": "S",
+    "de": "Guten Abend! Wie geht es Ihnen?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Добрый вечер! Как у вас дела?",
+    "nouns": [
+     {
+      "lemma": "Abend",
+      "art": "der",
+      "pl": "Abende"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Guten Abend",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Wie",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "geht",
+       "role": "действие №2"
+      },
+      {
+       "w": "es",
+       "role": "кто"
+      },
+      {
+       "w": "Ihnen",
+       "role": "кому"
+      }
+     ],
+     "text": "Abend — der-слово, поэтому Guten. Дословно «как идёт оно вам?»: Ihnen — «вам».",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wie — вагон №1, действие geht — сразу за ним, вагон №2: Wie geht es Ihnen? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Как у вас дела» можно сказать и в другом порядке. По-немецки порядок один: Wie · geht · es · Ihnen. Действия geht в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Guten Abend! Wie es geht Ihnen?",
+      "ru": "es встал перед geht — действие ушло из вагона №2. После Wie немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "Abend — der-слово, поэтому Guten. Дословно «как идёт оно вам?»: Ihnen — «вам»."
+    },
+    "audio": "audio_v4/ch01_d5_03.mp3",
+    "tts": "Guten Abend! Wie geht es Ihnen?",
+    "ipa": [
+     {
+      "w": "Guten",
+      "ipa": "[ˈɡuːtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Abend",
+      "ipa": "[ˈaːbn̩t]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wie",
+      "ipa": "[viː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "geht",
+      "ipa": "[ɡeːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "es",
+      "ipa": "[ɛs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ihnen",
+      "ipa": "[ˈiːnən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… A… · вопрос-слово: W… · действие (вагон №2): g… · кто: e… · кому: I…",
+    "gap": {
+     "text": "Guten Abend! Wie ___ es ___?",
+     "answers": [
+      "geht",
+      "Ihnen"
+     ]
+    },
+    "task_ru": "Скажи: Добрый вечер! Как у вас дела?"
+   },
+   {
+    "id": "ch01_d5_04",
+    "role": "H",
+    "de": "Danke, gut.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Спасибо, хорошо.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "gut",
+       "role": "какой/как"
+      }
+     ],
+     "text": "Короткий ответ: так отвечают и соседу, и на курсе.",
+     "topic": "word_order",
+     "why_de": "Короткий ответ без действия: «спасибо, хорошо». Немцы так и отвечают — целиком.",
+     "why_ru": "Ровно как русское «спасибо, хорошо».",
+     "layer": "chunk",
+     "why_not": {
+      "wrong": "Ich bin gut. (в ответ на «как дела?»)",
+      "ru": "Дословно «я хорошо» → Ich bin gut, но немец слышит «я хороший, я молодец». Про дела — Danke, gut."
+     },
+     "source": "tools/why_chunks.json",
+     "root": null,
+     "why_voice_ru": "Короткий ответ: так отвечают и соседу, и на курсе."
+    },
+    "audio": "audio_v4/ch01_d5_04.mp3",
+    "tts": "Danke, gut. Danke, gut.",
+    "ipa": [
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: D… · какой/как: g…",
+    "gap": {
+     "text": "Danke, ___.",
+     "answers": [
+      "gut"
+     ]
+    },
+    "task_ru": "Скажи: Спасибо, хорошо."
+   },
+   {
+    "id": "ch01_d5_05",
+    "role": "S",
+    "de": "Gute Nacht!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Спокойной ночи!",
+    "nouns": [
+     {
+      "lemma": "Nacht",
+      "art": "die",
+      "pl": "Nächte"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Gute Nacht",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Поздно вечером, на прощание. Nacht — die-слово, поэтому Gute, без -n.",
+     "topic": "articles",
+     "why_de": "die Nacht: у die-слова в пожелании -e — Gute Nacht. А der Morgen → Guten Morgen.",
+     "why_ru": "Как «спокойной ночи»: пожелание, окончание зависит от слова.",
+     "layer": "chunk",
+     "why_not": {
+      "wrong": "Guten Nacht!",
+      "ru": "Частая ошибка: перенесли Guten с утра на ночь. Nacht — die-слово, поэтому Gute."
+     },
+     "source": "tools/why_chunks.json",
+     "root": "Nacht и русское «ночь» — родня: один древний корень, как английское night и латинское nox (de.wiktionary)",
+     "why_voice_ru": "Поздно вечером, на прощание. Nacht — die-слово, поэтому Gute, без -n."
+    },
+    "audio": "audio_v4/ch01_d5_05.mp3",
+    "tts": "Gute Nacht! Gute Nacht!",
+    "ipa": [
+     {
+      "w": "Gute",
+      "ipa": "[ˈɡuːtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Nacht",
+      "ipa": "[naxt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… N…",
+    "gap": {
+     "text": "Gute ___!",
+     "answers": [
+      "Nacht"
+     ]
+    },
+    "task_ru": "Скажи: Спокойной ночи!"
+   },
+   {
+    "id": "ch01_d5_06",
+    "role": "H",
+    "de": "Gute Nacht!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Спокойной ночи!",
+    "nouns": [
+     {
+      "lemma": "Nacht",
+      "art": "die",
+      "pl": "Nächte"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Gute Nacht",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Отвечают тем же пожеланием.",
+     "topic": "articles",
+     "why_de": "die Nacht: у die-слова в пожелании -e — Gute Nacht. А der Morgen → Guten Morgen.",
+     "why_ru": "Как «спокойной ночи»: пожелание, окончание зависит от слова.",
+     "layer": "chunk",
+     "why_not": {
+      "wrong": "Guten Nacht!",
+      "ru": "Частая ошибка: перенесли Guten с утра на ночь. Nacht — die-слово, поэтому Gute."
+     },
+     "source": "tools/why_chunks.json",
+     "root": "Nacht и русское «ночь» — родня: один древний корень, как английское night и латинское nox (de.wiktionary)",
+     "why_voice_ru": "Отвечают тем же пожеланием."
+    },
+    "audio": "audio_v4/ch01_d5_06.mp3",
+    "tts": "Gute Nacht! Gute Nacht!",
+    "ipa": [
+     {
+      "w": "Gute",
+      "ipa": "[ˈɡuːtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Nacht",
+      "ipa": "[naxt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… N…",
+    "gap": {
+     "text": "Gute ___!",
+     "answers": [
+      "Nacht"
+     ]
+    },
+    "task_ru": "Скажи: Спокойной ночи!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": "Теперь наоборот: днём ты первым здороваешься с учительницей и спрашиваешь, как у неё дела; вечером спрашиваешь имя у нового соседа — только фразами уроков 1–2."
+  }
+ },
+ {
+  "id": "ch01_d6",
+  "title_ru": "Перемена на курсе",
+  "roles": {
+   "O": "Olga (одногруппница)",
+   "H": "{hero_name} (герой)",
+   "L": "Frau Becker (учительница)"
+  },
+  "lines": [
+   {
+    "id": "ch01_d6_01",
+    "role": "O",
+    "de": "Hallo! Ich heiße Olga. Wie heißt du?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Привет! Меня зовут Ольга. Как тебя зовут?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hallo",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "heiße",
+       "role": "действие №2"
+      },
+      {
+       "w": "Olga",
+       "role": "кто"
+      },
+      {
+       "w": "Wie",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "heißt",
+       "role": "действие №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      }
+     ],
+     "text": "На курсе между собой — на «ты»: Wie heißt du? С ich хвост -e (heiße), с du — -t (heißt).",
+     "topic": "questions",
+     "why_de": "Ich · heiße · Olga: действие heiße — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Меня зовут Ольга» — без «я». По-немецки Ich нужен: Ich heiße Olga.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Hallo! Heiße Olga. Wie heißt du?",
+      "ru": "По-русски «Меня зовут Ольга» — без «я». По-немецки без Ich фраза обрывается."
+     },
+     "root": "Hallo — от holen «звать, позвать» (ahd. halōn/holōn): так окликали перевозчика (DWDS, Pfeifer); du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "На курсе между собой — на «ты»: Wie heißt du? С ich хвост -e (heiße), с du — -t (heißt)."
+    },
+    "audio": "audio_v4/ch01_d6_01.mp3",
+    "tts": "Hallo! Ich heiße Olga. Wie heißt du?",
+    "ipa": [
+     {
+      "w": "Hallo",
+      "ipa": "[haˈloː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "heiße",
+      "ipa": "[ˈhaɪ̯sə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Olga",
+      "ipa": "[ˈɔlɡa]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wie",
+      "ipa": "[viː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "heißt",
+      "ipa": "[haɪ̯st]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: H… · кто: I… · действие (вагон №2): h… · кто: O… · вопрос-слово: W… · действие (вагон №2): h… · кто: d…",
+    "gap": {
+     "text": "Hallo! Ich ___ ___. Wie heißt du?",
+     "answers": [
+      "heiße",
+      "Olga"
+     ]
+    },
+    "task_ru": "Скажи: Привет! Меня зовут Ольга. Как тебя зовут?"
+   },
+   {
+    "id": "ch01_d6_02",
+    "role": "H",
+    "de": "Ich heiße Max.",
+    "de_template": "Ich heiße {hero_name}.",
+    "audio_regen_on_name": true,
+    "ru": "Меня зовут {hero_name}.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "heiße",
+       "role": "действие №2"
+      },
+      {
+       "w": "{hero_name}",
+       "role": "кто"
+      }
+     ],
+     "text": "С ich действие кончается на -e: heiße.",
+     "topic": "verb2",
+     "why_de": "Ich · heiße · {hero_name}: действие heiße — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Меня зовут {hero_name}» — без «я». По-немецки Ich нужен: Ich heiße {hero_name}.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Heiße {hero_name}.",
+      "ru": "По-русски «Меня зовут {hero_name}» — без «я». По-немецки без Ich фраза обрывается."
+     },
+     "root": null,
+     "why_voice_ru": "С ich действие кончается на -e: heiße.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «кто»",
+      "items": [
+       {
+        "id": "ch01_069",
+        "de": "Ich bin {hero_name}.",
+        "ru": "Я {hero_name}.",
+        "audio": "audio_v3/ch01_069.mp3",
+        "lesson": "L1",
+        "part": 3,
+        "changed": {
+         "role": "действие №2",
+         "wagon": 2,
+         "from": "heiße",
+         "to": "bin"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Ich · {hero_name}. В каждом примере меняется один вагон — действие (вагон №2): heiße → bin.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v4/ch01_d6_02.mp3",
+    "tts": "Ich heiße Max.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "heiße",
+      "ipa": "[ˈhaɪ̯sə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Max",
+      "ipa": "[maks]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): h… · кто: {hero_name}",
+    "gap": {
+     "text": "Ich ___ {hero_name}.",
+     "answers": [
+      "heiße"
+     ],
+     "accept_any_name": true
+    },
+    "task_ru": "Скажи: Меня зовут {hero_name}."
+   },
+   {
+    "id": "ch01_d6_03",
+    "role": "O",
+    "de": "Wie geht es dir?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Как у тебя дела?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wie",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "geht",
+       "role": "действие №2"
+      },
+      {
+       "w": "es",
+       "role": "кто"
+      },
+      {
+       "w": "dir",
+       "role": "кому"
+      }
+     ],
+     "text": "На «ты»: dir — «тебе». На «вы» было бы Ihnen.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wie — вагон №1, действие geht — сразу за ним, вагон №2: Wie geht es dir? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Как у тебя дела» можно сказать и в другом порядке. По-немецки порядок один: Wie · geht · es · dir. Действия geht в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wie es geht dir?",
+      "ru": "es встал перед geht — действие ушло из вагона №2. После Wie немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "dir — форма du («тебе»); du и русское «ты» — один древний корень *tū̌ (DWDS, Pfeifer)",
+     "why_voice_ru": "На «ты»: dir — «тебе». На «вы» было бы Ihnen.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "вопрос-слово · действие (вагон №2) · «кто» · «кому»",
+      "items": [
+       {
+        "id": "ch01_012",
+        "de": "Wie geht es Ihnen?",
+        "ru": "Как у вас дела?",
+        "audio": "audio_v1/ch01_012.mp3",
+        "lesson": "L2",
+        "part": 3,
+        "changed": {
+         "role": "кому",
+         "wagon": 4,
+         "from": "dir",
+         "to": "Ihnen"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Wie · geht · es. В каждом примере меняется один вагон — «кому»: dir → Ihnen. Действие geht всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v4/ch01_d6_03.mp3",
+    "tts": "Wie geht es dir?",
+    "ipa": [
+     {
+      "w": "Wie",
+      "ipa": "[viː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "geht",
+      "ipa": "[ɡeːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "es",
+      "ipa": "[ɛs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "dir",
+      "ipa": "[diːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): g… · кто: e… · кому: d…",
+    "gap": {
+     "text": "Wie ___ es ___?",
+     "answers": [
+      "geht",
+      "dir"
+     ]
+    },
+    "task_ru": "Скажи: Как у тебя дела?"
+   },
+   {
+    "id": "ch01_d6_04",
+    "role": "H",
+    "de": "Danke, gut. Und dir?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Спасибо, хорошо. А у тебя?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "gut",
+       "role": "какой/как"
+      },
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "dir",
+       "role": "кому"
+      }
+     ],
+     "text": "Вернуть вопрос коротко: Und dir? — «а тебе?».",
+     "topic": "questions",
+     "why_de": "Короткий ответ + вопрос обратно: Danke, gut. — «спасибо, хорошо», Und dir? — «а тебе?». Действия нет — это готовые куски.",
+     "why_ru": "Как по-русски «Спасибо, хорошо. А у тебя?» — коротко и сразу вопрос обратно.",
+     "layer": "chunk",
+     "why_not": {
+      "wrong": "Danke, gut. Und du?",
+      "ru": "На «Wie geht es dir?» обратно спрашивают dir («тебе»), как в самом вопросе. du — это «ты», тут не подходит."
+     },
+     "source": "tools/why_chunks.json",
+     "root": "dir — форма du («тебе»); du и русское «ты» — один древний корень *tū̌ (DWDS, Pfeifer)",
+     "why_voice_ru": "Вернуть вопрос коротко: Und dir? — «а тебе?»."
+    },
+    "audio": "audio_v4/ch01_d6_04.mp3",
+    "tts": "Danke, gut. Und dir? Danke, gut. Und dir?",
+    "ipa": [
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "dir",
+      "ipa": "[diːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: D… · какой/как: g… · связка: U… · кому: d…",
+    "gap": {
+     "text": "Danke, gut. Und ___?",
+     "answers": [
+      "dir"
+     ]
+    },
+    "task_ru": "Скажи: Спасибо, хорошо. А у тебя?"
+   },
+   {
+    "id": "ch01_d6_05",
+    "role": "O",
+    "de": "Es geht so.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Так себе.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Es",
+       "role": "кто"
+      },
+      {
+       "w": "geht",
+       "role": "действие №2"
+      },
+      {
+       "w": "so",
+       "role": "какой/как"
+      }
+     ],
+     "text": "«Идёт так-сяк»: честный ответ, если не очень. В разговоре часто просто Geht so.",
+     "topic": "verb2",
+     "why_de": "Es · geht · so: действие geht — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Так себе» — без действия. По-немецки без geht фразы нет: Es geht so. В разговоре es в начале часто проглатывают: Geht so.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Es so.",
+      "ru": "Русская привычка — без действия, как «Так себе». Без geht немец слышит обрывок, а не фразу."
+     },
+     "root": null,
+     "why_voice_ru": "«Идёт так-сяк»: честный ответ, если не очень. В разговоре часто просто Geht so."
+    },
+    "audio": "audio_v4/ch01_d6_05.mp3",
+    "tts": "Es geht so.",
+    "ipa": [
+     {
+      "w": "Es",
+      "ipa": "[ɛs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "geht",
+      "ipa": "[ɡeːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "so",
+      "ipa": "[zoː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: E… · действие (вагон №2): g… · какой/как: s…",
+    "gap": {
+     "text": "Es ___ so.",
+     "answers": [
+      "geht"
+     ]
+    },
+    "task_ru": "Скажи: Так себе."
+   },
+   {
+    "id": "ch01_d6_06",
+    "role": "L",
+    "de": "Wie heißen Sie?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Как вас зовут?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wie",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "heißen",
+       "role": "действие №2"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      }
+     ],
+     "text": "Учительнице — на «вы»: Wie heißen Sie? Ольга спросила на «ты»: Wie heißt du?",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wie — вагон №1, действие heißen — сразу за ним, вагон №2: Wie heißen Sie? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Как вас зовут» можно сказать и в другом порядке. По-немецки порядок один: Wie · heißen · Sie.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wie Sie heißen?",
+      "ru": "Sie встал перед heißen — действие ушло из вагона №2. После Wie немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "Учительнице — на «вы»: Wie heißen Sie? Ольга спросила на «ты»: Wie heißt du?"
+    },
+    "audio": "audio_v4/ch01_d6_06.mp3",
+    "tts": "Wie heißen Sie?",
+    "ipa": [
+     {
+      "w": "Wie",
+      "ipa": "[viː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "heißen",
+      "ipa": "[ˈhaɪ̯sn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): h… · кто: S…",
+    "gap": {
+     "text": "Wie ___ Sie?",
+     "answers": [
+      "heißen"
+     ]
+    },
+    "task_ru": "Скажи: Как вас зовут?"
+   },
+   {
+    "id": "ch01_d6_07",
+    "role": "H",
+    "de": "Mein Name ist Max.",
+    "de_template": "Mein Name ist {hero_name}.",
+    "audio_regen_on_name": true,
+    "ru": "Меня зовут {hero_name}.",
+    "nouns": [
+     {
+      "lemma": "Name",
+      "art": "der",
+      "pl": "Namen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Mein Name",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "{hero_name}",
+       "role": "кто"
+      }
+     ],
+     "text": "Ответ из урока 1 годится и на «вы», и на «ты».",
+     "topic": "verb2",
+     "why_de": "ist работает как знак «=»: mein Name = {hero_name}. Действие держит вагон №2.",
+     "why_ru": "Дословно «моё имя есть {hero_name}». По-русски «моё имя — {hero_name}» — без «есть». По-немецки ist нужен: Mein Name ist {hero_name}.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Mein Name {hero_name}.",
+      "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "Name и русское «имя» — дальняя родня: один древний корень *h₁nómn̥ (Wiktionary); ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Ответ из урока 1 годится и на «вы», и на «ты».",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «кто»",
+      "items": [
+       {
+        "id": "ch01_d4_03",
+        "de": "Mein Name ist Schmidt.",
+        "ru": "Меня зовут Шмидт.",
+        "audio": "audio_v4/ch01_d4_03.mp3",
+        "lesson": "L1",
+        "part": 3,
+        "changed": {
+         "role": "кто",
+         "wagon": 3,
+         "from": "{hero_name}",
+         "to": "Schmidt"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Mein Name · ist. В каждом примере меняется один вагон — «кто»: {hero_name} → Schmidt. Действие ist всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v4/ch01_d6_07.mp3",
+    "tts": "Mein Name ist Max.",
+    "ipa": [
+     {
+      "w": "Mein",
+      "ipa": "[maɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Name",
+      "ipa": "[ˈnaːmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Max",
+      "ipa": "[maks]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: M… N… · действие (вагон №2): i… · кто: {hero_name}",
+    "gap": {
+     "text": "Mein ___ ___ {hero_name}.",
+     "answers": [
+      "Name",
+      "ist"
+     ],
+     "accept_any_name": true
+    },
+    "task_ru": "Скажи: Меня зовут {hero_name}."
+   },
+   {
+    "id": "ch01_d6_08",
+    "role": "L",
+    "de": "Wie schreibt man das?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Как это пишется?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wie",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "schreibt",
+       "role": "действие №2"
+      },
+      {
+       "w": "man",
+       "role": "кто"
+      },
+      {
+       "w": "das",
+       "role": "кого-что"
+      }
+     ],
+     "text": "man — «люди вообще», как русское «пишут». Учительница просит имя по буквам.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wie — вагон №1, действие schreibt — сразу за ним, вагон №2: Wie schreibt man das? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Как это пишется» можно сказать и в другом порядке. По-немецки порядок один: Wie · schreibt · man · das.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wie man schreibt das?",
+      "ru": "man встал перед schreibt — действие ушло из вагона №2. После Wie немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "man — «люди вообще», как русское «пишут». Учительница просит имя по буквам."
+    },
+    "audio": "audio_v4/ch01_d6_08.mp3",
+    "tts": "Wie schreibt man das?",
+    "ipa": [
+     {
+      "w": "Wie",
+      "ipa": "[viː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schreibt",
+      "ipa": "[ʃʁaɪ̯pt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "man",
+      "ipa": "[man]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): s… · кто: m… · кого-что: d…",
+    "gap": {
+     "text": "Wie ___ ___ das?",
+     "answers": [
+      "schreibt",
+      "man"
+     ]
+    },
+    "task_ru": "Скажи: Как это пишется?"
+   },
+   {
+    "id": "ch01_d6_09",
+    "role": "H",
+    "de": "Wie bitte?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Простите, что?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wie",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "bitte",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Не расслышал — переспроси вежливо.",
+     "topic": "questions",
+     "why_de": "Короткий вежливый переспрос без действия: целиком = «простите, что?».",
+     "why_ru": "Как русское «простите?» или «что-что?».",
+     "layer": "chunk",
+     "why_not": {
+      "wrong": "Was?",
+      "ru": "Одно Was? звучит грубовато, как «чего?». Вежливо: Wie bitte?"
+     },
+     "source": "tools/why_chunks.json",
+     "root": null,
+     "why_voice_ru": "Не расслышал — переспроси вежливо."
+    },
+    "audio": "audio_v4/ch01_d6_09.mp3",
+    "tts": "Wie bitte? Wie bitte?",
+    "ipa": [
+     {
+      "w": "Wie",
+      "ipa": "[viː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · привет/вежливость: b…",
+    "gap": {
+     "text": "Wie ___?",
+     "answers": [
+      "bitte"
+     ]
+    },
+    "task_ru": "Скажи: Простите, что?"
+   },
+   {
+    "id": "ch01_d6_10",
+    "role": "L",
+    "de": "Wie schreibt man das?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Как это пишется?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wie",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "schreibt",
+       "role": "действие №2"
+      },
+      {
+       "w": "man",
+       "role": "кто"
+      },
+      {
+       "w": "das",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Тот же вопрос ещё раз, медленнее. Теперь назови имя по буквам.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wie — вагон №1, действие schreibt — сразу за ним, вагон №2: Wie schreibt man das? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Как это пишется» можно сказать и в другом порядке. По-немецки порядок один: Wie · schreibt · man · das.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wie man schreibt das?",
+      "ru": "man встал перед schreibt — действие ушло из вагона №2. После Wie немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "Тот же вопрос ещё раз, медленнее. Теперь назови имя по буквам."
+    },
+    "audio": "audio_v4/ch01_d6_10.mp3",
+    "tts": "Wie schreibt man das?",
+    "ipa": [
+     {
+      "w": "Wie",
+      "ipa": "[viː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schreibt",
+      "ipa": "[ʃʁaɪ̯pt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "man",
+      "ipa": "[man]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): s… · кто: m… · кого-что: d…",
+    "gap": {
+     "text": "Wie ___ ___ das?",
+     "answers": [
+      "schreibt",
+      "man"
+     ]
+    },
+    "task_ru": "Скажи: Как это пишется?"
+   },
+   {
+    "id": "ch01_d6_11",
+    "role": "L",
+    "de": "Danke!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Спасибо!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Короткое «спасибо» — всем и всегда.",
+     "topic": "word_order",
+     "why_de": "Короткое спасибо: подходит почти везде.",
+     "why_ru": "Как «спасибо».",
+     "layer": "chunk",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибки тут почти не бывает; вежливее — Danke schön."
+     },
+     "source": "tools/why_chunks.json",
+     "root": null,
+     "why_voice_ru": "Короткое «спасибо» — всем и всегда."
+    },
+    "audio": "audio_v4/ch01_d6_11.mp3",
+    "tts": "Danke! Danke!",
+    "ipa": [
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: D…",
+    "gap": {
+     "text": "___!",
+     "answers": [
+      "Danke"
+     ]
+    },
+    "task_ru": "Скажи: Спасибо!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": "Теперь ты первым подходишь к Ольге на перемене: спроси на «ты», как её зовут и как дела; потом учительница на «вы» спрашивает твоё имя — переспроси (Wie bitte?) и назови имя по буквам. Только фразами уроков 1–3."
+  }
+ },
+ {
+  "id": "ch01_d7",
+  "title_ru": "У карты на курсе",
+  "roles": {
+   "L": "Frau Becker (учительница)",
+   "H": "{hero_name} (герой)",
+   "O": "Olga (одногруппница)",
+   "A": "Ahmad und Kai (братья, одногруппники)"
+  },
+  "lines": [
+   {
+    "id": "ch01_d7_01",
+    "role": "L",
+    "de": "Woher kommen Sie?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Откуда вы?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Woher",
+       "role": "вопрос-слово",
+       "asks": "откуда"
+      },
+      {
+       "w": "kommen",
+       "role": "действие №2"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      }
+     ],
+     "text": "woher = «откуда». Вопрос-слово — вагон №1, действие — вагон №2.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Woher — вагон №1, действие kommen — сразу за ним, вагон №2: Woher kommen Sie? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Откуда вы» можно сказать и в другом порядке. По-немецки порядок один: Woher · kommen · Sie. Действия kommen в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Woher Sie kommen?",
+      "ru": "Sie встал перед kommen — действие ушло из вагона №2. После Woher немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "woher = «откуда». Вопрос-слово — вагон №1, действие — вагон №2."
+    },
+    "audio": "audio_v4/ch01_d7_01.mp3",
+    "tts": "Woher kommen Sie?",
+    "ipa": [
+     {
+      "w": "Woher",
+      "ipa": "[voˈheːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kommen",
+      "ipa": "[ˈkɔmən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): k… · кто: S…",
+    "gap": {
+     "text": "Woher ___ Sie?",
+     "answers": [
+      "kommen"
+     ]
+    },
+    "task_ru": "Скажи: Откуда вы?"
+   },
+   {
+    "id": "ch01_d7_02",
+    "role": "H",
+    "de": "Ich komme aus der Ukraine.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я из Украины.",
+    "nouns": [
+     {
+      "lemma": "Ukraine",
+      "art": "die",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "komme",
+       "role": "действие №2"
+      },
+      {
+       "w": "aus der Ukraine",
+       "role": "откуда"
+      }
+     ],
+     "text": "Ukraine — страна с артиклем die; после aus («из») — der: aus der Ukraine.",
+     "topic": "articles",
+     "why_de": "Ich · komme · aus der Ukraine: действие komme — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Я из Украины» — без действия. По-немецки без komme фразы нет: Ich komme aus der Ukraine.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich aus der Ukraine.",
+      "ru": "Русская привычка — без действия, как «Я из Украины». Без komme немец слышит обрывок, а не фразу."
+     },
+     "root": null,
+     "why_voice_ru": "Ukraine — страна с артиклем die; после aus («из») — der: aus der Ukraine."
+    },
+    "audio": "audio_v4/ch01_d7_02.mp3",
+    "tts": "Ich komme aus der Ukraine.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "komme",
+      "ipa": "[ˈkɔmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "aus",
+      "ipa": "[aʊ̯s]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ukraine",
+      "ipa": "[ˌukʁaˈiːnə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): k… · откуда: a… d… U…",
+    "gap": {
+     "text": "Ich ___ aus der Ukraine.",
+     "answers": [
+      "komme"
+     ]
+    },
+    "task_ru": "Скажи: Я из Украины."
+   },
+   {
+    "id": "ch01_d7_03",
+    "role": "L",
+    "de": "Und wer ist das?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А кто это?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "wer",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "das",
+       "role": "кто"
+      }
+     ],
+     "text": "wer = «кто» (про людей). und не занимает вагон.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово wer — вагон №1, действие ist — сразу за ним, вагон №2: Und wer ist das? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «А кто это» можно сказать и в другом порядке. По-немецки порядок один: wer · ist · das. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Und wer das ist?",
+      "ru": "das встал перед ist — действие ушло из вагона №2. После wer немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "wer = «кто» (про людей). und не занимает вагон."
+    },
+    "audio": "audio_v4/ch01_d7_03.mp3",
+    "tts": "Und wer ist das?",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wer",
+      "ipa": "[veːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · вопрос-слово: w… · действие (вагон №2): i… · кто: d…",
+    "gap": {
+     "text": "Und wer ___ das?",
+     "answers": [
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: А кто это?"
+   },
+   {
+    "id": "ch01_d7_04",
+    "role": "H",
+    "de": "Das ist Olga.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Это Ольга.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Das",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "Olga",
+       "role": "кто"
+      }
+     ],
+     "text": "Так представляют человека: Das ist + имя.",
+     "topic": "verb2",
+     "why_de": "ist работает как знак «=»: das = Olga. Действие держит вагон №2.",
+     "why_ru": "По-русски «Это Ольга» — без «есть». По-немецки без ist нельзя: Das ist Olga.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Das Olga.",
+      "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Так представляют человека: Das ist + имя."
+    },
+    "audio": "audio_v4/ch01_d7_04.mp3",
+    "tts": "Das ist Olga.",
+    "ipa": [
+     {
+      "w": "Das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Olga",
+      "ipa": "[ˈɔlɡa]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… · действие (вагон №2): i… · кто: O…",
+    "gap": {
+     "text": "Das ___ ___.",
+     "answers": [
+      "ist",
+      "Olga"
+     ]
+    },
+    "task_ru": "Скажи: Это Ольга."
+   },
+   {
+    "id": "ch01_d7_05",
+    "role": "L",
+    "de": "Kommen Sie aus Polen?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Вы из Польши?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Kommen",
+       "role": "действие №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "aus Polen",
+       "role": "откуда"
+      }
+     ],
+     "text": "Вопрос «да/нет»: действие впереди, в вагоне №1. Ответ начнётся с ja или nein.",
+     "topic": "questions",
+     "why_de": "Действие впереди (Kommen) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Kommen Sie aus Polen?",
+     "why_ru": "По-русски «Вы из Польши» — вопрос только голосом, порядок как в ответе. По-немецки действие Kommen выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Sie kommen aus Polen?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Вы из Польши?!»). Обычный вопрос — действие впереди."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос «да/нет»: действие впереди, в вагоне №1. Ответ начнётся с ja или nein."
+    },
+    "audio": "audio_v4/ch01_d7_05.mp3",
+    "tts": "Kommen Sie aus Polen?",
+    "ipa": [
+     {
+      "w": "Kommen",
+      "ipa": "[ˈkɔmən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "aus",
+      "ipa": "[aʊ̯s]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Polen",
+      "ipa": "[ˈpoːlən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): K… · кто: S… · откуда: a… P…",
+    "gap": {
+     "text": "___ Sie aus Polen?",
+     "answers": [
+      "Kommen"
+     ]
+    },
+    "task_ru": "Скажи: Вы из Польши?"
+   },
+   {
+    "id": "ch01_d7_06",
+    "role": "O",
+    "de": "Ja, ich komme aus Polen.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, я из Польши.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "komme",
+       "role": "действие №2"
+      },
+      {
+       "w": "aus Polen",
+       "role": "откуда"
+      }
+     ],
+     "text": "ja не занимает вагон, дальше обычный поезд: ich · komme · aus Polen.",
+     "topic": "verb2",
+     "why_de": "ich · komme · aus Polen: действие komme — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Да, я из Польши» — без действия. По-немецки без komme фразы нет: Ja, ich komme aus Polen.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ja, ich aus Polen.",
+      "ru": "Русская привычка — без действия, как «Да, я из Польши». Без komme немец слышит обрывок, а не фразу."
+     },
+     "root": null,
+     "why_voice_ru": "ja не занимает вагон, дальше обычный поезд: ich · komme · aus Polen."
+    },
+    "audio": "audio_v4/ch01_d7_06.mp3",
+    "tts": "Ja, ich komme aus Polen.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "komme",
+      "ipa": "[ˈkɔmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "aus",
+      "ipa": "[aʊ̯s]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Polen",
+      "ipa": "[ˈpoːlən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: i… · действие (вагон №2): k… · откуда: a… P…",
+    "gap": {
+     "text": "Ja, ich ___ aus Polen.",
+     "answers": [
+      "komme"
+     ]
+    },
+    "task_ru": "Скажи: Да, я из Польши."
+   },
+   {
+    "id": "ch01_d7_07",
+    "role": "O",
+    "de": "Woher kommt ihr?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Откуда вы (друзья, двое и больше)?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Woher",
+       "role": "вопрос-слово",
+       "asks": "откуда"
+      },
+      {
+       "w": "kommt",
+       "role": "действие №2"
+      },
+      {
+       "w": "ihr",
+       "role": "кто"
+      }
+     ],
+     "text": "ihr — «вы» для двоих и больше, если ты с ними на «ты». С ihr действие кончается на -t: kommt.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Woher — вагон №1, действие kommt — сразу за ним, вагон №2: Woher kommt ihr? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Откуда вы (друзья, двое и больше)» можно сказать и в другом порядке. По-немецки порядок один: Woher · kommt · ihr. Действия kommt в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Woher ihr kommt?",
+      "ru": "ihr встал перед kommt — действие ушло из вагона №2. После Woher немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "ihr — «вы» для двоих и больше, если ты с ними на «ты». С ihr действие кончается на -t: kommt."
+    },
+    "audio": "audio_v4/ch01_d7_07.mp3",
+    "tts": "Woher kommt ihr?",
+    "ipa": [
+     {
+      "w": "Woher",
+      "ipa": "[voˈheːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kommt",
+      "ipa": "[kɔmt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ihr",
+      "ipa": "[iːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): k… · кто: i…",
+    "gap": {
+     "text": "Woher ___ ihr?",
+     "answers": [
+      "kommt"
+     ]
+    },
+    "task_ru": "Скажи: Откуда вы (друзья, двое и больше)?"
+   },
+   {
+    "id": "ch01_d7_08",
+    "role": "A",
+    "de": "Wir kommen aus Syrien.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Мы из Сирии.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wir",
+       "role": "кто"
+      },
+      {
+       "w": "kommen",
+       "role": "действие №2"
+      },
+      {
+       "w": "aus Syrien",
+       "role": "откуда"
+      }
+     ],
+     "text": "С wir действие кончается на -en: kommen — как с Sie.",
+     "topic": "verb2",
+     "why_de": "Wir · kommen · aus Syrien: действие kommen — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Мы из Сирии» — без действия. По-немецки без kommen фразы нет: Wir kommen aus Syrien.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Wir aus Syrien.",
+      "ru": "Русская привычка — без действия, как «Мы из Сирии». Без kommen немец слышит обрывок, а не фразу."
+     },
+     "root": null,
+     "why_voice_ru": "С wir действие кончается на -en: kommen — как с Sie.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «откуда»",
+      "items": [
+       {
+        "id": "ch01_039",
+        "de": "Wir kommen aus der Ukraine.",
+        "ru": "Мы из Украины.",
+        "audio": "audio_v1/ch01_039.mp3",
+        "lesson": "L4",
+        "part": 3,
+        "changed": {
+         "role": "откуда",
+         "wagon": 3,
+         "from": "aus Syrien",
+         "to": "aus der Ukraine"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Wir · kommen. В каждом примере меняется один вагон — «откуда»: aus Syrien → aus der Ukraine. Действие kommen всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v4/ch01_d7_08.mp3",
+    "tts": "Wir kommen aus Syrien.",
+    "ipa": [
+     {
+      "w": "Wir",
+      "ipa": "[viːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kommen",
+      "ipa": "[ˈkɔmən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "aus",
+      "ipa": "[aʊ̯s]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Syrien",
+      "ipa": "[ˈzyːʁiən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: W… · действие (вагон №2): k… · откуда: a… S…",
+    "gap": {
+     "text": "Wir ___ aus Syrien.",
+     "answers": [
+      "kommen"
+     ]
+    },
+    "task_ru": "Скажи: Мы из Сирии."
+   },
+   {
+    "id": "ch01_d7_09",
+    "role": "L",
+    "de": "Polen, Tschechien, Österreich.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Польша, Чехия, Австрия.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Polen",
+       "role": "страна"
+      },
+      {
+       "w": "Tschechien",
+       "role": "страна"
+      },
+      {
+       "w": "Österreich",
+       "role": "страна"
+      }
+     ],
+     "text": "Учительница показывает на карте соседей Германии. С Саксонией граничат Польша и Чехия.",
+     "topic": "word_order",
+     "why_de": "Это не фраза, а названия стран: это отдельные слова. Артикля у этих названий нет.",
+     "why_ru": "По-русски тоже список, слово за словом: Polen — Польша · Tschechien — Чехия · Österreich — Австрия.",
+     "layer": "words",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — учить список одним куском. Название — отдельное слово. Артикля у этих названий нет."
+     },
+     "root": null,
+     "why_voice_ru": "Учительница показывает на карте соседей Германии. С Саксонией граничат Польша и Чехия."
+    },
+    "audio": "audio_v4/ch01_d7_09.mp3",
+    "tts": "Polen, Tschechien, Österreich.",
+    "ipa": [
+     {
+      "w": "Polen",
+      "ipa": "[ˈpoːlən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tschechien",
+      "ipa": "[ˈt͡ʃɛçi̯ən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Österreich",
+      "ipa": "[ˈøːstəʁaɪ̯ç]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "страна: P… · страна: T… · страна: Ö…",
+    "gap": {
+     "text": "Polen, Tschechien, ___.",
+     "answers": [
+      "Österreich"
+     ]
+    },
+    "task_ru": "Скажи: Польша, Чехия, Австрия."
+   },
+   {
+    "id": "ch01_d7_10",
+    "role": "L",
+    "de": "Danke!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Спасибо!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Короткое «спасибо».",
+     "topic": "word_order",
+     "why_de": "Короткое спасибо: подходит почти везде.",
+     "why_ru": "Как «спасибо».",
+     "layer": "chunk",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибки тут почти не бывает; вежливее — Danke schön."
+     },
+     "source": "tools/why_chunks.json",
+     "root": null,
+     "why_voice_ru": "Короткое «спасибо»."
+    },
+    "audio": "audio_v4/ch01_d7_10.mp3",
+    "tts": "Danke! Danke!",
+    "ipa": [
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: D…",
+    "gap": {
+     "text": "___!",
+     "answers": [
+      "Danke"
+     ]
+    },
+    "task_ru": "Скажи: Спасибо!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": "У карты новый участник курса: спроси его на «вы», откуда он, а потом спроси двух братьев на «ты», откуда они (Woher kommt ihr?). Только фразами уроков 1–4."
+  }
+ },
+ {
+  "id": "ch01_d8",
+  "title_ru": "Anmeldung in der Gemeinde",
+  "roles": {
+   "S": "Frau Schulz (Gemeindeverwaltung)",
+   "H": "{hero_name} (герой)",
+   "W": "Frau Wagner (хозяйка дома, живёт во Фрайберге)"
+  },
+  "lines": [
+   {
+    "id": "ch01_d8_01",
+    "role": "S",
+    "de": "Guten Tag! Wie ist Ihr Vorname?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Добрый день! Как ваше имя?",
+    "nouns": [
+     {
+      "lemma": "Tag",
+      "art": "der",
+      "pl": "Tage"
+     },
+     {
+      "lemma": "Vorname",
+      "art": "der",
+      "pl": "Vornamen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Guten Tag",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Wie",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "Ihr Vorname",
+       "role": "кто"
+      }
+     ],
+     "text": "В анкете два поля: Vorname — имя, Familienname — фамилия. Ihr с большой — «ваш».",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wie — вагон №1, действие ist — сразу за ним, вагон №2: Wie ist Ihr Vorname? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Как ваше имя» можно сказать и в другом порядке. По-немецки порядок один: Wie · ist · Ihr Vorname. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Guten Tag! Wie Ihr Vorname ist?",
+      "ru": "Ihr Vorname встал перед ist — действие ушло из вагона №2. После Wie немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "В анкете два поля: Vorname — имя, Familienname — фамилия. Ihr с большой — «ваш»."
+    },
+    "audio": "audio_v4/ch01_d8_01.mp3",
+    "tts": "Guten Tag! Wie ist Ihr Vorname? Guten Tag! Wie ist Ihr Vorname?",
+    "ipa": [
+     {
+      "w": "Guten",
+      "ipa": "[ˈɡuːtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tag",
+      "ipa": "[taːk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wie",
+      "ipa": "[viː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ihr",
+      "ipa": "[iːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Vorname",
+      "ipa": "[ˈfoːɐ̯ˌnaːmə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… T… · вопрос-слово: W… · действие (вагон №2): i… · кто: I… V…",
+    "gap": {
+     "text": "Guten Tag! Wie ___ Ihr ___?",
+     "answers": [
+      "ist",
+      "Vorname"
+     ]
+    },
+    "task_ru": "Скажи: Добрый день! Как ваше имя?"
+   },
+   {
+    "id": "ch01_d8_02",
+    "role": "H",
+    "de": "Mein Vorname ist Max.",
+    "de_template": "Mein Vorname ist {hero_name}.",
+    "audio_regen_on_name": true,
+    "ru": "Моё имя — {hero_name}.",
+    "nouns": [
+     {
+      "lemma": "Vorname",
+      "art": "der",
+      "pl": "Vornamen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Mein Vorname",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "{hero_name}",
+       "role": "кто"
+      }
+     ],
+     "text": "Тот же поезд, что Mein Name ist …: кто · ist · кто.",
+     "topic": "verb2",
+     "why_de": "ist работает как знак «=»: mein Vorname = {hero_name}. Действие держит вагон №2.",
+     "why_ru": "По-русски «Моё имя — {hero_name}» — без «есть». По-немецки без ist нельзя: Mein Vorname ist {hero_name}.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Mein Vorname {hero_name}.",
+      "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Тот же поезд, что Mein Name ist …: кто · ist · кто.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «кто»",
+      "items": [
+       {
+        "id": "ch01_021",
+        "de": "Mein Name ist {hero_name}.",
+        "ru": "Меня зовут {hero_name}.",
+        "audio": "audio_v3/ch01_021.mp3",
+        "lesson": "L1",
+        "part": 6,
+        "changed": {
+         "role": "кто",
+         "wagon": 1,
+         "from": "Mein Vorname",
+         "to": "Mein Name"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: ist · {hero_name}. В каждом примере меняется один вагон — «кто»: Mein Vorname → Mein Name. Действие ist всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v4/ch01_d8_02.mp3",
+    "tts": "Mein Vorname ist Max.",
+    "ipa": [
+     {
+      "w": "Mein",
+      "ipa": "[maɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Vorname",
+      "ipa": "[ˈfoːɐ̯ˌnaːmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Max",
+      "ipa": "[maks]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: M… V… · действие (вагон №2): i… · кто: {hero_name}",
+    "gap": {
+     "text": "Mein ___ ___ {hero_name}.",
+     "answers": [
+      "Vorname",
+      "ist"
+     ],
+     "accept_any_name": true
+    },
+    "task_ru": "Скажи: Моё имя — {hero_name}."
+   },
+   {
+    "id": "ch01_d8_03",
+    "role": "S",
+    "de": "Und wo wohnen Sie?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А где вы живёте?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "Wo",
+       "role": "вопрос-слово",
+       "asks": "где"
+      },
+      {
+       "w": "wohnen",
+       "role": "действие №2"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      }
+     ],
+     "text": "wo = «где». woher = «откуда» — это урок 4. und не занимает вагон.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wo — вагон №1, действие wohnen — сразу за ним, вагон №2: Und wo wohnen Sie? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «А где вы живёте» можно сказать и в другом порядке. По-немецки порядок один: Wo · wohnen · Sie.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Und wo Sie wohnen?",
+      "ru": "Sie встал перед wohnen — действие ушло из вагона №2. После Wo немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "wo = «где». woher = «откуда» — это урок 4. und не занимает вагон."
+    },
+    "audio": "audio_v4/ch01_d8_03.mp3",
+    "tts": "Und wo wohnen Sie?",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wo",
+      "ipa": "[voː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wohnen",
+      "ipa": "[ˈvoːnən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · вопрос-слово: W… · действие (вагон №2): w… · кто: S…",
+    "gap": {
+     "text": "Und wo ___ Sie?",
+     "answers": [
+      "wohnen"
+     ]
+    },
+    "task_ru": "Скажи: А где вы живёте?"
+   },
+   {
+    "id": "ch01_d8_04",
+    "role": "H",
+    "de": "Ich wohne bei Freiberg.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я живу возле Фрайберга.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "wohne",
+       "role": "действие №2"
+      },
+      {
+       "w": "bei Freiberg",
+       "role": "где"
+      }
+     ],
+     "text": "bei = «возле» (город рядом). С ich — wohne.",
+     "topic": "verb2",
+     "why_de": "Ich · wohne · bei Freiberg: действие wohne — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я живу возле Фрайберга» — Ich wohne bei Freiberg. Разница одна: по-немецки wohne держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich bei Freiberg wohne.",
+      "ru": "Действие wohne уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе wohne — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "bei = «возле» (город рядом). С ich — wohne.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «где»",
+      "items": [
+       {
+        "id": "ch01_048",
+        "de": "Ich wohne in Sachsen.",
+        "ru": "Я живу в Саксонии.",
+        "audio": "audio_v1fix/ch01_048.mp3",
+        "lesson": "L5",
+        "part": 3,
+        "changed": {
+         "role": "где",
+         "wagon": 3,
+         "from": "bei Freiberg",
+         "to": "in Sachsen"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Ich · wohne. В каждом примере меняется один вагон — «где»: bei Freiberg → in Sachsen. Действие wohne всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v4/ch01_d8_04.mp3",
+    "tts": "Ich wohne bei Freiberg.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wohne",
+      "ipa": "[ˈvoːnə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bei",
+      "ipa": "[baɪ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Freiberg",
+      "ipa": "[ˈfʁaɪ̯ˌbɛʁk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): w… · где: b… F…",
+    "gap": {
+     "text": "Ich ___ bei ___.",
+     "answers": [
+      "wohne",
+      "Freiberg"
+     ]
+    },
+    "task_ru": "Скажи: Я живу возле Фрайберга."
+   },
+   {
+    "id": "ch01_d8_05",
+    "role": "S",
+    "de": "Wie ist Ihre Hausnummer?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Какой у вас номер дома?",
+    "nouns": [
+     {
+      "lemma": "Hausnummer",
+      "art": "die",
+      "pl": "Hausnummern"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wie",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "Ihre Hausnummer",
+       "role": "кто"
+      }
+     ],
+     "text": "Номер спрашивают через wie, как имя. die Hausnummer → Ihre Hausnummer.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wie — вагон №1, действие ist — сразу за ним, вагон №2: Wie ist Ihre Hausnummer? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Какой у вас номер дома» можно сказать и в другом порядке. По-немецки порядок один: Wie · ist · Ihre Hausnummer. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wie Ihre Hausnummer ist?",
+      "ru": "Ihre Hausnummer встал перед ist — действие ушло из вагона №2. После Wie немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Номер спрашивают через wie, как имя. die Hausnummer → Ihre Hausnummer."
+    },
+    "audio": "audio_v4/ch01_d8_05.mp3",
+    "tts": "Wie ist Ihre Hausnummer?",
+    "ipa": [
+     {
+      "w": "Wie",
+      "ipa": "[viː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ihre",
+      "ipa": "[ˈiːʁə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Hausnummer",
+      "ipa": "[ˈhaʊ̯sˌnʊmɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): i… · кто: I… H…",
+    "gap": {
+     "text": "Wie ___ Ihre ___?",
+     "answers": [
+      "ist",
+      "Hausnummer"
+     ]
+    },
+    "task_ru": "Скажи: Какой у вас номер дома?"
+   },
+   {
+    "id": "ch01_d8_06",
+    "role": "H",
+    "de": "Meine Hausnummer ist acht.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Мой номер дома — восемь.",
+    "nouns": [
+     {
+      "lemma": "Hausnummer",
+      "art": "die",
+      "pl": "Hausnummern"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Meine Hausnummer",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "acht",
+       "role": "число"
+      }
+     ],
+     "text": "die Hausnummer → meine (с -e). ist как «=».",
+     "topic": "verb2",
+     "why_de": "Meine Hausnummer · ist · acht: действие ist — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Мой номер дома — восемь» — без действия «есть». По-немецки без ist фразы нет: Meine Hausnummer ist acht.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Meine Hausnummer acht.",
+      "ru": "Русская привычка — без действия, как «Мой номер дома — восемь». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "die Hausnummer → meine (с -e). ist как «=»."
+    },
+    "audio": "audio_v4/ch01_d8_06.mp3",
+    "tts": "Meine Hausnummer ist acht.",
+    "ipa": [
+     {
+      "w": "Meine",
+      "ipa": "[ˈmaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Hausnummer",
+      "ipa": "[ˈhaʊ̯sˌnʊmɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "acht",
+      "ipa": "[axt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: M… H… · действие (вагон №2): i… · число: a…",
+    "gap": {
+     "text": "Meine ___ ___ acht.",
+     "answers": [
+      "Hausnummer",
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Мой номер дома — восемь."
+   },
+   {
+    "id": "ch01_d8_07",
+    "role": "S",
+    "de": "Und wer ist das?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А кто это?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "wer",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "das",
+       "role": "кто"
+      }
+     ],
+     "text": "Вопрос из урока 4: wer = «кто».",
+     "topic": "questions",
+     "why_de": "Вопрос-слово wer — вагон №1, действие ist — сразу за ним, вагон №2: Und wer ist das? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «А кто это» можно сказать и в другом порядке. По-немецки порядок один: wer · ist · das. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Und wer das ist?",
+      "ru": "das встал перед ist — действие ушло из вагона №2. После wer немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Вопрос из урока 4: wer = «кто»."
+    },
+    "audio": "audio_v4/ch01_d8_07.mp3",
+    "tts": "Und wer ist das?",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wer",
+      "ipa": "[veːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · вопрос-слово: w… · действие (вагон №2): i… · кто: d…",
+    "gap": {
+     "text": "Und wer ___ das?",
+     "answers": [
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: А кто это?"
+   },
+   {
+    "id": "ch01_d8_08",
+    "role": "H",
+    "de": "Das ist Frau Wagner.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Это госпожа Вагнер.",
+    "nouns": [
+     {
+      "lemma": "Frau",
+      "art": "die",
+      "pl": "Frauen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Das",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "Frau Wagner",
+       "role": "кто"
+      }
+     ],
+     "text": "Так представляют человека: Das ist + Frau + фамилия. Для Анмельдунга нужна подпись хозяйки дома.",
+     "topic": "verb2",
+     "why_de": "ist работает как знак «=»: das = Frau Wagner. Действие держит вагон №2.",
+     "why_ru": "По-русски «Это госпожа Вагнер» — без «есть». По-немецки без ist нельзя: Das ist Frau Wagner.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Das Frau Wagner.",
+      "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Так представляют человека: Das ist + Frau + фамилия. Для Анмельдунга нужна подпись хозяйки дома.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «кто»",
+      "items": [
+       {
+        "id": "ch01_d7_04",
+        "de": "Das ist Olga.",
+        "ru": "Это Ольга.",
+        "audio": "audio_v4/ch01_d7_04.mp3",
+        "lesson": "L4",
+        "part": 4,
+        "changed": {
+         "role": "кто",
+         "wagon": 3,
+         "from": "Frau Wagner",
+         "to": "Olga"
+        }
+       },
+       {
+        "id": "ch01_029",
+        "de": "Das ist meine Frau.",
+        "ru": "Это моя жена.",
+        "audio": "audio_v1/ch01_029.mp3",
+        "lesson": "L5",
+        "part": 3,
+        "changed": {
+         "role": "кто",
+         "wagon": 3,
+         "from": "Frau Wagner",
+         "to": "meine Frau"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Das · ist. В каждом примере меняется один вагон — «кто»: Frau Wagner → Olga → meine Frau. Действие ist всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v4/ch01_d8_08.mp3",
+    "tts": "Das ist Frau Wagner.",
+    "ipa": [
+     {
+      "w": "Das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Frau",
+      "ipa": "[fʁaʊ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wagner",
+      "ipa": "[ˈvaːɡnɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… · действие (вагон №2): i… · кто: F… W…",
+    "gap": {
+     "text": "Das ___ Frau ___.",
+     "answers": [
+      "ist",
+      "Wagner"
+     ]
+    },
+    "task_ru": "Скажи: Это госпожа Вагнер."
+   },
+   {
+    "id": "ch01_d8_09",
+    "role": "S",
+    "de": "Wohnen Sie in Freiberg?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Вы живёте во Фрайберге?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wohnen",
+       "role": "действие №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "in Freiberg",
+       "role": "где"
+      }
+     ],
+     "text": "Вопрос «да/нет»: действие впереди.",
+     "topic": "questions",
+     "why_de": "Действие впереди (Wohnen) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Wohnen Sie in Freiberg?",
+     "why_ru": "По-русски «Вы живёте во Фрайберге» — вопрос только голосом, порядок как в ответе. По-немецки действие Wohnen выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Sie wohnen in Freiberg?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Вы живёте во Фрайберге?!»). Обычный вопрос — действие впереди."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос «да/нет»: действие впереди."
+    },
+    "audio": "audio_v4/ch01_d8_09.mp3",
+    "tts": "Wohnen Sie in Freiberg?",
+    "ipa": [
+     {
+      "w": "Wohnen",
+      "ipa": "[ˈvoːnən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "in",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Freiberg",
+      "ipa": "[ˈfʁaɪ̯ˌbɛʁk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): W… · кто: S… · где: i… F…",
+    "gap": {
+     "text": "___ Sie in ___?",
+     "answers": [
+      "Wohnen",
+      "Freiberg"
+     ]
+    },
+    "task_ru": "Скажи: Вы живёте во Фрайберге?"
+   },
+   {
+    "id": "ch01_d8_10",
+    "role": "W",
+    "de": "Ja, in Freiberg.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, во Фрайберге.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "in Freiberg",
+       "role": "где"
+      }
+     ],
+     "text": "Короткий ответ без действия: ja + где. В городе — in, рядом с городом — bei.",
+     "topic": "word_order",
+     "why_de": "Короткий ответ: Ja + in Freiberg (где? — место). Действие из вопроса не повторяют — его уже сказали.",
+     "why_ru": "По-русски так же коротко: «Да, во Фрайберге».",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — бросить маленькое in: нужен весь кусок in Freiberg, одно название без in ответом не будет."
+     },
+     "root": null,
+     "why_voice_ru": "Короткий ответ без действия: ja + где. В городе — in, рядом с городом — bei."
+    },
+    "audio": "audio_v4/ch01_d8_10.mp3",
+    "tts": "Ja, in Freiberg.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "in",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Freiberg",
+      "ipa": "[ˈfʁaɪ̯ˌbɛʁk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · где: i… F…",
+    "gap": {
+     "text": "Ja, in ___.",
+     "answers": [
+      "Freiberg"
+     ]
+    },
+    "task_ru": "Скажи: Да, во Фрайберге."
+   },
+   {
+    "id": "ch01_d8_11",
+    "role": "S",
+    "de": "Danke! Auf Wiedersehen!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Спасибо! До свидания!",
+    "nouns": [
+     {
+      "lemma": "Wiedersehen",
+      "art": "das",
+      "pl": "Wiedersehen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Auf Wiedersehen",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "В ведомстве прощаются на «вы»: Auf Wiedersehen.",
+     "topic": "word_order",
+     "why_de": "Здесь 2 готовые формулы подряд: Danke + Auf Wiedersehen. Их учим целиком, по одной; действия нет — поэтому и поезда нет.",
+     "why_ru": "По-русски так же — 2 куска подряд: «Спасибо! До свидания».",
+     "layer": "formulas",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — склеить всё в одно и переводить по словам. Тут 2 куска, их учим целиком: Danke · Auf Wiedersehen."
+     },
+     "root": "Wiedersehen = wieder + sehen (wieder — снова; sehen — видеть) — Wiktionary",
+     "why_voice_ru": "В ведомстве прощаются на «вы»: Auf Wiedersehen."
+    },
+    "audio": "audio_v4/ch01_d8_11.mp3",
+    "tts": "Danke! Auf Wiedersehen!",
+    "ipa": [
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Auf",
+      "ipa": "[aʊ̯f]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wiedersehen",
+      "ipa": "[ˈviːdɐˌzeːən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: D… · привет/вежливость: A… W…",
+    "gap": {
+     "text": "Danke! Auf ___!",
+     "answers": [
+      "Wiedersehen"
+     ]
+    },
+    "task_ru": "Скажи: Спасибо! До свидания!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": "Ты сам живёшь в городе, а не рядом: ответь сотруднице с in, а не с bei (Ich wohne in …), и назови другой номер дома от нуля до десяти. Только фразами уроков 1–5."
+  }
+ },
+ {
+  "id": "ch01_d9",
+  "title_ru": "Лист записи на курсе",
+  "roles": {
+   "L": "Frau Becker (учительница)",
+   "O": "Olga (одногруппница)",
+   "H": "{hero_name} (герой)",
+   "S": "Herr Schmidt (сосед)"
+  },
+  "lines": [
+   {
+    "id": "ch01_d9_01",
+    "role": "L",
+    "de": "Guten Morgen! Das ist die Anmeldung.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Доброе утро! Это регистрация.",
+    "nouns": [
+     {
+      "lemma": "Morgen",
+      "art": "der",
+      "pl": "Morgen"
+     },
+     {
+      "lemma": "Anmeldung",
+      "art": "die",
+      "pl": "Anmeldungen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Guten Morgen",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Das",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "die Anmeldung",
+       "role": "кто"
+      }
+     ],
+     "text": "Anmeldung — «регистрация, запись»: в общине (урок 5), у врача, на курс. Здесь это лист записи на курс.",
+     "topic": "verb2",
+     "why_de": "ist работает как знак «=»: das = die Anmeldung. Действие держит вагон №2. Справа та же роль «кто», поэтому артикль не меняется: die Anmeldung.",
+     "why_ru": "По-русски «Это регистрация» — без «есть». По-немецки без ist нельзя: Das ist die Anmeldung.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Guten Morgen! Das die Anmeldung.",
+      "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "Morgen — germ. *murgina-, вероятно от «сумерки, рассвет»; возможно, родня русского «морок» (ie. *mer(ə)k- «мерцать, темнеть»; DWDS, Pfeifer); ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Anmeldung — «регистрация, запись»: в общине (урок 5), у врача, на курс. Здесь это лист записи на курс."
+    },
+    "audio": "audio_v4/ch01_d9_01.mp3",
+    "tts": "Guten Morgen! Das ist die Anmeldung.",
+    "ipa": [
+     {
+      "w": "Guten",
+      "ipa": "[ˈɡuːtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Morgen",
+      "ipa": "[ˈmɔʁɡn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Anmeldung",
+      "ipa": "[ˈanˌmɛldʊŋ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… M… · кто: D… · действие (вагон №2): i… · кто: d… A…",
+    "gap": {
+     "text": "Guten Morgen! Das ___ die ___.",
+     "answers": [
+      "ist",
+      "Anmeldung"
+     ]
+    },
+    "task_ru": "Скажи: Доброе утро! Это регистрация."
+   },
+   {
+    "id": "ch01_d9_02",
+    "role": "L",
+    "de": "Wie ist Ihr Familienname?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Как ваша фамилия?",
+    "nouns": [
+     {
+      "lemma": "Familienname",
+      "art": "der",
+      "pl": "Familiennamen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wie",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "Ihr Familienname",
+       "role": "кто"
+      }
+     ],
+     "text": "Фамилию спрашивают через wie, как имя. der Familienname — der-слово, поэтому Ihr без -e.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wie — вагон №1, действие ist — сразу за ним, вагон №2: Wie ist Ihr Familienname? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Как ваша фамилия» можно сказать и в другом порядке. По-немецки порядок один: Wie · ist · Ihr Familienname. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wie Ihr Familienname ist?",
+      "ru": "Ihr Familienname встал перед ist — действие ушло из вагона №2. После Wie немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "Familienname = Familie + Name (Familie — семья; Name — имя) — Wiktionary; ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Фамилию спрашивают через wie, как имя. der Familienname — der-слово, поэтому Ihr без -e.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "вопрос-слово · действие (вагон №2) · «кто»",
+      "items": [
+       {
+        "id": "ch01_077",
+        "de": "Wie ist Ihre Hausnummer?",
+        "ru": "Какой у вас номер дома?",
+        "audio": "audio_v3/ch01_077.mp3",
+        "lesson": "L5",
+        "part": 3,
+        "changed": {
+         "role": "кто",
+         "wagon": 3,
+         "from": "Ihr Familienname",
+         "to": "Ihre Hausnummer"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Wie · ist. В каждом примере меняется один вагон — «кто»: Ihr Familienname → Ihre Hausnummer. Действие ist всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v4/ch01_d9_02.mp3",
+    "tts": "Wie ist Ihr Familienname?",
+    "ipa": [
+     {
+      "w": "Wie",
+      "ipa": "[viː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ihr",
+      "ipa": "[iːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Familienname",
+      "ipa": "[faˈmiːli̯ənˌnaːmə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): i… · кто: I… F…",
+    "gap": {
+     "text": "Wie ___ Ihr ___?",
+     "answers": [
+      "ist",
+      "Familienname"
+     ]
+    },
+    "task_ru": "Скажи: Как ваша фамилия?"
+   },
+   {
+    "id": "ch01_d9_03",
+    "role": "O",
+    "de": "Mein Familienname ist Petrenko.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Моя фамилия — Петренко.",
+    "nouns": [
+     {
+      "lemma": "Familienname",
+      "art": "der",
+      "pl": "Familiennamen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Mein Familienname",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "Petrenko",
+       "role": "кто"
+      }
+     ],
+     "text": "Тот же поезд, что Mein Name ist …: кто · ist · кто. der Familienname → mein, без -e.",
+     "topic": "verb2",
+     "why_de": "ist работает как знак «=»: mein Familienname = Petrenko. Действие держит вагон №2.",
+     "why_ru": "По-русски «Моя фамилия — Петренко» — без «есть». По-немецки без ist нельзя: Mein Familienname ist Petrenko.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Mein Familienname Petrenko.",
+      "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "Familienname = Familie + Name (Familie — семья; Name — имя) — Wiktionary; ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Тот же поезд, что Mein Name ist …: кто · ist · кто. der Familienname → mein, без -e."
+    },
+    "audio": "audio_v4/ch01_d9_03.mp3",
+    "tts": "Mein Familienname ist Petrenko.",
+    "ipa": [
+     {
+      "w": "Mein",
+      "ipa": "[maɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Familienname",
+      "ipa": "[faˈmiːli̯ənˌnaːmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Petrenko",
+      "ipa": null,
+      "src": "none"
+     }
+    ],
+    "check": {
+     "lt": "ok: имя собственное, словаря LT нет",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "partial",
+    "hint": "кто: M… F… · действие (вагон №2): i… · кто: P…",
+    "gap": {
+     "text": "Mein ___ ___ Petrenko.",
+     "answers": [
+      "Familienname",
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Моя фамилия — Петренко."
+   },
+   {
+    "id": "ch01_d9_04",
+    "role": "L",
+    "de": "Woher kommen Sie? Wie heißt das Land?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Откуда вы? Как зовётся страна?",
+    "nouns": [
+     {
+      "lemma": "Land",
+      "art": "das",
+      "pl": "Länder"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Woher",
+       "role": "вопрос-слово",
+       "asks": "откуда"
+      },
+      {
+       "w": "kommen",
+       "role": "действие №2"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "Wie",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "heißt",
+       "role": "действие №2"
+      },
+      {
+       "w": "das Land",
+       "role": "кто"
+      }
+     ],
+     "text": "Два вопроса об одном: откуда вы — как называется страна. В анкете это поле Land. das Land — das-слово.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Woher — вагон №1, действие kommen — сразу за ним, вагон №2: Woher kommen Sie? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Откуда вы» можно сказать и в другом порядке. По-немецки порядок один: Woher · kommen · Sie. Действия kommen в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Woher Sie kommen? Wie heißt das Land?",
+      "ru": "Sie встал перед kommen — действие ушло из вагона №2. После Woher немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "Два вопроса об одном: откуда вы — как называется страна. В анкете это поле Land. das Land — das-слово."
+    },
+    "audio": "audio_v4/ch01_d9_04.mp3",
+    "tts": "Woher kommen Sie? Wie heißt das Land?",
+    "ipa": [
+     {
+      "w": "Woher",
+      "ipa": "[voˈheːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kommen",
+      "ipa": "[ˈkɔmən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wie",
+      "ipa": "[viː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "heißt",
+      "ipa": "[haɪ̯st]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Land",
+      "ipa": "[lant]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): k… · кто: S… · вопрос-слово: W… · действие (вагон №2): h… · кто: d… L…",
+    "gap": {
+     "text": "Woher ___ Sie? Wie heißt das ___?",
+     "answers": [
+      "kommen",
+      "Land"
+     ]
+    },
+    "task_ru": "Скажи: Откуда вы? Как зовётся страна?"
+   },
+   {
+    "id": "ch01_d9_05",
+    "role": "H",
+    "de": "Ich komme aus der Ukraine.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я из Украины.",
+    "nouns": [
+     {
+      "lemma": "Ukraine",
+      "art": "die",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "komme",
+       "role": "действие №2"
+      },
+      {
+       "w": "aus der Ukraine",
+       "role": "откуда"
+      }
+     ],
+     "text": "Ответ из урока 4: Ukraine — страна с артиклем die; после aus — der.",
+     "topic": "articles",
+     "why_de": "Ich · komme · aus der Ukraine: действие komme — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Я из Украины» — без действия. По-немецки без komme фразы нет: Ich komme aus der Ukraine.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich aus der Ukraine.",
+      "ru": "Русская привычка — без действия, как «Я из Украины». Без komme немец слышит обрывок, а не фразу."
+     },
+     "root": null,
+     "why_voice_ru": "Ответ из урока 4: Ukraine — страна с артиклем die; после aus — der."
+    },
+    "audio": "audio_v4/ch01_d9_05.mp3",
+    "tts": "Ich komme aus der Ukraine.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "komme",
+      "ipa": "[ˈkɔmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "aus",
+      "ipa": "[aʊ̯s]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ukraine",
+      "ipa": "[ˌukʁaˈiːnə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): k… · откуда: a… d… U…",
+    "gap": {
+     "text": "Ich ___ aus der Ukraine.",
+     "answers": [
+      "komme"
+     ]
+    },
+    "task_ru": "Скажи: Я из Украины."
+   },
+   {
+    "id": "ch01_d9_06",
+    "role": "L",
+    "de": "Wo wohnen Sie? Wie heißt die Stadt?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Где вы живёте? Как зовётся город?",
+    "nouns": [
+     {
+      "lemma": "Stadt",
+      "art": "die",
+      "pl": "Städte"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wo",
+       "role": "вопрос-слово",
+       "asks": "где"
+      },
+      {
+       "w": "wohnen",
+       "role": "действие №2"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "Wie",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "heißt",
+       "role": "действие №2"
+      },
+      {
+       "w": "die Stadt",
+       "role": "кто"
+      }
+     ],
+     "text": "Два вопроса об одном: где вы живёте — как называется город. В анкете это поле Stadt. die Stadt — die-слово.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wo — вагон №1, действие wohnen — сразу за ним, вагон №2: Wo wohnen Sie? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Где вы живёте» можно сказать и в другом порядке. По-немецки порядок один: Wo · wohnen · Sie.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wo Sie wohnen? Wie heißt die Stadt?",
+      "ru": "Sie встал перед wohnen — действие ушло из вагона №2. После Wo немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "Два вопроса об одном: где вы живёте — как называется город. В анкете это поле Stadt. die Stadt — die-слово."
+    },
+    "audio": "audio_v4/ch01_d9_06.mp3",
+    "tts": "Wo wohnen Sie? Wie heißt die Stadt?",
+    "ipa": [
+     {
+      "w": "Wo",
+      "ipa": "[voː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wohnen",
+      "ipa": "[ˈvoːnən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wie",
+      "ipa": "[viː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "heißt",
+      "ipa": "[haɪ̯st]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Stadt",
+      "ipa": "[ʃtat]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): w… · кто: S… · вопрос-слово: W… · действие (вагон №2): h… · кто: d… S…",
+    "gap": {
+     "text": "Wo ___ Sie? Wie heißt die ___?",
+     "answers": [
+      "wohnen",
+      "Stadt"
+     ]
+    },
+    "task_ru": "Скажи: Где вы живёте? Как зовётся город?"
+   },
+   {
+    "id": "ch01_d9_07",
+    "role": "H",
+    "de": "Ich wohne bei Freiberg.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я живу возле Фрайберга.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "wohne",
+       "role": "действие №2"
+      },
+      {
+       "w": "bei Freiberg",
+       "role": "где"
+      }
+     ],
+     "text": "Ответ из урока 5: bei = «возле». Город рядом — Freiberg.",
+     "topic": "verb2",
+     "why_de": "Ich · wohne · bei Freiberg: действие wohne — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я живу возле Фрайберга» — Ich wohne bei Freiberg. Разница одна: по-немецки wohne держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich bei Freiberg wohne.",
+      "ru": "Действие wohne уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе wohne — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Ответ из урока 5: bei = «возле». Город рядом — Freiberg.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «где»",
+      "items": [
+       {
+        "id": "ch01_048",
+        "de": "Ich wohne in Sachsen.",
+        "ru": "Я живу в Саксонии.",
+        "audio": "audio_v1fix/ch01_048.mp3",
+        "lesson": "L5",
+        "part": 3,
+        "changed": {
+         "role": "где",
+         "wagon": 3,
+         "from": "bei Freiberg",
+         "to": "in Sachsen"
+        }
+       },
+       {
+        "id": "ch01_t27",
+        "de": "Ich wohne in Dresden.",
+        "ru": "Я живу в Дрездене.",
+        "audio": "audio_v4/ch01_t27.mp3",
+        "lesson": "L5",
+        "part": 6,
+        "changed": {
+         "role": "где",
+         "wagon": 3,
+         "from": "bei Freiberg",
+         "to": "in Dresden"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Ich · wohne. В каждом примере меняется один вагон — «где»: bei Freiberg → in Sachsen → in Dresden. Действие wohne всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v4/ch01_d9_07.mp3",
+    "tts": "Ich wohne bei Freiberg.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wohne",
+      "ipa": "[ˈvoːnə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bei",
+      "ipa": "[baɪ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Freiberg",
+      "ipa": "[ˈfʁaɪ̯ˌbɛʁk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): w… · где: b… F…",
+    "gap": {
+     "text": "Ich ___ bei ___.",
+     "answers": [
+      "wohne",
+      "Freiberg"
+     ]
+    },
+    "task_ru": "Скажи: Я живу возле Фрайберга."
+   },
+   {
+    "id": "ch01_d9_08",
+    "role": "L",
+    "de": "Das ist die Adresse: Straße, Hausnummer, Postleitzahl, Ort.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Это адрес: улица, номер дома, почтовый индекс, населённый пункт.",
+    "nouns": [
+     {
+      "lemma": "Adresse",
+      "art": "die",
+      "pl": "Adressen"
+     },
+     {
+      "lemma": "Straße",
+      "art": "die",
+      "pl": "Straßen"
+     },
+     {
+      "lemma": "Hausnummer",
+      "art": "die",
+      "pl": "Hausnummern"
+     },
+     {
+      "lemma": "Postleitzahl",
+      "art": "die",
+      "pl": "Postleitzahlen"
+     },
+     {
+      "lemma": "Ort",
+      "art": "der",
+      "pl": "Orte"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Das",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "die Adresse",
+       "role": "кто"
+      },
+      {
+       "w": "Straße",
+       "role": "слово",
+       "art": "die"
+      },
+      {
+       "w": "Hausnummer",
+       "role": "слово",
+       "art": "die"
+      },
+      {
+       "w": "Postleitzahl",
+       "role": "слово",
+       "art": "die"
+      },
+      {
+       "w": "Ort",
+       "role": "слово",
+       "art": "der"
+      }
+     ],
+     "text": "Четыре поля адреса в анкете: die Straße, die Hausnummer, die Postleitzahl, der Ort. Ort — город или село, где ты живёшь.",
+     "topic": "articles",
+     "why_de": "ist работает как знак «=»: das = die Adresse. Действие держит вагон №2. Справа та же роль «кто», поэтому артикль не меняется: die Adresse.",
+     "why_ru": "По-русски «Это адрес: улица, номер дома, почтовый индекс, населённый пункт» — без «есть». По-немецки без ist нельзя: Das ist die Adresse: Straße, Hausnummer, Postleitzahl, Ort.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Das die Adresse: Straße, Hausnummer, Postleitzahl, Ort.",
+      "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary); Postleitzahl = Post + Leitzahl («почтовый индекс»; Leitzahl — «ведущее число», Wiktionary/DWDS)",
+     "why_voice_ru": "Четыре поля адреса в анкете: die Straße, die Hausnummer, die Postleitzahl, der Ort. Ort — город или село, где ты живёшь."
+    },
+    "audio": "audio_v4/ch01_d9_08.mp3",
+    "tts": "Das ist die Adresse: Straße, Hausnummer, Postleitzahl, Ort.",
+    "ipa": [
+     {
+      "w": "Das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Adresse",
+      "ipa": "[aˈdʁɛsə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Straße",
+      "ipa": "[ˈʃtʁaːsə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Hausnummer",
+      "ipa": "[ˈhaʊ̯sˌnʊmɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Postleitzahl",
+      "ipa": "[ˈpɔstlaɪ̯tˌt͡saːl]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ort",
+      "ipa": "[ɔʁt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… · действие (вагон №2): i… · кто: d… A… · слово: S… · слово: H… · слово: P… · слово: O…",
+    "gap": {
+     "text": "Das ___ die ___: Straße, Hausnummer, Postleitzahl, Ort.",
+     "answers": [
+      "ist",
+      "Adresse"
+     ]
+    },
+    "task_ru": "Скажи: Это адрес: улица, номер дома, почтовый индекс, населённый пункт."
+   },
+   {
+    "id": "ch01_d9_09",
+    "role": "L",
+    "de": "Und wer ist das?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А кто это?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "wer",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "das",
+       "role": "кто"
+      }
+     ],
+     "text": "Вопрос из урока 4: wer = «кто». und не занимает вагон.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово wer — вагон №1, действие ist — сразу за ним, вагон №2: Und wer ist das? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «А кто это» можно сказать и в другом порядке. По-немецки порядок один: wer · ist · das. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Und wer das ist?",
+      "ru": "das встал перед ist — действие ушло из вагона №2. После wer немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Вопрос из урока 4: wer = «кто». und не занимает вагон."
+    },
+    "audio": "audio_v4/ch01_d9_09.mp3",
+    "tts": "Und wer ist das?",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wer",
+      "ipa": "[veːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · вопрос-слово: w… · действие (вагон №2): i… · кто: d…",
+    "gap": {
+     "text": "Und wer ___ das?",
+     "answers": [
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: А кто это?"
+   },
+   {
+    "id": "ch01_d9_10",
+    "role": "H",
+    "de": "Das ist Herr Schmidt.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Это господин Шмидт.",
+    "nouns": [
+     {
+      "lemma": "Herr",
+      "art": "der",
+      "pl": "Herren"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Das",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "Herr Schmidt",
+       "role": "кто"
+      }
+     ],
+     "text": "Herr + фамилия = «господин …». Про женщину — Frau + фамилия: Frau Becker.",
+     "topic": "verb2",
+     "why_de": "ist работает как знак «=»: das = Herr Schmidt. Действие держит вагон №2.",
+     "why_ru": "По-русски «Это господин Шмидт» — без «есть». По-немецки без ist нельзя: Das ist Herr Schmidt.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Das Herr Schmidt.",
+      "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Herr + фамилия = «господин …». Про женщину — Frau + фамилия: Frau Becker.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «кто»",
+      "items": [
+       {
+        "id": "ch01_d7_04",
+        "de": "Das ist Olga.",
+        "ru": "Это Ольга.",
+        "audio": "audio_v4/ch01_d7_04.mp3",
+        "lesson": "L4",
+        "part": 4,
+        "changed": {
+         "role": "кто",
+         "wagon": 3,
+         "from": "Herr Schmidt",
+         "to": "Olga"
+        }
+       },
+       {
+        "id": "ch01_029",
+        "de": "Das ist meine Frau.",
+        "ru": "Это моя жена.",
+        "audio": "audio_v1/ch01_029.mp3",
+        "lesson": "L5",
+        "part": 3,
+        "changed": {
+         "role": "кто",
+         "wagon": 3,
+         "from": "Herr Schmidt",
+         "to": "meine Frau"
+        }
+       },
+       {
+        "id": "ch01_d8_08",
+        "de": "Das ist Frau Wagner.",
+        "ru": "Это госпожа Вагнер.",
+        "audio": "audio_v4/ch01_d8_08.mp3",
+        "lesson": "L5",
+        "part": 4,
+        "changed": {
+         "role": "кто",
+         "wagon": 3,
+         "from": "Herr Schmidt",
+         "to": "Frau Wagner"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Das · ist. В каждом примере меняется один вагон — «кто»: Herr Schmidt → Olga → meine Frau → Frau Wagner. Действие ist всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v4/ch01_d9_10.mp3",
+    "tts": "Das ist Herr Schmidt.",
+    "ipa": [
+     {
+      "w": "Das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Herr",
+      "ipa": "[hɛʁ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Schmidt",
+      "ipa": "[ʃmɪt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… · действие (вагон №2): i… · кто: H… S…",
+    "gap": {
+     "text": "Das ___ Herr ___.",
+     "answers": [
+      "ist",
+      "Schmidt"
+     ]
+    },
+    "task_ru": "Скажи: Это господин Шмидт."
+   },
+   {
+    "id": "ch01_d9_11",
+    "role": "S",
+    "de": "Guten Tag! Wie ist der Kurs?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Добрый день! Как курс?",
+    "nouns": [
+     {
+      "lemma": "Tag",
+      "art": "der",
+      "pl": "Tage"
+     },
+     {
+      "lemma": "Kurs",
+      "art": "der",
+      "pl": "Kurse"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Guten Tag",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Wie",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "der Kurs",
+       "role": "кто"
+      }
+     ],
+     "text": "Сосед спрашивает через wie: «как курс?». der Kurs — der-слово.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wie — вагон №1, действие ist — сразу за ним, вагон №2: Wie ist der Kurs? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Как курс» можно сказать и в другом порядке. По-немецки порядок один: Wie · ist · der Kurs. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Guten Tag! Wie der Kurs ist?",
+      "ru": "der Kurs встал перед ist — действие ушло из вагона №2. После Wie немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Сосед спрашивает через wie: «как курс?». der Kurs — der-слово.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "вопрос-слово · действие (вагон №2) · «кто»",
+      "items": [
+       {
+        "id": "ch01_d8_01",
+        "de": "Guten Tag! Wie ist Ihr Vorname?",
+        "ru": "Добрый день! Как ваше имя?",
+        "audio": "audio_v4/ch01_d8_01.mp3",
+        "lesson": "L5",
+        "part": 4,
+        "changed": {
+         "role": "кто",
+         "wagon": 3,
+         "from": "der Kurs",
+         "to": "Ihr Vorname"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Wie · ist. В каждом примере меняется один вагон — «кто»: der Kurs → Ihr Vorname. Действие ist всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v4/ch01_d9_11.mp3",
+    "tts": "Guten Tag! Wie ist der Kurs?",
+    "ipa": [
+     {
+      "w": "Guten",
+      "ipa": "[ˈɡuːtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tag",
+      "ipa": "[taːk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wie",
+      "ipa": "[viː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kurs",
+      "ipa": "[kʊʁs]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… T… · вопрос-слово: W… · действие (вагон №2): i… · кто: d… K…",
+    "gap": {
+     "text": "Guten Tag! Wie ___ der ___?",
+     "answers": [
+      "ist",
+      "Kurs"
+     ]
+    },
+    "task_ru": "Скажи: Добрый день! Как курс?"
+   },
+   {
+    "id": "ch01_d9_12",
+    "role": "H",
+    "de": "Der Kurs ist gut.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Курс хороший.",
+    "nouns": [
+     {
+      "lemma": "Kurs",
+      "art": "der",
+      "pl": "Kurse"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Der Kurs",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "gut",
+       "role": "какой/как"
+      }
+     ],
+     "text": "ist как знак «=»: курс = хороший. По-русски «есть» пропускают, по-немецки — нельзя.",
+     "topic": "verb2",
+     "why_de": "Der Kurs · ist · gut: действие ist — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Курс хороший» — без действия «есть». По-немецки без ist фразы нет: Der Kurs ist gut.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Der Kurs gut.",
+      "ru": "Русская привычка — без действия, как «Курс хороший». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "ist как знак «=»: курс = хороший. По-русски «есть» пропускают, по-немецки — нельзя."
+    },
+    "audio": "audio_v4/ch01_d9_12.mp3",
+    "tts": "Der Kurs ist gut.",
+    "ipa": [
+     {
+      "w": "Der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kurs",
+      "ipa": "[kʊʁs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… K… · действие (вагон №2): i… · какой/как: g…",
+    "gap": {
+     "text": "Der ___ ___ gut.",
+     "answers": [
+      "Kurs",
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Курс хороший."
+   },
+   {
+    "id": "ch01_d9_13",
+    "role": "L",
+    "de": "Auf Wiedersehen!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "До свидания!",
+    "nouns": [
+     {
+      "lemma": "Wiedersehen",
+      "art": "das",
+      "pl": "Wiedersehen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Auf Wiedersehen",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Учительница прощается вежливо, на «вы».",
+     "topic": "word_order",
+     "why_de": "Готовая вежливая формула прощания: на «вы», в ведомстве, начальнику.",
+     "why_ru": "Это и есть «до свидания»: wieder — снова, sehen — видеть.",
+     "layer": "chunk",
+     "why_not": {
+      "wrong": "Tschüss! (начальнику)",
+      "ru": "Tschüss — разговорное (DWDS). Начальнику и в ведомстве лучше Auf Wiedersehen."
+     },
+     "source": "tools/why_chunks.json",
+     "root": "Wiedersehen ← wieder «снова» + sehen «видеть» (Wiktionary)",
+     "why_voice_ru": "Учительница прощается вежливо, на «вы»."
+    },
+    "audio": "audio_v4/ch01_d9_13.mp3",
+    "tts": "Auf Wiedersehen! Auf Wiedersehen!",
+    "ipa": [
+     {
+      "w": "Auf",
+      "ipa": "[aʊ̯f]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wiedersehen",
+      "ipa": "[ˈviːdɐˌzeːən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "ok",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: A… W…",
+    "gap": {
+     "text": "Auf ___!",
+     "answers": [
+      "Wiedersehen"
+     ]
+    },
+    "task_ru": "Скажи: До свидания!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ }
+]

@@ -1,0 +1,3795 @@
+[
+ {
+  "id": "ch12_d1",
+  "title_ru": "Чат с Ольгой: как доехать до Дрездена",
+  "roles": {
+   "O": "Olga (одногруппница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch12_d1_01",
+    "role": "O",
+    "de": "Hallo! Ich bin in Dresden. Und du?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Привет! Я в Дрездене. А ты?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hallo",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "bin",
+       "role": "действие №2"
+      },
+      {
+       "w": "in Dresden",
+       "role": "где"
+      },
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      }
+     ],
+     "text": "in Dresden — «в Дрездене»: Ольга уже там. in отвечает на «где».",
+     "topic": "verb2",
+     "why_de": "Ich · bin · in Dresden: действие bin — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Я в Дрездене» — без действия «есть». По-немецки без bin фразы нет: Ich bin in Dresden.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Hallo! Ich in Dresden. Und du?",
+      "ru": "Русская привычка — без действия, как «Я в Дрездене». Без bin немец слышит обрывок, а не фразу."
+     },
+     "root": "Hallo — от holen «звать, позвать» (ahd. halōn/holōn): так окликали перевозчика (DWDS, Pfeifer); bin, bist — от древнего корня *bʰew- («быть»), а ist — от *es- (как русское «есть»); весь глагол sein собран из двух корней (DWDS, Wiktionary)",
+     "why_voice_ru": "in Dresden — «в Дрездене»: Ольга уже там. in отвечает на «где»."
+    },
+    "audio": "audio_v1/ch12_d1_01.mp3",
+    "tts": "Hallo! Ich bin in Dresden. Und du?",
+    "ipa": [
+     {
+      "w": "Hallo",
+      "ipa": "[haˈloː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bin",
+      "ipa": "[bɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "in",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Dresden",
+      "ipa": "[ˈdʁeːsdn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: H… · кто: I… · действие (вагон №2): b… · где: i… D… · связка: U… · кто: d…",
+    "gap": {
+     "text": "Hallo! Ich ___ in ___. Und du?",
+     "answers": [
+      "bin",
+      "Dresden"
+     ]
+    },
+    "task_ru": "Скажи: Привет! Я в Дрездене. А ты?"
+   },
+   {
+    "id": "ch12_d1_02",
+    "role": "H",
+    "de": "Ich fahre auch nach Dresden.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я тоже еду в Дрезден.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "fahre",
+       "role": "действие №2"
+      },
+      {
+       "w": "auch",
+       "role": "добавка"
+      },
+      {
+       "w": "nach Dresden",
+       "role": "куда"
+      }
+     ],
+     "text": "nach Dresden — «в Дрезден»: туда едут. nach отвечает на «куда»; артикля перед городом нет.",
+     "topic": "verb2",
+     "why_de": "Ich · fahre · auch · nach Dresden: действие fahre — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я тоже еду в Дрезден» — Ich fahre auch nach Dresden. Разница одна: по-немецки fahre держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich auch nach Dresden fahre.",
+      "ru": "Действие fahre уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе fahre — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "nach Dresden — «в Дрезден»: туда едут. nach отвечает на «куда»; артикля перед городом нет."
+    },
+    "audio": "audio_v1/ch12_d1_02.mp3",
+    "tts": "Ich fahre auch nach Dresden.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "fahre",
+      "ipa": "[ˈfaːʁə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "auch",
+      "ipa": "[aʊ̯x]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "nach",
+      "ipa": "[naːx]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Dresden",
+      "ipa": "[ˈdʁeːsdn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): f… · добавка: a… · куда: n… D…",
+    "gap": {
+     "text": "Ich ___ auch nach ___.",
+     "answers": [
+      "fahre",
+      "Dresden"
+     ]
+    },
+    "task_ru": "Скажи: Я тоже еду в Дрезден."
+   },
+   {
+    "id": "ch12_d1_03",
+    "role": "O",
+    "de": "Gut! Wie fährst du nach Dresden?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Хорошо! Как ты едешь в Дрезден?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Gut",
+       "role": "да/нет"
+      },
+      {
+       "w": "Wie",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "fährst",
+       "role": "действие №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "nach Dresden",
+       "role": "куда"
+      }
+     ],
+     "text": "Вопрос «как»: Wie · fährst · du. Так спрашивают, на чём едешь. С du в слове fährst: a становится ä.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wie — вагон №1, действие fährst — сразу за ним, вагон №2: Wie fährst du nach Dresden? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Как ты едешь в Дрезден» можно сказать и в другом порядке. По-немецки порядок один: Wie · fährst · du · nach Dresden.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Gut! Wie du fährst nach Dresden?",
+      "ru": "du встал перед fährst — действие ушло из вагона №2. После Wie немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос «как»: Wie · fährst · du. Так спрашивают, на чём едешь. С du в слове fährst: a становится ä."
+    },
+    "audio": "audio_v1/ch12_d1_03.mp3",
+    "tts": "Gut! Wie fährst du nach Dresden?",
+    "ipa": [
+     {
+      "w": "Gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wie",
+      "ipa": "[viː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "fährst",
+      "ipa": "[fɛːɐ̯st]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "nach",
+      "ipa": "[naːx]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Dresden",
+      "ipa": "[ˈdʁeːsdn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: G… · вопрос-слово: W… · действие (вагон №2): f… · кто: d… · куда: n… D…",
+    "gap": {
+     "text": "Gut! Wie ___ du nach ___?",
+     "answers": [
+      "fährst",
+      "Dresden"
+     ]
+    },
+    "task_ru": "Скажи: Хорошо! Как ты едешь в Дрезден?"
+   },
+   {
+    "id": "ch12_d1_04",
+    "role": "H",
+    "de": "Ich fahre mit dem Bus und mit dem Zug.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я еду на автобусе и на поезде.",
+    "nouns": [
+     {
+      "lemma": "Bus",
+      "art": "der",
+      "pl": "Busse"
+     },
+     {
+      "lemma": "Zug",
+      "art": "der",
+      "pl": "Züge"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "fahre",
+       "role": "действие №2"
+      },
+      {
+       "w": "mit dem Bus",
+       "role": "какой/как"
+      },
+      {
+       "w": "und",
+       "role": "связка"
+      },
+      {
+       "w": "mit dem Zug",
+       "role": "какой/как"
+      }
+     ],
+     "text": "Bus и Zug — der-слова. После mit у der-слов стоит dem: mit dem Bus, mit dem Zug.",
+     "topic": "articles",
+     "why_de": "Ich · fahre · mit dem Bus · mit dem Zug: действие fahre — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я еду на автобусе и на поезде» — Ich fahre mit dem Bus und mit dem Zug. Разница одна: по-немецки fahre держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich mit dem Bus und mit dem Zug fahre.",
+      "ru": "Действие fahre уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе fahre — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Bus и Zug — der-слова. После mit у der-слов стоит dem: mit dem Bus, mit dem Zug."
+    },
+    "audio": "audio_v1/ch12_d1_04.mp3",
+    "tts": "Ich fahre mit dem Bus und mit dem Zug.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "fahre",
+      "ipa": "[ˈfaːʁə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mit",
+      "ipa": "[mɪt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "dem",
+      "ipa": "[deːm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Bus",
+      "ipa": "[bʊs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mit",
+      "ipa": "[mɪt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "dem",
+      "ipa": "[deːm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Zug",
+      "ipa": "[t͡suːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): f… · какой/как: m… d… B… · связка: u… · какой/как: m… d… Z…",
+    "gap": {
+     "text": "Ich ___ mit dem Bus und mit dem Zug.",
+     "answers": [
+      "fahre"
+     ]
+    },
+    "task_ru": "Скажи: Я еду на автобусе и на поезде."
+   },
+   {
+    "id": "ch12_d1_05",
+    "role": "O",
+    "de": "Fährst du in Dresden mit der Straßenbahn? Die Straßenbahn ist gut.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ты в Дрездене едешь на трамвае? Трамвай хороший.",
+    "nouns": [
+     {
+      "lemma": "Straßenbahn",
+      "art": "die",
+      "pl": "Straßenbahnen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Fährst",
+       "role": "действие №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "in Dresden",
+       "role": "где"
+      },
+      {
+       "w": "mit der Straßenbahn",
+       "role": "какой/как"
+      },
+      {
+       "w": "Die Straßenbahn",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "gut",
+       "role": "какой/как"
+      }
+     ],
+     "text": "Вопрос «да/нет»: действие Fährst впереди. Straßenbahn — die-слово: после mit — der.",
+     "topic": "questions",
+     "why_de": "Действие впереди (Fährst) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Fährst du in Dresden mit der Straßenbahn?",
+     "why_ru": "По-русски «Ты в Дрездене едешь на трамвае» — вопрос только голосом, порядок как в ответе. По-немецки действие Fährst выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Du fährst in Dresden mit der Straßenbahn? Die Straßenbahn ist gut.",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Ты в Дрездене едешь на трамвае?!»). Обычный вопрос — действие впереди."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer); ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Вопрос «да/нет»: действие Fährst впереди. Straßenbahn — die-слово: после mit — der."
+    },
+    "audio": "audio_v1/ch12_d1_05.mp3",
+    "tts": "Fährst du in Dresden mit der Straßenbahn? Die Straßenbahn ist gut.",
+    "ipa": [
+     {
+      "w": "Fährst",
+      "ipa": "[fɛːɐ̯st]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "in",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Dresden",
+      "ipa": "[ˈdʁeːsdn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mit",
+      "ipa": "[mɪt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Straßenbahn",
+      "ipa": "[ˈʃtʁaːsn̩ˌbaːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Straßenbahn",
+      "ipa": "[ˈʃtʁaːsn̩ˌbaːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): F… · кто: d… · где: i… D… · какой/как: m… d… S… · кто: D… S… · действие (вагон №2): i… · какой/как: g…",
+    "gap": {
+     "text": "___ du in ___ mit der Straßenbahn? Die Straßenbahn ist gut.",
+     "answers": [
+      "Fährst",
+      "Dresden"
+     ]
+    },
+    "task_ru": "Скажи: Ты в Дрездене едешь на трамвае? Трамвай хороший."
+   },
+   {
+    "id": "ch12_d1_06",
+    "role": "H",
+    "de": "Nein, ich gehe zu Fuß.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Нет, я иду пешком.",
+    "nouns": [
+     {
+      "lemma": "Fuß",
+      "art": "der",
+      "pl": "Füße"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Nein",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "gehe",
+       "role": "действие №2"
+      },
+      {
+       "w": "zu Fuß",
+       "role": "какой/как"
+      }
+     ],
+     "text": "nein не занимает вагон. zu Fuß — «пешком»; пешком идут, поэтому gehe.",
+     "topic": "verb2",
+     "why_de": "ich · gehe · zu Fuß: действие gehe — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Нет, я иду пешком» — Nein, ich gehe zu Fuß. Разница одна: по-немецки gehe держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Nein, ich zu Fuß gehe.",
+      "ru": "Действие gehe уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе gehe — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "nein не занимает вагон. zu Fuß — «пешком»; пешком идут, поэтому gehe."
+    },
+    "audio": "audio_v1/ch12_d1_06.mp3",
+    "tts": "Nein, ich gehe zu Fuß.",
+    "ipa": [
+     {
+      "w": "Nein",
+      "ipa": "[naɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gehe",
+      "ipa": "[ˈɡeːə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "zu",
+      "ipa": "[t͡suː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Fuß",
+      "ipa": "[fuːs]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: N… · кто: i… · действие (вагон №2): g… · какой/как: z… F…",
+    "gap": {
+     "text": "Nein, ich ___ zu Fuß.",
+     "answers": [
+      "gehe"
+     ]
+    },
+    "task_ru": "Скажи: Нет, я иду пешком."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch12_d2",
+  "title_ru": "Как добраться до вокзала",
+  "roles": {
+   "O": "Olga (одногруппница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch12_d2_01",
+    "role": "H",
+    "de": "Olga, wie komme ich vom Kurs zum Bahnhof?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ольга, как мне добраться от курса до вокзала?",
+    "nouns": [
+     {
+      "lemma": "Kurs",
+      "art": "der",
+      "pl": "Kurse"
+     },
+     {
+      "lemma": "Bahnhof",
+      "art": "der",
+      "pl": "Bahnhöfe"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Olga",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "wie",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "komme",
+       "role": "действие №2"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "vom Kurs",
+       "role": "откуда"
+      },
+      {
+       "w": "zum Bahnhof",
+       "role": "куда"
+      }
+     ],
+     "text": "wie — «как». Вопрос-слово, потом действие komme.",
+     "topic": "questions",
+     "why_de": "Olga — обращение, не вагон. Дальше Wie — вагон №1, komme — вагон №2, ich — за действием. Откуда — vom Kurs, куда — zum Bahnhof.",
+     "why_ru": "По-русски «как мне добраться» — порядок свободный. По-немецки порядок один: Wie · komme · ich.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Olga, wie ich komme vom Kurs zum Bahnhof?",
+      "ru": "Русский порядок: «кто» (ich) перед действием, и komme уехало из вагона №2. После wie действие стоит сразу."
+     },
+     "root": "Bahnhof = Bahn + Hof (Bahn — дорога; Hof — двор) — Wiktionary",
+     "override": "tools/data_ch12.py WHY",
+     "why_voice_ru": "wie — «как». Вопрос-слово, потом действие komme."
+    },
+    "audio": "audio_v1/ch12_d2_01.mp3",
+    "tts": "Olga, wie komme ich vom Kurs zum Bahnhof?",
+    "ipa": [
+     {
+      "w": "Olga",
+      "ipa": "[ˈɔlɡa]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wie",
+      "ipa": "[viː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "komme",
+      "ipa": "[ˈkɔmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "vom",
+      "ipa": "[fɔm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kurs",
+      "ipa": "[kʊʁs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "zum",
+      "ipa": "[t͡sʊm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Bahnhof",
+      "ipa": "[ˈbaːnˌhoːf]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: O… · вопрос-слово: w… · действие (вагон №2): k… · кто: i… · откуда: v… K… · куда: z… B…",
+    "gap": {
+     "text": "Olga, wie ___ ich vom Kurs zum ___?",
+     "answers": [
+      "komme",
+      "Bahnhof"
+     ]
+    },
+    "task_ru": "Скажи: Ольга, как мне добраться от курса до вокзала?"
+   },
+   {
+    "id": "ch12_d2_02",
+    "role": "O",
+    "de": "Du gehst zur Haltestelle.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ты идёшь на остановку.",
+    "nouns": [
+     {
+      "lemma": "Haltestelle",
+      "art": "die",
+      "pl": "Haltestellen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Du",
+       "role": "кто"
+      },
+      {
+       "w": "gehst",
+       "role": "действие №2"
+      },
+      {
+       "w": "zur Haltestelle",
+       "role": "куда"
+      }
+     ],
+     "text": "С du действие кончается на -st: gehst.",
+     "topic": "verb2",
+     "why_de": "Du · gehst · zur Haltestelle: действие gehst — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Ты идёшь на остановку» — Du gehst zur Haltestelle. Разница одна: по-немецки gehst держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Du zur Haltestelle gehst.",
+      "ru": "Действие gehst уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе gehst — вагон №2."
+     },
+     "root": null,
+     "override": "tools/data_ch12.py WHY",
+     "why_voice_ru": "С du действие кончается на -st: gehst."
+    },
+    "audio": "audio_v1/ch12_d2_02.mp3",
+    "tts": "Du gehst zur Haltestelle.",
+    "ipa": [
+     {
+      "w": "Du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gehst",
+      "ipa": "[ɡeːst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "zur",
+      "ipa": "[t͡suːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Haltestelle",
+      "ipa": "[ˈhaltəˌʃtɛlə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… · действие (вагон №2): g… · куда: z… H…",
+    "gap": {
+     "text": "Du ___ zur ___.",
+     "answers": [
+      "gehst",
+      "Haltestelle"
+     ]
+    },
+    "task_ru": "Скажи: Ты идёшь на остановку."
+   },
+   {
+    "id": "ch12_d2_03",
+    "role": "H",
+    "de": "Wo ist die Haltestelle?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Где остановка?",
+    "nouns": [
+     {
+      "lemma": "Haltestelle",
+      "art": "die",
+      "pl": "Haltestellen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wo",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "die Haltestelle",
+       "role": "кто"
+      }
+     ],
+     "text": "wo — «где». Вопрос-слово, потом действие ist.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wo — вагон №1, действие ist — сразу за ним, вагон №2: Wo ist die Haltestelle? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Где остановка» можно сказать и в другом порядке. По-немецки порядок один: Wo · ist · die Haltestelle. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wo die Haltestelle ist?",
+      "ru": "die Haltestelle встал перед ist — действие ушло из вагона №2. После Wo немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "override": "tools/data_ch12.py WHY",
+     "why_voice_ru": "wo — «где». Вопрос-слово, потом действие ist."
+    },
+    "audio": "audio_v1/ch12_d2_03.mp3",
+    "tts": "Wo ist die Haltestelle?",
+    "ipa": [
+     {
+      "w": "Wo",
+      "ipa": "[voː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Haltestelle",
+      "ipa": "[ˈhaltəˌʃtɛlə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): i… · кто: d… H…",
+    "gap": {
+     "text": "Wo ___ die ___?",
+     "answers": [
+      "ist",
+      "Haltestelle"
+     ]
+    },
+    "task_ru": "Скажи: Где остановка?"
+   },
+   {
+    "id": "ch12_d2_04",
+    "role": "O",
+    "de": "Die Haltestelle ist hier. Dann fährst du mit dem Bus von der Haltestelle zum Bahnhof.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Остановка здесь. Потом ты едешь на автобусе от остановки до вокзала.",
+    "nouns": [
+     {
+      "lemma": "Haltestelle",
+      "art": "die",
+      "pl": "Haltestellen"
+     },
+     {
+      "lemma": "Bus",
+      "art": "der",
+      "pl": "Busse"
+     },
+     {
+      "lemma": "Bahnhof",
+      "art": "der",
+      "pl": "Bahnhöfe"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Die Haltestelle",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "hier",
+       "role": "где"
+      },
+      {
+       "w": "Dann",
+       "role": "когда"
+      },
+      {
+       "w": "fährst",
+       "role": "действие №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "mit dem Bus",
+       "role": "какой/как"
+      },
+      {
+       "w": "von der Haltestelle",
+       "role": "откуда"
+      },
+      {
+       "w": "zum Bahnhof",
+       "role": "куда"
+      }
+     ],
+     "text": "Начали с «когда» (Dann) — действие всё равно в вагоне №2, а du уходит за него.",
+     "topic": "verb2",
+     "why_de": "Die Haltestelle · ist · hier: действие ist — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Остановка здесь» — без действия «есть». По-немецки без ist фразы нет: Die Haltestelle ist hier.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Die Haltestelle hier. Dann fährst du mit dem Bus von der Haltestelle zum Bahnhof.",
+      "ru": "Русская привычка — без действия, как «Остановка здесь». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "Bahnhof = Bahn + Hof — Wiktionary",
+     "override": "tools/data_ch12.py WHY",
+     "why_voice_ru": "Начали с «когда» (Dann) — действие всё равно в вагоне №2, а du уходит за него."
+    },
+    "audio": "audio_v1/ch12_d2_04.mp3",
+    "tts": "Die Haltestelle ist hier. Dann fährst du mit dem Bus von der Haltestelle zum Bahnhof.",
+    "ipa": [
+     {
+      "w": "Die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Haltestelle",
+      "ipa": "[ˈhaltəˌʃtɛlə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hier",
+      "ipa": "[hiːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Dann",
+      "ipa": "[dan]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "fährst",
+      "ipa": "[fɛːɐ̯st]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mit",
+      "ipa": "[mɪt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "dem",
+      "ipa": "[deːm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Bus",
+      "ipa": "[bʊs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "von",
+      "ipa": "[fɔn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Haltestelle",
+      "ipa": "[ˈhaltəˌʃtɛlə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "zum",
+      "ipa": "[t͡sʊm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Bahnhof",
+      "ipa": "[ˈbaːnˌhoːf]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… H… · действие (вагон №2): i… · где: h… · когда: D… · действие (вагон №2): f… · кто: d… · какой/как: m… d… B… · откуда: v… d… H… · куда: z… B…",
+    "gap": {
+     "text": "Die Haltestelle ___ ___. Dann fährst du mit dem Bus von der Haltestelle zum Bahnhof.",
+     "answers": [
+      "ist",
+      "hier"
+     ]
+    },
+    "task_ru": "Скажи: Остановка здесь. Потом ты едешь на автобусе от остановки до вокзала."
+   },
+   {
+    "id": "ch12_d2_05",
+    "role": "H",
+    "de": "Danke, Olga!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Спасибо, Ольга!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Olga",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Благодарность и имя.",
+     "topic": "verb2",
+     "why_de": "Danke, Olga! — благодарность и имя. Оба слова не занимают вагон: действия нет, поэтому нет и поезда.",
+     "why_ru": "По-русски так же: «Спасибо, Ольга!»",
+     "layer": "formulas",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — искать здесь действие. Это вежливая фраза, её говорят целиком."
+     },
+     "root": null,
+     "override": "tools/data_ch12.py WHY",
+     "why_voice_ru": "Благодарность и имя."
+    },
+    "audio": "audio_v1/ch12_d2_05.mp3",
+    "tts": "Danke, Olga! Danke, Olga!",
+    "ipa": [
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Olga",
+      "ipa": "[ˈɔlɡa]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: D… · привет/вежливость: O…",
+    "gap": {
+     "text": "Danke, ___!",
+     "answers": [
+      "Olga"
+     ]
+    },
+    "task_ru": "Скажи: Спасибо, Ольга!"
+   },
+   {
+    "id": "ch12_d2_06",
+    "role": "O",
+    "de": "Bitte! Tschüss!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Пожалуйста! Пока!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Bitte",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Tschüss",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Ответ на «спасибо» и прощание: оба слова говорят целиком.",
+     "topic": "verb2",
+     "why_de": "Здесь 2 готовые формулы подряд: Bitte + Tschüss. Их учим целиком, по одной; действия нет — поэтому и поезда нет.",
+     "why_ru": "По-русски так же — 2 куска подряд: «Пожалуйста! Пока».",
+     "layer": "formulas",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — склеить всё в одно и переводить по словам. Тут 2 куска, их учим целиком: Bitte · Tschüss."
+     },
+     "root": null,
+     "why_voice_ru": "Ответ на «спасибо» и прощание: оба слова говорят целиком."
+    },
+    "audio": "audio_v1/ch12_d2_06.mp3",
+    "tts": "Bitte! Tschüss! Bitte! Tschüss!",
+    "ipa": [
+     {
+      "w": "Bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tschüss",
+      "ipa": "[t͡ʃʏs]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: B… · привет/вежливость: T…",
+    "gap": {
+     "text": "Bitte! ___!",
+     "answers": [
+      "Tschüss"
+     ]
+    },
+    "task_ru": "Скажи: Пожалуйста! Пока!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch12_d3",
+  "title_ru": "Билет и путь",
+  "roles": {
+   "A": "Frau Wagner (сотрудница вокзала)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch12_d3_01",
+    "role": "H",
+    "de": "Guten Tag! Eine Fahrkarte nach Leipzig, bitte.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Добрый день! Один билет до Лейпцига, пожалуйста.",
+    "nouns": [
+     {
+      "lemma": "Fahrkarte",
+      "art": "die",
+      "pl": "Fahrkarten"
+     },
+     {
+      "lemma": "Tag",
+      "art": "der",
+      "pl": "Tage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Guten Tag",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Eine Fahrkarte",
+       "role": "кого-что"
+      },
+      {
+       "w": "nach Leipzig",
+       "role": "куда"
+      },
+      {
+       "w": "bitte",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Сначала приветствие, потом просьба: что, куда, bitte. Fahrkarte — die-слово: eine Fahrkarte.",
+     "topic": "articles",
+     "why_de": "Guten Tag и bitte — готовые формулы. Между ними просьба: Eine Fahrkarte (что?) · nach Leipzig (куда?).",
+     "why_ru": "По-русски «Добрый день! Один билет до Лейпцига, пожалуйста.» — те же куски.",
+     "layer": "short",
+     "why_not": {
+      "wrong": "Guten Tag! Eine Fahrkarte in Leipzig, bitte.",
+      "ru": "in Leipzig — где ты уже есть. Куда едешь — nach Leipzig."
+     },
+     "root": "Fahrkarte = fahr- (fahren) + Karte (Karte — карта, билет) — Wiktionary",
+     "override": "tools/data_ch12.py WHY",
+     "why_voice_ru": "Сначала приветствие, потом просьба: что, куда, bitte. Fahrkarte — die-слово: eine Fahrkarte."
+    },
+    "audio": "audio_v1/ch12_d3_01.mp3",
+    "tts": "Guten Tag! Eine Fahrkarte nach Leipzig, bitte.",
+    "ipa": [
+     {
+      "w": "Guten",
+      "ipa": "[ˈɡuːtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tag",
+      "ipa": "[taːk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Eine",
+      "ipa": "[ˈaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Fahrkarte",
+      "ipa": "[ˈfaːɐ̯ˌkaʁtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "nach",
+      "ipa": "[naːx]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Leipzig",
+      "ipa": "[ˈlaɪ̯pt͡sɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… T… · кого-что: E… F… · куда: n… L… · привет/вежливость: b…",
+    "gap": {
+     "text": "Guten Tag! Eine ___ nach Leipzig, bitte.",
+     "answers": [
+      "Fahrkarte"
+     ]
+    },
+    "task_ru": "Скажи: Добрый день! Один билет до Лейпцига, пожалуйста."
+   },
+   {
+    "id": "ch12_d3_02",
+    "role": "A",
+    "de": "Bitte. Der Zug fährt von Gleis drei ab.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Пожалуйста. Поезд отправляется с пути 3.",
+    "nouns": [
+     {
+      "lemma": "Zug",
+      "art": "der",
+      "pl": "Züge"
+     },
+     {
+      "lemma": "Gleis",
+      "art": "das",
+      "pl": "Gleise"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Bitte",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Der Zug",
+       "role": "кто"
+      },
+      {
+       "w": "fährt",
+       "role": "действие №2"
+      },
+      {
+       "w": "von Gleis drei",
+       "role": "откуда"
+      },
+      {
+       "w": "ab",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "fährt … ab — одно действие из двух частей: ab уезжает в конец.",
+     "topic": "verb2",
+     "why_de": "У действия есть «хвост»: он отрывается и встаёт в самый конец: Der Zug fährt von Gleis drei ab.",
+     "why_ru": "По-русски «Поезд отправляется с пути 3» — приставка приклеена; по-немецки она уезжает в конец: Der Zug fährt von Gleis drei ab.",
+     "layer": "sep",
+     "why_not": {
+      "wrong": "Bitte. Der Zug fährt ab von Gleis drei.",
+      "ru": "Хвост ab нельзя ставить сразу за fährt: он уезжает в самый конец предложения."
+     },
+     "root": null,
+     "why_voice_ru": "fährt … ab — одно действие из двух частей: ab уезжает в конец."
+    },
+    "audio": "audio_v1/ch12_d3_02.mp3",
+    "tts": "Bitte. Der Zug fährt von Gleis drei ab.",
+    "ipa": [
+     {
+      "w": "Bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Zug",
+      "ipa": "[t͡suːk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "fährt",
+      "ipa": "[fɛːɐ̯t]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "von",
+      "ipa": "[fɔn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Gleis",
+      "ipa": "[ɡlaɪ̯s]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "drei",
+      "ipa": "[dʁaɪ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ab",
+      "ipa": "[ap]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: B… · кто: D… Z… · действие (вагон №2): f… · откуда: v… G… d… · хвост действия: a…",
+    "gap": {
+     "text": "Bitte. Der ___ ___ von Gleis drei ab.",
+     "answers": [
+      "Zug",
+      "fährt"
+     ]
+    },
+    "task_ru": "Скажи: Пожалуйста. Поезд отправляется с пути 3."
+   },
+   {
+    "id": "ch12_d3_03",
+    "role": "H",
+    "de": "Wo ist Gleis drei?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Где путь 3?",
+    "nouns": [
+     {
+      "lemma": "Gleis",
+      "art": "das",
+      "pl": "Gleise"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wo",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "Gleis drei",
+       "role": "кто"
+      }
+     ],
+     "text": "wo — «где». Вопрос-слово, потом действие ist.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wo — вагон №1, действие ist — сразу за ним, вагон №2: Wo ist Gleis drei? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Где путь 3» можно сказать и в другом порядке. По-немецки порядок один: Wo · ist · Gleis drei. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wo Gleis drei ist?",
+      "ru": "Gleis drei встал перед ist — действие ушло из вагона №2. После Wo немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "wo — «где». Вопрос-слово, потом действие ist.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "вопрос-слово · действие (вагон №2) · «кто»",
+      "items": [
+       {
+        "id": "ch12_d2_03",
+        "de": "Wo ist die Haltestelle?",
+        "ru": "Где остановка?",
+        "audio": "audio_v1/ch12_d2_03.mp3",
+        "lesson": "L2",
+        "part": 4,
+        "changed": {
+         "role": "кто",
+         "wagon": 3,
+         "from": "Gleis drei",
+         "to": "die Haltestelle"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Wo · ist. В каждом примере меняется один вагон — «кто»: Gleis drei → die Haltestelle. Действие ist всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch12_d3_03.mp3",
+    "tts": "Wo ist Gleis drei?",
+    "ipa": [
+     {
+      "w": "Wo",
+      "ipa": "[voː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Gleis",
+      "ipa": "[ɡlaɪ̯s]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "drei",
+      "ipa": "[dʁaɪ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): i… · кто: G… d…",
+    "gap": {
+     "text": "Wo ___ Gleis ___?",
+     "answers": [
+      "ist",
+      "drei"
+     ]
+    },
+    "task_ru": "Скажи: Где путь 3?"
+   },
+   {
+    "id": "ch12_d3_04",
+    "role": "A",
+    "de": "Gleis drei ist dort. In Dresden steigen Sie um.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Путь 3 там. В Дрездене вы пересаживаетесь.",
+    "nouns": [
+     {
+      "lemma": "Gleis",
+      "art": "das",
+      "pl": "Gleise"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Gleis drei",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "dort",
+       "role": "где"
+      },
+      {
+       "w": "In Dresden",
+       "role": "где"
+      },
+      {
+       "w": "steigen",
+       "role": "действие №2"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "um",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вторая фраза начата с «где» (In Dresden): действие steigen всё равно во втором вагоне, Sie — за ним, um — в конце.",
+     "topic": "verb2",
+     "why_de": "Gleis drei · ist · dort: действие ist — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Путь 3 там» — без действия «есть». По-немецки без ist фразы нет: Gleis drei ist dort.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Gleis drei dort. In Dresden steigen Sie um.",
+      "ru": "Русская привычка — без действия, как «Путь 3 там». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Вторая фраза начата с «где» (In Dresden): действие steigen всё равно во втором вагоне, Sie — за ним, um — в конце."
+    },
+    "audio": "audio_v1/ch12_d3_04.mp3",
+    "tts": "Gleis drei ist dort. In Dresden steigen Sie um.",
+    "ipa": [
+     {
+      "w": "Gleis",
+      "ipa": "[ɡlaɪ̯s]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "drei",
+      "ipa": "[dʁaɪ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "dort",
+      "ipa": "[dɔʁt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "In",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Dresden",
+      "ipa": "[ˈdʁeːsdn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "steigen",
+      "ipa": "[ˈʃtaɪ̯ɡn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "um",
+      "ipa": "[ʊm]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: G… d… · действие (вагон №2): i… · где: d… · где: I… D… · действие (вагон №2): s… · кто: S… · хвост действия: u…",
+    "gap": {
+     "text": "Gleis drei ___ ___. In Dresden steigen Sie um.",
+     "answers": [
+      "ist",
+      "dort"
+     ]
+    },
+    "task_ru": "Скажи: Путь 3 там. В Дрездене вы пересаживаетесь."
+   },
+   {
+    "id": "ch12_d3_05",
+    "role": "H",
+    "de": "Ich steige in Dresden um. Danke!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я пересаживаюсь в Дрездене. Спасибо!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "steige",
+       "role": "действие №2"
+      },
+      {
+       "w": "in Dresden",
+       "role": "где"
+      },
+      {
+       "w": "um",
+       "role": "хвост действия"
+      },
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Герой повторяет, чтобы не ошибиться: steige … um.",
+     "topic": "verb2",
+     "why_de": "Герой повторяет, чтобы не ошибиться: steige … um. Danke — благодарность.",
+     "why_ru": "По-русски «Я пересаживаюсь в Дрездене. Спасибо!» — то же самое.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich steige um in Dresden. Danke!",
+      "ru": "Вторая часть um не стоит сразу за steige: она уезжает в самый конец, после in Dresden."
+     },
+     "root": null,
+     "override": "tools/data_ch12.py WHY",
+     "why_voice_ru": "Герой повторяет, чтобы не ошибиться: steige … um."
+    },
+    "audio": "audio_v1/ch12_d3_05.mp3",
+    "tts": "Ich steige in Dresden um. Danke!",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "steige",
+      "ipa": "[ˈʃtaɪ̯ɡə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "in",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Dresden",
+      "ipa": "[ˈdʁeːsdn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "um",
+      "ipa": "[ʊm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): s… · где: i… D… · хвост действия: u… · привет/вежливость: D…",
+    "gap": {
+     "text": "Ich ___ in ___ um. Danke!",
+     "answers": [
+      "steige",
+      "Dresden"
+     ]
+    },
+    "task_ru": "Скажи: Я пересаживаюсь в Дрездене. Спасибо!"
+   },
+   {
+    "id": "ch12_d3_06",
+    "role": "A",
+    "de": "Gute Reise! Tschüss!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Счастливого пути! Пока!",
+    "nouns": [
+     {
+      "lemma": "Reise",
+      "art": "die",
+      "pl": "Reisen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Gute Reise",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Tschüss",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Пожелание в дорогу и прощание: оба говорят целиком, действия нет, поэтому нет и поезда.",
+     "topic": "verb2",
+     "why_de": "Здесь 2 готовые формулы подряд: Gute Reise + Tschüss. Их учим целиком, по одной; действия нет — поэтому и поезда нет.",
+     "why_ru": "По-русски так же — 2 куска подряд: «Счастливого пути! Пока».",
+     "layer": "formulas",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — склеить всё в одно и переводить по словам. Тут 2 куска, их учим целиком: Gute Reise · Tschüss."
+     },
+     "root": null,
+     "why_voice_ru": "Пожелание в дорогу и прощание: оба говорят целиком, действия нет, поэтому нет и поезда."
+    },
+    "audio": "audio_v1/ch12_d3_06.mp3",
+    "tts": "Gute Reise! Tschüss!",
+    "ipa": [
+     {
+      "w": "Gute",
+      "ipa": "[ˈɡuːtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Reise",
+      "ipa": "[ˈʁaɪ̯zə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tschüss",
+      "ipa": "[t͡ʃʏs]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… R… · привет/вежливость: T…",
+    "gap": {
+     "text": "Gute Reise! ___!",
+     "answers": [
+      "Tschüss"
+     ]
+    },
+    "task_ru": "Скажи: Счастливого пути! Пока!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch12_d4",
+  "title_ru": "Как пройти на вокзал",
+  "roles": {
+   "O": "Olga (одногруппница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch12_d4_01",
+    "role": "H",
+    "de": "Olga, wo ist der Bahnhof?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ольга, где вокзал?",
+    "nouns": [
+     {
+      "lemma": "Bahnhof",
+      "art": "der",
+      "pl": "Bahnhöfe"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Olga",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "wo",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "der Bahnhof",
+       "role": "кто"
+      }
+     ],
+     "text": "wo — «где». Вопрос-слово, потом действие ist.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово wo — вагон №1, действие ist — сразу за ним, вагон №2: Olga, wo ist der Bahnhof? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Ольга, где вокзал» можно сказать и в другом порядке. По-немецки порядок один: wo · ist · der Bahnhof. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Olga, wo der Bahnhof ist?",
+      "ru": "der Bahnhof встал перед ist — действие ушло из вагона №2. После wo немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "Bahnhof = Bahn + Hof (Bahn — дорога; Hof — двор) — Wiktionary; ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "wo — «где». Вопрос-слово, потом действие ist."
+    },
+    "audio": "audio_v1/ch12_d4_01.mp3",
+    "tts": "Olga, wo ist der Bahnhof?",
+    "ipa": [
+     {
+      "w": "Olga",
+      "ipa": "[ˈɔlɡa]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wo",
+      "ipa": "[voː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Bahnhof",
+      "ipa": "[ˈbaːnˌhoːf]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: O… · вопрос-слово: w… · действие (вагон №2): i… · кто: d… B…",
+    "gap": {
+     "text": "Olga, wo ___ der ___?",
+     "answers": [
+      "ist",
+      "Bahnhof"
+     ]
+    },
+    "task_ru": "Скажи: Ольга, где вокзал?"
+   },
+   {
+    "id": "ch12_d4_02",
+    "role": "O",
+    "de": "Geh geradeaus!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Иди прямо!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Geh",
+       "role": "действие №1"
+      },
+      {
+       "w": "geradeaus",
+       "role": "куда"
+      }
+     ],
+     "text": "Просьба на «ты»: основа действия — Geh. Дальше — куда.",
+     "topic": "word_order",
+     "why_de": "Ольга просит на «ты»: остаётся основа действия — Geh. Дальше — куда: geradeaus.",
+     "why_ru": "По-русски «Иди прямо!» — тоже без слова «ты».",
+     "layer": "imper",
+     "why_not": {
+      "wrong": "Du gehst geradeaus!",
+      "ru": "Это рассказ, а не просьба: ты идёшь прямо. В просьбе окончание уходит и «ты» убирают."
+     },
+     "root": null,
+     "override": "tools/data_ch12.py WHY",
+     "why_voice_ru": "Просьба на «ты»: основа действия — Geh. Дальше — куда."
+    },
+    "audio": "audio_v1/ch12_d4_02.mp3",
+    "tts": "Geh geradeaus! Geh geradeaus!",
+    "ipa": [
+     {
+      "w": "Geh",
+      "ipa": "[ɡeː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "geradeaus",
+      "ipa": "[ɡəʁaːdəˈʔaʊ̯s]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): G… · куда: g…",
+    "gap": {
+     "text": "___ ___!",
+     "answers": [
+      "Geh",
+      "geradeaus"
+     ]
+    },
+    "task_ru": "Скажи: Иди прямо!"
+   },
+   {
+    "id": "ch12_d4_03",
+    "role": "H",
+    "de": "Und dann?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А потом?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "dann",
+       "role": "когда"
+      }
+     ],
+     "text": "Так переспрашивают, что дальше: «А потом?».",
+     "topic": "verb2",
+     "why_de": "Und dann? — короткий вопрос без действия: Und — «а», dann — «потом».",
+     "why_ru": "По-русски «А потом?» — тоже без действия.",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — искать здесь действие. Это короткий переспрос: действия нет, поэтому нет и поезда."
+     },
+     "root": null,
+     "override": "tools/data_ch12.py WHY",
+     "why_voice_ru": "Так переспрашивают, что дальше: «А потом?»."
+    },
+    "audio": "audio_v1/ch12_d4_03.mp3",
+    "tts": "Und dann? Und dann?",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "dann",
+      "ipa": "[dan]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · когда: d…",
+    "gap": {
+     "text": "Und ___?",
+     "answers": [
+      "dann"
+     ]
+    },
+    "task_ru": "Скажи: А потом?"
+   },
+   {
+    "id": "ch12_d4_04",
+    "role": "O",
+    "de": "Dann geh links und dann rechts.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Потом иди налево, а потом направо.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Dann",
+       "role": "когда"
+      },
+      {
+       "w": "geh",
+       "role": "действие №2"
+      },
+      {
+       "w": "links",
+       "role": "куда"
+      },
+      {
+       "w": "und",
+       "role": "связка"
+      },
+      {
+       "w": "dann",
+       "role": "когда"
+      },
+      {
+       "w": "rechts",
+       "role": "куда"
+      }
+     ],
+     "text": "После Dann действие — вагон №2: Dann · geh. links и rechts — куда.",
+     "topic": "word_order",
+     "why_de": "После Dann действие — вагон №2: Dann · geh. Просьба на «ты»: основа без «ты». links и rechts — куда.",
+     "why_ru": "По-русски «Потом иди налево» порядок свободный. По-немецки действие стоит сразу после Dann.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Dann links geh und dann rechts.",
+      "ru": "Русский порядок: налево иди. По-немецки geh сразу после Dann."
+     },
+     "root": null,
+     "override": "tools/data_ch12.py WHY",
+     "why_voice_ru": "После Dann действие — вагон №2: Dann · geh. links и rechts — куда."
+    },
+    "audio": "audio_v1/ch12_d4_04.mp3",
+    "tts": "Dann geh links und dann rechts.",
+    "ipa": [
+     {
+      "w": "Dann",
+      "ipa": "[dan]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "geh",
+      "ipa": "[ɡeː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "links",
+      "ipa": "[lɪŋks]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "dann",
+      "ipa": "[dan]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "rechts",
+      "ipa": "[ʁɛçt͡s]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "когда: D… · действие (вагон №2): g… · куда: l… · связка: u… · когда: d… · куда: r…",
+    "gap": {
+     "text": "Dann ___ ___ und dann rechts.",
+     "answers": [
+      "geh",
+      "links"
+     ]
+    },
+    "task_ru": "Скажи: Потом иди налево, а потом направо."
+   },
+   {
+    "id": "ch12_d4_05",
+    "role": "H",
+    "de": "Links und dann rechts. Danke, Olga!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Налево, а потом направо. Спасибо, Ольга!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Links",
+       "role": "куда"
+      },
+      {
+       "w": "und",
+       "role": "связка"
+      },
+      {
+       "w": "dann",
+       "role": "когда"
+      },
+      {
+       "w": "rechts",
+       "role": "куда"
+      },
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Olga",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Герой повторяет путь, чтобы не ошибиться, и благодарит.",
+     "topic": "verb2",
+     "why_de": "Герой повторяет путь: Links (куда?) · und — «и» · dann (когда?) · rechts (куда?). Danke, Olga — благодарность и имя.",
+     "why_ru": "По-русски «Налево, а потом направо. Спасибо, Ольга!» — те же куски: куда, когда, куда, спасибо.",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — искать здесь действие. Это короткий ответ-повтор: действия нет, поэтому нет и поезда."
+     },
+     "root": null,
+     "override": "tools/data_ch12.py WHY",
+     "why_voice_ru": "Герой повторяет путь, чтобы не ошибиться, и благодарит."
+    },
+    "audio": "audio_v1/ch12_d4_05.mp3",
+    "tts": "Links und dann rechts. Danke, Olga!",
+    "ipa": [
+     {
+      "w": "Links",
+      "ipa": "[lɪŋks]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "dann",
+      "ipa": "[dan]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "rechts",
+      "ipa": "[ʁɛçt͡s]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Olga",
+      "ipa": "[ˈɔlɡa]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "куда: L… · связка: u… · когда: d… · куда: r… · привет/вежливость: D… · привет/вежливость: O…",
+    "gap": {
+     "text": "___ und dann rechts. Danke, Olga!",
+     "answers": [
+      "Links"
+     ]
+    },
+    "task_ru": "Скажи: Налево, а потом направо. Спасибо, Ольга!"
+   },
+   {
+    "id": "ch12_d4_06",
+    "role": "O",
+    "de": "Bitte! Tschüss!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Пожалуйста! Пока!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Bitte",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Tschüss",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Ответ на «спасибо» и прощание: оба слова говорят целиком.",
+     "topic": "verb2",
+     "why_de": "Здесь 2 готовые формулы подряд: Bitte + Tschüss. Их учим целиком, по одной; действия нет — поэтому и поезда нет.",
+     "why_ru": "По-русски так же — 2 куска подряд: «Пожалуйста! Пока».",
+     "layer": "formulas",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — склеить всё в одно и переводить по словам. Тут 2 куска, их учим целиком: Bitte · Tschüss."
+     },
+     "root": null,
+     "why_voice_ru": "Ответ на «спасибо» и прощание: оба слова говорят целиком."
+    },
+    "audio": "audio_v1/ch12_d4_06.mp3",
+    "tts": "Bitte! Tschüss! Bitte! Tschüss!",
+    "ipa": [
+     {
+      "w": "Bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tschüss",
+      "ipa": "[t͡ʃʏs]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: B… · привет/вежливость: T…",
+    "gap": {
+     "text": "Bitte! ___!",
+     "answers": [
+      "Tschüss"
+     ]
+    },
+    "task_ru": "Скажи: Пожалуйста! Пока!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch12_d5",
+  "title_ru": "Где аптека и где курс",
+  "roles": {
+   "O": "Olga (одногруппница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch12_d5_01",
+    "role": "H",
+    "de": "Olga, wo ist die Apotheke?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ольга, где аптека?",
+    "nouns": [
+     {
+      "lemma": "Apotheke",
+      "art": "die",
+      "pl": "Apotheken"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Olga",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "wo",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "die Apotheke",
+       "role": "кто"
+      }
+     ],
+     "text": "wo — «где». Вопрос-слово, потом действие ist.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово wo — вагон №1, действие ist — сразу за ним, вагон №2: Olga, wo ist die Apotheke? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Ольга, где аптека» можно сказать и в другом порядке. По-немецки порядок один: wo · ist · die Apotheke. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Olga, wo die Apotheke ist?",
+      "ru": "die Apotheke встал перед ist — действие ушло из вагона №2. После wo немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "wo — «где». Вопрос-слово, потом действие ist.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "вопрос-слово · действие (вагон №2) · «кто»",
+      "items": [
+       {
+        "id": "ch12_d4_01",
+        "de": "Olga, wo ist der Bahnhof?",
+        "ru": "Ольга, где вокзал?",
+        "audio": "audio_v1/ch12_d4_01.mp3",
+        "lesson": "L4",
+        "part": 4,
+        "changed": {
+         "role": "кто",
+         "wagon": 3,
+         "from": "die Apotheke",
+         "to": "der Bahnhof"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: wo · ist. В каждом примере меняется один вагон — «кто»: die Apotheke → der Bahnhof. Действие ist всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch12_d5_01.mp3",
+    "tts": "Olga, wo ist die Apotheke?",
+    "ipa": [
+     {
+      "w": "Olga",
+      "ipa": "[ˈɔlɡa]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wo",
+      "ipa": "[voː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Apotheke",
+      "ipa": "[apoˈteːkə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: O… · вопрос-слово: w… · действие (вагон №2): i… · кто: d… A…",
+    "gap": {
+     "text": "Olga, wo ___ die ___?",
+     "answers": [
+      "ist",
+      "Apotheke"
+     ]
+    },
+    "task_ru": "Скажи: Ольга, где аптека?"
+   },
+   {
+    "id": "ch12_d5_02",
+    "role": "O",
+    "de": "Die Apotheke ist am Bahnhof.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Аптека у вокзала.",
+    "nouns": [
+     {
+      "lemma": "Apotheke",
+      "art": "die",
+      "pl": "Apotheken"
+     },
+     {
+      "lemma": "Bahnhof",
+      "art": "der",
+      "pl": "Bahnhöfe"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Die Apotheke",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "am Bahnhof",
+       "role": "где"
+      }
+     ],
+     "text": "В am слиплись два слова: «у» и артикль. Bahnhof — der-слово.",
+     "topic": "articles",
+     "why_de": "В am слиплись два слова: «у» и артикль. Bahnhof — der-слово, и после «у» его артикль меняется. Так отвечают на «где?».",
+     "why_ru": "По-русски «у вокзала» — меняется конец слова. По-немецки меняется артикль, он прячется в am.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Die Apotheke ist an der Bahnhof.",
+      "ru": "Русская привычка — оставить артикль из словаря: der Bahnhof. Но артикль после предлога меняется, и всё слипается в am."
+     },
+     "root": "Bahnhof = Bahn + Hof (Bahn — дорога; Hof — двор) — Wiktionary; ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "override": "tools/data_ch12.py WHY",
+     "why_voice_ru": "В am слиплись два слова: «у» и артикль. Bahnhof — der-слово.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «где»",
+      "items": [
+       {
+        "id": "ch12_028",
+        "de": "Der Kurs ist am Bahnhof.",
+        "ru": "Курс у вокзала.",
+        "audio": "audio_v1/ch12_028.mp3",
+        "lesson": "L5",
+        "part": 3,
+        "changed": {
+         "role": "кто",
+         "wagon": 1,
+         "from": "Die Apotheke",
+         "to": "Der Kurs"
+        }
+       },
+       {
+        "id": "ch12_029",
+        "de": "Die Apotheke ist an der Haltestelle.",
+        "ru": "Аптека у остановки.",
+        "audio": "audio_v1/ch12_029.mp3",
+        "lesson": "L5",
+        "part": 3,
+        "changed": {
+         "role": "где",
+         "wagon": 3,
+         "from": "am Bahnhof",
+         "to": "an der Haltestelle"
+        }
+       },
+       {
+        "id": "ch12_031",
+        "de": "Die Apotheke ist in der Stadt.",
+        "ru": "Аптека в городе.",
+        "audio": "audio_v1/ch12_031.mp3",
+        "lesson": "L5",
+        "part": 3,
+        "changed": {
+         "role": "где",
+         "wagon": 3,
+         "from": "am Bahnhof",
+         "to": "in der Stadt"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: ist. В каждом примере меняется один вагон — «кто»: Die Apotheke → Der Kurs; «где»: am Bahnhof → an der Haltestelle → in der Stadt. Действие ist всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch12_d5_02.mp3",
+    "tts": "Die Apotheke ist am Bahnhof.",
+    "ipa": [
+     {
+      "w": "Die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Apotheke",
+      "ipa": "[apoˈteːkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Bahnhof",
+      "ipa": "[ˈbaːnˌhoːf]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… A… · действие (вагон №2): i… · где: a… B…",
+    "gap": {
+     "text": "Die Apotheke ___ am ___.",
+     "answers": [
+      "ist",
+      "Bahnhof"
+     ]
+    },
+    "task_ru": "Скажи: Аптека у вокзала."
+   },
+   {
+    "id": "ch12_d5_03",
+    "role": "H",
+    "de": "Wo ist der Kurs? Ich bin in der Stadt.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Где курс? Я в городе.",
+    "nouns": [
+     {
+      "lemma": "Kurs",
+      "art": "der",
+      "pl": "Kurse"
+     },
+     {
+      "lemma": "Stadt",
+      "art": "die",
+      "pl": "Städte"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wo",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "der Kurs",
+       "role": "кто"
+      },
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "bin",
+       "role": "действие №2"
+      },
+      {
+       "w": "in der Stadt",
+       "role": "где"
+      }
+     ],
+     "text": "Две фразы: вопрос и ответ о себе. Stadt — die-слово, и после in стоит der.",
+     "topic": "questions",
+     "why_de": "Первая фраза — вопрос: Wo · ist · der Kurs. Во второй in der Stadt — где ты: Stadt — die-слово, после in стоит der.",
+     "why_ru": "По-русски «Где курс? Я в городе.» — два коротких предложения. По-немецки так же; артикль у Stadt меняется на der.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Ich bin in die Stadt.",
+      "ru": "in die — это куда. Про то, где (я в городе), артикль меняется на der."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary); bin, bist — от древнего корня *bʰew- («быть»), а ist — от *es- (как русское «есть»); весь глагол sein собран из двух корней (DWDS, Wiktionary)",
+     "override": "tools/data_ch12.py WHY",
+     "why_voice_ru": "Две фразы: вопрос и ответ о себе. Stadt — die-слово, и после in стоит der."
+    },
+    "audio": "audio_v1/ch12_d5_03.mp3",
+    "tts": "Wo ist der Kurs? Ich bin in der Stadt.",
+    "ipa": [
+     {
+      "w": "Wo",
+      "ipa": "[voː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kurs",
+      "ipa": "[kʊʁs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bin",
+      "ipa": "[bɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "in",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Stadt",
+      "ipa": "[ʃtat]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): i… · кто: d… K… · кто: I… · действие (вагон №2): b… · где: i… d… S…",
+    "gap": {
+     "text": "Wo ___ der Kurs? Ich bin in der ___.",
+     "answers": [
+      "ist",
+      "Stadt"
+     ]
+    },
+    "task_ru": "Скажи: Где курс? Я в городе."
+   },
+   {
+    "id": "ch12_d5_04",
+    "role": "O",
+    "de": "Der Kurs ist im Zentrum, an der Haltestelle.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Курс в центре, у остановки.",
+    "nouns": [
+     {
+      "lemma": "Kurs",
+      "art": "der",
+      "pl": "Kurse"
+     },
+     {
+      "lemma": "Zentrum",
+      "art": "das",
+      "pl": "Zentren"
+     },
+     {
+      "lemma": "Haltestelle",
+      "art": "die",
+      "pl": "Haltestellen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Der Kurs",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "im Zentrum",
+       "role": "где"
+      },
+      {
+       "w": "an der Haltestelle",
+       "role": "где"
+      }
+     ],
+     "text": "Два места подряд: im Zentrum и an der Haltestelle.",
+     "topic": "articles",
+     "why_de": "Два места подряд: im Zentrum — «в центре», an der Haltestelle — «у остановки». В im слиплись «в» и артикль; Haltestelle — die-слово: после an стоит der.",
+     "why_ru": "По-русски «в центре, у остановки» — меняется конец слов. По-немецки меняется артикль.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Der Kurs ist in dem Zentrum, an die Haltestelle.",
+      "ru": "Русская привычка — оставить артикль из словаря. После предлога артикли меняются: im, an der."
+     },
+     "root": null,
+     "override": "tools/data_ch12.py WHY",
+     "why_voice_ru": "Два места подряд: im Zentrum и an der Haltestelle."
+    },
+    "audio": "audio_v1/ch12_d5_04.mp3",
+    "tts": "Der Kurs ist im Zentrum, an der Haltestelle.",
+    "ipa": [
+     {
+      "w": "Der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kurs",
+      "ipa": "[kʊʁs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "im",
+      "ipa": "[ɪm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Zentrum",
+      "ipa": "[ˈt͡sɛntʁʊm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "an",
+      "ipa": "[an]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Haltestelle",
+      "ipa": "[ˈhaltəˌʃtɛlə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… K… · действие (вагон №2): i… · где: i… Z… · где: a… d… H…",
+    "gap": {
+     "text": "Der Kurs ___ im ___, an der Haltestelle.",
+     "answers": [
+      "ist",
+      "Zentrum"
+     ]
+    },
+    "task_ru": "Скажи: Курс в центре, у остановки."
+   },
+   {
+    "id": "ch12_d5_05",
+    "role": "H",
+    "de": "Danke, Olga!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Спасибо, Ольга!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Olga",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Благодарность и имя.",
+     "topic": "verb2",
+     "why_de": "Danke, Olga! — благодарность и имя. Оба слова не занимают вагон: действия нет, поэтому нет и поезда.",
+     "why_ru": "По-русски так же: «Спасибо, Ольга!»",
+     "layer": "formulas",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — искать здесь действие. Это вежливая фраза, её говорят целиком."
+     },
+     "root": null,
+     "override": "tools/data_ch12.py WHY",
+     "why_voice_ru": "Благодарность и имя."
+    },
+    "audio": "audio_v1/ch12_d5_05.mp3",
+    "tts": "Danke, Olga! Danke, Olga!",
+    "ipa": [
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Olga",
+      "ipa": "[ˈɔlɡa]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: D… · привет/вежливость: O…",
+    "gap": {
+     "text": "Danke, ___!",
+     "answers": [
+      "Olga"
+     ]
+    },
+    "task_ru": "Скажи: Спасибо, Ольга!"
+   },
+   {
+    "id": "ch12_d5_06",
+    "role": "O",
+    "de": "Bitte! Tschüss!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Пожалуйста! Пока!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Bitte",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Tschüss",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Ответ на «спасибо» и прощание: оба слова говорят целиком.",
+     "topic": "verb2",
+     "why_de": "Здесь 2 готовые формулы подряд: Bitte + Tschüss. Их учим целиком, по одной; действия нет — поэтому и поезда нет.",
+     "why_ru": "По-русски так же — 2 куска подряд: «Пожалуйста! Пока».",
+     "layer": "formulas",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — склеить всё в одно и переводить по словам. Тут 2 куска, их учим целиком: Bitte · Tschüss."
+     },
+     "root": null,
+     "why_voice_ru": "Ответ на «спасибо» и прощание: оба слова говорят целиком."
+    },
+    "audio": "audio_v1/ch12_d5_06.mp3",
+    "tts": "Bitte! Tschüss! Bitte! Tschüss!",
+    "ipa": [
+     {
+      "w": "Bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tschüss",
+      "ipa": "[t͡ʃʏs]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: B… · привет/вежливость: T…",
+    "gap": {
+     "text": "Bitte! ___!",
+     "answers": [
+      "Tschüss"
+     ]
+    },
+    "task_ru": "Скажи: Пожалуйста! Пока!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch12_d6",
+  "title_ru": "Итог главы: дорога на вокзал",
+  "roles": {
+   "O": "Olga (одногруппница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch12_d6_01",
+    "role": "O",
+    "de": "Wie fährst du zum Bahnhof?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Как ты едешь на вокзал?",
+    "nouns": [
+     {
+      "lemma": "Bahnhof",
+      "art": "der",
+      "pl": "Bahnhöfe"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wie",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "fährst",
+       "role": "действие №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "zum Bahnhof",
+       "role": "куда"
+      }
+     ],
+     "text": "Вопрос-слово Wie — вагон №1, действие fährst — сразу за ним, du — за действием. zum Bahnhof — куда.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wie — вагон №1, действие fährst — сразу за ним, вагон №2, du — за действием. Так спрашивают, на чём едешь.",
+     "why_ru": "По-русски «Как ты едешь на вокзал?» — порядок свободный. По-немецки порядок один: Wie · fährst · du.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wie du fährst zum Bahnhof?",
+      "ru": "Русский порядок: «кто» (du) перед действием, и fährst уехало из вагона №2. После Wie действие стоит сразу."
+     },
+     "root": "Bahnhof = Bahn + Hof (Bahn — дорога; Hof — двор) — Wiktionary; du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "override": "tools/data_ch12.py WHY",
+     "why_voice_ru": "Вопрос-слово Wie — вагон №1, действие fährst — сразу за ним, du — за действием. zum Bahnhof — куда."
+    },
+    "audio": "audio_v1/ch12_d6_01.mp3",
+    "tts": "Wie fährst du zum Bahnhof?",
+    "ipa": [
+     {
+      "w": "Wie",
+      "ipa": "[viː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "fährst",
+      "ipa": "[fɛːɐ̯st]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "zum",
+      "ipa": "[t͡sʊm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Bahnhof",
+      "ipa": "[ˈbaːnˌhoːf]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): f… · кто: d… · куда: z… B…",
+    "gap": {
+     "text": "Wie ___ du zum ___?",
+     "answers": [
+      "fährst",
+      "Bahnhof"
+     ]
+    },
+    "task_ru": "Скажи: Как ты едешь на вокзал?"
+   },
+   {
+    "id": "ch12_d6_02",
+    "role": "H",
+    "de": "Ich fahre mit dem Bus zum Bahnhof.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я еду на автобусе на вокзал.",
+    "nouns": [
+     {
+      "lemma": "Bus",
+      "art": "der",
+      "pl": "Busse"
+     },
+     {
+      "lemma": "Bahnhof",
+      "art": "der",
+      "pl": "Bahnhöfe"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "fahre",
+       "role": "действие №2"
+      },
+      {
+       "w": "mit dem Bus",
+       "role": "какой/как"
+      },
+      {
+       "w": "zum Bahnhof",
+       "role": "куда"
+      }
+     ],
+     "text": "Bus и Bahnhof — der-слова: после mit стоит dem, а «к» и артикль слипаются в zum.",
+     "topic": "articles",
+     "why_de": "После mit у der-слов стоит dem: mit dem Bus. А «к» и артикль слипаются в zum: Bahnhof — тоже der-слово.",
+     "why_ru": "По-русски «на автобусе на вокзал» — меняется конец слова. По-немецки меняется артикль: он прячется в dem и в zum.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich fahre mit der Bus zum Bahnhof.",
+      "ru": "Русская привычка — оставить артикль из словаря: der Bus. После mit у der-слов стоит dem."
+     },
+     "root": "Bahnhof = Bahn + Hof (Bahn — дорога; Hof — двор) — Wiktionary",
+     "override": "tools/data_ch12.py WHY",
+     "why_voice_ru": "Bus и Bahnhof — der-слова: после mit стоит dem, а «к» и артикль слипаются в zum.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «как» · «куда»",
+      "items": [
+       {
+        "id": "ch12_t01",
+        "de": "Ich fahre mit dem Bus nach Leipzig.",
+        "ru": "Я еду на автобусе в Лейпциг.",
+        "audio": "audio_v1/ch12_t01.mp3",
+        "lesson": "L1",
+        "part": 6,
+        "changed": {
+         "role": "куда",
+         "wagon": 4,
+         "from": "zum Bahnhof",
+         "to": "nach Leipzig"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Ich · fahre · mit dem Bus. В каждом примере меняется один вагон — «куда»: zum Bahnhof → nach Leipzig. Действие fahre всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch12_d6_02.mp3",
+    "tts": "Ich fahre mit dem Bus zum Bahnhof.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "fahre",
+      "ipa": "[ˈfaːʁə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mit",
+      "ipa": "[mɪt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "dem",
+      "ipa": "[deːm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Bus",
+      "ipa": "[bʊs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "zum",
+      "ipa": "[t͡sʊm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Bahnhof",
+      "ipa": "[ˈbaːnˌhoːf]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): f… · какой/как: m… d… B… · куда: z… B…",
+    "gap": {
+     "text": "Ich ___ mit dem Bus zum ___.",
+     "answers": [
+      "fahre",
+      "Bahnhof"
+     ]
+    },
+    "task_ru": "Скажи: Я еду на автобусе на вокзал."
+   },
+   {
+    "id": "ch12_d6_03",
+    "role": "O",
+    "de": "Gut! Geh links, dann geradeaus!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Хорошо! Иди налево, потом прямо!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Gut",
+       "role": "да/нет"
+      },
+      {
+       "w": "Geh",
+       "role": "действие №1"
+      },
+      {
+       "w": "links",
+       "role": "куда"
+      },
+      {
+       "w": "dann",
+       "role": "когда"
+      },
+      {
+       "w": "geradeaus",
+       "role": "куда"
+      }
+     ],
+     "text": "Просьба на «ты»: основа действия — Geh. links и geradeaus — куда, dann — «потом».",
+     "topic": "word_order",
+     "why_de": "Просьба на «ты»: берём основу действия — Geh. Действие впереди, дальше — куда: links, dann geradeaus.",
+     "why_ru": "По-русски «Иди налево, потом прямо!» — слово «ты» тоже не нужно. По-немецки так же: Geh, без du.",
+     "layer": "imper",
+     "why_not": {
+      "wrong": "Du geh links, dann geradeaus!",
+      "ru": "Просьбу на «ты» говорят без du: Geh!"
+     },
+     "root": null,
+     "override": "tools/data_ch12.py WHY",
+     "why_voice_ru": "Просьба на «ты»: основа действия — Geh. links и geradeaus — куда, dann — «потом»."
+    },
+    "audio": "audio_v1/ch12_d6_03.mp3",
+    "tts": "Gut! Geh links, dann geradeaus!",
+    "ipa": [
+     {
+      "w": "Gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Geh",
+      "ipa": "[ɡeː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "links",
+      "ipa": "[lɪŋks]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "dann",
+      "ipa": "[dan]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "geradeaus",
+      "ipa": "[ɡəʁaːdəˈʔaʊ̯s]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "не внесено в nouns: Geh",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: G… · действие (вагон №1): G… · куда: l… · когда: d… · куда: g…",
+    "gap": {
+     "text": "Gut! ___ ___, dann geradeaus!",
+     "answers": [
+      "Geh",
+      "links"
+     ]
+    },
+    "task_ru": "Скажи: Хорошо! Иди налево, потом прямо!"
+   },
+   {
+    "id": "ch12_d6_04",
+    "role": "H",
+    "de": "Olga, und wo ist die Haltestelle?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ольга, а где остановка?",
+    "nouns": [
+     {
+      "lemma": "Haltestelle",
+      "art": "die",
+      "pl": "Haltestellen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Olga",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "und",
+       "role": "связка"
+      },
+      {
+       "w": "wo",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "die Haltestelle",
+       "role": "кто"
+      }
+     ],
+     "text": "wo — «где». Вопрос-слово, потом действие ist.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово wo — вагон №1, действие ist — сразу за ним, вагон №2: Olga, und wo ist die Haltestelle? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Ольга, а где остановка» можно сказать и в другом порядке. По-немецки порядок один: wo · ist · die Haltestelle. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Olga, und wo die Haltestelle ist?",
+      "ru": "die Haltestelle встал перед ist — действие ушло из вагона №2. После wo немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "Haltestelle = halt- (halten) + Stelle (halt- = останавливаться, держать; Stelle — место) — Wiktionary; ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "wo — «где». Вопрос-слово, потом действие ist."
+    },
+    "audio": "audio_v1/ch12_d6_04.mp3",
+    "tts": "Olga, und wo ist die Haltestelle?",
+    "ipa": [
+     {
+      "w": "Olga",
+      "ipa": "[ˈɔlɡa]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wo",
+      "ipa": "[voː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Haltestelle",
+      "ipa": "[ˈhaltəˌʃtɛlə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: O… · связка: u… · вопрос-слово: w… · действие (вагон №2): i… · кто: d… H…",
+    "gap": {
+     "text": "Olga, und wo ___ die ___?",
+     "answers": [
+      "ist",
+      "Haltestelle"
+     ]
+    },
+    "task_ru": "Скажи: Ольга, а где остановка?"
+   },
+   {
+    "id": "ch12_d6_05",
+    "role": "O",
+    "de": "Die Haltestelle ist an der Apotheke.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Остановка у аптеки.",
+    "nouns": [
+     {
+      "lemma": "Haltestelle",
+      "art": "die",
+      "pl": "Haltestellen"
+     },
+     {
+      "lemma": "Apotheke",
+      "art": "die",
+      "pl": "Apotheken"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Die Haltestelle",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "an der Apotheke",
+       "role": "где"
+      }
+     ],
+     "text": "an — «у», рядом. Apotheke — die-слово, и после an её артикль меняется: был die, стал der.",
+     "topic": "articles",
+     "why_de": "an — «у», рядом. Apotheke — die-слово, и после an её артикль меняется: был die, стал der. Слипания нет: an der.",
+     "why_ru": "По-русски «у аптеки» — меняется конец слова. По-немецки меняется артикль: die → der.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Die Haltestelle ist an die Apotheke.",
+      "ru": "Русская привычка — оставить артикль из словаря: die Apotheke. После an у die-слов стоит der."
+     },
+     "root": "Haltestelle = halt- (halten) + Stelle (halt- = останавливаться, держать; Stelle — место) — Wiktionary; ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "override": "tools/data_ch12.py WHY",
+     "why_voice_ru": "an — «у», рядом. Apotheke — die-слово, и после an её артикль меняется: был die, стал der.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «где»",
+      "items": [
+       {
+        "id": "ch12_030",
+        "de": "Die Haltestelle ist im Zentrum.",
+        "ru": "Остановка в центре.",
+        "audio": "audio_v1/ch12_030.mp3",
+        "lesson": "L5",
+        "part": 3,
+        "changed": {
+         "role": "где",
+         "wagon": 3,
+         "from": "an der Apotheke",
+         "to": "im Zentrum"
+        }
+       },
+       {
+        "id": "ch12_t10",
+        "de": "Die Haltestelle ist am Bahnhof.",
+        "ru": "Остановка у вокзала.",
+        "audio": "audio_v1/ch12_t10.mp3",
+        "lesson": "L5",
+        "part": 6,
+        "changed": {
+         "role": "где",
+         "wagon": 3,
+         "from": "an der Apotheke",
+         "to": "am Bahnhof"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Die Haltestelle · ist. В каждом примере меняется один вагон — «где»: an der Apotheke → im Zentrum → am Bahnhof. Действие ist всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch12_d6_05.mp3",
+    "tts": "Die Haltestelle ist an der Apotheke.",
+    "ipa": [
+     {
+      "w": "Die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Haltestelle",
+      "ipa": "[ˈhaltəˌʃtɛlə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "an",
+      "ipa": "[an]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Apotheke",
+      "ipa": "[apoˈteːkə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… H… · действие (вагон №2): i… · где: a… d… A…",
+    "gap": {
+     "text": "Die Haltestelle ___ an der ___.",
+     "answers": [
+      "ist",
+      "Apotheke"
+     ]
+    },
+    "task_ru": "Скажи: Остановка у аптеки."
+   },
+   {
+    "id": "ch12_d6_06",
+    "role": "H",
+    "de": "Danke, Olga! Tschüss!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Спасибо, Ольга! Пока!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Olga",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Tschüss",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Благодарность, имя и прощание: оба слова говорят целиком.",
+     "topic": "verb2",
+     "why_de": "Danke, Olga! Tschüss! — две готовые формулы и обращение: Danke · (Olga) · Tschüss. Действия нет, поэтому нет и поезда.",
+     "why_ru": "По-русски так же: «Спасибо, Ольга! Пока!»",
+     "layer": "formulas",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — искать здесь действие. Это вежливая фраза и имя, их говорят целиком."
+     },
+     "root": null,
+     "override": "tools/data_ch12.py WHY",
+     "why_voice_ru": "Благодарность, имя и прощание: оба слова говорят целиком."
+    },
+    "audio": "audio_v1/ch12_d6_06.mp3",
+    "tts": "Danke, Olga! Tschüss!",
+    "ipa": [
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Olga",
+      "ipa": "[ˈɔlɡa]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tschüss",
+      "ipa": "[t͡ʃʏs]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: D… · привет/вежливость: O… · привет/вежливость: T…",
+    "gap": {
+     "text": "Danke, Olga! ___!",
+     "answers": [
+      "Tschüss"
+     ]
+    },
+    "task_ru": "Скажи: Спасибо, Ольга! Пока!"
+   },
+   {
+    "id": "ch12_d6_07",
+    "role": "O",
+    "de": "Bitte! Gute Reise!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Пожалуйста! Счастливого пути!",
+    "nouns": [
+     {
+      "lemma": "Reise",
+      "art": "die",
+      "pl": "Reisen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Bitte",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Gute Reise",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Ответ на «спасибо» и пожелание в дорогу: говорят целиком, действия нет.",
+     "topic": "verb2",
+     "why_de": "Здесь 2 готовые формулы подряд: Bitte + Gute Reise. Их учим целиком, по одной; действия нет — поэтому и поезда нет.",
+     "why_ru": "По-русски так же — 2 куска подряд: «Пожалуйста! Счастливого пути».",
+     "layer": "formulas",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — склеить всё в одно и переводить по словам. Тут 2 куска, их учим целиком: Bitte · Gute Reise."
+     },
+     "root": null,
+     "why_voice_ru": "Ответ на «спасибо» и пожелание в дорогу: говорят целиком, действия нет."
+    },
+    "audio": "audio_v1/ch12_d6_07.mp3",
+    "tts": "Bitte! Gute Reise!",
+    "ipa": [
+     {
+      "w": "Bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Gute",
+      "ipa": "[ˈɡuːtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Reise",
+      "ipa": "[ˈʁaɪ̯zə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: B… · привет/вежливость: G… R…",
+    "gap": {
+     "text": "Bitte! Gute ___!",
+     "answers": [
+      "Reise"
+     ]
+    },
+    "task_ru": "Скажи: Пожалуйста! Счастливого пути!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ }
+]

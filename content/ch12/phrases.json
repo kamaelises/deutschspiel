@@ -1,0 +1,6921 @@
+[
+ {
+  "id": "ch12_001",
+  "de": "Ich fahre mit dem Bus.",
+  "ru": "Я еду на автобусе.",
+  "nouns": [
+   {
+    "lemma": "Bus",
+    "art": "der",
+    "pl": "Busse"
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#5835738 CC BY 2.0 FR (автор raggione)",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "fahre",
+     "role": "действие №2"
+    },
+    {
+     "w": "mit dem Bus",
+     "role": "какой/как"
+    }
+   ],
+   "text": "Bus — der-слово. После mit у der-слов стоит dem: mit dem Bus.",
+   "topic": "articles",
+   "why_de": "После mit артикль меняется. Bus — der-слово, а после mit у der-слов стоит dem: mit dem Bus. Само слово Bus не меняется.",
+   "why_ru": "По-русски «на автобусе» — меняется конец слова. По-немецки слово Bus остаётся как есть, меняется артикль перед ним: dem.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich fahre mit der Bus.",
+    "ru": "Русская привычка — оставить артикль из словаря: der Bus. После mit у der-слов стоит dem."
+   },
+   "root": null,
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "Bus — der-слово. После mit у der-слов стоит dem: mit dem Bus.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «как»",
+    "items": [
+     {
+      "id": "ch12_003",
+      "de": "Ich fahre mit der Straßenbahn.",
+      "ru": "Я еду на трамвае.",
+      "audio": "audio_v1/ch12_003.mp3",
+      "lesson": "L1",
+      "part": 3,
+      "changed": {
+       "role": "какой/как",
+       "wagon": 3,
+       "from": "mit dem Bus",
+       "to": "mit der Straßenbahn"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ich · fahre. В каждом примере меняется один вагон — «как»: mit dem Bus → mit der Straßenbahn. Действие fahre всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch12_001.mp3",
+  "tts": "Ich fahre mit dem Bus.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "fahre",
+    "ipa": "[ˈfaːʁə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "mit",
+    "ipa": "[mɪt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "dem",
+    "ipa": "[deːm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bus",
+    "ipa": "[bʊs]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_002",
+  "de": "Ich fahre mit dem Zug nach Dresden.",
+  "ru": "Я еду на поезде в Дрезден.",
+  "nouns": [
+   {
+    "lemma": "Zug",
+    "art": "der",
+    "pl": "Züge"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "fahre",
+     "role": "действие №2"
+    },
+    {
+     "w": "mit dem Zug",
+     "role": "какой/как"
+    },
+    {
+     "w": "nach Dresden",
+     "role": "куда"
+    }
+   ],
+   "text": "Zug — der-слово: mit dem Zug. nach — «в» перед названием города; артикля перед городом нет.",
+   "topic": "articles",
+   "why_de": "После действия fahre — два куска: на чём — mit dem Zug, куда — nach Dresden. Перед названием города артикля нет.",
+   "why_ru": "По-русски «в Дрезден». По-немецки перед городом, куда едешь, стоит nach: nach Dresden.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich fahre mit dem Zug in Dresden.",
+    "ru": "Русская привычка — перевести «в» как in. Но in Dresden — это где ты уже есть. Куда едешь — nach Dresden."
+   },
+   "root": null,
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "Zug — der-слово: mit dem Zug. nach — «в» перед названием города; артикля перед городом нет."
+  },
+  "audio": "audio_v1/ch12_002.mp3",
+  "tts": "Ich fahre mit dem Zug nach Dresden.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "fahre",
+    "ipa": "[ˈfaːʁə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "mit",
+    "ipa": "[mɪt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "dem",
+    "ipa": "[deːm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Zug",
+    "ipa": "[t͡suːk]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "nach",
+    "ipa": "[naːx]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Dresden",
+    "ipa": "[ˈdʁeːsdn̩]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_003",
+  "de": "Ich fahre mit der Straßenbahn.",
+  "ru": "Я еду на трамвае.",
+  "nouns": [
+   {
+    "lemma": "Straßenbahn",
+    "art": "die",
+    "pl": "Straßenbahnen"
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#8320895 CC BY 2.0 FR (автор MisterTrouser)",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "fahre",
+     "role": "действие №2"
+    },
+    {
+     "w": "mit der Straßenbahn",
+     "role": "какой/как"
+    }
+   ],
+   "text": "Straßenbahn — die-слово. После mit у die-слов стоит der: mit der Straßenbahn.",
+   "topic": "articles",
+   "why_de": "После mit артикль меняется. Straßenbahn — die-слово, а после mit у die-слов стоит der: mit der Straßenbahn.",
+   "why_ru": "По-русски «на трамвае» — меняется конец слова. По-немецки меняется артикль: die → der. Это der не от der-слов: так выглядит die после mit.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich fahre mit die Straßenbahn.",
+    "ru": "Русская привычка — оставить артикль из словаря: die Straßenbahn. После mit у die-слов стоит der."
+   },
+   "root": null,
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "Straßenbahn — die-слово. После mit у die-слов стоит der: mit der Straßenbahn.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «как»",
+    "items": [
+     {
+      "id": "ch12_001",
+      "de": "Ich fahre mit dem Bus.",
+      "ru": "Я еду на автобусе.",
+      "audio": "audio_v1/ch12_001.mp3",
+      "lesson": "L1",
+      "part": 3,
+      "changed": {
+       "role": "какой/как",
+       "wagon": 3,
+       "from": "mit der Straßenbahn",
+       "to": "mit dem Bus"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ich · fahre. В каждом примере меняется один вагон — «как»: mit der Straßenbahn → mit dem Bus. Действие fahre всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch12_003.mp3",
+  "tts": "Ich fahre mit der Straßenbahn.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "fahre",
+    "ipa": "[ˈfaːʁə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "mit",
+    "ipa": "[mɪt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "der",
+    "ipa": "[deːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Straßenbahn",
+    "ipa": "[ˈʃtʁaːsn̩ˌbaːn]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_004",
+  "de": "Ich gehe zu Fuß.",
+  "ru": "Я иду пешком.",
+  "nouns": [
+   {
+    "lemma": "Fuß",
+    "art": "der",
+    "pl": "Füße"
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#182037 CC BY 2.0 FR (автор MUIRIEL)",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "gehe",
+     "role": "действие №2"
+    },
+    {
+     "w": "zu Fuß",
+     "role": "какой/как"
+    }
+   ],
+   "text": "zu Fuß — «пешком»: два слова говорят вместе, без артикля. Пешком идут, поэтому gehe.",
+   "topic": "verb2",
+   "why_de": "zu Fuß — «пешком»: два слова говорят вместе, без артикля. Пешком идут, поэтому действие — gehe.",
+   "why_ru": "По-русски «пешком» — одно слово. По-немецки два: zu Fuß.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich fahre zu Fuß.",
+    "ru": "fahre — про транспорт: автобус, поезд, трамвай. Пешком идут: gehe."
+   },
+   "root": null,
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "zu Fuß — «пешком»: два слова говорят вместе, без артикля. Пешком идут, поэтому gehe."
+  },
+  "audio": "audio_v1/ch12_004.mp3",
+  "tts": "Ich gehe zu Fuß.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gehe",
+    "ipa": "[ˈɡeːə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "zu",
+    "ipa": "[t͡suː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fuß",
+    "ipa": "[fuːs]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_005",
+  "de": "Wie fährst du?",
+  "ru": "Как ты едешь?",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Wie",
+     "role": "вопрос-слово",
+     "asks": ""
+    },
+    {
+     "w": "fährst",
+     "role": "действие №2"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    }
+   ],
+   "text": "С du действие меняется: ich fahre, но du fährst — a стало ä, на конце -st.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Wie — вагон №1, действие fährst — сразу за ним, вагон №2: Wie fährst du? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Как ты едешь» можно сказать и в другом порядке. По-немецки порядок один: Wie · fährst · du.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Wie du fährst?",
+    "ru": "du встал перед fährst — действие ушло из вагона №2. После Wie немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "С du действие меняется: ich fahre, но du fährst — a стало ä, на конце -st."
+  },
+  "audio": "audio_v1/ch12_005.mp3",
+  "tts": "Wie fährst du?",
+  "ipa": [
+   {
+    "w": "Wie",
+    "ipa": "[viː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "fährst",
+    "ipa": "[fɛːɐ̯st]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_006",
+  "de": "Fährst du mit dem Zug nach Freiberg?",
+  "ru": "Ты едешь на поезде во Фрайберг?",
+  "nouns": [
+   {
+    "lemma": "Zug",
+    "art": "der",
+    "pl": "Züge"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Fährst",
+     "role": "действие №1"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "mit dem Zug",
+     "role": "какой/как"
+    },
+    {
+     "w": "nach Freiberg",
+     "role": "куда"
+    }
+   ],
+   "text": "Вопрос «да/нет»: действие Fährst впереди. Zug — der-слово: mit dem Zug.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Fährst) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Fährst du mit dem Zug nach Freiberg?",
+   "why_ru": "По-русски «Ты едешь на поезде во Фрайберг» — вопрос только голосом, порядок как в ответе. По-немецки действие Fährst выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Du fährst mit dem Zug nach Freiberg?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Ты едешь на поезде во Фрайберг?!»). Обычный вопрос — действие впереди."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "Вопрос «да/нет»: действие Fährst впереди. Zug — der-слово: mit dem Zug."
+  },
+  "audio": "audio_v1/ch12_006.mp3",
+  "tts": "Fährst du mit dem Zug nach Freiberg?",
+  "ipa": [
+   {
+    "w": "Fährst",
+    "ipa": "[fɛːɐ̯st]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "mit",
+    "ipa": "[mɪt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "dem",
+    "ipa": "[deːm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Zug",
+    "ipa": "[t͡suːk]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "nach",
+    "ipa": "[naːx]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Freiberg",
+    "ipa": "[ˈfʁaɪ̯ˌbɛʁk]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_007",
+  "de": "Auto, Fahrrad, Flugzeug, Schiff, Verkehrsmittel, Konzert.",
+  "ru": "Машина, велосипед, самолёт, корабль, вид транспорта, концерт.",
+  "nouns": [
+   {
+    "lemma": "Auto",
+    "art": "das",
+    "pl": "Autos"
+   },
+   {
+    "lemma": "Fahrrad",
+    "art": "das",
+    "pl": "Fahrräder"
+   },
+   {
+    "lemma": "Flugzeug",
+    "art": "das",
+    "pl": "Flugzeuge"
+   },
+   {
+    "lemma": "Schiff",
+    "art": "das",
+    "pl": "Schiffe"
+   },
+   {
+    "lemma": "Verkehrsmittel",
+    "art": "das",
+    "pl": "Verkehrsmittel"
+   },
+   {
+    "lemma": "Konzert",
+    "art": "das",
+    "pl": "Konzerte"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Auto",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Fahrrad",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Flugzeug",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Schiff",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Verkehrsmittel",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Konzert",
+     "role": "слово",
+     "art": "das"
+    }
+   ],
+   "text": "Слова курса: das Auto, das Fahrrad, das Flugzeug, das Schiff, das Verkehrsmittel, das Konzert.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: das Auto — машина · das Fahrrad — велосипед · das Flugzeug — самолёт · das Schiff — корабль · das Verkehrsmittel — вид транспорта · das Konzert — концерт.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: das Auto, das Fahrrad, das Flugzeug, das Schiff, das Verkehrsmittel, das Konzert."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: das Auto, das Fahrrad, das Flugzeug, das Schiff, das Verkehrsmittel, das Konzert."
+  },
+  "audio": "audio_v1/ch12_007.mp3",
+  "tts": "Auto, Fahrrad, Flugzeug, Schiff, Verkehrsmittel, Konzert.",
+  "ipa": [
+   {
+    "w": "Auto",
+    "ipa": "[ˈaʊ̯to]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fahrrad",
+    "ipa": "[ˈfaːɐ̯ˌʁaːt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Flugzeug",
+    "ipa": "[ˈfluːkˌt͡sɔɪ̯k]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Schiff",
+    "ipa": "[ʃɪf]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Verkehrsmittel",
+    "ipa": "[fɛɐ̯ˈkeːɐ̯sˌmɪtl̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Konzert",
+    "ipa": "[kɔnˈt͡sɛʁt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_008",
+  "de": "Wo wohnst du?",
+  "ru": "Где ты живёшь?",
+  "nouns": [],
+  "chunk": false,
+  "source": "tatoeba:#392883 CC BY 2.0 FR (автор xtofu80)",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Wo",
+     "role": "вопрос-слово",
+     "asks": ""
+    },
+    {
+     "w": "wohnst",
+     "role": "действие №2"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    }
+   ],
+   "text": "wo — «где». Вопрос-слово, потом действие wohnst.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Wo — вагон №1, действие wohnst — сразу за ним, вагон №2: Wo wohnst du? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Где ты живёшь» можно сказать и в другом порядке. По-немецки порядок один: Wo · wohnst · du.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Wo du wohnst?",
+    "ru": "du встал перед wohnst — действие ушло из вагона №2. После Wo немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "wo — «где». Вопрос-слово, потом действие wohnst."
+  },
+  "audio": "audio_v1/ch12_008.mp3",
+  "tts": "Wo wohnst du?",
+  "ipa": [
+   {
+    "w": "Wo",
+    "ipa": "[voː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "wohnst",
+    "ipa": "[voːnst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_009",
+  "de": "Ich wohne bei Freiberg.",
+  "ru": "Я живу возле Фрайберга.",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "wohne",
+     "role": "действие №2"
+    },
+    {
+     "w": "bei Freiberg",
+     "role": "где"
+    }
+   ],
+   "text": "bei — «возле»: рядом с городом.",
+   "topic": "verb2",
+   "why_de": "Ich · wohne · bei Freiberg: действие wohne — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Я живу возле Фрайберга» — Ich wohne bei Freiberg. Разница одна: по-немецки wohne держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich bei Freiberg wohne.",
+    "ru": "Действие wohne уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе wohne — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "bei — «возле»: рядом с городом.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «где»",
+    "items": [
+     {
+      "id": "ch12_010",
+      "de": "Ich wohne in Dresden.",
+      "ru": "Я живу в Дрездене.",
+      "audio": "audio_v1/ch12_010.mp3",
+      "lesson": "L1",
+      "part": 2,
+      "changed": {
+       "role": "где",
+       "wagon": 3,
+       "from": "bei Freiberg",
+       "to": "in Dresden"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ich · wohne. В каждом примере меняется один вагон — «где»: bei Freiberg → in Dresden. Действие wohne всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch12_009.mp3",
+  "tts": "Ich wohne bei Freiberg.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "wohne",
+    "ipa": "[ˈvoːnə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "bei",
+    "ipa": "[baɪ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Freiberg",
+    "ipa": "[ˈfʁaɪ̯ˌbɛʁk]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_010",
+  "de": "Ich wohne in Dresden.",
+  "ru": "Я живу в Дрездене.",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "wohne",
+     "role": "действие №2"
+    },
+    {
+     "w": "in Dresden",
+     "role": "где"
+    }
+   ],
+   "text": "in — «в»: в самом городе.",
+   "topic": "verb2",
+   "why_de": "Ich · wohne · in Dresden: действие wohne — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Я живу в Дрездене» — Ich wohne in Dresden. Разница одна: по-немецки wohne держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich in Dresden wohne.",
+    "ru": "Действие wohne уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе wohne — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "in — «в»: в самом городе.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «где»",
+    "items": [
+     {
+      "id": "ch12_009",
+      "de": "Ich wohne bei Freiberg.",
+      "ru": "Я живу возле Фрайберга.",
+      "audio": "audio_v1/ch12_009.mp3",
+      "lesson": "L1",
+      "part": 2,
+      "changed": {
+       "role": "где",
+       "wagon": 3,
+       "from": "in Dresden",
+       "to": "bei Freiberg"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ich · wohne. В каждом примере меняется один вагон — «где»: in Dresden → bei Freiberg. Действие wohne всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch12_010.mp3",
+  "tts": "Ich wohne in Dresden.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "wohne",
+    "ipa": "[ˈvoːnə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "in",
+    "ipa": "[ɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Dresden",
+    "ipa": "[ˈdʁeːsdn̩]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_011",
+  "de": "Ich gehe zum Bahnhof.",
+  "ru": "Я иду на вокзал.",
+  "nouns": [
+   {
+    "lemma": "Bahnhof",
+    "art": "der",
+    "pl": "Bahnhöfe"
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#2618334 CC BY 2.0 FR (автор Pfirsichbaeumchen)",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "gehe",
+     "role": "действие №2"
+    },
+    {
+     "w": "zum Bahnhof",
+     "role": "куда"
+    }
+   ],
+   "text": "zum — это zu + dem слитно. Bahnhof — der-слово, а после zu у der-слов стоит dem.",
+   "topic": "articles",
+   "why_de": "В zum слиплись два слова: «к» и артикль. Bahnhof — der-слово, и после «к» его артикль меняется. Само слово не меняется.",
+   "why_ru": "По-русски «на вокзал» — слова «на» по-немецки нет: идут «к» месту. Это «к» живёт внутри zum.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich gehe zu der Bahnhof.",
+    "ru": "Русская привычка — оставить артикль из словаря: der Bahnhof. Но артикль после «к» меняется, и всё слипается в zum."
+   },
+   "root": "Bahnhof = Bahn + Hof (Bahn — дорога; Hof — двор) — Wiktionary",
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "zum — это zu + dem слитно. Bahnhof — der-слово, а после zu у der-слов стоит dem.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «куда»",
+    "items": [
+     {
+      "id": "ch12_012",
+      "de": "Ich gehe zur Haltestelle.",
+      "ru": "Я иду на остановку.",
+      "audio": "audio_v1/ch12_012.mp3",
+      "lesson": "L2",
+      "part": 3,
+      "changed": {
+       "role": "куда",
+       "wagon": 3,
+       "from": "zum Bahnhof",
+       "to": "zur Haltestelle"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ich · gehe. В каждом примере меняется один вагон — «куда»: zum Bahnhof → zur Haltestelle. Действие gehe всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch12_011.mp3",
+  "tts": "Ich gehe zum Bahnhof.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gehe",
+    "ipa": "[ˈɡeːə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "zum",
+    "ipa": "[t͡sʊm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bahnhof",
+    "ipa": "[ˈbaːnˌhoːf]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_012",
+  "de": "Ich gehe zur Haltestelle.",
+  "ru": "Я иду на остановку.",
+  "nouns": [
+   {
+    "lemma": "Haltestelle",
+    "art": "die",
+    "pl": "Haltestellen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "gehe",
+     "role": "действие №2"
+    },
+    {
+     "w": "zur Haltestelle",
+     "role": "куда"
+    }
+   ],
+   "text": "zur — это zu + der слитно. Haltestelle — die-слово, а после zu у die-слов стоит der.",
+   "topic": "articles",
+   "why_de": "В zur слиплись два слова: «к» и артикль. Haltestelle — die-слово, и после «к» её артикль меняется: был die, стал der.",
+   "why_ru": "По-русски «на остановку» — слова «на» по-немецки нет: идут «к» месту. Это «к» живёт внутри zur.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich gehe zu die Haltestelle.",
+    "ru": "Русская привычка — оставить артикль из словаря: die Haltestelle. Но артикль после «к» меняется, и всё слипается в zur."
+   },
+   "root": null,
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "zur — это zu + der слитно. Haltestelle — die-слово, а после zu у die-слов стоит der.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «куда»",
+    "items": [
+     {
+      "id": "ch12_011",
+      "de": "Ich gehe zum Bahnhof.",
+      "ru": "Я иду на вокзал.",
+      "audio": "audio_v1/ch12_011.mp3",
+      "lesson": "L2",
+      "part": 3,
+      "changed": {
+       "role": "куда",
+       "wagon": 3,
+       "from": "zur Haltestelle",
+       "to": "zum Bahnhof"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ich · gehe. В каждом примере меняется один вагон — «куда»: zur Haltestelle → zum Bahnhof. Действие gehe всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch12_012.mp3",
+  "tts": "Ich gehe zur Haltestelle.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gehe",
+    "ipa": "[ˈɡeːə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "zur",
+    "ipa": "[t͡suːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Haltestelle",
+    "ipa": "[ˈhaltəˌʃtɛlə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_013",
+  "de": "Ich komme vom Kurs.",
+  "ru": "Я иду с курса.",
+  "nouns": [
+   {
+    "lemma": "Kurs",
+    "art": "der",
+    "pl": "Kurse"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "komme",
+     "role": "действие №2"
+    },
+    {
+     "w": "vom Kurs",
+     "role": "откуда"
+    }
+   ],
+   "text": "vom — это von + dem слитно. Kurs — der-слово, а после von у der-слов стоит dem.",
+   "topic": "articles",
+   "why_de": "В vom слиплись два слова: «от» и артикль. Kurs — der-слово, и после «от» его артикль меняется. «Откуда» — всегда такой «от»-кусок.",
+   "why_ru": "По-русски «с курса» — меняется конец слова. По-немецки меняется артикль, он прячется в vom.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich komme von der Kurs.",
+    "ru": "Русская привычка — оставить артикль из словаря: der Kurs. Но артикль после предлога меняется, и всё слипается в vom."
+   },
+   "root": null,
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "vom — это von + dem слитно. Kurs — der-слово, а после von у der-слов стоит dem.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «откуда»",
+    "items": [
+     {
+      "id": "ch12_014",
+      "de": "Ich komme von der Haltestelle.",
+      "ru": "Я иду с остановки.",
+      "audio": "audio_v1/ch12_014.mp3",
+      "lesson": "L2",
+      "part": 3,
+      "changed": {
+       "role": "откуда",
+       "wagon": 3,
+       "from": "vom Kurs",
+       "to": "von der Haltestelle"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ich · komme. В каждом примере меняется один вагон — «откуда»: vom Kurs → von der Haltestelle. Действие komme всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch12_013.mp3",
+  "tts": "Ich komme vom Kurs.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "komme",
+    "ipa": "[ˈkɔmə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "vom",
+    "ipa": "[fɔm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kurs",
+    "ipa": "[kʊʁs]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_014",
+  "de": "Ich komme von der Haltestelle.",
+  "ru": "Я иду с остановки.",
+  "nouns": [
+   {
+    "lemma": "Haltestelle",
+    "art": "die",
+    "pl": "Haltestellen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "komme",
+     "role": "действие №2"
+    },
+    {
+     "w": "von der Haltestelle",
+     "role": "откуда"
+    }
+   ],
+   "text": "Haltestelle — die-слово, а после von у die-слов стоит der: von der Haltestelle.",
+   "topic": "articles",
+   "why_de": "Haltestelle — die-слово, и после von её артикль меняется: был die, стал der. Слипаются слова мужского и среднего рода; у слов женского рода von и der стоят отдельно.",
+   "why_ru": "По-русски «с остановки» — меняется конец слова. По-немецки меняется артикль: был die, стал der.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich komme von die Haltestelle.",
+    "ru": "Русская привычка — оставить артикль из словаря: die Haltestelle. Но после von у die-слов артикль меняется на der."
+   },
+   "root": null,
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "Haltestelle — die-слово, а после von у die-слов стоит der: von der Haltestelle.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «откуда»",
+    "items": [
+     {
+      "id": "ch12_013",
+      "de": "Ich komme vom Kurs.",
+      "ru": "Я иду с курса.",
+      "audio": "audio_v1/ch12_013.mp3",
+      "lesson": "L2",
+      "part": 3,
+      "changed": {
+       "role": "откуда",
+       "wagon": 3,
+       "from": "von der Haltestelle",
+       "to": "vom Kurs"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ich · komme. В каждом примере меняется один вагон — «откуда»: von der Haltestelle → vom Kurs. Действие komme всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch12_014.mp3",
+  "tts": "Ich komme von der Haltestelle.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "komme",
+    "ipa": "[ˈkɔmə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "von",
+    "ipa": "[fɔn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "der",
+    "ipa": "[deːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Haltestelle",
+    "ipa": "[ˈhaltəˌʃtɛlə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_015",
+  "de": "Wie komme ich zum Bahnhof?",
+  "ru": "Как мне добраться до вокзала?",
+  "nouns": [
+   {
+    "lemma": "Bahnhof",
+    "art": "der",
+    "pl": "Bahnhöfe"
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#561024 CC BY 2.0 FR (автор Pfirsichbaeumchen)",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Wie",
+     "role": "вопрос-слово",
+     "asks": ""
+    },
+    {
+     "w": "komme",
+     "role": "действие №2"
+    },
+    {
+     "w": "ich",
+     "role": "кто"
+    },
+    {
+     "w": "zum Bahnhof",
+     "role": "куда"
+    }
+   ],
+   "text": "Вопрос-слово wie, потом действие komme. Так спрашивают дорогу.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Wie — вагон №1, действие komme — сразу за ним, вагон №2, ich — за действием. Так немец спрашивает дорогу.",
+   "why_ru": "По-русски «Как мне добраться до вокзала?» — порядок свободный. По-немецки порядок один: Wie · komme · ich.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Wie ich komme zum Bahnhof?",
+    "ru": "Русский порядок: «кто» (ich) перед действием, и komme уехало из вагона №2. После wie действие стоит сразу."
+   },
+   "root": "Bahnhof = Bahn + Hof (Bahn — дорога; Hof — двор) — Wiktionary",
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "Вопрос-слово wie, потом действие komme. Так спрашивают дорогу."
+  },
+  "audio": "audio_v1/ch12_015.mp3",
+  "tts": "Wie komme ich zum Bahnhof?",
+  "ipa": [
+   {
+    "w": "Wie",
+    "ipa": "[viː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "komme",
+    "ipa": "[ˈkɔmə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "zum",
+    "ipa": "[t͡sʊm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bahnhof",
+    "ipa": "[ˈbaːnˌhoːf]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_016",
+  "de": "Gehst du zur Haltestelle?",
+  "ru": "Ты идёшь на остановку?",
+  "nouns": [
+   {
+    "lemma": "Haltestelle",
+    "art": "die",
+    "pl": "Haltestellen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Gehst",
+     "role": "действие №1"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "zur Haltestelle",
+     "role": "куда"
+    }
+   ],
+   "text": "Вопрос «да/нет»: действие Gehst впереди. Haltestelle — die-слово: после zu — der, zur.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Gehst) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Gehst du zur Haltestelle?",
+   "why_ru": "По-русски «Ты идёшь на остановку» — вопрос только голосом, порядок как в ответе. По-немецки действие Gehst выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Du gehst zur Haltestelle?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Ты идёшь на остановку?!»). Обычный вопрос — действие впереди."
+   },
+   "root": null,
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "Вопрос «да/нет»: действие Gehst впереди. Haltestelle — die-слово: после zu — der, zur."
+  },
+  "audio": "audio_v1/ch12_016.mp3",
+  "tts": "Gehst du zur Haltestelle?",
+  "ipa": [
+   {
+    "w": "Gehst",
+    "ipa": "[ɡeːst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "zur",
+    "ipa": "[t͡suːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Haltestelle",
+    "ipa": "[ˈhaltəˌʃtɛlə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_017",
+  "de": "Hafen, Markt, Park, Kino, Stadt.",
+  "ru": "Порт, рынок, парк, кино, город.",
+  "nouns": [
+   {
+    "lemma": "Hafen",
+    "art": "der",
+    "pl": "Häfen"
+   },
+   {
+    "lemma": "Markt",
+    "art": "der",
+    "pl": "Märkte"
+   },
+   {
+    "lemma": "Park",
+    "art": "der",
+    "pl": "Parks"
+   },
+   {
+    "lemma": "Kino",
+    "art": "das",
+    "pl": "Kinos"
+   },
+   {
+    "lemma": "Stadt",
+    "art": "die",
+    "pl": "Städte"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Hafen",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Markt",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Park",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Kino",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Stadt",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Слова курса: der Hafen, der Markt, der Park, das Kino, die Stadt.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Hafen — порт · der Markt — рынок · der Park — парк · das Kino — кино · die Stadt — город.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Hafen, der Markt, der Park, das Kino, die Stadt."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: der Hafen, der Markt, der Park, das Kino, die Stadt."
+  },
+  "audio": "audio_v1/ch12_017.mp3",
+  "tts": "Hafen, Markt, Park, Kino, Stadt.",
+  "ipa": [
+   {
+    "w": "Hafen",
+    "ipa": "[ˈhaːfn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Markt",
+    "ipa": "[maʁkt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Park",
+    "ipa": "[paʁk]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kino",
+    "ipa": "[ˈkiːno]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Stadt",
+    "ipa": "[ʃtat]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_018",
+  "de": "Eine Fahrkarte nach Leipzig, bitte.",
+  "ru": "Один билет до Лейпцига, пожалуйста.",
+  "nouns": [
+   {
+    "lemma": "Fahrkarte",
+    "art": "die",
+    "pl": "Fahrkarten"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Eine Fahrkarte",
+     "role": "кого-что"
+    },
+    {
+     "w": "nach Leipzig",
+     "role": "куда"
+    },
+    {
+     "w": "bitte",
+     "role": "привет/вежливость"
+    }
+   ],
+   "text": "Так просят билет: что, куда, bitte. Fahrkarte — die-слово: eine Fahrkarte.",
+   "topic": "articles",
+   "why_de": "Так просят билет: Eine Fahrkarte (что?) · nach Leipzig (куда?) · bitte. Fahrkarte — die-слово: eine Fahrkarte.",
+   "why_ru": "По-русски «Один билет до Лейпцига, пожалуйста.» — те же куски: что, куда, пожалуйста.",
+   "layer": "short",
+   "why_not": {
+    "wrong": "Eine Fahrkarte in Leipzig, bitte.",
+    "ru": "in Leipzig — где ты уже есть. Куда едешь — nach Leipzig."
+   },
+   "root": "Fahrkarte = fahr- (fahren) + Karte (Karte — карта, билет) — Wiktionary",
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "Так просят билет: что, куда, bitte. Fahrkarte — die-слово: eine Fahrkarte."
+  },
+  "audio": "audio_v1/ch12_018.mp3",
+  "tts": "Eine Fahrkarte nach Leipzig, bitte.",
+  "ipa": [
+   {
+    "w": "Eine",
+    "ipa": "[ˈaɪ̯nə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fahrkarte",
+    "ipa": "[ˈfaːɐ̯ˌkaʁtə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "nach",
+    "ipa": "[naːx]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Leipzig",
+    "ipa": "[ˈlaɪ̯pt͡sɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "bitte",
+    "ipa": "[ˈbɪtə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_019",
+  "de": "Der Zug fährt von Gleis drei ab.",
+  "ru": "Поезд отправляется с пути 3.",
+  "nouns": [
+   {
+    "lemma": "Zug",
+    "art": "der",
+    "pl": "Züge"
+   },
+   {
+    "lemma": "Gleis",
+    "art": "das",
+    "pl": "Gleise"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Der Zug",
+     "role": "кто"
+    },
+    {
+     "w": "fährt",
+     "role": "действие №2"
+    },
+    {
+     "w": "von Gleis drei",
+     "role": "откуда"
+    },
+    {
+     "w": "ab",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "fährt … ab — одно действие из двух частей: fährt во втором вагоне, ab — маленькое слово в самом конце. Номер пути идёт без артикля: Gleis drei.",
+   "topic": "verb2",
+   "why_de": "У действия есть «хвост»: он отрывается и встаёт в самый конец: Der Zug fährt von Gleis drei ab.",
+   "why_ru": "По-русски «Поезд отправляется с пути 3» — приставка приклеена; по-немецки она уезжает в конец: Der Zug fährt von Gleis drei ab.",
+   "layer": "sep",
+   "why_not": {
+    "wrong": "Der Zug fährt ab von Gleis drei.",
+    "ru": "Хвост ab нельзя ставить сразу за fährt: он уезжает в самый конец предложения."
+   },
+   "root": null,
+   "why_voice_ru": "fährt … ab — одно действие из двух частей: fährt во втором вагоне, ab — маленькое слово в самом конце."
+  },
+  "audio": "audio_v1/ch12_019.mp3",
+  "tts": "Der Zug fährt von Gleis drei ab.",
+  "ipa": [
+   {
+    "w": "Der",
+    "ipa": "[deːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Zug",
+    "ipa": "[t͡suːk]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "fährt",
+    "ipa": "[fɛːɐ̯t]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "von",
+    "ipa": "[fɔn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Gleis",
+    "ipa": "[ɡlaɪ̯s]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "drei",
+    "ipa": "[dʁaɪ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ab",
+    "ipa": "[ap]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_020",
+  "de": "Ich steige in Dresden um.",
+  "ru": "Я пересаживаюсь в Дрездене.",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "steige",
+     "role": "действие №2"
+    },
+    {
+     "w": "in Dresden",
+     "role": "где"
+    },
+    {
+     "w": "um",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "steige … um — одно действие из двух частей: steige во втором вагоне, um — в самом конце. in Dresden — где пересаживаешься.",
+   "topic": "verb2",
+   "why_de": "steige … um — одно действие из двух частей: steige во втором вагоне, um — в самом конце. in Dresden — где пересаживаешься.",
+   "why_ru": "По-русски «Я пересаживаюсь в Дрездене.» — одно слово. По-немецки две части: steige и um.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich steige um in Dresden.",
+    "ru": "Вторая часть um не стоит сразу за steige: она уезжает в самый конец, после in Dresden."
+   },
+   "root": null,
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "steige … um — одно действие из двух частей: steige во втором вагоне, um — в самом конце. in Dresden — где пересаживаешься."
+  },
+  "audio": "audio_v1/ch12_020.mp3",
+  "tts": "Ich steige in Dresden um.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "steige",
+    "ipa": "[ˈʃtaɪ̯ɡə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "in",
+    "ipa": "[ɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Dresden",
+    "ipa": "[ˈdʁeːsdn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "um",
+    "ipa": "[ʊm]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_021",
+  "de": "Der Zug nach Leipzig fährt von Gleis drei ab.",
+  "ru": "Поезд до Лейпцига отправляется с пути 3.",
+  "nouns": [
+   {
+    "lemma": "Zug",
+    "art": "der",
+    "pl": "Züge"
+   },
+   {
+    "lemma": "Gleis",
+    "art": "das",
+    "pl": "Gleise"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Der Zug nach Leipzig",
+     "role": "кто"
+    },
+    {
+     "w": "fährt",
+     "role": "действие №2"
+    },
+    {
+     "w": "von Gleis drei",
+     "role": "откуда"
+    },
+    {
+     "w": "ab",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "Объявление: опорные слова — Zug, Leipzig, Gleis drei, ab. Остальное понимать не обязательно.",
+   "topic": "verb2",
+   "why_de": "У действия есть «хвост»: он отрывается и встаёт в самый конец: Der Zug nach Leipzig fährt von Gleis drei ab.",
+   "why_ru": "По-русски «Поезд до Лейпцига отправляется с пути 3» — приставка приклеена; по-немецки она уезжает в конец: Der Zug nach Leipzig fährt von Gleis drei ab.",
+   "layer": "sep",
+   "why_not": {
+    "wrong": "Der Zug nach Leipzig fährt ab von Gleis drei.",
+    "ru": "Хвост ab нельзя ставить сразу за fährt: он уезжает в самый конец предложения."
+   },
+   "root": null,
+   "why_voice_ru": "Объявление: опорные слова — Zug, Leipzig, Gleis drei, ab. Остальное понимать не обязательно."
+  },
+  "audio": "audio_v1/ch12_021.mp3",
+  "tts": "Der Zug nach Leipzig fährt von Gleis drei ab.",
+  "ipa": [
+   {
+    "w": "Der",
+    "ipa": "[deːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Zug",
+    "ipa": "[t͡suːk]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "nach",
+    "ipa": "[naːx]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Leipzig",
+    "ipa": "[ˈlaɪ̯pt͡sɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "fährt",
+    "ipa": "[fɛːɐ̯t]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "von",
+    "ipa": "[fɔn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Gleis",
+    "ipa": "[ɡlaɪ̯s]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "drei",
+    "ipa": "[dʁaɪ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ab",
+    "ipa": "[ap]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_022",
+  "de": "Fährt der Zug von Gleis drei ab?",
+  "ru": "Поезд отправляется с пути 3?",
+  "nouns": [
+   {
+    "lemma": "Zug",
+    "art": "der",
+    "pl": "Züge"
+   },
+   {
+    "lemma": "Gleis",
+    "art": "das",
+    "pl": "Gleise"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Fährt",
+     "role": "действие №1"
+    },
+    {
+     "w": "der Zug",
+     "role": "кто"
+    },
+    {
+     "w": "von Gleis drei",
+     "role": "откуда"
+    },
+    {
+     "w": "ab",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "Вопрос «да/нет»: действие Fährt впереди, ab — в конце.",
+   "topic": "questions",
+   "why_de": "У действия есть «хвост»: он отрывается и встаёт в самый конец: Fährt der Zug von Gleis drei ab?",
+   "why_ru": "По-русски «Поезд отправляется с пути 3» — приставка приклеена; по-немецки она уезжает в конец: Fährt der Zug von Gleis drei ab?",
+   "layer": "sep",
+   "why_not": {
+    "wrong": "Fährt ab der Zug von Gleis drei?",
+    "ru": "Хвост ab нельзя ставить сразу за Fährt: он уезжает в самый конец предложения."
+   },
+   "root": null,
+   "why_voice_ru": "Вопрос «да/нет»: действие Fährt впереди, ab — в конце."
+  },
+  "audio": "audio_v1/ch12_022.mp3",
+  "tts": "Fährt der Zug von Gleis drei ab?",
+  "ipa": [
+   {
+    "w": "Fährt",
+    "ipa": "[fɛːɐ̯t]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "der",
+    "ipa": "[deːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Zug",
+    "ipa": "[t͡suːk]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "von",
+    "ipa": "[fɔn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Gleis",
+    "ipa": "[ɡlaɪ̯s]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "drei",
+    "ipa": "[dʁaɪ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ab",
+    "ipa": "[ap]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_023",
+  "de": "Abfahrt, Ankunft, Fahrplan, Bahnsteig, Automat, Durchsage.",
+  "ru": "Отправление, прибытие, расписание, перрон, автомат, объявление.",
+  "nouns": [
+   {
+    "lemma": "Abfahrt",
+    "art": "die",
+    "pl": "Abfahrten"
+   },
+   {
+    "lemma": "Ankunft",
+    "art": "die",
+    "pl": "Ankünfte"
+   },
+   {
+    "lemma": "Fahrplan",
+    "art": "der",
+    "pl": "Fahrpläne"
+   },
+   {
+    "lemma": "Bahnsteig",
+    "art": "der",
+    "pl": "Bahnsteige"
+   },
+   {
+    "lemma": "Automat",
+    "art": "der",
+    "pl": "Automaten"
+   },
+   {
+    "lemma": "Durchsage",
+    "art": "die",
+    "pl": "Durchsagen"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Abfahrt",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Ankunft",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Fahrplan",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Bahnsteig",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Automat",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Durchsage",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Слова курса: die Abfahrt, die Ankunft, der Fahrplan, der Bahnsteig, der Automat, die Durchsage.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: die Abfahrt — отправление · die Ankunft — прибытие · der Fahrplan — расписание · der Bahnsteig — перрон · der Automat — автомат · die Durchsage — объявление.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: die Abfahrt, die Ankunft, der Fahrplan, der Bahnsteig, der Automat, die Durchsage."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: die Abfahrt, die Ankunft, der Fahrplan, der Bahnsteig, der Automat, die Durchsage."
+  },
+  "audio": "audio_v1/ch12_023.mp3",
+  "tts": "Abfahrt, Ankunft, Fahrplan, Bahnsteig, Automat, Durchsage.",
+  "ipa": [
+   {
+    "w": "Abfahrt",
+    "ipa": "[ˈapˌfaːɐ̯t]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Ankunft",
+    "ipa": "[ˈankʊnft]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fahrplan",
+    "ipa": "[ˈfaːɐ̯ˌplaːn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bahnsteig",
+    "ipa": "[ˈbaːnˌʃtaɪ̯k]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Automat",
+    "ipa": "[aʊ̯toˈmaːt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Durchsage",
+    "ipa": "[ˈdʊʁçˌzaːɡə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_024",
+  "de": "Geh geradeaus!",
+  "ru": "Иди прямо!",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Geh",
+     "role": "действие №1"
+    },
+    {
+     "w": "geradeaus",
+     "role": "куда"
+    }
+   ],
+   "text": "Просьба на «ты»: берём основу действия — Geh. Действие впереди, дальше — куда.",
+   "topic": "word_order",
+   "why_de": "Так просят на «ты»: окончание уходит, остаётся основа действия — Geh. Слово «ты» не нужно. Действие стоит первым, дальше — куда.",
+   "why_ru": "По-русски «Иди прямо!» — тоже без слова «ты». По-немецки так же: Geh geradeaus!",
+   "layer": "imper",
+   "why_not": {
+    "wrong": "Du gehst geradeaus!",
+    "ru": "Это рассказ, а не просьба: ты идёшь прямо. В просьбе окончание уходит и «ты» убирают."
+   },
+   "root": null,
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "Просьба на «ты»: берём основу действия — Geh. Действие впереди, дальше — куда."
+  },
+  "audio": "audio_v1/ch12_024.mp3",
+  "tts": "Geh geradeaus! Geh geradeaus!",
+  "ipa": [
+   {
+    "w": "Geh",
+    "ipa": "[ɡeː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "geradeaus",
+    "ipa": "[ɡəʁaːdəˈʔaʊ̯s]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_025",
+  "de": "Geh links, dann rechts!",
+  "ru": "Иди налево, потом направо!",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Geh",
+     "role": "действие №1"
+    },
+    {
+     "w": "links",
+     "role": "куда"
+    },
+    {
+     "w": "dann",
+     "role": "когда"
+    },
+    {
+     "w": "rechts",
+     "role": "куда"
+    }
+   ],
+   "text": "Просьба на «ты»: Geh впереди. links и rechts — куда, dann — «потом».",
+   "topic": "word_order",
+   "why_de": "Просьба на «ты»: Geh — основа действия, она впереди. Дальше — куда: links, потом rechts. Слово dann значит «потом».",
+   "why_ru": "По-русски «Иди налево, потом направо!» — те же куски. По-немецки порядок такой же: Geh · links · dann · rechts.",
+   "layer": "imper",
+   "why_not": {
+    "wrong": "Du gehst links, dann rechts!",
+    "ru": "Это рассказ: ты идёшь налево. В просьбе «ты» и окончание убирают."
+   },
+   "root": null,
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "Просьба на «ты»: Geh впереди. links и rechts — куда, dann — «потом»."
+  },
+  "audio": "audio_v1/ch12_025.mp3",
+  "tts": "Geh links, dann rechts!",
+  "ipa": [
+   {
+    "w": "Geh",
+    "ipa": "[ɡeː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "links",
+    "ipa": "[lɪŋks]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "dann",
+    "ipa": "[dan]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "rechts",
+    "ipa": "[ʁɛçt͡s]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_026",
+  "de": "Dann geh zum Bahnhof!",
+  "ru": "Потом иди на вокзал!",
+  "nouns": [
+   {
+    "lemma": "Bahnhof",
+    "art": "der",
+    "pl": "Bahnhöfe"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Dann",
+     "role": "когда"
+    },
+    {
+     "w": "geh",
+     "role": "действие №2"
+    },
+    {
+     "w": "zum Bahnhof",
+     "role": "куда"
+    }
+   ],
+   "text": "Dann — «потом» — вагон №1, действие geh сразу за ним. zum — «к» и артикль слитно.",
+   "topic": "word_order",
+   "why_de": "Dann — «потом» — занимает вагон №1, действие geh — сразу за ним, вагон №2. Просьба на «ты»: основа без «ты». Куда — zum Bahnhof.",
+   "why_ru": "По-русски «Потом иди на вокзал!» порядок свободный. По-немецки действие стоит сразу после Dann.",
+   "layer": "inv",
+   "why_not": {
+    "wrong": "Dann zum Bahnhof geh!",
+    "ru": "Русский порядок: на вокзал иди. По-немецки geh сразу после Dann, а куда — после действия."
+   },
+   "root": "Bahnhof = Bahn + Hof (Bahn — дорога; Hof — двор) — Wiktionary",
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "Dann — «потом» — вагон №1, действие geh сразу за ним. zum — «к» и артикль слитно."
+  },
+  "audio": "audio_v1/ch12_026.mp3",
+  "tts": "Dann geh zum Bahnhof!",
+  "ipa": [
+   {
+    "w": "Dann",
+    "ipa": "[dan]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "geh",
+    "ipa": "[ɡeː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "zum",
+    "ipa": "[t͡sʊm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bahnhof",
+    "ipa": "[ˈbaːnˌhoːf]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_027",
+  "de": "Eingang, Ausgang, Kreuzung, Zentrum, Weg, Straße.",
+  "ru": "Вход, выход, перекрёсток, центр, дорога, улица.",
+  "nouns": [
+   {
+    "lemma": "Eingang",
+    "art": "der",
+    "pl": "Eingänge"
+   },
+   {
+    "lemma": "Ausgang",
+    "art": "der",
+    "pl": "Ausgänge"
+   },
+   {
+    "lemma": "Kreuzung",
+    "art": "die",
+    "pl": "Kreuzungen"
+   },
+   {
+    "lemma": "Zentrum",
+    "art": "das",
+    "pl": "Zentren"
+   },
+   {
+    "lemma": "Weg",
+    "art": "der",
+    "pl": "Wege"
+   },
+   {
+    "lemma": "Straße",
+    "art": "die",
+    "pl": "Straßen"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Eingang",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Ausgang",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Kreuzung",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Zentrum",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Weg",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Straße",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Слова курса: der Eingang, der Ausgang, die Kreuzung, das Zentrum, der Weg, die Straße.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Eingang — вход · der Ausgang — выход · die Kreuzung — перекрёсток · das Zentrum — центр · der Weg — дорога · die Straße — улица.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Eingang, der Ausgang, die Kreuzung, das Zentrum, der Weg, die Straße."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: der Eingang, der Ausgang, die Kreuzung, das Zentrum, der Weg, die Straße."
+  },
+  "audio": "audio_v1/ch12_027.mp3",
+  "tts": "Eingang, Ausgang, Kreuzung, Zentrum, Weg, Straße.",
+  "ipa": [
+   {
+    "w": "Eingang",
+    "ipa": "[ˈaɪ̯nˌɡaŋ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Ausgang",
+    "ipa": "[ˈaʊ̯sˌɡaŋ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kreuzung",
+    "ipa": "[ˈkʁɔɪ̯t͡sʊŋ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Zentrum",
+    "ipa": "[ˈt͡sɛntʁʊm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Weg",
+    "ipa": "[veːk]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Straße",
+    "ipa": "[ˈʃtʁaːsə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_028",
+  "de": "Der Kurs ist am Bahnhof.",
+  "ru": "Курс у вокзала.",
+  "nouns": [
+   {
+    "lemma": "Kurs",
+    "art": "der",
+    "pl": "Kurse"
+   },
+   {
+    "lemma": "Bahnhof",
+    "art": "der",
+    "pl": "Bahnhöfe"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Der Kurs",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "am Bahnhof",
+     "role": "где"
+    }
+   ],
+   "text": "В am слиплись два слова: «у» и артикль. Bahnhof — der-слово, и после «у» его артикль меняется.",
+   "topic": "articles",
+   "why_de": "В am слиплись два слова: «у» и артикль. Bahnhof — der-слово, и после «у» его артикль меняется. Так отвечают на «где?».",
+   "why_ru": "По-русски «у вокзала» — меняется конец слова. По-немецки меняется артикль, он прячется в am.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Der Kurs ist an der Bahnhof.",
+    "ru": "Русская привычка — оставить артикль из словаря: der Bahnhof. Но артикль после предлога меняется, и всё слипается в am."
+   },
+   "root": "Bahnhof = Bahn + Hof (Bahn — дорога; Hof — двор) — Wiktionary; ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "В am слиплись два слова: «у» и артикль. Bahnhof — der-слово, и после «у» его артикль меняется."
+  },
+  "audio": "audio_v1/ch12_028.mp3",
+  "tts": "Der Kurs ist am Bahnhof.",
+  "ipa": [
+   {
+    "w": "Der",
+    "ipa": "[deːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kurs",
+    "ipa": "[kʊʁs]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "am",
+    "ipa": "[am]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bahnhof",
+    "ipa": "[ˈbaːnˌhoːf]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_029",
+  "de": "Die Apotheke ist an der Haltestelle.",
+  "ru": "Аптека у остановки.",
+  "nouns": [
+   {
+    "lemma": "Apotheke",
+    "art": "die",
+    "pl": "Apotheken"
+   },
+   {
+    "lemma": "Haltestelle",
+    "art": "die",
+    "pl": "Haltestellen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Die Apotheke",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "an der Haltestelle",
+     "role": "где"
+    }
+   ],
+   "text": "an — «у», рядом с чем-то. Haltestelle — die-слово, и после an её артикль меняется: был die, стал der.",
+   "topic": "articles",
+   "why_de": "an — «у», рядом с чем-то. Haltestelle — die-слово, и после an её артикль меняется: был die, стал der. С an у die-слов слипания нет: an der.",
+   "why_ru": "По-русски «у остановки» — меняется конец слова. По-немецки меняется артикль: die → der.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Die Apotheke ist an die Haltestelle.",
+    "ru": "Русская привычка — оставить артикль из словаря: die Haltestelle. После предлога у слов женского рода стоит der."
+   },
+   "root": null,
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "an — «у», рядом с чем-то. Haltestelle — die-слово, и после an её артикль меняется: был die, стал der.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «где»",
+    "items": [
+     {
+      "id": "ch12_031",
+      "de": "Die Apotheke ist in der Stadt.",
+      "ru": "Аптека в городе.",
+      "audio": "audio_v1/ch12_031.mp3",
+      "lesson": "L5",
+      "part": 3,
+      "changed": {
+       "role": "где",
+       "wagon": 3,
+       "from": "an der Haltestelle",
+       "to": "in der Stadt"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Die Apotheke · ist. В каждом примере меняется один вагон — «где»: an der Haltestelle → in der Stadt. Действие ist всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch12_029.mp3",
+  "tts": "Die Apotheke ist an der Haltestelle.",
+  "ipa": [
+   {
+    "w": "Die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Apotheke",
+    "ipa": "[apoˈteːkə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "an",
+    "ipa": "[an]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "der",
+    "ipa": "[deːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Haltestelle",
+    "ipa": "[ˈhaltəˌʃtɛlə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_030",
+  "de": "Die Haltestelle ist im Zentrum.",
+  "ru": "Остановка в центре.",
+  "nouns": [
+   {
+    "lemma": "Haltestelle",
+    "art": "die",
+    "pl": "Haltestellen"
+   },
+   {
+    "lemma": "Zentrum",
+    "art": "das",
+    "pl": "Zentren"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Die Haltestelle",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "im Zentrum",
+     "role": "где"
+    }
+   ],
+   "text": "В im слиплись два слова: «в» и артикль. Zentrum — слово среднего рода, и после «в» его артикль меняется.",
+   "topic": "articles",
+   "why_de": "В im слиплись два слова: «в» и артикль. Zentrum — слово среднего рода, и после «в» его артикль меняется. Слипаются не только der-слова, но и слова среднего рода.",
+   "why_ru": "По-русски «в центре» — меняется конец слова. По-немецки меняется артикль, он прячется в im.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Die Haltestelle ist in dem Zentrum.",
+    "ru": "Здесь предлог и артикль в речи говорят слитно: не in dem, а im."
+   },
+   "root": null,
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "В im слиплись два слова: «в» и артикль. Zentrum — слово среднего рода, и после «в» его артикль меняется."
+  },
+  "audio": "audio_v1/ch12_030.mp3",
+  "tts": "Die Haltestelle ist im Zentrum.",
+  "ipa": [
+   {
+    "w": "Die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Haltestelle",
+    "ipa": "[ˈhaltəˌʃtɛlə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "im",
+    "ipa": "[ɪm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Zentrum",
+    "ipa": "[ˈt͡sɛntʁʊm]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_031",
+  "de": "Die Apotheke ist in der Stadt.",
+  "ru": "Аптека в городе.",
+  "nouns": [
+   {
+    "lemma": "Apotheke",
+    "art": "die",
+    "pl": "Apotheken"
+   },
+   {
+    "lemma": "Stadt",
+    "art": "die",
+    "pl": "Städte"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Die Apotheke",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "in der Stadt",
+     "role": "где"
+    }
+   ],
+   "text": "in — «в». Stadt — die-слово, и после in её артикль меняется: был die, стал der.",
+   "topic": "articles",
+   "why_de": "in — «в». Stadt — die-слово, и после in её артикль меняется: был die, стал der. Слипания нет: in der.",
+   "why_ru": "По-русски «в городе» — меняется конец слова. По-немецки меняется артикль: die → der.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Die Apotheke ist in die Stadt.",
+    "ru": "in die — это куда (в город). Про то, где (в городе), артикль меняется на der."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "in — «в». Stadt — die-слово, и после in её артикль меняется: был die, стал der.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «где»",
+    "items": [
+     {
+      "id": "ch12_029",
+      "de": "Die Apotheke ist an der Haltestelle.",
+      "ru": "Аптека у остановки.",
+      "audio": "audio_v1/ch12_029.mp3",
+      "lesson": "L5",
+      "part": 3,
+      "changed": {
+       "role": "где",
+       "wagon": 3,
+       "from": "in der Stadt",
+       "to": "an der Haltestelle"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Die Apotheke · ist. В каждом примере меняется один вагон — «где»: in der Stadt → an der Haltestelle. Действие ist всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch12_031.mp3",
+  "tts": "Die Apotheke ist in der Stadt.",
+  "ipa": [
+   {
+    "w": "Die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Apotheke",
+    "ipa": "[apoˈteːkə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "in",
+    "ipa": "[ɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "der",
+    "ipa": "[deːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Stadt",
+    "ipa": "[ʃtat]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_032",
+  "de": "Ist die Apotheke am Bahnhof?",
+  "ru": "Аптека у вокзала?",
+  "nouns": [
+   {
+    "lemma": "Apotheke",
+    "art": "die",
+    "pl": "Apotheken"
+   },
+   {
+    "lemma": "Bahnhof",
+    "art": "der",
+    "pl": "Bahnhöfe"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Ist",
+     "role": "действие №1"
+    },
+    {
+     "w": "die Apotheke",
+     "role": "кто"
+    },
+    {
+     "w": "am Bahnhof",
+     "role": "где"
+    }
+   ],
+   "text": "Вопрос «да/нет»: действие Ist впереди. В am слиплись «у» и артикль.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Ist) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Ist die Apotheke am Bahnhof?",
+   "why_ru": "По-русски «Аптека у вокзала» — вопрос только голосом, порядок как в ответе. По-немецки действие Ist выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Die Apotheke ist am Bahnhof?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Аптека у вокзала?!»). Обычный вопрос — действие впереди."
+   },
+   "root": "Bahnhof = Bahn + Hof (Bahn — дорога; Hof — двор) — Wiktionary",
+   "why_voice_ru": "Вопрос «да/нет»: действие Ist впереди. В am слиплись «у» и артикль."
+  },
+  "audio": "audio_v1/ch12_032.mp3",
+  "tts": "Ist die Apotheke am Bahnhof?",
+  "ipa": [
+   {
+    "w": "Ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Apotheke",
+    "ipa": "[apoˈteːkə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "am",
+    "ipa": "[am]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bahnhof",
+    "ipa": "[ˈbaːnˌhoːf]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_033",
+  "de": "Rathaus, Museum, Dom, Fluss, Marktplatz, Bank.",
+  "ru": "Ратуша, музей, собор, река, рыночная площадь, банк.",
+  "nouns": [
+   {
+    "lemma": "Rathaus",
+    "art": "das",
+    "pl": "Rathäuser"
+   },
+   {
+    "lemma": "Museum",
+    "art": "das",
+    "pl": "Museen"
+   },
+   {
+    "lemma": "Dom",
+    "art": "der",
+    "pl": "Dome"
+   },
+   {
+    "lemma": "Fluss",
+    "art": "der",
+    "pl": "Flüsse"
+   },
+   {
+    "lemma": "Marktplatz",
+    "art": "der",
+    "pl": "Marktplätze"
+   },
+   {
+    "lemma": "Bank",
+    "art": "die",
+    "pl": "Banken"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Rathaus",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Museum",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Dom",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Fluss",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Marktplatz",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Bank",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Слова курса: das Rathaus, das Museum, der Dom, der Fluss, der Marktplatz, die Bank.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: das Rathaus — ратуша · das Museum — музей · der Dom — собор · der Fluss — река · der Marktplatz — рыночная площадь · die Bank — банк.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: das Rathaus, das Museum, der Dom, der Fluss, der Marktplatz, die Bank."
+   },
+   "root": "Rathaus = Rat + Haus (Rat — совет; Haus — дом) — Wiktionary; Marktplatz = Markt + Platz (Markt — рынок; Platz — площадь, место) — Wiktionary",
+   "why_voice_ru": "Слова курса: das Rathaus, das Museum, der Dom, der Fluss, der Marktplatz, die Bank."
+  },
+  "audio": "audio_v1/ch12_033.mp3",
+  "tts": "Rathaus, Museum, Dom, Fluss, Marktplatz, Bank.",
+  "ipa": [
+   {
+    "w": "Rathaus",
+    "ipa": "[ˈʁaːtˌhaʊ̯s]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Museum",
+    "ipa": "[muˈzeːʊm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Dom",
+    "ipa": "[doːm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fluss",
+    "ipa": "[flʊs]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Marktplatz",
+    "ipa": "[ˈmaʁktˌplat͡s]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bank",
+    "ipa": "[baŋk]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_034",
+  "de": "Chat, Festival, Film, Musik, Sport, Café, Kaffee.",
+  "ru": "Чат, фестиваль, фильм, музыка, спорт, кафе, кофе.",
+  "nouns": [
+   {
+    "lemma": "Chat",
+    "art": "der",
+    "pl": "Chats"
+   },
+   {
+    "lemma": "Festival",
+    "art": "das",
+    "pl": "Festivals"
+   },
+   {
+    "lemma": "Film",
+    "art": "der",
+    "pl": "Filme"
+   },
+   {
+    "lemma": "Musik",
+    "art": "die",
+    "pl": ""
+   },
+   {
+    "lemma": "Sport",
+    "art": "der",
+    "pl": ""
+   },
+   {
+    "lemma": "Café",
+    "art": "das",
+    "pl": "Cafés"
+   },
+   {
+    "lemma": "Kaffee",
+    "art": "der",
+    "pl": ""
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Chat",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Festival",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Film",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Musik",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Sport",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Café",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Kaffee",
+     "role": "слово",
+     "art": "der"
+    }
+   ],
+   "text": "Слова курса: der Chat, das Festival, der Film, die Musik, der Sport, das Café, der Kaffee.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Chat — чат · das Festival — фестиваль · der Film — фильм · die Musik — музыка · der Sport — спорт · das Café — кафе · der Kaffee — кофе.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Chat, das Festival, der Film, die Musik, der Sport, das Café, der Kaffee."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: der Chat, das Festival, der Film, die Musik, der Sport, das Café, der Kaffee."
+  },
+  "audio": "audio_v1/ch12_034.mp3",
+  "tts": "Chat, Festival, Film, Musik, Sport, Café, Kaffee.",
+  "ipa": [
+   {
+    "w": "Chat",
+    "ipa": "[t͡ʃɛt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Festival",
+    "ipa": "[ˈfɛstivl̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Film",
+    "ipa": "[fɪlm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Musik",
+    "ipa": "[muˈziːk]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Sport",
+    "ipa": "[ʃpɔʁt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Café",
+    "ipa": "[kaˈfeː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kaffee",
+    "ipa": "[ˈkafe]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "мн.ч. '' Sport ≠ {'Sporte'}",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_035",
+  "de": "Cousin, Cousine, Freunde, Karte, Schiffe, U-Bahn, S-Bahn.",
+  "ru": "Двоюродный брат, двоюродная сестра, друзья, карта, корабли, метро, городская электричка.",
+  "nouns": [
+   {
+    "lemma": "Cousin",
+    "art": "der",
+    "pl": "Cousins"
+   },
+   {
+    "lemma": "Cousine",
+    "art": "die",
+    "pl": "Cousinen"
+   },
+   {
+    "lemma": "Freund",
+    "art": "der",
+    "pl": "Freunde"
+   },
+   {
+    "lemma": "Karte",
+    "art": "die",
+    "pl": "Karten"
+   },
+   {
+    "lemma": "Schiff",
+    "art": "das",
+    "pl": "Schiffe"
+   },
+   {
+    "lemma": "U-Bahn",
+    "art": "die",
+    "pl": "U-Bahnen"
+   },
+   {
+    "lemma": "S-Bahn",
+    "art": "die",
+    "pl": "S-Bahnen"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Cousin",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Cousine",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Freunde",
+     "role": "слово"
+    },
+    {
+     "w": "Karte",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Schiffe",
+     "role": "слово"
+    },
+    {
+     "w": "U-Bahn",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "S-Bahn",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Слова курса: der Cousin, die Cousine, die Freunde, die Karte, die Schiffe, die U-Bahn, die S-Bahn.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Cousin — двоюродный брат · die Cousine — двоюродная сестра · die Freunde — друзья · die Karte — карта · die Schiffe — корабли · die U-Bahn — метро · die S-Bahn — городская электричка.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Cousin, die Cousine, die Karte, die U-Bahn, die S-Bahn."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: der Cousin, die Cousine, die Freunde, die Karte, die Schiffe, die U-Bahn, die S-Bahn."
+  },
+  "audio": "audio_v1/ch12_035.mp3",
+  "tts": "Cousin, Cousine, Freunde, Karte, Schiffe, U-Bahn, S-Bahn.",
+  "ipa": [
+   {
+    "w": "Cousin",
+    "ipa": "[kuˈzɛ̃ː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Cousine",
+    "ipa": "[kuˈziːnə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Freunde",
+    "ipa": "[ˈfʁɔɪ̯ndə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Karte",
+    "ipa": "[ˈkaʁtə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Schiffe",
+    "ipa": "[ˈʃɪfə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "U-Bahn",
+    "ipa": "[ˈuːˌbaːn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "S-Bahn",
+    "ipa": "[ˈɛsˌbaːn]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_036",
+  "de": "Arbeit, Schule, Sprachschule, Deutschkurs, Rucksack, Supermarkt, Büro, Feierabend.",
+  "ru": "Работа, школа, языковая школа, курс немецкого, рюкзак, супермаркет, офис, конец рабочего дня.",
+  "nouns": [
+   {
+    "lemma": "Arbeit",
+    "art": "die",
+    "pl": "Arbeiten"
+   },
+   {
+    "lemma": "Schule",
+    "art": "die",
+    "pl": "Schulen"
+   },
+   {
+    "lemma": "Sprachschule",
+    "art": "die",
+    "pl": "Sprachschulen"
+   },
+   {
+    "lemma": "Deutschkurs",
+    "art": "der",
+    "pl": "Deutschkurse"
+   },
+   {
+    "lemma": "Rucksack",
+    "art": "der",
+    "pl": "Rucksäcke"
+   },
+   {
+    "lemma": "Supermarkt",
+    "art": "der",
+    "pl": "Supermärkte"
+   },
+   {
+    "lemma": "Büro",
+    "art": "das",
+    "pl": "Büros"
+   },
+   {
+    "lemma": "Feierabend",
+    "art": "der",
+    "pl": "Feierabende"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Arbeit",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Schule",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Sprachschule",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Deutschkurs",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Rucksack",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Supermarkt",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Büro",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Feierabend",
+     "role": "слово",
+     "art": "der"
+    }
+   ],
+   "text": "Слова курса: die Arbeit, die Schule, die Sprachschule, der Deutschkurs, der Rucksack, der Supermarkt, das Büro, der Feierabend.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: die Arbeit — работа · die Schule — школа · die Sprachschule — языковая школа · der Deutschkurs — курс немецкого · der Rucksack — рюкзак · der Supermarkt — супермаркет · das Büro — офис · der Feierabend — конец рабочего дня.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: die Arbeit, die Schule, die Sprachschule, der Deutschkurs, der Rucksack, der Supermarkt, das Büro, der Feierabend."
+   },
+   "root": "Deutschkurs = Deutsch + Kurs (Deutsch — немецкий; Kurs — курс) — Wiktionary; Supermarkt = super- + Markt (Markt — рынок) — Wiktionary",
+   "why_voice_ru": "Слова курса: die Arbeit, die Schule, die Sprachschule, der Deutschkurs, der Rucksack, der Supermarkt, das Büro, der Feierabend."
+  },
+  "audio": "audio_v1/ch12_036.mp3",
+  "tts": "Arbeit, Schule, Sprachschule, Deutschkurs, Rucksack, Supermarkt, Büro, Feierabend.",
+  "ipa": [
+   {
+    "w": "Arbeit",
+    "ipa": "[ˈaʁbaɪ̯t]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Schule",
+    "ipa": "[ˈʃuːlə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Sprachschule",
+    "ipa": "[ˈʃpʁaːxˌʃuːlə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Deutschkurs",
+    "ipa": "[ˈdɔɪ̯t͡ʃˌkʊʁs]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Rucksack",
+    "ipa": "[ˈʁʊkˌzak]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Supermarkt",
+    "ipa": "[ˈzuːpɐˌmaʁkt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Büro",
+    "ipa": "[byˈʁoː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Feierabend",
+    "ipa": "[ˈfaɪ̯ɐˌʔaːbn̩t]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_037",
+  "de": "Auskunft, Datum, Gepäck, Gültigkeit, Halt, Hinfahrt, Rückfahrt, Internet.",
+  "ru": "Справочная, дата, багаж, срок действия, остановка в пути, поездка туда, поездка обратно, интернет.",
+  "nouns": [
+   {
+    "lemma": "Auskunft",
+    "art": "die",
+    "pl": "Auskünfte"
+   },
+   {
+    "lemma": "Datum",
+    "art": "das",
+    "pl": "Daten"
+   },
+   {
+    "lemma": "Gepäck",
+    "art": "das",
+    "pl": ""
+   },
+   {
+    "lemma": "Gültigkeit",
+    "art": "die",
+    "pl": ""
+   },
+   {
+    "lemma": "Halt",
+    "art": "der",
+    "pl": "Halte"
+   },
+   {
+    "lemma": "Hinfahrt",
+    "art": "die",
+    "pl": "Hinfahrten"
+   },
+   {
+    "lemma": "Rückfahrt",
+    "art": "die",
+    "pl": "Rückfahrten"
+   },
+   {
+    "lemma": "Internet",
+    "art": "das",
+    "pl": ""
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Auskunft",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Datum",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Gepäck",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Gültigkeit",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Halt",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Hinfahrt",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Rückfahrt",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Internet",
+     "role": "слово",
+     "art": "das"
+    }
+   ],
+   "text": "Слова курса: die Auskunft, das Datum, das Gepäck, die Gültigkeit, der Halt, die Hinfahrt, die Rückfahrt, das Internet.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: die Auskunft — справочная · das Datum — дата · das Gepäck — багаж · die Gültigkeit — срок действия · der Halt — остановка в пути · die Hinfahrt — поездка туда · die Rückfahrt — поездка обратно · das Internet — интернет.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: die Auskunft, das Datum, das Gepäck, die Gültigkeit, der Halt, die Hinfahrt, die Rückfahrt, das Internet."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: die Auskunft, das Datum, das Gepäck, die Gültigkeit, der Halt, die Hinfahrt, die Rückfahrt, das Internet."
+  },
+  "audio": "audio_v1/ch12_037.mp3",
+  "tts": "Auskunft, Datum, Gepäck, Gültigkeit, Halt, Hinfahrt, Rückfahrt, Internet.",
+  "ipa": [
+   {
+    "w": "Auskunft",
+    "ipa": "[ˈaʊ̯sˌkʊnft]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Datum",
+    "ipa": "[ˈdaːtʊm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Gepäck",
+    "ipa": "[ɡəˈpɛk]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Gültigkeit",
+    "ipa": "[ˈɡʏltɪçkaɪ̯t]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Halt",
+    "ipa": "[halt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Hinfahrt",
+    "ipa": "[ˈhɪnˌfaːɐ̯t]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Rückfahrt",
+    "ipa": "[ˈʁʏkˌfaːɐ̯t]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Internet",
+    "ipa": "[ˈɪntɐnɛt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "мн.ч. '' Gültigkeit ≠ {'Gültigkeiten'}",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_038",
+  "de": "Klasse, Reiseverbindung, Reservierung, Sparpreis, Verbindung, Zeit, öffentlichen Verkehrsmittel.",
+  "ru": "Класс, маршрут поездки, бронирование, сниженная цена, связь (маршрут), время, общественный транспорт.",
+  "nouns": [
+   {
+    "lemma": "Klasse",
+    "art": "die",
+    "pl": "Klassen"
+   },
+   {
+    "lemma": "Reiseverbindung",
+    "art": "die",
+    "pl": "Reiseverbindungen"
+   },
+   {
+    "lemma": "Reservierung",
+    "art": "die",
+    "pl": "Reservierungen"
+   },
+   {
+    "lemma": "Sparpreis",
+    "art": "der",
+    "pl": "Sparpreise"
+   },
+   {
+    "lemma": "Verbindung",
+    "art": "die",
+    "pl": "Verbindungen"
+   },
+   {
+    "lemma": "Zeit",
+    "art": "die",
+    "pl": "Zeiten"
+   },
+   {
+    "lemma": "Verkehrsmittel",
+    "art": "das",
+    "pl": "Verkehrsmittel"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Klasse",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Reiseverbindung",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Reservierung",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Sparpreis",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Verbindung",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Zeit",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "öffentlichen Verkehrsmittel",
+     "role": "слово"
+    }
+   ],
+   "text": "Слова курса: die Klasse, die Reiseverbindung, die Reservierung, der Sparpreis, die Verbindung, die Zeit, die öffentlichen Verkehrsmittel.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем. Verkehrsmittel — только во множественном числе: die öffentlichen Verkehrsmittel.",
+   "why_ru": "По-русски тоже список, слово за словом: die Klasse — класс · die Reiseverbindung — маршрут поездки · die Reservierung — бронирование · der Sparpreis — сниженная цена · die Verbindung — связь, маршрут (поезд, автобус) · die Zeit — время · die öffentlichen Verkehrsmittel (мн. ч.) — общественный транспорт.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить список одним куском. Это отдельные слова, у каждого свой артикль и свой звук."
+   },
+   "root": null,
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "Слова курса: die Klasse, die Reiseverbindung, die Reservierung, der Sparpreis, die Verbindung, die Zeit, die öffentlichen Verkehrsmittel."
+  },
+  "audio": "audio_v1/ch12_038.mp3",
+  "tts": "Klasse, Reiseverbindung, Reservierung, Sparpreis, Verbindung, Zeit, öffentlichen Verkehrsmittel.",
+  "ipa": [
+   {
+    "w": "Klasse",
+    "ipa": "[ˈklasə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Reiseverbindung",
+    "ipa": null,
+    "src": "none"
+   },
+   {
+    "w": "Reservierung",
+    "ipa": "[ʁezɛʁˈviːʁʊŋ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Sparpreis",
+    "ipa": null,
+    "src": "none"
+   },
+   {
+    "w": "Verbindung",
+    "ipa": "[fɛɐ̯ˈbɪndʊŋ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Zeit",
+    "ipa": "[t͡saɪ̯t]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "öffentlichen",
+    "ipa": "[ˈœfn̩tlɪçn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Verkehrsmittel",
+    "ipa": "[fɛɐ̯ˈkeːɐ̯sˌmɪtl̩]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "нет в Wiktionary: Reiseverbindung",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "partial"
+ },
+ {
+  "id": "ch12_039",
+  "de": "Fenster, Hauptbahnhof, Hausnummer, Hof, Kursraum, Nachricht, Plan, Stadtplan.",
+  "ru": "Окно, главный вокзал, номер дома, двор, аудитория, сообщение, план, план города.",
+  "nouns": [
+   {
+    "lemma": "Fenster",
+    "art": "das",
+    "pl": "Fenster"
+   },
+   {
+    "lemma": "Hauptbahnhof",
+    "art": "der",
+    "pl": "Hauptbahnhöfe"
+   },
+   {
+    "lemma": "Hausnummer",
+    "art": "die",
+    "pl": "Hausnummern"
+   },
+   {
+    "lemma": "Hof",
+    "art": "der",
+    "pl": "Höfe"
+   },
+   {
+    "lemma": "Kursraum",
+    "art": "der",
+    "pl": "Kursräume"
+   },
+   {
+    "lemma": "Nachricht",
+    "art": "die",
+    "pl": "Nachrichten"
+   },
+   {
+    "lemma": "Plan",
+    "art": "der",
+    "pl": "Pläne"
+   },
+   {
+    "lemma": "Stadtplan",
+    "art": "der",
+    "pl": "Stadtpläne"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Fenster",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Hauptbahnhof",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Hausnummer",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Hof",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Kursraum",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Nachricht",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Plan",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Stadtplan",
+     "role": "слово",
+     "art": "der"
+    }
+   ],
+   "text": "Слова курса: das Fenster, der Hauptbahnhof, die Hausnummer, der Hof, der Kursraum, die Nachricht, der Plan, der Stadtplan.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: das Fenster — окно · der Hauptbahnhof — главный вокзал · die Hausnummer — номер дома · der Hof — двор · der Kursraum — аудитория · die Nachricht — сообщение · der Plan — план · der Stadtplan — план города.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: das Fenster, der Hauptbahnhof, die Hausnummer, der Hof, der Kursraum, die Nachricht, der Plan, der Stadtplan."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: das Fenster, der Hauptbahnhof, die Hausnummer, der Hof, der Kursraum, die Nachricht, der Plan, der Stadtplan."
+  },
+  "audio": "audio_v1/ch12_039.mp3",
+  "tts": "Fenster, Hauptbahnhof, Hausnummer, Hof, Kursraum, Nachricht, Plan, Stadtplan.",
+  "ipa": [
+   {
+    "w": "Fenster",
+    "ipa": "[ˈfɛnstɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Hauptbahnhof",
+    "ipa": "[ˈhaʊ̯ptbaːnˌhoːf]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Hausnummer",
+    "ipa": "[ˈhaʊ̯sˌnʊmɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Hof",
+    "ipa": "[hoːf]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kursraum",
+    "ipa": null,
+    "src": "none"
+   },
+   {
+    "w": "Nachricht",
+    "ipa": "[ˈnaːxˌʁɪçt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Plan",
+    "ipa": "[plaːn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Stadtplan",
+    "ipa": "[ˈʃtatˌplaːn]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "нет в Wiktionary: Kursraum",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "partial"
+ },
+ {
+  "id": "ch12_040",
+  "de": "Post-Shop, Reisebüro, Touristeninformation, Angebot, Geld, Läden, Laden, Plakat.",
+  "ru": "Почтовый магазин, турагентство, туристический центр, предложение, деньги, магазины, магазин, плакат.",
+  "nouns": [
+   {
+    "lemma": "Post-Shop",
+    "art": "der",
+    "pl": "Post-Shops"
+   },
+   {
+    "lemma": "Reisebüro",
+    "art": "das",
+    "pl": "Reisebüros"
+   },
+   {
+    "lemma": "Touristeninformation",
+    "art": "die",
+    "pl": "Touristeninformationen"
+   },
+   {
+    "lemma": "Angebot",
+    "art": "das",
+    "pl": "Angebote"
+   },
+   {
+    "lemma": "Geld",
+    "art": "das",
+    "pl": "Gelder"
+   },
+   {
+    "lemma": "Laden",
+    "art": "der",
+    "pl": "Läden"
+   },
+   {
+    "lemma": "Plakat",
+    "art": "das",
+    "pl": "Plakate"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Post-Shop",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Reisebüro",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Touristeninformation",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Angebot",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Geld",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Läden",
+     "role": "слово"
+    },
+    {
+     "w": "Laden",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Plakat",
+     "role": "слово",
+     "art": "das"
+    }
+   ],
+   "text": "Слова курса: der Post-Shop, das Reisebüro, die Touristeninformation, das Angebot, das Geld, die Läden, der Laden, das Plakat.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Post-Shop — почтовый магазин · das Reisebüro — турагентство · die Touristeninformation — туристический центр · das Angebot — предложение · das Geld — деньги · die Läden — магазины · der Laden — магазин · das Plakat — плакат.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Post-Shop, das Reisebüro, die Touristeninformation, das Angebot, das Geld, der Laden, das Plakat."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: der Post-Shop, das Reisebüro, die Touristeninformation, das Angebot, das Geld, die Läden, der Laden, das Plakat."
+  },
+  "audio": "audio_v1/ch12_040.mp3",
+  "tts": "Post-Shop, Reisebüro, Touristeninformation, Angebot, Geld, Läden, Laden, Plakat.",
+  "ipa": [
+   {
+    "w": "Post-Shop",
+    "ipa": null,
+    "src": "none"
+   },
+   {
+    "w": "Reisebüro",
+    "ipa": "[ˈʁaɪ̯zəbyˌʁoː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Touristeninformation",
+    "ipa": "[tuˈʁɪstn̩ʔɪnfɔʁmaˌt͡si̯oːn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Angebot",
+    "ipa": "[ˈanɡəˌboːt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Geld",
+    "ipa": "[ɡɛlt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Läden",
+    "ipa": "[ˈlɛːdn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Laden",
+    "ipa": "[ˈlaːdn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Plakat",
+    "ipa": "[plaˈkaːt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "нет в Wiktionary: Post-Shop",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "partial"
+ },
+ {
+  "id": "ch12_041",
+  "de": "Norden, Osten, Süden, Westen, Himmelsrichtung, Himmelsrichtungen, Richtung, Orientierung.",
+  "ru": "Север, восток, юг, запад, сторона света, стороны света, направление, ориентирование.",
+  "nouns": [
+   {
+    "lemma": "Norden",
+    "art": "der",
+    "pl": ""
+   },
+   {
+    "lemma": "Osten",
+    "art": "der",
+    "pl": ""
+   },
+   {
+    "lemma": "Süden",
+    "art": "der",
+    "pl": ""
+   },
+   {
+    "lemma": "Westen",
+    "art": "der",
+    "pl": ""
+   },
+   {
+    "lemma": "Himmelsrichtung",
+    "art": "die",
+    "pl": "Himmelsrichtungen"
+   },
+   {
+    "lemma": "Richtung",
+    "art": "die",
+    "pl": "Richtungen"
+   },
+   {
+    "lemma": "Orientierung",
+    "art": "die",
+    "pl": "Orientierungen"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Norden",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Osten",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Süden",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Westen",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Himmelsrichtung",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Himmelsrichtungen",
+     "role": "слово"
+    },
+    {
+     "w": "Richtung",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Orientierung",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Слова курса: der Norden, der Osten, der Süden, der Westen, die Himmelsrichtung, die Himmelsrichtungen, die Richtung, die Orientierung.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Norden — север · der Osten — восток · der Süden — юг · der Westen — запад · die Himmelsrichtung — сторона света · die Himmelsrichtungen — стороны света · die Richtung — направление · die Orientierung — ориентирование.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Norden, der Osten, der Süden, der Westen, die Himmelsrichtung, die Richtung, die Orientierung."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: der Norden, der Osten, der Süden, der Westen, die Himmelsrichtung, die Himmelsrichtungen, die Richtung, die Orientierung."
+  },
+  "audio": "audio_v1/ch12_041.mp3",
+  "tts": "Norden, Osten, Süden, Westen, Himmelsrichtung, Himmelsrichtungen, Richtung, Orientierung.",
+  "ipa": [
+   {
+    "w": "Norden",
+    "ipa": "[ˈnɔʁdn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Osten",
+    "ipa": "[ˈɔstn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Süden",
+    "ipa": "[ˈzyːdn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Westen",
+    "ipa": "[ˈvɛstn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Himmelsrichtung",
+    "ipa": "[ˈhɪml̩sˌʁɪçtʊŋ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Himmelsrichtungen",
+    "ipa": "[ˈhɪml̩sˌʁɪçtʊŋən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Richtung",
+    "ipa": "[ˈʁɪçtʊŋ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Orientierung",
+    "ipa": "[oʁiɛnˈtiːʁʊŋ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_042",
+  "de": "Stadtporträt, Stadtzentrum, Einwohner, Einwohnerin, Sehenswürdigkeit, Sehenswürdigkeiten, Universität, Schloss.",
+  "ru": "Портрет города, центр города, житель, жительница, достопримечательность, достопримечательности, университет, замок.",
+  "nouns": [
+   {
+    "lemma": "Stadtporträt",
+    "art": "das",
+    "pl": "Stadtporträts"
+   },
+   {
+    "lemma": "Stadtzentrum",
+    "art": "das",
+    "pl": "Stadtzentren"
+   },
+   {
+    "lemma": "Einwohner",
+    "art": "der",
+    "pl": "Einwohner"
+   },
+   {
+    "lemma": "Einwohnerin",
+    "art": "die",
+    "pl": "Einwohnerinnen"
+   },
+   {
+    "lemma": "Sehenswürdigkeit",
+    "art": "die",
+    "pl": "Sehenswürdigkeiten"
+   },
+   {
+    "lemma": "Universität",
+    "art": "die",
+    "pl": "Universitäten"
+   },
+   {
+    "lemma": "Schloss",
+    "art": "das",
+    "pl": "Schlösser"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Stadtporträt",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Stadtzentrum",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Einwohner",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Einwohnerin",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Sehenswürdigkeit",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Sehenswürdigkeiten",
+     "role": "слово"
+    },
+    {
+     "w": "Universität",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Schloss",
+     "role": "слово",
+     "art": "das"
+    }
+   ],
+   "text": "Слова курса: das Stadtporträt, das Stadtzentrum, der Einwohner, die Einwohnerin, die Sehenswürdigkeit, die Sehenswürdigkeiten, die Universität, das Schloss.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: das Stadtporträt — портрет города · das Stadtzentrum — центр города · der Einwohner — житель · die Einwohnerin — жительница · die Sehenswürdigkeit — достопримечательность · die Sehenswürdigkeiten — достопримечательности · die Universität — университет · das Schloss — замок.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: das Stadtporträt, das Stadtzentrum, der Einwohner, die Einwohnerin, die Sehenswürdigkeit, die Universität, das Schloss."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: das Stadtporträt, das Stadtzentrum, der Einwohner, die Einwohnerin, die Sehenswürdigkeit, die Sehenswürdigkeiten, die Universität, das Schloss."
+  },
+  "audio": "audio_v1/ch12_042.mp3",
+  "tts": "Stadtporträt, Stadtzentrum, Einwohner, Einwohnerin, Sehenswürdigkeit, Sehenswürdigkeiten, Universität, Schloss.",
+  "ipa": [
+   {
+    "w": "Stadtporträt",
+    "ipa": null,
+    "src": "none"
+   },
+   {
+    "w": "Stadtzentrum",
+    "ipa": "[ˈʃtatˌt͡sɛntʁʊm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Einwohner",
+    "ipa": "[ˈaɪ̯nˌvoːnɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Einwohnerin",
+    "ipa": "[ˈaɪ̯nvoːnəʁɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Sehenswürdigkeit",
+    "ipa": "[ˈzeːənsˌvʏʁdɪçkaɪ̯t]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Sehenswürdigkeiten",
+    "ipa": "[ˈzeːənsvʏʁdɪçkaɪ̯tn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Universität",
+    "ipa": "[ˌunivɛʁziˈtɛːt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Schloss",
+    "ipa": "[ʃlɔs]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "нет в Wiktionary: Stadtporträt",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "partial"
+ },
+ {
+  "id": "ch12_043",
+  "de": "Industrie, Automobil-Industrie, Flugzeugbau, Wirtschaft, Windenergie, Schifffahrt, Boot, Bürgerpark.",
+  "ru": "Промышленность, автомобильная промышленность, самолётостроение, экономика, ветроэнергетика, судоходство, лодка, городской парк.",
+  "nouns": [
+   {
+    "lemma": "Industrie",
+    "art": "die",
+    "pl": "Industrien"
+   },
+   {
+    "lemma": "Automobil-Industrie",
+    "art": "die",
+    "pl": "Automobil-Industrien"
+   },
+   {
+    "lemma": "Flugzeugbau",
+    "art": "der",
+    "pl": ""
+   },
+   {
+    "lemma": "Wirtschaft",
+    "art": "die",
+    "pl": ""
+   },
+   {
+    "lemma": "Windenergie",
+    "art": "die",
+    "pl": ""
+   },
+   {
+    "lemma": "Schifffahrt",
+    "art": "die",
+    "pl": ""
+   },
+   {
+    "lemma": "Boot",
+    "art": "das",
+    "pl": "Boote"
+   },
+   {
+    "lemma": "Bürgerpark",
+    "art": "der",
+    "pl": "Bürgerparks"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Industrie",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Automobil-Industrie",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Flugzeugbau",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Wirtschaft",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Windenergie",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Schifffahrt",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Boot",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Bürgerpark",
+     "role": "слово",
+     "art": "der"
+    }
+   ],
+   "text": "Слова курса: die Industrie, die Automobil-Industrie, der Flugzeugbau, die Wirtschaft, die Windenergie, die Schifffahrt, das Boot, der Bürgerpark.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: die Industrie — промышленность · die Automobil-Industrie — автомобильная промышленность · der Flugzeugbau — самолётостроение · die Wirtschaft — экономика · die Windenergie — ветроэнергетика · die Schifffahrt — судоходство · das Boot — лодка · der Bürgerpark — городской парк.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: die Industrie, die Automobil-Industrie, der Flugzeugbau, die Wirtschaft, die Windenergie, die Schifffahrt, das Boot, der Bürgerpark."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: die Industrie, die Automobil-Industrie, der Flugzeugbau, die Wirtschaft, die Windenergie, die Schifffahrt, das Boot, der Bürgerpark."
+  },
+  "audio": "audio_v1/ch12_043.mp3",
+  "tts": "Industrie, Automobil-Industrie, Flugzeugbau, Wirtschaft, Windenergie, Schifffahrt, Boot, Bürgerpark.",
+  "ipa": [
+   {
+    "w": "Industrie",
+    "ipa": "[ɪndʊsˈtʁiː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Automobil-Industrie",
+    "ipa": null,
+    "src": "none"
+   },
+   {
+    "w": "Flugzeugbau",
+    "ipa": "[ˈfluːkt͡sɔɪ̯kˌbaʊ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wirtschaft",
+    "ipa": "[ˈvɪʁtʃaft]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Windenergie",
+    "ipa": "[ˈvɪntʔenɛʁˌɡiː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Schifffahrt",
+    "ipa": "[ˈʃɪfˌfaːɐ̯t]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Boot",
+    "ipa": "[boːt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bürgerpark",
+    "ipa": null,
+    "src": "none"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "нет в Wiktionary: Automobil-Industrie",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "partial"
+ },
+ {
+  "id": "ch12_044",
+  "de": "Freizeit, Märchen, Esel, Hund, Katze, Hahn, Produkt, Kindergarten.",
+  "ru": "Свободное время, сказка, осёл, собака, кошка, петух, продукт, детский сад.",
+  "nouns": [
+   {
+    "lemma": "Freizeit",
+    "art": "die",
+    "pl": ""
+   },
+   {
+    "lemma": "Märchen",
+    "art": "das",
+    "pl": "Märchen"
+   },
+   {
+    "lemma": "Esel",
+    "art": "der",
+    "pl": "Esel"
+   },
+   {
+    "lemma": "Hund",
+    "art": "der",
+    "pl": "Hunde"
+   },
+   {
+    "lemma": "Katze",
+    "art": "die",
+    "pl": "Katzen"
+   },
+   {
+    "lemma": "Hahn",
+    "art": "der",
+    "pl": "Hähne"
+   },
+   {
+    "lemma": "Produkt",
+    "art": "das",
+    "pl": "Produkte"
+   },
+   {
+    "lemma": "Kindergarten",
+    "art": "der",
+    "pl": "Kindergärten"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Freizeit",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Märchen",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Esel",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Hund",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Katze",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Hahn",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Produkt",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Kindergarten",
+     "role": "слово",
+     "art": "der"
+    }
+   ],
+   "text": "Слова курса: die Freizeit, das Märchen, der Esel, der Hund, die Katze, der Hahn, das Produkt, der Kindergarten.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: die Freizeit — свободное время · das Märchen — сказка · der Esel — осёл · der Hund — собака · die Katze — кошка · der Hahn — петух · das Produkt — продукт · der Kindergarten — детский сад.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: die Freizeit, das Märchen, der Esel, der Hund, die Katze, der Hahn, das Produkt, der Kindergarten."
+   },
+   "root": "Kindergarten = Kind + Garten (Kind — ребёнок; Garten — сад) — Wiktionary",
+   "why_voice_ru": "Слова курса: die Freizeit, das Märchen, der Esel, der Hund, die Katze, der Hahn, das Produkt, der Kindergarten."
+  },
+  "audio": "audio_v1/ch12_044.mp3",
+  "tts": "Freizeit, Märchen, Esel, Hund, Katze, Hahn, Produkt, Kindergarten.",
+  "ipa": [
+   {
+    "w": "Freizeit",
+    "ipa": "[ˈfʁaɪ̯ˌt͡saɪ̯t]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Märchen",
+    "ipa": "[ˈmɛːɐ̯çən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Esel",
+    "ipa": "[ˈeːzl̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Hund",
+    "ipa": "[hʊnt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Katze",
+    "ipa": "[ˈkat͡sə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Hahn",
+    "ipa": "[haːn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Produkt",
+    "ipa": "[pʁoˈdʊkt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kindergarten",
+    "ipa": "[ˈkɪndɐˌɡaʁtn̩]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "мн.ч. '' Freizeit ≠ {'Freizeiten'}",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_045",
+  "de": "Anzeigen, Schilder, Bad, Küche, Restaurant, Wohnung, E-Mail.",
+  "ru": "Объявления, таблички, ванная, кухня, ресторан, квартира, электронное письмо.",
+  "nouns": [
+   {
+    "lemma": "Anzeige",
+    "art": "die",
+    "pl": "Anzeigen"
+   },
+   {
+    "lemma": "Schild",
+    "art": "das",
+    "pl": "Schilder"
+   },
+   {
+    "lemma": "Bad",
+    "art": "das",
+    "pl": "Bäder"
+   },
+   {
+    "lemma": "Küche",
+    "art": "die",
+    "pl": "Küchen"
+   },
+   {
+    "lemma": "Restaurant",
+    "art": "das",
+    "pl": "Restaurants"
+   },
+   {
+    "lemma": "Wohnung",
+    "art": "die",
+    "pl": "Wohnungen"
+   },
+   {
+    "lemma": "E-Mail",
+    "art": "die",
+    "pl": "E-Mails"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Anzeigen",
+     "role": "слово"
+    },
+    {
+     "w": "Schilder",
+     "role": "слово"
+    },
+    {
+     "w": "Bad",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Küche",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Restaurant",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Wohnung",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "E-Mail",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Слова курса: die Anzeigen, die Schilder, das Bad, die Küche, das Restaurant, die Wohnung, die E-Mail.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: die Anzeigen — объявления · die Schilder — таблички · das Bad — ванная · die Küche — кухня · das Restaurant — ресторан · die Wohnung — квартира · die E-Mail — электронное письмо.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: das Bad, die Küche, das Restaurant, die Wohnung, die E-Mail."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: die Anzeigen, die Schilder, das Bad, die Küche, das Restaurant, die Wohnung, die E-Mail."
+  },
+  "audio": "audio_v1/ch12_045.mp3",
+  "tts": "Anzeigen, Schilder, Bad, Küche, Restaurant, Wohnung, E-Mail.",
+  "ipa": [
+   {
+    "w": "Anzeigen",
+    "ipa": "[ˈanˌt͡saɪ̯ɡn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Schilder",
+    "ipa": "[ˈʃɪldɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bad",
+    "ipa": "[baːt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Küche",
+    "ipa": "[ˈkʏçə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Restaurant",
+    "ipa": "[ʁɛstoˈʁɑ̃ː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wohnung",
+    "ipa": "[ˈvoːnʊŋ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "E-Mail",
+    "ipa": "[ˈiːmeɪ̯l]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_046",
+  "de": "ankommen, aufmachen, aussteigen, einsteigen, umsteigen, besichtigen, liegen, warten, übernachten.",
+  "ru": "Прибывать, открывать, выходить, садиться, пересаживаться, осматривать, находиться, ждать, ночевать.",
+  "nouns": [],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "ankommen",
+     "role": "слово"
+    },
+    {
+     "w": "aufmachen",
+     "role": "слово"
+    },
+    {
+     "w": "aussteigen",
+     "role": "слово"
+    },
+    {
+     "w": "einsteigen",
+     "role": "слово"
+    },
+    {
+     "w": "umsteigen",
+     "role": "слово"
+    },
+    {
+     "w": "besichtigen",
+     "role": "слово"
+    },
+    {
+     "w": "liegen",
+     "role": "слово"
+    },
+    {
+     "w": "warten",
+     "role": "слово"
+    },
+    {
+     "w": "übernachten",
+     "role": "слово"
+    }
+   ],
+   "text": "Слова курса: ankommen, aufmachen, aussteigen, einsteigen, umsteigen, besichtigen, liegen, warten, übernachten.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а глаголы: их учим по одному. У глаголов артикля нет — учим слово и его значение.",
+   "why_ru": "По-русски тоже список, слово за словом: ankommen — прибывать · aufmachen — открывать · aussteigen — выходить · einsteigen — садиться · umsteigen — пересаживаться · besichtigen — осматривать · liegen — находиться · warten — ждать · übernachten — ночевать.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить список одним куском. Это отдельные глаголы, у каждого свой звук и своё значение."
+   },
+   "root": null,
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "Слова курса: ankommen, aufmachen, aussteigen, einsteigen, umsteigen, besichtigen, liegen, warten, übernachten."
+  },
+  "audio": "audio_v1/ch12_046.mp3",
+  "tts": "ankommen, aufmachen, aussteigen, einsteigen, umsteigen, besichtigen, liegen, warten, übernachten.",
+  "ipa": [
+   {
+    "w": "ankommen",
+    "ipa": "[ˈanˌkɔmən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "aufmachen",
+    "ipa": "[ˈaʊ̯fˌmaxn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "aussteigen",
+    "ipa": "[ˈaʊ̯sˌʃtaɪ̯ɡn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "einsteigen",
+    "ipa": "[ˈaɪ̯nˌʃtaɪ̯ɡn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "umsteigen",
+    "ipa": "[ˈʊmˌʃtaɪ̯ɡn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "besichtigen",
+    "ipa": "[bəˈzɪçtɪɡn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "liegen",
+    "ipa": "[ˈliːɡn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "warten",
+    "ipa": "[ˈvaʁtn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "übernachten",
+    "ipa": "[yːbɐˈnaxtn̩]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "UPPERCASE_SENTENCE_START: ankommen",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_047",
+  "de": "Achtung, bis, Bis morgen, besser, direkt, in Ordnung, selten, unterwegs.",
+  "ru": "Внимание, до, до завтра, лучше, прямо, в порядке, редко, в пути.",
+  "nouns": [],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Achtung",
+     "role": "слово"
+    },
+    {
+     "w": "bis",
+     "role": "слово"
+    },
+    {
+     "w": "Bis morgen",
+     "role": "привет/вежливость"
+    },
+    {
+     "w": "besser",
+     "role": "слово"
+    },
+    {
+     "w": "direkt",
+     "role": "слово"
+    },
+    {
+     "w": "in Ordnung",
+     "role": "слово"
+    },
+    {
+     "w": "selten",
+     "role": "слово"
+    },
+    {
+     "w": "unterwegs",
+     "role": "слово"
+    }
+   ],
+   "text": "Слова курса: Achtung, bis, Bis morgen, besser, direkt, in Ordnung, selten, unterwegs.",
+   "topic": "articles",
+   "why_de": "Это не одна фраза, а список слов: Achtung, bis, besser, direkt, selten, unterwegs — по одному. in Ordnung — один кусок, Bis morgen — готовая формула.",
+   "why_ru": "По-русски тоже список: Achtung — внимание · bis — до · Bis morgen — до завтра · besser — лучше · direkt — прямо · in Ordnung — в порядке · selten — редко · unterwegs — в пути.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить список одним куском. Слова учим по одному; in Ordnung не делят: это единое выражение."
+   },
+   "root": null,
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "Слова курса: Achtung, bis, Bis morgen, besser, direkt, in Ordnung, selten, unterwegs."
+  },
+  "audio": "audio_v1/ch12_047.mp3",
+  "tts": "Achtung, bis, Bis morgen, besser, direkt, in Ordnung, selten, unterwegs.",
+  "ipa": [
+   {
+    "w": "Achtung",
+    "ipa": "[ˈaxtʊŋ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "bis",
+    "ipa": "[bɪs]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bis",
+    "ipa": "[bɪs]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "morgen",
+    "ipa": "[ˈmɔʁɡn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "besser",
+    "ipa": "[ˈbɛsɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "direkt",
+    "ipa": "[diˈʁɛkt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "in",
+    "ipa": "[ɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Ordnung",
+    "ipa": "[ˈɔʁdnʊŋ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "selten",
+    "ipa": "[ˈzɛltn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "unterwegs",
+    "ipa": "[ʊntɐˈveːks]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "DE_CASE: Bis",
+   "gender": "не внесено в nouns: Ordnung",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_048",
+  "de": "bekannt, berühmt, kulturell, durch, stop, Wegbeschreibung.",
+  "ru": "Известный, знаменитый, культурный, через, стоп, описание пути.",
+  "nouns": [
+   {
+    "lemma": "Wegbeschreibung",
+    "art": "die",
+    "pl": "Wegbeschreibungen"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "bekannt",
+     "role": "слово"
+    },
+    {
+     "w": "berühmt",
+     "role": "слово"
+    },
+    {
+     "w": "kulturell",
+     "role": "слово"
+    },
+    {
+     "w": "durch",
+     "role": "слово"
+    },
+    {
+     "w": "stop",
+     "role": "слово"
+    },
+    {
+     "w": "Wegbeschreibung",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Слова курса: bekannt, berühmt, kulturell, durch, stop, die Wegbeschreibung.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному. Артикль есть только у существительного: die Wegbeschreibung; у bekannt, berühmt, kulturell, durch, stop артикля нет.",
+   "why_ru": "По-русски тоже список, слово за словом: bekannt — известный · berühmt — знаменитый · kulturell — культурный · durch — через · stop — стоп · die Wegbeschreibung — описание пути.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить список одним куском. Это отдельные слова: у die Wegbeschreibung есть артикль, у остальных его нет."
+   },
+   "root": null,
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "Слова курса: bekannt, berühmt, kulturell, durch, stop, die Wegbeschreibung."
+  },
+  "audio": "audio_v1/ch12_048.mp3",
+  "tts": "bekannt, berühmt, kulturell, durch, stop, Wegbeschreibung.",
+  "ipa": [
+   {
+    "w": "bekannt",
+    "ipa": "[bəˈkant]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "berühmt",
+    "ipa": "[bəˈʁyːmt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "kulturell",
+    "ipa": "[kʊltuˈʁɛl]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "durch",
+    "ipa": "[dʊʁç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "stop",
+    "ipa": "[…]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wegbeschreibung",
+    "ipa": "[ˈveːkbəˌʃʁaɪ̯bʊŋ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "UPPERCASE_SENTENCE_START: bekannt; GERMAN_SPELLER_RULE: stop",
+   "gender": "нет в Wiktionary: Wegbeschreibung",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_t01",
+  "de": "Ich fahre mit dem Bus nach Leipzig.",
+  "ru": "Я еду на автобусе в Лейпциг.",
+  "nouns": [
+   {
+    "lemma": "Bus",
+    "art": "der",
+    "pl": "Busse"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch12_L1",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "fahre",
+     "role": "действие №2"
+    },
+    {
+     "w": "mit dem Bus",
+     "role": "какой/как"
+    },
+    {
+     "w": "nach Leipzig",
+     "role": "куда"
+    }
+   ],
+   "text": "Bus — der-слово: mit dem Bus. nach Leipzig — «в Лейпциг», без артикля.",
+   "topic": "articles",
+   "why_de": "Ich · fahre · mit dem Bus · nach Leipzig: действие fahre — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Я еду на автобусе в Лейпциг» — Ich fahre mit dem Bus nach Leipzig. Разница одна: по-немецки fahre держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich mit dem Bus nach Leipzig fahre.",
+    "ru": "Действие fahre уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе fahre — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "Bus — der-слово: mit dem Bus. nach Leipzig — «в Лейпциг», без артикля."
+  },
+  "audio": "audio_v1/ch12_t01.mp3",
+  "tts": "Ich fahre mit dem Bus nach Leipzig.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "fahre",
+    "ipa": "[ˈfaːʁə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "mit",
+    "ipa": "[mɪt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "dem",
+    "ipa": "[deːm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bus",
+    "ipa": "[bʊs]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "nach",
+    "ipa": "[naːx]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Leipzig",
+    "ipa": "[ˈlaɪ̯pt͡sɪç]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_t02",
+  "de": "Nein, ich fahre mit der Straßenbahn.",
+  "ru": "Нет, я еду на трамвае.",
+  "nouns": [
+   {
+    "lemma": "Straßenbahn",
+    "art": "die",
+    "pl": "Straßenbahnen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch12_L1",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Nein",
+     "role": "да/нет"
+    },
+    {
+     "w": "ich",
+     "role": "кто"
+    },
+    {
+     "w": "fahre",
+     "role": "действие №2"
+    },
+    {
+     "w": "mit der Straßenbahn",
+     "role": "какой/как"
+    }
+   ],
+   "text": "nein не занимает вагон. Straßenbahn — die-слово: после mit — der.",
+   "topic": "articles",
+   "why_de": "Nein не занимает вагон, дальше поезд: ich · fahre · mit der Straßenbahn. Straßenbahn — die-слово, после mit у die-слов стоит der.",
+   "why_ru": "По-русски «на трамвае» — меняется конец слова. По-немецки меняется артикль: die → der.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Nein, ich fahre mit die Straßenbahn.",
+    "ru": "Русская привычка — оставить артикль из словаря: die Straßenbahn. После mit у die-слов стоит der."
+   },
+   "root": null,
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "nein не занимает вагон. Straßenbahn — die-слово: после mit — der."
+  },
+  "audio": "audio_v1/ch12_t02.mp3",
+  "tts": "Nein, ich fahre mit der Straßenbahn.",
+  "ipa": [
+   {
+    "w": "Nein",
+    "ipa": "[naɪ̯n]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "fahre",
+    "ipa": "[ˈfaːʁə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "mit",
+    "ipa": "[mɪt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "der",
+    "ipa": "[deːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Straßenbahn",
+    "ipa": "[ˈʃtʁaːsn̩ˌbaːn]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_t03",
+  "de": "Ich gehe vom Bahnhof zum Kurs.",
+  "ru": "Я иду от вокзала до курса.",
+  "nouns": [
+   {
+    "lemma": "Bahnhof",
+    "art": "der",
+    "pl": "Bahnhöfe"
+   },
+   {
+    "lemma": "Kurs",
+    "art": "der",
+    "pl": "Kurse"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch12_L2",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "gehe",
+     "role": "действие №2"
+    },
+    {
+     "w": "vom Bahnhof",
+     "role": "откуда"
+    },
+    {
+     "w": "zum Kurs",
+     "role": "куда"
+    }
+   ],
+   "text": "Bahnhof и Kurs — der-слова: после von и zu стоит dem, получается vom и zum.",
+   "topic": "articles",
+   "why_de": "Ich · gehe · откуда · куда. Bahnhof и Kurs — der-слова: после «от» и «к» артикль меняется и слипается с предлогом — получаются vom и zum.",
+   "why_ru": "По-русски «от вокзала до курса» — меняется конец слова. По-немецки меняется артикль, он прячется в vom и zum.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich gehe von der Bahnhof zu der Kurs.",
+    "ru": "Русская привычка — оставить артикль из словаря: der Bahnhof, der Kurs. Но артикль после «от» и «к» меняется, и всё слипается в vom и zum."
+   },
+   "root": "Bahnhof = Bahn + Hof (Bahn — дорога; Hof — двор) — Wiktionary",
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "Bahnhof и Kurs — der-слова: после von и zu стоит dem, получается vom и zum."
+  },
+  "audio": "audio_v1/ch12_t03.mp3",
+  "tts": "Ich gehe vom Bahnhof zum Kurs.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "gehe",
+    "ipa": "[ˈɡeːə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "vom",
+    "ipa": "[fɔm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bahnhof",
+    "ipa": "[ˈbaːnˌhoːf]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "zum",
+    "ipa": "[t͡sʊm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kurs",
+    "ipa": "[kʊʁs]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_t04",
+  "de": "Kommst du vom Kurs?",
+  "ru": "Ты идёшь с курса?",
+  "nouns": [
+   {
+    "lemma": "Kurs",
+    "art": "der",
+    "pl": "Kurse"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch12_L2",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Kommst",
+     "role": "действие №1"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "vom Kurs",
+     "role": "откуда"
+    }
+   ],
+   "text": "Вопрос «да/нет»: действие Kommst впереди. Kurs — der-слово: после von стоит dem, vom.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Kommst) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Kommst du vom Kurs?",
+   "why_ru": "По-русски «Ты идёшь с курса» — вопрос только голосом, порядок как в ответе. По-немецки действие Kommst выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Du kommst vom Kurs?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Ты идёшь с курса?!»). Обычный вопрос — действие впереди."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "Вопрос «да/нет»: действие Kommst впереди. Kurs — der-слово: после von стоит dem, vom."
+  },
+  "audio": "audio_v1/ch12_t04.mp3",
+  "tts": "Kommst du vom Kurs?",
+  "ipa": [
+   {
+    "w": "Kommst",
+    "ipa": "[kɔmst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "vom",
+    "ipa": "[fɔm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kurs",
+    "ipa": "[kʊʁs]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_t05",
+  "de": "Eine Fahrkarte nach Chemnitz, bitte.",
+  "ru": "Один билет до Хемница, пожалуйста.",
+  "nouns": [
+   {
+    "lemma": "Fahrkarte",
+    "art": "die",
+    "pl": "Fahrkarten"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch12_L3",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Eine Fahrkarte",
+     "role": "кого-что"
+    },
+    {
+     "w": "nach Chemnitz",
+     "role": "куда"
+    },
+    {
+     "w": "bitte",
+     "role": "привет/вежливость"
+    }
+   ],
+   "text": "Так просят билет: что, куда, bitte. Fahrkarte — die-слово: eine Fahrkarte.",
+   "topic": "articles",
+   "why_de": "Так просят билет: Eine Fahrkarte (что?) · nach Chemnitz (куда?) · bitte. Fahrkarte — die-слово: eine Fahrkarte.",
+   "why_ru": "По-русски «Один билет до Хемница, пожалуйста.» — те же куски.",
+   "layer": "short",
+   "why_not": {
+    "wrong": "Eine Fahrkarte in Chemnitz, bitte.",
+    "ru": "in Chemnitz — где ты уже есть. Куда едешь — nach Chemnitz."
+   },
+   "root": "Fahrkarte = fahr- (fahren) + Karte (Karte — карта, билет) — Wiktionary",
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "Так просят билет: что, куда, bitte. Fahrkarte — die-слово: eine Fahrkarte."
+  },
+  "audio": "audio_v1/ch12_t05.mp3",
+  "tts": "Eine Fahrkarte nach Chemnitz, bitte.",
+  "ipa": [
+   {
+    "w": "Eine",
+    "ipa": "[ˈaɪ̯nə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fahrkarte",
+    "ipa": "[ˈfaːɐ̯ˌkaʁtə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "nach",
+    "ipa": "[naːx]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Chemnitz",
+    "ipa": "[ˈkɛmnɪt͡s]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "bitte",
+    "ipa": "[ˈbɪtə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_t06",
+  "de": "Ich steige in Chemnitz um.",
+  "ru": "Я пересаживаюсь в Хемнице.",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch12_L3",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "steige",
+     "role": "действие №2"
+    },
+    {
+     "w": "in Chemnitz",
+     "role": "где"
+    },
+    {
+     "w": "um",
+     "role": "хвост действия"
+    }
+   ],
+   "text": "steige … um — действие из двух частей: um уезжает в конец. in Chemnitz — где пересаживаешься.",
+   "topic": "verb2",
+   "why_de": "steige … um — одно действие из двух частей: steige во втором вагоне, um — в самом конце. in Chemnitz — где пересаживаешься.",
+   "why_ru": "По-русски «Я пересаживаюсь в Хемнице.» — одно слово. По-немецки две части: steige и um.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich steige um in Chemnitz.",
+    "ru": "Вторая часть um не стоит сразу за steige: она уезжает в самый конец, после in Chemnitz."
+   },
+   "root": null,
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "steige … um — действие из двух частей: um уезжает в конец. in Chemnitz — где пересаживаешься.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «где» · хвост действия",
+    "items": [
+     {
+      "id": "ch12_020",
+      "de": "Ich steige in Dresden um.",
+      "ru": "Я пересаживаюсь в Дрездене.",
+      "audio": "audio_v1/ch12_020.mp3",
+      "lesson": "L3",
+      "part": 3,
+      "changed": {
+       "role": "где",
+       "wagon": 3,
+       "from": "in Chemnitz",
+       "to": "in Dresden"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ich · steige · um. В каждом примере меняется один вагон — «где»: in Chemnitz → in Dresden. Действие steige всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch12_t06.mp3",
+  "tts": "Ich steige in Chemnitz um.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "steige",
+    "ipa": "[ˈʃtaɪ̯ɡə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "in",
+    "ipa": "[ɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Chemnitz",
+    "ipa": "[ˈkɛmnɪt͡s]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "um",
+    "ipa": "[ʊm]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_t07",
+  "de": "Geh zur Haltestelle!",
+  "ru": "Иди на остановку!",
+  "nouns": [
+   {
+    "lemma": "Haltestelle",
+    "art": "die",
+    "pl": "Haltestellen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch12_L4",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Geh",
+     "role": "действие №1"
+    },
+    {
+     "w": "zur Haltestelle",
+     "role": "куда"
+    }
+   ],
+   "text": "Просьба на «ты»: Geh впереди. zur — «к» и артикль слитно.",
+   "topic": "word_order",
+   "why_de": "Просьба на «ты»: Geh — основа действия, впереди. zur — «к» и артикль слитно; Haltestelle — die-слово.",
+   "why_ru": "По-русски «Иди на остановку!» — без слова «ты». По-немецки так же.",
+   "layer": "imper",
+   "why_not": {
+    "wrong": "Du gehst zur Haltestelle!",
+    "ru": "Это рассказ, а не просьба. В просьбе «ты» убирают."
+   },
+   "root": "Haltestelle = halt- (halten) + Stelle (halt- = останавливаться, держать; Stelle — место) — Wiktionary",
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "Просьба на «ты»: Geh впереди. zur — «к» и артикль слитно.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "действие (вагон №1) · «куда»",
+    "items": [
+     {
+      "id": "ch12_024",
+      "de": "Geh geradeaus!",
+      "ru": "Иди прямо!",
+      "audio": "audio_v1/ch12_024.mp3",
+      "lesson": "L4",
+      "part": 3,
+      "changed": {
+       "role": "куда",
+       "wagon": 2,
+       "from": "zur Haltestelle",
+       "to": "geradeaus"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Geh. В каждом примере меняется один вагон — «куда»: zur Haltestelle → geradeaus. Действие Geh всё так же в вагоне №1.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch12_t07.mp3",
+  "tts": "Geh zur Haltestelle!",
+  "ipa": [
+   {
+    "w": "Geh",
+    "ipa": "[ɡeː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "zur",
+    "ipa": "[t͡suːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Haltestelle",
+    "ipa": "[ˈhaltəˌʃtɛlə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_t08",
+  "de": "Geh geradeaus, dann rechts!",
+  "ru": "Иди прямо, потом направо!",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch12_L4",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Geh",
+     "role": "действие №1"
+    },
+    {
+     "w": "geradeaus",
+     "role": "куда"
+    },
+    {
+     "w": "dann",
+     "role": "когда"
+    },
+    {
+     "w": "rechts",
+     "role": "куда"
+    }
+   ],
+   "text": "Просьба на «ты»: Geh впереди, потом куда: geradeaus, dann rechts.",
+   "topic": "word_order",
+   "why_de": "Просьба на «ты»: Geh впереди, потом куда: geradeaus, dann rechts. Слово dann значит «потом».",
+   "why_ru": "По-русски «Иди прямо, потом направо!» — те же куски. Порядок такой же.",
+   "layer": "imper",
+   "why_not": {
+    "wrong": "Du gehst geradeaus, dann rechts!",
+    "ru": "Это рассказ: ты идёшь прямо. В просьбе «ты» и окончание убирают."
+   },
+   "root": null,
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "Просьба на «ты»: Geh впереди, потом куда: geradeaus, dann rechts.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "действие (вагон №1) · «куда» · «когда» · «куда»",
+    "items": [
+     {
+      "id": "ch12_025",
+      "de": "Geh links, dann rechts!",
+      "ru": "Иди налево, потом направо!",
+      "audio": "audio_v1/ch12_025.mp3",
+      "lesson": "L4",
+      "part": 3,
+      "changed": {
+       "role": "куда",
+       "wagon": 2,
+       "from": "geradeaus",
+       "to": "links"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Geh · dann · rechts. В каждом примере меняется один вагон — «куда»: geradeaus → links. Действие Geh всё так же в вагоне №1.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch12_t08.mp3",
+  "tts": "Geh geradeaus, dann rechts!",
+  "ipa": [
+   {
+    "w": "Geh",
+    "ipa": "[ɡeː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "geradeaus",
+    "ipa": "[ɡəʁaːdəˈʔaʊ̯s]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "dann",
+    "ipa": "[dan]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "rechts",
+    "ipa": "[ʁɛçt͡s]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_t09",
+  "de": "Geh rechts, dann geradeaus!",
+  "ru": "Иди направо, потом прямо!",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch12_L4",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Geh",
+     "role": "действие №1"
+    },
+    {
+     "w": "rechts",
+     "role": "куда"
+    },
+    {
+     "w": "dann",
+     "role": "когда"
+    },
+    {
+     "w": "geradeaus",
+     "role": "куда"
+    }
+   ],
+   "text": "Просьба на «ты»: Geh впереди, потом куда: rechts, dann geradeaus.",
+   "topic": "word_order",
+   "why_de": "Просьба на «ты»: Geh впереди, потом куда: rechts, dann geradeaus. Слово dann значит «потом».",
+   "why_ru": "По-русски «Иди направо, потом прямо!» — те же куски. Порядок такой же.",
+   "layer": "imper",
+   "why_not": {
+    "wrong": "Du gehst rechts, dann geradeaus!",
+    "ru": "Это рассказ: ты идёшь направо. В просьбе «ты» и окончание убирают."
+   },
+   "root": null,
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "Просьба на «ты»: Geh впереди, потом куда: rechts, dann geradeaus."
+  },
+  "audio": "audio_v1/ch12_t09.mp3",
+  "tts": "Geh rechts, dann geradeaus!",
+  "ipa": [
+   {
+    "w": "Geh",
+    "ipa": "[ɡeː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "rechts",
+    "ipa": "[ʁɛçt͡s]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "dann",
+    "ipa": "[dan]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "geradeaus",
+    "ipa": "[ɡəʁaːdəˈʔaʊ̯s]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_t10",
+  "de": "Die Haltestelle ist am Bahnhof.",
+  "ru": "Остановка у вокзала.",
+  "nouns": [
+   {
+    "lemma": "Haltestelle",
+    "art": "die",
+    "pl": "Haltestellen"
+   },
+   {
+    "lemma": "Bahnhof",
+    "art": "der",
+    "pl": "Bahnhöfe"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch12_L5",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Die Haltestelle",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "am Bahnhof",
+     "role": "где"
+    }
+   ],
+   "text": "В am слиплись «у» и артикль. Bahnhof — der-слово.",
+   "topic": "articles",
+   "why_de": "В am слиплись «у» и артикль. Bahnhof — der-слово, и после «у» его артикль меняется.",
+   "why_ru": "По-русски «у вокзала» — меняется конец слова. По-немецки меняется артикль, он прячется в am.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Die Haltestelle ist an der Bahnhof.",
+    "ru": "Русская привычка — оставить артикль из словаря: der Bahnhof. Но артикль после предлога меняется, и всё слипается в am."
+   },
+   "root": "Haltestelle = halt- (halten) + Stelle (halt- = останавливаться, держать; Stelle — место) — Wiktionary; Bahnhof = Bahn + Hof (Bahn — дорога; Hof — двор) — Wiktionary",
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "В am слиплись «у» и артикль. Bahnhof — der-слово.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «где»",
+    "items": [
+     {
+      "id": "ch12_028",
+      "de": "Der Kurs ist am Bahnhof.",
+      "ru": "Курс у вокзала.",
+      "audio": "audio_v1/ch12_028.mp3",
+      "lesson": "L5",
+      "part": 3,
+      "changed": {
+       "role": "кто",
+       "wagon": 1,
+       "from": "Die Haltestelle",
+       "to": "Der Kurs"
+      }
+     },
+     {
+      "id": "ch12_030",
+      "de": "Die Haltestelle ist im Zentrum.",
+      "ru": "Остановка в центре.",
+      "audio": "audio_v1/ch12_030.mp3",
+      "lesson": "L5",
+      "part": 3,
+      "changed": {
+       "role": "где",
+       "wagon": 3,
+       "from": "am Bahnhof",
+       "to": "im Zentrum"
+      }
+     },
+     {
+      "id": "ch12_d5_02",
+      "de": "Die Apotheke ist am Bahnhof.",
+      "ru": "Аптека у вокзала.",
+      "audio": "audio_v1/ch12_d5_02.mp3",
+      "lesson": "L5",
+      "part": 4,
+      "changed": {
+       "role": "кто",
+       "wagon": 1,
+       "from": "Die Haltestelle",
+       "to": "Die Apotheke"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: ist. В каждом примере меняется один вагон — «кто»: Die Haltestelle → Der Kurs → Die Apotheke; «где»: am Bahnhof → im Zentrum. Действие ist всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch12_t10.mp3",
+  "tts": "Die Haltestelle ist am Bahnhof.",
+  "ipa": [
+   {
+    "w": "Die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Haltestelle",
+    "ipa": "[ˈhaltəˌʃtɛlə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "am",
+    "ipa": "[am]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bahnhof",
+    "ipa": "[ˈbaːnˌhoːf]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_t11",
+  "de": "Der Kurs ist in der Stadt.",
+  "ru": "Курс в городе.",
+  "nouns": [
+   {
+    "lemma": "Kurs",
+    "art": "der",
+    "pl": "Kurse"
+   },
+   {
+    "lemma": "Stadt",
+    "art": "die",
+    "pl": "Städte"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch12_L5",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Der Kurs",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "in der Stadt",
+     "role": "где"
+    }
+   ],
+   "text": "Stadt — die-слово, и после in стоит der.",
+   "topic": "articles",
+   "why_de": "in — «в». Stadt — die-слово, и после in её артикль меняется: был die, стал der.",
+   "why_ru": "По-русски «в городе» — меняется конец слова. По-немецки меняется артикль: die → der.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Der Kurs ist in die Stadt.",
+    "ru": "in die — это куда (в город). Про то, где (в городе), артикль меняется на der."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "Stadt — die-слово, и после in стоит der.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «где»",
+    "items": [
+     {
+      "id": "ch12_028",
+      "de": "Der Kurs ist am Bahnhof.",
+      "ru": "Курс у вокзала.",
+      "audio": "audio_v1/ch12_028.mp3",
+      "lesson": "L5",
+      "part": 3,
+      "changed": {
+       "role": "где",
+       "wagon": 3,
+       "from": "in der Stadt",
+       "to": "am Bahnhof"
+      }
+     },
+     {
+      "id": "ch12_031",
+      "de": "Die Apotheke ist in der Stadt.",
+      "ru": "Аптека в городе.",
+      "audio": "audio_v1/ch12_031.mp3",
+      "lesson": "L5",
+      "part": 3,
+      "changed": {
+       "role": "кто",
+       "wagon": 1,
+       "from": "Der Kurs",
+       "to": "Die Apotheke"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: ist. В каждом примере меняется один вагон — «кто»: Der Kurs → Die Apotheke; «где»: in der Stadt → am Bahnhof. Действие ist всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch12_t11.mp3",
+  "tts": "Der Kurs ist in der Stadt.",
+  "ipa": [
+   {
+    "w": "Der",
+    "ipa": "[deːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kurs",
+    "ipa": "[kʊʁs]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "in",
+    "ipa": "[ɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "der",
+    "ipa": "[deːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Stadt",
+    "ipa": "[ʃtat]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_t12",
+  "de": "Die Apotheke ist im Zentrum.",
+  "ru": "Аптека в центре.",
+  "nouns": [
+   {
+    "lemma": "Apotheke",
+    "art": "die",
+    "pl": "Apotheken"
+   },
+   {
+    "lemma": "Zentrum",
+    "art": "das",
+    "pl": "Zentren"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch12_L5",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Die Apotheke",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "im Zentrum",
+     "role": "где"
+    }
+   ],
+   "text": "В im слиплись «в» и артикль. Zentrum — слово среднего рода.",
+   "topic": "articles",
+   "why_de": "В im слиплись «в» и артикль. Zentrum — слово среднего рода, и после «в» его артикль меняется.",
+   "why_ru": "По-русски «в центре» — меняется конец слова. По-немецки меняется артикль, он прячется в im.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Die Apotheke ist in dem Zentrum.",
+    "ru": "Здесь предлог и артикль в речи говорят слитно: не in dem, а im."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "В im слиплись «в» и артикль. Zentrum — слово среднего рода.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «где»",
+    "items": [
+     {
+      "id": "ch12_029",
+      "de": "Die Apotheke ist an der Haltestelle.",
+      "ru": "Аптека у остановки.",
+      "audio": "audio_v1/ch12_029.mp3",
+      "lesson": "L5",
+      "part": 3,
+      "changed": {
+       "role": "где",
+       "wagon": 3,
+       "from": "im Zentrum",
+       "to": "an der Haltestelle"
+      }
+     },
+     {
+      "id": "ch12_030",
+      "de": "Die Haltestelle ist im Zentrum.",
+      "ru": "Остановка в центре.",
+      "audio": "audio_v1/ch12_030.mp3",
+      "lesson": "L5",
+      "part": 3,
+      "changed": {
+       "role": "кто",
+       "wagon": 1,
+       "from": "Die Apotheke",
+       "to": "Die Haltestelle"
+      }
+     },
+     {
+      "id": "ch12_031",
+      "de": "Die Apotheke ist in der Stadt.",
+      "ru": "Аптека в городе.",
+      "audio": "audio_v1/ch12_031.mp3",
+      "lesson": "L5",
+      "part": 3,
+      "changed": {
+       "role": "где",
+       "wagon": 3,
+       "from": "im Zentrum",
+       "to": "in der Stadt"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: ist. В каждом примере меняется один вагон — «кто»: Die Apotheke → Die Haltestelle; «где»: im Zentrum → an der Haltestelle → in der Stadt. Действие ist всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch12_t12.mp3",
+  "tts": "Die Apotheke ist im Zentrum.",
+  "ipa": [
+   {
+    "w": "Die",
+    "ipa": "[diː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Apotheke",
+    "ipa": "[apoˈteːkə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "im",
+    "ipa": "[ɪm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Zentrum",
+    "ipa": "[ˈt͡sɛntʁʊm]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_t13",
+  "de": "Fährst du mit dem Bus zum Kurs?",
+  "ru": "Ты едешь на автобусе на курс?",
+  "nouns": [
+   {
+    "lemma": "Bus",
+    "art": "der",
+    "pl": "Busse"
+   },
+   {
+    "lemma": "Kurs",
+    "art": "der",
+    "pl": "Kurse"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch12_L6",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Fährst",
+     "role": "действие №1"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "mit dem Bus",
+     "role": "какой/как"
+    },
+    {
+     "w": "zum Kurs",
+     "role": "куда"
+    }
+   ],
+   "text": "Вопрос «да/нет»: действие Fährst впереди. Bus и Kurs — der-слова: после mit стоит dem, а «к» и артикль слипаются в zum.",
+   "topic": "questions",
+   "why_de": "Вопрос «да/нет»: действие Fährst впереди. Bus и Kurs — der-слова: после mit стоит dem, а «к» и артикль слипаются в zum.",
+   "why_ru": "По-русски «на автобусе на курс» — меняется конец слова. По-немецки меняется артикль: dem и zum.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "Fährst du mit der Bus zum Kurs?",
+    "ru": "Русская привычка — оставить артикль из словаря: der Bus. После mit у der-слов стоит dem."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "Вопрос «да/нет»: действие Fährst впереди. Bus и Kurs — der-слова: после mit стоит dem, а «к» и артикль слипаются в zum."
+  },
+  "audio": "audio_v1/ch12_t13.mp3",
+  "tts": "Fährst du mit dem Bus zum Kurs?",
+  "ipa": [
+   {
+    "w": "Fährst",
+    "ipa": "[fɛːɐ̯st]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "mit",
+    "ipa": "[mɪt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "dem",
+    "ipa": "[deːm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bus",
+    "ipa": "[bʊs]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "zum",
+    "ipa": "[t͡sʊm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kurs",
+    "ipa": "[kʊʁs]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_t14",
+  "de": "Geh geradeaus, dann zum Bahnhof!",
+  "ru": "Иди прямо, потом на вокзал!",
+  "nouns": [
+   {
+    "lemma": "Bahnhof",
+    "art": "der",
+    "pl": "Bahnhöfe"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch12_L6",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Geh",
+     "role": "действие №1"
+    },
+    {
+     "w": "geradeaus",
+     "role": "куда"
+    },
+    {
+     "w": "dann",
+     "role": "когда"
+    },
+    {
+     "w": "zum Bahnhof",
+     "role": "куда"
+    }
+   ],
+   "text": "Просьба на «ты»: Geh впереди, потом куда: geradeaus, dann zum Bahnhof.",
+   "topic": "word_order",
+   "why_de": "Просьба на «ты»: Geh впереди, потом куда. zum — «к» и артикль слитно: Bahnhof — der-слово.",
+   "why_ru": "По-русски «иди» тоже короткое слово. По-немецки основа действия: Geh, без du.",
+   "layer": "imper",
+   "why_not": {
+    "wrong": "Du geh geradeaus, dann zum Bahnhof!",
+    "ru": "Просьбу на «ты» говорят без du: Geh!"
+   },
+   "root": "Bahnhof = Bahn + Hof (Bahn — дорога; Hof — двор) — Wiktionary",
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "Просьба на «ты»: Geh впереди, потом куда: geradeaus, dann zum Bahnhof.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "действие (вагон №1) · «куда» · «когда» · «куда»",
+    "items": [
+     {
+      "id": "ch12_t08",
+      "de": "Geh geradeaus, dann rechts!",
+      "ru": "Иди прямо, потом направо!",
+      "audio": "audio_v1/ch12_t08.mp3",
+      "lesson": "L4",
+      "part": 11,
+      "changed": {
+       "role": "куда",
+       "wagon": 4,
+       "from": "zum Bahnhof",
+       "to": "rechts"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Geh · geradeaus · dann. В каждом примере меняется один вагон — «куда»: zum Bahnhof → rechts. Действие Geh всё так же в вагоне №1.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch12_t14.mp3",
+  "tts": "Geh geradeaus, dann zum Bahnhof!",
+  "ipa": [
+   {
+    "w": "Geh",
+    "ipa": "[ɡeː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "geradeaus",
+    "ipa": "[ɡəʁaːdəˈʔaʊ̯s]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "dann",
+    "ipa": "[dan]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "zum",
+    "ipa": "[t͡sʊm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bahnhof",
+    "ipa": "[ˈbaːnˌhoːf]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch12_t15",
+  "de": "Der Bahnhof ist in der Stadt.",
+  "ru": "Вокзал в городе.",
+  "nouns": [
+   {
+    "lemma": "Bahnhof",
+    "art": "der",
+    "pl": "Bahnhöfe"
+   },
+   {
+    "lemma": "Stadt",
+    "art": "die",
+    "pl": "Städte"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch12_L6",
+  "book": "Книга, урок 11 (Dativ: артикли; предлоги с Dativ), стр. PDF 266, 275; урок 14 (где и когда: предлоги), стр. PDF 335–342; урок 15 (in, an), стр. PDF 355; урок 17 (просьба на «ты»), стр. PDF 398",
+  "why": {
+   "train": [
+    {
+     "w": "Der Bahnhof",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "in der Stadt",
+     "role": "где"
+    }
+   ],
+   "text": "Stadt — die-слово, и после in стоит der.",
+   "topic": "articles",
+   "why_de": "in — «в». Stadt — die-слово, и после in её артикль меняется: был die, стал der.",
+   "why_ru": "По-русски «в городе» — меняется конец слова. По-немецки меняется артикль: die → der.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Der Bahnhof ist in die Stadt.",
+    "ru": "in die — это куда (в город). Про то, где (в городе), артикль меняется на der."
+   },
+   "root": "Bahnhof = Bahn + Hof (Bahn — дорога; Hof — двор) — Wiktionary; ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "override": "tools/data_ch12.py WHY",
+   "why_voice_ru": "Stadt — die-слово, и после in стоит der.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «где»",
+    "items": [
+     {
+      "id": "ch12_031",
+      "de": "Die Apotheke ist in der Stadt.",
+      "ru": "Аптека в городе.",
+      "audio": "audio_v1/ch12_031.mp3",
+      "lesson": "L5",
+      "part": 3,
+      "changed": {
+       "role": "кто",
+       "wagon": 1,
+       "from": "Der Bahnhof",
+       "to": "Die Apotheke"
+      }
+     },
+     {
+      "id": "ch12_t11",
+      "de": "Der Kurs ist in der Stadt.",
+      "ru": "Курс в городе.",
+      "audio": "audio_v1/ch12_t11.mp3",
+      "lesson": "L5",
+      "part": 11,
+      "changed": {
+       "role": "кто",
+       "wagon": 1,
+       "from": "Der Bahnhof",
+       "to": "Der Kurs"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: ist · in der Stadt. В каждом примере меняется один вагон — «кто»: Der Bahnhof → Die Apotheke → Der Kurs. Действие ist всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch12_t15.mp3",
+  "tts": "Der Bahnhof ist in der Stadt.",
+  "ipa": [
+   {
+    "w": "Der",
+    "ipa": "[deːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bahnhof",
+    "ipa": "[ˈbaːnˌhoːf]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "in",
+    "ipa": "[ɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "der",
+    "ipa": "[deːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Stadt",
+    "ipa": "[ʃtat]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ }
+]

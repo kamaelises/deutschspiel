@@ -1,0 +1,3800 @@
+[
+ {
+  "item_id": "ch13_L1_words_1",
+  "id": "ch13_L1_words_1",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_001",
+  "prompt": "Что значит «krank»?",
+  "answer": "больной",
+  "distractors": [
+   "здоровый",
+   "усталый"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L1_words_2",
+  "id": "ch13_L1_words_2",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_002",
+  "prompt": "Что значит «Husten»?",
+  "answer": "кашель",
+  "distractors": [
+   "насморк",
+   "температура"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L1_words_3",
+  "id": "ch13_L1_words_3",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_003",
+  "prompt": "Что значит «Schnupfen»?",
+  "answer": "насморк",
+  "distractors": [
+   "кашель",
+   "простуда"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L1_words_4",
+  "id": "ch13_L1_words_4",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_004",
+  "prompt": "Что значит «Fieber»?",
+  "answer": "температура",
+  "distractors": [
+   "кашель",
+   "боль"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L1_words_5",
+  "id": "ch13_L1_words_5",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_008",
+  "prompt": "Что значит «Nicht so gut.»?",
+  "answer": "Не очень хорошо.",
+  "distractors": [
+   "Очень хорошо.",
+   "Пока."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L1_listen_1",
+  "id": "ch13_L1_listen_1",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d1_01",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Как у тебя дела?",
+  "distractors": [
+   "Где ты живёшь?",
+   "У тебя есть WhatsApp?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d1_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L1_listen_2",
+  "id": "ch13_L1_listen_2",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d1_02",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Не очень хорошо.",
+  "distractors": [
+   "Очень хорошо.",
+   "Пока."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d1_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L1_listen_3",
+  "id": "ch13_L1_listen_3",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d1_05",
+  "prompt": "Послушай. Что у героя?",
+  "answer": "У меня кашель и насморк.",
+  "distractors": [
+   "У меня кашель и температура.",
+   "У меня насморк и простуда."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d1_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L1_listen_4",
+  "id": "ch13_L1_listen_4",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d1_06",
+  "prompt": "Послушай. О чём спросила Ольга?",
+  "answer": "А температура у тебя тоже есть?",
+  "distractors": [
+   "А кашель у тебя тоже есть?",
+   "У тебя есть WhatsApp?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d1_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L1_listen_5",
+  "id": "ch13_L1_listen_5",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d1_08",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "У тебя простуда.",
+  "distractors": [
+   "У тебя насморк.",
+   "У Ольги простуда."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d1_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L1_read_1",
+  "id": "ch13_L1_read_1",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_001",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я болен.",
+  "distractors": [
+   "Я устал.",
+   "Ты болен."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich bin krank."
+ },
+ {
+  "item_id": "ch13_L1_read_2",
+  "id": "ch13_L1_read_2",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_002",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У меня кашель.",
+  "distractors": [
+   "У меня насморк.",
+   "У тебя кашель."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe Husten."
+ },
+ {
+  "item_id": "ch13_L1_read_3",
+  "id": "ch13_L1_read_3",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_004",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У меня температура.",
+  "distractors": [
+   "У меня простуда.",
+   "У тебя температура."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe Fieber."
+ },
+ {
+  "item_id": "ch13_L1_read_4",
+  "id": "ch13_L1_read_4",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_005",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У тебя простуда.",
+  "distractors": [
+   "У меня простуда.",
+   "У тебя насморк."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Du hast eine Erkältung."
+ },
+ {
+  "item_id": "ch13_L1_read_5",
+  "id": "ch13_L1_read_5",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_007",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Пока! Поправляйся!",
+  "distractors": [
+   "Пока! Спасибо!",
+   "Привет! Поправляйся!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Tschüss! Gute Besserung!"
+ },
+ {
+  "item_id": "ch13_L1_speak_1",
+  "id": "ch13_L1_speak_1",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_001",
+  "prompt": "Скажи Ольге, что ты болен: «Я болен.»",
+  "answer": "Ich bin krank.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch13_001.mp3",
+  "de": null,
+  "accept": [
+   "Ich bin krank."
+  ]
+ },
+ {
+  "item_id": "ch13_L1_speak_2",
+  "id": "ch13_L1_speak_2",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_002",
+  "prompt": "Скажи: «У меня кашель.»",
+  "answer": "Ich habe Husten.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch13_002.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe Husten."
+  ]
+ },
+ {
+  "item_id": "ch13_L1_speak_3",
+  "id": "ch13_L1_speak_3",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_004",
+  "prompt": "Скажи: «У меня температура.»",
+  "answer": "Ich habe Fieber.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch13_004.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe Fieber."
+  ]
+ },
+ {
+  "item_id": "ch13_L1_speak_4",
+  "id": "ch13_L1_speak_4",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_d1_06",
+  "prompt": "Спроси Ольгу: «А температура у тебя тоже есть?» Голос в конце — вверх ↗.",
+  "answer": "Hast du auch Fieber?",
+  "distractors": null,
+  "rule_id": "topics/intonation",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d1_06.mp3",
+  "de": null,
+  "accept": [
+   "Hast du auch Fieber?"
+  ]
+ },
+ {
+  "item_id": "ch13_L1_speak_5",
+  "id": "ch13_L1_speak_5",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_007",
+  "prompt": "Пожелай Ольге: «Пока! Поправляйся!»",
+  "answer": "Tschüss! Gute Besserung!",
+  "distractors": null,
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": "audio_v1/ch13_007.mp3",
+  "de": null,
+  "accept": [
+   "Tschüss! Gute Besserung!"
+  ]
+ },
+ {
+  "item_id": "ch13_L1_write_1",
+  "id": "ch13_L1_write_1",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_001",
+  "prompt": "Впиши: «Ich ___ krank.» (я болен)",
+  "answer": "bin",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch13_001.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L1_write_2",
+  "id": "ch13_L1_write_2",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_002",
+  "prompt": "Впиши: «Ich ___ Husten.» (у меня)",
+  "answer": "habe",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch13_002.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L1_write_3",
+  "id": "ch13_L1_write_3",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_005",
+  "prompt": "Впиши: «Du ___ eine Erkältung.» (у тебя)",
+  "answer": "hast",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch13_005.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L1_write_4",
+  "id": "ch13_L1_write_4",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_004",
+  "prompt": "Впиши: «Ich habe ___.» (температура)",
+  "answer": "Fieber",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch13_004.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L1_write_5",
+  "id": "ch13_L1_write_5",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_003",
+  "prompt": "Впиши: «Ich habe ___.» (насморк)",
+  "answer": "Schnupfen",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch13_003.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L1_why_1",
+  "id": "ch13_L1_why_1",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_001",
+  "prompt": "Почему «Ich bin krank», а не «Ich habe krank»?",
+  "answer": "krank — какой ты сейчас, а для «какой» нужен bin.",
+  "distractors": [
+   "krank — это болезнь, а болезнь «имеют».",
+   "krank — какой ты сейчас, а для «какой» нужен habe."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich bin krank."
+ },
+ {
+  "item_id": "ch13_L1_why_2",
+  "id": "ch13_L1_why_2",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_002",
+  "prompt": "Почему «Ich habe Husten», а не «Ich bin Husten»?",
+  "answer": "Кашель — не то, какой ты, а то, что у тебя есть: болезнь «имеют».",
+  "distractors": [
+   "bin — вежливая форма, а habe — грубая, поэтому у врача bin.",
+   "bin и habe — одно и то же, можно сказать и Ich bin Husten."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe Husten."
+ },
+ {
+  "item_id": "ch13_L1_why_3",
+  "id": "ch13_L1_why_3",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_004",
+  "prompt": "Почему в «Ich habe Fieber.» нет артикля?",
+  "answer": "Температуру здесь не считают штуками, поэтому артикля нет.",
+  "distractors": [
+   "Артикль не нужен у слов на F: Fieber, Fisch, Fest — так всегда.",
+   "Артикль пропускают, когда торопятся: у врача, на приёме, у кассы."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe Fieber."
+ },
+ {
+  "item_id": "ch13_L1_why_4",
+  "id": "ch13_L1_why_4",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_005",
+  "prompt": "Почему «Du hast», а не «Du habe»?",
+  "answer": "Хвост зависит от «кто»: ich habe, du hast.",
+  "distractors": [
+   "hast — потому что это вопрос.",
+   "Хвост зависит от «кого-что»: ich habe, du hast."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Du hast eine Erkältung."
+ },
+ {
+  "item_id": "ch13_L1_why_5",
+  "id": "ch13_L1_why_5",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_d1_06",
+  "prompt": "Почему «Hast du auch Fieber?» начинается с Hast?",
+  "answer": "Это вопрос «да/нет»: действие впереди.",
+  "distractors": [
+   "Hast — главное слово, поэтому первое.",
+   "Так спрашивают только про болезни."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Hast du auch Fieber?"
+ },
+ {
+  "item_id": "ch13_L1_transfer_1",
+  "id": "ch13_L1_transfer_1",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_t01",
+  "prompt": "Скажи Ольге: «У меня насморк и температура.»",
+  "answer": "Ich habe Schnupfen und Fieber.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch13_t01.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe Schnupfen und Fieber."
+  ]
+ },
+ {
+  "item_id": "ch13_L1_transfer_2",
+  "id": "ch13_L1_transfer_2",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_t02",
+  "prompt": "Скажи про Ольгу: «У Ольги температура.»",
+  "answer": "Olga hat Fieber.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch13_t02.mp3",
+  "de": null,
+  "accept": [
+   "Olga hat Fieber."
+  ]
+ },
+ {
+  "item_id": "ch13_L1_transfer_3",
+  "id": "ch13_L1_transfer_3",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_t02",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "У Ольги температура.",
+  "distractors": [
+   "У Ольги кашель.",
+   "У Ольги простуда."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch13_t02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L1_transfer_4",
+  "id": "ch13_L1_transfer_4",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_t02",
+  "prompt": "Напиши по-немецки: «У Ольги температура.»",
+  "answer": "Olga hat Fieber.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch13_t02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L1_transfer_5",
+  "id": "ch13_L1_transfer_5",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_t02",
+  "prompt": "Почему «Olga hat Fieber», а не «Olga habe Fieber»?",
+  "answer": "Olga — это «она»: с ней hat.",
+  "distractors": [
+   "habe — только для болезней.",
+   "hat — потому что это вопрос."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": null,
+  "de": "Olga hat Fieber."
+ },
+ {
+  "item_id": "ch13_L1_boss_1",
+  "id": "ch13_L1_boss_1",
+  "lesson": "ch13_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d1_07",
+  "prompt": "Послушай. Есть ли у героя температура?",
+  "answer": "да, температура есть",
+  "distractors": [
+   "нет, температуры нет",
+   "нет, только кашель"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d1_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L2_words_1",
+  "id": "ch13_L2_words_1",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_018",
+  "prompt": "Что значит «Termin» в «Ich möchte einen Termin»?",
+  "answer": "приём",
+  "distractors": [
+   "аптека",
+   "простуда"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L2_words_2",
+  "id": "ch13_L2_words_2",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_015",
+  "prompt": "Что значит «heute»?",
+  "answer": "сегодня",
+  "distractors": [
+   "завтра",
+   "сейчас"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L2_words_3",
+  "id": "ch13_L2_words_3",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_019",
+  "prompt": "Что значит «Uhr» в «Um neun Uhr»?",
+  "answer": "час",
+  "distractors": [
+   "день",
+   "минута"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L2_words_4",
+  "id": "ch13_L2_words_4",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_018",
+  "prompt": "Что значит «Ich möchte …»?",
+  "answer": "Я хочу …",
+  "distractors": [
+   "Я должен …",
+   "Я могу …"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L2_words_5",
+  "id": "ch13_L2_words_5",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_020",
+  "prompt": "Что значит «Praxis» в «Praxis Wagner»?",
+  "answer": "врач, кабинет",
+  "distractors": [
+   "аптека, лекарство",
+   "болезнь, кашель"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L2_listen_1",
+  "id": "ch13_L2_listen_1",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d2_01",
+  "prompt": "Послушай. Что сказала регистратура?",
+  "answer": "Приёмная врача Вагнера, добрый день!",
+  "distractors": [
+   "Аптека Вагнера, добрый день!",
+   "Добрый день, Ольга!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d2_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L2_listen_2",
+  "id": "ch13_L2_listen_2",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d2_03",
+  "prompt": "Послушай. Что у героя?",
+  "answer": "У меня температура.",
+  "distractors": [
+   "У меня кашель.",
+   "У меня насморк."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d2_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L2_listen_3",
+  "id": "ch13_L2_listen_3",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d2_04",
+  "prompt": "Послушай. Чего хочет герой?",
+  "answer": "Записаться на приём.",
+  "distractors": [
+   "Купить лекарство.",
+   "Позвонить Ольге."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d2_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L2_listen_4",
+  "id": "ch13_L2_listen_4",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d2_05",
+  "prompt": "Послушай. Что сказала регистратура?",
+  "answer": "Врач говорит, вам надо прийти сегодня.",
+  "distractors": [
+   "Врач говорит, вам надо прийти завтра.",
+   "Врач говорит, вам надо позвонить сегодня."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d2_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L2_listen_5",
+  "id": "ch13_L2_listen_5",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d2_08",
+  "prompt": "Послушай. Что сказала регистратура на прощание?",
+  "answer": "Поправляйтесь! До свидания!",
+  "distractors": [
+   "Спасибо! До свидания!",
+   "Поправляйтесь! Спасибо!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d2_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L2_read_1",
+  "id": "ch13_L2_read_1",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_015",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Мне надо прийти сегодня.",
+  "distractors": [
+   "Тебе надо прийти сегодня.",
+   "Мне надо прийти завтра."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich soll heute kommen."
+ },
+ {
+  "item_id": "ch13_L2_read_2",
+  "id": "ch13_L2_read_2",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_016",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Врач говорит, вам надо прийти сегодня.",
+  "distractors": [
+   "Врач говорит, мне надо прийти сегодня.",
+   "Врач говорит, вам надо прийти завтра."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Der Arzt sagt, Sie sollen heute kommen."
+ },
+ {
+  "item_id": "ch13_L2_read_3",
+  "id": "ch13_L2_read_3",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_018",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я хочу записаться на приём.",
+  "distractors": [
+   "Я хочу купить лекарство.",
+   "Мне надо на приём."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich möchte einen Termin."
+ },
+ {
+  "item_id": "ch13_L2_read_4",
+  "id": "ch13_L2_read_4",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_019",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "В девять часов.",
+  "distractors": [
+   "В десять часов.",
+   "В три часа."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Um neun Uhr."
+ },
+ {
+  "item_id": "ch13_L2_read_5",
+  "id": "ch13_L2_read_5",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_021",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Мне прийти сегодня?",
+  "distractors": [
+   "Мне надо прийти сегодня.",
+   "Тебе прийти сегодня?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Soll ich heute kommen?"
+ },
+ {
+  "item_id": "ch13_L2_speak_1",
+  "id": "ch13_L2_speak_1",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_015",
+  "prompt": "Скажи Ольге, что тебе велели прийти сегодня: «Мне надо прийти сегодня.»",
+  "answer": "Ich soll heute kommen.",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch13_015.mp3",
+  "de": null,
+  "accept": [
+   "Ich soll heute kommen."
+  ]
+ },
+ {
+  "item_id": "ch13_L2_speak_2",
+  "id": "ch13_L2_speak_2",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_017",
+  "prompt": "Скажи Ольге: «Тебе надо прийти сегодня.»",
+  "answer": "Du sollst heute kommen.",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch13_017.mp3",
+  "de": null,
+  "accept": [
+   "Du sollst heute kommen."
+  ]
+ },
+ {
+  "item_id": "ch13_L2_speak_3",
+  "id": "ch13_L2_speak_3",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_018",
+  "prompt": "Скажи в приёмной: «Я хочу записаться на приём.»",
+  "answer": "Ich möchte einen Termin.",
+  "distractors": null,
+  "rule_id": "topics/akkusativ",
+  "transfer": false,
+  "audio": "audio_v1/ch13_018.mp3",
+  "de": null,
+  "accept": [
+   "Ich möchte einen Termin."
+  ]
+ },
+ {
+  "item_id": "ch13_L2_speak_4",
+  "id": "ch13_L2_speak_4",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_019",
+  "prompt": "Ответь, когда прийти: «В девять часов.»",
+  "answer": "Um neun Uhr.",
+  "distractors": null,
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": "audio_v1/ch13_019.mp3",
+  "de": null,
+  "accept": [
+   "Um neun Uhr."
+  ]
+ },
+ {
+  "item_id": "ch13_L2_speak_5",
+  "id": "ch13_L2_speak_5",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_021",
+  "prompt": "Спроси регистратуру: «Мне прийти сегодня?» Голос в конце — вверх ↗.",
+  "answer": "Soll ich heute kommen?",
+  "distractors": null,
+  "rule_id": "topics/intonation",
+  "transfer": false,
+  "audio": "audio_v1/ch13_021.mp3",
+  "de": null,
+  "accept": [
+   "Soll ich heute kommen?"
+  ]
+ },
+ {
+  "item_id": "ch13_L2_write_1",
+  "id": "ch13_L2_write_1",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_015",
+  "prompt": "Впиши: «Ich ___ heute kommen.» (мне надо)",
+  "answer": "soll",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch13_015.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L2_write_2",
+  "id": "ch13_L2_write_2",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_017",
+  "prompt": "Впиши: «Du ___ heute kommen.» (тебе надо)",
+  "answer": "sollst",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch13_017.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L2_write_3",
+  "id": "ch13_L2_write_3",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_016",
+  "prompt": "Впиши: «Sie ___ heute kommen.» (вам надо)",
+  "answer": "sollen",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch13_016.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L2_write_4",
+  "id": "ch13_L2_write_4",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_018",
+  "prompt": "Впиши: «Ich möchte einen ___.» (приём)",
+  "answer": "Termin",
+  "distractors": null,
+  "rule_id": "topics/akkusativ",
+  "transfer": false,
+  "audio": "audio_v1/ch13_018.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L2_write_5",
+  "id": "ch13_L2_write_5",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_019",
+  "prompt": "Впиши: «Um neun ___.» (часов)",
+  "answer": "Uhr",
+  "distractors": null,
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": "audio_v1/ch13_019.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L2_why_1",
+  "id": "ch13_L2_why_1",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_015",
+  "prompt": "Почему «Ich soll heute kommen», а не «Ich soll kommen heute»?",
+  "answer": "kommen — второе действие, оно уходит в самый конец.",
+  "distractors": [
+   "heute — второе действие.",
+   "kommen — второе действие, оно уходит в самое начало."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich soll heute kommen."
+ },
+ {
+  "item_id": "ch13_L2_why_2",
+  "id": "ch13_L2_why_2",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_016",
+  "prompt": "Почему «Sie sollen», а не «Sie soll»?",
+  "answer": "Хвост зависит от «кто»: ich soll, du sollst, Sie sollen.",
+  "distractors": [
+   "sollen — только для вопроса.",
+   "Хвост зависит от «кого-что»: ich soll, du sollst, Sie sollen."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Der Arzt sagt, Sie sollen heute kommen."
+ },
+ {
+  "item_id": "ch13_L2_why_3",
+  "id": "ch13_L2_why_3",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_018",
+  "prompt": "Почему «einen Termin», а не «ein Termin»?",
+  "answer": "Termin — der-слово, а здесь он «кого-что»: einen.",
+  "distractors": [
+   "Termin — die-слово, поэтому einen.",
+   "Termin — die-слово, а здесь он «кого-что»: einen."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich möchte einen Termin."
+ },
+ {
+  "item_id": "ch13_L2_why_4",
+  "id": "ch13_L2_why_4",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_d2_05",
+  "prompt": "Почему регистратура говорит «Sie sollen», а не «Ich soll»?",
+  "answer": "Говорит вам: с Sie — sollen.",
+  "distractors": [
+   "Ich soll — вежливая форма.",
+   "sollen — когда спрашивают."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Der Arzt sagt, Sie sollen heute kommen."
+ },
+ {
+  "item_id": "ch13_L2_why_5",
+  "id": "ch13_L2_why_5",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_019",
+  "prompt": "Почему в «Um neun Uhr.» нет действия?",
+  "answer": "Это короткий ответ на вопрос «когда?»: действие не нужно.",
+  "distractors": [
+   "Действие потеряли: на самом деле здесь должно быть komme ich.",
+   "Uhr — это действие, оно стоит в конце вместо глагола."
+  ],
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": null,
+  "de": "Um neun Uhr."
+ },
+ {
+  "item_id": "ch13_L2_transfer_1",
+  "id": "ch13_L2_transfer_1",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_t03",
+  "prompt": "Скажи Ольге: «Мне надо прийти в девять часов.»",
+  "answer": "Ich soll um neun Uhr kommen.",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": true,
+  "audio": "audio_v1/ch13_t03.mp3",
+  "de": null,
+  "accept": [
+   "Ich soll um neun Uhr kommen."
+  ]
+ },
+ {
+  "item_id": "ch13_L2_transfer_2",
+  "id": "ch13_L2_transfer_2",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_t04",
+  "prompt": "Скажи про Ольгу: «Ольге надо прийти сегодня.»",
+  "answer": "Olga soll heute kommen.",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": true,
+  "audio": "audio_v1/ch13_t04.mp3",
+  "de": null,
+  "accept": [
+   "Olga soll heute kommen."
+  ]
+ },
+ {
+  "item_id": "ch13_L2_transfer_3",
+  "id": "ch13_L2_transfer_3",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_t04",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Ольге надо прийти сегодня.",
+  "distractors": [
+   "Ольге надо прийти завтра.",
+   "Ольге можно прийти сегодня."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch13_t04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L2_transfer_4",
+  "id": "ch13_L2_transfer_4",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_t04",
+  "prompt": "Напиши по-немецки: «Ольге надо прийти сегодня.»",
+  "answer": "Olga soll heute kommen.",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": true,
+  "audio": "audio_v1/ch13_t04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L2_transfer_5",
+  "id": "ch13_L2_transfer_5",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_t04",
+  "prompt": "Почему «Olga soll», а не «Olga sollen»?",
+  "answer": "Olga — это «она»: с ней soll.",
+  "distractors": [
+   "sollen — только для вопроса.",
+   "soll — потому что это вопрос."
+  ],
+  "rule_id": "topics/modal",
+  "transfer": true,
+  "audio": null,
+  "de": "Olga soll heute kommen."
+ },
+ {
+  "item_id": "ch13_L2_boss_1",
+  "id": "ch13_L2_boss_1",
+  "lesson": "ch13_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d2_06",
+  "prompt": "Послушай. Во сколько герою прийти?",
+  "answer": "в девять",
+  "distractors": [
+   "в десять",
+   "в три"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d2_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L3_words_1",
+  "id": "ch13_L3_words_1",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_023",
+  "prompt": "Что значит «Kopf»?",
+  "answer": "голова",
+  "distractors": [
+   "живот",
+   "горло"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L3_words_2",
+  "id": "ch13_L3_words_2",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_024",
+  "prompt": "Что значит «Bauch»?",
+  "answer": "живот",
+  "distractors": [
+   "голова",
+   "спина"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L3_words_3",
+  "id": "ch13_L3_words_3",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_025",
+  "prompt": "Что значит «Hals»?",
+  "answer": "горло",
+  "distractors": [
+   "живот",
+   "голова"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L3_words_4",
+  "id": "ch13_L3_words_4",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_027",
+  "prompt": "Что значит «Mund»?",
+  "answer": "рот",
+  "distractors": [
+   "нос",
+   "глаз"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L3_words_5",
+  "id": "ch13_L3_words_5",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_028",
+  "prompt": "Что значит «viel» в «viel Tee»?",
+  "answer": "много",
+  "distractors": [
+   "мало",
+   "часто"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L3_listen_1",
+  "id": "ch13_L3_listen_1",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d3_01",
+  "prompt": "Послушай. Что спросила врач?",
+  "answer": "Добрый день! Что вас беспокоит?",
+  "distractors": [
+   "Добрый день! Как вас зовут?",
+   "Добрый день! Где вы живёте?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d3_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L3_listen_2",
+  "id": "ch13_L3_listen_2",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d3_02",
+  "prompt": "Послушай. Что болит у героя?",
+  "answer": "голова",
+  "distractors": [
+   "спина",
+   "нога"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d3_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L3_listen_3",
+  "id": "ch13_L3_listen_3",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d3_04",
+  "prompt": "Послушай. О чём просит врач?",
+  "answer": "Откройте, пожалуйста, рот.",
+  "distractors": [
+   "Закройте, пожалуйста, рот.",
+   "Откройте, пожалуйста, окно."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d3_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L3_listen_4",
+  "id": "ch13_L3_listen_4",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d3_05",
+  "prompt": "Послушай. О чём спросила врач?",
+  "answer": "Горло болит?",
+  "distractors": [
+   "Голова болит?",
+   "Живот болит?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d3_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L3_listen_5",
+  "id": "ch13_L3_listen_5",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d3_07",
+  "prompt": "Послушай. Что сказала врач?",
+  "answer": "У вас простуда.",
+  "distractors": [
+   "У вас температура.",
+   "У вас кашель."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d3_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L3_read_1",
+  "id": "ch13_L3_read_1",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_023",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У меня болит голова.",
+  "distractors": [
+   "У меня болит живот.",
+   "У тебя болит голова."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Mein Kopf tut weh."
+ },
+ {
+  "item_id": "ch13_L3_read_2",
+  "id": "ch13_L3_read_2",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_024",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У меня болит живот.",
+  "distractors": [
+   "У меня болит горло.",
+   "У меня болит голова."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Mein Bauch tut weh."
+ },
+ {
+  "item_id": "ch13_L3_read_3",
+  "id": "ch13_L3_read_3",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_026",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Что вас беспокоит?",
+  "distractors": [
+   "Что у вас нового?",
+   "Кто вас записал?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Was fehlt Ihnen?"
+ },
+ {
+  "item_id": "ch13_L3_read_4",
+  "id": "ch13_L3_read_4",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_027",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Откройте, пожалуйста, рот.",
+  "distractors": [
+   "Закройте, пожалуйста, рот.",
+   "Покажите, пожалуйста, руку."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Öffnen Sie bitte den Mund."
+ },
+ {
+  "item_id": "ch13_L3_read_5",
+  "id": "ch13_L3_read_5",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_029",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Мне надо много пить.",
+  "distractors": [
+   "Вам надо много пить.",
+   "Мне надо много есть."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich soll viel trinken."
+ },
+ {
+  "item_id": "ch13_L3_speak_1",
+  "id": "ch13_L3_speak_1",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_023",
+  "prompt": "Скажи врачу: «У меня болит голова.»",
+  "answer": "Mein Kopf tut weh.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch13_023.mp3",
+  "de": null,
+  "accept": [
+   "Mein Kopf tut weh."
+  ]
+ },
+ {
+  "item_id": "ch13_L3_speak_2",
+  "id": "ch13_L3_speak_2",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_025",
+  "prompt": "Скажи врачу: «У меня болит горло.»",
+  "answer": "Mein Hals tut weh.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch13_025.mp3",
+  "de": null,
+  "accept": [
+   "Mein Hals tut weh."
+  ]
+ },
+ {
+  "item_id": "ch13_L3_speak_3",
+  "id": "ch13_L3_speak_3",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_026",
+  "prompt": "Ты врач. Спроси пациента: «Что вас беспокоит?»",
+  "answer": "Was fehlt Ihnen?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch13_026.mp3",
+  "de": null,
+  "accept": [
+   "Was fehlt Ihnen?"
+  ]
+ },
+ {
+  "item_id": "ch13_L3_speak_4",
+  "id": "ch13_L3_speak_4",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_028",
+  "prompt": "Скажи как врач: «Пейте много чая!»",
+  "answer": "Trinken Sie viel Tee!",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch13_028.mp3",
+  "de": null,
+  "accept": [
+   "Trinken Sie viel Tee!"
+  ]
+ },
+ {
+  "item_id": "ch13_L3_speak_5",
+  "id": "ch13_L3_speak_5",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_d3_05",
+  "prompt": "Спроси как врач: «Горло болит?» Голос в конце — вверх ↗.",
+  "answer": "Tut der Hals weh?",
+  "distractors": null,
+  "rule_id": "topics/intonation",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d3_05.mp3",
+  "de": null,
+  "accept": [
+   "Tut der Hals weh?"
+  ]
+ },
+ {
+  "item_id": "ch13_L3_write_1",
+  "id": "ch13_L3_write_1",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_023",
+  "prompt": "Впиши: «Mein Kopf tut ___.» (болит: tut …)",
+  "answer": "weh",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch13_023.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L3_write_2",
+  "id": "ch13_L3_write_2",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_024",
+  "prompt": "Впиши: «Mein ___ tut weh.» (живот)",
+  "answer": "Bauch",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch13_024.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L3_write_3",
+  "id": "ch13_L3_write_3",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_027",
+  "prompt": "Впиши: «Öffnen Sie bitte den ___.» (рот)",
+  "answer": "Mund",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch13_027.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L3_write_4",
+  "id": "ch13_L3_write_4",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_029",
+  "prompt": "Впиши: «Ich soll viel ___.» (пить)",
+  "answer": "trinken",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch13_029.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L3_write_5",
+  "id": "ch13_L3_write_5",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_d3_05",
+  "prompt": "Впиши: «___ der Hals weh?» (болит)",
+  "answer": "Tut",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d3_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L3_why_1",
+  "id": "ch13_L3_why_1",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_023",
+  "prompt": "Почему weh стоит в самом конце?",
+  "answer": "tut weh — одно действие: tut вторым, weh — в конец.",
+  "distractors": [
+   "weh — главное слово, его ставят последним.",
+   "weh в конце, потому что фраза про боль."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Mein Kopf tut weh."
+ },
+ {
+  "item_id": "ch13_L3_why_2",
+  "id": "ch13_L3_why_2",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_025",
+  "prompt": "Почему «Mein Hals», а не «Meine Hals»?",
+  "answer": "Hals — der-слово: mein, без -e.",
+  "distractors": [
+   "Hals — die-слово, поэтому mein.",
+   "-e добавляют только в вопросе."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Mein Hals tut weh."
+ },
+ {
+  "item_id": "ch13_L3_why_3",
+  "id": "ch13_L3_why_3",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_027",
+  "prompt": "Почему «Öffnen Sie …» начинается с действия?",
+  "answer": "Это просьба на «вы»: действие первое, потом Sie.",
+  "distractors": [
+   "Öffnen — главное слово, его ставят первым.",
+   "Так говорят только врачи в больнице."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Öffnen Sie bitte den Mund."
+ },
+ {
+  "item_id": "ch13_L3_why_4",
+  "id": "ch13_L3_why_4",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_026",
+  "prompt": "Почему в «Was fehlt Ihnen?» действие fehlt стоит вторым?",
+  "answer": "Вопрос-слово Was — вагон №1, действие fehlt сразу за ним.",
+  "distractors": [
+   "fehlt — самое короткое слово, поэтому оно второе.",
+   "После Was всегда идёт Ihnen."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Was fehlt Ihnen?"
+ },
+ {
+  "item_id": "ch13_L3_why_5",
+  "id": "ch13_L3_why_5",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_d3_05",
+  "prompt": "Почему «Tut der Hals weh?» начинается с Tut?",
+  "answer": "Вопрос «да/нет»: tut впереди, weh — в конце.",
+  "distractors": [
+   "Tut — главное слово, поэтому оно первое.",
+   "Так спрашивают только у врача."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": null,
+  "de": "Tut der Hals weh?"
+ },
+ {
+  "item_id": "ch13_L3_transfer_1",
+  "id": "ch13_L3_transfer_1",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_t05",
+  "prompt": "Скажи про Ольгу: «Ольге надо много пить.»",
+  "answer": "Olga soll viel trinken.",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": true,
+  "audio": "audio_v1/ch13_t05.mp3",
+  "de": null,
+  "accept": [
+   "Olga soll viel trinken."
+  ]
+ },
+ {
+  "item_id": "ch13_L3_transfer_2",
+  "id": "ch13_L3_transfer_2",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_t06",
+  "prompt": "Передай соседу просьбу врача по-немецки: «Вам надо открыть рот.» (рот — der Mund)",
+  "answer": "Sie sollen den Mund öffnen.",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": true,
+  "audio": "audio_v1/ch13_t06.mp3",
+  "de": null,
+  "accept": [
+   "Sie sollen den Mund öffnen."
+  ]
+ },
+ {
+  "item_id": "ch13_L3_transfer_3",
+  "id": "ch13_L3_transfer_3",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_t06",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Вам надо открыть рот.",
+  "distractors": [
+   "Вам надо закрыть рот.",
+   "Вам надо много пить."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch13_t06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L3_transfer_4",
+  "id": "ch13_L3_transfer_4",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_t06",
+  "prompt": "Напиши по-немецки: «Вам надо открыть рот.» (рот — der Mund)",
+  "answer": "Sie sollen den Mund öffnen.",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": "audio_v1/ch13_t06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L3_transfer_5",
+  "id": "ch13_L3_transfer_5",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_t06",
+  "prompt": "Почему «den Mund», а не «der Mund»?",
+  "answer": "Здесь Mund — «кого-что»: der → den.",
+  "distractors": [
+   "Mund — die-слово, поэтому den.",
+   "den — когда ртов несколько."
+  ],
+  "rule_id": "topics/modal",
+  "transfer": true,
+  "audio": null,
+  "de": "Sie sollen den Mund öffnen."
+ },
+ {
+  "item_id": "ch13_L3_boss_1",
+  "id": "ch13_L3_boss_1",
+  "lesson": "ch13_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d3_08",
+  "prompt": "Послушай. Что советует врач?",
+  "answer": "пить много чая",
+  "distractors": [
+   "много спать",
+   "есть много супа"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d3_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L4_words_1",
+  "id": "ch13_L4_words_1",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_031",
+  "prompt": "Что значит «gegen» в «etwas gegen Husten»?",
+  "answer": "от",
+  "distractors": [
+   "для",
+   "с"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L4_words_2",
+  "id": "ch13_L4_words_2",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_032",
+  "prompt": "Что значит «Tropfen»?",
+  "answer": "капли",
+  "distractors": [
+   "таблетки",
+   "мазь"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L4_words_3",
+  "id": "ch13_L4_words_3",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_033",
+  "prompt": "Что значит «dreimal»?",
+  "answer": "три раза",
+  "distractors": [
+   "третий",
+   "три дня"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L4_words_4",
+  "id": "ch13_L4_words_4",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_034",
+  "prompt": "Что значит «aber»?",
+  "answer": "но",
+  "distractors": [
+   "или",
+   "и"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L4_words_5",
+  "id": "ch13_L4_words_5",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_036",
+  "prompt": "Что значит «sondern» после «keine»?",
+  "answer": "а",
+  "distractors": [
+   "но",
+   "или"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L4_listen_1",
+  "id": "ch13_L4_listen_1",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d4_01",
+  "prompt": "Послушай. Что спросила аптекарь?",
+  "answer": "Что вы хотите?",
+  "distractors": [
+   "Что у вас болит?",
+   "Где вы живёте?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d4_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L4_listen_2",
+  "id": "ch13_L4_listen_2",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d4_02",
+  "prompt": "Послушай. Что у героя?",
+  "answer": "кашель, но нет температуры",
+  "distractors": [
+   "кашель и температура",
+   "температура, но кашля у него нет"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d4_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L4_listen_3",
+  "id": "ch13_L4_listen_3",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d4_04",
+  "prompt": "Послушай. Что спросила аптекарь?",
+  "answer": "Таблетки или капли?",
+  "distractors": [
+   "Таблетки или мазь?",
+   "Таблетки или сироп от кашля?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d4_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L4_listen_4",
+  "id": "ch13_L4_listen_4",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d4_05",
+  "prompt": "Послушай. Что выбрал герой?",
+  "answer": "капли",
+  "distractors": [
+   "таблетки",
+   "чай"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d4_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L4_listen_5",
+  "id": "ch13_L4_listen_5",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d4_06",
+  "prompt": "Послушай. Сколько раз в день принимать?",
+  "answer": "три раза",
+  "distractors": [
+   "два раза",
+   "десять раз"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d4_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L4_read_1",
+  "id": "ch13_L4_read_1",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_031",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У вас есть что-нибудь от кашля?",
+  "distractors": [
+   "У вас есть что-нибудь от насморка?",
+   "У вас есть кашель?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Haben Sie etwas gegen Husten?"
+ },
+ {
+  "item_id": "ch13_L4_read_2",
+  "id": "ch13_L4_read_2",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_032",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Вы хотите таблетки или капли?",
+  "distractors": [
+   "Вы хотите таблетки и капли?",
+   "Вы хотите не таблетки, а капли?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Möchten Sie Tabletten oder Tropfen?"
+ },
+ {
+  "item_id": "ch13_L4_read_3",
+  "id": "ch13_L4_read_3",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_034",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У меня кашель, но температуры у меня нет.",
+  "distractors": [
+   "У меня кашель, и температура у меня тоже есть.",
+   "У меня нет кашля, но есть температура."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe Husten, aber ich habe kein Fieber."
+ },
+ {
+  "item_id": "ch13_L4_read_4",
+  "id": "ch13_L4_read_4",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_036",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я хочу не таблетки, а капли.",
+  "distractors": [
+   "Я хочу таблетки и капли.",
+   "Я не хочу ни таблетки, ни капли."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich möchte keine Tabletten, sondern Tropfen."
+ },
+ {
+  "item_id": "ch13_L4_read_5",
+  "id": "ch13_L4_read_5",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_035",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я принимаю капли и пью много чая.",
+  "distractors": [
+   "Я принимаю таблетки и пью много чая.",
+   "Я пью капли и много чая."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich nehme Tropfen und ich trinke viel Tee."
+ },
+ {
+  "item_id": "ch13_L4_speak_1",
+  "id": "ch13_L4_speak_1",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_031",
+  "prompt": "Спроси в аптеке: «У вас есть что-нибудь от кашля?» Голос в конце — вверх ↗.",
+  "answer": "Haben Sie etwas gegen Husten?",
+  "distractors": null,
+  "rule_id": "topics/intonation",
+  "transfer": false,
+  "audio": "audio_v1/ch13_031.mp3",
+  "de": null,
+  "accept": [
+   "Haben Sie etwas gegen Husten?"
+  ]
+ },
+ {
+  "item_id": "ch13_L4_speak_2",
+  "id": "ch13_L4_speak_2",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_034",
+  "prompt": "Скажи: «У меня кашель, но температуры у меня нет.»",
+  "answer": "Ich habe Husten, aber ich habe kein Fieber.",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch13_034.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe Husten, aber ich habe kein Fieber."
+  ]
+ },
+ {
+  "item_id": "ch13_L4_speak_3",
+  "id": "ch13_L4_speak_3",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_036",
+  "prompt": "Скажи: «Я хочу не таблетки, а капли.»",
+  "answer": "Ich möchte keine Tabletten, sondern Tropfen.",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch13_036.mp3",
+  "de": null,
+  "accept": [
+   "Ich möchte keine Tabletten, sondern Tropfen."
+  ]
+ },
+ {
+  "item_id": "ch13_L4_speak_4",
+  "id": "ch13_L4_speak_4",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_035",
+  "prompt": "Скажи: «Я принимаю капли и пью много чая.»",
+  "answer": "Ich nehme Tropfen und ich trinke viel Tee.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch13_035.mp3",
+  "de": null,
+  "accept": [
+   "Ich nehme Tropfen und ich trinke viel Tee."
+  ]
+ },
+ {
+  "item_id": "ch13_L4_speak_5",
+  "id": "ch13_L4_speak_5",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_d4_04",
+  "prompt": "Спроси как аптекарь: «Вы хотите таблетки или капли?» Голос: вверх на первом, вниз на втором.",
+  "answer": "Möchten Sie Tabletten oder Tropfen?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d4_04.mp3",
+  "de": null,
+  "accept": [
+   "Möchten Sie Tabletten oder Tropfen?"
+  ]
+ },
+ {
+  "item_id": "ch13_L4_write_1",
+  "id": "ch13_L4_write_1",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_034",
+  "prompt": "Впиши: «Ich habe Husten, ___ ich habe kein Fieber.» (но)",
+  "answer": "aber",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch13_034.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L4_write_2",
+  "id": "ch13_L4_write_2",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_036",
+  "prompt": "Впиши: «Ich möchte keine Tabletten, ___ Tropfen.» (а)",
+  "answer": "sondern",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch13_036.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L4_write_3",
+  "id": "ch13_L4_write_3",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_035",
+  "prompt": "Впиши: «Ich nehme Tropfen ___ ich trinke viel Tee.» (и)",
+  "answer": "und",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch13_035.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L4_write_4",
+  "id": "ch13_L4_write_4",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_032",
+  "prompt": "Впиши: «Möchten Sie Tabletten ___ Tropfen?» (или)",
+  "answer": "oder",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch13_032.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L4_write_5",
+  "id": "ch13_L4_write_5",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_033",
+  "prompt": "Впиши: «Nehmen Sie ___ am Tag zehn Tropfen.» (три раза)",
+  "answer": "dreimal",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch13_033.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L4_why_1",
+  "id": "ch13_L4_why_1",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_034",
+  "prompt": "Почему после aber снова «ich habe», а не «habe ich»?",
+  "answer": "aber стоит у порога и места не занимает.",
+  "distractors": [
+   "aber — само действие, вагон №2.",
+   "После aber всегда идёт вопрос."
+  ],
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe Husten, aber ich habe kein Fieber."
+ },
+ {
+  "item_id": "ch13_L4_why_2",
+  "id": "ch13_L4_why_2",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_036",
+  "prompt": "Почему здесь sondern, а не aber?",
+  "answer": "После keine исправляем деталь: sondern.",
+  "distractors": [
+   "sondern — вежливее, чем aber.",
+   "aber нельзя ставить после запятой."
+  ],
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich möchte keine Tabletten, sondern Tropfen."
+ },
+ {
+  "item_id": "ch13_L4_why_3",
+  "id": "ch13_L4_why_3",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_032",
+  "prompt": "Почему на «Tabletten oder Tropfen?» не отвечают «Ja»?",
+  "answer": "Это вопрос «или»: выбирают одно из двух.",
+  "distractors": [
+   "Ja в аптеке звучит грубо и коротко.",
+   "Ja говорят только друзьям, на «ты»."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": null,
+  "de": "Möchten Sie Tabletten oder Tropfen?"
+ },
+ {
+  "item_id": "ch13_L4_why_4",
+  "id": "ch13_L4_why_4",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_035",
+  "prompt": "Почему во второй части «ich trinke», а не «trinke ich»?",
+  "answer": "und соединяет, дальше снова ich · trinke.",
+  "distractors": [
+   "und — это действие, оно второе.",
+   "После und слова идут как угодно."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich nehme Tropfen und ich trinke viel Tee."
+ },
+ {
+  "item_id": "ch13_L4_why_5",
+  "id": "ch13_L4_why_5",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_d4_06",
+  "prompt": "Почему «zehn Tropfen», а не «zehn Tropfens»?",
+  "answer": "Tropfen во мн. ч. не меняется.",
+  "distractors": [
+   "После чисел слово не меняют.",
+   "Tropfens — только в вопросе."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Nehmen Sie dreimal am Tag zehn Tropfen."
+ },
+ {
+  "item_id": "ch13_L4_transfer_1",
+  "id": "ch13_L4_transfer_1",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_t07",
+  "prompt": "Скажи: «У меня насморк, но температуры у меня нет.»",
+  "answer": "Ich habe Schnupfen, aber ich habe kein Fieber.",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": true,
+  "audio": "audio_v1/ch13_t07.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe Schnupfen, aber ich habe kein Fieber."
+  ]
+ },
+ {
+  "item_id": "ch13_L4_transfer_2",
+  "id": "ch13_L4_transfer_2",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_t08",
+  "prompt": "Скажи: «Я хочу не капли, а таблетки.»",
+  "answer": "Ich möchte keine Tropfen, sondern Tabletten.",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": true,
+  "audio": "audio_v1/ch13_t08.mp3",
+  "de": null,
+  "accept": [
+   "Ich möchte keine Tropfen, sondern Tabletten."
+  ]
+ },
+ {
+  "item_id": "ch13_L4_transfer_3",
+  "id": "ch13_L4_transfer_3",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_t08",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Я хочу не капли, а таблетки.",
+  "distractors": [
+   "Я хочу капли и таблетки.",
+   "Я хочу не таблетки, а капли."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch13_t08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L4_transfer_4",
+  "id": "ch13_L4_transfer_4",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_t08",
+  "prompt": "Напиши по-немецки: «Я хочу не капли, а таблетки.»",
+  "answer": "Ich möchte keine Tropfen, sondern Tabletten.",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": true,
+  "audio": "audio_v1/ch13_t08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L4_transfer_5",
+  "id": "ch13_L4_transfer_5",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_t08",
+  "prompt": "Почему «keine Tropfen», а не «kein Tropfen»?",
+  "answer": "Tropfen тут во мн. ч.: keine.",
+  "distractors": [
+   "Tropfen — die-слово, поэтому keine.",
+   "kein ставят только на «ты»."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": true,
+  "audio": null,
+  "de": "Ich möchte keine Tropfen, sondern Tabletten."
+ },
+ {
+  "item_id": "ch13_L4_boss_1",
+  "id": "ch13_L4_boss_1",
+  "lesson": "ch13_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d4_08",
+  "prompt": "Послушай. Что сказала аптекарь на прощание?",
+  "answer": "Поправляйтесь! До свидания!",
+  "distractors": [
+   "Спасибо! До свидания!",
+   "Принимайте капли! До свидания!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d4_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L5_words_1",
+  "id": "ch13_L5_words_1",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_039",
+  "prompt": "Что значит «für die Gesundheit»?",
+  "answer": "для здоровья",
+  "distractors": [
+   "от болезни",
+   "в аптеке"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L5_words_2",
+  "id": "ch13_L5_words_2",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_040",
+  "prompt": "Что значит «zweimal in der Woche»?",
+  "answer": "два раза в неделю",
+  "distractors": [
+   "два дня в неделю",
+   "раз в две недели"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L5_words_3",
+  "id": "ch13_L5_words_3",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_041",
+  "prompt": "Что значит «gern» в «Ich mache gern Sport»?",
+  "answer": "с удовольствием",
+  "distractors": [
+   "иногда",
+   "очень много"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L5_words_4",
+  "id": "ch13_L5_words_4",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_042",
+  "prompt": "Что значит «Kommst du heute mit?»?",
+  "answer": "Ты пойдёшь сегодня со мной?",
+  "distractors": [
+   "Придёшь сегодня ко мне?",
+   "Ты сегодня дома?"
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L5_words_5",
+  "id": "ch13_L5_words_5",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_044",
+  "prompt": "Что значит «Zeit» в «Wann hast du Zeit?»?",
+  "answer": "время",
+  "distractors": [
+   "деньги",
+   "день"
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L5_listen_1",
+  "id": "ch13_L5_listen_1",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d5_01",
+  "prompt": "Послушай. О чём спросила Ольга?",
+  "answer": "Что ты делаешь для здоровья?",
+  "distractors": [
+   "Что ты делаешь в субботу?",
+   "Где ты занимаешься спортом?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d5_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L5_listen_2",
+  "id": "ch13_L5_listen_2",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d5_03",
+  "prompt": "Послушай. Как часто герой плавает?",
+  "answer": "два раза в неделю",
+  "distractors": [
+   "три раза в неделю",
+   "раз в неделю"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d5_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L5_listen_3",
+  "id": "ch13_L5_listen_3",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d5_04",
+  "prompt": "Послушай. Где работает подруга Ольги?",
+  "answer": "в фитнес-клубе",
+  "distractors": [
+   "в аптеке",
+   "в приёмной врача"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d5_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L5_listen_4",
+  "id": "ch13_L5_listen_4",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d5_05",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Ты пойдёшь сегодня со мной?",
+  "distractors": [
+   "Пойдёшь завтра со мной?",
+   "Ты сегодня свободен?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d5_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L5_listen_5",
+  "id": "ch13_L5_listen_5",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d5_08",
+  "prompt": "Послушай. Когда они пойдут?",
+  "answer": "в субботу в десять",
+  "distractors": [
+   "сегодня в десять",
+   "в субботу в девять"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d5_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L5_read_1",
+  "id": "ch13_L5_read_1",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_039",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Что ты делаешь для здоровья?",
+  "distractors": [
+   "Что ты делаешь в субботу?",
+   "Что у тебя со здоровьем?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Was machst du für die Gesundheit?"
+ },
+ {
+  "item_id": "ch13_L5_read_2",
+  "id": "ch13_L5_read_2",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_040",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я плаваю два раза в неделю.",
+  "distractors": [
+   "Я плаваю три раза в неделю.",
+   "Я играю два раза в неделю."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich schwimme zweimal in der Woche."
+ },
+ {
+  "item_id": "ch13_L5_read_3",
+  "id": "ch13_L5_read_3",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_043",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Сегодня у меня нет времени, но в субботу я пойду вместе.",
+  "distractors": [
+   "Сегодня у меня есть время, и в субботу я тоже пойду с тобой.",
+   "В субботу у меня нет времени, но сегодня я пойду с тобой."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe heute keine Zeit, aber am Samstag komme ich mit."
+ },
+ {
+  "item_id": "ch13_L5_read_4",
+  "id": "ch13_L5_read_4",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_044",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Когда у тебя есть время?",
+  "distractors": [
+   "Сколько у тебя времени?",
+   "Когда ты идёшь в клуб?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wann hast du Zeit?"
+ },
+ {
+  "item_id": "ch13_L5_read_5",
+  "id": "ch13_L5_read_5",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_045",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Моя подруга работает в фитнес-клубе.",
+  "distractors": [
+   "Моя подруга занимается в фитнес-клубе.",
+   "Мой друг работает в фитнес-клубе."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Meine Freundin arbeitet im Fitnessstudio."
+ },
+ {
+  "item_id": "ch13_L5_speak_1",
+  "id": "ch13_L5_speak_1",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_039",
+  "prompt": "Спроси Ольгу: «Что ты делаешь для здоровья?»",
+  "answer": "Was machst du für die Gesundheit?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch13_039.mp3",
+  "de": null,
+  "accept": [
+   "Was machst du für die Gesundheit?"
+  ]
+ },
+ {
+  "item_id": "ch13_L5_speak_2",
+  "id": "ch13_L5_speak_2",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_041",
+  "prompt": "Скажи: «Я люблю заниматься спортом.»",
+  "answer": "Ich mache gern Sport.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch13_041.mp3",
+  "de": null,
+  "accept": [
+   "Ich mache gern Sport."
+  ]
+ },
+ {
+  "item_id": "ch13_L5_speak_3",
+  "id": "ch13_L5_speak_3",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_040",
+  "prompt": "Скажи: «Я плаваю два раза в неделю.»",
+  "answer": "Ich schwimme zweimal in der Woche.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch13_040.mp3",
+  "de": null,
+  "accept": [
+   "Ich schwimme zweimal in der Woche."
+  ]
+ },
+ {
+  "item_id": "ch13_L5_speak_4",
+  "id": "ch13_L5_speak_4",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_042",
+  "prompt": "Позови Ольгу: «Ты пойдёшь сегодня со мной?» Голос в конце — вверх ↗.",
+  "answer": "Kommst du heute mit?",
+  "distractors": null,
+  "rule_id": "topics/intonation",
+  "transfer": false,
+  "audio": "audio_v1/ch13_042.mp3",
+  "de": null,
+  "accept": [
+   "Kommst du heute mit?"
+  ]
+ },
+ {
+  "item_id": "ch13_L5_speak_5",
+  "id": "ch13_L5_speak_5",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_043",
+  "prompt": "Ответь: «Сегодня у меня нет времени, но в субботу я пойду вместе.»",
+  "answer": "Ich habe heute keine Zeit, aber am Samstag komme ich mit.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch13_043.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe heute keine Zeit, aber am Samstag komme ich mit."
+  ]
+ },
+ {
+  "item_id": "ch13_L5_write_1",
+  "id": "ch13_L5_write_1",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_042",
+  "prompt": "Впиши: «Kommst du heute ___?» (со мной)",
+  "answer": "mit",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch13_042.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L5_write_2",
+  "id": "ch13_L5_write_2",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_043",
+  "prompt": "Впиши: «…, aber am Samstag ___ ich mit.» (пойду)",
+  "answer": "komme",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch13_043.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L5_write_3",
+  "id": "ch13_L5_write_3",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_040",
+  "prompt": "Впиши: «Ich schwimme ___ in der Woche.» (два раза)",
+  "answer": "zweimal",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch13_040.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L5_write_4",
+  "id": "ch13_L5_write_4",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_044",
+  "prompt": "Впиши: «Wann hast du ___?» (время)",
+  "answer": "Zeit",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch13_044.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L5_write_5",
+  "id": "ch13_L5_write_5",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_039",
+  "prompt": "Впиши: «Was machst du für die ___?» (здоровье)",
+  "answer": "Gesundheit",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch13_039.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L5_why_1",
+  "id": "ch13_L5_why_1",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_043",
+  "prompt": "Почему «aber am Samstag komme ich», а не «aber am Samstag ich komme»?",
+  "answer": "am Samstag — вагон №1, действие сразу второе.",
+  "distractors": [
+   "am Samstag — вагон №1, действие сразу первое.",
+   "ich ставят в конец, когда устали."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe heute keine Zeit, aber am Samstag komme ich mit."
+ },
+ {
+  "item_id": "ch13_L5_why_2",
+  "id": "ch13_L5_why_2",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_042",
+  "prompt": "Почему mit стоит в самом конце?",
+  "answer": "mitkommen — из двух частей: mit уходит в конец.",
+  "distractors": [
+   "mitkommen — из двух частей: mit встаёт вперёд.",
+   "mit ставят в конец только на «ты»."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Kommst du heute mit?"
+ },
+ {
+  "item_id": "ch13_L5_why_3",
+  "id": "ch13_L5_why_3",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_039",
+  "prompt": "Почему «Was machst du…», а не «Was du machst…»?",
+  "answer": "После was действие сразу второе: machst.",
+  "distractors": [
+   "du — главное слово, оно второе.",
+   "После was действие сразу первое: machst."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Was machst du für die Gesundheit?"
+ },
+ {
+  "item_id": "ch13_L5_why_4",
+  "id": "ch13_L5_why_4",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_041",
+  "prompt": "Что значит gern в «Ich mache gern Sport»?",
+  "answer": "Мне это нравится: делаю с удовольствием.",
+  "distractors": [
+   "Делаю это очень часто, каждый день.",
+   "Делаю это плохо и редко, иногда."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich mache gern Sport."
+ },
+ {
+  "item_id": "ch13_L5_why_5",
+  "id": "ch13_L5_why_5",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_045",
+  "prompt": "Почему «Meine Freundin», а не «Mein Freundin»?",
+  "answer": "die Freundin — die-слово: meine.",
+  "distractors": [
+   "Freundin — der-слово: meine.",
+   "-e добавляют, когда говорят вежливо."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Meine Freundin arbeitet im Fitnessstudio."
+ },
+ {
+  "item_id": "ch13_L5_transfer_1",
+  "id": "ch13_L5_transfer_1",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_t09",
+  "prompt": "Скажи: «Я играю в футбол два раза в неделю.»",
+  "answer": "Ich spiele zweimal in der Woche Fußball.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch13_t09.mp3",
+  "de": null,
+  "accept": [
+   "Ich spiele zweimal in der Woche Fußball."
+  ]
+ },
+ {
+  "item_id": "ch13_L5_transfer_2",
+  "id": "ch13_L5_transfer_2",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_t10",
+  "prompt": "Скажи: «Сегодня у меня нет времени, но в субботу у меня есть время.»",
+  "answer": "Ich habe heute keine Zeit, aber am Samstag habe ich Zeit.",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": true,
+  "audio": "audio_v1/ch13_t10.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe heute keine Zeit, aber am Samstag habe ich Zeit."
+  ]
+ },
+ {
+  "item_id": "ch13_L5_transfer_3",
+  "id": "ch13_L5_transfer_3",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_t10",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Сегодня у меня нет времени, но в субботу у меня есть время.",
+  "distractors": [
+   "Сегодня у меня есть время, но в субботу нет.",
+   "В субботу у меня нет времени, и сегодня тоже."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch13_t10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L5_transfer_4",
+  "id": "ch13_L5_transfer_4",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_t10",
+  "prompt": "Напиши по-немецки: «Сегодня у меня нет времени, но в субботу у меня есть время.»",
+  "answer": "Ich habe heute keine Zeit, aber am Samstag habe ich Zeit.",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": true,
+  "audio": "audio_v1/ch13_t10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L5_transfer_5",
+  "id": "ch13_L5_transfer_5",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_t10",
+  "prompt": "Почему во второй части «habe ich», а не «ich habe»?",
+  "answer": "Место 1 уже занято: am Samstag.",
+  "distractors": [
+   "habe ich — так вежливее.",
+   "После aber всегда вопрос."
+  ],
+  "rule_id": "topics/nicht_kein",
+  "transfer": true,
+  "audio": null,
+  "de": "Ich habe heute keine Zeit, aber am Samstag habe ich Zeit."
+ },
+ {
+  "item_id": "ch13_L5_boss_1",
+  "id": "ch13_L5_boss_1",
+  "lesson": "ch13_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d5_06",
+  "prompt": "Послушай. Когда герой пойдёт с Ольгой?",
+  "answer": "в субботу",
+  "distractors": [
+   "сегодня",
+   "в воскресенье"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d5_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L6_words_1",
+  "id": "ch13_L6_words_1",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_048",
+  "prompt": "Что значит «Husten und Fieber»?",
+  "answer": "кашель и температура",
+  "distractors": [
+   "кашель и насморк",
+   "кашель и боль"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L6_words_2",
+  "id": "ch13_L6_words_2",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_050",
+  "prompt": "Что значит «einen Termin» в «Ich habe um neun Uhr einen Termin»?",
+  "answer": "запись на приём",
+  "distractors": [
+   "рецепт",
+   "страховая карта"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L6_words_3",
+  "id": "ch13_L6_words_3",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_049",
+  "prompt": "Что значит «zum Arzt»?",
+  "answer": "к врачу",
+  "distractors": [
+   "от врача",
+   "у врача"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L6_words_4",
+  "id": "ch13_L6_words_4",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_054",
+  "prompt": "Что значит «gern» в «Ich komme gern mit»?",
+  "answer": "с удовольствием",
+  "distractors": [
+   "иногда",
+   "сразу"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L6_words_5",
+  "id": "ch13_L6_words_5",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch13_053",
+  "prompt": "Что значит «am Samstag um zehn Uhr»?",
+  "answer": "в субботу в десять",
+  "distractors": [
+   "в воскресенье в десять",
+   "сегодня в десять"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch13_L6_listen_1",
+  "id": "ch13_L6_listen_1",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d6_01",
+  "prompt": "Послушай. О чём спросила Ольга?",
+  "answer": "Ты пойдёшь сегодня со мной?",
+  "distractors": [
+   "Ты пойдёшь завтра со мной?",
+   "Ты пойдёшь без меня?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d6_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L6_listen_2",
+  "id": "ch13_L6_listen_2",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d6_02",
+  "prompt": "Послушай. Что у героя?",
+  "answer": "кашель и температура",
+  "distractors": [
+   "насморк и кашель",
+   "боль в горле и кашель"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d6_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L6_listen_3",
+  "id": "ch13_L6_listen_3",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d6_03",
+  "prompt": "Послушай. Что Ольга советует?",
+  "answer": "пойти к врачу",
+  "distractors": [
+   "пойти в аптеку",
+   "пойти в клуб"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d6_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L6_listen_4",
+  "id": "ch13_L6_listen_4",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d6_04",
+  "prompt": "Послушай. Когда у героя приём?",
+  "answer": "в девять",
+  "distractors": [
+   "в десять",
+   "в восемь"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d6_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L6_listen_5",
+  "id": "ch13_L6_listen_5",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d6_05",
+  "prompt": "Послушай. Что надо пить?",
+  "answer": "много чая",
+  "distractors": [
+   "много воды",
+   "мало чая"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d6_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L6_listen_6",
+  "id": "ch13_L6_listen_6",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d6_07",
+  "prompt": "Послушай. Во сколько Ольга зовёт?",
+  "answer": "в десять",
+  "distractors": [
+   "в девять",
+   "в одиннадцать"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d6_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L6_read_1",
+  "id": "ch13_L6_read_1",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_048",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У меня кашель и температура.",
+  "distractors": [
+   "У меня кашель, но температуры нет.",
+   "У тебя кашель и температура."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe Husten und Fieber."
+ },
+ {
+  "item_id": "ch13_L6_read_2",
+  "id": "ch13_L6_read_2",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_049",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Иди к врачу!",
+  "distractors": [
+   "Иди в аптеку!",
+   "Идите к врачу!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Geh zum Arzt!"
+ },
+ {
+  "item_id": "ch13_L6_read_3",
+  "id": "ch13_L6_read_3",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_051",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Пей много чая!",
+  "distractors": [
+   "Пейте много чая!",
+   "Пей мало чая!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Trink viel Tee!"
+ },
+ {
+  "item_id": "ch13_L6_read_4",
+  "id": "ch13_L6_read_4",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_052",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Сегодня у меня кашель, но в субботу я пойду вместе.",
+  "distractors": [
+   "Сегодня у меня кашель, и в субботу я тоже не пойду.",
+   "В субботу у меня кашель, но сегодня я пойду вместе."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe heute Husten, aber am Samstag komme ich mit."
+ },
+ {
+  "item_id": "ch13_L6_read_5",
+  "id": "ch13_L6_read_5",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch13_053",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Ты пойдёшь со мной в субботу в десять?",
+  "distractors": [
+   "Ты пойдёшь со мной сегодня в десять?",
+   "Ты пойдёшь со мной в воскресенье в десять?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Kommst du am Samstag um zehn Uhr mit?"
+ },
+ {
+  "item_id": "ch13_L6_speak_1",
+  "id": "ch13_L6_speak_1",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_048",
+  "prompt": "Скажи врачу: «У меня кашель и температура.»",
+  "answer": "Ich habe Husten und Fieber.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch13_048.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe Husten und Fieber."
+  ]
+ },
+ {
+  "item_id": "ch13_L6_speak_2",
+  "id": "ch13_L6_speak_2",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_050",
+  "prompt": "Скажи в приёмной: «У меня в девять запись на приём.»",
+  "answer": "Ich habe um neun Uhr einen Termin.",
+  "distractors": null,
+  "rule_id": "topics/akkusativ",
+  "transfer": false,
+  "audio": "audio_v1/ch13_050.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe um neun Uhr einen Termin."
+  ]
+ },
+ {
+  "item_id": "ch13_L6_speak_3",
+  "id": "ch13_L6_speak_3",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_049",
+  "prompt": "Скажи другу: «Иди к врачу!»",
+  "answer": "Geh zum Arzt!",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch13_049.mp3",
+  "de": null,
+  "accept": [
+   "Geh zum Arzt!"
+  ]
+ },
+ {
+  "item_id": "ch13_L6_speak_4",
+  "id": "ch13_L6_speak_4",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_053",
+  "prompt": "Позови Ольгу: «Ты пойдёшь со мной в субботу в десять?» Голос в конце — вверх ↗.",
+  "answer": "Kommst du am Samstag um zehn Uhr mit?",
+  "distractors": null,
+  "rule_id": "topics/intonation",
+  "transfer": false,
+  "audio": "audio_v1/ch13_053.mp3",
+  "de": null,
+  "accept": [
+   "Kommst du am Samstag um zehn Uhr mit?"
+  ]
+ },
+ {
+  "item_id": "ch13_L6_speak_5",
+  "id": "ch13_L6_speak_5",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_054",
+  "prompt": "Ответь: «Я с удовольствием пойду вместе.»",
+  "answer": "Ich komme gern mit.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch13_054.mp3",
+  "de": null,
+  "accept": [
+   "Ich komme gern mit."
+  ]
+ },
+ {
+  "item_id": "ch13_L6_write_1",
+  "id": "ch13_L6_write_1",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_048",
+  "prompt": "Впиши: «Ich habe Husten ___ Fieber.» (и)",
+  "answer": "und",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch13_048.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L6_write_2",
+  "id": "ch13_L6_write_2",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_049",
+  "prompt": "Впиши: «___ zum Arzt!» (иди)",
+  "answer": "Geh",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch13_049.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L6_write_3",
+  "id": "ch13_L6_write_3",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_050",
+  "prompt": "Впиши: «Ich habe um neun Uhr einen ___.» (приём)",
+  "answer": "Termin",
+  "distractors": null,
+  "rule_id": "topics/akkusativ",
+  "transfer": false,
+  "audio": "audio_v1/ch13_050.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L6_write_4",
+  "id": "ch13_L6_write_4",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_051",
+  "prompt": "Впиши: «___ viel Tee!» (пей)",
+  "answer": "Trink",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch13_051.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L6_write_5",
+  "id": "ch13_L6_write_5",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_052",
+  "prompt": "Впиши: «…, aber am Samstag ___ ich mit.» (пойду)",
+  "answer": "komme",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch13_052.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L6_why_1",
+  "id": "ch13_L6_why_1",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_051",
+  "prompt": "Почему «Trink viel Tee!» без слова «du»?",
+  "answer": "Просьбу на «ты» говорят без du: берут основу действия.",
+  "distractors": [
+   "du — слишком длинное слово, поэтому его сокращают до Trink.",
+   "du говорят только в вопросе, а в просьбе ставят основу."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Trink viel Tee!"
+ },
+ {
+  "item_id": "ch13_L6_why_2",
+  "id": "ch13_L6_why_2",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_049",
+  "prompt": "Почему «zum Arzt», а не «zu Arzt»?",
+  "answer": "zum — это «к» и артикль слитно: der Arzt → zum.",
+  "distractors": [
+   "zum — потому что врач важный человек, ему нужно «к».",
+   "zu Arzt — тоже верно, слитное zum только для вежливости."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Geh zum Arzt!"
+ },
+ {
+  "item_id": "ch13_L6_why_3",
+  "id": "ch13_L6_why_3",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_052",
+  "prompt": "Почему «aber am Samstag komme ich», а не «aber am Samstag ich komme»?",
+  "answer": "am Samstag — вагон №1, действие сразу второе.",
+  "distractors": [
+   "am Samstag — вагон №1, действие не сразу второе.",
+   "ich ставят в конец, когда устали."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe heute Husten, aber am Samstag komme ich mit."
+ },
+ {
+  "item_id": "ch13_L6_why_4",
+  "id": "ch13_L6_why_4",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_048",
+  "prompt": "Почему «Husten und Fieber» без артикля?",
+  "answer": "Болезнь «имеют»: кашель и температуру не считают штуками.",
+  "distractors": [
+   "Артикль не нужен у слов на H и F, они короткие.",
+   "Артикль пропускают, когда очень торопятся."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe Husten und Fieber."
+ },
+ {
+  "item_id": "ch13_L6_why_5",
+  "id": "ch13_L6_why_5",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_054",
+  "prompt": "Почему в «Ich komme gern mit» слово mit стоит в конце?",
+  "answer": "mitkommen — из двух частей: mit уходит в конец.",
+  "distractors": [
+   "mit — вежливое слово, поэтому в конце.",
+   "mit ставят в конец только на «ты»."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich komme gern mit."
+ },
+ {
+  "item_id": "ch13_L6_transfer_1",
+  "id": "ch13_L6_transfer_1",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_t11",
+  "prompt": "Скажи: «Я пью чай два раза в день.»",
+  "answer": "Ich trinke zweimal am Tag Tee.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch13_t11.mp3",
+  "de": null,
+  "accept": [
+   "Ich trinke zweimal am Tag Tee."
+  ]
+ },
+ {
+  "item_id": "ch13_L6_transfer_2",
+  "id": "ch13_L6_transfer_2",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch13_t12",
+  "prompt": "Скажи: «Сегодня у меня болит живот.»",
+  "answer": "Mein Bauch tut heute weh.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch13_t12.mp3",
+  "de": null,
+  "accept": [
+   "Mein Bauch tut heute weh."
+  ]
+ },
+ {
+  "item_id": "ch13_L6_transfer_3",
+  "id": "ch13_L6_transfer_3",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_t12",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Сегодня у меня болит живот.",
+  "distractors": [
+   "Сегодня у меня болит голова.",
+   "Вчера у меня болел живот."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch13_t12.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L6_transfer_4",
+  "id": "ch13_L6_transfer_4",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch13_t12",
+  "prompt": "Напиши по-немецки: «Сегодня у меня болит живот.»",
+  "answer": "Mein Bauch tut heute weh.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch13_t12.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch13_L6_transfer_5",
+  "id": "ch13_L6_transfer_5",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch13_t12",
+  "prompt": "Почему «tut heute weh», а weh — в конце?",
+  "answer": "tut — второе, weh — вторая часть действия: она уходит в самый конец.",
+  "distractors": [
+   "weh — главное слово, его ставят последним.",
+   "tut — первое, weh — вторая часть действия: она уходит в самый конец."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": null,
+  "de": "Mein Bauch tut heute weh."
+ },
+ {
+  "item_id": "ch13_L6_boss_1",
+  "id": "ch13_L6_boss_1",
+  "lesson": "ch13_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch13_d6_06",
+  "prompt": "Послушай. Когда у героя есть время?",
+  "answer": "в субботу",
+  "distractors": [
+   "сегодня",
+   "в воскресенье"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch13_d6_06.mp3",
+  "de": null
+ }
+]

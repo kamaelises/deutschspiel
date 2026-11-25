@@ -1,0 +1,5186 @@
+[
+ {
+  "item_id": "ch03_L1_words_1",
+  "id": "ch03_L1_words_1",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_001",
+  "prompt": "Что значит «Tisch»?",
+  "answer": "стол",
+  "distractors": [
+   "стул",
+   "сумка"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L1_words_2",
+  "id": "ch03_L1_words_2",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_002",
+  "prompt": "Что значит «Lampe»?",
+  "answer": "лампа",
+  "distractors": [
+   "сумка",
+   "ключ"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L1_words_3",
+  "id": "ch03_L1_words_3",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_003",
+  "prompt": "Что значит «Tasche»?",
+  "answer": "сумка",
+  "distractors": [
+   "лампа",
+   "стол"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L1_words_4",
+  "id": "ch03_L1_words_4",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_005",
+  "prompt": "Что значит «Schlüssel»?",
+  "answer": "ключ",
+  "distractors": [
+   "стол",
+   "сумка"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L1_words_5",
+  "id": "ch03_L1_words_5",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_004",
+  "prompt": "Что значит «Handy»?",
+  "answer": "мобильный телефон",
+  "distractors": [
+   "настольная лампа",
+   "ключ от дома"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L1_listen_1",
+  "id": "ch03_L1_listen_1",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d1_01",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "Что это?",
+  "distractors": [
+   "Кто это?",
+   "Где это?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d1_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L1_listen_2",
+  "id": "ch03_L1_listen_2",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d1_02",
+  "prompt": "Послушай. Что ответил сосед?",
+  "answer": "Это стол. Стол хороший.",
+  "distractors": [
+   "Это стол. Стол новый.",
+   "Это сумка. Сумка хорошая."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d1_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L1_listen_3",
+  "id": "ch03_L1_listen_3",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d1_03",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "А как это называется по-немецки?",
+  "distractors": [
+   "А как это пишется по-немецки?",
+   "А что это значит по-русски?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d1_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L1_listen_4",
+  "id": "ch03_L1_listen_4",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d1_06",
+  "prompt": "Послушай. Какую вещь назвал сосед?",
+  "answer": "сумка",
+  "distractors": [
+   "лампа",
+   "ключ"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d1_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L1_listen_5",
+  "id": "ch03_L1_listen_5",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d1_08",
+  "prompt": "Послушай. Что ответил сосед?",
+  "answer": "Да, это мобильный телефон.",
+  "distractors": [
+   "Нет, это мой ключ.",
+   "Да, это сумка."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d1_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L1_read_1",
+  "id": "ch03_L1_read_1",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_001",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это стол.",
+  "distractors": [
+   "Это стул.",
+   "Это мой стол."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist ein Tisch."
+ },
+ {
+  "item_id": "ch03_L1_read_2",
+  "id": "ch03_L1_read_2",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_002",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это лампа.",
+  "distractors": [
+   "Это сумка.",
+   "Это ключ."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist eine Lampe."
+ },
+ {
+  "item_id": "ch03_L1_read_3",
+  "id": "ch03_L1_read_3",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_d1_07",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это мобильный телефон?",
+  "distractors": [
+   "Это мобильный телефон.",
+   "Где мобильный телефон?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ist das ein Handy?"
+ },
+ {
+  "item_id": "ch03_L1_read_4",
+  "id": "ch03_L1_read_4",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_d1_09",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это тоже мобильный телефон?",
+  "distractors": [
+   "Это твой мобильный телефон?",
+   "Это не мобильный телефон."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ist das auch ein Handy?"
+ },
+ {
+  "item_id": "ch03_L1_read_5",
+  "id": "ch03_L1_read_5",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_d1_10",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Нет, это мой ключ! Спасибо!",
+  "distractors": [
+   "Да, это мой ключ! Спасибо!",
+   "Нет, это мой мобильный! Спасибо!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Nein, das ist mein Schlüssel! Danke!"
+ },
+ {
+  "item_id": "ch03_L1_speak_1",
+  "id": "ch03_L1_speak_1",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_d1_01",
+  "prompt": "Покажи на вещь и спроси: «Что это?»",
+  "answer": "Was ist das?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d1_01.mp3",
+  "de": null,
+  "accept": [
+   "Was ist das?"
+  ]
+ },
+ {
+  "item_id": "ch03_L1_speak_2",
+  "id": "ch03_L1_speak_2",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_d1_03",
+  "prompt": "Узнай слово: «А как это называется по-немецки?»",
+  "answer": "Und wie heißt das auf Deutsch?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d1_03.mp3",
+  "de": null,
+  "accept": [
+   "Und wie heißt das auf Deutsch?"
+  ]
+ },
+ {
+  "item_id": "ch03_L1_speak_3",
+  "id": "ch03_L1_speak_3",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_001",
+  "prompt": "Назови вещь: «Это стол.» Tisch — «тиш», коротко.",
+  "answer": "Das ist ein Tisch.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_001.mp3",
+  "de": null,
+  "accept": [
+   "Das ist ein Tisch."
+  ]
+ },
+ {
+  "item_id": "ch03_L1_speak_4",
+  "id": "ch03_L1_speak_4",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_002",
+  "prompt": "Назови вещь: «Это лампа.» eine — «айнэ».",
+  "answer": "Das ist eine Lampe.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_002.mp3",
+  "de": null,
+  "accept": [
+   "Das ist eine Lampe."
+  ]
+ },
+ {
+  "item_id": "ch03_L1_speak_5",
+  "id": "ch03_L1_speak_5",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_d1_07",
+  "prompt": "Переспроси: «Это мобильный телефон?» Голос в конце — вверх.",
+  "answer": "Ist das ein Handy?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d1_07.mp3",
+  "de": null,
+  "accept": [
+   "Ist das ein Handy?"
+  ]
+ },
+ {
+  "item_id": "ch03_L1_write_1",
+  "id": "ch03_L1_write_1",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_001",
+  "prompt": "Впиши: «Das ist ___ Tisch.» (der Tisch)",
+  "answer": "ein",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_001.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L1_write_2",
+  "id": "ch03_L1_write_2",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_002",
+  "prompt": "Впиши: «Das ist ___ Lampe.» (die Lampe)",
+  "answer": "eine",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_002.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L1_write_3",
+  "id": "ch03_L1_write_3",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_004",
+  "prompt": "Впиши: «Das ist ___ Handy.» (das Handy)",
+  "answer": "ein",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_004.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L1_write_4",
+  "id": "ch03_L1_write_4",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_003",
+  "prompt": "Впиши слово: «Das ist eine ___.» (сумка)",
+  "answer": "Tasche",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_003.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L1_write_5",
+  "id": "ch03_L1_write_5",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_005",
+  "prompt": "Впиши слово: «Das ist ein ___.» (ключ)",
+  "answer": "Schlüssel",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_005.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L1_why_1",
+  "id": "ch03_L1_why_1",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_002",
+  "prompt": "Почему «eine Lampe», а не «ein Lampe»?",
+  "answer": "Lampe — die-слово: у die-слов стоит eine, с -e.",
+  "distractors": [
+   "eine — потому что лампа маленькая.",
+   "ein говорят только про людей."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist eine Lampe."
+ },
+ {
+  "item_id": "ch03_L1_why_2",
+  "id": "ch03_L1_why_2",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_001",
+  "prompt": "Почему «ein Tisch», а не «eine Tisch»?",
+  "answer": "Tisch — der-слово: у der-слов стоит ein, без -e.",
+  "distractors": [
+   "ein — потому что стол большой.",
+   "eine говорят только в вопросе."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist ein Tisch."
+ },
+ {
+  "item_id": "ch03_L1_why_3",
+  "id": "ch03_L1_why_3",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_004",
+  "prompt": "Почему «ein Handy», без -e?",
+  "answer": "Handy — das-слово: у das-слов стоит ein, как у der-слов.",
+  "distractors": [
+   "ein — потому что телефон маленький.",
+   "ein говорят про вещи, eine — про людей."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist ein Handy."
+ },
+ {
+  "item_id": "ch03_L1_why_4",
+  "id": "ch03_L1_why_4",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_d1_07",
+  "prompt": "Почему в вопросе «Ist das ein Handy?» слово «ist» стоит первым?",
+  "answer": "Это вопрос «да/нет»: действие ist — впереди.",
+  "distractors": [
+   "ist стоит первым, потому что оно короткое.",
+   "Так спрашивают только на «вы», вежливо."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": null,
+  "de": "Ist das ein Handy?"
+ },
+ {
+  "item_id": "ch03_L1_why_5",
+  "id": "ch03_L1_why_5",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_d1_03",
+  "prompt": "Зачем нужен вопрос «Wie heißt das auf Deutsch?»",
+  "answer": "Так узнают, как вещь называется по-немецки.",
+  "distractors": [
+   "Так узнают имя соседа.",
+   "Так спрашивают, где лежит вещь."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Und wie heißt das auf Deutsch?"
+ },
+ {
+  "item_id": "ch03_L1_transfer_1",
+  "id": "ch03_L1_transfer_1",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_t01",
+  "prompt": "В сумке что-то звенит. Спроси соседа: «Это ключ?»",
+  "answer": "Ist das ein Schlüssel?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t01.mp3",
+  "de": null,
+  "accept": [
+   "Ist das ein Schlüssel?"
+  ]
+ },
+ {
+  "item_id": "ch03_L1_transfer_2",
+  "id": "ch03_L1_transfer_2",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_t01",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Это ключ?",
+  "distractors": [
+   "Это сумка?",
+   "Это мой ключ."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L1_transfer_3",
+  "id": "ch03_L1_transfer_3",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_t02",
+  "prompt": "Ольга думает, что это сумка. Поправь её: «Нет, это лампа.»",
+  "answer": "Nein, das ist eine Lampe.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t02.mp3",
+  "de": null,
+  "accept": [
+   "Nein, das ist eine Lampe."
+  ]
+ },
+ {
+  "item_id": "ch03_L1_transfer_4",
+  "id": "ch03_L1_transfer_4",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_t02",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Нет, это лампа.",
+  "distractors": [
+   "Нет, это сумка.",
+   "Да, это лампа."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L1_transfer_5",
+  "id": "ch03_L1_transfer_5",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_t02",
+  "prompt": "Впиши слово: «Nein, das ist eine ___.» (лампа)",
+  "answer": "Lampe",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L1_boss_1",
+  "id": "ch03_L1_boss_1",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_d1_02",
+  "prompt": "Почему сначала «ein Tisch», а потом «der Tisch»?",
+  "answer": "Сначала вещь называют впервые — ein Tisch. Потом оба знают, о каком столе речь — der Tisch.",
+  "distractors": [
+   "der говорят только про большие вещи.",
+   "ein — потому что стол новый."
+  ],
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist ein Tisch. Der Tisch ist gut."
+ },
+ {
+  "item_id": "ch03_L1_boss_2",
+  "id": "ch03_L1_boss_2",
+  "lesson": "ch03_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d1_10",
+  "prompt": "Послушай. Что сосед нашёл в сумке?",
+  "answer": "свой ключ",
+  "distractors": [
+   "свой мобильный",
+   "свою лампу"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d1_10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L2_words_1",
+  "id": "ch03_L2_words_1",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_011",
+  "prompt": "Что значит «Kuli»?",
+  "answer": "ручка",
+  "distractors": [
+   "сумка",
+   "тетрадь"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L2_words_2",
+  "id": "ch03_L2_words_2",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_013",
+  "prompt": "Что значит «Heft»?",
+  "answer": "тетрадь",
+  "distractors": [
+   "ручка",
+   "доска"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L2_words_3",
+  "id": "ch03_L2_words_3",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_015",
+  "prompt": "Что значит «Tafel»?",
+  "answer": "доска",
+  "distractors": [
+   "тетрадь",
+   "сумка"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L2_words_4",
+  "id": "ch03_L2_words_4",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_011",
+  "prompt": "Что значит «Wo»?",
+  "answer": "где",
+  "distractors": [
+   "кто",
+   "что"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L2_words_5",
+  "id": "ch03_L2_words_5",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_012",
+  "prompt": "Что значит «dein»?",
+  "answer": "твой",
+  "distractors": [
+   "мой",
+   "наш"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L2_listen_1",
+  "id": "ch03_L2_listen_1",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d2_01",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "Где моя ручка? Ручка хорошая.",
+  "distractors": [
+   "Где моя тетрадь? Тетрадь хорошая.",
+   "Где моя сумка? Сумка хорошая."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d2_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L2_listen_2",
+  "id": "ch03_L2_listen_2",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d2_02",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Вот ручка.",
+  "distractors": [
+   "Вот тетрадь.",
+   "Вот сумка."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d2_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L2_listen_3",
+  "id": "ch03_L2_listen_3",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d2_03",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Это твоя ручка?",
+  "distractors": [
+   "Это моя ручка?",
+   "Это твоя тетрадь?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d2_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L2_listen_4",
+  "id": "ch03_L2_listen_4",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d2_06",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Твоя тетрадь здесь.",
+  "distractors": [
+   "Моя тетрадь здесь.",
+   "Твоя сумка здесь."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d2_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L2_listen_5",
+  "id": "ch03_L2_listen_5",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d2_10",
+  "prompt": "Послушай. Что спросила учительница?",
+  "answer": "Что это?",
+  "distractors": [
+   "Где это?",
+   "Кто это?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d2_10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L2_read_1",
+  "id": "ch03_L2_read_1",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_013",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это моя тетрадь.",
+  "distractors": [
+   "Это твоя тетрадь.",
+   "Это моя ручка."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist mein Heft."
+ },
+ {
+  "item_id": "ch03_L2_read_2",
+  "id": "ch03_L2_read_2",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_014",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это твоя сумка.",
+  "distractors": [
+   "Это моя сумка.",
+   "Это твоя ручка."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist deine Tasche."
+ },
+ {
+  "item_id": "ch03_L2_read_3",
+  "id": "ch03_L2_read_3",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_d2_05",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "А где моя тетрадь?",
+  "distractors": [
+   "А где твоя тетрадь?",
+   "А где моя ручка?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Und wo ist mein Heft?"
+ },
+ {
+  "item_id": "ch03_L2_read_4",
+  "id": "ch03_L2_read_4",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_d2_07",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это тоже твоя сумка?",
+  "distractors": [
+   "Это тоже моя сумка?",
+   "Это твоя ручка?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ist das auch deine Tasche?"
+ },
+ {
+  "item_id": "ch03_L2_read_5",
+  "id": "ch03_L2_read_5",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_d2_09",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Да, это моя сумка! Спасибо!",
+  "distractors": [
+   "Нет, это твоя сумка! Спасибо!",
+   "Да, это моя ручка! Спасибо!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ja, das ist meine Tasche! Danke!"
+ },
+ {
+  "item_id": "ch03_L2_speak_1",
+  "id": "ch03_L2_speak_1",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_011",
+  "prompt": "Спроси: «Где моя ручка?» Wo — «воо», тяни.",
+  "answer": "Wo ist mein Kuli?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch03_011.mp3",
+  "de": null,
+  "accept": [
+   "Wo ist mein Kuli?"
+  ]
+ },
+ {
+  "item_id": "ch03_L2_speak_2",
+  "id": "ch03_L2_speak_2",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_012",
+  "prompt": "Спроси Ольгу: «Это твоя ручка?» Голос в конце — вверх.",
+  "answer": "Ist das dein Kuli?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch03_012.mp3",
+  "de": null,
+  "accept": [
+   "Ist das dein Kuli?"
+  ]
+ },
+ {
+  "item_id": "ch03_L2_speak_3",
+  "id": "ch03_L2_speak_3",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_013",
+  "prompt": "Скажи: «Это моя тетрадь.»",
+  "answer": "Das ist mein Heft.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_013.mp3",
+  "de": null,
+  "accept": [
+   "Das ist mein Heft."
+  ]
+ },
+ {
+  "item_id": "ch03_L2_speak_4",
+  "id": "ch03_L2_speak_4",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_014",
+  "prompt": "Скажи Ольге: «Это твоя сумка.» deine — «дайнэ».",
+  "answer": "Das ist deine Tasche.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_014.mp3",
+  "de": null,
+  "accept": [
+   "Das ist deine Tasche."
+  ]
+ },
+ {
+  "item_id": "ch03_L2_speak_5",
+  "id": "ch03_L2_speak_5",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_015",
+  "prompt": "Ответь учительнице: «Это доска.»",
+  "answer": "Das ist die Tafel.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_015.mp3",
+  "de": null,
+  "accept": [
+   "Das ist die Tafel."
+  ]
+ },
+ {
+  "item_id": "ch03_L2_write_1",
+  "id": "ch03_L2_write_1",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_011",
+  "prompt": "Впиши: «Wo ist ___ Kuli?» (моя ручка, der Kuli)",
+  "answer": "mein",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch03_011.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L2_write_2",
+  "id": "ch03_L2_write_2",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_014",
+  "prompt": "Впиши: «Das ist ___ Tasche.» (твоя сумка, die Tasche)",
+  "answer": "deine",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_014.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L2_write_3",
+  "id": "ch03_L2_write_3",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_013",
+  "prompt": "Впиши: «Das ist ___ Heft.» (моя тетрадь, das Heft)",
+  "answer": "mein",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_013.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L2_write_4",
+  "id": "ch03_L2_write_4",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_016",
+  "prompt": "Впиши: «Wo ist ___ Tasche?» (моя сумка, die Tasche)",
+  "answer": "meine",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch03_016.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L2_write_5",
+  "id": "ch03_L2_write_5",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_015",
+  "prompt": "Впиши слово: «Das ist die ___.» (доска)",
+  "answer": "Tafel",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_015.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L2_why_1",
+  "id": "ch03_L2_why_1",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_014",
+  "prompt": "Почему «deine Tasche», а не «dein Tasche»?",
+  "answer": "Tasche — die-слово: у die-слов на конце -e: deine, meine.",
+  "distractors": [
+   "dein — потому что сумка женская.",
+   "deine говорят только в вопросе."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist deine Tasche."
+ },
+ {
+  "item_id": "ch03_L2_why_2",
+  "id": "ch03_L2_why_2",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_013",
+  "prompt": "Почему «mein Heft», без -e?",
+  "answer": "Heft — das-слово: у das-слов mein, без -e, как ein.",
+  "distractors": [
+   "mein — потому что тетрадь маленькая.",
+   "mein говорят про вещи, meine — про людей."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist mein Heft."
+ },
+ {
+  "item_id": "ch03_L2_why_3",
+  "id": "ch03_L2_why_3",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_011",
+  "prompt": "Почему «mein Kuli», а не «meine Kuli»?",
+  "answer": "Kuli — der-слово: у der-слов mein, без -e.",
+  "distractors": [
+   "mein — потому что ручка новая.",
+   "meine говорят только в ответе."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Wo ist mein Kuli?"
+ },
+ {
+  "item_id": "ch03_L2_why_4",
+  "id": "ch03_L2_why_4",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_012",
+  "prompt": "Почему в вопросе «Ist das dein Kuli?» слово «ist» стоит первым?",
+  "answer": "Это вопрос «да/нет»: действие ist — впереди.",
+  "distractors": [
+   "ist стоит первым, потому что оно короткое.",
+   "Так спрашивают только на «вы», вежливо."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": null,
+  "de": "Ist das dein Kuli?"
+ },
+ {
+  "item_id": "ch03_L2_why_5",
+  "id": "ch03_L2_why_5",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_015",
+  "prompt": "Почему «die Tafel», а не «eine Tafel»?",
+  "answer": "Доска в классе одна, оба знают, о какой речь: die Tafel.",
+  "distractors": [
+   "eine говорят только про людей.",
+   "die — потому что доска большая."
+  ],
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist die Tafel."
+ },
+ {
+  "item_id": "ch03_L2_transfer_1",
+  "id": "ch03_L2_transfer_1",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_t03",
+  "prompt": "На столе чужая тетрадь. Спроси Ольгу: «Это твоя тетрадь?»",
+  "answer": "Ist das dein Heft?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t03.mp3",
+  "de": null,
+  "accept": [
+   "Ist das dein Heft?"
+  ]
+ },
+ {
+  "item_id": "ch03_L2_transfer_2",
+  "id": "ch03_L2_transfer_2",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_t03",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Это твоя тетрадь?",
+  "distractors": [
+   "Это твоя сумка?",
+   "Это моя тетрадь."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L2_transfer_3",
+  "id": "ch03_L2_transfer_3",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_t04",
+  "prompt": "Ольга не видит свою тетрадь. Спроси: «Где твоя тетрадь?»",
+  "answer": "Wo ist dein Heft?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t04.mp3",
+  "de": null,
+  "accept": [
+   "Wo ist dein Heft?"
+  ]
+ },
+ {
+  "item_id": "ch03_L2_transfer_4",
+  "id": "ch03_L2_transfer_4",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_t04",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Где твоя тетрадь?",
+  "distractors": [
+   "Где моя тетрадь?",
+   "Где твоя ручка?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L2_transfer_5",
+  "id": "ch03_L2_transfer_5",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_t04",
+  "prompt": "Впиши слово: «Wo ist dein ___?» (тетрадь)",
+  "answer": "Heft",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L2_boss_1",
+  "id": "ch03_L2_boss_1",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_d2_09",
+  "prompt": "Почему «meine Tasche», а не «mein Tasche»?",
+  "answer": "Tasche — die-слово: у die-слов на конце -e: meine.",
+  "distractors": [
+   "meine говорят только в ответе «да».",
+   "mein — потому что сумка маленькая."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Ja, das ist meine Tasche! Danke!"
+ },
+ {
+  "item_id": "ch03_L2_boss_2",
+  "id": "ch03_L2_boss_2",
+  "lesson": "ch03_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d2_06",
+  "prompt": "Послушай. Где тетрадь героя?",
+  "answer": "здесь",
+  "distractors": [
+   "дома",
+   "на столе"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d2_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L3_words_1",
+  "id": "ch03_L3_words_1",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_018",
+  "prompt": "Что значит «Katze»?",
+  "answer": "кошка",
+  "distractors": [
+   "собака",
+   "лампа"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L3_words_2",
+  "id": "ch03_L3_words_2",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_019",
+  "prompt": "Что значит «Hund»?",
+  "answer": "собака",
+  "distractors": [
+   "кошка",
+   "стол"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L3_words_3",
+  "id": "ch03_L3_words_3",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_018",
+  "prompt": "Что значит «keine Katze»?",
+  "answer": "не кошка",
+  "distractors": [
+   "какая-то кошка",
+   "эта кошка"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L3_words_4",
+  "id": "ch03_L3_words_4",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_019",
+  "prompt": "Что значит «kein Hund»?",
+  "answer": "не собака",
+  "distractors": [
+   "какая-то собака",
+   "эта собака"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L3_words_5",
+  "id": "ch03_L3_words_5",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_020",
+  "prompt": "Что значит «kein Handy»?",
+  "answer": "не мобильный телефон",
+  "distractors": [
+   "чей-то мобильный телефон",
+   "новый мобильный телефон"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L3_listen_1",
+  "id": "ch03_L3_listen_1",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d3_01",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Что это?",
+  "distractors": [
+   "Кто это?",
+   "Где это?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d3_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L3_listen_2",
+  "id": "ch03_L3_listen_2",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d3_02",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "Это кошка?",
+  "distractors": [
+   "Это собака?",
+   "Это лампа?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d3_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L3_listen_3",
+  "id": "ch03_L3_listen_3",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d3_03",
+  "prompt": "Послушай. Что ответила Ольга?",
+  "answer": "Нет, это не кошка.",
+  "distractors": [
+   "Да, это кошка.",
+   "Нет, это не собака."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d3_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L3_listen_4",
+  "id": "ch03_L3_listen_4",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d3_05",
+  "prompt": "Послушай. Что ответила Ольга?",
+  "answer": "Да, это собака! Собака хорошая.",
+  "distractors": [
+   "Нет, это не собака! Собака плохая.",
+   "Да, это кошка! Кошка хорошая."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d3_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L3_listen_5",
+  "id": "ch03_L3_listen_5",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d3_09",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Нет, это не лампа. Это сумка!",
+  "distractors": [
+   "Нет, это не сумка. Это лампа!",
+   "Да, это лампа. Это сумка!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d3_09.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L3_read_1",
+  "id": "ch03_L3_read_1",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_018",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это не кошка.",
+  "distractors": [
+   "Это кошка.",
+   "Это не собака."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist keine Katze."
+ },
+ {
+  "item_id": "ch03_L3_read_2",
+  "id": "ch03_L3_read_2",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_019",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это не собака.",
+  "distractors": [
+   "Это собака.",
+   "Это не кошка."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist kein Hund."
+ },
+ {
+  "item_id": "ch03_L3_read_3",
+  "id": "ch03_L3_read_3",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_020",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это не мобильный телефон.",
+  "distractors": [
+   "Это мобильный телефон.",
+   "Это не ключ."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist kein Handy."
+ },
+ {
+  "item_id": "ch03_L3_read_4",
+  "id": "ch03_L3_read_4",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_d3_04",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это собака?",
+  "distractors": [
+   "Это кошка?",
+   "Это не собака."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ist das ein Hund?"
+ },
+ {
+  "item_id": "ch03_L3_read_5",
+  "id": "ch03_L3_read_5",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_d3_08",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это не кошка. Это лампа!",
+  "distractors": [
+   "Это кошка. Это не лампа!",
+   "Это не лампа. Это кошка!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist keine Katze. Das ist eine Lampe!"
+ },
+ {
+  "item_id": "ch03_L3_speak_1",
+  "id": "ch03_L3_speak_1",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_018",
+  "prompt": "Скажи Ольге: «Это не кошка.» keine — «кайнэ».",
+  "answer": "Das ist keine Katze.",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_018.mp3",
+  "de": null,
+  "accept": [
+   "Das ist keine Katze."
+  ]
+ },
+ {
+  "item_id": "ch03_L3_speak_2",
+  "id": "ch03_L3_speak_2",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_019",
+  "prompt": "Скажи: «Это не собака.» Hund — «хунт».",
+  "answer": "Das ist kein Hund.",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_019.mp3",
+  "de": null,
+  "accept": [
+   "Das ist kein Hund."
+  ]
+ },
+ {
+  "item_id": "ch03_L3_speak_3",
+  "id": "ch03_L3_speak_3",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_020",
+  "prompt": "Скажи: «Это не мобильный телефон.»",
+  "answer": "Das ist kein Handy.",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_020.mp3",
+  "de": null,
+  "accept": [
+   "Das ist kein Handy."
+  ]
+ },
+ {
+  "item_id": "ch03_L3_speak_4",
+  "id": "ch03_L3_speak_4",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_d3_02",
+  "prompt": "Угадай: «Это кошка?» Голос в конце — вверх.",
+  "answer": "Ist das eine Katze?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d3_02.mp3",
+  "de": null,
+  "accept": [
+   "Ist das eine Katze?"
+  ]
+ },
+ {
+  "item_id": "ch03_L3_speak_5",
+  "id": "ch03_L3_speak_5",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_d3_04",
+  "prompt": "Угадай ещё раз: «Это собака?»",
+  "answer": "Ist das ein Hund?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d3_04.mp3",
+  "de": null,
+  "accept": [
+   "Ist das ein Hund?"
+  ]
+ },
+ {
+  "item_id": "ch03_L3_write_1",
+  "id": "ch03_L3_write_1",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_019",
+  "prompt": "Впиши: «Das ist ___ Hund.» (не собака, der Hund)",
+  "answer": "kein",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_019.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L3_write_2",
+  "id": "ch03_L3_write_2",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_018",
+  "prompt": "Впиши: «Das ist ___ Katze.» (не кошка, die Katze)",
+  "answer": "keine",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_018.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L3_write_3",
+  "id": "ch03_L3_write_3",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_020",
+  "prompt": "Впиши: «Das ist ___ Handy.» (не мобильный, das Handy)",
+  "answer": "kein",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_020.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L3_write_4",
+  "id": "ch03_L3_write_4",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_018",
+  "prompt": "Впиши слово: «Das ist keine ___.» (кошка)",
+  "answer": "Katze",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_018.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L3_write_5",
+  "id": "ch03_L3_write_5",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_019",
+  "prompt": "Впиши слово: «Das ist kein ___.» (собака)",
+  "answer": "Hund",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_019.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L3_why_1",
+  "id": "ch03_L3_why_1",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_018",
+  "prompt": "Почему «keine Katze», а не «kein Katze»?",
+  "answer": "Katze — die-слово: eine Katze → keine Katze, с -e.",
+  "distractors": [
+   "kein — потому что кошка маленькая.",
+   "keine говорят только в вопросе."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist keine Katze."
+ },
+ {
+  "item_id": "ch03_L3_why_2",
+  "id": "ch03_L3_why_2",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_019",
+  "prompt": "Почему «kein Hund», без -e?",
+  "answer": "Hund — der-слово: ein Hund → kein Hund, без -e.",
+  "distractors": [
+   "kein — потому что собака большая.",
+   "kein говорят про вещи, keine — про животных."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist kein Hund."
+ },
+ {
+  "item_id": "ch03_L3_why_3",
+  "id": "ch03_L3_why_3",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_020",
+  "prompt": "Почему «kein Handy», а не «keine Handy»?",
+  "answer": "Handy — das-слово: у das-слов kein, без -e, как ein.",
+  "distractors": [
+   "keine говорят только про людей.",
+   "kein — потому что телефон маленький."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist kein Handy."
+ },
+ {
+  "item_id": "ch03_L3_why_4",
+  "id": "ch03_L3_why_4",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_d3_04",
+  "prompt": "Почему в вопросе «Ist das ein Hund?» слово «ist» стоит первым?",
+  "answer": "Это вопрос «да/нет»: действие ist — впереди.",
+  "distractors": [
+   "ist стоит первым, потому что оно короткое.",
+   "Так спрашивают только на «вы», вежливо."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": null,
+  "de": "Ist das ein Hund?"
+ },
+ {
+  "item_id": "ch03_L3_why_5",
+  "id": "ch03_L3_why_5",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_d3_03",
+  "prompt": "Почему в ответе «Nein, das ist keine Katze.» слово «ist» всё равно на втором месте?",
+  "answer": "nein не занимает вагон: дальше das · ist · keine Katze.",
+  "distractors": [
+   "ist всегда стоит после nein.",
+   "ist на втором месте только в вопросе."
+  ],
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": null,
+  "de": "Nein, das ist keine Katze."
+ },
+ {
+  "item_id": "ch03_L3_transfer_1",
+  "id": "ch03_L3_transfer_1",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_t05",
+  "prompt": "На рисунке не сумка. Скажи Ольге: «Это не сумка.»",
+  "answer": "Das ist keine Tasche.",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t05.mp3",
+  "de": null,
+  "accept": [
+   "Das ist keine Tasche."
+  ]
+ },
+ {
+  "item_id": "ch03_L3_transfer_2",
+  "id": "ch03_L3_transfer_2",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_t05",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Это не сумка.",
+  "distractors": [
+   "Это сумка.",
+   "Это не лампа."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L3_transfer_3",
+  "id": "ch03_L3_transfer_3",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_t06",
+  "prompt": "Ольга думает, что это ключ. Поправь: «Нет, это не ключ.»",
+  "answer": "Nein, das ist kein Schlüssel.",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t06.mp3",
+  "de": null,
+  "accept": [
+   "Nein, das ist kein Schlüssel."
+  ]
+ },
+ {
+  "item_id": "ch03_L3_transfer_4",
+  "id": "ch03_L3_transfer_4",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_t06",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Нет, это не ключ.",
+  "distractors": [
+   "Да, это ключ.",
+   "Нет, это не сумка."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L3_transfer_5",
+  "id": "ch03_L3_transfer_5",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_t06",
+  "prompt": "Впиши слово: «Nein, das ist ___ Schlüssel.» (не ключ)",
+  "answer": "kein",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L3_boss_1",
+  "id": "ch03_L3_boss_1",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_d3_07",
+  "prompt": "Почему «eine Lampe», а не «ein Lampe»?",
+  "answer": "Lampe — die-слово: ein → eine Lampe.",
+  "distractors": [
+   "eine — потому что лампа не живая.",
+   "Так говорят только после слова keine."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Nein, das ist kein Hund. Das ist eine Katze! Die Katze ist gut."
+ },
+ {
+  "item_id": "ch03_L3_boss_2",
+  "id": "ch03_L3_boss_2",
+  "lesson": "ch03_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d3_09",
+  "prompt": "Послушай. Что Ольга нарисовала на самом деле?",
+  "answer": "сумку",
+  "distractors": [
+   "кошку",
+   "собаку"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d3_09.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L4_words_1",
+  "id": "ch03_L4_words_1",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_023",
+  "prompt": "Что значит «Computer»?",
+  "answer": "компьютер",
+  "distractors": [
+   "телевизор",
+   "лампа"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L4_words_2",
+  "id": "ch03_L4_words_2",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_023",
+  "prompt": "Что значит «kaputt»?",
+  "answer": "сломан",
+  "distractors": [
+   "новый",
+   "хороший"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L4_words_3",
+  "id": "ch03_L4_words_3",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_024",
+  "prompt": "Что значит «Er funktioniert nicht»?",
+  "answer": "Он не работает.",
+  "distractors": [
+   "Он сломан.",
+   "Он не мой."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L4_words_4",
+  "id": "ch03_L4_words_4",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_025",
+  "prompt": "Что значит «Maus»?",
+  "answer": "мышь",
+  "distractors": [
+   "кошка",
+   "собака"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L4_words_5",
+  "id": "ch03_L4_words_5",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_024",
+  "prompt": "Что значит «er»?",
+  "answer": "он",
+  "distractors": [
+   "она",
+   "мы"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L4_listen_1",
+  "id": "ch03_L4_listen_1",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d4_01",
+  "prompt": "Послушай. Что сказал герой?",
+  "answer": "Компьютер сломан. Он не работает.",
+  "distractors": [
+   "Компьютер новый. Он работает.",
+   "Мышь сломана. Она не работает."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d4_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L4_listen_2",
+  "id": "ch03_L4_listen_2",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d4_02",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Экран сломан?",
+  "distractors": [
+   "Мышь сломана?",
+   "Компьютер сломан?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d4_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L4_listen_3",
+  "id": "ch03_L4_listen_3",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d4_03",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Нет, он не сломан.",
+  "distractors": [
+   "Да, он сломан.",
+   "Нет, она не сломана."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d4_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L4_listen_4",
+  "id": "ch03_L4_listen_4",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d4_05",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Да, мышь сломана. Она не работает.",
+  "distractors": [
+   "Нет, мышь не сломана.",
+   "Да, экран сломан. Он не работает."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d4_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L4_listen_5",
+  "id": "ch03_L4_listen_5",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d4_07",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Нет, он работает! Спасибо!",
+  "distractors": [
+   "Да, он сломан! Спасибо!",
+   "Нет, она работает! Спасибо!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d4_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L4_read_1",
+  "id": "ch03_L4_read_1",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_023",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Мой компьютер сломан.",
+  "distractors": [
+   "Твой компьютер сломан.",
+   "Мой компьютер новый."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Mein Computer ist kaputt."
+ },
+ {
+  "item_id": "ch03_L4_read_2",
+  "id": "ch03_L4_read_2",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_024",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Он не работает.",
+  "distractors": [
+   "Он работает.",
+   "Она не работает."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Er funktioniert nicht."
+ },
+ {
+  "item_id": "ch03_L4_read_3",
+  "id": "ch03_L4_read_3",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_025",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Мышь не сломана.",
+  "distractors": [
+   "Мышь сломана.",
+   "Экран не сломан."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Maus ist nicht kaputt."
+ },
+ {
+  "item_id": "ch03_L4_read_4",
+  "id": "ch03_L4_read_4",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_d4_06",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Ноутбук сломан?",
+  "distractors": [
+   "Ноутбук работает?",
+   "Компьютер сломан?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ist der Laptop kaputt?"
+ },
+ {
+  "item_id": "ch03_L4_read_5",
+  "id": "ch03_L4_read_5",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_d4_08",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Телефон тоже сломан. Он не работает.",
+  "distractors": [
+   "Телефон не сломан. Он работает.",
+   "Мышь тоже сломана. Она не работает."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das Handy ist auch kaputt. Es funktioniert nicht."
+ },
+ {
+  "item_id": "ch03_L4_speak_1",
+  "id": "ch03_L4_speak_1",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_023",
+  "prompt": "Скажи: «Мой компьютер сломан.» kaputt — «капутт».",
+  "answer": "Mein Computer ist kaputt.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch03_023.mp3",
+  "de": null,
+  "accept": [
+   "Mein Computer ist kaputt."
+  ]
+ },
+ {
+  "item_id": "ch03_L4_speak_2",
+  "id": "ch03_L4_speak_2",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_024",
+  "prompt": "Скажи: «Он не работает.» nicht — мягкое «х».",
+  "answer": "Er funktioniert nicht.",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_024.mp3",
+  "de": null,
+  "accept": [
+   "Er funktioniert nicht."
+  ]
+ },
+ {
+  "item_id": "ch03_L4_speak_3",
+  "id": "ch03_L4_speak_3",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_025",
+  "prompt": "Скажи: «Мышь не сломана.»",
+  "answer": "Die Maus ist nicht kaputt.",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_025.mp3",
+  "de": null,
+  "accept": [
+   "Die Maus ist nicht kaputt."
+  ]
+ },
+ {
+  "item_id": "ch03_L4_speak_4",
+  "id": "ch03_L4_speak_4",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_d4_02",
+  "prompt": "Спроси: «Экран сломан?» Голос в конце — вверх.",
+  "answer": "Ist der Bildschirm kaputt?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d4_02.mp3",
+  "de": null,
+  "accept": [
+   "Ist der Bildschirm kaputt?"
+  ]
+ },
+ {
+  "item_id": "ch03_L4_speak_5",
+  "id": "ch03_L4_speak_5",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_d4_04",
+  "prompt": "Спроси: «Мышь сломана?»",
+  "answer": "Ist die Maus kaputt?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d4_04.mp3",
+  "de": null,
+  "accept": [
+   "Ist die Maus kaputt?"
+  ]
+ },
+ {
+  "item_id": "ch03_L4_write_1",
+  "id": "ch03_L4_write_1",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_024",
+  "prompt": "Впиши: «___ funktioniert nicht.» (компьютер, der Computer)",
+  "answer": "Er",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_024.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L4_write_2",
+  "id": "ch03_L4_write_2",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_d4_05",
+  "prompt": "Впиши: «___ funktioniert nicht.» (мышь, die Maus)",
+  "answer": "Sie",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d4_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L4_write_3",
+  "id": "ch03_L4_write_3",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_d4_08",
+  "prompt": "Впиши: «___ funktioniert nicht.» (телефон, das Handy)",
+  "answer": "Es",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d4_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L4_write_4",
+  "id": "ch03_L4_write_4",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_025",
+  "prompt": "Впиши слово: «Die Maus ist ___ kaputt.» (не)",
+  "answer": "nicht",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_025.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L4_write_5",
+  "id": "ch03_L4_write_5",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_023",
+  "prompt": "Впиши слово: «Mein Computer ist ___.» (сломан)",
+  "answer": "kaputt",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch03_023.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L4_why_1",
+  "id": "ch03_L4_why_1",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_024",
+  "prompt": "Почему «Er funktioniert nicht», а не «Es»?",
+  "answer": "Computer — der-слово: der Computer → er.",
+  "distractors": [
+   "er говорят про всё, что сломано.",
+   "es говорят только про людей."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Er funktioniert nicht."
+ },
+ {
+  "item_id": "ch03_L4_why_2",
+  "id": "ch03_L4_why_2",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_d4_05",
+  "prompt": "Почему про мышь говорят «sie»?",
+  "answer": "Maus — die-слово: die Maus → sie.",
+  "distractors": [
+   "sie говорят про всё, что маленькое.",
+   "sie говорят только про людей."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Ja, die Maus ist kaputt. Sie funktioniert nicht."
+ },
+ {
+  "item_id": "ch03_L4_why_3",
+  "id": "ch03_L4_why_3",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_d4_08",
+  "prompt": "Почему про Handy говорят «es»?",
+  "answer": "Handy — das-слово: das Handy → es.",
+  "distractors": [
+   "es говорят про всё, что сломано.",
+   "es говорят только про животных."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Das Handy ist auch kaputt. Es funktioniert nicht."
+ },
+ {
+  "item_id": "ch03_L4_why_4",
+  "id": "ch03_L4_why_4",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_025",
+  "prompt": "Почему «nicht» стоит перед «kaputt»?",
+  "answer": "nicht стоит перед тем, что отрицают: nicht kaputt.",
+  "distractors": [
+   "nicht всегда стоит в самом конце фразы.",
+   "nicht всегда идёт перед словом вещи."
+  ],
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Maus ist nicht kaputt."
+ },
+ {
+  "item_id": "ch03_L4_why_5",
+  "id": "ch03_L4_why_5",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_d4_02",
+  "prompt": "Почему в вопросе «Ist der Bildschirm kaputt?» слово «ist» стоит первым?",
+  "answer": "Это вопрос «да/нет»: действие ist — впереди.",
+  "distractors": [
+   "ist стоит первым, потому что оно короткое.",
+   "Так спрашивают только на «вы», вежливо."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": null,
+  "de": "Ist der Bildschirm kaputt?"
+ },
+ {
+  "item_id": "ch03_L4_transfer_1",
+  "id": "ch03_L4_transfer_1",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_t07",
+  "prompt": "Ольга показывает на экран. Спроси: «Он сломан?»",
+  "answer": "Ist er kaputt?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t07.mp3",
+  "de": null,
+  "accept": [
+   "Ist er kaputt?"
+  ]
+ },
+ {
+  "item_id": "ch03_L4_transfer_2",
+  "id": "ch03_L4_transfer_2",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_t07",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Он сломан?",
+  "distractors": [
+   "Она сломана?",
+   "Он не сломан."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L4_transfer_3",
+  "id": "ch03_L4_transfer_3",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_t08",
+  "prompt": "Ольга спрашивает про компьютер. Ответь: «Нет, экран не сломан.»",
+  "answer": "Nein, der Bildschirm ist nicht kaputt.",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t08.mp3",
+  "de": null,
+  "accept": [
+   "Nein, der Bildschirm ist nicht kaputt."
+  ]
+ },
+ {
+  "item_id": "ch03_L4_transfer_4",
+  "id": "ch03_L4_transfer_4",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_t08",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Нет, экран не сломан.",
+  "distractors": [
+   "Да, экран сломан.",
+   "Нет, мышь не сломана."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L4_transfer_5",
+  "id": "ch03_L4_transfer_5",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_t08",
+  "prompt": "Впиши слово: «Nein, der ___ ist nicht kaputt.» (экран)",
+  "answer": "Bildschirm",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L4_boss_1",
+  "id": "ch03_L4_boss_1",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_d4_07",
+  "prompt": "Почему «Er funktioniert» про ноутбук, а не «Sie»?",
+  "answer": "Laptop — der-слово: der Laptop → er.",
+  "distractors": [
+   "sie говорят только про людей.",
+   "er — потому что ноутбук новый."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Nein, er funktioniert! Danke!"
+ },
+ {
+  "item_id": "ch03_L4_boss_2",
+  "id": "ch03_L4_boss_2",
+  "lesson": "ch03_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d4_08",
+  "prompt": "Послушай. Что не работает?",
+  "answer": "телефон",
+  "distractors": [
+   "мышь",
+   "экран"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d4_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L5_words_1",
+  "id": "ch03_L5_words_1",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_031",
+  "prompt": "Что значит «Hören Sie bitte»?",
+  "answer": "Послушайте, пожалуйста.",
+  "distractors": [
+   "Прочитайте, пожалуйста.",
+   "Напишите, пожалуйста."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L5_words_2",
+  "id": "ch03_L5_words_2",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_030",
+  "prompt": "Что значит «Lesen Sie bitte»?",
+  "answer": "Прочитайте, пожалуйста.",
+  "distractors": [
+   "Послушайте, пожалуйста.",
+   "Повторите, пожалуйста."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L5_words_3",
+  "id": "ch03_L5_words_3",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_032",
+  "prompt": "Что значит «schreiben»?",
+  "answer": "писать",
+  "distractors": [
+   "читать",
+   "повторять"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L5_words_4",
+  "id": "ch03_L5_words_4",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_029",
+  "prompt": "Что значит «wiederholen»?",
+  "answer": "повторять",
+  "distractors": [
+   "слушать",
+   "писать"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L5_words_5",
+  "id": "ch03_L5_words_5",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_029",
+  "prompt": "Что значит «Wiederholen Sie bitte»?",
+  "answer": "Повторите, пожалуйста.",
+  "distractors": [
+   "Повторите вы.",
+   "Прочитайте, пожалуйста."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L5_listen_1",
+  "id": "ch03_L5_listen_1",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d5_01",
+  "prompt": "Послушай. Что сказала учительница?",
+  "answer": "Пожалуйста, послушайте.",
+  "distractors": [
+   "Пожалуйста, прочитайте.",
+   "Пожалуйста, напишите."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d5_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L5_listen_2",
+  "id": "ch03_L5_listen_2",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d5_02",
+  "prompt": "Послушай. Что сказал герой?",
+  "answer": "Пожалуйста, повторите.",
+  "distractors": [
+   "Пожалуйста, говорите медленно.",
+   "Пожалуйста, послушайте."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d5_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L5_listen_3",
+  "id": "ch03_L5_listen_3",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d5_03",
+  "prompt": "Послушай. Что сказала учительница?",
+  "answer": "Пожалуйста, послушайте ещё раз.",
+  "distractors": [
+   "Пожалуйста, повторите ещё раз.",
+   "Пожалуйста, послушайте."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d5_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L5_listen_4",
+  "id": "ch03_L5_listen_4",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d5_05",
+  "prompt": "Послушай. Что сказала учительница?",
+  "answer": "Пожалуйста, напишите.",
+  "distractors": [
+   "Пожалуйста, прочитайте.",
+   "Пожалуйста, послушайте."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d5_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L5_listen_5",
+  "id": "ch03_L5_listen_5",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d5_07",
+  "prompt": "Послушай. Что сказала учительница?",
+  "answer": "Пожалуйста, прочитайте.",
+  "distractors": [
+   "Пожалуйста, напишите.",
+   "Пожалуйста, послушайте."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d5_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L5_read_1",
+  "id": "ch03_L5_read_1",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_029",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Повторите, пожалуйста.",
+  "distractors": [
+   "Прочитайте, пожалуйста.",
+   "Повторите это."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wiederholen Sie bitte."
+ },
+ {
+  "item_id": "ch03_L5_read_2",
+  "id": "ch03_L5_read_2",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_030",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Прочитайте, пожалуйста.",
+  "distractors": [
+   "Напишите, пожалуйста.",
+   "Послушайте, пожалуйста."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Lesen Sie bitte."
+ },
+ {
+  "item_id": "ch03_L5_read_3",
+  "id": "ch03_L5_read_3",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_033",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Послушайте ещё раз, пожалуйста.",
+  "distractors": [
+   "Послушайте, пожалуйста.",
+   "Повторите ещё раз, пожалуйста."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Hören Sie bitte noch einmal."
+ },
+ {
+  "item_id": "ch03_L5_read_4",
+  "id": "ch03_L5_read_4",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_d5_04",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Пожалуйста, говорите медленно.",
+  "distractors": [
+   "Пожалуйста, повторите.",
+   "Пожалуйста, пишите медленно."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Bitte sprechen Sie langsam."
+ },
+ {
+  "item_id": "ch03_L5_read_5",
+  "id": "ch03_L5_read_5",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_d5_06",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Пожалуйста, продиктуйте по буквам.",
+  "distractors": [
+   "Пожалуйста, напишите ещё раз.",
+   "Пожалуйста, прочитайте медленно."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Bitte buchstabieren Sie."
+ },
+ {
+  "item_id": "ch03_L5_speak_1",
+  "id": "ch03_L5_speak_1",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_029",
+  "prompt": "Попроси учительницу: «Повторите, пожалуйста.»",
+  "answer": "Wiederholen Sie bitte.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch03_029.mp3",
+  "de": null,
+  "accept": [
+   "Wiederholen Sie bitte."
+  ]
+ },
+ {
+  "item_id": "ch03_L5_speak_2",
+  "id": "ch03_L5_speak_2",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_030",
+  "prompt": "Скажи: «Прочитайте, пожалуйста.» Lesen — «лезен».",
+  "answer": "Lesen Sie bitte.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch03_030.mp3",
+  "de": null,
+  "accept": [
+   "Lesen Sie bitte."
+  ]
+ },
+ {
+  "item_id": "ch03_L5_speak_3",
+  "id": "ch03_L5_speak_3",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_031",
+  "prompt": "Скажи: «Послушайте, пожалуйста.» ö — как «ё».",
+  "answer": "Hören Sie bitte.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch03_031.mp3",
+  "de": null,
+  "accept": [
+   "Hören Sie bitte."
+  ]
+ },
+ {
+  "item_id": "ch03_L5_speak_4",
+  "id": "ch03_L5_speak_4",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_032",
+  "prompt": "Скажи: «Напишите, пожалуйста.»",
+  "answer": "Schreiben Sie bitte.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch03_032.mp3",
+  "de": null,
+  "accept": [
+   "Schreiben Sie bitte."
+  ]
+ },
+ {
+  "item_id": "ch03_L5_speak_5",
+  "id": "ch03_L5_speak_5",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_033",
+  "prompt": "Скажи: «Послушайте ещё раз, пожалуйста.»",
+  "answer": "Hören Sie bitte noch einmal.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch03_033.mp3",
+  "de": null,
+  "accept": [
+   "Hören Sie bitte noch einmal."
+  ]
+ },
+ {
+  "item_id": "ch03_L5_write_1",
+  "id": "ch03_L5_write_1",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_029",
+  "prompt": "Впиши: «___ Sie bitte.» (повторите)",
+  "answer": "Wiederholen",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch03_029.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L5_write_2",
+  "id": "ch03_L5_write_2",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_030",
+  "prompt": "Впиши: «___ Sie bitte.» (прочитайте)",
+  "answer": "Lesen",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch03_030.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L5_write_3",
+  "id": "ch03_L5_write_3",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_031",
+  "prompt": "Впиши слово: «Hören ___ bitte.» (вы, вежливо)",
+  "answer": "Sie",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch03_031.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L5_write_4",
+  "id": "ch03_L5_write_4",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_032",
+  "prompt": "Впиши слово: «Schreiben Sie ___.» (пожалуйста)",
+  "answer": "bitte",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch03_032.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L5_write_5",
+  "id": "ch03_L5_write_5",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_033",
+  "prompt": "Впиши слово: «Hören Sie bitte noch ___.» (раз)",
+  "answer": "einmal",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch03_033.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L5_why_1",
+  "id": "ch03_L5_why_1",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_029",
+  "prompt": "Почему «Wiederholen Sie bitte» начинается с действия?",
+  "answer": "Просьба на «вы»: действие впереди, потом Sie.",
+  "distractors": [
+   "Так спрашивают про имя.",
+   "Действие всегда стоит в начале любой фразы."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Wiederholen Sie bitte."
+ },
+ {
+  "item_id": "ch03_L5_why_2",
+  "id": "ch03_L5_why_2",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_030",
+  "prompt": "Почему в «Lesen Sie bitte» стоит Sie, а не du?",
+  "answer": "К учителю и незнакомым взрослым — на «вы»: Sie.",
+  "distractors": [
+   "Sie — это «она», так говорят про женщину.",
+   "du говорят только маленьким детям."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Lesen Sie bitte."
+ },
+ {
+  "item_id": "ch03_L5_why_3",
+  "id": "ch03_L5_why_3",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_031",
+  "prompt": "Почему Sie пишется с большой буквы?",
+  "answer": "Вежливое «вы» пишут с большой буквы.",
+  "distractors": [
+   "Так пишут все местоимения в немецком.",
+   "Sie — это имя, а имена пишут с большой."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Hören Sie bitte."
+ },
+ {
+  "item_id": "ch03_L5_why_4",
+  "id": "ch03_L5_why_4",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_033",
+  "prompt": "Где в «Hören Sie bitte noch einmal» стоит «noch einmal»?",
+  "answer": "В конце, после Sie и bitte.",
+  "distractors": [
+   "В самом начале фразы.",
+   "Сразу перед словом Sie."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Hören Sie bitte noch einmal."
+ },
+ {
+  "item_id": "ch03_L5_why_5",
+  "id": "ch03_L5_why_5",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_d5_01",
+  "prompt": "Почему в «Bitte hören Sie» действие hören идёт сразу после bitte?",
+  "answer": "bitte вагона не занимает: hören — первым, потом Sie.",
+  "distractors": [
+   "bitte — это тоже действие, и оно первое.",
+   "hören всегда ставят в самый конец фразы."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Bitte hören Sie."
+ },
+ {
+  "item_id": "ch03_L5_transfer_1",
+  "id": "ch03_L5_transfer_1",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_t09",
+  "prompt": "Frau Becker читает быстро. Попроси: «Прочитайте ещё раз, пожалуйста.»",
+  "answer": "Lesen Sie bitte noch einmal.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t09.mp3",
+  "de": null,
+  "accept": [
+   "Lesen Sie bitte noch einmal."
+  ]
+ },
+ {
+  "item_id": "ch03_L5_transfer_2",
+  "id": "ch03_L5_transfer_2",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_t09",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Прочитайте ещё раз, пожалуйста.",
+  "distractors": [
+   "Послушайте ещё раз, пожалуйста.",
+   "Прочитайте медленно, пожалуйста."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t09.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L5_transfer_3",
+  "id": "ch03_L5_transfer_3",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_t10",
+  "prompt": "Учительница пишет на доске быстро. Попроси: «Пишите медленно, пожалуйста.»",
+  "answer": "Schreiben Sie bitte langsam.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t10.mp3",
+  "de": null,
+  "accept": [
+   "Schreiben Sie bitte langsam."
+  ]
+ },
+ {
+  "item_id": "ch03_L5_transfer_4",
+  "id": "ch03_L5_transfer_4",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_t10",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Пишите медленно, пожалуйста.",
+  "distractors": [
+   "Читайте медленно, пожалуйста.",
+   "Напишите ещё раз, пожалуйста."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L5_transfer_5",
+  "id": "ch03_L5_transfer_5",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_t10",
+  "prompt": "Впиши слово: «___ Sie bitte langsam.» (пишите)",
+  "answer": "Schreiben",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L5_boss_1",
+  "id": "ch03_L5_boss_1",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_d5_03",
+  "prompt": "Почему в «Bitte hören Sie noch einmal» после hören стоит Sie?",
+  "answer": "Просьба на «вы»: сначала действие, потом Sie.",
+  "distractors": [
+   "Sie всегда стоит в самом конце фразы.",
+   "После hören всегда стоит чьё-то имя."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Bitte hören Sie noch einmal."
+ },
+ {
+  "item_id": "ch03_L5_boss_2",
+  "id": "ch03_L5_boss_2",
+  "lesson": "ch03_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d5_07",
+  "prompt": "Послушай. Что просит учительница?",
+  "answer": "прочитать",
+  "distractors": [
+   "написать",
+   "послушать"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d5_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L6_words_1",
+  "id": "ch03_L6_words_1",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_036",
+  "prompt": "Что значит «Stadt»?",
+  "answer": "город",
+  "distractors": [
+   "деревня",
+   "вокзал"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L6_words_2",
+  "id": "ch03_L6_words_2",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_037",
+  "prompt": "Что значит «Bahnhof»?",
+  "answer": "вокзал",
+  "distractors": [
+   "школа",
+   "порт"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L6_words_3",
+  "id": "ch03_L6_words_3",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_038",
+  "prompt": "Что значит «Schule»?",
+  "answer": "школа",
+  "distractors": [
+   "ратуша",
+   "вокзал"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L6_words_4",
+  "id": "ch03_L6_words_4",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_039",
+  "prompt": "Что значит «Rathaus»?",
+  "answer": "ратуша",
+  "distractors": [
+   "школа",
+   "рынок"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L6_words_5",
+  "id": "ch03_L6_words_5",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_040",
+  "prompt": "Что значит «Markt»?",
+  "answer": "рынок",
+  "distractors": [
+   "мост",
+   "порт"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L6_listen_1",
+  "id": "ch03_L6_listen_1",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d6_01",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Это мой город.",
+  "distractors": [
+   "Это твой город.",
+   "Это мой вокзал."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d6_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L6_listen_2",
+  "id": "ch03_L6_listen_2",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d6_02",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Это вокзал. Школа здесь.",
+  "distractors": [
+   "Это школа. Вокзал здесь.",
+   "Это вокзал. Школа там."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d6_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L6_listen_3",
+  "id": "ch03_L6_listen_3",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d6_04",
+  "prompt": "Послушай. Что ответила Ольга?",
+  "answer": "Нет, это не мост. Это башня.",
+  "distractors": [
+   "Да, это мост. Это башня.",
+   "Нет, это не башня. Это мост."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d6_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L6_listen_4",
+  "id": "ch03_L6_listen_4",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d6_06",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Ратуша здесь. Рынок тоже здесь.",
+  "distractors": [
+   "Ратуша здесь. Рынок там.",
+   "Школа здесь. Рынок тоже здесь."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d6_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L6_listen_5",
+  "id": "ch03_L6_listen_5",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d6_08",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Порт здесь. Это мой город!",
+  "distractors": [
+   "Порт там. Это мой город!",
+   "Вокзал здесь. Это мой город!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d6_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L6_read_1",
+  "id": "ch03_L6_read_1",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_036",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это мой город.",
+  "distractors": [
+   "Это твой город.",
+   "Это мой вокзал."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist meine Stadt."
+ },
+ {
+  "item_id": "ch03_L6_read_2",
+  "id": "ch03_L6_read_2",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_037",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это вокзал.",
+  "distractors": [
+   "Это школа.",
+   "Где вокзал?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist der Bahnhof."
+ },
+ {
+  "item_id": "ch03_L6_read_3",
+  "id": "ch03_L6_read_3",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_039",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это ратуша.",
+  "distractors": [
+   "Это рынок.",
+   "Это школа."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist das Rathaus."
+ },
+ {
+  "item_id": "ch03_L6_read_4",
+  "id": "ch03_L6_read_4",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_040",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Где рынок?",
+  "distractors": [
+   "Это рынок.",
+   "Где порт?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wo ist der Markt?"
+ },
+ {
+  "item_id": "ch03_L6_read_5",
+  "id": "ch03_L6_read_5",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_d6_03",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это мост?",
+  "distractors": [
+   "Это башня?",
+   "Это не мост."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ist das die Brücke?"
+ },
+ {
+  "item_id": "ch03_L6_speak_1",
+  "id": "ch03_L6_speak_1",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_036",
+  "prompt": "Скажи: «Это мой город.» Stadt — «штадт».",
+  "answer": "Das ist meine Stadt.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_036.mp3",
+  "de": null,
+  "accept": [
+   "Das ist meine Stadt."
+  ]
+ },
+ {
+  "item_id": "ch03_L6_speak_2",
+  "id": "ch03_L6_speak_2",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_037",
+  "prompt": "Скажи: «Это вокзал.»",
+  "answer": "Das ist der Bahnhof.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_037.mp3",
+  "de": null,
+  "accept": [
+   "Das ist der Bahnhof."
+  ]
+ },
+ {
+  "item_id": "ch03_L6_speak_3",
+  "id": "ch03_L6_speak_3",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_039",
+  "prompt": "Скажи: «Это ратуша.»",
+  "answer": "Das ist das Rathaus.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_039.mp3",
+  "de": null,
+  "accept": [
+   "Das ist das Rathaus."
+  ]
+ },
+ {
+  "item_id": "ch03_L6_speak_4",
+  "id": "ch03_L6_speak_4",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_040",
+  "prompt": "Спроси: «Где рынок?» Wo — «воо», тяни.",
+  "answer": "Wo ist der Markt?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch03_040.mp3",
+  "de": null,
+  "accept": [
+   "Wo ist der Markt?"
+  ]
+ },
+ {
+  "item_id": "ch03_L6_speak_5",
+  "id": "ch03_L6_speak_5",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_d6_05",
+  "prompt": "Спроси Ольгу: «А где ратуша?»",
+  "answer": "Und wo ist das Rathaus?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d6_05.mp3",
+  "de": null,
+  "accept": [
+   "Und wo ist das Rathaus?"
+  ]
+ },
+ {
+  "item_id": "ch03_L6_write_1",
+  "id": "ch03_L6_write_1",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_037",
+  "prompt": "Впиши: «Das ist ___ Bahnhof.» (вокзал)",
+  "answer": "der",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_037.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L6_write_2",
+  "id": "ch03_L6_write_2",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_038",
+  "prompt": "Впиши: «Das ist ___ Schule.» (школа)",
+  "answer": "die",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_038.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L6_write_3",
+  "id": "ch03_L6_write_3",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_039",
+  "prompt": "Впиши: «Das ist ___ Rathaus.» (ратуша)",
+  "answer": "das",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_039.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L6_write_4",
+  "id": "ch03_L6_write_4",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_040",
+  "prompt": "Впиши слово: «Wo ist der ___?» (рынок)",
+  "answer": "Markt",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch03_040.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L6_write_5",
+  "id": "ch03_L6_write_5",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_036",
+  "prompt": "Впиши слово: «Das ist meine ___.» (город)",
+  "answer": "Stadt",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_036.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L6_why_1",
+  "id": "ch03_L6_why_1",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_037",
+  "prompt": "Почему «der Bahnhof», а не «ein Bahnhof»?",
+  "answer": "Вокзал в городе один, оба знают, какой: der Bahnhof.",
+  "distractors": [
+   "der говорят только про большие здания в городе.",
+   "ein говорят только в вопросах, а тут ответ."
+  ],
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist der Bahnhof."
+ },
+ {
+  "item_id": "ch03_L6_why_2",
+  "id": "ch03_L6_why_2",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_038",
+  "prompt": "Почему «die Schule», а не «der Schule»?",
+  "answer": "Schule — die-слово: die Schule.",
+  "distractors": [
+   "die — потому что школа большая.",
+   "der говорят только про людей."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist die Schule."
+ },
+ {
+  "item_id": "ch03_L6_why_3",
+  "id": "ch03_L6_why_3",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_039",
+  "prompt": "Почему «das Rathaus»?",
+  "answer": "Rathaus — das-слово: das Rathaus.",
+  "distractors": [
+   "das — потому что ратуша старая.",
+   "das говорят только про города."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist das Rathaus."
+ },
+ {
+  "item_id": "ch03_L6_why_4",
+  "id": "ch03_L6_why_4",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_040",
+  "prompt": "Почему в «Wo ist der Markt?» слово «wo» стоит первым?",
+  "answer": "Вопрос-слово wo — первым, сразу за ним идёт ist.",
+  "distractors": [
+   "wo всегда стоит в конце вопроса, после ist.",
+   "wo — самое короткое слово, его ставят вперёд."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": null,
+  "de": "Wo ist der Markt?"
+ },
+ {
+  "item_id": "ch03_L6_why_5",
+  "id": "ch03_L6_why_5",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_d6_04",
+  "prompt": "Почему «keine Brücke», а не «kein Brücke»?",
+  "answer": "Brücke — die-слово: eine Brücke → keine Brücke, с -e.",
+  "distractors": [
+   "kein — потому что мост маленький и один.",
+   "keine говорят только в вопросах «да/нет»."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Nein, das ist keine Brücke. Das ist der Turm."
+ },
+ {
+  "item_id": "ch03_L6_transfer_1",
+  "id": "ch03_L6_transfer_1",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_t11",
+  "prompt": "На фото большое здание у рельсов. Спроси: «Это вокзал?»",
+  "answer": "Ist das der Bahnhof?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t11.mp3",
+  "de": null,
+  "accept": [
+   "Ist das der Bahnhof?"
+  ]
+ },
+ {
+  "item_id": "ch03_L6_transfer_2",
+  "id": "ch03_L6_transfer_2",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_t11",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Это вокзал?",
+  "distractors": [
+   "Это школа?",
+   "Это не вокзал."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t11.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L6_transfer_3",
+  "id": "ch03_L6_transfer_3",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_t12",
+  "prompt": "Ты ищешь школу. Спроси Ольгу: «Где школа?»",
+  "answer": "Wo ist die Schule?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t12.mp3",
+  "de": null,
+  "accept": [
+   "Wo ist die Schule?"
+  ]
+ },
+ {
+  "item_id": "ch03_L6_transfer_4",
+  "id": "ch03_L6_transfer_4",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_t12",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Где школа?",
+  "distractors": [
+   "Где рынок?",
+   "Это школа."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t12.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L6_transfer_5",
+  "id": "ch03_L6_transfer_5",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_t12",
+  "prompt": "Впиши слово: «Wo ist die ___?» (школа)",
+  "answer": "Schule",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t12.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L6_boss_1",
+  "id": "ch03_L6_boss_1",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_d6_08",
+  "prompt": "Почему «der Hafen», а не «ein Hafen»?",
+  "answer": "Порт известен обоим: der Hafen.",
+  "distractors": [
+   "ein говорят только про людей.",
+   "der — потому что порт большой."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Der Hafen ist hier. Das ist meine Stadt!"
+ },
+ {
+  "item_id": "ch03_L6_boss_2",
+  "id": "ch03_L6_boss_2",
+  "lesson": "ch03_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d6_06",
+  "prompt": "Послушай. Что находится в городе Ольги рядом?",
+  "answer": "ратуша и рынок",
+  "distractors": [
+   "школа и порт",
+   "вокзал и мост"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d6_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L7_words_1",
+  "id": "ch03_L7_words_1",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_043",
+  "prompt": "Что значит «Foto»?",
+  "answer": "фото",
+  "distractors": [
+   "картинка",
+   "рисунок"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L7_words_2",
+  "id": "ch03_L7_words_2",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_044",
+  "prompt": "Что значит «Bild»?",
+  "answer": "картинка",
+  "distractors": [
+   "фото",
+   "рисунок"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L7_words_3",
+  "id": "ch03_L7_words_3",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_045",
+  "prompt": "Что значит «Zeichnung»?",
+  "answer": "рисунок",
+  "distractors": [
+   "картинка",
+   "фото"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L7_words_4",
+  "id": "ch03_L7_words_4",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_046",
+  "prompt": "Что значит «Wem gehört das Foto?»",
+  "answer": "Чьё это фото?",
+  "distractors": [
+   "Где фото?",
+   "Это твоё фото?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L7_words_5",
+  "id": "ch03_L7_words_5",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_047",
+  "prompt": "Что значит «gehört»?",
+  "answer": "принадлежит",
+  "distractors": [
+   "находится",
+   "нравится"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L7_listen_1",
+  "id": "ch03_L7_listen_1",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d7_01",
+  "prompt": "Послушай. Что сказал герой?",
+  "answer": "Вот фото.",
+  "distractors": [
+   "Вот картинка.",
+   "Это фото."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d7_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L7_listen_2",
+  "id": "ch03_L7_listen_2",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d7_02",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Чьё это фото? Это моё!",
+  "distractors": [
+   "Чьё это фото? Это твоё!",
+   "Чья это картинка? Это моя!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d7_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L7_listen_3",
+  "id": "ch03_L7_listen_3",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d7_04",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Это твоя картинка?",
+  "distractors": [
+   "Это моя картинка?",
+   "Это твоё фото?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d7_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L7_listen_4",
+  "id": "ch03_L7_listen_4",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d7_06",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Это мой рисунок? Да, это мой рисунок!",
+  "distractors": [
+   "Это твой рисунок? Да, это твой рисунок!",
+   "Это моя картинка? Да, это моя картинка!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d7_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L7_listen_5",
+  "id": "ch03_L7_listen_5",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d7_08",
+  "prompt": "Послушай. Кому принадлежит картинка?",
+  "answer": "Марии",
+  "distractors": [
+   "Ольге",
+   "герою"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d7_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L7_read_1",
+  "id": "ch03_L7_read_1",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_043",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это фото.",
+  "distractors": [
+   "Это картинка.",
+   "Это рисунок."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist ein Foto."
+ },
+ {
+  "item_id": "ch03_L7_read_2",
+  "id": "ch03_L7_read_2",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_045",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это рисунок.",
+  "distractors": [
+   "Это фото.",
+   "Это картинка."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist eine Zeichnung."
+ },
+ {
+  "item_id": "ch03_L7_read_3",
+  "id": "ch03_L7_read_3",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_047",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Картинка принадлежит Марии.",
+  "distractors": [
+   "Рисунок принадлежит Марии.",
+   "Картинка принадлежит Ольге."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das Bild gehört Maria."
+ },
+ {
+  "item_id": "ch03_L7_read_4",
+  "id": "ch03_L7_read_4",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_048",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это твоя картинка?",
+  "distractors": [
+   "Это моя картинка?",
+   "Это не твоя картинка."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ist das dein Bild?"
+ },
+ {
+  "item_id": "ch03_L7_read_5",
+  "id": "ch03_L7_read_5",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_d7_05",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Нет, это не моя картинка. Это рисунок.",
+  "distractors": [
+   "Да, это моя картинка. Это рисунок.",
+   "Нет, это не мой рисунок. Это картинка."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Nein, das ist nicht mein Bild. Das ist eine Zeichnung."
+ },
+ {
+  "item_id": "ch03_L7_speak_1",
+  "id": "ch03_L7_speak_1",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_043",
+  "prompt": "Назови вещь: «Это фото.»",
+  "answer": "Das ist ein Foto.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_043.mp3",
+  "de": null,
+  "accept": [
+   "Das ist ein Foto."
+  ]
+ },
+ {
+  "item_id": "ch03_L7_speak_2",
+  "id": "ch03_L7_speak_2",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_045",
+  "prompt": "Назови вещь: «Это рисунок.» eine — «айнэ».",
+  "answer": "Das ist eine Zeichnung.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_045.mp3",
+  "de": null,
+  "accept": [
+   "Das ist eine Zeichnung."
+  ]
+ },
+ {
+  "item_id": "ch03_L7_speak_3",
+  "id": "ch03_L7_speak_3",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_046",
+  "prompt": "Спроси: «Чьё это фото?» Wem — «веем», тяни.",
+  "answer": "Wem gehört das Foto?",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch03_046.mp3",
+  "de": null,
+  "accept": [
+   "Wem gehört das Foto?"
+  ]
+ },
+ {
+  "item_id": "ch03_L7_speak_4",
+  "id": "ch03_L7_speak_4",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_048",
+  "prompt": "Спроси Ольгу: «Это твоя картинка?» Голос в конце — вверх.",
+  "answer": "Ist das dein Bild?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch03_048.mp3",
+  "de": null,
+  "accept": [
+   "Ist das dein Bild?"
+  ]
+ },
+ {
+  "item_id": "ch03_L7_speak_5",
+  "id": "ch03_L7_speak_5",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_d7_05",
+  "prompt": "Ответь Ольге: «Нет, это не моя картинка. Это рисунок.»",
+  "answer": "Nein, das ist nicht mein Bild. Das ist eine Zeichnung.",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d7_05.mp3",
+  "de": null,
+  "accept": [
+   "Nein, das ist nicht mein Bild. Das ist eine Zeichnung."
+  ]
+ },
+ {
+  "item_id": "ch03_L7_write_1",
+  "id": "ch03_L7_write_1",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_043",
+  "prompt": "Впиши: «Das ist ___ Foto.» (фото)",
+  "answer": "ein",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_043.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L7_write_2",
+  "id": "ch03_L7_write_2",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_045",
+  "prompt": "Впиши: «Das ist ___ Zeichnung.» (рисунок)",
+  "answer": "eine",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_045.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L7_write_3",
+  "id": "ch03_L7_write_3",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_044",
+  "prompt": "Впиши слово: «Das ist ein ___.» (картинка)",
+  "answer": "Bild",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_044.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L7_write_4",
+  "id": "ch03_L7_write_4",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_046",
+  "prompt": "Впиши слово: «Wem gehört das ___?» (фото)",
+  "answer": "Foto",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch03_046.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L7_write_5",
+  "id": "ch03_L7_write_5",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_047",
+  "prompt": "Впиши слово: «Das Bild ___ Maria.» (принадлежит)",
+  "answer": "gehört",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch03_047.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L7_why_1",
+  "id": "ch03_L7_why_1",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_043",
+  "prompt": "Почему «ein Foto», без -e?",
+  "answer": "Foto — das-слово: у das-слов стоит ein, без -e.",
+  "distractors": [
+   "ein — потому что фото маленькое и одно.",
+   "eine говорят только про людей, не про вещи."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist ein Foto."
+ },
+ {
+  "item_id": "ch03_L7_why_2",
+  "id": "ch03_L7_why_2",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_045",
+  "prompt": "Почему «eine Zeichnung», с -e?",
+  "answer": "Zeichnung — die-слово: слова на -ung обычно die.",
+  "distractors": [
+   "eine — потому что рисунок маленький и один.",
+   "eine говорят только в вопросах «да/нет»."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist eine Zeichnung."
+ },
+ {
+  "item_id": "ch03_L7_why_3",
+  "id": "ch03_L7_why_3",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_046",
+  "prompt": "Почему в «Wem gehört das Foto?» слово «wem» стоит первым?",
+  "answer": "Вопрос-слово wem — первым, сразу за ним идёт gehört.",
+  "distractors": [
+   "wem всегда стоит в конце вопроса, после Foto.",
+   "wem — самое короткое слово, его ставят вперёд."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Wem gehört das Foto?"
+ },
+ {
+  "item_id": "ch03_L7_why_4",
+  "id": "ch03_L7_why_4",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_d7_05",
+  "prompt": "Почему «nicht mein Bild», а не «kein Bild»?",
+  "answer": "Перед mein ставят nicht: kein — только там, где был бы ein.",
+  "distractors": [
+   "kein говорят только про людей, а не про вещи.",
+   "nicht — потому что картинка маленькая и старая."
+  ],
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": null,
+  "de": "Nein, das ist nicht mein Bild. Das ist eine Zeichnung."
+ },
+ {
+  "item_id": "ch03_L7_why_5",
+  "id": "ch03_L7_why_5",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_048",
+  "prompt": "Почему в вопросе «Ist das dein Bild?» слово «ist» стоит первым?",
+  "answer": "Это вопрос «да/нет»: действие ist — впереди.",
+  "distractors": [
+   "ist стоит первым, потому что оно короткое.",
+   "Так спрашивают только на «вы», вежливо."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": null,
+  "de": "Ist das dein Bild?"
+ },
+ {
+  "item_id": "ch03_L7_transfer_1",
+  "id": "ch03_L7_transfer_1",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_t13",
+  "prompt": "На столе лежит фото. Спроси Ольгу: «Это твоё фото?»",
+  "answer": "Ist das dein Foto?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t13.mp3",
+  "de": null,
+  "accept": [
+   "Ist das dein Foto?"
+  ]
+ },
+ {
+  "item_id": "ch03_L7_transfer_2",
+  "id": "ch03_L7_transfer_2",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_t13",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Это твоё фото?",
+  "distractors": [
+   "Это твоя картинка?",
+   "Это не твоё фото."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t13.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L7_transfer_3",
+  "id": "ch03_L7_transfer_3",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_t14",
+  "prompt": "На столе рисунок. Спроси Ольгу: «Чей это рисунок?»",
+  "answer": "Wem gehört die Zeichnung?",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t14.mp3",
+  "de": null,
+  "accept": [
+   "Wem gehört die Zeichnung?"
+  ]
+ },
+ {
+  "item_id": "ch03_L7_transfer_4",
+  "id": "ch03_L7_transfer_4",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_t14",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Чей это рисунок?",
+  "distractors": [
+   "Чья это картинка?",
+   "Это твой рисунок?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t14.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L7_transfer_5",
+  "id": "ch03_L7_transfer_5",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_t14",
+  "prompt": "Впиши слово: «___ gehört die Zeichnung?» (чей — кому принадлежит)",
+  "answer": "Wem",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t14.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L7_boss_1",
+  "id": "ch03_L7_boss_1",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_d7_07",
+  "prompt": "Почему в вопросе «das Bild», а не «ein Bild»?",
+  "answer": "Картинку уже показали, оба знают какую: das Bild.",
+  "distractors": [
+   "das говорят только про фото и картинки.",
+   "ein нельзя, потому что это вопрос «чьё?»."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Wem gehört das Bild?"
+ },
+ {
+  "item_id": "ch03_L7_boss_2",
+  "id": "ch03_L7_boss_2",
+  "lesson": "ch03_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d7_06",
+  "prompt": "Послушай. Что ответила Ольга про рисунок?",
+  "answer": "Да, это мой рисунок!",
+  "distractors": [
+   "Нет, это не мой рисунок!",
+   "Да, это моя картинка!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d7_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L8_words_1",
+  "id": "ch03_L8_words_1",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_050",
+  "prompt": "Что значит «ergänzen»?",
+  "answer": "дополнить",
+  "distractors": [
+   "отметить",
+   "расставить по порядку"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L8_words_2",
+  "id": "ch03_L8_words_2",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_051",
+  "prompt": "Что значит «markieren»?",
+  "answer": "отметить",
+  "distractors": [
+   "дополнить",
+   "прочитать"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L8_words_3",
+  "id": "ch03_L8_words_3",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_052",
+  "prompt": "Что значит «ordnen»?",
+  "answer": "расставить по порядку",
+  "distractors": [
+   "отметить",
+   "послушать"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L8_words_4",
+  "id": "ch03_L8_words_4",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_053",
+  "prompt": "Что значит «Satz»?",
+  "answer": "предложение",
+  "distractors": [
+   "слово",
+   "точка"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L8_words_5",
+  "id": "ch03_L8_words_5",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch03_054",
+  "prompt": "Что значит «Punkt»?",
+  "answer": "точка",
+  "distractors": [
+   "запятая",
+   "предложение"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch03_L8_listen_1",
+  "id": "ch03_L8_listen_1",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d8_01",
+  "prompt": "Послушай. О чём просит Frau Becker?",
+  "answer": "Дополнить.",
+  "distractors": [
+   "Отметить.",
+   "Расставить по порядку."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d8_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L8_listen_2",
+  "id": "ch03_L8_listen_2",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d8_03",
+  "prompt": "Послушай. Что надо отметить?",
+  "answer": "знак вопроса",
+  "distractors": [
+   "точку",
+   "запятую"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d8_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L8_listen_3",
+  "id": "ch03_L8_listen_3",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d8_04",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Вот знак вопроса. Это не точка.",
+  "distractors": [
+   "Вот точка. Это не знак вопроса.",
+   "Вот знак вопроса. Это точка."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d8_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L8_listen_4",
+  "id": "ch03_L8_listen_4",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d8_05",
+  "prompt": "Послушай. О чём просит Frau Becker?",
+  "answer": "Расставить по порядку.",
+  "distractors": [
+   "Дополнить.",
+   "Отметить."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d8_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L8_listen_5",
+  "id": "ch03_L8_listen_5",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d8_07",
+  "prompt": "Послушай. Как Frau Becker просит читать?",
+  "answer": "медленно",
+  "distractors": [
+   "быстро",
+   "громко"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d8_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L8_read_1",
+  "id": "ch03_L8_read_1",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_053",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это предложение.",
+  "distractors": [
+   "Это слово.",
+   "Это точка."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist ein Satz."
+ },
+ {
+  "item_id": "ch03_L8_read_2",
+  "id": "ch03_L8_read_2",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_055",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это знак вопроса?",
+  "distractors": [
+   "Это знак вопроса.",
+   "Это запятая?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ist das ein Fragezeichen?"
+ },
+ {
+  "item_id": "ch03_L8_read_3",
+  "id": "ch03_L8_read_3",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_d8_06",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это запятая?",
+  "distractors": [
+   "Это точка?",
+   "Это не запятая."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ist das ein Komma?"
+ },
+ {
+  "item_id": "ch03_L8_read_4",
+  "id": "ch03_L8_read_4",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_023",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Мой компьютер сломан.",
+  "distractors": [
+   "Мой компьютер новый.",
+   "Твой компьютер сломан."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Mein Computer ist kaputt."
+ },
+ {
+  "item_id": "ch03_L8_read_5",
+  "id": "ch03_L8_read_5",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch03_046",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Чьё это фото?",
+  "distractors": [
+   "Где фото?",
+   "Это твоё фото?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wem gehört das Foto?"
+ },
+ {
+  "item_id": "ch03_L8_speak_1",
+  "id": "ch03_L8_speak_1",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_050",
+  "prompt": "Попроси на «вы»: «Дополните, пожалуйста.»",
+  "answer": "Ergänzen Sie bitte.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch03_050.mp3",
+  "de": null,
+  "accept": [
+   "Ergänzen Sie bitte."
+  ]
+ },
+ {
+  "item_id": "ch03_L8_speak_2",
+  "id": "ch03_L8_speak_2",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_052",
+  "prompt": "Попроси на «вы»: «Расставьте по порядку, пожалуйста.»",
+  "answer": "Ordnen Sie bitte.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch03_052.mp3",
+  "de": null,
+  "accept": [
+   "Ordnen Sie bitte."
+  ]
+ },
+ {
+  "item_id": "ch03_L8_speak_3",
+  "id": "ch03_L8_speak_3",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_055",
+  "prompt": "Спроси про незнакомый значок: «Это (какой-то) знак вопроса?» — называешь впервые, ein. Голос в конце — вверх.",
+  "answer": "Ist das ein Fragezeichen?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch03_055.mp3",
+  "de": null,
+  "accept": [
+   "Ist das ein Fragezeichen?"
+  ]
+ },
+ {
+  "item_id": "ch03_L8_speak_4",
+  "id": "ch03_L8_speak_4",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_029",
+  "prompt": "Попроси учительницу: «Повторите, пожалуйста.»",
+  "answer": "Wiederholen Sie bitte.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch03_029.mp3",
+  "de": null,
+  "accept": [
+   "Wiederholen Sie bitte."
+  ]
+ },
+ {
+  "item_id": "ch03_L8_speak_5",
+  "id": "ch03_L8_speak_5",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_036",
+  "prompt": "Покажи на фото и скажи: «Это мой город.»",
+  "answer": "Das ist meine Stadt.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_036.mp3",
+  "de": null,
+  "accept": [
+   "Das ist meine Stadt."
+  ]
+ },
+ {
+  "item_id": "ch03_L8_write_1",
+  "id": "ch03_L8_write_1",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_053",
+  "prompt": "Впиши: «Das ist ___ Satz.» (какое-то предложение — называешь впервые)",
+  "answer": "ein",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_053.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L8_write_2",
+  "id": "ch03_L8_write_2",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_054",
+  "prompt": "Впиши слово: «Das ist ein ___.» (точка)",
+  "answer": "Punkt",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_054.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L8_write_3",
+  "id": "ch03_L8_write_3",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_051",
+  "prompt": "Впиши слово: «Markieren ___ bitte.» (вы)",
+  "answer": "Sie",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch03_051.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L8_write_4",
+  "id": "ch03_L8_write_4",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_018",
+  "prompt": "Впиши: «Das ist ___ Katze.» (не кошка)",
+  "answer": "keine",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_018.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L8_write_5",
+  "id": "ch03_L8_write_5",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_014",
+  "prompt": "Впиши: «Das ist ___ Tasche.» (твоя сумка)",
+  "answer": "deine",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch03_014.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L8_why_1",
+  "id": "ch03_L8_why_1",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_053",
+  "prompt": "Почему «ein Satz», без -e?",
+  "answer": "Satz — der-слово: у der-слов стоит ein, без -e.",
+  "distractors": [
+   "ein — потому что предложение короткое.",
+   "eine говорят только про людей."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist ein Satz."
+ },
+ {
+  "item_id": "ch03_L8_why_2",
+  "id": "ch03_L8_why_2",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_024",
+  "prompt": "Почему «Er funktioniert nicht», а не «Sie funktioniert nicht»?",
+  "answer": "er заменяет der-слово, например der Computer.",
+  "distractors": [
+   "er — это «она», так говорят про мышь.",
+   "er говорят только про людей, не про вещи."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Er funktioniert nicht."
+ },
+ {
+  "item_id": "ch03_L8_why_3",
+  "id": "ch03_L8_why_3",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_037",
+  "prompt": "Почему «der Bahnhof», а не «ein Bahnhof»?",
+  "answer": "Вокзал в городе один, оба знают, какой: der Bahnhof.",
+  "distractors": [
+   "der говорят только про большие здания в городе.",
+   "ein говорят только в вопросах, а тут ответ."
+  ],
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist der Bahnhof."
+ },
+ {
+  "item_id": "ch03_L8_why_4",
+  "id": "ch03_L8_why_4",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_029",
+  "prompt": "Почему в «Wiederholen Sie bitte» действие стоит впереди?",
+  "answer": "Просьба на «вы»: действие впереди, потом Sie.",
+  "distractors": [
+   "Sie всегда стоит первым в любой фразе.",
+   "Так говорят только в самом конце урока."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Wiederholen Sie bitte."
+ },
+ {
+  "item_id": "ch03_L8_why_5",
+  "id": "ch03_L8_why_5",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_018",
+  "prompt": "Почему «keine Katze», а не «kein Katze»?",
+  "answer": "Katze — die-слово: eine Katze → keine Katze, с -e.",
+  "distractors": [
+   "kein говорят только про людей, не про животных.",
+   "keine — потому что кошка маленькая и одна."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist keine Katze."
+ },
+ {
+  "item_id": "ch03_L8_transfer_1",
+  "id": "ch03_L8_transfer_1",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_t15",
+  "prompt": "В тексте что-то похожее на предложение. Спроси, называя впервые (ein): «Это (какое-то) предложение?»",
+  "answer": "Ist das ein Satz?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t15.mp3",
+  "de": null,
+  "accept": [
+   "Ist das ein Satz?"
+  ]
+ },
+ {
+  "item_id": "ch03_L8_transfer_2",
+  "id": "ch03_L8_transfer_2",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_t15",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Это предложение?",
+  "distractors": [
+   "Это точка?",
+   "Это не предложение."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t15.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L8_transfer_3",
+  "id": "ch03_L8_transfer_3",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch03_t16",
+  "prompt": "Ты ведёшь занятие. Попроси группу на «вы»: «Отметьте, пожалуйста, запятую.»",
+  "answer": "Markieren Sie bitte das Komma.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t16.mp3",
+  "de": null,
+  "accept": [
+   "Markieren Sie bitte das Komma."
+  ]
+ },
+ {
+  "item_id": "ch03_L8_transfer_4",
+  "id": "ch03_L8_transfer_4",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_t16",
+  "prompt": "Послушай новую просьбу. Что просят?",
+  "answer": "Отметьте, пожалуйста, запятую.",
+  "distractors": [
+   "Отметьте, пожалуйста, точку.",
+   "Дополните, пожалуйста, запятую."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t16.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L8_transfer_5",
+  "id": "ch03_L8_transfer_5",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch03_t16",
+  "prompt": "Впиши слово: «Markieren Sie bitte das ___.» (запятая)",
+  "answer": "Komma",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": "audio_v1/ch03_t16.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L8_boss_1",
+  "id": "ch03_L8_boss_1",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch03_d8_07",
+  "prompt": "Послушай. Что Frau Becker сказала про запятую?",
+  "answer": "Да, это запятая.",
+  "distractors": [
+   "Нет, это не запятая.",
+   "Да, это точка."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch03_d8_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch03_L8_boss_2",
+  "id": "ch03_L8_boss_2",
+  "lesson": "ch03_L8",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch03_d8_04",
+  "prompt": "Почему «kein Punkt», а не «keine Punkt»?",
+  "answer": "Punkt — der-слово: ein Punkt → kein Punkt, без -e.",
+  "distractors": [
+   "keine говорят только в вопросах «да/нет».",
+   "kein — потому что точка маленькая и одна."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Hier ist das Fragezeichen. Das ist kein Punkt."
+ }
+]

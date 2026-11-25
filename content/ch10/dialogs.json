@@ -1,0 +1,4605 @@
+[
+ {
+  "id": "ch10_d1",
+  "title_ru": "Перемена на курсе: кто откуда приехал",
+  "roles": {
+   "A": "Ahmad (одногруппник)",
+   "H": "{hero_name} (герой)",
+   "O": "Olga (одногруппница)"
+  },
+  "lines": [
+   {
+    "id": "ch10_d1_01",
+    "role": "A",
+    "de": "Woher bist du gekommen?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Откуда ты приехал?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Woher",
+       "role": "вопрос-слово",
+       "asks": "откуда"
+      },
+      {
+       "w": "bist",
+       "role": "помощник №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "gekommen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "woher — вопрос-слово, за ним помощник bist. gekommen — в самом конце.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Woher bist du gekommen?",
+     "why_ru": "По-русски «Откуда ты приехал» — прошлое одним словом; по-немецки два слова, и они разнесены: Woher bist du gekommen?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Woher bist gekommen du?",
+      "ru": "По-русски «Откуда ты приехал» — одно слово по порядку. По-немецки bist … gekommen разнесены: gekommen — в самый конец."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "woher — вопрос-слово, за ним помощник bist. gekommen — в самом конце."
+    },
+    "audio": "audio_v1/ch10_d1_01.mp3",
+    "tts": "Woher bist du gekommen?",
+    "ipa": [
+     {
+      "w": "Woher",
+      "ipa": "[voˈheːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bist",
+      "ipa": "[bɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gekommen",
+      "ipa": "[ɡəˈkɔmən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · помощник (вагон №2): b… · кто: d… · хвост действия: g…",
+    "gap": {
+     "text": "Woher ___ du gekommen?",
+     "answers": [
+      "bist"
+     ]
+    },
+    "task_ru": "Скажи: Откуда ты приехал?"
+   },
+   {
+    "id": "ch10_d1_02",
+    "role": "H",
+    "de": "Ich bin aus der Ukraine gekommen. Und du?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я приехал из Украины. А ты?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "bin",
+       "role": "помощник №2"
+      },
+      {
+       "w": "aus der Ukraine",
+       "role": "откуда"
+      },
+      {
+       "w": "gekommen",
+       "role": "хвост действия"
+      },
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      }
+     ],
+     "text": "Помощник bin — в вагоне №2, gekommen — в конце. Und du? — вернуть вопрос: «а ты?».",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ich bin aus der Ukraine gekommen.",
+     "why_ru": "По-русски «Я приехал из Украины» — прошлое одним словом; по-немецки два слова, и они разнесены: Ich bin aus der Ukraine gekommen.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Ich bin gekommen aus der Ukraine. Und du?",
+      "ru": "По-русски «Я приехал из Украины» — одно слово по порядку. По-немецки bin … gekommen разнесены: gekommen — в самый конец."
+     },
+     "root": "bin, bist — от древнего корня *bʰew- («быть»), а ist — от *es- (как русское «есть»); весь глагол sein собран из двух корней (DWDS, Wiktionary); du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Помощник bin — в вагоне №2, gekommen — в конце. Und du? — вернуть вопрос: «а ты?»."
+    },
+    "audio": "audio_v1/ch10_d1_02.mp3",
+    "tts": "Ich bin aus der Ukraine gekommen. Und du?",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bin",
+      "ipa": "[bɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "aus",
+      "ipa": "[aʊ̯s]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ukraine",
+      "ipa": "[ˌukʁaˈiːnə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gekommen",
+      "ipa": "[ɡəˈkɔmən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · помощник (вагон №2): b… · откуда: a… d… U… · хвост действия: g… · связка: U… · кто: d…",
+    "gap": {
+     "text": "Ich ___ aus der Ukraine gekommen. Und du?",
+     "answers": [
+      "bin"
+     ]
+    },
+    "task_ru": "Скажи: Я приехал из Украины. А ты?"
+   },
+   {
+    "id": "ch10_d1_03",
+    "role": "A",
+    "de": "Ich bin aus Syrien gekommen.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я приехал из Сирии.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "bin",
+       "role": "помощник №2"
+      },
+      {
+       "w": "aus Syrien",
+       "role": "откуда"
+      },
+      {
+       "w": "gekommen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Тот же поезд, другая страна: bin — в вагоне №2, gekommen — в конце.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ich bin aus Syrien gekommen.",
+     "why_ru": "По-русски «Я приехал из Сирии» — прошлое одним словом; по-немецки два слова, и они разнесены: Ich bin aus Syrien gekommen.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Ich bin gekommen aus Syrien.",
+      "ru": "По-русски «Я приехал из Сирии» — одно слово по порядку. По-немецки bin … gekommen разнесены: gekommen — в самый конец."
+     },
+     "root": "bin, bist — от древнего корня *bʰew- («быть»), а ist — от *es- (как русское «есть»); весь глагол sein собран из двух корней (DWDS, Wiktionary)",
+     "why_voice_ru": "Тот же поезд, другая страна: bin — в вагоне №2, gekommen — в конце.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «откуда» · хвост действия",
+      "items": [
+       {
+        "id": "ch10_001",
+        "de": "Ich bin aus der Ukraine gekommen.",
+        "ru": "Я приехал из Украины.",
+        "audio": "audio_v1/ch10_001.mp3",
+        "lesson": "L1",
+        "part": 3,
+        "changed": {
+         "role": "откуда",
+         "wagon": 3,
+         "from": "aus Syrien",
+         "to": "aus der Ukraine"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Ich · bin · gekommen. В каждом примере меняется один вагон — «откуда»: aus Syrien → aus der Ukraine. Действие bin всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch10_d1_03.mp3",
+    "tts": "Ich bin aus Syrien gekommen.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bin",
+      "ipa": "[bɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "aus",
+      "ipa": "[aʊ̯s]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Syrien",
+      "ipa": "[ˈzyːʁiən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gekommen",
+      "ipa": "[ɡəˈkɔmən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · помощник (вагон №2): b… · откуда: a… S… · хвост действия: g…",
+    "gap": {
+     "text": "Ich ___ aus Syrien gekommen.",
+     "answers": [
+      "bin"
+     ]
+    },
+    "task_ru": "Скажи: Я приехал из Сирии."
+   },
+   {
+    "id": "ch10_d1_04",
+    "role": "A",
+    "de": "Wo hast du gewohnt?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Где ты жил?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wo",
+       "role": "вопрос-слово",
+       "asks": "где"
+      },
+      {
+       "w": "hast",
+       "role": "помощник №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "gewohnt",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "wo — «где». Жил на месте, перемещения нет — помощник hast. gewohnt — в конце.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Wo hast du gewohnt?",
+     "why_ru": "По-русски «Где ты жил» — прошлое одним словом; по-немецки два слова, и они разнесены: Wo hast du gewohnt?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Wo hast gewohnt du?",
+      "ru": "По-русски «Где ты жил» — одно слово по порядку. По-немецки hast … gewohnt разнесены: gewohnt — в самый конец."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "wo — «где». Жил на месте, перемещения нет — помощник hast. gewohnt — в конце."
+    },
+    "audio": "audio_v1/ch10_d1_04.mp3",
+    "tts": "Wo hast du gewohnt?",
+    "ipa": [
+     {
+      "w": "Wo",
+      "ipa": "[voː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gewohnt",
+      "ipa": "[ɡəˈvoːnt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · помощник (вагон №2): h… · кто: d… · хвост действия: g…",
+    "gap": {
+     "text": "Wo ___ du gewohnt?",
+     "answers": [
+      "hast"
+     ]
+    },
+    "task_ru": "Скажи: Где ты жил?"
+   },
+   {
+    "id": "ch10_d1_05",
+    "role": "H",
+    "de": "Ich habe in Kiew gewohnt.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я жил в Киеве.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "in Kiew",
+       "role": "где"
+      },
+      {
+       "w": "gewohnt",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Помощник habe: жил на месте. gewohnt — «жил» — в самом конце.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ich habe in Kiew gewohnt.",
+     "why_ru": "По-русски «Я жил в Киеве» — прошлое одним словом; по-немецки два слова, и они разнесены: Ich habe in Kiew gewohnt.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Ich habe gewohnt in Kiew.",
+      "ru": "По-русски «Я жил в Киеве» — одно слово по порядку. По-немецки habe … gewohnt разнесены: gewohnt — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "Помощник habe: жил на месте. gewohnt — «жил» — в самом конце."
+    },
+    "audio": "audio_v1/ch10_d1_05.mp3",
+    "tts": "Ich habe in Kiew gewohnt.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "in",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kiew",
+      "ipa": "[ˈkiːɛf]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gewohnt",
+      "ipa": "[ɡəˈvoːnt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · помощник (вагон №2): h… · где: i… K… · хвост действия: g…",
+    "gap": {
+     "text": "Ich ___ in ___ gewohnt.",
+     "answers": [
+      "habe",
+      "Kiew"
+     ]
+    },
+    "task_ru": "Скажи: Я жил в Киеве."
+   },
+   {
+    "id": "ch10_d1_06",
+    "role": "A",
+    "de": "Seid ihr nach Dresden gefahren?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Вы поехали в Дрезден?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Seid",
+       "role": "помощник №1"
+      },
+      {
+       "w": "ihr",
+       "role": "кто"
+      },
+      {
+       "w": "nach Dresden",
+       "role": "куда"
+      },
+      {
+       "w": "gefahren",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет»: помощник Seid впереди. ihr — «вы», двое, с кем ты на «ты». gefahren — в конце.",
+     "topic": "perfekt",
+     "why_de": "Вопрос «да/нет» о прошлом: помощник Seid встаёт впереди, а что именно случилось, — в самый конец: Seid ihr nach Dresden gefahren?",
+     "why_ru": "По-русски «Вы поехали в Дрезден» — вопрос голосом, прошлое одним словом; по-немецки помощник впереди, а форма прошедшего — в самом конце: Seid ihr nach Dresden gefahren?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Seid gefahren ihr nach Dresden?",
+      "ru": "По-русски «Вы поехали в Дрезден» — одно слово по порядку. По-немецки Seid … gefahren разнесены: gefahren — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос «да/нет»: помощник Seid впереди. ihr — «вы», двое, с кем ты на «ты». gefahren — в конце."
+    },
+    "audio": "audio_v1/ch10_d1_06.mp3",
+    "tts": "Seid ihr nach Dresden gefahren?",
+    "ipa": [
+     {
+      "w": "Seid",
+      "ipa": "[zaɪ̯t]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ihr",
+      "ipa": "[iːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "nach",
+      "ipa": "[naːx]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Dresden",
+      "ipa": "[ˈdʁeːsdn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gefahren",
+      "ipa": "[ɡəˈfaːʁən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "помощник (вагон №1): S… · кто: i… · куда: n… D… · хвост действия: g…",
+    "gap": {
+     "text": "Seid ihr nach ___ gefahren?",
+     "answers": [
+      "Dresden"
+     ]
+    },
+    "task_ru": "Скажи: Вы поехали в Дрезден?"
+   },
+   {
+    "id": "ch10_d1_07",
+    "role": "O",
+    "de": "Nein, wir sind nach Freiberg gefahren.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Нет, мы поехали во Фрайберг.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Nein",
+       "role": "да/нет"
+      },
+      {
+       "w": "wir",
+       "role": "кто"
+      },
+      {
+       "w": "sind",
+       "role": "помощник №2"
+      },
+      {
+       "w": "nach Freiberg",
+       "role": "куда"
+      },
+      {
+       "w": "gefahren",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "nein не занимает вагон. Дальше поезд: wir · sind · nach Freiberg · gefahren.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Nein, wir sind nach Freiberg gefahren.",
+     "why_ru": "По-русски «Нет, мы поехали во Фрайберг» — прошлое одним словом; по-немецки два слова, и они разнесены: Nein, wir sind nach Freiberg gefahren.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Nein, wir sind gefahren nach Freiberg.",
+      "ru": "По-русски «Нет, мы поехали во Фрайберг» — одно слово по порядку. По-немецки sind … gefahren разнесены: gefahren — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "nein не занимает вагон. Дальше поезд: wir · sind · nach Freiberg · gefahren."
+    },
+    "audio": "audio_v1/ch10_d1_07.mp3",
+    "tts": "Nein, wir sind nach Freiberg gefahren.",
+    "ipa": [
+     {
+      "w": "Nein",
+      "ipa": "[naɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wir",
+      "ipa": "[viːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "sind",
+      "ipa": "[zɪnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "nach",
+      "ipa": "[naːx]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Freiberg",
+      "ipa": "[ˈfʁaɪ̯ˌbɛʁk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gefahren",
+      "ipa": "[ɡəˈfaːʁən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: N… · кто: w… · помощник (вагон №2): s… · куда: n… F… · хвост действия: g…",
+    "gap": {
+     "text": "Nein, wir ___ nach ___ gefahren.",
+     "answers": [
+      "sind",
+      "Freiberg"
+     ]
+    },
+    "task_ru": "Скажи: Нет, мы поехали во Фрайберг."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch10_d2",
+  "title_ru": "На курсе: что ты делал раньше",
+  "roles": {
+   "S": "Sofia (одногруппница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch10_d2_01",
+    "role": "S",
+    "de": "Was hast du in Kiew gemacht?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Что ты делал в Киеве?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "hast",
+       "role": "помощник №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "in Kiew",
+       "role": "где"
+      },
+      {
+       "w": "gemacht",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "was — вопрос-слово, за ним помощник hast. in Kiew — «где» — перед концом. gemacht — в самом конце.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Was hast du in Kiew gemacht?",
+     "why_ru": "По-русски «Что ты делал в Киеве» — прошлое одним словом; по-немецки два слова, и они разнесены: Was hast du in Kiew gemacht?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Was hast gemacht du in Kiew?",
+      "ru": "По-русски «Что ты делал в Киеве» — одно слово по порядку. По-немецки hast … gemacht разнесены: gemacht — в самый конец."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "was — вопрос-слово, за ним помощник hast. in Kiew — «где» — перед концом. gemacht — в самом конце."
+    },
+    "audio": "audio_v1/ch10_d2_01.mp3",
+    "tts": "Was hast du in Kiew gemacht?",
+    "ipa": [
+     {
+      "w": "Was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "in",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kiew",
+      "ipa": "[ˈkiːɛf]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gemacht",
+      "ipa": "[ɡəˈmaxt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · помощник (вагон №2): h… · кто: d… · где: i… K… · хвост действия: g…",
+    "gap": {
+     "text": "Was ___ du in ___ gemacht?",
+     "answers": [
+      "hast",
+      "Kiew"
+     ]
+    },
+    "task_ru": "Скажи: Что ты делал в Киеве?"
+   },
+   {
+    "id": "ch10_d2_02",
+    "role": "H",
+    "de": "Ich habe in Kiew gearbeitet.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я работал в Киеве.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "in Kiew",
+       "role": "где"
+      },
+      {
+       "w": "gearbeitet",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Помощник habe — в вагоне №2, gearbeitet — в конце.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ich habe in Kiew gearbeitet.",
+     "why_ru": "По-русски «Я работал в Киеве» — прошлое одним словом; по-немецки два слова, и они разнесены: Ich habe in Kiew gearbeitet.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Ich habe gearbeitet in Kiew.",
+      "ru": "По-русски «Я работал в Киеве» — одно слово по порядку. По-немецки habe … gearbeitet разнесены: gearbeitet — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "Помощник habe — в вагоне №2, gearbeitet — в конце.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «где» · хвост действия",
+      "items": [
+       {
+        "id": "ch10_005",
+        "de": "Ich habe in Kiew gewohnt.",
+        "ru": "Я жил в Киеве.",
+        "audio": "audio_v1/ch10_005.mp3",
+        "lesson": "L1",
+        "part": 3,
+        "changed": {
+         "role": "хвост действия",
+         "wagon": 4,
+         "from": "gearbeitet",
+         "to": "gewohnt"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Ich · habe · in Kiew. В каждом примере меняется один вагон — хвост действия: gearbeitet → gewohnt. Действие habe всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch10_d2_02.mp3",
+    "tts": "Ich habe in Kiew gearbeitet.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "in",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kiew",
+      "ipa": "[ˈkiːɛf]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gearbeitet",
+      "ipa": "[ɡəˈʔaʁbaɪ̯tət]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · помощник (вагон №2): h… · где: i… K… · хвост действия: g…",
+    "gap": {
+     "text": "Ich ___ in ___ gearbeitet.",
+     "answers": [
+      "habe",
+      "Kiew"
+     ]
+    },
+    "task_ru": "Скажи: Я работал в Киеве."
+   },
+   {
+    "id": "ch10_d2_03",
+    "role": "S",
+    "de": "Hast du schon Deutsch gelernt?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ты уже учил немецкий?",
+    "nouns": [
+     {
+      "lemma": "Deutsch",
+      "art": "das",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hast",
+       "role": "помощник №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "schon",
+       "role": "когда"
+      },
+      {
+       "w": "Deutsch",
+       "role": "кого-что"
+      },
+      {
+       "w": "gelernt",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет»: помощник впереди. schon — «уже».",
+     "topic": "perfekt",
+     "why_de": "Вопрос «да/нет» о прошлом: помощник Hast встаёт впереди, а что именно случилось, — в самый конец: Hast du schon Deutsch gelernt?",
+     "why_ru": "По-русски «Ты уже учил немецкий» — вопрос голосом, прошлое одним словом; по-немецки помощник впереди, а форма прошедшего — в самом конце: Hast du schon Deutsch gelernt?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Hast gelernt du schon Deutsch?",
+      "ru": "По-русски «Ты уже учил немецкий» — одно слово по порядку. По-немецки Hast … gelernt разнесены: gelernt — в самый конец."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос «да/нет»: помощник впереди. schon — «уже»."
+    },
+    "audio": "audio_v1/ch10_d2_03.mp3",
+    "tts": "Hast du schon Deutsch gelernt?",
+    "ipa": [
+     {
+      "w": "Hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schon",
+      "ipa": "[ʃoːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Deutsch",
+      "ipa": "[dɔɪ̯t͡ʃ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gelernt",
+      "ipa": "[ɡəˈlɛʁnt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "помощник (вагон №1): H… · кто: d… · когда: s… · кого-что: D… · хвост действия: g…",
+    "gap": {
+     "text": "Hast du schon ___ gelernt?",
+     "answers": [
+      "Deutsch"
+     ]
+    },
+    "task_ru": "Скажи: Ты уже учил немецкий?"
+   },
+   {
+    "id": "ch10_d2_04",
+    "role": "H",
+    "de": "Ja, ich habe schon Deutsch gelernt. Und du, hast du schon gearbeitet?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, я уже учил немецкий. А ты уже работала?",
+    "nouns": [
+     {
+      "lemma": "Deutsch",
+      "art": "das",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "schon",
+       "role": "когда"
+      },
+      {
+       "w": "Deutsch",
+       "role": "кого-что"
+      },
+      {
+       "w": "gelernt",
+       "role": "хвост действия"
+      },
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "hast",
+       "role": "помощник №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "schon",
+       "role": "когда"
+      },
+      {
+       "w": "gearbeitet",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "ja не занимает вагон. Дальше поезд: ich · habe · schon · Deutsch · gelernt. Потом вопрос «да/нет»: помощник hast после «Und du,», gearbeitet — в конце.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ja, ich habe schon Deutsch gelernt.",
+     "why_ru": "По-русски «Да, я уже учил немецкий» — прошлое одним словом; по-немецки два слова, и они разнесены: Ja, ich habe schon Deutsch gelernt.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Ja, ich habe gelernt schon Deutsch. Und du, hast du schon gearbeitet?",
+      "ru": "По-русски «Да, я уже учил немецкий» — одно слово по порядку. По-немецки habe … gelernt разнесены: gelernt — в самый конец."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "ja не занимает вагон. Дальше поезд: ich · habe · schon · Deutsch · gelernt."
+    },
+    "audio": "audio_v1/ch10_d2_04.mp3",
+    "tts": "Ja, ich habe schon Deutsch gelernt. Und du, hast du schon gearbeitet?",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schon",
+      "ipa": "[ʃoːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Deutsch",
+      "ipa": "[dɔɪ̯t͡ʃ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gelernt",
+      "ipa": "[ɡəˈlɛʁnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schon",
+      "ipa": "[ʃoːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gearbeitet",
+      "ipa": "[ɡəˈʔaʁbaɪ̯tət]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: i… · помощник (вагон №2): h… · когда: s… · кого-что: D… · хвост действия: g… · связка: U… · кто: d… · помощник (вагон №2): h… · кто: d… · когда: s… · хвост действия: g…",
+    "gap": {
+     "text": "Ja, ich ___ schon ___ gelernt. Und du, hast du schon gearbeitet?",
+     "answers": [
+      "habe",
+      "Deutsch"
+     ]
+    },
+    "task_ru": "Скажи: Да, я уже учил немецкий. А ты уже работала?"
+   },
+   {
+    "id": "ch10_d2_05",
+    "role": "S",
+    "de": "Nein, ich habe noch nicht gearbeitet.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Нет, я ещё не работала.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Nein",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "noch nicht",
+       "role": "«не»"
+      },
+      {
+       "w": "gearbeitet",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "noch nicht — «ещё не». nicht — перед последним вагоном.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Nein, ich habe noch nicht gearbeitet.",
+     "why_ru": "По-русски «Нет, я ещё не работала» — прошлое одним словом; по-немецки два слова, и они разнесены: Nein, ich habe noch nicht gearbeitet.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Nein, ich habe gearbeitet noch nicht.",
+      "ru": "По-русски «Нет, я ещё не работала» — одно слово по порядку. По-немецки habe … gearbeitet разнесены: gearbeitet — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "noch nicht — «ещё не». nicht — перед последним вагоном."
+    },
+    "audio": "audio_v1/ch10_d2_05.mp3",
+    "tts": "Nein, ich habe noch nicht gearbeitet.",
+    "ipa": [
+     {
+      "w": "Nein",
+      "ipa": "[naɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "noch",
+      "ipa": "[nɔx]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "nicht",
+      "ipa": "[nɪçt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gearbeitet",
+      "ipa": "[ɡəˈʔaʁbaɪ̯tət]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: N… · кто: i… · помощник (вагон №2): h… · «не»: n… n… · хвост действия: g…",
+    "gap": {
+     "text": "Nein, ich ___ noch nicht gearbeitet.",
+     "answers": [
+      "habe"
+     ]
+    },
+    "task_ru": "Скажи: Нет, я ещё не работала."
+   },
+   {
+    "id": "ch10_d2_06",
+    "role": "H",
+    "de": "Hast du schon Kaffee getrunken?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ты уже пила кофе?",
+    "nouns": [
+     {
+      "lemma": "Kaffee",
+      "art": "der",
+      "pl": "Kaffees"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hast",
+       "role": "помощник №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "schon",
+       "role": "когда"
+      },
+      {
+       "w": "Kaffee",
+       "role": "кого-что"
+      },
+      {
+       "w": "getrunken",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет»: помощник hast впереди. getrunken — в конце.",
+     "topic": "perfekt",
+     "why_de": "Вопрос «да/нет» о прошлом: помощник Hast встаёт впереди, а что именно случилось, — в самый конец: Hast du schon Kaffee getrunken?",
+     "why_ru": "По-русски «Ты уже пила кофе» — вопрос голосом, прошлое одним словом; по-немецки помощник впереди, а форма прошедшего — в самом конце: Hast du schon Kaffee getrunken?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Hast getrunken du schon Kaffee?",
+      "ru": "По-русски «Ты уже пила кофе» — одно слово по порядку. По-немецки Hast … getrunken разнесены: getrunken — в самый конец."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос «да/нет»: помощник hast впереди. getrunken — в конце."
+    },
+    "audio": "audio_v1/ch10_d2_06.mp3",
+    "tts": "Hast du schon Kaffee getrunken?",
+    "ipa": [
+     {
+      "w": "Hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schon",
+      "ipa": "[ʃoːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kaffee",
+      "ipa": "[ˈkafe]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "getrunken",
+      "ipa": "[ɡəˈtʁʊŋkn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "помощник (вагон №1): H… · кто: d… · когда: s… · кого-что: K… · хвост действия: g…",
+    "gap": {
+     "text": "Hast du schon ___ getrunken?",
+     "answers": [
+      "Kaffee"
+     ]
+    },
+    "task_ru": "Скажи: Ты уже пила кофе?"
+   },
+   {
+    "id": "ch10_d2_07",
+    "role": "S",
+    "de": "Nein, ich habe nur Kuchen gegessen.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Нет, я ела только пирог.",
+    "nouns": [
+     {
+      "lemma": "Kuchen",
+      "art": "der",
+      "pl": "Kuchen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Nein",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "nur Kuchen",
+       "role": "кого-что"
+      },
+      {
+       "w": "gegessen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "nein не занимает вагон. nur — «только»: стоит перед тем, что ела.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Nein, ich habe nur Kuchen gegessen.",
+     "why_ru": "По-русски «Нет, я ела только пирог» — прошлое одним словом; по-немецки два слова, и они разнесены: Nein, ich habe nur Kuchen gegessen.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Nein, ich habe gegessen nur Kuchen.",
+      "ru": "По-русски «Нет, я ела только пирог» — одно слово по порядку. По-немецки habe … gegessen разнесены: gegessen — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "nein не занимает вагон. nur — «только»: стоит перед тем, что ела."
+    },
+    "audio": "audio_v1/ch10_d2_07.mp3",
+    "tts": "Nein, ich habe nur Kuchen gegessen.",
+    "ipa": [
+     {
+      "w": "Nein",
+      "ipa": "[naɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "nur",
+      "ipa": "[nuːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kuchen",
+      "ipa": "[ˈkuːxn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gegessen",
+      "ipa": "[ɡəˈɡɛsn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: N… · кто: i… · помощник (вагон №2): h… · кого-что: n… K… · хвост действия: g…",
+    "gap": {
+     "text": "Nein, ich ___ nur ___ gegessen.",
+     "answers": [
+      "habe",
+      "Kuchen"
+     ]
+    },
+    "task_ru": "Скажи: Нет, я ела только пирог."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch10_d3",
+  "title_ru": "Утро перед записью: анкета и звонок",
+  "roles": {
+   "O": "Olga (одногруппница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch10_d3_01",
+    "role": "O",
+    "de": "Bist du schon aufgestanden?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ты уже встал?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Bist",
+       "role": "помощник №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "schon",
+       "role": "когда"
+      },
+      {
+       "w": "aufgestanden",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет»: помощник bist впереди. aufgestanden — в самом конце, ge- спряталось внутри.",
+     "topic": "perfekt",
+     "why_de": "Вопрос «да/нет» о прошлом: помощник Bist встаёт впереди, а что именно случилось, — в самый конец: Bist du schon aufgestanden?",
+     "why_ru": "По-русски «Ты уже встал» — вопрос голосом, прошлое одним словом; по-немецки помощник впереди, а форма прошедшего — в самом конце: Bist du schon aufgestanden?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Bist aufgestanden du schon?",
+      "ru": "По-русски «Ты уже встал» — одно слово по порядку. По-немецки Bist … aufgestanden разнесены: aufgestanden — в самый конец."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос «да/нет»: помощник bist впереди. aufgestanden — в самом конце, ge- спряталось внутри."
+    },
+    "audio": "audio_v1/ch10_d3_01.mp3",
+    "tts": "Bist du schon aufgestanden?",
+    "ipa": [
+     {
+      "w": "Bist",
+      "ipa": "[bɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schon",
+      "ipa": "[ʃoːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "aufgestanden",
+      "ipa": "[ˈaʊ̯fɡəˌʃtandn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "помощник (вагон №1): B… · кто: d… · когда: s… · хвост действия: a…",
+    "gap": {
+     "text": "Bist du ___ aufgestanden?",
+     "answers": [
+      "schon"
+     ]
+    },
+    "task_ru": "Скажи: Ты уже встал?"
+   },
+   {
+    "id": "ch10_d3_02",
+    "role": "H",
+    "de": "Ja, ich bin schon aufgestanden.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, я уже встал.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "bin",
+       "role": "помощник №2"
+      },
+      {
+       "w": "schon",
+       "role": "когда"
+      },
+      {
+       "w": "aufgestanden",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Помощник bin: встал сам. aufgestanden — в конце.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ja, ich bin schon aufgestanden.",
+     "why_ru": "По-русски «Да, я уже встал» — прошлое одним словом; по-немецки два слова, и они разнесены: Ja, ich bin schon aufgestanden.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Ja, ich bin aufgestanden schon.",
+      "ru": "По-русски «Да, я уже встал» — одно слово по порядку. По-немецки bin … aufgestanden разнесены: aufgestanden — в самый конец."
+     },
+     "root": "bin, bist — от древнего корня *bʰew- («быть»), а ist — от *es- (как русское «есть»); весь глагол sein собран из двух корней (DWDS, Wiktionary)",
+     "why_voice_ru": "Помощник bin: встал сам. aufgestanden — в конце."
+    },
+    "audio": "audio_v1/ch10_d3_02.mp3",
+    "tts": "Ja, ich bin schon aufgestanden.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bin",
+      "ipa": "[bɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schon",
+      "ipa": "[ʃoːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "aufgestanden",
+      "ipa": "[ˈaʊ̯fɡəˌʃtandn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: i… · помощник (вагон №2): b… · когда: s… · хвост действия: a…",
+    "gap": {
+     "text": "Ja, ich ___ ___ aufgestanden.",
+     "answers": [
+      "bin",
+      "schon"
+     ]
+    },
+    "task_ru": "Скажи: Да, я уже встал."
+   },
+   {
+    "id": "ch10_d3_03",
+    "role": "O",
+    "de": "Hast du das Formular ausgefüllt?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ты заполнил анкету?",
+    "nouns": [
+     {
+      "lemma": "Formular",
+      "art": "das",
+      "pl": "Formulare"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hast",
+       "role": "помощник №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "das Formular",
+       "role": "кого-что"
+      },
+      {
+       "w": "ausgefüllt",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет»: помощник впереди. ausgefüllt — в самом конце.",
+     "topic": "perfekt",
+     "why_de": "Вопрос «да/нет» о прошлом: помощник Hast встаёт впереди, а что именно случилось, — в самый конец: Hast du das Formular ausgefüllt?",
+     "why_ru": "По-русски «Ты заполнил анкету» — вопрос голосом, прошлое одним словом; по-немецки помощник впереди, а форма прошедшего — в самом конце: Hast du das Formular ausgefüllt?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Hast ausgefüllt du das Formular?",
+      "ru": "По-русски «Ты заполнил анкету» — одно слово по порядку. По-немецки Hast … ausgefüllt разнесены: ausgefüllt — в самый конец."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос «да/нет»: помощник впереди. ausgefüllt — в самом конце."
+    },
+    "audio": "audio_v1/ch10_d3_03.mp3",
+    "tts": "Hast du das Formular ausgefüllt?",
+    "ipa": [
+     {
+      "w": "Hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Formular",
+      "ipa": "[fɔʁmuˈlaːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ausgefüllt",
+      "ipa": "[ˈaʊ̯sɡəˌfʏlt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "помощник (вагон №1): H… · кто: d… · кого-что: d… F… · хвост действия: a…",
+    "gap": {
+     "text": "Hast du das ___ ausgefüllt?",
+     "answers": [
+      "Formular"
+     ]
+    },
+    "task_ru": "Скажи: Ты заполнил анкету?"
+   },
+   {
+    "id": "ch10_d3_04",
+    "role": "H",
+    "de": "Nein, ich habe das Formular noch nicht ausgefüllt.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Нет, я ещё не заполнил анкету.",
+    "nouns": [
+     {
+      "lemma": "Formular",
+      "art": "das",
+      "pl": "Formulare"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Nein",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "das Formular",
+       "role": "кого-что"
+      },
+      {
+       "w": "noch nicht",
+       "role": "«не»"
+      },
+      {
+       "w": "ausgefüllt",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "noch nicht — «ещё не», nicht перед последним вагоном.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Nein, ich habe das Formular noch nicht ausgefüllt.",
+     "why_ru": "По-русски «Нет, я ещё не заполнил анкету» — прошлое одним словом; по-немецки два слова, и они разнесены: Nein, ich habe das Formular noch nicht ausgefüllt.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Nein, ich habe ausgefüllt das Formular noch nicht.",
+      "ru": "По-русски «Нет, я ещё не заполнил анкету» — одно слово по порядку. По-немецки habe … ausgefüllt разнесены: ausgefüllt — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "noch nicht — «ещё не», nicht перед последним вагоном."
+    },
+    "audio": "audio_v1/ch10_d3_04.mp3",
+    "tts": "Nein, ich habe das Formular noch nicht ausgefüllt.",
+    "ipa": [
+     {
+      "w": "Nein",
+      "ipa": "[naɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Formular",
+      "ipa": "[fɔʁmuˈlaːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "noch",
+      "ipa": "[nɔx]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "nicht",
+      "ipa": "[nɪçt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ausgefüllt",
+      "ipa": "[ˈaʊ̯sɡəˌfʏlt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: N… · кто: i… · помощник (вагон №2): h… · кого-что: d… F… · «не»: n… n… · хвост действия: a…",
+    "gap": {
+     "text": "Nein, ich ___ das ___ noch nicht ausgefüllt.",
+     "answers": [
+      "habe",
+      "Formular"
+     ]
+    },
+    "task_ru": "Скажи: Нет, я ещё не заполнил анкету."
+   },
+   {
+    "id": "ch10_d3_05",
+    "role": "O",
+    "de": "Ich habe das Formular schon ausgefüllt.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я уже заполнила анкету.",
+    "nouns": [
+     {
+      "lemma": "Formular",
+      "art": "das",
+      "pl": "Formulare"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "das Formular",
+       "role": "кого-что"
+      },
+      {
+       "w": "schon",
+       "role": "когда"
+      },
+      {
+       "w": "ausgefüllt",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "schon — «уже» — после того, что заполнила, перед последним вагоном.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ich habe das Formular schon ausgefüllt.",
+     "why_ru": "По-русски «Я уже заполнила анкету» — прошлое одним словом; по-немецки два слова, и они разнесены: Ich habe das Formular schon ausgefüllt.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Ich habe ausgefüllt das Formular schon.",
+      "ru": "По-русски «Я уже заполнила анкету» — одно слово по порядку. По-немецки habe … ausgefüllt разнесены: ausgefüllt — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "schon — «уже» — после того, что заполнила, перед последним вагоном."
+    },
+    "audio": "audio_v1/ch10_d3_05.mp3",
+    "tts": "Ich habe das Formular schon ausgefüllt.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Formular",
+      "ipa": "[fɔʁmuˈlaːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schon",
+      "ipa": "[ʃoːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ausgefüllt",
+      "ipa": "[ˈaʊ̯sɡəˌfʏlt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · помощник (вагон №2): h… · кого-что: d… F… · когда: s… · хвост действия: a…",
+    "gap": {
+     "text": "Ich ___ das ___ schon ausgefüllt.",
+     "answers": [
+      "habe",
+      "Formular"
+     ]
+    },
+    "task_ru": "Скажи: Я уже заполнила анкету."
+   },
+   {
+    "id": "ch10_d3_06",
+    "role": "H",
+    "de": "Hast du Ahmad angerufen?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ты позвонила Ахмаду?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hast",
+       "role": "помощник №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "Ahmad",
+       "role": "кого-что"
+      },
+      {
+       "w": "angerufen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет»: помощник впереди. angerufen — в самом конце.",
+     "topic": "perfekt",
+     "why_de": "Вопрос «да/нет» о прошлом: помощник Hast встаёт впереди, а что именно случилось, — в самый конец: Hast du Ahmad angerufen?",
+     "why_ru": "По-русски «Ты позвонила Ахмаду» — вопрос голосом, прошлое одним словом; по-немецки помощник впереди, а форма прошедшего — в самом конце: Hast du Ahmad angerufen?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Hast angerufen du Ahmad?",
+      "ru": "По-русски «Ты позвонила Ахмаду» — одно слово по порядку. По-немецки Hast … angerufen разнесены: angerufen — в самый конец."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос «да/нет»: помощник впереди. angerufen — в самом конце."
+    },
+    "audio": "audio_v1/ch10_d3_06.mp3",
+    "tts": "Hast du Ahmad angerufen?",
+    "ipa": [
+     {
+      "w": "Hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ahmad",
+      "ipa": "[…]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "angerufen",
+      "ipa": "[ˈanɡəˌʁuːfn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "помощник (вагон №1): H… · кто: d… · кого-что: A… · хвост действия: a…",
+    "gap": {
+     "text": "Hast du ___ angerufen?",
+     "answers": [
+      "Ahmad"
+     ]
+    },
+    "task_ru": "Скажи: Ты позвонила Ахмаду?"
+   },
+   {
+    "id": "ch10_d3_07",
+    "role": "O",
+    "de": "Ja, ich habe Ahmad angerufen.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, я позвонила Ахмаду.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "Ahmad",
+       "role": "кого-что"
+      },
+      {
+       "w": "angerufen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Звонила на месте — помощник habe. По-немецки звонят «кого»: Ahmad.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ja, ich habe Ahmad angerufen.",
+     "why_ru": "По-русски «Да, я позвонила Ахмаду» — прошлое одним словом; по-немецки два слова, и они разнесены: Ja, ich habe Ahmad angerufen.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Ja, ich habe angerufen Ahmad.",
+      "ru": "По-русски «Да, я позвонила Ахмаду» — одно слово по порядку. По-немецки habe … angerufen разнесены: angerufen — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "Звонила на месте — помощник habe. По-немецки звонят «кого»: Ahmad."
+    },
+    "audio": "audio_v1/ch10_d3_07.mp3",
+    "tts": "Ja, ich habe Ahmad angerufen.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ahmad",
+      "ipa": "[…]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "angerufen",
+      "ipa": "[ˈanɡəˌʁuːfn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: i… · помощник (вагон №2): h… · кого-что: A… · хвост действия: a…",
+    "gap": {
+     "text": "Ja, ich ___ ___ angerufen.",
+     "answers": [
+      "habe",
+      "Ahmad"
+     ]
+    },
+    "task_ru": "Скажи: Да, я позвонила Ахмаду."
+   },
+   {
+    "id": "ch10_d3_08",
+    "role": "O",
+    "de": "Hast du schon eingekauft?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ты уже сделал покупки?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hast",
+       "role": "помощник №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "schon",
+       "role": "когда"
+      },
+      {
+       "w": "eingekauft",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет»: помощник впереди. eingekauft — в самом конце: ein·ge·kauf·t.",
+     "topic": "perfekt",
+     "why_de": "Вопрос «да/нет» о прошлом: помощник Hast встаёт впереди, а что именно случилось, — в самый конец: Hast du schon eingekauft?",
+     "why_ru": "По-русски «Ты уже сделал покупки» — вопрос голосом, прошлое одним словом; по-немецки помощник впереди, а форма прошедшего — в самом конце: Hast du schon eingekauft?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Hast eingekauft du schon?",
+      "ru": "По-русски «Ты уже сделал покупки» — одно слово по порядку. По-немецки Hast … eingekauft разнесены: eingekauft — в самый конец."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос «да/нет»: помощник впереди. eingekauft — в самом конце: ein·ge·kauf·t.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "действие (вагон №1) · «кто» · «когда» · хвост действия",
+      "items": [
+       {
+        "id": "ch10_017",
+        "de": "Hast du schon gearbeitet?",
+        "ru": "Ты уже работал?",
+        "audio": "audio_v1/ch10_017.mp3",
+        "lesson": "L2",
+        "part": 3,
+        "changed": {
+         "role": "хвост действия",
+         "wagon": 4,
+         "from": "eingekauft",
+         "to": "gearbeitet"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Hast · du · schon. В каждом примере меняется один вагон — хвост действия: eingekauft → gearbeitet. Действие Hast всё так же в вагоне №1.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch10_d3_08.mp3",
+    "tts": "Hast du schon eingekauft?",
+    "ipa": [
+     {
+      "w": "Hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schon",
+      "ipa": "[ʃoːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "eingekauft",
+      "ipa": "[ˈaɪ̯nɡəˌkaʊ̯ft]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "помощник (вагон №1): H… · кто: d… · когда: s… · хвост действия: e…",
+    "gap": {
+     "text": "Hast du ___ eingekauft?",
+     "answers": [
+      "schon"
+     ]
+    },
+    "task_ru": "Скажи: Ты уже сделал покупки?"
+   },
+   {
+    "id": "ch10_d3_09",
+    "role": "H",
+    "de": "Ja, ich habe schon eingekauft.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, я уже сделал покупки.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "schon",
+       "role": "когда"
+      },
+      {
+       "w": "eingekauft",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "ja не занимает вагон. Покупки — действие, а не переход из места в место: помощник habe. eingekauft — в конце.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ja, ich habe schon eingekauft.",
+     "why_ru": "По-русски «Да, я уже сделал покупки» — прошлое одним словом; по-немецки два слова, и они разнесены: Ja, ich habe schon eingekauft.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Ja, ich habe eingekauft schon.",
+      "ru": "По-русски «Да, я уже сделал покупки» — одно слово по порядку. По-немецки habe … eingekauft разнесены: eingekauft — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "ja не занимает вагон. Покупки — действие, а не переход из места в место: помощник habe. eingekauft — в конце."
+    },
+    "audio": "audio_v1/ch10_d3_09.mp3",
+    "tts": "Ja, ich habe schon eingekauft.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schon",
+      "ipa": "[ʃoːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "eingekauft",
+      "ipa": "[ˈaɪ̯nɡəˌkaʊ̯ft]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: i… · помощник (вагон №2): h… · когда: s… · хвост действия: e…",
+    "gap": {
+     "text": "Ja, ich ___ ___ eingekauft.",
+     "answers": [
+      "habe",
+      "schon"
+     ]
+    },
+    "task_ru": "Скажи: Да, я уже сделал покупки."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch10_d4",
+  "title_ru": "Первый день на кухне: повар просит",
+  "roles": {
+   "K": "Herr Becker (повар, на «вы»)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch10_d4_01",
+    "role": "K",
+    "de": "Waschen Sie bitte die Hände.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Помойте, пожалуйста, руки.",
+    "nouns": [
+     {
+      "lemma": "Hand",
+      "art": "die",
+      "pl": "Hände"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Waschen",
+       "role": "действие №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "bitte",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "die Hände",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Просьба на «вы»: Waschen первое, за ним Sie. bitte места не занимает.",
+     "topic": "word_order",
+     "why_de": "Просьба на «вы»: действие Waschen впереди + Sie: Waschen Sie bitte die Hände. Так немец сразу показывает, что ждёт действия.",
+     "why_ru": "По-русски «Помойте, пожалуйста, руки» — без «вы». По-немецки Sie нужен, сразу после Waschen.",
+     "layer": "imper",
+     "why_not": {
+      "wrong": "Waschen bitte die Hände.",
+      "ru": "По-русски «Помойте, пожалуйста, руки» — без «вы». По-немецки без Sie это уже не просьба на «вы», а ошибка."
+     },
+     "root": null,
+     "why_voice_ru": "Просьба на «вы»: Waschen первое, за ним Sie. bitte места не занимает."
+    },
+    "audio": "audio_v1/ch10_d4_01.mp3",
+    "tts": "Waschen Sie bitte die Hände.",
+    "ipa": [
+     {
+      "w": "Waschen",
+      "ipa": "[ˈvaʃn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Hände",
+      "ipa": "[ˈhɛndə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): W… · кто: S… · привет/вежливость: b… · кого-что: d… H…",
+    "gap": {
+     "text": "___ Sie bitte die ___.",
+     "answers": [
+      "Waschen",
+      "Hände"
+     ]
+    },
+    "task_ru": "Скажи: Помойте, пожалуйста, руки."
+   },
+   {
+    "id": "ch10_d4_02",
+    "role": "H",
+    "de": "Wiederholen Sie bitte.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Повторите, пожалуйста.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wiederholen",
+       "role": "действие №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "bitte",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Не понял — попроси повторить. Просьба на «вы»: Wiederholen первое, за ним Sie.",
+     "topic": "word_order",
+     "why_de": "Просьба на «вы»: действие Wiederholen впереди + Sie: Wiederholen Sie bitte. Так немец сразу показывает, что ждёт действия.",
+     "why_ru": "По-русски «Повторите, пожалуйста» — без «вы». По-немецки Sie нужен, сразу после Wiederholen.",
+     "layer": "imper",
+     "why_not": {
+      "wrong": "Wiederholen bitte.",
+      "ru": "По-русски «Повторите, пожалуйста» — без «вы». По-немецки без Sie это уже не просьба на «вы», а ошибка."
+     },
+     "root": null,
+     "why_voice_ru": "Не понял — попроси повторить. Просьба на «вы»: Wiederholen первое, за ним Sie."
+    },
+    "audio": "audio_v1/ch10_d4_02.mp3",
+    "tts": "Wiederholen Sie bitte.",
+    "ipa": [
+     {
+      "w": "Wiederholen",
+      "ipa": "[ˌviːdɐˈhoːlən]",
+      "src": "en.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): W… · кто: S… · привет/вежливость: b…",
+    "gap": {
+     "text": "___ Sie bitte.",
+     "answers": [
+      "Wiederholen"
+     ]
+    },
+    "task_ru": "Скажи: Повторите, пожалуйста."
+   },
+   {
+    "id": "ch10_d4_03",
+    "role": "K",
+    "de": "Hier wäscht man die Hände.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Здесь моют руки.",
+    "nouns": [
+     {
+      "lemma": "Hand",
+      "art": "die",
+      "pl": "Hände"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hier",
+       "role": "где"
+      },
+      {
+       "w": "wäscht",
+       "role": "действие №2"
+      },
+      {
+       "w": "man",
+       "role": "кто"
+      },
+      {
+       "w": "die Hände",
+       "role": "кого-что"
+      }
+     ],
+     "text": "man — «люди вообще»: «здесь моют». С man форма как с er: wäscht.",
+     "topic": "verb2",
+     "why_de": "Вагон №1 занят: Hier. Действие wäscht всё равно в вагоне №2, а «кто» (man) — за ним: Hier wäscht man die Hände.",
+     "why_ru": "По-русски «Здесь моют руки» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, wäscht — вагон №2.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Hier man wäscht die Hände.",
+      "ru": "Русский порядок: «кто» (man) перед действием, и wäscht уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+     },
+     "root": null,
+     "why_voice_ru": "man — «люди вообще»: «здесь моют». С man форма как с er: wäscht."
+    },
+    "audio": "audio_v1/ch10_d4_03.mp3",
+    "tts": "Hier wäscht man die Hände.",
+    "ipa": [
+     {
+      "w": "Hier",
+      "ipa": "[hiːɐ̯]",
+      "src": "override"
+     },
+     {
+      "w": "wäscht",
+      "ipa": "[vɛʃt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "man",
+      "ipa": "[man]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Hände",
+      "ipa": "[ˈhɛndə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "где: H… · действие (вагон №2): w… · кто: m… · кого-что: d… H…",
+    "gap": {
+     "text": "Hier ___ man die ___.",
+     "answers": [
+      "wäscht",
+      "Hände"
+     ]
+    },
+    "task_ru": "Скажи: Здесь моют руки."
+   },
+   {
+    "id": "ch10_d4_04",
+    "role": "K",
+    "de": "Setzen Sie bitte die Mütze auf.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Наденьте, пожалуйста, шапку.",
+    "nouns": [
+     {
+      "lemma": "Mütze",
+      "art": "die",
+      "pl": "Mützen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Setzen",
+       "role": "действие №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "bitte",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "die Mütze",
+       "role": "кого-что"
+      },
+      {
+       "w": "auf",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Просьба на «вы»: Setzen первое, Sie за ним, приставка auf — в самом конце.",
+     "topic": "word_order",
+     "why_de": "Просьба на «вы»: действие Setzen впереди + Sie: Setzen Sie bitte die Mütze auf. Так немец сразу показывает, что ждёт действия.",
+     "why_ru": "По-русски «Наденьте, пожалуйста, шапку» — без «вы». По-немецки Sie нужен, сразу после Setzen.",
+     "layer": "imper",
+     "why_not": {
+      "wrong": "Setzen bitte die Mütze auf.",
+      "ru": "По-русски «Наденьте, пожалуйста, шапку» — без «вы». По-немецки без Sie это уже не просьба на «вы», а ошибка."
+     },
+     "root": null,
+     "why_voice_ru": "Просьба на «вы»: Setzen первое, Sie за ним, приставка auf — в самом конце."
+    },
+    "audio": "audio_v1/ch10_d4_04.mp3",
+    "tts": "Setzen Sie bitte die Mütze auf.",
+    "ipa": [
+     {
+      "w": "Setzen",
+      "ipa": "[ˈzɛt͡sn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Mütze",
+      "ipa": "[ˈmʏt͡sə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "auf",
+      "ipa": "[aʊ̯f]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): S… · кто: S… · привет/вежливость: b… · кого-что: d… M… · хвост действия: a…",
+    "gap": {
+     "text": "___ Sie bitte die ___ auf.",
+     "answers": [
+      "Setzen",
+      "Mütze"
+     ]
+    },
+    "task_ru": "Скажи: Наденьте, пожалуйста, шапку."
+   },
+   {
+    "id": "ch10_d4_05",
+    "role": "K",
+    "de": "Schneiden Sie bitte das Gemüse.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Порежьте, пожалуйста, овощи.",
+    "nouns": [
+     {
+      "lemma": "Gemüse",
+      "art": "das",
+      "pl": "Gemüse"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Schneiden",
+       "role": "действие №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "bitte",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "das Gemüse",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Просьба на «вы»: Schneiden первое, за ним Sie.",
+     "topic": "word_order",
+     "why_de": "Просьба на «вы»: действие Schneiden впереди + Sie: Schneiden Sie bitte das Gemüse. Так немец сразу показывает, что ждёт действия.",
+     "why_ru": "По-русски «Порежьте, пожалуйста, овощи» — без «вы». По-немецки Sie нужен, сразу после Schneiden.",
+     "layer": "imper",
+     "why_not": {
+      "wrong": "Schneiden bitte das Gemüse.",
+      "ru": "По-русски «Порежьте, пожалуйста, овощи» — без «вы». По-немецки без Sie это уже не просьба на «вы», а ошибка."
+     },
+     "root": null,
+     "why_voice_ru": "Просьба на «вы»: Schneiden первое, за ним Sie."
+    },
+    "audio": "audio_v1/ch10_d4_05.mp3",
+    "tts": "Schneiden Sie bitte das Gemüse.",
+    "ipa": [
+     {
+      "w": "Schneiden",
+      "ipa": "[ˈʃnaɪ̯dn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Gemüse",
+      "ipa": "[ɡəˈmyːzə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): S… · кто: S… · привет/вежливость: b… · кого-что: d… G…",
+    "gap": {
+     "text": "___ Sie bitte das ___.",
+     "answers": [
+      "Schneiden",
+      "Gemüse"
+     ]
+    },
+    "task_ru": "Скажи: Порежьте, пожалуйста, овощи."
+   },
+   {
+    "id": "ch10_d4_06",
+    "role": "H",
+    "de": "Können Sie mir bitte helfen?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Вы можете мне помочь?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Können",
+       "role": "пульт №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "mir",
+       "role": "кому"
+      },
+      {
+       "w": "bitte",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "helfen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет»: können впереди, helfen — в самом конце.",
+     "topic": "modal",
+     "why_de": "Вопрос «да/нет»: «пульт» Können встаёт впереди, а главное действие — в самый конец: Können Sie mir bitte helfen?",
+     "why_ru": "По-русски «Вы можете мне помочь» — вопрос голосом; по-немецки вопрос делает «пульт» впереди, главное действие ждёт в конце: Können Sie mir bitte helfen?",
+     "layer": "modal",
+     "why_not": {
+      "wrong": "Können helfen Sie mir bitte?",
+      "ru": "По-русски «Вы можете мне помочь» — оба действия рядом. По-немецки helfen сразу за Können — ошибка: оно ждёт в самом конце."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос «да/нет»: können впереди, helfen — в самом конце."
+    },
+    "audio": "audio_v1/ch10_d4_06.mp3",
+    "tts": "Können Sie mir bitte helfen?",
+    "ipa": [
+     {
+      "w": "Können",
+      "ipa": "[ˈkœnən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mir",
+      "ipa": "[miːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "helfen",
+      "ipa": "[ˈhɛlfn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "пульт (вагон №1): K… · кто: S… · кому: m… · привет/вежливость: b… · хвост действия: h…",
+    "gap": {
+     "text": "___ Sie ___ bitte helfen?",
+     "answers": [
+      "Können",
+      "mir"
+     ]
+    },
+    "task_ru": "Скажи: Вы можете мне помочь?"
+   },
+   {
+    "id": "ch10_d4_07",
+    "role": "K",
+    "de": "Ja, gern. Hier, bitte.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, с удовольствием. Вот, пожалуйста.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "gern",
+       "role": "да/нет"
+      },
+      {
+       "w": "Hier",
+       "role": "где"
+      },
+      {
+       "w": "bitte",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Ja, gern — согласие. Hier, bitte — «вот, пожалуйста»: так подают вещь.",
+     "topic": "word_order",
+     "why_de": "Короткий ответ: Ja + Hier (где? — место). Действие из вопроса не повторяют — его уже сказали.",
+     "why_ru": "По-русски так же коротко: «Да, с удовольствием. Вот, пожалуйста».",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — заучить всю фразу одним куском. Готовая формула тут только bitte, остальное — слова под ситуацию."
+     },
+     "root": null,
+     "why_voice_ru": "Ja, gern — согласие. Hier, bitte — «вот, пожалуйста»: так подают вещь."
+    },
+    "audio": "audio_v1/ch10_d4_07.mp3",
+    "tts": "Ja, gern. Hier, bitte.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gern",
+      "ipa": "[ɡɛʁn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Hier",
+      "ipa": "[hiːɐ̯]",
+      "src": "override"
+     },
+     {
+      "w": "bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · да/нет: g… · где: H… · привет/вежливость: b…",
+    "gap": {
+     "text": "Ja, gern. ___, bitte.",
+     "answers": [
+      "Hier"
+     ]
+    },
+    "task_ru": "Скажи: Да, с удовольствием. Вот, пожалуйста."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch10_d5",
+  "title_ru": "Встреча новых жителей в ратуше",
+  "roles": {
+   "S": "Frau Schulz (ратуша, на «вы»)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch10_d5_01",
+    "role": "S",
+    "de": "Wann sind Sie geboren?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Когда вы родились?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wann",
+       "role": "вопрос-слово",
+       "asks": "когда"
+      },
+      {
+       "w": "sind",
+       "role": "помощник №2"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "geboren",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Wann — вопрос-слово, за ним помощник sind. О рождении говорят с sein: sind geboren. geboren — в самом конце.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Wann sind Sie geboren?",
+     "why_ru": "По-русски «Когда вы родились» — прошлое одним словом; по-немецки два слова, и они разнесены: Wann sind Sie geboren?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Wann sind geboren Sie?",
+      "ru": "По-русски «Когда вы родились» — одно слово по порядку. По-немецки sind … geboren разнесены: geboren — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "Wann — вопрос-слово, за ним помощник sind. О рождении говорят с sein: sind geboren. geboren — в самом конце."
+    },
+    "audio": "audio_v1/ch10_d5_01.mp3",
+    "tts": "Wann sind Sie geboren?",
+    "ipa": [
+     {
+      "w": "Wann",
+      "ipa": "[van]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "sind",
+      "ipa": "[zɪnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "geboren",
+      "ipa": "[ɡəˈboːʁən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · помощник (вагон №2): s… · кто: S… · хвост действия: g…",
+    "gap": {
+     "text": "Wann ___ Sie geboren?",
+     "answers": [
+      "sind"
+     ]
+    },
+    "task_ru": "Скажи: Когда вы родились?"
+   },
+   {
+    "id": "ch10_d5_02",
+    "role": "H",
+    "de": "Ich bin neunzehnhundertfünfundachtzig geboren.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я родился в 1985 году.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "bin",
+       "role": "помощник №2"
+      },
+      {
+       "w": "neunzehnhundertfünfundachtzig",
+       "role": "когда"
+      },
+      {
+       "w": "geboren",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Год до 2000 — сотнями: neunzehnhundert + fünfundachtzig. bin … geboren — «родился».",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ich bin neunzehnhundertfünfundachtzig geboren.",
+     "why_ru": "По-русски «Я родился в 1985 году» — прошлое одним словом; по-немецки два слова, и они разнесены: Ich bin neunzehnhundertfünfundachtzig geboren.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Ich bin geboren neunzehnhundertfünfundachtzig.",
+      "ru": "По-русски «Я родился в 1985 году» — одно слово по порядку. По-немецки bin … geboren разнесены: geboren — в самый конец."
+     },
+     "root": "bin, bist — от древнего корня *bʰew- («быть»), а ist — от *es- (как русское «есть»); весь глагол sein собран из двух корней (DWDS, Wiktionary)",
+     "why_voice_ru": "Год до 2000 — сотнями: neunzehnhundert + fünfundachtzig. bin … geboren — «родился»."
+    },
+    "audio": "audio_v1/ch10_d5_02.mp3",
+    "tts": "Ich bin neunzehnhundertfünfundachtzig geboren.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bin",
+      "ipa": "[bɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "neunzehnhundertfünfundachtzig",
+      "ipa": "[ˈnɔʏ̯nˌʦeːnˌhʊndɐtˌfʏnfʊntˌʔaxtsɪç]",
+      "src": "override"
+     },
+     {
+      "w": "geboren",
+      "ipa": "[ɡəˈboːʁən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "GERMAN_SPELLER_RULE: neunzehnhundertfünfundachtzig",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · помощник (вагон №2): b… · когда: n… · хвост действия: g…",
+    "gap": {
+     "text": "Ich ___ ___ geboren.",
+     "answers": [
+      "bin",
+      "neunzehnhundertfünfundachtzig"
+     ]
+    },
+    "task_ru": "Скажи: Я родился в 1985 году."
+   },
+   {
+    "id": "ch10_d5_03",
+    "role": "S",
+    "de": "Wann sind Sie nach Deutschland gekommen?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Когда вы приехали в Германию?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wann",
+       "role": "вопрос-слово",
+       "asks": "когда"
+      },
+      {
+       "w": "sind",
+       "role": "помощник №2"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "nach Deutschland",
+       "role": "куда"
+      },
+      {
+       "w": "gekommen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Wann — вопрос-слово, помощник sind — вагон №2. nach Deutschland — «куда», gekommen — в конце.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Wann sind Sie nach Deutschland gekommen?",
+     "why_ru": "По-русски «Когда вы приехали в Германию» — прошлое одним словом; по-немецки два слова, и они разнесены: Wann sind Sie nach Deutschland gekommen?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Wann sind gekommen Sie nach Deutschland?",
+      "ru": "По-русски «Когда вы приехали в Германию» — одно слово по порядку. По-немецки sind … gekommen разнесены: gekommen — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "Wann — вопрос-слово, помощник sind — вагон №2. nach Deutschland — «куда», gekommen — в конце."
+    },
+    "audio": "audio_v1/ch10_d5_03.mp3",
+    "tts": "Wann sind Sie nach Deutschland gekommen?",
+    "ipa": [
+     {
+      "w": "Wann",
+      "ipa": "[van]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "sind",
+      "ipa": "[zɪnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "nach",
+      "ipa": "[naːx]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Deutschland",
+      "ipa": "[ˈdɔɪ̯t͡ʃˌlant]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gekommen",
+      "ipa": "[ɡəˈkɔmən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · помощник (вагон №2): s… · кто: S… · куда: n… D… · хвост действия: g…",
+    "gap": {
+     "text": "Wann ___ Sie nach ___ gekommen?",
+     "answers": [
+      "sind",
+      "Deutschland"
+     ]
+    },
+    "task_ru": "Скажи: Когда вы приехали в Германию?"
+   },
+   {
+    "id": "ch10_d5_04",
+    "role": "H",
+    "de": "Ich bin zweitausendzweiundzwanzig nach Deutschland gekommen.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я приехал в Германию в 2022 году.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "bin",
+       "role": "помощник №2"
+      },
+      {
+       "w": "zweitausendzweiundzwanzig",
+       "role": "когда"
+      },
+      {
+       "w": "nach Deutschland",
+       "role": "куда"
+      },
+      {
+       "w": "gekommen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "С 2000 года год читают тысячами: zweitausend + zweiundzwanzig. Сначала «когда», потом «куда», gekommen — в конце.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ich bin zweitausendzweiundzwanzig nach Deutschland gekommen.",
+     "why_ru": "По-русски «Я приехал в Германию в 2022 году» — прошлое одним словом; по-немецки два слова, и они разнесены: Ich bin zweitausendzweiundzwanzig nach Deutschland gekommen.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Ich bin gekommen zweitausendzweiundzwanzig nach Deutschland.",
+      "ru": "По-русски «Я приехал в Германию в 2022 году» — одно слово по порядку. По-немецки bin … gekommen разнесены: gekommen — в самый конец."
+     },
+     "root": "bin, bist — от древнего корня *bʰew- («быть»), а ist — от *es- (как русское «есть»); весь глагол sein собран из двух корней (DWDS, Wiktionary)",
+     "why_voice_ru": "С 2000 года год читают тысячами: zweitausend + zweiundzwanzig. Сначала «когда», потом «куда», gekommen — в конце."
+    },
+    "audio": "audio_v1/ch10_d5_04.mp3",
+    "tts": "Ich bin zweitausendzweiundzwanzig nach Deutschland gekommen.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bin",
+      "ipa": "[bɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "zweitausendzweiundzwanzig",
+      "ipa": "[ˈʦvaɪ̯ˌtaʊ̯zn̩tˌʦvaɪ̯ʊntˌʦvanʦɪç]",
+      "src": "override"
+     },
+     {
+      "w": "nach",
+      "ipa": "[naːx]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Deutschland",
+      "ipa": "[ˈdɔɪ̯t͡ʃˌlant]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gekommen",
+      "ipa": "[ɡəˈkɔmən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "GERMAN_SPELLER_RULE: zweitausendzweiundzwanzig",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · помощник (вагон №2): b… · когда: z… · куда: n… D… · хвост действия: g…",
+    "gap": {
+     "text": "Ich ___ zweitausendzweiundzwanzig nach ___ gekommen.",
+     "answers": [
+      "bin",
+      "Deutschland"
+     ]
+    },
+    "task_ru": "Скажи: Я приехал в Германию в 2022 году."
+   },
+   {
+    "id": "ch10_d5_05",
+    "role": "S",
+    "de": "Haben Sie in der Ukraine studiert?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Вы учились в университете в Украине?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Haben",
+       "role": "помощник №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "in der Ukraine",
+       "role": "где"
+      },
+      {
+       "w": "studiert",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет»: помощник Haben впереди. studiert — без ge-, в самом конце.",
+     "topic": "perfekt",
+     "why_de": "Вопрос «да/нет» о прошлом: помощник Haben встаёт впереди, а что именно случилось, — в самый конец: Haben Sie in der Ukraine studiert?",
+     "why_ru": "По-русски «Вы учились в университете в Украине» — вопрос голосом, прошлое одним словом; по-немецки помощник впереди, а форма прошедшего — в самом конце: Haben Sie in der Ukraine studiert?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Haben studiert Sie in der Ukraine?",
+      "ru": "По-русски «Вы учились в университете в Украине» — одно слово по порядку. По-немецки Haben … studiert разнесены: studiert — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос «да/нет»: помощник Haben впереди. studiert — без ge-, в самом конце."
+    },
+    "audio": "audio_v1/ch10_d5_05.mp3",
+    "tts": "Haben Sie in der Ukraine studiert?",
+    "ipa": [
+     {
+      "w": "Haben",
+      "ipa": "[ˈhaːbn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "in",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ukraine",
+      "ipa": "[ˌukʁaˈiːnə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "studiert",
+      "ipa": "[ʃtuˈdiːɐ̯t]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "помощник (вагон №1): H… · кто: S… · где: i… d… U… · хвост действия: s…",
+    "gap": {
+     "text": "Haben Sie in der ___ studiert?",
+     "answers": [
+      "Ukraine"
+     ]
+    },
+    "task_ru": "Скажи: Вы учились в университете в Украине?"
+   },
+   {
+    "id": "ch10_d5_06",
+    "role": "H",
+    "de": "Ja, ich habe in Kiew studiert.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, я учился в университете в Киеве.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "in Kiew",
+       "role": "где"
+      },
+      {
+       "w": "studiert",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "ja не занимает вагон. studiert — на -iert, без ge-, в конце.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ja, ich habe in Kiew studiert.",
+     "why_ru": "По-русски «Да, я учился в университете в Киеве» — прошлое одним словом; по-немецки два слова, и они разнесены: Ja, ich habe in Kiew studiert.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Ja, ich habe studiert in Kiew.",
+      "ru": "По-русски «Да, я учился в университете в Киеве» — одно слово по порядку. По-немецки habe … studiert разнесены: studiert — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "ja не занимает вагон. studiert — на -iert, без ge-, в конце."
+    },
+    "audio": "audio_v1/ch10_d5_06.mp3",
+    "tts": "Ja, ich habe in Kiew studiert.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "in",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kiew",
+      "ipa": "[ˈkiːɛf]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "studiert",
+      "ipa": "[ʃtuˈdiːɐ̯t]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: i… · помощник (вагон №2): h… · где: i… K… · хвост действия: s…",
+    "gap": {
+     "text": "Ja, ich ___ in ___ studiert.",
+     "answers": [
+      "habe",
+      "Kiew"
+     ]
+    },
+    "task_ru": "Скажи: Да, я учился в университете в Киеве."
+   },
+   {
+    "id": "ch10_d5_07",
+    "role": "S",
+    "de": "Haben Sie schon eine Wohnung bekommen?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Вы уже получили квартиру?",
+    "nouns": [
+     {
+      "lemma": "Wohnung",
+      "art": "die",
+      "pl": "Wohnungen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Haben",
+       "role": "помощник №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "schon",
+       "role": "когда"
+      },
+      {
+       "w": "eine Wohnung",
+       "role": "кого-что"
+      },
+      {
+       "w": "bekommen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет»: помощник впереди. bekommen — без ge-, в конце.",
+     "topic": "perfekt",
+     "why_de": "Вопрос «да/нет» о прошлом: помощник Haben встаёт впереди, а что именно случилось, — в самый конец: Haben Sie schon eine Wohnung bekommen?",
+     "why_ru": "По-русски «Вы уже получили квартиру» — вопрос голосом, прошлое одним словом; по-немецки помощник впереди, а форма прошедшего — в самом конце: Haben Sie schon eine Wohnung bekommen?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Haben bekommen Sie schon eine Wohnung?",
+      "ru": "По-русски «Вы уже получили квартиру» — одно слово по порядку. По-немецки Haben … bekommen разнесены: bekommen — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос «да/нет»: помощник впереди. bekommen — без ge-, в конце."
+    },
+    "audio": "audio_v1/ch10_d5_07.mp3",
+    "tts": "Haben Sie schon eine Wohnung bekommen?",
+    "ipa": [
+     {
+      "w": "Haben",
+      "ipa": "[ˈhaːbn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schon",
+      "ipa": "[ʃoːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "eine",
+      "ipa": "[ˈaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wohnung",
+      "ipa": "[ˈvoːnʊŋ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bekommen",
+      "ipa": "[bəˈkɔmən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "помощник (вагон №1): H… · кто: S… · когда: s… · кого-что: e… W… · хвост действия: b…",
+    "gap": {
+     "text": "Haben Sie schon eine ___ bekommen?",
+     "answers": [
+      "Wohnung"
+     ]
+    },
+    "task_ru": "Скажи: Вы уже получили квартиру?"
+   },
+   {
+    "id": "ch10_d5_08",
+    "role": "H",
+    "de": "Nein, ich habe noch keine Wohnung bekommen.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Нет, я ещё не получил квартиру.",
+    "nouns": [
+     {
+      "lemma": "Wohnung",
+      "art": "die",
+      "pl": "Wohnungen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Nein",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "noch keine Wohnung",
+       "role": "кого-что"
+      },
+      {
+       "w": "bekommen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "noch keine Wohnung — «ещё не … квартиру»: перед словом-предметом с eine отрицание — keine. bekommen — в конце.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Nein, ich habe noch keine Wohnung bekommen.",
+     "why_ru": "По-русски «Нет, я ещё не получил квартиру» — прошлое одним словом; по-немецки два слова, и они разнесены: Nein, ich habe noch keine Wohnung bekommen.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Nein, ich habe bekommen noch keine Wohnung.",
+      "ru": "По-русски «Нет, я ещё не получил квартиру» — одно слово по порядку. По-немецки habe … bekommen разнесены: bekommen — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "noch keine Wohnung — «ещё не … квартиру»: перед словом-предметом с eine отрицание — keine. bekommen — в конце."
+    },
+    "audio": "audio_v1/ch10_d5_08.mp3",
+    "tts": "Nein, ich habe noch keine Wohnung bekommen.",
+    "ipa": [
+     {
+      "w": "Nein",
+      "ipa": "[naɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "noch",
+      "ipa": "[nɔx]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "keine",
+      "ipa": "[ˈkaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wohnung",
+      "ipa": "[ˈvoːnʊŋ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bekommen",
+      "ipa": "[bəˈkɔmən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: N… · кто: i… · помощник (вагон №2): h… · кого-что: n… k… W… · хвост действия: b…",
+    "gap": {
+     "text": "Nein, ich ___ noch keine ___ bekommen.",
+     "answers": [
+      "habe",
+      "Wohnung"
+     ]
+    },
+    "task_ru": "Скажи: Нет, я ещё не получил квартиру."
+   },
+   {
+    "id": "ch10_d5_09",
+    "role": "S",
+    "de": "Haben Sie alles verstanden?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Вы всё поняли?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Haben",
+       "role": "помощник №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "alles",
+       "role": "кого-что"
+      },
+      {
+       "w": "verstanden",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет»: помощник впереди. verstanden — без ge-, в самом конце.",
+     "topic": "perfekt",
+     "why_de": "Вопрос «да/нет» о прошлом: помощник Haben встаёт впереди, а что именно случилось, — в самый конец: Haben Sie alles verstanden?",
+     "why_ru": "По-русски «Вы всё поняли» — вопрос голосом, прошлое одним словом; по-немецки помощник впереди, а форма прошедшего — в самом конце: Haben Sie alles verstanden?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Haben verstanden Sie alles?",
+      "ru": "По-русски «Вы всё поняли» — одно слово по порядку. По-немецки Haben … verstanden разнесены: verstanden — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос «да/нет»: помощник впереди. verstanden — без ge-, в самом конце."
+    },
+    "audio": "audio_v1/ch10_d5_09.mp3",
+    "tts": "Haben Sie alles verstanden?",
+    "ipa": [
+     {
+      "w": "Haben",
+      "ipa": "[ˈhaːbn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "alles",
+      "ipa": "[ˈaləs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "verstanden",
+      "ipa": "[fɛɐ̯ˈʃtandn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "помощник (вагон №1): H… · кто: S… · кого-что: a… · хвост действия: v…",
+    "gap": {
+     "text": "Haben Sie ___ verstanden?",
+     "answers": [
+      "alles"
+     ]
+    },
+    "task_ru": "Скажи: Вы всё поняли?"
+   },
+   {
+    "id": "ch10_d5_10",
+    "role": "H",
+    "de": "Ja, ich habe alles verstanden.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, я всё понял.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "alles",
+       "role": "кого-что"
+      },
+      {
+       "w": "verstanden",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "ja не занимает вагон. verstanden — «понял», в конце.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ja, ich habe alles verstanden.",
+     "why_ru": "По-русски «Да, я всё понял» — прошлое одним словом; по-немецки два слова, и они разнесены: Ja, ich habe alles verstanden.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Ja, ich habe verstanden alles.",
+      "ru": "По-русски «Да, я всё понял» — одно слово по порядку. По-немецки habe … verstanden разнесены: verstanden — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "ja не занимает вагон. verstanden — «понял», в конце."
+    },
+    "audio": "audio_v1/ch10_d5_10.mp3",
+    "tts": "Ja, ich habe alles verstanden.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "alles",
+      "ipa": "[ˈaləs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "verstanden",
+      "ipa": "[fɛɐ̯ˈʃtandn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: i… · помощник (вагон №2): h… · кого-что: a… · хвост действия: v…",
+    "gap": {
+     "text": "Ja, ich ___ ___ verstanden.",
+     "answers": [
+      "habe",
+      "alles"
+     ]
+    },
+    "task_ru": "Скажи: Да, я всё понял."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch10_d6",
+  "title_ru": "Пятница: Ольга спрашивает про неделю",
+  "roles": {
+   "O": "Olga (одногруппница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch10_d6_01",
+    "role": "O",
+    "de": "Was hast du in der Küche gemacht?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Что ты делал на кухне?",
+    "nouns": [
+     {
+      "lemma": "Küche",
+      "art": "die",
+      "pl": "Küchen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "hast",
+       "role": "помощник №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "in der Küche",
+       "role": "где"
+      },
+      {
+       "w": "gemacht",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Was — вопрос-слово, за ним помощник hast. gemacht — в самом конце.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Was hast du in der Küche gemacht?",
+     "why_ru": "По-русски «Что ты делал на кухне» — прошлое одним словом; по-немецки два слова, и они разнесены: Was hast du in der Küche gemacht?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Was hast gemacht du in der Küche?",
+      "ru": "По-русски «Что ты делал на кухне» — одно слово по порядку. По-немецки hast … gemacht разнесены: gemacht — в самый конец."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Was — вопрос-слово, за ним помощник hast. gemacht — в самом конце.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "вопрос-слово · действие (вагон №2) · «кто» · «где» · хвост действия",
+      "items": [
+       {
+        "id": "ch10_d2_01",
+        "de": "Was hast du in Kiew gemacht?",
+        "ru": "Что ты делал в Киеве?",
+        "audio": "audio_v1/ch10_d2_01.mp3",
+        "lesson": "L2",
+        "part": 4,
+        "changed": {
+         "role": "где",
+         "wagon": 4,
+         "from": "in der Küche",
+         "to": "in Kiew"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Was · hast · du · gemacht. В каждом примере меняется один вагон — «где»: in der Küche → in Kiew. Действие hast всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch10_d6_01.mp3",
+    "tts": "Was hast du in der Küche gemacht?",
+    "ipa": [
+     {
+      "w": "Was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "in",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Küche",
+      "ipa": "[ˈkʏçə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gemacht",
+      "ipa": "[ɡəˈmaxt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · помощник (вагон №2): h… · кто: d… · где: i… d… K… · хвост действия: g…",
+    "gap": {
+     "text": "Was ___ du in der ___ gemacht?",
+     "answers": [
+      "hast",
+      "Küche"
+     ]
+    },
+    "task_ru": "Скажи: Что ты делал на кухне?"
+   },
+   {
+    "id": "ch10_d6_02",
+    "role": "H",
+    "de": "Ich habe Gemüse geschnitten.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я резал овощи.",
+    "nouns": [
+     {
+      "lemma": "Gemüse",
+      "art": "das",
+      "pl": "Gemüse"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "Gemüse",
+       "role": "кого-что"
+      },
+      {
+       "w": "geschnitten",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "geschnitten — форма с памятью от schneiden, в самом конце.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ich habe Gemüse geschnitten.",
+     "why_ru": "По-русски «Я резал овощи» — прошлое одним словом; по-немецки два слова, и они разнесены: Ich habe Gemüse geschnitten.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Ich habe geschnitten Gemüse.",
+      "ru": "По-русски «Я резал овощи» — одно слово по порядку. По-немецки habe … geschnitten разнесены: geschnitten — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "geschnitten — форма с памятью от schneiden, в самом конце."
+    },
+    "audio": "audio_v1/ch10_d6_02.mp3",
+    "tts": "Ich habe Gemüse geschnitten.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Gemüse",
+      "ipa": "[ɡəˈmyːzə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "geschnitten",
+      "ipa": "[ɡəˈʃnɪtn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · помощник (вагон №2): h… · кого-что: G… · хвост действия: g…",
+    "gap": {
+     "text": "Ich ___ ___ geschnitten.",
+     "answers": [
+      "habe",
+      "Gemüse"
+     ]
+    },
+    "task_ru": "Скажи: Я резал овощи."
+   },
+   {
+    "id": "ch10_d6_03",
+    "role": "O",
+    "de": "Hast du alles verstanden?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ты всё понял?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hast",
+       "role": "помощник №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "alles",
+       "role": "кого-что"
+      },
+      {
+       "w": "verstanden",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет»: помощник впереди, verstanden — в конце.",
+     "topic": "perfekt",
+     "why_de": "Вопрос «да/нет» о прошлом: помощник Hast встаёт впереди, а что именно случилось, — в самый конец: Hast du alles verstanden?",
+     "why_ru": "По-русски «Ты всё понял» — вопрос голосом, прошлое одним словом; по-немецки помощник впереди, а форма прошедшего — в самом конце: Hast du alles verstanden?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Hast verstanden du alles?",
+      "ru": "По-русски «Ты всё понял» — одно слово по порядку. По-немецки Hast … verstanden разнесены: verstanden — в самый конец."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос «да/нет»: помощник впереди, verstanden — в конце."
+    },
+    "audio": "audio_v1/ch10_d6_03.mp3",
+    "tts": "Hast du alles verstanden?",
+    "ipa": [
+     {
+      "w": "Hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "alles",
+      "ipa": "[ˈaləs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "verstanden",
+      "ipa": "[fɛɐ̯ˈʃtandn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "помощник (вагон №1): H… · кто: d… · кого-что: a… · хвост действия: v…",
+    "gap": {
+     "text": "Hast du ___ verstanden?",
+     "answers": [
+      "alles"
+     ]
+    },
+    "task_ru": "Скажи: Ты всё понял?"
+   },
+   {
+    "id": "ch10_d6_04",
+    "role": "H",
+    "de": "Nein, ich habe den Koch nicht verstanden.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Нет, я не понял повара.",
+    "nouns": [
+     {
+      "lemma": "Koch",
+      "art": "der",
+      "pl": "Köche"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Nein",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "den Koch",
+       "role": "кого-что"
+      },
+      {
+       "w": "nicht",
+       "role": "«не»"
+      },
+      {
+       "w": "verstanden",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "nicht — перед последним вагоном verstanden: не понял всё действие.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Nein, ich habe den Koch nicht verstanden.",
+     "why_ru": "По-русски «Нет, я не понял повара» — прошлое одним словом; по-немецки два слова, и они разнесены: Nein, ich habe den Koch nicht verstanden.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Nein, ich habe verstanden den Koch nicht.",
+      "ru": "По-русски «Нет, я не понял повара» — одно слово по порядку. По-немецки habe … verstanden разнесены: verstanden — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "nicht — перед последним вагоном verstanden: не понял всё действие."
+    },
+    "audio": "audio_v1/ch10_d6_04.mp3",
+    "tts": "Nein, ich habe den Koch nicht verstanden.",
+    "ipa": [
+     {
+      "w": "Nein",
+      "ipa": "[naɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "den",
+      "ipa": "[deːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Koch",
+      "ipa": "[kɔx]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "nicht",
+      "ipa": "[nɪçt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "verstanden",
+      "ipa": "[fɛɐ̯ˈʃtandn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: N… · кто: i… · помощник (вагон №2): h… · кого-что: d… K… · «не»: n… · хвост действия: v…",
+    "gap": {
+     "text": "Nein, ich ___ den ___ nicht verstanden.",
+     "answers": [
+      "habe",
+      "Koch"
+     ]
+    },
+    "task_ru": "Скажи: Нет, я не понял повара."
+   },
+   {
+    "id": "ch10_d6_05",
+    "role": "O",
+    "de": "Hast du das Formular schon ausgefüllt?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ты уже заполнил анкету?",
+    "nouns": [
+     {
+      "lemma": "Formular",
+      "art": "das",
+      "pl": "Formulare"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hast",
+       "role": "помощник №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "das Formular",
+       "role": "кого-что"
+      },
+      {
+       "w": "schon",
+       "role": "когда"
+      },
+      {
+       "w": "ausgefüllt",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет»: помощник впереди. ausgefüllt — в самом конце.",
+     "topic": "perfekt",
+     "why_de": "Вопрос «да/нет» о прошлом: помощник Hast встаёт впереди, а что именно случилось, — в самый конец: Hast du das Formular schon ausgefüllt?",
+     "why_ru": "По-русски «Ты уже заполнил анкету» — вопрос голосом, прошлое одним словом; по-немецки помощник впереди, а форма прошедшего — в самом конце: Hast du das Formular schon ausgefüllt?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Hast ausgefüllt du das Formular schon?",
+      "ru": "По-русски «Ты уже заполнил анкету» — одно слово по порядку. По-немецки Hast … ausgefüllt разнесены: ausgefüllt — в самый конец."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос «да/нет»: помощник впереди. ausgefüllt — в самом конце."
+    },
+    "audio": "audio_v1/ch10_d6_05.mp3",
+    "tts": "Hast du das Formular schon ausgefüllt?",
+    "ipa": [
+     {
+      "w": "Hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Formular",
+      "ipa": "[fɔʁmuˈlaːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schon",
+      "ipa": "[ʃoːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ausgefüllt",
+      "ipa": "[ˈaʊ̯sɡəˌfʏlt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "помощник (вагон №1): H… · кто: d… · кого-что: d… F… · когда: s… · хвост действия: a…",
+    "gap": {
+     "text": "Hast du das ___ schon ausgefüllt?",
+     "answers": [
+      "Formular"
+     ]
+    },
+    "task_ru": "Скажи: Ты уже заполнил анкету?"
+   },
+   {
+    "id": "ch10_d6_06",
+    "role": "H",
+    "de": "Ja, und ich habe die Wohnung bekommen!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, и я получил квартиру!",
+    "nouns": [
+     {
+      "lemma": "Wohnung",
+      "art": "die",
+      "pl": "Wohnungen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "und",
+       "role": "связка"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "die Wohnung",
+       "role": "кого-что"
+      },
+      {
+       "w": "bekommen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "ja и und места не занимают. Получил на месте — помощник habe. bekommen — в конце.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ja, und ich habe die Wohnung bekommen!",
+     "why_ru": "По-русски «Да, и я получил квартиру» — прошлое одним словом; по-немецки два слова, и они разнесены: Ja, und ich habe die Wohnung bekommen!",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Ja, und ich habe bekommen die Wohnung!",
+      "ru": "По-русски «Да, и я получил квартиру» — одно слово по порядку. По-немецки habe … bekommen разнесены: bekommen — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "ja и und места не занимают. Получил на месте — помощник habe. bekommen — в конце."
+    },
+    "audio": "audio_v1/ch10_d6_06.mp3",
+    "tts": "Ja, und ich habe die Wohnung bekommen!",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wohnung",
+      "ipa": "[ˈvoːnʊŋ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bekommen",
+      "ipa": "[bəˈkɔmən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · связка: u… · кто: i… · помощник (вагон №2): h… · кого-что: d… W… · хвост действия: b…",
+    "gap": {
+     "text": "Ja, und ich ___ die ___ bekommen!",
+     "answers": [
+      "habe",
+      "Wohnung"
+     ]
+    },
+    "task_ru": "Скажи: Да, и я получил квартиру!"
+   },
+   {
+    "id": "ch10_d6_07",
+    "role": "O",
+    "de": "Das ist gut!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Это хорошо!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Das",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "gut",
+       "role": "какой/как"
+      }
+     ],
+     "text": "Das — «это», ist — вагон №2.",
+     "topic": "verb2",
+     "why_de": "Das · ist · gut: действие ist — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Это хорошо» — без действия «есть». По-немецки без ist фразы нет: Das ist gut!",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Das gut!",
+      "ru": "Русская привычка — без действия, как «Это хорошо». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Das — «это», ist — вагон №2."
+    },
+    "audio": "audio_v1/ch10_d6_07.mp3",
+    "tts": "Das ist gut!",
+    "ipa": [
+     {
+      "w": "Das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… · действие (вагон №2): i… · какой/как: g…",
+    "gap": {
+     "text": "Das ___ gut!",
+     "answers": [
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Это хорошо!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ }
+]

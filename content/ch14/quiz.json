@@ -1,0 +1,5672 @@
+[
+ {
+  "item_id": "ch14_L1_words_1",
+  "id": "ch14_L1_words_1",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_001",
+  "prompt": "Что значит «arbeite»?",
+  "answer": "работаю",
+  "distractors": [
+   "живу",
+   "учу"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L1_words_2",
+  "id": "ch14_L1_words_2",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_002",
+  "prompt": "Что значит «Küche»?",
+  "answer": "кухня",
+  "distractors": [
+   "пирог",
+   "отель"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L1_words_3",
+  "id": "ch14_L1_words_3",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_003",
+  "prompt": "Что значит «Rezeption»?",
+  "answer": "стойка регистрации",
+  "distractors": [
+   "кухня",
+   "номер дома"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L1_words_4",
+  "id": "ch14_L1_words_4",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_004",
+  "prompt": "Что значит «kann»?",
+  "answer": "могу",
+  "distractors": [
+   "живу",
+   "делаю"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L1_words_5",
+  "id": "ch14_L1_words_5",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_005",
+  "prompt": "Что значит «tun» в «Was kann ich tun?»",
+  "answer": "сделать",
+  "distractors": [
+   "сказать",
+   "работать"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L1_listen_1",
+  "id": "ch14_L1_listen_1",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d1_02",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "Доброе утро! Что я могу сделать?",
+  "distractors": [
+   "Доброе утро! Где я работаю?",
+   "Доброе утро! Где кухня?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d1_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L1_listen_2",
+  "id": "ch14_L1_listen_2",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d1_03",
+  "prompt": "Послушай. Что сказала Frau Becker?",
+  "answer": "Вы работаете на кухне.",
+  "distractors": [
+   "Вы работаете в отеле.",
+   "Я работаю на кухне."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d1_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L1_listen_3",
+  "id": "ch14_L1_listen_3",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d1_05",
+  "prompt": "Послушай. Что ответила Frau Becker?",
+  "answer": "Кухня здесь.",
+  "distractors": [
+   "Кухня маленькая.",
+   "Отель здесь."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d1_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L1_listen_4",
+  "id": "ch14_L1_listen_4",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d1_07",
+  "prompt": "Послушай. Что сказала Frau Becker о себе?",
+  "answer": "Я работаю на стойке регистрации.",
+  "distractors": [
+   "Я работаю на кухне отеля.",
+   "Я работаю в ресторане отеля."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d1_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L1_listen_5",
+  "id": "ch14_L1_listen_5",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d1_08",
+  "prompt": "Послушай. Что услышал гость?",
+  "answer": "Доброе утро! Что я могу для вас сделать?",
+  "distractors": [
+   "Доброе утро! Что вы можете для меня сделать?",
+   "Доброе утро! Где вы работаете в этом отеле?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d1_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L1_read_1",
+  "id": "ch14_L1_read_1",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_001",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я работаю в отеле.",
+  "distractors": [
+   "Я живу в отеле.",
+   "Вы работаете в отеле."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich arbeite im Hotel."
+ },
+ {
+  "item_id": "ch14_L1_read_2",
+  "id": "ch14_L1_read_2",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_002",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Вы работаете на кухне.",
+  "distractors": [
+   "Я работаю на кухне.",
+   "Вы работаете в отеле."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Sie arbeiten in der Küche."
+ },
+ {
+  "item_id": "ch14_L1_read_3",
+  "id": "ch14_L1_read_3",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_003",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я работаю на стойке регистрации.",
+  "distractors": [
+   "Я работаю на кухне.",
+   "Вы работаете на стойке регистрации."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich arbeite an der Rezeption."
+ },
+ {
+  "item_id": "ch14_L1_read_4",
+  "id": "ch14_L1_read_4",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_004",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Что я могу для вас сделать?",
+  "distractors": [
+   "Что вы можете для меня сделать?",
+   "Где я могу работать?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Was kann ich für Sie tun?"
+ },
+ {
+  "item_id": "ch14_L1_read_5",
+  "id": "ch14_L1_read_5",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_006",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Где кухня?",
+  "distractors": [
+   "Где отель?",
+   "Кухня здесь."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wo ist die Küche?"
+ },
+ {
+  "item_id": "ch14_L1_speak_1",
+  "id": "ch14_L1_speak_1",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_001",
+  "prompt": "Скажи: «Я работаю в отеле.»",
+  "answer": "Ich arbeite im Hotel.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_001.mp3",
+  "de": null,
+  "accept": [
+   "Ich arbeite im Hotel."
+  ]
+ },
+ {
+  "item_id": "ch14_L1_speak_2",
+  "id": "ch14_L1_speak_2",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_005",
+  "prompt": "Спроси Frau Becker: «Что я могу сделать?»",
+  "answer": "Was kann ich tun?",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch14_005.mp3",
+  "de": null,
+  "accept": [
+   "Was kann ich tun?"
+  ]
+ },
+ {
+  "item_id": "ch14_L1_speak_3",
+  "id": "ch14_L1_speak_3",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_006",
+  "prompt": "Спроси: «Где кухня?»",
+  "answer": "Wo ist die Küche?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch14_006.mp3",
+  "de": null,
+  "accept": [
+   "Wo ist die Küche?"
+  ]
+ },
+ {
+  "item_id": "ch14_L1_speak_4",
+  "id": "ch14_L1_speak_4",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_003",
+  "prompt": "Скажи как Frau Becker: «Я работаю на стойке регистрации.»",
+  "answer": "Ich arbeite an der Rezeption.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_003.mp3",
+  "de": null,
+  "accept": [
+   "Ich arbeite an der Rezeption."
+  ]
+ },
+ {
+  "item_id": "ch14_L1_speak_5",
+  "id": "ch14_L1_speak_5",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_004",
+  "prompt": "Встреть гостя: «Что я могу для вас сделать?»",
+  "answer": "Was kann ich für Sie tun?",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch14_004.mp3",
+  "de": null,
+  "accept": [
+   "Was kann ich für Sie tun?"
+  ]
+ },
+ {
+  "item_id": "ch14_L1_write_1",
+  "id": "ch14_L1_write_1",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_001",
+  "prompt": "Впиши: «Ich ___ im Hotel.» (работаю)",
+  "answer": "arbeite",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_001.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L1_write_2",
+  "id": "ch14_L1_write_2",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_002",
+  "prompt": "Впиши: «Sie arbeiten in der ___.» (кухня)",
+  "answer": "Küche",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch14_002.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L1_write_3",
+  "id": "ch14_L1_write_3",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_004",
+  "prompt": "Впиши: «Was ___ ich für Sie tun?» (могу)",
+  "answer": "kann",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch14_004.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L1_write_4",
+  "id": "ch14_L1_write_4",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_005",
+  "prompt": "Впиши: «Was kann ich ___?» (сделать)",
+  "answer": "tun",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch14_005.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L1_write_5",
+  "id": "ch14_L1_write_5",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_006",
+  "prompt": "Впиши: «___ ist die Küche?» (где)",
+  "answer": "Wo",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch14_006.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L1_why_1",
+  "id": "ch14_L1_why_1",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_004",
+  "prompt": "Почему «tun» стоит в самом конце?",
+  "answer": "С kann действие уходит в конец поезда.",
+  "distractors": [
+   "tun — самое короткое слово во фразе.",
+   "После Sie ставят слово на t."
+  ],
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": null,
+  "de": "Was kann ich für Sie tun?"
+ },
+ {
+  "item_id": "ch14_L1_why_2",
+  "id": "ch14_L1_why_2",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_005",
+  "prompt": "Почему «kann» стоит сразу после «Was»?",
+  "answer": "kann держит вагон №2 — сразу за вопрос-словом.",
+  "distractors": [
+   "kann — вежливое слово, его говорят раньше.",
+   "После was ставят слово на k."
+  ],
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": null,
+  "de": "Was kann ich tun?"
+ },
+ {
+  "item_id": "ch14_L1_why_3",
+  "id": "ch14_L1_why_3",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_002",
+  "prompt": "Почему «in der Küche», если кухня — «die Küche»?",
+  "answer": "На вопрос «где?» die превращается в der.",
+  "distractors": [
+   "Küche — der-слово, поэтому всегда der Küche.",
+   "der ставят перед каждым словом с буквой ü."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Sie arbeiten in der Küche."
+ },
+ {
+  "item_id": "ch14_L1_why_4",
+  "id": "ch14_L1_why_4",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_001",
+  "prompt": "Почему «im Hotel», а не «in Hotel»?",
+  "answer": "im — это in и dem вместе: das Hotel → im Hotel.",
+  "distractors": [
+   "im — это «мой» по-немецки: мой отель — im Hotel.",
+   "Hotel — die-слово, а перед die пишут im."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich arbeite im Hotel."
+ },
+ {
+  "item_id": "ch14_L1_why_5",
+  "id": "ch14_L1_why_5",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_003",
+  "prompt": "Почему «an der Rezeption», а не «in der Rezeption»?",
+  "answer": "an — «у, при»: работают у стойки.",
+  "distractors": [
+   "an ставят перед длинным словом.",
+   "in говорят только про кухню."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich arbeite an der Rezeption."
+ },
+ {
+  "item_id": "ch14_L1_transfer_1",
+  "id": "ch14_L1_transfer_1",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_t01",
+  "prompt": "Повар спрашивает, где ты сегодня работаешь. Ответь: «Я работаю на кухне.»",
+  "answer": "Ich arbeite in der Küche.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t01.mp3",
+  "de": null,
+  "accept": [
+   "Ich arbeite in der Küche."
+  ]
+ },
+ {
+  "item_id": "ch14_L1_transfer_2",
+  "id": "ch14_L1_transfer_2",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_t02",
+  "prompt": "К стойке подошёл мужчина в рабочей куртке. Спроси его: «Вы работаете в отеле?»",
+  "answer": "Arbeiten Sie im Hotel?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t02.mp3",
+  "de": null,
+  "accept": [
+   "Arbeiten Sie im Hotel?"
+  ]
+ },
+ {
+  "item_id": "ch14_L1_transfer_3",
+  "id": "ch14_L1_transfer_3",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_t02",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Вы работаете в отеле?",
+  "distractors": [
+   "Вы живёте в отеле?",
+   "Где вы работаете?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L1_transfer_4",
+  "id": "ch14_L1_transfer_4",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_t02",
+  "prompt": "Впиши: «___ Sie im Hotel?» (работаете)",
+  "answer": "Arbeiten",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L1_transfer_5",
+  "id": "ch14_L1_transfer_5",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_t02",
+  "prompt": "Почему «Arbeiten» стоит первым?",
+  "answer": "Вопрос «да/нет»: действие впереди, сразу за ним Sie.",
+  "distractors": [
+   "Arbeiten — слово-предмет, оно с большой буквы.",
+   "Так начинают фразу с гостем."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": null,
+  "de": "Arbeiten Sie im Hotel?"
+ },
+ {
+  "item_id": "ch14_L1_boss_1",
+  "id": "ch14_L1_boss_1",
+  "lesson": "ch14_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d1_06",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "А где работаете вы?",
+  "distractors": [
+   "А где вы живёте?",
+   "А где работаю я?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d1_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L2_words_1",
+  "id": "ch14_L2_words_1",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_013",
+  "prompt": "Что значит «kaputt»?",
+  "answer": "сломан",
+  "distractors": [
+   "закрыт",
+   "новый"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L2_words_2",
+  "id": "ch14_L2_words_2",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_013",
+  "prompt": "Что значит «Dusche»?",
+  "answer": "душ",
+  "distractors": [
+   "лампа",
+   "лестница"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L2_words_3",
+  "id": "ch14_L2_words_3",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_014",
+  "prompt": "Что значит «Licht»?",
+  "answer": "свет",
+  "distractors": [
+   "душ",
+   "дверь"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L2_words_4",
+  "id": "ch14_L2_words_4",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_015",
+  "prompt": "Что значит «Zimmernummer»?",
+  "answer": "номер комнаты",
+  "distractors": [
+   "номер телефона",
+   "номер дома"
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L2_words_5",
+  "id": "ch14_L2_words_5",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_017",
+  "prompt": "Что значит «sofort»?",
+  "answer": "сразу, сейчас",
+  "distractors": [
+   "завтра",
+   "потом"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L2_listen_1",
+  "id": "ch14_L2_listen_1",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d2_01",
+  "prompt": "Послушай. Как отвечает герой по телефону?",
+  "answer": "Здесь ресепшен. Добрый день!",
+  "distractors": [
+   "Здесь кухня. Добрый день!",
+   "Здесь отель. До свидания!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d2_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L2_listen_2",
+  "id": "ch14_L2_listen_2",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d2_02",
+  "prompt": "Послушай. Что сказал гость?",
+  "answer": "Добрый день! Свет не работает.",
+  "distractors": [
+   "Добрый день! Душ сломан.",
+   "Добрый день! Где свет?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d2_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L2_listen_3",
+  "id": "ch14_L2_listen_3",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d2_04",
+  "prompt": "Послушай. Что ответил гость?",
+  "answer": "Номер моей комнаты — четыре.",
+  "distractors": [
+   "Номер моего телефона — четыре.",
+   "Мой дом — номер четыре."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d2_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L2_listen_4",
+  "id": "ch14_L2_listen_4",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d2_05",
+  "prompt": "Послушай. Что сказал герой?",
+  "answer": "Я сейчас приду.",
+  "distractors": [
+   "Я уже пришёл.",
+   "Я приду завтра."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d2_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L2_listen_5",
+  "id": "ch14_L2_listen_5",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d2_06",
+  "prompt": "Послушай. Что добавил гость?",
+  "answer": "Спасибо! И душ тоже сломан.",
+  "distractors": [
+   "Спасибо! И свет тоже сломан.",
+   "Спасибо! И душ новый."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d2_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L2_read_1",
+  "id": "ch14_L2_read_1",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_013",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Душ сломан.",
+  "distractors": [
+   "Душ новый.",
+   "Свет сломан."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Dusche ist kaputt."
+ },
+ {
+  "item_id": "ch14_L2_read_2",
+  "id": "ch14_L2_read_2",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_014",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Свет не работает.",
+  "distractors": [
+   "Душ сломан.",
+   "Дверь сломана."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das Licht ist kaputt."
+ },
+ {
+  "item_id": "ch14_L2_read_3",
+  "id": "ch14_L2_read_3",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_015",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Какой у вас номер комнаты?",
+  "distractors": [
+   "Какой у вас номер телефона?",
+   "Где ваша комната?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie ist Ihre Zimmernummer?"
+ },
+ {
+  "item_id": "ch14_L2_read_4",
+  "id": "ch14_L2_read_4",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_017",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я сейчас приду.",
+  "distractors": [
+   "Я сейчас уйду.",
+   "Я приду завтра."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich komme sofort."
+ },
+ {
+  "item_id": "ch14_L2_read_5",
+  "id": "ch14_L2_read_5",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_018",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Здесь ресепшен.",
+  "distractors": [
+   "Где ресепшен?",
+   "Здесь кухня."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Hier ist die Rezeption."
+ },
+ {
+  "item_id": "ch14_L2_speak_1",
+  "id": "ch14_L2_speak_1",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_018",
+  "prompt": "Возьми трубку: «Здесь ресепшен.»",
+  "answer": "Hier ist die Rezeption.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_018.mp3",
+  "de": null,
+  "accept": [
+   "Hier ist die Rezeption."
+  ]
+ },
+ {
+  "item_id": "ch14_L2_speak_2",
+  "id": "ch14_L2_speak_2",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_015",
+  "prompt": "Спроси гостя: «Какой у вас номер комнаты?»",
+  "answer": "Wie ist Ihre Zimmernummer?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch14_015.mp3",
+  "de": null,
+  "accept": [
+   "Wie ist Ihre Zimmernummer?"
+  ]
+ },
+ {
+  "item_id": "ch14_L2_speak_3",
+  "id": "ch14_L2_speak_3",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_017",
+  "prompt": "Скажи гостю: «Я сейчас приду.»",
+  "answer": "Ich komme sofort.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_017.mp3",
+  "de": null,
+  "accept": [
+   "Ich komme sofort."
+  ]
+ },
+ {
+  "item_id": "ch14_L2_speak_4",
+  "id": "ch14_L2_speak_4",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_014",
+  "prompt": "Скажи как гость: «Свет не работает.»",
+  "answer": "Das Licht ist kaputt.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_014.mp3",
+  "de": null,
+  "accept": [
+   "Das Licht ist kaputt."
+  ]
+ },
+ {
+  "item_id": "ch14_L2_speak_5",
+  "id": "ch14_L2_speak_5",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_016",
+  "prompt": "Скажи как гость: «Номер моей комнаты — четыре.»",
+  "answer": "Meine Zimmernummer ist vier.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_016.mp3",
+  "de": null,
+  "accept": [
+   "Meine Zimmernummer ist vier."
+  ]
+ },
+ {
+  "item_id": "ch14_L2_write_1",
+  "id": "ch14_L2_write_1",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_013",
+  "prompt": "Впиши: «Die Dusche ___ kaputt.» (есть)",
+  "answer": "ist",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_013.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L2_write_2",
+  "id": "ch14_L2_write_2",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_014",
+  "prompt": "Впиши: «Das ___ ist kaputt.» (свет)",
+  "answer": "Licht",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_014.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L2_write_3",
+  "id": "ch14_L2_write_3",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_015",
+  "prompt": "Впиши: «Wie ist Ihre ___?» (номер комнаты)",
+  "answer": "Zimmernummer",
+  "distractors": null,
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v1/ch14_015.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L2_write_4",
+  "id": "ch14_L2_write_4",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_017",
+  "prompt": "Впиши: «Ich ___ sofort.» (приду)",
+  "answer": "komme",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch14_017.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L2_write_5",
+  "id": "ch14_L2_write_5",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_016",
+  "prompt": "Впиши: «Meine Zimmernummer ___ vier.» (есть)",
+  "answer": "ist",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_016.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L2_why_1",
+  "id": "ch14_L2_why_1",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_013",
+  "prompt": "Почему в «Die Dusche ist kaputt» есть слово «ist»?",
+  "answer": "По-немецки «есть» нельзя пропускать: ist стоит на втором месте.",
+  "distractors": [
+   "ist — вежливое слово: без него гость обидится на фразу.",
+   "ist ставят только перед die-словом, как Dusche."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Dusche ist kaputt."
+ },
+ {
+  "item_id": "ch14_L2_why_2",
+  "id": "ch14_L2_why_2",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_014",
+  "prompt": "Почему «Das Licht», а не «Die Licht»?",
+  "answer": "Licht — das-слово, поэтому Das.",
+  "distractors": [
+   "Licht — женского рода, как Dusche.",
+   "Das ставят перед каждым первым словом."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Das Licht ist kaputt."
+ },
+ {
+  "item_id": "ch14_L2_why_3",
+  "id": "ch14_L2_why_3",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_015",
+  "prompt": "Почему «Ihre Zimmernummer», а не «Ihr Zimmernummer»?",
+  "answer": "die Zimmernummer — die-слово, поэтому Ihre.",
+  "distractors": [
+   "Ihre — это «их», а Ihr — «ваш» для гостя.",
+   "Ihr пишут только перед числами."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie ist Ihre Zimmernummer?"
+ },
+ {
+  "item_id": "ch14_L2_why_4",
+  "id": "ch14_L2_why_4",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_017",
+  "prompt": "Что в «Ich komme sofort» отвечает на «когда?»",
+  "answer": "sofort — «сразу, сейчас»: отвечает на «когда?».",
+  "distractors": [
+   "komme — «приду»: оно и отвечает на «когда?».",
+   "Ich — отвечает на «когда?»."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich komme sofort."
+ },
+ {
+  "item_id": "ch14_L2_why_5",
+  "id": "ch14_L2_why_5",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_016",
+  "prompt": "Почему «ist» стоит посередине, а число — в конце?",
+  "answer": "ist держит вагон №2, число идёт после него.",
+  "distractors": [
+   "Число всегда ставят в конец слова.",
+   "ist держит вагон №3, число идёт после него."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Meine Zimmernummer ist vier."
+ },
+ {
+  "item_id": "ch14_L2_transfer_1",
+  "id": "ch14_L2_transfer_1",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_t03",
+  "prompt": "Гость назвал номер. Уточни у него: «Номер вашей комнаты — четыре?»",
+  "answer": "Ist Ihre Zimmernummer vier?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t03.mp3",
+  "de": null,
+  "accept": [
+   "Ist Ihre Zimmernummer vier?"
+  ]
+ },
+ {
+  "item_id": "ch14_L2_transfer_2",
+  "id": "ch14_L2_transfer_2",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_t04",
+  "prompt": "У двери номера 4 ты замечаешь, что в душе не слышно воды. Спроси: «Душ сломан?»",
+  "answer": "Ist die Dusche kaputt?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t04.mp3",
+  "de": null,
+  "accept": [
+   "Ist die Dusche kaputt?"
+  ]
+ },
+ {
+  "item_id": "ch14_L2_transfer_3",
+  "id": "ch14_L2_transfer_3",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_t04",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Душ сломан?",
+  "distractors": [
+   "Свет сломан?",
+   "Душ новый?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L2_transfer_4",
+  "id": "ch14_L2_transfer_4",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_t03",
+  "prompt": "Впиши: «Ist Ihre ___ vier?» (номер комнаты)",
+  "answer": "Zimmernummer",
+  "distractors": null,
+  "rule_id": "cards/numbers",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L2_transfer_5",
+  "id": "ch14_L2_transfer_5",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_t04",
+  "prompt": "Почему «Ist» стоит первым?",
+  "answer": "Вопрос «да/нет»: ist впереди, потом die Dusche, потом kaputt.",
+  "distractors": [
+   "Ist — слово-предмет, поэтому оно с большой буквы и первое.",
+   "Так начинают фразу с гостем."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": null,
+  "de": "Ist die Dusche kaputt?"
+ },
+ {
+  "item_id": "ch14_L2_boss_1",
+  "id": "ch14_L2_boss_1",
+  "lesson": "ch14_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_d2_06",
+  "prompt": "Гость говорит: «Danke! Und die Dusche ist auch kaputt.» Почему «Und» не занимает вагон?",
+  "answer": "Und лишь связывает с прошлой фразой.",
+  "distractors": [
+   "Und — всегда последнее слово во фразе.",
+   "Und ставят только перед ist."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Danke! Und die Dusche ist auch kaputt."
+ },
+ {
+  "item_id": "ch14_L3_words_1",
+  "id": "ch14_L3_words_1",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_021",
+  "prompt": "Что значит «Reservierung»?",
+  "answer": "бронь",
+  "distractors": [
+   "ключ",
+   "бланк"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L3_words_2",
+  "id": "ch14_L3_words_2",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_023",
+  "prompt": "Что значит «Moment»?",
+  "answer": "минута",
+  "distractors": [
+   "номер",
+   "бронь"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L3_words_3",
+  "id": "ch14_L3_words_3",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_024",
+  "prompt": "Что значит «Problem»?",
+  "answer": "проблема",
+  "distractors": [
+   "бронь",
+   "номер"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L3_words_4",
+  "id": "ch14_L3_words_4",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_025",
+  "prompt": "Что значит «Doppelzimmer»?",
+  "answer": "двухместный номер",
+  "distractors": [
+   "одноместный номер",
+   "кухня"
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L3_words_5",
+  "id": "ch14_L3_words_5",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_025",
+  "prompt": "Что значит «haben» в «Sie haben …»?",
+  "answer": "иметь, есть у",
+  "distractors": [
+   "ждать, стоять",
+   "идти, ехать"
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L3_listen_1",
+  "id": "ch14_L3_listen_1",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d3_01",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "Добрый день! У вас есть бронь?",
+  "distractors": [
+   "Добрый день! Как вас зовут?",
+   "Добрый день! Где ваш номер?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d3_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L3_listen_2",
+  "id": "ch14_L3_listen_2",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d3_02",
+  "prompt": "Послушай. Что ответила гостья?",
+  "answer": "Да, у меня бронь.",
+  "distractors": [
+   "Да, у меня номер.",
+   "Нет, у меня нет брони."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d3_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L3_listen_3",
+  "id": "ch14_L3_listen_3",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d3_04",
+  "prompt": "Послушай. Как зовут гостью?",
+  "answer": "Её фамилия Мюллер.",
+  "distractors": [
+   "Её фамилия Бекер.",
+   "Её фамилия Вагнер."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d3_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L3_listen_4",
+  "id": "ch14_L3_listen_4",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d3_05",
+  "prompt": "Послушай. Что сказал герой?",
+  "answer": "Одну минуту, пожалуйста.",
+  "distractors": [
+   "Здесь ресепшен, добрый день.",
+   "Номер готов, вот ваш ключ."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d3_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L3_listen_5",
+  "id": "ch14_L3_listen_5",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d3_07",
+  "prompt": "Послушай. Какой номер у гостьи?",
+  "answer": "Двухместный номер.",
+  "distractors": [
+   "Одноместный номер.",
+   "Номер без душа."
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d3_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L3_read_1",
+  "id": "ch14_L3_read_1",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_021",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У вас есть бронь?",
+  "distractors": [
+   "У вас есть номер?",
+   "Вас зовут Мюллер?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Haben Sie eine Reservierung?"
+ },
+ {
+  "item_id": "ch14_L3_read_2",
+  "id": "ch14_L3_read_2",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_022",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У меня бронь.",
+  "distractors": [
+   "У меня номер.",
+   "У вас бронь."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe eine Reservierung."
+ },
+ {
+  "item_id": "ch14_L3_read_3",
+  "id": "ch14_L3_read_3",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_023",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Одну минуту, пожалуйста.",
+  "distractors": [
+   "Спасибо, до свидания.",
+   "Я сейчас приду."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Einen Moment, bitte."
+ },
+ {
+  "item_id": "ch14_L3_read_4",
+  "id": "ch14_L3_read_4",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_024",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это не проблема.",
+  "distractors": [
+   "Это проблема.",
+   "Одну минуту."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist kein Problem."
+ },
+ {
+  "item_id": "ch14_L3_read_5",
+  "id": "ch14_L3_read_5",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_025",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У вас двухместный номер.",
+  "distractors": [
+   "У меня двухместный номер.",
+   "У вас бронь."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Sie haben ein Doppelzimmer."
+ },
+ {
+  "item_id": "ch14_L3_speak_1",
+  "id": "ch14_L3_speak_1",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_021",
+  "prompt": "Спроси гостью: «У вас есть бронь?»",
+  "answer": "Haben Sie eine Reservierung?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch14_021.mp3",
+  "de": null,
+  "accept": [
+   "Haben Sie eine Reservierung?"
+  ]
+ },
+ {
+  "item_id": "ch14_L3_speak_2",
+  "id": "ch14_L3_speak_2",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_022",
+  "prompt": "Скажи как гостья: «У меня бронь.»",
+  "answer": "Ich habe eine Reservierung.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_022.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe eine Reservierung."
+  ]
+ },
+ {
+  "item_id": "ch14_L3_speak_3",
+  "id": "ch14_L3_speak_3",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_023",
+  "prompt": "Попроси подождать: «Одну минуту, пожалуйста.»",
+  "answer": "Einen Moment, bitte.",
+  "distractors": null,
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": "audio_v1/ch14_023.mp3",
+  "de": null,
+  "accept": [
+   "Einen Moment, bitte."
+  ]
+ },
+ {
+  "item_id": "ch14_L3_speak_4",
+  "id": "ch14_L3_speak_4",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_024",
+  "prompt": "Ответь вежливо, когда тебя просят подождать: «Это не проблема.»",
+  "answer": "Das ist kein Problem.",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch14_024.mp3",
+  "de": null,
+  "accept": [
+   "Das ist kein Problem."
+  ]
+ },
+ {
+  "item_id": "ch14_L3_speak_5",
+  "id": "ch14_L3_speak_5",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_025",
+  "prompt": "Скажи гостье: «У вас двухместный номер.»",
+  "answer": "Sie haben ein Doppelzimmer.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_025.mp3",
+  "de": null,
+  "accept": [
+   "Sie haben ein Doppelzimmer."
+  ]
+ },
+ {
+  "item_id": "ch14_L3_write_1",
+  "id": "ch14_L3_write_1",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_021",
+  "prompt": "Впиши: «___ Sie eine Reservierung?» (есть)",
+  "answer": "Haben",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch14_021.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L3_write_2",
+  "id": "ch14_L3_write_2",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_022",
+  "prompt": "Впиши: «Ich ___ eine Reservierung.» (имею)",
+  "answer": "habe",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_022.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L3_write_3",
+  "id": "ch14_L3_write_3",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_023",
+  "prompt": "Впиши: «Einen ___, bitte.» (минута)",
+  "answer": "Moment",
+  "distractors": null,
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": "audio_v1/ch14_023.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L3_write_4",
+  "id": "ch14_L3_write_4",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_025",
+  "prompt": "Впиши: «Sie haben ein ___.» (двухместный номер)",
+  "answer": "Doppelzimmer",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch14_025.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L3_write_5",
+  "id": "ch14_L3_write_5",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_024",
+  "prompt": "Впиши: «Das ist kein ___.» (проблема)",
+  "answer": "Problem",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch14_024.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L3_why_1",
+  "id": "ch14_L3_why_1",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_022",
+  "prompt": "Почему в «Ich habe eine Reservierung» стоит «habe»?",
+  "answer": "По-немецки бронь «имеют»: ich habe — «я имею».",
+  "distractors": [
+   "habe здесь значит «живу».",
+   "habe ставят перед каждым словом с большой буквы."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe eine Reservierung."
+ },
+ {
+  "item_id": "ch14_L3_why_2",
+  "id": "ch14_L3_why_2",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_021",
+  "prompt": "Почему в «Haben Sie eine Reservierung?» «Haben» стоит первым?",
+  "answer": "Вопрос «да/нет»: действие выходит вперёд.",
+  "distractors": [
+   "Haben — самое длинное слово.",
+   "Первым ставят слово, которое важнее."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Haben Sie eine Reservierung?"
+ },
+ {
+  "item_id": "ch14_L3_why_3",
+  "id": "ch14_L3_why_3",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_025",
+  "prompt": "Почему «Sie haben», а не «Sie habe»?",
+  "answer": "С Sie у действия хвост -en.",
+  "distractors": [
+   "habe — это про вчера.",
+   "С Sie хвоста нет совсем."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Sie haben ein Doppelzimmer."
+ },
+ {
+  "item_id": "ch14_L3_why_4",
+  "id": "ch14_L3_why_4",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_024",
+  "prompt": "Что значит «kein» в «Das ist kein Problem»?",
+  "answer": "«никакой»: никакой проблемы нет.",
+  "distractors": [
+   "Kein — «очень большая»: большая проблема.",
+   "Kein — «вторая»."
+  ],
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist kein Problem."
+ },
+ {
+  "item_id": "ch14_L3_why_5",
+  "id": "ch14_L3_why_5",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_023",
+  "prompt": "Как учить «Einen Moment, bitte»?",
+  "answer": "Целиком, как формулу: так просят подождать.",
+  "distractors": [
+   "По одному слову, как список.",
+   "Только Moment, остальное не нужно."
+  ],
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": null,
+  "de": "Einen Moment, bitte."
+ },
+ {
+  "item_id": "ch14_L3_transfer_1",
+  "id": "ch14_L3_transfer_1",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_t05",
+  "prompt": "Гостья показывает письмо с подтверждением. Скажи ей: «У вас есть бронь.»",
+  "answer": "Sie haben eine Reservierung.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t05.mp3",
+  "de": null,
+  "accept": [
+   "Sie haben eine Reservierung."
+  ]
+ },
+ {
+  "item_id": "ch14_L3_transfer_2",
+  "id": "ch14_L3_transfer_2",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_t06",
+  "prompt": "Коллега ищет в списке гостью. Спроси его: «У фрау Мюллер есть бронь?»",
+  "answer": "Hat Frau Müller eine Reservierung?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t06.mp3",
+  "de": null,
+  "accept": [
+   "Hat Frau Müller eine Reservierung?"
+  ]
+ },
+ {
+  "item_id": "ch14_L3_transfer_3",
+  "id": "ch14_L3_transfer_3",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_t06",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "У фрау Мюллер есть бронь?",
+  "distractors": [
+   "У фрау Мюллер есть номер?",
+   "Фрау Мюллер у стойки?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L3_transfer_4",
+  "id": "ch14_L3_transfer_4",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_t06",
+  "prompt": "Напиши вопрос целиком: «У фрау Мюллер есть бронь?» (про неё — hat)",
+  "answer": "Hat Frau Müller eine Reservierung?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L3_transfer_5",
+  "id": "ch14_L3_transfer_5",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_t06",
+  "prompt": "Почему «Hat» стоит первым?",
+  "answer": "Вопрос «да/нет»: действие впереди, потом Frau Müller.",
+  "distractors": [
+   "Hat — слово-предмет, поэтому оно с большой буквы.",
+   "Так начинают каждую фразу с гостем."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": null,
+  "de": "Hat Frau Müller eine Reservierung?"
+ },
+ {
+  "item_id": "ch14_L3_boss_1",
+  "id": "ch14_L3_boss_1",
+  "lesson": "ch14_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_d3_05",
+  "prompt": "Администратор говорит гостье: «Einen Moment, bitte.» Почему «Einen Moment», а не «Ein Moment»?",
+  "answer": "Moment — слово мужского рода, а в роли «что?» ein превращается в einen.",
+  "distractors": [
+   "Moment — слово мужского рода, а в роли «что?» ein не превращается в einen.",
+   "Ein Moment — то же самое, просто короче."
+  ],
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": null,
+  "de": "Einen Moment, bitte."
+ },
+ {
+  "item_id": "ch14_L4_words_1",
+  "id": "ch14_L4_words_1",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_028",
+  "prompt": "Что значит «Hotelkauffrau»?",
+  "answer": "служащая отеля",
+  "distractors": [
+   "повар на кухне",
+   "уборщица в отеле"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L4_words_2",
+  "id": "ch14_L4_words_2",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_029",
+  "prompt": "Что значит «Elektroniker»?",
+  "answer": "электронщик",
+  "distractors": [
+   "сантехник",
+   "повар"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L4_words_3",
+  "id": "ch14_L4_words_3",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_031",
+  "prompt": "Что значит «Firma»?",
+  "answer": "фирма",
+  "distractors": [
+   "кухня",
+   "гостья"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L4_words_4",
+  "id": "ch14_L4_words_4",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_032",
+  "prompt": "Что значит «wo» в «Wo arbeitet sie?»",
+  "answer": "где",
+  "distractors": [
+   "кто",
+   "что"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L4_words_5",
+  "id": "ch14_L4_words_5",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_030",
+  "prompt": "Что значит «arbeitet» в «Sie arbeitet»?",
+  "answer": "работает",
+  "distractors": [
+   "живёт",
+   "приходит"
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L4_listen_1",
+  "id": "ch14_L4_listen_1",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d4_01",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "Кто это?",
+  "distractors": [
+   "Где это?",
+   "Что это?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d4_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L4_listen_2",
+  "id": "ch14_L4_listen_2",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d4_02",
+  "prompt": "Послушай. Кто эта женщина на карточке?",
+  "answer": "Служащая отеля.",
+  "distractors": [
+   "Повар на кухне.",
+   "Гостья из номера 4."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d4_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L4_listen_3",
+  "id": "ch14_L4_listen_3",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d4_04",
+  "prompt": "Послушай. Где работает эта женщина?",
+  "answer": "В отеле.",
+  "distractors": [
+   "В фирме.",
+   "На кухне."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d4_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L4_listen_4",
+  "id": "ch14_L4_listen_4",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d4_06",
+  "prompt": "Послушай. Кто этот мужчина на карточке?",
+  "answer": "Электронщик.",
+  "distractors": [
+   "Повар.",
+   "Сантехник."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d4_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L4_listen_5",
+  "id": "ch14_L4_listen_5",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d4_08",
+  "prompt": "Послушай. Где работает этот мужчина?",
+  "answer": "В фирме.",
+  "distractors": [
+   "В отеле.",
+   "На ресепшен."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d4_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L4_read_1",
+  "id": "ch14_L4_read_1",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_028",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Она — служащая отеля.",
+  "distractors": [
+   "Она работает в отеле.",
+   "Он — служащий отеля."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Sie ist Hotelkauffrau."
+ },
+ {
+  "item_id": "ch14_L4_read_2",
+  "id": "ch14_L4_read_2",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_029",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Он — электронщик.",
+  "distractors": [
+   "Он работает в фирме.",
+   "Она — электронщица."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Er ist Elektroniker."
+ },
+ {
+  "item_id": "ch14_L4_read_3",
+  "id": "ch14_L4_read_3",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_030",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Она работает в отеле.",
+  "distractors": [
+   "Она — служащая отеля.",
+   "Он работает в отеле."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Sie arbeitet in einem Hotel."
+ },
+ {
+  "item_id": "ch14_L4_read_4",
+  "id": "ch14_L4_read_4",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_031",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Он работает в фирме.",
+  "distractors": [
+   "Она работает в фирме.",
+   "Он — электронщик."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Er arbeitet in einer Firma."
+ },
+ {
+  "item_id": "ch14_L4_read_5",
+  "id": "ch14_L4_read_5",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_032",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Где она работает?",
+  "distractors": [
+   "Где он работает?",
+   "Кто она?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wo arbeitet sie?"
+ },
+ {
+  "item_id": "ch14_L4_speak_1",
+  "id": "ch14_L4_speak_1",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_028",
+  "prompt": "Покажи на карточку женщины: «Она — служащая отеля.»",
+  "answer": "Sie ist Hotelkauffrau.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch14_028.mp3",
+  "de": null,
+  "accept": [
+   "Sie ist Hotelkauffrau."
+  ]
+ },
+ {
+  "item_id": "ch14_L4_speak_2",
+  "id": "ch14_L4_speak_2",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_029",
+  "prompt": "Покажи на карточку мужчины: «Он — электронщик.»",
+  "answer": "Er ist Elektroniker.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch14_029.mp3",
+  "de": null,
+  "accept": [
+   "Er ist Elektroniker."
+  ]
+ },
+ {
+  "item_id": "ch14_L4_speak_3",
+  "id": "ch14_L4_speak_3",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_030",
+  "prompt": "Скажи о женщине на карточке: «Она работает в отеле.»",
+  "answer": "Sie arbeitet in einem Hotel.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_030.mp3",
+  "de": null,
+  "accept": [
+   "Sie arbeitet in einem Hotel."
+  ]
+ },
+ {
+  "item_id": "ch14_L4_speak_4",
+  "id": "ch14_L4_speak_4",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_031",
+  "prompt": "Скажи о мужчине на карточке: «Он работает в фирме.»",
+  "answer": "Er arbeitet in einer Firma.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_031.mp3",
+  "de": null,
+  "accept": [
+   "Er arbeitet in einer Firma."
+  ]
+ },
+ {
+  "item_id": "ch14_L4_speak_5",
+  "id": "ch14_L4_speak_5",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_032",
+  "prompt": "Спроси Frau Becker о женщине на карточке: «Где она работает?»",
+  "answer": "Wo arbeitet sie?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch14_032.mp3",
+  "de": null,
+  "accept": [
+   "Wo arbeitet sie?"
+  ]
+ },
+ {
+  "item_id": "ch14_L4_write_1",
+  "id": "ch14_L4_write_1",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_028",
+  "prompt": "Впиши: «Sie ___ Hotelkauffrau.» (есть)",
+  "answer": "ist",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch14_028.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L4_write_2",
+  "id": "ch14_L4_write_2",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_029",
+  "prompt": "Впиши: «Er ist ___.» (электронщик)",
+  "answer": "Elektroniker",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch14_029.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L4_write_3",
+  "id": "ch14_L4_write_3",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_030",
+  "prompt": "Впиши: «Sie arbeitet in ___ Hotel.» (ein → ?)",
+  "answer": "einem",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch14_030.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L4_write_4",
+  "id": "ch14_L4_write_4",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_031",
+  "prompt": "Впиши: «Er arbeitet in ___ Firma.» (ein → ?)",
+  "answer": "einer",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_031.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L4_write_5",
+  "id": "ch14_L4_write_5",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_032",
+  "prompt": "Впиши: «___ arbeitet sie?» (где)",
+  "answer": "Wo",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch14_032.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L4_why_1",
+  "id": "ch14_L4_why_1",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_028",
+  "prompt": "Почему в «Sie ist Hotelkauffrau» нет слова «eine»?",
+  "answer": "Профессию называют без артикля.",
+  "distractors": [
+   "Hotelkauffrau — слишком длинное слово.",
+   "eine ставят только перед именем."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Sie ist Hotelkauffrau."
+ },
+ {
+  "item_id": "ch14_L4_why_2",
+  "id": "ch14_L4_why_2",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_030",
+  "prompt": "Почему «in einem Hotel», а не «in ein Hotel»?",
+  "answer": "На «где?» ein-слово меняется: ein → einem.",
+  "distractors": [
+   "Hotel — слово во множественном числе.",
+   "ein ставят только после слова ist."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Sie arbeitet in einem Hotel."
+ },
+ {
+  "item_id": "ch14_L4_why_3",
+  "id": "ch14_L4_why_3",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_031",
+  "prompt": "Почему «in einer Firma», а не «in einem Firma»?",
+  "answer": "die Firma — die-слово: eine → einer.",
+  "distractors": [
+   "Firma — der-слово, поэтому einem.",
+   "В конце слова всегда ставят -em."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Er arbeitet in einer Firma."
+ },
+ {
+  "item_id": "ch14_L4_why_4",
+  "id": "ch14_L4_why_4",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_029",
+  "prompt": "Почему в «Er ist Elektroniker» первое слово er, а не sie?",
+  "answer": "Er ist — «он есть»: про мужчину er, про женщину sie.",
+  "distractors": [
+   "Er ist — «они есть»: так говорят про двоих.",
+   "Er ist — «ты есть»: так обращаются к гостю."
+  ],
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": null,
+  "de": "Er ist Elektroniker."
+ },
+ {
+  "item_id": "ch14_L4_why_5",
+  "id": "ch14_L4_why_5",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_033",
+  "prompt": "Почему в «Wo arbeitet er?» после wo стоит arbeitet?",
+  "answer": "wo — вопрос-слово, действие сразу за ним.",
+  "distractors": [
+   "Wo — действие, поэтому arbeitet за ним.",
+   "Так спрашивают только про мужчин."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": null,
+  "de": "Wo arbeitet er?"
+ },
+ {
+  "item_id": "ch14_L4_transfer_1",
+  "id": "ch14_L4_transfer_1",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_t07",
+  "prompt": "Ты показываешь гостю карточку электронщика. Скажи: «Он работает в отеле.»",
+  "answer": "Er arbeitet in einem Hotel.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t07.mp3",
+  "de": null,
+  "accept": [
+   "Er arbeitet in einem Hotel."
+  ]
+ },
+ {
+  "item_id": "ch14_L4_transfer_2",
+  "id": "ch14_L4_transfer_2",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_t08",
+  "prompt": "Ты уточняешь у Frau Becker про мужчину на карточке. Спроси: «Он электронщик?»",
+  "answer": "Ist er Elektroniker?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t08.mp3",
+  "de": null,
+  "accept": [
+   "Ist er Elektroniker?"
+  ]
+ },
+ {
+  "item_id": "ch14_L4_transfer_3",
+  "id": "ch14_L4_transfer_3",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_t08",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Он электронщик?",
+  "distractors": [
+   "Он работает в фирме?",
+   "Она электронщик?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L4_transfer_4",
+  "id": "ch14_L4_transfer_4",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_t08",
+  "prompt": "Напиши вопрос целиком: «Он электронщик?»",
+  "answer": "Ist er Elektroniker?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L4_transfer_5",
+  "id": "ch14_L4_transfer_5",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_t08",
+  "prompt": "Почему «Ist» стоит первым?",
+  "answer": "Вопрос «да/нет»: действие впереди, потом er.",
+  "distractors": [
+   "Ist — слово-предмет, поэтому оно первое.",
+   "Так начинают каждую фразу про работу."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": null,
+  "de": "Ist er Elektroniker?"
+ },
+ {
+  "item_id": "ch14_L4_boss_1",
+  "id": "ch14_L4_boss_1",
+  "lesson": "ch14_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_d4_02",
+  "prompt": "Герой спросил «Wer ist das?», а Frau Becker ответила «Sie ist Hotelkauffrau.» Почему в ответе sie?",
+  "answer": "Спросили «кто?» про женщину на карточке, поэтому sie — «она».",
+  "distractors": [
+   "Sie всегда ставят вместо wer: так отвечают на любой вопрос.",
+   "Sie — это «вы», так отвечают гостю, когда он спросил про карточку."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Sie ist Hotelkauffrau."
+ },
+ {
+  "item_id": "ch14_L5_words_1",
+  "id": "ch14_L5_words_1",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_037",
+  "prompt": "Что значит «wann»?",
+  "answer": "когда",
+  "distractors": [
+   "где",
+   "кто"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L5_words_2",
+  "id": "ch14_L5_words_2",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_038",
+  "prompt": "Что значит «seit» в «seit einer Woche»?",
+  "answer": "уже",
+  "distractors": [
+   "назад",
+   "потом"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L5_words_3",
+  "id": "ch14_L5_words_3",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_038",
+  "prompt": "Что значит «Woche»?",
+  "answer": "неделя",
+  "distractors": [
+   "месяц",
+   "год"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L5_words_4",
+  "id": "ch14_L5_words_4",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_039",
+  "prompt": "Что значит «Monat»?",
+  "answer": "месяц",
+  "distractors": [
+   "неделя",
+   "год"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L5_words_5",
+  "id": "ch14_L5_words_5",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_040",
+  "prompt": "Что значит «vor» в «vor einem Jahr»?",
+  "answer": "назад",
+  "distractors": [
+   "уже",
+   "потом"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L5_listen_1",
+  "id": "ch14_L5_listen_1",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d5_01",
+  "prompt": "Послушай. Что спросила хозяйка?",
+  "answer": "Как давно вы здесь живёте?",
+  "distractors": [
+   "Где вы здесь живёте?",
+   "Как давно вы здесь работаете?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d5_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L5_listen_2",
+  "id": "ch14_L5_listen_2",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d5_02",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Я живу здесь уже неделю.",
+  "distractors": [
+   "Я живу здесь уже месяц.",
+   "Я приехал сюда неделю назад."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d5_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L5_listen_3",
+  "id": "ch14_L5_listen_3",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d5_04",
+  "prompt": "Послушай. Как давно герой учит немецкий?",
+  "answer": "Уже месяц.",
+  "distractors": [
+   "Уже неделю.",
+   "Уже год."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d5_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L5_listen_4",
+  "id": "ch14_L5_listen_4",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d5_06",
+  "prompt": "Послушай. Где герой работал год назад?",
+  "answer": "В фирме.",
+  "distractors": [
+   "В отеле.",
+   "На кухне."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d5_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L5_listen_5",
+  "id": "ch14_L5_listen_5",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d5_08",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Да, я работаю в отеле.",
+  "distractors": [
+   "Нет, я работаю в фирме.",
+   "Да, я живу в отеле."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d5_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L5_read_1",
+  "id": "ch14_L5_read_1",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_037",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Как давно вы здесь живёте?",
+  "distractors": [
+   "Где вы здесь живёте?",
+   "Как давно вы здесь работаете?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Seit wann wohnen Sie hier?"
+ },
+ {
+  "item_id": "ch14_L5_read_2",
+  "id": "ch14_L5_read_2",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_038",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я живу здесь уже неделю.",
+  "distractors": [
+   "Я жил здесь неделю назад.",
+   "Я живу здесь уже месяц."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich wohne seit einer Woche hier."
+ },
+ {
+  "item_id": "ch14_L5_read_3",
+  "id": "ch14_L5_read_3",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_039",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я учу немецкий уже месяц.",
+  "distractors": [
+   "Я учил немецкий месяц назад.",
+   "Я учу немецкий уже неделю."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich lerne seit einem Monat Deutsch."
+ },
+ {
+  "item_id": "ch14_L5_read_4",
+  "id": "ch14_L5_read_4",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_040",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Год назад я работал в фирме.",
+  "distractors": [
+   "Я работаю в фирме уже год.",
+   "Год назад я работал в отеле."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Vor einem Jahr habe ich in einer Firma gearbeitet."
+ },
+ {
+  "item_id": "ch14_L5_read_5",
+  "id": "ch14_L5_read_5",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_041",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Где вы работали год назад?",
+  "distractors": [
+   "Где вы работаете уже год?",
+   "Где вы работали месяц назад?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wo haben Sie vor einem Jahr gearbeitet?"
+ },
+ {
+  "item_id": "ch14_L5_speak_1",
+  "id": "ch14_L5_speak_1",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_037",
+  "prompt": "Спроси хозяйку: «Как давно вы здесь живёте?»",
+  "answer": "Seit wann wohnen Sie hier?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch14_037.mp3",
+  "de": null,
+  "accept": [
+   "Seit wann wohnen Sie hier?"
+  ]
+ },
+ {
+  "item_id": "ch14_L5_speak_2",
+  "id": "ch14_L5_speak_2",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_038",
+  "prompt": "Скажи: «Я живу здесь уже неделю.»",
+  "answer": "Ich wohne seit einer Woche hier.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_038.mp3",
+  "de": null,
+  "accept": [
+   "Ich wohne seit einer Woche hier."
+  ]
+ },
+ {
+  "item_id": "ch14_L5_speak_3",
+  "id": "ch14_L5_speak_3",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_039",
+  "prompt": "Скажи: «Я учу немецкий уже месяц.»",
+  "answer": "Ich lerne seit einem Monat Deutsch.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_039.mp3",
+  "de": null,
+  "accept": [
+   "Ich lerne seit einem Monat Deutsch."
+  ]
+ },
+ {
+  "item_id": "ch14_L5_speak_4",
+  "id": "ch14_L5_speak_4",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_040",
+  "prompt": "Скажи: «Год назад я работал в фирме.»",
+  "answer": "Vor einem Jahr habe ich in einer Firma gearbeitet.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch14_040.mp3",
+  "de": null,
+  "accept": [
+   "Vor einem Jahr habe ich in einer Firma gearbeitet."
+  ]
+ },
+ {
+  "item_id": "ch14_L5_speak_5",
+  "id": "ch14_L5_speak_5",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_041",
+  "prompt": "Спроси хозяйку: «Где вы работали год назад?»",
+  "answer": "Wo haben Sie vor einem Jahr gearbeitet?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch14_041.mp3",
+  "de": null,
+  "accept": [
+   "Wo haben Sie vor einem Jahr gearbeitet?"
+  ]
+ },
+ {
+  "item_id": "ch14_L5_write_1",
+  "id": "ch14_L5_write_1",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_037",
+  "prompt": "Впиши: «___ wann wohnen Sie hier?» (с каких пор)",
+  "answer": "Seit",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch14_037.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L5_write_2",
+  "id": "ch14_L5_write_2",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_038",
+  "prompt": "Впиши: «Ich wohne seit ___ Woche hier.» (одной)",
+  "answer": "einer",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch14_038.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L5_write_3",
+  "id": "ch14_L5_write_3",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_039",
+  "prompt": "Впиши: «Ich lerne seit ___ Monat Deutsch.» (одним)",
+  "answer": "einem",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_039.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L5_write_4",
+  "id": "ch14_L5_write_4",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_040",
+  "prompt": "Впиши: «___ einem Jahr habe ich in einer Firma gearbeitet.» (назад)",
+  "answer": "Vor",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch14_040.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L5_write_5",
+  "id": "ch14_L5_write_5",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_041",
+  "prompt": "Впиши: «Wo haben Sie vor einem Jahr ___?» (работали)",
+  "answer": "gearbeitet",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch14_041.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L5_why_1",
+  "id": "ch14_L5_why_1",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_038",
+  "prompt": "Почему «Ich wohne seit einer Woche», а не «Ich wohnte»?",
+  "answer": "seit — началось раньше и идёт сейчас: wohne.",
+  "distractors": [
+   "seit — это «назад»: нужно habe gewohnt.",
+   "wohne ставят всегда после слова Woche."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich wohne seit einer Woche hier."
+ },
+ {
+  "item_id": "ch14_L5_why_2",
+  "id": "ch14_L5_why_2",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_039",
+  "prompt": "Почему «seit einem Monat», а не «seit ein Monat»?",
+  "answer": "После seit ein меняется: ein → einem.",
+  "distractors": [
+   "Monat — слово во множественном числе.",
+   "ein меняют только перед die-словами."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich lerne seit einem Monat Deutsch."
+ },
+ {
+  "item_id": "ch14_L5_why_3",
+  "id": "ch14_L5_why_3",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_038",
+  "prompt": "Почему «seit einer Woche», а не «seit einem Woche»?",
+  "answer": "die Woche → seit einer Woche: eine → einer.",
+  "distractors": [
+   "Woche — der-слово: seit einem Woche.",
+   "einer ставят только перед числами."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich wohne seit einer Woche hier."
+ },
+ {
+  "item_id": "ch14_L5_why_4",
+  "id": "ch14_L5_why_4",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_040",
+  "prompt": "Почему «Vor einem Jahr habe ich … gearbeitet», а не «arbeite»?",
+  "answer": "vor — «назад»: уже закончилось, habe … gearbeitet.",
+  "distractors": [
+   "vor — «до сих пор»: тоже habe … gearbeitet.",
+   "habe — вежливое слово перед каждым ich."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Vor einem Jahr habe ich in einer Firma gearbeitet."
+ },
+ {
+  "item_id": "ch14_L5_why_5",
+  "id": "ch14_L5_why_5",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_037",
+  "prompt": "Как учить «Seit wann» в «Seit wann wohnen Sie hier?»",
+  "answer": "Целиком: как вопрос «как давно».",
+  "distractors": [
+   "Только seit, wann не нужно.",
+   "По одному слову, как список."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Seit wann wohnen Sie hier?"
+ },
+ {
+  "item_id": "ch14_L5_transfer_1",
+  "id": "ch14_L5_transfer_1",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_t09",
+  "prompt": "Frau Becker спрашивает, как давно ты на курсах. Скажи: «Я учу немецкий уже неделю.»",
+  "answer": "Ich lerne seit einer Woche Deutsch.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t09.mp3",
+  "de": null,
+  "accept": [
+   "Ich lerne seit einer Woche Deutsch."
+  ]
+ },
+ {
+  "item_id": "ch14_L5_transfer_2",
+  "id": "ch14_L5_transfer_2",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_t10",
+  "prompt": "Ты спрашиваешь у нового коллеги: «Как давно вы здесь работаете?»",
+  "answer": "Seit wann arbeiten Sie hier?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t10.mp3",
+  "de": null,
+  "accept": [
+   "Seit wann arbeiten Sie hier?"
+  ]
+ },
+ {
+  "item_id": "ch14_L5_transfer_3",
+  "id": "ch14_L5_transfer_3",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_t10",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Как давно вы здесь работаете?",
+  "distractors": [
+   "Как давно вы здесь живёте?",
+   "Где вы здесь работаете?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L5_transfer_4",
+  "id": "ch14_L5_transfer_4",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_t10",
+  "prompt": "Напиши вопрос целиком: «Как давно вы здесь работаете?»",
+  "answer": "Seit wann arbeiten Sie hier?",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L5_transfer_5",
+  "id": "ch14_L5_transfer_5",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_t10",
+  "prompt": "Почему в «Seit wann arbeiten Sie hier?» действие arbeiten стоит после seit wann?",
+  "answer": "seit wann — вопрос-слово, действие сразу за ним.",
+  "distractors": [
+   "Seit wann — это действие, поэтому arbeiten за ним.",
+   "arbeiten всегда стоит перед словом hier."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": null,
+  "de": "Seit wann arbeiten Sie hier?"
+ },
+ {
+  "item_id": "ch14_L5_boss_1",
+  "id": "ch14_L5_boss_1",
+  "lesson": "ch14_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_d5_06",
+  "prompt": "Герой говорит: «Vor einem Jahr habe ich in einer Firma gearbeitet.» Почему после Vor einem Jahr идёт habe, а не ich?",
+  "answer": "Vor einem Jahr — вагон №1, habe держит вагон №2.",
+  "distractors": [
+   "Vor einem Jahr — действие, поэтому habe за ним.",
+   "ich всегда идёт сразу после слова vor."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Vor einem Jahr habe ich in einer Firma gearbeitet."
+ },
+ {
+  "item_id": "ch14_L6_words_1",
+  "id": "ch14_L6_words_1",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_044",
+  "prompt": "Что значит «suchen»?",
+  "answer": "искать",
+  "distractors": [
+   "писать",
+   "иметь"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L6_words_2",
+  "id": "ch14_L6_words_2",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_044",
+  "prompt": "Что значит «Nachtportier»?",
+  "answer": "ночной портье",
+  "distractors": [
+   "ночная смена",
+   "повар"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L6_words_3",
+  "id": "ch14_L6_words_3",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_045",
+  "prompt": "Что значит «Erfahrung»?",
+  "answer": "опыт",
+  "distractors": [
+   "вопрос",
+   "письмо"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L6_words_4",
+  "id": "ch14_L6_words_4",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_047",
+  "prompt": "Что значит «Frage»?",
+  "answer": "вопрос",
+  "distractors": [
+   "опыт",
+   "письмо"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L6_words_5",
+  "id": "ch14_L6_words_5",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_048",
+  "prompt": "Что значит «E-Mail»?",
+  "answer": "электронное письмо",
+  "distractors": [
+   "звонок гостю",
+   "письмо на бумаге"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L6_listen_1",
+  "id": "ch14_L6_listen_1",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d6_02",
+  "prompt": "Послушай. Кого ищет отель?",
+  "answer": "Ночного портье.",
+  "distractors": [
+   "Повара.",
+   "Электронщика."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d6_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L6_listen_2",
+  "id": "ch14_L6_listen_2",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d6_03",
+  "prompt": "Послушай. Что спросила хозяйка?",
+  "answer": "Есть ли у вас опыт?",
+  "distractors": [
+   "Есть ли у вас вопрос?",
+   "Как вас зовут?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d6_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L6_listen_3",
+  "id": "ch14_L6_listen_3",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d6_04",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Да, у меня есть опыт.",
+  "distractors": [
+   "Да, у меня есть вопрос.",
+   "Нет, у меня нет опыта."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d6_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L6_listen_4",
+  "id": "ch14_L6_listen_4",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d6_06",
+  "prompt": "Послушай. Что сказал герой?",
+  "answer": "Да, у меня есть вопрос.",
+  "distractors": [
+   "Да, у меня есть опыт.",
+   "Да, у меня есть бронь."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d6_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L6_listen_5",
+  "id": "ch14_L6_listen_5",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d6_07",
+  "prompt": "Послушай. О чём просит хозяйка?",
+  "answer": "Написать электронное письмо.",
+  "distractors": [
+   "Позвонить в отель.",
+   "Подождать минуту."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d6_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L6_read_1",
+  "id": "ch14_L6_read_1",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_044",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Мы ищем ночного портье.",
+  "distractors": [
+   "Мы ищем повара.",
+   "Он ищет ночного портье."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wir suchen einen Nachtportier."
+ },
+ {
+  "item_id": "ch14_L6_read_2",
+  "id": "ch14_L6_read_2",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_045",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У вас есть опыт?",
+  "distractors": [
+   "У вас есть вопрос?",
+   "У вас есть бронь?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Haben Sie Erfahrung?"
+ },
+ {
+  "item_id": "ch14_L6_read_3",
+  "id": "ch14_L6_read_3",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_046",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У меня есть опыт.",
+  "distractors": [
+   "У меня есть вопрос.",
+   "У вас есть опыт."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe Erfahrung."
+ },
+ {
+  "item_id": "ch14_L6_read_4",
+  "id": "ch14_L6_read_4",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_047",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У меня есть вопрос.",
+  "distractors": [
+   "У меня есть опыт.",
+   "У вас есть вопрос."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe eine Frage."
+ },
+ {
+  "item_id": "ch14_L6_read_5",
+  "id": "ch14_L6_read_5",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_048",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Напишите электронное письмо.",
+  "distractors": [
+   "Прочитайте электронное письмо.",
+   "Отправьте нам свой адрес."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Schreiben Sie eine E-Mail."
+ },
+ {
+  "item_id": "ch14_L6_speak_1",
+  "id": "ch14_L6_speak_1",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_044",
+  "prompt": "Прочитай объявление вслух: «Мы ищем ночного портье.»",
+  "answer": "Wir suchen einen Nachtportier.",
+  "distractors": null,
+  "rule_id": "topics/akkusativ",
+  "transfer": false,
+  "audio": "audio_v1/ch14_044.mp3",
+  "de": null,
+  "accept": [
+   "Wir suchen einen Nachtportier."
+  ]
+ },
+ {
+  "item_id": "ch14_L6_speak_2",
+  "id": "ch14_L6_speak_2",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_045",
+  "prompt": "Спроси кандидата: «У вас есть опыт?»",
+  "answer": "Haben Sie Erfahrung?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch14_045.mp3",
+  "de": null,
+  "accept": [
+   "Haben Sie Erfahrung?"
+  ]
+ },
+ {
+  "item_id": "ch14_L6_speak_3",
+  "id": "ch14_L6_speak_3",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_046",
+  "prompt": "Скажи: «У меня есть опыт.»",
+  "answer": "Ich habe Erfahrung.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_046.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe Erfahrung."
+  ]
+ },
+ {
+  "item_id": "ch14_L6_speak_4",
+  "id": "ch14_L6_speak_4",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_047",
+  "prompt": "Скажи: «У меня есть вопрос.»",
+  "answer": "Ich habe eine Frage.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_047.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe eine Frage."
+  ]
+ },
+ {
+  "item_id": "ch14_L6_speak_5",
+  "id": "ch14_L6_speak_5",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_048",
+  "prompt": "Попроси кандидата: «Напишите электронное письмо.»",
+  "answer": "Schreiben Sie eine E-Mail.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_048.mp3",
+  "de": null,
+  "accept": [
+   "Schreiben Sie eine E-Mail."
+  ]
+ },
+ {
+  "item_id": "ch14_L6_write_1",
+  "id": "ch14_L6_write_1",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_044",
+  "prompt": "Впиши: «Wir suchen ___ Nachtportier.» (одного)",
+  "answer": "einen",
+  "distractors": null,
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": "audio_v1/ch14_044.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L6_write_2",
+  "id": "ch14_L6_write_2",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_045",
+  "prompt": "Впиши: «___ Sie Erfahrung?» (есть)",
+  "answer": "Haben",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch14_045.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L6_write_3",
+  "id": "ch14_L6_write_3",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_046",
+  "prompt": "Впиши: «Ich ___ Erfahrung.» (имею)",
+  "answer": "habe",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_046.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L6_write_4",
+  "id": "ch14_L6_write_4",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_047",
+  "prompt": "Впиши: «Ich habe eine ___.» (вопрос)",
+  "answer": "Frage",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_047.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L6_write_5",
+  "id": "ch14_L6_write_5",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_048",
+  "prompt": "Впиши: «Schreiben Sie eine ___.» (электронное письмо)",
+  "answer": "E-Mail",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch14_048.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L6_why_1",
+  "id": "ch14_L6_why_1",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_044",
+  "prompt": "Почему «einen Nachtportier», а не «ein Nachtportier»?",
+  "answer": "Кого ищем — ein превращается в einen.",
+  "distractors": [
+   "Nachtportier — слово множественного числа.",
+   "einen ставят перед каждым словом с большой буквы."
+  ],
+  "rule_id": "topics/akkusativ",
+  "transfer": false,
+  "audio": null,
+  "de": "Wir suchen einen Nachtportier."
+ },
+ {
+  "item_id": "ch14_L6_why_2",
+  "id": "ch14_L6_why_2",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_045",
+  "prompt": "Почему в «Haben Sie Erfahrung?» нет слова «eine»?",
+  "answer": "Опыт вообще — артикль не нужен.",
+  "distractors": [
+   "Erfahrung — слишком длинное слово.",
+   "eine ставят только перед Frage."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Haben Sie Erfahrung?"
+ },
+ {
+  "item_id": "ch14_L6_why_3",
+  "id": "ch14_L6_why_3",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_046",
+  "prompt": "Почему в «Ich habe Erfahrung» стоит «habe»?",
+  "answer": "Опыт «имеют»: ich habe — «я имею».",
+  "distractors": [
+   "bin ставят перед каждым Erfahrung.",
+   "habe говорят только про вчера."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe Erfahrung."
+ },
+ {
+  "item_id": "ch14_L6_why_4",
+  "id": "ch14_L6_why_4",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_047",
+  "prompt": "Почему «eine Frage», а не «ein Frage»?",
+  "answer": "die Frage → eine Frage: у die-слов eine.",
+  "distractors": [
+   "Frage — der-слово, поэтому eine.",
+   "eine ставят только перед числами."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe eine Frage."
+ },
+ {
+  "item_id": "ch14_L6_why_5",
+  "id": "ch14_L6_why_5",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_048",
+  "prompt": "Почему в «Schreiben Sie eine E-Mail.» действие стоит первым?",
+  "answer": "Просьба на «вы»: действие впереди, потом Sie.",
+  "distractors": [
+   "Первым ставят самое важное слово.",
+   "Schreiben — слово-предмет, оно первое."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Schreiben Sie eine E-Mail."
+ },
+ {
+  "item_id": "ch14_L6_transfer_1",
+  "id": "ch14_L6_transfer_1",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_t11",
+  "prompt": "Ты читаешь второе объявление. Скажи: «Мы ищем электронщика.»",
+  "answer": "Wir suchen einen Elektroniker.",
+  "distractors": null,
+  "rule_id": "topics/akkusativ",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t11.mp3",
+  "de": null,
+  "accept": [
+   "Wir suchen einen Elektroniker."
+  ]
+ },
+ {
+  "item_id": "ch14_L6_transfer_2",
+  "id": "ch14_L6_transfer_2",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_t12",
+  "prompt": "Коллега ищет в списке кандидатку. Спроси его: «У фрау Мюллер есть опыт?»",
+  "answer": "Hat Frau Müller Erfahrung?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t12.mp3",
+  "de": null,
+  "accept": [
+   "Hat Frau Müller Erfahrung?"
+  ]
+ },
+ {
+  "item_id": "ch14_L6_transfer_3",
+  "id": "ch14_L6_transfer_3",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_t12",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "У фрау Мюллер есть опыт?",
+  "distractors": [
+   "У фрау Мюллер есть вопрос?",
+   "Фрау Мюллер пишет письмо?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t12.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L6_transfer_4",
+  "id": "ch14_L6_transfer_4",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_t12",
+  "prompt": "Напиши вопрос целиком: «У фрау Мюллер есть опыт?» (про неё — hat)",
+  "answer": "Hat Frau Müller Erfahrung?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t12.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L6_transfer_5",
+  "id": "ch14_L6_transfer_5",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_t12",
+  "prompt": "Почему «Hat» стоит первым?",
+  "answer": "Вопрос «да/нет»: действие впереди, потом Frau Müller.",
+  "distractors": [
+   "Hat — слово-предмет, поэтому оно с большой буквы.",
+   "Так начинают каждую фразу про работу."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": null,
+  "de": "Hat Frau Müller Erfahrung?"
+ },
+ {
+  "item_id": "ch14_L6_boss_1",
+  "id": "ch14_L6_boss_1",
+  "lesson": "ch14_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_d6_02",
+  "prompt": "Frau Becker говорит: «Wir suchen einen Nachtportier.» Почему «suchen», а не «suche»?",
+  "answer": "С wir у действия хвост -en: wir suchen.",
+  "distractors": [
+   "suche — это только про Nachtportier.",
+   "С wir хвоста нет, как с ich."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Wir suchen einen Nachtportier."
+ },
+ {
+  "item_id": "ch14_L7_words_1",
+  "id": "ch14_L7_words_1",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_053",
+  "prompt": "Что значит «warum»?",
+  "answer": "почему",
+  "distractors": [
+   "когда",
+   "где"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L7_words_2",
+  "id": "ch14_L7_words_2",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_054",
+  "prompt": "Что значит «denn» в «…, denn ich wohne hier»?",
+  "answer": "потому что",
+  "distractors": [
+   "потом, затем",
+   "тоже, ещё"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L7_words_3",
+  "id": "ch14_L7_words_3",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_057",
+  "prompt": "Что значит «deshalb»?",
+  "answer": "поэтому",
+  "distractors": [
+   "потому что",
+   "потом"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L7_words_4",
+  "id": "ch14_L7_words_4",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_056",
+  "prompt": "Что значит «gut»?",
+  "answer": "хороший",
+  "distractors": [
+   "новый",
+   "сломан"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L7_words_5",
+  "id": "ch14_L7_words_5",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_055",
+  "prompt": "Что значит «lerne» в «Ich lerne Deutsch»?",
+  "answer": "учу",
+  "distractors": [
+   "живу",
+   "работаю"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L7_listen_1",
+  "id": "ch14_L7_listen_1",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d7_01",
+  "prompt": "Послушай. Что спросила репортёрша?",
+  "answer": "Почему вы работаете в отеле?",
+  "distractors": [
+   "Где вы работаете?",
+   "Почему вы живёте в отеле?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d7_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L7_listen_2",
+  "id": "ch14_L7_listen_2",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d7_02",
+  "prompt": "Послушай. Почему герой работает в отеле?",
+  "answer": "Он здесь живёт.",
+  "distractors": [
+   "Он здесь учится.",
+   "Отель хороший."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d7_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L7_listen_3",
+  "id": "ch14_L7_listen_3",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d7_04",
+  "prompt": "Послушай. Почему герой учит немецкий?",
+  "answer": "Он работает в отеле.",
+  "distractors": [
+   "Он живёт в Лейпциге.",
+   "Ему нравится радио."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d7_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L7_listen_4",
+  "id": "ch14_L7_listen_4",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d7_06",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Отель хороший.",
+  "distractors": [
+   "Отель новый.",
+   "Отель большой."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d7_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L7_listen_5",
+  "id": "ch14_L7_listen_5",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d7_08",
+  "prompt": "Послушай. Что сказал герой в конце?",
+  "answer": "Поэтому я учу немецкий.",
+  "distractors": [
+   "Поэтому я живу в отеле.",
+   "Потому что я учу немецкий."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d7_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L7_read_1",
+  "id": "ch14_L7_read_1",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_053",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Почему вы работаете в отеле?",
+  "distractors": [
+   "Где вы работаете?",
+   "Почему вы живёте в отеле?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Warum arbeiten Sie im Hotel?"
+ },
+ {
+  "item_id": "ch14_L7_read_2",
+  "id": "ch14_L7_read_2",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_054",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я работаю в отеле, потому что я здесь живу.",
+  "distractors": [
+   "Я живу в отеле, потому что я здесь работаю.",
+   "Я работаю в отеле, поэтому я здесь живу."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich arbeite im Hotel, denn ich wohne hier."
+ },
+ {
+  "item_id": "ch14_L7_read_3",
+  "id": "ch14_L7_read_3",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_055",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я учу немецкий, потому что я работаю в отеле.",
+  "distractors": [
+   "Я работаю в отеле, потому что я учу немецкий.",
+   "Я учу немецкий, поэтому я работаю в отеле."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich lerne Deutsch, denn ich arbeite im Hotel."
+ },
+ {
+  "item_id": "ch14_L7_read_4",
+  "id": "ch14_L7_read_4",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_056",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Отель хороший.",
+  "distractors": [
+   "Отель новый.",
+   "Отель закрыт."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das Hotel ist gut."
+ },
+ {
+  "item_id": "ch14_L7_read_5",
+  "id": "ch14_L7_read_5",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_057",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Поэтому я учу немецкий.",
+  "distractors": [
+   "Потому что я учу немецкий.",
+   "Поэтому я работаю в отеле."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Deshalb lerne ich Deutsch."
+ },
+ {
+  "item_id": "ch14_L7_speak_1",
+  "id": "ch14_L7_speak_1",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_053",
+  "prompt": "Спроси коллегу: «Почему вы работаете в отеле?»",
+  "answer": "Warum arbeiten Sie im Hotel?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch14_053.mp3",
+  "de": null,
+  "accept": [
+   "Warum arbeiten Sie im Hotel?"
+  ]
+ },
+ {
+  "item_id": "ch14_L7_speak_2",
+  "id": "ch14_L7_speak_2",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_054",
+  "prompt": "Ответь репортёрше: «Я работаю в отеле, потому что я здесь живу.»",
+  "answer": "Ich arbeite im Hotel, denn ich wohne hier.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_054.mp3",
+  "de": null,
+  "accept": [
+   "Ich arbeite im Hotel, denn ich wohne hier."
+  ]
+ },
+ {
+  "item_id": "ch14_L7_speak_3",
+  "id": "ch14_L7_speak_3",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_055",
+  "prompt": "Скажи: «Я учу немецкий, потому что я работаю в отеле.»",
+  "answer": "Ich lerne Deutsch, denn ich arbeite im Hotel.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_055.mp3",
+  "de": null,
+  "accept": [
+   "Ich lerne Deutsch, denn ich arbeite im Hotel."
+  ]
+ },
+ {
+  "item_id": "ch14_L7_speak_4",
+  "id": "ch14_L7_speak_4",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_056",
+  "prompt": "Ответь коротко: «Отель хороший.»",
+  "answer": "Das Hotel ist gut.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_056.mp3",
+  "de": null,
+  "accept": [
+   "Das Hotel ist gut."
+  ]
+ },
+ {
+  "item_id": "ch14_L7_speak_5",
+  "id": "ch14_L7_speak_5",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_057",
+  "prompt": "Скажи результат: «Поэтому я учу немецкий.»",
+  "answer": "Deshalb lerne ich Deutsch.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_057.mp3",
+  "de": null,
+  "accept": [
+   "Deshalb lerne ich Deutsch."
+  ]
+ },
+ {
+  "item_id": "ch14_L7_write_1",
+  "id": "ch14_L7_write_1",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_053",
+  "prompt": "Впиши: «___ arbeiten Sie im Hotel?» (почему)",
+  "answer": "Warum",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch14_053.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L7_write_2",
+  "id": "ch14_L7_write_2",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_054",
+  "prompt": "Впиши: «Ich arbeite im Hotel, ___ ich wohne hier.» (потому что)",
+  "answer": "denn",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch14_054.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L7_write_3",
+  "id": "ch14_L7_write_3",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_055",
+  "prompt": "Впиши: «Ich lerne Deutsch, denn ich ___ im Hotel.» (работаю)",
+  "answer": "arbeite",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_055.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L7_write_4",
+  "id": "ch14_L7_write_4",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_056",
+  "prompt": "Впиши: «Das Hotel ___ gut.» (есть)",
+  "answer": "ist",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_056.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L7_write_5",
+  "id": "ch14_L7_write_5",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_057",
+  "prompt": "Впиши: «___ lerne ich Deutsch.» (поэтому)",
+  "answer": "Deshalb",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_057.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L7_why_1",
+  "id": "ch14_L7_why_1",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_054",
+  "prompt": "Почему в «…, denn ich wohne hier» после denn стоит ich, а не wohne?",
+  "answer": "После denn порядок обычный: сначала ich, потом действие.",
+  "distractors": [
+   "После denn действие всегда идёт первым: denn wohne ich hier.",
+   "ich ставят после слова hier, потому что hier стоит первым."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich arbeite im Hotel, denn ich wohne hier."
+ },
+ {
+  "item_id": "ch14_L7_why_2",
+  "id": "ch14_L7_why_2",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_055",
+  "prompt": "Как соединены две фразы в «Ich lerne Deutsch, denn ich arbeite im Hotel»?",
+  "answer": "Через denn: оно значит «потому что».",
+  "distractors": [
+   "Через ich: оно значит «потому что».",
+   "Через Deutsch: оно значит «потому что»."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich lerne Deutsch, denn ich arbeite im Hotel."
+ },
+ {
+  "item_id": "ch14_L7_why_3",
+  "id": "ch14_L7_why_3",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_056",
+  "prompt": "Почему в «Das Hotel ist gut» нет слова «denn»?",
+  "answer": "Это короткий ответ: причину говорят одной фразой.",
+  "distractors": [
+   "Denn ставят только в конце фразы, а здесь он не нужен.",
+   "Без denn отель был бы плохим, поэтому его обычно ставят."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Das Hotel ist gut."
+ },
+ {
+  "item_id": "ch14_L7_why_4",
+  "id": "ch14_L7_why_4",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_057",
+  "prompt": "Почему в «Deshalb lerne ich Deutsch» после Deshalb идёт lerne, а не ich?",
+  "answer": "После deshalb сразу действие: lerne, потом ich.",
+  "distractors": [
+   "После deshalb не сразу действие: lerne, потом ich.",
+   "Lerne ставят первым в любой фразе."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Deshalb lerne ich Deutsch."
+ },
+ {
+  "item_id": "ch14_L7_why_5",
+  "id": "ch14_L7_why_5",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_058",
+  "prompt": "Почему в «Warum lernen Sie Deutsch?» действие lernen стоит после Warum?",
+  "answer": "Warum — вопрос-слово, действие сразу за ним.",
+  "distractors": [
+   "Warum — действие, поэтому lernen за ним.",
+   "lernen всегда идёт перед Sie."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Warum lernen Sie Deutsch?"
+ },
+ {
+  "item_id": "ch14_L7_transfer_1",
+  "id": "ch14_L7_transfer_1",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_t13",
+  "prompt": "Репортёрша спрашивает про твой номер. Скажи: «Я живу в отеле, потому что я здесь работаю.»",
+  "answer": "Ich wohne im Hotel, denn ich arbeite hier.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t13.mp3",
+  "de": null,
+  "accept": [
+   "Ich wohne im Hotel, denn ich arbeite hier."
+  ]
+ },
+ {
+  "item_id": "ch14_L7_transfer_2",
+  "id": "ch14_L7_transfer_2",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_t14",
+  "prompt": "Ты спрашиваешь у коллеги: «Почему вы здесь живёте?»",
+  "answer": "Warum wohnen Sie hier?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t14.mp3",
+  "de": null,
+  "accept": [
+   "Warum wohnen Sie hier?"
+  ]
+ },
+ {
+  "item_id": "ch14_L7_transfer_3",
+  "id": "ch14_L7_transfer_3",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_t14",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Почему вы здесь живёте?",
+  "distractors": [
+   "Почему вы здесь работаете?",
+   "Где вы здесь живёте?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t14.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L7_transfer_4",
+  "id": "ch14_L7_transfer_4",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_t14",
+  "prompt": "Напиши вопрос целиком: «Почему вы здесь живёте?»",
+  "answer": "Warum wohnen Sie hier?",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t14.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L7_transfer_5",
+  "id": "ch14_L7_transfer_5",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_t14",
+  "prompt": "Почему «Warum» стоит в начале вопроса?",
+  "answer": "Warum — вопрос-слово: оно открывает вопрос.",
+  "distractors": [
+   "Warum — самое длинное слово фразы.",
+   "Warum — слово «да/нет»: оно открывает вопрос."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": null,
+  "de": "Warum wohnen Sie hier?"
+ },
+ {
+  "item_id": "ch14_L7_boss_1",
+  "id": "ch14_L7_boss_1",
+  "lesson": "ch14_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_d7_07",
+  "prompt": "Репортёрша говорит: «Sie arbeiten im Hotel.» Почему «arbeiten», а не «arbeite»?",
+  "answer": "С Sie («вы») у действия хвост -en, а -e бывает только с ich.",
+  "distractors": [
+   "-en ставят, когда говорят про прошлое.",
+   "С Sie («вы») у действия хвост -e, а -e бывает только с ich."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Sie arbeiten im Hotel."
+ },
+ {
+  "item_id": "ch14_L8_words_1",
+  "id": "ch14_L8_words_1",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_062",
+  "prompt": "Что значит «sprechen»?",
+  "answer": "говорить",
+  "distractors": [
+   "писать",
+   "искать"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L8_words_2",
+  "id": "ch14_L8_words_2",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_063",
+  "prompt": "Что значит «spreche» в «Ich spreche Deutsch»?",
+  "answer": "говорю",
+  "distractors": [
+   "пишу",
+   "учу"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L8_words_3",
+  "id": "ch14_L8_words_3",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_064",
+  "prompt": "Что значит «Stelle»?",
+  "answer": "работа",
+  "distractors": [
+   "вопрос",
+   "опыт"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L8_words_4",
+  "id": "ch14_L8_words_4",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_066",
+  "prompt": "Что значит «Nachricht»?",
+  "answer": "сообщение",
+  "distractors": [
+   "письмо",
+   "звонок"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L8_words_5",
+  "id": "ch14_L8_words_5",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_066",
+  "prompt": "Что значит «schreibe» в «Ich schreibe»?",
+  "answer": "пишу",
+  "distractors": [
+   "говорю",
+   "ищу"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L8_listen_1",
+  "id": "ch14_L8_listen_1",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d8_01",
+  "prompt": "Послушай. Что спросила хозяйка?",
+  "answer": "Вы говорите по-немецки?",
+  "distractors": [
+   "Вы учите немецкий?",
+   "Вы пишете по-немецки?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d8_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L8_listen_2",
+  "id": "ch14_L8_listen_2",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d8_02",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Да, я говорю по-немецки.",
+  "distractors": [
+   "Да, я пишу по-немецки.",
+   "Нет, я не говорю по-немецки."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d8_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L8_listen_3",
+  "id": "ch14_L8_listen_3",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d8_03",
+  "prompt": "Послушай. Что спросила хозяйка?",
+  "answer": "У вас есть работа?",
+  "distractors": [
+   "У вас есть вопрос?",
+   "У вас есть опыт?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d8_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L8_listen_4",
+  "id": "ch14_L8_listen_4",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d8_06",
+  "prompt": "Послушай. Что сказал герой?",
+  "answer": "Да, я пишу сообщение.",
+  "distractors": [
+   "Да, у меня есть сообщение.",
+   "Да, я пишу письмо."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d8_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L8_listen_5",
+  "id": "ch14_L8_listen_5",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d8_08",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Я живу здесь.",
+  "distractors": [
+   "Я работаю здесь.",
+   "Я учусь здесь."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d8_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L8_read_1",
+  "id": "ch14_L8_read_1",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_062",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Вы говорите по-немецки?",
+  "distractors": [
+   "Вы учите немецкий?",
+   "Вы пишете по-немецки?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Sprechen Sie Deutsch?"
+ },
+ {
+  "item_id": "ch14_L8_read_2",
+  "id": "ch14_L8_read_2",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_063",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я говорю по-немецки.",
+  "distractors": [
+   "Я пишу по-немецки.",
+   "Вы говорите по-немецки."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich spreche Deutsch."
+ },
+ {
+  "item_id": "ch14_L8_read_3",
+  "id": "ch14_L8_read_3",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_064",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У вас есть работа?",
+  "distractors": [
+   "У вас есть опыт?",
+   "У вас есть вопрос?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Haben Sie eine Stelle?"
+ },
+ {
+  "item_id": "ch14_L8_read_4",
+  "id": "ch14_L8_read_4",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_065",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У меня есть работа.",
+  "distractors": [
+   "У меня есть опыт.",
+   "У вас есть работа."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe eine Stelle."
+ },
+ {
+  "item_id": "ch14_L8_read_5",
+  "id": "ch14_L8_read_5",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_066",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я пишу сообщение.",
+  "distractors": [
+   "Я читаю сообщение.",
+   "Вы пишете сообщение."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich schreibe eine Nachricht."
+ },
+ {
+  "item_id": "ch14_L8_speak_1",
+  "id": "ch14_L8_speak_1",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_062",
+  "prompt": "Спроси хозяйку: «Вы говорите по-немецки?»",
+  "answer": "Sprechen Sie Deutsch?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch14_062.mp3",
+  "de": null,
+  "accept": [
+   "Sprechen Sie Deutsch?"
+  ]
+ },
+ {
+  "item_id": "ch14_L8_speak_2",
+  "id": "ch14_L8_speak_2",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_063",
+  "prompt": "Скажи: «Я говорю по-немецки.»",
+  "answer": "Ich spreche Deutsch.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_063.mp3",
+  "de": null,
+  "accept": [
+   "Ich spreche Deutsch."
+  ]
+ },
+ {
+  "item_id": "ch14_L8_speak_3",
+  "id": "ch14_L8_speak_3",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_064",
+  "prompt": "Спроси хозяйку: «У вас есть работа?»",
+  "answer": "Haben Sie eine Stelle?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch14_064.mp3",
+  "de": null,
+  "accept": [
+   "Haben Sie eine Stelle?"
+  ]
+ },
+ {
+  "item_id": "ch14_L8_speak_4",
+  "id": "ch14_L8_speak_4",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_065",
+  "prompt": "Скажи: «У меня есть работа.»",
+  "answer": "Ich habe eine Stelle.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_065.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe eine Stelle."
+  ]
+ },
+ {
+  "item_id": "ch14_L8_speak_5",
+  "id": "ch14_L8_speak_5",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_066",
+  "prompt": "Скажи: «Я пишу сообщение.»",
+  "answer": "Ich schreibe eine Nachricht.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_066.mp3",
+  "de": null,
+  "accept": [
+   "Ich schreibe eine Nachricht."
+  ]
+ },
+ {
+  "item_id": "ch14_L8_write_1",
+  "id": "ch14_L8_write_1",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_062",
+  "prompt": "Впиши: «___ Sie Deutsch?» (говорите)",
+  "answer": "Sprechen",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch14_062.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L8_write_2",
+  "id": "ch14_L8_write_2",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_063",
+  "prompt": "Впиши: «Ich ___ Deutsch.» (говорю)",
+  "answer": "spreche",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_063.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L8_write_3",
+  "id": "ch14_L8_write_3",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_064",
+  "prompt": "Впиши: «Haben Sie eine ___?» (работа)",
+  "answer": "Stelle",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch14_064.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L8_write_4",
+  "id": "ch14_L8_write_4",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_065",
+  "prompt": "Впиши: «Ich ___ eine Stelle.» (имею)",
+  "answer": "habe",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_065.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L8_write_5",
+  "id": "ch14_L8_write_5",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_066",
+  "prompt": "Впиши: «Ich schreibe eine ___.» (сообщение)",
+  "answer": "Nachricht",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_066.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L8_why_1",
+  "id": "ch14_L8_why_1",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_062",
+  "prompt": "Почему «Sprechen Sie Deutsch?» кончается знаком «?», а «Ich spreche Deutsch.» — точкой?",
+  "answer": "Вопрос кончается «?», утверждение — точкой.",
+  "distractors": [
+   "Знак зависит от длины фразы.",
+   "Точку ставят только после Deutsch."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Sprechen Sie Deutsch?"
+ },
+ {
+  "item_id": "ch14_L8_why_2",
+  "id": "ch14_L8_why_2",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_063",
+  "prompt": "Почему «Ich spreche», а не «Ich sprechen»?",
+  "answer": "С ich у действия хвост -e: ich spreche.",
+  "distractors": [
+   "С ich у действия хвост -en: ich spreche.",
+   "Хвост зависит от слова Deutsch."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich spreche Deutsch."
+ },
+ {
+  "item_id": "ch14_L8_why_3",
+  "id": "ch14_L8_why_3",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_064",
+  "prompt": "Почему «eine Stelle», а не «ein Stelle»?",
+  "answer": "Stelle — слово женского рода, поэтому eine.",
+  "distractors": [
+   "Это слово мужского рода, поэтому перед ним einen.",
+   "Потому что это вопрос, а в вопросе всегда «eine»."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": null,
+  "de": "Haben Sie eine Stelle?"
+ },
+ {
+  "item_id": "ch14_L8_why_4",
+  "id": "ch14_L8_why_4",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_065",
+  "prompt": "Почему в «Ich habe eine Stelle» стоит «habe»?",
+  "answer": "Работу «имеют»: ich habe — «я имею».",
+  "distractors": [
+   "habe здесь значит «живу».",
+   "habe ставят перед каждым словом с большой буквы."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe eine Stelle."
+ },
+ {
+  "item_id": "ch14_L8_why_5",
+  "id": "ch14_L8_why_5",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_066",
+  "prompt": "Что значит «eine» в «Ich schreibe eine Nachricht»?",
+  "answer": "die Nachricht → eine Nachricht: это die-слово.",
+  "distractors": [
+   "Это слово мужского рода, поэтому перед ним einen.",
+   "eine — это «две», то есть два раза."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich schreibe eine Nachricht."
+ },
+ {
+  "item_id": "ch14_L8_transfer_1",
+  "id": "ch14_L8_transfer_1",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_t15",
+  "prompt": "Ты спрашиваешь коллегу: «У вас есть сообщение?»",
+  "answer": "Haben Sie eine Nachricht?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t15.mp3",
+  "de": null,
+  "accept": [
+   "Haben Sie eine Nachricht?"
+  ]
+ },
+ {
+  "item_id": "ch14_L8_transfer_2",
+  "id": "ch14_L8_transfer_2",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_t16",
+  "prompt": "Ты отвечаешь коллеге: «У меня есть сообщение.»",
+  "answer": "Ich habe eine Nachricht.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t16.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe eine Nachricht."
+  ]
+ },
+ {
+  "item_id": "ch14_L8_transfer_3",
+  "id": "ch14_L8_transfer_3",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_t16",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "У меня есть сообщение.",
+  "distractors": [
+   "У меня есть работа.",
+   "Я пишу сообщение."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t16.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L8_transfer_4",
+  "id": "ch14_L8_transfer_4",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_t16",
+  "prompt": "Напиши целиком: «У меня есть сообщение.»",
+  "answer": "Ich habe eine Nachricht.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t16.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L8_transfer_5",
+  "id": "ch14_L8_transfer_5",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_t16",
+  "prompt": "Почему «Ich habe eine Nachricht.» кончается точкой?",
+  "answer": "Это утверждение, а не вопрос: утверждение кончается точкой.",
+  "distractors": [
+   "Точку ставят после слова Nachricht, потому что оно существительное.",
+   "Это очень короткая фраза, а у коротких фраз всегда точка."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": null,
+  "de": "Ich habe eine Nachricht."
+ },
+ {
+  "item_id": "ch14_L8_boss_1",
+  "id": "ch14_L8_boss_1",
+  "lesson": "ch14_L8",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_d8_05",
+  "prompt": "Frau Becker пишет: «Schreiben Sie eine Nachricht?» Почему это вопрос, а не просьба?",
+  "answer": "Действие впереди и в конце «?»: вопрос «да/нет».",
+  "distractors": [
+   "Действие впереди и в конце «?»: вопрос с вопрос-словом.",
+   "Вопросом это делает слово Nachricht."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Schreiben Sie eine Nachricht?"
+ },
+ {
+  "item_id": "ch14_L9_words_1",
+  "id": "ch14_L9_words_1",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_072",
+  "prompt": "Что значит «aus» в «Ich komme aus der Ukraine»?",
+  "answer": "из",
+  "distractors": [
+   "в",
+   "с"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L9_words_2",
+  "id": "ch14_L9_words_2",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_073",
+  "prompt": "Что значит «seit» в «seit einem Monat»?",
+  "answer": "уже",
+  "distractors": [
+   "без",
+   "с"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L9_words_3",
+  "id": "ch14_L9_words_3",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_074",
+  "prompt": "Что значит «Jahr»?",
+  "answer": "год",
+  "distractors": [
+   "месяц",
+   "неделя"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L9_words_4",
+  "id": "ch14_L9_words_4",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_075",
+  "prompt": "Что значит «mit» в «mit dem Computer»?",
+  "answer": "с",
+  "distractors": [
+   "без",
+   "из"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L9_words_5",
+  "id": "ch14_L9_words_5",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch14_076",
+  "prompt": "Что значит «Pause»?",
+  "answer": "перерыв",
+  "distractors": [
+   "работа",
+   "отпуск"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch14_L9_listen_1",
+  "id": "ch14_L9_listen_1",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d9_01",
+  "prompt": "Послушай. Что спросила хозяйка?",
+  "answer": "Откуда вы?",
+  "distractors": [
+   "Где вы живёте?",
+   "Кто вы?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d9_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L9_listen_2",
+  "id": "ch14_L9_listen_2",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d9_02",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Я родом из Украины.",
+  "distractors": [
+   "Я живу в Украине.",
+   "Я работаю в Украине."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d9_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L9_listen_3",
+  "id": "ch14_L9_listen_3",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d9_04",
+  "prompt": "Послушай. Что сказал герой?",
+  "answer": "Нет, я работаю здесь уже месяц.",
+  "distractors": [
+   "Нет, я живу здесь уже месяц.",
+   "Да, я работаю здесь уже год."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d9_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L9_listen_4",
+  "id": "ch14_L9_listen_4",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d9_06",
+  "prompt": "Послушай. Что сказал герой?",
+  "answer": "Да, мы работаем с компьютером.",
+  "distractors": [
+   "Да, мы работаем без компьютера.",
+   "Да, вы работаете с компьютером."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d9_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L9_listen_5",
+  "id": "ch14_L9_listen_5",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_d9_08",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Нет, я работаю без перерыва.",
+  "distractors": [
+   "Нет, я работаю с перерывом.",
+   "Да, у меня есть перерыв."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch14_d9_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L9_read_1",
+  "id": "ch14_L9_read_1",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_072",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я родом из Украины.",
+  "distractors": [
+   "Я живу в Украине.",
+   "Вы родом из Украины."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich komme aus der Ukraine."
+ },
+ {
+  "item_id": "ch14_L9_read_2",
+  "id": "ch14_L9_read_2",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_073",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я работаю здесь уже месяц.",
+  "distractors": [
+   "Я живу здесь уже месяц.",
+   "Я работаю здесь уже год."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich arbeite seit einem Monat hier."
+ },
+ {
+  "item_id": "ch14_L9_read_3",
+  "id": "ch14_L9_read_3",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_074",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Вы работаете здесь уже год?",
+  "distractors": [
+   "Вы живёте здесь уже год?",
+   "Вы работаете здесь уже месяц?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Arbeiten Sie seit einem Jahr hier?"
+ },
+ {
+  "item_id": "ch14_L9_read_4",
+  "id": "ch14_L9_read_4",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_075",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Мы работаем с компьютером.",
+  "distractors": [
+   "Мы работаем без компьютера.",
+   "Вы работаете с компьютером."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wir arbeiten mit dem Computer."
+ },
+ {
+  "item_id": "ch14_L9_read_5",
+  "id": "ch14_L9_read_5",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch14_076",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я работаю без перерыва.",
+  "distractors": [
+   "Я работаю с перерывом.",
+   "Мы работаем без перерыва."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich arbeite ohne Pause."
+ },
+ {
+  "item_id": "ch14_L9_speak_1",
+  "id": "ch14_L9_speak_1",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_072",
+  "prompt": "Скажи: «Я родом из Украины.»",
+  "answer": "Ich komme aus der Ukraine.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_072.mp3",
+  "de": null,
+  "accept": [
+   "Ich komme aus der Ukraine."
+  ]
+ },
+ {
+  "item_id": "ch14_L9_speak_2",
+  "id": "ch14_L9_speak_2",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_073",
+  "prompt": "Скажи: «Я работаю здесь уже месяц.»",
+  "answer": "Ich arbeite seit einem Monat hier.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_073.mp3",
+  "de": null,
+  "accept": [
+   "Ich arbeite seit einem Monat hier."
+  ]
+ },
+ {
+  "item_id": "ch14_L9_speak_3",
+  "id": "ch14_L9_speak_3",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_074",
+  "prompt": "Спроси хозяйку: «Вы работаете здесь уже год?»",
+  "answer": "Arbeiten Sie seit einem Jahr hier?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch14_074.mp3",
+  "de": null,
+  "accept": [
+   "Arbeiten Sie seit einem Jahr hier?"
+  ]
+ },
+ {
+  "item_id": "ch14_L9_speak_4",
+  "id": "ch14_L9_speak_4",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_075",
+  "prompt": "Скажи: «Мы работаем с компьютером.»",
+  "answer": "Wir arbeiten mit dem Computer.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_075.mp3",
+  "de": null,
+  "accept": [
+   "Wir arbeiten mit dem Computer."
+  ]
+ },
+ {
+  "item_id": "ch14_L9_speak_5",
+  "id": "ch14_L9_speak_5",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_076",
+  "prompt": "Скажи: «Я работаю без перерыва.»",
+  "answer": "Ich arbeite ohne Pause.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_076.mp3",
+  "de": null,
+  "accept": [
+   "Ich arbeite ohne Pause."
+  ]
+ },
+ {
+  "item_id": "ch14_L9_write_1",
+  "id": "ch14_L9_write_1",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_072",
+  "prompt": "Впиши: «Ich ___ aus der Ukraine.» (прихожу, родом)",
+  "answer": "komme",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch14_072.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L9_write_2",
+  "id": "ch14_L9_write_2",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_073",
+  "prompt": "Впиши: «Ich arbeite ___ einem Monat hier.» (уже)",
+  "answer": "seit",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_073.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L9_write_3",
+  "id": "ch14_L9_write_3",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_074",
+  "prompt": "Впиши: «Arbeiten Sie seit einem ___ hier?» (год)",
+  "answer": "Jahr",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch14_074.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L9_write_4",
+  "id": "ch14_L9_write_4",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_075",
+  "prompt": "Впиши: «Wir arbeiten ___ dem Computer.» (с)",
+  "answer": "mit",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_075.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L9_write_5",
+  "id": "ch14_L9_write_5",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_076",
+  "prompt": "Впиши: «Ich arbeite ___ Pause.» (без)",
+  "answer": "ohne",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch14_076.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L9_why_1",
+  "id": "ch14_L9_why_1",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_072",
+  "prompt": "Почему «Ich komme», а не «Ich kommen»?",
+  "answer": "С ich у действия хвост -e: ich komme.",
+  "distractors": [
+   "С ich у действия хвост -en.",
+   "Хвост зависит от слова Ukraine."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich komme aus der Ukraine."
+ },
+ {
+  "item_id": "ch14_L9_why_2",
+  "id": "ch14_L9_why_2",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_073",
+  "prompt": "Почему «seit einem Monat», а не «seit ein Monat»?",
+  "answer": "der Monat → seit einem Monat: после seit ein превращается в einem.",
+  "distractors": [
+   "der Monat → seit einem Monat: после seit ein не превращается в einem.",
+   "Слово Monat всегда пишут с einem."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich arbeite seit einem Monat hier."
+ },
+ {
+  "item_id": "ch14_L9_why_3",
+  "id": "ch14_L9_why_3",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_074",
+  "prompt": "Почему «Arbeiten Sie seit einem Jahr hier?» кончается знаком «?»",
+  "answer": "Действие впереди и в конце «?»: вопрос «да/нет».",
+  "distractors": [
+   "В конце точка: вопрос «да/нет».",
+   "Действие впереди и впереди «?»: вопрос «да/нет»."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Arbeiten Sie seit einem Jahr hier?"
+ },
+ {
+  "item_id": "ch14_L9_why_4",
+  "id": "ch14_L9_why_4",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_075",
+  "prompt": "Почему «mit dem Computer», а не «mit der Computer»?",
+  "answer": "der Computer → mit dem Computer: после mit der превращается в dem.",
+  "distractors": [
+   "der Computer → mit dem Computer: после mit der не превращается в dem.",
+   "Computer — слово женского рода."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Wir arbeiten mit dem Computer."
+ },
+ {
+  "item_id": "ch14_L9_why_5",
+  "id": "ch14_L9_why_5",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_076",
+  "prompt": "Что значит «ohne» в «Ich arbeite ohne Pause»?",
+  "answer": "ohne — «без»: ohne Pause — «без перерыва».",
+  "distractors": [
+   "ohne — «с»: вместе с перерывом, как mit Pause.",
+   "ohne — «до»: работаю до перерыва, не после него."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich arbeite ohne Pause."
+ },
+ {
+  "item_id": "ch14_L9_transfer_1",
+  "id": "ch14_L9_transfer_1",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_t17",
+  "prompt": "Ты спрашиваешь коллегу: «Вы работаете без компьютера?»",
+  "answer": "Arbeiten Sie ohne Computer?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t17.mp3",
+  "de": null,
+  "accept": [
+   "Arbeiten Sie ohne Computer?"
+  ]
+ },
+ {
+  "item_id": "ch14_L9_transfer_2",
+  "id": "ch14_L9_transfer_2",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch14_t18",
+  "prompt": "Ты отвечаешь коллеге: «Я работаю без компьютера.»",
+  "answer": "Ich arbeite ohne Computer.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t18.mp3",
+  "de": null,
+  "accept": [
+   "Ich arbeite ohne Computer."
+  ]
+ },
+ {
+  "item_id": "ch14_L9_transfer_3",
+  "id": "ch14_L9_transfer_3",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch14_t18",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Я работаю без компьютера.",
+  "distractors": [
+   "Я работаю с компьютером.",
+   "Я работаю без перерыва."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t18.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L9_transfer_4",
+  "id": "ch14_L9_transfer_4",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch14_t18",
+  "prompt": "Напиши целиком: «Я работаю без компьютера.»",
+  "answer": "Ich arbeite ohne Computer.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch14_t18.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch14_L9_transfer_5",
+  "id": "ch14_L9_transfer_5",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_t18",
+  "prompt": "Почему в «Ich arbeite ohne Computer.» нет артикля после ohne?",
+  "answer": "После ohne здесь артикля нет: ohne Computer — «без компьютера».",
+  "distractors": [
+   "После ohne ставят einen: ohne einen Computer — всегда с артиклем.",
+   "Артикль теряет только слово Computer, потому что оно пришло из английского."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": true,
+  "audio": null,
+  "de": "Ich arbeite ohne Computer."
+ },
+ {
+  "item_id": "ch14_L9_boss_1",
+  "id": "ch14_L9_boss_1",
+  "lesson": "ch14_L9",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch14_d9_02",
+  "prompt": "Герой говорит: «Ich komme aus der Ukraine.» Почему «aus der Ukraine», а не «aus die Ukraine»?",
+  "answer": "После aus слово меняется: die Ukraine → aus der Ukraine.",
+  "distractors": [
+   "После aus слово не меняется: die Ukraine → aus der Ukraine.",
+   "Ukraine — слово мужского рода."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich komme aus der Ukraine."
+ }
+]

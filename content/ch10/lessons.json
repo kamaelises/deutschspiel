@@ -1,0 +1,5731 @@
+[
+ {
+  "id": "ch10_L1",
+  "title": "Ich bin gekommen: откуда приехал, где жил",
+  "pages_linie1": {
+   "pages": [
+    174,
+    175,
+    176
+   ],
+   "sections": [
+    "1 Endlich da!",
+    "2 Neu in einem Land",
+    "3 So bin ich hierher gekommen."
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch10_001",
+   "ch10_002",
+   "ch10_003",
+   "ch10_004",
+   "ch10_005"
+  ],
+  "why_ids": [
+   "ch10_001",
+   "ch10_005"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch10_d1",
+    "line_ids": [
+     "ch10_d1_01",
+     "ch10_d1_02",
+     "ch10_d1_03",
+     "ch10_d1_04",
+     "ch10_d1_05",
+     "ch10_d1_06",
+     "ch10_d1_07"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Тебя спросили, откуда ты. Что ответишь?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch10_d1",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch10_d1_01",
+        "ch10_d1_02",
+        "ch10_d1_04",
+        "ch10_d1_05"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch10_d1",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Звук h: послушай habe, hier, gewohnt, gefahren и повтори",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch10_001",
+        "ch10_002",
+        "ch10_003",
+        "ch10_005"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Звук h: послушай habe, hier, gewohnt, gefahren и повтори — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "«приехал» — одно слово ↔ bin … gekommen — два: мост через рамки komme и wohne из главы 1; терминов нет, слово курса — одной строкой",
+   "как слышу, так и пишу": "h после гласной не слышно, а пишется (gewohnt, gefahren); gekommen — две m",
+   "учебник непонятен": "из Linie 1 — только темы и страницы 174–176; подача своя",
+   "село, живой немецкий — Netto": "сцена — перемена на курсе; города из жизни автора: Freiberg, Dresden",
+   "любит аниме": "завязка — новичок в гильдии; отрезки аниме — в карточке темы (кнопка «покажи по-другому»)",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин (все 12 + 24 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Bist du nach Freiberg gefahren?; перенос — Wir sind aus der Ukraine gekommen. и Ich bin nach Dresden gefahren.",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    174,
+    175,
+    176
+   ],
+   "phrases_ids": [
+    "ch10_007",
+    "ch10_008",
+    "ch10_009"
+   ],
+   "note": "к курсу: стр. 174 — Willkommenszentrum, стр. 175 — что важно в новой стране, стр. 176 — короткий рассказ «как я сюда приехал»; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch10_007",
+    "picture": "стойка для новичков: таблички «жильё», «семья», «работа»; рядом повар в колпаке",
+    "words": [
+     {
+      "de": "die Wohnung",
+      "ru": "квартира"
+     },
+     {
+      "de": "die Familie",
+      "ru": "семья"
+     },
+     {
+      "de": "die Arbeit",
+      "ru": "работа"
+     },
+     {
+      "de": "die Ausbildung",
+      "ru": "обучение профессии"
+     },
+     {
+      "de": "der Koch",
+      "ru": "повар"
+     },
+     {
+      "de": "die Köchin",
+      "ru": "повариха"
+     }
+    ],
+    "note": "эти слова есть на стр. 174; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch10_L1_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch10_007",
+     "prompt": "Слова курса. Послушай. Что значит «Ausbildung»?",
+     "answer": "обучение профессии",
+     "distractors": [
+      "квартира",
+      "предложение"
+     ],
+     "src": "Linie 1, стр. 174"
+    },
+    {
+     "id": "ch10_L1_kurs_2",
+     "skill": "listen",
+     "phraseId": "ch10_008",
+     "prompt": "Слова курса. Послушай. Что значит «Monatskarte»?",
+     "answer": "проездной на месяц",
+     "distractors": [
+      "водительские права",
+      "курс немецкого"
+     ],
+     "src": "Linie 1, стр. 175"
+    },
+    {
+     "id": "ch10_L1_kurs_3",
+     "skill": "listen",
+     "phraseId": "ch10_009",
+     "prompt": "Слова курса. Послушай. Что значит «Konto»?",
+     "answer": "счёт",
+     "distractors": [
+      "деньги",
+      "бумаги"
+     ],
+     "src": "Linie 1, стр. 175"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Ратуша: стройка началась — стойка для новичков у входа",
+   "npc": "Ahmad — одногруппник (на «ты»)"
+  },
+  "covers": [
+   "L1-10-S1",
+   "L1-10-S2",
+   "L1-10-S3",
+   "L1-10-G1",
+   "B13.6"
+  ],
+  "covers_partial": [
+   "L1-10-AUSSPR"
+  ],
+  "covers_note": {
+   "L1-10-S1": "Endlich da!: Willkommenszentrum (Wohnen, Familie, Arbeit) — «Слова курса» с заданием; сама сцена — кто откуда приехал",
+   "L1-10-S2": "Neu in einem Land: Mobilität, Deutschkurs, Alltag, Konto, Dokumente — две цепочки «к курсу» с заданиями",
+   "L1-10-S3": "So bin ich hierher gekommen: bin gekommen, sind gefahren, habe gewohnt — сцена, части 3–6",
+   "L1-10-G1": "Perfekt mit sein: помощник bin / bist / sind / seid при перемещении — часть 5",
+   "B13.6": "habe или bin: сам переместился — bin (gekommen, gefahren), перемещения нет — habe (gewohnt) — часть 5 (second), задания «почему»",
+   "L1-10-AUSSPR": "частично: звук h (часть 7); ударение в формах на -iert и с be-, er-, ver- — в ch10_L5"
+  },
+  "goal": "После урока сможешь: сказать, откуда ты приехал и где жил, спросить об этом другого и понять ответ.",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Перемена на курсе. К вам с Ольгой подсел Ахмад и расспрашивает, кто откуда приехал.",
+      "Цель: сказать, откуда ты приехал и где жил, и спросить другого."
+     ],
+     "voice_ru": "В учебнике глава 10 начинается в Willkommenszentrum — центре для новоприбывших. У нас проще: перемена на курсе, и Ахмад хочет знать, кто откуда приехал. Сегодня ты впервые расскажешь о прошлом: откуда приехал и где жил.",
+     "hook": "Загадка урока: по-русски «я приехал» — одно слово. Почему немцу нужно два — и почему bin, а не habe?",
+     "anime_motif": "исекай: в гильдии новичка первым делом спрашивают, из каких он земель (без цитат)",
+     "npc": "Ahmad — одногруппник",
+     "more": "Ахмад спросит, откуда ты приехал и где жил. Потом — куда вы с Ольгой поехали.",
+     "goal": "После урока сможешь: сказать, откуда ты приехал и где жил, спросить об этом другого и понять ответ."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch10_010",
+      "ch10_011",
+      "ch10_012"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Тебя спросили, откуда ты. Что ответишь?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch01_037",
+      "ch01_038",
+      "ch01_047"
+     ],
+     "type": "retrieval: вопрос, не перечитывание",
+     "note": "фразы главы 1 (ch01_037, ch01_038, ch01_047) — те же, в главе 10 под своими id: из рамок komme и wohne сегодня вырастет прошлое"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch10_001",
+      "ch10_002",
+      "ch10_003",
+      "ch10_004",
+      "ch10_005"
+     ],
+     "words": [
+      "Woher bist du gekommen? · Ich bin aus der Ukraine gekommen.",
+      "Wir sind nach Freiberg gefahren.",
+      "Seid ihr nach Dresden gefahren?",
+      "Ich habe in Kiew gewohnt."
+     ],
+     "words_ru": {
+      "Woher bist du gekommen? · Ich bin aus der Ukraine gekommen.": "Откуда ты приехал? · Я приехал из Украины.",
+      "Wir sind nach Freiberg gefahren.": "Мы поехали во Фрайберг.",
+      "Seid ihr nach Dresden gefahren?": "Вы поехали в Дрезден? — seid говорят двоим и больше, с кем ты на «ты»",
+      "Ich habe in Kiew gewohnt.": "Я жил в Киеве."
+     },
+     "trap": "nach Freiberg — «во Фрайберг»: куда поехали. in Freiberg — «во Фрайберге»: где находишься. По-русски разницу делает окончание, по-немецки — маленькое слово впереди.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch10_L1_words_1",
+      "ch10_L1_words_2",
+      "ch10_L1_words_3",
+      "ch10_L1_words_4",
+      "ch10_L1_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch10_d1",
+     "line_ids": [
+      "ch10_d1_01",
+      "ch10_d1_02",
+      "ch10_d1_03",
+      "ch10_d1_04",
+      "ch10_d1_05",
+      "ch10_d1_06",
+      "ch10_d1_07"
+     ],
+     "halves": [
+      [
+       "ch10_d1_01",
+       "ch10_d1_02",
+       "ch10_d1_03"
+      ],
+      [
+       "ch10_d1_04",
+       "ch10_d1_05",
+       "ch10_d1_06",
+       "ch10_d1_07"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "Интеграционный курс в Германии — это 600 уроков языка и 100 уроков Orientierungskurs: о законах, истории и жизни в стране (Integrationskursverordnung, § 11 и § 12).",
+     "task_ids": [
+      "ch10_L1_listen_1",
+      "ch10_L1_listen_2",
+      "ch10_L1_listen_3",
+      "ch10_L1_listen_4",
+      "ch10_L1_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch10_001",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "Прошлое по-немецки — два слова. Помощник bin стоит в вагоне №2. А gekommen, «приехал», уезжает в самый конец.",
+     "screen": [
+      "Ich · bin · aus der Ukraine · gekommen. — помощник в вагоне №2, «приехал» — в конце",
+      "Ich · habe · in Kiew · gewohnt. — тот же поезд, помощник другой"
+     ],
+     "answer_hook": "Ответ на загадку: слов два, потому что помощник сразу говорит «это уже было», а что именно было — немец слышит в конце. bin — потому что человек сам переместился.",
+     "kurs_term": "На курсе это называют Perfekt mit sein: прошлое с помощником bin, bist, ist, sind, seid.",
+     "second": {
+      "why_id": "ch10_005",
+      "voice_ru": "Помощников два. Человек сам переместился — помощник bin: bin gekommen. Перемещения нет — обычно habe: habe gewohnt."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch10_L1_why_1",
+      "ch10_L1_why_2",
+      "ch10_L1_why_3",
+      "ch10_L1_why_4",
+      "ch10_L1_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch10_006",
+     "pieces": [
+      "gefahren?",
+      "du",
+      "Bist",
+      "nach Freiberg"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch10_002",
+      "ch10_003"
+     ],
+     "prompt": "Собери сам из знакомых кусков: вчера Ахмада не было на курсе. Спроси его: «Ты поехал во Фрайберг?» Это вопрос «да/нет» — вспомни, где в нём стоит помощник и куда уезжает «поехал».",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch10_006",
+     "transfer_task_ids": [
+      "ch10_L1_transfer_1"
+     ],
+     "task_ids": [
+      "ch10_L1_write_1",
+      "ch10_L1_write_2",
+      "ch10_L1_write_3",
+      "ch10_L1_write_4",
+      "ch10_L1_write_5",
+      "ch10_L1_read_1",
+      "ch10_L1_read_2",
+      "ch10_L1_read_3",
+      "ch10_L1_read_4",
+      "ch10_L1_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "habe",
+     "ipa_sym": "h",
+     "tip_ru": "Буква h в начале слова — лёгкий выдох, будто дышишь на стекло: habe, hier, Hallo. После гласной h не звучит, а только тянет её: gewohnt, gefahren.",
+     "bridge_ru": "Русское «х» шумное: язык поднят к нёбу. Немецкое h тише: язык лежит, это просто выдох. Скажи «ха» шёпотом — получится оно.",
+     "phrase_id": "ch10_005",
+     "game": "«Скажи это»",
+     "kurs_term": "В учебнике эта рубрика — Aussprache: der Konsonant h.",
+     "pairs": [
+      {
+       "de": "habe",
+       "ru": "ха:бэ — h звучит: выдох"
+      },
+      {
+       "de": "hier",
+       "ru": "хи:а — h звучит: выдох"
+      },
+      {
+       "de": "gewohnt",
+       "ru": "гэво:нт — h не звучит, тянет «о»"
+      },
+      {
+       "de": "gefahren",
+       "ru": "гэфа:рэн — h не звучит, тянет «а»"
+      }
+     ],
+     "speak_task_ids": [
+      "ch10_L1_speak_1",
+      "ch10_L1_speak_2",
+      "ch10_L1_speak_3",
+      "ch10_L1_speak_4",
+      "ch10_L1_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Перемена на курсе",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Ahmad (на «ты»)",
+     "turns": [
+      {
+       "prompt_id": "ch10_d1_01",
+       "prompt_de": "Woher bist du gekommen?",
+       "prompt_audio": "audio_v1/ch10_d1_01.mp3",
+       "expected_id": "ch10_d1_02",
+       "expected_de": "Ich bin aus der Ukraine gekommen. Und du?",
+       "accept": [
+        {
+         "id": "ch10_001",
+         "de": "Ich bin aus der Ukraine gekommen."
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch10_d1_04",
+       "prompt_de": "Wo hast du gewohnt?",
+       "prompt_audio": "audio_v1/ch10_d1_04.mp3",
+       "expected_id": "ch10_d1_05",
+       "expected_de": "Ich habe in Kiew gewohnt.",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch10_d1_06",
+       "prompt_de": "Seid ihr nach Dresden gefahren?",
+       "prompt_audio": "audio_v1/ch10_d1_06.mp3",
+       "expected_id": "ch10_d1_07",
+       "expected_de": "Nein, wir sind nach Freiberg gefahren.",
+       "accept": [
+        {
+         "id": "ch10_003",
+         "de": "Wir sind nach Freiberg gefahren."
+        }
+       ],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Отвечай, как в сцене: откуда приехал, где жил, куда поехали. ИИ примет ответ и с «Und du?», и без него.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch10_d1_06",
+     "task_ru": "Новичок услышал от Ахмада «Seid ihr nach Dresden gefahren?» и не понял слово seid. Объясни ему по-русски, о чём спросил Ахмад.",
+     "expected_ru": "Вы поехали в Дрезден?",
+     "hint_ru": "seid — помощник для ihr, «вы» про двоих; gefahren — «поехали»; nach Dresden — «в Дрезден»",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch10_L1_dict_1",
+      "ch10_L1_dict_2",
+      "ch10_L1_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "В gekommen — две m. В gewohnt и gefahren после гласной пишется h, хотя её не слышно. Kiew и Freiberg — названия, с большой буквы."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch10_L1_transfer_2",
+      "ch10_L1_transfer_3",
+      "ch10_L1_transfer_4",
+      "ch10_L1_transfer_5",
+      "ch10_L1_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "У ратуши появилась стойка для новичков: ты рассказал, откуда приехал и где жил.",
+      "Совет на завтра: по дороге на курс скажи вслух Ich bin nach … gefahren — и назови, куда едешь."
+     ],
+     "npc_phrase_id": "ch10_d1_03",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: прошлое — два слова: помощник в вагоне №2, форма «уже сделано» в конце · сам переместился — bin gekommen, bin gefahren · перемещения нет — habe gewohnt · nach Freiberg — куда, in Freiberg — где. К курсу: стр. 174 — Willkommenszentrum (Wohnen, Familie, Arbeit); стр. 175 — Neu in einem Land: was ist wichtig (Mobilität, Deutsch lernen, Alltag); стр. 176 — Kurzporträt: neu in Deutschland. Haben oder sein? — bin gekommen, habe gewohnt.",
+     "next_hook": "Дальше: Ахмад спросит, что ты уже делал на работе, — и в конце фразы появятся gearbeitet и gemacht. Откуда у них ge- и -t — в следующем уроке.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       174,
+       175,
+       176
+      ],
+      "phrases_ids": [
+       "ch10_007",
+       "ch10_008",
+       "ch10_009"
+      ],
+      "note": "к курсу: стр. 174 — Willkommenszentrum, стр. 175 — что важно в новой стране, стр. 176 — короткий рассказ «как я сюда приехал»; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch10_007",
+       "picture": "стойка для новичков: таблички «жильё», «семья», «работа»; рядом повар в колпаке",
+       "words": [
+        {
+         "de": "die Wohnung",
+         "ru": "квартира"
+        },
+        {
+         "de": "die Familie",
+         "ru": "семья"
+        },
+        {
+         "de": "die Arbeit",
+         "ru": "работа"
+        },
+        {
+         "de": "die Ausbildung",
+         "ru": "обучение профессии"
+        },
+        {
+         "de": "der Koch",
+         "ru": "повар"
+        },
+        {
+         "de": "die Köchin",
+         "ru": "повариха"
+        }
+       ],
+       "note": "эти слова есть на стр. 174; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch10_L1_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch10_007",
+        "prompt": "Слова курса. Послушай. Что значит «Ausbildung»?",
+        "answer": "обучение профессии",
+        "distractors": [
+         "квартира",
+         "предложение"
+        ],
+        "src": "Linie 1, стр. 174"
+       },
+       {
+        "id": "ch10_L1_kurs_2",
+        "skill": "listen",
+        "phraseId": "ch10_008",
+        "prompt": "Слова курса. Послушай. Что значит «Monatskarte»?",
+        "answer": "проездной на месяц",
+        "distractors": [
+         "водительские права",
+         "курс немецкого"
+        ],
+        "src": "Linie 1, стр. 175"
+       },
+       {
+        "id": "ch10_L1_kurs_3",
+        "skill": "listen",
+        "phraseId": "ch10_009",
+        "prompt": "Слова курса. Послушай. Что значит «Konto»?",
+        "answer": "счёт",
+        "distractors": [
+         "деньги",
+         "бумаги"
+        ],
+        "src": "Linie 1, стр. 175"
+       }
+      ]
+     },
+     "kurs_pages": [
+      174,
+      175,
+      176
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch10.py",
+  "new_words": [
+   "Woher bist du gekommen?",
+   "Ich bin aus der Ukraine gekommen.",
+   "Wir sind nach Freiberg gefahren.",
+   "Seid ihr …?",
+   "Ich habe in Kiew gewohnt."
+  ],
+  "known_before": [
+   "Woher kommst du?",
+   "Ich komme aus …",
+   "Wo wohnst du?",
+   "ich bin",
+   "ich habe",
+   "Und du?"
+  ],
+  "transfer_phrase_ids": [
+   "ch10_t01",
+   "ch10_t02"
+  ],
+  "built_phrase_ids": [
+   "ch10_006"
+  ],
+  "quiz_ids": [
+   "ch10_L1_words_1",
+   "ch10_L1_words_2",
+   "ch10_L1_words_3",
+   "ch10_L1_words_4",
+   "ch10_L1_words_5",
+   "ch10_L1_listen_1",
+   "ch10_L1_listen_2",
+   "ch10_L1_listen_3",
+   "ch10_L1_listen_4",
+   "ch10_L1_listen_5",
+   "ch10_L1_read_1",
+   "ch10_L1_read_2",
+   "ch10_L1_read_3",
+   "ch10_L1_read_4",
+   "ch10_L1_read_5",
+   "ch10_L1_speak_1",
+   "ch10_L1_speak_2",
+   "ch10_L1_speak_3",
+   "ch10_L1_speak_4",
+   "ch10_L1_speak_5",
+   "ch10_L1_write_1",
+   "ch10_L1_write_2",
+   "ch10_L1_write_3",
+   "ch10_L1_write_4",
+   "ch10_L1_write_5",
+   "ch10_L1_why_1",
+   "ch10_L1_why_2",
+   "ch10_L1_why_3",
+   "ch10_L1_why_4",
+   "ch10_L1_why_5",
+   "ch10_L1_transfer_1",
+   "ch10_L1_transfer_2",
+   "ch10_L1_transfer_3",
+   "ch10_L1_transfer_4",
+   "ch10_L1_transfer_5",
+   "ch10_L1_boss_1"
+  ],
+  "dictation_ids": [
+   "ch10_L1_dict_1",
+   "ch10_L1_dict_2",
+   "ch10_L1_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Перемена на курсе. К вам с Ольгой подсел Ахмад и расспрашивает, кто откуда приехал. Цель: сказать, откуда ты приехал и где жил, и спросить другого. Загадка урока: по-русски «я приехал» — одно слово. Почему немцу нужно два — и почему bin, а не habe?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Перемена на курсе",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой на перемене (ИИ — Ахмад)",
+   "situation": "kurs_woher_gekommen",
+   "ai_plays": "Ahmad (на «ты»)",
+   "phrases": [
+    "ch10_d1_02",
+    "ch10_001",
+    "ch10_d1_05",
+    "ch10_d1_07",
+    "ch10_003"
+   ]
+  },
+  "outro": "У ратуши появилась стойка для новичков: ты рассказал, откуда приехал и где жил. Совет на завтра: по дороге на курс скажи вслух Ich bin nach … gefahren — и назови, куда едешь. Дальше: Ахмад спросит, что ты уже делал на работе, — и в конце фразы появятся gearbeitet и gemacht. Откуда у них ge- и -t — в следующем уроке.",
+  "detail_de_life": "Интеграционный курс в Германии — это 600 уроков языка и 100 уроков Orientierungskurs: о законах, истории и жизни в стране (Integrationskursverordnung, § 11 и § 12).",
+  "task_ids": {
+   "words": [
+    "ch10_L1_words_1",
+    "ch10_L1_words_2",
+    "ch10_L1_words_3",
+    "ch10_L1_words_4",
+    "ch10_L1_words_5"
+   ],
+   "listen": [
+    "ch10_L1_listen_1",
+    "ch10_L1_listen_2",
+    "ch10_L1_listen_3",
+    "ch10_L1_listen_4",
+    "ch10_L1_listen_5"
+   ],
+   "read": [
+    "ch10_L1_read_1",
+    "ch10_L1_read_2",
+    "ch10_L1_read_3",
+    "ch10_L1_read_4",
+    "ch10_L1_read_5"
+   ],
+   "speak": [
+    "ch10_L1_speak_1",
+    "ch10_L1_speak_2",
+    "ch10_L1_speak_3",
+    "ch10_L1_speak_4",
+    "ch10_L1_speak_5"
+   ],
+   "write": [
+    "ch10_L1_write_1",
+    "ch10_L1_write_2",
+    "ch10_L1_write_3",
+    "ch10_L1_write_4",
+    "ch10_L1_write_5"
+   ],
+   "why": [
+    "ch10_L1_why_1",
+    "ch10_L1_why_2",
+    "ch10_L1_why_3",
+    "ch10_L1_why_4",
+    "ch10_L1_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch10_L1_transfer_1",
+   "ch10_L1_transfer_2",
+   "ch10_L1_transfer_3",
+   "ch10_L1_transfer_4",
+   "ch10_L1_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch10_010",
+   "ch10_011",
+   "ch10_012"
+  ],
+  "dialog_ids": [
+   "ch10_d1"
+  ],
+  "video": "video/ch10_L1.mp4"
+ },
+ {
+  "id": "ch10_L2",
+  "title": "Was hast du gemacht? Что ты уже делал",
+  "pages_linie1": {
+   "pages": [
+    177
+   ],
+   "sections": [
+    "4 Arbeitserfahrungen"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch10_013",
+   "ch10_014",
+   "ch10_016",
+   "ch10_017",
+   "ch10_019",
+   "ch10_021",
+   "ch10_022"
+  ],
+  "why_ids": [
+   "ch10_013",
+   "ch10_021"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch10_d2",
+    "line_ids": [
+     "ch10_d2_01",
+     "ch10_d2_02",
+     "ch10_d2_03",
+     "ch10_d2_04",
+     "ch10_d2_05",
+     "ch10_d2_06",
+     "ch10_d2_07"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Тебя спросили, откуда ты приехал. Что ответишь?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch10_d2",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch10_d2_01",
+        "ch10_d2_02",
+        "ch10_d2_03",
+        "ch10_d2_04"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch10_d2",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Ударение в ge-словах: послушай gemacht, gelernt, gearbeitet, getrunken и повтори",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch10_013",
+        "ch10_019",
+        "ch10_021",
+        "ch10_022"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Ударение в ge-словах: послушай gemacht, gelernt, gearbeitet, getrunken и повтори — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "«работал» — одно слово ↔ habe … gearbeitet — два; рамка та же, что bin … gekommen из урока 1; терминов нет, слово курса — одной строкой",
+   "как слышу, так и пишу": "ge- в начале не ударный и почти не слышен, а пишется всегда; gearbeitet — после arbeit- пишется -et",
+   "учебник непонятен": "из Linie 1 — только тема и страница 177; подача своя",
+   "село, живой немецкий — Netto": "кофе и пирог — как в пекарне; работа в Киеве — как в анкете",
+   "любит аниме": "завязка — гильдия просит опыт работы",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин, лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Hast du schon gearbeitet?; перенос — Hast du schon Kuchen gegessen? и Ich habe in Dresden gearbeitet.",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    177
+   ],
+   "phrases_ids": [
+    "ch10_024"
+   ],
+   "note": "к курсу: на стр. 177 — люди рассказывают, где они уже работали; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch10_024",
+    "picture": "фото-коллаж: воспитательница с детьми, аэропорт, редакция газеты",
+    "words": [
+     {
+      "de": "die Erzieherin",
+      "ru": "воспитательница"
+     },
+     {
+      "de": "der Flughafen",
+      "ru": "аэропорт"
+     },
+     {
+      "de": "die Musik",
+      "ru": "музыка"
+     },
+     {
+      "de": "die Zeitung",
+      "ru": "газета"
+     },
+     {
+      "de": "die Sprachschule",
+      "ru": "языковая школа"
+     },
+     {
+      "de": "das Auto",
+      "ru": "машина"
+     }
+    ],
+    "note": "эти слова есть на стр. 177; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch10_L2_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch10_024",
+     "prompt": "Слова курса. Послушай. Что значит «Flughafen»?",
+     "answer": "аэропорт",
+     "distractors": [
+      "почта",
+      "газета"
+     ],
+     "src": "Linie 1, стр. 177"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Ратуша: на стойке для новичков появилась папка «Опыт работы»",
+   "npc": "Sofia — одногруппница (на «ты»)"
+  },
+  "covers": [
+   "L1-10-S4",
+   "L1-10-G4",
+   "B13.4",
+   "B08.5"
+  ],
+  "covers_partial": [
+   "B10.5"
+  ],
+  "covers_note": {
+   "L1-10-S4": "Arbeitserfahrungen: Was hast du gemacht? Ich habe in Kiew gearbeitet; Hast du schon …? Ich habe noch nicht … — сцена, части 3–6; слова стр. 177 — «к курсу» с заданием",
+   "L1-10-G4": "Partizip II: ge- + основа + -t (gemacht, gelernt, gearbeitet) и формы на -en (getrunken, gegessen) — часть 5",
+   "B13.4": "формы на -en не выводятся из основы — учим во фразах: getrunken, gegessen, gekommen, gefahren — часть 5 (second) и задания",
+   "B08.5": "schon — «уже», noch nicht — «ещё не»: проверить, было ли это раньше — часть 3 и сцена",
+   "B10.5": "частично: nicht стоит перед последним вагоном (noch nicht gearbeitet); nicht в других фразах — ch10_L5"
+  },
+  "goal": "После урока сможешь: сказать, что ты уже делал (работал, учил, пил, ел), спросить об этом другого и ответить «ещё нет».",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Перемена на курсе. Софья расспрашивает тебя: что ты делал раньше?",
+      "Цель: рассказать, что ты уже делал, и спросить Софью, делала ли она это."
+     ],
+     "voice_ru": "В прошлом уроке ты рассказал, откуда приехал. Теперь про дела: что ты уже делал. Софья спросит про работу в Киеве, а ты спросишь её про кофе. Помощник и слово «уже сделано» останутся прежними, поменяются слова между ними.",
+     "hook": "Загадка урока: как из machen получается gemacht, а из trinken — getrunken? Есть ли тут правило?",
+     "anime_motif": "исекай: гильдия просит «опыт работы» до первого задания (без цитат)",
+     "npc": "Sofia — одногруппница",
+     "more": "Софья спросит про Киев и про немецкий. Потом вы поговорите про кофе и пирог.",
+     "goal": "После урока сможешь: сказать, что ты уже делал (работал, учил, пил, ел), спросить об этом другого и ответить «ещё нет»."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch10_002",
+      "ch10_005",
+      "ch10_003"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Тебя спросили, откуда ты приехал. Что ответишь?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch10_002",
+      "ch10_005",
+      "ch10_003"
+     ],
+     "type": "retrieval: вопрос, не перечитывание",
+     "note": "фразы урока 1: помощник в вагоне №2, слово «уже сделано» в конце — на этой рамке стоит весь урок"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch10_013",
+      "ch10_014",
+      "ch10_016",
+      "ch10_017",
+      "ch10_019",
+      "ch10_021",
+      "ch10_022"
+     ],
+     "words": [
+      "Was hast du gemacht? · Ich habe gearbeitet.",
+      "Ich habe Deutsch gelernt.",
+      "Hast du schon gearbeitet?",
+      "Nein, ich habe noch nicht gearbeitet.",
+      "Ich habe Kaffee getrunken. · Ich habe Kuchen gegessen."
+     ],
+     "words_ru": {
+      "Was hast du gemacht? · Ich habe gearbeitet.": "Что ты делал? · Я работал.",
+      "Ich habe Deutsch gelernt.": "Я учил немецкий.",
+      "Hast du schon gearbeitet?": "Ты уже работал? — schon значит «уже»",
+      "Nein, ich habe noch nicht gearbeitet.": "Нет, я ещё не работал. — noch nicht значит «ещё не»",
+      "Ich habe Kaffee getrunken. · Ich habe Kuchen gegessen.": "Я пил кофе. · Я ел пирог."
+     },
+     "trap": "По-русски «я работал» — одно слово. По-немецки всегда два: habe и gearbeitet. Одно gearbeitet без habe — это не фраза.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch10_L2_words_1",
+      "ch10_L2_words_2",
+      "ch10_L2_words_3",
+      "ch10_L2_words_4",
+      "ch10_L2_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch10_d2",
+     "line_ids": [
+      "ch10_d2_01",
+      "ch10_d2_02",
+      "ch10_d2_03",
+      "ch10_d2_04",
+      "ch10_d2_05",
+      "ch10_d2_06",
+      "ch10_d2_07"
+     ],
+     "halves": [
+      [
+       "ch10_d2_01",
+       "ch10_d2_02",
+       "ch10_d2_03",
+       "ch10_d2_04"
+      ],
+      [
+       "ch10_d2_05",
+       "ch10_d2_06",
+       "ch10_d2_07"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "Lebenslauf — письменный рассказ о том, где человек учился и работал (Duden).",
+     "task_ids": [
+      "ch10_L2_listen_1",
+      "ch10_L2_listen_2",
+      "ch10_L2_listen_3",
+      "ch10_L2_listen_4",
+      "ch10_L2_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch10_013",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "Слово «уже сделано» строится просто: ge- впереди и -t в конце. Machen — gemacht, lernen — gelernt. Часть слов кончается на -en: getrunken, gegessen.",
+     "screen": [
+      "machen → ge·mach·t = gemacht · lernen → ge·lern·t = gelernt",
+      "trinken → getrunken · essen → gegessen — на -en, учим во фразах"
+     ],
+     "answer_hook": "Ответ на загадку: у большинства слов правило простое — ge- и -t. Но часть слов кончается на -en, и угадать их нельзя: их учат вместе с фразой.",
+     "kurs_term": "На курсе это называют Partizip II.",
+     "second": {
+      "why_id": "ch10_021",
+      "voice_ru": "Слова на -en не выводятся: trinken — getrunken, essen — gegessen. Учим их во фразах: ich habe Kaffee getrunken, ich habe Kuchen gegessen."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch10_L2_why_1",
+      "ch10_L2_why_2",
+      "ch10_L2_why_3",
+      "ch10_L2_why_4",
+      "ch10_L2_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch10_017",
+     "pieces": [
+      "gearbeitet?",
+      "du",
+      "Hast",
+      "schon"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch10_d2_03",
+      "ch10_d2_02"
+     ],
+     "prompt": "Собери сам из знакомых кусков: Софья говорит, что в Киеве не работала. Спроси её: «Ты уже работала?» Это вопрос «да/нет» — вспомни, где в нём стоит помощник и куда уезжает gearbeitet.",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch10_017",
+     "transfer_task_ids": [
+      "ch10_L2_transfer_1"
+     ],
+     "task_ids": [
+      "ch10_L2_write_1",
+      "ch10_L2_write_2",
+      "ch10_L2_write_3",
+      "ch10_L2_write_4",
+      "ch10_L2_write_5",
+      "ch10_L2_read_1",
+      "ch10_L2_read_2",
+      "ch10_L2_read_3",
+      "ch10_L2_read_4",
+      "ch10_L2_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "gemacht",
+     "ipa_sym": "x",
+     "tip_ru": "В словах «уже сделано» ударение не на ge-: geMACHT, geARbeitet, geLERNT. А ch после a звучит твёрдо, как русское «х»: gemacht.",
+     "bridge_ru": "По-русски ударение часто падает на приставку. По-немецки ge- — слабый слог, он почти проглатывается: «гэмахт», а не «ГЭмахт».",
+     "phrase_id": "ch10_013",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "gemacht",
+       "ru": "гэмахт — ударение на махт, ch как «х»"
+      },
+      {
+       "de": "gelernt",
+       "ru": "гэлэрнт — ударение на лэрнт"
+      },
+      {
+       "de": "gearbeitet",
+       "ru": "гэарбайтэт — ударение на ар"
+      },
+      {
+       "de": "getrunken",
+       "ru": "гэтрункэн — ударение на трун"
+      }
+     ],
+     "speak_task_ids": [
+      "ch10_L2_speak_1",
+      "ch10_L2_speak_2",
+      "ch10_L2_speak_3",
+      "ch10_L2_speak_4",
+      "ch10_L2_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Перемена на курсе",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Sofia (на «ты»)",
+     "turns": [
+      {
+       "prompt_id": "ch10_d2_01",
+       "prompt_de": "Was hast du in Kiew gemacht?",
+       "prompt_audio": "audio_v1/ch10_d2_01.mp3",
+       "expected_id": "ch10_d2_02",
+       "expected_de": "Ich habe in Kiew gearbeitet.",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch10_d2_03",
+       "prompt_de": "Hast du schon Deutsch gelernt?",
+       "prompt_audio": "audio_v1/ch10_d2_03.mp3",
+       "expected_id": "ch10_d2_04",
+       "expected_de": "Ja, ich habe schon Deutsch gelernt. Und du, hast du schon gearbeitet?",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch10_d2_05",
+       "prompt_de": "Nein, ich habe noch nicht gearbeitet.",
+       "prompt_audio": "audio_v1/ch10_d2_05.mp3",
+       "expected_id": "ch10_d2_06",
+       "expected_de": "Hast du schon Kaffee getrunken?",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Отвечай, как было у тебя: где работал, учил ли немецкий. ИИ примет ответ «да» и «ещё нет».",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch10_d2_05",
+     "task_ru": "Новичок услышал от Софьи «Nein, ich habe noch nicht gearbeitet» и не понял, что значит noch nicht. Объясни ему по-русски.",
+     "expected_ru": "Нет, я ещё не работала.",
+     "hint_ru": "noch nicht — «ещё не»; gearbeitet — «работала»; ich habe — «я»",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch10_L2_dict_1",
+      "ch10_L2_dict_2",
+      "ch10_L2_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "gearbeitet — после arbeit-: -et. Kaffee — две f и две e. Deutsch, Kaffee, Kiew — слова-названия, с большой буквы. noch nicht — два слова."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch10_L2_transfer_2",
+      "ch10_L2_transfer_3",
+      "ch10_L2_transfer_4",
+      "ch10_L2_transfer_5",
+      "ch10_L2_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "В папке «Опыт работы» появилась первая запись: ты рассказал, что делал в Киеве.",
+      "Совет на завтра: перед ужином скажи вслух, что ты сегодня уже делал: Ich habe … gearbeitet / gelernt."
+     ],
+     "npc_phrase_id": "ch10_d2_02",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: прошлое — помощник в вагоне №2, слово «уже сделано» в конце · machen → gemacht (ge- и -t) · trinken → getrunken, essen → gegessen (на -en, учим во фразах) · schon — «уже» · noch nicht — «ещё не», nicht перед последним вагоном. К курсу: стр. 177 — Arbeitserfahrungen.",
+     "next_hook": "Дальше: в Personalbüro тебя попросят заполнить анкету — и появятся формы с приставками: ausgefüllt, angemeldet. Где у них ge- — в следующем уроке.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       177
+      ],
+      "phrases_ids": [
+       "ch10_024"
+      ],
+      "note": "к курсу: на стр. 177 — люди рассказывают, где они уже работали; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch10_024",
+       "picture": "фото-коллаж: воспитательница с детьми, аэропорт, редакция газеты",
+       "words": [
+        {
+         "de": "die Erzieherin",
+         "ru": "воспитательница"
+        },
+        {
+         "de": "der Flughafen",
+         "ru": "аэропорт"
+        },
+        {
+         "de": "die Musik",
+         "ru": "музыка"
+        },
+        {
+         "de": "die Zeitung",
+         "ru": "газета"
+        },
+        {
+         "de": "die Sprachschule",
+         "ru": "языковая школа"
+        },
+        {
+         "de": "das Auto",
+         "ru": "машина"
+        }
+       ],
+       "note": "эти слова есть на стр. 177; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch10_L2_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch10_024",
+        "prompt": "Слова курса. Послушай. Что значит «Flughafen»?",
+        "answer": "аэропорт",
+        "distractors": [
+         "почта",
+         "газета"
+        ],
+        "src": "Linie 1, стр. 177"
+       }
+      ]
+     },
+     "kurs_pages": [
+      177
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch10.py",
+  "new_words": [
+   "Was hast du gemacht?",
+   "Ich habe gearbeitet.",
+   "Ich habe Deutsch gelernt.",
+   "Hast du schon …?",
+   "Ich habe noch nicht …",
+   "Ich habe Kaffee getrunken.",
+   "Ich habe Kuchen gegessen."
+  ],
+  "known_before": [
+   "Woher bist du gekommen?",
+   "Ich bin … gekommen.",
+   "Ich habe in Kiew gewohnt.",
+   "Hast du …?",
+   "Ja, ich habe …",
+   "in Kiew"
+  ],
+  "transfer_phrase_ids": [
+   "ch10_t03",
+   "ch10_t04"
+  ],
+  "built_phrase_ids": [
+   "ch10_017"
+  ],
+  "quiz_ids": [
+   "ch10_L2_words_1",
+   "ch10_L2_words_2",
+   "ch10_L2_words_3",
+   "ch10_L2_words_4",
+   "ch10_L2_words_5",
+   "ch10_L2_listen_1",
+   "ch10_L2_listen_2",
+   "ch10_L2_listen_3",
+   "ch10_L2_listen_4",
+   "ch10_L2_listen_5",
+   "ch10_L2_read_1",
+   "ch10_L2_read_2",
+   "ch10_L2_read_3",
+   "ch10_L2_read_4",
+   "ch10_L2_read_5",
+   "ch10_L2_speak_1",
+   "ch10_L2_speak_2",
+   "ch10_L2_speak_3",
+   "ch10_L2_speak_4",
+   "ch10_L2_speak_5",
+   "ch10_L2_write_1",
+   "ch10_L2_write_2",
+   "ch10_L2_write_3",
+   "ch10_L2_write_4",
+   "ch10_L2_write_5",
+   "ch10_L2_why_1",
+   "ch10_L2_why_2",
+   "ch10_L2_why_3",
+   "ch10_L2_why_4",
+   "ch10_L2_why_5",
+   "ch10_L2_transfer_1",
+   "ch10_L2_transfer_2",
+   "ch10_L2_transfer_3",
+   "ch10_L2_transfer_4",
+   "ch10_L2_transfer_5",
+   "ch10_L2_boss_1"
+  ],
+  "dictation_ids": [
+   "ch10_L2_dict_1",
+   "ch10_L2_dict_2",
+   "ch10_L2_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Перемена на курсе. Софья расспрашивает тебя: что ты делал раньше? Цель: рассказать, что ты уже делал, и спросить Софью, делала ли она это. Загадка урока: как из machen получается gemacht, а из trinken — getrunken? Есть ли тут правило?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Перемена на курсе",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой на перемене (ИИ — Софья)",
+   "situation": "kurs_was_gemacht",
+   "ai_plays": "Sofia (на «ты»)",
+   "phrases": [
+    "ch10_d2_02",
+    "ch10_d2_04",
+    "ch10_d2_06"
+   ]
+  },
+  "outro": "В папке «Опыт работы» появилась первая запись: ты рассказал, что делал в Киеве. Совет на завтра: перед ужином скажи вслух, что ты сегодня уже делал: Ich habe … gearbeitet / gelernt. Дальше: в Personalbüro тебя попросят заполнить анкету — и появятся формы с приставками: ausgefüllt, angemeldet. Где у них ge- — в следующем уроке.",
+  "detail_de_life": "Lebenslauf — письменный рассказ о том, где человек учился и работал (Duden).",
+  "task_ids": {
+   "words": [
+    "ch10_L2_words_1",
+    "ch10_L2_words_2",
+    "ch10_L2_words_3",
+    "ch10_L2_words_4",
+    "ch10_L2_words_5"
+   ],
+   "listen": [
+    "ch10_L2_listen_1",
+    "ch10_L2_listen_2",
+    "ch10_L2_listen_3",
+    "ch10_L2_listen_4",
+    "ch10_L2_listen_5"
+   ],
+   "read": [
+    "ch10_L2_read_1",
+    "ch10_L2_read_2",
+    "ch10_L2_read_3",
+    "ch10_L2_read_4",
+    "ch10_L2_read_5"
+   ],
+   "speak": [
+    "ch10_L2_speak_1",
+    "ch10_L2_speak_2",
+    "ch10_L2_speak_3",
+    "ch10_L2_speak_4",
+    "ch10_L2_speak_5"
+   ],
+   "write": [
+    "ch10_L2_write_1",
+    "ch10_L2_write_2",
+    "ch10_L2_write_3",
+    "ch10_L2_write_4",
+    "ch10_L2_write_5"
+   ],
+   "why": [
+    "ch10_L2_why_1",
+    "ch10_L2_why_2",
+    "ch10_L2_why_3",
+    "ch10_L2_why_4",
+    "ch10_L2_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch10_L2_transfer_1",
+   "ch10_L2_transfer_2",
+   "ch10_L2_transfer_3",
+   "ch10_L2_transfer_4",
+   "ch10_L2_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch10_002",
+   "ch10_005",
+   "ch10_003"
+  ],
+  "dialog_ids": [
+   "ch10_d2"
+  ],
+  "video": "video/ch10_L2.mp4"
+ },
+ {
+  "id": "ch10_L3",
+  "title": "Formular ausgefüllt? Слово «уже сделано» с приставкой",
+  "pages_linie1": {
+   "pages": [
+    178,
+    180
+   ],
+   "sections": [
+    "5 Im Personalbüro",
+    "7 Die Anmeldung"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch10_025",
+   "ch10_027",
+   "ch10_028",
+   "ch10_029",
+   "ch10_030"
+  ],
+  "why_ids": [
+   "ch10_025",
+   "ch10_030"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch10_d3",
+    "line_ids": [
+     "ch10_d3_01",
+     "ch10_d3_02",
+     "ch10_d3_03",
+     "ch10_d3_04",
+     "ch10_d3_05",
+     "ch10_d3_06",
+     "ch10_d3_07",
+     "ch10_d3_08",
+     "ch10_d3_09"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Тебя спросили, что ты уже делал. Что ответишь?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch10_d3",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch10_d3_01",
+        "ch10_d3_02",
+        "ch10_d3_03",
+        "ch10_d3_04"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch10_d3",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Ударение на приставке: послушай ausgefüllt, angerufen, eingekauft, aufgestanden и повтори",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch10_025",
+        "ch10_027",
+        "ch10_028",
+        "ch10_030"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Ударение на приставке: послушай ausgefüllt, angerufen, eingekauft, aufgestanden и повтори — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "«заполнил» — одно слово ↔ habe … ausgefüllt — два; ge- прячется после приставки; терминов нет, слово курса — одной строкой",
+   "как слышу, так и пишу": "ge- в середине слова почти не слышно, а пишется (ausgefüllt, angerufen); ü с двумя точками",
+   "учебник непонятен": "из Linie 1 — только темы и страницы 178 и 180; подача своя",
+   "село, живой немецкий — Netto": "сцена — утро перед записью; Dresden и покупки — как поход за продуктами",
+   "любит аниме": "завязка — анкета новичка при регистрации в гильдии",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин, лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Hast du das Formular ausgefüllt?; перенос — Hast du Olga angerufen? и Ich habe in Dresden eingekauft.",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    178,
+    180
+   ],
+   "phrases_ids": [
+    "ch10_032",
+    "ch10_033",
+    "ch10_034",
+    "ch10_035"
+   ],
+   "note": "к курсу: стр. 178 — разговор в отделе кадров, стр. 180 — анкета при регистрации по месту жительства; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch10_032",
+    "picture": "стол в отделе кадров: договор, ручка, паспорт, календарь с отмеченной встречей",
+    "words": [
+     {
+      "de": "der Arbeitsvertrag",
+      "ru": "трудовой договор"
+     },
+     {
+      "de": "die Unterschrift",
+      "ru": "подпись"
+     },
+     {
+      "de": "der Ausweis",
+      "ru": "удостоверение"
+     },
+     {
+      "de": "der Pass",
+      "ru": "паспорт"
+     },
+     {
+      "de": "der Termin",
+      "ru": "встреча по записи"
+     },
+     {
+      "de": "das Team",
+      "ru": "команда"
+     }
+    ],
+    "note": "эти слова есть на стр. 178; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch10_L3_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch10_032",
+     "prompt": "Слова курса. Послушай. Что значит «Unterschrift»?",
+     "answer": "подпись",
+     "distractors": [
+      "удостоверение",
+      "трудовой договор"
+     ],
+     "src": "Linie 1, стр. 178"
+    },
+    {
+     "id": "ch10_L3_kurs_2",
+     "skill": "listen",
+     "phraseId": "ch10_033",
+     "prompt": "Слова курса. Послушай. Что значит «Urlaub»?",
+     "answer": "отпуск",
+     "distractors": [
+      "поездка",
+      "компьютер"
+     ],
+     "src": "Linie 1, стр. 178"
+    },
+    {
+     "id": "ch10_L3_kurs_3",
+     "skill": "listen",
+     "phraseId": "ch10_034",
+     "prompt": "Слова курса. Послушай. Что значит «Geburtsdatum»?",
+     "answer": "дата рождения",
+     "distractors": [
+      "почтовый индекс",
+      "номер дома"
+     ],
+     "src": "Linie 1, стр. 180"
+    },
+    {
+     "id": "ch10_L3_kurs_4",
+     "skill": "listen",
+     "phraseId": "ch10_035",
+     "prompt": "Слова курса. Послушай. Что значит «Staatsangehörigkeit»?",
+     "answer": "гражданство",
+     "distractors": [
+      "семейное положение",
+      "место рождения"
+     ],
+     "src": "Linie 1, стр. 180"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Ратуша: на стойке для новичков появился ящик с анкетами",
+   "npc": "Olga — одногруппница (на «ты»)"
+  },
+  "covers": [
+   "L1-10-S5",
+   "L1-10-S7",
+   "L1-10-G2",
+   "B13.5",
+   "L1-10-MEDIAT"
+  ],
+  "covers_partial": [],
+  "covers_note": {
+   "L1-10-S5": "Im Personalbüro: Arbeitsvertrag, Unterschrift, Ausweis, Termin, Urlaub, Arbeitszeiten — две цепочки «к курсу» с заданиями; Hast du das Formular ausgefüllt? — сцена",
+   "L1-10-S7": "Die Anmeldung: Familienname, Geburtsdatum, Straße, Postleitzahl, Geburtsort, Staatsangehörigkeit — две цепочки «к курсу» с заданиями",
+   "L1-10-G2": "Perfekt trennbarer Verben: ausgefüllt, angerufen, eingekauft, aufgestanden — приставка стоит первой, ge- после неё — часть 5",
+   "B13.5": "Приставки: куда попадает ge- — между приставкой и основой (aus·ge·füllt, an·ge·rufen) — часть 5 и задания «почему»",
+   "L1-10-MEDIAT": "Помочь заполнить анкету: слова полей и вопрос Hast du das Formular ausgefüllt? — часть 9 (объяснить новичку по-русски) и цепочки полей анкеты"
+  },
+  "goal": "После урока сможешь: сказать и спросить, что уже сделано с «отделяемой» приставкой (заполнил анкету, позвонил, встал), и узнать на слух слова анкеты.",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Утро перед записью. Ольга звонит и спрашивает, всё ли ты сделал.",
+      "Цель: сказать и спросить, что уже сделано, и узнать слова анкеты."
+     ],
+     "voice_ru": "Сегодня запись: нужно заполнить анкету. Ольга спрашивает, встал ли ты, заполнил ли анкету и позвонил ли Ахмаду. У этих слов есть приставка, и ge- прячется внутри. Где именно — узнаешь в части «Почему так».",
+     "hook": "Загадка урока: у ausgefüllt нет ge- в начале. Куда оно делось?",
+     "anime_motif": "исекай: перед регистрацией в гильдии новичку выдают анкету (без цитат)",
+     "npc": "Olga — одногруппница",
+     "more": "Ольга спросит про анкету, про Ахмада и про утро. Слова анкеты — в конце.",
+     "goal": "После урока сможешь: сказать и спросить, что уже сделано с «отделяемой» приставкой (заполнил анкету, позвонил, встал), и узнать на слух слова анкеты."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch10_013",
+      "ch10_017",
+      "ch10_021"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Тебя спросили, что ты уже делал. Что ответишь?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch10_013",
+      "ch10_017",
+      "ch10_021"
+     ],
+     "type": "retrieval: вопрос, не перечитывание",
+     "note": "фразы урока 2: ge- впереди слова «уже сделано» — сегодня посмотрим, что с ge- делает приставка"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch10_025",
+      "ch10_027",
+      "ch10_028",
+      "ch10_029",
+      "ch10_030"
+     ],
+     "words": [
+      "Hast du das Formular ausgefüllt?",
+      "Nein, ich habe das Formular noch nicht ausgefüllt.",
+      "Ich habe Olga angerufen.",
+      "Ich habe eingekauft.",
+      "Bist du schon aufgestanden?"
+     ],
+     "words_ru": {
+      "Hast du das Formular ausgefüllt?": "Ты заполнил анкету?",
+      "Nein, ich habe das Formular noch nicht ausgefüllt.": "Нет, я ещё не заполнил анкету.",
+      "Ich habe Olga angerufen.": "Я позвонил Ольге. — по-немецки звонят «кого»",
+      "Ich habe eingekauft.": "Я сделал покупки.",
+      "Bist du schon aufgestanden?": "Ты уже встал? — встал сам, поэтому bist"
+     },
+     "trap": "По-русски «заполнил» — одно слово. По-немецки приставка aus остаётся в слове, но ge- встаёт после неё: ausgefüllt, а не geausfüllt.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch10_L3_words_1",
+      "ch10_L3_words_2",
+      "ch10_L3_words_3",
+      "ch10_L3_words_4",
+      "ch10_L3_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch10_d3",
+     "line_ids": [
+      "ch10_d3_01",
+      "ch10_d3_02",
+      "ch10_d3_03",
+      "ch10_d3_04",
+      "ch10_d3_05",
+      "ch10_d3_06",
+      "ch10_d3_07",
+      "ch10_d3_08",
+      "ch10_d3_09"
+     ],
+     "halves": [
+      [
+       "ch10_d3_01",
+       "ch10_d3_02",
+       "ch10_d3_03",
+       "ch10_d3_04"
+      ],
+      [
+       "ch10_d3_05",
+       "ch10_d3_06",
+       "ch10_d3_07",
+       "ch10_d3_08",
+       "ch10_d3_09"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "После переезда в новую квартиру в Германии нужно зарегистрироваться по месту жительства в течение двух недель (Bundesmeldegesetz, § 17).",
+     "life_source": "Bundesmeldegesetz (BMG) § 17 Abs. 1 — gesetze-im-internet.de/bmg/__17.html",
+     "task_ids": [
+      "ch10_L3_listen_1",
+      "ch10_L3_listen_2",
+      "ch10_L3_listen_3",
+      "ch10_L3_listen_4",
+      "ch10_L3_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch10_025",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "Приставка стоит первой, потом ge-, потом основа: aus, ge, füll, t. Ударение — на приставке: AUSgefüllt.",
+     "screen": [
+      "aus + ge + füll + t = ausgefüllt · an + ge + ruf + en = angerufen",
+      "ein + ge + kauf + t = eingekauft · auf + ge + stand + en = aufgestanden"
+     ],
+     "answer_hook": "Ответ на загадку: ge- никуда не делось — оно встало между приставкой и основой. Приставка идёт первой, поэтому в начале слова её не пропустить.",
+     "kurs_term": "На курсе это называют Perfekt bei trennbaren Verben.",
+     "second": {
+      "why_id": "ch10_030",
+      "voice_ru": "Помощник тоже выбирается по смыслу. Встал сам, поменял положение — bist, bin: bin aufgestanden. Позвонил, заполнил, купил — действие, а не переход из места в место: habe."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch10_L3_why_1",
+      "ch10_L3_why_2",
+      "ch10_L3_why_3",
+      "ch10_L3_why_4",
+      "ch10_L3_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch10_025",
+     "pieces": [
+      "ausgefüllt?",
+      "du",
+      "Hast",
+      "das Formular"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch10_d3_03",
+      "ch10_d3_04"
+     ],
+     "prompt": "Собери сам из знакомых кусков: Ахмад получил анкету. Спроси его: «Ты заполнил анкету?» Это вопрос «да/нет» — вспомни, где в нём стоит помощник и куда уезжает слово «заполнил».",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch10_025",
+     "transfer_task_ids": [
+      "ch10_L3_transfer_1"
+     ],
+     "task_ids": [
+      "ch10_L3_write_1",
+      "ch10_L3_write_2",
+      "ch10_L3_write_3",
+      "ch10_L3_write_4",
+      "ch10_L3_write_5",
+      "ch10_L3_read_1",
+      "ch10_L3_read_2",
+      "ch10_L3_read_3",
+      "ch10_L3_read_4",
+      "ch10_L3_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "ausgefüllt",
+     "ipa_sym": "aʊ",
+     "tip_ru": "В словах с отделяемой приставкой ударение падает на приставку: AUSgefüllt, ANgerufen, EINgekauft, AUFgestanden. Ge- слабое, почти не слышно.",
+     "bridge_ru": "Приставка в таком слове звучит громче всего слова — как отдельный слог-команда. Сначала скажи её: «аус», «ан», «айн», «ауф», потом прицепи остальное.",
+     "phrase_id": "ch10_025",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "ausgefüllt",
+       "ru": "АУС-гэфюльт — ударение на приставке"
+      },
+      {
+       "de": "angerufen",
+       "ru": "АН-гэруфэн — ударение на приставке"
+      },
+      {
+       "de": "eingekauft",
+       "ru": "АЙН-гэкауфт — ударение на приставке"
+      },
+      {
+       "de": "aufgestanden",
+       "ru": "АУФ-гэштандэн — ударение на приставке"
+      }
+     ],
+     "speak_task_ids": [
+      "ch10_L3_speak_1",
+      "ch10_L3_speak_2",
+      "ch10_L3_speak_3",
+      "ch10_L3_speak_4",
+      "ch10_L3_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Утро перед записью",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Olga (на «ты»)",
+     "turns": [
+      {
+       "prompt_id": "ch10_d3_01",
+       "prompt_de": "Bist du schon aufgestanden?",
+       "prompt_audio": "audio_v1/ch10_d3_01.mp3",
+       "expected_id": "ch10_d3_02",
+       "expected_de": "Ja, ich bin schon aufgestanden.",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch10_d3_03",
+       "prompt_de": "Hast du das Formular ausgefüllt?",
+       "prompt_audio": "audio_v1/ch10_d3_03.mp3",
+       "expected_id": "ch10_d3_04",
+       "expected_de": "Nein, ich habe das Formular noch nicht ausgefüllt.",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch10_d3_05",
+       "prompt_de": "Ich habe das Formular schon ausgefüllt.",
+       "prompt_audio": "audio_v1/ch10_d3_05.mp3",
+       "expected_id": "ch10_d3_06",
+       "expected_de": "Hast du Ahmad angerufen?",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch10_d3_08",
+       "prompt_de": "Hast du schon eingekauft?",
+       "prompt_audio": "audio_v1/ch10_d3_08.mp3",
+       "expected_id": "ch10_d3_09",
+       "expected_de": "Ja, ich habe schon eingekauft.",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Отвечай, как есть у тебя: встал ли, заполнил ли анкету, сделал ли покупки. ИИ примет «да» и «ещё нет».",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch10_d3_03",
+     "task_ru": "Новичок стоит с анкетой в руках и не понимает вопрос Ольги «Hast du das Formular ausgefüllt?». Объясни ему по-русски, о чём она спрашивает.",
+     "expected_ru": "Ты заполнил анкету?",
+     "hint_ru": "Formular — «анкета»; ausgefüllt — «заполнил»; Hast du — вопрос «ты …?»",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch10_L3_dict_1",
+      "ch10_L3_dict_2",
+      "ch10_L3_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "ausgefüllt — ü с двумя точками и ll. angerufen — одна r. Formular, Olga, Ahmad — с большой буквы."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch10_L3_transfer_2",
+      "ch10_L3_transfer_3",
+      "ch10_L3_transfer_4",
+      "ch10_L3_transfer_5",
+      "ch10_L3_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "В ящике на стойке появилась твоя заполненная анкета.",
+      "Совет на завтра: утром скажи вслух, что ты уже сделал: Ich bin aufgestanden, ich habe … ausgefüllt."
+     ],
+     "npc_phrase_id": "ch10_d3_03",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: у слов с отделяемой приставкой ge- встаёт между приставкой и основой (aus·ge·füll·t) · ударение на приставке · встал сам, сменил положение — bist/bin, остальные действия — habe. К курсу: стр. 178 — Im Personalbüro; стр. 180 — Die Anmeldung.",
+     "next_hook": "Дальше: на кухне тебе скажут «Bitte die Hände waschen!» — это уже не прошлое, а просьба.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       178,
+       180
+      ],
+      "phrases_ids": [
+       "ch10_032",
+       "ch10_033",
+       "ch10_034",
+       "ch10_035"
+      ],
+      "note": "к курсу: стр. 178 — разговор в отделе кадров, стр. 180 — анкета при регистрации по месту жительства; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch10_032",
+       "picture": "стол в отделе кадров: договор, ручка, паспорт, календарь с отмеченной встречей",
+       "words": [
+        {
+         "de": "der Arbeitsvertrag",
+         "ru": "трудовой договор"
+        },
+        {
+         "de": "die Unterschrift",
+         "ru": "подпись"
+        },
+        {
+         "de": "der Ausweis",
+         "ru": "удостоверение"
+        },
+        {
+         "de": "der Pass",
+         "ru": "паспорт"
+        },
+        {
+         "de": "der Termin",
+         "ru": "встреча по записи"
+        },
+        {
+         "de": "das Team",
+         "ru": "команда"
+        }
+       ],
+       "note": "эти слова есть на стр. 178; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch10_L3_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch10_032",
+        "prompt": "Слова курса. Послушай. Что значит «Unterschrift»?",
+        "answer": "подпись",
+        "distractors": [
+         "удостоверение",
+         "трудовой договор"
+        ],
+        "src": "Linie 1, стр. 178"
+       },
+       {
+        "id": "ch10_L3_kurs_2",
+        "skill": "listen",
+        "phraseId": "ch10_033",
+        "prompt": "Слова курса. Послушай. Что значит «Urlaub»?",
+        "answer": "отпуск",
+        "distractors": [
+         "поездка",
+         "компьютер"
+        ],
+        "src": "Linie 1, стр. 178"
+       },
+       {
+        "id": "ch10_L3_kurs_3",
+        "skill": "listen",
+        "phraseId": "ch10_034",
+        "prompt": "Слова курса. Послушай. Что значит «Geburtsdatum»?",
+        "answer": "дата рождения",
+        "distractors": [
+         "почтовый индекс",
+         "номер дома"
+        ],
+        "src": "Linie 1, стр. 180"
+       },
+       {
+        "id": "ch10_L3_kurs_4",
+        "skill": "listen",
+        "phraseId": "ch10_035",
+        "prompt": "Слова курса. Послушай. Что значит «Staatsangehörigkeit»?",
+        "answer": "гражданство",
+        "distractors": [
+         "семейное положение",
+         "место рождения"
+        ],
+        "src": "Linie 1, стр. 180"
+       }
+      ]
+     },
+     "kurs_pages": [
+      178,
+      180
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch10.py",
+  "new_words": [
+   "Hast du das Formular ausgefüllt?",
+   "Ich habe Olga angerufen.",
+   "Ich habe eingekauft.",
+   "Bist du schon aufgestanden?",
+   "Ich habe das Formular noch nicht ausgefüllt."
+  ],
+  "known_before": [
+   "Hast du schon …?",
+   "Ich habe noch nicht …",
+   "Ich habe gearbeitet.",
+   "Ich bin gekommen.",
+   "Ja, ich habe …"
+  ],
+  "transfer_phrase_ids": [
+   "ch10_t05",
+   "ch10_t06"
+  ],
+  "built_phrase_ids": [
+   "ch10_025"
+  ],
+  "quiz_ids": [
+   "ch10_L3_words_1",
+   "ch10_L3_words_2",
+   "ch10_L3_words_3",
+   "ch10_L3_words_4",
+   "ch10_L3_words_5",
+   "ch10_L3_listen_1",
+   "ch10_L3_listen_2",
+   "ch10_L3_listen_3",
+   "ch10_L3_listen_4",
+   "ch10_L3_listen_5",
+   "ch10_L3_read_1",
+   "ch10_L3_read_2",
+   "ch10_L3_read_3",
+   "ch10_L3_read_4",
+   "ch10_L3_read_5",
+   "ch10_L3_speak_1",
+   "ch10_L3_speak_2",
+   "ch10_L3_speak_3",
+   "ch10_L3_speak_4",
+   "ch10_L3_speak_5",
+   "ch10_L3_write_1",
+   "ch10_L3_write_2",
+   "ch10_L3_write_3",
+   "ch10_L3_write_4",
+   "ch10_L3_write_5",
+   "ch10_L3_why_1",
+   "ch10_L3_why_2",
+   "ch10_L3_why_3",
+   "ch10_L3_why_4",
+   "ch10_L3_why_5",
+   "ch10_L3_transfer_1",
+   "ch10_L3_transfer_2",
+   "ch10_L3_transfer_3",
+   "ch10_L3_transfer_4",
+   "ch10_L3_transfer_5",
+   "ch10_L3_boss_1"
+  ],
+  "dictation_ids": [
+   "ch10_L3_dict_1",
+   "ch10_L3_dict_2",
+   "ch10_L3_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Утро перед записью. Ольга звонит и спрашивает, всё ли ты сделал. Цель: сказать и спросить, что уже сделано, и узнать слова анкеты. Загадка урока: у ausgefüllt нет ge- в начале. Куда оно делось?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Утро перед записью",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой утром перед записью (ИИ — Ольга)",
+   "situation": "kurs_formular",
+   "ai_plays": "Olga (на «ты»)",
+   "phrases": [
+    "ch10_d3_02",
+    "ch10_d3_04",
+    "ch10_d3_06",
+    "ch10_d3_09"
+   ]
+  },
+  "outro": "В ящике на стойке появилась твоя заполненная анкета. Совет на завтра: утром скажи вслух, что ты уже сделал: Ich bin aufgestanden, ich habe … ausgefüllt. Дальше: на кухне тебе скажут «Bitte die Hände waschen!» — это уже не прошлое, а просьба.",
+  "detail_de_life": "После переезда в новую квартиру в Германии нужно зарегистрироваться по месту жительства в течение двух недель (Bundesmeldegesetz, § 17).",
+  "detail_de_life_source": "Bundesmeldegesetz (BMG) § 17 Abs. 1 — gesetze-im-internet.de/bmg/__17.html",
+  "task_ids": {
+   "words": [
+    "ch10_L3_words_1",
+    "ch10_L3_words_2",
+    "ch10_L3_words_3",
+    "ch10_L3_words_4",
+    "ch10_L3_words_5"
+   ],
+   "listen": [
+    "ch10_L3_listen_1",
+    "ch10_L3_listen_2",
+    "ch10_L3_listen_3",
+    "ch10_L3_listen_4",
+    "ch10_L3_listen_5"
+   ],
+   "read": [
+    "ch10_L3_read_1",
+    "ch10_L3_read_2",
+    "ch10_L3_read_3",
+    "ch10_L3_read_4",
+    "ch10_L3_read_5"
+   ],
+   "speak": [
+    "ch10_L3_speak_1",
+    "ch10_L3_speak_2",
+    "ch10_L3_speak_3",
+    "ch10_L3_speak_4",
+    "ch10_L3_speak_5"
+   ],
+   "write": [
+    "ch10_L3_write_1",
+    "ch10_L3_write_2",
+    "ch10_L3_write_3",
+    "ch10_L3_write_4",
+    "ch10_L3_write_5"
+   ],
+   "why": [
+    "ch10_L3_why_1",
+    "ch10_L3_why_2",
+    "ch10_L3_why_3",
+    "ch10_L3_why_4",
+    "ch10_L3_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch10_L3_transfer_1",
+   "ch10_L3_transfer_2",
+   "ch10_L3_transfer_3",
+   "ch10_L3_transfer_4",
+   "ch10_L3_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch10_013",
+   "ch10_017",
+   "ch10_021"
+  ],
+  "dialog_ids": [
+   "ch10_d3"
+  ],
+  "video": "video/ch10_L3.mp4"
+ },
+ {
+  "id": "ch10_L4",
+  "title": "Bitte die Hände waschen. Просьба на «вы» и табличка для всех",
+  "pages_linie1": {
+   "pages": [
+    179
+   ],
+   "sections": [
+    "6 Bei der Arbeit"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch10_036",
+   "ch10_038",
+   "ch10_040",
+   "ch10_039",
+   "ch10_041"
+  ],
+  "why_ids": [
+   "ch10_036",
+   "ch10_037"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch10_d4",
+    "line_ids": [
+     "ch10_d4_01",
+     "ch10_d4_02",
+     "ch10_d4_03",
+     "ch10_d4_04",
+     "ch10_d4_05",
+     "ch10_d4_06",
+     "ch10_d4_07"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Утром тебя спросили, что ты уже сделал. Что ответишь?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch10_d4",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch10_d4_01",
+        "ch10_d4_02",
+        "ch10_d4_03",
+        "ch10_d4_04"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch10_d4",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Звук ä: послушай waschen — wäscht, Hand — Hände и повтори",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch10_036",
+        "ch10_037",
+        "ch10_038",
+        "ch10_041"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Звук ä: послушай waschen — wäscht, Hand — Hände и повтори — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "«помойте» — одно слово ↔ Waschen Sie — действие и Sie; man ↔ русское «моют» без «кто»; терминов нет, слово курса — одной строкой",
+   "как слышу, так и пишу": "ä слышится как «э», пишется ä (wäscht, Hände); man с одной n ≠ Mann",
+   "учебник непонятен": "из Linie 1 — только тема и страница 179; подача своя",
+   "село, живой немецкий — Netto": "сцена — первый день на кухне; табличка над раковиной, как в любой столовой",
+   "любит аниме": "завязка — новичок на кухне таверны получает поручения",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин, лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Waschen Sie bitte die Hände.; перенос — Waschen Sie bitte das Gemüse. и Hier wäscht man das Gemüse.",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    179
+   ],
+   "phrases_ids": [
+    "ch10_042",
+    "ch10_043"
+   ],
+   "note": "к курсу: стр. 179 — указания на кухне; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch10_042",
+    "picture": "кухня столовой: плита, ножи, стопка тарелок, посудомоечная машина, колпак на крючке",
+    "words": [
+     {
+      "de": "die Küche",
+      "ru": "кухня"
+     },
+     {
+      "de": "der Herd",
+      "ru": "плита"
+     },
+     {
+      "de": "das Messer",
+      "ru": "нож"
+     },
+     {
+      "de": "der Teller",
+      "ru": "тарелка"
+     },
+     {
+      "de": "die Spülmaschine",
+      "ru": "посудомоечная машина"
+     },
+     {
+      "de": "die Kochmütze",
+      "ru": "поварской колпак"
+     }
+    ],
+    "note": "эти слова есть на стр. 179; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch10_L4_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch10_042",
+     "prompt": "Слова курса. Послушай. Что значит «Spülmaschine»?",
+     "answer": "посудомоечная машина",
+     "distractors": [
+      "стиральная машина",
+      "газовая плита"
+     ],
+     "src": "Linie 1, стр. 179"
+    },
+    {
+     "id": "ch10_L4_kurs_2",
+     "skill": "listen",
+     "phraseId": "ch10_042",
+     "prompt": "Слова курса. Послушай. Что значит «Herd»?",
+     "answer": "плита",
+     "distractors": [
+      "нож",
+      "тарелка"
+     ],
+     "src": "Linie 1, стр. 179"
+    },
+    {
+     "id": "ch10_L4_kurs_3",
+     "skill": "listen",
+     "phraseId": "ch10_043",
+     "prompt": "Слова курса. Послушай. Что значит «Fleisch»?",
+     "answer": "мясо",
+     "distractors": [
+      "хлеб",
+      "рыба"
+     ],
+     "src": "Linie 1, стр. 179"
+    },
+    {
+     "id": "ch10_L4_kurs_4",
+     "skill": "listen",
+     "phraseId": "ch10_043",
+     "prompt": "Слова курса. Послушай. Что значит «Paket»?",
+     "answer": "посылка",
+     "distractors": [
+      "тарелка",
+      "хлеб"
+     ],
+     "src": "Linie 1, стр. 179"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Кухня столовой: над раковиной появилась табличка «Bitte die Hände waschen»",
+   "npc": "Herr Becker — повар (на «вы»)"
+  },
+  "covers": [
+   "L1-10-S6",
+   "B17.7",
+   "B10.6"
+  ],
+  "covers_partial": [],
+  "covers_note": {
+   "L1-10-S6": "Bei der Arbeit: указания на кухне (Waschen / Schneiden / Setzen Sie bitte …), переспросить, попросить помощи — сцена; слова кухни — две цепочки «к курсу» с заданиями",
+   "B17.7": "Инструкции: кому адресована надпись — просьба на «вы» (Waschen Sie bitte die Hände) и табличка для всех (Bitte die Hände waschen) — часть 5 и задание «почему»",
+   "B10.6": "man — «люди вообще»: Hier wäscht man die Hände (форма как с er) — карточка части 3, сцена, задания «почему» и перенос"
+  },
+  "goal": "После урока сможешь: понять просьбы на работе (Waschen Sie bitte …), переспросить, попросить помощи и прочитать табличку-инструкцию (Bitte die Hände waschen).",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Первый день на кухне. Повар Herr Becker говорит быстро и просит одно за другим.",
+      "Цель: понять просьбу, переспросить и попросить помощи."
+     ],
+     "voice_ru": "Ты начинаешь работать на кухне. Повар просит: помыть руки, надеть шапку, порезать овощи. Над раковиной висит табличка с теми же словами, но в другом порядке.",
+     "hook": "Загадка урока: повар говорит «Waschen Sie bitte die Hände», а табличка — «Bitte die Hände waschen». Почему слово waschen переехало?",
+     "anime_motif": "исекай: первый день новичка на кухне таверны, хозяин раздаёт поручения (без цитат)",
+     "npc": "Herr Becker — повар",
+     "more": "Повар даст три поручения; одно ты не расслышишь и переспросишь. Слова кухни — в конце.",
+     "goal": "После урока сможешь: понять просьбы на работе (Waschen Sie bitte …), переспросить, попросить помощи и прочитать табличку-инструкцию (Bitte die Hände waschen)."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch10_025",
+      "ch10_028",
+      "ch10_030"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Утром тебя спросили, что ты уже сделал. Что ответишь?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch10_025",
+      "ch10_028",
+      "ch10_030"
+     ],
+     "type": "retrieval: вопрос, не перечитывание",
+     "note": "фразы урока 3: что уже сделано; сегодня — что сделать сейчас"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch10_036",
+      "ch10_038",
+      "ch10_040",
+      "ch10_039",
+      "ch10_041"
+     ],
+     "words": [
+      "Waschen Sie bitte die Hände.",
+      "Hier wäscht man die Hände.",
+      "Setzen Sie bitte die Mütze auf.",
+      "Schneiden Sie bitte das Gemüse.",
+      "Können Sie mir bitte helfen?"
+     ],
+     "words_ru": {
+      "Waschen Sie bitte die Hände.": "Помойте, пожалуйста, руки.",
+      "Hier wäscht man die Hände.": "Здесь моют руки. — man: «люди вообще»",
+      "Setzen Sie bitte die Mütze auf.": "Наденьте, пожалуйста, шапку.",
+      "Schneiden Sie bitte das Gemüse.": "Порежьте, пожалуйста, овощи.",
+      "Können Sie mir bitte helfen?": "Вы можете мне помочь?"
+     },
+     "trap": "man — не Mann. man с одной n значит «люди вообще» (по-русски просто «моют»), Mann с двумя n — «мужчина».",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch10_L4_words_1",
+      "ch10_L4_words_2",
+      "ch10_L4_words_3",
+      "ch10_L4_words_4",
+      "ch10_L4_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch10_d4",
+     "line_ids": [
+      "ch10_d4_01",
+      "ch10_d4_02",
+      "ch10_d4_03",
+      "ch10_d4_04",
+      "ch10_d4_05",
+      "ch10_d4_06",
+      "ch10_d4_07"
+     ],
+     "halves": [
+      [
+       "ch10_d4_01",
+       "ch10_d4_02",
+       "ch10_d4_03"
+      ],
+      [
+       "ch10_d4_04",
+       "ch10_d4_05",
+       "ch10_d4_06",
+       "ch10_d4_07"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "Кто в Германии впервые работает с едой (кухня, кафе, пекарня), до первого рабочего дня проходит инструктаж в ведомстве здравоохранения (Gesundheitsamt) — Infektionsschutzgesetz, § 43.",
+     "life_source": "Infektionsschutzgesetz (IfSG) § 43 Abs. 1 — gesetze-im-internet.de/ifsg/__43.html",
+     "task_ids": [
+      "ch10_L4_listen_1",
+      "ch10_L4_listen_2",
+      "ch10_L4_listen_3",
+      "ch10_L4_listen_4",
+      "ch10_L4_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch10_036",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "Просьба к человеку на «вы»: действие первое, за ним Sie, bitte места не занимает: Waschen Sie bitte die Hände.",
+     "screen": [
+      "Waschen Sie bitte die Hände. — повар просит тебя",
+      "Bitte die Hände waschen. — табличка для всех: Sie нет, waschen в конце",
+      "Hier wäscht man die Hände. — так делают все: man, форма как с er"
+     ],
+     "answer_hook": "Ответ на загадку: повар обращается к тебе — действие первое и Sie. Табличка говорит со всеми сразу — никого не называет, и словарная форма waschen стоит в конце.",
+     "kurs_term": "На курсе это называют Imperativ (Sie-Form) и Aufforderung mit Infinitiv.",
+     "second": {
+      "why_id": "ch10_037",
+      "voice_ru": "Табличка говорит со всеми: Sie нет, словарная форма waschen — в конце. Так пишут инструкции."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch10_L4_why_1",
+      "ch10_L4_why_2",
+      "ch10_L4_why_3",
+      "ch10_L4_why_4",
+      "ch10_L4_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch10_036",
+     "pieces": [
+      "Waschen",
+      "bitte",
+      "Sie",
+      "die Hände."
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch10_d4_01",
+      "ch10_d4_03"
+     ],
+     "prompt": "Собери сам из знакомых кусков: пришёл новый коллега. Попроси его на «вы»: «Помойте, пожалуйста, руки.» Вспомни, что стоит первым в просьбе на «вы».",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch10_036",
+     "transfer_task_ids": [
+      "ch10_L4_transfer_1"
+     ],
+     "task_ids": [
+      "ch10_L4_write_1",
+      "ch10_L4_write_2",
+      "ch10_L4_write_3",
+      "ch10_L4_write_4",
+      "ch10_L4_write_5",
+      "ch10_L4_read_1",
+      "ch10_L4_read_2",
+      "ch10_L4_read_3",
+      "ch10_L4_read_4",
+      "ch10_L4_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "wäscht",
+     "ipa_sym": "ɛ",
+     "tip_ru": "ä звучит как русское «э»: wäscht — «вэшт», Hände — «хэндэ». w — как русское «в», sch — как «ш».",
+     "bridge_ru": "Скажи пару подряд: waschen — «вашен», wäscht — «вэшт». Во втором слове звук уже, как «э».",
+     "phrase_id": "ch10_038",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "waschen",
+       "ru": "ВАШЕН — a как «а»"
+      },
+      {
+       "de": "wäscht",
+       "ru": "ВЭШТ — ä как «э»"
+      },
+      {
+       "de": "Hand",
+       "ru": "ХАНТ — a как «а»"
+      },
+      {
+       "de": "Hände",
+       "ru": "ХЭНДЭ — ä как «э»"
+      }
+     ],
+     "speak_task_ids": [
+      "ch10_L4_speak_1",
+      "ch10_L4_speak_2",
+      "ch10_L4_speak_3",
+      "ch10_L4_speak_4",
+      "ch10_L4_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Первый день на кухне",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Herr Becker (на «вы»)",
+     "turns": [
+      {
+       "prompt_id": "ch10_d4_01",
+       "prompt_de": "Waschen Sie bitte die Hände.",
+       "prompt_audio": "audio_v1/ch10_d4_01.mp3",
+       "expected_id": "ch10_d4_02",
+       "expected_de": "Wiederholen Sie bitte.",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch10_d4_05",
+       "prompt_de": "Schneiden Sie bitte das Gemüse.",
+       "prompt_audio": "audio_v1/ch10_d4_05.mp3",
+       "expected_id": "ch10_d4_06",
+       "expected_de": "Können Sie mir bitte helfen?",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Не расслышал — переспроси (Wie bitte? Wiederholen Sie bitte.). Не знаешь, что делать, — попроси помощи. ИИ повторит медленнее.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch10_d4_03",
+     "task_ru": "Новый коллега не понял, что сказал повар у раковины: «Hier wäscht man die Hände.» Объясни ему по-русски.",
+     "expected_ru": "Здесь моют руки.",
+     "hint_ru": "hier — «здесь»; man — «люди вообще»; wäscht … die Hände — «моют руки»",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch10_L4_dict_1",
+      "ch10_L4_dict_2",
+      "ch10_L4_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Hände и wäscht — с ä. man — одна n. Hände, Mütze, Sie — с большой буквы; auf — в самом конце."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch10_L4_transfer_2",
+      "ch10_L4_transfer_3",
+      "ch10_L4_transfer_4",
+      "ch10_L4_transfer_5",
+      "ch10_L4_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Над раковиной на кухне висит табличка — теперь ты её понимаешь.",
+      "Совет на завтра: на работе или в магазине найди табличку с bitte и прочитай, кому она."
+     ],
+     "npc_phrase_id": "ch10_d4_01",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: просьба на «вы» — действие первое, за ним Sie (Waschen Sie bitte …) · табличка для всех — Bitte … waschen, действие в конце · man — «люди вообще», форма как с er (wäscht). К курсу: стр. 179 — Bei der Arbeit.",
+     "next_hook": "Дальше: новые соседи рассказывают о себе — Ich bin 1985 geboren.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       179
+      ],
+      "phrases_ids": [
+       "ch10_042",
+       "ch10_043"
+      ],
+      "note": "к курсу: стр. 179 — указания на кухне; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch10_042",
+       "picture": "кухня столовой: плита, ножи, стопка тарелок, посудомоечная машина, колпак на крючке",
+       "words": [
+        {
+         "de": "die Küche",
+         "ru": "кухня"
+        },
+        {
+         "de": "der Herd",
+         "ru": "плита"
+        },
+        {
+         "de": "das Messer",
+         "ru": "нож"
+        },
+        {
+         "de": "der Teller",
+         "ru": "тарелка"
+        },
+        {
+         "de": "die Spülmaschine",
+         "ru": "посудомоечная машина"
+        },
+        {
+         "de": "die Kochmütze",
+         "ru": "поварской колпак"
+        }
+       ],
+       "note": "эти слова есть на стр. 179; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch10_L4_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch10_042",
+        "prompt": "Слова курса. Послушай. Что значит «Spülmaschine»?",
+        "answer": "посудомоечная машина",
+        "distractors": [
+         "стиральная машина",
+         "газовая плита"
+        ],
+        "src": "Linie 1, стр. 179"
+       },
+       {
+        "id": "ch10_L4_kurs_2",
+        "skill": "listen",
+        "phraseId": "ch10_042",
+        "prompt": "Слова курса. Послушай. Что значит «Herd»?",
+        "answer": "плита",
+        "distractors": [
+         "нож",
+         "тарелка"
+        ],
+        "src": "Linie 1, стр. 179"
+       },
+       {
+        "id": "ch10_L4_kurs_3",
+        "skill": "listen",
+        "phraseId": "ch10_043",
+        "prompt": "Слова курса. Послушай. Что значит «Fleisch»?",
+        "answer": "мясо",
+        "distractors": [
+         "хлеб",
+         "рыба"
+        ],
+        "src": "Linie 1, стр. 179"
+       },
+       {
+        "id": "ch10_L4_kurs_4",
+        "skill": "listen",
+        "phraseId": "ch10_043",
+        "prompt": "Слова курса. Послушай. Что значит «Paket»?",
+        "answer": "посылка",
+        "distractors": [
+         "тарелка",
+         "хлеб"
+        ],
+        "src": "Linie 1, стр. 179"
+       }
+      ]
+     },
+     "kurs_pages": [
+      179
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch10.py",
+  "new_words": [
+   "Waschen Sie bitte die Hände.",
+   "Hier wäscht man die Hände.",
+   "Setzen Sie bitte die Mütze auf.",
+   "Schneiden Sie bitte das Gemüse.",
+   "Können Sie mir bitte helfen?"
+  ],
+  "known_before": [
+   "Wiederholen Sie bitte.",
+   "Wie bitte?",
+   "das Gemüse",
+   "das Messer",
+   "Ja, gern."
+  ],
+  "transfer_phrase_ids": [
+   "ch10_t07",
+   "ch10_t08"
+  ],
+  "built_phrase_ids": [
+   "ch10_036"
+  ],
+  "quiz_ids": [
+   "ch10_L4_words_1",
+   "ch10_L4_words_2",
+   "ch10_L4_words_3",
+   "ch10_L4_words_4",
+   "ch10_L4_words_5",
+   "ch10_L4_listen_1",
+   "ch10_L4_listen_2",
+   "ch10_L4_listen_3",
+   "ch10_L4_listen_4",
+   "ch10_L4_listen_5",
+   "ch10_L4_read_1",
+   "ch10_L4_read_2",
+   "ch10_L4_read_3",
+   "ch10_L4_read_4",
+   "ch10_L4_read_5",
+   "ch10_L4_speak_1",
+   "ch10_L4_speak_2",
+   "ch10_L4_speak_3",
+   "ch10_L4_speak_4",
+   "ch10_L4_speak_5",
+   "ch10_L4_write_1",
+   "ch10_L4_write_2",
+   "ch10_L4_write_3",
+   "ch10_L4_write_4",
+   "ch10_L4_write_5",
+   "ch10_L4_why_1",
+   "ch10_L4_why_2",
+   "ch10_L4_why_3",
+   "ch10_L4_why_4",
+   "ch10_L4_why_5",
+   "ch10_L4_transfer_1",
+   "ch10_L4_transfer_2",
+   "ch10_L4_transfer_3",
+   "ch10_L4_transfer_4",
+   "ch10_L4_transfer_5",
+   "ch10_L4_boss_1"
+  ],
+  "dictation_ids": [
+   "ch10_L4_dict_1",
+   "ch10_L4_dict_2",
+   "ch10_L4_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Первый день на кухне. Повар Herr Becker говорит быстро и просит одно за другим. Цель: понять просьбу, переспросить и попросить помощи. Загадка урока: повар говорит «Waschen Sie bitte die Hände», а табличка — «Bitte die Hände waschen». Почему слово waschen переехало?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Первый день на кухне",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой в первый день на кухне (ИИ — повар Herr Becker)",
+   "situation": "kueche_anweisungen",
+   "ai_plays": "Herr Becker (на «вы»)",
+   "phrases": [
+    "ch10_d4_02",
+    "ch10_d4_06"
+   ]
+  },
+  "outro": "Над раковиной на кухне висит табличка — теперь ты её понимаешь. Совет на завтра: на работе или в магазине найди табличку с bitte и прочитай, кому она. Дальше: новые соседи рассказывают о себе — Ich bin 1985 geboren.",
+  "detail_de_life": "Кто в Германии впервые работает с едой (кухня, кафе, пекарня), до первого рабочего дня проходит инструктаж в ведомстве здравоохранения (Gesundheitsamt) — Infektionsschutzgesetz, § 43.",
+  "detail_de_life_source": "Infektionsschutzgesetz (IfSG) § 43 Abs. 1 — gesetze-im-internet.de/ifsg/__43.html",
+  "task_ids": {
+   "words": [
+    "ch10_L4_words_1",
+    "ch10_L4_words_2",
+    "ch10_L4_words_3",
+    "ch10_L4_words_4",
+    "ch10_L4_words_5"
+   ],
+   "listen": [
+    "ch10_L4_listen_1",
+    "ch10_L4_listen_2",
+    "ch10_L4_listen_3",
+    "ch10_L4_listen_4",
+    "ch10_L4_listen_5"
+   ],
+   "read": [
+    "ch10_L4_read_1",
+    "ch10_L4_read_2",
+    "ch10_L4_read_3",
+    "ch10_L4_read_4",
+    "ch10_L4_read_5"
+   ],
+   "speak": [
+    "ch10_L4_speak_1",
+    "ch10_L4_speak_2",
+    "ch10_L4_speak_3",
+    "ch10_L4_speak_4",
+    "ch10_L4_speak_5"
+   ],
+   "write": [
+    "ch10_L4_write_1",
+    "ch10_L4_write_2",
+    "ch10_L4_write_3",
+    "ch10_L4_write_4",
+    "ch10_L4_write_5"
+   ],
+   "why": [
+    "ch10_L4_why_1",
+    "ch10_L4_why_2",
+    "ch10_L4_why_3",
+    "ch10_L4_why_4",
+    "ch10_L4_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch10_L4_transfer_1",
+   "ch10_L4_transfer_2",
+   "ch10_L4_transfer_3",
+   "ch10_L4_transfer_4",
+   "ch10_L4_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch10_025",
+   "ch10_028",
+   "ch10_030"
+  ],
+  "dialog_ids": [
+   "ch10_d4"
+  ],
+  "video": "video/ch10_L4.mp4"
+ },
+ {
+  "id": "ch10_L5",
+  "title": "Ich bin 1985 geboren. Биография: годы и формы без ge-",
+  "pages_linie1": {
+   "pages": [
+    181
+   ],
+   "sections": [
+    "8 Neubürger/innen stellen sich vor."
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch10_044",
+   "ch10_045",
+   "ch10_046",
+   "ch10_047",
+   "ch10_048"
+  ],
+  "why_ids": [
+   "ch10_046",
+   "ch10_045"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch10_d5",
+    "line_ids": [
+     "ch10_d5_01",
+     "ch10_d5_02",
+     "ch10_d5_03",
+     "ch10_d5_04",
+     "ch10_d5_05",
+     "ch10_d5_06",
+     "ch10_d5_07",
+     "ch10_d5_08",
+     "ch10_d5_09",
+     "ch10_d5_10"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Вспомни просьбы на кухне и утро перед записью. Что это значит?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch10_d5",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch10_d5_01",
+        "ch10_d5_02",
+        "ch10_d5_03",
+        "ch10_d5_04"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch10_d5",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Ударение: послушай stuDIERT, beKOMmen, verSTANden и повтори",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch10_044",
+        "ch10_045",
+        "ch10_046",
+        "ch10_048"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Ударение: послушай stuDIERT, beKOMmen, verSTANden и повтори — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "«родился» — одно слово ↔ bin … geboren; год без слова «год» и сотнями; терминов нет, слово курса — одной строкой",
+   "как слышу, так и пишу": "eu и äu звучат одинаково «ой» — пишутся по семье слова; ie в studiert",
+   "учебник непонятен": "из Linie 1 — только тема и страница 181; подача своя",
+   "село, живой немецкий — Netto": "сцена — встреча новых жителей в ратуше, как в маленьком городе",
+   "любит аниме": "завязка — новичок представляется совету гильдии",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин, лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Ich habe in Kiew studiert.; перенос — Wann bist du geboren? и Ich habe in Dresden studiert.",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    181
+   ],
+   "phrases_ids": [
+    "ch10_049",
+    "ch10_050",
+    "ch10_051"
+   ],
+   "note": "к курсу: стр. 181 — новые жители коротко рассказывают о себе (Kurzvorstellung): год рождения, район, работа; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch10_049",
+    "picture": "зал ратуши: стенд «Willkommen, Neubürger!», карта города с районами, бейджи с именами",
+    "words": [
+     {
+      "de": "der Neubürger",
+      "ru": "новый житель"
+     },
+     {
+      "de": "die Neubürgerin",
+      "ru": "новая жительница"
+     },
+     {
+      "de": "das Geburtsjahr",
+      "ru": "год рождения"
+     },
+     {
+      "de": "die Jahreszahl",
+      "ru": "число года"
+     },
+     {
+      "de": "die Nachbarn",
+      "ru": "соседи"
+     },
+     {
+      "de": "das Viertel",
+      "ru": "район"
+     }
+    ],
+    "note": "эти слова есть на стр. 181; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch10_L5_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch10_049",
+     "prompt": "Слова курса. Послушай. Что значит «Geburtsjahr»?",
+     "answer": "год рождения",
+     "distractors": [
+      "день рождения",
+      "место рождения"
+     ],
+     "src": "Linie 1, стр. 181"
+    },
+    {
+     "id": "ch10_L5_kurs_2",
+     "skill": "listen",
+     "phraseId": "ch10_049",
+     "prompt": "Слова курса. Послушай. Что значит «Viertel»?",
+     "answer": "район",
+     "distractors": [
+      "улица",
+      "соседи"
+     ],
+     "src": "Linie 1, стр. 181"
+    },
+    {
+     "id": "ch10_L5_kurs_3",
+     "skill": "listen",
+     "phraseId": "ch10_050",
+     "prompt": "Слова курса. Послушай. Что значит «Krankenschwester»?",
+     "answer": "медсестра",
+     "distractors": [
+      "врач",
+      "сестра"
+     ],
+     "src": "Linie 1, стр. 181"
+    },
+    {
+     "id": "ch10_L5_kurs_4",
+     "skill": "listen",
+     "phraseId": "ch10_050",
+     "prompt": "Слова курса. Послушай. Что значит «Läden»?",
+     "answer": "магазины",
+     "distractors": [
+      "кафе",
+      "парки"
+     ],
+     "src": "Linie 1, стр. 181"
+    },
+    {
+     "id": "ch10_L5_kurs_5",
+     "skill": "listen",
+     "phraseId": "ch10_051",
+     "prompt": "Слова курса. Послушай. Что значит «Zoll»?",
+     "answer": "таможня",
+     "distractors": [
+      "налог",
+      "банк"
+     ],
+     "src": "Linie 1, стр. 181"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Ратуша: на стенде «Willkommen» появилась карточка героя с годом рождения",
+   "npc": "Frau Schulz — сотрудница ратуши (на «вы»)"
+  },
+  "covers": [
+   "L1-10-S8",
+   "L1-10-G3",
+   "B10.3",
+   "L1-10-AUSSPR",
+   "L1-10-SCHREIB",
+   "L1-10-LERNEN"
+  ],
+  "covers_partial": [],
+  "covers_note": {
+   "L1-10-S8": "Neubürger/innen stellen sich vor: Kurzvorstellung — Biografie (geboren, gekommen, studiert) и Jahreszahlen (1985, 2022) — сцена; слова стр. 181 — две цепочки «к курсу» с заданиями",
+   "L1-10-G3": "Perfekt der Verben auf -ieren (studiert) und der Verben mit be-, er-, ver- (bekommen, verstanden): форма без ge- — часть 5 и задания «почему»",
+   "B10.3": "Похожие начала be-/er-/ver-: не отрываются и не берут ge- (bekommen, verstanden) — в отличие от aus·ge·füllt урока 3",
+   "L1-10-AUSSPR": "Wortakzent bei Verben auf -ieren (stuDIERT) und mit be-, er-, ver- (beKOMmen, verSTANden — начало без ударения) — часть 7; звук h — урок 1",
+   "L1-10-SCHREIB": "Richtig schreiben: äu und eu — один звук «ой»: Deutschland, neunzehn; äu пишут, когда в семье слова есть au — часть 10",
+   "L1-10-LERNEN": "Leichter lernen: Wörter in Wortfamilien — kommen · gekommen · bekommen; stehen · aufgestanden · verstanden — часть 12"
+  },
+  "goal": "После урока сможешь: коротко рассказать о себе — когда родился, когда приехал, где учился — и понять вопросы о биографии; узнаешь, где у формы «уже сделано» нет ge-.",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Встреча новых жителей в ратуше. Frau Schulz расспрашивает каждого.",
+      "Цель: рассказать о себе — год рождения, год приезда, учёба."
+     ],
+     "voice_ru": "В ратуше встреча новых жителей. Каждый коротко рассказывает о себе: когда родился, когда приехал, где учился. Годы по-немецки звучат необычно — сотнями.",
+     "hook": "Загадка урока: в gekommen есть ge-, а в bekommen и verstanden — нет. Почему?",
+     "anime_motif": "исекай: новичок впервые представляется совету гильдии (без цитат)",
+     "npc": "Frau Schulz — ратуша",
+     "more": "Тебя спросят о годе рождения, о приезде, об учёбе и о квартире. Слова курса — в конце.",
+     "goal": "После урока сможешь: коротко рассказать о себе — когда родился, когда приехал, где учился — и понять вопросы о биографии; узнаешь, где у формы «уже сделано» нет ge-."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch10_036",
+      "ch10_038",
+      "ch10_030"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Вспомни просьбы на кухне и утро перед записью. Что это значит?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch10_036",
+      "ch10_038",
+      "ch10_030"
+     ],
+     "type": "retrieval: вопрос, не перечитывание",
+     "note": "фразы уроков 3–4; сегодня снова прошлое — формы без ge-"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch10_044",
+      "ch10_045",
+      "ch10_046",
+      "ch10_047",
+      "ch10_048"
+     ],
+     "words": [
+      "Ich bin zweitausendzweiundzwanzig nach Deutschland gekommen.",
+      "Ich bin neunzehnhundertfünfundachtzig geboren.",
+      "Ich habe in Kiew studiert.",
+      "Haben Sie schon eine Wohnung bekommen?",
+      "Ja, ich habe alles verstanden."
+     ],
+     "words_ru": {
+      "Ich bin zweitausendzweiundzwanzig nach Deutschland gekommen.": "Я приехал в Германию в 2022 году. — с 2000 года год читают тысячами",
+      "Ich bin neunzehnhundertfünfundachtzig geboren.": "Я родился в 1985 году. — год читают сотнями",
+      "Ich habe in Kiew studiert.": "Я учился в университете в Киеве.",
+      "Haben Sie schon eine Wohnung bekommen?": "Вы уже получили квартиру?",
+      "Ja, ich habe alles verstanden.": "Да, я всё понял."
+     },
+     "trap": "1985 — не «тысяча девятьсот…»: немцы говорят neunzehnhundertfünfundachtzig — «девятнадцать сотен восемьдесят пять». Слова «год» в ответе нет.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch10_L5_words_1",
+      "ch10_L5_words_2",
+      "ch10_L5_words_3",
+      "ch10_L5_words_4",
+      "ch10_L5_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch10_d5",
+     "line_ids": [
+      "ch10_d5_01",
+      "ch10_d5_02",
+      "ch10_d5_03",
+      "ch10_d5_04",
+      "ch10_d5_05",
+      "ch10_d5_06",
+      "ch10_d5_07",
+      "ch10_d5_08",
+      "ch10_d5_09",
+      "ch10_d5_10"
+     ],
+     "halves": [
+      [
+       "ch10_d5_01",
+       "ch10_d5_02",
+       "ch10_d5_03",
+       "ch10_d5_04"
+      ],
+      [
+       "ch10_d5_05",
+       "ch10_d5_06",
+       "ch10_d5_07",
+       "ch10_d5_08",
+       "ch10_d5_09",
+       "ch10_d5_10"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "При регистрации по месту жительства ведомство записывает дату и место рождения — их спросят в анкете (Bundesmeldegesetz, § 3).",
+     "life_source": "Bundesmeldegesetz (BMG) § 3 Abs. 1 Nr. 6 (Geburtsdatum und Geburtsort) — gesetze-im-internet.de/bmg/__3.html",
+     "task_ids": [
+      "ch10_L5_listen_1",
+      "ch10_L5_listen_2",
+      "ch10_L5_listen_3",
+      "ch10_L5_listen_4",
+      "ch10_L5_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch10_046",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "У слов на -ieren ge- нет: studiert. У слов, которые начинаются на be-, er-, ver-, тоже нет: bekommen, verstanden.",
+     "screen": [
+      "studieren → studiert · без ge-",
+      "bekommen → bekommen · verstehen → verstanden · be-, er-, ver- не отрываются, ge- нет",
+      "сравни: ausfüllen → aus·ge·füllt — отрывается, ge- внутри"
+     ],
+     "answer_hook": "Ответ на загадку: be- и ver- не отрываются и места для ge- не оставляют — bekommen, verstanden. А в gekommen начала нет, и ge- стоит впереди.",
+     "kurs_term": "На курсе это называют Partizip II ohne ge- (Verben auf -ieren, Verben mit be-, er-, ver-).",
+     "second": {
+      "why_id": "ch10_045",
+      "voice_ru": "Год до 2000 читают сотнями: neunzehnhundert, потом fünfundachtzig. Слова «год» нет."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch10_L5_why_1",
+      "ch10_L5_why_2",
+      "ch10_L5_why_3",
+      "ch10_L5_why_4",
+      "ch10_L5_why_5"
+     ],
+     "no_story": true,
+     "examples_button": {
+      "label": "Ещё примеры",
+      "why_ids": [
+       "ch10_046"
+      ]
+     }
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch10_046",
+     "pieces": [
+      "studiert.",
+      "habe",
+      "Ich",
+      "in Kiew"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch10_d5_05",
+      "ch10_d5_06"
+     ],
+     "prompt": "Собери сам из знакомых кусков: расскажи о себе — «Я учился в университете в Киеве.» Вспомни, где стоит помощник и куда уезжает studiert.",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch10_046",
+     "transfer_task_ids": [
+      "ch10_L5_transfer_1"
+     ],
+     "task_ids": [
+      "ch10_L5_write_1",
+      "ch10_L5_write_2",
+      "ch10_L5_write_3",
+      "ch10_L5_write_4",
+      "ch10_L5_write_5",
+      "ch10_L5_read_1",
+      "ch10_L5_read_2",
+      "ch10_L5_read_3",
+      "ch10_L5_read_4",
+      "ch10_L5_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "studiert",
+     "ipa_sym": "iː",
+     "tip_ru": "У слов на -ieren ударение на -ier: stuDIERT. У be- и ver- начало слабое, ударение дальше: beKOMmen, verSTANden.",
+     "bridge_ru": "Сравни с уроком 3: AUSgefüllt — громко начало. А тут начало тихое: be-KOM-men, ver-STAN-den.",
+     "phrase_id": "ch10_046",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "studiert",
+       "ru": "штуДИРТ — ударение на -ier"
+      },
+      {
+       "de": "bekommen",
+       "ru": "бэКОМэн — be- тихо"
+      },
+      {
+       "de": "verstanden",
+       "ru": "фэрШТАНдэн — ver- тихо"
+      },
+      {
+       "de": "ausgefüllt",
+       "ru": "АУСгэфюльт — сравни: громко начало"
+      }
+     ],
+     "speak_task_ids": [
+      "ch10_L5_speak_1",
+      "ch10_L5_speak_2",
+      "ch10_L5_speak_3",
+      "ch10_L5_speak_4",
+      "ch10_L5_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Встреча новых жителей",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Frau Schulz (на «вы»)",
+     "turns": [
+      {
+       "prompt_id": "ch10_d5_01",
+       "prompt_de": "Wann sind Sie geboren?",
+       "prompt_audio": "audio_v1/ch10_d5_01.mp3",
+       "expected_id": "ch10_d5_02",
+       "expected_de": "Ich bin neunzehnhundertfünfundachtzig geboren.",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch10_d5_03",
+       "prompt_de": "Wann sind Sie nach Deutschland gekommen?",
+       "prompt_audio": "audio_v1/ch10_d5_03.mp3",
+       "expected_id": "ch10_d5_04",
+       "expected_de": "Ich bin zweitausendzweiundzwanzig nach Deutschland gekommen.",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch10_d5_05",
+       "prompt_de": "Haben Sie in der Ukraine studiert?",
+       "prompt_audio": "audio_v1/ch10_d5_05.mp3",
+       "expected_id": "ch10_d5_06",
+       "expected_de": "Ja, ich habe in Kiew studiert.",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch10_d5_09",
+       "prompt_de": "Haben Sie alles verstanden?",
+       "prompt_audio": "audio_v1/ch10_d5_09.mp3",
+       "expected_id": "ch10_d5_10",
+       "expected_de": "Ja, ich habe alles verstanden.",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Отвечай о себе: свой год рождения и год приезда. ИИ примет любой год, если он сказан сотнями или тысячами.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch10_d5_07",
+     "task_ru": "Соседка-новичок не поняла вопрос Frau Schulz «Haben Sie schon eine Wohnung bekommen?». Объясни ей по-русски.",
+     "expected_ru": "Вы уже получили квартиру?",
+     "hint_ru": "Haben Sie … bekommen — «вы получили …?»; schon — «уже»; eine Wohnung — «квартиру»",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch10_L5_dict_1",
+      "ch10_L5_dict_2",
+      "ch10_L5_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "eu и äu звучат одинаково — «ой»: Deutschland, neunzehn. äu пишут, когда в семье слова есть au (Haus → Häuser). studiert — ie, bekommen — mm."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch10_L5_transfer_2",
+      "ch10_L5_transfer_3",
+      "ch10_L5_transfer_4",
+      "ch10_L5_transfer_5",
+      "ch10_L5_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "На стенде «Willkommen» появилась твоя карточка: год рождения, год приезда, учёба.",
+      "Совет на завтра: скажи вслух свой год рождения сотнями и год приезда — тысячами."
+     ],
+     "npc_phrase_id": "ch10_d5_01",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: -ieren → без ge- (studiert) · be-, er-, ver- → без ge- (bekommen, verstanden) · годы до 2000 — сотнями, с 2000 — тысячами. Семья слов: kommen · gekommen · bekommen; stehen · aufgestanden · verstanden. К курсу: стр. 181 — Neubürger/innen stellen sich vor: Kurzvorstellung, Biografie, Jahreszahlen.",
+     "next_hook": "Дальше: контрольная главы — проверь всё, что умеешь говорить о прошлом.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       181
+      ],
+      "phrases_ids": [
+       "ch10_049",
+       "ch10_050",
+       "ch10_051"
+      ],
+      "note": "к курсу: стр. 181 — новые жители коротко рассказывают о себе (Kurzvorstellung): год рождения, район, работа; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch10_049",
+       "picture": "зал ратуши: стенд «Willkommen, Neubürger!», карта города с районами, бейджи с именами",
+       "words": [
+        {
+         "de": "der Neubürger",
+         "ru": "новый житель"
+        },
+        {
+         "de": "die Neubürgerin",
+         "ru": "новая жительница"
+        },
+        {
+         "de": "das Geburtsjahr",
+         "ru": "год рождения"
+        },
+        {
+         "de": "die Jahreszahl",
+         "ru": "число года"
+        },
+        {
+         "de": "die Nachbarn",
+         "ru": "соседи"
+        },
+        {
+         "de": "das Viertel",
+         "ru": "район"
+        }
+       ],
+       "note": "эти слова есть на стр. 181; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch10_L5_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch10_049",
+        "prompt": "Слова курса. Послушай. Что значит «Geburtsjahr»?",
+        "answer": "год рождения",
+        "distractors": [
+         "день рождения",
+         "место рождения"
+        ],
+        "src": "Linie 1, стр. 181"
+       },
+       {
+        "id": "ch10_L5_kurs_2",
+        "skill": "listen",
+        "phraseId": "ch10_049",
+        "prompt": "Слова курса. Послушай. Что значит «Viertel»?",
+        "answer": "район",
+        "distractors": [
+         "улица",
+         "соседи"
+        ],
+        "src": "Linie 1, стр. 181"
+       },
+       {
+        "id": "ch10_L5_kurs_3",
+        "skill": "listen",
+        "phraseId": "ch10_050",
+        "prompt": "Слова курса. Послушай. Что значит «Krankenschwester»?",
+        "answer": "медсестра",
+        "distractors": [
+         "врач",
+         "сестра"
+        ],
+        "src": "Linie 1, стр. 181"
+       },
+       {
+        "id": "ch10_L5_kurs_4",
+        "skill": "listen",
+        "phraseId": "ch10_050",
+        "prompt": "Слова курса. Послушай. Что значит «Läden»?",
+        "answer": "магазины",
+        "distractors": [
+         "кафе",
+         "парки"
+        ],
+        "src": "Linie 1, стр. 181"
+       },
+       {
+        "id": "ch10_L5_kurs_5",
+        "skill": "listen",
+        "phraseId": "ch10_051",
+        "prompt": "Слова курса. Послушай. Что значит «Zoll»?",
+        "answer": "таможня",
+        "distractors": [
+         "налог",
+         "банк"
+        ],
+        "src": "Linie 1, стр. 181"
+       }
+      ]
+     },
+     "kurs_pages": [
+      181
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch10.py",
+  "new_words": [
+   "Ich bin zweitausendzweiundzwanzig nach Deutschland gekommen.",
+   "Ich bin neunzehnhundertfünfundachtzig geboren.",
+   "Ich habe in Kiew studiert.",
+   "Haben Sie schon eine Wohnung bekommen?",
+   "Ja, ich habe alles verstanden."
+  ],
+  "known_before": [
+   "Ich bin gekommen.",
+   "Ich habe gearbeitet.",
+   "Wann …?",
+   "Sie — на «вы»",
+   "noch kein"
+  ],
+  "transfer_phrase_ids": [
+   "ch10_t09",
+   "ch10_t10"
+  ],
+  "built_phrase_ids": [
+   "ch10_046"
+  ],
+  "quiz_ids": [
+   "ch10_L5_words_1",
+   "ch10_L5_words_2",
+   "ch10_L5_words_3",
+   "ch10_L5_words_4",
+   "ch10_L5_words_5",
+   "ch10_L5_listen_1",
+   "ch10_L5_listen_2",
+   "ch10_L5_listen_3",
+   "ch10_L5_listen_4",
+   "ch10_L5_listen_5",
+   "ch10_L5_read_1",
+   "ch10_L5_read_2",
+   "ch10_L5_read_3",
+   "ch10_L5_read_4",
+   "ch10_L5_read_5",
+   "ch10_L5_speak_1",
+   "ch10_L5_speak_2",
+   "ch10_L5_speak_3",
+   "ch10_L5_speak_4",
+   "ch10_L5_speak_5",
+   "ch10_L5_write_1",
+   "ch10_L5_write_2",
+   "ch10_L5_write_3",
+   "ch10_L5_write_4",
+   "ch10_L5_write_5",
+   "ch10_L5_why_1",
+   "ch10_L5_why_2",
+   "ch10_L5_why_3",
+   "ch10_L5_why_4",
+   "ch10_L5_why_5",
+   "ch10_L5_transfer_1",
+   "ch10_L5_transfer_2",
+   "ch10_L5_transfer_3",
+   "ch10_L5_transfer_4",
+   "ch10_L5_transfer_5",
+   "ch10_L5_boss_1"
+  ],
+  "dictation_ids": [
+   "ch10_L5_dict_1",
+   "ch10_L5_dict_2",
+   "ch10_L5_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Встреча новых жителей в ратуше. Frau Schulz расспрашивает каждого. Цель: рассказать о себе — год рождения, год приезда, учёба. Загадка урока: в gekommen есть ge-, а в bekommen и verstanden — нет. Почему?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Встреча новых жителей",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой на встрече новых жителей (ИИ — Frau Schulz)",
+   "situation": "neubuerger_treffen",
+   "ai_plays": "Frau Schulz (на «вы»)",
+   "phrases": [
+    "ch10_d5_02",
+    "ch10_d5_04",
+    "ch10_d5_06",
+    "ch10_d5_10"
+   ]
+  },
+  "outro": "На стенде «Willkommen» появилась твоя карточка: год рождения, год приезда, учёба. Совет на завтра: скажи вслух свой год рождения сотнями и год приезда — тысячами. Дальше: контрольная главы — проверь всё, что умеешь говорить о прошлом.",
+  "detail_de_life": "При регистрации по месту жительства ведомство записывает дату и место рождения — их спросят в анкете (Bundesmeldegesetz, § 3).",
+  "detail_de_life_source": "Bundesmeldegesetz (BMG) § 3 Abs. 1 Nr. 6 (Geburtsdatum und Geburtsort) — gesetze-im-internet.de/bmg/__3.html",
+  "task_ids": {
+   "words": [
+    "ch10_L5_words_1",
+    "ch10_L5_words_2",
+    "ch10_L5_words_3",
+    "ch10_L5_words_4",
+    "ch10_L5_words_5"
+   ],
+   "listen": [
+    "ch10_L5_listen_1",
+    "ch10_L5_listen_2",
+    "ch10_L5_listen_3",
+    "ch10_L5_listen_4",
+    "ch10_L5_listen_5"
+   ],
+   "read": [
+    "ch10_L5_read_1",
+    "ch10_L5_read_2",
+    "ch10_L5_read_3",
+    "ch10_L5_read_4",
+    "ch10_L5_read_5"
+   ],
+   "speak": [
+    "ch10_L5_speak_1",
+    "ch10_L5_speak_2",
+    "ch10_L5_speak_3",
+    "ch10_L5_speak_4",
+    "ch10_L5_speak_5"
+   ],
+   "write": [
+    "ch10_L5_write_1",
+    "ch10_L5_write_2",
+    "ch10_L5_write_3",
+    "ch10_L5_write_4",
+    "ch10_L5_write_5"
+   ],
+   "why": [
+    "ch10_L5_why_1",
+    "ch10_L5_why_2",
+    "ch10_L5_why_3",
+    "ch10_L5_why_4",
+    "ch10_L5_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch10_L5_transfer_1",
+   "ch10_L5_transfer_2",
+   "ch10_L5_transfer_3",
+   "ch10_L5_transfer_4",
+   "ch10_L5_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch10_036",
+   "ch10_038",
+   "ch10_030"
+  ],
+  "dialog_ids": [
+   "ch10_d5"
+  ],
+  "video": "video/ch10_L5.mp4"
+ },
+ {
+  "id": "ch10_L6",
+  "title": "Mein Deutsch nach Kapitel 10. Повтор: что ты уже сделал",
+  "pages_linie1": {
+   "pages": [
+    174,
+    176,
+    177,
+    178,
+    180,
+    188,
+    189
+   ],
+   "sections": [
+    "Mein Deutsch nach Kapitel 10"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch10_052",
+   "ch10_053",
+   "ch10_054",
+   "ch10_055",
+   "ch10_056"
+  ],
+  "why_ids": [
+   "ch10_055",
+   "ch10_053"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch10_d6",
+    "line_ids": [
+     "ch10_d6_01",
+     "ch10_d6_02",
+     "ch10_d6_03",
+     "ch10_d6_04",
+     "ch10_d6_05",
+     "ch10_d6_06",
+     "ch10_d6_07"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Вспомни встречу в ратуше. Что это значит?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch10_d6",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch10_d6_01",
+        "ch10_d6_02",
+        "ch10_d6_03",
+        "ch10_d6_04"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch10_d6",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Звук: послушай schneiden — geschnitten, verstehen — verstanden и повтори",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch10_052",
+        "ch10_053",
+        "ch10_055",
+        "ch10_056"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Звук: послушай schneiden — geschnitten, verstehen — verstanden и повтори — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "«не понял» ↔ nicht … verstanden — nicht перед последним вагоном; итог главы одной таблицей; терминов нет, слово курса — одной строкой",
+   "как слышу, так и пишу": "geschnitten — короткое «и» и tt; au/äu/eu — слова стр. 188",
+   "учебник непонятен": "из Linie 1 — только темы и страницы; подача своя",
+   "село, живой немецкий — Netto": "сцена — пятница, разговор с подругой о первой неделе работы",
+   "любит аниме": "завязка — конец первой арки, отчёт перед гильдией",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин, лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Nein, ich habe den Koch nicht verstanden.; перенос — Ich habe Olga nicht verstanden. и Was hast du in Dresden gemacht?",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    174,
+    176,
+    177,
+    178,
+    180,
+    188
+   ],
+   "phrases_ids": [
+    "ch10_057",
+    "ch10_058",
+    "ch10_059",
+    "ch10_060",
+    "ch10_061",
+    "ch10_062"
+   ],
+   "note": "к курсу: остальные слова главы 10 — портреты новичков (176), опыт работы (177), отдел кадров (178), анкета (180), слова с au/äu/eu (188); узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch10_057",
+    "picture": "доска объявлений в ратуше: вакансии, расписание курса, бланк регистрации, статья о новичках",
+    "words": [
+     {
+      "de": "die Bewerbung",
+      "ru": "заявление о приёме на работу"
+     },
+     {
+      "de": "das Bewerbungsgespräch",
+      "ru": "собеседование"
+     },
+     {
+      "de": "die Stelle",
+      "ru": "место работы"
+     },
+     {
+      "de": "der Vertrag",
+      "ru": "договор"
+     },
+     {
+      "de": "die Anmeldung",
+      "ru": "регистрация"
+     },
+     {
+      "de": "der Vorname",
+      "ru": "имя"
+     },
+     {
+      "de": "der Familienstand",
+      "ru": "семейное положение"
+     },
+     {
+      "de": "der Verkäufer",
+      "ru": "продавец"
+     }
+    ],
+    "note": "эти слова есть на стр. 174–188; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch10_L6_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch10_057",
+     "prompt": "Слова курса. Послушай. Что значит «Bewerbungsgespräch»?",
+     "answer": "собеседование",
+     "distractors": [
+      "заявление",
+      "аттестат"
+     ],
+     "src": "Linie 1, стр. 176"
+    },
+    {
+     "id": "ch10_L6_kurs_2",
+     "skill": "listen",
+     "phraseId": "ch10_058",
+     "prompt": "Слова курса. Послушай. Что значит «Kantine»?",
+     "answer": "столовая",
+     "distractors": [
+      "кухня",
+      "автовокзал"
+     ],
+     "src": "Linie 1, стр. 176"
+    },
+    {
+     "id": "ch10_L6_kurs_3",
+     "skill": "listen",
+     "phraseId": "ch10_059",
+     "prompt": "Слова курса. Послушай. Что значит «Überschrift»?",
+     "answer": "заголовок",
+     "distractors": [
+      "подпись",
+      "абзац"
+     ],
+     "src": "Linie 1, стр. 176"
+    },
+    {
+     "id": "ch10_L6_kurs_4",
+     "skill": "listen",
+     "phraseId": "ch10_060",
+     "prompt": "Слова курса. Послушай. Что значит «Vertrag»?",
+     "answer": "договор",
+     "distractors": [
+      "подпись",
+      "почта"
+     ],
+     "src": "Linie 1, стр. 178"
+    },
+    {
+     "id": "ch10_L6_kurs_5",
+     "skill": "listen",
+     "phraseId": "ch10_061",
+     "prompt": "Слова курса. Послушай. Что значит «Familienstand»?",
+     "answer": "семейное положение",
+     "distractors": [
+      "фамилия",
+      "гражданство"
+     ],
+     "src": "Linie 1, стр. 180"
+    },
+    {
+     "id": "ch10_L6_kurs_6",
+     "skill": "listen",
+     "phraseId": "ch10_062",
+     "prompt": "Слова курса. Послушай. Что значит «Verkäufer»?",
+     "answer": "продавец",
+     "distractors": [
+      "покупатель",
+      "повар"
+     ],
+     "src": "Linie 1, стр. 188"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Ратуша: на доске новичков у героя загорелись все шесть отметок главы",
+   "npc": "Olga — одногруппница (на «ты»)"
+  },
+  "covers": [
+   "L1-10-REVIEW",
+   "B10.5"
+  ],
+  "covers_partial": [],
+  "covers_note": {
+   "L1-10-REVIEW": "Mein Deutsch nach Kapitel 10: повтор главы — прошлое с habe/bin (уроки 1–2), приставка + ge- (урок 3), просьбы на кухне (урок 4), формы без ge- (урок 5); проверка — босс и диктант",
+   "B10.5": "Nicht: перед последней частью глагола — Ich habe den Koch nicht verstanden (часть 5, задание «почему», перенос Ich habe Olga nicht verstanden); раньше — noch nicht ausgefüllt (урок 3)"
+  },
+  "goal": "После урока сможешь: рассказать другу о своей неделе в прошлом (делал, понял, получил), сказать, чего не понял — с nicht перед последним вагоном, и проверить себя по всей главе.",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Пятница. Ольга спрашивает, как прошла твоя первая неделя.",
+      "Цель: рассказать о неделе в прошлом и сказать, чего ты не понял."
+     ],
+     "voice_ru": "Глава 10 подходит к концу. Ты приехал, заполнил анкету, начал работать на кухне и получил квартиру. Ольга спрашивает, как прошла неделя. Расскажи ей.",
+     "hook": "Загадка урока: «я не понял повара» — где по-немецки встанет nicht: в начале, в середине или в конце?",
+     "anime_motif": "исекай: конец первой арки — новичок отчитывается перед гильдией (без цитат)",
+     "npc": "Olga — одногруппница",
+     "more": "Ольга спросит про кухню, про анкету и про квартиру. В конце — слова курса со всей главы и контрольная (босс).",
+     "goal": "После урока сможешь: рассказать другу о своей неделе в прошлом (делал, понял, получил), сказать, чего не понял — с nicht перед последним вагоном, и проверить себя по всей главе."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch10_046",
+      "ch10_047",
+      "ch10_048"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Вспомни встречу в ратуше. Что это значит?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch10_046",
+      "ch10_047",
+      "ch10_048"
+     ],
+     "type": "retrieval: вопрос, не перечитывание",
+     "note": "фразы урока 5; сегодня — вся глава"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch10_052",
+      "ch10_053",
+      "ch10_054",
+      "ch10_055",
+      "ch10_056"
+     ],
+     "words": [
+      "Was hast du in der Küche gemacht?",
+      "Ich habe Gemüse geschnitten.",
+      "Hast du alles verstanden?",
+      "Nein, ich habe den Koch nicht verstanden.",
+      "Ja, und ich habe die Wohnung bekommen!"
+     ],
+     "words_ru": {
+      "Was hast du in der Küche gemacht?": "Что ты делал на кухне?",
+      "Ich habe Gemüse geschnitten.": "Я резал овощи. — schneiden → geschnitten",
+      "Hast du alles verstanden?": "Ты всё понял?",
+      "Nein, ich habe den Koch nicht verstanden.": "Нет, я не понял повара.",
+      "Ja, und ich habe die Wohnung bekommen!": "Да, и я получил квартиру!"
+     },
+     "trap": "По-русски «не» стоит перед «понял». По-немецки nicht тоже перед «понял», но «понял» — в самом конце: den Koch nicht verstanden.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch10_L6_words_1",
+      "ch10_L6_words_2",
+      "ch10_L6_words_3",
+      "ch10_L6_words_4",
+      "ch10_L6_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch10_d6",
+     "line_ids": [
+      "ch10_d6_01",
+      "ch10_d6_02",
+      "ch10_d6_03",
+      "ch10_d6_04",
+      "ch10_d6_05",
+      "ch10_d6_06",
+      "ch10_d6_07"
+     ],
+     "halves": [
+      [
+       "ch10_d6_01",
+       "ch10_d6_02",
+       "ch10_d6_03",
+       "ch10_d6_04"
+      ],
+      [
+       "ch10_d6_05",
+       "ch10_d6_06",
+       "ch10_d6_07"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "Главные условия работы работодатель в Германии обязан выдать письменно; часть из них — не позже первого рабочего дня (Nachweisgesetz, § 2).",
+     "life_source": "Nachweisgesetz (NachwG) § 2 Abs. 1 — gesetze-im-internet.de/nachwg/__2.html",
+     "task_ids": [
+      "ch10_L6_listen_1",
+      "ch10_L6_listen_2",
+      "ch10_L6_listen_3",
+      "ch10_L6_listen_4",
+      "ch10_L6_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch10_055",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "nicht отрицает всё действие и встаёт перед последним вагоном: Ich habe den Koch nicht verstanden.",
+     "screen": [
+      "Ich habe den Koch · nicht · verstanden. — nicht перед последним вагоном",
+      "Ich habe das Formular noch · nicht · ausgefüllt. — так же (урок 3)",
+      "Итог главы: gemacht · ausgefüllt · verstanden · geschnitten — форма «уже сделано» всегда в конце"
+     ],
+     "answer_hook": "Ответ на загадку: nicht встаёт в середину — после den Koch, прямо перед последним вагоном verstanden.",
+     "kurs_term": "На курсе: Negation mit nicht im Perfekt — nicht vor dem Partizip.",
+     "second": {
+      "why_id": "ch10_053",
+      "voice_ru": "schneiden → geschnitten: форма с памятью. ge- впереди, ei стало i, на конце -en. Учим во фразе."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch10_L6_why_1",
+      "ch10_L6_why_2",
+      "ch10_L6_why_3",
+      "ch10_L6_why_4",
+      "ch10_L6_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch10_055",
+     "pieces": [
+      "verstanden.",
+      "nicht",
+      "den Koch",
+      "habe",
+      "ich",
+      "Nein,"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch10_d6_03",
+      "ch10_d6_04"
+     ],
+     "prompt": "Собери сам из знакомых кусков: скажи Ольге «Нет, я не понял повара.» Вспомни, где стоит nicht.",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch10_055",
+     "transfer_task_ids": [
+      "ch10_L6_transfer_1"
+     ],
+     "task_ids": [
+      "ch10_L6_write_1",
+      "ch10_L6_write_2",
+      "ch10_L6_write_3",
+      "ch10_L6_write_4",
+      "ch10_L6_write_5",
+      "ch10_L6_read_1",
+      "ch10_L6_read_2",
+      "ch10_L6_read_3",
+      "ch10_L6_read_4",
+      "ch10_L6_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "geschnitten",
+     "ipa_sym": "ɪ",
+     "tip_ru": "В geschnitten «и» короткое, за ним tt: гэ-ШНИТ-тэн. В schneiden слышно ШНАЙ-дэн.",
+     "bridge_ru": "Скажи пару подряд: schneiden — «шнайдэн», geschnitten — «гэшнитэн». Звук «ай» сжался в короткое «и».",
+     "phrase_id": "ch10_053",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "schneiden",
+       "ru": "ШНАЙдэн"
+      },
+      {
+       "de": "geschnitten",
+       "ru": "гэШНИТэн — короткое «и»"
+      },
+      {
+       "de": "verstehen",
+       "ru": "фэрШТЭэн"
+      },
+      {
+       "de": "verstanden",
+       "ru": "фэрШТАНдэн"
+      }
+     ],
+     "speak_task_ids": [
+      "ch10_L6_speak_1",
+      "ch10_L6_speak_2",
+      "ch10_L6_speak_3",
+      "ch10_L6_speak_4",
+      "ch10_L6_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Пятница с Ольгой",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Olga (на «ты»)",
+     "turns": [
+      {
+       "prompt_id": "ch10_d6_01",
+       "prompt_de": "Was hast du in der Küche gemacht?",
+       "prompt_audio": "audio_v1/ch10_d6_01.mp3",
+       "expected_id": "ch10_d6_02",
+       "expected_de": "Ich habe Gemüse geschnitten.",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch10_d6_03",
+       "prompt_de": "Hast du alles verstanden?",
+       "prompt_audio": "audio_v1/ch10_d6_03.mp3",
+       "expected_id": "ch10_d6_04",
+       "expected_de": "Nein, ich habe den Koch nicht verstanden.",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch10_d6_05",
+       "prompt_de": "Hast du das Formular schon ausgefüllt?",
+       "prompt_audio": "audio_v1/ch10_d6_05.mp3",
+       "expected_id": "ch10_d6_06",
+       "expected_de": "Ja, und ich habe die Wohnung bekommen!",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Рассказывай о своей неделе. Не понял что-то — скажи с nicht перед последним вагоном.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch10_055",
+     "task_ru": "Новичок слышит, как ты говоришь Ольге «Nein, ich habe den Koch nicht verstanden.», и спрашивает, в чём дело. Объясни ему по-русски.",
+     "expected_ru": "Нет, я не понял повара.",
+     "hint_ru": "den Koch — «повара»; nicht verstanden — «не понял»",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch10_L6_dict_1",
+      "ch10_L6_dict_2",
+      "ch10_L6_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "geschnitten — tt; Küche — ü; Koch, Gemüse, Küche — с большой буквы; nicht — с маленькой."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch10_L6_transfer_2",
+      "ch10_L6_transfer_3",
+      "ch10_L6_transfer_4",
+      "ch10_L6_transfer_5",
+      "ch10_L6_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Все шесть отметок главы 10 горят: приехал, работал, заполнил, понял просьбы, рассказал о себе, повторил.",
+      "Совет на завтра: перед сном скажи три фразы о своём дне в прошлом: Ich habe … gemacht."
+     ],
+     "npc_phrase_id": "ch10_d6_01",
+     "coins": 15,
+     "more": "В «Мой немецкий блокнот»: nicht — перед последним вагоном (den Koch nicht verstanden) · форма «уже сделано»: ge-…-t (gemacht), с памятью (geschnitten), aus·ge·füllt, без ge- (verstanden, studiert) · помощник: переместился — bin, остальное — habe. К курсу: стр. 189 — Mein Deutsch nach Kapitel 10.",
+     "next_hook": "Дальше: глава 11 — новые встречи и новые слова.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       174,
+       176,
+       177,
+       178,
+       180,
+       188
+      ],
+      "phrases_ids": [
+       "ch10_057",
+       "ch10_058",
+       "ch10_059",
+       "ch10_060",
+       "ch10_061",
+       "ch10_062"
+      ],
+      "note": "к курсу: остальные слова главы 10 — портреты новичков (176), опыт работы (177), отдел кадров (178), анкета (180), слова с au/äu/eu (188); узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch10_057",
+       "picture": "доска объявлений в ратуше: вакансии, расписание курса, бланк регистрации, статья о новичках",
+       "words": [
+        {
+         "de": "die Bewerbung",
+         "ru": "заявление о приёме на работу"
+        },
+        {
+         "de": "das Bewerbungsgespräch",
+         "ru": "собеседование"
+        },
+        {
+         "de": "die Stelle",
+         "ru": "место работы"
+        },
+        {
+         "de": "der Vertrag",
+         "ru": "договор"
+        },
+        {
+         "de": "die Anmeldung",
+         "ru": "регистрация"
+        },
+        {
+         "de": "der Vorname",
+         "ru": "имя"
+        },
+        {
+         "de": "der Familienstand",
+         "ru": "семейное положение"
+        },
+        {
+         "de": "der Verkäufer",
+         "ru": "продавец"
+        }
+       ],
+       "note": "эти слова есть на стр. 174–188; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch10_L6_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch10_057",
+        "prompt": "Слова курса. Послушай. Что значит «Bewerbungsgespräch»?",
+        "answer": "собеседование",
+        "distractors": [
+         "заявление",
+         "аттестат"
+        ],
+        "src": "Linie 1, стр. 176"
+       },
+       {
+        "id": "ch10_L6_kurs_2",
+        "skill": "listen",
+        "phraseId": "ch10_058",
+        "prompt": "Слова курса. Послушай. Что значит «Kantine»?",
+        "answer": "столовая",
+        "distractors": [
+         "кухня",
+         "автовокзал"
+        ],
+        "src": "Linie 1, стр. 176"
+       },
+       {
+        "id": "ch10_L6_kurs_3",
+        "skill": "listen",
+        "phraseId": "ch10_059",
+        "prompt": "Слова курса. Послушай. Что значит «Überschrift»?",
+        "answer": "заголовок",
+        "distractors": [
+         "подпись",
+         "абзац"
+        ],
+        "src": "Linie 1, стр. 176"
+       },
+       {
+        "id": "ch10_L6_kurs_4",
+        "skill": "listen",
+        "phraseId": "ch10_060",
+        "prompt": "Слова курса. Послушай. Что значит «Vertrag»?",
+        "answer": "договор",
+        "distractors": [
+         "подпись",
+         "почта"
+        ],
+        "src": "Linie 1, стр. 178"
+       },
+       {
+        "id": "ch10_L6_kurs_5",
+        "skill": "listen",
+        "phraseId": "ch10_061",
+        "prompt": "Слова курса. Послушай. Что значит «Familienstand»?",
+        "answer": "семейное положение",
+        "distractors": [
+         "фамилия",
+         "гражданство"
+        ],
+        "src": "Linie 1, стр. 180"
+       },
+       {
+        "id": "ch10_L6_kurs_6",
+        "skill": "listen",
+        "phraseId": "ch10_062",
+        "prompt": "Слова курса. Послушай. Что значит «Verkäufer»?",
+        "answer": "продавец",
+        "distractors": [
+         "покупатель",
+         "повар"
+        ],
+        "src": "Linie 1, стр. 188"
+       }
+      ]
+     },
+     "kurs_pages": [
+      174,
+      176,
+      177,
+      178,
+      180,
+      188
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch10.py",
+  "new_words": [
+   "Was hast du in der Küche gemacht?",
+   "Ich habe Gemüse geschnitten.",
+   "Hast du alles verstanden?",
+   "Nein, ich habe den Koch nicht verstanden.",
+   "Ja, und ich habe die Wohnung bekommen!"
+  ],
+  "known_before": [
+   "Ich bin gekommen.",
+   "Hast du das Formular ausgefüllt?",
+   "Schneiden Sie bitte das Gemüse.",
+   "Ja, ich habe alles verstanden.",
+   "Haben Sie schon eine Wohnung bekommen?"
+  ],
+  "transfer_phrase_ids": [
+   "ch10_t11",
+   "ch10_t12"
+  ],
+  "built_phrase_ids": [
+   "ch10_055"
+  ],
+  "quiz_ids": [
+   "ch10_L6_words_1",
+   "ch10_L6_words_2",
+   "ch10_L6_words_3",
+   "ch10_L6_words_4",
+   "ch10_L6_words_5",
+   "ch10_L6_listen_1",
+   "ch10_L6_listen_2",
+   "ch10_L6_listen_3",
+   "ch10_L6_listen_4",
+   "ch10_L6_listen_5",
+   "ch10_L6_read_1",
+   "ch10_L6_read_2",
+   "ch10_L6_read_3",
+   "ch10_L6_read_4",
+   "ch10_L6_read_5",
+   "ch10_L6_speak_1",
+   "ch10_L6_speak_2",
+   "ch10_L6_speak_3",
+   "ch10_L6_speak_4",
+   "ch10_L6_speak_5",
+   "ch10_L6_write_1",
+   "ch10_L6_write_2",
+   "ch10_L6_write_3",
+   "ch10_L6_write_4",
+   "ch10_L6_write_5",
+   "ch10_L6_why_1",
+   "ch10_L6_why_2",
+   "ch10_L6_why_3",
+   "ch10_L6_why_4",
+   "ch10_L6_why_5",
+   "ch10_L6_transfer_1",
+   "ch10_L6_transfer_2",
+   "ch10_L6_transfer_3",
+   "ch10_L6_transfer_4",
+   "ch10_L6_transfer_5",
+   "ch10_L6_boss_1"
+  ],
+  "dictation_ids": [
+   "ch10_L6_dict_1",
+   "ch10_L6_dict_2",
+   "ch10_L6_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Пятница. Ольга спрашивает, как прошла твоя первая неделя. Цель: рассказать о неделе в прошлом и сказать, чего ты не понял. Загадка урока: «я не понял повара» — где по-немецки встанет nicht: в начале, в середине или в конце?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Пятница с Ольгой",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой рассказывает Ольге о неделе (ИИ — Ольга)",
+   "situation": "woche_rueckblick",
+   "ai_plays": "Olga (на «ты»)",
+   "phrases": [
+    "ch10_d6_02",
+    "ch10_d6_04",
+    "ch10_d6_06"
+   ]
+  },
+  "outro": "Все шесть отметок главы 10 горят: приехал, работал, заполнил, понял просьбы, рассказал о себе, повторил. Совет на завтра: перед сном скажи три фразы о своём дне в прошлом: Ich habe … gemacht. Дальше: глава 11 — новые встречи и новые слова.",
+  "detail_de_life": "Главные условия работы работодатель в Германии обязан выдать письменно; часть из них — не позже первого рабочего дня (Nachweisgesetz, § 2).",
+  "detail_de_life_source": "Nachweisgesetz (NachwG) § 2 Abs. 1 — gesetze-im-internet.de/nachwg/__2.html",
+  "task_ids": {
+   "words": [
+    "ch10_L6_words_1",
+    "ch10_L6_words_2",
+    "ch10_L6_words_3",
+    "ch10_L6_words_4",
+    "ch10_L6_words_5"
+   ],
+   "listen": [
+    "ch10_L6_listen_1",
+    "ch10_L6_listen_2",
+    "ch10_L6_listen_3",
+    "ch10_L6_listen_4",
+    "ch10_L6_listen_5"
+   ],
+   "read": [
+    "ch10_L6_read_1",
+    "ch10_L6_read_2",
+    "ch10_L6_read_3",
+    "ch10_L6_read_4",
+    "ch10_L6_read_5"
+   ],
+   "speak": [
+    "ch10_L6_speak_1",
+    "ch10_L6_speak_2",
+    "ch10_L6_speak_3",
+    "ch10_L6_speak_4",
+    "ch10_L6_speak_5"
+   ],
+   "write": [
+    "ch10_L6_write_1",
+    "ch10_L6_write_2",
+    "ch10_L6_write_3",
+    "ch10_L6_write_4",
+    "ch10_L6_write_5"
+   ],
+   "why": [
+    "ch10_L6_why_1",
+    "ch10_L6_why_2",
+    "ch10_L6_why_3",
+    "ch10_L6_why_4",
+    "ch10_L6_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch10_L6_transfer_1",
+   "ch10_L6_transfer_2",
+   "ch10_L6_transfer_3",
+   "ch10_L6_transfer_4",
+   "ch10_L6_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch10_046",
+   "ch10_047",
+   "ch10_048"
+  ],
+  "dialog_ids": [
+   "ch10_d6"
+  ],
+  "video": "video/ch10_L6.mp4"
+ }
+]

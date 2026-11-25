@@ -1,0 +1,4530 @@
+[
+ {
+  "id": "ch06_d1",
+  "title_ru": "Перемена: кто голоден?",
+  "roles": {
+   "O": "Olga (одногруппница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch06_d1_01",
+    "role": "O",
+    "de": "Hast du Hunger?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ты голоден?",
+    "nouns": [
+     {
+      "lemma": "Hunger",
+      "art": "der",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hast",
+       "role": "действие №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "Hunger",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Голод по-немецки «имеют»: hast du Hunger — «имеешь ли ты голод». Действие hast впереди — вопрос «да/нет».",
+     "topic": "questions",
+     "why_de": "Действие впереди (Hast) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Hast du Hunger?",
+     "why_ru": "По-русски «Ты голоден» — вопрос только голосом, порядок как в ответе. По-немецки действие Hast выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Du hast Hunger?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Ты голоден?!»). Обычный вопрос — действие впереди."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Голод по-немецки «имеют»: hast du Hunger — «имеешь ли ты голод». Действие hast впереди — вопрос «да/нет».",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "действие (вагон №1) · «кто» · «что»",
+      "items": [
+       {
+        "id": "ch06_009",
+        "de": "Hast du WhatsApp?",
+        "ru": "У тебя есть WhatsApp?",
+        "audio": "audio_v1/ch06_009.mp3",
+        "lesson": "L1",
+        "part": 2,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "Hunger",
+         "to": "WhatsApp"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Hast · du. В каждом примере меняется один вагон — «что»: Hunger → WhatsApp. Действие Hast всё так же в вагоне №1.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch06_d1_01.mp3",
+    "tts": "Hast du Hunger?",
+    "ipa": [
+     {
+      "w": "Hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Hunger",
+      "ipa": "[ˈhʊŋɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): H… · кто: d… · кого-что: H…",
+    "gap": {
+     "text": "___ du ___?",
+     "answers": [
+      "Hast",
+      "Hunger"
+     ]
+    },
+    "task_ru": "Скажи: Ты голоден?"
+   },
+   {
+    "id": "ch06_d1_02",
+    "role": "H",
+    "de": "Ja, ich habe Hunger.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, я голоден.",
+    "nouns": [
+     {
+      "lemma": "Hunger",
+      "art": "der",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "действие №2"
+      },
+      {
+       "w": "Hunger",
+       "role": "кого-что"
+      }
+     ],
+     "text": "ja не занимает вагон. ich habe Hunger — «я имею голод».",
+     "topic": "verb2",
+     "why_de": "ich · habe · Hunger: действие habe — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Да, я голоден» — другая конструкция: по-немецки дословно — иметь голод: habe Hunger. Ja, ich habe Hunger. Действие habe держит вагон №2.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ja, ich Hunger.",
+      "ru": "Русская привычка — без действия, как «Да, я голоден». Без habe немец слышит обрывок, а не фразу."
+     },
+     "root": null,
+     "why_voice_ru": "ja не занимает вагон. ich habe Hunger — «я имею голод».",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «что»",
+      "items": [
+       {
+        "id": "ch06_010",
+        "de": "Ja, ich habe WhatsApp.",
+        "ru": "Да, у меня есть WhatsApp.",
+        "audio": "audio_v1/ch06_010.mp3",
+        "lesson": "L1",
+        "part": 2,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "Hunger",
+         "to": "WhatsApp"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: ich · habe. В каждом примере меняется один вагон — «что»: Hunger → WhatsApp. Действие habe всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch06_d1_02.mp3",
+    "tts": "Ja, ich habe Hunger.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Hunger",
+      "ipa": "[ˈhʊŋɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: i… · действие (вагон №2): h… · кого-что: H…",
+    "gap": {
+     "text": "Ja, ich ___ ___.",
+     "answers": [
+      "habe",
+      "Hunger"
+     ]
+    },
+    "task_ru": "Скажи: Да, я голоден."
+   },
+   {
+    "id": "ch06_d1_03",
+    "role": "O",
+    "de": "Hast du auch Durst?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А пить ты тоже хочешь?",
+    "nouns": [
+     {
+      "lemma": "Durst",
+      "art": "der",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hast",
+       "role": "действие №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "auch",
+       "role": "добавка"
+      },
+      {
+       "w": "Durst",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Жажду тоже «имеют»: hast du Durst — «имеешь ли ты жажду». auch — «тоже».",
+     "topic": "questions",
+     "why_de": "Действие впереди (Hast) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Hast du auch Durst?",
+     "why_ru": "По-русски «А пить ты тоже хочешь» — вопрос только голосом, порядок как в ответе. По-немецки действие Hast выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Du hast auch Durst?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («А пить ты тоже хочешь?!»). Обычный вопрос — действие впереди."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Жажду тоже «имеют»: hast du Durst — «имеешь ли ты жажду». auch — «тоже»."
+    },
+    "audio": "audio_v1/ch06_d1_03.mp3",
+    "tts": "Hast du auch Durst?",
+    "ipa": [
+     {
+      "w": "Hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "auch",
+      "ipa": "[aʊ̯x]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Durst",
+      "ipa": "[dʊʁst]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): H… · кто: d… · добавка: a… · кого-что: D…",
+    "gap": {
+     "text": "___ du auch ___?",
+     "answers": [
+      "Hast",
+      "Durst"
+     ]
+    },
+    "task_ru": "Скажи: А пить ты тоже хочешь?"
+   },
+   {
+    "id": "ch06_d1_04",
+    "role": "H",
+    "de": "Nein, nur Hunger.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Нет, только голоден.",
+    "nouns": [
+     {
+      "lemma": "Hunger",
+      "art": "der",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Nein",
+       "role": "да/нет"
+      },
+      {
+       "w": "nur Hunger",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Короткий ответ: действие habe понятно из вопроса. nur — «только».",
+     "topic": "word_order",
+     "why_de": "Короткий ответ: Nein + nur Hunger (что?). Действие из вопроса не повторяют — его уже сказали.",
+     "why_ru": "По-русски так же коротко: «Нет, только голоден».",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — считать это готовой формулой. «Нет, только голоден» — короткий ответ, его слова меняют под ситуацию."
+     },
+     "root": null,
+     "why_voice_ru": "Короткий ответ: действие habe понятно из вопроса. nur — «только»."
+    },
+    "audio": "audio_v1/ch06_d1_04.mp3",
+    "tts": "Nein, nur Hunger.",
+    "ipa": [
+     {
+      "w": "Nein",
+      "ipa": "[naɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "nur",
+      "ipa": "[nuːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Hunger",
+      "ipa": "[ˈhʊŋɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: N… · кого-что: n… H…",
+    "gap": {
+     "text": "Nein, nur ___.",
+     "answers": [
+      "Hunger"
+     ]
+    },
+    "task_ru": "Скажи: Нет, только голоден."
+   },
+   {
+    "id": "ch06_d1_05",
+    "role": "O",
+    "de": "Was isst du heute?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Что ты ешь сегодня?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "isst",
+       "role": "действие №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "heute",
+       "role": "когда"
+      }
+     ],
+     "text": "was — вопрос-слово, потом действие isst. С du — isst.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Was — вагон №1, действие isst — сразу за ним, вагон №2: Was isst du heute? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Что ты ешь сегодня» можно сказать и в другом порядке. По-немецки порядок один: Was · isst · du · heute.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Was du isst heute?",
+      "ru": "du встал перед isst — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "was — вопрос-слово, потом действие isst. С du — isst."
+    },
+    "audio": "audio_v1/ch06_d1_05.mp3",
+    "tts": "Was isst du heute?",
+    "ipa": [
+     {
+      "w": "Was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "isst",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "heute",
+      "ipa": "[ˈhɔɪ̯tə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): i… · кто: d… · когда: h…",
+    "gap": {
+     "text": "Was ___ du ___?",
+     "answers": [
+      "isst",
+      "heute"
+     ]
+    },
+    "task_ru": "Скажи: Что ты ешь сегодня?"
+   },
+   {
+    "id": "ch06_d1_06",
+    "role": "H",
+    "de": "Heute esse ich Brot und Käse.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Сегодня я ем хлеб и сыр.",
+    "nouns": [
+     {
+      "lemma": "Brot",
+      "art": "das",
+      "pl": "Brote"
+     },
+     {
+      "lemma": "Käse",
+      "art": "der",
+      "pl": "Käse"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Heute",
+       "role": "когда"
+      },
+      {
+       "w": "esse",
+       "role": "действие №2"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "Brot und Käse",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Фраза начинается со слова heute. Действие esse — в вагоне №2, ich — после него.",
+     "topic": "word_order",
+     "why_de": "Вагон №1 занят: Heute. Действие esse всё равно в вагоне №2, а «кто» (ich) — за ним: Heute esse ich Brot und Käse.",
+     "why_ru": "По-русски «Сегодня я ем хлеб и сыр» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, esse — вагон №2.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Heute ich esse Brot und Käse.",
+      "ru": "Русский порядок: «кто» (ich) перед действием, и esse уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+     },
+     "root": null,
+     "why_voice_ru": "Фраза начинается со слова heute. Действие esse — в вагоне №2, ich — после него."
+    },
+    "audio": "audio_v1/ch06_d1_06.mp3",
+    "tts": "Heute esse ich Brot und Käse.",
+    "ipa": [
+     {
+      "w": "Heute",
+      "ipa": "[ˈhɔɪ̯tə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "esse",
+      "ipa": "[ˈɛsə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Brot",
+      "ipa": "[bʁoːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Käse",
+      "ipa": "[ˈkɛːzə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "когда: H… · действие (вагон №2): e… · кто: i… · кого-что: B… u… K…",
+    "gap": {
+     "text": "Heute ___ ich Brot und ___.",
+     "answers": [
+      "esse",
+      "Käse"
+     ]
+    },
+    "task_ru": "Скажи: Сегодня я ем хлеб и сыр."
+   },
+   {
+    "id": "ch06_d1_07",
+    "role": "O",
+    "de": "Am Wochenende mache ich Suppe.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "В выходные я варю суп.",
+    "nouns": [
+     {
+      "lemma": "Wochenende",
+      "art": "das",
+      "pl": "Wochenenden"
+     },
+     {
+      "lemma": "Suppe",
+      "art": "die",
+      "pl": "Suppen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Am Wochenende",
+       "role": "когда"
+      },
+      {
+       "w": "mache",
+       "role": "действие №2"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "Suppe",
+       "role": "кого-что"
+      }
+     ],
+     "text": "am Wochenende — «когда», вагон №1. Действие mache — в вагоне №2.",
+     "topic": "word_order",
+     "why_de": "Вагон №1 занят: Am Wochenende. Действие mache всё равно в вагоне №2, а «кто» (ich) — за ним: Am Wochenende mache ich Suppe.",
+     "why_ru": "По-русски «В выходные я варю суп» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, mache — вагон №2.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Am Wochenende ich mache Suppe.",
+      "ru": "Русский порядок: «кто» (ich) перед действием, и mache уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+     },
+     "root": null,
+     "why_voice_ru": "am Wochenende — «когда», вагон №1. Действие mache — в вагоне №2."
+    },
+    "audio": "audio_v1/ch06_d1_07.mp3",
+    "tts": "Am Wochenende mache ich Suppe.",
+    "ipa": [
+     {
+      "w": "Am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wochenende",
+      "ipa": "[ˈvɔxn̩ˌʔɛndə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mache",
+      "ipa": "[ˈmaxə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Suppe",
+      "ipa": "[ˈzʊpə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "когда: A… W… · действие (вагон №2): m… · кто: i… · кого-что: S…",
+    "gap": {
+     "text": "Am Wochenende ___ ich ___.",
+     "answers": [
+      "mache",
+      "Suppe"
+     ]
+    },
+    "task_ru": "Скажи: В выходные я варю суп."
+   },
+   {
+    "id": "ch06_d1_08",
+    "role": "H",
+    "de": "Gut, ich komme!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Хорошо, я приду!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Gut",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "komme",
+       "role": "действие №2"
+      }
+     ],
+     "text": "Gut в начале — согласие, место не занимает. Дальше обычный поезд: ich · komme.",
+     "topic": "verb2",
+     "why_de": "Gut в начале — согласие, место не занимает. Дальше обычный поезд: ich · komme — komme стоит вагоном №2.",
+     "why_ru": "Порядок как в русском: «Хорошо, я приду» — Gut, ich komme. Действие komme — вагон №2.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Gut, ich kommen!",
+      "ru": "Ошибка — с ich действие меняют под «я»: ich komme, а не kommen."
+     },
+     "root": null,
+     "override": "tools/data_ch06.py WHY",
+     "why_voice_ru": "Gut в начале — согласие, место не занимает. Дальше обычный поезд: ich · komme."
+    },
+    "audio": "audio_v1/ch06_d1_08.mp3",
+    "tts": "Gut, ich komme!",
+    "ipa": [
+     {
+      "w": "Gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "komme",
+      "ipa": "[ˈkɔmə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: G… · кто: i… · действие (вагон №2): k…",
+    "gap": {
+     "text": "Gut, ich ___!",
+     "answers": [
+      "komme"
+     ]
+    },
+    "task_ru": "Скажи: Хорошо, я приду!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch06_d2",
+  "title_ru": "На рынке у фрау Мюллер",
+  "roles": {
+   "V": "Frau Müller (продавщица на рынке)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch06_d2_01",
+    "role": "V",
+    "de": "Guten Tag! Bitte schön?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Добрый день! Слушаю!",
+    "nouns": [
+     {
+      "lemma": "Tag",
+      "art": "der",
+      "pl": "Tage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Guten Tag",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Bitte schön",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Bitte schön? с вопросом — так продавец приглашает сделать заказ: «слушаю». Guten Tag — незнакомым людям.",
+     "topic": "word_order",
+     "why_de": "Здесь 2 готовые формулы подряд: Guten Tag + Bitte schön. Их учим целиком, по одной; действия нет — поэтому и поезда нет.",
+     "why_ru": "По-русски так же — 2 куска подряд: «Добрый день! Слушаю».",
+     "layer": "formulas",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — склеить всё в одно и переводить по словам. Тут 2 куска, их учим целиком: Guten Tag · Bitte schön."
+     },
+     "root": null,
+     "why_voice_ru": "Bitte schön? с вопросом — так продавец приглашает сделать заказ: «слушаю». Guten Tag — незнакомым людям."
+    },
+    "audio": "audio_v1/ch06_d2_01.mp3",
+    "tts": "Guten Tag! Bitte schön?",
+    "ipa": [
+     {
+      "w": "Guten",
+      "ipa": "[ˈɡuːtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tag",
+      "ipa": "[taːk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schön",
+      "ipa": "[ʃøːn]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… T… · привет/вежливость: B… s…",
+    "gap": {
+     "text": "Guten Tag! Bitte ___?",
+     "answers": [
+      "schön"
+     ]
+    },
+    "task_ru": "Скажи: Добрый день! Слушаю!"
+   },
+   {
+    "id": "ch06_d2_02",
+    "role": "H",
+    "de": "Ich hätte gern ein Kilo Kartoffeln.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я бы хотел килограмм картофеля.",
+    "nouns": [
+     {
+      "lemma": "Kilo",
+      "art": "das",
+      "pl": "Kilo"
+     },
+     {
+      "lemma": "Kartoffel",
+      "art": "die",
+      "pl": "Kartoffeln"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "hätte",
+       "role": "действие №2"
+      },
+      {
+       "w": "gern",
+       "role": "добавка"
+      },
+      {
+       "w": "ein Kilo Kartoffeln",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Ich hätte gern — «я бы хотел». После меры ein Kilo продукт идёт сразу: Kartoffeln.",
+     "topic": "verb2",
+     "why_de": "Ich · hätte · gern · ein Kilo Kartoffeln: действие hätte — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я бы хотел килограмм картофеля» — Ich hätte gern ein Kilo Kartoffeln. Разница одна: по-немецки hätte держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich gern ein Kilo Kartoffeln hätte.",
+      "ru": "Действие hätte уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе hätte — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Ich hätte gern — «я бы хотел». После меры ein Kilo продукт идёт сразу: Kartoffeln."
+    },
+    "audio": "audio_v1/ch06_d2_02.mp3",
+    "tts": "Ich hätte gern ein Kilo Kartoffeln.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hätte",
+      "ipa": "[ˈhɛtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gern",
+      "ipa": "[ɡɛʁn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ein",
+      "ipa": "[aɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kilo",
+      "ipa": "[ˈkiːlo]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kartoffeln",
+      "ipa": "[kaʁˈtɔfl̩n]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): h… · добавка: g… · кого-что: e… K… K…",
+    "gap": {
+     "text": "Ich ___ gern ein Kilo ___.",
+     "answers": [
+      "hätte",
+      "Kartoffeln"
+     ]
+    },
+    "task_ru": "Скажи: Я бы хотел килограмм картофеля."
+   },
+   {
+    "id": "ch06_d2_03",
+    "role": "V",
+    "de": "Sonst noch etwas?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Что-нибудь ещё?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Sonst noch etwas",
+       "role": "готовая фраза"
+      }
+     ],
+     "text": "Готовая фраза продавца: «что-нибудь ещё?».",
+     "topic": "word_order",
+     "why_de": "Готовый вопрос продавца: «что-нибудь ещё?». Учим целиком: sonst — «ещё, кроме этого», noch etwas — «ещё что-то».",
+     "why_ru": "Как русское «Что-нибудь ещё?» — продавец говорит это одним куском, на слова не разбирают.",
+     "layer": "chunk",
+     "why_not": {
+      "wrong": "Noch etwas sonst?",
+      "ru": "Порядок слов в готовой фразе не меняют: Sonst noch etwas?"
+     },
+     "source": "tools/why_chunks.json",
+     "root": null,
+     "why_voice_ru": "Готовая фраза продавца: «что-нибудь ещё?»."
+    },
+    "audio": "audio_v1/ch06_d2_03.mp3",
+    "tts": "Sonst noch etwas?",
+    "ipa": [
+     {
+      "w": "Sonst",
+      "ipa": "[zɔnst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "noch",
+      "ipa": "[nɔx]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "etwas",
+      "ipa": "[ˈɛtvas]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "готовая фраза: S… n… e…",
+    "gap": {
+     "text": "Sonst noch ___?",
+     "answers": [
+      "etwas"
+     ]
+    },
+    "task_ru": "Скажи: Что-нибудь ещё?"
+   },
+   {
+    "id": "ch06_d2_04",
+    "role": "H",
+    "de": "Ja, eine Flasche Öl, bitte.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, бутылку масла, пожалуйста.",
+    "nouns": [
+     {
+      "lemma": "Flasche",
+      "art": "die",
+      "pl": "Flaschen"
+     },
+     {
+      "lemma": "Öl",
+      "art": "das",
+      "pl": "Öle"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "eine Flasche Öl",
+       "role": "кого-что"
+      },
+      {
+       "w": "bitte",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "ja не занимает вагон. die Flasche → eine Flasche; Öl после меры — без артикля.",
+     "topic": "word_order",
+     "why_de": "Короткий ответ: Ja + eine Flasche Öl (что?). Действие из вопроса не повторяют — его уже сказали.",
+     "why_ru": "По-русски так же коротко: «Да, бутылку масла, пожалуйста».",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — заучить всю фразу одним куском. Готовая формула тут только bitte, остальное — слова под ситуацию."
+     },
+     "root": null,
+     "why_voice_ru": "ja не занимает вагон. die Flasche → eine Flasche; Öl после меры — без артикля."
+    },
+    "audio": "audio_v1/ch06_d2_04.mp3",
+    "tts": "Ja, eine Flasche Öl, bitte.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "eine",
+      "ipa": "[ˈaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Flasche",
+      "ipa": "[ˈflaʃə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Öl",
+      "ipa": "[øːl]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кого-что: e… F… Ö… · привет/вежливость: b…",
+    "gap": {
+     "text": "Ja, eine Flasche ___, bitte.",
+     "answers": [
+      "Öl"
+     ]
+    },
+    "task_ru": "Скажи: Да, бутылку масла, пожалуйста."
+   },
+   {
+    "id": "ch06_d2_05",
+    "role": "V",
+    "de": "Ist das alles?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Это всё?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ist",
+       "role": "действие №1"
+      },
+      {
+       "w": "das",
+       "role": "кто"
+      },
+      {
+       "w": "alles",
+       "role": "кто"
+      }
+     ],
+     "text": "Вопрос «да/нет»: действие ist впереди.",
+     "topic": "questions",
+     "why_de": "Действие впереди (Ist) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Ist das alles?",
+     "why_ru": "По-русски «Это всё» — вопрос только голосом, порядок как в ответе. По-немецки действие Ist выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Das ist alles?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Это всё?!»). Обычный вопрос — действие впереди."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос «да/нет»: действие ist впереди."
+    },
+    "audio": "audio_v1/ch06_d2_05.mp3",
+    "tts": "Ist das alles?",
+    "ipa": [
+     {
+      "w": "Ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "alles",
+      "ipa": "[ˈaləs]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): I… · кто: d… · кто: a…",
+    "gap": {
+     "text": "___ das ___?",
+     "answers": [
+      "Ist",
+      "alles"
+     ]
+    },
+    "task_ru": "Скажи: Это всё?"
+   },
+   {
+    "id": "ch06_d2_06",
+    "role": "H",
+    "de": "Ja, das ist alles. Danke!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, это всё. Спасибо!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "das",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "alles",
+       "role": "кто"
+      },
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "ja и Danke не считаются за место. Поезд: das · ist · alles.",
+     "topic": "verb2",
+     "why_de": "Ja — не вагон, дальше тот же поезд: кто · ist · кто, и ist работает как знак «=»: das = alles.",
+     "why_ru": "По-русски «Да, это всё» — без «есть». По-немецки без ist нельзя: Ja, das ist alles.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Ja, das alles. Danke!",
+      "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "ja и Danke не считаются за место. Поезд: das · ist · alles."
+    },
+    "audio": "audio_v1/ch06_d2_06.mp3",
+    "tts": "Ja, das ist alles. Danke!",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "alles",
+      "ipa": "[ˈaləs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: d… · действие (вагон №2): i… · кто: a… · привет/вежливость: D…",
+    "gap": {
+     "text": "Ja, das ___ ___. Danke!",
+     "answers": [
+      "ist",
+      "alles"
+     ]
+    },
+    "task_ru": "Скажи: Да, это всё. Спасибо!"
+   },
+   {
+    "id": "ch06_d2_07",
+    "role": "V",
+    "de": "Bitte schön. Auf Wiedersehen!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Пожалуйста. До свидания!",
+    "nouns": [
+     {
+      "lemma": "Wiedersehen",
+      "art": "das",
+      "pl": "Wiedersehen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Bitte schön",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Auf Wiedersehen",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Bitte schön. без вопроса — ответ на Danke: «пожалуйста». Auf Wiedersehen — вежливое прощание.",
+     "topic": "word_order",
+     "why_de": "Здесь 2 готовые формулы подряд: Bitte schön + Auf Wiedersehen. Их учим целиком, по одной; действия нет — поэтому и поезда нет.",
+     "why_ru": "По-русски так же — 2 куска подряд: «Пожалуйста. До свидания».",
+     "layer": "formulas",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — склеить всё в одно и переводить по словам. Тут 2 куска, их учим целиком: Bitte schön · Auf Wiedersehen."
+     },
+     "root": "Wiedersehen = wieder + sehen (wieder — снова; sehen — видеть) — Wiktionary",
+     "why_voice_ru": "Bitte schön. без вопроса — ответ на Danke: «пожалуйста». Auf Wiedersehen — вежливое прощание."
+    },
+    "audio": "audio_v1/ch06_d2_07.mp3",
+    "tts": "Bitte schön. Auf Wiedersehen!",
+    "ipa": [
+     {
+      "w": "Bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schön",
+      "ipa": "[ʃøːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Auf",
+      "ipa": "[aʊ̯f]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wiedersehen",
+      "ipa": "[ˈviːdɐˌzeːən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: B… s… · привет/вежливость: A… W…",
+    "gap": {
+     "text": "Bitte schön. Auf ___!",
+     "answers": [
+      "Wiedersehen"
+     ]
+    },
+    "task_ru": "Скажи: Пожалуйста. До свидания!"
+   },
+   {
+    "id": "ch06_d2_08",
+    "role": "H",
+    "de": "Auf Wiedersehen!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "До свидания!",
+    "nouns": [
+     {
+      "lemma": "Wiedersehen",
+      "art": "das",
+      "pl": "Wiedersehen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Auf Wiedersehen",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Продавщице — вежливое прощание на «вы».",
+     "topic": "word_order",
+     "why_de": "Готовая вежливая формула прощания: на «вы», в ведомстве, начальнику.",
+     "why_ru": "Это и есть «до свидания»: wieder — снова, sehen — видеть.",
+     "layer": "chunk",
+     "why_not": {
+      "wrong": "Tschüss! (начальнику)",
+      "ru": "Tschüss — разговорное (DWDS). Начальнику и в ведомстве лучше Auf Wiedersehen."
+     },
+     "source": "tools/why_chunks.json",
+     "root": "Wiedersehen ← wieder «снова» + sehen «видеть» (Wiktionary)",
+     "why_voice_ru": "Продавщице — вежливое прощание на «вы»."
+    },
+    "audio": "audio_v1/ch06_d2_08.mp3",
+    "tts": "Auf Wiedersehen! Auf Wiedersehen!",
+    "ipa": [
+     {
+      "w": "Auf",
+      "ipa": "[aʊ̯f]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wiedersehen",
+      "ipa": "[ˈviːdɐˌzeːən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: A… W…",
+    "gap": {
+     "text": "Auf ___!",
+     "answers": [
+      "Wiedersehen"
+     ]
+    },
+    "task_ru": "Скажи: До свидания!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch06_d3",
+  "title_ru": "На кассе в Netto",
+  "roles": {
+   "K": "Kassiererin (кассирша в Netto)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch06_d3_01",
+    "role": "H",
+    "de": "Guten Tag! Was kosten die Kartoffeln?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Добрый день! Сколько стоит картофель?",
+    "nouns": [
+     {
+      "lemma": "Kartoffel",
+      "art": "die",
+      "pl": "Kartoffeln"
+     },
+     {
+      "lemma": "Tag",
+      "art": "der",
+      "pl": "Tage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Guten Tag",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "kosten",
+       "role": "действие №2"
+      },
+      {
+       "w": "die Kartoffeln",
+       "role": "кто"
+      }
+     ],
+     "text": "Guten Tag не занимает вагон. Kartoffeln — их много, поэтому kosten.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Was — вагон №1, действие kosten — сразу за ним, вагон №2: Was kosten die Kartoffeln? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Сколько стоит картофель» можно сказать и в другом порядке. По-немецки порядок один: Was · kosten · die Kartoffeln.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Guten Tag! Was die Kartoffeln kosten?",
+      "ru": "die Kartoffeln встал перед kosten — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "Guten Tag не занимает вагон. Kartoffeln — их много, поэтому kosten."
+    },
+    "audio": "audio_v1/ch06_d3_01.mp3",
+    "tts": "Guten Tag! Was kosten die Kartoffeln?",
+    "ipa": [
+     {
+      "w": "Guten",
+      "ipa": "[ˈɡuːtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tag",
+      "ipa": "[taːk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kosten",
+      "ipa": "[ˈkɔstn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kartoffeln",
+      "ipa": "[kaʁˈtɔfl̩n]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… T… · вопрос-слово: W… · действие (вагон №2): k… · кто: d… K…",
+    "gap": {
+     "text": "Guten Tag! Was ___ die ___?",
+     "answers": [
+      "kosten",
+      "Kartoffeln"
+     ]
+    },
+    "task_ru": "Скажи: Добрый день! Сколько стоит картофель?"
+   },
+   {
+    "id": "ch06_d3_02",
+    "role": "K",
+    "de": "Die Kartoffeln kosten drei Euro fünfundzwanzig.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Картофель стоит три евро двадцать пять.",
+    "nouns": [
+     {
+      "lemma": "Kartoffel",
+      "art": "die",
+      "pl": "Kartoffeln"
+     },
+     {
+      "lemma": "Euro",
+      "art": "der",
+      "pl": "Euro"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Die Kartoffeln",
+       "role": "кто"
+      },
+      {
+       "w": "kosten",
+       "role": "действие №2"
+      },
+      {
+       "w": "drei Euro fünfundzwanzig",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Цена: евро, потом центы. kosten — как и в вопросе, потому что Kartoffeln — много.",
+     "topic": "verb2",
+     "why_de": "Die Kartoffeln · kosten · drei Euro fünfundzwanzig: действие kosten — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Картофель стоит три евро двадцать пять» — Die Kartoffeln kosten drei Euro fünfundzwanzig. Разница одна: по-немецки kosten держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Die Kartoffeln drei Euro fünfundzwanzig kosten.",
+      "ru": "Действие kosten уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе kosten — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Цена: евро, потом центы. kosten — как и в вопросе, потому что Kartoffeln — много."
+    },
+    "audio": "audio_v1/ch06_d3_02.mp3",
+    "tts": "Die Kartoffeln kosten drei Euro fünfundzwanzig.",
+    "ipa": [
+     {
+      "w": "Die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kartoffeln",
+      "ipa": "[kaʁˈtɔfl̩n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kosten",
+      "ipa": "[ˈkɔstn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "drei",
+      "ipa": "[dʁaɪ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Euro",
+      "ipa": "[ˈɔɪ̯ʁo]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "fünfundzwanzig",
+      "ipa": "[ˌfʏnfʔʊntˈt͡svant͡sɪç]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… K… · действие (вагон №2): k… · кого-что: d… E… f…",
+    "gap": {
+     "text": "Die Kartoffeln ___ drei Euro ___.",
+     "answers": [
+      "kosten",
+      "fünfundzwanzig"
+     ]
+    },
+    "task_ru": "Скажи: Картофель стоит три евро двадцать пять."
+   },
+   {
+    "id": "ch06_d3_03",
+    "role": "H",
+    "de": "Und die Flasche Wasser?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А бутылка воды?",
+    "nouns": [
+     {
+      "lemma": "Flasche",
+      "art": "die",
+      "pl": "Flaschen"
+     },
+     {
+      "lemma": "Wasser",
+      "art": "das",
+      "pl": "Wasser"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "die Flasche Wasser",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Короткий вопрос без действия: действие kostet понятно из прошлого вопроса.",
+     "topic": "word_order",
+     "why_de": "Короткий вопрос без действия: Und («а/и») · die Flasche Wasser (что?). Действие уже сказали в прошлой реплике, его не повторяют.",
+     "why_ru": "По-русски так же коротко: «А бутылка воды?». Слово Und — просто «а», оно не занимает место в порядке слов.",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — считать это готовой формулой. «А бутылка воды» — короткий вопрос, его слова меняют под ситуацию."
+     },
+     "root": null,
+     "why_voice_ru": "Короткий вопрос без действия: действие kostet понятно из прошлого вопроса."
+    },
+    "audio": "audio_v1/ch06_d3_03.mp3",
+    "tts": "Und die Flasche Wasser?",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Flasche",
+      "ipa": "[ˈflaʃə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wasser",
+      "ipa": "[ˈvasɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · кого-что: d… F… W…",
+    "gap": {
+     "text": "Und die Flasche ___?",
+     "answers": [
+      "Wasser"
+     ]
+    },
+    "task_ru": "Скажи: А бутылка воды?"
+   },
+   {
+    "id": "ch06_d3_04",
+    "role": "K",
+    "de": "Die Flasche Wasser kostet fünfzig Cent und fünfundzwanzig Cent Pfand.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Бутылка воды стоит пятьдесят центов и ещё двадцать пять центов залог.",
+    "nouns": [
+     {
+      "lemma": "Flasche",
+      "art": "die",
+      "pl": "Flaschen"
+     },
+     {
+      "lemma": "Wasser",
+      "art": "das",
+      "pl": "Wasser"
+     },
+     {
+      "lemma": "Cent",
+      "art": "der",
+      "pl": "Cent"
+     },
+     {
+      "lemma": "Pfand",
+      "art": "das",
+      "pl": "Pfänder"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Die Flasche Wasser",
+       "role": "кто"
+      },
+      {
+       "w": "kostet",
+       "role": "действие №2"
+      },
+      {
+       "w": "fünfzig Cent und fünfundzwanzig Cent Pfand",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Flasche — одна, поэтому kostet. Pfand — залог за бутылку.",
+     "topic": "verb2",
+     "why_de": "Die Flasche Wasser · kostet · fünfzig Cent und fünfundzwanzig Cent Pfand: действие kostet — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Бутылка воды стоит пятьдесят центов и ещё двадцать пять центов залог» — Die Flasche Wasser kostet fünfzig Cent und fünfundzwanzig Cent Pfand. Разница одна: по-немецки kostet держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Die Flasche Wasser fünfzig Cent und fünfundzwanzig Cent Pfand kostet.",
+      "ru": "Действие kostet уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе kostet — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Flasche — одна, поэтому kostet. Pfand — залог за бутылку."
+    },
+    "audio": "audio_v1/ch06_d3_04.mp3",
+    "tts": "Die Flasche Wasser kostet fünfzig Cent und fünfundzwanzig Cent Pfand.",
+    "ipa": [
+     {
+      "w": "Die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Flasche",
+      "ipa": "[ˈflaʃə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wasser",
+      "ipa": "[ˈvasɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kostet",
+      "ipa": "[ˈkɔstət]",
+      "src": "override"
+     },
+     {
+      "w": "fünfzig",
+      "ipa": "[ˈfʏnft͡sɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Cent",
+      "ipa": "[t͡sɛnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "fünfundzwanzig",
+      "ipa": "[ˌfʏnfʔʊntˈt͡svant͡sɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Cent",
+      "ipa": "[t͡sɛnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Pfand",
+      "ipa": "[p͡fant]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… F… W… · действие (вагон №2): k… · кого-что: f… C… u… f… C… P…",
+    "gap": {
+     "text": "Die Flasche Wasser ___ fünfzig Cent und fünfundzwanzig Cent ___.",
+     "answers": [
+      "kostet",
+      "Pfand"
+     ]
+    },
+    "task_ru": "Скажи: Бутылка воды стоит пятьдесят центов и ещё двадцать пять центов залог."
+   },
+   {
+    "id": "ch06_d3_05",
+    "role": "H",
+    "de": "Gut. Das ist alles.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Хорошо. Это всё.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Gut",
+       "role": "да/нет"
+      },
+      {
+       "w": "Das",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "alles",
+       "role": "кто"
+      }
+     ],
+     "text": "Gut в начале — согласие, место не занимает. Дальше поезд: das · ist · alles.",
+     "topic": "verb2",
+     "why_de": "ist работает как знак «=»: das = alles. Действие держит вагон №2.",
+     "why_ru": "По-русски «Это всё» — без «есть». По-немецки без ist нельзя: Das ist alles.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Gut. Das alles.",
+      "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Gut в начале — согласие, место не занимает. Дальше поезд: das · ist · alles."
+    },
+    "audio": "audio_v1/ch06_d3_05.mp3",
+    "tts": "Gut. Das ist alles.",
+    "ipa": [
+     {
+      "w": "Gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "alles",
+      "ipa": "[ˈaləs]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: G… · кто: D… · действие (вагон №2): i… · кто: a…",
+    "gap": {
+     "text": "Gut. Das ___ ___.",
+     "answers": [
+      "ist",
+      "alles"
+     ]
+    },
+    "task_ru": "Скажи: Хорошо. Это всё."
+   },
+   {
+    "id": "ch06_d3_06",
+    "role": "K",
+    "de": "Das macht vier Euro, mit Karte oder bar?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Итого четыре евро, картой или наличными?",
+    "nouns": [
+     {
+      "lemma": "Euro",
+      "art": "der",
+      "pl": "Euro"
+     },
+     {
+      "lemma": "Karte",
+      "art": "die",
+      "pl": "Karten"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Das",
+       "role": "кто"
+      },
+      {
+       "w": "macht",
+       "role": "действие №2"
+      },
+      {
+       "w": "vier Euro",
+       "role": "кого-что"
+      },
+      {
+       "w": "mit Karte",
+       "role": "какой/как"
+      },
+      {
+       "w": "oder",
+       "role": "связка"
+      },
+      {
+       "w": "bar",
+       "role": "какой/как"
+      }
+     ],
+     "text": "Первая фраза — поезд: das · macht · итог. Вторая — готовый вопрос кассира.",
+     "topic": "verb2",
+     "why_de": "Das · macht · vier Euro · mit Karte · bar: действие macht — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Итого четыре евро, картой или наличными» — другие слова: это готовая фраза у кассы. Дословно Das macht … — это делает …, по-русски «итого». Действие macht держит вагон №2: Das macht vier Euro, mit Karte oder bar?",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Das vier Euro, mit Karte oder bar macht?",
+      "ru": "Действие macht уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе macht — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Первая фраза — поезд: das · macht · итог. Вторая — готовый вопрос кассира."
+    },
+    "audio": "audio_v1/ch06_d3_06.mp3",
+    "tts": "Das macht vier Euro, mit Karte oder bar?",
+    "ipa": [
+     {
+      "w": "Das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "macht",
+      "ipa": "[maxt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "vier",
+      "ipa": "[fiːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Euro",
+      "ipa": "[ˈɔɪ̯ʁo]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mit",
+      "ipa": "[mɪt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Karte",
+      "ipa": "[ˈkaʁtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "oder",
+      "ipa": "[ˈoːdɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bar",
+      "ipa": "[baːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… · действие (вагон №2): m… · кого-что: v… E… · какой/как: m… K… · связка: o… · какой/как: b…",
+    "gap": {
+     "text": "Das ___ vier ___, mit Karte oder bar?",
+     "answers": [
+      "macht",
+      "Euro"
+     ]
+    },
+    "task_ru": "Скажи: Итого четыре евро, картой или наличными?"
+   },
+   {
+    "id": "ch06_d3_07",
+    "role": "H",
+    "de": "Mit Karte, bitte.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Картой, пожалуйста.",
+    "nouns": [
+     {
+      "lemma": "Karte",
+      "art": "die",
+      "pl": "Karten"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Mit Karte",
+       "role": "кого-что"
+      },
+      {
+       "w": "bitte",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Короткий ответ без действия.",
+     "topic": "word_order",
+     "why_de": "bitte — готовая формула, дальше кусок по словам: Mit Karte (что?).",
+     "why_ru": "По-русски так же коротко: «Картой, пожалуйста».",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — заучить всю фразу одним куском. Готовая формула тут только bitte, остальное — слова под ситуацию."
+     },
+     "root": null,
+     "why_voice_ru": "Короткий ответ без действия."
+    },
+    "audio": "audio_v1/ch06_d3_07.mp3",
+    "tts": "Mit Karte, bitte.",
+    "ipa": [
+     {
+      "w": "Mit",
+      "ipa": "[mɪt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Karte",
+      "ipa": "[ˈkaʁtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кого-что: M… K… · привет/вежливость: b…",
+    "gap": {
+     "text": "Mit ___, bitte.",
+     "answers": [
+      "Karte"
+     ]
+    },
+    "task_ru": "Скажи: Картой, пожалуйста."
+   },
+   {
+    "id": "ch06_d3_08",
+    "role": "K",
+    "de": "Bitte schön. Auf Wiedersehen!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Пожалуйста. До свидания!",
+    "nouns": [
+     {
+      "lemma": "Wiedersehen",
+      "art": "das",
+      "pl": "Wiedersehen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Bitte schön",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Auf Wiedersehen",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Bitte schön без вопроса — «пожалуйста». Auf Wiedersehen — вежливое прощание.",
+     "topic": "word_order",
+     "why_de": "Здесь 2 готовые формулы подряд: Bitte schön + Auf Wiedersehen. Их учим целиком, по одной; действия нет — поэтому и поезда нет.",
+     "why_ru": "По-русски так же — 2 куска подряд: «Пожалуйста. До свидания».",
+     "layer": "formulas",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — склеить всё в одно и переводить по словам. Тут 2 куска, их учим целиком: Bitte schön · Auf Wiedersehen."
+     },
+     "root": "Wiedersehen = wieder + sehen (wieder — снова; sehen — видеть) — Wiktionary",
+     "why_voice_ru": "Bitte schön без вопроса — «пожалуйста». Auf Wiedersehen — вежливое прощание."
+    },
+    "audio": "audio_v1/ch06_d3_08.mp3",
+    "tts": "Bitte schön. Auf Wiedersehen!",
+    "ipa": [
+     {
+      "w": "Bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schön",
+      "ipa": "[ʃøːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Auf",
+      "ipa": "[aʊ̯f]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wiedersehen",
+      "ipa": "[ˈviːdɐˌzeːən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: B… s… · привет/вежливость: A… W…",
+    "gap": {
+     "text": "Bitte schön. Auf ___!",
+     "answers": [
+      "Wiedersehen"
+     ]
+    },
+    "task_ru": "Скажи: Пожалуйста. До свидания!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch06_d4",
+  "title_ru": "Ужин в гостях",
+  "roles": {
+   "G": "Gastgeberin (хозяйка, соседка)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch06_d4_01",
+    "role": "H",
+    "de": "Guten Abend! Danke für die Einladung!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Добрый вечер! Спасибо за приглашение!",
+    "nouns": [
+     {
+      "lemma": "Abend",
+      "art": "der",
+      "pl": "Abende"
+     },
+     {
+      "lemma": "Einladung",
+      "art": "die",
+      "pl": "Einladungen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Guten Abend",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "für die Einladung",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Guten Abend и Danke — вежливые слова, место не занимают. Danke für … — «спасибо за …».",
+     "topic": "word_order",
+     "why_de": "Guten Abend, Danke — готовые формулы, дальше кусок по словам: für die Einladung (хвост действия).",
+     "why_ru": "По-русски так же коротко: «Добрый вечер! Спасибо за приглашение».",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — заучить всю фразу одним куском. Готовая формула тут только Guten Abend, Danke, остальное — слова под ситуацию."
+     },
+     "root": null,
+     "why_voice_ru": "Guten Abend и Danke — вежливые слова, место не занимают. Danke für … — «спасибо за …»."
+    },
+    "audio": "audio_v1/ch06_d4_01.mp3",
+    "tts": "Guten Abend! Danke für die Einladung!",
+    "ipa": [
+     {
+      "w": "Guten",
+      "ipa": "[ˈɡuːtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Abend",
+      "ipa": "[ˈaːbn̩t]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "für",
+      "ipa": "[fyːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Einladung",
+      "ipa": "[ˈaɪ̯nˌlaːdʊŋ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… A… · привет/вежливость: D… · хвост действия: f… d… E…",
+    "gap": {
+     "text": "Guten Abend! Danke für die ___!",
+     "answers": [
+      "Einladung"
+     ]
+    },
+    "task_ru": "Скажи: Добрый вечер! Спасибо за приглашение!"
+   },
+   {
+    "id": "ch06_d4_02",
+    "role": "G",
+    "de": "Bitte schön, nimmst du den Salat oder die Suppe?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Пожалуйста, ты возьмёшь салат или суп?",
+    "nouns": [
+     {
+      "lemma": "Salat",
+      "art": "der",
+      "pl": "Salate"
+     },
+     {
+      "lemma": "Suppe",
+      "art": "die",
+      "pl": "Suppen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Bitte schön",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "nimmst",
+       "role": "действие №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "den Salat oder die Suppe",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Bitte schön — «пожалуйста». Вопрос: действие nimmst в начале; der Salat в вагоне «кого-что» — den Salat.",
+     "topic": "akkusativ",
+     "why_de": "Вопрос «или»: действие nimmst впереди, в вагоне №1, как в вопросе «да/нет». Но «да» или «нет» тут не ответ: надо выбрать — den Salat или die Suppe. Голос: на den Salat вверх ↗, на die Suppe вниз ↘.",
+     "why_ru": "По-русски так же: «Пожалуйста, ты возьмёшь салат или суп» — вопрос делает слово «или». Разница одна: по-немецки действие nimmst стоит впереди, в вагоне №1.",
+     "layer": "alt",
+     "why_not": {
+      "wrong": "Bitte schön, du nimmst den Salat oder die Suppe?",
+      "ru": "Русский порядок: «кто» (du) перед действием. Немец поймёт, но сразу услышит ошибку: вопрос «или» начинают с действия nimmst."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Bitte schön — «пожалуйста». Вопрос: действие nimmst в начале; der Salat в вагоне «кого-что» — den Salat."
+    },
+    "audio": "audio_v1/ch06_d4_02.mp3",
+    "tts": "Bitte schön, nimmst du den Salat oder die Suppe?",
+    "ipa": [
+     {
+      "w": "Bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schön",
+      "ipa": "[ʃøːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "nimmst",
+      "ipa": "[nɪmst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "den",
+      "ipa": "[deːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Salat",
+      "ipa": "[zaˈlaːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "oder",
+      "ipa": "[ˈoːdɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Suppe",
+      "ipa": "[ˈzʊpə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: B… s… · действие (вагон №1): n… · кто: d… · кого-что: d… S… o… d… S…",
+    "gap": {
+     "text": "Bitte schön, ___ du den Salat oder die ___?",
+     "answers": [
+      "nimmst",
+      "Suppe"
+     ]
+    },
+    "task_ru": "Скажи: Пожалуйста, ты возьмёшь салат или суп?"
+   },
+   {
+    "id": "ch06_d4_03",
+    "role": "H",
+    "de": "Ich nehme den Salat.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я возьму салат.",
+    "nouns": [
+     {
+      "lemma": "Salat",
+      "art": "der",
+      "pl": "Salate"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "nehme",
+       "role": "действие №2"
+      },
+      {
+       "w": "den Salat",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Der Salat стал den: его берут — вагон «кого-что».",
+     "topic": "akkusativ",
+     "why_de": "Артикль — сигнал роли: der → den/einen показывает «кого-что»: Ich nehme den Salat.",
+     "why_ru": "Похоже на русские окончания, только меняется не слово, а артикль: Ich nehme den Salat.",
+     "layer": "akk",
+     "why_not": {
+      "wrong": "Ich nehme der Salat.",
+      "ru": "Русская привычка: артикль не меняется. Немец слышит не ту роль: тут der-слово в роли «кого-что» — den."
+     },
+     "root": null,
+     "why_voice_ru": "Der Salat стал den: его берут — вагон «кого-что»."
+    },
+    "audio": "audio_v1/ch06_d4_03.mp3",
+    "tts": "Ich nehme den Salat.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "nehme",
+      "ipa": "[ˈneːmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "den",
+      "ipa": "[deːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Salat",
+      "ipa": "[zaˈlaːt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): n… · кого-что: d… S…",
+    "gap": {
+     "text": "Ich ___ den ___.",
+     "answers": [
+      "nehme",
+      "Salat"
+     ]
+    },
+    "task_ru": "Скажи: Я возьму салат."
+   },
+   {
+    "id": "ch06_d4_04",
+    "role": "G",
+    "de": "Nimmst du auch den Fisch?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ты возьмёшь и рыбу?",
+    "nouns": [
+     {
+      "lemma": "Fisch",
+      "art": "der",
+      "pl": "Fische"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Nimmst",
+       "role": "действие №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "auch den Fisch",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Fisch — der, а в вагоне «кого-что» der становится den.",
+     "topic": "akkusativ",
+     "why_de": "Действие впереди (Nimmst) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Nimmst du auch den Fisch?",
+     "why_ru": "По-русски «Ты возьмёшь и рыбу» — вопрос только голосом, порядок как в ответе. По-немецки действие Nimmst выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Du nimmst auch den Fisch?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Ты возьмёшь и рыбу?!»). Обычный вопрос — действие впереди."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Fisch — der, а в вагоне «кого-что» der становится den.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "действие (вагон №1) · «кто» · «что»",
+      "items": [
+       {
+        "id": "ch06_031",
+        "de": "Nimmst du den Salat oder die Suppe?",
+        "ru": "Ты возьмёшь салат или суп?",
+        "audio": "audio_v1/ch06_031.mp3",
+        "lesson": "L4",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "auch den Fisch",
+         "to": "den Salat oder die Suppe"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Nimmst · du. В каждом примере меняется один вагон — «что»: auch den Fisch → den Salat oder die Suppe. Действие Nimmst всё так же в вагоне №1.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch06_d4_04.mp3",
+    "tts": "Nimmst du auch den Fisch?",
+    "ipa": [
+     {
+      "w": "Nimmst",
+      "ipa": "[nɪmst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "auch",
+      "ipa": "[aʊ̯x]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "den",
+      "ipa": "[deːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Fisch",
+      "ipa": "[fɪʃ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): N… · кто: d… · кого-что: a… d… F…",
+    "gap": {
+     "text": "___ du auch den ___?",
+     "answers": [
+      "Nimmst",
+      "Fisch"
+     ]
+    },
+    "task_ru": "Скажи: Ты возьмёшь и рыбу?"
+   },
+   {
+    "id": "ch06_d4_05",
+    "role": "H",
+    "de": "Ja, gern. Ich nehme den Fisch.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, охотно. Я возьму рыбу.",
+    "nouns": [
+     {
+      "lemma": "Fisch",
+      "art": "der",
+      "pl": "Fische"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "gern",
+       "role": "да/нет"
+      },
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "nehme",
+       "role": "действие №2"
+      },
+      {
+       "w": "den Fisch",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Ja, gern — согласие, место не занимает. Дальше поезд: ich · nehme · den Fisch.",
+     "topic": "akkusativ",
+     "why_de": "Артикль — сигнал роли: der → den/einen показывает «кого-что»: Ich nehme den Fisch.",
+     "why_ru": "Похоже на русские окончания, только меняется не слово, а артикль: Ich nehme den Fisch.",
+     "layer": "akk",
+     "why_not": {
+      "wrong": "Ja, gern. Ich nehme der Fisch.",
+      "ru": "Русская привычка: артикль не меняется. Немец слышит не ту роль: тут der-слово в роли «кого-что» — den."
+     },
+     "root": null,
+     "why_voice_ru": "Ja, gern — согласие, место не занимает. Дальше поезд: ich · nehme · den Fisch."
+    },
+    "audio": "audio_v1/ch06_d4_05.mp3",
+    "tts": "Ja, gern. Ich nehme den Fisch.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gern",
+      "ipa": "[ɡɛʁn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "nehme",
+      "ipa": "[ˈneːmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "den",
+      "ipa": "[deːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Fisch",
+      "ipa": "[fɪʃ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · да/нет: g… · кто: I… · действие (вагон №2): n… · кого-что: d… F…",
+    "gap": {
+     "text": "Ja, gern. Ich ___ den ___.",
+     "answers": [
+      "nehme",
+      "Fisch"
+     ]
+    },
+    "task_ru": "Скажи: Да, охотно. Я возьму рыбу."
+   },
+   {
+    "id": "ch06_d4_06",
+    "role": "G",
+    "de": "Bitte schön. Der Fisch ist gut.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Пожалуйста. Рыба хорошая.",
+    "nouns": [
+     {
+      "lemma": "Fisch",
+      "art": "der",
+      "pl": "Fische"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Bitte schön",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Der Fisch",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "gut",
+       "role": "какой/как"
+      }
+     ],
+     "text": "Bitte schön — «пожалуйста», когда подают. Рыба здесь — тот, о ком говорим (кто), поэтому der Fisch; den она становится, когда она «кого-что»: её берут, покупают, любят.",
+     "topic": "verb2",
+     "why_de": "Der Fisch · ist · gut: действие ist — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Рыба хорошая» — без действия «есть». По-немецки без ist фразы нет: Der Fisch ist gut.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Bitte schön. Der Fisch gut.",
+      "ru": "Русская привычка — без действия, как «Рыба хорошая». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Bitte schön — «пожалуйста», когда подают."
+    },
+    "audio": "audio_v1/ch06_d4_06.mp3",
+    "tts": "Bitte schön. Der Fisch ist gut.",
+    "ipa": [
+     {
+      "w": "Bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schön",
+      "ipa": "[ʃøːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Fisch",
+      "ipa": "[fɪʃ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: B… s… · кто: D… F… · действие (вагон №2): i… · какой/как: g…",
+    "gap": {
+     "text": "Bitte schön. Der ___ ___ gut.",
+     "answers": [
+      "Fisch",
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Пожалуйста. Рыба хорошая."
+   },
+   {
+    "id": "ch06_d4_07",
+    "role": "H",
+    "de": "Der Fisch schmeckt sehr gut!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Рыба очень хороша на вкус!",
+    "nouns": [
+     {
+      "lemma": "Fisch",
+      "art": "der",
+      "pl": "Fische"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Der Fisch",
+       "role": "кто"
+      },
+      {
+       "w": "schmeckt",
+       "role": "действие №2"
+      },
+      {
+       "w": "sehr gut",
+       "role": "какой/как"
+      }
+     ],
+     "text": "Рыба здесь — тот, кто «вкусный», поэтому der. Когда её берут — den.",
+     "topic": "verb2",
+     "why_de": "Der Fisch · schmeckt · sehr gut: действие schmeckt — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Рыба очень хороша на вкус» — Der Fisch schmeckt sehr gut! Разница одна: по-немецки schmeckt держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Der Fisch sehr gut schmeckt!",
+      "ru": "Действие schmeckt уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе schmeckt — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Рыба здесь — тот, кто «вкусный», поэтому der. Когда её берут — den."
+    },
+    "audio": "audio_v1/ch06_d4_07.mp3",
+    "tts": "Der Fisch schmeckt sehr gut!",
+    "ipa": [
+     {
+      "w": "Der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Fisch",
+      "ipa": "[fɪʃ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schmeckt",
+      "ipa": "[ʃmɛkt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "sehr",
+      "ipa": "[zeːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… F… · действие (вагон №2): s… · какой/как: s… g…",
+    "gap": {
+     "text": "Der ___ ___ sehr gut!",
+     "answers": [
+      "Fisch",
+      "schmeckt"
+     ]
+    },
+    "task_ru": "Скажи: Рыба очень хороша на вкус!"
+   },
+   {
+    "id": "ch06_d4_08",
+    "role": "G",
+    "de": "Danke! Noch etwas Suppe?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Спасибо! Ещё немного супа?",
+    "nouns": [
+     {
+      "lemma": "Suppe",
+      "art": "die",
+      "pl": "Suppen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Noch etwas Suppe",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Danke — вежливое слово. Noch etwas Suppe — короткий вопрос без действия.",
+     "topic": "word_order",
+     "why_de": "Danke — готовая формула, дальше кусок по словам: Noch etwas Suppe (что?).",
+     "why_ru": "По-русски так же коротко: «Спасибо! Ещё немного супа?».",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — заучить всю фразу одним куском. Готовая формула тут только Danke, остальное — слова под ситуацию."
+     },
+     "root": null,
+     "why_voice_ru": "Danke — вежливое слово. Noch etwas Suppe — короткий вопрос без действия."
+    },
+    "audio": "audio_v1/ch06_d4_08.mp3",
+    "tts": "Danke! Noch etwas Suppe?",
+    "ipa": [
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Noch",
+      "ipa": "[nɔx]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "etwas",
+      "ipa": "[ˈɛtvas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Suppe",
+      "ipa": "[ˈzʊpə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: D… · кого-что: N… e… S…",
+    "gap": {
+     "text": "Danke! Noch etwas ___?",
+     "answers": [
+      "Suppe"
+     ]
+    },
+    "task_ru": "Скажи: Спасибо! Ещё немного супа?"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch06_d5",
+  "title_ru": "У витрины пекарни",
+  "roles": {
+   "O": "Olga (одногруппница, на «ты»)",
+   "V": "Verkäuferin (продавщица в пекарне)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch06_d5_01",
+    "role": "O",
+    "de": "Hallo! Was magst du?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Привет! Что ты любишь?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hallo",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "magst",
+       "role": "действие №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      }
+     ],
+     "text": "Hallo — привет, место не занимает. Вопрос о вкусе: что? любишь! Действие magst — вагон №2.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Was — вагон №1, действие magst — сразу за ним, вагон №2: Was magst du? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Что ты любишь» можно сказать и в другом порядке. По-немецки порядок один: Was · magst · du.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Hallo! Was du magst?",
+      "ru": "du встал перед magst — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "Hallo — от holen «звать, позвать» (ahd. halōn/holōn): так окликали перевозчика (DWDS, Pfeifer); du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Hallo — привет, место не занимает. Вопрос о вкусе: что? любишь! Действие magst — вагон №2."
+    },
+    "audio": "audio_v1/ch06_d5_01.mp3",
+    "tts": "Hallo! Was magst du?",
+    "ipa": [
+     {
+      "w": "Hallo",
+      "ipa": "[haˈloː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "magst",
+      "ipa": "[maːkst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: H… · вопрос-слово: W… · действие (вагон №2): m… · кто: d…",
+    "gap": {
+     "text": "Hallo! Was ___ du?",
+     "answers": [
+      "magst"
+     ]
+    },
+    "task_ru": "Скажи: Привет! Что ты любишь?"
+   },
+   {
+    "id": "ch06_d5_02",
+    "role": "H",
+    "de": "Ich mag Brötchen mit Käse.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я люблю булочки с сыром.",
+    "nouns": [
+     {
+      "lemma": "Brötchen",
+      "art": "das",
+      "pl": "Brötchen"
+     },
+     {
+      "lemma": "Käse",
+      "art": "der",
+      "pl": "Käse"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "mag",
+       "role": "действие №2"
+      },
+      {
+       "w": "Brötchen mit Käse",
+       "role": "кого-что"
+      }
+     ],
+     "text": "mag — «люблю» для ich. Что любишь — вагон «кого-что».",
+     "topic": "verb2",
+     "why_de": "Ich · mag · Brötchen mit Käse: действие mag — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я люблю булочки с сыром» — Ich mag Brötchen mit Käse. Разница одна: по-немецки mag держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich Brötchen mit Käse mag.",
+      "ru": "Действие mag уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе mag — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "mag — «люблю» для ich. Что любишь — вагон «кого-что»."
+    },
+    "audio": "audio_v1/ch06_d5_02.mp3",
+    "tts": "Ich mag Brötchen mit Käse.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mag",
+      "ipa": "[maːk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Brötchen",
+      "ipa": "[ˈbʁøːtçən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mit",
+      "ipa": "[mɪt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Käse",
+      "ipa": "[ˈkɛːzə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): m… · кого-что: B… m… K…",
+    "gap": {
+     "text": "Ich ___ Brötchen mit ___.",
+     "answers": [
+      "mag",
+      "Käse"
+     ]
+    },
+    "task_ru": "Скажи: Я люблю булочки с сыром."
+   },
+   {
+    "id": "ch06_d5_03",
+    "role": "O",
+    "de": "Und was trinkst du gern?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А что ты любишь пить?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "trinkst",
+       "role": "действие №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "gern",
+       "role": "добавка"
+      }
+     ],
+     "text": "Und в начале не занимает места. Действие trinkst — вагон №2, gern — «охотно».",
+     "topic": "questions",
+     "why_de": "Вопрос-слово was — вагон №1, действие trinkst — сразу за ним, вагон №2: Und was trinkst du gern? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «А что ты любишь пить» можно сказать и в другом порядке. По-немецки порядок один: was · trinkst · du · gern.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Und was du trinkst gern?",
+      "ru": "du встал перед trinkst — действие ушло из вагона №2. После was немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Und в начале не занимает места. Действие trinkst — вагон №2, gern — «охотно»."
+    },
+    "audio": "audio_v1/ch06_d5_03.mp3",
+    "tts": "Und was trinkst du gern?",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "trinkst",
+      "ipa": "[tʁɪŋkst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gern",
+      "ipa": "[ɡɛʁn]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · вопрос-слово: w… · действие (вагон №2): t… · кто: d… · добавка: g…",
+    "gap": {
+     "text": "Und was ___ du gern?",
+     "answers": [
+      "trinkst"
+     ]
+    },
+    "task_ru": "Скажи: А что ты любишь пить?"
+   },
+   {
+    "id": "ch06_d5_04",
+    "role": "H",
+    "de": "Ich trinke gern Kaffee.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я люблю пить кофе.",
+    "nouns": [
+     {
+      "lemma": "Kaffee",
+      "art": "der",
+      "pl": "Kaffees"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "trinke",
+       "role": "действие №2"
+      },
+      {
+       "w": "gern",
+       "role": "добавка"
+      },
+      {
+       "w": "Kaffee",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Для ich — trinke, для du — trinkst. gern — «охотно».",
+     "topic": "verb2",
+     "why_de": "Ich · trinke · gern · Kaffee: действие trinke — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я люблю пить кофе» — Ich trinke gern Kaffee. Разница одна: по-немецки trinke держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich gern Kaffee trinke.",
+      "ru": "Действие trinke уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе trinke — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Для ich — trinke, для du — trinkst. gern — «охотно»."
+    },
+    "audio": "audio_v1/ch06_d5_04.mp3",
+    "tts": "Ich trinke gern Kaffee.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "trinke",
+      "ipa": "[ˈtʁɪŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gern",
+      "ipa": "[ɡɛʁn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kaffee",
+      "ipa": "[ˈkafe]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): t… · добавка: g… · кого-что: K…",
+    "gap": {
+     "text": "Ich ___ gern ___.",
+     "answers": [
+      "trinke",
+      "Kaffee"
+     ]
+    },
+    "task_ru": "Скажи: Я люблю пить кофе."
+   },
+   {
+    "id": "ch06_d5_05",
+    "role": "V",
+    "de": "Bitte schön?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Слушаю?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Bitte schön",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Bitte schön? с вопросом — так продавец приглашает сделать заказ.",
+     "topic": "word_order",
+     "why_de": "Готовый вопрос продавца: «слушаю вас?». Учим целиком; с вопросительной интонацией (↗) это приглашение сделать заказ.",
+     "why_ru": "Как русское «Слушаю вас?» — одним куском, на слова не разбирают.",
+     "layer": "chunk",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — отвечать «да» или «нет»: на Bitte schön? сразу говорят, что хотят."
+     },
+     "source": "tools/why_chunks.json",
+     "root": null,
+     "why_voice_ru": "Bitte schön? с вопросом — так продавец приглашает сделать заказ."
+    },
+    "audio": "audio_v1/ch06_d5_05.mp3",
+    "tts": "Bitte schön? Bitte schön?",
+    "ipa": [
+     {
+      "w": "Bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schön",
+      "ipa": "[ʃøːn]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: B… s…",
+    "gap": {
+     "text": "Bitte ___?",
+     "answers": [
+      "schön"
+     ]
+    },
+    "task_ru": "Скажи: Слушаю?"
+   },
+   {
+    "id": "ch06_d5_06",
+    "role": "H",
+    "de": "Vier Brötchen und einen Kaffee, bitte.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Четыре булочки и чашку кофе, пожалуйста.",
+    "nouns": [
+     {
+      "lemma": "Brötchen",
+      "art": "das",
+      "pl": "Brötchen"
+     },
+     {
+      "lemma": "Kaffee",
+      "art": "der",
+      "pl": "Kaffees"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Vier Brötchen und einen Kaffee",
+       "role": "кого-что"
+      },
+      {
+       "w": "bitte",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Kaffee — der-слово; в заказе ein превращается в einen: einen Kaffee.",
+     "topic": "akkusativ",
+     "why_de": "bitte — готовая формула, дальше кусок по словам: Vier Brötchen und einen Kaffee (что?).",
+     "why_ru": "По-русски так же коротко: «Четыре булочки и чашку кофе, пожалуйста».",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — заучить всю фразу одним куском. Готовая формула тут только bitte, остальное — слова под ситуацию."
+     },
+     "root": null,
+     "why_voice_ru": "Kaffee — der-слово; в заказе ein превращается в einen: einen Kaffee."
+    },
+    "audio": "audio_v1/ch06_d5_06.mp3",
+    "tts": "Vier Brötchen und einen Kaffee, bitte.",
+    "ipa": [
+     {
+      "w": "Vier",
+      "ipa": "[fiːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Brötchen",
+      "ipa": "[ˈbʁøːtçən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "einen",
+      "ipa": "[ˈaɪ̯nən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kaffee",
+      "ipa": "[ˈkafe]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кого-что: V… B… u… e… K… · привет/вежливость: b…",
+    "gap": {
+     "text": "Vier Brötchen und einen ___, bitte.",
+     "answers": [
+      "Kaffee"
+     ]
+    },
+    "task_ru": "Скажи: Четыре булочки и чашку кофе, пожалуйста."
+   },
+   {
+    "id": "ch06_d5_07",
+    "role": "V",
+    "de": "Das macht vier Euro fünfzig.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Итого четыре евро пятьдесят.",
+    "nouns": [
+     {
+      "lemma": "Euro",
+      "art": "der",
+      "pl": "Euro"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Das",
+       "role": "кто"
+      },
+      {
+       "w": "macht",
+       "role": "действие №2"
+      },
+      {
+       "w": "vier Euro fünfzig",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Итог — поезд: das · macht · сумма.",
+     "topic": "verb2",
+     "why_de": "Das · macht · vier Euro fünfzig: действие macht — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Итого четыре евро пятьдесят» — другие слова: это готовая фраза у кассы. Дословно Das macht … — это делает …, по-русски «итого». Действие macht держит вагон №2: Das macht vier Euro fünfzig.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Das vier Euro fünfzig macht.",
+      "ru": "Действие macht уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе macht — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Итог — поезд: das · macht · сумма.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «что»",
+      "items": [
+       {
+        "id": "ch06_023",
+        "de": "Das macht vier Euro.",
+        "ru": "Итого четыре евро.",
+        "audio": "audio_v1/ch06_023.mp3",
+        "lesson": "L3",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "vier Euro fünfzig",
+         "to": "vier Euro"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Das · macht. В каждом примере меняется один вагон — «что»: vier Euro fünfzig → vier Euro. Действие macht всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch06_d5_07.mp3",
+    "tts": "Das macht vier Euro fünfzig.",
+    "ipa": [
+     {
+      "w": "Das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "macht",
+      "ipa": "[maxt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "vier",
+      "ipa": "[fiːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Euro",
+      "ipa": "[ˈɔɪ̯ʁo]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "fünfzig",
+      "ipa": "[ˈfʏnft͡sɪç]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… · действие (вагон №2): m… · кого-что: v… E… f…",
+    "gap": {
+     "text": "Das ___ vier Euro ___.",
+     "answers": [
+      "macht",
+      "fünfzig"
+     ]
+    },
+    "task_ru": "Скажи: Итого четыре евро пятьдесят."
+   },
+   {
+    "id": "ch06_d5_08",
+    "role": "H",
+    "de": "Mit Karte, bitte.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Картой, пожалуйста.",
+    "nouns": [
+     {
+      "lemma": "Karte",
+      "art": "die",
+      "pl": "Karten"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Mit Karte",
+       "role": "кого-что"
+      },
+      {
+       "w": "bitte",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Короткий ответ без действия.",
+     "topic": "word_order",
+     "why_de": "bitte — готовая формула, дальше кусок по словам: Mit Karte (что?).",
+     "why_ru": "По-русски так же коротко: «Картой, пожалуйста».",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — заучить всю фразу одним куском. Готовая формула тут только bitte, остальное — слова под ситуацию."
+     },
+     "root": null,
+     "why_voice_ru": "Короткий ответ без действия."
+    },
+    "audio": "audio_v1/ch06_d5_08.mp3",
+    "tts": "Mit Karte, bitte.",
+    "ipa": [
+     {
+      "w": "Mit",
+      "ipa": "[mɪt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Karte",
+      "ipa": "[ˈkaʁtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кого-что: M… K… · привет/вежливость: b…",
+    "gap": {
+     "text": "Mit ___, bitte.",
+     "answers": [
+      "Karte"
+     ]
+    },
+    "task_ru": "Скажи: Картой, пожалуйста."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch06_d6",
+  "title_ru": "Субботний рынок",
+  "roles": {
+   "V": "Verkäuferin (продавщица на рынке)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch06_d6_01",
+    "role": "V",
+    "de": "Guten Tag! Bitte schön?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Добрый день! Слушаю?",
+    "nouns": [
+     {
+      "lemma": "Tag",
+      "art": "der",
+      "pl": "Tage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Guten Tag",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Bitte schön",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Bitte schön? с вопросом — так продавец приглашает сделать заказ. Guten Tag — вежливое приветствие.",
+     "topic": "word_order",
+     "why_de": "Здесь 2 готовые формулы подряд: Guten Tag + Bitte schön. Их учим целиком, по одной; действия нет — поэтому и поезда нет.",
+     "why_ru": "По-русски так же — 2 куска подряд: «Добрый день! Слушаю».",
+     "layer": "formulas",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — склеить всё в одно и переводить по словам. Тут 2 куска, их учим целиком: Guten Tag · Bitte schön."
+     },
+     "root": null,
+     "why_voice_ru": "Bitte schön? с вопросом — так продавец приглашает сделать заказ. Guten Tag — вежливое приветствие."
+    },
+    "audio": "audio_v1/ch06_d6_01.mp3",
+    "tts": "Guten Tag! Bitte schön?",
+    "ipa": [
+     {
+      "w": "Guten",
+      "ipa": "[ˈɡuːtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tag",
+      "ipa": "[taːk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schön",
+      "ipa": "[ʃøːn]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… T… · привет/вежливость: B… s…",
+    "gap": {
+     "text": "Guten Tag! Bitte ___?",
+     "answers": [
+      "schön"
+     ]
+    },
+    "task_ru": "Скажи: Добрый день! Слушаю?"
+   },
+   {
+    "id": "ch06_d6_02",
+    "role": "H",
+    "de": "Ich hätte gern ein Kilo Kartoffeln. Was kostet der Fisch?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я бы хотел килограмм картофеля. Сколько стоит рыба?",
+    "nouns": [
+     {
+      "lemma": "Kilo",
+      "art": "das",
+      "pl": "Kilo"
+     },
+     {
+      "lemma": "Kartoffel",
+      "art": "die",
+      "pl": "Kartoffeln"
+     },
+     {
+      "lemma": "Fisch",
+      "art": "der",
+      "pl": "Fische"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "hätte",
+       "role": "действие №2"
+      },
+      {
+       "w": "gern",
+       "role": "добавка"
+      },
+      {
+       "w": "ein Kilo Kartoffeln",
+       "role": "кого-что"
+      },
+      {
+       "w": "Was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "kostet",
+       "role": "действие №2"
+      },
+      {
+       "w": "der Fisch",
+       "role": "кто"
+      }
+     ],
+     "text": "Две фразы — два поезда: ich · hätte · ein Kilo Kartoffeln и was · kostet · der Fisch. Рыба — кто, поэтому der.",
+     "topic": "verb2",
+     "why_de": "Ich · hätte · gern · ein Kilo Kartoffeln: действие hätte — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я бы хотел килограмм картофеля» — Ich hätte gern ein Kilo Kartoffeln. Разница одна: по-немецки hätte держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich gern ein Kilo Kartoffeln hätte. Was kostet der Fisch?",
+      "ru": "Действие hätte уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе hätte — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Две фразы — два поезда: ich · hätte · ein Kilo Kartoffeln и was · kostet · der Fisch. Рыба — кто, поэтому der."
+    },
+    "audio": "audio_v1/ch06_d6_02.mp3",
+    "tts": "Ich hätte gern ein Kilo Kartoffeln. Was kostet der Fisch?",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hätte",
+      "ipa": "[ˈhɛtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gern",
+      "ipa": "[ɡɛʁn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ein",
+      "ipa": "[aɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kilo",
+      "ipa": "[ˈkiːlo]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kartoffeln",
+      "ipa": "[kaʁˈtɔfl̩n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kostet",
+      "ipa": "[ˈkɔstət]",
+      "src": "override"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Fisch",
+      "ipa": "[fɪʃ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): h… · добавка: g… · кого-что: e… K… K… · вопрос-слово: W… · действие (вагон №2): k… · кто: d… F…",
+    "gap": {
+     "text": "Ich ___ gern ein Kilo ___. Was kostet der Fisch?",
+     "answers": [
+      "hätte",
+      "Kartoffeln"
+     ]
+    },
+    "task_ru": "Скажи: Я бы хотел килограмм картофеля. Сколько стоит рыба?"
+   },
+   {
+    "id": "ch06_d6_03",
+    "role": "V",
+    "de": "Der Fisch kostet vier Euro. Sonst noch etwas?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Рыба стоит четыре евро. Что-нибудь ещё?",
+    "nouns": [
+     {
+      "lemma": "Fisch",
+      "art": "der",
+      "pl": "Fische"
+     },
+     {
+      "lemma": "Euro",
+      "art": "der",
+      "pl": "Euro"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Der Fisch",
+       "role": "кто"
+      },
+      {
+       "w": "kostet",
+       "role": "действие №2"
+      },
+      {
+       "w": "vier Euro",
+       "role": "кого-что"
+      },
+      {
+       "w": "Sonst noch etwas",
+       "role": "готовая фраза"
+      }
+     ],
+     "text": "Один предмет — kostet. Sonst noch etwas? — готовая фраза продавца, учим целиком.",
+     "topic": "verb2",
+     "why_de": "Der Fisch · kostet · vier Euro: действие kostet — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Рыба стоит четыре евро» — Der Fisch kostet vier Euro. Разница одна: по-немецки kostet держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Der Fisch vier Euro kostet. Sonst noch etwas?",
+      "ru": "Действие kostet уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе kostet — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Один предмет — kostet. Sonst noch etwas? — готовая фраза продавца, учим целиком."
+    },
+    "audio": "audio_v1/ch06_d6_03.mp3",
+    "tts": "Der Fisch kostet vier Euro. Sonst noch etwas?",
+    "ipa": [
+     {
+      "w": "Der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Fisch",
+      "ipa": "[fɪʃ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kostet",
+      "ipa": "[ˈkɔstət]",
+      "src": "override"
+     },
+     {
+      "w": "vier",
+      "ipa": "[fiːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Euro",
+      "ipa": "[ˈɔɪ̯ʁo]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sonst",
+      "ipa": "[zɔnst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "noch",
+      "ipa": "[nɔx]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "etwas",
+      "ipa": "[ˈɛtvas]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… F… · действие (вагон №2): k… · кого-что: v… E… · готовая фраза: S… n… e…",
+    "gap": {
+     "text": "Der Fisch ___ vier ___. Sonst noch etwas?",
+     "answers": [
+      "kostet",
+      "Euro"
+     ]
+    },
+    "task_ru": "Скажи: Рыба стоит четыре евро. Что-нибудь ещё?"
+   },
+   {
+    "id": "ch06_d6_04",
+    "role": "H",
+    "de": "Nein, danke. Ich nehme den Fisch.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Нет, спасибо. Я возьму рыбу.",
+    "nouns": [
+     {
+      "lemma": "Fisch",
+      "art": "der",
+      "pl": "Fische"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Nein",
+       "role": "да/нет"
+      },
+      {
+       "w": "danke",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "nehme",
+       "role": "действие №2"
+      },
+      {
+       "w": "den Fisch",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Nein, danke — вежливый отказ, место не занимает. Рыбу берут — вагон «кого-что», поэтому den Fisch.",
+     "topic": "akkusativ",
+     "why_de": "Артикль — сигнал роли: der → den/einen показывает «кого-что»: Ich nehme den Fisch.",
+     "why_ru": "Похоже на русские окончания, только меняется не слово, а артикль: Ich nehme den Fisch.",
+     "layer": "akk",
+     "why_not": {
+      "wrong": "Nein, danke. Ich nehme der Fisch.",
+      "ru": "Русская привычка: артикль не меняется. Немец слышит не ту роль: тут der-слово в роли «кого-что» — den."
+     },
+     "root": null,
+     "why_voice_ru": "Nein, danke — вежливый отказ, место не занимает. Рыбу берут — вагон «кого-что», поэтому den Fisch."
+    },
+    "audio": "audio_v1/ch06_d6_04.mp3",
+    "tts": "Nein, danke. Ich nehme den Fisch.",
+    "ipa": [
+     {
+      "w": "Nein",
+      "ipa": "[naɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "nehme",
+      "ipa": "[ˈneːmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "den",
+      "ipa": "[deːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Fisch",
+      "ipa": "[fɪʃ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: N… · привет/вежливость: d… · кто: I… · действие (вагон №2): n… · кого-что: d… F…",
+    "gap": {
+     "text": "Nein, danke. Ich ___ den ___.",
+     "answers": [
+      "nehme",
+      "Fisch"
+     ]
+    },
+    "task_ru": "Скажи: Нет, спасибо. Я возьму рыбу."
+   },
+   {
+    "id": "ch06_d6_05",
+    "role": "V",
+    "de": "Gut. Das macht sieben Euro fünfundzwanzig, mit Karte oder bar?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Хорошо. Итого семь евро двадцать пять, картой или наличными?",
+    "nouns": [
+     {
+      "lemma": "Euro",
+      "art": "der",
+      "pl": "Euro"
+     },
+     {
+      "lemma": "Karte",
+      "art": "die",
+      "pl": "Karten"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Gut",
+       "role": "да/нет"
+      },
+      {
+       "w": "Das",
+       "role": "кто"
+      },
+      {
+       "w": "macht",
+       "role": "действие №2"
+      },
+      {
+       "w": "sieben Euro fünfundzwanzig",
+       "role": "кого-что"
+      },
+      {
+       "w": "mit Karte",
+       "role": "какой/как"
+      },
+      {
+       "w": "oder",
+       "role": "связка"
+      },
+      {
+       "w": "bar",
+       "role": "какой/как"
+      }
+     ],
+     "text": "Итог — поезд: das · macht · сумма. Дальше — готовый вопрос кассира.",
+     "topic": "verb2",
+     "why_de": "Das · macht · sieben Euro fünfundzwanzig · mit Karte · bar: действие macht — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Итого семь евро двадцать пять, картой или наличными» — другие слова: это готовая фраза у кассы. Дословно Das macht … — это делает …, по-русски «итого». Действие macht держит вагон №2: Das macht sieben Euro fünfundzwanzig, mit Karte oder bar?",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Gut. Das sieben Euro fünfundzwanzig, mit Karte oder bar macht?",
+      "ru": "Действие macht уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе macht — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Итог — поезд: das · macht · сумма. Дальше — готовый вопрос кассира."
+    },
+    "audio": "audio_v1/ch06_d6_05.mp3",
+    "tts": "Gut. Das macht sieben Euro fünfundzwanzig, mit Karte oder bar?",
+    "ipa": [
+     {
+      "w": "Gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "macht",
+      "ipa": "[maxt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "sieben",
+      "ipa": "[ˈziːbn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Euro",
+      "ipa": "[ˈɔɪ̯ʁo]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "fünfundzwanzig",
+      "ipa": "[ˌfʏnfʔʊntˈt͡svant͡sɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mit",
+      "ipa": "[mɪt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Karte",
+      "ipa": "[ˈkaʁtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "oder",
+      "ipa": "[ˈoːdɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bar",
+      "ipa": "[baːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: G… · кто: D… · действие (вагон №2): m… · кого-что: s… E… f… · какой/как: m… K… · связка: o… · какой/как: b…",
+    "gap": {
+     "text": "Gut. Das ___ sieben Euro ___, mit Karte oder bar?",
+     "answers": [
+      "macht",
+      "fünfundzwanzig"
+     ]
+    },
+    "task_ru": "Скажи: Хорошо. Итого семь евро двадцать пять, картой или наличными?"
+   },
+   {
+    "id": "ch06_d6_06",
+    "role": "H",
+    "de": "Mit Karte, bitte.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Картой, пожалуйста.",
+    "nouns": [
+     {
+      "lemma": "Karte",
+      "art": "die",
+      "pl": "Karten"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Mit Karte",
+       "role": "кого-что"
+      },
+      {
+       "w": "bitte",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Короткий ответ без действия.",
+     "topic": "word_order",
+     "why_de": "bitte — готовая формула, дальше кусок по словам: Mit Karte (что?).",
+     "why_ru": "По-русски так же коротко: «Картой, пожалуйста».",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — заучить всю фразу одним куском. Готовая формула тут только bitte, остальное — слова под ситуацию."
+     },
+     "root": null,
+     "why_voice_ru": "Короткий ответ без действия."
+    },
+    "audio": "audio_v1/ch06_d6_06.mp3",
+    "tts": "Mit Karte, bitte.",
+    "ipa": [
+     {
+      "w": "Mit",
+      "ipa": "[mɪt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Karte",
+      "ipa": "[ˈkaʁtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кого-что: M… K… · привет/вежливость: b…",
+    "gap": {
+     "text": "Mit ___, bitte.",
+     "answers": [
+      "Karte"
+     ]
+    },
+    "task_ru": "Скажи: Картой, пожалуйста."
+   },
+   {
+    "id": "ch06_d6_07",
+    "role": "V",
+    "de": "Bitte schön. Auf Wiedersehen!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Пожалуйста. До свидания!",
+    "nouns": [
+     {
+      "lemma": "Wiedersehen",
+      "art": "das",
+      "pl": "Wiedersehen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Bitte schön",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Auf Wiedersehen",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Bitte schön без вопроса — «пожалуйста». Auf Wiedersehen — вежливое прощание.",
+     "topic": "word_order",
+     "why_de": "Здесь 2 готовые формулы подряд: Bitte schön + Auf Wiedersehen. Их учим целиком, по одной; действия нет — поэтому и поезда нет.",
+     "why_ru": "По-русски так же — 2 куска подряд: «Пожалуйста. До свидания».",
+     "layer": "formulas",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — склеить всё в одно и переводить по словам. Тут 2 куска, их учим целиком: Bitte schön · Auf Wiedersehen."
+     },
+     "root": "Wiedersehen = wieder + sehen (wieder — снова; sehen — видеть) — Wiktionary",
+     "why_voice_ru": "Bitte schön без вопроса — «пожалуйста». Auf Wiedersehen — вежливое прощание."
+    },
+    "audio": "audio_v1/ch06_d6_07.mp3",
+    "tts": "Bitte schön. Auf Wiedersehen!",
+    "ipa": [
+     {
+      "w": "Bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schön",
+      "ipa": "[ʃøːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Auf",
+      "ipa": "[aʊ̯f]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wiedersehen",
+      "ipa": "[ˈviːdɐˌzeːən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: B… s… · привет/вежливость: A… W…",
+    "gap": {
+     "text": "Bitte schön. Auf ___!",
+     "answers": [
+      "Wiedersehen"
+     ]
+    },
+    "task_ru": "Скажи: Пожалуйста. До свидания!"
+   },
+   {
+    "id": "ch06_d6_08",
+    "role": "H",
+    "de": "Danke! Auf Wiedersehen!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Спасибо! До свидания!",
+    "nouns": [
+     {
+      "lemma": "Wiedersehen",
+      "art": "das",
+      "pl": "Wiedersehen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Auf Wiedersehen",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Danke и прощание — вежливые слова, место не занимают.",
+     "topic": "word_order",
+     "why_de": "Здесь 2 готовые формулы подряд: Danke + Auf Wiedersehen. Их учим целиком, по одной; действия нет — поэтому и поезда нет.",
+     "why_ru": "По-русски так же — 2 куска подряд: «Спасибо! До свидания».",
+     "layer": "formulas",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — склеить всё в одно и переводить по словам. Тут 2 куска, их учим целиком: Danke · Auf Wiedersehen."
+     },
+     "root": "Wiedersehen = wieder + sehen (wieder — снова; sehen — видеть) — Wiktionary",
+     "why_voice_ru": "Danke и прощание — вежливые слова, место не занимают."
+    },
+    "audio": "audio_v1/ch06_d6_08.mp3",
+    "tts": "Danke! Auf Wiedersehen!",
+    "ipa": [
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Auf",
+      "ipa": "[aʊ̯f]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wiedersehen",
+      "ipa": "[ˈviːdɐˌzeːən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: D… · привет/вежливость: A… W…",
+    "gap": {
+     "text": "Danke! Auf ___!",
+     "answers": [
+      "Wiedersehen"
+     ]
+    },
+    "task_ru": "Скажи: Спасибо! До свидания!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ }
+]

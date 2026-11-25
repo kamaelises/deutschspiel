@@ -1,0 +1,5573 @@
+[
+ {
+  "id": "ch15_L1",
+  "title": "Das habe ich gelernt. Где и когда ты это учил",
+  "pages_linie1": {
+   "pages": [
+    266,
+    267
+   ],
+   "sections": [
+    "1 Das habe ich gelernt."
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch15_001",
+   "ch15_002",
+   "ch15_003",
+   "ch15_004",
+   "ch15_005"
+  ],
+  "why_ids": [
+   "ch15_001",
+   "ch15_004"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch15_d1",
+    "line_ids": [
+     "ch15_d1_01",
+     "ch15_d1_02",
+     "ch15_d1_03",
+     "ch15_d1_04",
+     "ch15_d1_05",
+     "ch15_d1_06",
+     "ch15_d1_07"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Ольга спросила, что ты учишь. Что ответишь?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch15_d1",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch15_d1_02",
+        "ch15_d1_03",
+        "ch15_d1_04",
+        "ch15_d1_05"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch15_d1",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Пересказ: скажи вслух про Ольгу — что она учила и где",
+      "min": 4,
+      "uses": {
+       "part": 9
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch15_001",
+        "ch15_d1_02",
+        "ch15_d1_03",
+        "ch15_d1_07"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Пересказ: скажи вслух про Ольгу — что она учила и где — 4 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 56
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "мост: «учил» — одно слово, по-немецки два (помощник + что сделано); без терминов «перфект», «причастие»",
+   "как слышу, так и пишу": "ударение geLERNT; sch = «ш», h после a в Jahren (части 7 и 10)",
+   "учебник непонятен": "из Linie 1 — только тема и страницы 266–267; подача своя",
+   "село, живой немецкий — Netto": "сцена — перемена на курсе: о себе спрашивают в первую очередь там",
+   "любит аниме": "завязка — «окно навыков» героя; отрезки аниме — в карточке темы «прошлое»",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 56 мин (все 12 + 25 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Ich habe Russisch in der Schule gelernt; перенос — Olga hat Englisch in der Schule gelernt, Ich habe Deutsch im Kurs gelernt, Wo hast du Deutsch gelernt?",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    266,
+    267
+   ],
+   "phrases_ids": [
+    "ch15_010",
+    "ch15_011",
+    "ch15_012"
+   ],
+   "note": "к курсу: на стр. 266–267 — места, где учатся (на курсе их называют Lernorte), и возраст, когда чему учатся; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch15_010",
+    "picture": "улица поселения с вывесками: детский сад, школа, университет, автошкола, музыкальная школа, народная школа для взрослых",
+    "words": [
+     {
+      "de": "der Kindergarten",
+      "ru": "детский сад"
+     },
+     {
+      "de": "die Schule",
+      "ru": "школа"
+     },
+     {
+      "de": "die Universität",
+      "ru": "университет"
+     },
+     {
+      "de": "die Fahrschule",
+      "ru": "автошкола"
+     },
+     {
+      "de": "die Musikschule",
+      "ru": "музыкальная школа"
+     },
+     {
+      "de": "die Volkshochschule",
+      "ru": "народная школа для взрослых"
+     }
+    ],
+    "note": "эти слова есть на стр. 266; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch15_L1_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch15_010",
+     "prompt": "Слова курса. Послушай. Что значит «Fahrschule»?",
+     "answer": "автошкола",
+     "distractors": [
+      "музыкальная школа",
+      "детский сад"
+     ],
+     "src": "Linie 1, стр. 266 (Lernorte)"
+    },
+    {
+     "id": "ch15_L1_kurs_2",
+     "skill": "listen",
+     "phraseId": "ch15_011",
+     "prompt": "Слова курса. Послушай. Что значит «Rentner»?",
+     "answer": "пенсионер",
+     "distractors": [
+      "школьник",
+      "подросток"
+     ],
+     "src": "Linie 1, стр. 267 (Wann lernt man das?)"
+    },
+    {
+     "id": "ch15_L1_kurs_3",
+     "skill": "listen",
+     "phraseId": "ch15_012",
+     "prompt": "Слова курса. Послушай. Что значит «Beruf»?",
+     "answer": "профессия",
+     "distractors": [
+      "фирма",
+      "практика"
+     ],
+     "src": "Linie 1, стр. 266–267"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Школа поселения: первая доска «Das habe ich gelernt» — что жители уже умеют",
+   "npc": "Olga — одногруппница (на «ты»)"
+  },
+  "covers": [
+   "L1-15-S1"
+  ],
+  "covers_note": {
+   "L1-15-S1": "где учатся (Lernorte): in der Schule, im Kurs + «к курсу» Kindergarten … Volkshochschule; когда (wann): mit sieben Jahren (части 3–6, 8)"
+  },
+  "goal": "После урока сможешь: сказать, что ты уже выучил, где (в школе, на курсе) и в каком возрасте, и спросить об этом другого: Wo hast du das gelernt? Wann?",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Перемена на курсе: Ольга хвалит твой немецкий.",
+      "Цель: сказать, что ты уже выучил, где и когда."
+     ],
+     "voice_ru": "На перемене Ольга говорит, что ты хорошо говоришь по-немецки. Ты ответишь, где этому научился. Потом она спросит, где и когда ты учил английский.",
+     "hook": "Загадка урока: по-русски «учил» — одно слово. Почему немцу нужно два: habe … gelernt?",
+     "anime_motif": "исекай: герой впервые открывает «окно навыков» — список того, что уже выучено (без цитат)",
+     "npc": "Olga — одногруппница",
+     "more": "Ты скажешь, где выучил немецкий и английский и в каком возрасте.",
+     "goal": "После урока сможешь: сказать, что ты уже выучил, где (в школе, на курсе) и в каком возрасте, и спросить об этом другого: Wo hast du das gelernt? Wann?"
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch15_007",
+      "ch15_008",
+      "ch15_009"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Ольга спросила, что ты учишь. Что ответишь?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch15_007",
+      "ch15_008",
+      "ch15_009"
+     ],
+     "type": "retrieval: вопрос, не перечитывание"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch15_001",
+      "ch15_002",
+      "ch15_003",
+      "ch15_004",
+      "ch15_005"
+     ],
+     "words": [
+      "Ich habe Englisch gelernt.",
+      "In der Schule.",
+      "Im Kurs.",
+      "Wann hast du das gelernt?",
+      "Mit sieben Jahren."
+     ],
+     "words_ru": {
+      "Ich habe Englisch gelernt.": "Я учил английский.",
+      "In der Schule.": "В школе.",
+      "Im Kurs.": "На курсе.",
+      "Wann hast du das gelernt?": "Когда ты это учил?",
+      "Mit sieben Jahren.": "В семь лет."
+     },
+     "trap": "«Я учил» по-немецки — не одно слово, а два: habe и gelernt. Без habe фраза обрывается.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch15_L1_words_1",
+      "ch15_L1_words_2",
+      "ch15_L1_words_3",
+      "ch15_L1_words_4",
+      "ch15_L1_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch15_d1",
+     "line_ids": [
+      "ch15_d1_01",
+      "ch15_d1_02",
+      "ch15_d1_03",
+      "ch15_d1_04",
+      "ch15_d1_05",
+      "ch15_d1_06",
+      "ch15_d1_07"
+     ],
+     "halves": [
+      [
+       "ch15_d1_01",
+       "ch15_d1_02",
+       "ch15_d1_03",
+       "ch15_d1_04"
+      ],
+      [
+       "ch15_d1_05",
+       "ch15_d1_06",
+       "ch15_d1_07"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "Немецкий взрослые чаще всего учат на курсах: на интеграционном курсе, на курсах народной школы (Volkshochschule) — спросить «Wo hast du Deutsch gelernt?» можно почти у любого в группе.",
+     "task_ids": [
+      "ch15_L1_listen_1",
+      "ch15_L1_listen_2",
+      "ch15_L1_listen_3",
+      "ch15_L1_listen_4",
+      "ch15_L1_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch15_001",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "Прошлое — из двух слов. Помощник habe стоит в вагоне №2 и включает «уже было». Что сделано — gelernt — уходит в самый конец.",
+     "screen": [
+      "ich lerne — учу сейчас · ich habe … gelernt — учил",
+      "ich habe · du hast · Olga hat … gelernt"
+     ],
+     "answer_hook": "Ответ на загадку: habe говорит «это уже было» и кто это сделал, gelernt — что именно сделано. По-русски оба смысла сидят в одном слове «учил».",
+     "second": {
+      "why_id": "ch15_004",
+      "voice_ru": "wann — «когда». Вопрос-слово впереди, помощник hast — сразу за ним, gelernt — в конце."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch15_L1_why_1",
+      "ch15_L1_why_2",
+      "ch15_L1_why_3",
+      "ch15_L1_why_4",
+      "ch15_L1_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch15_006",
+     "pieces": [
+      "gelernt.",
+      "in der Schule",
+      "Ich",
+      "Russisch",
+      "habe"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch15_d1_04",
+      "ch15_002"
+     ],
+     "prompt": "Собери сам из знакомых кусков: Ольга спрашивает про русский. Ответь: «Я учил русский в школе.»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch15_006",
+     "transfer_task_ids": [
+      "ch15_L1_transfer_1"
+     ],
+     "task_ids": [
+      "ch15_L1_write_1",
+      "ch15_L1_write_2",
+      "ch15_L1_write_3",
+      "ch15_L1_write_4",
+      "ch15_L1_write_5",
+      "ch15_L1_read_1",
+      "ch15_L1_read_2",
+      "ch15_L1_read_3",
+      "ch15_L1_read_4",
+      "ch15_L1_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "gelernt",
+     "ipa_sym": "ə (слабое «э»)",
+     "tip_ru": "ge- в начале — слабое и без ударения. Ударение на lernt: gelernt — «гэ-ЛЭРНТ». Скажи ge- коротко и сразу дави на lernt.",
+     "bridge_ru": "По-русски безударный слог тоже слабее: «учИл». Слушай и повторяй слово целиком.",
+     "phrase_id": "ch15_001",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "gelernt",
+       "ru": "гэ-ЛЭРНТ"
+      },
+      {
+       "de": "Schule",
+       "ru": "ШУ:-лэ"
+      },
+      {
+       "de": "Kurs",
+       "ru": "КУРС"
+      },
+      {
+       "de": "Jahren",
+       "ru": "Я:-рэн"
+      }
+     ],
+     "speak_task_ids": [
+      "ch15_L1_speak_1",
+      "ch15_L1_speak_2",
+      "ch15_L1_speak_3",
+      "ch15_L1_speak_4",
+      "ch15_L1_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Перемена: где ты это учил?",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Olga (на «ты»)",
+     "turns": [
+      {
+       "prompt_id": "ch15_d1_01",
+       "prompt_de": "Du sprichst gut Deutsch!",
+       "prompt_audio": "audio_v1/ch15_d1_01.mp3",
+       "expected_id": "ch15_d1_02",
+       "expected_de": "Danke! Das habe ich im Kurs gelernt.",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch15_d1_03",
+       "prompt_de": "Wo hast du Englisch gelernt?",
+       "prompt_audio": "audio_v1/ch15_d1_03.mp3",
+       "expected_id": "ch15_d1_04",
+       "expected_de": "Ich habe Englisch in der Schule gelernt.",
+       "accept": [
+        {
+         "id": "ch15_002",
+         "de": "In der Schule."
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch15_d1_05",
+       "prompt_de": "Wann hast du das gelernt?",
+       "prompt_audio": "audio_v1/ch15_d1_05.mp3",
+       "expected_id": "ch15_d1_06",
+       "expected_de": "Mit sieben Jahren.",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Отвечай фразами сцены. Короткий ответ «In der Schule.» тоже подходит.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch15_t01",
+     "task_ru": "Новенький в группе не слышал ваш разговор. Скажи ему по-немецки про Ольгу: где она учила английский.",
+     "expected_ru": "Ольга учила английский в школе.",
+     "hint_ru": "Olga hat Englisch in der Schule gelernt.",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1.2 — пересказать чужие слова одной фразой: с Olga помощник hat"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch15_L1_dict_1",
+      "ch15_L1_dict_2",
+      "ch15_L1_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Schule, Kurs, Jahren — с большой буквы. В Schule звук «ш» пишется тремя буквами: sch. В Jahren после a стоит h: звук «а» долгий."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch15_L1_transfer_2",
+      "ch15_L1_transfer_3",
+      "ch15_L1_transfer_4",
+      "ch15_L1_transfer_5",
+      "ch15_L1_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "На доске школы — первая запись: что ты уже выучил.",
+      "Совет на завтра: скажи вслух три вещи, которые ты выучил, и где."
+     ],
+     "npc_phrase_id": "ch15_d1_07",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: ich habe … gelernt · du hast … gelernt · Olga hat … gelernt · wo? — in der Schule, im Kurs · wann? — mit sieben Jahren.",
+     "next_hook": "Дальше: от кого ты это узнал? От дяди, от учительницы, от соседа — Von wem?",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [
+      "ch15_L1_transfer_6"
+     ],
+     "kurs": {
+      "pages": [
+       266,
+       267
+      ],
+      "phrases_ids": [
+       "ch15_010",
+       "ch15_011",
+       "ch15_012"
+      ],
+      "note": "к курсу: на стр. 266–267 — места, где учатся (на курсе их называют Lernorte), и возраст, когда чему учатся; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch15_010",
+       "picture": "улица поселения с вывесками: детский сад, школа, университет, автошкола, музыкальная школа, народная школа для взрослых",
+       "words": [
+        {
+         "de": "der Kindergarten",
+         "ru": "детский сад"
+        },
+        {
+         "de": "die Schule",
+         "ru": "школа"
+        },
+        {
+         "de": "die Universität",
+         "ru": "университет"
+        },
+        {
+         "de": "die Fahrschule",
+         "ru": "автошкола"
+        },
+        {
+         "de": "die Musikschule",
+         "ru": "музыкальная школа"
+        },
+        {
+         "de": "die Volkshochschule",
+         "ru": "народная школа для взрослых"
+        }
+       ],
+       "note": "эти слова есть на стр. 266; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch15_L1_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch15_010",
+        "prompt": "Слова курса. Послушай. Что значит «Fahrschule»?",
+        "answer": "автошкола",
+        "distractors": [
+         "музыкальная школа",
+         "детский сад"
+        ],
+        "src": "Linie 1, стр. 266 (Lernorte)"
+       },
+       {
+        "id": "ch15_L1_kurs_2",
+        "skill": "listen",
+        "phraseId": "ch15_011",
+        "prompt": "Слова курса. Послушай. Что значит «Rentner»?",
+        "answer": "пенсионер",
+        "distractors": [
+         "школьник",
+         "подросток"
+        ],
+        "src": "Linie 1, стр. 267 (Wann lernt man das?)"
+       },
+       {
+        "id": "ch15_L1_kurs_3",
+        "skill": "listen",
+        "phraseId": "ch15_012",
+        "prompt": "Слова курса. Послушай. Что значит «Beruf»?",
+        "answer": "профессия",
+        "distractors": [
+         "фирма",
+         "практика"
+        ],
+        "src": "Linie 1, стр. 266–267"
+       }
+      ]
+     },
+     "kurs_pages": [
+      266,
+      267
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch15.py",
+  "new_words": [
+   "Ich habe … gelernt.",
+   "in der Schule",
+   "im Kurs",
+   "Wann hast du das gelernt?",
+   "mit sieben Jahren"
+  ],
+  "known_before": [
+   "Ich lerne Deutsch.",
+   "Was lernst du?",
+   "habe · hast · hat",
+   "Wo …?",
+   "Du sprichst …",
+   "gut",
+   "auch",
+   "Danke!"
+  ],
+  "transfer_phrase_ids": [
+   "ch15_t01",
+   "ch15_t02",
+   "ch15_t03"
+  ],
+  "built_phrase_ids": [
+   "ch15_006"
+  ],
+  "quiz_ids": [
+   "ch15_L1_words_1",
+   "ch15_L1_words_2",
+   "ch15_L1_words_3",
+   "ch15_L1_words_4",
+   "ch15_L1_words_5",
+   "ch15_L1_listen_1",
+   "ch15_L1_listen_2",
+   "ch15_L1_listen_3",
+   "ch15_L1_listen_4",
+   "ch15_L1_listen_5",
+   "ch15_L1_read_1",
+   "ch15_L1_read_2",
+   "ch15_L1_read_3",
+   "ch15_L1_read_4",
+   "ch15_L1_read_5",
+   "ch15_L1_speak_1",
+   "ch15_L1_speak_2",
+   "ch15_L1_speak_3",
+   "ch15_L1_speak_4",
+   "ch15_L1_speak_5",
+   "ch15_L1_write_1",
+   "ch15_L1_write_2",
+   "ch15_L1_write_3",
+   "ch15_L1_write_4",
+   "ch15_L1_write_5",
+   "ch15_L1_why_1",
+   "ch15_L1_why_2",
+   "ch15_L1_why_3",
+   "ch15_L1_why_4",
+   "ch15_L1_why_5",
+   "ch15_L1_transfer_1",
+   "ch15_L1_transfer_2",
+   "ch15_L1_transfer_3",
+   "ch15_L1_transfer_4",
+   "ch15_L1_transfer_5",
+   "ch15_L1_transfer_6",
+   "ch15_L1_boss_1"
+  ],
+  "dictation_ids": [
+   "ch15_L1_dict_1",
+   "ch15_L1_dict_2",
+   "ch15_L1_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Перемена на курсе: Ольга хвалит твой немецкий. Цель: сказать, что ты уже выучил, где и когда. Загадка урока: по-русски «учил» — одно слово. Почему немцу нужно два: habe … gelernt?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Перемена: где ты это учил?",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой на перемене курса (ИИ — Ольга)",
+   "situation": "kurs_gelernt",
+   "ai_plays": "Olga (на «ты»)",
+   "phrases": [
+    "ch15_d1_02",
+    "ch15_d1_04",
+    "ch15_002",
+    "ch15_d1_06"
+   ]
+  },
+  "outro": "На доске школы — первая запись: что ты уже выучил. Совет на завтра: скажи вслух три вещи, которые ты выучил, и где. Дальше: от кого ты это узнал? От дяди, от учительницы, от соседа — Von wem?",
+  "detail_de_life": "Немецкий взрослые чаще всего учат на курсах: на интеграционном курсе, на курсах народной школы (Volkshochschule) — спросить «Wo hast du Deutsch gelernt?» можно почти у любого в группе.",
+  "task_ids": {
+   "words": [
+    "ch15_L1_words_1",
+    "ch15_L1_words_2",
+    "ch15_L1_words_3",
+    "ch15_L1_words_4",
+    "ch15_L1_words_5"
+   ],
+   "listen": [
+    "ch15_L1_listen_1",
+    "ch15_L1_listen_2",
+    "ch15_L1_listen_3",
+    "ch15_L1_listen_4",
+    "ch15_L1_listen_5"
+   ],
+   "read": [
+    "ch15_L1_read_1",
+    "ch15_L1_read_2",
+    "ch15_L1_read_3",
+    "ch15_L1_read_4",
+    "ch15_L1_read_5"
+   ],
+   "speak": [
+    "ch15_L1_speak_1",
+    "ch15_L1_speak_2",
+    "ch15_L1_speak_3",
+    "ch15_L1_speak_4",
+    "ch15_L1_speak_5"
+   ],
+   "write": [
+    "ch15_L1_write_1",
+    "ch15_L1_write_2",
+    "ch15_L1_write_3",
+    "ch15_L1_write_4",
+    "ch15_L1_write_5"
+   ],
+   "why": [
+    "ch15_L1_why_1",
+    "ch15_L1_why_2",
+    "ch15_L1_why_3",
+    "ch15_L1_why_4",
+    "ch15_L1_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch15_L1_transfer_1",
+   "ch15_L1_transfer_2",
+   "ch15_L1_transfer_3",
+   "ch15_L1_transfer_4",
+   "ch15_L1_transfer_5",
+   "ch15_L1_transfer_6"
+  ],
+  "warmup_ids": [
+   "ch15_007",
+   "ch15_008",
+   "ch15_009"
+  ],
+  "dialog_ids": [
+   "ch15_d1"
+  ],
+  "video": "video/ch15_L1.mp4"
+ },
+ {
+  "id": "ch15_L2",
+  "title": "Von wem? От кого ты это узнал",
+  "pages_linie1": {
+   "pages": [
+    268
+   ],
+   "sections": [
+    "2 Das habe ich von meinem Onkel gelernt."
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch15_013",
+   "ch15_014",
+   "ch15_015",
+   "ch15_016",
+   "ch15_017"
+  ],
+  "why_ids": [
+   "ch15_014",
+   "ch15_013"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch15_d2",
+    "line_ids": [
+     "ch15_d2_01",
+     "ch15_d2_02",
+     "ch15_d2_03",
+     "ch15_d2_04",
+     "ch15_d2_05"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Ольга спросила, когда и где ты учил. Что ответишь?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch15_d2",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch15_d2_02",
+        "ch15_d2_03",
+        "ch15_d2_04",
+        "ch15_d2_05"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch15_d2",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Свои наставники: скажи вслух, от кого ты что узнал (трёх людей)",
+      "min": 4,
+      "uses": {
+       "part": 9
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch15_013",
+        "ch15_014",
+        "ch15_015",
+        "ch15_016"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Свои наставники: скажи вслух, от кого ты что узнал (трёх людей) — 4 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 56
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "мост: по-русски «у дяди», «от моей мамы» — разные слова, по-немецки одно von; меняется «мой», без терминов падежей",
+   "как слышу, так и пишу": "v как «ф» в von, eu как «ойн» в Freund (части 7 и 10)",
+   "учебник непонятен": "из Linie 1 — только тема и страница 268; подача своя",
+   "село, живой немецкий — Netto": "сцена — перемена на курсе: о том, кто чему научил, спрашивают в первую очередь там",
+   "любит аниме": "завязка — наставники навыка; отрезки аниме — в карточке темы «прошлое»",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 56 мин (все 12 + 25 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Ich habe Deutsch von meinem Freund gelernt; перенос — Ich habe Englisch von meinem Freund gelernt, Ich habe das von meiner Mutter gelernt",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    268
+   ],
+   "phrases_ids": [
+    "ch15_019"
+   ],
+   "note": "к курсу: на стр. 268 — люди, от которых учатся: родные, учитель, инструктор автошколы; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch15_019",
+    "picture": "семейное фото и доска курса: брат, сестра, тётя, учительница, учитель, инструктор автошколы",
+    "words": [
+     {
+      "de": "der Bruder",
+      "ru": "брат"
+     },
+     {
+      "de": "die Schwester",
+      "ru": "сестра"
+     },
+     {
+      "de": "die Tante",
+      "ru": "тётя"
+     },
+     {
+      "de": "die Lehrerin",
+      "ru": "учительница"
+     },
+     {
+      "de": "der Lehrer",
+      "ru": "учитель"
+     },
+     {
+      "de": "der Fahrlehrer",
+      "ru": "инструктор автошколы"
+     }
+    ],
+    "note": "эти слова есть на стр. 268; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch15_L2_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch15_019",
+     "prompt": "Слова курса. Послушай. Что значит «Fahrlehrer»?",
+     "answer": "инструктор автошколы",
+     "distractors": [
+      "учитель",
+      "тётя"
+     ],
+     "src": "Linie 1, стр. 268 (Von wem gelernt?)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Школа поселения: вторая доска «Von wem?» — у кого ты учился",
+   "npc": "Olga — одногруппница (на «ты»)"
+  },
+  "covers": [
+   "L1-15-S2",
+   "L1-15-G1"
+  ],
+  "covers_note": {
+   "L1-15-S2": "от кого научился: Von wem hast du das gelernt? Von meinem Onkel / meiner Mutter / meinem Freund (части 3–6, 8); «к курсу» Bruder … Fahrlehrer",
+   "L1-15-G1": "предлог von + Dativ: von meinem Onkel, von meiner Mutter (часть 5, часть 12 «на курсе это называют»)"
+  },
+  "goal": "После урока сможешь: спросить, от кого человек этому научился, и ответить: от дяди, от моей мамы, от друга. Ты поймёшь, почему после von слово «мой» меняется: meinem Onkel, meiner Mutter.",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Перемена: Ольга хвалит твой английский.",
+      "Цель: спросить и сказать, от кого ты этому научился."
+     ],
+     "voice_ru": "Ольга слышит, что ты хорошо говоришь по-английски, и спрашивает, от кого ты этому научился. Ты ответишь про дядю и про друга, а потом сам спросишь её.",
+     "hook": "Загадка урока: Onkel и Freund после von — meinem, а Mutter — meiner. Что решает, какое слово?",
+     "anime_motif": "исекай: герой называет своих учителей — «наставников» навыка (без цитат)",
+     "npc": "Olga — одногруппница",
+     "more": "Ты скажешь, от кого научился. Потом спросишь Ольгу.",
+     "goal": "После урока сможешь: спросить, от кого человек этому научился, и ответить: от дяди, от моей мамы, от друга. Ты поймёшь, почему после von слово «мой» меняется: meinem Onkel, meiner Mutter."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch15_004",
+      "ch15_002",
+      "ch15_001"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Ольга спросила, когда и где ты учил. Что ответишь?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch15_004",
+      "ch15_002",
+      "ch15_001"
+     ],
+     "type": "retrieval: вопрос, не перечитывание"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch15_013",
+      "ch15_014",
+      "ch15_015",
+      "ch15_016",
+      "ch15_017"
+     ],
+     "words": [
+      "Von wem hast du das gelernt?",
+      "Ich habe das von meinem Onkel gelernt.",
+      "Von meiner Mutter.",
+      "Von meinem Freund.",
+      "Ich habe Englisch von meiner Mutter gelernt."
+     ],
+     "words_ru": {
+      "Von wem hast du das gelernt?": "От кого ты этому научился?",
+      "Ich habe das von meinem Onkel gelernt.": "Этому я научился у моего дяди.",
+      "Von meiner Mutter.": "От моей мамы.",
+      "Von meinem Freund.": "От моего друга.",
+      "Ich habe Englisch von meiner Mutter gelernt.": "Я учил английский у моей мамы."
+     },
+     "trap": "По-русски «у дяди» и «от мамы» — разные слова. По-немецки одно: von. И после него слово «мой» меняется.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch15_L2_words_1",
+      "ch15_L2_words_2",
+      "ch15_L2_words_3",
+      "ch15_L2_words_4",
+      "ch15_L2_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch15_d2",
+     "line_ids": [
+      "ch15_d2_01",
+      "ch15_d2_02",
+      "ch15_d2_03",
+      "ch15_d2_04",
+      "ch15_d2_05"
+     ],
+     "halves": [
+      [
+       "ch15_d2_01",
+       "ch15_d2_02"
+      ],
+      [
+       "ch15_d2_03",
+       "ch15_d2_04",
+       "ch15_d2_05"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "На курсе у каждого свой способ учиться: кто-то слушает радио, кто-то говорит с соседями. Спросить «Von wem hast du das gelernt?» — обычный повод разговориться.",
+     "task_ids": [
+      "ch15_L2_listen_1",
+      "ch15_L2_listen_2",
+      "ch15_L2_listen_3",
+      "ch15_L2_listen_4"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch15_014",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "После von слово «мой» меняется. Для der-слов и das-слов — meinem: von meinem Onkel, von meinem Freund. Для die-слов — meiner: von meiner Mutter.",
+     "screen": [
+      "der Onkel → von meinem Onkel · der Freund → von meinem Freund",
+      "die Mutter → von meiner Mutter"
+     ],
+     "answer_hook": "Ответ на загадку: решает артикль слова. Onkel и Freund — der-слова, поэтому meinem. Mutter — die-слово, поэтому meiner. Такая же идея, как einen в главе 4: роль меняет маленькое слово перед существительным.",
+     "second": {
+      "why_id": "ch15_013",
+      "voice_ru": "Von wem — «от кого». Вопрос-кусок стоит впереди, помощник hast — сразу за ним, gelernt — в конце."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch15_L2_why_1",
+      "ch15_L2_why_2",
+      "ch15_L2_why_3",
+      "ch15_L2_why_4",
+      "ch15_L2_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch15_018",
+     "pieces": [
+      "gelernt.",
+      "von meinem Freund",
+      "Ich",
+      "Deutsch",
+      "habe"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch15_d2_04",
+      "ch15_d1_04"
+     ],
+     "prompt": "Собери сам из знакомых кусков: Ольга спрашивает про немецкий. Ответь: «Я учил немецкий у моего друга.»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch15_018",
+     "transfer_task_ids": [
+      "ch15_L2_transfer_1"
+     ],
+     "task_ids": [
+      "ch15_L2_write_1",
+      "ch15_L2_write_2",
+      "ch15_L2_write_3",
+      "ch15_L2_write_4",
+      "ch15_L2_write_5",
+      "ch15_L2_read_1",
+      "ch15_L2_read_2",
+      "ch15_L2_read_3",
+      "ch15_L2_read_4",
+      "ch15_L2_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "von",
+     "ipa_sym": "f (v как «ф»)",
+     "tip_ru": "В von буква v читается как «ф»: «фон». Так же в Vater. А w — как русское «в»: wem — «вэ:м».",
+     "bridge_ru": "По-русски «фон» — это то же слово «фон», только значит оно другое. Слушай и повторяй слово целиком.",
+     "phrase_id": "ch15_013",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "von",
+       "ru": "ФОН"
+      },
+      {
+       "de": "wem",
+       "ru": "ВЭ:М"
+      },
+      {
+       "de": "Freund",
+       "ru": "ФРОЙНТ"
+      },
+      {
+       "de": "meinem",
+       "ru": "МАЙ-нэм"
+      }
+     ],
+     "speak_task_ids": [
+      "ch15_L2_speak_1",
+      "ch15_L2_speak_2",
+      "ch15_L2_speak_3",
+      "ch15_L2_speak_4",
+      "ch15_L2_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Перемена: у кого ты это учил?",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Olga (на «ты»)",
+     "turns": [
+      {
+       "prompt_id": "ch15_d2_01",
+       "prompt_de": "Du sprichst gut Englisch!",
+       "prompt_audio": "audio_v1/ch15_d2_01.mp3",
+       "expected_id": "ch15_d2_02",
+       "expected_de": "Danke! Das habe ich von meinem Onkel gelernt.",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch15_d2_03",
+       "prompt_de": "Von wem hast du Deutsch gelernt?",
+       "prompt_audio": "audio_v1/ch15_d2_03.mp3",
+       "expected_id": "ch15_d2_04",
+       "expected_de": "Von meinem Freund.",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Отвечай фразами сцены. Короткий ответ «Von meinem Freund.» тоже подходит.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch15_d2_02",
+     "task_ru": "Новенький в группе не понял, откуда у тебя хороший английский. Объясни ему по-немецки: этому ты научился у дяди.",
+     "expected_ru": "Спасибо! Этому я научился у моего дяди.",
+     "hint_ru": "Das habe ich von meinem Onkel gelernt.",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1.2 — объяснить своими словами, от кого научился"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch15_L2_dict_1",
+      "ch15_L2_dict_2",
+      "ch15_L2_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Onkel, Freund, Mutter — с большой буквы. В Freund слышно «ойн»: пиши eu. В von звук «ф» пишется буквой v."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch15_L2_transfer_2",
+      "ch15_L2_transfer_3",
+      "ch15_L2_transfer_4",
+      "ch15_L2_transfer_5",
+      "ch15_L2_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "На доске школы — вторая запись: у кого ты учился.",
+      "Совет на завтра: скажи вслух, от кого ты что узнал."
+     ],
+     "npc_phrase_id": "ch15_d2_05",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: von wem? — от кого · von meinem Onkel / Freund · von meiner Mutter. На курсе это называют: предлог von + Dativ.",
+     "next_hook": "Дальше: что ты умеешь хорошо? Das kann ich gut! И как ответить «нет» так, чтобы тебя поняли правильно.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [
+      "ch15_L2_transfer_6"
+     ],
+     "kurs": {
+      "pages": [
+       268
+      ],
+      "phrases_ids": [
+       "ch15_019"
+      ],
+      "note": "к курсу: на стр. 268 — люди, от которых учатся: родные, учитель, инструктор автошколы; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch15_019",
+       "picture": "семейное фото и доска курса: брат, сестра, тётя, учительница, учитель, инструктор автошколы",
+       "words": [
+        {
+         "de": "der Bruder",
+         "ru": "брат"
+        },
+        {
+         "de": "die Schwester",
+         "ru": "сестра"
+        },
+        {
+         "de": "die Tante",
+         "ru": "тётя"
+        },
+        {
+         "de": "die Lehrerin",
+         "ru": "учительница"
+        },
+        {
+         "de": "der Lehrer",
+         "ru": "учитель"
+        },
+        {
+         "de": "der Fahrlehrer",
+         "ru": "инструктор автошколы"
+        }
+       ],
+       "note": "эти слова есть на стр. 268; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch15_L2_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch15_019",
+        "prompt": "Слова курса. Послушай. Что значит «Fahrlehrer»?",
+        "answer": "инструктор автошколы",
+        "distractors": [
+         "учитель",
+         "тётя"
+        ],
+        "src": "Linie 1, стр. 268 (Von wem gelernt?)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      268
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch15.py",
+  "new_words": [
+   "Von wem hast du das gelernt?",
+   "von meinem Onkel",
+   "von meiner Mutter",
+   "von meinem Freund"
+  ],
+  "known_before": [
+   "Ich habe … gelernt.",
+   "habe · hast",
+   "das",
+   "Danke!",
+   "Du sprichst gut …",
+   "Englisch",
+   "Deutsch"
+  ],
+  "transfer_phrase_ids": [
+   "ch15_t04",
+   "ch15_t06",
+   "ch15_t05"
+  ],
+  "built_phrase_ids": [
+   "ch15_018"
+  ],
+  "quiz_ids": [
+   "ch15_L2_words_1",
+   "ch15_L2_words_2",
+   "ch15_L2_words_3",
+   "ch15_L2_words_4",
+   "ch15_L2_words_5",
+   "ch15_L2_listen_1",
+   "ch15_L2_listen_2",
+   "ch15_L2_listen_3",
+   "ch15_L2_listen_4",
+   "ch15_L2_read_1",
+   "ch15_L2_read_2",
+   "ch15_L2_read_3",
+   "ch15_L2_read_4",
+   "ch15_L2_read_5",
+   "ch15_L2_speak_1",
+   "ch15_L2_speak_2",
+   "ch15_L2_speak_3",
+   "ch15_L2_speak_4",
+   "ch15_L2_speak_5",
+   "ch15_L2_write_1",
+   "ch15_L2_write_2",
+   "ch15_L2_write_3",
+   "ch15_L2_write_4",
+   "ch15_L2_write_5",
+   "ch15_L2_why_1",
+   "ch15_L2_why_2",
+   "ch15_L2_why_3",
+   "ch15_L2_why_4",
+   "ch15_L2_why_5",
+   "ch15_L2_transfer_1",
+   "ch15_L2_transfer_2",
+   "ch15_L2_transfer_3",
+   "ch15_L2_transfer_4",
+   "ch15_L2_transfer_5",
+   "ch15_L2_transfer_6",
+   "ch15_L2_boss_1"
+  ],
+  "dictation_ids": [
+   "ch15_L2_dict_1",
+   "ch15_L2_dict_2",
+   "ch15_L2_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Перемена: Ольга хвалит твой английский. Цель: спросить и сказать, от кого ты этому научился. Загадка урока: Onkel и Freund после von — meinem, а Mutter — meiner. Что решает, какое слово?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Перемена: у кого ты это учил?",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой на перемене курса (ИИ — Ольга)",
+   "situation": "kurs_von_wem",
+   "ai_plays": "Olga (на «ты»)",
+   "phrases": [
+    "ch15_d2_02",
+    "ch15_d2_04"
+   ]
+  },
+  "outro": "На доске школы — вторая запись: у кого ты учился. Совет на завтра: скажи вслух, от кого ты что узнал. Дальше: что ты умеешь хорошо? Das kann ich gut! И как ответить «нет» так, чтобы тебя поняли правильно.",
+  "detail_de_life": "На курсе у каждого свой способ учиться: кто-то слушает радио, кто-то говорит с соседями. Спросить «Von wem hast du das gelernt?» — обычный повод разговориться.",
+  "task_ids": {
+   "words": [
+    "ch15_L2_words_1",
+    "ch15_L2_words_2",
+    "ch15_L2_words_3",
+    "ch15_L2_words_4",
+    "ch15_L2_words_5"
+   ],
+   "listen": [
+    "ch15_L2_listen_1",
+    "ch15_L2_listen_2",
+    "ch15_L2_listen_3",
+    "ch15_L2_listen_4"
+   ],
+   "read": [
+    "ch15_L2_read_1",
+    "ch15_L2_read_2",
+    "ch15_L2_read_3",
+    "ch15_L2_read_4",
+    "ch15_L2_read_5"
+   ],
+   "speak": [
+    "ch15_L2_speak_1",
+    "ch15_L2_speak_2",
+    "ch15_L2_speak_3",
+    "ch15_L2_speak_4",
+    "ch15_L2_speak_5"
+   ],
+   "write": [
+    "ch15_L2_write_1",
+    "ch15_L2_write_2",
+    "ch15_L2_write_3",
+    "ch15_L2_write_4",
+    "ch15_L2_write_5"
+   ],
+   "why": [
+    "ch15_L2_why_1",
+    "ch15_L2_why_2",
+    "ch15_L2_why_3",
+    "ch15_L2_why_4",
+    "ch15_L2_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch15_L2_transfer_1",
+   "ch15_L2_transfer_2",
+   "ch15_L2_transfer_3",
+   "ch15_L2_transfer_4",
+   "ch15_L2_transfer_5",
+   "ch15_L2_transfer_6"
+  ],
+  "warmup_ids": [
+   "ch15_004",
+   "ch15_002",
+   "ch15_001"
+  ],
+  "dialog_ids": [
+   "ch15_d2"
+  ],
+  "video": "video/ch15_L2.mp4"
+ },
+ {
+  "id": "ch15_L3",
+  "title": "Das kann ich gut! Что ты умеешь: ja, nein, doch",
+  "pages_linie1": {
+   "pages": [
+    269
+   ],
+   "sections": [
+    "3 Das kann ich gut!"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch15_020",
+   "ch15_021",
+   "ch15_022",
+   "ch15_023",
+   "ch15_024"
+  ],
+  "why_ids": [
+   "ch15_023",
+   "ch15_022"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch15_d3",
+    "line_ids": [
+     "ch15_d3_01",
+     "ch15_d3_02",
+     "ch15_d3_03",
+     "ch15_d3_04",
+     "ch15_d3_05",
+     "ch15_d3_06"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Ольга спросила, от кого ты научился. Что ответишь?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch15_d3",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch15_d3_02",
+        "ch15_d3_03",
+        "ch15_d3_04",
+        "ch15_d3_06"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch15_d3",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Афиша: скажи вслух три вещи, которые ты умеешь и не умеешь (ja / nein / doch)",
+      "min": 4,
+      "uses": {
+       "part": 9
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch15_020",
+        "ch15_022",
+        "ch15_023",
+        "ch15_024"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Афиша: скажи вслух три вещи, которые ты умеешь и не умеешь (ja / nein / doch) — 4 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 56
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "мост: русское «да» на вопрос с «не» двусмысленно; немецкий разводит ответы словами doch и nein; без терминов",
+   "как слышу, так и пишу": "ch после o — «х» (doch), v как «в» в Klavier; ударение на главном слове фразы (части 7 и 10)",
+   "учебник непонятен": "из Linie 1 — только тема и страница 269; подача своя",
+   "село, живой немецкий — Netto": "сцена — подготовка Kursfest на курсе; вопросы с «не» слышишь везде (Netto: «Haben Sie keine Tüte?»)",
+   "любит аниме": "завязка — «список навыков»; отрезки аниме — в карточке темы «прошлое»",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 56 мин (все 12 + 25 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Doch, ich spiele auch Klavier; перенос — Spielst du Gitarre?, Spielst du nicht Klavier?",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    269
+   ],
+   "phrases_ids": [
+    "ch15_026"
+   ],
+   "note": "к курсу: на стр. 269 — афиша Fest (праздник) и список Aktivitäten (занятий): кто что может предложить; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch15_026",
+    "picture": "афиша праздника на доске курса: Fest, Plakat, Person, Aktivität",
+    "words": [
+     {
+      "de": "das Fest",
+      "ru": "праздник"
+     },
+     {
+      "de": "das Plakat",
+      "ru": "плакат, афиша"
+     },
+     {
+      "de": "die Person",
+      "ru": "человек, персона"
+     },
+     {
+      "de": "die Aktivität",
+      "ru": "занятие"
+     }
+    ],
+    "note": "эти слова есть на стр. 269; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch15_L3_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch15_026",
+     "prompt": "Слова курса. Послушай. Что значит «Plakat»?",
+     "answer": "плакат, афиша",
+     "distractors": [
+      "праздник",
+      "занятие"
+     ],
+     "src": "Linie 1, стр. 269 (Fest)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Площадь поселения: афиша Kursfest — кто что умеет (Aktivitäten)",
+   "npc": "Olga — одногруппница (на «ты»)"
+  },
+  "covers": [
+   "L1-15-S3",
+   "L1-15-G2",
+   "L1-15-AUSSPR",
+   "B07.7",
+   "B08.6"
+  ],
+  "covers_note": {
+   "L1-15-S3": "Fest (Kursfest) и Aktivitäten: кто на чём играет (части 1, 3–6, 8); «к курсу» Fest, Plakat, Person, Aktivität",
+   "L1-15-G2": "ja, nein, doch: ответ на вопрос с nicht (часть 5, итог части 12)",
+   "L1-15-AUSSPR": "Satzakzent: главное слово фразы звучит сильнее — doch, Klavier (часть 7)",
+   "B07.7": "doch: «наоборот, время есть» — ответ «нет, наоборот» на вопрос с «не» (часть 5)",
+   "B08.6": "короткие ответы: согласиться (Nein, … kein …) или возразить (Doch, …) (части 4, 5, 8)"
+  },
+  "goal": "После урока сможешь: спросить, на чём человек играет, и ответить на вопрос с «не» так, чтобы тебя поняли правильно: Nein, ich spiele kein Klavier. или Doch, ich spiele auch Gitarre.",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Kursfest: Ольга составляет афишу занятий (Aktivitäten).",
+      "Цель: спросить, кто на чём играет, и правильно ответить на вопрос с «не»."
+     ],
+     "voice_ru": "Группа готовит праздник на курсе: Fest. Ольга пишет афишу: кто какое занятие, Aktivität, может предложить. Она спросит тебя про пианино и гитару, а потом задаст вопрос с «не».",
+     "hook": "Загадка урока: Ольга спрашивает «Ты не играешь на гитаре?». По-русски ответ «да» может значить и «играю», и «не играю». Что скажет немец, чтобы его поняли правильно?",
+     "anime_motif": "исекай: герой записывает умения в «список навыков» для афиши гильдии (без цитат)",
+     "npc": "Olga — одногруппница",
+     "more": "Ты скажешь, на чём играешь, и ответишь на вопрос с «не».",
+     "goal": "После урока сможешь: спросить, на чём человек играет, и ответить на вопрос с «не» так, чтобы тебя поняли правильно: Nein, ich spiele kein Klavier. или Doch, ich spiele auch Gitarre."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch15_013",
+      "ch15_015",
+      "ch15_017"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Ольга спросила, от кого ты научился. Что ответишь?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch15_013",
+      "ch15_015",
+      "ch15_017"
+     ],
+     "type": "retrieval: вопрос, не перечитывание"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch15_020",
+      "ch15_021",
+      "ch15_022",
+      "ch15_023",
+      "ch15_024"
+     ],
+     "words": [
+      "Spielst du Klavier?",
+      "Ja, ich spiele Klavier.",
+      "Spielst du nicht Gitarre?",
+      "Doch, ich spiele auch Gitarre.",
+      "Nein, ich spiele kein Klavier."
+     ],
+     "words_ru": {
+      "Spielst du Klavier?": "Ты играешь на пианино?",
+      "Ja, ich spiele Klavier.": "Да, я играю на пианино.",
+      "Spielst du nicht Gitarre?": "Ты не играешь на гитаре?",
+      "Doch, ich spiele auch Gitarre.": "Да, играю — и на гитаре тоже.",
+      "Nein, ich spiele kein Klavier.": "Нет, я не играю на пианино."
+     },
+     "trap": "«Играть на пианино» по-немецки — без «на»: Klavier spielen. А на вопрос «Ты не играешь?» русское «да» не годится: оно может значить и «играю», и «не играю».",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch15_L3_words_1",
+      "ch15_L3_words_2",
+      "ch15_L3_words_3",
+      "ch15_L3_words_4",
+      "ch15_L3_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch15_d3",
+     "line_ids": [
+      "ch15_d3_01",
+      "ch15_d3_02",
+      "ch15_d3_03",
+      "ch15_d3_04",
+      "ch15_d3_05",
+      "ch15_d3_06"
+     ],
+     "halves": [
+      [
+       "ch15_d3_01",
+       "ch15_d3_02",
+       "ch15_d3_03"
+      ],
+      [
+       "ch15_d3_04",
+       "ch15_d3_05",
+       "ch15_d3_06"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "На курсах и в общине часто собирают Fest: каждый приносит еду или что-то умеет — музыку, игры, рассказ. Вопрос «Was kannst du?» там слышишь постоянно.",
+     "task_ids": [
+      "ch15_L3_listen_1",
+      "ch15_L3_listen_2",
+      "ch15_L3_listen_3",
+      "ch15_L3_listen_4",
+      "ch15_L3_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch15_023",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "На вопрос без «не» отвечают ja или nein. На вопрос с «не» — иначе: если играешь, говорят doch, если правда не играешь — nein.",
+     "screen": [
+      "Spielst du Gitarre? — Ja (играю) / Nein (не играю)",
+      "Spielst du nicht Gitarre? — Doch (играю!) / Nein (не играю)"
+     ],
+     "answer_hook": "Ответ на загадку: русское «да» на вопрос с «не» двусмысленно. Немец делает это однозначным: doch значит «нет, наоборот — играю», nein значит «правда, не играю».",
+     "second": {
+      "why_id": "ch15_022",
+      "voice_ru": "Вопрос с nicht строится как обычный «да/нет»: действие spielst впереди. nicht стоит перед тем, что отрицают: Gitarre."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch15_L3_why_1",
+      "ch15_L3_why_2",
+      "ch15_L3_why_3",
+      "ch15_L3_why_4",
+      "ch15_L3_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch15_025",
+     "pieces": [
+      "Klavier.",
+      "spiele",
+      "Doch,",
+      "auch",
+      "ich"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch15_d3_04",
+      "ch15_d3_05"
+     ],
+     "prompt": "Собери сам из знакомых кусков: Ольга спросила «Ты не играешь на пианино?» Ответь: «Да, играю — и на пианино тоже.»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch15_025",
+     "transfer_task_ids": [
+      "ch15_L3_transfer_1"
+     ],
+     "task_ids": [
+      "ch15_L3_write_1",
+      "ch15_L3_write_2",
+      "ch15_L3_write_3",
+      "ch15_L3_write_4",
+      "ch15_L3_write_5",
+      "ch15_L3_read_1",
+      "ch15_L3_read_2",
+      "ch15_L3_read_3",
+      "ch15_L3_read_4",
+      "ch15_L3_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "doch",
+     "ipa_sym": "x (ch после o)",
+     "tip_ru": "В фразе главное слово звучит сильнее всех — это Satzakzent. В ответе «Doch!» главное — само doch: ДОХ. После o буква ch читается как «х»: doch — «дох».",
+     "bridge_ru": "По-русски тоже можно выделить голосом: «Я ИГРАЮ!». По-немецки то же самое делает doch: слышно, что ты возражаешь.",
+     "phrase_id": "ch15_023",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "doch",
+       "ru": "ДОХ"
+      },
+      {
+       "de": "kein",
+       "ru": "КАЙН"
+      },
+      {
+       "de": "Klavier",
+       "ru": "кла-ВИ:Р"
+      },
+      {
+       "de": "Gitarre",
+       "ru": "ги-ТА-рэ"
+      }
+     ],
+     "speak_task_ids": [
+      "ch15_L3_speak_1",
+      "ch15_L3_speak_2",
+      "ch15_L3_speak_3",
+      "ch15_L3_speak_4",
+      "ch15_L3_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Kursfest: что ты умеешь?",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Olga (на «ты»)",
+     "turns": [
+      {
+       "prompt_id": "ch15_d3_01",
+       "prompt_de": "Spielst du Klavier?",
+       "prompt_audio": "audio_v1/ch15_d3_01.mp3",
+       "expected_id": "ch15_d3_02",
+       "expected_de": "Ja, ich spiele Klavier.",
+       "accept": [
+        {
+         "id": "ch15_024",
+         "de": "Nein, ich spiele kein Klavier."
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch15_d3_03",
+       "prompt_de": "Spielst du nicht Gitarre?",
+       "prompt_audio": "audio_v1/ch15_d3_03.mp3",
+       "expected_id": "ch15_d3_04",
+       "expected_de": "Doch, ich spiele auch Gitarre.",
+       "accept": [
+        {
+         "id": "ch15_024",
+         "de": "Nein, ich spiele kein Klavier."
+        }
+       ],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Отвечай фразами сцены. Если на самом деле не играешь, ответ с nein тоже принимается.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch15_d3_06",
+     "task_ru": "Новенький не расслышал Ольгу: она играет на пианино? Повтори ему её ответ по-немецки.",
+     "expected_ru": "Нет, я не играю на пианино.",
+     "hint_ru": "Nein, ich spiele kein Klavier.",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1.2 — передать чужой ответ: «нет» отвечаем через nein"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch15_L3_dict_1",
+      "ch15_L3_dict_2",
+      "ch15_L3_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Klavier, Gitarre — с большой буквы. В Klavier буква v читается как «в»: кла-ВИ:Р. В doch и nicht после гласной стоит ch."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch15_L3_transfer_2",
+      "ch15_L3_transfer_3",
+      "ch15_L3_transfer_4",
+      "ch15_L3_transfer_5",
+      "ch15_L3_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "На афише Kursfest — твои умения.",
+      "Совет на завтра: ответь вслух на вопрос с «не» — и с doch, и с nein."
+     ],
+     "npc_phrase_id": "ch15_d3_06",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: Spielst du …? — ja / nein · Spielst du nicht …? — doch (играю) / nein (не играю) · kein Klavier.",
+     "next_hook": "Дальше: письмо из детского сада. Как извиниться письменно — Die Entschuldigung.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [
+      "ch15_L3_transfer_6"
+     ],
+     "kurs": {
+      "pages": [
+       269
+      ],
+      "phrases_ids": [
+       "ch15_026"
+      ],
+      "note": "к курсу: на стр. 269 — афиша Fest (праздник) и список Aktivitäten (занятий): кто что может предложить; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch15_026",
+       "picture": "афиша праздника на доске курса: Fest, Plakat, Person, Aktivität",
+       "words": [
+        {
+         "de": "das Fest",
+         "ru": "праздник"
+        },
+        {
+         "de": "das Plakat",
+         "ru": "плакат, афиша"
+        },
+        {
+         "de": "die Person",
+         "ru": "человек, персона"
+        },
+        {
+         "de": "die Aktivität",
+         "ru": "занятие"
+        }
+       ],
+       "note": "эти слова есть на стр. 269; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch15_L3_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch15_026",
+        "prompt": "Слова курса. Послушай. Что значит «Plakat»?",
+        "answer": "плакат, афиша",
+        "distractors": [
+         "праздник",
+         "занятие"
+        ],
+        "src": "Linie 1, стр. 269 (Fest)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      269
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch15.py",
+  "new_words": [
+   "Spielst du Klavier?",
+   "Ja, ich spiele Klavier.",
+   "Gitarre",
+   "nicht",
+   "Doch, ich spiele …",
+   "kein Klavier"
+  ],
+  "known_before": [
+   "Ich habe … gelernt.",
+   "Von wem …?",
+   "auch",
+   "Ja, … / Nein, …",
+   "du · ich",
+   "Danke!"
+  ],
+  "transfer_phrase_ids": [
+   "ch15_t07",
+   "ch15_t08",
+   "ch15_t09"
+  ],
+  "built_phrase_ids": [
+   "ch15_025"
+  ],
+  "quiz_ids": [
+   "ch15_L3_words_1",
+   "ch15_L3_words_2",
+   "ch15_L3_words_3",
+   "ch15_L3_words_4",
+   "ch15_L3_words_5",
+   "ch15_L3_listen_1",
+   "ch15_L3_listen_2",
+   "ch15_L3_listen_3",
+   "ch15_L3_listen_4",
+   "ch15_L3_listen_5",
+   "ch15_L3_read_1",
+   "ch15_L3_read_2",
+   "ch15_L3_read_3",
+   "ch15_L3_read_4",
+   "ch15_L3_read_5",
+   "ch15_L3_speak_1",
+   "ch15_L3_speak_2",
+   "ch15_L3_speak_3",
+   "ch15_L3_speak_4",
+   "ch15_L3_speak_5",
+   "ch15_L3_write_1",
+   "ch15_L3_write_2",
+   "ch15_L3_write_3",
+   "ch15_L3_write_4",
+   "ch15_L3_write_5",
+   "ch15_L3_why_1",
+   "ch15_L3_why_2",
+   "ch15_L3_why_3",
+   "ch15_L3_why_4",
+   "ch15_L3_why_5",
+   "ch15_L3_transfer_1",
+   "ch15_L3_transfer_2",
+   "ch15_L3_transfer_3",
+   "ch15_L3_transfer_4",
+   "ch15_L3_transfer_5",
+   "ch15_L3_transfer_6",
+   "ch15_L3_boss_1"
+  ],
+  "dictation_ids": [
+   "ch15_L3_dict_1",
+   "ch15_L3_dict_2",
+   "ch15_L3_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Kursfest: Ольга составляет афишу занятий (Aktivitäten). Цель: спросить, кто на чём играет, и правильно ответить на вопрос с «не». Загадка урока: Ольга спрашивает «Ты не играешь на гитаре?». По-русски ответ «да» может значить и «играю», и «не играю». Что скажет немец, чтобы его поняли правильно?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Kursfest: что ты умеешь?",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой на подготовке Kursfest (ИИ — Ольга)",
+   "situation": "kursfest_aktivitaeten",
+   "ai_plays": "Olga (на «ты»)",
+   "phrases": [
+    "ch15_d3_02",
+    "ch15_024",
+    "ch15_d3_04"
+   ]
+  },
+  "outro": "На афише Kursfest — твои умения. Совет на завтра: ответь вслух на вопрос с «не» — и с doch, и с nein. Дальше: письмо из детского сада. Как извиниться письменно — Die Entschuldigung.",
+  "detail_de_life": "На курсах и в общине часто собирают Fest: каждый приносит еду или что-то умеет — музыку, игры, рассказ. Вопрос «Was kannst du?» там слышишь постоянно.",
+  "task_ids": {
+   "words": [
+    "ch15_L3_words_1",
+    "ch15_L3_words_2",
+    "ch15_L3_words_3",
+    "ch15_L3_words_4",
+    "ch15_L3_words_5"
+   ],
+   "listen": [
+    "ch15_L3_listen_1",
+    "ch15_L3_listen_2",
+    "ch15_L3_listen_3",
+    "ch15_L3_listen_4",
+    "ch15_L3_listen_5"
+   ],
+   "read": [
+    "ch15_L3_read_1",
+    "ch15_L3_read_2",
+    "ch15_L3_read_3",
+    "ch15_L3_read_4",
+    "ch15_L3_read_5"
+   ],
+   "speak": [
+    "ch15_L3_speak_1",
+    "ch15_L3_speak_2",
+    "ch15_L3_speak_3",
+    "ch15_L3_speak_4",
+    "ch15_L3_speak_5"
+   ],
+   "write": [
+    "ch15_L3_write_1",
+    "ch15_L3_write_2",
+    "ch15_L3_write_3",
+    "ch15_L3_write_4",
+    "ch15_L3_write_5"
+   ],
+   "why": [
+    "ch15_L3_why_1",
+    "ch15_L3_why_2",
+    "ch15_L3_why_3",
+    "ch15_L3_why_4",
+    "ch15_L3_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch15_L3_transfer_1",
+   "ch15_L3_transfer_2",
+   "ch15_L3_transfer_3",
+   "ch15_L3_transfer_4",
+   "ch15_L3_transfer_5",
+   "ch15_L3_transfer_6"
+  ],
+  "warmup_ids": [
+   "ch15_013",
+   "ch15_015",
+   "ch15_017"
+  ],
+  "dialog_ids": [
+   "ch15_d3"
+  ],
+  "video": "video/ch15_L3.mp4"
+ },
+ {
+  "id": "ch15_L4",
+  "title": "Die Entschuldigung. Сообщить, что ты не придёшь",
+  "pages_linie1": {
+   "pages": [
+    270
+   ],
+   "sections": [
+    "4 Die Entschuldigung"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch15_027",
+   "ch15_028",
+   "ch15_029",
+   "ch15_030"
+  ],
+  "why_ids": [
+   "ch15_028",
+   "ch15_029"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch15_d4",
+    "line_ids": [
+     "ch15_d4_01",
+     "ch15_d4_02",
+     "ch15_d4_03",
+     "ch15_d4_04",
+     "ch15_d4_05"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Ты уже говорил «ich spiele» и «ich habe … gelernt». Что ответишь?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch15_d4",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch15_d4_02",
+        "ch15_d4_03",
+        "ch15_d4_04",
+        "ch15_d4_01"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch15_d4",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Передай сообщение: скажи вслух, что написал бы учительнице, если не придёшь",
+      "min": 4,
+      "uses": {
+       "part": 9
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану (Texte korrigieren)",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch15_027",
+        "ch15_028",
+        "ch15_029",
+        "ch15_030"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Передай сообщение: скажи вслух, что написал бы учительнице, если не придёшь — 4 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану (Texte korrigieren) — 4 мин"
+    ],
+    "time_min": 56
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "мост: «у меня грипп» ↔ «я имею грипп» (habe), «меня не будет» ↔ bin; без терминов",
+   "как слышу, так и пишу": "sch = «ш» (часть 7); проверка своего текста (часть 10)",
+   "учебник непонятен": "из Linie 1 — только тема и страница 270; подача своя",
+   "село, живой немецкий — Netto": "сообщение учительнице курса — задача на каждую неделю",
+   "любит аниме": "завязка — записка гильдии; отрезки аниме — позже",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 56 мин (все 12 + 25 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Ich bin nicht im Kurs; перенос — Entschuldigung, ich bin morgen nicht im Kurs; Der Ausflug ist nicht morgen",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    270
+   ],
+   "phrases_ids": [
+    "ch15_032"
+   ],
+   "note": "к курсу: на стр. 270 — письмо об экскурсии и извинение; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch15_032",
+    "picture": "письмо на доске курса: экскурсия в лес, пикник, праздник",
+    "words": [
+     {
+      "de": "der Brief",
+      "ru": "письмо"
+     },
+     {
+      "de": "der Wald",
+      "ru": "лес"
+     },
+     {
+      "de": "der Zahnarzt",
+      "ru": "стоматолог"
+     },
+     {
+      "de": "die Feier",
+      "ru": "праздник, торжество"
+     },
+     {
+      "de": "das Picknick",
+      "ru": "пикник"
+     },
+     {
+      "de": "der Kindergeburtstag",
+      "ru": "детский день рождения"
+     }
+    ],
+    "note": "эти слова есть на стр. 270; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch15_L4_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch15_032",
+     "prompt": "Слова курса. Послушай. Что значит «Wald»?",
+     "answer": "лес",
+     "distractors": [
+      "письмо",
+      "пикник"
+     ],
+     "src": "Linie 1, стр. 270 (Schreiben)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Школа поселения: доска объявлений — «Entschuldigung» для учительницы",
+   "npc": "Frau Becker — учительница (на «вы»)"
+  },
+  "covers": [
+   "L1-15-S4",
+   "L1-15-SCHREIB",
+   "L1-15-MEDIAT"
+  ],
+  "covers_note": {
+   "L1-15-S4": "Schreiben vom Kurs: Frau Becker schreibt про Ausflug, герой пишет Entschuldigung (части 1, 3–6, 8); «к курсу» Brief, Wald, Feier, Picknick",
+   "L1-15-SCHREIB": "Texte korrigieren — проверка своего текста: большие буквы, sch (часть 10)",
+   "L1-15-MEDIAT": "Kurznachricht wiedergeben: передать другому сообщение Frau Becker (часть 9)"
+  },
+  "goal": "После урока сможешь: коротко извиниться письменно и сказать, что завтра тебя не будет на курсе (болезнь), понять ответ учительницы и передать другому её сообщение.",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Frau Becker написала в чат: Ausflug завтра.",
+      "Цель: извиниться письменно и сообщить, что тебя не будет."
+     ],
+     "voice_ru": "Учительница пишет, что завтра экскурсия. А ты заболел. Нужно коротко извиниться и сказать, что тебя не будет на курсе. Потом ты передашь её сообщение другому.",
+     "hook": "Загадка урока: «У меня грипп» по-немецки — не «ich bin Grippe». Какое слово нужно вместо bin?",
+     "anime_motif": "исекай: герой отправляет гильдии записку «не смогу прийти на задание» (без цитат)",
+     "npc": "Frau Becker — учительница",
+     "more": "Ты напишешь короткое извинение и поймёшь ответ учительницы.",
+     "goal": "После урока сможешь: коротко извиниться письменно и сказать, что завтра тебя не будет на курсе (болезнь), понять ответ учительницы и передать другому её сообщение."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch15_020",
+      "ch15_021",
+      "ch15_001"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Ты уже говорил «ich spiele» и «ich habe … gelernt». Что ответишь?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch15_020",
+      "ch15_021",
+      "ch15_001"
+     ],
+     "type": "retrieval: вопрос, не перечитывание"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch15_027",
+      "ch15_028",
+      "ch15_029",
+      "ch15_030"
+     ],
+     "words": [
+      "Der Ausflug ist morgen.",
+      "Entschuldigung, ich habe Grippe.",
+      "Ich bin morgen nicht im Kurs.",
+      "Schade! Gute Besserung!"
+     ],
+     "words_ru": {
+      "Der Ausflug ist morgen.": "Экскурсия завтра.",
+      "Entschuldigung, ich habe Grippe.": "Извините, у меня грипп.",
+      "Ich bin morgen nicht im Kurs.": "Завтра меня не будет на курсе.",
+      "Schade! Gute Besserung!": "Жаль! Выздоравливай!"
+     },
+     "trap": "По-русски «у меня грипп», по-немецки «я имею грипп»: ich habe Grippe. А «меня не будет» — про место: ich bin nicht im Kurs.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch15_L4_words_1",
+      "ch15_L4_words_2",
+      "ch15_L4_words_3",
+      "ch15_L4_words_4",
+      "ch15_L4_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch15_d4",
+     "line_ids": [
+      "ch15_d4_01",
+      "ch15_d4_02",
+      "ch15_d4_03",
+      "ch15_d4_04",
+      "ch15_d4_05"
+     ],
+     "halves": [
+      [
+       "ch15_d4_01",
+       "ch15_d4_02"
+      ],
+      [
+       "ch15_d4_03",
+       "ch15_d4_04",
+       "ch15_d4_05"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "Если ты не можешь прийти на курс, учительницу принято предупредить заранее — коротким сообщением или звонком.",
+     "task_ids": [
+      "ch15_L4_listen_1",
+      "ch15_L4_listen_2",
+      "ch15_L4_listen_3",
+      "ch15_L4_listen_4"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch15_028",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "Болезнь по-немецки «имеют»: ich habe Grippe. А где ты находишься, говорят через bin: ich bin nicht im Kurs. nicht стоит перед тем, что отрицают.",
+     "screen": [
+      "ich habe Grippe — «я имею грипп»",
+      "ich bin nicht im Kurs — nicht перед im Kurs"
+     ],
+     "answer_hook": "Ответ на загадку: вместо bin нужен habe. Болезнь не «есть» человек, а «есть у него»: ich habe Grippe.",
+     "second": {
+      "why_id": "ch15_029",
+      "voice_ru": "bin держит вагон №2. nicht стоит перед тем, что отрицают: тут — перед im Kurs."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch15_L4_why_1",
+      "ch15_L4_why_2",
+      "ch15_L4_why_3",
+      "ch15_L4_why_4",
+      "ch15_L4_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch15_031",
+     "pieces": [
+      "Kurs.",
+      "bin",
+      "nicht",
+      "Ich",
+      "im"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch15_d4_03",
+      "ch15_029"
+     ],
+     "prompt": "Собери сам из знакомых кусков: Frau Becker звонит, а ты болеешь. Скажи коротко: «Меня нет на курсе.»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch15_031",
+     "transfer_task_ids": [
+      "ch15_L4_transfer_1"
+     ],
+     "task_ids": [
+      "ch15_L4_write_1",
+      "ch15_L4_write_2",
+      "ch15_L4_write_3",
+      "ch15_L4_write_4",
+      "ch15_L4_write_5",
+      "ch15_L4_read_1",
+      "ch15_L4_read_2",
+      "ch15_L4_read_3",
+      "ch15_L4_read_4",
+      "ch15_L4_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "Schade",
+     "ipa_sym": "ʃ (sch как «ш»)",
+     "tip_ru": "sch читается как «ш»: Schade — «ША:-дэ». Три буквы — один звук: так же в Schule.",
+     "bridge_ru": "По-русски тоже есть «ш», только немецкое sch мягче и губы немного вытянуты вперёд. Слушай и повторяй слово целиком.",
+     "phrase_id": "ch15_030",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "Schade",
+       "ru": "ША:-дэ"
+      },
+      {
+       "de": "Grippe",
+       "ru": "ГРИ-пэ"
+      },
+      {
+       "de": "Ausflug",
+       "ru": "АУС-флу:к"
+      },
+      {
+       "de": "Wald",
+       "ru": "ВАЛЬТ"
+      }
+     ],
+     "speak_task_ids": [
+      "ch15_L4_speak_1",
+      "ch15_L4_speak_2",
+      "ch15_L4_speak_3",
+      "ch15_L4_speak_4",
+      "ch15_L4_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Сообщение учительнице",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Frau Becker (на «вы»)",
+     "turns": [
+      {
+       "prompt_id": "ch15_d4_01",
+       "prompt_de": "Der Ausflug ist morgen.",
+       "prompt_audio": "audio_v1/ch15_d4_01.mp3",
+       "expected_id": "ch15_d4_02",
+       "expected_de": "Entschuldigung, ich habe Grippe.",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch15_d4_02",
+       "prompt_de": "Entschuldigung, ich habe Grippe.",
+       "prompt_audio": "audio_v1/ch15_d4_02.mp3",
+       "expected_id": "ch15_d4_03",
+       "expected_de": "Ich bin morgen nicht im Kurs.",
+       "accept": [
+        {
+         "id": "ch15_031",
+         "de": "Ich bin nicht im Kurs."
+        }
+       ],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Отвечай фразами сцены. Учительница на «вы»; ты отвечаешь коротко и вежливо.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch15_d4_01",
+     "task_ru": "Frau Becker пишет в чат группы. Одногруппник не прочитал сообщение и спрашивает, что в нём. Передай ему главное по-немецки: когда экскурсия. Это называют Kurznachricht wiedergeben.",
+     "expected_ru": "Экскурсия завтра.",
+     "hint_ru": "Der Ausflug ist morgen.",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1.2 — передать короткое сообщение (Kurznachricht wiedergeben): одной фразой, без лишнего"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch15_L4_dict_1",
+      "ch15_L4_dict_2",
+      "ch15_L4_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Texte korrigieren — так на курсе называют «проверь свой текст». Проверь диктант: Ausflug, Grippe, Kurs, Besserung — с большой буквы; sch в Schade — три буквы на один звук «ш»."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch15_L4_transfer_2",
+      "ch15_L4_transfer_3",
+      "ch15_L4_transfer_4",
+      "ch15_L4_transfer_5",
+      "ch15_L4_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Записка учительнице отправлена.",
+      "Совет на завтра: напиши по-немецки три фразы — извинение, причина, «меня не будет»."
+     ],
+     "npc_phrase_id": "ch15_d4_04",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: Entschuldigung, ich habe … · Ich bin morgen nicht im Kurs. · Schade! Gute Besserung! · nicht — перед тем, что отрицают.",
+     "next_hook": "Дальше: Mit allen Sinnen lernen — советы, как учить языки, и просьба к нескольким людям сразу.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       270
+      ],
+      "phrases_ids": [
+       "ch15_032"
+      ],
+      "note": "к курсу: на стр. 270 — письмо об экскурсии и извинение; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch15_032",
+       "picture": "письмо на доске курса: экскурсия в лес, пикник, праздник",
+       "words": [
+        {
+         "de": "der Brief",
+         "ru": "письмо"
+        },
+        {
+         "de": "der Wald",
+         "ru": "лес"
+        },
+        {
+         "de": "der Zahnarzt",
+         "ru": "стоматолог"
+        },
+        {
+         "de": "die Feier",
+         "ru": "праздник, торжество"
+        },
+        {
+         "de": "das Picknick",
+         "ru": "пикник"
+        },
+        {
+         "de": "der Kindergeburtstag",
+         "ru": "детский день рождения"
+        }
+       ],
+       "note": "эти слова есть на стр. 270; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch15_L4_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch15_032",
+        "prompt": "Слова курса. Послушай. Что значит «Wald»?",
+        "answer": "лес",
+        "distractors": [
+         "письмо",
+         "пикник"
+        ],
+        "src": "Linie 1, стр. 270 (Schreiben)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      270
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch15.py",
+  "new_words": [
+   "Der Ausflug ist morgen.",
+   "Entschuldigung, ich habe Grippe.",
+   "Ich bin morgen nicht im Kurs.",
+   "Schade! Gute Besserung!"
+  ],
+  "known_before": [
+   "Ich habe … gelernt.",
+   "habe · bin",
+   "im Kurs",
+   "Danke!",
+   "nicht",
+   "Frau Becker"
+  ],
+  "transfer_phrase_ids": [
+   "ch15_t10",
+   "ch15_t11"
+  ],
+  "built_phrase_ids": [
+   "ch15_031"
+  ],
+  "quiz_ids": [
+   "ch15_L4_words_1",
+   "ch15_L4_words_2",
+   "ch15_L4_words_3",
+   "ch15_L4_words_4",
+   "ch15_L4_words_5",
+   "ch15_L4_listen_1",
+   "ch15_L4_listen_2",
+   "ch15_L4_listen_3",
+   "ch15_L4_listen_4",
+   "ch15_L4_read_1",
+   "ch15_L4_read_2",
+   "ch15_L4_read_3",
+   "ch15_L4_read_4",
+   "ch15_L4_read_5",
+   "ch15_L4_speak_1",
+   "ch15_L4_speak_2",
+   "ch15_L4_speak_3",
+   "ch15_L4_speak_4",
+   "ch15_L4_speak_5",
+   "ch15_L4_write_1",
+   "ch15_L4_write_2",
+   "ch15_L4_write_3",
+   "ch15_L4_write_4",
+   "ch15_L4_write_5",
+   "ch15_L4_why_1",
+   "ch15_L4_why_2",
+   "ch15_L4_why_3",
+   "ch15_L4_why_4",
+   "ch15_L4_why_5",
+   "ch15_L4_transfer_1",
+   "ch15_L4_transfer_2",
+   "ch15_L4_transfer_3",
+   "ch15_L4_transfer_4",
+   "ch15_L4_transfer_5",
+   "ch15_L4_boss_1"
+  ],
+  "dictation_ids": [
+   "ch15_L4_dict_1",
+   "ch15_L4_dict_2",
+   "ch15_L4_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Frau Becker написала в чат: Ausflug завтра. Цель: извиниться письменно и сообщить, что тебя не будет. Загадка урока: «У меня грипп» по-немецки — не «ich bin Grippe». Какое слово нужно вместо bin?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Сообщение учительнице",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой пишет Frau Becker (ИИ — Frau Becker)",
+   "situation": "kurs_entschuldigung",
+   "ai_plays": "Frau Becker (на «вы»)",
+   "phrases": [
+    "ch15_d4_02",
+    "ch15_d4_03",
+    "ch15_031"
+   ]
+  },
+  "outro": "Записка учительнице отправлена. Совет на завтра: напиши по-немецки три фразы — извинение, причина, «меня не будет». Дальше: Mit allen Sinnen lernen — советы, как учить языки, и просьба к нескольким людям сразу.",
+  "detail_de_life": "Если ты не можешь прийти на курс, учительницу принято предупредить заранее — коротким сообщением или звонком.",
+  "task_ids": {
+   "words": [
+    "ch15_L4_words_1",
+    "ch15_L4_words_2",
+    "ch15_L4_words_3",
+    "ch15_L4_words_4",
+    "ch15_L4_words_5"
+   ],
+   "listen": [
+    "ch15_L4_listen_1",
+    "ch15_L4_listen_2",
+    "ch15_L4_listen_3",
+    "ch15_L4_listen_4"
+   ],
+   "read": [
+    "ch15_L4_read_1",
+    "ch15_L4_read_2",
+    "ch15_L4_read_3",
+    "ch15_L4_read_4",
+    "ch15_L4_read_5"
+   ],
+   "speak": [
+    "ch15_L4_speak_1",
+    "ch15_L4_speak_2",
+    "ch15_L4_speak_3",
+    "ch15_L4_speak_4",
+    "ch15_L4_speak_5"
+   ],
+   "write": [
+    "ch15_L4_write_1",
+    "ch15_L4_write_2",
+    "ch15_L4_write_3",
+    "ch15_L4_write_4",
+    "ch15_L4_write_5"
+   ],
+   "why": [
+    "ch15_L4_why_1",
+    "ch15_L4_why_2",
+    "ch15_L4_why_3",
+    "ch15_L4_why_4",
+    "ch15_L4_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch15_L4_transfer_1",
+   "ch15_L4_transfer_2",
+   "ch15_L4_transfer_3",
+   "ch15_L4_transfer_4",
+   "ch15_L4_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch15_020",
+   "ch15_021",
+   "ch15_001"
+  ],
+  "dialog_ids": [
+   "ch15_d4"
+  ],
+  "video": "video/ch15_L4.mp4"
+ },
+ {
+  "id": "ch15_L5",
+  "title": "Mit allen Sinnen lernen. Совет сразу нескольким друзьям",
+  "pages_linie1": {
+   "pages": [
+    271,
+    272
+   ],
+   "sections": [
+    "5 Ein Instrument lernen",
+    "6 Mit allen Sinnen lernen"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch15_033",
+   "ch15_034",
+   "ch15_035",
+   "ch15_036"
+  ],
+  "why_ids": [
+   "ch15_033",
+   "ch15_036"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch15_d5",
+    "line_ids": [
+     "ch15_d5_01",
+     "ch15_d5_02",
+     "ch15_d5_03",
+     "ch15_d5_04",
+     "ch15_d5_05",
+     "ch15_d5_06"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Вчера ты писал Frau Becker. Что ты ей сообщил?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch15_d5",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch15_d5_01",
+        "ch15_d5_02",
+        "ch15_d5_03",
+        "ch15_d5_04"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch15_d5",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Свой плакат: скажи вслух три совета друзьям (Hört … ! Lest … ! Schreibt … !)",
+      "min": 4,
+      "uses": {
+       "part": 9
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch15_033",
+        "ch15_034",
+        "ch15_035",
+        "ch15_036"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Свой плакат: скажи вслух три совета друзьям (Hört … ! Lest … ! Schreibt … !) — 4 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 56
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "мост: «слушайте» ↔ Hört (друзьям) и Hören Sie (на «вы»); без терминов, кроме названия рубрики",
+   "как слышу, так и пишу": "ö в Hört, Flöte, Lösung (часть 7); ü в Bilderbücher (часть 10)",
+   "учебник непонятен": "из Linie 1 — темы и страницы 271–272; подача своя",
+   "село, живой немецкий — Netto": "советы, как учить, — подкасты и заметки на каждый день",
+   "любит аниме": "завязка — свиток советов в гильдии; отрезки аниме — позже",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 56 мин (все 12 + 25 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Hört ihr Podcasts auf Deutsch?; перенос — Lest Bilderbücher auf Deutsch!, Spielt ihr Klavier?, Spielt Klavier!",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    271,
+    272
+   ],
+   "phrases_ids": [
+    "ch15_039",
+    "ch15_040",
+    "ch15_041",
+    "ch15_042"
+   ],
+   "note": "к курсу: на стр. 271 — музыкальные инструменты, на стр. 272 — советы, как учить (Lerntipps); слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса: Musikinstrumente und Lerntipps",
+    "phrase_id": "ch15_039",
+    "picture": "плакат на празднике курса: инструменты, наушники с подкастом, листочки с заметками, приложение на телефоне",
+    "words": [
+     {
+      "de": "das Musikinstrument",
+      "ru": "музыкальный инструмент"
+     },
+     {
+      "de": "die Flöte",
+      "ru": "флейта"
+     },
+     {
+      "de": "die Geige",
+      "ru": "скрипка"
+     },
+     {
+      "de": "die Trommel",
+      "ru": "барабан"
+     },
+     {
+      "de": "das Schlagzeug",
+      "ru": "ударная установка"
+     },
+     {
+      "de": "das Keyboard",
+      "ru": "синтезатор"
+     },
+     {
+      "de": "das Xylophon",
+      "ru": "ксилофон"
+     },
+     {
+      "de": "der Kursraum",
+      "ru": "класс курса"
+     },
+     {
+      "de": "die Lern-App",
+      "ru": "приложение для учёбы"
+     },
+     {
+      "de": "die Mindmap",
+      "ru": "карта слов (схема)"
+     }
+    ],
+    "note": "эти слова есть на стр. 271–272 и 280; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch15_L5_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch15_039",
+     "prompt": "Слова курса. Послушай. Что значит «Geige»?",
+     "answer": "скрипка",
+     "distractors": [
+      "флейта",
+      "барабан"
+     ],
+     "src": "Linie 1, стр. 271 (Ein Instrument lernen)"
+    },
+    {
+     "id": "ch15_L5_kurs_2",
+     "skill": "listen",
+     "phraseId": "ch15_040",
+     "prompt": "Слова курса. Послушай. Что значит «Lied»?",
+     "answer": "песня",
+     "distractors": [
+      "хор",
+      "совет"
+     ],
+     "src": "Linie 1, стр. 271–272"
+    },
+    {
+     "id": "ch15_L5_kurs_3",
+     "skill": "listen",
+     "phraseId": "ch15_041",
+     "prompt": "Слова курса. Послушай. Что значит «Untertitel»?",
+     "answer": "субтитр",
+     "distractors": [
+      "передача",
+      "предложение"
+     ],
+     "src": "Linie 1, стр. 272 (Lerntipps)"
+    },
+    {
+     "id": "ch15_L5_kurs_4",
+     "skill": "listen",
+     "phraseId": "ch15_042",
+     "prompt": "Слова курса. Послушай. Что значит «Lösung»?",
+     "answer": "решение",
+     "distractors": [
+      "группа",
+      "диалог"
+     ],
+     "src": "Linie 1, стр. 272"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Школа поселения: на празднике курса висит плакат «Lerntipps» — советы всей группе",
+   "npc": "Olga и Max — одногруппники (на «ты»)"
+  },
+  "covers": [
+   "L1-15-S5",
+   "L1-15-S6",
+   "L1-15-G3",
+   "B17.3"
+  ],
+  "covers_note": {
+   "L1-15-S5": "Ein Instrument lernen: Spielt ihr ein Instrument? (части 3–5, 8); «к курсу» Musikinstrumente: Flöte, Geige, Trommel, Schlagzeug, Keyboard, Xylophon",
+   "L1-15-S6": "Mit allen Sinnen lernen — плакат Lerntipps: Hört Podcasts, Lest Bilderbücher, Schreibt Notizen (части 1, 3–6, 9); «к курсу» Radio, Video, Untertitel, Lern-App",
+   "L1-15-G3": "Imperativ: ihr-Form — ihr hört → Hört! (часть 5, why)",
+   "B17.3": "ihr и Sie: друзьям Hört! (ihr убирают), на «вы» Hören Sie! (Sie остаётся) — часть 5, why_4"
+  },
+  "goal": "После урока сможешь: дать совет группе друзей (Hört Podcasts! Lest Bilderbücher! Schreibt Notizen!), спросить двоих сразу (Spielt ihr ein Instrument?) и отличить это от просьбы на «вы» (Hören Sie!).",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Kursfest: вы с Ольгой читаете группе плакат «Lerntipps».",
+      "Цель: дать совет сразу нескольким друзьям и спросить двоих."
+     ],
+     "voice_ru": "На празднике курса вы с Ольгой сделали плакат «Lerntipps» — советы, как учить немецкий. Вы читаете их всей группе. Потом Макс спросит вас обоих, играете ли вы на инструменте.",
+     "hook": "Загадка урока: «Слушайте!» группе друзей по-немецки — Hört! Куда делось ihr?",
+     "anime_motif": "исекай: герой вешает в гильдии свиток с советами для всей команды (без цитат)",
+     "npc": "Olga и Max — одногруппники",
+     "more": "Ты прочитаешь советы группе и ответишь Максу про инструмент.",
+     "goal": "После урока сможешь: дать совет группе друзей (Hört Podcasts! Lest Bilderbücher! Schreibt Notizen!), спросить двоих сразу (Spielt ihr ein Instrument?) и отличить это от просьбы на «вы» (Hören Sie!)."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch15_027",
+      "ch15_028",
+      "ch15_029"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Вчера ты писал Frau Becker. Что ты ей сообщил?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch15_027",
+      "ch15_028",
+      "ch15_029"
+     ],
+     "type": "retrieval: вопрос, не перечитывание"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch15_033",
+      "ch15_034",
+      "ch15_035",
+      "ch15_036"
+     ],
+     "words": [
+      "Hört Podcasts auf Deutsch!",
+      "Lest Bilderbücher!",
+      "Schreibt Notizen!",
+      "Spielt ihr ein Instrument?"
+     ],
+     "words_ru": {
+      "Hört Podcasts auf Deutsch!": "Слушайте подкасты на немецком!",
+      "Lest Bilderbücher!": "Читайте книжки с картинками!",
+      "Schreibt Notizen!": "Пишите заметки!",
+      "Spielt ihr ein Instrument?": "Вы играете на каком-нибудь инструменте?"
+     },
+     "trap": "По-русски «слушайте» — и группе друзей, и незнакомому взрослому. По-немецки это разные формы: друзьям Hört!, взрослому на «вы» — Hören Sie!",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch15_L5_words_1",
+      "ch15_L5_words_2",
+      "ch15_L5_words_3",
+      "ch15_L5_words_4",
+      "ch15_L5_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch15_d5",
+     "line_ids": [
+      "ch15_d5_01",
+      "ch15_d5_02",
+      "ch15_d5_03",
+      "ch15_d5_04",
+      "ch15_d5_05",
+      "ch15_d5_06"
+     ],
+     "halves": [
+      [
+       "ch15_d5_01",
+       "ch15_d5_02",
+       "ch15_d5_03"
+      ],
+      [
+       "ch15_d5_04",
+       "ch15_d5_05",
+       "ch15_d5_06"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "На стр. 272 учебника советы учить «всеми чувствами»: слушать (Podcasts, Radio), смотреть (Videos mit Untertiteln), писать (Notizen, Zettel). Такие плакаты делают и на курсах.",
+     "life_source": "Linie 1 A1, стр. 272 (Mit allen Sinnen lernen)",
+     "task_ids": [
+      "ch15_L5_listen_1",
+      "ch15_L5_listen_2",
+      "ch15_L5_listen_3",
+      "ch15_L5_listen_4",
+      "ch15_L5_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch15_033",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "Просьба к друзьям — Imperativ, ihr-Form. Возьми ihr hört и убери ihr: Hört! Действие встаёт в вагон №1. А на «вы» Sie остаётся: Hören Sie!",
+     "screen": [
+      "Imperativ: ihr-Form — ihr hört → Hört Podcasts!",
+      "Sie hören → Hören Sie! — Sie остаётся"
+     ],
+     "answer_hook": "Ответ на загадку: ihr убирают, а форма глагола остаётся та же, что с ihr: ihr hört → Hört!",
+     "second": {
+      "why_id": "ch15_036",
+      "voice_ru": "В вопросе ihr остаётся: Spielt ihr ein Instrument? Уберёшь ihr — выйдет уже просьба."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch15_L5_why_1",
+      "ch15_L5_why_2",
+      "ch15_L5_why_3",
+      "ch15_L5_why_4",
+      "ch15_L5_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch15_038",
+     "pieces": [
+      "auf Deutsch?",
+      "Podcasts",
+      "ihr",
+      "Hört"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch15_033",
+      "ch15_036"
+     ],
+     "prompt": "Собери сам из знакомых кусков: спроси Ольгу и Макса: «Вы слушаете подкасты на немецком?»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch15_038",
+     "transfer_task_ids": [
+      "ch15_L5_transfer_1"
+     ],
+     "task_ids": [
+      "ch15_L5_write_1",
+      "ch15_L5_write_2",
+      "ch15_L5_write_3",
+      "ch15_L5_write_4",
+      "ch15_L5_write_5",
+      "ch15_L5_read_1",
+      "ch15_L5_read_2",
+      "ch15_L5_read_3",
+      "ch15_L5_read_4",
+      "ch15_L5_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "Hört",
+     "ipa_sym": "øː (ö долгое)",
+     "tip_ru": "ö — губы вытяни трубочкой, как для «о», а язык держи, как для «э». Hört — «хёрт», r почти не слышно.",
+     "bridge_ru": "По-русски похоже на «ё» в слове «тётя», только без «й» и губы круглее. Слушай и повторяй слово целиком.",
+     "phrase_id": "ch15_033",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "Hört",
+       "ru": "хёрт"
+      },
+      {
+       "de": "Flöte",
+       "ru": "ФЛЁ:-тэ"
+      },
+      {
+       "de": "Lösung",
+       "ru": "ЛЁ:-зунк"
+      },
+      {
+       "de": "Geige",
+       "ru": "ГАЙ-гэ"
+      }
+     ],
+     "speak_task_ids": [
+      "ch15_L5_speak_1",
+      "ch15_L5_speak_2",
+      "ch15_L5_speak_3",
+      "ch15_L5_speak_4",
+      "ch15_L5_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Праздник курса",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Ольга и Макс (на «ты»)",
+     "turns": [
+      {
+       "prompt_id": "ch15_d5_01",
+       "prompt_de": "Hört Podcasts auf Deutsch!",
+       "prompt_audio": "audio_v1/ch15_d5_01.mp3",
+       "expected_id": "ch15_d5_02",
+       "expected_de": "Lest Bilderbücher!",
+       "accept": [
+        {
+         "id": "ch15_035",
+         "de": "Schreibt Notizen!"
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch15_d5_04",
+       "prompt_de": "Spielt ihr ein Instrument?",
+       "prompt_audio": "audio_v1/ch15_d5_04.mp3",
+       "expected_id": "ch15_d5_05",
+       "expected_de": "Ja, ich spiele Klavier.",
+       "accept": [
+        {
+         "id": "ch15_037",
+         "de": "Ich spiele Gitarre."
+        }
+       ],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Ольга читает совет с плаката — прочитай следующий. Макс спрашивает вас двоих — ответь за себя.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch15_d5_01",
+     "task_ru": "Двое друзей не были на празднике и спрашивают, что было на плакате. Передай им первый совет по-немецки.",
+     "expected_ru": "Слушайте подкасты на немецком!",
+     "hint_ru": "Hört Podcasts auf Deutsch!",
+     "ai_checks": "понятно ли и верен ли смысл; просьба к двоим — форма без ihr (Hört), не Hören Sie",
+     "level_note": "A1.2 — передать совет нескольким людям одной фразой"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch15_L5_dict_1",
+      "ch15_L5_dict_2",
+      "ch15_L5_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Проверь диктант: Bilderbücher, Notizen, Instrument — с большой буквы; в Bilderbücher — ü; Lest, Schreibt, Spielt — в начале фразы тоже с большой."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch15_L5_transfer_2",
+      "ch15_L5_transfer_3",
+      "ch15_L5_transfer_4",
+      "ch15_L5_transfer_5",
+      "ch15_L5_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Плакат «Lerntipps» прочитан.",
+      "Совет на завтра: выбери один Lerntipp и сделай его — послушай подкаст или напиши три заметки."
+     ],
+     "npc_phrase_id": "ch15_d5_06",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: друзьям — Hört! Lest! Schreibt! (ihr убрали) · на «вы» — Hören Sie! · вопрос — Spielt ihr …?",
+     "next_hook": "Дальше: Andere Sprachen lernen — твоя Lernbiografie: что, где и у кого ты учил.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       271,
+       272
+      ],
+      "phrases_ids": [
+       "ch15_039",
+       "ch15_040",
+       "ch15_041",
+       "ch15_042"
+      ],
+      "note": "к курсу: на стр. 271 — музыкальные инструменты, на стр. 272 — советы, как учить (Lerntipps); слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса: Musikinstrumente und Lerntipps",
+       "phrase_id": "ch15_039",
+       "picture": "плакат на празднике курса: инструменты, наушники с подкастом, листочки с заметками, приложение на телефоне",
+       "words": [
+        {
+         "de": "das Musikinstrument",
+         "ru": "музыкальный инструмент"
+        },
+        {
+         "de": "die Flöte",
+         "ru": "флейта"
+        },
+        {
+         "de": "die Geige",
+         "ru": "скрипка"
+        },
+        {
+         "de": "die Trommel",
+         "ru": "барабан"
+        },
+        {
+         "de": "das Schlagzeug",
+         "ru": "ударная установка"
+        },
+        {
+         "de": "das Keyboard",
+         "ru": "синтезатор"
+        },
+        {
+         "de": "das Xylophon",
+         "ru": "ксилофон"
+        },
+        {
+         "de": "der Kursraum",
+         "ru": "класс курса"
+        },
+        {
+         "de": "die Lern-App",
+         "ru": "приложение для учёбы"
+        },
+        {
+         "de": "die Mindmap",
+         "ru": "карта слов (схема)"
+        }
+       ],
+       "note": "эти слова есть на стр. 271–272 и 280; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch15_L5_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch15_039",
+        "prompt": "Слова курса. Послушай. Что значит «Geige»?",
+        "answer": "скрипка",
+        "distractors": [
+         "флейта",
+         "барабан"
+        ],
+        "src": "Linie 1, стр. 271 (Ein Instrument lernen)"
+       },
+       {
+        "id": "ch15_L5_kurs_2",
+        "skill": "listen",
+        "phraseId": "ch15_040",
+        "prompt": "Слова курса. Послушай. Что значит «Lied»?",
+        "answer": "песня",
+        "distractors": [
+         "хор",
+         "совет"
+        ],
+        "src": "Linie 1, стр. 271–272"
+       },
+       {
+        "id": "ch15_L5_kurs_3",
+        "skill": "listen",
+        "phraseId": "ch15_041",
+        "prompt": "Слова курса. Послушай. Что значит «Untertitel»?",
+        "answer": "субтитр",
+        "distractors": [
+         "передача",
+         "предложение"
+        ],
+        "src": "Linie 1, стр. 272 (Lerntipps)"
+       },
+       {
+        "id": "ch15_L5_kurs_4",
+        "skill": "listen",
+        "phraseId": "ch15_042",
+        "prompt": "Слова курса. Послушай. Что значит «Lösung»?",
+        "answer": "решение",
+        "distractors": [
+         "группа",
+         "диалог"
+        ],
+        "src": "Linie 1, стр. 272"
+       }
+      ]
+     },
+     "kurs_pages": [
+      271,
+      272
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch15.py",
+  "new_words": [
+   "Hört Podcasts auf Deutsch!",
+   "Lest Bilderbücher!",
+   "Schreibt Notizen!",
+   "Spielt ihr ein Instrument?"
+  ],
+  "known_before": [
+   "Hören Sie bitte.",
+   "Lesen Sie bitte.",
+   "Ja, ich spiele Klavier.",
+   "auf Deutsch",
+   "Olga"
+  ],
+  "transfer_phrase_ids": [
+   "ch15_t12",
+   "ch15_t13",
+   "ch15_t14"
+  ],
+  "built_phrase_ids": [
+   "ch15_038"
+  ],
+  "quiz_ids": [
+   "ch15_L5_words_1",
+   "ch15_L5_words_2",
+   "ch15_L5_words_3",
+   "ch15_L5_words_4",
+   "ch15_L5_words_5",
+   "ch15_L5_listen_1",
+   "ch15_L5_listen_2",
+   "ch15_L5_listen_3",
+   "ch15_L5_listen_4",
+   "ch15_L5_listen_5",
+   "ch15_L5_read_1",
+   "ch15_L5_read_2",
+   "ch15_L5_read_3",
+   "ch15_L5_read_4",
+   "ch15_L5_read_5",
+   "ch15_L5_speak_1",
+   "ch15_L5_speak_2",
+   "ch15_L5_speak_3",
+   "ch15_L5_speak_4",
+   "ch15_L5_speak_5",
+   "ch15_L5_write_1",
+   "ch15_L5_write_2",
+   "ch15_L5_write_3",
+   "ch15_L5_write_4",
+   "ch15_L5_write_5",
+   "ch15_L5_why_1",
+   "ch15_L5_why_2",
+   "ch15_L5_why_3",
+   "ch15_L5_why_4",
+   "ch15_L5_why_5",
+   "ch15_L5_transfer_1",
+   "ch15_L5_transfer_2",
+   "ch15_L5_transfer_3",
+   "ch15_L5_transfer_4",
+   "ch15_L5_transfer_5",
+   "ch15_L5_boss_1"
+  ],
+  "dictation_ids": [
+   "ch15_L5_dict_1",
+   "ch15_L5_dict_2",
+   "ch15_L5_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Kursfest: вы с Ольгой читаете группе плакат «Lerntipps». Цель: дать совет сразу нескольким друзьям и спросить двоих. Загадка урока: «Слушайте!» группе друзей по-немецки — Hört! Куда делось ihr?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Праздник курса",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой читает группе плакат и отвечает Максу (ИИ — Ольга и Макс)",
+   "situation": "kursfest_lerntipps",
+   "ai_plays": "Ольга и Макс (на «ты»)",
+   "phrases": [
+    "ch15_d5_02",
+    "ch15_035",
+    "ch15_d5_05",
+    "ch15_037"
+   ]
+  },
+  "outro": "Плакат «Lerntipps» прочитан. Совет на завтра: выбери один Lerntipp и сделай его — послушай подкаст или напиши три заметки. Дальше: Andere Sprachen lernen — твоя Lernbiografie: что, где и у кого ты учил.",
+  "detail_de_life": "На стр. 272 учебника советы учить «всеми чувствами»: слушать (Podcasts, Radio), смотреть (Videos mit Untertiteln), писать (Notizen, Zettel). Такие плакаты делают и на курсах.",
+  "detail_de_life_source": "Linie 1 A1, стр. 272 (Mit allen Sinnen lernen)",
+  "task_ids": {
+   "words": [
+    "ch15_L5_words_1",
+    "ch15_L5_words_2",
+    "ch15_L5_words_3",
+    "ch15_L5_words_4",
+    "ch15_L5_words_5"
+   ],
+   "listen": [
+    "ch15_L5_listen_1",
+    "ch15_L5_listen_2",
+    "ch15_L5_listen_3",
+    "ch15_L5_listen_4",
+    "ch15_L5_listen_5"
+   ],
+   "read": [
+    "ch15_L5_read_1",
+    "ch15_L5_read_2",
+    "ch15_L5_read_3",
+    "ch15_L5_read_4",
+    "ch15_L5_read_5"
+   ],
+   "speak": [
+    "ch15_L5_speak_1",
+    "ch15_L5_speak_2",
+    "ch15_L5_speak_3",
+    "ch15_L5_speak_4",
+    "ch15_L5_speak_5"
+   ],
+   "write": [
+    "ch15_L5_write_1",
+    "ch15_L5_write_2",
+    "ch15_L5_write_3",
+    "ch15_L5_write_4",
+    "ch15_L5_write_5"
+   ],
+   "why": [
+    "ch15_L5_why_1",
+    "ch15_L5_why_2",
+    "ch15_L5_why_3",
+    "ch15_L5_why_4",
+    "ch15_L5_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch15_L5_transfer_1",
+   "ch15_L5_transfer_2",
+   "ch15_L5_transfer_3",
+   "ch15_L5_transfer_4",
+   "ch15_L5_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch15_027",
+   "ch15_028",
+   "ch15_029"
+  ],
+  "dialog_ids": [
+   "ch15_d5"
+  ],
+  "video": "video/ch15_L5.mp4"
+ },
+ {
+  "id": "ch15_L6",
+  "title": "Mein Deutsch nach Kapitel 15: проверка главы и твоя Lernbiografie",
+  "pages_linie1": {
+   "pages": [
+    273,
+    281
+   ],
+   "sections": [
+    "7 Andere Sprachen lernen",
+    "Mein Deutsch nach Kapitel 15"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch15_043",
+   "ch15_044",
+   "ch15_045",
+   "ch15_046"
+  ],
+  "why_ids": [
+   "ch15_043",
+   "ch15_046"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch15_d6",
+    "line_ids": [
+     "ch15_d6_01",
+     "ch15_d6_02",
+     "ch15_d6_03",
+     "ch15_d6_04",
+     "ch15_d6_05",
+     "ch15_d6_06",
+     "ch15_d6_07"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Пять уроков главы — по одной фразе из каждого."
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch15_d6",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch15_d6_01",
+        "ch15_d6_03",
+        "ch15_d6_04",
+        "ch15_d6_07"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch15_d6",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Своя Lernbiografie: скажи вслух три фразы — что ты учил, где и от кого",
+      "min": 4,
+      "uses": {
+       "part": 9
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch15_043",
+        "ch15_044",
+        "ch15_045",
+        "ch15_046"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Своя Lernbiografie: скажи вслух три фразы — что ты учил, где и от кого — 4 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 56
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "мост: «играл» ↔ habe … gespielt (два слова), без терминов, кроме названия рубрики",
+   "как слышу, так и пишу": "ß в Fußball (часть 7); Club, Sport — с большой буквы (часть 10)",
+   "учебник непонятен": "из Linie 1 — темы и страницы 273, 281; подача своя",
+   "село, живой немецкий — Netto": "Lernbiografie — рассказ о себе на курсе, в клубе, в школе",
+   "любит аниме": "завязка — герой вспоминает, где и у кого учился; отрезки аниме — позже",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 56 мин (все 12 + 25 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Ich habe in der Schule Fußball gespielt.; перенос — Hast du Gitarre gespielt?, Olga hat Klavier gespielt., Wo hast du Gitarre gespielt?",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    266,
+    267,
+    268,
+    270,
+    272,
+    273,
+    280,
+    330
+   ],
+   "phrases_ids": [
+    "ch15_048",
+    "ch15_049",
+    "ch15_050",
+    "ch15_051",
+    "ch15_052",
+    "ch15_053",
+    "ch15_054",
+    "ch15_055",
+    "ch15_056",
+    "ch15_057"
+   ],
+   "note": "к курсу: на стр. 273 — Lernbiografien (Fußball, Club, Hobby, Sport), на стр. 281 — самопроверка главы («Das kann ich»); слова страниц 266–273, 280 и 330 звучат в заданиях и текстах — узнавать на слух, учить не надо",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса: Lernbiografien",
+    "phrase_id": "ch15_053",
+    "picture": "стенгазета на празднике курса: футбольный мяч, скейтборд, настольный теннис, компьютер, вязание, рисунки",
+    "words": [
+     {
+      "de": "das Hobby",
+      "ru": "хобби"
+     },
+     {
+      "de": "der Sport",
+      "ru": "спорт"
+     },
+     {
+      "de": "der Volleyball",
+      "ru": "волейбол"
+     },
+     {
+      "de": "das Tischtennis",
+      "ru": "настольный теннис"
+     },
+     {
+      "de": "das Skateboard",
+      "ru": "скейтборд"
+     },
+     {
+      "de": "malen",
+      "ru": "рисовать"
+     },
+     {
+      "de": "stricken",
+      "ru": "вязать"
+     },
+     {
+      "de": "programmieren",
+      "ru": "программировать"
+     }
+    ],
+    "note": "слова страниц 273 и 330; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch15_L6_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch15_048",
+     "prompt": "Слова курса. Послушай. Что значит «Eltern»?",
+     "answer": "родители",
+     "distractors": [
+      "соседи",
+      "дедушка"
+     ],
+     "src": "Linie 1, стр. 268 (Das habe ich von meinem Onkel gelernt)"
+    },
+    {
+     "id": "ch15_L6_kurs_2",
+     "skill": "listen",
+     "phraseId": "ch15_052",
+     "prompt": "Слова курса. Послушай. Что значит «Fieber»?",
+     "answer": "температура (жар)",
+     "distractors": [
+      "врач",
+      "боль в животе"
+     ],
+     "src": "Linie 1, стр. 280 (Mein Deutsch nach Kapitel 15)"
+    },
+    {
+     "id": "ch15_L6_kurs_3",
+     "skill": "listen",
+     "phraseId": "ch15_053",
+     "prompt": "Слова курса. Послушай. Что значит «Tischtennis»?",
+     "answer": "настольный теннис",
+     "distractors": [
+      "футбол",
+      "волейбол"
+     ],
+     "src": "Linie 1, стр. 273 (Andere Sprachen lernen)"
+    },
+    {
+     "id": "ch15_L6_kurs_4",
+     "skill": "listen",
+     "phraseId": "ch15_056",
+     "prompt": "Слова курса. Послушай. Что значит «stricken»?",
+     "answer": "вязать",
+     "distractors": [
+      "шить",
+      "рисовать"
+     ],
+     "src": "Linie 1, стр. 330 (Wortliste)"
+    },
+    {
+     "id": "ch15_L6_kurs_5",
+     "skill": "listen",
+     "phraseId": "ch15_049",
+     "prompt": "Слова курса. Послушай. Что значит «Rentnerin»?",
+     "answer": "пенсионерка",
+     "distractors": [
+      "школьница",
+      "студентка"
+     ],
+     "src": "Linie 1, стр. 267 (Wann lernt man das?)"
+    },
+    {
+     "id": "ch15_L6_kurs_6",
+     "skill": "listen",
+     "phraseId": "ch15_050",
+     "prompt": "Слова курса. Послушай. Что значит «Supermarkt»?",
+     "answer": "супермаркет",
+     "distractors": [
+      "клуб",
+      "деревня"
+     ],
+     "src": "Linie 1, стр. 273 (Andere Sprachen lernen)"
+    },
+    {
+     "id": "ch15_L6_kurs_7",
+     "skill": "listen",
+     "phraseId": "ch15_051",
+     "prompt": "Слова курса. Послушай. Что значит «Handy»?",
+     "answer": "мобильный телефон",
+     "distractors": [
+      "компьютер",
+      "электронное письмо"
+     ],
+     "src": "Linie 1, стр. 267 (Wann lernt man das?)"
+    },
+    {
+     "id": "ch15_L6_kurs_8",
+     "skill": "listen",
+     "phraseId": "ch15_054",
+     "prompt": "Слова курса. Послушай. Что значит «Vorspeise»?",
+     "answer": "закуска",
+     "distractors": [
+      "десерт",
+      "основное блюдо"
+     ],
+     "src": "Linie 1, стр. 280 (Mein Deutsch nach Kapitel 15)"
+    },
+    {
+     "id": "ch15_L6_kurs_9",
+     "skill": "listen",
+     "phraseId": "ch15_055",
+     "prompt": "Слова курса. Послушай. Что значит «Partner»?",
+     "answer": "партнёр",
+     "distractors": [
+      "культура",
+      "сосед"
+     ],
+     "src": "Linie 1, стр. 273 (Andere Sprachen lernen)"
+    },
+    {
+     "id": "ch15_L6_kurs_10",
+     "skill": "listen",
+     "phraseId": "ch15_057",
+     "prompt": "Слова курса. Послушай. Что значит «gerade»?",
+     "answer": "как раз",
+     "distractors": [
+      "назад",
+      "примерно"
+     ],
+     "src": "Linie 1, стр. 330 (Wortliste)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Школа поселения: конец главы 15 — на празднике курса Ольга и Макс спрашивают про твою Lernbiografie",
+   "npc": "Olga и Max — одногруппники (на «ты»)"
+  },
+  "covers": [
+   "L1-15-S1",
+   "L1-15-S7",
+   "L1-15-REVIEW",
+   "L1-15-LERNEN",
+   "L1-15-G3"
+  ],
+  "covers_note": {
+   "L1-15-S1": "Lernorte: Schule, Kurs, Club — где учат и где играют; повтор in der Schule, im Kurs, im Club (части 3, 5, 8)",
+   "L1-15-S7": "стр. 273 Andere Sprachen lernen: Lernbiografien — Ich habe Fußball gespielt, Wo hast du Fußball gespielt? (части 3–9); слова курса Hobby, Sport, Club, Fußball, Skateboard",
+   "L1-15-REVIEW": "стр. 281 «Mein Deutsch nach Kapitel 15»: повторение уроков 1–5 (часть 2), проверка главы — переносы и босс (часть 11), список «Das kann ich» (часть 12)",
+   "L1-15-LERNEN": "Leichter lernen: Mit Mindmaps lernen — слова курса по темам (цепочки 048–057), как карта слов",
+   "L1-15-G3": "Imperativ: ihr-Form — повтор Hört! Lest! Schreibt! в части 2 и в списке «Das kann ich»"
+  },
+  "goal": "После урока сможешь: рассказать, где и что ты учил или во что играл (Ich habe im Club Fußball gespielt.), спросить об этом друга (Wo hast du Fußball gespielt?) и пройти проверку главы 15 — повторение уроков 1–5.",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Kursfest: Ольга и Макс спрашивают про твою Lernbiografie.",
+      "Lernorte: Schule, Kurs, Club. Цель: рассказать, что и где ты учил и во что играл."
+     ],
+     "voice_ru": "На празднике курса Ольга и Макс спрашивают про твою Lernbiografie: что ты учил, где и у кого. Сначала повторим главу, потом расскажешь о себе.",
+     "hook": "Загадка урока: gelernt и gespielt — слова разные, а устроены одинаково. Как?",
+     "anime_motif": "исекай: герой вспоминает, где и у кого он учился в прежней жизни (без цитат)",
+     "npc": "Olga и Max — одногруппники",
+     "more": "Новых поездов нет: прошлое то же, что в уроке 1. Нужно только услышать, как строится gespielt.",
+     "goal": "После урока сможешь: рассказать, где и что ты учил или во что играл (Ich habe im Club Fußball gespielt.), спросить об этом друга (Wo hast du Fußball gespielt?) и пройти проверку главы 15 — повторение уроков 1–5."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch15_004",
+      "ch15_013",
+      "ch15_023",
+      "ch15_029"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Пять уроков главы — по одной фразе из каждого."
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch15_033",
+      "ch15_034"
+     ],
+     "type": "retrieval: вопрос, не перечитывание"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch15_043",
+      "ch15_044",
+      "ch15_045",
+      "ch15_046"
+     ],
+     "words": [
+      "Ich habe Fußball gespielt.",
+      "Wo hast du Fußball gespielt?",
+      "Ich habe im Club Fußball gespielt.",
+      "Olga hat im Club Fußball gespielt."
+     ],
+     "words_ru": {
+      "Ich habe Fußball gespielt.": "Я играл в футбол.",
+      "Wo hast du Fußball gespielt?": "Где ты играл в футбол?",
+      "Ich habe im Club Fußball gespielt.": "Я играл в футбол в клубе.",
+      "Olga hat im Club Fußball gespielt.": "Ольга играла в футбол в клубе."
+     },
+     "trap": "По-русски «играл» — одно слово. По-немецки два: помощник habe и gespielt в конце. Что сделано, всегда уходит в конец.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch15_L6_words_1",
+      "ch15_L6_words_2",
+      "ch15_L6_words_3",
+      "ch15_L6_words_4",
+      "ch15_L6_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch15_d6",
+     "line_ids": [
+      "ch15_d6_01",
+      "ch15_d6_02",
+      "ch15_d6_03",
+      "ch15_d6_04",
+      "ch15_d6_05",
+      "ch15_d6_06",
+      "ch15_d6_07"
+     ],
+     "halves": [
+      [
+       "ch15_d6_01",
+       "ch15_d6_02",
+       "ch15_d6_03",
+       "ch15_d6_04"
+      ],
+      [
+       "ch15_d6_05",
+       "ch15_d6_06",
+       "ch15_d6_07"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "Народные школы Volkshochschule (VHS) есть почти в каждом немецком городе: там взрослые учат языки и готовятся к экзаменам. Поэтому на стр. 267 учебника среди мест учёбы названа и VHS.",
+     "life_source": "Deutscher Volkshochschul-Verband (volkshochschule.de); Linie 1 A1, стр. 267",
+     "task_ids": [
+      "ch15_L6_listen_1",
+      "ch15_L6_listen_2",
+      "ch15_L6_listen_3",
+      "ch15_L6_listen_4",
+      "ch15_L6_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch15_043",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "Прошлое: habe в вагоне №2, что сделано — в конце. Форма простая: ge, потом основа, потом t. lern — gelernt, spiel — gespielt.",
+     "screen": [
+      "Прошлое: ich habe … gespielt — habe в вагоне №2, gespielt в конце",
+      "ge + основа + t: lern → gelernt, spiel → gespielt"
+     ],
+     "answer_hook": "Ответ на загадку: gelernt и gespielt собраны по одной схеме: ge + основа + t.",
+     "second": {
+      "why_id": "ch15_046",
+      "voice_ru": "С Olga помощник другой: hat, а не habe. Но gespielt остаётся таким же, как с ich."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch15_L6_why_1",
+      "ch15_L6_why_2",
+      "ch15_L6_why_3",
+      "ch15_L6_why_4",
+      "ch15_L6_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch15_047",
+     "pieces": [
+      "gespielt.",
+      "in der Schule",
+      "Ich",
+      "Fußball",
+      "habe"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch15_043",
+      "ch15_002"
+     ],
+     "prompt": "Собери сам из знакомых кусков: скажи, что ты играл в футбол в школе.",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch15_047",
+     "transfer_task_ids": [
+      "ch15_L6_transfer_1"
+     ],
+     "task_ids": [
+      "ch15_L6_write_1",
+      "ch15_L6_write_2",
+      "ch15_L6_write_3",
+      "ch15_L6_write_4",
+      "ch15_L6_write_5",
+      "ch15_L6_read_1",
+      "ch15_L6_read_2",
+      "ch15_L6_read_3",
+      "ch15_L6_read_4",
+      "ch15_L6_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "Fußball",
+     "ipa_sym": "uː + s (ß = «с»)",
+     "tip_ru": "ß — это просто «с». В Fuß звук u долгий, как «у» в слове «фу»: Fußball — «фус-бал».",
+     "bridge_ru": "По-русски «футбол» с «т». По-немецки t нет: Fuß-ball, после «с» сразу «б». Слушай и повторяй слово целиком.",
+     "phrase_id": "ch15_043",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "Fußball",
+       "ru": "ФУ:С-бал"
+      },
+      {
+       "de": "Club",
+       "ru": "КЛУП"
+      },
+      {
+       "de": "Sport",
+       "ru": "ШПОРТ"
+      },
+      {
+       "de": "Hobby",
+       "ru": "ХО-би"
+      }
+     ],
+     "speak_task_ids": [
+      "ch15_L6_speak_1",
+      "ch15_L6_speak_2",
+      "ch15_L6_speak_3",
+      "ch15_L6_speak_4",
+      "ch15_L6_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Праздник курса",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Ольга и Макс (на «ты»)",
+     "turns": [
+      {
+       "prompt_id": "ch15_d6_01",
+       "prompt_de": "Hast du Fußball gespielt?",
+       "prompt_audio": "audio_v1/ch15_d6_01.mp3",
+       "expected_id": "ch15_d6_02",
+       "expected_de": "Ich habe Fußball gespielt.",
+       "accept": [
+        {
+         "id": "ch15_045",
+         "de": "Ich habe im Club Fußball gespielt."
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch15_d6_03",
+       "prompt_de": "Wo hast du Fußball gespielt?",
+       "prompt_audio": "audio_v1/ch15_d6_03.mp3",
+       "expected_id": "ch15_d6_04",
+       "expected_de": "Ich habe im Club Fußball gespielt.",
+       "accept": [
+        {
+         "id": "ch15_047",
+         "de": "Ich habe in der Schule Fußball gespielt."
+        }
+       ],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Ольга спрашивает, играл ли ты в футбол, и где — ответь на оба вопроса.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch15_d6_04",
+     "task_ru": "Новенький в группе не знает, чем ты занимался. Скажи ему по-немецки: ты играл в футбол в клубе.",
+     "expected_ru": "Я играл в футбол в клубе.",
+     "hint_ru": "Ich habe im Club Fußball gespielt.",
+     "ai_checks": "понятно ли и верен ли смысл; прошедшее: habe … gespielt, gespielt в конце",
+     "level_note": "A1.2 — рассказать о прошлом одной фразой"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch15_L6_dict_1",
+      "ch15_L6_dict_2",
+      "ch15_L6_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Проверь диктант: Fußball — с ß, Fuß-ball; Club и Olga — с большой буквы; gespielt — одним словом, в конце."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch15_L6_transfer_2",
+      "ch15_L6_transfer_3",
+      "ch15_L6_transfer_4",
+      "ch15_L6_transfer_5",
+      "ch15_L6_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Глава 15 пройдена: «Das kann ich».",
+      "Ich habe … gelernt · Von wem …? · Doch! · Hört! Lest! Schreibt! · Ich habe … gespielt."
+     ],
+     "npc_phrase_id": "ch15_d6_07",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: прошлое — habe … gelernt / gespielt (ge + основа + t) · от кого — von meinem / meiner · «нет, наоборот» — doch · друзьям — Hört!",
+     "next_hook": "Дальше: глава 16 — рынок и праздники: Weihnachtsmarkt, подарки, Wir feiern.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       266,
+       267,
+       268,
+       270,
+       272,
+       273,
+       280,
+       330
+      ],
+      "phrases_ids": [
+       "ch15_048",
+       "ch15_049",
+       "ch15_050",
+       "ch15_051",
+       "ch15_052",
+       "ch15_053",
+       "ch15_054",
+       "ch15_055",
+       "ch15_056",
+       "ch15_057"
+      ],
+      "note": "к курсу: на стр. 273 — Lernbiografien (Fußball, Club, Hobby, Sport), на стр. 281 — самопроверка главы («Das kann ich»); слова страниц 266–273, 280 и 330 звучат в заданиях и текстах — узнавать на слух, учить не надо",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса: Lernbiografien",
+       "phrase_id": "ch15_053",
+       "picture": "стенгазета на празднике курса: футбольный мяч, скейтборд, настольный теннис, компьютер, вязание, рисунки",
+       "words": [
+        {
+         "de": "das Hobby",
+         "ru": "хобби"
+        },
+        {
+         "de": "der Sport",
+         "ru": "спорт"
+        },
+        {
+         "de": "der Volleyball",
+         "ru": "волейбол"
+        },
+        {
+         "de": "das Tischtennis",
+         "ru": "настольный теннис"
+        },
+        {
+         "de": "das Skateboard",
+         "ru": "скейтборд"
+        },
+        {
+         "de": "malen",
+         "ru": "рисовать"
+        },
+        {
+         "de": "stricken",
+         "ru": "вязать"
+        },
+        {
+         "de": "programmieren",
+         "ru": "программировать"
+        }
+       ],
+       "note": "слова страниц 273 и 330; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch15_L6_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch15_048",
+        "prompt": "Слова курса. Послушай. Что значит «Eltern»?",
+        "answer": "родители",
+        "distractors": [
+         "соседи",
+         "дедушка"
+        ],
+        "src": "Linie 1, стр. 268 (Das habe ich von meinem Onkel gelernt)"
+       },
+       {
+        "id": "ch15_L6_kurs_2",
+        "skill": "listen",
+        "phraseId": "ch15_052",
+        "prompt": "Слова курса. Послушай. Что значит «Fieber»?",
+        "answer": "температура (жар)",
+        "distractors": [
+         "врач",
+         "боль в животе"
+        ],
+        "src": "Linie 1, стр. 280 (Mein Deutsch nach Kapitel 15)"
+       },
+       {
+        "id": "ch15_L6_kurs_3",
+        "skill": "listen",
+        "phraseId": "ch15_053",
+        "prompt": "Слова курса. Послушай. Что значит «Tischtennis»?",
+        "answer": "настольный теннис",
+        "distractors": [
+         "футбол",
+         "волейбол"
+        ],
+        "src": "Linie 1, стр. 273 (Andere Sprachen lernen)"
+       },
+       {
+        "id": "ch15_L6_kurs_4",
+        "skill": "listen",
+        "phraseId": "ch15_056",
+        "prompt": "Слова курса. Послушай. Что значит «stricken»?",
+        "answer": "вязать",
+        "distractors": [
+         "шить",
+         "рисовать"
+        ],
+        "src": "Linie 1, стр. 330 (Wortliste)"
+       },
+       {
+        "id": "ch15_L6_kurs_5",
+        "skill": "listen",
+        "phraseId": "ch15_049",
+        "prompt": "Слова курса. Послушай. Что значит «Rentnerin»?",
+        "answer": "пенсионерка",
+        "distractors": [
+         "школьница",
+         "студентка"
+        ],
+        "src": "Linie 1, стр. 267 (Wann lernt man das?)"
+       },
+       {
+        "id": "ch15_L6_kurs_6",
+        "skill": "listen",
+        "phraseId": "ch15_050",
+        "prompt": "Слова курса. Послушай. Что значит «Supermarkt»?",
+        "answer": "супермаркет",
+        "distractors": [
+         "клуб",
+         "деревня"
+        ],
+        "src": "Linie 1, стр. 273 (Andere Sprachen lernen)"
+       },
+       {
+        "id": "ch15_L6_kurs_7",
+        "skill": "listen",
+        "phraseId": "ch15_051",
+        "prompt": "Слова курса. Послушай. Что значит «Handy»?",
+        "answer": "мобильный телефон",
+        "distractors": [
+         "компьютер",
+         "электронное письмо"
+        ],
+        "src": "Linie 1, стр. 267 (Wann lernt man das?)"
+       },
+       {
+        "id": "ch15_L6_kurs_8",
+        "skill": "listen",
+        "phraseId": "ch15_054",
+        "prompt": "Слова курса. Послушай. Что значит «Vorspeise»?",
+        "answer": "закуска",
+        "distractors": [
+         "десерт",
+         "основное блюдо"
+        ],
+        "src": "Linie 1, стр. 280 (Mein Deutsch nach Kapitel 15)"
+       },
+       {
+        "id": "ch15_L6_kurs_9",
+        "skill": "listen",
+        "phraseId": "ch15_055",
+        "prompt": "Слова курса. Послушай. Что значит «Partner»?",
+        "answer": "партнёр",
+        "distractors": [
+         "культура",
+         "сосед"
+        ],
+        "src": "Linie 1, стр. 273 (Andere Sprachen lernen)"
+       },
+       {
+        "id": "ch15_L6_kurs_10",
+        "skill": "listen",
+        "phraseId": "ch15_057",
+        "prompt": "Слова курса. Послушай. Что значит «gerade»?",
+        "answer": "как раз",
+        "distractors": [
+         "назад",
+         "примерно"
+        ],
+        "src": "Linie 1, стр. 330 (Wortliste)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      266,
+      267,
+      268,
+      270,
+      272,
+      273,
+      280,
+      330
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch15.py",
+  "new_words": [
+   "Ich habe Fußball gespielt.",
+   "Wo hast du Fußball gespielt?",
+   "Ich habe im Club Fußball gespielt.",
+   "Olga hat im Club Fußball gespielt."
+  ],
+  "known_before": [
+   "Ich habe Englisch gelernt.",
+   "Wo hast du Deutsch gelernt?",
+   "in der Schule",
+   "im Kurs",
+   "von meinem Freund",
+   "Ich spiele Gitarre.",
+   "Hört Podcasts auf Deutsch!",
+   "Olga",
+   "auch",
+   "und"
+  ],
+  "transfer_phrase_ids": [
+   "ch15_t15",
+   "ch15_t16",
+   "ch15_t17"
+  ],
+  "built_phrase_ids": [
+   "ch15_047"
+  ],
+  "quiz_ids": [
+   "ch15_L6_words_1",
+   "ch15_L6_words_2",
+   "ch15_L6_words_3",
+   "ch15_L6_words_4",
+   "ch15_L6_words_5",
+   "ch15_L6_listen_1",
+   "ch15_L6_listen_2",
+   "ch15_L6_listen_3",
+   "ch15_L6_listen_4",
+   "ch15_L6_listen_5",
+   "ch15_L6_read_1",
+   "ch15_L6_read_2",
+   "ch15_L6_read_3",
+   "ch15_L6_read_4",
+   "ch15_L6_read_5",
+   "ch15_L6_speak_1",
+   "ch15_L6_speak_2",
+   "ch15_L6_speak_3",
+   "ch15_L6_speak_4",
+   "ch15_L6_speak_5",
+   "ch15_L6_write_1",
+   "ch15_L6_write_2",
+   "ch15_L6_write_3",
+   "ch15_L6_write_4",
+   "ch15_L6_write_5",
+   "ch15_L6_why_1",
+   "ch15_L6_why_2",
+   "ch15_L6_why_3",
+   "ch15_L6_why_4",
+   "ch15_L6_why_5",
+   "ch15_L6_transfer_1",
+   "ch15_L6_transfer_2",
+   "ch15_L6_transfer_3",
+   "ch15_L6_transfer_4",
+   "ch15_L6_transfer_5",
+   "ch15_L6_boss_1"
+  ],
+  "dictation_ids": [
+   "ch15_L6_dict_1",
+   "ch15_L6_dict_2",
+   "ch15_L6_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Kursfest: Ольга и Макс спрашивают про твою Lernbiografie. Lernorte: Schule, Kurs, Club. Цель: рассказать, что и где ты учил и во что играл. Загадка урока: gelernt и gespielt — слова разные, а устроены одинаково. Как?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Праздник курса",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой рассказывает Ольге и Максу, что и где он учил и во что играл (ИИ — Ольга и Макс)",
+   "situation": "kursfest_lernbiografie",
+   "ai_plays": "Ольга и Макс (на «ты»)",
+   "phrases": [
+    "ch15_d6_02",
+    "ch15_045",
+    "ch15_d6_04",
+    "ch15_047"
+   ]
+  },
+  "outro": "Глава 15 пройдена: «Das kann ich». Ich habe … gelernt · Von wem …? · Doch! · Hört! Lest! Schreibt! · Ich habe … gespielt. Дальше: глава 16 — рынок и праздники: Weihnachtsmarkt, подарки, Wir feiern.",
+  "detail_de_life": "Народные школы Volkshochschule (VHS) есть почти в каждом немецком городе: там взрослые учат языки и готовятся к экзаменам. Поэтому на стр. 267 учебника среди мест учёбы названа и VHS.",
+  "detail_de_life_source": "Deutscher Volkshochschul-Verband (volkshochschule.de); Linie 1 A1, стр. 267",
+  "task_ids": {
+   "words": [
+    "ch15_L6_words_1",
+    "ch15_L6_words_2",
+    "ch15_L6_words_3",
+    "ch15_L6_words_4",
+    "ch15_L6_words_5"
+   ],
+   "listen": [
+    "ch15_L6_listen_1",
+    "ch15_L6_listen_2",
+    "ch15_L6_listen_3",
+    "ch15_L6_listen_4",
+    "ch15_L6_listen_5"
+   ],
+   "read": [
+    "ch15_L6_read_1",
+    "ch15_L6_read_2",
+    "ch15_L6_read_3",
+    "ch15_L6_read_4",
+    "ch15_L6_read_5"
+   ],
+   "speak": [
+    "ch15_L6_speak_1",
+    "ch15_L6_speak_2",
+    "ch15_L6_speak_3",
+    "ch15_L6_speak_4",
+    "ch15_L6_speak_5"
+   ],
+   "write": [
+    "ch15_L6_write_1",
+    "ch15_L6_write_2",
+    "ch15_L6_write_3",
+    "ch15_L6_write_4",
+    "ch15_L6_write_5"
+   ],
+   "why": [
+    "ch15_L6_why_1",
+    "ch15_L6_why_2",
+    "ch15_L6_why_3",
+    "ch15_L6_why_4",
+    "ch15_L6_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch15_L6_transfer_1",
+   "ch15_L6_transfer_2",
+   "ch15_L6_transfer_3",
+   "ch15_L6_transfer_4",
+   "ch15_L6_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch15_004",
+   "ch15_013",
+   "ch15_023",
+   "ch15_029"
+  ],
+  "dialog_ids": [
+   "ch15_d6"
+  ],
+  "video": "video/ch15_L6.mp4"
+ }
+]

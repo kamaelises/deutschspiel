@@ -1,0 +1,477 @@
+[
+ {
+  "id": "ch01_dict_1",
+  "phraseId": "ch01_d4_01",
+  "de": "Guten Morgen!",
+  "ru": "Доброе утро!",
+  "audio": "audio_v3/ch01_d4_01.mp3",
+  "modes": [
+   "slow",
+   "twice",
+   "parts"
+  ],
+  "item_id": "ch01_dict_1",
+  "skill": "write",
+  "rule_id": "cards/articles",
+  "transfer": false
+ },
+ {
+  "id": "ch01_dict_2",
+  "phraseId": "ch01_d4_03",
+  "de": "Mein Name ist Schmidt.",
+  "ru": "Меня зовут Шмидт.",
+  "audio": "audio_v4/ch01_d4_03.mp3",
+  "modes": [
+   "slow",
+   "twice",
+   "parts"
+  ],
+  "item_id": "ch01_dict_2",
+  "skill": "write",
+  "rule_id": "topics/verb_endings",
+  "transfer": false
+ },
+ {
+  "id": "ch01_dict_3",
+  "phraseId": "ch01_d9_13",
+  "de": "Auf Wiedersehen!",
+  "ru": "До свидания!",
+  "audio": "audio_v4/ch01_d9_13.mp3",
+  "modes": [
+   "slow",
+   "twice",
+   "parts"
+  ],
+  "item_id": "ch01_dict_3",
+  "skill": "write",
+  "rule_id": "topics/word_order",
+  "transfer": false
+ },
+ {
+  "id": "ch01_dict_4",
+  "phraseId": "ch01_d6_02",
+  "de": "Ich heiße Max.",
+  "ru": "Меня зовут {hero_name}.",
+  "audio": "audio_v4/ch01_d6_02.mp3",
+  "modes": [
+   "slow",
+   "twice",
+   "parts"
+  ],
+  "item_id": "ch01_dict_4",
+  "skill": "write",
+  "rule_id": "topics/word_order",
+  "transfer": false
+ },
+ {
+  "id": "ch01_dict_5",
+  "phraseId": "ch01_047",
+  "de": "Wo wohnst du?",
+  "ru": "Где ты живёшь?",
+  "audio": "audio_v1/ch01_047.mp3",
+  "modes": [
+   "slow",
+   "twice",
+   "parts"
+  ],
+  "item_id": "ch01_dict_5",
+  "skill": "write",
+  "rule_id": "topics/questions",
+  "transfer": false
+ },
+ {
+  "id": "ch01_dict_6",
+  "phraseId": "ch01_d9_05",
+  "de": "Ich komme aus der Ukraine.",
+  "ru": "Я из Украины.",
+  "audio": "audio_v4/ch01_d9_05.mp3",
+  "modes": [
+   "slow",
+   "twice",
+   "parts"
+  ],
+  "item_id": "ch01_dict_6",
+  "skill": "write",
+  "rule_id": "cards/articles",
+  "transfer": false
+ },
+ {
+  "id": "ch01_dict_7",
+  "phraseId": "ch01_049",
+  "de": "Ich wohne in einem Dorf.",
+  "ru": "Я живу в деревне.",
+  "audio": "audio_v1/ch01_049.mp3",
+  "modes": [
+   "slow",
+   "twice",
+   "parts"
+  ],
+  "item_id": "ch01_dict_7",
+  "skill": "write",
+  "rule_id": "cards/articles",
+  "transfer": false
+ },
+ {
+  "id": "ch01_dict_8",
+  "phraseId": "ch01_028",
+  "de": "Das ist mein Mann.",
+  "ru": "Это мой муж.",
+  "audio": "audio_v1/ch01_028.mp3",
+  "modes": [
+   "slow",
+   "twice",
+   "parts"
+  ],
+  "item_id": "ch01_dict_8",
+  "skill": "write",
+  "rule_id": "cards/articles",
+  "transfer": false
+ },
+ {
+  "id": "ch01_L1_dict_1",
+  "item_id": "ch01_L1_dict_1",
+  "lesson": "ch01_L1",
+  "phraseId": "ch01_001",
+  "de": "Guten Morgen!",
+  "ru": "Доброе утро!",
+  "audio": "audio_v1/ch01_001.mp3",
+  "modes": [
+   "slow",
+   "twice",
+   "parts"
+  ],
+  "skill": "write",
+  "rule_id": "cards/phrases",
+  "transfer": false
+ },
+ {
+  "id": "ch01_L1_dict_2",
+  "item_id": "ch01_L1_dict_2",
+  "lesson": "ch01_L1",
+  "phraseId": "ch01_d4_03",
+  "de": "Mein Name ist Schmidt.",
+  "ru": "Меня зовут Шмидт.",
+  "audio": "audio_v4/ch01_d4_03.mp3",
+  "modes": [
+   "slow",
+   "twice",
+   "parts"
+  ],
+  "skill": "write",
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "accept_variants": {
+   "Schmidt": [
+    "Schmitt",
+    "Schmit"
+   ]
+  },
+  "accept_note": "фамилию на слух не вывести (dt = т): Schmitt и Schmit не считаем ошибкой"
+ },
+ {
+  "id": "ch01_L1_dict_3",
+  "item_id": "ch01_L1_dict_3",
+  "lesson": "ch01_L1",
+  "phraseId": "ch01_007",
+  "de": "Auf Wiedersehen!",
+  "ru": "До свидания!",
+  "audio": "audio_v1/ch01_007.mp3",
+  "modes": [
+   "slow",
+   "twice",
+   "parts"
+  ],
+  "skill": "write",
+  "rule_id": "cards/phrases",
+  "transfer": false
+ },
+ {
+  "id": "ch01_L2_dict_1",
+  "item_id": "ch01_L2_dict_1",
+  "lesson": "ch01_L2",
+  "phraseId": "ch01_002",
+  "de": "Guten Tag!",
+  "ru": "Добрый день!",
+  "audio": "audio_v1/ch01_002.mp3",
+  "modes": [
+   "slow",
+   "twice",
+   "parts"
+  ],
+  "skill": "write",
+  "rule_id": "cards/phrases",
+  "transfer": false
+ },
+ {
+  "id": "ch01_L2_dict_2",
+  "item_id": "ch01_L2_dict_2",
+  "lesson": "ch01_L2",
+  "phraseId": "ch01_012",
+  "de": "Wie geht es Ihnen?",
+  "ru": "Как у вас дела?",
+  "audio": "audio_v1/ch01_012.mp3",
+  "modes": [
+   "slow",
+   "twice",
+   "parts"
+  ],
+  "skill": "write",
+  "rule_id": "topics/questions",
+  "transfer": false
+ },
+ {
+  "id": "ch01_L2_dict_3",
+  "item_id": "ch01_L2_dict_3",
+  "lesson": "ch01_L2",
+  "phraseId": "ch01_004",
+  "de": "Gute Nacht!",
+  "ru": "Спокойной ночи!",
+  "audio": "audio_v1/ch01_004.mp3",
+  "modes": [
+   "slow",
+   "twice",
+   "parts"
+  ],
+  "skill": "write",
+  "rule_id": "cards/phrases",
+  "transfer": false
+ },
+ {
+  "id": "ch01_L3_dict_1",
+  "item_id": "ch01_L3_dict_1",
+  "lesson": "ch01_L3",
+  "phraseId": "ch01_019",
+  "de": "Wie heißt du?",
+  "ru": "Как тебя зовут?",
+  "audio": "audio_v1/ch01_019.mp3",
+  "modes": [
+   "slow",
+   "twice",
+   "parts"
+  ],
+  "skill": "write",
+  "rule_id": "topics/questions",
+  "transfer": false
+ },
+ {
+  "id": "ch01_L3_dict_2",
+  "item_id": "ch01_L3_dict_2",
+  "lesson": "ch01_L3",
+  "phraseId": "ch01_013",
+  "de": "Wie geht es dir?",
+  "ru": "Как у тебя дела?",
+  "audio": "audio_v1/ch01_013.mp3",
+  "modes": [
+   "slow",
+   "twice",
+   "parts"
+  ],
+  "skill": "write",
+  "rule_id": "topics/questions",
+  "transfer": false
+ },
+ {
+  "id": "ch01_L3_dict_3",
+  "item_id": "ch01_L3_dict_3",
+  "lesson": "ch01_L3",
+  "phraseId": "ch01_034",
+  "de": "Wie schreibt man das?",
+  "ru": "Как это пишется?",
+  "audio": "audio_v1/ch01_034.mp3",
+  "modes": [
+   "slow",
+   "twice",
+   "parts"
+  ],
+  "skill": "write",
+  "rule_id": "topics/questions",
+  "transfer": false
+ },
+ {
+  "id": "ch01_L4_dict_1",
+  "item_id": "ch01_L4_dict_1",
+  "lesson": "ch01_L4",
+  "phraseId": "ch01_036",
+  "de": "Woher kommen Sie?",
+  "ru": "Откуда вы?",
+  "audio": "audio_v1/ch01_036.mp3",
+  "modes": [
+   "slow",
+   "twice",
+   "parts"
+  ],
+  "skill": "write",
+  "rule_id": "topics/questions",
+  "transfer": false
+ },
+ {
+  "id": "ch01_L4_dict_2",
+  "item_id": "ch01_L4_dict_2",
+  "lesson": "ch01_L4",
+  "phraseId": "ch01_038",
+  "de": "Ich komme aus der Ukraine.",
+  "ru": "Я из Украины.",
+  "audio": "audio_v1/ch01_038.mp3",
+  "modes": [
+   "slow",
+   "twice",
+   "parts"
+  ],
+  "skill": "write",
+  "rule_id": "topics/word_order",
+  "transfer": false
+ },
+ {
+  "id": "ch01_L4_dict_3",
+  "item_id": "ch01_L4_dict_3",
+  "lesson": "ch01_L4",
+  "phraseId": "ch01_044",
+  "de": "Kommen Sie aus Polen?",
+  "ru": "Вы из Польши?",
+  "audio": "audio_v1/ch01_044.mp3",
+  "modes": [
+   "slow",
+   "twice",
+   "parts"
+  ],
+  "skill": "write",
+  "rule_id": "topics/questions",
+  "transfer": false
+ },
+ {
+  "id": "ch01_L5_dict_1",
+  "item_id": "ch01_L5_dict_1",
+  "lesson": "ch01_L5",
+  "phraseId": "ch01_046",
+  "de": "Wo wohnen Sie?",
+  "ru": "Где вы живёте?",
+  "audio": "audio_v1fix/ch01_046.mp3",
+  "modes": [
+   "slow",
+   "twice",
+   "parts"
+  ],
+  "skill": "write",
+  "rule_id": "topics/questions",
+  "transfer": false
+ },
+ {
+  "id": "ch01_L5_dict_2",
+  "item_id": "ch01_L5_dict_2",
+  "lesson": "ch01_L5",
+  "phraseId": "ch01_d8_04",
+  "de": "Ich wohne bei Freiberg.",
+  "ru": "Я живу возле Фрайберга.",
+  "audio": "audio_v4/ch01_d8_04.mp3",
+  "modes": [
+   "slow",
+   "twice",
+   "parts"
+  ],
+  "skill": "write",
+  "rule_id": "topics/word_order",
+  "transfer": false
+ },
+ {
+  "id": "ch01_L5_dict_3",
+  "item_id": "ch01_L5_dict_3",
+  "lesson": "ch01_L5",
+  "phraseId": "ch01_078",
+  "de": "Meine Hausnummer ist acht.",
+  "ru": "Мой номер дома — восемь.",
+  "audio": "audio_v3/ch01_078.mp3",
+  "modes": [
+   "slow",
+   "twice",
+   "parts"
+  ],
+  "skill": "write",
+  "rule_id": "topics/word_order",
+  "transfer": false
+ },
+ {
+  "id": "ch01_L6_dict_1",
+  "item_id": "ch01_L6_dict_1",
+  "lesson": "ch01_L6",
+  "phraseId": "ch01_091",
+  "de": "Wie ist Ihr Familienname?",
+  "ru": "Как ваша фамилия?",
+  "audio": "audio_v4/ch01_091.mp3",
+  "modes": [
+   "slow",
+   "twice",
+   "parts"
+  ],
+  "skill": "write",
+  "rule_id": "topics/questions",
+  "transfer": false
+ },
+ {
+  "id": "ch01_L6_dict_2",
+  "item_id": "ch01_L6_dict_2",
+  "lesson": "ch01_L6",
+  "phraseId": "ch01_095",
+  "de": "Der Kurs ist gut.",
+  "ru": "Курс хороший.",
+  "audio": "audio_v4/ch01_095.mp3",
+  "modes": [
+   "slow",
+   "twice",
+   "parts"
+  ],
+  "skill": "write",
+  "rule_id": "topics/word_order",
+  "transfer": false
+ },
+ {
+  "id": "ch01_L6_dict_3",
+  "item_id": "ch01_L6_dict_3",
+  "lesson": "ch01_L6",
+  "phraseId": "ch01_d9_06",
+  "de": "Wo wohnen Sie? Wie heißt die Stadt?",
+  "ru": "Где вы живёте? Как зовётся город?",
+  "audio": "audio_v4/ch01_d9_06.mp3",
+  "modes": [
+   "slow",
+   "twice",
+   "parts"
+  ],
+  "skill": "write",
+  "rule_id": "topics/questions",
+  "transfer": false
+ },
+ {
+  "id": "ch01_L6_dict_4",
+  "item_id": "ch01_L6_dict_4",
+  "lesson": "ch01_L6",
+  "phraseId": "ch01_096",
+  "de": "Straße, Hausnummer, Postleitzahl, Ort.",
+  "ru": "Улица, номер дома, почтовый индекс, населённый пункт.",
+  "audio": "audio_v4/ch01_096.mp3",
+  "modes": [
+   "slow",
+   "twice",
+   "parts"
+  ],
+  "skill": "write",
+  "rule_id": "cards/words",
+  "transfer": false
+ },
+ {
+  "id": "ch01_L6_dict_5",
+  "item_id": "ch01_L6_dict_5",
+  "lesson": "ch01_L6",
+  "phraseId": "ch01_013",
+  "de": "Wie geht es dir?",
+  "ru": "Как у тебя дела?",
+  "audio": "audio_v1/ch01_013.mp3",
+  "modes": [
+   "slow",
+   "twice",
+   "parts"
+  ],
+  "skill": "write",
+  "rule_id": "topics/questions",
+  "transfer": false
+ }
+]

@@ -1,0 +1,838 @@
+{
+ "note": "build_life.py; x1 pixels, world x3, UI integer scale",
+ "rarity": {
+  "h": [
+   "häufig",
+   "обычная",
+   60
+  ],
+  "s": [
+   "selten",
+   "редкая",
+   28
+  ],
+  "ss": [
+   "sehr selten",
+   "очень редкая",
+   10
+  ],
+  "l": [
+   "legendär",
+   "легендарная",
+   2
+  ]
+ },
+ "sections": [
+  {
+   "id": "fische",
+   "de": "die Fische",
+   "ru": "рыбы",
+   "where": "beim Angeln · на рыбалке"
+  },
+  {
+   "id": "meer",
+   "de": "die Muscheln",
+   "ru": "ракушки и морское",
+   "where": "Beifang beim Angeln · попадается на удочку"
+  },
+  {
+   "id": "steine",
+   "de": "die Steine",
+   "ru": "камни",
+   "where": "im Wiesenland · в мире"
+  },
+  {
+   "id": "gemuese",
+   "de": "die Pflanzen",
+   "ru": "растения огорода",
+   "where": "aus dem Gemüsegarten: erst probieren · с огорода — сначала попробуй"
+  },
+  {
+   "id": "pilze",
+   "de": "die Pilze",
+   "ru": "грибы",
+   "where": "im Wiesenland · в мире"
+  },
+  {
+   "id": "blumen",
+   "de": "die Blumen",
+   "ru": "цветы",
+   "where": "im Wiesenland · в мире"
+  },
+  {
+   "id": "schmetterlinge",
+   "de": "die Schmetterlinge",
+   "ru": "бабочки",
+   "where": "bald · скоро",
+   "soon": true
+  },
+  {
+   "id": "monster",
+   "de": "das Bestiarium",
+   "ru": "бестиарий · монстры",
+   "where": "im Kampf · в бою"
+  }
+ ],
+ "items": {
+  "goldfisch": {
+   "sec": "fische",
+   "art": "der",
+   "w": "Goldfisch",
+   "ru": "золотая рыбка",
+   "rar": "h",
+   "img": "life/goldfisch.png",
+   "px": [
+    9,
+    5
+   ]
+  },
+  "barsch": {
+   "sec": "fische",
+   "art": "der",
+   "w": "Barsch",
+   "ru": "окунь",
+   "rar": "h",
+   "img": "life/barsch.png",
+   "px": [
+    16,
+    9
+   ]
+  },
+  "karpfen": {
+   "sec": "fische",
+   "art": "der",
+   "w": "Karpfen",
+   "ru": "карп",
+   "rar": "h",
+   "img": "life/karpfen.png",
+   "px": [
+    19,
+    11
+   ]
+  },
+  "sardine": {
+   "sec": "fische",
+   "art": "die",
+   "w": "Sardine",
+   "ru": "сардина",
+   "rar": "s",
+   "img": "life/sardine.png",
+   "px": [
+    25,
+    11
+   ]
+  },
+  "hecht": {
+   "sec": "fische",
+   "art": "der",
+   "w": "Hecht",
+   "ru": "щука",
+   "rar": "s",
+   "img": "life/hecht.png",
+   "px": [
+    29,
+    12
+   ]
+  },
+  "forelle": {
+   "sec": "fische",
+   "art": "die",
+   "w": "Forelle",
+   "ru": "форель",
+   "rar": "s",
+   "img": "life/forelle.png",
+   "px": [
+    29,
+    11
+   ]
+  },
+  "anglerfisch": {
+   "sec": "fische",
+   "art": "der",
+   "w": "Anglerfisch",
+   "ru": "морской чёрт",
+   "rar": "ss",
+   "img": "life/anglerfisch.png",
+   "px": [
+    26,
+    21
+   ]
+  },
+  "hai": {
+   "sec": "fische",
+   "art": "der",
+   "w": "Hai",
+   "ru": "акула",
+   "rar": "l",
+   "img": "life/hai.png",
+   "px": [
+    54,
+    21
+   ]
+  },
+  "muschel": {
+   "sec": "meer",
+   "art": "die",
+   "w": "Muschel",
+   "ru": "ракушка",
+   "rar": "h",
+   "img": "life/muschel.png",
+   "px": [
+    29,
+    25
+   ]
+  },
+  "schneckenhaus": {
+   "sec": "meer",
+   "art": "das",
+   "w": "Schneckenhaus",
+   "ru": "раковина улитки",
+   "rar": "s",
+   "img": "life/schneckenhaus.png",
+   "px": [
+    54,
+    26
+   ]
+  },
+  "seestern": {
+   "sec": "meer",
+   "art": "der",
+   "w": "Seestern",
+   "ru": "морская звезда",
+   "rar": "s",
+   "img": "life/seestern.png",
+   "px": [
+    46,
+    42
+   ]
+  },
+  "seeigel": {
+   "sec": "meer",
+   "art": "der",
+   "w": "Seeigel",
+   "ru": "морской ёж",
+   "rar": "ss",
+   "img": "life/seeigel.png",
+   "px": [
+    49,
+    49
+   ]
+  },
+  "perle": {
+   "sec": "meer",
+   "art": "die",
+   "w": "Perle",
+   "ru": "жемчужина",
+   "rar": "l",
+   "img": "life/perle.png",
+   "px": [
+    31,
+    37
+   ]
+  },
+  "kiesel": {
+   "sec": "steine",
+   "art": "der",
+   "w": "Kiesel",
+   "ru": "галька",
+   "rar": "h",
+   "img": "life/kiesel.png",
+   "px": [
+    13,
+    15
+   ]
+  },
+  "quarz": {
+   "sec": "steine",
+   "art": "der",
+   "w": "Quarz",
+   "ru": "кварц",
+   "rar": "h",
+   "img": "life/quarz.png",
+   "px": [
+    22,
+    21
+   ]
+  },
+  "achat": {
+   "sec": "steine",
+   "art": "der",
+   "w": "Achat",
+   "ru": "агат",
+   "rar": "s",
+   "img": "life/achat.png",
+   "px": [
+    28,
+    22
+   ]
+  },
+  "bernstein": {
+   "sec": "steine",
+   "art": "der",
+   "w": "Bernstein",
+   "ru": "янтарь",
+   "rar": "s",
+   "img": "life/bernstein.png",
+   "px": [
+    23,
+    29
+   ]
+  },
+  "amethyst": {
+   "sec": "steine",
+   "art": "der",
+   "w": "Amethyst",
+   "ru": "аметист",
+   "rar": "ss",
+   "img": "life/amethyst.png",
+   "px": [
+    24,
+    24
+   ]
+  },
+  "saphir": {
+   "sec": "steine",
+   "art": "der",
+   "w": "Saphir",
+   "ru": "сапфир",
+   "rar": "ss",
+   "img": "life/saphir.png",
+   "px": [
+    23,
+    21
+   ]
+  },
+  "smaragd": {
+   "sec": "steine",
+   "art": "der",
+   "w": "Smaragd",
+   "ru": "изумруд",
+   "rar": "ss",
+   "img": "life/smaragd.png",
+   "px": [
+    17,
+    19
+   ]
+  },
+  "rubin": {
+   "sec": "steine",
+   "art": "der",
+   "w": "Rubin",
+   "ru": "рубин",
+   "rar": "l",
+   "img": "life/rubin.png",
+   "px": [
+    21,
+    27
+   ]
+  },
+  "karotte": {
+   "sec": "gemuese",
+   "art": "die",
+   "w": "Karotte",
+   "ru": "морковь",
+   "rar": "h",
+   "img": "life/karotte_3.png",
+   "px": [
+    14,
+    26
+   ]
+  },
+  "radieschen": {
+   "sec": "gemuese",
+   "art": "das",
+   "w": "Radieschen",
+   "ru": "редиска",
+   "rar": "h",
+   "img": "life/radieschen_3.png",
+   "px": [
+    12,
+    18
+   ]
+  },
+  "paprika": {
+   "sec": "gemuese",
+   "art": "die",
+   "w": "Paprika",
+   "ru": "перец (паприка)",
+   "rar": "s",
+   "img": "life/paprika_3.png",
+   "px": [
+    23,
+    30
+   ],
+   "alt": "der",
+   "note": "Duden: «Paprika, der oder die» — овощ обычно die Paprika"
+  },
+  "champignon": {
+   "sec": "pilze",
+   "art": "der",
+   "w": "Champignon",
+   "ru": "шампиньон",
+   "rar": "h",
+   "img": "life/champignon.png",
+   "px": [
+    15,
+    14
+   ]
+  },
+  "pfifferling": {
+   "sec": "pilze",
+   "art": "der",
+   "w": "Pfifferling",
+   "ru": "лисичка",
+   "rar": "h",
+   "img": "life/pfifferling.png",
+   "px": [
+    12,
+    12
+   ]
+  },
+  "steinpilz": {
+   "sec": "pilze",
+   "art": "der",
+   "w": "Steinpilz",
+   "ru": "белый гриб",
+   "rar": "s",
+   "img": "life/steinpilz.png",
+   "px": [
+    15,
+    16
+   ]
+  },
+  "fliegenpilz": {
+   "sec": "pilze",
+   "art": "der",
+   "w": "Fliegenpilz",
+   "ru": "мухомор",
+   "rar": "s",
+   "img": "life/fliegenpilz.png",
+   "px": [
+    16,
+    19
+   ]
+  },
+  "leuchtpilz": {
+   "sec": "pilze",
+   "art": "der",
+   "w": "Leuchtpilz",
+   "ru": "светящийся гриб",
+   "rar": "l",
+   "img": "life/leuchtpilz.png",
+   "px": [
+    21,
+    25
+   ]
+  },
+  "loewenzahn": {
+   "sec": "blumen",
+   "art": "der",
+   "w": "Löwenzahn",
+   "ru": "одуванчик",
+   "rar": "h",
+   "img": "life/loewenzahn.png",
+   "px": [
+    13,
+    8
+   ]
+  },
+  "nelke": {
+   "sec": "blumen",
+   "art": "die",
+   "w": "Nelke",
+   "ru": "гвоздика",
+   "rar": "h",
+   "img": "life/nelke.png",
+   "px": [
+    15,
+    18
+   ]
+  },
+  "ringelblume": {
+   "sec": "blumen",
+   "art": "die",
+   "w": "Ringelblume",
+   "ru": "календула",
+   "rar": "h",
+   "img": "life/ringelblume.png",
+   "px": [
+    11,
+    12
+   ]
+  },
+  "mohn": {
+   "sec": "blumen",
+   "art": "der",
+   "w": "Mohn",
+   "ru": "мак",
+   "rar": "s",
+   "img": "life/mohn.png",
+   "px": [
+    9,
+    9
+   ]
+  },
+  "rose": {
+   "sec": "blumen",
+   "art": "die",
+   "w": "Rose",
+   "ru": "роза",
+   "rar": "s",
+   "img": "life/rose.png",
+   "px": [
+    16,
+    11
+   ]
+  },
+  "sonnenblume": {
+   "sec": "blumen",
+   "art": "die",
+   "w": "Sonnenblume",
+   "ru": "подсолнух",
+   "rar": "ss",
+   "img": "life/sonnenblume.png",
+   "px": [
+    25,
+    34
+   ]
+  },
+  "kuerbis": {
+   "sec": "gemuese",
+   "art": "der",
+   "w": "Kürbis",
+   "ru": "тыква",
+   "rar": "s",
+   "img": "life/kuerbis_3.png",
+   "px": [
+    29,
+    26
+   ]
+  },
+  "blumenkohl": {
+   "sec": "gemuese",
+   "art": "der",
+   "w": "Blumenkohl",
+   "ru": "цветная капуста",
+   "rar": "s",
+   "img": "life/blumenkohl_3.png",
+   "px": [
+    22,
+    16
+   ]
+  },
+  "kresse": {
+   "sec": "gemuese",
+   "art": "die",
+   "w": "Kresse",
+   "ru": "кресс-салат",
+   "rar": "h",
+   "img": "life/pot_kresse_3.png",
+   "px": [
+    14,
+    13
+   ]
+  },
+  "monster_slime1": {
+   "sec": "monster",
+   "art": "der",
+   "w": "Schleim",
+   "ru": "слизень",
+   "rar": "h",
+   "img": "life/monster_slime1.png",
+   "px": [
+    19,
+    22
+   ],
+   "type": "slime1"
+  },
+  "monster_slime2": {
+   "sec": "monster",
+   "art": "der",
+   "w": "Knochenschleim",
+   "ru": "костяной слизень",
+   "rar": "h",
+   "img": "life/monster_slime2.png",
+   "px": [
+    23,
+    23
+   ],
+   "type": "slime2"
+  },
+  "monster_orc1": {
+   "sec": "monster",
+   "art": "der",
+   "w": "Ork",
+   "ru": "орк",
+   "rar": "s",
+   "img": "life/monster_orc1.png",
+   "px": [
+    34,
+    32
+   ],
+   "type": "orc1"
+  },
+  "feldsalat": {
+   "sec": "gemuese",
+   "art": "der",
+   "w": "Feldsalat",
+   "ru": "салат-рапунцель (полевой салат)",
+   "rar": "h",
+   "img": "life/feldsalat_3.png",
+   "px": [
+    19,
+    14
+   ]
+  }
+ },
+ "garden": {
+  "karotte": [
+   {
+    "img": "life/karotte_0.png",
+    "w": 11,
+    "h": 7
+   },
+   {
+    "img": "life/karotte_1.png",
+    "w": 7,
+    "h": 11
+   },
+   {
+    "img": "life/karotte_2.png",
+    "w": 12,
+    "h": 16
+   },
+   {
+    "img": "life/karotte_3.png",
+    "w": 14,
+    "h": 26
+   }
+  ],
+  "radieschen": [
+   {
+    "img": "life/radieschen_0.png",
+    "w": 11,
+    "h": 7
+   },
+   {
+    "img": "life/radieschen_1.png",
+    "w": 6,
+    "h": 9
+   },
+   {
+    "img": "life/radieschen_2.png",
+    "w": 8,
+    "h": 14
+   },
+   {
+    "img": "life/radieschen_3.png",
+    "w": 12,
+    "h": 18
+   }
+  ],
+  "paprika": [
+   {
+    "img": "life/paprika_0.png",
+    "w": 11,
+    "h": 7
+   },
+   {
+    "img": "life/paprika_1.png",
+    "w": 12,
+    "h": 14
+   },
+   {
+    "img": "life/paprika_2.png",
+    "w": 19,
+    "h": 21
+   },
+   {
+    "img": "life/paprika_3.png",
+    "w": 23,
+    "h": 30
+   }
+  ],
+  "kuerbis": [
+   {
+    "img": "life/kuerbis_0.png",
+    "w": 11,
+    "h": 7
+   },
+   {
+    "img": "life/kuerbis_1.png",
+    "w": 13,
+    "h": 11
+   },
+   {
+    "img": "life/kuerbis_2.png",
+    "w": 22,
+    "h": 21
+   },
+   {
+    "img": "life/kuerbis_3.png",
+    "w": 29,
+    "h": 26
+   }
+  ],
+  "blumenkohl": [
+   {
+    "img": "life/blumenkohl_0.png",
+    "w": 11,
+    "h": 7
+   },
+   {
+    "img": "life/blumenkohl_1.png",
+    "w": 13,
+    "h": 10
+   },
+   {
+    "img": "life/blumenkohl_2.png",
+    "w": 19,
+    "h": 14
+   },
+   {
+    "img": "life/blumenkohl_3.png",
+    "w": 22,
+    "h": 16
+   }
+  ],
+  "kresse": [
+   {
+    "img": "life/pot_kresse_0.png",
+    "w": 14,
+    "h": 11
+   },
+   {
+    "img": "life/pot_kresse_1.png",
+    "w": 14,
+    "h": 13
+   },
+   {
+    "img": "life/pot_kresse_2.png",
+    "w": 14,
+    "h": 13
+   },
+   {
+    "img": "life/pot_kresse_3.png",
+    "w": 14,
+    "h": 13
+   }
+  ],
+  "feldsalat": [
+   {
+    "img": "life/feldsalat_0.png",
+    "w": 11,
+    "h": 7
+   },
+   {
+    "img": "life/feldsalat_1.png",
+    "w": 6,
+    "h": 9
+   },
+   {
+    "img": "life/feldsalat_2.png",
+    "w": 13,
+    "h": 10
+   },
+   {
+    "img": "life/feldsalat_3.png",
+    "w": 19,
+    "h": 14
+   }
+  ]
+ },
+ "ui": {
+  "rod": {
+   "img": "life/rod.png",
+   "w": 30,
+   "h": 28
+  },
+  "rod_line": {
+   "img": "life/rod_line.png",
+   "w": 28,
+   "h": 29
+  },
+  "barrel": {
+   "img": "life/barrel.png",
+   "w": 16,
+   "h": 15
+  }
+ },
+ "pots": {
+  "kresse": [
+   {
+    "img": "life/pot_kresse_0.png",
+    "w": 14,
+    "h": 11
+   },
+   {
+    "img": "life/pot_kresse_1.png",
+    "w": 14,
+    "h": 13
+   },
+   {
+    "img": "life/pot_kresse_2.png",
+    "w": 14,
+    "h": 13
+   },
+   {
+    "img": "life/pot_kresse_3.png",
+    "w": 14,
+    "h": 13
+   }
+  ],
+  "radieschen": [
+   {
+    "img": "life/pot_radieschen_0.png",
+    "w": 14,
+    "h": 11
+   },
+   {
+    "img": "life/pot_radieschen_1.png",
+    "w": 14,
+    "h": 13
+   },
+   {
+    "img": "life/pot_radieschen_2.png",
+    "w": 14,
+    "h": 18
+   },
+   {
+    "img": "life/pot_radieschen_3.png",
+    "w": 14,
+    "h": 22
+   }
+  ]
+ },
+ "gardenProps": {
+  "fence_top": {
+   "img": "life/fence_top.png",
+   "w": 104,
+   "h": 16
+  },
+  "fence_mid": {
+   "img": "life/fence_mid.png",
+   "w": 104,
+   "h": 48
+  },
+  "fence_bottom": {
+   "img": "life/fence_bottom.png",
+   "w": 104,
+   "h": 18
+  },
+  "saatgutkiste": {
+   "img": "life/saatgutkiste.png",
+   "w": 16,
+   "h": 22
+  },
+  "regenfass": {
+   "img": "life/regenfass.png",
+   "w": 12,
+   "h": 13
+  },
+  "fensterbank": {
+   "img": "life/fensterbank.png",
+   "w": 42,
+   "h": 16
+  }
+ }
+}

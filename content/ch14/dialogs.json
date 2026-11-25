@@ -1,0 +1,6875 @@
+[
+ {
+  "id": "ch14_d1",
+  "title_ru": "Пробный день: отель у рынка",
+  "roles": {
+   "B": "Frau Becker (хозяйка отеля)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch14_d1_01",
+    "role": "B",
+    "de": "Guten Morgen! Willkommen im Hotel.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Доброе утро! Добро пожаловать в отель.",
+    "nouns": [
+     {
+      "lemma": "Morgen",
+      "art": "der",
+      "pl": "Morgen"
+     },
+     {
+      "lemma": "Hotel",
+      "art": "das",
+      "pl": "Hotels"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Guten Morgen",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Willkommen",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "im Hotel",
+       "role": "где"
+      }
+     ],
+     "text": "Приветствия не занимают вагон. im Hotel: im — это in и dem вместе.",
+     "topic": "articles",
+     "why_de": "Guten Morgen, Willkommen — готовые формулы, дальше кусок по словам: im Hotel (где? — место).",
+     "why_ru": "По-русски так же коротко: «Доброе утро! Добро пожаловать в отель».",
+     "layer": "short",
+     "why_not": {
+      "wrong": "Guten Morgen! Willkommen Hotel.",
+      "ru": "Ошибка — бросить маленькое im: без него выходят два слова подряд. Нужен весь кусок im Hotel."
+     },
+     "root": "Morgen — germ. *murgina-, вероятно от «сумерки, рассвет»; возможно, родня русского «морок» (ie. *mer(ə)k- «мерцать, темнеть»; DWDS, Pfeifer)",
+     "override": "tools/data_ch14.py WHY",
+     "why_voice_ru": "Приветствия не занимают вагон. im Hotel: im — это in и dem вместе."
+    },
+    "audio": "audio_v1/ch14_d1_01.mp3",
+    "tts": "Guten Morgen! Willkommen im Hotel.",
+    "ipa": [
+     {
+      "w": "Guten",
+      "ipa": "[ˈɡuːtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Morgen",
+      "ipa": "[ˈmɔʁɡn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Willkommen",
+      "ipa": "[vɪlˈkɔmən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "im",
+      "ipa": "[ɪm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Hotel",
+      "ipa": "[hoˈtɛl]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… M… · привет/вежливость: W… · где: i… H…",
+    "gap": {
+     "text": "Guten Morgen! Willkommen im ___.",
+     "answers": [
+      "Hotel"
+     ]
+    },
+    "task_ru": "Скажи: Доброе утро! Добро пожаловать в отель."
+   },
+   {
+    "id": "ch14_d1_02",
+    "role": "H",
+    "de": "Guten Morgen! Was kann ich tun?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Доброе утро! Что я могу сделать?",
+    "nouns": [
+     {
+      "lemma": "Morgen",
+      "art": "der",
+      "pl": "Morgen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Guten Morgen",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "kann",
+       "role": "пульт №2"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "tun",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "kann держит вагон №2, действие tun уходит в конец.",
+     "topic": "modal",
+     "why_de": "«Пульт» держит вагон №2, а главное действие уходит в конец: Was kann ich tun?",
+     "why_ru": "По-русски «Что я могу сделать» — действия рядом; по-немецки между ними помещается остальное: Was kann ich tun?",
+     "layer": "modal",
+     "why_not": {
+      "wrong": "Guten Morgen! Was kann tun ich?",
+      "ru": "По-русски «Что я могу сделать» — оба действия рядом. По-немецки tun сразу за kann — ошибка: оно ждёт в самом конце."
+     },
+     "root": "Morgen — germ. *murgina-, вероятно от «сумерки, рассвет»; возможно, родня русского «морок» (ie. *mer(ə)k- «мерцать, темнеть»; DWDS, Pfeifer)",
+     "why_voice_ru": "kann держит вагон №2, действие tun уходит в конец."
+    },
+    "audio": "audio_v1/ch14_d1_02.mp3",
+    "tts": "Guten Morgen! Was kann ich tun?",
+    "ipa": [
+     {
+      "w": "Guten",
+      "ipa": "[ˈɡuːtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Morgen",
+      "ipa": "[ˈmɔʁɡn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kann",
+      "ipa": "[kan]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "tun",
+      "ipa": "[tuːn]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… M… · вопрос-слово: W… · пульт (вагон №2): k… · кто: i… · хвост действия: t…",
+    "gap": {
+     "text": "Guten Morgen! Was ___ ich tun?",
+     "answers": [
+      "kann"
+     ]
+    },
+    "task_ru": "Скажи: Доброе утро! Что я могу сделать?"
+   },
+   {
+    "id": "ch14_d1_03",
+    "role": "B",
+    "de": "Sie arbeiten in der Küche.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Вы работаете на кухне.",
+    "nouns": [
+     {
+      "lemma": "Küche",
+      "art": "die",
+      "pl": "Küchen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "arbeiten",
+       "role": "действие №2"
+      },
+      {
+       "w": "in der Küche",
+       "role": "где"
+      }
+     ],
+     "text": "die Küche → in der Küche: на вопрос «где?» die превращается в der.",
+     "topic": "articles",
+     "why_de": "Sie · arbeiten · in der Küche: действие arbeiten — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Вы работаете на кухне» — Sie arbeiten in der Küche. Разница одна: по-немецки arbeiten держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Sie in der Küche arbeiten.",
+      "ru": "Действие arbeiten уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе arbeiten — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "die Küche → in der Küche: на вопрос «где?» die превращается в der."
+    },
+    "audio": "audio_v1/ch14_d1_03.mp3",
+    "tts": "Sie arbeiten in der Küche.",
+    "ipa": [
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "arbeiten",
+      "ipa": "[ˈaʁbaɪ̯tn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "in",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Küche",
+      "ipa": "[ˈkʏçə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: S… · действие (вагон №2): a… · где: i… d… K…",
+    "gap": {
+     "text": "Sie ___ in der ___.",
+     "answers": [
+      "arbeiten",
+      "Küche"
+     ]
+    },
+    "task_ru": "Скажи: Вы работаете на кухне."
+   },
+   {
+    "id": "ch14_d1_04",
+    "role": "H",
+    "de": "Gut. Wo ist die Küche?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Хорошо. Где кухня?",
+    "nouns": [
+     {
+      "lemma": "Küche",
+      "art": "die",
+      "pl": "Küchen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Gut",
+       "role": "да/нет"
+      },
+      {
+       "w": "Wo",
+       "role": "вопрос-слово",
+       "asks": "где"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "die Küche",
+       "role": "кто"
+      }
+     ],
+     "text": "Gut — согласие, вагон не занимает. Дальше вопрос: wo · ist · die Küche.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wo — вагон №1, действие ist — сразу за ним, вагон №2: Wo ist die Küche? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Где кухня» можно сказать и в другом порядке. По-немецки порядок один: Wo · ist · die Küche. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Gut. Wo die Küche ist?",
+      "ru": "die Küche встал перед ist — действие ушло из вагона №2. После Wo немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Gut — согласие, вагон не занимает. Дальше вопрос: wo · ist · die Küche."
+    },
+    "audio": "audio_v1/ch14_d1_04.mp3",
+    "tts": "Gut. Wo ist die Küche?",
+    "ipa": [
+     {
+      "w": "Gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wo",
+      "ipa": "[voː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Küche",
+      "ipa": "[ˈkʏçə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: G… · вопрос-слово: W… · действие (вагон №2): i… · кто: d… K…",
+    "gap": {
+     "text": "Gut. Wo ___ die ___?",
+     "answers": [
+      "ist",
+      "Küche"
+     ]
+    },
+    "task_ru": "Скажи: Хорошо. Где кухня?"
+   },
+   {
+    "id": "ch14_d1_05",
+    "role": "B",
+    "de": "Die Küche ist hier.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Кухня здесь.",
+    "nouns": [
+     {
+      "lemma": "Küche",
+      "art": "die",
+      "pl": "Küchen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Die Küche",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "hier",
+       "role": "где"
+      }
+     ],
+     "text": "Ответ на «где?»: hier — «здесь». Действие ist — в вагоне №2.",
+     "topic": "verb2",
+     "why_de": "Die Küche · ist · hier: действие ist — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Кухня здесь» — без действия «есть». По-немецки без ist фразы нет: Die Küche ist hier.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Die Küche hier.",
+      "ru": "Русская привычка — без действия, как «Кухня здесь». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Ответ на «где?»: hier — «здесь». Действие ist — в вагоне №2."
+    },
+    "audio": "audio_v1/ch14_d1_05.mp3",
+    "tts": "Die Küche ist hier.",
+    "ipa": [
+     {
+      "w": "Die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Küche",
+      "ipa": "[ˈkʏçə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hier",
+      "ipa": "[hiːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… K… · действие (вагон №2): i… · где: h…",
+    "gap": {
+     "text": "Die Küche ___ ___.",
+     "answers": [
+      "ist",
+      "hier"
+     ]
+    },
+    "task_ru": "Скажи: Кухня здесь."
+   },
+   {
+    "id": "ch14_d1_06",
+    "role": "H",
+    "de": "Und wo arbeiten Sie?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А где работаете вы?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "wo",
+       "role": "вопрос-слово",
+       "asks": "где"
+      },
+      {
+       "w": "arbeiten",
+       "role": "действие №2"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      }
+     ],
+     "text": "und не занимает вагон. wo — вопрос-слово, за ним действие. С Sie — arbeiten.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово wo — вагон №1, действие arbeiten — сразу за ним, вагон №2: Und wo arbeiten Sie? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «А где работаете вы» можно сказать и в другом порядке. По-немецки порядок один: wo · arbeiten · Sie.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Und wo Sie arbeiten?",
+      "ru": "Sie встал перед arbeiten — действие ушло из вагона №2. После wo немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "und не занимает вагон. wo — вопрос-слово, за ним действие. С Sie — arbeiten."
+    },
+    "audio": "audio_v1/ch14_d1_06.mp3",
+    "tts": "Und wo arbeiten Sie?",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wo",
+      "ipa": "[voː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "arbeiten",
+      "ipa": "[ˈaʁbaɪ̯tn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · вопрос-слово: w… · действие (вагон №2): a… · кто: S…",
+    "gap": {
+     "text": "Und wo ___ Sie?",
+     "answers": [
+      "arbeiten"
+     ]
+    },
+    "task_ru": "Скажи: А где работаете вы?"
+   },
+   {
+    "id": "ch14_d1_07",
+    "role": "B",
+    "de": "Ich arbeite an der Rezeption.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я работаю на стойке регистрации.",
+    "nouns": [
+     {
+      "lemma": "Rezeption",
+      "art": "die",
+      "pl": "Rezeptionen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "arbeite",
+       "role": "действие №2"
+      },
+      {
+       "w": "an der Rezeption",
+       "role": "где"
+      }
+     ],
+     "text": "an — «у, при»: работают у стойки. die Rezeption → an der Rezeption.",
+     "topic": "articles",
+     "why_de": "Ich · arbeite · an der Rezeption: действие arbeite — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я работаю на стойке регистрации» — Ich arbeite an der Rezeption. Разница одна: по-немецки arbeite держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich an der Rezeption arbeite.",
+      "ru": "Действие arbeite уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе arbeite — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "an — «у, при»: работают у стойки. die Rezeption → an der Rezeption.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «где»",
+      "items": [
+       {
+        "id": "ch14_001",
+        "de": "Ich arbeite im Hotel.",
+        "ru": "Я работаю в отеле.",
+        "audio": "audio_v1/ch14_001.mp3",
+        "lesson": "L1",
+        "part": 3,
+        "changed": {
+         "role": "где",
+         "wagon": 3,
+         "from": "an der Rezeption",
+         "to": "im Hotel"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Ich · arbeite. В каждом примере меняется один вагон — «где»: an der Rezeption → im Hotel. Действие arbeite всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch14_d1_07.mp3",
+    "tts": "Ich arbeite an der Rezeption.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "arbeite",
+      "ipa": "[ˈaʁbaɪ̯tə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "an",
+      "ipa": "[an]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Rezeption",
+      "ipa": "[ˌʁet͡sɛpˈt͡si̯oːn]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): a… · где: a… d… R…",
+    "gap": {
+     "text": "Ich ___ an der ___.",
+     "answers": [
+      "arbeite",
+      "Rezeption"
+     ]
+    },
+    "task_ru": "Скажи: Я работаю на стойке регистрации."
+   },
+   {
+    "id": "ch14_d1_08",
+    "role": "B",
+    "de": "Guten Morgen! Was kann ich für Sie tun?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Доброе утро! Что я могу для вас сделать?",
+    "nouns": [
+     {
+      "lemma": "Morgen",
+      "art": "der",
+      "pl": "Morgen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Guten Morgen",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "kann",
+       "role": "пульт №2"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "für Sie",
+       "role": "кому"
+      },
+      {
+       "w": "tun",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Так встречают гостя. kann держит вагон №2, действие tun уходит в конец. für Sie — «для вас».",
+     "topic": "modal",
+     "why_de": "«Пульт» держит вагон №2, а главное действие уходит в конец: Was kann ich für Sie tun?",
+     "why_ru": "По-русски «Что я могу для вас сделать» — действия рядом; по-немецки между ними помещается остальное: Was kann ich für Sie tun?",
+     "layer": "modal",
+     "why_not": {
+      "wrong": "Guten Morgen! Was kann tun ich für Sie?",
+      "ru": "По-русски «Что я могу для вас сделать» — оба действия рядом. По-немецки tun сразу за kann — ошибка: оно ждёт в самом конце."
+     },
+     "root": "Morgen — germ. *murgina-, вероятно от «сумерки, рассвет»; возможно, родня русского «морок» (ie. *mer(ə)k- «мерцать, темнеть»; DWDS, Pfeifer)",
+     "why_voice_ru": "Так встречают гостя. kann держит вагон №2, действие tun уходит в конец. für Sie — «для вас»."
+    },
+    "audio": "audio_v1/ch14_d1_08.mp3",
+    "tts": "Guten Morgen! Was kann ich für Sie tun?",
+    "ipa": [
+     {
+      "w": "Guten",
+      "ipa": "[ˈɡuːtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Morgen",
+      "ipa": "[ˈmɔʁɡn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kann",
+      "ipa": "[kan]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "für",
+      "ipa": "[fyːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "tun",
+      "ipa": "[tuːn]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… M… · вопрос-слово: W… · пульт (вагон №2): k… · кто: i… · кому: f… S… · хвост действия: t…",
+    "gap": {
+     "text": "Guten Morgen! Was ___ ich für ___ tun?",
+     "answers": [
+      "kann",
+      "Sie"
+     ]
+    },
+    "task_ru": "Скажи: Доброе утро! Что я могу для вас сделать?"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch14_d2",
+  "title_ru": "Звонок на ресепшен",
+  "roles": {
+   "H": "{hero_name} (герой)",
+   "G": "Herr Wagner (гость)"
+  },
+  "lines": [
+   {
+    "id": "ch14_d2_01",
+    "role": "H",
+    "de": "Hier ist die Rezeption. Guten Tag!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Здесь ресепшен. Добрый день!",
+    "nouns": [
+     {
+      "lemma": "Rezeption",
+      "art": "die",
+      "pl": "Rezeptionen"
+     },
+     {
+      "lemma": "Tag",
+      "art": "der",
+      "pl": "Tage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hier",
+       "role": "где"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "die Rezeption",
+       "role": "кто"
+      },
+      {
+       "w": "Guten Tag",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Так берут трубку в отеле. Приветствие не занимает вагон.",
+     "topic": "verb2",
+     "why_de": "Вагон №1 занят: Hier. Действие ist всё равно в вагоне №2, а «кто» (die Rezeption) — за ним: Hier ist die Rezeption.",
+     "why_ru": "По-русски «Здесь ресепшен» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, ist — вагон №2.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Hier die Rezeption ist. Guten Tag!",
+      "ru": "Русский порядок: «кто» (die Rezeption) перед действием, и ist уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Так берут трубку в отеле. Приветствие не занимает вагон."
+    },
+    "audio": "audio_v1/ch14_d2_01.mp3",
+    "tts": "Hier ist die Rezeption. Guten Tag!",
+    "ipa": [
+     {
+      "w": "Hier",
+      "ipa": "[hiːɐ̯]",
+      "src": "override"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Rezeption",
+      "ipa": "[ˌʁet͡sɛpˈt͡si̯oːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Guten",
+      "ipa": "[ˈɡuːtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tag",
+      "ipa": "[taːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "где: H… · действие (вагон №2): i… · кто: d… R… · привет/вежливость: G… T…",
+    "gap": {
+     "text": "___ ___ die Rezeption. Guten Tag!",
+     "answers": [
+      "Hier",
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Здесь ресепшен. Добрый день!"
+   },
+   {
+    "id": "ch14_d2_02",
+    "role": "G",
+    "de": "Guten Tag! Das Licht ist kaputt.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Добрый день! Свет не работает.",
+    "nouns": [
+     {
+      "lemma": "Tag",
+      "art": "der",
+      "pl": "Tage"
+     },
+     {
+      "lemma": "Licht",
+      "art": "das",
+      "pl": "Lichter"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Guten Tag",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Das Licht",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "kaputt",
+       "role": "какой/как"
+      }
+     ],
+     "text": "Приветствие не занимает вагон. Потом поезд: das Licht · ist · kaputt.",
+     "topic": "verb2",
+     "why_de": "Das Licht · ist · kaputt: действие ist — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски действие названо другим словом: «работает». По-немецки здесь ist: оно держит вагон №2: Das Licht ist kaputt.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Guten Tag! Das Licht kaputt ist.",
+      "ru": "Действие ist уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе ist — вагон №2."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Приветствие не занимает вагон. Потом поезд: das Licht · ist · kaputt."
+    },
+    "audio": "audio_v1/ch14_d2_02.mp3",
+    "tts": "Guten Tag! Das Licht ist kaputt.",
+    "ipa": [
+     {
+      "w": "Guten",
+      "ipa": "[ˈɡuːtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tag",
+      "ipa": "[taːk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Licht",
+      "ipa": "[lɪçt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kaputt",
+      "ipa": "[kaˈpʊt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… T… · кто: D… L… · действие (вагон №2): i… · какой/как: k…",
+    "gap": {
+     "text": "Guten Tag! Das ___ ___ kaputt.",
+     "answers": [
+      "Licht",
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Добрый день! Свет не работает."
+   },
+   {
+    "id": "ch14_d2_03",
+    "role": "H",
+    "de": "Wie ist Ihre Zimmernummer?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Какой у вас номер комнаты?",
+    "nouns": [
+     {
+      "lemma": "Zimmernummer",
+      "art": "die",
+      "pl": "Zimmernummern"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wie",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "Ihre Zimmernummer",
+       "role": "кто"
+      }
+     ],
+     "text": "Номер спрашивают через wie. Ihre — «ваша».",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wie — вагон №1, действие ist — сразу за ним, вагон №2: Wie ist Ihre Zimmernummer? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Какой у вас номер комнаты» можно сказать и в другом порядке. По-немецки порядок один: Wie · ist · Ihre Zimmernummer. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wie Ihre Zimmernummer ist?",
+      "ru": "Ihre Zimmernummer встал перед ist — действие ушло из вагона №2. После Wie немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Номер спрашивают через wie. Ihre — «ваша»."
+    },
+    "audio": "audio_v1/ch14_d2_03.mp3",
+    "tts": "Wie ist Ihre Zimmernummer?",
+    "ipa": [
+     {
+      "w": "Wie",
+      "ipa": "[viː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ihre",
+      "ipa": "[ˈiːʁə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Zimmernummer",
+      "ipa": "[ˈt͡sɪmɐˌnʊmɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): i… · кто: I… Z…",
+    "gap": {
+     "text": "Wie ___ Ihre ___?",
+     "answers": [
+      "ist",
+      "Zimmernummer"
+     ]
+    },
+    "task_ru": "Скажи: Какой у вас номер комнаты?"
+   },
+   {
+    "id": "ch14_d2_04",
+    "role": "G",
+    "de": "Meine Zimmernummer ist vier.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Номер моей комнаты — четыре.",
+    "nouns": [
+     {
+      "lemma": "Zimmernummer",
+      "art": "die",
+      "pl": "Zimmernummern"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Meine Zimmernummer",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "vier",
+       "role": "число"
+      }
+     ],
+     "text": "Ответ: ist посередине, число в конце.",
+     "topic": "verb2",
+     "why_de": "Meine Zimmernummer · ist · vier: действие ist — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Номер моей комнаты — четыре» — без действия «есть». По-немецки без ist фразы нет: Meine Zimmernummer ist vier.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Meine Zimmernummer vier.",
+      "ru": "Русская привычка — без действия, как «Номер моей комнаты — четыре». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Ответ: ist посередине, число в конце."
+    },
+    "audio": "audio_v1/ch14_d2_04.mp3",
+    "tts": "Meine Zimmernummer ist vier.",
+    "ipa": [
+     {
+      "w": "Meine",
+      "ipa": "[ˈmaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Zimmernummer",
+      "ipa": "[ˈt͡sɪmɐˌnʊmɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "vier",
+      "ipa": "[fiːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: M… Z… · действие (вагон №2): i… · число: v…",
+    "gap": {
+     "text": "Meine ___ ___ vier.",
+     "answers": [
+      "Zimmernummer",
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Номер моей комнаты — четыре."
+   },
+   {
+    "id": "ch14_d2_05",
+    "role": "H",
+    "de": "Ich komme sofort.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я сейчас приду.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "komme",
+       "role": "действие №2"
+      },
+      {
+       "w": "sofort",
+       "role": "когда"
+      }
+     ],
+     "text": "С ich — komme. sofort — «когда?».",
+     "topic": "verb2",
+     "why_de": "Ich · komme · sofort: действие komme — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я сейчас приду» — Ich komme sofort; komme — вагон №2.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich sofort komme.",
+      "ru": "Ошибка — действие уехало в конец. В простой фразе komme стоит вагоном №2: Ich komme sofort."
+     },
+     "root": null,
+     "override": "tools/data_ch14.py WHY",
+     "why_voice_ru": "С ich — komme. sofort — «когда?»."
+    },
+    "audio": "audio_v1/ch14_d2_05.mp3",
+    "tts": "Ich komme sofort.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "komme",
+      "ipa": "[ˈkɔmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "sofort",
+      "ipa": "[zoˈfɔʁt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): k… · когда: s…",
+    "gap": {
+     "text": "Ich ___ ___.",
+     "answers": [
+      "komme",
+      "sofort"
+     ]
+    },
+    "task_ru": "Скажи: Я сейчас приду."
+   },
+   {
+    "id": "ch14_d2_06",
+    "role": "G",
+    "de": "Danke! Und die Dusche ist auch kaputt.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Спасибо! И душ тоже сломан.",
+    "nouns": [
+     {
+      "lemma": "Dusche",
+      "art": "die",
+      "pl": "Duschen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "die Dusche",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "auch",
+       "role": "добавка"
+      },
+      {
+       "w": "kaputt",
+       "role": "какой/как"
+      }
+     ],
+     "text": "Danke и und не занимают вагон. auch — «тоже»: ist всё равно в вагоне №2.",
+     "topic": "verb2",
+     "why_de": "die Dusche · ist · auch · kaputt: действие ist — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «И душ тоже сломан» — без действия «есть». По-немецки без ist фразы нет: Und die Dusche ist auch kaputt.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Danke! Und die Dusche auch kaputt.",
+      "ru": "Русская привычка — без действия, как «И душ тоже сломан». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Danke и und не занимают вагон. auch — «тоже»: ist всё равно в вагоне №2."
+    },
+    "audio": "audio_v1/ch14_d2_06.mp3",
+    "tts": "Danke! Und die Dusche ist auch kaputt.",
+    "ipa": [
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Dusche",
+      "ipa": "[ˈduːʃə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "auch",
+      "ipa": "[aʊ̯x]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kaputt",
+      "ipa": "[kaˈpʊt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: D… · связка: U… · кто: d… D… · действие (вагон №2): i… · добавка: a… · какой/как: k…",
+    "gap": {
+     "text": "Danke! Und die ___ ___ auch kaputt.",
+     "answers": [
+      "Dusche",
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Спасибо! И душ тоже сломан."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch14_d3",
+  "title_ru": "Заселение",
+  "roles": {
+   "H": "{hero_name} (герой)",
+   "G": "Frau Müller (гостья)"
+  },
+  "lines": [
+   {
+    "id": "ch14_d3_01",
+    "role": "H",
+    "de": "Guten Tag! Haben Sie eine Reservierung?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Добрый день! У вас есть бронь?",
+    "nouns": [
+     {
+      "lemma": "Tag",
+      "art": "der",
+      "pl": "Tage"
+     },
+     {
+      "lemma": "Reservierung",
+      "art": "die",
+      "pl": "Reservierungen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Guten Tag",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Haben",
+       "role": "действие №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "eine Reservierung",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Приветствие не занимает вагон. Вопрос «да/нет»: haben впереди.",
+     "topic": "questions",
+     "why_de": "Действие впереди (Haben) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Haben Sie eine Reservierung?",
+     "why_ru": "По-русски «У вас есть бронь» — вопрос только голосом, порядок как в ответе. По-немецки действие Haben выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Guten Tag! Sie haben eine Reservierung?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («У вас есть бронь?!»). Обычный вопрос — действие впереди."
+     },
+     "root": null,
+     "why_voice_ru": "Приветствие не занимает вагон. Вопрос «да/нет»: haben впереди."
+    },
+    "audio": "audio_v1/ch14_d3_01.mp3",
+    "tts": "Guten Tag! Haben Sie eine Reservierung?",
+    "ipa": [
+     {
+      "w": "Guten",
+      "ipa": "[ˈɡuːtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tag",
+      "ipa": "[taːk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Haben",
+      "ipa": "[ˈhaːbn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "eine",
+      "ipa": "[ˈaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Reservierung",
+      "ipa": "[ʁezɛʁˈviːʁʊŋ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "не внесено в nouns: Haben",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… T… · действие (вагон №1): H… · кто: S… · кого-что: e… R…",
+    "gap": {
+     "text": "Guten Tag! ___ Sie eine ___?",
+     "answers": [
+      "Haben",
+      "Reservierung"
+     ]
+    },
+    "task_ru": "Скажи: Добрый день! У вас есть бронь?"
+   },
+   {
+    "id": "ch14_d3_02",
+    "role": "G",
+    "de": "Ja, ich habe eine Reservierung.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, у меня бронь.",
+    "nouns": [
+     {
+      "lemma": "Reservierung",
+      "art": "die",
+      "pl": "Reservierungen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "действие №2"
+      },
+      {
+       "w": "eine Reservierung",
+       "role": "кого-что"
+      }
+     ],
+     "text": "ja не занимает вагон. Дальше поезд: ich · habe · eine Reservierung — «я имею бронь».",
+     "topic": "verb2",
+     "why_de": "ich · habe · eine Reservierung: действие habe — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Да, у меня бронь» — без действия. По-немецки без habe фразы нет: Ja, ich habe eine Reservierung.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ja, ich eine Reservierung.",
+      "ru": "Русская привычка — без действия, как «Да, у меня бронь». Без habe немец слышит обрывок, а не фразу."
+     },
+     "root": null,
+     "why_voice_ru": "ja не занимает вагон. Дальше поезд: ich · habe · eine Reservierung — «я имею бронь»."
+    },
+    "audio": "audio_v1/ch14_d3_02.mp3",
+    "tts": "Ja, ich habe eine Reservierung.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "eine",
+      "ipa": "[ˈaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Reservierung",
+      "ipa": "[ʁezɛʁˈviːʁʊŋ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: i… · действие (вагон №2): h… · кого-что: e… R…",
+    "gap": {
+     "text": "Ja, ich ___ eine ___.",
+     "answers": [
+      "habe",
+      "Reservierung"
+     ]
+    },
+    "task_ru": "Скажи: Да, у меня бронь."
+   },
+   {
+    "id": "ch14_d3_03",
+    "role": "H",
+    "de": "Wie heißen Sie?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Как вас зовут?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wie",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "heißen",
+       "role": "действие №2"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      }
+     ],
+     "text": "Вопрос-слово, потом действие, потом Sie.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wie — вагон №1, действие heißen — сразу за ним, вагон №2: Wie heißen Sie? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Как вас зовут» можно сказать и в другом порядке. По-немецки порядок один: Wie · heißen · Sie.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wie Sie heißen?",
+      "ru": "Sie встал перед heißen — действие ушло из вагона №2. После Wie немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос-слово, потом действие, потом Sie."
+    },
+    "audio": "audio_v1/ch14_d3_03.mp3",
+    "tts": "Wie heißen Sie?",
+    "ipa": [
+     {
+      "w": "Wie",
+      "ipa": "[viː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "heißen",
+      "ipa": "[ˈhaɪ̯sn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): h… · кто: S…",
+    "gap": {
+     "text": "Wie ___ Sie?",
+     "answers": [
+      "heißen"
+     ]
+    },
+    "task_ru": "Скажи: Как вас зовут?"
+   },
+   {
+    "id": "ch14_d3_04",
+    "role": "G",
+    "de": "Ich heiße Müller.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Меня зовут Мюллер.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "heiße",
+       "role": "действие №2"
+      },
+      {
+       "w": "Müller",
+       "role": "кого-что"
+      }
+     ],
+     "text": "С ich — heiße. Фамилия идёт после действия.",
+     "topic": "verb2",
+     "why_de": "Ich · heiße · Müller: действие heiße — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Меня зовут Мюллер» — без «я». По-немецки Ich нужен: Ich heiße Müller.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Heiße Müller.",
+      "ru": "По-русски «Меня зовут Мюллер» — без «я». По-немецки без Ich фраза обрывается."
+     },
+     "root": null,
+     "why_voice_ru": "С ich — heiße. Фамилия идёт после действия."
+    },
+    "audio": "audio_v1/ch14_d3_04.mp3",
+    "tts": "Ich heiße Müller.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "heiße",
+      "ipa": "[ˈhaɪ̯sə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Müller",
+      "ipa": "[ˈmʏlɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): h… · кого-что: M…",
+    "gap": {
+     "text": "Ich ___ ___.",
+     "answers": [
+      "heiße",
+      "Müller"
+     ]
+    },
+    "task_ru": "Скажи: Меня зовут Мюллер."
+   },
+   {
+    "id": "ch14_d3_05",
+    "role": "H",
+    "de": "Einen Moment, bitte.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Одну минуту, пожалуйста.",
+    "nouns": [
+     {
+      "lemma": "Moment",
+      "art": "der",
+      "pl": "Momente"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Einen Moment",
+       "role": "кого-что"
+      },
+      {
+       "w": "bitte",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Готовая формула: бери целиком. Так просят подождать. Moment — слово мужского рода: der Moment → einen Moment — в роли «что?» ein превращается в einen.",
+     "topic": "word_order",
+     "why_de": "bitte — готовая формула, дальше кусок по словам: Einen Moment (что?).",
+     "why_ru": "По-русски так же коротко: «Одну минуту, пожалуйста».",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — заучить всю фразу одним куском. Готовая формула тут только bitte, остальное — слова под ситуацию."
+     },
+     "root": null,
+     "why_voice_ru": "Готовая формула: бери целиком. Так просят подождать. Moment — слово мужского рода: der Moment → einen Moment — в роли «что?» ein превращается в einen."
+    },
+    "audio": "audio_v1/ch14_d3_05.mp3",
+    "tts": "Einen Moment, bitte.",
+    "ipa": [
+     {
+      "w": "Einen",
+      "ipa": "[ˈaɪ̯nən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Moment",
+      "ipa": "[moˈmɛnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кого-что: E… M… · привет/вежливость: b…",
+    "gap": {
+     "text": "Einen ___, bitte.",
+     "answers": [
+      "Moment"
+     ]
+    },
+    "task_ru": "Скажи: Одну минуту, пожалуйста."
+   },
+   {
+    "id": "ch14_d3_06",
+    "role": "G",
+    "de": "Das ist kein Problem.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Это не проблема.",
+    "nouns": [
+     {
+      "lemma": "Problem",
+      "art": "das",
+      "pl": "Probleme"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Das",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "kein Problem",
+       "role": "кто"
+      }
+     ],
+     "text": "Вежливый ответ. kein — «никакой»: никакой проблемы. ist — вагон №2.",
+     "topic": "negation",
+     "why_de": "kein — это «ноль штук»: отрицание встроено прямо в артикль: Das ist kein Problem.",
+     "why_ru": "По-русски «Это не проблема» — «нет» отдельным словом; по-немецки — kein вместо ein: Das ist kein Problem.",
+     "layer": "kein",
+     "why_not": {
+      "wrong": "Das ist nicht Problem.",
+      "ru": "По-русски «Это не проблема» — одно «не/нет». По-немецки перед словом без артикля «нет» — это kein: nicht тут звучит ошибкой."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Вежливый ответ. kein — «никакой»: никакой проблемы. ist — вагон №2."
+    },
+    "audio": "audio_v1/ch14_d3_06.mp3",
+    "tts": "Das ist kein Problem.",
+    "ipa": [
+     {
+      "w": "Das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kein",
+      "ipa": "[kaɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Problem",
+      "ipa": "[pʁoˈbleːm]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… · действие (вагон №2): i… · кто: k… P…",
+    "gap": {
+     "text": "Das ___ kein ___.",
+     "answers": [
+      "ist",
+      "Problem"
+     ]
+    },
+    "task_ru": "Скажи: Это не проблема."
+   },
+   {
+    "id": "ch14_d3_07",
+    "role": "H",
+    "de": "Sie haben ein Doppelzimmer.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "У вас двухместный номер.",
+    "nouns": [
+     {
+      "lemma": "Doppelzimmer",
+      "art": "das",
+      "pl": "Doppelzimmer"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "haben",
+       "role": "действие №2"
+      },
+      {
+       "w": "ein Doppelzimmer",
+       "role": "кого-что"
+      }
+     ],
+     "text": "С Sie у действия хвост -en: Sie haben.",
+     "topic": "verb2",
+     "why_de": "Sie · haben · ein Doppelzimmer: действие haben — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «У вас двухместный номер» — без действия. По-немецки без haben фразы нет: Sie haben ein Doppelzimmer.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Sie ein Doppelzimmer.",
+      "ru": "Русская привычка — без действия, как «У вас двухместный номер». Без haben немец слышит обрывок, а не фразу."
+     },
+     "root": null,
+     "why_voice_ru": "С Sie у действия хвост -en: Sie haben."
+    },
+    "audio": "audio_v1/ch14_d3_07.mp3",
+    "tts": "Sie haben ein Doppelzimmer.",
+    "ipa": [
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "haben",
+      "ipa": "[ˈhaːbn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ein",
+      "ipa": "[aɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Doppelzimmer",
+      "ipa": "[ˈdɔpl̩ˌt͡sɪmɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: S… · действие (вагон №2): h… · кого-что: e… D…",
+    "gap": {
+     "text": "Sie ___ ein ___.",
+     "answers": [
+      "haben",
+      "Doppelzimmer"
+     ]
+    },
+    "task_ru": "Скажи: У вас двухместный номер."
+   },
+   {
+    "id": "ch14_d3_08",
+    "role": "G",
+    "de": "Danke!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Спасибо!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Danke не занимает вагон — это вежливое слово.",
+     "topic": "word_order",
+     "why_de": "Короткое спасибо: подходит почти везде.",
+     "why_ru": "Как «спасибо».",
+     "layer": "chunk",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибки тут почти не бывает; вежливее — Danke schön."
+     },
+     "source": "tools/why_chunks.json",
+     "root": null,
+     "why_voice_ru": "Danke не занимает вагон — это вежливое слово."
+    },
+    "audio": "audio_v1/ch14_d3_08.mp3",
+    "tts": "Danke! Danke!",
+    "ipa": [
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: D…",
+    "gap": {
+     "text": "___!",
+     "answers": [
+      "Danke"
+     ]
+    },
+    "task_ru": "Скажи: Спасибо!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch14_d4",
+  "title_ru": "Две карточки у стойки",
+  "roles": {
+   "B": "Frau Becker (хозяйка отеля)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch14_d4_01",
+    "role": "H",
+    "de": "Wer ist das?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Кто это?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wer",
+       "role": "вопрос-слово",
+       "asks": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "das",
+       "role": "кто"
+      }
+     ],
+     "text": "wer — «кто»: вопрос-слово, за ним действие ist.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wer — вагон №1, действие ist — сразу за ним, вагон №2: Wer ist das? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Кто это» можно сказать и в другом порядке. По-немецки порядок один: Wer · ist · das. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wer das ist?",
+      "ru": "das встал перед ist — действие ушло из вагона №2. После Wer немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "wer — «кто»: вопрос-слово, за ним действие ist."
+    },
+    "audio": "audio_v1/ch14_d4_01.mp3",
+    "tts": "Wer ist das?",
+    "ipa": [
+     {
+      "w": "Wer",
+      "ipa": "[veːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): i… · кто: d…",
+    "gap": {
+     "text": "Wer ___ das?",
+     "answers": [
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Кто это?"
+   },
+   {
+    "id": "ch14_d4_02",
+    "role": "B",
+    "de": "Sie ist Hotelkauffrau.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Она — служащая отеля.",
+    "nouns": [
+     {
+      "lemma": "Hotelkauffrau",
+      "art": "die",
+      "pl": "Hotelkauffrauen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "Hotelkauffrau",
+       "role": "кто"
+      }
+     ],
+     "text": "На вопрос «кто?» отвечают про человека на карточке: sie — «она». Профессию называют без артикля: ist Hotelkauffrau.",
+     "topic": "verb2",
+     "why_de": "ist работает как знак «=»: Sie = Hotelkauffrau. Действие держит вагон №2.",
+     "why_ru": "По-русски «Она — служащая отеля» — без «есть». По-немецки без ist нельзя: Sie ist Hotelkauffrau.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Sie Hotelkauffrau.",
+      "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "На вопрос «кто?» отвечают про человека на карточке: sie — «она». Профессию называют без артикля: ist Hotelkauffrau."
+    },
+    "audio": "audio_v1/ch14_d4_02.mp3",
+    "tts": "Sie ist Hotelkauffrau.",
+    "ipa": [
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Hotelkauffrau",
+      "ipa": null,
+      "src": "none"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "partial",
+    "hint": "кто: S… · действие (вагон №2): i… · кто: H…",
+    "gap": {
+     "text": "Sie ___ ___.",
+     "answers": [
+      "ist",
+      "Hotelkauffrau"
+     ]
+    },
+    "task_ru": "Скажи: Она — служащая отеля."
+   },
+   {
+    "id": "ch14_d4_03",
+    "role": "H",
+    "de": "Wo arbeitet sie?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Где она работает?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wo",
+       "role": "вопрос-слово",
+       "asks": "где"
+      },
+      {
+       "w": "arbeitet",
+       "role": "действие №2"
+      },
+      {
+       "w": "sie",
+       "role": "кто"
+      }
+     ],
+     "text": "wo — «где», за ним действие arbeitet, потом sie.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wo — вагон №1, действие arbeitet — сразу за ним, вагон №2: Wo arbeitet sie? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Где она работает» можно сказать и в другом порядке. По-немецки порядок один: Wo · arbeitet · sie.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wo sie arbeitet?",
+      "ru": "sie встал перед arbeitet — действие ушло из вагона №2. После Wo немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "wo — «где», за ним действие arbeitet, потом sie.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "вопрос-слово · действие (вагон №2) · «кто»",
+      "items": [
+       {
+        "id": "ch14_d4_07",
+        "de": "Wo arbeitet er?",
+        "ru": "Где он работает?",
+        "audio": "audio_v1/ch14_d4_07.mp3",
+        "lesson": "L4",
+        "part": 4,
+        "changed": {
+         "role": "кто",
+         "wagon": 3,
+         "from": "sie",
+         "to": "er"
+        }
+       },
+       {
+        "id": "ch14_012",
+        "de": "Wo wohnen Sie?",
+        "ru": "Где вы живёте?",
+        "audio": "audio_v1/ch14_012.mp3",
+        "lesson": "L1",
+        "part": 2,
+        "changed": {
+         "role": "действие №2",
+         "wagon": 2,
+         "from": "arbeitet",
+         "to": "wohnen"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Wo. В каждом примере меняется один вагон — действие (вагон №2): arbeitet → wohnen; «кто»: sie → er.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch14_d4_03.mp3",
+    "tts": "Wo arbeitet sie?",
+    "ipa": [
+     {
+      "w": "Wo",
+      "ipa": "[voː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "arbeitet",
+      "ipa": "[ˈaʁbaɪ̯tət]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): a… · кто: s…",
+    "gap": {
+     "text": "Wo ___ sie?",
+     "answers": [
+      "arbeitet"
+     ]
+    },
+    "task_ru": "Скажи: Где она работает?"
+   },
+   {
+    "id": "ch14_d4_04",
+    "role": "B",
+    "de": "Sie arbeitet in einem Hotel.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Она работает в отеле.",
+    "nouns": [
+     {
+      "lemma": "Hotel",
+      "art": "das",
+      "pl": "Hotels"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "arbeitet",
+       "role": "действие №2"
+      },
+      {
+       "w": "in einem Hotel",
+       "role": "где"
+      }
+     ],
+     "text": "das Hotel → in einem Hotel: на вопрос «где?» ein превращается в einem.",
+     "topic": "articles",
+     "why_de": "Sie · arbeitet · in einem Hotel: действие arbeitet — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Она работает в отеле» — Sie arbeitet in einem Hotel. Разница одна: по-немецки arbeitet держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Sie in einem Hotel arbeitet.",
+      "ru": "Действие arbeitet уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе arbeitet — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "das Hotel → in einem Hotel: на вопрос «где?» ein превращается в einem."
+    },
+    "audio": "audio_v1/ch14_d4_04.mp3",
+    "tts": "Sie arbeitet in einem Hotel.",
+    "ipa": [
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "arbeitet",
+      "ipa": "[ˈaʁbaɪ̯tət]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "in",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "einem",
+      "ipa": "[ˈaɪ̯nəm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Hotel",
+      "ipa": "[hoˈtɛl]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: S… · действие (вагон №2): a… · где: i… e… H…",
+    "gap": {
+     "text": "Sie ___ in einem ___.",
+     "answers": [
+      "arbeitet",
+      "Hotel"
+     ]
+    },
+    "task_ru": "Скажи: Она работает в отеле."
+   },
+   {
+    "id": "ch14_d4_05",
+    "role": "H",
+    "de": "Und wer ist das?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А кто это?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "wer",
+       "role": "вопрос-слово",
+       "asks": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "das",
+       "role": "кто"
+      }
+     ],
+     "text": "Und не занимает вагон. Дальше: wer · ist · das.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово wer — вагон №1, действие ist — сразу за ним, вагон №2: Und wer ist das? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «А кто это» можно сказать и в другом порядке. По-немецки порядок один: wer · ist · das. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Und wer das ist?",
+      "ru": "das встал перед ist — действие ушло из вагона №2. После wer немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Und не занимает вагон. Дальше: wer · ist · das."
+    },
+    "audio": "audio_v1/ch14_d4_05.mp3",
+    "tts": "Und wer ist das?",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wer",
+      "ipa": "[veːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · вопрос-слово: w… · действие (вагон №2): i… · кто: d…",
+    "gap": {
+     "text": "Und wer ___ das?",
+     "answers": [
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: А кто это?"
+   },
+   {
+    "id": "ch14_d4_06",
+    "role": "B",
+    "de": "Er ist Elektroniker.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Он — электронщик.",
+    "nouns": [
+     {
+      "lemma": "Elektroniker",
+      "art": "der",
+      "pl": "Elektroniker"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Er",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "Elektroniker",
+       "role": "кто"
+      }
+     ],
+     "text": "Тот же поезд, что у Sie ist Hotelkauffrau: меняются первый и последний вагоны.",
+     "topic": "verb2",
+     "why_de": "ist работает как знак «=»: er = Elektroniker. Действие держит вагон №2.",
+     "why_ru": "По-русски «Он — электронщик» — без «есть». По-немецки без ist нельзя: Er ist Elektroniker.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Er Elektroniker.",
+      "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Тот же поезд, что у Sie ist Hotelkauffrau: меняются первый и последний вагоны."
+    },
+    "audio": "audio_v1/ch14_d4_06.mp3",
+    "tts": "Er ist Elektroniker.",
+    "ipa": [
+     {
+      "w": "Er",
+      "ipa": "[eːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Elektroniker",
+      "ipa": "[elɛkˈtʁoːnɪkɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: E… · действие (вагон №2): i… · кто: E…",
+    "gap": {
+     "text": "Er ___ ___.",
+     "answers": [
+      "ist",
+      "Elektroniker"
+     ]
+    },
+    "task_ru": "Скажи: Он — электронщик."
+   },
+   {
+    "id": "ch14_d4_07",
+    "role": "H",
+    "de": "Wo arbeitet er?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Где он работает?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wo",
+       "role": "вопрос-слово",
+       "asks": "где"
+      },
+      {
+       "w": "arbeitet",
+       "role": "действие №2"
+      },
+      {
+       "w": "er",
+       "role": "кто"
+      }
+     ],
+     "text": "Тот же вопрос, что Wo arbeitet sie?: меняется только последний вагон — er вместо sie.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wo — вагон №1, действие arbeitet — сразу за ним, вагон №2: Wo arbeitet er? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Где он работает» можно сказать и в другом порядке. По-немецки порядок один: Wo · arbeitet · er.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wo er arbeitet?",
+      "ru": "er встал перед arbeitet — действие ушло из вагона №2. После Wo немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "Тот же вопрос, что Wo arbeitet sie?: меняется только последний вагон — er вместо sie.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "вопрос-слово · действие (вагон №2) · «кто»",
+      "items": [
+       {
+        "id": "ch14_032",
+        "de": "Wo arbeitet sie?",
+        "ru": "Где она работает?",
+        "audio": "audio_v1/ch14_032.mp3",
+        "lesson": "L4",
+        "part": 3,
+        "changed": {
+         "role": "кто",
+         "wagon": 3,
+         "from": "er",
+         "to": "sie"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Wo · arbeitet. В каждом примере меняется один вагон — «кто»: er → sie. Действие arbeitet всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch14_d4_07.mp3",
+    "tts": "Wo arbeitet er?",
+    "ipa": [
+     {
+      "w": "Wo",
+      "ipa": "[voː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "arbeitet",
+      "ipa": "[ˈaʁbaɪ̯tət]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "er",
+      "ipa": "[eːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): a… · кто: e…",
+    "gap": {
+     "text": "Wo ___ er?",
+     "answers": [
+      "arbeitet"
+     ]
+    },
+    "task_ru": "Скажи: Где он работает?"
+   },
+   {
+    "id": "ch14_d4_08",
+    "role": "B",
+    "de": "Er arbeitet in einer Firma.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Он работает в фирме.",
+    "nouns": [
+     {
+      "lemma": "Firma",
+      "art": "die",
+      "pl": "Firmen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Er",
+       "role": "кто"
+      },
+      {
+       "w": "arbeitet",
+       "role": "действие №2"
+      },
+      {
+       "w": "in einer Firma",
+       "role": "где"
+      }
+     ],
+     "text": "die Firma → in einer Firma: на вопрос «где?» eine превращается в einer.",
+     "topic": "articles",
+     "why_de": "Er · arbeitet · in einer Firma: действие arbeitet — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Он работает в фирме» — Er arbeitet in einer Firma. Разница одна: по-немецки arbeitet держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Er in einer Firma arbeitet.",
+      "ru": "Действие arbeitet уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе arbeitet — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "die Firma → in einer Firma: на вопрос «где?» eine превращается в einer."
+    },
+    "audio": "audio_v1/ch14_d4_08.mp3",
+    "tts": "Er arbeitet in einer Firma.",
+    "ipa": [
+     {
+      "w": "Er",
+      "ipa": "[eːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "arbeitet",
+      "ipa": "[ˈaʁbaɪ̯tət]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "in",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "einer",
+      "ipa": "[ˈaɪ̯nɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Firma",
+      "ipa": "[ˈfɪʁma]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: E… · действие (вагон №2): a… · где: i… e… F…",
+    "gap": {
+     "text": "Er ___ in einer ___.",
+     "answers": [
+      "arbeitet",
+      "Firma"
+     ]
+    },
+    "task_ru": "Скажи: Он работает в фирме."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch14_d5",
+  "title_ru": "Анкета для карточки",
+  "roles": {
+   "B": "Frau Becker (хозяйка отеля)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch14_d5_01",
+    "role": "B",
+    "de": "Seit wann wohnen Sie hier?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Как давно вы здесь живёте?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Seit wann",
+       "role": "вопрос-слово",
+       "asks": "когда"
+      },
+      {
+       "w": "wohnen",
+       "role": "действие №2"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "hier",
+       "role": "где"
+      }
+     ],
+     "text": "seit wann — вопрос-слово, за ним действие wohnen, потом Sie.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Seit wann — вагон №1, действие wohnen — сразу за ним, вагон №2: Seit wann wohnen Sie hier? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Как давно вы здесь живёте» можно сказать и в другом порядке. По-немецки порядок один: Seit wann · wohnen · Sie · hier.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Seit wann Sie wohnen hier?",
+      "ru": "Sie встал перед wohnen — действие ушло из вагона №2. После Seit wann немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "seit wann — вопрос-слово, за ним действие wohnen, потом Sie."
+    },
+    "audio": "audio_v1/ch14_d5_01.mp3",
+    "tts": "Seit wann wohnen Sie hier?",
+    "ipa": [
+     {
+      "w": "Seit",
+      "ipa": "[zaɪ̯t]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wann",
+      "ipa": "[van]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wohnen",
+      "ipa": "[ˈvoːnən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hier",
+      "ipa": "[hiːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: S… w… · действие (вагон №2): w… · кто: S… · где: h…",
+    "gap": {
+     "text": "Seit wann ___ Sie ___?",
+     "answers": [
+      "wohnen",
+      "hier"
+     ]
+    },
+    "task_ru": "Скажи: Как давно вы здесь живёте?"
+   },
+   {
+    "id": "ch14_d5_02",
+    "role": "H",
+    "de": "Ich wohne seit einer Woche hier.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я живу здесь уже неделю.",
+    "nouns": [
+     {
+      "lemma": "Woche",
+      "art": "die",
+      "pl": "Wochen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "wohne",
+       "role": "действие №2"
+      },
+      {
+       "w": "seit einer Woche",
+       "role": "когда"
+      },
+      {
+       "w": "hier",
+       "role": "где"
+      }
+     ],
+     "text": "seit: началось неделю назад и идёт сейчас — wohne. die Woche → seit einer Woche.",
+     "topic": "articles",
+     "why_de": "Ich · wohne · seit einer Woche · hier: действие wohne — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я живу здесь уже неделю» — Ich wohne seit einer Woche hier. Разница одна: по-немецки wohne держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich seit einer Woche hier wohne.",
+      "ru": "Действие wohne уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе wohne — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "seit: началось неделю назад и идёт сейчас — wohne. die Woche → seit einer Woche."
+    },
+    "audio": "audio_v1/ch14_d5_02.mp3",
+    "tts": "Ich wohne seit einer Woche hier.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wohne",
+      "ipa": "[ˈvoːnə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "seit",
+      "ipa": "[zaɪ̯t]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "einer",
+      "ipa": "[ˈaɪ̯nɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Woche",
+      "ipa": "[ˈvɔxə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hier",
+      "ipa": "[hiːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): w… · когда: s… e… W… · где: h…",
+    "gap": {
+     "text": "Ich ___ seit einer Woche ___.",
+     "answers": [
+      "wohne",
+      "hier"
+     ]
+    },
+    "task_ru": "Скажи: Я живу здесь уже неделю."
+   },
+   {
+    "id": "ch14_d5_03",
+    "role": "B",
+    "de": "Und seit wann lernen Sie Deutsch?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А как давно вы учите немецкий?",
+    "nouns": [
+     {
+      "lemma": "Deutsch",
+      "art": "das",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "seit wann",
+       "role": "вопрос-слово",
+       "asks": "когда"
+      },
+      {
+       "w": "lernen",
+       "role": "действие №2"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "Deutsch",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Und не занимает вагон. Дальше: seit wann · lernen · Sie.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово seit wann — вагон №1, действие lernen — сразу за ним, вагон №2: Und seit wann lernen Sie Deutsch? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «А как давно вы учите немецкий» можно сказать и в другом порядке. По-немецки порядок один: seit wann · lernen · Sie · Deutsch.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Und seit wann Sie lernen Deutsch?",
+      "ru": "Sie встал перед lernen — действие ушло из вагона №2. После seit wann немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "Und не занимает вагон. Дальше: seit wann · lernen · Sie."
+    },
+    "audio": "audio_v1/ch14_d5_03.mp3",
+    "tts": "Und seit wann lernen Sie Deutsch?",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "seit",
+      "ipa": "[zaɪ̯t]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wann",
+      "ipa": "[van]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "lernen",
+      "ipa": "[ˈlɛʁnən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Deutsch",
+      "ipa": "[dɔɪ̯t͡ʃ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · вопрос-слово: s… w… · действие (вагон №2): l… · кто: S… · кого-что: D…",
+    "gap": {
+     "text": "Und seit wann ___ Sie ___?",
+     "answers": [
+      "lernen",
+      "Deutsch"
+     ]
+    },
+    "task_ru": "Скажи: А как давно вы учите немецкий?"
+   },
+   {
+    "id": "ch14_d5_04",
+    "role": "H",
+    "de": "Ich lerne seit einem Monat Deutsch.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я учу немецкий уже месяц.",
+    "nouns": [
+     {
+      "lemma": "Monat",
+      "art": "der",
+      "pl": "Monate"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "lerne",
+       "role": "действие №2"
+      },
+      {
+       "w": "seit einem Monat",
+       "role": "когда"
+      },
+      {
+       "w": "Deutsch",
+       "role": "кого-что"
+      }
+     ],
+     "text": "der Monat → seit einem Monat: после seit ein превращается в einem. Учу — сейчас.",
+     "topic": "articles",
+     "why_de": "Ich · lerne · seit einem Monat · Deutsch: действие lerne — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я учу немецкий уже месяц» — Ich lerne seit einem Monat Deutsch. Разница одна: по-немецки lerne держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich seit einem Monat Deutsch lerne.",
+      "ru": "Действие lerne уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе lerne — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "der Monat → seit einem Monat: после seit ein превращается в einem. Учу — сейчас."
+    },
+    "audio": "audio_v1/ch14_d5_04.mp3",
+    "tts": "Ich lerne seit einem Monat Deutsch.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "lerne",
+      "ipa": "[ˈlɛʁnə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "seit",
+      "ipa": "[zaɪ̯t]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "einem",
+      "ipa": "[ˈaɪ̯nəm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Monat",
+      "ipa": "[ˈmoːnat]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Deutsch",
+      "ipa": "[dɔɪ̯t͡ʃ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "не внесено в nouns: Deutsch",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): l… · когда: s… e… M… · кого-что: D…",
+    "gap": {
+     "text": "Ich ___ seit einem Monat ___.",
+     "answers": [
+      "lerne",
+      "Deutsch"
+     ]
+    },
+    "task_ru": "Скажи: Я учу немецкий уже месяц."
+   },
+   {
+    "id": "ch14_d5_05",
+    "role": "B",
+    "de": "Wo haben Sie vor einem Jahr gearbeitet?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Где вы работали год назад?",
+    "nouns": [
+     {
+      "lemma": "Jahr",
+      "art": "das",
+      "pl": "Jahre"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wo",
+       "role": "вопрос-слово",
+       "asks": "где"
+      },
+      {
+       "w": "haben",
+       "role": "помощник №2"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "vor einem Jahr",
+       "role": "когда"
+      },
+      {
+       "w": "gearbeitet",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "wo — вагон №1, haben — вагон №2, gearbeitet — в конец. vor einem Jahr — «когда».",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Wo haben Sie vor einem Jahr gearbeitet?",
+     "why_ru": "По-русски «Где вы работали год назад» — прошлое одним словом; по-немецки два слова, и они разнесены: Wo haben Sie vor einem Jahr gearbeitet?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Wo haben gearbeitet Sie vor einem Jahr?",
+      "ru": "По-русски «Где вы работали год назад» — одно слово по порядку. По-немецки haben … gearbeitet разнесены: gearbeitet — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "wo — вагон №1, haben — вагон №2, gearbeitet — в конец. vor einem Jahr — «когда»."
+    },
+    "audio": "audio_v1/ch14_d5_05.mp3",
+    "tts": "Wo haben Sie vor einem Jahr gearbeitet?",
+    "ipa": [
+     {
+      "w": "Wo",
+      "ipa": "[voː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "haben",
+      "ipa": "[ˈhaːbn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "vor",
+      "ipa": "[foːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "einem",
+      "ipa": "[ˈaɪ̯nəm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Jahr",
+      "ipa": "[jaːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gearbeitet",
+      "ipa": "[ɡəˈʔaʁbaɪ̯tət]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · помощник (вагон №2): h… · кто: S… · когда: v… e… J… · хвост действия: g…",
+    "gap": {
+     "text": "Wo ___ Sie vor einem ___ gearbeitet?",
+     "answers": [
+      "haben",
+      "Jahr"
+     ]
+    },
+    "task_ru": "Скажи: Где вы работали год назад?"
+   },
+   {
+    "id": "ch14_d5_06",
+    "role": "H",
+    "de": "Vor einem Jahr habe ich in einer Firma gearbeitet.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Год назад я работал в фирме.",
+    "nouns": [
+     {
+      "lemma": "Jahr",
+      "art": "das",
+      "pl": "Jahre"
+     },
+     {
+      "lemma": "Firma",
+      "art": "die",
+      "pl": "Firmen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Vor einem Jahr",
+       "role": "когда"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "in einer Firma",
+       "role": "где"
+      },
+      {
+       "w": "gearbeitet",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "vor — «назад»: уже закончилось, поэтому habe … gearbeitet. Vor einem Jahr — вагон №1, habe — вагон №2.",
+     "topic": "perfekt",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Vor einem Jahr habe ich in einer Firma gearbeitet.",
+     "why_ru": "По-русски «Год назад я работал в фирме» — прошлое одним словом; по-немецки два слова, и они разнесены: Vor einem Jahr habe ich in einer Firma gearbeitet.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Vor einem Jahr habe gearbeitet ich in einer Firma.",
+      "ru": "По-русски «Год назад я работал в фирме» — одно слово по порядку. По-немецки habe … gearbeitet разнесены: gearbeitet — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "vor — «назад»: уже закончилось, поэтому habe … gearbeitet. Vor einem Jahr — вагон №1, habe — вагон №2."
+    },
+    "audio": "audio_v1/ch14_d5_06.mp3",
+    "tts": "Vor einem Jahr habe ich in einer Firma gearbeitet.",
+    "ipa": [
+     {
+      "w": "Vor",
+      "ipa": "[foːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "einem",
+      "ipa": "[ˈaɪ̯nəm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Jahr",
+      "ipa": "[jaːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "in",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "einer",
+      "ipa": "[ˈaɪ̯nɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Firma",
+      "ipa": "[ˈfɪʁma]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gearbeitet",
+      "ipa": "[ɡəˈʔaʁbaɪ̯tət]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "когда: V… e… J… · помощник (вагон №2): h… · кто: i… · где: i… e… F… · хвост действия: g…",
+    "gap": {
+     "text": "Vor einem Jahr ___ ich in einer ___ gearbeitet.",
+     "answers": [
+      "habe",
+      "Firma"
+     ]
+    },
+    "task_ru": "Скажи: Год назад я работал в фирме."
+   },
+   {
+    "id": "ch14_d5_07",
+    "role": "B",
+    "de": "Arbeiten Sie hier?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Вы здесь работаете?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Arbeiten",
+       "role": "действие №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "hier",
+       "role": "где"
+      }
+     ],
+     "text": "Вопрос «да/нет»: действие arbeiten впереди, сразу за ним Sie. hier — «где?».",
+     "topic": "questions",
+     "why_de": "Действие впереди (Arbeiten) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Arbeiten Sie hier?",
+     "why_ru": "По-русски «Вы здесь работаете» — вопрос только голосом, порядок как в ответе. По-немецки действие Arbeiten выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Sie arbeiten hier?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Вы здесь работаете?!»). Обычный вопрос — действие впереди."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос «да/нет»: действие arbeiten впереди, сразу за ним Sie. hier — «где?».",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "действие (вагон №1) · «кто» · «где»",
+      "items": [
+       {
+        "id": "ch14_t02",
+        "de": "Arbeiten Sie im Hotel?",
+        "ru": "Вы работаете в отеле?",
+        "audio": "audio_v1/ch14_t02.mp3",
+        "lesson": "L1",
+        "part": 11,
+        "changed": {
+         "role": "где",
+         "wagon": 3,
+         "from": "hier",
+         "to": "im Hotel"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Arbeiten · Sie. В каждом примере меняется один вагон — «где»: hier → im Hotel. Действие Arbeiten всё так же в вагоне №1.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch14_d5_07.mp3",
+    "tts": "Arbeiten Sie hier?",
+    "ipa": [
+     {
+      "w": "Arbeiten",
+      "ipa": "[ˈaʁbaɪ̯tn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hier",
+      "ipa": "[hiːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): A… · кто: S… · где: h…",
+    "gap": {
+     "text": "___ Sie ___?",
+     "answers": [
+      "Arbeiten",
+      "hier"
+     ]
+    },
+    "task_ru": "Скажи: Вы здесь работаете?"
+   },
+   {
+    "id": "ch14_d5_08",
+    "role": "H",
+    "de": "Ja, ich arbeite im Hotel.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, я работаю в отеле.",
+    "nouns": [
+     {
+      "lemma": "Hotel",
+      "art": "das",
+      "pl": "Hotels"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "arbeite",
+       "role": "действие №2"
+      },
+      {
+       "w": "im Hotel",
+       "role": "где"
+      }
+     ],
+     "text": "ja не занимает вагон. С ich — arbeite. im Hotel — «где?».",
+     "topic": "verb2",
+     "why_de": "ich · arbeite · im Hotel: действие arbeite — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Да, я работаю в отеле» — Ja, ich arbeite im Hotel. Разница одна: по-немецки arbeite держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ja, ich im Hotel arbeite.",
+      "ru": "Действие arbeite уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе arbeite — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "ja не занимает вагон. С ich — arbeite. im Hotel — «где?»."
+    },
+    "audio": "audio_v1/ch14_d5_08.mp3",
+    "tts": "Ja, ich arbeite im Hotel.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "arbeite",
+      "ipa": "[ˈaʁbaɪ̯tə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "im",
+      "ipa": "[ɪm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Hotel",
+      "ipa": "[hoˈtɛl]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: i… · действие (вагон №2): a… · где: i… H…",
+    "gap": {
+     "text": "Ja, ich ___ im ___.",
+     "answers": [
+      "arbeite",
+      "Hotel"
+     ]
+    },
+    "task_ru": "Скажи: Да, я работаю в отеле."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch14_d6",
+  "title_ru": "Объявление о вакансии",
+  "roles": {
+   "B": "Frau Becker (хозяйка отеля)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch14_d6_01",
+    "role": "H",
+    "de": "Was suchen Sie?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Что вы ищете?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "suchen",
+       "role": "действие №2"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      }
+     ],
+     "text": "was — вопрос-слово, за ним действие suchen, потом Sie.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Was — вагон №1, действие suchen — сразу за ним, вагон №2: Was suchen Sie? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Что вы ищете» можно сказать и в другом порядке. По-немецки порядок один: Was · suchen · Sie.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Was Sie suchen?",
+      "ru": "Sie встал перед suchen — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "was — вопрос-слово, за ним действие suchen, потом Sie."
+    },
+    "audio": "audio_v1/ch14_d6_01.mp3",
+    "tts": "Was suchen Sie?",
+    "ipa": [
+     {
+      "w": "Was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "suchen",
+      "ipa": "[ˈzuːxn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): s… · кто: S…",
+    "gap": {
+     "text": "Was ___ Sie?",
+     "answers": [
+      "suchen"
+     ]
+    },
+    "task_ru": "Скажи: Что вы ищете?"
+   },
+   {
+    "id": "ch14_d6_02",
+    "role": "B",
+    "de": "Wir suchen einen Nachtportier.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Мы ищем ночного портье.",
+    "nouns": [
+     {
+      "lemma": "Nachtportier",
+      "art": "der",
+      "pl": "Nachtportiers"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wir",
+       "role": "кто"
+      },
+      {
+       "w": "suchen",
+       "role": "действие №2"
+      },
+      {
+       "w": "einen Nachtportier",
+       "role": "кого-что"
+      }
+     ],
+     "text": "wir suchen — «мы ищем»: у действия хвост -en. der Nachtportier → einen Nachtportier: кого ищем — ein превращается в einen.",
+     "topic": "articles",
+     "why_de": "Артикль — сигнал роли: der → den/einen показывает «кого-что»: Wir suchen einen Nachtportier.",
+     "why_ru": "Похоже на русские окончания, только меняется не слово, а артикль: Wir suchen einen Nachtportier.",
+     "layer": "akk",
+     "why_not": {
+      "wrong": "Wir suchen ein Nachtportier.",
+      "ru": "Русская привычка: артикль не меняется. Немец слышит не ту роль: тут der-слово в роли «кого-что» — einen."
+     },
+     "root": null,
+     "why_voice_ru": "wir suchen — «мы ищем»: у действия хвост -en. der Nachtportier → einen Nachtportier: кого ищем — ein превращается в einen."
+    },
+    "audio": "audio_v1/ch14_d6_02.mp3",
+    "tts": "Wir suchen einen Nachtportier.",
+    "ipa": [
+     {
+      "w": "Wir",
+      "ipa": "[viːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "suchen",
+      "ipa": "[ˈzuːxn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "einen",
+      "ipa": "[ˈaɪ̯nən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Nachtportier",
+      "ipa": "[ˈnaxtpɔʁˌti̯eː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: W… · действие (вагон №2): s… · кого-что: e… N…",
+    "gap": {
+     "text": "Wir ___ einen ___.",
+     "answers": [
+      "suchen",
+      "Nachtportier"
+     ]
+    },
+    "task_ru": "Скажи: Мы ищем ночного портье."
+   },
+   {
+    "id": "ch14_d6_03",
+    "role": "B",
+    "de": "Haben Sie Erfahrung?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "У вас есть опыт?",
+    "nouns": [
+     {
+      "lemma": "Erfahrung",
+      "art": "die",
+      "pl": "Erfahrungen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Haben",
+       "role": "действие №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "Erfahrung",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Вопрос «да/нет»: действие haben впереди, за ним Sie.",
+     "topic": "questions",
+     "why_de": "Действие впереди (Haben) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Haben Sie Erfahrung?",
+     "why_ru": "По-русски «У вас есть опыт» — вопрос только голосом, порядок как в ответе. По-немецки действие Haben выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Sie haben Erfahrung?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («У вас есть опыт?!»). Обычный вопрос — действие впереди."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос «да/нет»: действие haben впереди, за ним Sie.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "действие (вагон №1) · «кто» · «что»",
+      "items": [
+       {
+        "id": "ch14_021",
+        "de": "Haben Sie eine Reservierung?",
+        "ru": "У вас есть бронь?",
+        "audio": "audio_v1/ch14_021.mp3",
+        "lesson": "L3",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "Erfahrung",
+         "to": "eine Reservierung"
+        }
+       },
+       {
+        "id": "ch14_026",
+        "de": "Haben Sie ein Doppelzimmer?",
+        "ru": "У вас есть двухместный номер?",
+        "audio": "audio_v1/ch14_026.mp3",
+        "lesson": "L3",
+        "part": 6,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "Erfahrung",
+         "to": "ein Doppelzimmer"
+        }
+       },
+       {
+        "id": "ch14_d6_05",
+        "de": "Haben Sie eine Frage?",
+        "ru": "У вас есть вопрос?",
+        "audio": "audio_v1/ch14_d6_05.mp3",
+        "lesson": "L6",
+        "part": 4,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "Erfahrung",
+         "to": "eine Frage"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Haben · Sie. В каждом примере меняется один вагон — «что»: Erfahrung → eine Reservierung → ein Doppelzimmer → eine Frage. Действие Haben всё так же в вагоне №1.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch14_d6_03.mp3",
+    "tts": "Haben Sie Erfahrung?",
+    "ipa": [
+     {
+      "w": "Haben",
+      "ipa": "[ˈhaːbn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Erfahrung",
+      "ipa": "[ɛɐ̯ˈfaːʁʊŋ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): H… · кто: S… · кого-что: E…",
+    "gap": {
+     "text": "___ Sie ___?",
+     "answers": [
+      "Haben",
+      "Erfahrung"
+     ]
+    },
+    "task_ru": "Скажи: У вас есть опыт?"
+   },
+   {
+    "id": "ch14_d6_04",
+    "role": "H",
+    "de": "Ja, ich habe Erfahrung.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, у меня есть опыт.",
+    "nouns": [
+     {
+      "lemma": "Erfahrung",
+      "art": "die",
+      "pl": "Erfahrungen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "действие №2"
+      },
+      {
+       "w": "Erfahrung",
+       "role": "кого-что"
+      }
+     ],
+     "text": "ja не занимает вагон. Дальше: ich · habe · Erfahrung — «я имею опыт».",
+     "topic": "verb2",
+     "why_de": "ich · habe · Erfahrung: действие habe — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски тут «у меня» и «есть»: «я» спрятан в «у меня». По-немецки говорят «я имею» — ich habe. Поэтому ich нужен: Ja, ich habe Erfahrung.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ja, habe Erfahrung.",
+      "ru": "По-русски «у меня» — не «я», поэтому хочется начать без ich. По-немецки без ich фраза обрывается."
+     },
+     "root": null,
+     "why_voice_ru": "ja не занимает вагон. Дальше: ich · habe · Erfahrung — «я имею опыт».",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «что»",
+      "items": [
+       {
+        "id": "ch14_d3_02",
+        "de": "Ja, ich habe eine Reservierung.",
+        "ru": "Да, у меня бронь.",
+        "audio": "audio_v1/ch14_d3_02.mp3",
+        "lesson": "L3",
+        "part": 4,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "Erfahrung",
+         "to": "eine Reservierung"
+        }
+       },
+       {
+        "id": "ch14_d6_06",
+        "de": "Ja, ich habe eine Frage.",
+        "ru": "Да, у меня есть вопрос.",
+        "audio": "audio_v1/ch14_d6_06.mp3",
+        "lesson": "L6",
+        "part": 4,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "Erfahrung",
+         "to": "eine Frage"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: ich · habe. В каждом примере меняется один вагон — «что»: Erfahrung → eine Reservierung → eine Frage. Действие habe всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch14_d6_04.mp3",
+    "tts": "Ja, ich habe Erfahrung.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Erfahrung",
+      "ipa": "[ɛɐ̯ˈfaːʁʊŋ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: i… · действие (вагон №2): h… · кого-что: E…",
+    "gap": {
+     "text": "Ja, ich ___ ___.",
+     "answers": [
+      "habe",
+      "Erfahrung"
+     ]
+    },
+    "task_ru": "Скажи: Да, у меня есть опыт."
+   },
+   {
+    "id": "ch14_d6_05",
+    "role": "B",
+    "de": "Haben Sie eine Frage?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "У вас есть вопрос?",
+    "nouns": [
+     {
+      "lemma": "Frage",
+      "art": "die",
+      "pl": "Fragen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Haben",
+       "role": "действие №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "eine Frage",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Тот же вопрос «да/нет», что Haben Sie Erfahrung? — меняется последний вагон. die Frage → eine Frage.",
+     "topic": "questions",
+     "why_de": "Действие впереди (Haben) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Haben Sie eine Frage?",
+     "why_ru": "По-русски «У вас есть вопрос» — вопрос только голосом, порядок как в ответе. По-немецки действие Haben выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Sie haben eine Frage?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («У вас есть вопрос?!»). Обычный вопрос — действие впереди."
+     },
+     "root": null,
+     "why_voice_ru": "Тот же вопрос «да/нет», что Haben Sie Erfahrung? — меняется последний вагон. die Frage → eine Frage.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "действие (вагон №1) · «кто» · «что»",
+      "items": [
+       {
+        "id": "ch14_021",
+        "de": "Haben Sie eine Reservierung?",
+        "ru": "У вас есть бронь?",
+        "audio": "audio_v1/ch14_021.mp3",
+        "lesson": "L3",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "eine Frage",
+         "to": "eine Reservierung"
+        }
+       },
+       {
+        "id": "ch14_026",
+        "de": "Haben Sie ein Doppelzimmer?",
+        "ru": "У вас есть двухместный номер?",
+        "audio": "audio_v1/ch14_026.mp3",
+        "lesson": "L3",
+        "part": 6,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "eine Frage",
+         "to": "ein Doppelzimmer"
+        }
+       },
+       {
+        "id": "ch14_045",
+        "de": "Haben Sie Erfahrung?",
+        "ru": "У вас есть опыт?",
+        "audio": "audio_v1/ch14_045.mp3",
+        "lesson": "L6",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "eine Frage",
+         "to": "Erfahrung"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Haben · Sie. В каждом примере меняется один вагон — «что»: eine Frage → eine Reservierung → ein Doppelzimmer → Erfahrung. Действие Haben всё так же в вагоне №1.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch14_d6_05.mp3",
+    "tts": "Haben Sie eine Frage?",
+    "ipa": [
+     {
+      "w": "Haben",
+      "ipa": "[ˈhaːbn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "eine",
+      "ipa": "[ˈaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Frage",
+      "ipa": "[ˈfʁaːɡə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): H… · кто: S… · кого-что: e… F…",
+    "gap": {
+     "text": "___ Sie eine ___?",
+     "answers": [
+      "Haben",
+      "Frage"
+     ]
+    },
+    "task_ru": "Скажи: У вас есть вопрос?"
+   },
+   {
+    "id": "ch14_d6_06",
+    "role": "H",
+    "de": "Ja, ich habe eine Frage.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, у меня есть вопрос.",
+    "nouns": [
+     {
+      "lemma": "Frage",
+      "art": "die",
+      "pl": "Fragen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "действие №2"
+      },
+      {
+       "w": "eine Frage",
+       "role": "кого-что"
+      }
+     ],
+     "text": "ja не занимает вагон. ich · habe · eine Frage.",
+     "topic": "verb2",
+     "why_de": "ich · habe · eine Frage: действие habe — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски тут «у меня» и «есть»: «я» спрятан в «у меня». По-немецки говорят «я имею» — ich habe. Поэтому ich нужен: Ja, ich habe eine Frage.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ja, habe eine Frage.",
+      "ru": "По-русски «у меня» — не «я», поэтому хочется начать без ich. По-немецки без ich фраза обрывается."
+     },
+     "root": null,
+     "why_voice_ru": "ja не занимает вагон. ich · habe · eine Frage.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «что»",
+      "items": [
+       {
+        "id": "ch14_d3_02",
+        "de": "Ja, ich habe eine Reservierung.",
+        "ru": "Да, у меня бронь.",
+        "audio": "audio_v1/ch14_d3_02.mp3",
+        "lesson": "L3",
+        "part": 4,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "eine Frage",
+         "to": "eine Reservierung"
+        }
+       },
+       {
+        "id": "ch14_d6_04",
+        "de": "Ja, ich habe Erfahrung.",
+        "ru": "Да, у меня есть опыт.",
+        "audio": "audio_v1/ch14_d6_04.mp3",
+        "lesson": "L6",
+        "part": 4,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "eine Frage",
+         "to": "Erfahrung"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: ich · habe. В каждом примере меняется один вагон — «что»: eine Frage → eine Reservierung → Erfahrung. Действие habe всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch14_d6_06.mp3",
+    "tts": "Ja, ich habe eine Frage.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "eine",
+      "ipa": "[ˈaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Frage",
+      "ipa": "[ˈfʁaːɡə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: i… · действие (вагон №2): h… · кого-что: e… F…",
+    "gap": {
+     "text": "Ja, ich ___ eine ___.",
+     "answers": [
+      "habe",
+      "Frage"
+     ]
+    },
+    "task_ru": "Скажи: Да, у меня есть вопрос."
+   },
+   {
+    "id": "ch14_d6_07",
+    "role": "B",
+    "de": "Schreiben Sie eine E-Mail.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Напишите электронное письмо.",
+    "nouns": [
+     {
+      "lemma": "E-Mail",
+      "art": "die",
+      "pl": "E-Mails"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Schreiben",
+       "role": "действие №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "eine E-Mail",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Просьба на «вы»: действие впереди, потом Sie. die E-Mail → eine E-Mail.",
+     "topic": "word_order",
+     "why_de": "Просьба на «вы»: действие Schreiben впереди + Sie: Schreiben Sie eine E-Mail. Так немец сразу показывает, что ждёт действия.",
+     "why_ru": "По-русски «Напишите электронное письмо» — без «вы». По-немецки Sie нужен, сразу после Schreiben.",
+     "layer": "imper",
+     "why_not": {
+      "wrong": "Schreiben eine E-Mail.",
+      "ru": "По-русски «Напишите электронное письмо» — без «вы». По-немецки без Sie это уже не просьба на «вы», а ошибка."
+     },
+     "root": null,
+     "why_voice_ru": "Просьба на «вы»: действие впереди, потом Sie. die E-Mail → eine E-Mail."
+    },
+    "audio": "audio_v1/ch14_d6_07.mp3",
+    "tts": "Schreiben Sie eine E-Mail.",
+    "ipa": [
+     {
+      "w": "Schreiben",
+      "ipa": "[ˈʃʁaɪ̯bn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "eine",
+      "ipa": "[ˈaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "E-Mail",
+      "ipa": "[ˈiːmeɪ̯l]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): S… · кто: S… · кого-что: e… E…",
+    "gap": {
+     "text": "___ Sie eine ___.",
+     "answers": [
+      "Schreiben",
+      "E-Mail"
+     ]
+    },
+    "task_ru": "Скажи: Напишите электронное письмо."
+   },
+   {
+    "id": "ch14_d6_08",
+    "role": "H",
+    "de": "Danke!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Спасибо!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Danke не занимает вагон — это вежливое слово.",
+     "topic": "word_order",
+     "why_de": "Короткое спасибо: подходит почти везде.",
+     "why_ru": "Как «спасибо».",
+     "layer": "chunk",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибки тут почти не бывает; вежливее — Danke schön."
+     },
+     "source": "tools/why_chunks.json",
+     "root": null,
+     "why_voice_ru": "Danke не занимает вагон — это вежливое слово."
+    },
+    "audio": "audio_v1/ch14_d6_08.mp3",
+    "tts": "Danke! Danke!",
+    "ipa": [
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: D…",
+    "gap": {
+     "text": "___!",
+     "answers": [
+      "Danke"
+     ]
+    },
+    "task_ru": "Скажи: Спасибо!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch14_d7",
+  "title_ru": "Radio Leipzig: интервью",
+  "roles": {
+   "R": "Reporterin (Radio Leipzig)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch14_d7_01",
+    "role": "R",
+    "de": "Warum arbeiten Sie im Hotel?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Почему вы работаете в отеле?",
+    "nouns": [
+     {
+      "lemma": "Hotel",
+      "art": "das",
+      "pl": "Hotels"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Warum",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "arbeiten",
+       "role": "действие №2"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "im Hotel",
+       "role": "где"
+      }
+     ],
+     "text": "Warum — вопрос-слово, за ним действие arbeiten, потом Sie.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Warum — вагон №1, действие arbeiten — сразу за ним, вагон №2: Warum arbeiten Sie im Hotel? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Почему вы работаете в отеле» можно сказать и в другом порядке. По-немецки порядок один: Warum · arbeiten · Sie · im Hotel.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Warum Sie arbeiten im Hotel?",
+      "ru": "Sie встал перед arbeiten — действие ушло из вагона №2. После Warum немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "Warum — вопрос-слово, за ним действие arbeiten, потом Sie."
+    },
+    "audio": "audio_v1/ch14_d7_01.mp3",
+    "tts": "Warum arbeiten Sie im Hotel?",
+    "ipa": [
+     {
+      "w": "Warum",
+      "ipa": "[vaˈʁʊm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "arbeiten",
+      "ipa": "[ˈaʁbaɪ̯tn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "im",
+      "ipa": "[ɪm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Hotel",
+      "ipa": "[hoˈtɛl]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): a… · кто: S… · где: i… H…",
+    "gap": {
+     "text": "Warum ___ Sie im ___?",
+     "answers": [
+      "arbeiten",
+      "Hotel"
+     ]
+    },
+    "task_ru": "Скажи: Почему вы работаете в отеле?"
+   },
+   {
+    "id": "ch14_d7_02",
+    "role": "H",
+    "de": "Ich arbeite im Hotel, denn ich wohne hier.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я работаю в отеле, потому что я здесь живу.",
+    "nouns": [
+     {
+      "lemma": "Hotel",
+      "art": "das",
+      "pl": "Hotels"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "arbeite",
+       "role": "действие №2"
+      },
+      {
+       "w": "im Hotel",
+       "role": "где"
+      },
+      {
+       "w": "denn",
+       "role": "связка"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "wohne",
+       "role": "действие №2"
+      },
+      {
+       "w": "hier",
+       "role": "где"
+      }
+     ],
+     "text": "Две фразы через denn («потому что»). denn порядок не меняет: ich, потом действие wohne.",
+     "topic": "word_order",
+     "why_de": "Ich arbeite im Hotel, denn ich wohne hier. — denn («потому что») стоит между двумя фразами и порядок слов не меняет. Во второй фразе всё как обычно: ich · wohne · hier.",
+     "why_ru": "«Я работаю в отеле, потому что я здесь живу» — причина через «потому что». По-немецки так же, а действие второй фразы остаётся на втором месте: ich · wohne · hier.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich arbeite im Hotel, denn wohne ich hier.",
+      "ru": "Ошибка — после denn действие встало перед ich. После denn порядок обычный: сначала ich, потом действие."
+     },
+     "root": null,
+     "override": "tools/data_ch14.py WHY",
+     "why_voice_ru": "Две фразы через denn («потому что»). denn порядок не меняет: ich, потом действие wohne."
+    },
+    "audio": "audio_v1/ch14_d7_02.mp3",
+    "tts": "Ich arbeite im Hotel, denn ich wohne hier.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "arbeite",
+      "ipa": "[ˈaʁbaɪ̯tə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "im",
+      "ipa": "[ɪm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Hotel",
+      "ipa": "[hoˈtɛl]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "denn",
+      "ipa": "[dɛn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wohne",
+      "ipa": "[ˈvoːnə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hier",
+      "ipa": "[hiːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): a… · где: i… H… · связка: d… · кто: i… · действие (вагон №2): w… · где: h…",
+    "gap": {
+     "text": "Ich ___ im ___, denn ich wohne hier.",
+     "answers": [
+      "arbeite",
+      "Hotel"
+     ]
+    },
+    "task_ru": "Скажи: Я работаю в отеле, потому что я здесь живу."
+   },
+   {
+    "id": "ch14_d7_03",
+    "role": "R",
+    "de": "Warum lernen Sie Deutsch?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Почему вы учите немецкий?",
+    "nouns": [
+     {
+      "lemma": "Deutsch",
+      "art": "das",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Warum",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "lernen",
+       "role": "действие №2"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "Deutsch",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Тот же вопрос: вопрос-слово, действие, Sie.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Warum — вагон №1, действие lernen — сразу за ним, вагон №2: Warum lernen Sie Deutsch? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Почему вы учите немецкий» можно сказать и в другом порядке. По-немецки порядок один: Warum · lernen · Sie · Deutsch.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Warum Sie lernen Deutsch?",
+      "ru": "Sie встал перед lernen — действие ушло из вагона №2. После Warum немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "Тот же вопрос: вопрос-слово, действие, Sie.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "вопрос-слово · действие (вагон №2) · «кто» · «что»",
+      "items": [
+       {
+        "id": "ch14_042",
+        "de": "Seit wann lernen Sie Deutsch?",
+        "ru": "Как давно вы учите немецкий?",
+        "audio": "audio_v1/ch14_042.mp3",
+        "lesson": "L5",
+        "part": 6,
+        "changed": {
+         "role": "вопрос-слово",
+         "wagon": 1,
+         "from": "Warum",
+         "to": "Seit wann"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: lernen · Sie · Deutsch. В каждом примере меняется один вагон — вопрос-слово: Warum → Seit wann. Действие lernen всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch14_d7_03.mp3",
+    "tts": "Warum lernen Sie Deutsch?",
+    "ipa": [
+     {
+      "w": "Warum",
+      "ipa": "[vaˈʁʊm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "lernen",
+      "ipa": "[ˈlɛʁnən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Deutsch",
+      "ipa": "[dɔɪ̯t͡ʃ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): l… · кто: S… · кого-что: D…",
+    "gap": {
+     "text": "Warum ___ Sie ___?",
+     "answers": [
+      "lernen",
+      "Deutsch"
+     ]
+    },
+    "task_ru": "Скажи: Почему вы учите немецкий?"
+   },
+   {
+    "id": "ch14_d7_04",
+    "role": "H",
+    "de": "Ich lerne Deutsch, denn ich arbeite im Hotel.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я учу немецкий, потому что я работаю в отеле.",
+    "nouns": [
+     {
+      "lemma": "Deutsch",
+      "art": "das",
+      "pl": ""
+     },
+     {
+      "lemma": "Hotel",
+      "art": "das",
+      "pl": "Hotels"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "lerne",
+       "role": "действие №2"
+      },
+      {
+       "w": "Deutsch",
+       "role": "кого-что"
+      },
+      {
+       "w": "denn",
+       "role": "связка"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "arbeite",
+       "role": "действие №2"
+      },
+      {
+       "w": "im Hotel",
+       "role": "где"
+      }
+     ],
+     "text": "Причина после denn: ich arbeite im Hotel. Действие второй фразы стоит на втором месте.",
+     "topic": "word_order",
+     "why_de": "Ich lerne Deutsch, denn ich arbeite im Hotel. — denn («потому что») стоит между двумя фразами и порядок слов не меняет. Во второй фразе всё как обычно: ich · arbeite · im Hotel.",
+     "why_ru": "«Я учу немецкий, потому что я работаю в отеле» — причина через «потому что». По-немецки так же, а действие второй фразы остаётся на втором месте: ich · arbeite · im Hotel.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich lerne Deutsch, denn arbeite ich im Hotel.",
+      "ru": "Ошибка — после denn действие встало перед ich. После denn порядок обычный: сначала ich, потом действие."
+     },
+     "root": null,
+     "override": "tools/data_ch14.py WHY",
+     "why_voice_ru": "Причина после denn: ich arbeite im Hotel. Действие второй фразы стоит на втором месте."
+    },
+    "audio": "audio_v1/ch14_d7_04.mp3",
+    "tts": "Ich lerne Deutsch, denn ich arbeite im Hotel.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "lerne",
+      "ipa": "[ˈlɛʁnə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Deutsch",
+      "ipa": "[dɔɪ̯t͡ʃ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "denn",
+      "ipa": "[dɛn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "arbeite",
+      "ipa": "[ˈaʁbaɪ̯tə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "im",
+      "ipa": "[ɪm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Hotel",
+      "ipa": "[hoˈtɛl]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): l… · кого-что: D… · связка: d… · кто: i… · действие (вагон №2): a… · где: i… H…",
+    "gap": {
+     "text": "Ich ___ ___, denn ich arbeite im Hotel.",
+     "answers": [
+      "lerne",
+      "Deutsch"
+     ]
+    },
+    "task_ru": "Скажи: Я учу немецкий, потому что я работаю в отеле."
+   },
+   {
+    "id": "ch14_d7_05",
+    "role": "R",
+    "de": "Und warum wohnen Sie hier?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А почему вы здесь живёте?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "warum",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "wohnen",
+       "role": "действие №2"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "hier",
+       "role": "где"
+      }
+     ],
+     "text": "Und не занимает вагон. Дальше: warum · wohnen · Sie.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово warum — вагон №1, действие wohnen — сразу за ним, вагон №2: Und warum wohnen Sie hier? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «А почему вы здесь живёте» можно сказать и в другом порядке. По-немецки порядок один: warum · wohnen · Sie · hier.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Und warum Sie wohnen hier?",
+      "ru": "Sie встал перед wohnen — действие ушло из вагона №2. После warum немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "Und не занимает вагон. Дальше: warum · wohnen · Sie."
+    },
+    "audio": "audio_v1/ch14_d7_05.mp3",
+    "tts": "Und warum wohnen Sie hier?",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "warum",
+      "ipa": "[vaˈʁʊm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wohnen",
+      "ipa": "[ˈvoːnən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hier",
+      "ipa": "[hiːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · вопрос-слово: w… · действие (вагон №2): w… · кто: S… · где: h…",
+    "gap": {
+     "text": "Und warum ___ Sie ___?",
+     "answers": [
+      "wohnen",
+      "hier"
+     ]
+    },
+    "task_ru": "Скажи: А почему вы здесь живёте?"
+   },
+   {
+    "id": "ch14_d7_06",
+    "role": "H",
+    "de": "Das Hotel ist gut.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Отель хороший.",
+    "nouns": [
+     {
+      "lemma": "Hotel",
+      "art": "das",
+      "pl": "Hotels"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Das Hotel",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "gut",
+       "role": "какой/как"
+      }
+     ],
+     "text": "Короткий ответ на «Почему?»: причина одной фразой, без denn.",
+     "topic": "verb2",
+     "why_de": "Das Hotel ist gut. — короткая фраза: das Hotel · ist · gut. Порядок обычный, ist стоит на втором месте.",
+     "why_ru": "Сначала отель, потом признак — как в русском. По-немецки между ними стоит ist: das Hotel ist gut.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Das Hotel gut ist.",
+      "ru": "Ошибка — действие ist уехало в конец. В короткой фразе ist стоит вагоном №2: Das Hotel ist gut."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "override": "tools/data_ch14.py WHY",
+     "why_voice_ru": "Короткий ответ на «Почему?»: причина одной фразой, без denn."
+    },
+    "audio": "audio_v1/ch14_d7_06.mp3",
+    "tts": "Das Hotel ist gut.",
+    "ipa": [
+     {
+      "w": "Das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Hotel",
+      "ipa": "[hoˈtɛl]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… H… · действие (вагон №2): i… · какой/как: g…",
+    "gap": {
+     "text": "Das ___ ___ gut.",
+     "answers": [
+      "Hotel",
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Отель хороший."
+   },
+   {
+    "id": "ch14_d7_07",
+    "role": "R",
+    "de": "Sie arbeiten im Hotel.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Вы работаете в отеле.",
+    "nouns": [
+     {
+      "lemma": "Hotel",
+      "art": "das",
+      "pl": "Hotels"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "arbeiten",
+       "role": "действие №2"
+      },
+      {
+       "w": "im Hotel",
+       "role": "где"
+      }
+     ],
+     "text": "С Sie у действия хвост -en: Sie arbeiten. im Hotel — «где?».",
+     "topic": "verb2",
+     "why_de": "Sie · arbeiten · im Hotel: действие arbeiten — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Вы работаете в отеле» — Sie arbeiten im Hotel. Разница одна: по-немецки arbeiten держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Sie im Hotel arbeiten.",
+      "ru": "Действие arbeiten уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе arbeiten — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "С Sie у действия хвост -en: Sie arbeiten. im Hotel — «где?».",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «где»",
+      "items": [
+       {
+        "id": "ch14_002",
+        "de": "Sie arbeiten in der Küche.",
+        "ru": "Вы работаете на кухне.",
+        "audio": "audio_v1/ch14_002.mp3",
+        "lesson": "L1",
+        "part": 3,
+        "changed": {
+         "role": "где",
+         "wagon": 3,
+         "from": "im Hotel",
+         "to": "in der Küche"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Sie · arbeiten. В каждом примере меняется один вагон — «где»: im Hotel → in der Küche. Действие arbeiten всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch14_d7_07.mp3",
+    "tts": "Sie arbeiten im Hotel.",
+    "ipa": [
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "arbeiten",
+      "ipa": "[ˈaʁbaɪ̯tn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "im",
+      "ipa": "[ɪm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Hotel",
+      "ipa": "[hoˈtɛl]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: S… · действие (вагон №2): a… · где: i… H…",
+    "gap": {
+     "text": "Sie ___ im ___.",
+     "answers": [
+      "arbeiten",
+      "Hotel"
+     ]
+    },
+    "task_ru": "Скажи: Вы работаете в отеле."
+   },
+   {
+    "id": "ch14_d7_08",
+    "role": "H",
+    "de": "Deshalb lerne ich Deutsch.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Поэтому я учу немецкий.",
+    "nouns": [
+     {
+      "lemma": "Deutsch",
+      "art": "das",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Deshalb",
+       "role": "когда"
+      },
+      {
+       "w": "lerne",
+       "role": "действие №2"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "Deutsch",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Deshalb — «поэтому»: результат. Действие сразу за ним, потом ich.",
+     "topic": "word_order",
+     "why_de": "Deshalb lerne ich Deutsch. — deshalb («поэтому») стоит первым, и действие сразу за ним: lerne, потом ich. Это результат: сначала причина, потом «поэтому».",
+     "why_ru": "«Поэтому я учу немецкий» — порядок слов тот же: поэтому, я, учу. По-немецки действие второе: после deshalb сразу lerne, и только потом ich.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Deshalb ich lerne Deutsch.",
+      "ru": "Ошибка — ich встал перед действием. После deshalb сразу идёт действие: lerne ich."
+     },
+     "root": null,
+     "override": "tools/data_ch14.py WHY",
+     "why_voice_ru": "Deshalb — «поэтому»: результат. Действие сразу за ним, потом ich."
+    },
+    "audio": "audio_v1/ch14_d7_08.mp3",
+    "tts": "Deshalb lerne ich Deutsch.",
+    "ipa": [
+     {
+      "w": "Deshalb",
+      "ipa": "[ˈdɛshalp]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "lerne",
+      "ipa": "[ˈlɛʁnə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Deutsch",
+      "ipa": "[dɔɪ̯t͡ʃ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "когда: D… · действие (вагон №2): l… · кто: i… · кого-что: D…",
+    "gap": {
+     "text": "Deshalb ___ ich ___.",
+     "answers": [
+      "lerne",
+      "Deutsch"
+     ]
+    },
+    "task_ru": "Скажи: Поэтому я учу немецкий."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch14_d8",
+  "title_ru": "Говорим и пишем",
+  "roles": {
+   "B": "Frau Becker (хозяйка отеля)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch14_d8_01",
+    "role": "B",
+    "de": "Sprechen Sie Deutsch?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Вы говорите по-немецки?",
+    "nouns": [
+     {
+      "lemma": "Deutsch",
+      "art": "das",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Sprechen",
+       "role": "действие №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "Deutsch",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Вопрос «да/нет»: действие sprechen впереди, в конце вопросительный знак.",
+     "topic": "questions",
+     "why_de": "Действие впереди (Sprechen) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Sprechen Sie Deutsch?",
+     "why_ru": "По-русски «Вы говорите по-немецки» — вопрос только голосом, порядок как в ответе. По-немецки действие Sprechen выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Sie sprechen Deutsch?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Вы говорите по-немецки?!»). Обычный вопрос — действие впереди."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос «да/нет»: действие sprechen впереди, в конце вопросительный знак."
+    },
+    "audio": "audio_v1/ch14_d8_01.mp3",
+    "tts": "Sprechen Sie Deutsch?",
+    "ipa": [
+     {
+      "w": "Sprechen",
+      "ipa": "[ˈʃpʁɛçn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Deutsch",
+      "ipa": "[dɔɪ̯t͡ʃ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): S… · кто: S… · кого-что: D…",
+    "gap": {
+     "text": "___ Sie ___?",
+     "answers": [
+      "Sprechen",
+      "Deutsch"
+     ]
+    },
+    "task_ru": "Скажи: Вы говорите по-немецки?"
+   },
+   {
+    "id": "ch14_d8_02",
+    "role": "H",
+    "de": "Ja, ich spreche Deutsch.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, я говорю по-немецки.",
+    "nouns": [
+     {
+      "lemma": "Deutsch",
+      "art": "das",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "spreche",
+       "role": "действие №2"
+      },
+      {
+       "w": "Deutsch",
+       "role": "кого-что"
+      }
+     ],
+     "text": "ja не занимает вагон. С ich — spreche. Утверждение кончается точкой.",
+     "topic": "verb2",
+     "why_de": "ich · spreche · Deutsch: действие spreche — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Да, я говорю по-немецки» — Ja, ich spreche Deutsch. Разница одна: по-немецки spreche держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ja, ich Deutsch spreche.",
+      "ru": "Действие spreche уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе spreche — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "ja не занимает вагон. С ich — spreche. Утверждение кончается точкой."
+    },
+    "audio": "audio_v1/ch14_d8_02.mp3",
+    "tts": "Ja, ich spreche Deutsch.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "spreche",
+      "ipa": "[ˈʃpʁɛçə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Deutsch",
+      "ipa": "[dɔɪ̯t͡ʃ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: i… · действие (вагон №2): s… · кого-что: D…",
+    "gap": {
+     "text": "Ja, ich ___ ___.",
+     "answers": [
+      "spreche",
+      "Deutsch"
+     ]
+    },
+    "task_ru": "Скажи: Да, я говорю по-немецки."
+   },
+   {
+    "id": "ch14_d8_03",
+    "role": "B",
+    "de": "Haben Sie eine Stelle?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "У вас есть работа?",
+    "nouns": [
+     {
+      "lemma": "Stelle",
+      "art": "die",
+      "pl": "Stellen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Haben",
+       "role": "действие №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "eine Stelle",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Вопрос «да/нет»: действие haben впереди. die Stelle → eine Stelle.",
+     "topic": "questions",
+     "why_de": "Действие впереди (Haben) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Haben Sie eine Stelle?",
+     "why_ru": "По-русски «У вас есть работа» — вопрос только голосом, порядок как в ответе. По-немецки действие Haben выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Sie haben eine Stelle?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («У вас есть работа?!»). Обычный вопрос — действие впереди."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос «да/нет»: действие haben впереди. die Stelle → eine Stelle.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "действие (вагон №1) · «кто» · «что»",
+      "items": [
+       {
+        "id": "ch14_021",
+        "de": "Haben Sie eine Reservierung?",
+        "ru": "У вас есть бронь?",
+        "audio": "audio_v1/ch14_021.mp3",
+        "lesson": "L3",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "eine Stelle",
+         "to": "eine Reservierung"
+        }
+       },
+       {
+        "id": "ch14_026",
+        "de": "Haben Sie ein Doppelzimmer?",
+        "ru": "У вас есть двухместный номер?",
+        "audio": "audio_v1/ch14_026.mp3",
+        "lesson": "L3",
+        "part": 6,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "eine Stelle",
+         "to": "ein Doppelzimmer"
+        }
+       },
+       {
+        "id": "ch14_045",
+        "de": "Haben Sie Erfahrung?",
+        "ru": "У вас есть опыт?",
+        "audio": "audio_v1/ch14_045.mp3",
+        "lesson": "L6",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "eine Stelle",
+         "to": "Erfahrung"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Haben · Sie. В каждом примере меняется один вагон — «что»: eine Stelle → eine Reservierung → ein Doppelzimmer → Erfahrung. Действие Haben всё так же в вагоне №1.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch14_d8_03.mp3",
+    "tts": "Haben Sie eine Stelle?",
+    "ipa": [
+     {
+      "w": "Haben",
+      "ipa": "[ˈhaːbn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "eine",
+      "ipa": "[ˈaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Stelle",
+      "ipa": "[ˈʃtɛlə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): H… · кто: S… · кого-что: e… S…",
+    "gap": {
+     "text": "___ Sie eine ___?",
+     "answers": [
+      "Haben",
+      "Stelle"
+     ]
+    },
+    "task_ru": "Скажи: У вас есть работа?"
+   },
+   {
+    "id": "ch14_d8_04",
+    "role": "H",
+    "de": "Ja, ich habe eine Stelle.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, у меня есть работа.",
+    "nouns": [
+     {
+      "lemma": "Stelle",
+      "art": "die",
+      "pl": "Stellen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "действие №2"
+      },
+      {
+       "w": "eine Stelle",
+       "role": "кого-что"
+      }
+     ],
+     "text": "ja не занимает вагон. ich · habe · eine Stelle — «я имею работу».",
+     "topic": "verb2",
+     "why_de": "ich · habe · eine Stelle: действие habe — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски тут «у меня» и «есть»: «я» спрятан в «у меня». По-немецки говорят «я имею» — ich habe. Поэтому ich нужен: Ja, ich habe eine Stelle.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ja, habe eine Stelle.",
+      "ru": "По-русски «у меня» — не «я», поэтому хочется начать без ich. По-немецки без ich фраза обрывается."
+     },
+     "root": null,
+     "why_voice_ru": "ja не занимает вагон. ich · habe · eine Stelle — «я имею работу».",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «что»",
+      "items": [
+       {
+        "id": "ch14_d3_02",
+        "de": "Ja, ich habe eine Reservierung.",
+        "ru": "Да, у меня бронь.",
+        "audio": "audio_v1/ch14_d3_02.mp3",
+        "lesson": "L3",
+        "part": 4,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "eine Stelle",
+         "to": "eine Reservierung"
+        }
+       },
+       {
+        "id": "ch14_d6_04",
+        "de": "Ja, ich habe Erfahrung.",
+        "ru": "Да, у меня есть опыт.",
+        "audio": "audio_v1/ch14_d6_04.mp3",
+        "lesson": "L6",
+        "part": 4,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "eine Stelle",
+         "to": "Erfahrung"
+        }
+       },
+       {
+        "id": "ch14_d6_06",
+        "de": "Ja, ich habe eine Frage.",
+        "ru": "Да, у меня есть вопрос.",
+        "audio": "audio_v1/ch14_d6_06.mp3",
+        "lesson": "L6",
+        "part": 4,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "eine Stelle",
+         "to": "eine Frage"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: ich · habe. В каждом примере меняется один вагон — «что»: eine Stelle → eine Reservierung → Erfahrung → eine Frage. Действие habe всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch14_d8_04.mp3",
+    "tts": "Ja, ich habe eine Stelle.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "eine",
+      "ipa": "[ˈaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Stelle",
+      "ipa": "[ˈʃtɛlə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: i… · действие (вагон №2): h… · кого-что: e… S…",
+    "gap": {
+     "text": "Ja, ich ___ eine ___.",
+     "answers": [
+      "habe",
+      "Stelle"
+     ]
+    },
+    "task_ru": "Скажи: Да, у меня есть работа."
+   },
+   {
+    "id": "ch14_d8_05",
+    "role": "B",
+    "de": "Schreiben Sie eine Nachricht?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Вы пишете сообщение?",
+    "nouns": [
+     {
+      "lemma": "Nachricht",
+      "art": "die",
+      "pl": "Nachrichten"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Schreiben",
+       "role": "действие №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "eine Nachricht",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Вопрос «да/нет»: действие schreiben впереди, в конце вопросительный знак. die Nachricht → eine Nachricht.",
+     "topic": "questions",
+     "why_de": "Действие впереди (Schreiben) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Schreiben Sie eine Nachricht?",
+     "why_ru": "По-русски «Вы пишете сообщение» — вопрос только голосом, порядок как в ответе. По-немецки действие Schreiben выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Sie schreiben eine Nachricht?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Вы пишете сообщение?!»). Обычный вопрос — действие впереди."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос «да/нет»: действие schreiben впереди, в конце вопросительный знак. die Nachricht → eine Nachricht.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "действие (вагон №1) · «кто» · «что»",
+      "items": [
+       {
+        "id": "ch14_048",
+        "de": "Schreiben Sie eine E-Mail.",
+        "ru": "Напишите электронное письмо.",
+        "audio": "audio_v1/ch14_048.mp3",
+        "lesson": "L6",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "eine Nachricht",
+         "to": "eine E-Mail"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Schreiben · Sie. В каждом примере меняется один вагон — «что»: eine Nachricht → eine E-Mail. Действие Schreiben всё так же в вагоне №1.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch14_d8_05.mp3",
+    "tts": "Schreiben Sie eine Nachricht?",
+    "ipa": [
+     {
+      "w": "Schreiben",
+      "ipa": "[ˈʃʁaɪ̯bn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "eine",
+      "ipa": "[ˈaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Nachricht",
+      "ipa": "[ˈnaːxˌʁɪçt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): S… · кто: S… · кого-что: e… N…",
+    "gap": {
+     "text": "___ Sie eine ___?",
+     "answers": [
+      "Schreiben",
+      "Nachricht"
+     ]
+    },
+    "task_ru": "Скажи: Вы пишете сообщение?"
+   },
+   {
+    "id": "ch14_d8_06",
+    "role": "H",
+    "de": "Ja, ich schreibe eine Nachricht.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, я пишу сообщение.",
+    "nouns": [
+     {
+      "lemma": "Nachricht",
+      "art": "die",
+      "pl": "Nachrichten"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "schreibe",
+       "role": "действие №2"
+      },
+      {
+       "w": "eine Nachricht",
+       "role": "кого-что"
+      }
+     ],
+     "text": "ja не занимает вагон. С ich — schreibe. Утверждение кончается точкой.",
+     "topic": "verb2",
+     "why_de": "ich · schreibe · eine Nachricht: действие schreibe — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Да, я пишу сообщение» — Ja, ich schreibe eine Nachricht. Разница одна: по-немецки schreibe держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ja, ich eine Nachricht schreibe.",
+      "ru": "Действие schreibe уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе schreibe — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "ja не занимает вагон. С ich — schreibe. Утверждение кончается точкой."
+    },
+    "audio": "audio_v1/ch14_d8_06.mp3",
+    "tts": "Ja, ich schreibe eine Nachricht.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schreibe",
+      "ipa": "[ˈʃʁaɪ̯bə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "eine",
+      "ipa": "[ˈaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Nachricht",
+      "ipa": "[ˈnaːxˌʁɪçt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: i… · действие (вагон №2): s… · кого-что: e… N…",
+    "gap": {
+     "text": "Ja, ich ___ eine ___.",
+     "answers": [
+      "schreibe",
+      "Nachricht"
+     ]
+    },
+    "task_ru": "Скажи: Да, я пишу сообщение."
+   },
+   {
+    "id": "ch14_d8_07",
+    "role": "B",
+    "de": "Und wo wohnen Sie?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А где вы живёте?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "wo",
+       "role": "вопрос-слово",
+       "asks": "где"
+      },
+      {
+       "w": "wohnen",
+       "role": "действие №2"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      }
+     ],
+     "text": "Und не занимает вагон. wo — вопрос-слово, за ним действие wohnen, потом Sie.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово wo — вагон №1, действие wohnen — сразу за ним, вагон №2: Und wo wohnen Sie? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «А где вы живёте» можно сказать и в другом порядке. По-немецки порядок один: wo · wohnen · Sie.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Und wo Sie wohnen?",
+      "ru": "Sie встал перед wohnen — действие ушло из вагона №2. После wo немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "Und не занимает вагон. wo — вопрос-слово, за ним действие wohnen, потом Sie.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "вопрос-слово · действие (вагон №2) · «кто»",
+      "items": [
+       {
+        "id": "ch14_d1_06",
+        "de": "Und wo arbeiten Sie?",
+        "ru": "А где работаете вы?",
+        "audio": "audio_v1/ch14_d1_06.mp3",
+        "lesson": "L1",
+        "part": 4,
+        "changed": {
+         "role": "действие №2",
+         "wagon": 2,
+         "from": "wohnen",
+         "to": "arbeiten"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: wo · Sie. В каждом примере меняется один вагон — действие (вагон №2): wohnen → arbeiten.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch14_d8_07.mp3",
+    "tts": "Und wo wohnen Sie?",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wo",
+      "ipa": "[voː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wohnen",
+      "ipa": "[ˈvoːnən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · вопрос-слово: w… · действие (вагон №2): w… · кто: S…",
+    "gap": {
+     "text": "Und wo ___ Sie?",
+     "answers": [
+      "wohnen"
+     ]
+    },
+    "task_ru": "Скажи: А где вы живёте?"
+   },
+   {
+    "id": "ch14_d8_08",
+    "role": "H",
+    "de": "Ich wohne hier.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я живу здесь.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "wohne",
+       "role": "действие №2"
+      },
+      {
+       "w": "hier",
+       "role": "где"
+      }
+     ],
+     "text": "С ich — wohne. hier — «где?».",
+     "topic": "verb2",
+     "why_de": "Ich · wohne · hier: действие wohne — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я живу здесь» — Ich wohne hier. Разница одна: по-немецки wohne держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich hier wohne.",
+      "ru": "Действие wohne уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе wohne — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "С ich — wohne. hier — «где?»."
+    },
+    "audio": "audio_v1/ch14_d8_08.mp3",
+    "tts": "Ich wohne hier.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wohne",
+      "ipa": "[ˈvoːnə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hier",
+      "ipa": "[hiːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): w… · где: h…",
+    "gap": {
+     "text": "Ich ___ ___.",
+     "answers": [
+      "wohne",
+      "hier"
+     ]
+    },
+    "task_ru": "Скажи: Я живу здесь."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch14_d9",
+  "title_ru": "Mein Deutsch",
+  "roles": {
+   "B": "Frau Becker (хозяйка отеля)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch14_d9_01",
+    "role": "B",
+    "de": "Woher kommen Sie?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Откуда вы?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Woher",
+       "role": "вопрос-слово",
+       "asks": "откуда"
+      },
+      {
+       "w": "kommen",
+       "role": "действие №2"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      }
+     ],
+     "text": "woher — «откуда». Вопрос-слово, потом действие kommen, потом Sie.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Woher — вагон №1, действие kommen — сразу за ним, вагон №2: Woher kommen Sie? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Откуда вы» можно сказать и в другом порядке. По-немецки порядок один: Woher · kommen · Sie. Действия kommen в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Woher Sie kommen?",
+      "ru": "Sie встал перед kommen — действие ушло из вагона №2. После Woher немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "woher — «откуда». Вопрос-слово, потом действие kommen, потом Sie."
+    },
+    "audio": "audio_v1/ch14_d9_01.mp3",
+    "tts": "Woher kommen Sie?",
+    "ipa": [
+     {
+      "w": "Woher",
+      "ipa": "[voˈheːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kommen",
+      "ipa": "[ˈkɔmən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): k… · кто: S…",
+    "gap": {
+     "text": "Woher ___ Sie?",
+     "answers": [
+      "kommen"
+     ]
+    },
+    "task_ru": "Скажи: Откуда вы?"
+   },
+   {
+    "id": "ch14_d9_02",
+    "role": "H",
+    "de": "Ich komme aus der Ukraine.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я родом из Украины.",
+    "nouns": [
+     {
+      "lemma": "Ukraine",
+      "art": "die",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "komme",
+       "role": "действие №2"
+      },
+      {
+       "w": "aus der Ukraine",
+       "role": "откуда"
+      }
+     ],
+     "text": "С ich — komme. aus der Ukraine — «из Украины»: после aus die превращается в der.",
+     "topic": "articles",
+     "why_de": "Ich · komme · aus der Ukraine: действие komme — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я родом из Украины» — Ich komme aus der Ukraine. Разница одна: по-немецки komme держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich aus der Ukraine komme.",
+      "ru": "Действие komme уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе komme — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "С ich — komme. aus der Ukraine — «из Украины»: после aus die превращается в der."
+    },
+    "audio": "audio_v1/ch14_d9_02.mp3",
+    "tts": "Ich komme aus der Ukraine.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "komme",
+      "ipa": "[ˈkɔmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "aus",
+      "ipa": "[aʊ̯s]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ukraine",
+      "ipa": "[ˌukʁaˈiːnə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): k… · откуда: a… d… U…",
+    "gap": {
+     "text": "Ich ___ aus der Ukraine.",
+     "answers": [
+      "komme"
+     ]
+    },
+    "task_ru": "Скажи: Я родом из Украины."
+   },
+   {
+    "id": "ch14_d9_03",
+    "role": "B",
+    "de": "Arbeiten Sie seit einem Jahr hier?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Вы работаете здесь уже год?",
+    "nouns": [
+     {
+      "lemma": "Jahr",
+      "art": "das",
+      "pl": "Jahre"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Arbeiten",
+       "role": "действие №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "seit einem Jahr",
+       "role": "когда"
+      },
+      {
+       "w": "hier",
+       "role": "где"
+      }
+     ],
+     "text": "Вопрос «да/нет»: действие arbeiten впереди. seit einem Jahr — «уже год».",
+     "topic": "questions",
+     "why_de": "Действие впереди (Arbeiten) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Arbeiten Sie seit einem Jahr hier?",
+     "why_ru": "По-русски «Вы работаете здесь уже год» — вопрос только голосом, порядок как в ответе. По-немецки действие Arbeiten выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Sie arbeiten seit einem Jahr hier?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Вы работаете здесь уже год?!»). Обычный вопрос — действие впереди."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос «да/нет»: действие arbeiten впереди. seit einem Jahr — «уже год»."
+    },
+    "audio": "audio_v1/ch14_d9_03.mp3",
+    "tts": "Arbeiten Sie seit einem Jahr hier?",
+    "ipa": [
+     {
+      "w": "Arbeiten",
+      "ipa": "[ˈaʁbaɪ̯tn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "seit",
+      "ipa": "[zaɪ̯t]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "einem",
+      "ipa": "[ˈaɪ̯nəm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Jahr",
+      "ipa": "[jaːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hier",
+      "ipa": "[hiːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): A… · кто: S… · когда: s… e… J… · где: h…",
+    "gap": {
+     "text": "___ Sie seit einem Jahr ___?",
+     "answers": [
+      "Arbeiten",
+      "hier"
+     ]
+    },
+    "task_ru": "Скажи: Вы работаете здесь уже год?"
+   },
+   {
+    "id": "ch14_d9_04",
+    "role": "H",
+    "de": "Nein, ich arbeite seit einem Monat hier.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Нет, я работаю здесь уже месяц.",
+    "nouns": [
+     {
+      "lemma": "Monat",
+      "art": "der",
+      "pl": "Monate"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Nein",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "arbeite",
+       "role": "действие №2"
+      },
+      {
+       "w": "seit einem Monat",
+       "role": "когда"
+      },
+      {
+       "w": "hier",
+       "role": "где"
+      }
+     ],
+     "text": "nein не занимает вагон. С ich — arbeite. seit einem Monat — «уже месяц».",
+     "topic": "articles",
+     "why_de": "ich · arbeite · seit einem Monat · hier: действие arbeite — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Нет, я работаю здесь уже месяц» — Nein, ich arbeite seit einem Monat hier. Разница одна: по-немецки arbeite держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Nein, ich seit einem Monat hier arbeite.",
+      "ru": "Действие arbeite уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе arbeite — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "nein не занимает вагон. С ich — arbeite. seit einem Monat — «уже месяц»."
+    },
+    "audio": "audio_v1/ch14_d9_04.mp3",
+    "tts": "Nein, ich arbeite seit einem Monat hier.",
+    "ipa": [
+     {
+      "w": "Nein",
+      "ipa": "[naɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "arbeite",
+      "ipa": "[ˈaʁbaɪ̯tə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "seit",
+      "ipa": "[zaɪ̯t]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "einem",
+      "ipa": "[ˈaɪ̯nəm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Monat",
+      "ipa": "[ˈmoːnat]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hier",
+      "ipa": "[hiːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: N… · кто: i… · действие (вагон №2): a… · когда: s… e… M… · где: h…",
+    "gap": {
+     "text": "Nein, ich ___ seit einem Monat ___.",
+     "answers": [
+      "arbeite",
+      "hier"
+     ]
+    },
+    "task_ru": "Скажи: Нет, я работаю здесь уже месяц."
+   },
+   {
+    "id": "ch14_d9_05",
+    "role": "B",
+    "de": "Arbeiten Sie mit dem Computer?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Вы работаете с компьютером?",
+    "nouns": [
+     {
+      "lemma": "Computer",
+      "art": "der",
+      "pl": "Computer"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Arbeiten",
+       "role": "действие №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "mit dem Computer",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет»: действие впереди. mit dem Computer — «с компьютером».",
+     "topic": "questions",
+     "why_de": "Действие впереди (Arbeiten) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Arbeiten Sie mit dem Computer?",
+     "why_ru": "По-русски «Вы работаете с компьютером» — вопрос только голосом, порядок как в ответе. По-немецки действие Arbeiten выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Sie arbeiten mit dem Computer?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Вы работаете с компьютером?!»). Обычный вопрос — действие впереди."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос «да/нет»: действие впереди. mit dem Computer — «с компьютером»."
+    },
+    "audio": "audio_v1/ch14_d9_05.mp3",
+    "tts": "Arbeiten Sie mit dem Computer?",
+    "ipa": [
+     {
+      "w": "Arbeiten",
+      "ipa": "[ˈaʁbaɪ̯tn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mit",
+      "ipa": "[mɪt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "dem",
+      "ipa": "[deːm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Computer",
+      "ipa": "[kɔmˈpjuːtɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): A… · кто: S… · хвост действия: m… d… C…",
+    "gap": {
+     "text": "___ Sie mit dem Computer?",
+     "answers": [
+      "Arbeiten"
+     ]
+    },
+    "task_ru": "Скажи: Вы работаете с компьютером?"
+   },
+   {
+    "id": "ch14_d9_06",
+    "role": "H",
+    "de": "Ja, wir arbeiten mit dem Computer.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, мы работаем с компьютером.",
+    "nouns": [
+     {
+      "lemma": "Computer",
+      "art": "der",
+      "pl": "Computer"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "wir",
+       "role": "кто"
+      },
+      {
+       "w": "arbeiten",
+       "role": "действие №2"
+      },
+      {
+       "w": "mit dem Computer",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "ja не занимает вагон. С wir — arbeiten, хвост -en.",
+     "topic": "verb2",
+     "why_de": "wir · arbeiten · mit dem Computer: действие arbeiten — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Да, мы работаем с компьютером» — Ja, wir arbeiten mit dem Computer. Разница одна: по-немецки arbeiten держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ja, wir mit dem Computer arbeiten.",
+      "ru": "Действие arbeiten уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе arbeiten — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "ja не занимает вагон. С wir — arbeiten, хвост -en."
+    },
+    "audio": "audio_v1/ch14_d9_06.mp3",
+    "tts": "Ja, wir arbeiten mit dem Computer.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wir",
+      "ipa": "[viːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "arbeiten",
+      "ipa": "[ˈaʁbaɪ̯tn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mit",
+      "ipa": "[mɪt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "dem",
+      "ipa": "[deːm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Computer",
+      "ipa": "[kɔmˈpjuːtɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: w… · действие (вагон №2): a… · хвост действия: m… d… C…",
+    "gap": {
+     "text": "Ja, wir ___ mit dem Computer.",
+     "answers": [
+      "arbeiten"
+     ]
+    },
+    "task_ru": "Скажи: Да, мы работаем с компьютером."
+   },
+   {
+    "id": "ch14_d9_07",
+    "role": "B",
+    "de": "Haben Sie eine Pause?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "У вас есть перерыв?",
+    "nouns": [
+     {
+      "lemma": "Pause",
+      "art": "die",
+      "pl": "Pausen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Haben",
+       "role": "действие №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "eine Pause",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Вопрос «да/нет»: действие haben впереди. die Pause → eine Pause.",
+     "topic": "questions",
+     "why_de": "Действие впереди (Haben) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Haben Sie eine Pause?",
+     "why_ru": "По-русски «У вас есть перерыв» — вопрос только голосом, порядок как в ответе. По-немецки действие Haben выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Sie haben eine Pause?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («У вас есть перерыв?!»). Обычный вопрос — действие впереди."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос «да/нет»: действие haben впереди. die Pause → eine Pause.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "действие (вагон №1) · «кто» · «что»",
+      "items": [
+       {
+        "id": "ch14_021",
+        "de": "Haben Sie eine Reservierung?",
+        "ru": "У вас есть бронь?",
+        "audio": "audio_v1/ch14_021.mp3",
+        "lesson": "L3",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "eine Pause",
+         "to": "eine Reservierung"
+        }
+       },
+       {
+        "id": "ch14_026",
+        "de": "Haben Sie ein Doppelzimmer?",
+        "ru": "У вас есть двухместный номер?",
+        "audio": "audio_v1/ch14_026.mp3",
+        "lesson": "L3",
+        "part": 6,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "eine Pause",
+         "to": "ein Doppelzimmer"
+        }
+       },
+       {
+        "id": "ch14_045",
+        "de": "Haben Sie Erfahrung?",
+        "ru": "У вас есть опыт?",
+        "audio": "audio_v1/ch14_045.mp3",
+        "lesson": "L6",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "eine Pause",
+         "to": "Erfahrung"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Haben · Sie. В каждом примере меняется один вагон — «что»: eine Pause → eine Reservierung → ein Doppelzimmer → Erfahrung. Действие Haben всё так же в вагоне №1.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch14_d9_07.mp3",
+    "tts": "Haben Sie eine Pause?",
+    "ipa": [
+     {
+      "w": "Haben",
+      "ipa": "[ˈhaːbn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "eine",
+      "ipa": "[ˈaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Pause",
+      "ipa": "[ˈpaʊ̯zə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): H… · кто: S… · кого-что: e… P…",
+    "gap": {
+     "text": "___ Sie eine ___?",
+     "answers": [
+      "Haben",
+      "Pause"
+     ]
+    },
+    "task_ru": "Скажи: У вас есть перерыв?"
+   },
+   {
+    "id": "ch14_d9_08",
+    "role": "H",
+    "de": "Nein, ich arbeite ohne Pause.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Нет, я работаю без перерыва.",
+    "nouns": [
+     {
+      "lemma": "Pause",
+      "art": "die",
+      "pl": "Pausen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Nein",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "arbeite",
+       "role": "действие №2"
+      },
+      {
+       "w": "ohne Pause",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "nein не занимает вагон. ohne — «без»: ohne Pause — «без перерыва».",
+     "topic": "verb2",
+     "why_de": "ich · arbeite · ohne Pause: действие arbeite — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Нет, я работаю без перерыва» — Nein, ich arbeite ohne Pause. Разница одна: по-немецки arbeite держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Nein, ich ohne Pause arbeite.",
+      "ru": "Действие arbeite уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе arbeite — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "nein не занимает вагон. ohne — «без»: ohne Pause — «без перерыва»."
+    },
+    "audio": "audio_v1/ch14_d9_08.mp3",
+    "tts": "Nein, ich arbeite ohne Pause.",
+    "ipa": [
+     {
+      "w": "Nein",
+      "ipa": "[naɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "arbeite",
+      "ipa": "[ˈaʁbaɪ̯tə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ohne",
+      "ipa": "[ˈoːnə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Pause",
+      "ipa": "[ˈpaʊ̯zə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: N… · кто: i… · действие (вагон №2): a… · хвост действия: o… P…",
+    "gap": {
+     "text": "Nein, ich ___ ohne Pause.",
+     "answers": [
+      "arbeite"
+     ]
+    },
+    "task_ru": "Скажи: Нет, я работаю без перерыва."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ }
+]

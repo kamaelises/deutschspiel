@@ -1,0 +1,3782 @@
+[
+ {
+  "item_id": "ch10_L1_words_1",
+  "id": "ch10_L1_words_1",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_001",
+  "prompt": "Что значит «gekommen»?",
+  "answer": "приехал",
+  "distractors": [
+   "поехал",
+   "жил"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L1_words_2",
+  "id": "ch10_L1_words_2",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_003",
+  "prompt": "Что значит «gefahren»?",
+  "answer": "поехали",
+  "distractors": [
+   "приехали",
+   "жили"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L1_words_3",
+  "id": "ch10_L1_words_3",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_005",
+  "prompt": "Что значит «gewohnt»?",
+  "answer": "жил",
+  "distractors": [
+   "приехал",
+   "поехал"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L1_words_4",
+  "id": "ch10_L1_words_4",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_003",
+  "prompt": "Что значит «nach Freiberg»?",
+  "answer": "во Фрайберг",
+  "distractors": [
+   "из Фрайберга",
+   "во Фрайберге"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L1_words_5",
+  "id": "ch10_L1_words_5",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_004",
+  "prompt": "Кому говорят «Seid ihr …?»",
+  "answer": "двоим и больше, с кем ты на «ты»",
+  "distractors": [
+   "одному человеку на «вы»",
+   "одному другу"
+  ],
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L1_listen_1",
+  "id": "ch10_L1_listen_1",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d1_01",
+  "prompt": "Послушай. Что спросил Ахмад?",
+  "answer": "Откуда ты приехал?",
+  "distractors": [
+   "Где ты жил?",
+   "Вы поехали в Дрезден?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d1_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L1_listen_2",
+  "id": "ch10_L1_listen_2",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d1_03",
+  "prompt": "Послушай. Что сказал Ахмад?",
+  "answer": "Я приехал из Сирии.",
+  "distractors": [
+   "Я жил в Сирии.",
+   "Мы поехали в Сирию."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d1_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L1_listen_3",
+  "id": "ch10_L1_listen_3",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d1_04",
+  "prompt": "Послушай. Что спросил Ахмад?",
+  "answer": "Где ты жил?",
+  "distractors": [
+   "Откуда ты приехал?",
+   "Где ты живёшь?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d1_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L1_listen_4",
+  "id": "ch10_L1_listen_4",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d1_05",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Я жил в Киеве.",
+  "distractors": [
+   "Я приехал из Киева.",
+   "Я живу в Киеве."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d1_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L1_listen_5",
+  "id": "ch10_L1_listen_5",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d1_07",
+  "prompt": "Послушай. Что ответила Ольга?",
+  "answer": "Нет, мы поехали во Фрайберг.",
+  "distractors": [
+   "Нет, мы поехали в Дрезден.",
+   "Да, мы живём во Фрайберге."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d1_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L1_read_1",
+  "id": "ch10_L1_read_1",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_001",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я приехал из Украины.",
+  "distractors": [
+   "Мы поехали во Фрайберг.",
+   "Я жил в Киеве."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich bin aus der Ukraine gekommen."
+ },
+ {
+  "item_id": "ch10_L1_read_2",
+  "id": "ch10_L1_read_2",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_002",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Откуда ты приехал?",
+  "distractors": [
+   "Где ты жил?",
+   "Куда ты поехал?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Woher bist du gekommen?"
+ },
+ {
+  "item_id": "ch10_L1_read_3",
+  "id": "ch10_L1_read_3",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_003",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Мы поехали во Фрайберг.",
+  "distractors": [
+   "Мы приехали из Фрайберга.",
+   "Мы жили во Фрайберге."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wir sind nach Freiberg gefahren."
+ },
+ {
+  "item_id": "ch10_L1_read_4",
+  "id": "ch10_L1_read_4",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_004",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Вы поехали в Дрезден?",
+  "distractors": [
+   "Вы приехали из Дрездена?",
+   "Вы жили в Дрездене?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Seid ihr nach Dresden gefahren?"
+ },
+ {
+  "item_id": "ch10_L1_read_5",
+  "id": "ch10_L1_read_5",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_005",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я жил в Киеве.",
+  "distractors": [
+   "Я приехал из Киева.",
+   "Я поехал в Киев."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe in Kiew gewohnt."
+ },
+ {
+  "item_id": "ch10_L1_speak_1",
+  "id": "ch10_L1_speak_1",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_002",
+  "prompt": "Спроси Ахмада: «Откуда ты приехал?»",
+  "answer": "Woher bist du gekommen?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_002.mp3",
+  "de": null,
+  "accept": [
+   "Woher bist du gekommen?"
+  ]
+ },
+ {
+  "item_id": "ch10_L1_speak_2",
+  "id": "ch10_L1_speak_2",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_001",
+  "prompt": "Ответь Ахмаду: «Я приехал из Украины.»",
+  "answer": "Ich bin aus der Ukraine gekommen.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_001.mp3",
+  "de": null,
+  "accept": [
+   "Ich bin aus der Ukraine gekommen."
+  ]
+ },
+ {
+  "item_id": "ch10_L1_speak_3",
+  "id": "ch10_L1_speak_3",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_005",
+  "prompt": "Скажи: «Я жил в Киеве.»",
+  "answer": "Ich habe in Kiew gewohnt.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_005.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe in Kiew gewohnt."
+  ]
+ },
+ {
+  "item_id": "ch10_L1_speak_4",
+  "id": "ch10_L1_speak_4",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_003",
+  "prompt": "Скажи за себя и Ольгу: «Мы поехали во Фрайберг.»",
+  "answer": "Wir sind nach Freiberg gefahren.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_003.mp3",
+  "de": null,
+  "accept": [
+   "Wir sind nach Freiberg gefahren."
+  ]
+ },
+ {
+  "item_id": "ch10_L1_speak_5",
+  "id": "ch10_L1_speak_5",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_004",
+  "prompt": "Спроси Ольгу и Софью сразу: «Вы поехали в Дрезден?»",
+  "answer": "Seid ihr nach Dresden gefahren?",
+  "distractors": null,
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": "audio_v1/ch10_004.mp3",
+  "de": null,
+  "accept": [
+   "Seid ihr nach Dresden gefahren?"
+  ]
+ },
+ {
+  "item_id": "ch10_L1_write_1",
+  "id": "ch10_L1_write_1",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_001",
+  "prompt": "Впиши: «Ich ___ aus der Ukraine gekommen.» (помощник для ich)",
+  "answer": "bin",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch10_001.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L1_write_2",
+  "id": "ch10_L1_write_2",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_002",
+  "prompt": "Впиши: «Woher ___ du gekommen?» (помощник для du)",
+  "answer": "bist",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch10_002.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L1_write_3",
+  "id": "ch10_L1_write_3",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_003",
+  "prompt": "Впиши: «Wir sind nach Freiberg ___.» (поехали)",
+  "answer": "gefahren",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_003.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L1_write_4",
+  "id": "ch10_L1_write_4",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_005",
+  "prompt": "Впиши: «Ich ___ in Kiew gewohnt.» (помощник: перемещения нет)",
+  "answer": "habe",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch10_005.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L1_write_5",
+  "id": "ch10_L1_write_5",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_004",
+  "prompt": "Впиши: «___ ihr nach Dresden gefahren?» (помощник для ihr)",
+  "answer": "Seid",
+  "distractors": null,
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": "audio_v1/ch10_004.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L1_why_1",
+  "id": "ch10_L1_why_1",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_001",
+  "prompt": "Почему в прошлом два слова: «bin» и «gekommen»?",
+  "answer": "Помощник bin — в вагоне №2, а gekommen уезжает в самый конец.",
+  "distractors": [
+   "gekommen — это название места, как Ukraine.",
+   "Помощник bin — в вагоне №3, а gekommen уезжает в самый конец."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich bin aus der Ukraine gekommen."
+ },
+ {
+  "item_id": "ch10_L1_why_2",
+  "id": "ch10_L1_why_2",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_001",
+  "prompt": "Почему «bin gekommen», а не «habe gekommen»?",
+  "answer": "Сам переместился — помощник bin.",
+  "distractors": [
+   "bin вежливее, чем habe.",
+   "habe говорят только в вопросе."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich bin aus der Ukraine gekommen."
+ },
+ {
+  "item_id": "ch10_L1_why_3",
+  "id": "ch10_L1_why_3",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_005",
+  "prompt": "Почему «habe gewohnt», а не «bin gewohnt»?",
+  "answer": "Жил на месте, перемещения нет — помощник habe.",
+  "distractors": [
+   "habe ставят перед названием города.",
+   "Жил на месте, перемещения нет — помощник bin."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe in Kiew gewohnt."
+ },
+ {
+  "item_id": "ch10_L1_why_4",
+  "id": "ch10_L1_why_4",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_002",
+  "prompt": "Почему «bist» стоит сразу после «Woher»?",
+  "answer": "За вопрос-словом идёт помощник: с du — bist.",
+  "distractors": [
+   "За слово «да/нет»м идёт помощник: с du — bist.",
+   "После woher ставят слово на -st."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Woher bist du gekommen?"
+ },
+ {
+  "item_id": "ch10_L1_why_5",
+  "id": "ch10_L1_why_5",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_004",
+  "prompt": "Почему «Seid» стоит первым?",
+  "answer": "Вопрос «да/нет»: помощник впереди.",
+  "distractors": [
+   "Seid — это имя.",
+   "С ihr фразу начинают с буквы S."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Seid ihr nach Dresden gefahren?"
+ },
+ {
+  "item_id": "ch10_L1_transfer_1",
+  "id": "ch10_L1_transfer_1",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_t01",
+  "prompt": "Ахмад спросил тебя и Ольгу, откуда вы. Ответь за двоих: «Мы приехали из Украины.»",
+  "answer": "Wir sind aus der Ukraine gekommen.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch10_t01.mp3",
+  "de": null,
+  "accept": [
+   "Wir sind aus der Ukraine gekommen."
+  ]
+ },
+ {
+  "item_id": "ch10_L1_transfer_2",
+  "id": "ch10_L1_transfer_2",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_t02",
+  "prompt": "Вчера ты ездил в Дрезден. Скажи Ахмаду: «Я поехал в Дрезден.»",
+  "answer": "Ich bin nach Dresden gefahren.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch10_t02.mp3",
+  "de": null,
+  "accept": [
+   "Ich bin nach Dresden gefahren."
+  ]
+ },
+ {
+  "item_id": "ch10_L1_transfer_3",
+  "id": "ch10_L1_transfer_3",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_t02",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Я поехал в Дрезден.",
+  "distractors": [
+   "Я приехал из Дрездена.",
+   "Я жил в Дрездене."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch10_t02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L1_transfer_4",
+  "id": "ch10_L1_transfer_4",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_t02",
+  "prompt": "Впиши город: «Ich bin nach ___ gefahren.» (Дрезден)",
+  "answer": "Dresden",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch10_t02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L1_transfer_5",
+  "id": "ch10_L1_transfer_5",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_t02",
+  "prompt": "Почему «bin gefahren», а не «habe gefahren»?",
+  "answer": "Сам переместился — помощник bin.",
+  "distractors": [
+   "bin ставят перед словом nach.",
+   "habe говорят только про Киев."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": null,
+  "de": "Ich bin nach Dresden gefahren."
+ },
+ {
+  "item_id": "ch10_L1_boss_1",
+  "id": "ch10_L1_boss_1",
+  "lesson": "ch10_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d1_02",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Я приехал из Украины. А ты?",
+  "distractors": [
+   "Я жил в Украине. А ты?",
+   "Мы поехали во Фрайберг. А ты?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d1_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L2_words_1",
+  "id": "ch10_L2_words_1",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_013",
+  "prompt": "Что значит «gemacht»?",
+  "answer": "делал",
+  "distractors": [
+   "учил",
+   "работал"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L2_words_2",
+  "id": "ch10_L2_words_2",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_014",
+  "prompt": "Что значит «gearbeitet»?",
+  "answer": "работал",
+  "distractors": [
+   "делал",
+   "учил"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L2_words_3",
+  "id": "ch10_L2_words_3",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_016",
+  "prompt": "Что значит «gelernt»?",
+  "answer": "учил",
+  "distractors": [
+   "работал",
+   "ел"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L2_words_4",
+  "id": "ch10_L2_words_4",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_021",
+  "prompt": "Что значит «getrunken»?",
+  "answer": "пил",
+  "distractors": [
+   "ел",
+   "делал"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L2_words_5",
+  "id": "ch10_L2_words_5",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_017",
+  "prompt": "Что значит «schon» в вопросе «Hast du schon gearbeitet?»",
+  "answer": "уже",
+  "distractors": [
+   "ещё",
+   "тоже"
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L2_listen_1",
+  "id": "ch10_L2_listen_1",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d2_01",
+  "prompt": "Послушай. Что спросила Софья?",
+  "answer": "Что ты делал в Киеве?",
+  "distractors": [
+   "Где ты жил в Киеве?",
+   "Ты уже работал в Киеве?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d2_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L2_listen_2",
+  "id": "ch10_L2_listen_2",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d2_02",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Я работал в Киеве.",
+  "distractors": [
+   "Я жил в Киеве.",
+   "Я учил немецкий в Киеве."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d2_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L2_listen_3",
+  "id": "ch10_L2_listen_3",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d2_03",
+  "prompt": "Послушай. Что спросила Софья?",
+  "answer": "Ты уже учил немецкий?",
+  "distractors": [
+   "Ты уже работал?",
+   "Ты ещё не учил немецкий?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d2_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L2_listen_4",
+  "id": "ch10_L2_listen_4",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d2_05",
+  "prompt": "Послушай. Что сказала Софья?",
+  "answer": "Нет, я ещё не работала.",
+  "distractors": [
+   "Да, я уже работала.",
+   "Нет, я не учила немецкий."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d2_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L2_listen_5",
+  "id": "ch10_L2_listen_5",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d2_07",
+  "prompt": "Послушай. Что ела Софья?",
+  "answer": "Только пирог.",
+  "distractors": [
+   "Только брецель.",
+   "Пирог и брецель."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d2_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L2_read_1",
+  "id": "ch10_L2_read_1",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_013",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Что ты делал?",
+  "distractors": [
+   "Что ты пил?",
+   "Где ты работал?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Was hast du gemacht?"
+ },
+ {
+  "item_id": "ch10_L2_read_2",
+  "id": "ch10_L2_read_2",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_014",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я работал.",
+  "distractors": [
+   "Я учил.",
+   "Я жил."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe gearbeitet."
+ },
+ {
+  "item_id": "ch10_L2_read_3",
+  "id": "ch10_L2_read_3",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_017",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Ты уже работал?",
+  "distractors": [
+   "Ты ещё не работал?",
+   "Ты тоже работал?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Hast du schon gearbeitet?"
+ },
+ {
+  "item_id": "ch10_L2_read_4",
+  "id": "ch10_L2_read_4",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_019",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Нет, я ещё не работал.",
+  "distractors": [
+   "Нет, я уже работал.",
+   "Нет, я не учил."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Nein, ich habe noch nicht gearbeitet."
+ },
+ {
+  "item_id": "ch10_L2_read_5",
+  "id": "ch10_L2_read_5",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_022",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я ел пирог.",
+  "distractors": [
+   "Я пил кофе.",
+   "Я ел брецель."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe Kuchen gegessen."
+ },
+ {
+  "item_id": "ch10_L2_speak_1",
+  "id": "ch10_L2_speak_1",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_013",
+  "prompt": "Спроси Софью: «Что ты делал?»",
+  "answer": "Was hast du gemacht?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_013.mp3",
+  "de": null,
+  "accept": [
+   "Was hast du gemacht?"
+  ]
+ },
+ {
+  "item_id": "ch10_L2_speak_2",
+  "id": "ch10_L2_speak_2",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_d2_02",
+  "prompt": "Ответь Софье: «Я работал в Киеве.»",
+  "answer": "Ich habe in Kiew gearbeitet.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d2_02.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe in Kiew gearbeitet."
+  ]
+ },
+ {
+  "item_id": "ch10_L2_speak_3",
+  "id": "ch10_L2_speak_3",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_016",
+  "prompt": "Скажи: «Я учил немецкий.»",
+  "answer": "Ich habe Deutsch gelernt.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_016.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe Deutsch gelernt."
+  ]
+ },
+ {
+  "item_id": "ch10_L2_speak_4",
+  "id": "ch10_L2_speak_4",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_d2_03",
+  "prompt": "Спроси Софью: «Ты уже учила немецкий?»",
+  "answer": "Hast du schon Deutsch gelernt?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d2_03.mp3",
+  "de": null,
+  "accept": [
+   "Hast du schon Deutsch gelernt?"
+  ]
+ },
+ {
+  "item_id": "ch10_L2_speak_5",
+  "id": "ch10_L2_speak_5",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_019",
+  "prompt": "Ответь Софье, что ещё нет: «Нет, я ещё не работал.»",
+  "answer": "Nein, ich habe noch nicht gearbeitet.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_019.mp3",
+  "de": null,
+  "accept": [
+   "Nein, ich habe noch nicht gearbeitet."
+  ]
+ },
+ {
+  "item_id": "ch10_L2_write_1",
+  "id": "ch10_L2_write_1",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_014",
+  "prompt": "Впиши: «Ich habe ___.» (работал)",
+  "answer": "gearbeitet",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_014.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L2_write_2",
+  "id": "ch10_L2_write_2",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_016",
+  "prompt": "Впиши: «Ich habe Deutsch ___.» (учил)",
+  "answer": "gelernt",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_016.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L2_write_3",
+  "id": "ch10_L2_write_3",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_021",
+  "prompt": "Впиши: «Ich habe Kaffee ___.» (пил)",
+  "answer": "getrunken",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_021.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L2_write_4",
+  "id": "ch10_L2_write_4",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_022",
+  "prompt": "Впиши: «Ich habe Kuchen ___.» (ел)",
+  "answer": "gegessen",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_022.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L2_write_5",
+  "id": "ch10_L2_write_5",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_017",
+  "prompt": "Впиши: «Hast du ___ gearbeitet?» (уже)",
+  "answer": "schon",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch10_017.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L2_why_1",
+  "id": "ch10_L2_why_1",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_013",
+  "prompt": "Почему в «gemacht» есть ge- впереди и -t в конце?",
+  "answer": "Так строится слово «уже сделано» у большинства слов: ge- и -t.",
+  "distractors": [
+   "ge- и -t — это окончание вопроса: так немец показывает, что спрашивает.",
+   "Так пишут «уже сделано» только про работу, а про другое — иначе."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Was hast du gemacht?"
+ },
+ {
+  "item_id": "ch10_L2_why_2",
+  "id": "ch10_L2_why_2",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_021",
+  "prompt": "Почему «getrunken», а не «getrinkt»?",
+  "answer": "Гласная меняется: i → u, и форма на -en. Такие формы учим во фразах.",
+  "distractors": [
+   "Гласная не меняется: i → u, и форма на -en. Такие формы учим во фразах.",
+   "-t ставят только в вопросе."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe Kaffee getrunken."
+ },
+ {
+  "item_id": "ch10_L2_why_3",
+  "id": "ch10_L2_why_3",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_019",
+  "prompt": "Почему «nicht» стоит перед «gearbeitet»?",
+  "answer": "nicht ставят перед последним вагоном.",
+  "distractors": [
+   "nicht ставят перед первым вагоном.",
+   "nicht всегда стоит после ich."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Nein, ich habe noch nicht gearbeitet."
+ },
+ {
+  "item_id": "ch10_L2_why_4",
+  "id": "ch10_L2_why_4",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_017",
+  "prompt": "Почему «Hast» стоит первым?",
+  "answer": "Вопрос «да/нет»: помощник впереди.",
+  "distractors": [
+   "Hast — это имя.",
+   "Так начинают фразу про работу."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Hast du schon gearbeitet?"
+ },
+ {
+  "item_id": "ch10_L2_why_5",
+  "id": "ch10_L2_why_5",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_014",
+  "prompt": "Почему «habe gearbeitet», а не «bin gearbeitet»?",
+  "answer": "Работал на месте, никуда не перемещался — помощник habe.",
+  "distractors": [
+   "Работал на месте, никуда не перемещался — помощник bin.",
+   "bin говорят только про Киев."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe gearbeitet."
+ },
+ {
+  "item_id": "ch10_L2_transfer_1",
+  "id": "ch10_L2_transfer_1",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_t03",
+  "prompt": "Софья взяла пирог. Спроси её: «Ты уже ела пирог?»",
+  "answer": "Hast du schon Kuchen gegessen?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch10_t03.mp3",
+  "de": null,
+  "accept": [
+   "Hast du schon Kuchen gegessen?"
+  ]
+ },
+ {
+  "item_id": "ch10_L2_transfer_2",
+  "id": "ch10_L2_transfer_2",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_t04",
+  "prompt": "Ты работал не только в Киеве. Скажи Софье: «Я работал в Дрездене.»",
+  "answer": "Ich habe in Dresden gearbeitet.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch10_t04.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe in Dresden gearbeitet."
+  ]
+ },
+ {
+  "item_id": "ch10_L2_transfer_3",
+  "id": "ch10_L2_transfer_3",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_t04",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Я работал в Дрездене.",
+  "distractors": [
+   "Я жил в Дрездене.",
+   "Я поехал в Дрезден."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch10_t04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L2_transfer_4",
+  "id": "ch10_L2_transfer_4",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_t04",
+  "prompt": "Впиши город: «Ich habe in ___ gearbeitet.» (Дрезден)",
+  "answer": "Dresden",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch10_t04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L2_transfer_5",
+  "id": "ch10_L2_transfer_5",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_t04",
+  "prompt": "Почему «in Dresden» стоит перед «gearbeitet», а не в самом конце?",
+  "answer": "В самом конце стоит слово «уже сделано», а «где» помещается между помощником и концом.",
+  "distractors": [
+   "В самом конце ставят название города: оно важнее, поэтому идёт последним.",
+   "Перед gearbeitet ставят то, что важнее: сначала главное, потом слово «уже сделано»."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": null,
+  "de": "Ich habe in Dresden gearbeitet."
+ },
+ {
+  "item_id": "ch10_L2_boss_1",
+  "id": "ch10_L2_boss_1",
+  "lesson": "ch10_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d2_04",
+  "prompt": "Послушай. О чём герой спросил Софью в конце?",
+  "answer": "Работала ли она уже.",
+  "distractors": [
+   "Училась ли она уже немецкому.",
+   "Пила ли она уже кофе."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d2_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L3_words_1",
+  "id": "ch10_L3_words_1",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_025",
+  "prompt": "Что значит «ausgefüllt»?",
+  "answer": "заполнил",
+  "distractors": [
+   "позвонил",
+   "встал"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L3_words_2",
+  "id": "ch10_L3_words_2",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_025",
+  "prompt": "Что значит «das Formular»?",
+  "answer": "анкета",
+  "distractors": [
+   "паспорт",
+   "подпись"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L3_words_3",
+  "id": "ch10_L3_words_3",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_028",
+  "prompt": "Что значит «angerufen»?",
+  "answer": "позвонил",
+  "distractors": [
+   "заполнил",
+   "ходил"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L3_words_4",
+  "id": "ch10_L3_words_4",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_029",
+  "prompt": "Что значит «eingekauft»?",
+  "answer": "сделал покупки",
+  "distractors": [
+   "заполнил анкету",
+   "позвонил Ольге"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L3_words_5",
+  "id": "ch10_L3_words_5",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_030",
+  "prompt": "Что значит «aufgestanden»?",
+  "answer": "встал",
+  "distractors": [
+   "заполнил",
+   "поел"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L3_listen_1",
+  "id": "ch10_L3_listen_1",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d3_01",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Ты уже встал?",
+  "distractors": [
+   "Ты уже позвонил?",
+   "Ты уже заполнил анкету?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d3_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L3_listen_2",
+  "id": "ch10_L3_listen_2",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d3_02",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Да, я уже встал.",
+  "distractors": [
+   "Нет, я ещё не встал.",
+   "Да, я заполнил анкету."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d3_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L3_listen_3",
+  "id": "ch10_L3_listen_3",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d3_04",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Нет, я ещё не заполнил анкету.",
+  "distractors": [
+   "Нет, я ещё не позвонил.",
+   "Да, я уже заполнил анкету."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d3_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L3_listen_4",
+  "id": "ch10_L3_listen_4",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d3_05",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Я уже заполнила анкету.",
+  "distractors": [
+   "Я ещё не заполнила анкету.",
+   "Я позвонила Ахмаду."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d3_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L3_listen_5",
+  "id": "ch10_L3_listen_5",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d3_07",
+  "prompt": "Послушай. Что ответила Ольга?",
+  "answer": "Да, я позвонила Ахмаду.",
+  "distractors": [
+   "Нет, я ещё не позвонила Ахмаду.",
+   "Да, я заполнила анкету."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d3_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L3_read_1",
+  "id": "ch10_L3_read_1",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_025",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Ты заполнил анкету?",
+  "distractors": [
+   "Ты подписал договор?",
+   "Ты уже встал?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Hast du das Formular ausgefüllt?"
+ },
+ {
+  "item_id": "ch10_L3_read_2",
+  "id": "ch10_L3_read_2",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_027",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Нет, я ещё не заполнил анкету.",
+  "distractors": [
+   "Нет, я уже заполнил анкету.",
+   "Нет, я не позвонил."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Nein, ich habe das Formular noch nicht ausgefüllt."
+ },
+ {
+  "item_id": "ch10_L3_read_3",
+  "id": "ch10_L3_read_3",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_028",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я позвонил Ольге.",
+  "distractors": [
+   "Я заполнил анкету.",
+   "Я сделал покупки."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe Olga angerufen."
+ },
+ {
+  "item_id": "ch10_L3_read_4",
+  "id": "ch10_L3_read_4",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_029",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я сделал покупки.",
+  "distractors": [
+   "Я позвонил Ольге.",
+   "Я уже встал."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe eingekauft."
+ },
+ {
+  "item_id": "ch10_L3_read_5",
+  "id": "ch10_L3_read_5",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_030",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Ты уже встал?",
+  "distractors": [
+   "Ты уже позвонил?",
+   "Ты уже ел?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Bist du schon aufgestanden?"
+ },
+ {
+  "item_id": "ch10_L3_speak_1",
+  "id": "ch10_L3_speak_1",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_025",
+  "prompt": "Спроси Ахмада: «Ты заполнил анкету?»",
+  "answer": "Hast du das Formular ausgefüllt?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_025.mp3",
+  "de": null,
+  "accept": [
+   "Hast du das Formular ausgefüllt?"
+  ]
+ },
+ {
+  "item_id": "ch10_L3_speak_2",
+  "id": "ch10_L3_speak_2",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_d3_02",
+  "prompt": "Ответь Ольге: «Да, я уже встал.»",
+  "answer": "Ja, ich bin schon aufgestanden.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d3_02.mp3",
+  "de": null,
+  "accept": [
+   "Ja, ich bin schon aufgestanden."
+  ]
+ },
+ {
+  "item_id": "ch10_L3_speak_3",
+  "id": "ch10_L3_speak_3",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_028",
+  "prompt": "Скажи: «Я позвонил Ольге.»",
+  "answer": "Ich habe Olga angerufen.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_028.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe Olga angerufen."
+  ]
+ },
+ {
+  "item_id": "ch10_L3_speak_4",
+  "id": "ch10_L3_speak_4",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_029",
+  "prompt": "Скажи: «Я сделал покупки.»",
+  "answer": "Ich habe eingekauft.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_029.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe eingekauft."
+  ]
+ },
+ {
+  "item_id": "ch10_L3_speak_5",
+  "id": "ch10_L3_speak_5",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_d3_04",
+  "prompt": "Ответь Ольге, что ещё нет: «Нет, я ещё не заполнил анкету.»",
+  "answer": "Nein, ich habe das Formular noch nicht ausgefüllt.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d3_04.mp3",
+  "de": null,
+  "accept": [
+   "Nein, ich habe das Formular noch nicht ausgefüllt."
+  ]
+ },
+ {
+  "item_id": "ch10_L3_write_1",
+  "id": "ch10_L3_write_1",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_025",
+  "prompt": "Впиши: «Hast du das Formular ___?» (заполнил)",
+  "answer": "ausgefüllt",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch10_025.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L3_write_2",
+  "id": "ch10_L3_write_2",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_028",
+  "prompt": "Впиши: «Ich habe Olga ___.» (позвонил)",
+  "answer": "angerufen",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_028.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L3_write_3",
+  "id": "ch10_L3_write_3",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_029",
+  "prompt": "Впиши: «Ich habe ___.» (сделал покупки)",
+  "answer": "eingekauft",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_029.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L3_write_4",
+  "id": "ch10_L3_write_4",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_030",
+  "prompt": "Впиши: «___ du schon aufgestanden?» (помощник для du)",
+  "answer": "Bist",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch10_030.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L3_write_5",
+  "id": "ch10_L3_write_5",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_027",
+  "prompt": "Впиши: «Nein, ich habe das Formular ___ nicht ausgefüllt.» (ещё)",
+  "answer": "noch",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_027.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L3_why_1",
+  "id": "ch10_L3_why_1",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_025",
+  "prompt": "Почему в «ausgefüllt» ge- стоит внутри, а не в начале?",
+  "answer": "ge- встаёт после приставки aus.",
+  "distractors": [
+   "ge- ставят в самый конец слова.",
+   "aus — это окончание, как -t."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Hast du das Formular ausgefüllt?"
+ },
+ {
+  "item_id": "ch10_L3_why_2",
+  "id": "ch10_L3_why_2",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_028",
+  "prompt": "Почему «habe angerufen», а не «bin angerufen»?",
+  "answer": "Звонил, не сходя с места — habe.",
+  "distractors": [
+   "bin ставят перед именем Olga.",
+   "habe говорят только про работу."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe Olga angerufen."
+ },
+ {
+  "item_id": "ch10_L3_why_3",
+  "id": "ch10_L3_why_3",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_030",
+  "prompt": "Почему «bist aufgestanden», а не «hast aufgestanden»?",
+  "answer": "Сам встал, сменил положение — bist.",
+  "distractors": [
+   "bist говорят вежливо, hast — нет.",
+   "hast говорят только в ответе."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Bist du schon aufgestanden?"
+ },
+ {
+  "item_id": "ch10_L3_why_4",
+  "id": "ch10_L3_why_4",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_027",
+  "prompt": "Почему «nicht» стоит перед «ausgefüllt»?",
+  "answer": "nicht ставят перед последним вагоном.",
+  "distractors": [
+   "nicht ставят после последнего вагона.",
+   "nicht всегда стоит после ich."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Nein, ich habe das Formular noch nicht ausgefüllt."
+ },
+ {
+  "item_id": "ch10_L3_why_5",
+  "id": "ch10_L3_why_5",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_025",
+  "prompt": "Почему «Hast» стоит первым?",
+  "answer": "Вопрос «да/нет»: помощник впереди.",
+  "distractors": [
+   "Hast всегда стоит первым.",
+   "Так начинают фразу про анкету."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Hast du das Formular ausgefüllt?"
+ },
+ {
+  "item_id": "ch10_L3_transfer_1",
+  "id": "ch10_L3_transfer_1",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_t05",
+  "prompt": "Ахмад должен был позвонить Ольге. Спроси его: «Ты позвонил Ольге?»",
+  "answer": "Hast du Olga angerufen?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch10_t05.mp3",
+  "de": null,
+  "accept": [
+   "Hast du Olga angerufen?"
+  ]
+ },
+ {
+  "item_id": "ch10_L3_transfer_2",
+  "id": "ch10_L3_transfer_2",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_t06",
+  "prompt": "Ты ездил в Дрезден за продуктами. Скажи Ольге: «Я делал покупки в Дрездене.»",
+  "answer": "Ich habe in Dresden eingekauft.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch10_t06.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe in Dresden eingekauft."
+  ]
+ },
+ {
+  "item_id": "ch10_L3_transfer_3",
+  "id": "ch10_L3_transfer_3",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_t06",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Я делал покупки в Дрездене.",
+  "distractors": [
+   "Я работал в Дрездене.",
+   "Я поехал в Дрезден."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch10_t06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L3_transfer_4",
+  "id": "ch10_L3_transfer_4",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_t06",
+  "prompt": "Впиши город: «Ich habe in ___ eingekauft.» (Дрезден)",
+  "answer": "Dresden",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch10_t06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L3_transfer_5",
+  "id": "ch10_L3_transfer_5",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_t06",
+  "prompt": "Почему «habe eingekauft», а не «bin eingekauft»?",
+  "answer": "Покупки — действие, не переход: habe.",
+  "distractors": [
+   "Покупки — действие, не переход: bin.",
+   "habe — потому что in Dresden."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": null,
+  "de": "Ich habe in Dresden eingekauft."
+ },
+ {
+  "item_id": "ch10_L3_boss_1",
+  "id": "ch10_L3_boss_1",
+  "lesson": "ch10_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d3_03",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Ты заполнил анкету?",
+  "distractors": [
+   "Ты позвонил Ахмаду?",
+   "Ты уже встал?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d3_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L4_words_1",
+  "id": "ch10_L4_words_1",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_036",
+  "prompt": "Что значит «die Hände»?",
+  "answer": "руки",
+  "distractors": [
+   "ноги",
+   "тарелки"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L4_words_2",
+  "id": "ch10_L4_words_2",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_036",
+  "prompt": "Что значит «waschen»?",
+  "answer": "мыть",
+  "distractors": [
+   "резать",
+   "надевать"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L4_words_3",
+  "id": "ch10_L4_words_3",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_039",
+  "prompt": "Что значит «schneiden»?",
+  "answer": "резать",
+  "distractors": [
+   "мыть",
+   "нести"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L4_words_4",
+  "id": "ch10_L4_words_4",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_040",
+  "prompt": "Что значит «die Mütze»?",
+  "answer": "шапка",
+  "distractors": [
+   "нож",
+   "тарелка"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L4_words_5",
+  "id": "ch10_L4_words_5",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_038",
+  "prompt": "Что значит «man» в «Hier wäscht man die Hände»?",
+  "answer": "люди вообще",
+  "distractors": [
+   "мужчина",
+   "только я"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L4_listen_1",
+  "id": "ch10_L4_listen_1",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d4_01",
+  "prompt": "Послушай. О чём попросил повар?",
+  "answer": "Помойте, пожалуйста, руки.",
+  "distractors": [
+   "Порежьте, пожалуйста, овощи.",
+   "Наденьте, пожалуйста, шапку."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d4_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L4_listen_2",
+  "id": "ch10_L4_listen_2",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d4_02",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Повторите, пожалуйста.",
+  "distractors": [
+   "Вы можете мне помочь?",
+   "Помойте, пожалуйста, руки."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d4_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L4_listen_3",
+  "id": "ch10_L4_listen_3",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d4_03",
+  "prompt": "Послушай. Что сказал повар?",
+  "answer": "Здесь моют руки.",
+  "distractors": [
+   "Здесь режут овощи.",
+   "Здесь режут хлеб."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d4_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L4_listen_4",
+  "id": "ch10_L4_listen_4",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d4_05",
+  "prompt": "Послушай. О чём попросил повар?",
+  "answer": "Порежьте, пожалуйста, овощи.",
+  "distractors": [
+   "Помойте, пожалуйста, руки.",
+   "Помойте, пожалуйста, нож."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d4_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L4_listen_5",
+  "id": "ch10_L4_listen_5",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d4_06",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "Вы можете мне помочь?",
+  "distractors": [
+   "Вы можете повторить?",
+   "Где тарелки?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d4_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L4_read_1",
+  "id": "ch10_L4_read_1",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_036",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Помойте, пожалуйста, руки.",
+  "distractors": [
+   "Наденьте, пожалуйста, шапку.",
+   "Здесь моют руки."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Waschen Sie bitte die Hände."
+ },
+ {
+  "item_id": "ch10_L4_read_2",
+  "id": "ch10_L4_read_2",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_037",
+  "prompt": "Прочитай табличку. Что на ней?",
+  "answer": "Пожалуйста, мойте руки.",
+  "distractors": [
+   "Пожалуйста, режьте овощи.",
+   "Руки здесь не моют."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Bitte die Hände waschen."
+ },
+ {
+  "item_id": "ch10_L4_read_3",
+  "id": "ch10_L4_read_3",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_038",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Здесь моют руки.",
+  "distractors": [
+   "Здесь моет руки мужчина.",
+   "Помойте здесь руки."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Hier wäscht man die Hände."
+ },
+ {
+  "item_id": "ch10_L4_read_4",
+  "id": "ch10_L4_read_4",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_040",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Наденьте, пожалуйста, шапку.",
+  "distractors": [
+   "Снимите, пожалуйста, шапку.",
+   "Помойте, пожалуйста, руки."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Setzen Sie bitte die Mütze auf."
+ },
+ {
+  "item_id": "ch10_L4_read_5",
+  "id": "ch10_L4_read_5",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_041",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Вы можете мне помочь?",
+  "distractors": [
+   "Я могу вам помочь?",
+   "Вы можете повторить?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Können Sie mir bitte helfen?"
+ },
+ {
+  "item_id": "ch10_L4_speak_1",
+  "id": "ch10_L4_speak_1",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_036",
+  "prompt": "Попроси коллегу на «вы»: «Помойте, пожалуйста, руки.»",
+  "answer": "Waschen Sie bitte die Hände.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch10_036.mp3",
+  "de": null,
+  "accept": [
+   "Waschen Sie bitte die Hände."
+  ]
+ },
+ {
+  "item_id": "ch10_L4_speak_2",
+  "id": "ch10_L4_speak_2",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_d4_02",
+  "prompt": "Ты не расслышал повара. Попроси повторить: «Повторите, пожалуйста.»",
+  "answer": "Wiederholen Sie bitte.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d4_02.mp3",
+  "de": null,
+  "accept": [
+   "Wiederholen Sie bitte."
+  ]
+ },
+ {
+  "item_id": "ch10_L4_speak_3",
+  "id": "ch10_L4_speak_3",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_041",
+  "prompt": "Попроси повара о помощи: «Вы можете мне помочь?»",
+  "answer": "Können Sie mir bitte helfen?",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch10_041.mp3",
+  "de": null,
+  "accept": [
+   "Können Sie mir bitte helfen?"
+  ]
+ },
+ {
+  "item_id": "ch10_L4_speak_4",
+  "id": "ch10_L4_speak_4",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_039",
+  "prompt": "Попроси на «вы»: «Порежьте, пожалуйста, овощи.»",
+  "answer": "Schneiden Sie bitte das Gemüse.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch10_039.mp3",
+  "de": null,
+  "accept": [
+   "Schneiden Sie bitte das Gemüse."
+  ]
+ },
+ {
+  "item_id": "ch10_L4_speak_5",
+  "id": "ch10_L4_speak_5",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_038",
+  "prompt": "Покажи новичку раковину: «Здесь моют руки.»",
+  "answer": "Hier wäscht man die Hände.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch10_038.mp3",
+  "de": null,
+  "accept": [
+   "Hier wäscht man die Hände."
+  ]
+ },
+ {
+  "item_id": "ch10_L4_write_1",
+  "id": "ch10_L4_write_1",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_036",
+  "prompt": "Впиши: «___ Sie bitte die Hände.» (помойте)",
+  "answer": "Waschen",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch10_036.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L4_write_2",
+  "id": "ch10_L4_write_2",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_038",
+  "prompt": "Впиши: «Hier wäscht ___ die Hände.» (люди вообще)",
+  "answer": "man",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch10_038.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L4_write_3",
+  "id": "ch10_L4_write_3",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_040",
+  "prompt": "Впиши: «Setzen Sie bitte die Mütze ___.» (приставка «надеть»)",
+  "answer": "auf",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch10_040.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L4_write_4",
+  "id": "ch10_L4_write_4",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_037",
+  "prompt": "Впиши слово таблички: «Bitte die Hände ___.» (мыть)",
+  "answer": "waschen",
+  "distractors": null,
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": "audio_v1/ch10_037.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L4_write_5",
+  "id": "ch10_L4_write_5",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_041",
+  "prompt": "Впиши: «Können Sie mir bitte ___?» (помочь)",
+  "answer": "helfen",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch10_041.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L4_why_1",
+  "id": "ch10_L4_why_1",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_036",
+  "prompt": "Почему «Waschen» стоит первым?",
+  "answer": "Просьба на «вы»: действие впереди.",
+  "distractors": [
+   "Waschen — это вопрос «да/нет».",
+   "Так начинают любую фразу."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Waschen Sie bitte die Hände."
+ },
+ {
+  "item_id": "ch10_L4_why_2",
+  "id": "ch10_L4_why_2",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_037",
+  "prompt": "Почему на табличке нет Sie, а waschen в конце?",
+  "answer": "Надпись для всех: никого не называют.",
+  "distractors": [
+   "Sie забыли напечатать.",
+   "Табличка — это вопрос «да/нет»."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Bitte die Hände waschen."
+ },
+ {
+  "item_id": "ch10_L4_why_3",
+  "id": "ch10_L4_why_3",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_038",
+  "prompt": "Почему «wäscht man», а не «waschen man»?",
+  "answer": "С man форма как с er: wäscht.",
+  "distractors": [
+   "man — это много людей: waschen.",
+   "wäscht — это просьба на «вы»."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Hier wäscht man die Hände."
+ },
+ {
+  "item_id": "ch10_L4_why_4",
+  "id": "ch10_L4_why_4",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_040",
+  "prompt": "Почему «auf» стоит в самом конце?",
+  "answer": "aufsetzen: приставка auf уезжает в конец.",
+  "distractors": [
+   "auf — это «на», оно к слову Mütze.",
+   "auf всегда ставят в конце фразы."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Setzen Sie bitte die Mütze auf."
+ },
+ {
+  "item_id": "ch10_L4_why_5",
+  "id": "ch10_L4_why_5",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_041",
+  "prompt": "Почему «helfen» стоит в конце?",
+  "answer": "Второе действие helfen уходит в конец.",
+  "distractors": [
+   "Второе действие helfen встаёт вперёд.",
+   "mir всегда стоит перед helfen."
+  ],
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": null,
+  "de": "Können Sie mir bitte helfen?"
+ },
+ {
+  "item_id": "ch10_L4_transfer_1",
+  "id": "ch10_L4_transfer_1",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_t07",
+  "prompt": "Коллега принёс овощи с грядки. Попроси его на «вы»: «Помойте, пожалуйста, овощи.»",
+  "answer": "Waschen Sie bitte das Gemüse.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch10_t07.mp3",
+  "de": null,
+  "accept": [
+   "Waschen Sie bitte das Gemüse."
+  ]
+ },
+ {
+  "item_id": "ch10_L4_transfer_2",
+  "id": "ch10_L4_transfer_2",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_t08",
+  "prompt": "Покажи новичку раковину для овощей. Скажи: «Здесь моют овощи.»",
+  "answer": "Hier wäscht man das Gemüse.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch10_t08.mp3",
+  "de": null,
+  "accept": [
+   "Hier wäscht man das Gemüse."
+  ]
+ },
+ {
+  "item_id": "ch10_L4_transfer_3",
+  "id": "ch10_L4_transfer_3",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_t08",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Здесь моют овощи.",
+  "distractors": [
+   "Здесь моют руки.",
+   "Здесь режут овощи."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch10_t08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L4_transfer_4",
+  "id": "ch10_L4_transfer_4",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_t08",
+  "prompt": "Впиши слово: «Hier wäscht man das ___.» (овощи)",
+  "answer": "Gemüse",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch10_t08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L4_transfer_5",
+  "id": "ch10_L4_transfer_5",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_t08",
+  "prompt": "Почему «wäscht» стоит вторым, а man — за ним?",
+  "answer": "С man форма как с er, wäscht — вагон №2.",
+  "distractors": [
+   "man — это просьба на «вы», как Sie.",
+   "wäscht всегда ставят сразу после hier."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": null,
+  "de": "Hier wäscht man das Gemüse."
+ },
+ {
+  "item_id": "ch10_L4_boss_1",
+  "id": "ch10_L4_boss_1",
+  "lesson": "ch10_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d4_04",
+  "prompt": "Послушай. О чём попросил повар?",
+  "answer": "Наденьте, пожалуйста, шапку.",
+  "distractors": [
+   "Помойте, пожалуйста, руки.",
+   "Порежьте, пожалуйста, овощи."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d4_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L5_words_1",
+  "id": "ch10_L5_words_1",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_045",
+  "prompt": "Что значит «geboren»?",
+  "answer": "родился",
+  "distractors": [
+   "приехал",
+   "учился"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L5_words_2",
+  "id": "ch10_L5_words_2",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_046",
+  "prompt": "Что значит «studiert»?",
+  "answer": "учился в университете",
+  "distractors": [
+   "работал на кухне",
+   "заполнил анкету"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L5_words_3",
+  "id": "ch10_L5_words_3",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_047",
+  "prompt": "Что значит «bekommen»?",
+  "answer": "получил",
+  "distractors": [
+   "приехал",
+   "понял"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L5_words_4",
+  "id": "ch10_L5_words_4",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_048",
+  "prompt": "Что значит «verstanden»?",
+  "answer": "понял",
+  "distractors": [
+   "встал",
+   "получил"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L5_words_5",
+  "id": "ch10_L5_words_5",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_045",
+  "prompt": "Что значит «neunzehnhundertfünfundachtzig»?",
+  "answer": "1985",
+  "distractors": [
+   "1958",
+   "2085"
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L5_listen_1",
+  "id": "ch10_L5_listen_1",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d5_01",
+  "prompt": "Послушай. Что спросила Frau Schulz?",
+  "answer": "Когда вы родились?",
+  "distractors": [
+   "Когда вы приехали в Германию?",
+   "Где вы учились?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d5_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L5_listen_2",
+  "id": "ch10_L5_listen_2",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d5_02",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Я родился в 1985 году.",
+  "distractors": [
+   "Я родился в 1958 году.",
+   "Я приехал в 1985 году."
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d5_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L5_listen_3",
+  "id": "ch10_L5_listen_3",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d5_04",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Я приехал в Германию в 2022 году.",
+  "distractors": [
+   "Я приехал в Германию в 2012 году.",
+   "Я родился в 2022 году."
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d5_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L5_listen_4",
+  "id": "ch10_L5_listen_4",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d5_06",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Да, я учился в университете в Киеве.",
+  "distractors": [
+   "Да, я работал в университете в Киеве.",
+   "Нет, я не учился в университете."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d5_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L5_listen_5",
+  "id": "ch10_L5_listen_5",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d5_08",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Нет, я ещё не получил квартиру.",
+  "distractors": [
+   "Да, я уже получил квартиру.",
+   "Нет, я ещё не заполнил анкету."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d5_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L5_read_1",
+  "id": "ch10_L5_read_1",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_d5_01",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Когда вы родились?",
+  "distractors": [
+   "Где вы родились?",
+   "Когда вы приехали?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wann sind Sie geboren?"
+ },
+ {
+  "item_id": "ch10_L5_read_2",
+  "id": "ch10_L5_read_2",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_045",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я родился в 1985 году.",
+  "distractors": [
+   "Мне 85 лет.",
+   "Я приехал в 1985 году."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich bin neunzehnhundertfünfundachtzig geboren."
+ },
+ {
+  "item_id": "ch10_L5_read_3",
+  "id": "ch10_L5_read_3",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_046",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я учился в университете в Киеве.",
+  "distractors": [
+   "Я работал в университете в Киеве.",
+   "Я жил в общежитии в Киеве."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe in Kiew studiert."
+ },
+ {
+  "item_id": "ch10_L5_read_4",
+  "id": "ch10_L5_read_4",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_047",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Вы уже получили квартиру?",
+  "distractors": [
+   "Вы уже сняли квартиру?",
+   "Вы уже заполнили анкету?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Haben Sie schon eine Wohnung bekommen?"
+ },
+ {
+  "item_id": "ch10_L5_read_5",
+  "id": "ch10_L5_read_5",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_048",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Да, я всё понял.",
+  "distractors": [
+   "Да, я всё сделал.",
+   "Да, я всё получил."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ja, ich habe alles verstanden."
+ },
+ {
+  "item_id": "ch10_L5_speak_1",
+  "id": "ch10_L5_speak_1",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_d5_02",
+  "prompt": "Тебя спросили, когда ты родился. Скажи: «Я родился в 1985 году.»",
+  "answer": "Ich bin neunzehnhundertfünfundachtzig geboren.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d5_02.mp3",
+  "de": null,
+  "accept": [
+   "Ich bin neunzehnhundertfünfundachtzig geboren."
+  ]
+ },
+ {
+  "item_id": "ch10_L5_speak_2",
+  "id": "ch10_L5_speak_2",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_d5_04",
+  "prompt": "Скажи: «Я приехал в Германию в 2022 году.»",
+  "answer": "Ich bin zweitausendzweiundzwanzig nach Deutschland gekommen.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d5_04.mp3",
+  "de": null,
+  "accept": [
+   "Ich bin zweitausendzweiundzwanzig nach Deutschland gekommen."
+  ]
+ },
+ {
+  "item_id": "ch10_L5_speak_3",
+  "id": "ch10_L5_speak_3",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_046",
+  "prompt": "Расскажи: «Я учился в университете в Киеве.»",
+  "answer": "Ich habe in Kiew studiert.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_046.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe in Kiew studiert."
+  ]
+ },
+ {
+  "item_id": "ch10_L5_speak_4",
+  "id": "ch10_L5_speak_4",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_d5_01",
+  "prompt": "Спроси соседа на «вы»: «Когда вы родились?»",
+  "answer": "Wann sind Sie geboren?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d5_01.mp3",
+  "de": null,
+  "accept": [
+   "Wann sind Sie geboren?"
+  ]
+ },
+ {
+  "item_id": "ch10_L5_speak_5",
+  "id": "ch10_L5_speak_5",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_048",
+  "prompt": "Ответь: «Да, я всё понял.»",
+  "answer": "Ja, ich habe alles verstanden.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_048.mp3",
+  "de": null,
+  "accept": [
+   "Ja, ich habe alles verstanden."
+  ]
+ },
+ {
+  "item_id": "ch10_L5_write_1",
+  "id": "ch10_L5_write_1",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_045",
+  "prompt": "Впиши: «Ich bin neunzehnhundertfünfundachtzig ___.» (родился)",
+  "answer": "geboren",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_045.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L5_write_2",
+  "id": "ch10_L5_write_2",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_046",
+  "prompt": "Впиши: «Ich habe in Kiew ___.» (учился в университете)",
+  "answer": "studiert",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_046.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L5_write_3",
+  "id": "ch10_L5_write_3",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_047",
+  "prompt": "Впиши: «Haben Sie schon eine Wohnung ___?» (получили)",
+  "answer": "bekommen",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch10_047.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L5_write_4",
+  "id": "ch10_L5_write_4",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_048",
+  "prompt": "Впиши: «Ja, ich habe alles ___.» (понял)",
+  "answer": "verstanden",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_048.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L5_write_5",
+  "id": "ch10_L5_write_5",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_044",
+  "prompt": "Впиши: «Ich bin zweitausendzweiundzwanzig nach Deutschland ___.» (приехал)",
+  "answer": "gekommen",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch10_044.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L5_why_1",
+  "id": "ch10_L5_why_1",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_046",
+  "prompt": "Почему в «studiert» нет ge-?",
+  "answer": "У слов на -ieren ge- нет.",
+  "distractors": [
+   "ge- спряталось после stud-.",
+   "studiert — это не прошлое."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe in Kiew studiert."
+ },
+ {
+  "item_id": "ch10_L5_why_2",
+  "id": "ch10_L5_why_2",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_047",
+  "prompt": "Почему «bekommen», а не «gebekommen»?",
+  "answer": "be- не отрывается, и ge- не нужно.",
+  "distractors": [
+   "bekommen — это просьба на «вы».",
+   "ge- ставят только в вопросе."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Haben Sie schon eine Wohnung bekommen?"
+ },
+ {
+  "item_id": "ch10_L5_why_3",
+  "id": "ch10_L5_why_3",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_045",
+  "prompt": "Почему 1985 — «neunzehnhundertfünfundachtzig»?",
+  "answer": "Год до 2000 читают сотнями.",
+  "distractors": [
+   "Так говорят только в анкете.",
+   "Это «тысяча девятьсот»."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich bin neunzehnhundertfünfundachtzig geboren."
+ },
+ {
+  "item_id": "ch10_L5_why_4",
+  "id": "ch10_L5_why_4",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_d5_01",
+  "prompt": "Почему «sind … geboren», а не «haben … geboren»?",
+  "answer": "О рождении говорят с sein: sind geboren.",
+  "distractors": [
+   "sind — потому что Sie вежливо.",
+   "haben говорят только про работу."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Wann sind Sie geboren?"
+ },
+ {
+  "item_id": "ch10_L5_why_5",
+  "id": "ch10_L5_why_5",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_048",
+  "prompt": "Почему «verstanden» стоит в конце?",
+  "answer": "Форма «уже сделано» — последний вагон.",
+  "distractors": [
+   "verstanden — ответ на «да/нет».",
+   "alles всегда стоит перед ним."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Ja, ich habe alles verstanden."
+ },
+ {
+  "item_id": "ch10_L5_transfer_1",
+  "id": "ch10_L5_transfer_1",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_t09",
+  "prompt": "Спроси Ахмада на «ты»: «Когда ты родился?»",
+  "answer": "Wann bist du geboren?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch10_t09.mp3",
+  "de": null,
+  "accept": [
+   "Wann bist du geboren?"
+  ]
+ },
+ {
+  "item_id": "ch10_L5_transfer_2",
+  "id": "ch10_L5_transfer_2",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_t10",
+  "prompt": "Расскажи о друге из Дрездена от его лица: «Я учился в университете в Дрездене.»",
+  "answer": "Ich habe in Dresden studiert.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch10_t10.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe in Dresden studiert."
+  ]
+ },
+ {
+  "item_id": "ch10_L5_transfer_3",
+  "id": "ch10_L5_transfer_3",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_t10",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Я учился в университете в Дрездене.",
+  "distractors": [
+   "Я работал в Дрездене.",
+   "Я учился в университете в Киеве."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch10_t10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L5_transfer_4",
+  "id": "ch10_L5_transfer_4",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_t10",
+  "prompt": "Впиши город: «Ich habe in ___ studiert.» (Дрезден)",
+  "answer": "Dresden",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch10_t10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L5_transfer_5",
+  "id": "ch10_L5_transfer_5",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_t10",
+  "prompt": "Почему в «studiert» нет ge- даже в новой фразе?",
+  "answer": "У слов на -ieren форма без ge-.",
+  "distractors": [
+   "ge- спряталось после stud-.",
+   "В Дрездене говорят без ge-."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": null,
+  "de": "Ich habe in Dresden studiert."
+ },
+ {
+  "item_id": "ch10_L5_boss_1",
+  "id": "ch10_L5_boss_1",
+  "lesson": "ch10_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d5_09",
+  "prompt": "Послушай. Что спросила Frau Schulz?",
+  "answer": "Вы всё поняли?",
+  "distractors": [
+   "Вы всё получили?",
+   "Вы уже получили квартиру?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d5_09.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L6_words_1",
+  "id": "ch10_L6_words_1",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_053",
+  "prompt": "Что значит «geschnitten»?",
+  "answer": "резал",
+  "distractors": [
+   "мыл",
+   "понял"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L6_words_2",
+  "id": "ch10_L6_words_2",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_052",
+  "prompt": "Что значит «gemacht»?",
+  "answer": "делал",
+  "distractors": [
+   "резал",
+   "получил"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L6_words_3",
+  "id": "ch10_L6_words_3",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_054",
+  "prompt": "Что значит «alles»?",
+  "answer": "всё",
+  "distractors": [
+   "ничего",
+   "много"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L6_words_4",
+  "id": "ch10_L6_words_4",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_055",
+  "prompt": "Что значит «den Koch» в этой фразе?",
+  "answer": "повара",
+  "distractors": [
+   "кухню",
+   "Ольгу"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L6_words_5",
+  "id": "ch10_L6_words_5",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch10_056",
+  "prompt": "Что значит «bekommen»?",
+  "answer": "получил",
+  "distractors": [
+   "купил",
+   "понял"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch10_L6_listen_1",
+  "id": "ch10_L6_listen_1",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d6_01",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Что ты делал на кухне?",
+  "distractors": [
+   "Что ты делал в Дрездене?",
+   "Ты всё понял?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d6_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L6_listen_2",
+  "id": "ch10_L6_listen_2",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d6_02",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Я резал овощи.",
+  "distractors": [
+   "Я мыл руки.",
+   "Я сделал покупки."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d6_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L6_listen_3",
+  "id": "ch10_L6_listen_3",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d6_04",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Нет, я не понял повара.",
+  "distractors": [
+   "Да, я понял повара.",
+   "Нет, повар меня не понял."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d6_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L6_listen_4",
+  "id": "ch10_L6_listen_4",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d6_05",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Ты уже заполнил анкету?",
+  "distractors": [
+   "Ты уже получил квартиру?",
+   "Ты уже встал?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d6_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L6_listen_5",
+  "id": "ch10_L6_listen_5",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d6_06",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Да, и я получил квартиру!",
+  "distractors": [
+   "Да, и я заполнил анкету!",
+   "Нет, я ещё не получил квартиру."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d6_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L6_read_1",
+  "id": "ch10_L6_read_1",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_052",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Что ты делал на кухне?",
+  "distractors": [
+   "Что ты делаешь на кухне?",
+   "Где ты работал?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Was hast du in der Küche gemacht?"
+ },
+ {
+  "item_id": "ch10_L6_read_2",
+  "id": "ch10_L6_read_2",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_053",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я резал овощи.",
+  "distractors": [
+   "Я мыл овощи.",
+   "Порежьте овощи."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe Gemüse geschnitten."
+ },
+ {
+  "item_id": "ch10_L6_read_3",
+  "id": "ch10_L6_read_3",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_054",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Ты всё понял?",
+  "distractors": [
+   "Ты всё получил?",
+   "Вы всё поняли?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Hast du alles verstanden?"
+ },
+ {
+  "item_id": "ch10_L6_read_4",
+  "id": "ch10_L6_read_4",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_055",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Нет, я не понял повара.",
+  "distractors": [
+   "Нет, повар меня не понял.",
+   "Нет, я не видел повара."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Nein, ich habe den Koch nicht verstanden."
+ },
+ {
+  "item_id": "ch10_L6_read_5",
+  "id": "ch10_L6_read_5",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch10_056",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Да, и я получил квартиру!",
+  "distractors": [
+   "Да, и я снял квартиру!",
+   "Да, и я ищу квартиру!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ja, und ich habe die Wohnung bekommen!"
+ },
+ {
+  "item_id": "ch10_L6_speak_1",
+  "id": "ch10_L6_speak_1",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_052",
+  "prompt": "Спроси друга: «Что ты делал на кухне?»",
+  "answer": "Was hast du in der Küche gemacht?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_052.mp3",
+  "de": null,
+  "accept": [
+   "Was hast du in der Küche gemacht?"
+  ]
+ },
+ {
+  "item_id": "ch10_L6_speak_2",
+  "id": "ch10_L6_speak_2",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_053",
+  "prompt": "Расскажи: «Я резал овощи.»",
+  "answer": "Ich habe Gemüse geschnitten.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_053.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe Gemüse geschnitten."
+  ]
+ },
+ {
+  "item_id": "ch10_L6_speak_3",
+  "id": "ch10_L6_speak_3",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_055",
+  "prompt": "Скажи Ольге про вашего повара на кухне: «Нет, я не понял повара.»",
+  "answer": "Nein, ich habe den Koch nicht verstanden.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_055.mp3",
+  "de": null,
+  "accept": [
+   "Nein, ich habe den Koch nicht verstanden."
+  ]
+ },
+ {
+  "item_id": "ch10_L6_speak_4",
+  "id": "ch10_L6_speak_4",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_056",
+  "prompt": "Похвастайся: «Да, и я получил квартиру!»",
+  "answer": "Ja, und ich habe die Wohnung bekommen!",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_056.mp3",
+  "de": null,
+  "accept": [
+   "Ja, und ich habe die Wohnung bekommen!"
+  ]
+ },
+ {
+  "item_id": "ch10_L6_speak_5",
+  "id": "ch10_L6_speak_5",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_054",
+  "prompt": "Спроси друга: «Ты всё понял?»",
+  "answer": "Hast du alles verstanden?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_054.mp3",
+  "de": null,
+  "accept": [
+   "Hast du alles verstanden?"
+  ]
+ },
+ {
+  "item_id": "ch10_L6_write_1",
+  "id": "ch10_L6_write_1",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_053",
+  "prompt": "Впиши: «Ich habe Gemüse ___.» (резал)",
+  "answer": "geschnitten",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_053.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L6_write_2",
+  "id": "ch10_L6_write_2",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_055",
+  "prompt": "Впиши: «Nein, ich habe den Koch ___ verstanden.» (не)",
+  "answer": "nicht",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch10_055.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L6_write_3",
+  "id": "ch10_L6_write_3",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_052",
+  "prompt": "Впиши: «Was hast du in der Küche ___?» (делал)",
+  "answer": "gemacht",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch10_052.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L6_write_4",
+  "id": "ch10_L6_write_4",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_054",
+  "prompt": "Впиши: «Hast du alles ___?» (понял)",
+  "answer": "verstanden",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch10_054.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L6_write_5",
+  "id": "ch10_L6_write_5",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_056",
+  "prompt": "Впиши: «Ja, und ich habe die Wohnung ___!» (получил)",
+  "answer": "bekommen",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch10_056.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L6_why_1",
+  "id": "ch10_L6_why_1",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_055",
+  "prompt": "Почему «nicht» стоит перед «verstanden»?",
+  "answer": "nicht — перед последним вагоном.",
+  "distractors": [
+   "nicht ставят сразу после ich.",
+   "nicht всегда в самом начале."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Nein, ich habe den Koch nicht verstanden."
+ },
+ {
+  "item_id": "ch10_L6_why_2",
+  "id": "ch10_L6_why_2",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_053",
+  "prompt": "Почему «geschnitten», а не «geschneidet»?",
+  "answer": "Форма с памятью: учим её во фразе.",
+  "distractors": [
+   "Так говорят только на кухне.",
+   "geschneidet — вежливая форма."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe Gemüse geschnitten."
+ },
+ {
+  "item_id": "ch10_L6_why_3",
+  "id": "ch10_L6_why_3",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_052",
+  "prompt": "Почему «Was» стоит первым?",
+  "answer": "Was — вопрос-слово, за ним помощник.",
+  "distractors": [
+   "Was всегда стоит в начале фразы.",
+   "Was — это ответ «что-то»."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Was hast du in der Küche gemacht?"
+ },
+ {
+  "item_id": "ch10_L6_why_4",
+  "id": "ch10_L6_why_4",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_054",
+  "prompt": "Почему в «verstanden» нет ge-?",
+  "answer": "У ver- форма без ge-.",
+  "distractors": [
+   "ge- спряталось после ver-.",
+   "verstanden — это не прошлое."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Hast du alles verstanden?"
+ },
+ {
+  "item_id": "ch10_L6_why_5",
+  "id": "ch10_L6_why_5",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_056",
+  "prompt": "Почему «habe … bekommen», а не «bin … bekommen»?",
+  "answer": "Получил на месте, не переместился — habe.",
+  "distractors": [
+   "Получил на месте, не переместился — bin.",
+   "habe — потому что «да» в начале."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Ja, und ich habe die Wohnung bekommen!"
+ },
+ {
+  "item_id": "ch10_L6_transfer_1",
+  "id": "ch10_L6_transfer_1",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_t11",
+  "prompt": "Ольга что-то сказала быстро. Скажи: «Я не понял Ольгу.»",
+  "answer": "Ich habe Olga nicht verstanden.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch10_t11.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe Olga nicht verstanden."
+  ]
+ },
+ {
+  "item_id": "ch10_L6_transfer_2",
+  "id": "ch10_L6_transfer_2",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch10_t12",
+  "prompt": "Друг вернулся из Дрездена. Спроси: «Что ты делал в Дрездене?»",
+  "answer": "Was hast du in Dresden gemacht?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch10_t12.mp3",
+  "de": null,
+  "accept": [
+   "Was hast du in Dresden gemacht?"
+  ]
+ },
+ {
+  "item_id": "ch10_L6_transfer_3",
+  "id": "ch10_L6_transfer_3",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_t12",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Что ты делал в Дрездене?",
+  "distractors": [
+   "Что ты делал на кухне?",
+   "Ты был в Дрездене?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch10_t12.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L6_transfer_4",
+  "id": "ch10_L6_transfer_4",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch10_t12",
+  "prompt": "Впиши город: «Was hast du in ___ gemacht?» (Дрезден)",
+  "answer": "Dresden",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": "audio_v1/ch10_t12.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch10_L6_transfer_5",
+  "id": "ch10_L6_transfer_5",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch10_t12",
+  "prompt": "Почему «gemacht» стоит в конце и в новой фразе?",
+  "answer": "gemacht — последний вагон.",
+  "distractors": [
+   "gemacht всегда ставят после Dresden.",
+   "Was требует слово в конце."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": null,
+  "de": "Was hast du in Dresden gemacht?"
+ },
+ {
+  "item_id": "ch10_L6_boss_1",
+  "id": "ch10_L6_boss_1",
+  "lesson": "ch10_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch10_d6_03",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Ты всё понял?",
+  "distractors": [
+   "Ты всё получил?",
+   "Ты уже заполнил анкету?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch10_d6_03.mp3",
+  "de": null
+ }
+]

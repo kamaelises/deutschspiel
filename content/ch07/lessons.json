@@ -1,0 +1,6212 @@
+[
+ {
+  "id": "ch07_L1",
+  "title": "Семейное фото: mein Bruder, meine Schwester",
+  "pages_linie1": {
+   "pages": [
+    122,
+    123
+   ],
+   "sections": [
+    "1 Familie, Familienwörter",
+    "1d–f Nachrichten der Familie; offiziell und privat"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch07_001",
+   "ch07_002",
+   "ch07_003",
+   "ch07_004",
+   "ch07_005",
+   "ch07_006",
+   "ch07_007"
+  ],
+  "why_ids": [
+   "ch07_002",
+   "ch07_006"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch07_d1",
+    "line_ids": [
+     "ch07_d1_01",
+     "ch07_d1_02",
+     "ch07_d1_03",
+     "ch07_d1_04",
+     "ch07_d1_05",
+     "ch07_d1_06",
+     "ch07_d1_07",
+     "ch07_d1_08"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "На вечеринке ты спросил «кто это?» и представил Софью. Вспомни."
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch07_d1",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch07_d1_02",
+        "ch07_d1_04",
+        "ch07_d1_06",
+        "ch07_d1_07"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch07_d1",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "-er на конце: послушай Mutter, Vater, Bruder, Schwester и повтори",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch07_001",
+        "ch07_002",
+        "ch07_003",
+        "ch07_004"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "-er на конце: послушай Mutter, Vater, Bruder, Schwester и повтори — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "mein / meine — мост «мой / моя / мои»; смотрим на слово после «мой», без терминов; -e у die-слова — как meine Hausnummer из главы 1",
+   "как слышу, так и пишу": "звук дня и диктант: слышишь «а» на конце — пишешь -er (Mutter, Bruder)",
+   "учебник непонятен": "из Linie 1 — только темы и страницы 122–123; подача своя",
+   "село, живой немецкий — Netto": "семейные слова слышны на курсе, у врача, в анкетах; спрашивать по фото — безопасный повод заговорить",
+   "ТЗ 2.2: семья — не личная тема": "герой спрашивает о семье Ольги по фото; о своей семье не рассказывает",
+   "любит аниме": "завязка — «свиток рода» в исекае; отрезки аниме — позже",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин (все 12 + 24 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Ist das deine Mutter?; перенос — dein Opa; deine Oma und dein Opa с sind",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    122,
+    123
+   ],
+   "phrases_ids": [
+    "ch07_009",
+    "ch07_010",
+    "ch07_011"
+   ],
+   "note": "к курсу: на стр. 122 — семья на большом фото и слова родства (Familienwörter); слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch07_009",
+    "picture": "семейное фото: старшие сзади, дети впереди",
+    "words": [
+     {
+      "de": "die Großmutter",
+      "ru": "бабушка (в анкете; дома — Oma)"
+     },
+     {
+      "de": "der Großvater",
+      "ru": "дедушка (в анкете; дома — Opa)"
+     },
+     {
+      "de": "der Onkel",
+      "ru": "дядя"
+     },
+     {
+      "de": "die Tante",
+      "ru": "тётя"
+     }
+    ],
+    "note": "эти слова есть на стр. 122; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch07_L1_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch07_009",
+     "prompt": "Слова курса. Послушай. Что значит «Großvater»?",
+     "answer": "дедушка",
+     "distractors": [
+      "дядя",
+      "бабушка"
+     ],
+     "src": "Linie 1, стр. 122 (Familienwörter)"
+    },
+    {
+     "id": "ch07_L1_kurs_2",
+     "skill": "listen",
+     "phraseId": "ch07_010",
+     "prompt": "Слова курса. Послушай. Что значит «Enkelin»?",
+     "answer": "внучка",
+     "distractors": [
+      "жена",
+      "внук"
+     ],
+     "src": "Linie 1, стр. 122 (Familienwörter)"
+    },
+    {
+     "id": "ch07_L1_kurs_3",
+     "skill": "listen",
+     "phraseId": "ch07_011",
+     "prompt": "Слова курса. Послушай. Что значит «Sohn»?",
+     "answer": "сын",
+     "distractors": [
+      "ребёнок",
+      "папа"
+     ],
+     "src": "Linie 1, стр. 122 (Familienwörter)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Школа (Schule): стройка главы 7; сегодня — перемена на курсе, фото в телефоне",
+   "npc": "Olga — одногруппница (на «ты»)"
+  },
+  "covers": [
+   "L1-07-S1",
+   "L1-07-MEDIAT"
+  ],
+  "covers_partial": [
+   "L1-07-G1"
+  ],
+  "covers_note": {
+   "L1-07-S1": "семья и слова родства (Familienwörter): Familie, Bruder, Schwester, Vater, Mutter, Oma, Opa; «к курсу» — Großmutter, Großvater, Onkel, Tante, Enkel, Enkelin, Ehemann, Ehefrau, Sohn, Kind, Mama, Papa (стр. 122–123); Eltern, Großeltern, Geschwister — после правки словарей (requests_generator.txt 15:27); официально и дома (offiziell und privat): Großmutter — Oma, Großvater — Opa (части 3, 9)",
+   "L1-07-MEDIAT": "Familienwörter: часть 9 — объяснить новичку, кто такие Oma и Opa и почему в анкете Großmutter и Großvater",
+   "L1-07-G1": "Possessivartikel Singular: в этом уроке mein / meine, dein / deine (часть 5); sein / ihr — урок 2"
+  },
+  "goal": "После урока сможешь: спросить по фото «кто это?» и «это твой брат?», понять ответ и сказать «мой / моя / мои» про людей на фото.",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Перемена на курсе: Ольга показывает фото в телефоне.",
+      "Цель: спросить «кто это?» и понять, кто кому кто."
+     ],
+     "voice_ru": "На перемене Ольга листает фото из дома. Это хороший повод для разговора: ты спрашиваешь, она отвечает. О себе рассказывать не нужно — сегодня ты слушаешь и спрашиваешь.",
+     "hook": "Загадка урока: Ольга говорит mein Bruder, но meine Schwester. Почему «мой» то mein, то meine?",
+     "anime_motif": "исекай: у каждого героя за спиной свой клан — семейное фото как «свиток рода» (без цитат)",
+     "npc": "Olga — одногруппница",
+     "more": "Ольга покажет папу, маму, брата, бабушку и дедушку. Ты спросишь: «кто это?», «это твой брат?», «это твоя сестра?»",
+     "goal": "После урока сможешь: спросить по фото «кто это?» и «это твой брат?», понять ответ и сказать «мой / моя / мои» про людей на фото."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch07_012",
+      "ch07_013",
+      "ch07_014"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "На вечеринке ты спросил «кто это?» и представил Софью. Вспомни."
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch02_d4_05",
+      "ch02_d4_06",
+      "ch02_001"
+     ],
+     "type": "retrieval: вопрос, не перечитывание",
+     "note": "фразы главы 2 (ch02_d4_05, ch02_d4_06, ch02_001) — те же, в главе 7 под своими id"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch07_001",
+      "ch07_002",
+      "ch07_003",
+      "ch07_004",
+      "ch07_005",
+      "ch07_006",
+      "ch07_007"
+     ],
+     "words": [
+      "Das ist meine Familie.",
+      "mein Bruder · meine Schwester",
+      "mein Vater · meine Mutter",
+      "Das sind meine Oma und mein Opa.",
+      "Ist das dein Bruder? · Ist das deine Schwester?"
+     ],
+     "words_ru": {
+      "Das ist meine Familie.": "Это моя семья.",
+      "mein Bruder · meine Schwester": "мой брат · моя сестра",
+      "mein Vater · meine Mutter": "мой папа · моя мама (в анкете — «отец», «мать»)",
+      "Das sind meine Oma und mein Opa.": "Это мои бабушка и дедушка. (их двое — поэтому sind, а не ist; Oma и Opa — домашние слова)",
+      "Ist das dein Bruder? · Ist das deine Schwester?": "Это твой брат? · Это твоя сестра?"
+     },
+     "trap": "Familie — это «семья», а не «фамилия». Фамилию спрашивают по-другому: Wie ist Ihr Name?",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch07_L1_words_1",
+      "ch07_L1_words_2",
+      "ch07_L1_words_3",
+      "ch07_L1_words_4",
+      "ch07_L1_words_5",
+      "ch07_L1_words_6",
+      "ch07_L1_words_7"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch07_d1",
+     "line_ids": [
+      "ch07_d1_01",
+      "ch07_d1_02",
+      "ch07_d1_03",
+      "ch07_d1_04",
+      "ch07_d1_05",
+      "ch07_d1_06",
+      "ch07_d1_07",
+      "ch07_d1_08"
+     ],
+     "halves": [
+      [
+       "ch07_d1_01",
+       "ch07_d1_02",
+       "ch07_d1_03",
+       "ch07_d1_04"
+      ],
+      [
+       "ch07_d1_05",
+       "ch07_d1_06",
+       "ch07_d1_07",
+       "ch07_d1_08"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "Слова семьи (Familienwörter) бывают официальные (offiziell) и домашние (privat). Oma и Opa — домашние (Duden: «familiär»). В анкете и в письме из ведомства пишут Großmutter и Großvater.",
+     "task_ids": [
+      "ch07_L1_listen_1",
+      "ch07_L1_listen_2",
+      "ch07_L1_listen_3",
+      "ch07_L1_listen_4",
+      "ch07_L1_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch07_002",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "Смотри на слово после «мой». Der-слово — mein: mein Bruder. Die-слово — meine: meine Schwester. С «твой» так же: dein Bruder, deine Schwester.",
+     "screen": [
+      "Das · ist · mein Bruder. (der Bruder)",
+      "Das · ist · meine Schwester. (die Schwester)"
+     ],
+     "answer_hook": "Ответ на загадку: «мой» смотрит на слово после себя, а не на того, кто говорит. der Bruder — mein, die Schwester — meine.",
+     "term_note": "В учебнике слова mein, dein называются Possessivartikel. Запоминать название не нужно.",
+     "second": {
+      "why_id": "ch07_006",
+      "voice_ru": "Показываешь одного человека — Das ist. Показываешь двоих — Das sind. У каждого слова своё «мой»: meine Oma, mein Opa."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch07_L1_why_1",
+      "ch07_L1_why_2",
+      "ch07_L1_why_3",
+      "ch07_L1_why_4",
+      "ch07_L1_why_5"
+     ],
+     "no_story": true,
+     "examples_button": {
+      "label": "Ещё примеры",
+      "why_ids": [
+       "ch07_002"
+      ]
+     }
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch07_008",
+     "pieces": [
+      "Mutter?",
+      "deine",
+      "das",
+      "Ist"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch07_d1_06",
+      "ch07_d1_07"
+     ],
+     "prompt": "Собери сам из знакомых кусков: на фото рядом с Ольгой женщина постарше. Спроси Ольгу: «Это твоя мама?»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch07_008",
+     "transfer_task_ids": [
+      "ch07_L1_transfer_1"
+     ],
+     "task_ids": [
+      "ch07_L1_write_1",
+      "ch07_L1_write_2",
+      "ch07_L1_write_3",
+      "ch07_L1_write_4",
+      "ch07_L1_write_5",
+      "ch07_L1_write_6",
+      "ch07_L1_read_1",
+      "ch07_L1_read_2",
+      "ch07_L1_read_3",
+      "ch07_L1_read_4",
+      "ch07_L1_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "Mutter",
+     "ipa_sym": "ɐ",
+     "tip_ru": "На конце слова пишется -er, а звучит короткое «а»: Mutter — «мута», Vater — «фа:та», Bruder — «бру:да», Schwester — «швэста». Букву r на конце не рычат.",
+     "bridge_ru": "По-русски «р» на конце слышно: «мастер», «доктор». По-немецки -er на конце сливается в один короткий звук, похожий на «а».",
+     "phrase_id": "ch07_006",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "Mutter",
+       "ru": "мута — -er = «а»"
+      },
+      {
+       "de": "Vater",
+       "ru": "фа:та — V = «ф», -er = «а»"
+      },
+      {
+       "de": "Bruder",
+       "ru": "бру:да — -er = «а»"
+      },
+      {
+       "de": "Schwester",
+       "ru": "швэста — sch = «ш», w = «в», -er = «а»"
+      }
+     ],
+     "speak_task_ids": [
+      "ch07_L1_speak_1",
+      "ch07_L1_speak_2",
+      "ch07_L1_speak_3",
+      "ch07_L1_speak_4",
+      "ch07_L1_speak_5",
+      "ch07_L1_speak_6"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Фото Ольги",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Olga (на «ты»)",
+     "turns": [
+      {
+       "prompt_id": "ch07_d1_01",
+       "prompt_de": "Das ist meine Familie.",
+       "prompt_audio": "audio_v1/ch07_d1_01.mp3",
+       "expected_id": "ch07_d1_02",
+       "expected_de": "Wer ist das?",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch07_d1_03",
+       "prompt_de": "Das ist mein Vater.",
+       "prompt_audio": "audio_v1/ch07_d1_03.mp3",
+       "expected_id": "ch07_d1_04",
+       "expected_de": "Ist das dein Bruder?",
+       "accept": [
+        {
+         "id": "ch07_d1_06",
+         "de": "Ist das deine Schwester?"
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch07_d1_05",
+       "prompt_de": "Ja, das ist mein Bruder Nico.",
+       "prompt_audio": "audio_v1/ch07_d1_05.mp3",
+       "expected_id": "ch07_d1_06",
+       "expected_de": "Ist das deine Schwester?",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Ты спрашиваешь об Ольгиной семье по фото. О своей семье рассказывать не нужно.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch07_d1_08",
+     "task_ru": "Новичок услышал у Ольги «Oma» и «Opa» и не нашёл их в списке слов семьи (Familienwörter): там написано Großmutter и Großvater. Объясни ему по-русски, кого показала Ольга и почему слова разные.",
+     "expected_ru": "А это мои бабушка и дедушка.",
+     "hint_ru": "Oma — бабушка, Opa — дедушка: так говорят дома; Großmutter и Großvater — те же люди, но в анкете",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1.1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch07_L1_dict_1",
+      "ch07_L1_dict_2",
+      "ch07_L1_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Слышишь «а» на конце — пиши -er: Bruder, Schwester, Mutter. В Mutter — две t. Schwester: «ш» — это sch, «в» — это w. Люди и предметы — с большой буквы."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch07_L1_transfer_2",
+      "ch07_L1_transfer_3",
+      "ch07_L1_transfer_4",
+      "ch07_L1_transfer_5",
+      "ch07_L1_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Теперь ты понимаешь, кто есть кто на семейном фото.",
+      "Совет на завтра: покажи на любое фото в телефоне и спроси вслух: Wer ist das?"
+     ],
+     "npc_phrase_id": "ch07_d1_08",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: der-слово — mein, dein · die-слово — meine, deine · один человек — Das ist …, двое — Das sind … · -er на конце = «а».",
+     "next_hook": "Дальше: анкета соседа. Как сказать «его брат» и «её сестра» — и сколько кому лет.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       122,
+       123
+      ],
+      "phrases_ids": [
+       "ch07_009",
+       "ch07_010",
+       "ch07_011"
+      ],
+      "note": "к курсу: на стр. 122 — семья на большом фото и слова родства (Familienwörter); слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch07_009",
+       "picture": "семейное фото: старшие сзади, дети впереди",
+       "words": [
+        {
+         "de": "die Großmutter",
+         "ru": "бабушка (в анкете; дома — Oma)"
+        },
+        {
+         "de": "der Großvater",
+         "ru": "дедушка (в анкете; дома — Opa)"
+        },
+        {
+         "de": "der Onkel",
+         "ru": "дядя"
+        },
+        {
+         "de": "die Tante",
+         "ru": "тётя"
+        }
+       ],
+       "note": "эти слова есть на стр. 122; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch07_L1_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch07_009",
+        "prompt": "Слова курса. Послушай. Что значит «Großvater»?",
+        "answer": "дедушка",
+        "distractors": [
+         "дядя",
+         "бабушка"
+        ],
+        "src": "Linie 1, стр. 122 (Familienwörter)"
+       },
+       {
+        "id": "ch07_L1_kurs_2",
+        "skill": "listen",
+        "phraseId": "ch07_010",
+        "prompt": "Слова курса. Послушай. Что значит «Enkelin»?",
+        "answer": "внучка",
+        "distractors": [
+         "жена",
+         "внук"
+        ],
+        "src": "Linie 1, стр. 122 (Familienwörter)"
+       },
+       {
+        "id": "ch07_L1_kurs_3",
+        "skill": "listen",
+        "phraseId": "ch07_011",
+        "prompt": "Слова курса. Послушай. Что значит «Sohn»?",
+        "answer": "сын",
+        "distractors": [
+         "ребёнок",
+         "папа"
+        ],
+        "src": "Linie 1, стр. 122 (Familienwörter)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      122,
+      123
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch07.py",
+  "new_words": [
+   "die Familie",
+   "der Bruder · die Schwester",
+   "der Vater · die Mutter",
+   "die Oma · der Opa",
+   "dein · deine",
+   "Das sind …"
+  ],
+  "known_before": [
+   "Wer ist das?",
+   "Das ist …",
+   "mein Name · meine Hausnummer",
+   "deine Handynummer",
+   "Ja · Nein",
+   "und"
+  ],
+  "transfer_phrase_ids": [
+   "ch07_t01",
+   "ch07_t02"
+  ],
+  "built_phrase_ids": [
+   "ch07_008"
+  ],
+  "quiz_ids": [
+   "ch07_L1_words_1",
+   "ch07_L1_words_2",
+   "ch07_L1_words_3",
+   "ch07_L1_words_4",
+   "ch07_L1_words_5",
+   "ch07_L1_words_6",
+   "ch07_L1_words_7",
+   "ch07_L1_listen_1",
+   "ch07_L1_listen_2",
+   "ch07_L1_listen_3",
+   "ch07_L1_listen_4",
+   "ch07_L1_listen_5",
+   "ch07_L1_read_1",
+   "ch07_L1_read_2",
+   "ch07_L1_read_3",
+   "ch07_L1_read_4",
+   "ch07_L1_read_5",
+   "ch07_L1_speak_1",
+   "ch07_L1_speak_2",
+   "ch07_L1_speak_3",
+   "ch07_L1_speak_4",
+   "ch07_L1_speak_5",
+   "ch07_L1_speak_6",
+   "ch07_L1_write_1",
+   "ch07_L1_write_2",
+   "ch07_L1_write_3",
+   "ch07_L1_write_4",
+   "ch07_L1_write_5",
+   "ch07_L1_write_6",
+   "ch07_L1_why_1",
+   "ch07_L1_why_2",
+   "ch07_L1_why_3",
+   "ch07_L1_why_4",
+   "ch07_L1_why_5",
+   "ch07_L1_transfer_1",
+   "ch07_L1_transfer_2",
+   "ch07_L1_transfer_3",
+   "ch07_L1_transfer_4",
+   "ch07_L1_transfer_5",
+   "ch07_L1_boss_1"
+  ],
+  "dictation_ids": [
+   "ch07_L1_dict_1",
+   "ch07_L1_dict_2",
+   "ch07_L1_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Перемена на курсе: Ольга показывает фото в телефоне. Цель: спросить «кто это?» и понять, кто кому кто. Загадка урока: Ольга говорит mein Bruder, но meine Schwester. Почему «мой» то mein, то meine?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Фото Ольги",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой на перемене (ИИ — Ольга)",
+   "situation": "kurs_familienfoto",
+   "ai_plays": "Olga (на «ты»)",
+   "phrases": [
+    "ch07_d1_02",
+    "ch07_d1_04",
+    "ch07_d1_06"
+   ]
+  },
+  "outro": "Теперь ты понимаешь, кто есть кто на семейном фото. Совет на завтра: покажи на любое фото в телефоне и спроси вслух: Wer ist das? Дальше: анкета соседа. Как сказать «его брат» и «её сестра» — и сколько кому лет.",
+  "detail_de_life": "Слова семьи (Familienwörter) бывают официальные (offiziell) и домашние (privat). Oma и Opa — домашние (Duden: «familiär»). В анкете и в письме из ведомства пишут Großmutter и Großvater.",
+  "task_ids": {
+   "words": [
+    "ch07_L1_words_1",
+    "ch07_L1_words_2",
+    "ch07_L1_words_3",
+    "ch07_L1_words_4",
+    "ch07_L1_words_5",
+    "ch07_L1_words_6",
+    "ch07_L1_words_7"
+   ],
+   "listen": [
+    "ch07_L1_listen_1",
+    "ch07_L1_listen_2",
+    "ch07_L1_listen_3",
+    "ch07_L1_listen_4",
+    "ch07_L1_listen_5"
+   ],
+   "read": [
+    "ch07_L1_read_1",
+    "ch07_L1_read_2",
+    "ch07_L1_read_3",
+    "ch07_L1_read_4",
+    "ch07_L1_read_5"
+   ],
+   "speak": [
+    "ch07_L1_speak_1",
+    "ch07_L1_speak_2",
+    "ch07_L1_speak_3",
+    "ch07_L1_speak_4",
+    "ch07_L1_speak_5",
+    "ch07_L1_speak_6"
+   ],
+   "write": [
+    "ch07_L1_write_1",
+    "ch07_L1_write_2",
+    "ch07_L1_write_3",
+    "ch07_L1_write_4",
+    "ch07_L1_write_5",
+    "ch07_L1_write_6"
+   ],
+   "why": [
+    "ch07_L1_why_1",
+    "ch07_L1_why_2",
+    "ch07_L1_why_3",
+    "ch07_L1_why_4",
+    "ch07_L1_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch07_L1_transfer_1",
+   "ch07_L1_transfer_2",
+   "ch07_L1_transfer_3",
+   "ch07_L1_transfer_4",
+   "ch07_L1_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch07_012",
+   "ch07_013",
+   "ch07_014"
+  ],
+  "dialog_ids": [
+   "ch07_d1"
+  ],
+  "video": "video/ch07_L1.mp4"
+ },
+ {
+  "id": "ch07_L2",
+  "title": "Анкета соседа: sein, ihr и цвета",
+  "pages_linie1": {
+   "pages": [
+    124,
+    125
+   ],
+   "sections": [
+    "2 Jennys Homepage",
+    "3–4 Ihre Lieblingsfarbe; Farben; Familienstand; ich-Laut und ach-Laut"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch07_015",
+   "ch07_016",
+   "ch07_017",
+   "ch07_018",
+   "ch07_019",
+   "ch07_021",
+   "ch07_022",
+   "ch07_023"
+  ],
+  "why_ids": [
+   "ch07_019",
+   "ch07_020"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch07_d2",
+    "line_ids": [
+     "ch07_d2_01",
+     "ch07_d2_02",
+     "ch07_d2_03",
+     "ch07_d2_04",
+     "ch07_d2_05",
+     "ch07_d2_06",
+     "ch07_d2_07",
+     "ch07_d2_08"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "На прошлом уроке ты спрашивал по фото «это твой брат?» и говорил «моя мама». Вспомни."
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch07_d2",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch07_d2_02",
+        "ch07_d2_04",
+        "ch07_d2_06",
+        "ch07_d2_07"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch07_d2",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Два звука ch: послушай ich, nicht, Nachbar, Buch и повтори",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch07_015",
+        "ch07_019",
+        "ch07_020",
+        "ch07_022"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Два звука ch: послушай ich, nicht, Nachbar, Buch и повтори — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "sein / ihr — «его / её»: говорит тот, о ком речь; -e — от слова (как meine Hausnummer)",
+   "как слышу, так и пишу": "ich-Laut и ach-Laut на слух: ихь — Nachbar; Frau, Bruder, Lieblingsfarbe — с большой буквы",
+   "учебник непонятен": "из Linie 1 — только темы, слова и страницы главы 7; подача своя",
+   "село, живой немецкий — Netto": "в Jobcenter, у врача и в анкете курса всегда строка Familienstand и Alter — это пригодится",
+   "ТЗ 2.2: семья — не личная тема": "герой спрашивает, слушает и пересказывает; о своей семье рассказывать не нужно",
+   "любит аниме": "завязка — карточки жителей на доске гильдии: возраст, семья, цвет знамени; отрезки аниме — позже",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин (все 12 + 24 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Wie alt ist seine Frau?; перенос — Ihre Schwester wohnt in Leipzig., Wie alt ist ihr Bruder?",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    124,
+    125
+   ],
+   "phrases_ids": [
+    "ch07_025",
+    "ch07_026",
+    "ch07_027",
+    "ch07_028",
+    "ch07_029"
+   ],
+   "note": "к курсу: на стр. 124–125 — цвета, поля анкеты (Alter, Hobbys, Familienstand) и профессии; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса: цвета, анкета, профессии",
+    "phrase_id": "ch07_025",
+    "picture": "анкета с полями и цветные карандаши: красный, жёлтый, коричневый, серый, сиреневый",
+    "words": [
+     {
+      "de": "rot",
+      "ru": "красный"
+     },
+     {
+      "de": "gelb",
+      "ru": "жёлтый"
+     },
+     {
+      "de": "braun",
+      "ru": "коричневый"
+     },
+     {
+      "de": "grau",
+      "ru": "серый"
+     },
+     {
+      "de": "lila",
+      "ru": "сиреневый"
+     },
+     {
+      "de": "orange",
+      "ru": "оранжевый"
+     },
+     {
+      "de": "rosa",
+      "ru": "розовый"
+     },
+     {
+      "de": "schwarz",
+      "ru": "чёрный"
+     },
+     {
+      "de": "weiß",
+      "ru": "белый"
+     },
+     {
+      "de": "geschieden",
+      "ru": "в разводе"
+     },
+     {
+      "de": "verwitwet",
+      "ru": "вдовец или вдова"
+     },
+     {
+      "de": "die Nachbarin",
+      "ru": "соседка"
+     },
+     {
+      "de": "der Student",
+      "ru": "студент"
+     },
+     {
+      "de": "die Architektin",
+      "ru": "женщина-архитектор"
+     },
+     {
+      "de": "der Elektriker",
+      "ru": "электрик"
+     },
+     {
+      "de": "die Erzieherin",
+      "ru": "воспитательница"
+     },
+     {
+      "de": "das Alter",
+      "ru": "возраст"
+     },
+     {
+      "de": "die Hobbys",
+      "ru": "хобби"
+     },
+     {
+      "de": "das Lieblingsessen",
+      "ru": "любимое блюдо"
+     }
+    ],
+    "note": "эти слова есть на стр. 124–125; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch07_L2_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch07_025",
+     "prompt": "Слова курса: цвета. Послушай. Что значит «Gelb»?",
+     "answer": "жёлтый",
+     "distractors": [
+      "серый",
+      "красный"
+     ],
+     "src": "Linie 1, стр. 125 (Farben)"
+    },
+    {
+     "id": "ch07_L2_kurs_2",
+     "skill": "listen",
+     "phraseId": "ch07_026",
+     "prompt": "Слова курса: цвета. Послушай. Что значит «Schwarz»?",
+     "answer": "чёрный",
+     "distractors": [
+      "белый",
+      "розовый"
+     ],
+     "src": "Linie 1, стр. 125 (Farben)"
+    },
+    {
+     "id": "ch07_L2_kurs_3",
+     "skill": "listen",
+     "phraseId": "ch07_027",
+     "prompt": "Слова курса: профессии. Послушай. Что значит «Elektriker»?",
+     "answer": "электрик",
+     "distractors": [
+      "студент",
+      "воспитательница"
+     ],
+     "src": "Linie 1, стр. 124 (Berufe)"
+    },
+    {
+     "id": "ch07_L2_kurs_4",
+     "skill": "listen",
+     "phraseId": "ch07_029",
+     "prompt": "Слова курса: Familienstand. Послушай. Что значит «verwitwet»?",
+     "answer": "вдовец или вдова",
+     "distractors": [
+      "в разводе",
+      "не женат"
+     ],
+     "src": "Linie 1, стр. 125 (Familienstand)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Школа (Schule): стройка главы 7; на курсе — анкета «Мой сосед» (страница Homepage, как у Jenny)",
+   "npc": "Olga — одногруппница (на «ты»)"
+  },
+  "covers": [
+   "L1-07-S2",
+   "L1-07-S3",
+   "L1-07-S4",
+   "L1-07-G1",
+   "B12.2",
+   "B01.7"
+  ],
+  "covers_partial": [
+   "L1-07-AUSSPR"
+  ],
+  "covers_note": {
+   "L1-07-S2": "Jennys Homepage (стр. 124): анкета о человеке — возраст (Alter), Familienstand, профессии; в уроке сосед Herr Wagner и его жена Anna",
+   "L1-07-S3": "Lieblingsfarbe, Farben, Familienstand (стр. 125): Seine / Ihre Lieblingsfarbe ist …; цвета и Familienstand — «к курсу»",
+   "L1-07-S4": "ich-Laut и ach-Laut (стр. 125): часть 7 — ich, nicht, Nachbar, Buch",
+   "L1-07-G1": "Possessivartikel Singular: mein / dein (урок 1) + sein / ihr (этот урок, часть 5): начало выбирает владелец, окончание — слово",
+   "B12.2": "Sein или ihr: начало выбирает владелец (он — sein, она — ihr), окончание -e выбирает слово (die-слово)",
+   "B01.7": "Два звука для ch: ich-Laut (после i, e) и ach-Laut (после a, o, u) — смотрим на соседние буквы",
+   "L1-07-AUSSPR": "ich-Laut и ach-Laut — здесь; Umlaute — урок 4"
+  },
+  "goal": "После урока сможешь: спросить, сколько лет человеку и женат ли он, сказать «его жена» и «её брат», назвать любимый цвет — как в анкете на странице Homepage (Jenny).",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "На курсе задание: анкета «Мой сосед» — как страница Homepage у Jenny в учебнике.",
+      "Цель: спросить возраст, Familienstand и любимый цвет."
+     ],
+     "voice_ru": "Ольга рассказывает о своём соседе. Ты заполняешь анкету: возраст, женат ли, любимый цвет. О себе рассказывать не нужно — ты спрашиваешь и записываешь.",
+     "hook": "Загадка урока: Herr Wagner — seine Frau, но Anna — ihr Bruder. Почему то sein, то ihr?",
+     "anime_motif": "исекай: у каждого жителя деревни на доске гильдии своя карточка — возраст, цвет знамени, семья (без цитат)",
+     "npc": "Olga — одногруппница",
+     "more": "Ольга расскажет о соседе и его жене. Ты спросишь: «сколько ему лет?», «он женат?», «какой у неё любимый цвет?»",
+     "goal": "После урока сможешь: спросить, сколько лет человеку и женат ли он, сказать «его жена» и «её брат», назвать любимый цвет — как в анкете на странице Homepage (Jenny)."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch07_002",
+      "ch07_005",
+      "ch07_d1_04"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "На прошлом уроке ты спрашивал по фото «это твой брат?» и говорил «моя мама». Вспомни."
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch07_002",
+      "ch07_005",
+      "ch07_d1_04"
+     ],
+     "type": "retrieval: вопрос, не перечитывание"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch07_015",
+      "ch07_016",
+      "ch07_017",
+      "ch07_018",
+      "ch07_019",
+      "ch07_021",
+      "ch07_022",
+      "ch07_023"
+     ],
+     "words": [
+      "Herr Wagner ist mein Nachbar.",
+      "Wie alt ist er? · Er ist zweiundvierzig Jahre alt.",
+      "Ist er verheiratet? · Sein Bruder ist ledig.",
+      "Seine Frau heißt Anna.",
+      "Seine Lieblingsfarbe ist blau. · Ihre Lieblingsfarbe ist grün."
+     ],
+     "words_ru": {
+      "Herr Wagner ist mein Nachbar.": "Господин Вагнер — мой сосед.",
+      "Wie alt ist er? · Er ist zweiundvierzig Jahre alt.": "Сколько ему лет? · Ему сорок два года.",
+      "Ist er verheiratet? · Sein Bruder ist ledig.": "Он женат? · Его брат не женат.",
+      "Seine Frau heißt Anna.": "Его жену зовут Анна.",
+      "Seine Lieblingsfarbe ist blau. · Ihre Lieblingsfarbe ist grün.": "Его любимый цвет — синий. · Её любимый цвет — зелёный."
+     },
+     "trap": "Возраст говорят с ist: Er ist zweiundvierzig Jahre alt — «ему 42 года», без слова «есть» по-русски. Jahre — «годы».",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch07_L2_words_1",
+      "ch07_L2_words_2",
+      "ch07_L2_words_3",
+      "ch07_L2_words_4",
+      "ch07_L2_words_5",
+      "ch07_L2_words_6",
+      "ch07_L2_words_7"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch07_d2",
+     "line_ids": [
+      "ch07_d2_01",
+      "ch07_d2_02",
+      "ch07_d2_03",
+      "ch07_d2_04",
+      "ch07_d2_05",
+      "ch07_d2_06",
+      "ch07_d2_07",
+      "ch07_d2_08"
+     ],
+     "halves": [
+      [
+       "ch07_d2_01",
+       "ch07_d2_02",
+       "ch07_d2_03",
+       "ch07_d2_04"
+      ],
+      [
+       "ch07_d2_05",
+       "ch07_d2_06",
+       "ch07_d2_07",
+       "ch07_d2_08"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "В анкете, в Jobcenter и у врача есть строка Familienstand — «семейное положение»: ledig (не женат), verheiratet (женат / замужем), geschieden (в разводе), verwitwet (вдовец / вдова).",
+     "life_source": "Duden: «Familienstand», «ledig», «verheiratet», «geschieden», «verwitwet» (duden.de)",
+     "task_ids": [
+      "ch07_L2_listen_1",
+      "ch07_L2_listen_2",
+      "ch07_L2_listen_3",
+      "ch07_L2_listen_4",
+      "ch07_L2_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "заклинание «его — её»",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch07_019",
+     "title": "Почему так",
+     "world_name": "заклинание «его — её»",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "Владелец выбирает начало: он — sein, она — ihr. Слово выбирает окончание: die-слово получает -e. Seine Frau, ihr Bruder.",
+     "screen": [
+      "sein / ihr — выбирает владелец (он · она)",
+      "-e на конце — выбирает слово (die-слово)"
+     ],
+     "answer_hook": "Ответ на загадку: Herr Wagner — «он», поэтому sein. Anna — «она», поэтому ihr. А -e в seine Frau — от слова die Frau.",
+     "term_note": "В учебнике слова sein, ihr называются Possessivartikel. Запоминать название не нужно.",
+     "second": {
+      "why_id": "ch07_020",
+      "voice_ru": "In Leipzig wohnt ihr Bruder: владелец она — ihr, Bruder — der-слово, окончания нет. Ihre Schwester — die-слово, поэтому ihre."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch07_L2_why_1",
+      "ch07_L2_why_2",
+      "ch07_L2_why_3",
+      "ch07_L2_why_4",
+      "ch07_L2_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch07_024",
+     "pieces": [
+      "Frau?",
+      "seine",
+      "ist",
+      "alt",
+      "Wie"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch07_016",
+      "ch07_019"
+     ],
+     "prompt": "Собери сам из знакомых кусков: Herr Wagner — сосед. Спроси Ольгу, сколько лет его жене.",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch07_024",
+     "transfer_task_ids": [
+      "ch07_L2_transfer_1"
+     ],
+     "task_ids": [
+      "ch07_L2_write_1",
+      "ch07_L2_write_2",
+      "ch07_L2_write_3",
+      "ch07_L2_write_4",
+      "ch07_L2_write_5",
+      "ch07_L2_write_6",
+      "ch07_L2_read_1",
+      "ch07_L2_read_2",
+      "ch07_L2_read_3",
+      "ch07_L2_read_4",
+      "ch07_L2_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "Nachbar",
+     "ipa_sym": "ch",
+     "tip_ru": "Два звука для ch — смотри на соседнюю букву слева. После i, e, ei, eu — мягкий звук (ich-Laut): ich, nicht. После a, o, u — твёрдый (ach-Laut): Nachbar, Buch.",
+     "bridge_ru": "По-русски есть только твёрдое «х». Мягкий ich-Laut — как «х», сказанное шёпотом почти с «й»: «ихь». Твёрдый ach-Laut — как русское «х»: «НАХ-бар».",
+     "phrase_id": "ch07_015",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "ich",
+       "ru": "ихь — мягкий (после i)"
+      },
+      {
+       "de": "nicht",
+       "ru": "нихьт — мягкий (после i)"
+      },
+      {
+       "de": "Nachbar",
+       "ru": "НАХ-бар — твёрдый (после a)"
+      },
+      {
+       "de": "Buch",
+       "ru": "бух — твёрдый (после u)"
+      }
+     ],
+     "speak_task_ids": [
+      "ch07_L2_speak_1",
+      "ch07_L2_speak_2",
+      "ch07_L2_speak_3",
+      "ch07_L2_speak_4",
+      "ch07_L2_speak_5",
+      "ch07_L2_speak_6"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Анкета соседа",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Olga (на «ты»)",
+     "turns": [
+      {
+       "prompt_id": "ch07_d2_01",
+       "prompt_de": "Herr Wagner ist mein Nachbar.",
+       "prompt_audio": "audio_v1/ch07_d2_01.mp3",
+       "expected_id": "ch07_d2_02",
+       "expected_de": "Wie alt ist er?",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch07_d2_03",
+       "prompt_de": "Er ist zweiundvierzig Jahre alt.",
+       "prompt_audio": "audio_v1/ch07_d2_03.mp3",
+       "expected_id": "ch07_d2_04",
+       "expected_de": "Ist er verheiratet?",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch07_d2_05",
+       "prompt_de": "Ja, seine Frau heißt Anna, und sein Bruder ist ledig.",
+       "prompt_audio": "audio_v1/ch07_d2_05.mp3",
+       "expected_id": "ch07_d2_06",
+       "expected_de": "Und was ist ihre Lieblingsfarbe?",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Ты заполняешь анкету: спрашиваешь возраст, Familienstand и любимый цвет. О себе рассказывать не нужно.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch07_d2_05",
+     "task_ru": "Новичок слышит у Ольги «seine Frau», а потом «ihre Lieblingsfarbe» и не понимает, почему начало разное. Объясни ему по-русски, кто выбирает sein или ihr.",
+     "expected_ru": "Да, его жену зовут Анна, а его брат не женат.",
+     "hint_ru": "sein — если говорим о нём (er), ihr — если о ней (sie). Окончание -e — от слова: die Frau, die Lieblingsfarbe",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1.1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch07_L2_dict_1",
+      "ch07_L2_dict_2",
+      "ch07_L2_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Frau, Bruder, Lieblingsfarbe — предметы и люди, с большой буквы; grün, blau — цвета, с маленькой. ü в grün — как в слове «дюна». В ihr — буква h после i, в Leipzig — ei читается «ай»."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch07_L2_transfer_2",
+      "ch07_L2_transfer_3",
+      "ch07_L2_transfer_4",
+      "ch07_L2_transfer_5",
+      "ch07_L2_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Теперь ты знаешь, кому принадлежит «его» и «её» и как сказать возраст.",
+      "Совет на завтра: назови про себя двух знакомых и скажи, сколько лет каждому: Er ist … Jahre alt."
+     ],
+     "npc_phrase_id": "ch07_d2_07",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: он — sein, она — ihr · die-слово — +e: seine Frau, ihre Schwester · der-слово — без окончания: sein Bruder, ihr Bruder · ich — мягкий звук, Nachbar — твёрдый.",
+     "next_hook": "Дальше: Ольга организует Elternabend. Как сказать «мне нужно» и «я могу».",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       124,
+       125
+      ],
+      "phrases_ids": [
+       "ch07_025",
+       "ch07_026",
+       "ch07_027",
+       "ch07_028",
+       "ch07_029"
+      ],
+      "note": "к курсу: на стр. 124–125 — цвета, поля анкеты (Alter, Hobbys, Familienstand) и профессии; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса: цвета, анкета, профессии",
+       "phrase_id": "ch07_025",
+       "picture": "анкета с полями и цветные карандаши: красный, жёлтый, коричневый, серый, сиреневый",
+       "words": [
+        {
+         "de": "rot",
+         "ru": "красный"
+        },
+        {
+         "de": "gelb",
+         "ru": "жёлтый"
+        },
+        {
+         "de": "braun",
+         "ru": "коричневый"
+        },
+        {
+         "de": "grau",
+         "ru": "серый"
+        },
+        {
+         "de": "lila",
+         "ru": "сиреневый"
+        },
+        {
+         "de": "orange",
+         "ru": "оранжевый"
+        },
+        {
+         "de": "rosa",
+         "ru": "розовый"
+        },
+        {
+         "de": "schwarz",
+         "ru": "чёрный"
+        },
+        {
+         "de": "weiß",
+         "ru": "белый"
+        },
+        {
+         "de": "geschieden",
+         "ru": "в разводе"
+        },
+        {
+         "de": "verwitwet",
+         "ru": "вдовец или вдова"
+        },
+        {
+         "de": "die Nachbarin",
+         "ru": "соседка"
+        },
+        {
+         "de": "der Student",
+         "ru": "студент"
+        },
+        {
+         "de": "die Architektin",
+         "ru": "женщина-архитектор"
+        },
+        {
+         "de": "der Elektriker",
+         "ru": "электрик"
+        },
+        {
+         "de": "die Erzieherin",
+         "ru": "воспитательница"
+        },
+        {
+         "de": "das Alter",
+         "ru": "возраст"
+        },
+        {
+         "de": "die Hobbys",
+         "ru": "хобби"
+        },
+        {
+         "de": "das Lieblingsessen",
+         "ru": "любимое блюдо"
+        }
+       ],
+       "note": "эти слова есть на стр. 124–125; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch07_L2_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch07_025",
+        "prompt": "Слова курса: цвета. Послушай. Что значит «Gelb»?",
+        "answer": "жёлтый",
+        "distractors": [
+         "серый",
+         "красный"
+        ],
+        "src": "Linie 1, стр. 125 (Farben)"
+       },
+       {
+        "id": "ch07_L2_kurs_2",
+        "skill": "listen",
+        "phraseId": "ch07_026",
+        "prompt": "Слова курса: цвета. Послушай. Что значит «Schwarz»?",
+        "answer": "чёрный",
+        "distractors": [
+         "белый",
+         "розовый"
+        ],
+        "src": "Linie 1, стр. 125 (Farben)"
+       },
+       {
+        "id": "ch07_L2_kurs_3",
+        "skill": "listen",
+        "phraseId": "ch07_027",
+        "prompt": "Слова курса: профессии. Послушай. Что значит «Elektriker»?",
+        "answer": "электрик",
+        "distractors": [
+         "студент",
+         "воспитательница"
+        ],
+        "src": "Linie 1, стр. 124 (Berufe)"
+       },
+       {
+        "id": "ch07_L2_kurs_4",
+        "skill": "listen",
+        "phraseId": "ch07_029",
+        "prompt": "Слова курса: Familienstand. Послушай. Что значит «verwitwet»?",
+        "answer": "вдовец или вдова",
+        "distractors": [
+         "в разводе",
+         "не женат"
+        ],
+        "src": "Linie 1, стр. 125 (Familienstand)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      124,
+      125
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch07.py",
+  "new_words": [
+   "der Nachbar",
+   "alt · Jahre alt",
+   "verheiratet · ledig",
+   "sein · seine",
+   "ihr · ihre",
+   "blau · grün",
+   "die Lieblingsfarbe"
+  ],
+  "known_before": [
+   "mein · meine",
+   "dein · deine",
+   "Ist das …?",
+   "Wie ist …?",
+   "heißt · wohnt in",
+   "der Bruder · die Schwester"
+  ],
+  "transfer_phrase_ids": [
+   "ch07_t03",
+   "ch07_t04"
+  ],
+  "built_phrase_ids": [
+   "ch07_024"
+  ],
+  "quiz_ids": [
+   "ch07_L2_words_1",
+   "ch07_L2_words_2",
+   "ch07_L2_words_3",
+   "ch07_L2_words_4",
+   "ch07_L2_words_5",
+   "ch07_L2_words_6",
+   "ch07_L2_words_7",
+   "ch07_L2_listen_1",
+   "ch07_L2_listen_2",
+   "ch07_L2_listen_3",
+   "ch07_L2_listen_4",
+   "ch07_L2_listen_5",
+   "ch07_L2_read_1",
+   "ch07_L2_read_2",
+   "ch07_L2_read_3",
+   "ch07_L2_read_4",
+   "ch07_L2_read_5",
+   "ch07_L2_speak_1",
+   "ch07_L2_speak_2",
+   "ch07_L2_speak_3",
+   "ch07_L2_speak_4",
+   "ch07_L2_speak_5",
+   "ch07_L2_speak_6",
+   "ch07_L2_write_1",
+   "ch07_L2_write_2",
+   "ch07_L2_write_3",
+   "ch07_L2_write_4",
+   "ch07_L2_write_5",
+   "ch07_L2_write_6",
+   "ch07_L2_why_1",
+   "ch07_L2_why_2",
+   "ch07_L2_why_3",
+   "ch07_L2_why_4",
+   "ch07_L2_why_5",
+   "ch07_L2_transfer_1",
+   "ch07_L2_transfer_2",
+   "ch07_L2_transfer_3",
+   "ch07_L2_transfer_4",
+   "ch07_L2_transfer_5",
+   "ch07_L2_boss_1"
+  ],
+  "dictation_ids": [
+   "ch07_L2_dict_1",
+   "ch07_L2_dict_2",
+   "ch07_L2_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "На курсе задание: анкета «Мой сосед» — как страница Homepage у Jenny в учебнике. Цель: спросить возраст, Familienstand и любимый цвет. Загадка урока: Herr Wagner — seine Frau, но Anna — ihr Bruder. Почему то sein, то ihr?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Анкета соседа",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой на курсе (ИИ — Ольга)",
+   "situation": "kurs_nachbar",
+   "ai_plays": "Olga (на «ты»)",
+   "phrases": [
+    "ch07_d2_02",
+    "ch07_d2_04",
+    "ch07_d2_06"
+   ]
+  },
+  "outro": "Теперь ты знаешь, кому принадлежит «его» и «её» и как сказать возраст. Совет на завтра: назови про себя двух знакомых и скажи, сколько лет каждому: Er ist … Jahre alt. Дальше: Ольга организует Elternabend. Как сказать «мне нужно» и «я могу».",
+  "detail_de_life": "В анкете, в Jobcenter и у врача есть строка Familienstand — «семейное положение»: ledig (не женат), verheiratet (женат / замужем), geschieden (в разводе), verwitwet (вдовец / вдова).",
+  "detail_de_life_source": "Duden: «Familienstand», «ledig», «verheiratet», «geschieden», «verwitwet» (duden.de)",
+  "task_ids": {
+   "words": [
+    "ch07_L2_words_1",
+    "ch07_L2_words_2",
+    "ch07_L2_words_3",
+    "ch07_L2_words_4",
+    "ch07_L2_words_5",
+    "ch07_L2_words_6",
+    "ch07_L2_words_7"
+   ],
+   "listen": [
+    "ch07_L2_listen_1",
+    "ch07_L2_listen_2",
+    "ch07_L2_listen_3",
+    "ch07_L2_listen_4",
+    "ch07_L2_listen_5"
+   ],
+   "read": [
+    "ch07_L2_read_1",
+    "ch07_L2_read_2",
+    "ch07_L2_read_3",
+    "ch07_L2_read_4",
+    "ch07_L2_read_5"
+   ],
+   "speak": [
+    "ch07_L2_speak_1",
+    "ch07_L2_speak_2",
+    "ch07_L2_speak_3",
+    "ch07_L2_speak_4",
+    "ch07_L2_speak_5",
+    "ch07_L2_speak_6"
+   ],
+   "write": [
+    "ch07_L2_write_1",
+    "ch07_L2_write_2",
+    "ch07_L2_write_3",
+    "ch07_L2_write_4",
+    "ch07_L2_write_5",
+    "ch07_L2_write_6"
+   ],
+   "why": [
+    "ch07_L2_why_1",
+    "ch07_L2_why_2",
+    "ch07_L2_why_3",
+    "ch07_L2_why_4",
+    "ch07_L2_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch07_L2_transfer_1",
+   "ch07_L2_transfer_2",
+   "ch07_L2_transfer_3",
+   "ch07_L2_transfer_4",
+   "ch07_L2_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch07_002",
+   "ch07_005",
+   "ch07_d1_04"
+  ],
+  "dialog_ids": [
+   "ch07_d2"
+  ],
+  "video": "video/ch07_L2.mp4"
+ },
+ {
+  "id": "ch07_L3",
+  "title": "Elternabend: ich muss, ich kann",
+  "pages_linie1": {
+   "pages": [
+    126,
+    127
+   ],
+   "sections": [
+    "5 Ich muss den Elternabend organisieren",
+    "6 Jenny hat Stress; Elternabend organisieren"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch07_030",
+   "ch07_031",
+   "ch07_032",
+   "ch07_033",
+   "ch07_034",
+   "ch07_035",
+   "ch07_036"
+  ],
+  "why_ids": [
+   "ch07_030",
+   "ch07_034"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch07_d3",
+    "line_ids": [
+     "ch07_d3_01",
+     "ch07_d3_02",
+     "ch07_d3_03",
+     "ch07_d3_04",
+     "ch07_d3_05",
+     "ch07_d3_06",
+     "ch07_d3_07",
+     "ch07_d3_08"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Прошлый урок: «его жена» и «её любимый цвет». Вспомни."
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch07_d3",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch07_d3_02",
+        "ch07_d3_04",
+        "ch07_d3_06",
+        "ch07_d3_08"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch07_d3",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Umlaute: послушай Stühle, müssen, Getränke и повтори",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch07_030",
+        "ch07_031",
+        "ch07_033",
+        "ch07_036"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Umlaute: послушай Stühle, müssen, Getränke и повтори — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "muss / kann — «пульт»: стоит вторым, а второе действие ждёт в конце; в русском оно рядом — в немецком разнесено рамкой",
+   "как слышу, так и пишу": "ü и ä на слух: Stühle — «штюле», Getränke — «гэтрэнке»; две точки не забудь в диктанте",
+   "учебник непонятен": "из Linie 1 — только темы, слова и страницы главы 7; подача своя",
+   "село, живой немецкий — Netto": "Elternabend, Kindergarten, помощь соседям — это то, что бывает в селе; «Могу я помочь?» пригодится сразу",
+   "ТЗ 2.2: семья — не личная тема": "герой спрашивает, слушает и пересказывает; о своей семье рассказывать не нужно",
+   "любит аниме": "завязка — староста перед праздником раздаёт задания; отрезки аниме — позже",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин (все 12 + 24 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Kannst du die Stühle bringen?; перенос — Kann ich die Stühle bringen?, Ich muss die Stühle bringen.",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    126,
+    127
+   ],
+   "phrases_ids": [
+    "ch07_038",
+    "ch07_039"
+   ],
+   "note": "к курсу: на стр. 126–127 — слова для собрания (Kindergarten, Raum, Kekse, Getränke, Blumen, Obst); слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса: собрание",
+    "phrase_id": "ch07_038",
+    "picture": "зал детского сада: стулья, стол с печеньем, цветами и лимонадом, врач у двери",
+    "words": [
+     {
+      "de": "der Kindergarten",
+      "ru": "детский сад"
+     },
+     {
+      "de": "der Arzt",
+      "ru": "врач"
+     },
+     {
+      "de": "der Raum",
+      "ru": "комната, зал"
+     },
+     {
+      "de": "die Kekse",
+      "ru": "печенье"
+     },
+     {
+      "de": "die Blumen",
+      "ru": "цветы"
+     },
+     {
+      "de": "das Obst",
+      "ru": "фрукты"
+     },
+     {
+      "de": "die Limo",
+      "ru": "лимонад"
+     },
+     {
+      "de": "das Wasser",
+      "ru": "вода"
+     },
+     {
+      "de": "die Hausaufgaben",
+      "ru": "домашнее задание"
+     }
+    ],
+    "note": "эти слова есть на стр. 126–127; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch07_L3_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch07_038",
+     "prompt": "Слова курса. Послушай. Что значит «Kekse»?",
+     "answer": "печенье",
+     "distractors": [
+      "цветы",
+      "фрукты"
+     ],
+     "src": "Linie 1, стр. 127 (Elternabend)"
+    },
+    {
+     "id": "ch07_L3_kurs_2",
+     "skill": "listen",
+     "phraseId": "ch07_038",
+     "prompt": "Слова курса. Послушай. Что значит «Raum»?",
+     "answer": "комната, зал",
+     "distractors": [
+      "детский сад",
+      "врач"
+     ],
+     "src": "Linie 1, стр. 126–127 (Elternabend)"
+    },
+    {
+     "id": "ch07_L3_kurs_3",
+     "skill": "listen",
+     "phraseId": "ch07_039",
+     "prompt": "Слова курса. Послушай. Что значит «Obst»?",
+     "answer": "фрукты",
+     "distractors": [
+      "цветы",
+      "лимонад"
+     ],
+     "src": "Linie 1, стр. 127 (Elternabend)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Школа (Schule): стройка главы 7; сегодня — Elternabend, в зале расставляют стулья",
+   "npc": "Olga — одногруппница (на «ты»); Herr Wagner — сосед"
+  },
+  "covers": [
+   "L1-07-S5",
+   "L1-07-S6",
+   "L1-07-G3",
+   "L1-07-G4",
+   "B09.1",
+   "B09.2",
+   "B09.7"
+  ],
+  "covers_partial": [
+   "L1-07-AUSSPR"
+  ],
+  "covers_note": {
+   "L1-07-S5": "Ich muss den Elternabend organisieren (стр. 126): muss / kann + действие в конце; кто что делает на собрании",
+   "L1-07-S6": "Jenny hat Stress (стр. 127): Stress перед Elternabend, дела: Getränke kaufen, Stühle bringen, помощь; слова зала (Raum, Kekse, Blumen, Obst) — «к курсу»",
+   "L1-07-G3": "Modalverben können, müssen: kann / kannst, muss / musst; у «я» и «он» одна форма, хвост -st только у du",
+   "L1-07-G4": "Satzklammer mit Modalverben: «пульт» во втором вагоне, второе действие в конце (рамка): muss … organisieren",
+   "B09.1": "Формы: ich kann = er kann (Herr Wagner kann), du kannst, du musst",
+   "B09.2": "Рамка: действие ждёт в конце — muss … organisieren, kann … kaufen, kannst … helfen",
+   "B09.7": "Без инфинитива: Ich muss weg. Ich kann das. — фраза уже закончена",
+   "L1-07-AUSSPR": "Umlaute: ü (Stühle), ä (Getränke) — здесь; ö — урок 4"
+  },
+  "goal": "После урока сможешь: сказать «мне нужно» и «я могу» с действием в конце, спросить «ты можешь помочь?» и вежливо сказать «мне нужно уйти».",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Перед Elternabend (собранием родителей) у Ольги Stress — как у Jenny в учебнике.",
+      "Цель: сказать «мне нужно» и «я могу» и предложить помощь."
+     ],
+     "voice_ru": "Ольга организует Elternabend — собрание родителей в школе. У неё Stress: слишком много дел. Ты можешь помочь: купить напитки и сказать, что тебе тоже пора.",
+     "hook": "Загадка урока: Ich muss den Elternabend organisieren. Куда убежало слово organisieren — оно же главное действие?",
+     "anime_motif": "исекай: перед праздником деревни староста раздаёт задания — кто что должен и кто что может (без цитат)",
+     "npc": "Olga — одногруппница",
+     "more": "Ольга скажет, что ей нужно сделать. Ты предложишь помощь и скажешь, что можешь купить напитки.",
+     "goal": "После урока сможешь: сказать «мне нужно» и «я могу» с действием в конце, спросить «ты можешь помочь?» и вежливо сказать «мне нужно уйти»."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch07_019",
+      "ch07_022",
+      "ch07_d2_02"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Прошлый урок: «его жена» и «её любимый цвет». Вспомни."
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch07_019",
+      "ch07_022",
+      "ch07_d2_02"
+     ],
+     "type": "retrieval: вопрос, не перечитывание"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch07_030",
+      "ch07_031",
+      "ch07_032",
+      "ch07_033",
+      "ch07_034",
+      "ch07_035",
+      "ch07_036"
+     ],
+     "words": [
+      "Ich muss den Elternabend organisieren.",
+      "Ich kann die Getränke kaufen. · Kannst du helfen?",
+      "Du musst die Stühle bringen.",
+      "Herr Wagner kann das Wasser bringen.",
+      "Ich kann das. · Ich muss weg."
+     ],
+     "words_ru": {
+      "Ich muss den Elternabend organisieren.": "Мне нужно организовать родительское собрание.",
+      "Ich kann die Getränke kaufen. · Kannst du helfen?": "Я могу купить напитки. · Ты можешь помочь?",
+      "Du musst die Stühle bringen.": "Ты должен принести стулья.",
+      "Herr Wagner kann das Wasser bringen.": "Господин Вагнер может принести воду.",
+      "Ich kann das. · Ich muss weg.": "Я это могу. · Мне нужно уйти."
+     },
+     "trap": "muss — «нужно, должен», kann — «могу»: это разные слова. Ich muss weg — «нужно уйти»: weg — хвост действия (wegmüssen), он в конце.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch07_L3_words_1",
+      "ch07_L3_words_2",
+      "ch07_L3_words_3",
+      "ch07_L3_words_4",
+      "ch07_L3_words_5",
+      "ch07_L3_words_6",
+      "ch07_L3_words_7"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch07_d3",
+     "line_ids": [
+      "ch07_d3_01",
+      "ch07_d3_02",
+      "ch07_d3_03",
+      "ch07_d3_04",
+      "ch07_d3_05",
+      "ch07_d3_06",
+      "ch07_d3_07",
+      "ch07_d3_08"
+     ],
+     "halves": [
+      [
+       "ch07_d3_01",
+       "ch07_d3_02",
+       "ch07_d3_03",
+       "ch07_d3_04"
+      ],
+      [
+       "ch07_d3_05",
+       "ch07_d3_06",
+       "ch07_d3_07",
+       "ch07_d3_08"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "Elternabend — вечернее собрание родителей в школе или в детском саду (Kindergarten) (Duden: «Elternabend»). Бывает, что родителей просят помочь: принести стулья, напитки, печенье.",
+     "life_source": "Duden: «Elternabend» (duden.de/rechtschreibung/Elternabend)",
+     "task_ids": [
+      "ch07_L3_listen_1",
+      "ch07_L3_listen_2",
+      "ch07_L3_listen_3",
+      "ch07_L3_listen_4",
+      "ch07_L3_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "заклинание «рамка»",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch07_030",
+     "title": "Почему так",
+     "world_name": "заклинание «рамка»",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "Слова muss и kann — «пульт»: они стоят вторым вагоном, а главное действие уходит в самый конец. Получается рамка: muss … organisieren.",
+     "screen": [
+      "Ich · muss · den Elternabend · organisieren.",
+      "Ich · kann · die Getränke · kaufen."
+     ],
+     "answer_hook": "Ответ на загадку: organisieren не убежало — оно закрывает рамку. «Пульт» держит вагон №2, а само действие ждёт в конце.",
+     "term_note": "В учебнике это называется Satzklammer mit Modalverben (рамка с модальными глаголами) и Modalverben können, müssen. Запоминать названия не нужно.",
+     "second": {
+      "why_id": "ch07_034",
+      "voice_ru": "У «я» и «он» одна форма: ich kann, er kann. Хвост -st только у «ты»: du kannst. Ich muss weg: weg — хвост действия, он в конце."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch07_L3_why_1",
+      "ch07_L3_why_2",
+      "ch07_L3_why_3",
+      "ch07_L3_why_4",
+      "ch07_L3_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch07_037",
+     "pieces": [
+      "bringen?",
+      "Kannst",
+      "die",
+      "du",
+      "Stühle"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch07_032",
+      "ch07_033"
+     ],
+     "prompt": "Собери сам из знакомых кусков: Ольге нужны стулья в зале. Спроси её: «Ты можешь принести стулья?»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch07_037",
+     "transfer_task_ids": [
+      "ch07_L3_transfer_1",
+      "ch07_L3_transfer_4"
+     ],
+     "task_ids": [
+      "ch07_L3_write_1",
+      "ch07_L3_write_2",
+      "ch07_L3_write_3",
+      "ch07_L3_write_4",
+      "ch07_L3_write_5",
+      "ch07_L3_write_6",
+      "ch07_L3_read_1",
+      "ch07_L3_read_2",
+      "ch07_L3_read_3",
+      "ch07_L3_read_4",
+      "ch07_L3_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "Stühle",
+     "ipa_sym": "y",
+     "tip_ru": "Umlaute (ä, ö, ü) — особые гласные. ü: губы вперёд, как для «у», а язык — как для «и»: Stühle — «ШТЮ:ле». ä: почти как «э»: Getränke — «гэ-ТРЭН-ке».",
+     "bridge_ru": "По-русски есть «ю» в «дюна» и «э» в «этот». ü звучит как долгое «ю» без «й»: Stühle — «штюле».",
+     "phrase_id": "ch07_033",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "Stühle",
+       "ru": "ШТЮ:ле — ü как «ю»"
+      },
+      {
+       "de": "müssen",
+       "ru": "МЮ-сен — ü как «ю»"
+      },
+      {
+       "de": "Getränke",
+       "ru": "гэ-ТРЭН-ке — ä как «э»"
+      },
+      {
+       "de": "kann",
+       "ru": "кан — короткое «а», nn — один звук"
+      }
+     ],
+     "speak_task_ids": [
+      "ch07_L3_speak_1",
+      "ch07_L3_speak_2",
+      "ch07_L3_speak_3",
+      "ch07_L3_speak_4",
+      "ch07_L3_speak_5",
+      "ch07_L3_speak_6"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Помощь с собранием",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Olga (на «ты»)",
+     "turns": [
+      {
+       "prompt_id": "ch07_d3_01",
+       "prompt_de": "Ich muss den Elternabend organisieren.",
+       "prompt_audio": "audio_v1/ch07_d3_01.mp3",
+       "expected_id": "ch07_d3_02",
+       "expected_de": "Kann ich helfen?",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch07_d3_03",
+       "prompt_de": "Ja, kannst du die Getränke kaufen?",
+       "prompt_audio": "audio_v1/ch07_d3_03.mp3",
+       "expected_id": "ch07_d3_04",
+       "expected_de": "Ja, ich kann die Getränke kaufen.",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch07_d3_05",
+       "prompt_de": "Und du musst die Stühle bringen.",
+       "prompt_audio": "audio_v1/ch07_d3_05.mp3",
+       "expected_id": "ch07_d3_06",
+       "expected_de": "Muss ich auch das Wasser bringen?",
+       "accept": [
+        {
+         "id": "ch07_t05",
+         "de": "Kann ich die Stühle bringen?"
+        }
+       ],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Ты предлагаешь помощь и спрашиваешь, что нужно. Отвечай целой фразой: Ich kann … / Muss ich …?",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch07_d3_01",
+     "task_ru": "Новичок спрашивает, почему в «Ich muss den Elternabend organisieren» слово organisieren стоит в самом конце. Объясни ему по-русски, как работает рамка.",
+     "expected_ru": "Мне нужно организовать родительское собрание.",
+     "hint_ru": "muss — «нужно», стоит вторым; organisieren — «организовать», уходит в конец; между ними всё остальное",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1.1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch07_L3_dict_1",
+      "ch07_L3_dict_2",
+      "ch07_L3_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Elternabend, Getränke — предметы, с большой буквы. muss — две s на конце, kann — две n. ä в Getränke и ü в Stühle — две точки, не забудь. weg — в конце."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch07_L3_boss_2",
+      "ch07_L3_transfer_2",
+      "ch07_L3_transfer_3",
+      "ch07_L3_transfer_5",
+      "ch07_L3_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Теперь ты можешь сказать, что тебе нужно и что ты можешь, и предложить помощь.",
+      "Совет на завтра: скажи про себя три дела: Ich muss … Ich kann …"
+     ],
+     "npc_phrase_id": "ch07_d3_07",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: muss / kann — вагон №2, второе действие — в конец (рамка) · ich kann, er kann · du kannst, du musst · Ich muss weg. Ich kann das.",
+     "next_hook": "Дальше: на самом собрании. Откуда ты, какой язык и кто какой национальности.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       126,
+       127
+      ],
+      "phrases_ids": [
+       "ch07_038",
+       "ch07_039"
+      ],
+      "note": "к курсу: на стр. 126–127 — слова для собрания (Kindergarten, Raum, Kekse, Getränke, Blumen, Obst); слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса: собрание",
+       "phrase_id": "ch07_038",
+       "picture": "зал детского сада: стулья, стол с печеньем, цветами и лимонадом, врач у двери",
+       "words": [
+        {
+         "de": "der Kindergarten",
+         "ru": "детский сад"
+        },
+        {
+         "de": "der Arzt",
+         "ru": "врач"
+        },
+        {
+         "de": "der Raum",
+         "ru": "комната, зал"
+        },
+        {
+         "de": "die Kekse",
+         "ru": "печенье"
+        },
+        {
+         "de": "die Blumen",
+         "ru": "цветы"
+        },
+        {
+         "de": "das Obst",
+         "ru": "фрукты"
+        },
+        {
+         "de": "die Limo",
+         "ru": "лимонад"
+        },
+        {
+         "de": "das Wasser",
+         "ru": "вода"
+        },
+        {
+         "de": "die Hausaufgaben",
+         "ru": "домашнее задание"
+        }
+       ],
+       "note": "эти слова есть на стр. 126–127; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch07_L3_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch07_038",
+        "prompt": "Слова курса. Послушай. Что значит «Kekse»?",
+        "answer": "печенье",
+        "distractors": [
+         "цветы",
+         "фрукты"
+        ],
+        "src": "Linie 1, стр. 127 (Elternabend)"
+       },
+       {
+        "id": "ch07_L3_kurs_2",
+        "skill": "listen",
+        "phraseId": "ch07_038",
+        "prompt": "Слова курса. Послушай. Что значит «Raum»?",
+        "answer": "комната, зал",
+        "distractors": [
+         "детский сад",
+         "врач"
+        ],
+        "src": "Linie 1, стр. 126–127 (Elternabend)"
+       },
+       {
+        "id": "ch07_L3_kurs_3",
+        "skill": "listen",
+        "phraseId": "ch07_039",
+        "prompt": "Слова курса. Послушай. Что значит «Obst»?",
+        "answer": "фрукты",
+        "distractors": [
+         "цветы",
+         "лимонад"
+        ],
+        "src": "Linie 1, стр. 127 (Elternabend)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      126,
+      127
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch07.py",
+  "new_words": [
+   "der Elternabend",
+   "muss · musst",
+   "kann · kannst",
+   "helfen",
+   "kaufen · bringen",
+   "organisieren",
+   "die Stühle",
+   "weg"
+  ],
+  "known_before": [
+   "die Getränke",
+   "das Wasser",
+   "Herr Wagner",
+   "Ja · Nein",
+   "auch",
+   "mein · dein · sein · ihr"
+  ],
+  "transfer_phrase_ids": [
+   "ch07_t05",
+   "ch07_t06"
+  ],
+  "built_phrase_ids": [
+   "ch07_037"
+  ],
+  "quiz_ids": [
+   "ch07_L3_words_1",
+   "ch07_L3_words_2",
+   "ch07_L3_words_3",
+   "ch07_L3_words_4",
+   "ch07_L3_words_5",
+   "ch07_L3_words_6",
+   "ch07_L3_words_7",
+   "ch07_L3_listen_1",
+   "ch07_L3_listen_2",
+   "ch07_L3_listen_3",
+   "ch07_L3_listen_4",
+   "ch07_L3_listen_5",
+   "ch07_L3_read_1",
+   "ch07_L3_read_2",
+   "ch07_L3_read_3",
+   "ch07_L3_read_4",
+   "ch07_L3_read_5",
+   "ch07_L3_speak_1",
+   "ch07_L3_speak_2",
+   "ch07_L3_speak_3",
+   "ch07_L3_speak_4",
+   "ch07_L3_speak_5",
+   "ch07_L3_speak_6",
+   "ch07_L3_write_1",
+   "ch07_L3_write_2",
+   "ch07_L3_write_3",
+   "ch07_L3_write_4",
+   "ch07_L3_write_5",
+   "ch07_L3_write_6",
+   "ch07_L3_why_1",
+   "ch07_L3_why_2",
+   "ch07_L3_why_3",
+   "ch07_L3_why_4",
+   "ch07_L3_why_5",
+   "ch07_L3_transfer_1",
+   "ch07_L3_transfer_2",
+   "ch07_L3_transfer_3",
+   "ch07_L3_transfer_4",
+   "ch07_L3_transfer_5",
+   "ch07_L3_boss_1",
+   "ch07_L3_boss_2"
+  ],
+  "dictation_ids": [
+   "ch07_L3_dict_1",
+   "ch07_L3_dict_2",
+   "ch07_L3_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Перед Elternabend (собранием родителей) у Ольги Stress — как у Jenny в учебнике. Цель: сказать «мне нужно» и «я могу» и предложить помощь. Загадка урока: Ich muss den Elternabend organisieren. Куда убежало слово organisieren — оно же главное действие?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Помощь с собранием",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой, который помогает с собранием (ИИ — Ольга)",
+   "situation": "elternabend_vorbereitung",
+   "ai_plays": "Olga (на «ты»)",
+   "phrases": [
+    "ch07_d3_02",
+    "ch07_d3_04",
+    "ch07_d3_06",
+    "ch07_t05"
+   ]
+  },
+  "outro": "Теперь ты можешь сказать, что тебе нужно и что ты можешь, и предложить помощь. Совет на завтра: скажи про себя три дела: Ich muss … Ich kann … Дальше: на самом собрании. Откуда ты, какой язык и кто какой национальности.",
+  "detail_de_life": "Elternabend — вечернее собрание родителей в школе или в детском саду (Kindergarten) (Duden: «Elternabend»). Бывает, что родителей просят помочь: принести стулья, напитки, печенье.",
+  "detail_de_life_source": "Duden: «Elternabend» (duden.de/rechtschreibung/Elternabend)",
+  "task_ids": {
+   "words": [
+    "ch07_L3_words_1",
+    "ch07_L3_words_2",
+    "ch07_L3_words_3",
+    "ch07_L3_words_4",
+    "ch07_L3_words_5",
+    "ch07_L3_words_6",
+    "ch07_L3_words_7"
+   ],
+   "listen": [
+    "ch07_L3_listen_1",
+    "ch07_L3_listen_2",
+    "ch07_L3_listen_3",
+    "ch07_L3_listen_4",
+    "ch07_L3_listen_5"
+   ],
+   "read": [
+    "ch07_L3_read_1",
+    "ch07_L3_read_2",
+    "ch07_L3_read_3",
+    "ch07_L3_read_4",
+    "ch07_L3_read_5"
+   ],
+   "speak": [
+    "ch07_L3_speak_1",
+    "ch07_L3_speak_2",
+    "ch07_L3_speak_3",
+    "ch07_L3_speak_4",
+    "ch07_L3_speak_5",
+    "ch07_L3_speak_6"
+   ],
+   "write": [
+    "ch07_L3_write_1",
+    "ch07_L3_write_2",
+    "ch07_L3_write_3",
+    "ch07_L3_write_4",
+    "ch07_L3_write_5",
+    "ch07_L3_write_6"
+   ],
+   "why": [
+    "ch07_L3_why_1",
+    "ch07_L3_why_2",
+    "ch07_L3_why_3",
+    "ch07_L3_why_4",
+    "ch07_L3_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch07_L3_transfer_1",
+   "ch07_L3_transfer_2",
+   "ch07_L3_transfer_3",
+   "ch07_L3_transfer_4",
+   "ch07_L3_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch07_019",
+   "ch07_022",
+   "ch07_d2_02"
+  ],
+  "dialog_ids": [
+   "ch07_d3"
+  ],
+  "video": "video/ch07_L3.mp4"
+ },
+ {
+  "id": "ch07_L4",
+  "title": "На собрании: страна, язык, национальность",
+  "pages_linie1": {
+   "pages": [
+    128,
+    135
+   ],
+   "sections": [
+    "7 Gespräche beim Elternabend; Land, Sprache, Nationalität"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch07_040",
+   "ch07_041",
+   "ch07_042",
+   "ch07_063",
+   "ch07_043",
+   "ch07_044",
+   "ch07_045"
+  ],
+  "why_ids": [
+   "ch07_044",
+   "ch07_045"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch07_d4",
+    "line_ids": [
+     "ch07_d4_01",
+     "ch07_d4_02",
+     "ch07_d4_03",
+     "ch07_d4_04",
+     "ch07_d4_05",
+     "ch07_d4_06",
+     "ch07_d4_07",
+     "ch07_d4_08"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Прошлый урок: «мне нужно», «ты можешь», «мне пора». Вспомни."
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch07_d4",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch07_d4_02",
+        "ch07_d4_04",
+        "ch07_d4_06",
+        "ch07_d4_08"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch07_d4",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Звук ö: послушай Köln, schön, kommt, Sohn и повтори",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch07_040",
+        "ch07_042",
+        "ch07_044",
+        "ch07_045"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Звук ö: послушай Köln, schön, kommt, Sohn и повтори — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "kennen / wissen — «знать человека» и «знать факт»: по-русски одно слово, по-немецки два; Italiener → Italienerin (+ -in)",
+   "как слышу, так и пишу": "ö на слух: Köln — «кёльн»; в диктанте две точки над ö, без точек у kommt",
+   "учебник непонятен": "из Linie 1 — только темы, слова и страницы главы 7; подача своя",
+   "село, живой немецкий — Netto": "«Woher kommen Sie?» и «Welche Sprachen sprechen Sie?» — то, что слышно на курсе, в очереди и на собрании",
+   "ТЗ 2.2: семья — не личная тема": "герой спрашивает, слушает и пересказывает; о своей семье рассказывать не нужно",
+   "любит аниме": "завязка — площадь гильдии: незнакомцы называют страну, язык и клан; отрезки аниме — позже",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин (все 12 + 24 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Ich kenne Frau Schulz nicht.; перенос — Kennen Sie Frau Becker?, Ich weiß das auch nicht.",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    128,
+    135
+   ],
+   "phrases_ids": [
+    "ch07_047",
+    "ch07_048",
+    "ch07_049",
+    "ch07_050"
+   ],
+   "note": "к курсу: на стр. 128 и 135 — страна, язык, человек и названия национальностей; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса: страны, языки, национальности",
+    "phrase_id": "ch07_047",
+    "picture": "карта мира с флажками и подписями: страна, язык, человек",
+    "words": [
+     {
+      "de": "das Land",
+      "ru": "страна"
+     },
+     {
+      "de": "die Person",
+      "ru": "человек"
+     },
+     {
+      "de": "der Platz",
+      "ru": "место"
+     },
+     {
+      "de": "die Sprache",
+      "ru": "язык"
+     },
+     {
+      "de": "Italien",
+      "ru": "Италия"
+     },
+     {
+      "de": "Italienisch",
+      "ru": "итальянский язык"
+     },
+     {
+      "de": "der Italiener",
+      "ru": "итальянец"
+     },
+     {
+      "de": "der Georgier",
+      "ru": "грузин"
+     },
+     {
+      "de": "die Georgierin",
+      "ru": "грузинка"
+     },
+     {
+      "de": "Georgien",
+      "ru": "Грузия"
+     },
+     {
+      "de": "der Iraner",
+      "ru": "иранец"
+     },
+     {
+      "de": "die Iranerin",
+      "ru": "иранка"
+     },
+     {
+      "de": "der Iran",
+      "ru": "Иран"
+     },
+     {
+      "de": "der Schwede",
+      "ru": "швед"
+     },
+     {
+      "de": "die Schwedin",
+      "ru": "шведка"
+     },
+     {
+      "de": "Schweden",
+      "ru": "шведы"
+     },
+     {
+      "de": "der Vietnamese",
+      "ru": "вьетнамец"
+     },
+     {
+      "de": "die Vietnamesin",
+      "ru": "вьетнамка"
+     },
+     {
+      "de": "Vietnam",
+      "ru": "Вьетнам"
+     },
+     {
+      "de": "der Ägypter",
+      "ru": "египтянин"
+     },
+     {
+      "de": "die Ägypterin",
+      "ru": "египтянка"
+     },
+     {
+      "de": "Ägypten",
+      "ru": "Египет"
+     },
+     {
+      "de": "Deutschland",
+      "ru": "Германия"
+     },
+     {
+      "de": "der Deutsche",
+      "ru": "немец"
+     }
+    ],
+    "note": "эти слова есть на стр. 128 и 135; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch07_L4_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch07_047",
+     "prompt": "Слова курса. Послушай. Что значит «Sprache»?",
+     "answer": "язык",
+     "distractors": [
+      "страна",
+      "человек"
+     ],
+     "src": "Linie 1, стр. 128 (Land, Sprache, Nationalität)"
+    },
+    {
+     "id": "ch07_L4_kurs_2",
+     "skill": "listen",
+     "phraseId": "ch07_048",
+     "prompt": "Слова курса. Послушай. Что значит «Italiener»?",
+     "answer": "итальянец",
+     "distractors": [
+      "итальянка",
+      "Италия"
+     ],
+     "src": "Linie 1, стр. 128 (Nationalität)"
+    },
+    {
+     "id": "ch07_L4_kurs_3",
+     "skill": "listen",
+     "phraseId": "ch07_049",
+     "prompt": "Слова курса. Послушай. Что значит «Georgierin»?",
+     "answer": "грузинка",
+     "distractors": [
+      "грузин",
+      "иранка"
+     ],
+     "src": "Linie 1, стр. 135 (Nationalität)"
+    },
+    {
+     "id": "ch07_L4_kurs_4",
+     "skill": "listen",
+     "phraseId": "ch07_050",
+     "prompt": "Слова курса. Послушай. Что значит «Ägypterin»?",
+     "answer": "египтянка",
+     "distractors": [
+      "шведка",
+      "вьетнамка"
+     ],
+     "src": "Linie 1, стр. 135 (Nationalität)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Школа (Schule): стройка главы 7; зал на Elternabend, родители знакомятся",
+   "npc": "Maria — мама ученика (на «вы»); Olga — одногруппница (на «ты»)"
+  },
+  "covers": [
+   "L1-07-S7",
+   "B03.7",
+   "L1-07-SCHREIB",
+   "L1-07-AUSSPR"
+  ],
+  "covers_note": {
+   "L1-07-S7": "Gespräche beim Elternabend (стр. 128): Land, Sprache, Nationalität — откуда, какие языки, Italiener / Italienerin; слова стр. 135 (Georgier, Iraner, Schwede, Vietnamese, Ägypter) — «к курсу»",
+   "B03.7": "Kennen и wissen: знакомство или сведения — kennen (человек), wissen (факт); часть 5",
+   "L1-07-SCHREIB": "Richtig schreiben: o и ö — Köln / kommt, schön / Sohn; часть 7 и диктант (часть 10)",
+   "L1-07-AUSSPR": "ich-Laut и ach-Laut — урок 2; Umlaute: ü, ä — урок 3, ö — этот урок (часть 7)"
+  },
+  "goal": "После урока сможешь: спросить «откуда вы?» и «на каких языках вы говорите?», сказать, кто итальянец или итальянка, и не путать kennen («знаю человека») с wissen («знаю факт»).",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Elternabend начался: родители знакомятся — Land, Sprache, Nationalität.",
+      "Цель: спросить «откуда вы?», «на каких языках?» и понять разницу kennen / wissen."
+     ],
+     "voice_ru": "Перед собранием Ольга знакомит тебя с Марией. Ты спрашиваешь вежливо, на «вы»: откуда она, на каких языках говорит и знает ли она госпожу Шульц. О себе рассказывать не нужно.",
+     "hook": "Загадка урока: по-русски «знать» — одно слово. Почему по-немецки Ich kenne sie, но Ich weiß das nicht?",
+     "anime_motif": "исекай: на площади гильдии незнакомцы называют страну, язык и клан (без цитат)",
+     "npc": "Maria — мама ученика",
+     "more": "Мария назовёт свою страну и языки. Ты спросишь, знает ли она госпожу Шульц.",
+     "goal": "После урока сможешь: спросить «откуда вы?» и «на каких языках вы говорите?», сказать, кто итальянец или итальянка, и не путать kennen («знаю человека») с wissen («знаю факт»)."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch07_030",
+      "ch07_032",
+      "ch07_036"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Прошлый урок: «мне нужно», «ты можешь», «мне пора». Вспомни."
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch07_030",
+      "ch07_032",
+      "ch07_036"
+     ],
+     "type": "retrieval: вопрос, не перечитывание"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch07_040",
+      "ch07_041",
+      "ch07_042",
+      "ch07_063",
+      "ch07_043",
+      "ch07_044",
+      "ch07_045"
+     ],
+     "words": [
+      "Sie ist Italienerin.",
+      "Welche Sprachen sprechen Sie? · Ich spreche Italienisch und Deutsch.",
+      "Ich wohne in Köln.",
+      "Kennen Sie Frau Schulz? · Ich kenne sie nicht.",
+      "Ich weiß das nicht."
+     ],
+     "words_ru": {
+      "Sie ist Italienerin.": "Она итальянка.",
+      "Welche Sprachen sprechen Sie? · Ich spreche Italienisch und Deutsch.": "На каких языках вы говорите? · Я говорю по-итальянски и по-немецки.",
+      "Ich wohne in Köln.": "Я живу в Кёльне.",
+      "Kennen Sie Frau Schulz? · Ich kenne sie nicht.": "Вы знаете госпожу Шульц? · Я её не знаю.",
+      "Ich weiß das nicht.": "Я этого не знаю. (факт — weiß)"
+     },
+     "trap": "Italiener — мужчина, Italienerin — женщина: к слову добавляют -in. Страна — Italien, язык — Italienisch, человек — Italiener или Italienerin: три разных слова.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch07_L4_words_1",
+      "ch07_L4_words_2",
+      "ch07_L4_words_3",
+      "ch07_L4_words_4",
+      "ch07_L4_words_5",
+      "ch07_L4_words_6",
+      "ch07_L4_words_7"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch07_d4",
+     "line_ids": [
+      "ch07_d4_01",
+      "ch07_d4_02",
+      "ch07_d4_03",
+      "ch07_d4_04",
+      "ch07_d4_05",
+      "ch07_d4_06",
+      "ch07_d4_07",
+      "ch07_d4_08"
+     ],
+     "halves": [
+      [
+       "ch07_d4_01",
+       "ch07_d4_02",
+       "ch07_d4_03",
+       "ch07_d4_04"
+      ],
+      [
+       "ch07_d4_05",
+       "ch07_d4_06",
+       "ch07_d4_07",
+       "ch07_d4_08"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "Незнакомых взрослых в Германии спрашивают на «вы». Вопрос «Woher kommen Sie?» и «Welche Sprachen sprechen Sie?» — обычный разговор перед началом собрания, на курсе и в очереди.",
+     "life_source": "Duden: «siezen» (duden.de/rechtschreibung/siezen)",
+     "task_ids": [
+      "ch07_L4_listen_1",
+      "ch07_L4_listen_2",
+      "ch07_L4_listen_3",
+      "ch07_L4_listen_4",
+      "ch07_L4_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "заклинание «знать»",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch07_044",
+     "title": "Почему так",
+     "world_name": "заклинание «знать»",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "По-русски «знать» — одно слово, по-немецки два. Человека или место знают лично: kennen. Факт, сведения знают головой: wissen.",
+     "screen": [
+      "Ich · kenne · sie. (человека)",
+      "Ich · weiß · das. (факт)"
+     ],
+     "answer_hook": "Ответ на загадку: госпожу Шульц знают лично — kenne. Что-то узнать из слов — weiß: Ich weiß das nicht.",
+     "term_note": "В учебнике и в книге это тема «kennen и wissen». Запоминать название не нужно.",
+     "second": {
+      "why_id": "ch07_045",
+      "voice_ru": "Ich weiß das nicht: речь о сведениях, поэтому weiß. У «я» форма weiß без -t, а у «ты» — weißt."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch07_L4_why_1",
+      "ch07_L4_why_2",
+      "ch07_L4_why_3",
+      "ch07_L4_why_4",
+      "ch07_L4_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch07_046",
+     "pieces": [
+      "nicht.",
+      "kenne",
+      "Frau",
+      "Schulz",
+      "Ich"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch07_043",
+      "ch07_044"
+     ],
+     "prompt": "Собери сам из знакомых кусков: ты не знаком с учительницей. Скажи Марии: «Я не знаю госпожу Шульц.»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch07_046",
+     "transfer_task_ids": [
+      "ch07_L4_transfer_1"
+     ],
+     "task_ids": [
+      "ch07_L4_write_1",
+      "ch07_L4_write_2",
+      "ch07_L4_write_3",
+      "ch07_L4_write_4",
+      "ch07_L4_write_5",
+      "ch07_L4_write_6",
+      "ch07_L4_read_1",
+      "ch07_L4_read_2",
+      "ch07_L4_read_3",
+      "ch07_L4_read_4",
+      "ch07_L4_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "schön",
+     "ipa_sym": "ø",
+     "tip_ru": "ö: губы как для «о», а язык — как для «э»: Köln — «КЁЛЬН», schön — «ШЁ:Н». Не путай: o в kommt и Sohn — обычное «о», а ö — особый гласный.",
+     "bridge_ru": "По-русски похоже на «ё» в слове «лёд»: ö звучит как «ё» без «й». Две точки над ö — не украшение, а другая буква.",
+     "phrase_id": "ch07_063",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "Köln",
+       "ru": "КЁЛЬН — ö как «ё»"
+      },
+      {
+       "de": "kommt",
+       "ru": "комт — o как «о»"
+      },
+      {
+       "de": "schön",
+       "ru": "ШЁ:Н — ö как «ё»"
+      },
+      {
+       "de": "Sohn",
+       "ru": "зо:н — o как «о»"
+      }
+     ],
+     "speak_task_ids": [
+      "ch07_L4_speak_1",
+      "ch07_L4_speak_2",
+      "ch07_L4_speak_3",
+      "ch07_L4_speak_4",
+      "ch07_L4_speak_5",
+      "ch07_L4_speak_6"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Знакомство на собрании",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Maria (на «вы»)",
+     "turns": [
+      {
+       "prompt_id": "ch07_d4_03",
+       "prompt_de": "Ich komme aus Italien. Ich wohne in Köln.",
+       "prompt_audio": "audio_v1/ch07_d4_03.mp3",
+       "expected_id": "ch07_d4_04",
+       "expected_de": "Welche Sprachen sprechen Sie?",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch07_d4_05",
+       "prompt_de": "Ich spreche Italienisch und Deutsch.",
+       "prompt_audio": "audio_v1/ch07_d4_05.mp3",
+       "expected_id": "ch07_d4_06",
+       "expected_de": "Kennen Sie Frau Schulz?",
+       "accept": [
+        {
+         "id": "ch07_t07",
+         "de": "Kennen Sie Frau Becker?"
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch07_d4_07",
+       "prompt_de": "Nein, ich kenne sie nicht.",
+       "prompt_audio": "audio_v1/ch07_d4_07.mp3",
+       "expected_id": "ch07_d4_08",
+       "expected_de": "Wer ist sie? Ich weiß das nicht.",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Ты знакомишься с Марией вежливо, на «вы»: спрашиваешь о языках и о госпоже Шульц. О себе рассказывать не нужно.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch07_d4_01",
+     "task_ru": "Новичок слышит «Sie ist Italienerin» и спрашивает, почему не Italiener и как сказать «итальянец». Объясни ему по-русски.",
+     "expected_ru": "Это Мария. Она итальянка.",
+     "hint_ru": "Italiener — мужчина, Italienerin — женщина: к слову для мужчины добавляют -in",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1.1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch07_L4_dict_1",
+      "ch07_L4_dict_2",
+      "ch07_L4_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Italienerin, Italienisch, Deutsch — с большой буквы: люди и языки. kenne — две n в середине. o и ö: kommt, Sohn — без точек; Köln, schön — с двумя точками."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch07_L4_transfer_2",
+      "ch07_L4_transfer_3",
+      "ch07_L4_transfer_4",
+      "ch07_L4_transfer_5",
+      "ch07_L4_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Теперь ты можешь познакомиться: страна, язык, национальность — и знаешь, когда kennen, а когда wissen.",
+      "Совет на завтра: спроси себя вслух: Welche Sprachen sprechen Sie? И ответь по-немецки одним словом."
+     ],
+     "npc_phrase_id": "ch07_d4_05",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: Italiener / Italienerin (-in для женщины) · Italien — страна, Italienisch — язык · kennen — человека, wissen — факт · ö — как «ё».",
+     "next_hook": "Дальше: после собрания. Как всё было — war и hatte.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       128,
+       135
+      ],
+      "phrases_ids": [
+       "ch07_047",
+       "ch07_048",
+       "ch07_049",
+       "ch07_050"
+      ],
+      "note": "к курсу: на стр. 128 и 135 — страна, язык, человек и названия национальностей; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса: страны, языки, национальности",
+       "phrase_id": "ch07_047",
+       "picture": "карта мира с флажками и подписями: страна, язык, человек",
+       "words": [
+        {
+         "de": "das Land",
+         "ru": "страна"
+        },
+        {
+         "de": "die Person",
+         "ru": "человек"
+        },
+        {
+         "de": "der Platz",
+         "ru": "место"
+        },
+        {
+         "de": "die Sprache",
+         "ru": "язык"
+        },
+        {
+         "de": "Italien",
+         "ru": "Италия"
+        },
+        {
+         "de": "Italienisch",
+         "ru": "итальянский язык"
+        },
+        {
+         "de": "der Italiener",
+         "ru": "итальянец"
+        },
+        {
+         "de": "der Georgier",
+         "ru": "грузин"
+        },
+        {
+         "de": "die Georgierin",
+         "ru": "грузинка"
+        },
+        {
+         "de": "Georgien",
+         "ru": "Грузия"
+        },
+        {
+         "de": "der Iraner",
+         "ru": "иранец"
+        },
+        {
+         "de": "die Iranerin",
+         "ru": "иранка"
+        },
+        {
+         "de": "der Iran",
+         "ru": "Иран"
+        },
+        {
+         "de": "der Schwede",
+         "ru": "швед"
+        },
+        {
+         "de": "die Schwedin",
+         "ru": "шведка"
+        },
+        {
+         "de": "Schweden",
+         "ru": "шведы"
+        },
+        {
+         "de": "der Vietnamese",
+         "ru": "вьетнамец"
+        },
+        {
+         "de": "die Vietnamesin",
+         "ru": "вьетнамка"
+        },
+        {
+         "de": "Vietnam",
+         "ru": "Вьетнам"
+        },
+        {
+         "de": "der Ägypter",
+         "ru": "египтянин"
+        },
+        {
+         "de": "die Ägypterin",
+         "ru": "египтянка"
+        },
+        {
+         "de": "Ägypten",
+         "ru": "Египет"
+        },
+        {
+         "de": "Deutschland",
+         "ru": "Германия"
+        },
+        {
+         "de": "der Deutsche",
+         "ru": "немец"
+        }
+       ],
+       "note": "эти слова есть на стр. 128 и 135; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch07_L4_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch07_047",
+        "prompt": "Слова курса. Послушай. Что значит «Sprache»?",
+        "answer": "язык",
+        "distractors": [
+         "страна",
+         "человек"
+        ],
+        "src": "Linie 1, стр. 128 (Land, Sprache, Nationalität)"
+       },
+       {
+        "id": "ch07_L4_kurs_2",
+        "skill": "listen",
+        "phraseId": "ch07_048",
+        "prompt": "Слова курса. Послушай. Что значит «Italiener»?",
+        "answer": "итальянец",
+        "distractors": [
+         "итальянка",
+         "Италия"
+        ],
+        "src": "Linie 1, стр. 128 (Nationalität)"
+       },
+       {
+        "id": "ch07_L4_kurs_3",
+        "skill": "listen",
+        "phraseId": "ch07_049",
+        "prompt": "Слова курса. Послушай. Что значит «Georgierin»?",
+        "answer": "грузинка",
+        "distractors": [
+         "грузин",
+         "иранка"
+        ],
+        "src": "Linie 1, стр. 135 (Nationalität)"
+       },
+       {
+        "id": "ch07_L4_kurs_4",
+        "skill": "listen",
+        "phraseId": "ch07_050",
+        "prompt": "Слова курса. Послушай. Что значит «Ägypterin»?",
+        "answer": "египтянка",
+        "distractors": [
+         "шведка",
+         "вьетнамка"
+        ],
+        "src": "Linie 1, стр. 135 (Nationalität)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      128,
+      135
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch07.py",
+  "new_words": [
+   "die Italienerin",
+   "Ich wohne in Köln.",
+   "kennen · ich kenne",
+   "ich weiß",
+   "Welche Sprachen …?",
+   "Italienisch · Deutsch"
+  ],
+  "known_before": [
+   "Woher kommen Sie?",
+   "Ich komme aus …",
+   "Ich spreche …",
+   "Sie · sie · ich",
+   "nicht · auch",
+   "Frau Schulz · Frau Becker"
+  ],
+  "transfer_phrase_ids": [
+   "ch07_t07",
+   "ch07_t08"
+  ],
+  "built_phrase_ids": [
+   "ch07_046"
+  ],
+  "quiz_ids": [
+   "ch07_L4_words_1",
+   "ch07_L4_words_2",
+   "ch07_L4_words_3",
+   "ch07_L4_words_4",
+   "ch07_L4_words_5",
+   "ch07_L4_words_6",
+   "ch07_L4_words_7",
+   "ch07_L4_listen_1",
+   "ch07_L4_listen_2",
+   "ch07_L4_listen_3",
+   "ch07_L4_listen_4",
+   "ch07_L4_listen_5",
+   "ch07_L4_read_1",
+   "ch07_L4_read_2",
+   "ch07_L4_read_3",
+   "ch07_L4_read_4",
+   "ch07_L4_read_5",
+   "ch07_L4_speak_1",
+   "ch07_L4_speak_2",
+   "ch07_L4_speak_3",
+   "ch07_L4_speak_4",
+   "ch07_L4_speak_5",
+   "ch07_L4_speak_6",
+   "ch07_L4_write_1",
+   "ch07_L4_write_2",
+   "ch07_L4_write_3",
+   "ch07_L4_write_4",
+   "ch07_L4_write_5",
+   "ch07_L4_write_6",
+   "ch07_L4_why_1",
+   "ch07_L4_why_2",
+   "ch07_L4_why_3",
+   "ch07_L4_why_4",
+   "ch07_L4_why_5",
+   "ch07_L4_transfer_1",
+   "ch07_L4_transfer_2",
+   "ch07_L4_transfer_3",
+   "ch07_L4_transfer_4",
+   "ch07_L4_transfer_5",
+   "ch07_L4_boss_1"
+  ],
+  "dictation_ids": [
+   "ch07_L4_dict_1",
+   "ch07_L4_dict_2",
+   "ch07_L4_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Elternabend начался: родители знакомятся — Land, Sprache, Nationalität. Цель: спросить «откуда вы?», «на каких языках?» и понять разницу kennen / wissen. Загадка урока: по-русски «знать» — одно слово. Почему по-немецки Ich kenne sie, но Ich weiß das nicht?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Знакомство на собрании",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой на собрании (ИИ — Мария)",
+   "situation": "elternabend_smalltalk",
+   "ai_plays": "Maria (на «вы»)",
+   "phrases": [
+    "ch07_d4_04",
+    "ch07_d4_06",
+    "ch07_t07",
+    "ch07_d4_08"
+   ]
+  },
+  "outro": "Теперь ты можешь познакомиться: страна, язык, национальность — и знаешь, когда kennen, а когда wissen. Совет на завтра: спроси себя вслух: Welche Sprachen sprechen Sie? И ответь по-немецки одним словом. Дальше: после собрания. Как всё было — war и hatte.",
+  "detail_de_life": "Незнакомых взрослых в Германии спрашивают на «вы». Вопрос «Woher kommen Sie?» и «Welche Sprachen sprechen Sie?» — обычный разговор перед началом собрания, на курсе и в очереди.",
+  "detail_de_life_source": "Duden: «siezen» (duden.de/rechtschreibung/siezen)",
+  "task_ids": {
+   "words": [
+    "ch07_L4_words_1",
+    "ch07_L4_words_2",
+    "ch07_L4_words_3",
+    "ch07_L4_words_4",
+    "ch07_L4_words_5",
+    "ch07_L4_words_6",
+    "ch07_L4_words_7"
+   ],
+   "listen": [
+    "ch07_L4_listen_1",
+    "ch07_L4_listen_2",
+    "ch07_L4_listen_3",
+    "ch07_L4_listen_4",
+    "ch07_L4_listen_5"
+   ],
+   "read": [
+    "ch07_L4_read_1",
+    "ch07_L4_read_2",
+    "ch07_L4_read_3",
+    "ch07_L4_read_4",
+    "ch07_L4_read_5"
+   ],
+   "speak": [
+    "ch07_L4_speak_1",
+    "ch07_L4_speak_2",
+    "ch07_L4_speak_3",
+    "ch07_L4_speak_4",
+    "ch07_L4_speak_5",
+    "ch07_L4_speak_6"
+   ],
+   "write": [
+    "ch07_L4_write_1",
+    "ch07_L4_write_2",
+    "ch07_L4_write_3",
+    "ch07_L4_write_4",
+    "ch07_L4_write_5",
+    "ch07_L4_write_6"
+   ],
+   "why": [
+    "ch07_L4_why_1",
+    "ch07_L4_why_2",
+    "ch07_L4_why_3",
+    "ch07_L4_why_4",
+    "ch07_L4_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch07_L4_transfer_1",
+   "ch07_L4_transfer_2",
+   "ch07_L4_transfer_3",
+   "ch07_L4_transfer_4",
+   "ch07_L4_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch07_030",
+   "ch07_032",
+   "ch07_036"
+  ],
+  "dialog_ids": [
+   "ch07_d4"
+  ],
+  "video": "video/ch07_L4.mp4"
+ },
+ {
+  "id": "ch07_L5",
+  "title": "После собрания: как всё было и что я люблю",
+  "pages_linie1": {
+   "pages": [
+    129
+   ],
+   "sections": [
+    "8 Nach dem Elternabend; Treffen und Feste"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch07_051",
+   "ch07_052",
+   "ch07_053",
+   "ch07_054",
+   "ch07_055",
+   "ch07_056"
+  ],
+  "why_ids": [
+   "ch07_051",
+   "ch07_055"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch07_d5",
+    "line_ids": [
+     "ch07_d5_01",
+     "ch07_d5_02",
+     "ch07_d5_03",
+     "ch07_d5_04",
+     "ch07_d5_05",
+     "ch07_d5_06",
+     "ch07_d5_07",
+     "ch07_d5_08"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Прошлый урок: «на каких языках», «вы знаете» и «я её не знаю». Вспомни."
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch07_d5",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch07_d5_01",
+        "ch07_d5_03",
+        "ch07_d5_05",
+        "ch07_d5_07"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch07_d5",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Звуки ie и ei: послушай lieber, dabei, Spiele, Zeit и повтори",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch07_051",
+        "ch07_052",
+        "ch07_054",
+        "ch07_055"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Звуки ie и ei: послушай lieber, dabei, Spiele, Zeit и повтори — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "war и hatte — «было» и «у меня было»: ist → war, habe → hatte; gern — lieber — am liebsten как три ступени",
+   "как слышу, так и пишу": "ie и ei на слух: lieber — «ли:бер», dabei — «дабай»; в диктанте hatte — два t",
+   "учебник непонятен": "из Linie 1 — только темы, слова и страницы главы 7; подача своя",
+   "село, живой немецкий — Netto": "«Wie war der Kurs?» — обычный вопрос после занятия; «Ich trinke lieber Wasser» — выбор в кафе",
+   "ТЗ 2.2: семья — не личная тема": "герой спрашивает, слушает и пересказывает; о своей семье рассказывать не нужно",
+   "любит аниме": "завязка — после праздника гильдия выбирает любимый напиток; отрезки аниме — позже",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин (все 12 + 24 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Ich trinke Kaffee gern.; перенос — Ich hatte Durst., Ich trinke lieber Tee.",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    129
+   ],
+   "phrases_ids": [
+    "ch07_058",
+    "ch07_059"
+   ],
+   "note": "к курсу: на стр. 129 — слова про встречи и праздники; узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса: Treffen und Feste",
+    "phrase_id": "ch07_058",
+    "picture": "плакат школьного праздника: гости, стол, свадебная открытка",
+    "words": [
+     {
+      "de": "der Besuch",
+      "ru": "визит, гость"
+     },
+     {
+      "de": "das Fest",
+      "ru": "праздник"
+     },
+     {
+      "de": "die Hochzeit",
+      "ru": "свадьба"
+     },
+     {
+      "de": "das Treffen",
+      "ru": "встреча"
+     },
+     {
+      "de": "die Gäste",
+      "ru": "гости"
+     },
+     {
+      "de": "die Schule",
+      "ru": "школа"
+     },
+     {
+      "de": "der Unterricht",
+      "ru": "занятия, урок"
+     },
+     {
+      "de": "die Zeit",
+      "ru": "время"
+     },
+     {
+      "de": "der Stress",
+      "ru": "стресс"
+     },
+     {
+      "de": "der Spaß",
+      "ru": "удовольствие, веселье"
+     },
+     {
+      "de": "der Hunger",
+      "ru": "голод"
+     },
+     {
+      "de": "der Durst",
+      "ru": "жажда"
+     }
+    ],
+    "note": "эти слова есть на стр. 129; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch07_L5_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch07_058",
+     "prompt": "Слова курса. Послушай. Что значит «Hochzeit»?",
+     "answer": "свадьба",
+     "distractors": [
+      "праздник",
+      "встреча"
+     ],
+     "src": "Linie 1, стр. 129 (Treffen und Feste)"
+    },
+    {
+     "id": "ch07_L5_kurs_2",
+     "skill": "listen",
+     "phraseId": "ch07_059",
+     "prompt": "Слова курса. Послушай. Что значит «Unterricht»?",
+     "answer": "занятия",
+     "distractors": [
+      "школа",
+      "время"
+     ],
+     "src": "Linie 1, стр. 129 (Schule, Unterricht)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Школа (Schule): стройка главы 7; зал после Elternabend, остались чай и столы",
+   "npc": "Olga — одногруппница (на «ты»)"
+  },
+  "covers": [
+   "L1-07-S8",
+   "L1-07-G2",
+   "B13.7",
+   "B20.7"
+  ],
+  "covers_note": {
+   "L1-07-S8": "Nach dem Elternabend (стр. 129): Wie war der Elternabend?, Hunger, Durst, Gäste; Treffen und Feste (Besuch, Fest, Hochzeit, Treffen) — «к курсу»",
+   "L1-07-G2": "Präteritum von sein и haben: war (sein), hatte / hatten (haben) — части 3–5; Wie war …?, Ich hatte Hunger.",
+   "B13.7": "War и hatte: короткое «было» и «у меня было» — часть 5, загадка и ответ",
+   "B20.7": "Gern, lieber, am liebsten: три ступени «нравится» — часть 5 (second), диалог, задания"
+  },
+  "goal": "После урока сможешь: спросить «как прошло?», сказать «было / у меня было» (war, hatte) и выбрать из трёх ступеней: gern, lieber, am liebsten.",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Elternabend закончился: гости ушли, на столах остался чай.",
+      "Цель: спросить «как прошло?», рассказать о прошлом (war, hatte) и выбрать: gern, lieber, am liebsten."
+     ],
+     "voice_ru": "Собрание позади. Вы с Ольгой сидите в пустом зале. Ты спрашиваешь, как всё прошло, и вы выбираете, что пить. О семье рассказывать не нужно.",
+     "hook": "Загадка урока: «Я был» и «он был» — по-немецки одно и то же слово. Какое?",
+     "anime_motif": "исекай: после праздника гильдия делит трофеи и выбирает любимый напиток (без цитат)",
+     "npc": "Olga — одногруппница",
+     "more": "Ольга ответит, как прошло собрание. Потом вы выберете, что пить.",
+     "goal": "После урока сможешь: спросить «как прошло?», сказать «было / у меня было» (war, hatte) и выбрать из трёх ступеней: gern, lieber, am liebsten."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch07_041",
+      "ch07_043",
+      "ch07_044"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Прошлый урок: «на каких языках», «вы знаете» и «я её не знаю». Вспомни."
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch07_041",
+      "ch07_043",
+      "ch07_044"
+     ],
+     "type": "retrieval: вопрос, не перечитывание"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch07_051",
+      "ch07_052",
+      "ch07_053",
+      "ch07_054",
+      "ch07_055",
+      "ch07_056"
+     ],
+     "words": [
+      "Wie war der Elternabend?",
+      "Ich hatte Hunger. · Die Gäste hatten Durst.",
+      "Ich trinke gern Tee.",
+      "Ich trinke lieber Wasser.",
+      "Ich trinke Kaffee am liebsten."
+     ],
+     "words_ru": {
+      "Wie war der Elternabend?": "Как прошло родительское собрание?",
+      "Ich hatte Hunger. · Die Gäste hatten Durst.": "Я хотел есть. · Гости хотели пить.",
+      "Ich trinke gern Tee.": "Я люблю пить чай.",
+      "Ich trinke lieber Wasser.": "Я охотнее пью воду.",
+      "Ich trinke Kaffee am liebsten.": "Охотнее всего я пью кофе."
+     },
+     "trap": "war — это ist в прошлом, hatte — это habe в прошлом. gern, lieber, am liebsten — три ступени «нравится»: слабее, сильнее, сильнее всего.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch07_L5_words_1",
+      "ch07_L5_words_2",
+      "ch07_L5_words_3",
+      "ch07_L5_words_4",
+      "ch07_L5_words_5",
+      "ch07_L5_words_6"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch07_d5",
+     "line_ids": [
+      "ch07_d5_01",
+      "ch07_d5_02",
+      "ch07_d5_03",
+      "ch07_d5_04",
+      "ch07_d5_05",
+      "ch07_d5_06",
+      "ch07_d5_07",
+      "ch07_d5_08"
+     ],
+     "halves": [
+      [
+       "ch07_d5_01",
+       "ch07_d5_02",
+       "ch07_d5_03",
+       "ch07_d5_04"
+      ],
+      [
+       "ch07_d5_05",
+       "ch07_d5_06",
+       "ch07_d5_07",
+       "ch07_d5_08"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "Вопрос «Wie war …?» (например, «Wie war der Kurs?») — обычный разговор после занятий или собрания: спрашивают, как всё прошло.",
+     "life_source": "Duden: «sein» (Präteritum war), duden.de",
+     "task_ids": [
+      "ch07_L5_listen_1",
+      "ch07_L5_listen_2",
+      "ch07_L5_listen_3",
+      "ch07_L5_listen_4",
+      "ch07_L5_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "заклинание «было»",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch07_051",
+     "title": "Почему так",
+     "world_name": "заклинание «было»",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "War — прошедшее от sein, hatte — от haben. Форма одна и для «я», и для «он»: ich war, er war; ich hatte, er hatte.",
+     "screen": [
+      "ich · war — er · war (sein → war: форма одна)",
+      "ich · hatte — er · hatte (haben → hatte: форма одна)"
+     ],
+     "answer_hook": "Ответ на загадку: war. Одна форма и для «я», и для «он». С hatte так же: форма одна и для «я», и для «он».",
+     "term_note": "В учебнике это называется Präteritum von sein und haben, в книге — тема «War и hatte». Запоминать название не нужно.",
+     "second": {
+      "why_id": "ch07_055",
+      "voice_ru": "Gern — «охотно», lieber — «охотнее», am liebsten — «охотнее всего». Из двух вещей ты берёшь ту, что нравится больше: Ich trinke lieber Wasser."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch07_L5_why_1",
+      "ch07_L5_why_2",
+      "ch07_L5_why_3",
+      "ch07_L5_why_4",
+      "ch07_L5_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch07_057",
+     "pieces": [
+      "gern.",
+      "trinke",
+      "Kaffee",
+      "Ich"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch07_054",
+      "ch07_056"
+     ],
+     "prompt": "Собери сам из знакомых кусков: скажи Ольге, что ты любишь пить кофе. Слово gern поставь после Kaffee.",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch07_057",
+     "transfer_task_ids": [
+      "ch07_L5_transfer_1"
+     ],
+     "task_ids": [
+      "ch07_L5_write_1",
+      "ch07_L5_write_2",
+      "ch07_L5_write_3",
+      "ch07_L5_write_4",
+      "ch07_L5_write_5",
+      "ch07_L5_write_6",
+      "ch07_L5_read_1",
+      "ch07_L5_read_2",
+      "ch07_L5_read_3",
+      "ch07_L5_read_4",
+      "ch07_L5_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "lieber",
+     "ipa_sym": "iː",
+     "tip_ru": "ie читаем как длинное «и»: lieber — «ЛИ:бер», Spiele — «ШПИ:ле». ei читаем как «ай»: dabei — «дабАй», Zeit — «ЦАЙТ».",
+     "bridge_ru": "По-русски похоже: ie — как «и» в слове «лист», только длиннее; ei — как «ай» в слове «чай». Буквы похожи, звуки разные.",
+     "phrase_id": "ch07_055",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "lieber",
+       "ru": "ЛИ:бер — ie как длинное «и»"
+      },
+      {
+       "de": "dabei",
+       "ru": "дабАй — ei как «ай»"
+      },
+      {
+       "de": "Spiele",
+       "ru": "ШПИ:ле — ie как длинное «и»"
+      },
+      {
+       "de": "Zeit",
+       "ru": "ЦАЙТ — ei как «ай»"
+      }
+     ],
+     "speak_task_ids": [
+      "ch07_L5_speak_1",
+      "ch07_L5_speak_2",
+      "ch07_L5_speak_3",
+      "ch07_L5_speak_4",
+      "ch07_L5_speak_5",
+      "ch07_L5_speak_6"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Разговор после собрания",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Olga (на «ты»)",
+     "turns": [
+      {
+       "prompt_id": "ch07_d5_02",
+       "prompt_de": "Der Elternabend war gut.",
+       "prompt_audio": "audio_v1/ch07_d5_02.mp3",
+       "expected_id": "ch07_d5_03",
+       "expected_de": "Die Gäste hatten Durst.",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch07_d5_04",
+       "prompt_de": "Ich hatte Hunger.",
+       "prompt_audio": "audio_v1/ch07_d5_04.mp3",
+       "expected_id": "ch07_d5_05",
+       "expected_de": "Ich trinke gern Tee.",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch07_d5_06",
+       "prompt_de": "Ich trinke lieber Wasser.",
+       "prompt_audio": "audio_v1/ch07_d5_06.mp3",
+       "expected_id": "ch07_d5_07",
+       "expected_de": "Ich trinke Kaffee am liebsten.",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Ты сидишь с Ольгой в пустом зале: спрашиваешь, как прошло, и называешь, что пьёшь охотнее всего. О семье рассказывать не нужно.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch07_d5_02",
+     "task_ru": "Новичок слышит «Der Elternabend war gut» и спрашивает, почему war, а не ist. Объясни ему по-русски.",
+     "expected_ru": "Собрание прошло хорошо.",
+     "hint_ru": "war — это ist в прошлом: собрание уже закончилось",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1.1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch07_L5_dict_1",
+      "ch07_L5_dict_2",
+      "ch07_L5_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Hunger, Durst, Gäste, Elternabend — существительные, с большой буквы. hatte — два t, hatten — два t и n на конце. war — одно r."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch07_L5_transfer_2",
+      "ch07_L5_transfer_3",
+      "ch07_L5_transfer_4",
+      "ch07_L5_transfer_5",
+      "ch07_L5_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Теперь ты можешь спросить, как прошло, сказать «было» (war, hatte) и выбрать: gern, lieber, am liebsten.",
+      "Совет на завтра: спроси себя вслух: Wie war der Tag? И ответь одним словом: gut."
+     ],
+     "npc_phrase_id": "ch07_d5_08",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: war — ist в прошлом · hatte — habe в прошлом (форма одна для «я» и «он») · gern — lieber — am liebsten · ie — длинное «и», ei — «ай».",
+     "next_hook": "Дальше: повторение главы 7 — Mein Deutsch nach Kapitel 7.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       129
+      ],
+      "phrases_ids": [
+       "ch07_058",
+       "ch07_059"
+      ],
+      "note": "к курсу: на стр. 129 — слова про встречи и праздники; узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса: Treffen und Feste",
+       "phrase_id": "ch07_058",
+       "picture": "плакат школьного праздника: гости, стол, свадебная открытка",
+       "words": [
+        {
+         "de": "der Besuch",
+         "ru": "визит, гость"
+        },
+        {
+         "de": "das Fest",
+         "ru": "праздник"
+        },
+        {
+         "de": "die Hochzeit",
+         "ru": "свадьба"
+        },
+        {
+         "de": "das Treffen",
+         "ru": "встреча"
+        },
+        {
+         "de": "die Gäste",
+         "ru": "гости"
+        },
+        {
+         "de": "die Schule",
+         "ru": "школа"
+        },
+        {
+         "de": "der Unterricht",
+         "ru": "занятия, урок"
+        },
+        {
+         "de": "die Zeit",
+         "ru": "время"
+        },
+        {
+         "de": "der Stress",
+         "ru": "стресс"
+        },
+        {
+         "de": "der Spaß",
+         "ru": "удовольствие, веселье"
+        },
+        {
+         "de": "der Hunger",
+         "ru": "голод"
+        },
+        {
+         "de": "der Durst",
+         "ru": "жажда"
+        }
+       ],
+       "note": "эти слова есть на стр. 129; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch07_L5_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch07_058",
+        "prompt": "Слова курса. Послушай. Что значит «Hochzeit»?",
+        "answer": "свадьба",
+        "distractors": [
+         "праздник",
+         "встреча"
+        ],
+        "src": "Linie 1, стр. 129 (Treffen und Feste)"
+       },
+       {
+        "id": "ch07_L5_kurs_2",
+        "skill": "listen",
+        "phraseId": "ch07_059",
+        "prompt": "Слова курса. Послушай. Что значит «Unterricht»?",
+        "answer": "занятия",
+        "distractors": [
+         "школа",
+         "время"
+        ],
+        "src": "Linie 1, стр. 129 (Schule, Unterricht)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      129
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch07.py",
+  "new_words": [
+   "war",
+   "hatte · hatten",
+   "der Hunger · der Durst",
+   "die Gäste",
+   "gern · lieber · am liebsten",
+   "Kaffee"
+  ],
+  "known_before": [
+   "ist · habe",
+   "Ich trinke …",
+   "Tee · Wasser",
+   "Elternabend",
+   "gut · Gute Nacht",
+   "wie · nicht · auch"
+  ],
+  "transfer_phrase_ids": [
+   "ch07_t09",
+   "ch07_t10"
+  ],
+  "built_phrase_ids": [
+   "ch07_057"
+  ],
+  "quiz_ids": [
+   "ch07_L5_words_1",
+   "ch07_L5_words_2",
+   "ch07_L5_words_3",
+   "ch07_L5_words_4",
+   "ch07_L5_words_5",
+   "ch07_L5_words_6",
+   "ch07_L5_listen_1",
+   "ch07_L5_listen_2",
+   "ch07_L5_listen_3",
+   "ch07_L5_listen_4",
+   "ch07_L5_listen_5",
+   "ch07_L5_read_1",
+   "ch07_L5_read_2",
+   "ch07_L5_read_3",
+   "ch07_L5_read_4",
+   "ch07_L5_read_5",
+   "ch07_L5_speak_1",
+   "ch07_L5_speak_2",
+   "ch07_L5_speak_3",
+   "ch07_L5_speak_4",
+   "ch07_L5_speak_5",
+   "ch07_L5_speak_6",
+   "ch07_L5_write_1",
+   "ch07_L5_write_2",
+   "ch07_L5_write_3",
+   "ch07_L5_write_4",
+   "ch07_L5_write_5",
+   "ch07_L5_write_6",
+   "ch07_L5_why_1",
+   "ch07_L5_why_2",
+   "ch07_L5_why_3",
+   "ch07_L5_why_4",
+   "ch07_L5_why_5",
+   "ch07_L5_transfer_1",
+   "ch07_L5_transfer_2",
+   "ch07_L5_transfer_3",
+   "ch07_L5_transfer_4",
+   "ch07_L5_transfer_5",
+   "ch07_L5_boss_1"
+  ],
+  "dictation_ids": [
+   "ch07_L5_dict_1",
+   "ch07_L5_dict_2",
+   "ch07_L5_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Elternabend закончился: гости ушли, на столах остался чай. Цель: спросить «как прошло?», рассказать о прошлом (war, hatte) и выбрать: gern, lieber, am liebsten. Загадка урока: «Я был» и «он был» — по-немецки одно и то же слово. Какое?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Разговор после собрания",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой после собрания (ИИ — Ольга)",
+   "situation": "after_elternabend_chat",
+   "ai_plays": "Olga (на «ты»)",
+   "phrases": [
+    "ch07_d5_03",
+    "ch07_d5_05",
+    "ch07_d5_07"
+   ]
+  },
+  "outro": "Теперь ты можешь спросить, как прошло, сказать «было» (war, hatte) и выбрать: gern, lieber, am liebsten. Совет на завтра: спроси себя вслух: Wie war der Tag? И ответь одним словом: gut. Дальше: повторение главы 7 — Mein Deutsch nach Kapitel 7.",
+  "detail_de_life": "Вопрос «Wie war …?» (например, «Wie war der Kurs?») — обычный разговор после занятий или собрания: спрашивают, как всё прошло.",
+  "detail_de_life_source": "Duden: «sein» (Präteritum war), duden.de",
+  "task_ids": {
+   "words": [
+    "ch07_L5_words_1",
+    "ch07_L5_words_2",
+    "ch07_L5_words_3",
+    "ch07_L5_words_4",
+    "ch07_L5_words_5",
+    "ch07_L5_words_6"
+   ],
+   "listen": [
+    "ch07_L5_listen_1",
+    "ch07_L5_listen_2",
+    "ch07_L5_listen_3",
+    "ch07_L5_listen_4",
+    "ch07_L5_listen_5"
+   ],
+   "read": [
+    "ch07_L5_read_1",
+    "ch07_L5_read_2",
+    "ch07_L5_read_3",
+    "ch07_L5_read_4",
+    "ch07_L5_read_5"
+   ],
+   "speak": [
+    "ch07_L5_speak_1",
+    "ch07_L5_speak_2",
+    "ch07_L5_speak_3",
+    "ch07_L5_speak_4",
+    "ch07_L5_speak_5",
+    "ch07_L5_speak_6"
+   ],
+   "write": [
+    "ch07_L5_write_1",
+    "ch07_L5_write_2",
+    "ch07_L5_write_3",
+    "ch07_L5_write_4",
+    "ch07_L5_write_5",
+    "ch07_L5_write_6"
+   ],
+   "why": [
+    "ch07_L5_why_1",
+    "ch07_L5_why_2",
+    "ch07_L5_why_3",
+    "ch07_L5_why_4",
+    "ch07_L5_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch07_L5_transfer_1",
+   "ch07_L5_transfer_2",
+   "ch07_L5_transfer_3",
+   "ch07_L5_transfer_4",
+   "ch07_L5_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch07_041",
+   "ch07_043",
+   "ch07_044"
+  ],
+  "dialog_ids": [
+   "ch07_d5"
+  ],
+  "video": "video/ch07_L5.mp4"
+ },
+ {
+  "id": "ch07_L6",
+  "title": "Проверка главы 7: вечер в школе",
+  "pages_linie1": {
+   "pages": [
+    122,
+    123,
+    124,
+    125,
+    131,
+    132,
+    134,
+    137
+   ],
+   "sections": [
+    "Mein Deutsch nach Kapitel 7"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch07_051",
+   "ch07_060",
+   "ch07_043",
+   "ch07_054",
+   "ch07_055"
+  ],
+  "why_ids": [
+   "ch07_060",
+   "ch07_043"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch07_d6",
+    "line_ids": [
+     "ch07_d6_01",
+     "ch07_d6_02",
+     "ch07_d6_03",
+     "ch07_d6_04",
+     "ch07_d6_05",
+     "ch07_d6_06",
+     "ch07_d6_07",
+     "ch07_d6_08"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Прошлый урок: «как прошло», «я хотел есть», «я люблю чай». Вспомни."
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch07_d6",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch07_d6_02",
+        "ch07_d6_04",
+        "ch07_d6_06",
+        "ch07_d6_08"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch07_d6",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Звуки ch: послушай Nachbar, ich и повтори; потом Stühle, Köln",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch07_051",
+        "ch07_060",
+        "ch07_043",
+        "ch07_055"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Звуки ch: послушай Nachbar, ich и повтори; потом Stühle, Köln — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "kann + действие в конце — «пульт и конец»; war и hatte — «было»; gern — lieber — am liebsten — три ступени",
+   "как слышу, так и пишу": "ch на слух: Nachbar — «нахбар», ich — «ихь»; ü и ö как в прошлых уроках",
+   "учебник непонятен": "из Linie 1 — только темы, слова и страницы главы 7; подача своя",
+   "село, живой немецкий — Netto": "«Kann ich helfen?» и «Wie war …?» — обычные фразы на собрании, в очереди, на празднике",
+   "ТЗ 2.2: семья — не личная тема": "герой спрашивает, слушает и пересказывает; о своей семье рассказывать не нужно",
+   "любит аниме": "завязка — гильдия расставляет столы после праздника; отрезки аниме — позже",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин (все 12 + 24 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Ich kann die Stühle bringen.; перенос — Kann ich Wasser bringen?, Ich trinke gern Wasser.",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    122,
+    123,
+    124,
+    125,
+    131,
+    132,
+    134
+   ],
+   "phrases_ids": [
+    "ch07_062"
+   ],
+   "note": "к курсу: слова семьи, техники, приглашений и праздников со стр. 122–134; узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса: семья, техника, приглашения",
+    "phrase_id": "ch07_062",
+    "picture": "стол: телефон, ноутбук, планшет, мышь, приглашение и фотографии семьи",
+    "words": [
+     {
+      "de": "die Eltern",
+      "ru": "родители"
+     },
+     {
+      "de": "die Großeltern",
+      "ru": "бабушка и дедушка"
+     },
+     {
+      "de": "der Mann",
+      "ru": "муж, мужчина"
+     },
+     {
+      "de": "die Tochter",
+      "ru": "дочь"
+     },
+     {
+      "de": "das Foto",
+      "ru": "фотография"
+     },
+     {
+      "de": "die Fotos",
+      "ru": "фотографии"
+     },
+     {
+      "de": "die Kamera",
+      "ru": "камера"
+     },
+     {
+      "de": "fotografieren",
+      "ru": "фотографировать"
+     },
+     {
+      "de": "küssen",
+      "ru": "целовать"
+     },
+     {
+      "de": "reisen",
+      "ru": "путешествовать"
+     },
+     {
+      "de": "reiten",
+      "ru": "ездить верхом"
+     },
+     {
+      "de": "singen",
+      "ru": "петь"
+     },
+     {
+      "de": "die Homepage",
+      "ru": "домашняя страница"
+     },
+     {
+      "de": "das Lernplakat",
+      "ru": "плакат для учёбы"
+     },
+     {
+      "de": "die Augenfarbe",
+      "ru": "цвет глаз"
+     },
+     {
+      "de": "der Beruf",
+      "ru": "профессия"
+     },
+     {
+      "de": "der Single",
+      "ru": "одинокий человек"
+     },
+     {
+      "de": "der Familienstand",
+      "ru": "семейное положение"
+     },
+     {
+      "de": "die Lieblingsstadt",
+      "ru": "любимый город"
+     },
+     {
+      "de": "verliebt",
+      "ru": "влюблённый"
+     },
+     {
+      "de": "die Bleistifte",
+      "ru": "карандаши"
+     },
+     {
+      "de": "die Kulis",
+      "ru": "шариковые ручки"
+     },
+     {
+      "de": "die Schere",
+      "ru": "ножницы"
+     },
+     {
+      "de": "das Lieblingsbuch",
+      "ru": "любимая книга"
+     },
+     {
+      "de": "das Handy",
+      "ru": "мобильный телефон"
+     },
+     {
+      "de": "der Laptop",
+      "ru": "ноутбук"
+     },
+     {
+      "de": "das Tablet",
+      "ru": "планшет"
+     },
+     {
+      "de": "die Maus",
+      "ru": "мышь"
+     },
+     {
+      "de": "die Einladung",
+      "ru": "приглашение"
+     },
+     {
+      "de": "die Firmenfeier",
+      "ru": "корпоратив"
+     },
+     {
+      "de": "die Spiele",
+      "ru": "игры"
+     },
+     {
+      "de": "der Termin",
+      "ru": "срок, встреча по времени"
+     }
+    ],
+    "note": "эти слова есть на стр. 122–134; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch07_L6_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch07_062",
+     "prompt": "Слова курса. Послушай. Что значит «Handy»?",
+     "answer": "мобильный телефон",
+     "distractors": [
+      "ноутбук",
+      "планшет"
+     ],
+     "src": "Linie 1, стр. 132"
+    },
+    {
+     "id": "ch07_L6_kurs_2",
+     "skill": "listen",
+     "phraseId": "ch07_062",
+     "prompt": "Слова курса. Послушай. Что значит «Einladung»?",
+     "answer": "приглашение",
+     "distractors": [
+      "фотография",
+      "праздник"
+     ],
+     "src": "Linie 1, стр. 134"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Школа (Schule): стройка главы 7; зал после Elternabend, расставляют стулья",
+   "npc": "Herr Wagner — сосед (на «вы»)"
+  },
+  "covers": [
+   "L1-07-REVIEW"
+  ],
+  "covers_note": {
+   "L1-07-REVIEW": "Mein Deutsch nach Kapitel 7: Wie war …?, Kann ich helfen?, Kennen Sie …?, ihr, hatte, gern / lieber в одной сцене (части 2, 4, 8, 11); слова стр. 122–134 — «к курсу»"
+  },
+  "goal": "После урока сможешь: спросить «как прошло?», предложить и попросить помощь (Kann ich helfen?), спросить «вы знаете …?», сказать «было» и выбрать, что пьёшь охотнее, — всё в одной сцене.",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Вечер. Зал школы после Elternabend.",
+      "Цель: спросить, как прошло; предложить и принять помощь; узнать, знает ли он госпожу Шульц; выбрать, что пить."
+     ],
+     "voice_ru": "Вечер в зале школы. Герр Вагнер, сосед, на «вы». Сегодня всё вместе: как прошло собрание, стулья, помощь, госпожа Шульц и чай. Всё, что было в главе.",
+     "hook": "Загадка урока: «Kann ich helfen?» — а где само действие, «помочь»? Почему helfen ушло в конец?",
+     "anime_motif": "итог главы: гильдия расставляет столы после праздника и делит чай (без цитат)",
+     "npc": "Herr Wagner — сосед",
+     "more": "Ты спросишь, как прошло, скажешь про стулья и выберешь напиток.",
+     "goal": "После урока сможешь: спросить «как прошло?», предложить и попросить помощь (Kann ich helfen?), спросить «вы знаете …?», сказать «было» и выбрать, что пьёшь охотнее, — всё в одной сцене."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch07_051",
+      "ch07_052",
+      "ch07_054"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Прошлый урок: «как прошло», «я хотел есть», «я люблю чай». Вспомни."
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch07_051",
+      "ch07_052",
+      "ch07_054"
+     ],
+     "type": "retrieval: вопрос, не перечитывание"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch07_051",
+      "ch07_060",
+      "ch07_043",
+      "ch07_054",
+      "ch07_055"
+     ],
+     "words": [
+      "Wie war der Elternabend?",
+      "Kann ich helfen?",
+      "Kennen Sie Frau Schulz?",
+      "Ich trinke gern Tee.",
+      "Ich trinke lieber Wasser."
+     ],
+     "words_ru": {
+      "Wie war der Elternabend?": "Как прошло родительское собрание?",
+      "Kann ich helfen?": "Могу я помочь?",
+      "Kennen Sie Frau Schulz?": "Вы знаете госпожу Шульц?",
+      "Ich trinke gern Tee.": "Я люблю пить чай.",
+      "Ich trinke lieber Wasser.": "Я охотнее пью воду."
+     },
+     "trap": "kann стоит первым в вопросе, а helfen — в самом конце. gern — «охотно», lieber — «охотнее»: из двух выбираешь то, что нравится больше.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch07_L6_words_1",
+      "ch07_L6_words_2",
+      "ch07_L6_words_3",
+      "ch07_L6_words_4",
+      "ch07_L6_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch07_d6",
+     "line_ids": [
+      "ch07_d6_01",
+      "ch07_d6_02",
+      "ch07_d6_03",
+      "ch07_d6_04",
+      "ch07_d6_05",
+      "ch07_d6_06",
+      "ch07_d6_07",
+      "ch07_d6_08"
+     ],
+     "halves": [
+      [
+       "ch07_d6_01",
+       "ch07_d6_02",
+       "ch07_d6_03",
+       "ch07_d6_04"
+      ],
+      [
+       "ch07_d6_05",
+       "ch07_d6_06",
+       "ch07_d6_07",
+       "ch07_d6_08"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "Предложить помощь соседу — обычное дело: «Kann ich helfen?». Услышишь это на собрании, в магазине и на празднике.",
+     "life_source": "Duden: «helfen» (Kann ich helfen?), duden.de",
+     "task_ids": [
+      "ch07_L6_listen_1",
+      "ch07_L6_listen_2",
+      "ch07_L6_listen_3",
+      "ch07_L6_listen_4",
+      "ch07_L6_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "пульт и конец",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch07_060",
+     "title": "Почему так",
+     "world_name": "пульт и конец",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "Kann — «пульт»: в вопросе он стоит первым. А что именно сделать — helfen — уходит в самый конец. Так же: Ich kann die Stühle bringen.",
+     "screen": [
+      "Kann · ich · helfen?",
+      "Ich · kann · die Stühle · bringen."
+     ],
+     "answer_hook": "Ответ на загадку: helfen — второе действие, оно всегда уходит в самый конец, а kann остаётся впереди.",
+     "term_note": "В учебнике это называется Satzklammer mit Modalverben. Запоминать название не нужно.",
+     "second": {
+      "why_id": "ch07_043",
+      "voice_ru": "Kennen Sie Frau Schulz? Госпожу Шульц знают лично — поэтому kennen. Если речь о сведениях, нужен wissen: Ich weiß das nicht."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch07_L6_why_1",
+      "ch07_L6_why_2",
+      "ch07_L6_why_3",
+      "ch07_L6_why_4",
+      "ch07_L6_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch07_061",
+     "pieces": [
+      "bringen.",
+      "Stühle",
+      "die",
+      "kann",
+      "Ich"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch07_031",
+      "ch07_033"
+     ],
+     "prompt": "Собери сам из знакомых кусков: ты предлагаешь Герру Вагнеру: «Я могу принести стулья.»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch07_061",
+     "transfer_task_ids": [
+      "ch07_L6_transfer_1"
+     ],
+     "task_ids": [
+      "ch07_L6_write_1",
+      "ch07_L6_write_2",
+      "ch07_L6_write_3",
+      "ch07_L6_write_4",
+      "ch07_L6_write_5",
+      "ch07_L6_write_6",
+      "ch07_L6_read_1",
+      "ch07_L6_read_2",
+      "ch07_L6_read_3",
+      "ch07_L6_read_4",
+      "ch07_L6_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "ich",
+     "ipa_sym": "ç",
+     "tip_ru": "ch после a — глубокое «х»: Nachbar — «НАХбар». ch после i — мягкое «хь»: ich — «ихь». Следи, чтобы не говорить «ч» и «к».",
+     "bridge_ru": "По-русски «х» в «Нахбар» похоже на «х» в слове «ах». А «ихь» — тихое, как лёгкий вздох после «и».",
+     "phrase_id": "ch07_d6_02",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "Nachbar",
+       "ru": "НАХбар — ach-Laut"
+      },
+      {
+       "de": "ich",
+       "ru": "ихь — ich-Laut"
+      },
+      {
+       "de": "Stühle",
+       "ru": "ШТЮ:ле — ü"
+      },
+      {
+       "de": "Köln",
+       "ru": "КЁЛЬН — ö"
+      }
+     ],
+     "speak_task_ids": [
+      "ch07_L6_speak_1",
+      "ch07_L6_speak_2",
+      "ch07_L6_speak_3",
+      "ch07_L6_speak_4",
+      "ch07_L6_speak_5",
+      "ch07_L6_speak_6"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Вечер в школе",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Herr Wagner (на «вы»)",
+     "turns": [
+      {
+       "prompt_id": "ch07_d6_01",
+       "prompt_de": "Guten Abend. Wie war der Elternabend?",
+       "prompt_audio": "audio_v1/ch07_d6_01.mp3",
+       "expected_id": "ch07_d6_02",
+       "expected_de": "Gut. Ich muss die Stühle bringen.",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch07_d6_03",
+       "prompt_de": "Kann ich helfen?",
+       "prompt_audio": "audio_v1/ch07_d6_03.mp3",
+       "expected_id": "ch07_d6_04",
+       "expected_de": "Ja, bitte. Kennen Sie Frau Schulz?",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch07_d6_05",
+       "prompt_de": "Ja, in Leipzig wohnt ihr Bruder.",
+       "prompt_audio": "audio_v1/ch07_d6_05.mp3",
+       "expected_id": "ch07_d6_06",
+       "expected_de": "Danke. Möchten Sie Tee oder Wasser?",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch07_d6_07",
+       "prompt_de": "Ich trinke gern Tee.",
+       "prompt_audio": "audio_v1/ch07_d6_07.mp3",
+       "expected_id": "ch07_d6_08",
+       "expected_de": "Ich trinke lieber Wasser.",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Отвечай по сцене. Если хочешь другой напиток, скажи Ich trinke lieber … и назови его.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch07_d6_05",
+     "task_ru": "Новичок слышит «Ja, in Leipzig wohnt ihr Bruder» и не понял, чей брат. Переведи ему по-русски.",
+     "expected_ru": "Да, в Лейпциге живёт её брат.",
+     "hint_ru": "ihr — «её»: брат госпожи Шульц. in Leipzig — «в Лейпциге»",
+     "linie1_note": "Рубрика Mediation учебника: передать другому смысл сказанного — vermitteln.",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1.1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch07_L6_dict_1",
+      "ch07_L6_dict_2",
+      "ch07_L6_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Elternabend, Frau Schulz — с большой буквы. kann — две n. helfen — одно l и f. kennen — две n в середине."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch07_L6_transfer_2",
+      "ch07_L6_transfer_3",
+      "ch07_L6_transfer_4",
+      "ch07_L6_transfer_5",
+      "ch07_L6_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Глава 7 пройдена: семья, цвета, помощь, национальности, «было» и «охотнее всего».",
+      "Совет на завтра: предложи помощь вслух: Kann ich helfen? — и ответь на вопрос Wie war der Tag?"
+     ],
+     "npc_phrase_id": "ch07_d6_08",
+     "coins": 15,
+     "more": "В «Мой немецкий блокнот»: sein / ihr · Ich muss / Ich kann … + действие в конце · kennen — wissen · war — hatte · gern — lieber — am liebsten.",
+     "next_hook": "Дальше: новая глава — на основе того, что ты уже умеешь.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       122,
+       123,
+       124,
+       125,
+       131,
+       132,
+       134
+      ],
+      "phrases_ids": [
+       "ch07_062"
+      ],
+      "note": "к курсу: слова семьи, техники, приглашений и праздников со стр. 122–134; узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса: семья, техника, приглашения",
+       "phrase_id": "ch07_062",
+       "picture": "стол: телефон, ноутбук, планшет, мышь, приглашение и фотографии семьи",
+       "words": [
+        {
+         "de": "die Eltern",
+         "ru": "родители"
+        },
+        {
+         "de": "die Großeltern",
+         "ru": "бабушка и дедушка"
+        },
+        {
+         "de": "der Mann",
+         "ru": "муж, мужчина"
+        },
+        {
+         "de": "die Tochter",
+         "ru": "дочь"
+        },
+        {
+         "de": "das Foto",
+         "ru": "фотография"
+        },
+        {
+         "de": "die Fotos",
+         "ru": "фотографии"
+        },
+        {
+         "de": "die Kamera",
+         "ru": "камера"
+        },
+        {
+         "de": "fotografieren",
+         "ru": "фотографировать"
+        },
+        {
+         "de": "küssen",
+         "ru": "целовать"
+        },
+        {
+         "de": "reisen",
+         "ru": "путешествовать"
+        },
+        {
+         "de": "reiten",
+         "ru": "ездить верхом"
+        },
+        {
+         "de": "singen",
+         "ru": "петь"
+        },
+        {
+         "de": "die Homepage",
+         "ru": "домашняя страница"
+        },
+        {
+         "de": "das Lernplakat",
+         "ru": "плакат для учёбы"
+        },
+        {
+         "de": "die Augenfarbe",
+         "ru": "цвет глаз"
+        },
+        {
+         "de": "der Beruf",
+         "ru": "профессия"
+        },
+        {
+         "de": "der Single",
+         "ru": "одинокий человек"
+        },
+        {
+         "de": "der Familienstand",
+         "ru": "семейное положение"
+        },
+        {
+         "de": "die Lieblingsstadt",
+         "ru": "любимый город"
+        },
+        {
+         "de": "verliebt",
+         "ru": "влюблённый"
+        },
+        {
+         "de": "die Bleistifte",
+         "ru": "карандаши"
+        },
+        {
+         "de": "die Kulis",
+         "ru": "шариковые ручки"
+        },
+        {
+         "de": "die Schere",
+         "ru": "ножницы"
+        },
+        {
+         "de": "das Lieblingsbuch",
+         "ru": "любимая книга"
+        },
+        {
+         "de": "das Handy",
+         "ru": "мобильный телефон"
+        },
+        {
+         "de": "der Laptop",
+         "ru": "ноутбук"
+        },
+        {
+         "de": "das Tablet",
+         "ru": "планшет"
+        },
+        {
+         "de": "die Maus",
+         "ru": "мышь"
+        },
+        {
+         "de": "die Einladung",
+         "ru": "приглашение"
+        },
+        {
+         "de": "die Firmenfeier",
+         "ru": "корпоратив"
+        },
+        {
+         "de": "die Spiele",
+         "ru": "игры"
+        },
+        {
+         "de": "der Termin",
+         "ru": "срок, встреча по времени"
+        }
+       ],
+       "note": "эти слова есть на стр. 122–134; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch07_L6_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch07_062",
+        "prompt": "Слова курса. Послушай. Что значит «Handy»?",
+        "answer": "мобильный телефон",
+        "distractors": [
+         "ноутбук",
+         "планшет"
+        ],
+        "src": "Linie 1, стр. 132"
+       },
+       {
+        "id": "ch07_L6_kurs_2",
+        "skill": "listen",
+        "phraseId": "ch07_062",
+        "prompt": "Слова курса. Послушай. Что значит «Einladung»?",
+        "answer": "приглашение",
+        "distractors": [
+         "фотография",
+         "праздник"
+        ],
+        "src": "Linie 1, стр. 134"
+       }
+      ]
+     },
+     "kurs_pages": [
+      122,
+      123,
+      124,
+      125,
+      131,
+      132,
+      134
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch07.py",
+  "new_words": [
+   "Kann ich helfen?",
+   "Kennen Sie Frau Schulz?",
+   "in Leipzig wohnt ihr Bruder",
+   "Ich trinke gern Tee.",
+   "Ich trinke lieber Wasser."
+  ],
+  "known_before": [
+   "Wie war …?",
+   "Ich muss … bringen.",
+   "Kann ich …?",
+   "Kennen Sie …?",
+   "ihr · sein · wohnt",
+   "gern · lieber · am liebsten"
+  ],
+  "transfer_phrase_ids": [
+   "ch07_t11",
+   "ch07_t12"
+  ],
+  "built_phrase_ids": [
+   "ch07_061"
+  ],
+  "quiz_ids": [
+   "ch07_L6_words_1",
+   "ch07_L6_words_2",
+   "ch07_L6_words_3",
+   "ch07_L6_words_4",
+   "ch07_L6_words_5",
+   "ch07_L6_listen_1",
+   "ch07_L6_listen_2",
+   "ch07_L6_listen_3",
+   "ch07_L6_listen_4",
+   "ch07_L6_listen_5",
+   "ch07_L6_read_1",
+   "ch07_L6_read_2",
+   "ch07_L6_read_3",
+   "ch07_L6_read_4",
+   "ch07_L6_read_5",
+   "ch07_L6_speak_1",
+   "ch07_L6_speak_2",
+   "ch07_L6_speak_3",
+   "ch07_L6_speak_4",
+   "ch07_L6_speak_5",
+   "ch07_L6_speak_6",
+   "ch07_L6_write_1",
+   "ch07_L6_write_2",
+   "ch07_L6_write_3",
+   "ch07_L6_write_4",
+   "ch07_L6_write_5",
+   "ch07_L6_write_6",
+   "ch07_L6_why_1",
+   "ch07_L6_why_2",
+   "ch07_L6_why_3",
+   "ch07_L6_why_4",
+   "ch07_L6_why_5",
+   "ch07_L6_transfer_1",
+   "ch07_L6_transfer_2",
+   "ch07_L6_transfer_3",
+   "ch07_L6_transfer_4",
+   "ch07_L6_transfer_5",
+   "ch07_L6_boss_1"
+  ],
+  "dictation_ids": [
+   "ch07_L6_dict_1",
+   "ch07_L6_dict_2",
+   "ch07_L6_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Вечер. Зал школы после Elternabend. Цель: спросить, как прошло; предложить и принять помощь; узнать, знает ли он госпожу Шульц; выбрать, что пить. Загадка урока: «Kann ich helfen?» — а где само действие, «помочь»? Почему helfen ушло в конец?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Вечер в школе",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой в зале школы (ИИ — Herr Wagner)",
+   "situation": "schule_abend",
+   "ai_plays": "Herr Wagner (на «вы»)",
+   "phrases": [
+    "ch07_d6_02",
+    "ch07_d6_04",
+    "ch07_d6_06",
+    "ch07_d6_08"
+   ]
+  },
+  "outro": "Глава 7 пройдена: семья, цвета, помощь, национальности, «было» и «охотнее всего». Совет на завтра: предложи помощь вслух: Kann ich helfen? — и ответь на вопрос Wie war der Tag? Дальше: новая глава — на основе того, что ты уже умеешь.",
+  "detail_de_life": "Предложить помощь соседу — обычное дело: «Kann ich helfen?». Услышишь это на собрании, в магазине и на празднике.",
+  "detail_de_life_source": "Duden: «helfen» (Kann ich helfen?), duden.de",
+  "task_ids": {
+   "words": [
+    "ch07_L6_words_1",
+    "ch07_L6_words_2",
+    "ch07_L6_words_3",
+    "ch07_L6_words_4",
+    "ch07_L6_words_5"
+   ],
+   "listen": [
+    "ch07_L6_listen_1",
+    "ch07_L6_listen_2",
+    "ch07_L6_listen_3",
+    "ch07_L6_listen_4",
+    "ch07_L6_listen_5"
+   ],
+   "read": [
+    "ch07_L6_read_1",
+    "ch07_L6_read_2",
+    "ch07_L6_read_3",
+    "ch07_L6_read_4",
+    "ch07_L6_read_5"
+   ],
+   "speak": [
+    "ch07_L6_speak_1",
+    "ch07_L6_speak_2",
+    "ch07_L6_speak_3",
+    "ch07_L6_speak_4",
+    "ch07_L6_speak_5",
+    "ch07_L6_speak_6"
+   ],
+   "write": [
+    "ch07_L6_write_1",
+    "ch07_L6_write_2",
+    "ch07_L6_write_3",
+    "ch07_L6_write_4",
+    "ch07_L6_write_5",
+    "ch07_L6_write_6"
+   ],
+   "why": [
+    "ch07_L6_why_1",
+    "ch07_L6_why_2",
+    "ch07_L6_why_3",
+    "ch07_L6_why_4",
+    "ch07_L6_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch07_L6_transfer_1",
+   "ch07_L6_transfer_2",
+   "ch07_L6_transfer_3",
+   "ch07_L6_transfer_4",
+   "ch07_L6_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch07_051",
+   "ch07_052",
+   "ch07_054"
+  ],
+  "dialog_ids": [
+   "ch07_d6"
+  ],
+  "video": "video/ch07_L6.mp4"
+ }
+]

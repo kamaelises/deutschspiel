@@ -1,0 +1,20 @@
+{
+ "name": "DeutschSpiel — немецкий как игра",
+ "short_name": "DeutschSpiel",
+ "lang": "ru",
+ "dir": "ltr",
+ "description": "Немецкий A1 → B2 как игра. Личное приложение, работает без интернета.",
+ "id": "./",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "portrait",
+ "background_color": "#f6f4ef",
+ "theme_color": "#1c2028",
+ "categories": ["education", "games"],
+ "icons": [
+  {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+  {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+  {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+ ]
+}

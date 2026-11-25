@@ -1,0 +1,7283 @@
+[
+ {
+  "id": "ch09_d1",
+  "title_ru": "Перерыв на курсе: свободное время",
+  "roles": {
+   "O": "Olga (однокурсница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch09_d1_01",
+    "role": "O",
+    "de": "Was machst du in der Freizeit?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Что ты делаешь в свободное время?",
+    "nouns": [
+     {
+      "lemma": "Freizeit",
+      "art": "die",
+      "pl": "Freizeiten"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "machst",
+       "role": "действие №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "in der Freizeit",
+       "role": "когда"
+      }
+     ],
+     "text": "Freizeit — «свободное время». Вопрос-слово was, потом сразу действие machst.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Was — вагон №1, действие machst — сразу за ним, вагон №2: Was machst du in der Freizeit? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Что ты делаешь в свободное время» можно сказать и в другом порядке. По-немецки порядок один: Was · machst · du · in der Freizeit.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Was du machst in der Freizeit?",
+      "ru": "du встал перед machst — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Freizeit — «свободное время». Вопрос-слово was, потом сразу действие machst."
+    },
+    "audio": "audio_v1/ch09_d1_01.mp3",
+    "tts": "Was machst du in der Freizeit?",
+    "ipa": [
+     {
+      "w": "Was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "machst",
+      "ipa": "[maxst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "in",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Freizeit",
+      "ipa": "[ˈfʁaɪ̯ˌt͡saɪ̯t]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): m… · кто: d… · когда: i… d… F…",
+    "gap": {
+     "text": "Was ___ du in der ___?",
+     "answers": [
+      "machst",
+      "Freizeit"
+     ]
+    },
+    "task_ru": "Скажи: Что ты делаешь в свободное время?"
+   },
+   {
+    "id": "ch09_d1_02",
+    "role": "H",
+    "de": "Ich spiele am Computer.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я играю на компьютере.",
+    "nouns": [
+     {
+      "lemma": "Computer",
+      "art": "der",
+      "pl": "Computer"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "spiele",
+       "role": "действие №2"
+      },
+      {
+       "w": "am Computer",
+       "role": "где"
+      }
+     ],
+     "text": "am Computer — «на компьютере», учим куском. Действие spiele — в вагоне №2.",
+     "topic": "verb2",
+     "why_de": "Ich · spiele · am Computer: действие spiele — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я играю на компьютере» — Ich spiele am Computer. Разница одна: по-немецки spiele держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich am Computer spiele.",
+      "ru": "Действие spiele уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе spiele — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "am Computer — «на компьютере», учим куском. Действие spiele — в вагоне №2."
+    },
+    "audio": "audio_v1/ch09_d1_02.mp3",
+    "tts": "Ich spiele am Computer.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "spiele",
+      "ipa": "[ˈʃpiːlə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Computer",
+      "ipa": "[kɔmˈpjuːtɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): s… · где: a… C…",
+    "gap": {
+     "text": "Ich ___ am ___.",
+     "answers": [
+      "spiele",
+      "Computer"
+     ]
+    },
+    "task_ru": "Скажи: Я играю на компьютере."
+   },
+   {
+    "id": "ch09_d1_03",
+    "role": "O",
+    "de": "Wie oft machst du das?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Как часто ты это делаешь?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wie oft",
+       "role": "вопрос-слово",
+       "asks": "когда"
+      },
+      {
+       "w": "machst",
+       "role": "действие №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "das",
+       "role": "кого-что"
+      }
+     ],
+     "text": "wie oft — «как часто». Это вопрос-слово из двух слов: за ним сразу действие machst.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wie oft — вагон №1, действие machst — сразу за ним, вагон №2: Wie oft machst du das? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Как часто ты это делаешь» можно сказать и в другом порядке. По-немецки порядок один: Wie oft · machst · du · das.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wie oft du machst das?",
+      "ru": "du встал перед machst — действие ушло из вагона №2. После Wie oft немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "wie oft — «как часто». Это вопрос-слово из двух слов: за ним сразу действие machst."
+    },
+    "audio": "audio_v1/ch09_d1_03.mp3",
+    "tts": "Wie oft machst du das?",
+    "ipa": [
+     {
+      "w": "Wie",
+      "ipa": "[viː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "oft",
+      "ipa": "[ɔft]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "machst",
+      "ipa": "[maxst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… o… · действие (вагон №2): m… · кто: d… · кого-что: d…",
+    "gap": {
+     "text": "Wie oft ___ du das?",
+     "answers": [
+      "machst"
+     ]
+    },
+    "task_ru": "Скажи: Как часто ты это делаешь?"
+   },
+   {
+    "id": "ch09_d1_04",
+    "role": "H",
+    "de": "Am Abend spiele ich immer.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Вечером я всегда играю.",
+    "nouns": [
+     {
+      "lemma": "Abend",
+      "art": "der",
+      "pl": "Abende"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Am Abend",
+       "role": "когда"
+      },
+      {
+       "w": "spiele",
+       "role": "действие №2"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "immer",
+       "role": "когда"
+      }
+     ],
+     "text": "Вагон №1 занят: Am Abend. Действие spiele остаётся в вагоне №2, поэтому ich — после него.",
+     "topic": "word_order",
+     "why_de": "Вагон №1 занят: Am Abend. Действие spiele всё равно в вагоне №2, а «кто» (ich) — за ним: Am Abend spiele ich immer.",
+     "why_ru": "По-русски «Вечером я всегда играю» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, spiele — вагон №2.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Am Abend ich spiele immer.",
+      "ru": "Русский порядок: «кто» (ich) перед действием, и spiele уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+     },
+     "root": null,
+     "why_voice_ru": "Вагон №1 занят: Am Abend. Действие spiele остаётся в вагоне №2, поэтому ich — после него."
+    },
+    "audio": "audio_v1/ch09_d1_04.mp3",
+    "tts": "Am Abend spiele ich immer.",
+    "ipa": [
+     {
+      "w": "Am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Abend",
+      "ipa": "[ˈaːbn̩t]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "spiele",
+      "ipa": "[ˈʃpiːlə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "immer",
+      "ipa": "[ˈɪmɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "когда: A… A… · действие (вагон №2): s… · кто: i… · когда: i…",
+    "gap": {
+     "text": "Am ___ ___ ich immer.",
+     "answers": [
+      "Abend",
+      "spiele"
+     ]
+    },
+    "task_ru": "Скажи: Вечером я всегда играю."
+   },
+   {
+    "id": "ch09_d1_05",
+    "role": "O",
+    "de": "Spielst du auch in der Nacht?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ты и ночью тоже играешь?",
+    "nouns": [
+     {
+      "lemma": "Nacht",
+      "art": "die",
+      "pl": "Nächte"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Spielst",
+       "role": "действие №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "auch",
+       "role": "добавка"
+      },
+      {
+       "w": "in der Nacht",
+       "role": "когда"
+      }
+     ],
+     "text": "Вопрос «да/нет»: действие Spielst впереди. du spielst — с хвостом -st, как du wohnst.",
+     "topic": "questions",
+     "why_de": "Действие впереди (Spielst) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Spielst du auch in der Nacht?",
+     "why_ru": "По-русски «Ты и ночью тоже играешь» — вопрос только голосом, порядок как в ответе. По-немецки действие Spielst выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Du spielst auch in der Nacht?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Ты и ночью тоже играешь?!»). Обычный вопрос — действие впереди."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer); Nacht и русское «ночь» — родня: один древний корень, как английское night и латинское nox (de.wiktionary)",
+     "why_voice_ru": "Вопрос «да/нет»: действие Spielst впереди. du spielst — с хвостом -st, как du wohnst."
+    },
+    "audio": "audio_v1/ch09_d1_05.mp3",
+    "tts": "Spielst du auch in der Nacht?",
+    "ipa": [
+     {
+      "w": "Spielst",
+      "ipa": "[ʃpiːlst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "auch",
+      "ipa": "[aʊ̯x]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "in",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Nacht",
+      "ipa": "[naxt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): S… · кто: d… · добавка: a… · когда: i… d… N…",
+    "gap": {
+     "text": "___ du auch in der ___?",
+     "answers": [
+      "Spielst",
+      "Nacht"
+     ]
+    },
+    "task_ru": "Скажи: Ты и ночью тоже играешь?"
+   },
+   {
+    "id": "ch09_d1_06",
+    "role": "H",
+    "de": "Nein, nie.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Нет, никогда.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Nein",
+       "role": "да/нет"
+      },
+      {
+       "w": "nie",
+       "role": "когда"
+      }
+     ],
+     "text": "Короткий ответ: Nein — «нет», nie — «ни разу». Второго «не» в немецком нет: отрицание уже внутри nie.",
+     "topic": "word_order",
+     "why_de": "Короткий ответ: Nein — это нет, nie — это ни разу. Действие из вопроса не повторяют. Второго «не» в немецком нет: отрицание уже внутри nie.",
+     "why_ru": "По-русски отвечают так же коротко, двумя словами. Но по-русски «нет» и «не» стоят отдельно, а по-немецки отрицание уже внутри слова nie.",
+     "layer": "short",
+     "why_not": {
+      "wrong": "Nein, nicht nie.",
+      "ru": "Отрицание уже внутри nie. Второе nicht не добавляют."
+     },
+     "root": null,
+     "override": "tools/data_ch09.py WHY",
+     "why_voice_ru": "Короткий ответ: Nein — «нет», nie — «ни разу». Второго «не» в немецком нет: отрицание уже внутри nie."
+    },
+    "audio": "audio_v1/ch09_d1_06.mp3",
+    "tts": "Nein, nie. Nein, nie.",
+    "ipa": [
+     {
+      "w": "Nein",
+      "ipa": "[naɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "nie",
+      "ipa": "[niː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: N… · когда: n…",
+    "gap": {
+     "text": "Nein, ___.",
+     "answers": [
+      "nie"
+     ]
+    },
+    "task_ru": "Скажи: Нет, никогда."
+   },
+   {
+    "id": "ch09_d1_07",
+    "role": "O",
+    "de": "Und was machst du gern?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А что ты любишь делать?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "machst",
+       "role": "действие №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "gern",
+       "role": "добавка"
+      }
+     ],
+     "text": "Und в начале не занимает вагон. gern — «охотно»: machst + gern = «любишь делать».",
+     "topic": "questions",
+     "why_de": "Вопрос-слово was — вагон №1, действие machst — сразу за ним, вагон №2: Und was machst du gern? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «А что ты любишь делать» можно сказать и в другом порядке. По-немецки порядок один: was · machst · du · gern.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Und was du machst gern?",
+      "ru": "du встал перед machst — действие ушло из вагона №2. После was немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Und в начале не занимает вагон. gern — «охотно»: machst + gern = «любишь делать»."
+    },
+    "audio": "audio_v1/ch09_d1_07.mp3",
+    "tts": "Und was machst du gern?",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "machst",
+      "ipa": "[maxst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gern",
+      "ipa": "[ɡɛʁn]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · вопрос-слово: w… · действие (вагон №2): m… · кто: d… · добавка: g…",
+    "gap": {
+     "text": "Und was ___ du gern?",
+     "answers": [
+      "machst"
+     ]
+    },
+    "task_ru": "Скажи: А что ты любишь делать?"
+   },
+   {
+    "id": "ch09_d1_08",
+    "role": "H",
+    "de": "Ich schwimme gern.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я люблю плавать.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "schwimme",
+       "role": "действие №2"
+      },
+      {
+       "w": "gern",
+       "role": "добавка"
+      }
+     ],
+     "text": "gern стоит после действия: schwimme gern. По-русски чаще скажут «я люблю плавать».",
+     "topic": "verb2",
+     "why_de": "Ich · schwimme · gern: действие schwimme — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я люблю плавать» — Ich schwimme gern. Разница одна: по-немецки schwimme держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich gern schwimme.",
+      "ru": "Действие schwimme уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе schwimme — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "gern стоит после действия: schwimme gern. По-русски чаще скажут «я люблю плавать»."
+    },
+    "audio": "audio_v1/ch09_d1_08.mp3",
+    "tts": "Ich schwimme gern.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schwimme",
+      "ipa": "[ˈʃvɪmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gern",
+      "ipa": "[ɡɛʁn]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): s… · добавка: g…",
+    "gap": {
+     "text": "Ich ___ gern.",
+     "answers": [
+      "schwimme"
+     ]
+    },
+    "task_ru": "Скажи: Я люблю плавать."
+   },
+   {
+    "id": "ch09_d1_09",
+    "role": "O",
+    "de": "Wie oft schwimmst du?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Как часто ты плаваешь?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wie oft",
+       "role": "вопрос-слово",
+       "asks": "когда"
+      },
+      {
+       "w": "schwimmst",
+       "role": "действие №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      }
+     ],
+     "text": "wie oft — «как часто»: за вопрос-словом сразу действие schwimmst. С du — хвост -st.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wie oft — вагон №1, действие schwimmst — сразу за ним, вагон №2: Wie oft schwimmst du? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Как часто ты плаваешь» можно сказать и в другом порядке. По-немецки порядок один: Wie oft · schwimmst · du.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wie oft du schwimmst?",
+      "ru": "du встал перед schwimmst — действие ушло из вагона №2. После Wie oft немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "wie oft — «как часто»: за вопрос-словом сразу действие schwimmst. С du — хвост -st."
+    },
+    "audio": "audio_v1/ch09_d1_09.mp3",
+    "tts": "Wie oft schwimmst du?",
+    "ipa": [
+     {
+      "w": "Wie",
+      "ipa": "[viː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "oft",
+      "ipa": "[ɔft]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schwimmst",
+      "ipa": "[ʃvɪmst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… o… · действие (вагон №2): s… · кто: d…",
+    "gap": {
+     "text": "Wie oft ___ du?",
+     "answers": [
+      "schwimmst"
+     ]
+    },
+    "task_ru": "Скажи: Как часто ты плаваешь?"
+   },
+   {
+    "id": "ch09_d1_10",
+    "role": "H",
+    "de": "Am Morgen schwimme ich oft.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Утром я часто плаваю.",
+    "nouns": [
+     {
+      "lemma": "Morgen",
+      "art": "der",
+      "pl": "Morgen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Am Morgen",
+       "role": "когда"
+      },
+      {
+       "w": "schwimme",
+       "role": "действие №2"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "oft",
+       "role": "когда"
+      }
+     ],
+     "text": "Вагон №1 занят: Am Morgen. Действие schwimme — в вагоне №2, ich — за ним. oft — «часто».",
+     "topic": "word_order",
+     "why_de": "Вагон №1 занят: Am Morgen. Действие schwimme всё равно в вагоне №2, а «кто» (ich) — за ним: Am Morgen schwimme ich oft.",
+     "why_ru": "По-русски «Утром я часто плаваю» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, schwimme — вагон №2.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Am Morgen ich schwimme oft.",
+      "ru": "Русский порядок: «кто» (ich) перед действием, и schwimme уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+     },
+     "root": "Morgen — germ. *murgina-, вероятно от «сумерки, рассвет»; возможно, родня русского «морок» (ie. *mer(ə)k- «мерцать, темнеть»; DWDS, Pfeifer)",
+     "why_voice_ru": "Вагон №1 занят: Am Morgen. Действие schwimme — в вагоне №2, ich — за ним. oft — «часто»."
+    },
+    "audio": "audio_v1/ch09_d1_10.mp3",
+    "tts": "Am Morgen schwimme ich oft.",
+    "ipa": [
+     {
+      "w": "Am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Morgen",
+      "ipa": "[ˈmɔʁɡn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schwimme",
+      "ipa": "[ˈʃvɪmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "oft",
+      "ipa": "[ɔft]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "когда: A… M… · действие (вагон №2): s… · кто: i… · когда: o…",
+    "gap": {
+     "text": "Am ___ ___ ich oft.",
+     "answers": [
+      "Morgen",
+      "schwimme"
+     ]
+    },
+    "task_ru": "Скажи: Утром я часто плаваю."
+   },
+   {
+    "id": "ch09_d1_11",
+    "role": "O",
+    "de": "Und am Abend?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А вечером?",
+    "nouns": [
+     {
+      "lemma": "Abend",
+      "art": "der",
+      "pl": "Abende"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "am Abend",
+       "role": "когда"
+      }
+     ],
+     "text": "Короткий вопрос без действия: действие schwimmst уже сказали.",
+     "topic": "word_order",
+     "why_de": "Короткий вопрос без действия: Und («а/и») · am Abend (когда?). Действие уже сказали в прошлой реплике, его не повторяют.",
+     "why_ru": "По-русски так же коротко: «А вечером?». Слово Und — просто «а», оно не занимает место в порядке слов.",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — бросить маленькое am: нужен весь кусок am Abend, одно название без am вопросом не будет."
+     },
+     "root": null,
+     "why_voice_ru": "Короткий вопрос без действия: действие schwimmst уже сказали."
+    },
+    "audio": "audio_v1/ch09_d1_11.mp3",
+    "tts": "Und am Abend?",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Abend",
+      "ipa": "[ˈaːbn̩t]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · когда: a… A…",
+    "gap": {
+     "text": "Und am ___?",
+     "answers": [
+      "Abend"
+     ]
+    },
+    "task_ru": "Скажи: А вечером?"
+   },
+   {
+    "id": "ch09_d1_12",
+    "role": "H",
+    "de": "Am Abend schwimme ich manchmal.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Вечером я иногда плаваю.",
+    "nouns": [
+     {
+      "lemma": "Abend",
+      "art": "der",
+      "pl": "Abende"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Am Abend",
+       "role": "когда"
+      },
+      {
+       "w": "schwimme",
+       "role": "действие №2"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "manchmal",
+       "role": "когда"
+      }
+     ],
+     "text": "Вагон №1 занят: Am Abend, поэтому ich — после действия schwimme. manchmal — «иногда».",
+     "topic": "word_order",
+     "why_de": "Вагон №1 занят: Am Abend. Действие schwimme всё равно в вагоне №2, а «кто» (ich) — за ним: Am Abend schwimme ich manchmal.",
+     "why_ru": "По-русски «Вечером я иногда плаваю» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, schwimme — вагон №2.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Am Abend ich schwimme manchmal.",
+      "ru": "Русский порядок: «кто» (ich) перед действием, и schwimme уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+     },
+     "root": null,
+     "why_voice_ru": "Вагон №1 занят: Am Abend, поэтому ich — после действия schwimme. manchmal — «иногда»."
+    },
+    "audio": "audio_v1/ch09_d1_12.mp3",
+    "tts": "Am Abend schwimme ich manchmal.",
+    "ipa": [
+     {
+      "w": "Am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Abend",
+      "ipa": "[ˈaːbn̩t]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schwimme",
+      "ipa": "[ˈʃvɪmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "manchmal",
+      "ipa": "[ˈmançmaːl]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "когда: A… A… · действие (вагон №2): s… · кто: i… · когда: m…",
+    "gap": {
+     "text": "Am ___ ___ ich manchmal.",
+     "answers": [
+      "Abend",
+      "schwimme"
+     ]
+    },
+    "task_ru": "Скажи: Вечером я иногда плаваю."
+   },
+   {
+    "id": "ch09_d1_13",
+    "role": "O",
+    "de": "Und am Wochenende?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А на выходных?",
+    "nouns": [
+     {
+      "lemma": "Wochenende",
+      "art": "das",
+      "pl": "Wochenenden"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "am Wochenende",
+       "role": "когда"
+      }
+     ],
+     "text": "Короткий вопрос без действия: действие schwimmst уже сказали.",
+     "topic": "word_order",
+     "why_de": "Короткий вопрос без действия: Und («а/и») · am Wochenende (когда?). Действие уже сказали в прошлой реплике, его не повторяют.",
+     "why_ru": "По-русски так же коротко: «А на выходных?». Слово Und — просто «а», оно не занимает место в порядке слов.",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — бросить маленькое am: нужен весь кусок am Wochenende, одно название без am вопросом не будет."
+     },
+     "root": null,
+     "why_voice_ru": "Короткий вопрос без действия: действие schwimmst уже сказали."
+    },
+    "audio": "audio_v1/ch09_d1_13.mp3",
+    "tts": "Und am Wochenende?",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wochenende",
+      "ipa": "[ˈvɔxn̩ˌʔɛndə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · когда: a… W…",
+    "gap": {
+     "text": "Und am ___?",
+     "answers": [
+      "Wochenende"
+     ]
+    },
+    "task_ru": "Скажи: А на выходных?"
+   },
+   {
+    "id": "ch09_d1_14",
+    "role": "H",
+    "de": "Am Wochenende schwimme ich selten.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "На выходных я плаваю редко.",
+    "nouns": [
+     {
+      "lemma": "Wochenende",
+      "art": "das",
+      "pl": "Wochenenden"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Am Wochenende",
+       "role": "когда"
+      },
+      {
+       "w": "schwimme",
+       "role": "действие №2"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "selten",
+       "role": "когда"
+      }
+     ],
+     "text": "Вагон №1 занят: Am Wochenende, поэтому ich — после действия schwimme. selten — «редко».",
+     "topic": "word_order",
+     "why_de": "Вагон №1 занят: Am Wochenende. Действие schwimme всё равно в вагоне №2, а «кто» (ich) — за ним: Am Wochenende schwimme ich selten.",
+     "why_ru": "По-русски «На выходных я плаваю редко» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, schwimme — вагон №2.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Am Wochenende ich schwimme selten.",
+      "ru": "Русский порядок: «кто» (ich) перед действием, и schwimme уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+     },
+     "root": null,
+     "why_voice_ru": "Вагон №1 занят: Am Wochenende, поэтому ich — после действия schwimme. selten — «редко»."
+    },
+    "audio": "audio_v1/ch09_d1_14.mp3",
+    "tts": "Am Wochenende schwimme ich selten.",
+    "ipa": [
+     {
+      "w": "Am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wochenende",
+      "ipa": "[ˈvɔxn̩ˌʔɛndə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schwimme",
+      "ipa": "[ˈʃvɪmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "selten",
+      "ipa": "[ˈzɛltn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "когда: A… W… · действие (вагон №2): s… · кто: i… · когда: s…",
+    "gap": {
+     "text": "Am ___ ___ ich selten.",
+     "answers": [
+      "Wochenende",
+      "schwimme"
+     ]
+    },
+    "task_ru": "Скажи: На выходных я плаваю редко."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch09_d2",
+  "title_ru": "Приглашение на субботу",
+  "roles": {
+   "O": "Olga (однокурсница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch09_d2_01",
+    "role": "O",
+    "de": "Kommst du am Samstag mit?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ты в субботу с нами?",
+    "nouns": [
+     {
+      "lemma": "Samstag",
+      "art": "der",
+      "pl": "Samstage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Kommst",
+       "role": "действие №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "am Samstag",
+       "role": "когда"
+      },
+      {
+       "w": "mit",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет»: Kommst впереди, mit — в самом конце, а между ними остальное.",
+     "topic": "questions",
+     "why_de": "У действия есть «хвост»: он отрывается и встаёт в самый конец: Kommst du am Samstag mit?",
+     "why_ru": "По-русски «Ты в субботу с нами» — действие одним куском; по-немецки хвост mit отрывается и уезжает в конец: Kommst du am Samstag mit?",
+     "layer": "sep",
+     "why_not": {
+      "wrong": "Kommst mit du am Samstag?",
+      "ru": "Хвост mit нельзя ставить сразу за Kommst: он уезжает в самый конец предложения."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос «да/нет»: Kommst впереди, mit — в самом конце, а между ними остальное."
+    },
+    "audio": "audio_v1/ch09_d2_01.mp3",
+    "tts": "Kommst du am Samstag mit?",
+    "ipa": [
+     {
+      "w": "Kommst",
+      "ipa": "[kɔmst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Samstag",
+      "ipa": "[ˈzamstaːk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mit",
+      "ipa": "[mɪt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): K… · кто: d… · когда: a… S… · хвост действия: m…",
+    "gap": {
+     "text": "___ du am ___ mit?",
+     "answers": [
+      "Kommst",
+      "Samstag"
+     ]
+    },
+    "task_ru": "Скажи: Ты в субботу с нами?"
+   },
+   {
+    "id": "ch09_d2_02",
+    "role": "H",
+    "de": "Was spielt ihr?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Во что вы играете?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "spielt",
+       "role": "действие №2"
+      },
+      {
+       "w": "ihr",
+       "role": "кто"
+      }
+     ],
+     "text": "Вопрос-слово was, потом действие spielt. С ihr — хвост -t.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Was — вагон №1, действие spielt — сразу за ним, вагон №2: Was spielt ihr? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Во что вы играете» можно сказать и в другом порядке. По-немецки порядок один: Was · spielt · ihr.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Was ihr spielt?",
+      "ru": "ihr встал перед spielt — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос-слово was, потом действие spielt. С ihr — хвост -t."
+    },
+    "audio": "audio_v1/ch09_d2_02.mp3",
+    "tts": "Was spielt ihr?",
+    "ipa": [
+     {
+      "w": "Was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "spielt",
+      "ipa": "[ʃpiːlt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ihr",
+      "ipa": "[iːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): s… · кто: i…",
+    "gap": {
+     "text": "Was ___ ihr?",
+     "answers": [
+      "spielt"
+     ]
+    },
+    "task_ru": "Скажи: Во что вы играете?"
+   },
+   {
+    "id": "ch09_d2_03",
+    "role": "O",
+    "de": "Wir spielen Frisbee.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Мы играем во фрисби.",
+    "nouns": [
+     {
+      "lemma": "Frisbee",
+      "art": "das",
+      "pl": "Frisbees"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wir",
+       "role": "кто"
+      },
+      {
+       "w": "spielen",
+       "role": "действие №2"
+      },
+      {
+       "w": "Frisbee",
+       "role": "кого-что"
+      }
+     ],
+     "text": "С wir действие spielen — с хвостом -en. Действие в вагоне №2.",
+     "topic": "verb2",
+     "why_de": "Wir · spielen · Frisbee: действие spielen — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Мы играем во фрисби» — Wir spielen Frisbee. Разница одна: по-немецки spielen держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Wir Frisbee spielen.",
+      "ru": "Действие spielen уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе spielen — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "С wir действие spielen — с хвостом -en. Действие в вагоне №2."
+    },
+    "audio": "audio_v1/ch09_d2_03.mp3",
+    "tts": "Wir spielen Frisbee.",
+    "ipa": [
+     {
+      "w": "Wir",
+      "ipa": "[viːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "spielen",
+      "ipa": "[ˈʃpiːlən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Frisbee",
+      "ipa": "[ˈfʁɪsbi]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: W… · действие (вагон №2): s… · кого-что: F…",
+    "gap": {
+     "text": "Wir ___ ___.",
+     "answers": [
+      "spielen",
+      "Frisbee"
+     ]
+    },
+    "task_ru": "Скажи: Мы играем во фрисби."
+   },
+   {
+    "id": "ch09_d2_04",
+    "role": "H",
+    "de": "Ja, ich komme mit.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, я тоже иду.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "komme",
+       "role": "действие №2"
+      },
+      {
+       "w": "mit",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Ja не занимает вагон. Действие komme — в вагоне №2, кусок mit — в конце.",
+     "topic": "verb2",
+     "why_de": "У действия есть «хвост»: он отрывается и встаёт в самый конец: Ja, ich komme mit.",
+     "why_ru": "По-русски «Да, я тоже иду» — действие одним куском; по-немецки хвост mit отрывается и уезжает в конец: Ja, ich komme mit.",
+     "layer": "sep",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — переставить слова. В «Ja, ich komme mit.» действие komme держит своё место, и его не двигают."
+     },
+     "root": null,
+     "why_voice_ru": "Ja не занимает вагон. Действие komme — в вагоне №2, кусок mit — в конце."
+    },
+    "audio": "audio_v1/ch09_d2_04.mp3",
+    "tts": "Ja, ich komme mit.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "komme",
+      "ipa": "[ˈkɔmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mit",
+      "ipa": "[mɪt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: i… · действие (вагон №2): k… · хвост действия: m…",
+    "gap": {
+     "text": "Ja, ich ___ mit.",
+     "answers": [
+      "komme"
+     ]
+    },
+    "task_ru": "Скажи: Да, я тоже иду."
+   },
+   {
+    "id": "ch09_d2_05",
+    "role": "O",
+    "de": "Nimmst du deinen Ball mit?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ты возьмёшь свой мяч с собой?",
+    "nouns": [
+     {
+      "lemma": "Ball",
+      "art": "der",
+      "pl": "Bälle"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Nimmst",
+       "role": "действие №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "deinen Ball",
+       "role": "кого-что"
+      },
+      {
+       "w": "mit",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет»: Nimmst впереди, mit — в конце. Ball — der-слово: dein → deinen.",
+     "topic": "questions",
+     "why_de": "У действия есть «хвост»: он отрывается и встаёт в самый конец: Nimmst du deinen Ball mit?",
+     "why_ru": "По-русски «Ты возьмёшь свой мяч с собой» — действие одним куском; по-немецки хвост mit отрывается и уезжает в конец: Nimmst du deinen Ball mit?",
+     "layer": "sep",
+     "why_not": {
+      "wrong": "Nimmst mit du deinen Ball?",
+      "ru": "Хвост mit нельзя ставить сразу за Nimmst: он уезжает в самый конец предложения."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос «да/нет»: Nimmst впереди, mit — в конце. Ball — der-слово: dein → deinen."
+    },
+    "audio": "audio_v1/ch09_d2_05.mp3",
+    "tts": "Nimmst du deinen Ball mit?",
+    "ipa": [
+     {
+      "w": "Nimmst",
+      "ipa": "[nɪmst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "deinen",
+      "ipa": "[ˈdaɪ̯nən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ball",
+      "ipa": "[bal]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mit",
+      "ipa": "[mɪt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): N… · кто: d… · кого-что: d… B… · хвост действия: m…",
+    "gap": {
+     "text": "___ du deinen ___ mit?",
+     "answers": [
+      "Nimmst",
+      "Ball"
+     ]
+    },
+    "task_ru": "Скажи: Ты возьмёшь свой мяч с собой?"
+   },
+   {
+    "id": "ch09_d2_06",
+    "role": "H",
+    "de": "Ja, ich nehme ihn mit.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, я возьму его с собой.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "nehme",
+       "role": "действие №2"
+      },
+      {
+       "w": "ihn",
+       "role": "кого-что"
+      },
+      {
+       "w": "mit",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "ihn — это «он» (der Ball) в вагоне «кого-что». mit — в конце.",
+     "topic": "verb2",
+     "why_de": "У действия есть «хвост»: он отрывается и встаёт в самый конец: Ja, ich nehme ihn mit.",
+     "why_ru": "По-русски «Да, я возьму его с собой» — действие одним куском; по-немецки хвост mit отрывается и уезжает в конец: Ja, ich nehme ihn mit.",
+     "layer": "sep",
+     "why_not": {
+      "wrong": "Ja, ich nehme mit ihn.",
+      "ru": "Хвост mit нельзя ставить сразу за nehme: он уезжает в самый конец предложения."
+     },
+     "root": null,
+     "why_voice_ru": "ihn — это «он» (der Ball) в вагоне «кого-что». mit — в конце."
+    },
+    "audio": "audio_v1/ch09_d2_06.mp3",
+    "tts": "Ja, ich nehme ihn mit.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "nehme",
+      "ipa": "[ˈneːmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ihn",
+      "ipa": "[iːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mit",
+      "ipa": "[mɪt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: i… · действие (вагон №2): n… · кого-что: i… · хвост действия: m…",
+    "gap": {
+     "text": "Ja, ich ___ ___ mit.",
+     "answers": [
+      "nehme",
+      "ihn"
+     ]
+    },
+    "task_ru": "Скажи: Да, я возьму его с собой."
+   },
+   {
+    "id": "ch09_d2_07",
+    "role": "O",
+    "de": "Und deine Tasche?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А твою сумку?",
+    "nouns": [
+     {
+      "lemma": "Tasche",
+      "art": "die",
+      "pl": "Taschen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "deine Tasche",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Короткий вопрос без действия: действие Nimmst уже сказали. Tasche — die-слово: deine.",
+     "topic": "word_order",
+     "why_de": "Короткий вопрос без действия: Und — «а», deine Tasche (что?) — другой предмет; Tasche — слово с die: deine. Действие уже сказали в прошлой реплике, его не повторяют.",
+     "why_ru": "По-русски так же коротко: «А твою сумку?». Слово Und — просто «а», оно не занимает место в порядке слов.",
+     "layer": "short",
+     "why_not": {
+      "wrong": "Und dein Tasche?",
+      "ru": "Tasche — слово с die, поэтому нужно deine, а не dein."
+     },
+     "root": null,
+     "override": "tools/data_ch09.py WHY",
+     "why_voice_ru": "Короткий вопрос без действия: действие Nimmst уже сказали. Tasche — die-слово: deine."
+    },
+    "audio": "audio_v1/ch09_d2_07.mp3",
+    "tts": "Und deine Tasche?",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "deine",
+      "ipa": "[ˈdaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tasche",
+      "ipa": "[ˈtaʃə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · кого-что: d… T…",
+    "gap": {
+     "text": "Und deine ___?",
+     "answers": [
+      "Tasche"
+     ]
+    },
+    "task_ru": "Скажи: А твою сумку?"
+   },
+   {
+    "id": "ch09_d2_08",
+    "role": "H",
+    "de": "Ich nehme sie mit.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я возьму её с собой.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "nehme",
+       "role": "действие №2"
+      },
+      {
+       "w": "sie",
+       "role": "кого-что"
+      },
+      {
+       "w": "mit",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "sie — «она» (die Tasche). В вагоне «кого-что» sie не меняется. mit — в конце.",
+     "topic": "verb2",
+     "why_de": "У действия есть «хвост»: он отрывается и встаёт в самый конец: Ich nehme sie mit.",
+     "why_ru": "По-русски «Я возьму её с собой» — действие одним куском; по-немецки хвост mit отрывается и уезжает в конец: Ich nehme sie mit.",
+     "layer": "sep",
+     "why_not": {
+      "wrong": "Ich nehme mit sie.",
+      "ru": "Хвост mit нельзя ставить сразу за nehme: он уезжает в самый конец предложения."
+     },
+     "root": null,
+     "why_voice_ru": "sie — «она» (die Tasche). В вагоне «кого-что» sie не меняется. mit — в конце.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «что» · хвост действия",
+      "items": [
+       {
+        "id": "ch09_014",
+        "de": "Ich nehme meinen Ball mit.",
+        "ru": "Я возьму мой мяч с собой.",
+        "audio": "audio_v1/ch09_014.mp3",
+        "lesson": "L2",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "sie",
+         "to": "meinen Ball"
+        }
+       },
+       {
+        "id": "ch09_015",
+        "de": "Ich nehme ihn mit.",
+        "ru": "Я возьму его с собой.",
+        "audio": "audio_v1/ch09_015.mp3",
+        "lesson": "L2",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "sie",
+         "to": "ihn"
+        }
+       },
+       {
+        "id": "ch09_017",
+        "de": "Ich nehme es mit.",
+        "ru": "Я возьму его с собой.",
+        "audio": "audio_v1/ch09_017.mp3",
+        "lesson": "L2",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "sie",
+         "to": "es"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Ich · nehme · mit. В каждом примере меняется один вагон — «что»: sie → meinen Ball → ihn → es. Действие nehme всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch09_d2_08.mp3",
+    "tts": "Ich nehme sie mit.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "nehme",
+      "ipa": "[ˈneːmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mit",
+      "ipa": "[mɪt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): n… · кого-что: s… · хвост действия: m…",
+    "gap": {
+     "text": "Ich ___ sie mit.",
+     "answers": [
+      "nehme"
+     ]
+    },
+    "task_ru": "Скажи: Я возьму её с собой."
+   },
+   {
+    "id": "ch09_d2_09",
+    "role": "O",
+    "de": "Und dein Handy?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А твой телефон?",
+    "nouns": [
+     {
+      "lemma": "Handy",
+      "art": "das",
+      "pl": "Handys"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "dein Handy",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Короткий вопрос без действия. Handy — das-слово: dein.",
+     "topic": "word_order",
+     "why_de": "Короткий вопрос без действия: Und — «а», dein Handy (что?) — другой предмет; Handy — слово с das: dein. Действие уже сказали в прошлой реплике, его не повторяют.",
+     "why_ru": "По-русски так же коротко: «А твой телефон?». Слово Und — просто «а», оно не занимает место в порядке слов.",
+     "layer": "short",
+     "why_not": {
+      "wrong": "Und deine Handy?",
+      "ru": "Handy — слово с das, поэтому нужно dein, а не deine."
+     },
+     "root": null,
+     "override": "tools/data_ch09.py WHY",
+     "why_voice_ru": "Короткий вопрос без действия. Handy — das-слово: dein."
+    },
+    "audio": "audio_v1/ch09_d2_09.mp3",
+    "tts": "Und dein Handy?",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "dein",
+      "ipa": "[daɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Handy",
+      "ipa": "[ˈhɛndi]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · кого-что: d… H…",
+    "gap": {
+     "text": "Und dein ___?",
+     "answers": [
+      "Handy"
+     ]
+    },
+    "task_ru": "Скажи: А твой телефон?"
+   },
+   {
+    "id": "ch09_d2_10",
+    "role": "H",
+    "de": "Ich nehme es mit.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я возьму его с собой.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "nehme",
+       "role": "действие №2"
+      },
+      {
+       "w": "es",
+       "role": "кого-что"
+      },
+      {
+       "w": "mit",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "es — «оно» (das Handy). В вагоне «кого-что» es не меняется. mit — в конце.",
+     "topic": "verb2",
+     "why_de": "У действия есть «хвост»: он отрывается и встаёт в самый конец: Ich nehme es mit.",
+     "why_ru": "По-русски «Я возьму его с собой» — действие одним куском; по-немецки хвост mit отрывается и уезжает в конец: Ich nehme es mit.",
+     "layer": "sep",
+     "why_not": {
+      "wrong": "Ich nehme mit es.",
+      "ru": "Хвост mit нельзя ставить сразу за nehme: он уезжает в самый конец предложения."
+     },
+     "root": null,
+     "why_voice_ru": "es — «оно» (das Handy). В вагоне «кого-что» es не меняется. mit — в конце.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «что» · хвост действия",
+      "items": [
+       {
+        "id": "ch09_014",
+        "de": "Ich nehme meinen Ball mit.",
+        "ru": "Я возьму мой мяч с собой.",
+        "audio": "audio_v1/ch09_014.mp3",
+        "lesson": "L2",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "es",
+         "to": "meinen Ball"
+        }
+       },
+       {
+        "id": "ch09_015",
+        "de": "Ich nehme ihn mit.",
+        "ru": "Я возьму его с собой.",
+        "audio": "audio_v1/ch09_015.mp3",
+        "lesson": "L2",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "es",
+         "to": "ihn"
+        }
+       },
+       {
+        "id": "ch09_016",
+        "de": "Ich nehme sie mit.",
+        "ru": "Я возьму её с собой.",
+        "audio": "audio_v1/ch09_016.mp3",
+        "lesson": "L2",
+        "part": 3,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "es",
+         "to": "sie"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Ich · nehme · mit. В каждом примере меняется один вагон — «что»: es → meinen Ball → ihn → sie. Действие nehme всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch09_d2_10.mp3",
+    "tts": "Ich nehme es mit.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "nehme",
+      "ipa": "[ˈneːmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "es",
+      "ipa": "[ɛs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mit",
+      "ipa": "[mɪt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): n… · кого-что: e… · хвост действия: m…",
+    "gap": {
+     "text": "Ich ___ es mit.",
+     "answers": [
+      "nehme"
+     ]
+    },
+    "task_ru": "Скажи: Я возьму его с собой."
+   },
+   {
+    "id": "ch09_d2_11",
+    "role": "O",
+    "de": "Gut, bis Samstag!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Хорошо, до субботы!",
+    "nouns": [
+     {
+      "lemma": "Samstag",
+      "art": "der",
+      "pl": "Samstage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Gut",
+       "role": "да/нет"
+      },
+      {
+       "w": "bis Samstag",
+       "role": "когда"
+      }
+     ],
+     "text": "Gut в начале — согласие, место не занимает. bis Samstag — «до субботы».",
+     "topic": "word_order",
+     "why_de": "Короткий ответ: Gut + bis Samstag (когда?). Действие из вопроса не повторяют — его уже сказали.",
+     "why_ru": "По-русски так же коротко: «Хорошо, до субботы».",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — считать это готовой формулой. «Хорошо, до субботы» — короткий ответ, его слова меняют под ситуацию."
+     },
+     "root": null,
+     "why_voice_ru": "Gut в начале — согласие, место не занимает. bis Samstag — «до субботы»."
+    },
+    "audio": "audio_v1/ch09_d2_11.mp3",
+    "tts": "Gut, bis Samstag!",
+    "ipa": [
+     {
+      "w": "Gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bis",
+      "ipa": "[bɪs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Samstag",
+      "ipa": "[ˈzamstaːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: G… · когда: b… S…",
+    "gap": {
+     "text": "Gut, bis ___!",
+     "answers": [
+      "Samstag"
+     ]
+    },
+    "task_ru": "Скажи: Хорошо, до субботы!"
+   },
+   {
+    "id": "ch09_d2_12",
+    "role": "H",
+    "de": "Tschüss!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Пока!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Tschüss",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Tschüss — «пока»: прощание между знакомыми.",
+     "topic": "word_order",
+     "why_de": "Разговорное прощание: друзьям, соседям, в магазине.",
+     "why_ru": "Как русское «пока».",
+     "layer": "chunk",
+     "why_not": {
+      "wrong": "Tschüss! (на приёме в Jobcenter)",
+      "ru": "В ведомстве лучше Auf Wiedersehen: tschüss — разговорное (DWDS)."
+     },
+     "source": "tools/why_chunks.json",
+     "root": "tschüss ← франц. adieu, лат. ad Deum — «к Богу» (DWDS)",
+     "why_voice_ru": "Tschüss — «пока»: прощание между знакомыми."
+    },
+    "audio": "audio_v1/ch09_d2_12.mp3",
+    "tts": "Tschüss! Tschüss!",
+    "ipa": [
+     {
+      "w": "Tschüss",
+      "ipa": "[t͡ʃʏs]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: T…",
+    "gap": {
+     "text": "___!",
+     "answers": [
+      "Tschüss"
+     ]
+    },
+    "task_ru": "Скажи: Пока!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch09_d3",
+  "title_ru": "Планы на выходные",
+  "roles": {
+   "O": "Olga (однокурсница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch09_d3_01",
+    "role": "O",
+    "de": "Was machen wir am Samstag?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Что мы будем делать в субботу?",
+    "nouns": [
+     {
+      "lemma": "Samstag",
+      "art": "der",
+      "pl": "Samstage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "machen",
+       "role": "действие №2"
+      },
+      {
+       "w": "wir",
+       "role": "кто"
+      },
+      {
+       "w": "am Samstag",
+       "role": "когда"
+      }
+     ],
+     "text": "Вопрос-слово was, потом сразу действие machen. С wir — хвост -en.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Was — вагон №1, действие machen — сразу за ним, вагон №2: Was machen wir am Samstag? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Что мы будем делать в субботу» можно сказать и в другом порядке. По-немецки порядок один: Was · machen · wir · am Samstag.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Was wir machen am Samstag?",
+      "ru": "wir встал перед machen — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос-слово was, потом сразу действие machen. С wir — хвост -en."
+    },
+    "audio": "audio_v1/ch09_d3_01.mp3",
+    "tts": "Was machen wir am Samstag?",
+    "ipa": [
+     {
+      "w": "Was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "machen",
+      "ipa": "[ˈmaxn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wir",
+      "ipa": "[viːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Samstag",
+      "ipa": "[ˈzamstaːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): m… · кто: w… · когда: a… S…",
+    "gap": {
+     "text": "Was ___ wir am ___?",
+     "answers": [
+      "machen",
+      "Samstag"
+     ]
+    },
+    "task_ru": "Скажи: Что мы будем делать в субботу?"
+   },
+   {
+    "id": "ch09_d3_02",
+    "role": "H",
+    "de": "Wohin gehen wir?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Куда мы идём?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wohin",
+       "role": "вопрос-слово",
+       "asks": "где"
+      },
+      {
+       "w": "gehen",
+       "role": "действие №2"
+      },
+      {
+       "w": "wir",
+       "role": "кто"
+      }
+     ],
+     "text": "wohin — «куда»: вопрос-слово, за ним сразу действие gehen.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wohin — вагон №1, действие gehen — сразу за ним, вагон №2: Wohin gehen wir? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Куда мы идём» можно сказать и в другом порядке. По-немецки порядок один: Wohin · gehen · wir.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wohin wir gehen?",
+      "ru": "wir встал перед gehen — действие ушло из вагона №2. После Wohin немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "wohin — «куда»: вопрос-слово, за ним сразу действие gehen."
+    },
+    "audio": "audio_v1/ch09_d3_02.mp3",
+    "tts": "Wohin gehen wir?",
+    "ipa": [
+     {
+      "w": "Wohin",
+      "ipa": "[voˈhɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gehen",
+      "ipa": "[ˈɡeːən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wir",
+      "ipa": "[viːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): g… · кто: w…",
+    "gap": {
+     "text": "Wohin ___ wir?",
+     "answers": [
+      "gehen"
+     ]
+    },
+    "task_ru": "Скажи: Куда мы идём?"
+   },
+   {
+    "id": "ch09_d3_03",
+    "role": "O",
+    "de": "Wir gehen in den Park.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Мы идём в парк.",
+    "nouns": [
+     {
+      "lemma": "Park",
+      "art": "der",
+      "pl": "Parks"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wir",
+       "role": "кто"
+      },
+      {
+       "w": "gehen",
+       "role": "действие №2"
+      },
+      {
+       "w": "in den Park",
+       "role": "куда"
+      }
+     ],
+     "text": "Парк — слово с der. Идём туда, поэтому der превращается в den: in den Park.",
+     "topic": "verb2",
+     "why_de": "Wir · gehen · in den Park: действие gehen — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Мы идём в парк» — Wir gehen in den Park. Разница одна: по-немецки gehen держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Wir in den Park gehen.",
+      "ru": "Действие gehen уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе gehen — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Парк — слово с der. Идём туда, поэтому der превращается в den: in den Park.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «куда»",
+      "items": [
+       {
+        "id": "ch09_023",
+        "de": "Wir gehen in die Stadt.",
+        "ru": "Мы идём в город.",
+        "audio": "audio_v1/ch09_023.mp3",
+        "lesson": "L3",
+        "part": 3,
+        "changed": {
+         "role": "куда",
+         "wagon": 3,
+         "from": "in den Park",
+         "to": "in die Stadt"
+        }
+       },
+       {
+        "id": "ch09_024",
+        "de": "Wir gehen ins Kino.",
+        "ru": "Мы идём в кино.",
+        "audio": "audio_v1/ch09_024.mp3",
+        "lesson": "L3",
+        "part": 3,
+        "changed": {
+         "role": "куда",
+         "wagon": 3,
+         "from": "in den Park",
+         "to": "ins Kino"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Wir · gehen. В каждом примере меняется один вагон — «куда»: in den Park → in die Stadt → ins Kino. Действие gehen всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch09_d3_03.mp3",
+    "tts": "Wir gehen in den Park.",
+    "ipa": [
+     {
+      "w": "Wir",
+      "ipa": "[viːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gehen",
+      "ipa": "[ˈɡeːən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "in",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "den",
+      "ipa": "[deːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Park",
+      "ipa": "[paʁk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: W… · действие (вагон №2): g… · куда: i… d… P…",
+    "gap": {
+     "text": "Wir ___ in den ___.",
+     "answers": [
+      "gehen",
+      "Park"
+     ]
+    },
+    "task_ru": "Скажи: Мы идём в парк."
+   },
+   {
+    "id": "ch09_d3_04",
+    "role": "H",
+    "de": "Und am Abend?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А вечером?",
+    "nouns": [
+     {
+      "lemma": "Abend",
+      "art": "der",
+      "pl": "Abende"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "am Abend",
+       "role": "когда"
+      }
+     ],
+     "text": "Короткий вопрос без действия: действие gehen уже сказали.",
+     "topic": "word_order",
+     "why_de": "Короткий вопрос без действия: Und («а/и») · am Abend (когда?). Действие уже сказали в прошлой реплике, его не повторяют.",
+     "why_ru": "По-русски так же коротко: «А вечером?». Слово Und — просто «а», оно не занимает место в порядке слов.",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — бросить маленькое am: нужен весь кусок am Abend, одно название без am вопросом не будет."
+     },
+     "root": null,
+     "why_voice_ru": "Короткий вопрос без действия: действие gehen уже сказали."
+    },
+    "audio": "audio_v1/ch09_d3_04.mp3",
+    "tts": "Und am Abend?",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Abend",
+      "ipa": "[ˈaːbn̩t]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · когда: a… A…",
+    "gap": {
+     "text": "Und am ___?",
+     "answers": [
+      "Abend"
+     ]
+    },
+    "task_ru": "Скажи: А вечером?"
+   },
+   {
+    "id": "ch09_d3_05",
+    "role": "O",
+    "de": "Wir gehen ins Kino.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Мы идём в кино.",
+    "nouns": [
+     {
+      "lemma": "Kino",
+      "art": "das",
+      "pl": "Kinos"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wir",
+       "role": "кто"
+      },
+      {
+       "w": "gehen",
+       "role": "действие №2"
+      },
+      {
+       "w": "ins Kino",
+       "role": "куда"
+      }
+     ],
+     "text": "Kino — слово с das. Идём туда, поэтому in das сливается в ins: ins Kino.",
+     "topic": "verb2",
+     "why_de": "Wir · gehen · ins Kino: действие gehen — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Мы идём в кино» — Wir gehen ins Kino. Разница одна: по-немецки gehen держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Wir ins Kino gehen.",
+      "ru": "Действие gehen уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе gehen — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Kino — слово с das. Идём туда, поэтому in das сливается в ins: ins Kino.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «куда»",
+      "items": [
+       {
+        "id": "ch09_022",
+        "de": "Wir gehen in den Park.",
+        "ru": "Мы идём в парк.",
+        "audio": "audio_v1/ch09_022.mp3",
+        "lesson": "L3",
+        "part": 3,
+        "changed": {
+         "role": "куда",
+         "wagon": 3,
+         "from": "ins Kino",
+         "to": "in den Park"
+        }
+       },
+       {
+        "id": "ch09_023",
+        "de": "Wir gehen in die Stadt.",
+        "ru": "Мы идём в город.",
+        "audio": "audio_v1/ch09_023.mp3",
+        "lesson": "L3",
+        "part": 3,
+        "changed": {
+         "role": "куда",
+         "wagon": 3,
+         "from": "ins Kino",
+         "to": "in die Stadt"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Wir · gehen. В каждом примере меняется один вагон — «куда»: ins Kino → in den Park → in die Stadt. Действие gehen всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch09_d3_05.mp3",
+    "tts": "Wir gehen ins Kino.",
+    "ipa": [
+     {
+      "w": "Wir",
+      "ipa": "[viːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gehen",
+      "ipa": "[ˈɡeːən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ins",
+      "ipa": "[ɪns]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kino",
+      "ipa": "[ˈkiːno]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: W… · действие (вагон №2): g… · куда: i… K…",
+    "gap": {
+     "text": "Wir ___ ins ___.",
+     "answers": [
+      "gehen",
+      "Kino"
+     ]
+    },
+    "task_ru": "Скажи: Мы идём в кино."
+   },
+   {
+    "id": "ch09_d3_06",
+    "role": "H",
+    "de": "Was kostet der Eintritt?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Сколько стоит вход?",
+    "nouns": [
+     {
+      "lemma": "Eintritt",
+      "art": "der",
+      "pl": "Eintritte"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "kostet",
+       "role": "действие №2"
+      },
+      {
+       "w": "der Eintritt",
+       "role": "кто"
+      }
+     ],
+     "text": "Один предмет — kostet. Eintritt — «вход»: плата за вход.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Was — вагон №1, действие kostet — сразу за ним, вагон №2: Was kostet der Eintritt? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Сколько стоит вход» можно сказать и в другом порядке. По-немецки порядок один: Was · kostet · der Eintritt.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Was der Eintritt kostet?",
+      "ru": "der Eintritt встал перед kostet — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "Один предмет — kostet. Eintritt — «вход»: плата за вход."
+    },
+    "audio": "audio_v1/ch09_d3_06.mp3",
+    "tts": "Was kostet der Eintritt?",
+    "ipa": [
+     {
+      "w": "Was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kostet",
+      "ipa": "[ˈkɔstət]",
+      "src": "override"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Eintritt",
+      "ipa": "[ˈaɪ̯nˌtʁɪt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): k… · кто: d… E…",
+    "gap": {
+     "text": "Was ___ der ___?",
+     "answers": [
+      "kostet",
+      "Eintritt"
+     ]
+    },
+    "task_ru": "Скажи: Сколько стоит вход?"
+   },
+   {
+    "id": "ch09_d3_07",
+    "role": "O",
+    "de": "Die Karten kosten acht Euro.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Билеты стоят восемь евро.",
+    "nouns": [
+     {
+      "lemma": "Karte",
+      "art": "die",
+      "pl": "Karten"
+     },
+     {
+      "lemma": "Euro",
+      "art": "der",
+      "pl": "Euro"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Die Karten",
+       "role": "кто"
+      },
+      {
+       "w": "kosten",
+       "role": "действие №2"
+      },
+      {
+       "w": "acht Euro",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Karten — билетов несколько, поэтому kosten (с -n). Цена — после действия.",
+     "topic": "verb2",
+     "why_de": "Die Karten · kosten · acht Euro: действие kosten — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Билеты стоят восемь евро» — Die Karten kosten acht Euro. Разница одна: по-немецки kosten держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Die Karten acht Euro kosten.",
+      "ru": "Действие kosten уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе kosten — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Karten — билетов несколько, поэтому kosten (с -n). Цена — после действия."
+    },
+    "audio": "audio_v1/ch09_d3_07.mp3",
+    "tts": "Die Karten kosten acht Euro.",
+    "ipa": [
+     {
+      "w": "Die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Karten",
+      "ipa": "[ˈkaʁtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kosten",
+      "ipa": "[ˈkɔstn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "acht",
+      "ipa": "[axt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Euro",
+      "ipa": "[ˈɔɪ̯ʁo]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… K… · действие (вагон №2): k… · кого-что: a… E…",
+    "gap": {
+     "text": "Die Karten ___ acht ___.",
+     "answers": [
+      "kosten",
+      "Euro"
+     ]
+    },
+    "task_ru": "Скажи: Билеты стоят восемь евро."
+   },
+   {
+    "id": "ch09_d3_08",
+    "role": "H",
+    "de": "Wann ist das Kino?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Когда кино? (Во сколько кино?)",
+    "nouns": [
+     {
+      "lemma": "Kino",
+      "art": "das",
+      "pl": "Kinos"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wann",
+       "role": "вопрос-слово",
+       "asks": "когда"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "das Kino",
+       "role": "кто"
+      }
+     ],
+     "text": "wann — «когда»: вопрос-слово, за ним сразу действие ist.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wann — вагон №1, действие ist — сразу за ним, вагон №2: Wann ist das Kino? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Когда кино? (Во сколько кино?)» можно сказать и в другом порядке. По-немецки порядок один: Wann · ist · das Kino. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wann das Kino ist?",
+      "ru": "das Kino встал перед ist — действие ушло из вагона №2. После Wann немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "wann — «когда»: вопрос-слово, за ним сразу действие ist."
+    },
+    "audio": "audio_v1/ch09_d3_08.mp3",
+    "tts": "Wann ist das Kino?",
+    "ipa": [
+     {
+      "w": "Wann",
+      "ipa": "[van]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kino",
+      "ipa": "[ˈkiːno]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): i… · кто: d… K…",
+    "gap": {
+     "text": "Wann ___ das ___?",
+     "answers": [
+      "ist",
+      "Kino"
+     ]
+    },
+    "task_ru": "Скажи: Когда кино? (Во сколько кино?)"
+   },
+   {
+    "id": "ch09_d3_09",
+    "role": "O",
+    "de": "Das Kino ist um acht Uhr.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Кино в восемь часов.",
+    "nouns": [
+     {
+      "lemma": "Kino",
+      "art": "das",
+      "pl": "Kinos"
+     },
+     {
+      "lemma": "Uhr",
+      "art": "die",
+      "pl": "Uhren"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Das Kino",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "um acht Uhr",
+       "role": "когда"
+      }
+     ],
+     "text": "um acht Uhr — «в восемь часов»: учим куском. Действие ist — в вагоне №2.",
+     "topic": "verb2",
+     "why_de": "Das Kino · ist · um acht Uhr: действие ist — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Кино в восемь часов» — без действия «есть». По-немецки без ist фразы нет: Das Kino ist um acht Uhr.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Das Kino um acht Uhr.",
+      "ru": "Русская привычка — без действия, как «Кино в восемь часов». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "um acht Uhr — «в восемь часов»: учим куском. Действие ist — в вагоне №2."
+    },
+    "audio": "audio_v1/ch09_d3_09.mp3",
+    "tts": "Das Kino ist um acht Uhr.",
+    "ipa": [
+     {
+      "w": "Das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kino",
+      "ipa": "[ˈkiːno]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "um",
+      "ipa": "[ʊm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "acht",
+      "ipa": "[axt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Uhr",
+      "ipa": "[uːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… K… · действие (вагон №2): i… · когда: u… a… U…",
+    "gap": {
+     "text": "Das ___ ___ um acht Uhr.",
+     "answers": [
+      "Kino",
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Кино в восемь часов."
+   },
+   {
+    "id": "ch09_d3_10",
+    "role": "H",
+    "de": "Gut. Am Sonntag gehen wir in die Stadt.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Хорошо. В воскресенье мы идём в город.",
+    "nouns": [
+     {
+      "lemma": "Sonntag",
+      "art": "der",
+      "pl": "Sonntage"
+     },
+     {
+      "lemma": "Stadt",
+      "art": "die",
+      "pl": "Städte"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Gut",
+       "role": "да/нет"
+      },
+      {
+       "w": "Am Sonntag",
+       "role": "когда"
+      },
+      {
+       "w": "gehen",
+       "role": "действие №2"
+      },
+      {
+       "w": "wir",
+       "role": "кто"
+      },
+      {
+       "w": "in die Stadt",
+       "role": "куда"
+      }
+     ],
+     "text": "Gut в начале — согласие, место не занимает. Вагон №1 занят: Am Sonntag, поэтому wir — после gehen.",
+     "topic": "word_order",
+     "why_de": "Вагон №1 занят: Am Sonntag. Действие gehen всё равно в вагоне №2, а «кто» (wir) — за ним: Am Sonntag gehen wir in die Stadt.",
+     "why_ru": "По-русски «В воскресенье мы идём в город» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, gehen — вагон №2.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Gut. Am Sonntag wir gehen in die Stadt.",
+      "ru": "Русский порядок: «кто» (wir) перед действием, и gehen уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+     },
+     "root": null,
+     "why_voice_ru": "Gut в начале — согласие, место не занимает. Вагон №1 занят: Am Sonntag, поэтому wir — после gehen."
+    },
+    "audio": "audio_v1/ch09_d3_10.mp3",
+    "tts": "Gut. Am Sonntag gehen wir in die Stadt.",
+    "ipa": [
+     {
+      "w": "Gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sonntag",
+      "ipa": "[ˈzɔnˌtaːk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gehen",
+      "ipa": "[ˈɡeːən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wir",
+      "ipa": "[viːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "in",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Stadt",
+      "ipa": "[ʃtat]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: G… · когда: A… S… · действие (вагон №2): g… · кто: w… · куда: i… d… S…",
+    "gap": {
+     "text": "Gut. Am Sonntag ___ wir in die ___.",
+     "answers": [
+      "gehen",
+      "Stadt"
+     ]
+    },
+    "task_ru": "Скажи: Хорошо. В воскресенье мы идём в город."
+   },
+   {
+    "id": "ch09_d3_11",
+    "role": "O",
+    "de": "Gehen wir auch ins Schwimmbad?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А в бассейн мы тоже идём?",
+    "nouns": [
+     {
+      "lemma": "Schwimmbad",
+      "art": "das",
+      "pl": "Schwimmbäder"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Gehen",
+       "role": "действие №1"
+      },
+      {
+       "w": "wir",
+       "role": "кто"
+      },
+      {
+       "w": "auch",
+       "role": "добавка"
+      },
+      {
+       "w": "ins Schwimmbad",
+       "role": "куда"
+      }
+     ],
+     "text": "Вопрос «да/нет»: действие Gehen впереди. Schwimmbad — слово с das: ins.",
+     "topic": "questions",
+     "why_de": "Действие впереди (Gehen) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Gehen wir auch ins Schwimmbad?",
+     "why_ru": "По-русски «А в бассейн мы тоже идём» — вопрос только голосом, порядок как в ответе. По-немецки действие Gehen выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Wir gehen auch ins Schwimmbad?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («А в бассейн мы тоже идём?!»). Обычный вопрос — действие впереди."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос «да/нет»: действие Gehen впереди. Schwimmbad — слово с das: ins."
+    },
+    "audio": "audio_v1/ch09_d3_11.mp3",
+    "tts": "Gehen wir auch ins Schwimmbad?",
+    "ipa": [
+     {
+      "w": "Gehen",
+      "ipa": "[ˈɡeːən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wir",
+      "ipa": "[viːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "auch",
+      "ipa": "[aʊ̯x]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ins",
+      "ipa": "[ɪns]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Schwimmbad",
+      "ipa": "[ˈʃvɪmˌbaːt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): G… · кто: w… · добавка: a… · куда: i… S…",
+    "gap": {
+     "text": "___ wir auch ins ___?",
+     "answers": [
+      "Gehen",
+      "Schwimmbad"
+     ]
+    },
+    "task_ru": "Скажи: А в бассейн мы тоже идём?"
+   },
+   {
+    "id": "ch09_d3_12",
+    "role": "H",
+    "de": "Ja, gern.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, с удовольствием.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "gern",
+       "role": "добавка"
+      }
+     ],
+     "text": "Ja и gern — две готовые частицы согласия. Учим целиком: «да, охотно».",
+     "topic": "word_order",
+     "why_de": "Короткий ответ: Ja + gern (добавка). Действие из вопроса не повторяют — его уже сказали.",
+     "why_ru": "По-русски так же коротко: «Да, с удовольствием».",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — считать это готовой формулой. «Да, с удовольствием» — короткий ответ, его слова меняют под ситуацию."
+     },
+     "root": null,
+     "why_voice_ru": "Ja и gern — две готовые частицы согласия. Учим целиком: «да, охотно»."
+    },
+    "audio": "audio_v1/ch09_d3_12.mp3",
+    "tts": "Ja, gern. Ja, gern.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gern",
+      "ipa": "[ɡɛʁn]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · добавка: g…",
+    "gap": {
+     "text": "Ja, ___.",
+     "answers": [
+      "gern"
+     ]
+    },
+    "task_ru": "Скажи: Да, с удовольствием."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch09_d4",
+  "title_ru": "Понедельник: что ты делал вчера?",
+  "roles": {
+   "O": "Olga (однокурсница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch09_d4_01",
+    "role": "O",
+    "de": "Was hast du gestern gemacht?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Что ты делал вчера?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "hast",
+       "role": "помощник №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "gestern",
+       "role": "когда"
+      },
+      {
+       "w": "gemacht",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос-слово was, потом помощник hast. Что именно случилось — gemacht — в самом конце.",
+     "topic": "questions",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Was hast du gestern gemacht?",
+     "why_ru": "По-русски «Что ты делал вчера» — прошлое одним словом; по-немецки два слова, и они разнесены: Was hast du gestern gemacht?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Was hast gemacht du gestern?",
+      "ru": "По-русски «Что ты делал вчера» — одно слово по порядку. По-немецки hast … gemacht разнесены: gemacht — в самый конец."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос-слово was, потом помощник hast. Что именно случилось — gemacht — в самом конце."
+    },
+    "audio": "audio_v1/ch09_d4_01.mp3",
+    "tts": "Was hast du gestern gemacht?",
+    "ipa": [
+     {
+      "w": "Was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gestern",
+      "ipa": "[ˈɡɛstɐn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gemacht",
+      "ipa": "[ɡəˈmaxt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · помощник (вагон №2): h… · кто: d… · когда: g… · хвост действия: g…",
+    "gap": {
+     "text": "Was ___ du ___ gemacht?",
+     "answers": [
+      "hast",
+      "gestern"
+     ]
+    },
+    "task_ru": "Скажи: Что ты делал вчера?"
+   },
+   {
+    "id": "ch09_d4_02",
+    "role": "H",
+    "de": "Gestern habe ich Deutsch gelernt.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Вчера я учил немецкий.",
+    "nouns": [
+     {
+      "lemma": "Deutsch",
+      "art": "das",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Gestern",
+       "role": "когда"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "Deutsch",
+       "role": "кого-что"
+      },
+      {
+       "w": "gelernt",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вагон №1 занят: Gestern. Помощник habe — в вагоне №2, ich — за ним, gelernt — в самом конце.",
+     "topic": "word_order",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Gestern habe ich Deutsch gelernt.",
+     "why_ru": "По-русски «Вчера я учил немецкий» — прошлое одним словом; по-немецки два слова, и они разнесены: Gestern habe ich Deutsch gelernt.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Gestern habe gelernt ich Deutsch.",
+      "ru": "По-русски «Вчера я учил немецкий» — одно слово по порядку. По-немецки habe … gelernt разнесены: gelernt — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "Вагон №1 занят: Gestern. Помощник habe — в вагоне №2, ich — за ним, gelernt — в самом конце."
+    },
+    "audio": "audio_v1/ch09_d4_02.mp3",
+    "tts": "Gestern habe ich Deutsch gelernt.",
+    "ipa": [
+     {
+      "w": "Gestern",
+      "ipa": "[ˈɡɛstɐn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Deutsch",
+      "ipa": "[dɔɪ̯t͡ʃ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gelernt",
+      "ipa": "[ɡəˈlɛʁnt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "когда: G… · помощник (вагон №2): h… · кто: i… · кого-что: D… · хвост действия: g…",
+    "gap": {
+     "text": "Gestern ___ ich ___ gelernt.",
+     "answers": [
+      "habe",
+      "Deutsch"
+     ]
+    },
+    "task_ru": "Скажи: Вчера я учил немецкий."
+   },
+   {
+    "id": "ch09_d4_03",
+    "role": "O",
+    "de": "Und am Abend?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А вечером?",
+    "nouns": [
+     {
+      "lemma": "Abend",
+      "art": "der",
+      "pl": "Abende"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "am Abend",
+       "role": "когда"
+      }
+     ],
+     "text": "Короткий вопрос без действия: действие уже сказали.",
+     "topic": "word_order",
+     "why_de": "Короткий вопрос без действия: Und («а/и») · am Abend (когда?). Действие уже сказали в прошлой реплике, его не повторяют.",
+     "why_ru": "По-русски так же коротко: «А вечером?». Слово Und — просто «а», оно не занимает место в порядке слов.",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — бросить маленькое am: нужен весь кусок am Abend, одно название без am вопросом не будет."
+     },
+     "root": null,
+     "why_voice_ru": "Короткий вопрос без действия: действие уже сказали."
+    },
+    "audio": "audio_v1/ch09_d4_03.mp3",
+    "tts": "Und am Abend?",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Abend",
+      "ipa": "[ˈaːbn̩t]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · когда: a… A…",
+    "gap": {
+     "text": "Und am ___?",
+     "answers": [
+      "Abend"
+     ]
+    },
+    "task_ru": "Скажи: А вечером?"
+   },
+   {
+    "id": "ch09_d4_04",
+    "role": "H",
+    "de": "Am Abend habe ich Schach gespielt.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Вечером я играл в шахматы.",
+    "nouns": [
+     {
+      "lemma": "Abend",
+      "art": "der",
+      "pl": "Abende"
+     },
+     {
+      "lemma": "Schach",
+      "art": "das",
+      "pl": "Schachs"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Am Abend",
+       "role": "когда"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "Schach",
+       "role": "кого-что"
+      },
+      {
+       "w": "gespielt",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вагон №1 занят: Am Abend. Помощник habe — в вагоне №2, ich — за ним, gespielt — в самом конце.",
+     "topic": "word_order",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Am Abend habe ich Schach gespielt.",
+     "why_ru": "По-русски «Вечером я играл в шахматы» — прошлое одним словом; по-немецки два слова, и они разнесены: Am Abend habe ich Schach gespielt.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Am Abend habe gespielt ich Schach.",
+      "ru": "По-русски «Вечером я играл в шахматы» — одно слово по порядку. По-немецки habe … gespielt разнесены: gespielt — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "Вагон №1 занят: Am Abend. Помощник habe — в вагоне №2, ich — за ним, gespielt — в самом конце."
+    },
+    "audio": "audio_v1/ch09_d4_04.mp3",
+    "tts": "Am Abend habe ich Schach gespielt.",
+    "ipa": [
+     {
+      "w": "Am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Abend",
+      "ipa": "[ˈaːbn̩t]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Schach",
+      "ipa": "[ʃax]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gespielt",
+      "ipa": "[ɡəˈʃpiːlt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "когда: A… A… · помощник (вагон №2): h… · кто: i… · кого-что: S… · хвост действия: g…",
+    "gap": {
+     "text": "Am Abend ___ ich ___ gespielt.",
+     "answers": [
+      "habe",
+      "Schach"
+     ]
+    },
+    "task_ru": "Скажи: Вечером я играл в шахматы."
+   },
+   {
+    "id": "ch09_d4_05",
+    "role": "O",
+    "de": "Gestern habe ich gearbeitet.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Вчера я работала.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Gestern",
+       "role": "когда"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "gearbeitet",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вагон №1 занят: Gestern. Помощник habe — в вагоне №2, gearbeitet — в самом конце.",
+     "topic": "word_order",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Gestern habe ich gearbeitet.",
+     "why_ru": "По-русски «Вчера я работала» — прошлое одним словом; по-немецки два слова, и они разнесены: Gestern habe ich gearbeitet.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Gestern habe gearbeitet ich.",
+      "ru": "По-русски «Вчера я работала» — одно слово по порядку. По-немецки habe … gearbeitet разнесены: gearbeitet — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "Вагон №1 занят: Gestern. Помощник habe — в вагоне №2, gearbeitet — в самом конце."
+    },
+    "audio": "audio_v1/ch09_d4_05.mp3",
+    "tts": "Gestern habe ich gearbeitet.",
+    "ipa": [
+     {
+      "w": "Gestern",
+      "ipa": "[ˈɡɛstɐn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gearbeitet",
+      "ipa": "[ɡəˈʔaʁbaɪ̯tət]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "когда: G… · помощник (вагон №2): h… · кто: i… · хвост действия: g…",
+    "gap": {
+     "text": "___ ___ ich gearbeitet.",
+     "answers": [
+      "Gestern",
+      "habe"
+     ]
+    },
+    "task_ru": "Скажи: Вчера я работала."
+   },
+   {
+    "id": "ch09_d4_06",
+    "role": "H",
+    "de": "Wie lange hast du gearbeitet?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Как долго ты работала?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wie lange",
+       "role": "вопрос-слово",
+       "asks": "когда"
+      },
+      {
+       "w": "hast",
+       "role": "помощник №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "gearbeitet",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "wie lange — «как долго»: вопрос-слово из двух слов. За ним сразу помощник hast, а gearbeitet — в конце.",
+     "topic": "questions",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Wie lange hast du gearbeitet?",
+     "why_ru": "По-русски «Как долго ты работала» — прошлое одним словом; по-немецки два слова, и они разнесены: Wie lange hast du gearbeitet?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Wie lange hast gearbeitet du?",
+      "ru": "По-русски «Как долго ты работала» — одно слово по порядку. По-немецки hast … gearbeitet разнесены: gearbeitet — в самый конец."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "wie lange — «как долго»: вопрос-слово из двух слов. За ним сразу помощник hast, а gearbeitet — в конце."
+    },
+    "audio": "audio_v1/ch09_d4_06.mp3",
+    "tts": "Wie lange hast du gearbeitet?",
+    "ipa": [
+     {
+      "w": "Wie",
+      "ipa": "[viː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "lange",
+      "ipa": "[ˈlaŋə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gearbeitet",
+      "ipa": "[ɡəˈʔaʁbaɪ̯tət]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… l… · помощник (вагон №2): h… · кто: d… · хвост действия: g…",
+    "gap": {
+     "text": "Wie lange ___ du gearbeitet?",
+     "answers": [
+      "hast"
+     ]
+    },
+    "task_ru": "Скажи: Как долго ты работала?"
+   },
+   {
+    "id": "ch09_d4_07",
+    "role": "O",
+    "de": "Bis halb fünf.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "До половины пятого.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Bis halb fünf",
+       "role": "когда"
+      }
+     ],
+     "text": "Короткий ответ без действия: bis halb fünf — «до половины пятого».",
+     "topic": "word_order",
+     "why_de": "Короткий ответ без действия: Bis halb fünf (когда?).",
+     "why_ru": "По-русски так же коротко: «До половины пятого».",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — считать это готовой формулой. «До половины пятого» — короткий ответ, его слова меняют под ситуацию."
+     },
+     "root": null,
+     "why_voice_ru": "Короткий ответ без действия: bis halb fünf — «до половины пятого»."
+    },
+    "audio": "audio_v1/ch09_d4_07.mp3",
+    "tts": "Bis halb fünf.",
+    "ipa": [
+     {
+      "w": "Bis",
+      "ipa": "[bɪs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "halb",
+      "ipa": "[halp]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "fünf",
+      "ipa": "[fʏnf]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "когда: B… h… f…",
+    "gap": {
+     "text": "Bis halb ___.",
+     "answers": [
+      "fünf"
+     ]
+    },
+    "task_ru": "Скажи: До половины пятого."
+   },
+   {
+    "id": "ch09_d4_08",
+    "role": "H",
+    "de": "Heute spiele ich Fußball.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Сегодня я играю в футбол.",
+    "nouns": [
+     {
+      "lemma": "Fußball",
+      "art": "der",
+      "pl": "Fußbälle"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Heute",
+       "role": "когда"
+      },
+      {
+       "w": "spiele",
+       "role": "действие №2"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "Fußball",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Про то, что я делаю сейчас, хватает одного слова: spiele в вагоне №2. Рассказ о том, что уже было, — habe … gespielt.",
+     "topic": "word_order",
+     "why_de": "Вагон №1 занят: Heute. Действие spiele всё равно в вагоне №2, а «кто» (ich) — за ним: Heute spiele ich Fußball.",
+     "why_ru": "По-русски «Сегодня я играю в футбол» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, spiele — вагон №2.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Heute ich spiele Fußball.",
+      "ru": "Русский порядок: «кто» (ich) перед действием, и spiele уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+     },
+     "root": null,
+     "why_voice_ru": "Про то, что я делаю сейчас, хватает одного слова: spiele в вагоне №2. Рассказ о том, что уже было, — habe … gespielt."
+    },
+    "audio": "audio_v1/ch09_d4_08.mp3",
+    "tts": "Heute spiele ich Fußball.",
+    "ipa": [
+     {
+      "w": "Heute",
+      "ipa": "[ˈhɔɪ̯tə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "spiele",
+      "ipa": "[ˈʃpiːlə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Fußball",
+      "ipa": "[ˈfuːsˌbal]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "когда: H… · действие (вагон №2): s… · кто: i… · кого-что: F…",
+    "gap": {
+     "text": "Heute ___ ich ___.",
+     "answers": [
+      "spiele",
+      "Fußball"
+     ]
+    },
+    "task_ru": "Скажи: Сегодня я играю в футбол."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch09_d5",
+  "title_ru": "Что сделано за день",
+  "roles": {
+   "O": "Olga (однокурсница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch09_d5_01",
+    "role": "O",
+    "de": "Was hast du heute gemacht?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Что ты сегодня делал?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "hast",
+       "role": "помощник №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "heute",
+       "role": "когда"
+      },
+      {
+       "w": "gemacht",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос-слово was, потом помощник hast. Что именно случилось — gemacht — в самом конце.",
+     "topic": "questions",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Was hast du heute gemacht?",
+     "why_ru": "По-русски «Что ты сегодня делал» — прошлое одним словом; по-немецки два слова, и они разнесены: Was hast du heute gemacht?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Was hast gemacht du heute?",
+      "ru": "По-русски «Что ты сегодня делал» — одно слово по порядку. По-немецки hast … gemacht разнесены: gemacht — в самый конец."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос-слово was, потом помощник hast. Что именно случилось — gemacht — в самом конце.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "вопрос-слово · действие (вагон №2) · «кто» · «когда» · хвост действия",
+      "items": [
+       {
+        "id": "ch09_029",
+        "de": "Was hast du gestern gemacht?",
+        "ru": "Что ты делал вчера?",
+        "audio": "audio_v1/ch09_029.mp3",
+        "lesson": "L4",
+        "part": 3,
+        "changed": {
+         "role": "когда",
+         "wagon": 4,
+         "from": "heute",
+         "to": "gestern"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Was · hast · du · gemacht. В каждом примере меняется один вагон — «когда»: heute → gestern. Действие hast всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch09_d5_01.mp3",
+    "tts": "Was hast du heute gemacht?",
+    "ipa": [
+     {
+      "w": "Was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "heute",
+      "ipa": "[ˈhɔɪ̯tə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gemacht",
+      "ipa": "[ɡəˈmaxt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · помощник (вагон №2): h… · кто: d… · когда: h… · хвост действия: g…",
+    "gap": {
+     "text": "Was ___ du ___ gemacht?",
+     "answers": [
+      "hast",
+      "heute"
+     ]
+    },
+    "task_ru": "Скажи: Что ты сегодня делал?"
+   },
+   {
+    "id": "ch09_d5_02",
+    "role": "H",
+    "de": "Ich habe eine E-Mail geschrieben.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я написал электронное письмо.",
+    "nouns": [
+     {
+      "lemma": "E-Mail",
+      "art": "die",
+      "pl": "E-Mails"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "eine E-Mail",
+       "role": "кого-что"
+      },
+      {
+       "w": "geschrieben",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Помощник habe — в вагоне №2. Что именно случилось — geschrieben — в самом конце.",
+     "topic": "verb2",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ich habe eine E-Mail geschrieben.",
+     "why_ru": "По-русски «Я написал электронное письмо» — прошлое одним словом; по-немецки два слова, и они разнесены: Ich habe eine E-Mail geschrieben.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Ich habe geschrieben eine E-Mail.",
+      "ru": "По-русски «Я написал электронное письмо» — одно слово по порядку. По-немецки habe … geschrieben разнесены: geschrieben — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "Помощник habe — в вагоне №2. Что именно случилось — geschrieben — в самом конце."
+    },
+    "audio": "audio_v1/ch09_d5_02.mp3",
+    "tts": "Ich habe eine E-Mail geschrieben.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "eine",
+      "ipa": "[ˈaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "E-Mail",
+      "ipa": "[ˈiːmeɪ̯l]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "geschrieben",
+      "ipa": "[ɡəˈʃʁiːbn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · помощник (вагон №2): h… · кого-что: e… E… · хвост действия: g…",
+    "gap": {
+     "text": "Ich ___ eine ___ geschrieben.",
+     "answers": [
+      "habe",
+      "E-Mail"
+     ]
+    },
+    "task_ru": "Скажи: Я написал электронное письмо."
+   },
+   {
+    "id": "ch09_d5_03",
+    "role": "O",
+    "de": "Und die Wäsche?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А бельё?",
+    "nouns": [
+     {
+      "lemma": "Wäsche",
+      "art": "die",
+      "pl": "Wäschen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "die Wäsche",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Короткий вопрос без действия: действие уже сказали.",
+     "topic": "word_order",
+     "why_de": "Короткий вопрос без действия: Und — «а», die Wäsche (что?) — другой предмет. Действие уже сказали в прошлой реплике, его не повторяют.",
+     "why_ru": "По-русски так же коротко: «А бельё?». Слово Und — просто «а», оно не занимает место в порядке слов.",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Здесь не нужен второй вопрос с действием: Und и die Wäsche уже задают вопрос."
+     },
+     "root": null,
+     "override": "tools/data_ch09.py WHY",
+     "why_voice_ru": "Короткий вопрос без действия: действие уже сказали."
+    },
+    "audio": "audio_v1/ch09_d5_03.mp3",
+    "tts": "Und die Wäsche?",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wäsche",
+      "ipa": "[ˈvɛʃə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · кого-что: d… W…",
+    "gap": {
+     "text": "Und die ___?",
+     "answers": [
+      "Wäsche"
+     ]
+    },
+    "task_ru": "Скажи: А бельё?"
+   },
+   {
+    "id": "ch09_d5_04",
+    "role": "H",
+    "de": "Die Wäsche habe ich gewaschen.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Бельё я постирал.",
+    "nouns": [
+     {
+      "lemma": "Wäsche",
+      "art": "die",
+      "pl": "Wäschen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Die Wäsche",
+       "role": "кого-что"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "gewaschen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вагон №1 занят словом Die Wäsche. Помощник habe — в вагоне №2, ich — за ним, gewaschen — в самом конце.",
+     "topic": "word_order",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Die Wäsche habe ich gewaschen.",
+     "why_ru": "По-русски «Бельё я постирал» — прошлое одним словом; по-немецки два слова, и они разнесены: Die Wäsche habe ich gewaschen.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Die Wäsche habe gewaschen ich.",
+      "ru": "По-русски «Бельё я постирал» — одно слово по порядку. По-немецки habe … gewaschen разнесены: gewaschen — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "Вагон №1 занят словом Die Wäsche. Помощник habe — в вагоне №2, ich — за ним, gewaschen — в самом конце."
+    },
+    "audio": "audio_v1/ch09_d5_04.mp3",
+    "tts": "Die Wäsche habe ich gewaschen.",
+    "ipa": [
+     {
+      "w": "Die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wäsche",
+      "ipa": "[ˈvɛʃə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gewaschen",
+      "ipa": "[ɡəˈvaʃn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кого-что: D… W… · помощник (вагон №2): h… · кто: i… · хвост действия: g…",
+    "gap": {
+     "text": "Die ___ ___ ich gewaschen.",
+     "answers": [
+      "Wäsche",
+      "habe"
+     ]
+    },
+    "task_ru": "Скажи: Бельё я постирал."
+   },
+   {
+    "id": "ch09_d5_05",
+    "role": "O",
+    "de": "Hast du auch Pizza gegessen?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ты и пиццу ел?",
+    "nouns": [
+     {
+      "lemma": "Pizza",
+      "art": "die",
+      "pl": "Pizzas"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hast",
+       "role": "помощник №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "auch",
+       "role": "добавка"
+      },
+      {
+       "w": "Pizza",
+       "role": "кого-что"
+      },
+      {
+       "w": "gegessen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет»: помощник Hast на первом месте, gegessen — в самом конце.",
+     "topic": "questions",
+     "why_de": "Это вопрос да/нет: помощник Hast встаёт на первое место, du — за ним. Слово gegessen остаётся в самом конце фразы.",
+     "why_ru": "По-русски такой вопрос задают голосом, порядок слов не меняется. По-немецки меняется порядок: помощник идёт вперёд.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Hast du auch gegessen Pizza?",
+      "ru": "Слово gegessen остаётся в самом конце: Pizza стоит перед ним."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "override": "tools/data_ch09.py WHY",
+     "why_voice_ru": "Вопрос «да/нет»: помощник Hast на первом месте, gegessen — в самом конце."
+    },
+    "audio": "audio_v1/ch09_d5_05.mp3",
+    "tts": "Hast du auch Pizza gegessen?",
+    "ipa": [
+     {
+      "w": "Hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "auch",
+      "ipa": "[aʊ̯x]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Pizza",
+      "ipa": "[ˈpɪt͡sa]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gegessen",
+      "ipa": "[ɡəˈɡɛsn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "помощник (вагон №1): H… · кто: d… · добавка: a… · кого-что: P… · хвост действия: g…",
+    "gap": {
+     "text": "Hast du auch ___ gegessen?",
+     "answers": [
+      "Pizza"
+     ]
+    },
+    "task_ru": "Скажи: Ты и пиццу ел?"
+   },
+   {
+    "id": "ch09_d5_06",
+    "role": "H",
+    "de": "Ja, ich habe alles gegessen.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, я всё съел.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "alles",
+       "role": "кого-что"
+      },
+      {
+       "w": "gegessen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Ja не занимает вагон. Помощник habe — в вагоне №2, gegessen — в самом конце.",
+     "topic": "verb2",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ja, ich habe alles gegessen.",
+     "why_ru": "По-русски «Да, я всё съел» — прошлое одним словом; по-немецки два слова, и они разнесены: Ja, ich habe alles gegessen.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Ja, ich habe gegessen alles.",
+      "ru": "По-русски «Да, я всё съел» — одно слово по порядку. По-немецки habe … gegessen разнесены: gegessen — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "Ja не занимает вагон. Помощник habe — в вагоне №2, gegessen — в самом конце."
+    },
+    "audio": "audio_v1/ch09_d5_06.mp3",
+    "tts": "Ja, ich habe alles gegessen.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "alles",
+      "ipa": "[ˈaləs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gegessen",
+      "ipa": "[ɡəˈɡɛsn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: i… · помощник (вагон №2): h… · кого-что: a… · хвост действия: g…",
+    "gap": {
+     "text": "Ja, ich ___ ___ gegessen.",
+     "answers": [
+      "habe",
+      "alles"
+     ]
+    },
+    "task_ru": "Скажи: Да, я всё съел."
+   },
+   {
+    "id": "ch09_d5_07",
+    "role": "O",
+    "de": "Und was hast du getrunken?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А что ты пил?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "hast",
+       "role": "помощник №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "getrunken",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Und в начале не занимает вагон. Вопрос-слово was, потом помощник hast, getrunken — в конце.",
+     "topic": "questions",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Und was hast du getrunken?",
+     "why_ru": "По-русски «А что ты пил» — прошлое одним словом; по-немецки два слова, и они разнесены: Und was hast du getrunken?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Und was hast getrunken du?",
+      "ru": "По-русски «А что ты пил» — одно слово по порядку. По-немецки hast … getrunken разнесены: getrunken — в самый конец."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Und в начале не занимает вагон. Вопрос-слово was, потом помощник hast, getrunken — в конце."
+    },
+    "audio": "audio_v1/ch09_d5_07.mp3",
+    "tts": "Und was hast du getrunken?",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "getrunken",
+      "ipa": "[ɡəˈtʁʊŋkn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · вопрос-слово: w… · помощник (вагон №2): h… · кто: d… · хвост действия: g…",
+    "gap": {
+     "text": "Und was ___ du getrunken?",
+     "answers": [
+      "hast"
+     ]
+    },
+    "task_ru": "Скажи: А что ты пил?"
+   },
+   {
+    "id": "ch09_d5_08",
+    "role": "H",
+    "de": "Ich habe ein Glas Milch getrunken.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я пил стакан молока.",
+    "nouns": [
+     {
+      "lemma": "Glas",
+      "art": "das",
+      "pl": "Gläser"
+     },
+     {
+      "lemma": "Milch",
+      "art": "die",
+      "pl": "Milche"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "ein Glas Milch",
+       "role": "кого-что"
+      },
+      {
+       "w": "getrunken",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Помощник habe — в вагоне №2. После меры Glas молоко идёт без артикля. getrunken — в самом конце.",
+     "topic": "verb2",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ich habe ein Glas Milch getrunken.",
+     "why_ru": "По-русски «Я пил стакан молока» — прошлое одним словом; по-немецки два слова, и они разнесены: Ich habe ein Glas Milch getrunken.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Ich habe getrunken ein Glas Milch.",
+      "ru": "По-русски «Я пил стакан молока» — одно слово по порядку. По-немецки habe … getrunken разнесены: getrunken — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "Помощник habe — в вагоне №2. После меры Glas молоко идёт без артикля. getrunken — в самом конце."
+    },
+    "audio": "audio_v1/ch09_d5_08.mp3",
+    "tts": "Ich habe ein Glas Milch getrunken.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ein",
+      "ipa": "[aɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Glas",
+      "ipa": "[ɡlaːs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Milch",
+      "ipa": "[mɪlç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "getrunken",
+      "ipa": "[ɡəˈtʁʊŋkn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "исключение Milch: ожидаю die / ''",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · помощник (вагон №2): h… · кого-что: e… G… M… · хвост действия: g…",
+    "gap": {
+     "text": "Ich ___ ein Glas ___ getrunken.",
+     "answers": [
+      "habe",
+      "Milch"
+     ]
+    },
+    "task_ru": "Скажи: Я пил стакан молока."
+   },
+   {
+    "id": "ch09_d5_09",
+    "role": "O",
+    "de": "Und Bier?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А пиво?",
+    "nouns": [
+     {
+      "lemma": "Bier",
+      "art": "das",
+      "pl": "Biere"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "Bier",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Короткий вопрос без действия: действие уже сказали.",
+     "topic": "word_order",
+     "why_de": "Короткий вопрос без действия: Und — «а», Bier (что?) — другой напиток. Действие уже сказали в прошлой реплике, его не повторяют.",
+     "why_ru": "По-русски так же коротко: «А пиво?». Слово Und — просто «а», оно не занимает место в порядке слов.",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Без артикля Bier — пиво вообще, а не одна бутылка: так спрашивают про напиток."
+     },
+     "root": null,
+     "override": "tools/data_ch09.py WHY",
+     "why_voice_ru": "Короткий вопрос без действия: действие уже сказали."
+    },
+    "audio": "audio_v1/ch09_d5_09.mp3",
+    "tts": "Und Bier? Und Bier?",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Bier",
+      "ipa": "[biːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · кого-что: B…",
+    "gap": {
+     "text": "Und ___?",
+     "answers": [
+      "Bier"
+     ]
+    },
+    "task_ru": "Скажи: А пиво?"
+   },
+   {
+    "id": "ch09_d5_10",
+    "role": "H",
+    "de": "Nein, ich habe kein Bier getrunken.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Нет, я не пил пива.",
+    "nouns": [
+     {
+      "lemma": "Bier",
+      "art": "das",
+      "pl": "Biere"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Nein",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "kein Bier",
+       "role": "кого-что"
+      },
+      {
+       "w": "getrunken",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Nein не занимает вагон. kein стоит вместо ein. Помощник habe — в вагоне №2, getrunken — в самом конце.",
+     "topic": "verb2",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Nein, ich habe kein Bier getrunken.",
+     "why_ru": "По-русски «Нет, я не пил пива» — прошлое одним словом; по-немецки два слова, и они разнесены: Nein, ich habe kein Bier getrunken.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Nein, ich habe getrunken kein Bier.",
+      "ru": "По-русски «Нет, я не пил пива» — одно слово по порядку. По-немецки habe … getrunken разнесены: getrunken — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "Nein не занимает вагон. kein стоит вместо ein. Помощник habe — в вагоне №2, getrunken — в самом конце."
+    },
+    "audio": "audio_v1/ch09_d5_10.mp3",
+    "tts": "Nein, ich habe kein Bier getrunken.",
+    "ipa": [
+     {
+      "w": "Nein",
+      "ipa": "[naɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kein",
+      "ipa": "[kaɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Bier",
+      "ipa": "[biːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "getrunken",
+      "ipa": "[ɡəˈtʁʊŋkn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: N… · кто: i… · помощник (вагон №2): h… · кого-что: k… B… · хвост действия: g…",
+    "gap": {
+     "text": "Nein, ich ___ kein ___ getrunken.",
+     "answers": [
+      "habe",
+      "Bier"
+     ]
+    },
+    "task_ru": "Скажи: Нет, я не пил пива."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch09_d6",
+  "title_ru": "У доски объявлений: кто когда работает",
+  "roles": {
+   "O": "Olga (однокурсница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch09_d6_01",
+    "role": "O",
+    "de": "Wer arbeitet am Samstag?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Кто работает в субботу?",
+    "nouns": [
+     {
+      "lemma": "Samstag",
+      "art": "der",
+      "pl": "Samstage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wer",
+       "role": "вопрос-слово",
+       "asks": "кто"
+      },
+      {
+       "w": "arbeitet",
+       "role": "действие №2"
+      },
+      {
+       "w": "am Samstag",
+       "role": "когда"
+      }
+     ],
+     "text": "Вопрос-слово Wer — «кто». За ним сразу действие arbeitet: с wer хвост -t, как с er.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wer — вагон №1, действие arbeitet — сразу за ним, вагон №2: Wer arbeitet am Samstag? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Кто работает в субботу» можно сказать и в другом порядке. По-немецки порядок один: Wer · arbeitet · am Samstag.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wer am Samstag arbeitet?",
+      "ru": "Действие arbeitet ушло из вагона №2 в конец. После Wer немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос-слово Wer — «кто». За ним сразу действие arbeitet: с wer хвост -t, как с er."
+    },
+    "audio": "audio_v1/ch09_d6_01.mp3",
+    "tts": "Wer arbeitet am Samstag?",
+    "ipa": [
+     {
+      "w": "Wer",
+      "ipa": "[veːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "arbeitet",
+      "ipa": "[ˈaʁbaɪ̯tət]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Samstag",
+      "ipa": "[ˈzamstaːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): a… · когда: a… S…",
+    "gap": {
+     "text": "Wer ___ am ___?",
+     "answers": [
+      "arbeitet",
+      "Samstag"
+     ]
+    },
+    "task_ru": "Скажи: Кто работает в субботу?"
+   },
+   {
+    "id": "ch09_d6_02",
+    "role": "H",
+    "de": "Der Bäcker arbeitet am Samstag.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Пекарь работает в субботу.",
+    "nouns": [
+     {
+      "lemma": "Bäcker",
+      "art": "der",
+      "pl": "Bäcker"
+     },
+     {
+      "lemma": "Samstag",
+      "art": "der",
+      "pl": "Samstage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Der Bäcker",
+       "role": "кто"
+      },
+      {
+       "w": "arbeitet",
+       "role": "действие №2"
+      },
+      {
+       "w": "am Samstag",
+       "role": "когда"
+      }
+     ],
+     "text": "Один человек — у действия хвост -t: arbeitet. Вагон «когда» стоит после действия: am Samstag.",
+     "topic": "verb2",
+     "why_de": "Der Bäcker · arbeitet · am Samstag: действие arbeitet — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Пекарь работает в субботу» — Der Bäcker arbeitet am Samstag. Разница одна: по-немецки arbeitet держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Der Bäcker am Samstag arbeitet.",
+      "ru": "Действие arbeitet уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе arbeitet — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Один человек — у действия хвост -t: arbeitet. Вагон «когда» стоит после действия: am Samstag."
+    },
+    "audio": "audio_v1/ch09_d6_02.mp3",
+    "tts": "Der Bäcker arbeitet am Samstag.",
+    "ipa": [
+     {
+      "w": "Der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Bäcker",
+      "ipa": "[ˈbɛkɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "arbeitet",
+      "ipa": "[ˈaʁbaɪ̯tət]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Samstag",
+      "ipa": "[ˈzamstaːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… B… · действие (вагон №2): a… · когда: a… S…",
+    "gap": {
+     "text": "Der ___ ___ am Samstag.",
+     "answers": [
+      "Bäcker",
+      "arbeitet"
+     ]
+    },
+    "task_ru": "Скажи: Пекарь работает в субботу."
+   },
+   {
+    "id": "ch09_d6_03",
+    "role": "O",
+    "de": "Wann arbeitet der Busfahrer?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Когда работает водитель автобуса?",
+    "nouns": [
+     {
+      "lemma": "Busfahrer",
+      "art": "der",
+      "pl": "Busfahrer"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wann",
+       "role": "вопрос-слово",
+       "asks": "когда"
+      },
+      {
+       "w": "arbeitet",
+       "role": "действие №2"
+      },
+      {
+       "w": "der Busfahrer",
+       "role": "кто"
+      }
+     ],
+     "text": "wann — «когда»: вопрос-слово, за ним сразу действие arbeitet.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wann — вагон №1, действие arbeitet — сразу за ним, вагон №2: Wann arbeitet der Busfahrer? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Когда работает водитель автобуса» можно сказать и в другом порядке. По-немецки порядок один: Wann · arbeitet · der Busfahrer.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wann der Busfahrer arbeitet?",
+      "ru": "der Busfahrer встал перед arbeitet — действие ушло из вагона №2. После Wann немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "wann — «когда»: вопрос-слово, за ним сразу действие arbeitet.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "вопрос-слово · действие (вагон №2) · «кто»",
+      "items": [
+       {
+        "id": "ch09_d6_05",
+        "de": "Wann arbeitet der Pilot?",
+        "ru": "Когда работает пилот?",
+        "audio": "audio_v1/ch09_d6_05.mp3",
+        "lesson": "L6",
+        "part": 4,
+        "changed": {
+         "role": "кто",
+         "wagon": 3,
+         "from": "der Busfahrer",
+         "to": "der Pilot"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Wann · arbeitet. В каждом примере меняется один вагон — «кто»: der Busfahrer → der Pilot. Действие arbeitet всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch09_d6_03.mp3",
+    "tts": "Wann arbeitet der Busfahrer?",
+    "ipa": [
+     {
+      "w": "Wann",
+      "ipa": "[van]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "arbeitet",
+      "ipa": "[ˈaʁbaɪ̯tət]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Busfahrer",
+      "ipa": "[ˈbʊsˌfaːʁɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): a… · кто: d… B…",
+    "gap": {
+     "text": "Wann ___ der ___?",
+     "answers": [
+      "arbeitet",
+      "Busfahrer"
+     ]
+    },
+    "task_ru": "Скажи: Когда работает водитель автобуса?"
+   },
+   {
+    "id": "ch09_d6_04",
+    "role": "H",
+    "de": "Der Busfahrer arbeitet am Abend.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Водитель автобуса работает вечером.",
+    "nouns": [
+     {
+      "lemma": "Busfahrer",
+      "art": "der",
+      "pl": "Busfahrer"
+     },
+     {
+      "lemma": "Abend",
+      "art": "der",
+      "pl": "Abende"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Der Busfahrer",
+       "role": "кто"
+      },
+      {
+       "w": "arbeitet",
+       "role": "действие №2"
+      },
+      {
+       "w": "am Abend",
+       "role": "когда"
+      }
+     ],
+     "text": "Один человек — у действия хвост -t: arbeitet. Вагон «когда» стоит после действия: am Abend.",
+     "topic": "verb2",
+     "why_de": "Der Busfahrer · arbeitet · am Abend: действие arbeitet — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Водитель автобуса работает вечером» — Der Busfahrer arbeitet am Abend. Разница одна: по-немецки arbeitet держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Der Busfahrer am Abend arbeitet.",
+      "ru": "Действие arbeitet уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе arbeitet — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Один человек — у действия хвост -t: arbeitet. Вагон «когда» стоит после действия: am Abend."
+    },
+    "audio": "audio_v1/ch09_d6_04.mp3",
+    "tts": "Der Busfahrer arbeitet am Abend.",
+    "ipa": [
+     {
+      "w": "Der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Busfahrer",
+      "ipa": "[ˈbʊsˌfaːʁɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "arbeitet",
+      "ipa": "[ˈaʁbaɪ̯tət]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Abend",
+      "ipa": "[ˈaːbn̩t]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… B… · действие (вагон №2): a… · когда: a… A…",
+    "gap": {
+     "text": "Der ___ ___ am Abend.",
+     "answers": [
+      "Busfahrer",
+      "arbeitet"
+     ]
+    },
+    "task_ru": "Скажи: Водитель автобуса работает вечером."
+   },
+   {
+    "id": "ch09_d6_05",
+    "role": "O",
+    "de": "Wann arbeitet der Pilot?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Когда работает пилот?",
+    "nouns": [
+     {
+      "lemma": "Pilot",
+      "art": "der",
+      "pl": "Piloten"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wann",
+       "role": "вопрос-слово",
+       "asks": "когда"
+      },
+      {
+       "w": "arbeitet",
+       "role": "действие №2"
+      },
+      {
+       "w": "der Pilot",
+       "role": "кто"
+      }
+     ],
+     "text": "wann — «когда»: вопрос-слово, за ним сразу действие arbeitet.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wann — вагон №1, действие arbeitet — сразу за ним, вагон №2: Wann arbeitet der Pilot? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Когда работает пилот» можно сказать и в другом порядке. По-немецки порядок один: Wann · arbeitet · der Pilot.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wann der Pilot arbeitet?",
+      "ru": "der Pilot встал перед arbeitet — действие ушло из вагона №2. После Wann немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "wann — «когда»: вопрос-слово, за ним сразу действие arbeitet.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "вопрос-слово · действие (вагон №2) · «кто»",
+      "items": [
+       {
+        "id": "ch09_048",
+        "de": "Wann arbeitet der Busfahrer?",
+        "ru": "Когда работает водитель автобуса?",
+        "audio": "audio_v1/ch09_048.mp3",
+        "lesson": "L6",
+        "part": 3,
+        "changed": {
+         "role": "кто",
+         "wagon": 3,
+         "from": "der Pilot",
+         "to": "der Busfahrer"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Wann · arbeitet. В каждом примере меняется один вагон — «кто»: der Pilot → der Busfahrer. Действие arbeitet всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch09_d6_05.mp3",
+    "tts": "Wann arbeitet der Pilot?",
+    "ipa": [
+     {
+      "w": "Wann",
+      "ipa": "[van]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "arbeitet",
+      "ipa": "[ˈaʁbaɪ̯tət]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Pilot",
+      "ipa": "[piˈloːt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): a… · кто: d… P…",
+    "gap": {
+     "text": "Wann ___ der ___?",
+     "answers": [
+      "arbeitet",
+      "Pilot"
+     ]
+    },
+    "task_ru": "Скажи: Когда работает пилот?"
+   },
+   {
+    "id": "ch09_d6_06",
+    "role": "H",
+    "de": "Der Pilot arbeitet in der Nacht.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Пилот работает ночью.",
+    "nouns": [
+     {
+      "lemma": "Pilot",
+      "art": "der",
+      "pl": "Piloten"
+     },
+     {
+      "lemma": "Nacht",
+      "art": "die",
+      "pl": "Nächte"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Der Pilot",
+       "role": "кто"
+      },
+      {
+       "w": "arbeitet",
+       "role": "действие №2"
+      },
+      {
+       "w": "in der Nacht",
+       "role": "когда"
+      }
+     ],
+     "text": "in der Nacht — «ночью», учим куском. Действие arbeitet остаётся в вагоне №2.",
+     "topic": "verb2",
+     "why_de": "Der Pilot · arbeitet · in der Nacht: действие arbeitet — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Пилот работает ночью» — Der Pilot arbeitet in der Nacht. Разница одна: по-немецки arbeitet держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Der Pilot in der Nacht arbeitet.",
+      "ru": "Действие arbeitet уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе arbeitet — вагон №2."
+     },
+     "root": "Nacht и русское «ночь» — родня: один древний корень, как английское night и латинское nox (de.wiktionary)",
+     "why_voice_ru": "in der Nacht — «ночью», учим куском. Действие arbeitet остаётся в вагоне №2."
+    },
+    "audio": "audio_v1/ch09_d6_06.mp3",
+    "tts": "Der Pilot arbeitet in der Nacht.",
+    "ipa": [
+     {
+      "w": "Der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Pilot",
+      "ipa": "[piˈloːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "arbeitet",
+      "ipa": "[ˈaʁbaɪ̯tət]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "in",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Nacht",
+      "ipa": "[naxt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… P… · действие (вагон №2): a… · когда: i… d… N…",
+    "gap": {
+     "text": "Der ___ ___ in der Nacht.",
+     "answers": [
+      "Pilot",
+      "arbeitet"
+     ]
+    },
+    "task_ru": "Скажи: Пилот работает ночью."
+   },
+   {
+    "id": "ch09_d6_07",
+    "role": "O",
+    "de": "Was möchtest du machen?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Что ты хочешь делать?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "möchtest",
+       "role": "пульт №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "machen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос-слово was, потом möchtest — «хочешь». Само действие machen уходит в самый конец.",
+     "topic": "questions",
+     "why_de": "«Пульт» держит вагон №2, а главное действие уходит в конец: Was möchtest du machen?",
+     "why_ru": "По-русски «Что ты хочешь делать» — действия рядом; по-немецки между ними помещается остальное: Was möchtest du machen?",
+     "layer": "modal",
+     "why_not": {
+      "wrong": "Was möchtest machen du?",
+      "ru": "По-русски «Что ты хочешь делать» — оба действия рядом. По-немецки machen сразу за möchtest — ошибка: оно ждёт в самом конце."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос-слово was, потом möchtest — «хочешь». Само действие machen уходит в самый конец."
+    },
+    "audio": "audio_v1/ch09_d6_07.mp3",
+    "tts": "Was möchtest du machen?",
+    "ipa": [
+     {
+      "w": "Was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "möchtest",
+      "ipa": "[ˈmœçtəst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "machen",
+      "ipa": "[ˈmaxn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · пульт (вагон №2): m… · кто: d… · хвост действия: m…",
+    "gap": {
+     "text": "Was ___ du machen?",
+     "answers": [
+      "möchtest"
+     ]
+    },
+    "task_ru": "Скажи: Что ты хочешь делать?"
+   },
+   {
+    "id": "ch09_d6_08",
+    "role": "H",
+    "de": "Ich möchte Gitarre spielen.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я хочу играть на гитаре.",
+    "nouns": [
+     {
+      "lemma": "Gitarre",
+      "art": "die",
+      "pl": "Gitarren"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "möchte",
+       "role": "пульт №2"
+      },
+      {
+       "w": "Gitarre",
+       "role": "кого-что"
+      },
+      {
+       "w": "spielen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "möchte — «хочу», оно в вагоне №2. Само действие spielen уходит в самый конец.",
+     "topic": "verb2",
+     "why_de": "«Пульт» держит вагон №2, а главное действие уходит в конец: Ich möchte Gitarre spielen.",
+     "why_ru": "По-русски «Я хочу играть на гитаре» — действия рядом; по-немецки между ними помещается остальное: Ich möchte Gitarre spielen.",
+     "layer": "modal",
+     "why_not": {
+      "wrong": "Ich möchte spielen Gitarre.",
+      "ru": "По-русски «Я хочу играть на гитаре» — оба действия рядом. По-немецки spielen сразу за möchte — ошибка: оно ждёт в самом конце."
+     },
+     "root": null,
+     "why_voice_ru": "möchte — «хочу», оно в вагоне №2. Само действие spielen уходит в самый конец."
+    },
+    "audio": "audio_v1/ch09_d6_08.mp3",
+    "tts": "Ich möchte Gitarre spielen.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "möchte",
+      "ipa": "[ˈmœçtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Gitarre",
+      "ipa": "[ɡiˈtaʁə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "spielen",
+      "ipa": "[ˈʃpiːlən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · пульт (вагон №2): m… · кого-что: G… · хвост действия: s…",
+    "gap": {
+     "text": "Ich ___ ___ spielen.",
+     "answers": [
+      "möchte",
+      "Gitarre"
+     ]
+    },
+    "task_ru": "Скажи: Я хочу играть на гитаре."
+   },
+   {
+    "id": "ch09_d6_09",
+    "role": "O",
+    "de": "Der Kurs ist am Dienstag.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Курс во вторник.",
+    "nouns": [
+     {
+      "lemma": "Kurs",
+      "art": "der",
+      "pl": "Kurse"
+     },
+     {
+      "lemma": "Dienstag",
+      "art": "der",
+      "pl": "Dienstage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Der Kurs",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "am Dienstag",
+       "role": "когда"
+      }
+     ],
+     "text": "Действие ist — в вагоне №2. am Dienstag — «во вторник»: вагон «когда».",
+     "topic": "verb2",
+     "why_de": "Der Kurs · ist · am Dienstag: действие ist — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Курс во вторник» — без действия «есть». По-немецки без ist фразы нет: Der Kurs ist am Dienstag.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Der Kurs am Dienstag.",
+      "ru": "Русская привычка — без действия, как «Курс во вторник». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Действие ist — в вагоне №2. am Dienstag — «во вторник»: вагон «когда»."
+    },
+    "audio": "audio_v1/ch09_d6_09.mp3",
+    "tts": "Der Kurs ist am Dienstag.",
+    "ipa": [
+     {
+      "w": "Der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kurs",
+      "ipa": "[kʊʁs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Dienstag",
+      "ipa": "[ˈdiːnsˌtaːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… K… · действие (вагон №2): i… · когда: a… D…",
+    "gap": {
+     "text": "Der ___ ___ am Dienstag.",
+     "answers": [
+      "Kurs",
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Курс во вторник."
+   },
+   {
+    "id": "ch09_d6_10",
+    "role": "H",
+    "de": "Gut. Ich komme am Dienstag.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Хорошо. Я приду во вторник.",
+    "nouns": [
+     {
+      "lemma": "Dienstag",
+      "art": "der",
+      "pl": "Dienstage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Gut",
+       "role": "да/нет"
+      },
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "komme",
+       "role": "действие №2"
+      },
+      {
+       "w": "am Dienstag",
+       "role": "когда"
+      }
+     ],
+     "text": "Gut в начале — согласие, место не занимает. Действие komme — в вагоне №2.",
+     "topic": "verb2",
+     "why_de": "Ich · komme · am Dienstag: действие komme — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я приду во вторник» — Ich komme am Dienstag. Разница одна: по-немецки komme держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Gut. Ich am Dienstag komme.",
+      "ru": "Действие komme уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе komme — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Gut в начале — согласие, место не занимает. Действие komme — в вагоне №2."
+    },
+    "audio": "audio_v1/ch09_d6_10.mp3",
+    "tts": "Gut. Ich komme am Dienstag.",
+    "ipa": [
+     {
+      "w": "Gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "komme",
+      "ipa": "[ˈkɔmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Dienstag",
+      "ipa": "[ˈdiːnsˌtaːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: G… · кто: I… · действие (вагон №2): k… · когда: a… D…",
+    "gap": {
+     "text": "Gut. Ich ___ am ___.",
+     "answers": [
+      "komme",
+      "Dienstag"
+     ]
+    },
+    "task_ru": "Скажи: Хорошо. Я приду во вторник."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch09_d7",
+  "title_ru": "Конец недели: Lauftreff в парке",
+  "roles": {
+   "O": "Olga (однокурсница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch09_d7_01",
+    "role": "O",
+    "de": "Was hast du am Wochenende gemacht?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Что ты делал на выходных?",
+    "nouns": [
+     {
+      "lemma": "Wochenende",
+      "art": "das",
+      "pl": "Wochenenden"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "hast",
+       "role": "помощник №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "am Wochenende",
+       "role": "когда"
+      },
+      {
+       "w": "gemacht",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос-слово was, потом помощник hast. gemacht — в самом конце.",
+     "topic": "questions",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Was hast du am Wochenende gemacht?",
+     "why_ru": "По-русски «Что ты делал на выходных» — прошлое одним словом; по-немецки два слова, и они разнесены: Was hast du am Wochenende gemacht?",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Was hast gemacht du am Wochenende?",
+      "ru": "По-русски «Что ты делал на выходных» — одно слово по порядку. По-немецки hast … gemacht разнесены: gemacht — в самый конец."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос-слово was, потом помощник hast. gemacht — в самом конце.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "вопрос-слово · действие (вагон №2) · «кто» · «когда» · хвост действия",
+      "items": [
+       {
+        "id": "ch09_029",
+        "de": "Was hast du gestern gemacht?",
+        "ru": "Что ты делал вчера?",
+        "audio": "audio_v1/ch09_029.mp3",
+        "lesson": "L4",
+        "part": 3,
+        "changed": {
+         "role": "когда",
+         "wagon": 4,
+         "from": "am Wochenende",
+         "to": "gestern"
+        }
+       },
+       {
+        "id": "ch09_036",
+        "de": "Was hast du heute gemacht?",
+        "ru": "Что ты сегодня делал?",
+        "audio": "audio_v1/ch09_036.mp3",
+        "lesson": "L5",
+        "part": 6,
+        "changed": {
+         "role": "когда",
+         "wagon": 4,
+         "from": "am Wochenende",
+         "to": "heute"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Was · hast · du · gemacht. В каждом примере меняется один вагон — «когда»: am Wochenende → gestern → heute. Действие hast всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch09_d7_01.mp3",
+    "tts": "Was hast du am Wochenende gemacht?",
+    "ipa": [
+     {
+      "w": "Was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wochenende",
+      "ipa": "[ˈvɔxn̩ˌʔɛndə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gemacht",
+      "ipa": "[ɡəˈmaxt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · помощник (вагон №2): h… · кто: d… · когда: a… W… · хвост действия: g…",
+    "gap": {
+     "text": "Was ___ du am ___ gemacht?",
+     "answers": [
+      "hast",
+      "Wochenende"
+     ]
+    },
+    "task_ru": "Скажи: Что ты делал на выходных?"
+   },
+   {
+    "id": "ch09_d7_02",
+    "role": "H",
+    "de": "Ich habe Gitarre gespielt.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я играл на гитаре.",
+    "nouns": [
+     {
+      "lemma": "Gitarre",
+      "art": "die",
+      "pl": "Gitarren"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "помощник №2"
+      },
+      {
+       "w": "Gitarre",
+       "role": "кого-что"
+      },
+      {
+       "w": "gespielt",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Помощник habe — в вагоне №2, gespielt — в самом конце.",
+     "topic": "verb2",
+     "why_de": "Немец ставит помощника на вагон №2, а что именно случилось, — в самый конец: Ich habe Gitarre gespielt.",
+     "why_ru": "По-русски «Я играл на гитаре» — прошлое одним словом; по-немецки два слова, и они разнесены: Ich habe Gitarre gespielt.",
+     "layer": "perfekt",
+     "why_not": {
+      "wrong": "Ich habe gespielt Gitarre.",
+      "ru": "По-русски «Я играл на гитаре» — одно слово по порядку. По-немецки habe … gespielt разнесены: gespielt — в самый конец."
+     },
+     "root": null,
+     "why_voice_ru": "Помощник habe — в вагоне №2, gespielt — в самом конце."
+    },
+    "audio": "audio_v1/ch09_d7_02.mp3",
+    "tts": "Ich habe Gitarre gespielt.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Gitarre",
+      "ipa": "[ɡiˈtaʁə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gespielt",
+      "ipa": "[ɡəˈʃpiːlt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · помощник (вагон №2): h… · кого-что: G… · хвост действия: g…",
+    "gap": {
+     "text": "Ich ___ ___ gespielt.",
+     "answers": [
+      "habe",
+      "Gitarre"
+     ]
+    },
+    "task_ru": "Скажи: Я играл на гитаре."
+   },
+   {
+    "id": "ch09_d7_03",
+    "role": "O",
+    "de": "Kommst du am Sonntag mit?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ты в воскресенье с нами?",
+    "nouns": [
+     {
+      "lemma": "Sonntag",
+      "art": "der",
+      "pl": "Sonntage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Kommst",
+       "role": "действие №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "am Sonntag",
+       "role": "когда"
+      },
+      {
+       "w": "mit",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет»: Kommst впереди, mit — в самом конце.",
+     "topic": "questions",
+     "why_de": "У действия есть «хвост»: он отрывается и встаёт в самый конец: Kommst du am Sonntag mit?",
+     "why_ru": "По-русски «Ты в воскресенье с нами» — действие одним куском; по-немецки хвост mit отрывается и уезжает в конец: Kommst du am Sonntag mit?",
+     "layer": "sep",
+     "why_not": {
+      "wrong": "Kommst mit du am Sonntag?",
+      "ru": "Хвост mit нельзя ставить сразу за Kommst: он уезжает в самый конец предложения."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос «да/нет»: Kommst впереди, mit — в самом конце.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "действие (вагон №1) · «кто» · «когда» · хвост действия",
+      "items": [
+       {
+        "id": "ch09_d2_01",
+        "de": "Kommst du am Samstag mit?",
+        "ru": "Ты в субботу с нами?",
+        "audio": "audio_v1/ch09_d2_01.mp3",
+        "lesson": "L2",
+        "part": 4,
+        "changed": {
+         "role": "когда",
+         "wagon": 3,
+         "from": "am Sonntag",
+         "to": "am Samstag"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Kommst · du · mit. В каждом примере меняется один вагон — «когда»: am Sonntag → am Samstag. Действие Kommst всё так же в вагоне №1.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch09_d7_03.mp3",
+    "tts": "Kommst du am Sonntag mit?",
+    "ipa": [
+     {
+      "w": "Kommst",
+      "ipa": "[kɔmst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sonntag",
+      "ipa": "[ˈzɔnˌtaːk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mit",
+      "ipa": "[mɪt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): K… · кто: d… · когда: a… S… · хвост действия: m…",
+    "gap": {
+     "text": "___ du am ___ mit?",
+     "answers": [
+      "Kommst",
+      "Sonntag"
+     ]
+    },
+    "task_ru": "Скажи: Ты в воскресенье с нами?"
+   },
+   {
+    "id": "ch09_d7_04",
+    "role": "H",
+    "de": "Wohin geht ihr?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Куда вы идёте?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wohin",
+       "role": "вопрос-слово",
+       "asks": "где"
+      },
+      {
+       "w": "geht",
+       "role": "действие №2"
+      },
+      {
+       "w": "ihr",
+       "role": "кто"
+      }
+     ],
+     "text": "wohin — «куда»: вопрос-слово, за ним сразу действие geht. С ihr — хвост -t.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wohin — вагон №1, действие geht — сразу за ним, вагон №2: Wohin geht ihr? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Куда вы идёте» можно сказать и в другом порядке. По-немецки порядок один: Wohin · geht · ihr.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wohin ihr geht?",
+      "ru": "ihr встал перед geht — действие ушло из вагона №2. После Wohin немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "wohin — «куда»: вопрос-слово, за ним сразу действие geht. С ihr — хвост -t."
+    },
+    "audio": "audio_v1/ch09_d7_04.mp3",
+    "tts": "Wohin geht ihr?",
+    "ipa": [
+     {
+      "w": "Wohin",
+      "ipa": "[voˈhɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "geht",
+      "ipa": "[ɡeːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ihr",
+      "ipa": "[iːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): g… · кто: i…",
+    "gap": {
+     "text": "Wohin ___ ihr?",
+     "answers": [
+      "geht"
+     ]
+    },
+    "task_ru": "Скажи: Куда вы идёте?"
+   },
+   {
+    "id": "ch09_d7_05",
+    "role": "O",
+    "de": "Wir gehen in den Park.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Мы идём в парк.",
+    "nouns": [
+     {
+      "lemma": "Park",
+      "art": "der",
+      "pl": "Parks"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wir",
+       "role": "кто"
+      },
+      {
+       "w": "gehen",
+       "role": "действие №2"
+      },
+      {
+       "w": "in den Park",
+       "role": "куда"
+      }
+     ],
+     "text": "Park — слово с der. Идём туда, поэтому der превращается в den: in den Park.",
+     "topic": "verb2",
+     "why_de": "Wir · gehen · in den Park: действие gehen — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Мы идём в парк» — Wir gehen in den Park. Разница одна: по-немецки gehen держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Wir in den Park gehen.",
+      "ru": "Действие gehen уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе gehen — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Park — слово с der. Идём туда, поэтому der превращается в den: in den Park.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «куда»",
+      "items": [
+       {
+        "id": "ch09_023",
+        "de": "Wir gehen in die Stadt.",
+        "ru": "Мы идём в город.",
+        "audio": "audio_v1/ch09_023.mp3",
+        "lesson": "L3",
+        "part": 3,
+        "changed": {
+         "role": "куда",
+         "wagon": 3,
+         "from": "in den Park",
+         "to": "in die Stadt"
+        }
+       },
+       {
+        "id": "ch09_024",
+        "de": "Wir gehen ins Kino.",
+        "ru": "Мы идём в кино.",
+        "audio": "audio_v1/ch09_024.mp3",
+        "lesson": "L3",
+        "part": 3,
+        "changed": {
+         "role": "куда",
+         "wagon": 3,
+         "from": "in den Park",
+         "to": "ins Kino"
+        }
+       },
+       {
+        "id": "ch09_027",
+        "de": "Wir gehen ins Schwimmbad.",
+        "ru": "Мы идём в бассейн.",
+        "audio": "audio_v1/ch09_027.mp3",
+        "lesson": "L3",
+        "part": 6,
+        "changed": {
+         "role": "куда",
+         "wagon": 3,
+         "from": "in den Park",
+         "to": "ins Schwimmbad"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Wir · gehen. В каждом примере меняется один вагон — «куда»: in den Park → in die Stadt → ins Kino → ins Schwimmbad. Действие gehen всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch09_d7_05.mp3",
+    "tts": "Wir gehen in den Park.",
+    "ipa": [
+     {
+      "w": "Wir",
+      "ipa": "[viːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gehen",
+      "ipa": "[ˈɡeːən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "in",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "den",
+      "ipa": "[deːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Park",
+      "ipa": "[paʁk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: W… · действие (вагон №2): g… · куда: i… d… P…",
+    "gap": {
+     "text": "Wir ___ in den ___.",
+     "answers": [
+      "gehen",
+      "Park"
+     ]
+    },
+    "task_ru": "Скажи: Мы идём в парк."
+   },
+   {
+    "id": "ch09_d7_06",
+    "role": "H",
+    "de": "Nimmst du deinen Hund mit?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ты возьмёшь своего пса с собой?",
+    "nouns": [
+     {
+      "lemma": "Hund",
+      "art": "der",
+      "pl": "Hunde"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Nimmst",
+       "role": "действие №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "deinen Hund",
+       "role": "кого-что"
+      },
+      {
+       "w": "mit",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет»: Nimmst впереди, mit — в конце. Hund — слово с der: dein → deinen.",
+     "topic": "questions",
+     "why_de": "У действия есть «хвост»: он отрывается и встаёт в самый конец: Nimmst du deinen Hund mit?",
+     "why_ru": "По-русски «Ты возьмёшь своего пса с собой» — действие одним куском; по-немецки хвост mit отрывается и уезжает в конец: Nimmst du deinen Hund mit?",
+     "layer": "sep",
+     "why_not": {
+      "wrong": "Nimmst mit du deinen Hund?",
+      "ru": "Хвост mit нельзя ставить сразу за Nimmst: он уезжает в самый конец предложения."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос «да/нет»: Nimmst впереди, mit — в конце. Hund — слово с der: dein → deinen.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "действие (вагон №1) · «кто» · «что» · хвост действия",
+      "items": [
+       {
+        "id": "ch09_d2_05",
+        "de": "Nimmst du deinen Ball mit?",
+        "ru": "Ты возьмёшь свой мяч с собой?",
+        "audio": "audio_v1/ch09_d2_05.mp3",
+        "lesson": "L2",
+        "part": 4,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "deinen Hund",
+         "to": "deinen Ball"
+        }
+       },
+       {
+        "id": "ch09_t03",
+        "de": "Nimmst du ihn mit?",
+        "ru": "Ты возьмёшь его с собой?",
+        "audio": "audio_v1/ch09_t03.mp3",
+        "lesson": "L2",
+        "part": 6,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 3,
+         "from": "deinen Hund",
+         "to": "ihn"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Nimmst · du · mit. В каждом примере меняется один вагон — «что»: deinen Hund → deinen Ball → ihn. Действие Nimmst всё так же в вагоне №1.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch09_d7_06.mp3",
+    "tts": "Nimmst du deinen Hund mit?",
+    "ipa": [
+     {
+      "w": "Nimmst",
+      "ipa": "[nɪmst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "deinen",
+      "ipa": "[ˈdaɪ̯nən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Hund",
+      "ipa": "[hʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mit",
+      "ipa": "[mɪt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): N… · кто: d… · кого-что: d… H… · хвост действия: m…",
+    "gap": {
+     "text": "___ du deinen ___ mit?",
+     "answers": [
+      "Nimmst",
+      "Hund"
+     ]
+    },
+    "task_ru": "Скажи: Ты возьмёшь своего пса с собой?"
+   },
+   {
+    "id": "ch09_d7_07",
+    "role": "O",
+    "de": "Ja, ich nehme ihn mit.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, я возьму его с собой.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "nehme",
+       "role": "действие №2"
+      },
+      {
+       "w": "ihn",
+       "role": "кого-что"
+      },
+      {
+       "w": "mit",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "ihn — это «он» (der Hund) в вагоне «кого-что». mit — в конце.",
+     "topic": "verb2",
+     "why_de": "У действия есть «хвост»: он отрывается и встаёт в самый конец: Ja, ich nehme ihn mit.",
+     "why_ru": "По-русски «Да, я возьму его с собой» — действие одним куском; по-немецки хвост mit отрывается и уезжает в конец: Ja, ich nehme ihn mit.",
+     "layer": "sep",
+     "why_not": {
+      "wrong": "Ja, ich nehme mit ihn.",
+      "ru": "Хвост mit нельзя ставить сразу за nehme: он уезжает в самый конец предложения."
+     },
+     "root": null,
+     "why_voice_ru": "ihn — это «он» (der Hund) в вагоне «кого-что». mit — в конце."
+    },
+    "audio": "audio_v1/ch09_d7_07.mp3",
+    "tts": "Ja, ich nehme ihn mit.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "nehme",
+      "ipa": "[ˈneːmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ihn",
+      "ipa": "[iːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mit",
+      "ipa": "[mɪt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: i… · действие (вагон №2): n… · кого-что: i… · хвост действия: m…",
+    "gap": {
+     "text": "Ja, ich ___ ___ mit.",
+     "answers": [
+      "nehme",
+      "ihn"
+     ]
+    },
+    "task_ru": "Скажи: Да, я возьму его с собой."
+   },
+   {
+    "id": "ch09_d7_08",
+    "role": "H",
+    "de": "Wann ist der Lauftreff?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Когда встреча бегунов?",
+    "nouns": [
+     {
+      "lemma": "Lauftreff",
+      "art": "der",
+      "pl": "Lauftreffs"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wann",
+       "role": "вопрос-слово",
+       "asks": "когда"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "der Lauftreff",
+       "role": "кто"
+      }
+     ],
+     "text": "wann — «когда»: вопрос-слово, за ним сразу действие ist.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wann — вагон №1, действие ist — сразу за ним, вагон №2: Wann ist der Lauftreff? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Когда встреча бегунов» можно сказать и в другом порядке. По-немецки порядок один: Wann · ist · der Lauftreff. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wann der Lauftreff ist?",
+      "ru": "der Lauftreff встал перед ist — действие ушло из вагона №2. После Wann немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "wann — «когда»: вопрос-слово, за ним сразу действие ist.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "вопрос-слово · действие (вагон №2) · «кто»",
+      "items": [
+       {
+        "id": "ch09_d3_08",
+        "de": "Wann ist das Kino?",
+        "ru": "Когда кино? (Во сколько кино?)",
+        "audio": "audio_v1/ch09_d3_08.mp3",
+        "lesson": "L3",
+        "part": 4,
+        "changed": {
+         "role": "кто",
+         "wagon": 3,
+         "from": "der Lauftreff",
+         "to": "das Kino"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Wann · ist. В каждом примере меняется один вагон — «кто»: der Lauftreff → das Kino. Действие ist всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch09_d7_08.mp3",
+    "tts": "Wann ist der Lauftreff?",
+    "ipa": [
+     {
+      "w": "Wann",
+      "ipa": "[van]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Lauftreff",
+      "ipa": null,
+      "src": "none"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "partial",
+    "hint": "вопрос-слово: W… · действие (вагон №2): i… · кто: d… L…",
+    "gap": {
+     "text": "Wann ___ der ___?",
+     "answers": [
+      "ist",
+      "Lauftreff"
+     ]
+    },
+    "task_ru": "Скажи: Когда встреча бегунов?"
+   },
+   {
+    "id": "ch09_d7_09",
+    "role": "O",
+    "de": "Der Lauftreff ist um zehn Uhr.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Встреча бегунов в десять часов.",
+    "nouns": [
+     {
+      "lemma": "Lauftreff",
+      "art": "der",
+      "pl": "Lauftreffs"
+     },
+     {
+      "lemma": "Uhr",
+      "art": "die",
+      "pl": "Uhren"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Der Lauftreff",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "um zehn Uhr",
+       "role": "когда"
+      }
+     ],
+     "text": "Действие ist — в вагоне №2, um zehn Uhr — «в десять часов».",
+     "topic": "verb2",
+     "why_de": "Der Lauftreff · ist · um zehn Uhr: действие ist — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Встреча бегунов в десять часов» — без действия «есть». По-немецки без ist фразы нет: Der Lauftreff ist um zehn Uhr.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Der Lauftreff um zehn Uhr.",
+      "ru": "Русская привычка — без действия, как «Встреча бегунов в десять часов». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Действие ist — в вагоне №2, um zehn Uhr — «в десять часов»."
+    },
+    "audio": "audio_v1/ch09_d7_09.mp3",
+    "tts": "Der Lauftreff ist um zehn Uhr.",
+    "ipa": [
+     {
+      "w": "Der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Lauftreff",
+      "ipa": null,
+      "src": "none"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "um",
+      "ipa": "[ʊm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "zehn",
+      "ipa": "[t͡seːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Uhr",
+      "ipa": "[uːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "partial",
+    "hint": "кто: D… L… · действие (вагон №2): i… · когда: u… z… U…",
+    "gap": {
+     "text": "Der ___ ___ um zehn Uhr.",
+     "answers": [
+      "Lauftreff",
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Встреча бегунов в десять часов."
+   },
+   {
+    "id": "ch09_d7_10",
+    "role": "H",
+    "de": "Gut. Am Abend habe ich einen Tanzkurs.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Хорошо. Вечером у меня курс танцев.",
+    "nouns": [
+     {
+      "lemma": "Abend",
+      "art": "der",
+      "pl": "Abende"
+     },
+     {
+      "lemma": "Tanzkurs",
+      "art": "der",
+      "pl": "Tanzkurse"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Gut",
+       "role": "да/нет"
+      },
+      {
+       "w": "Am Abend",
+       "role": "когда"
+      },
+      {
+       "w": "habe",
+       "role": "действие №2"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "einen Tanzkurs",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Gut в начале — согласие, место не занимает. Вагон №1 занят: Am Abend, поэтому ich — после habe.",
+     "topic": "word_order",
+     "why_de": "Артикль — сигнал роли: der → den/einen показывает «кого-что»: Am Abend habe ich einen Tanzkurs.",
+     "why_ru": "Похоже на русские окончания, только меняется не слово, а артикль: Am Abend habe ich einen Tanzkurs.",
+     "layer": "akk",
+     "why_not": {
+      "wrong": "Gut. Am Abend habe ich ein Tanzkurs.",
+      "ru": "Русская привычка: артикль не меняется. Немец слышит не ту роль: тут der-слово в роли «кого-что» — einen."
+     },
+     "root": null,
+     "why_voice_ru": "Gut в начале — согласие, место не занимает. Вагон №1 занят: Am Abend, поэтому ich — после habe."
+    },
+    "audio": "audio_v1/ch09_d7_10.mp3",
+    "tts": "Gut. Am Abend habe ich einen Tanzkurs.",
+    "ipa": [
+     {
+      "w": "Gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Abend",
+      "ipa": "[ˈaːbn̩t]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "einen",
+      "ipa": "[ˈaɪ̯nən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tanzkurs",
+      "ipa": "[ˈtant͡sˌkʊʁs]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: G… · когда: A… A… · действие (вагон №2): h… · кто: i… · кого-что: e… T…",
+    "gap": {
+     "text": "Gut. Am Abend ___ ich einen ___.",
+     "answers": [
+      "habe",
+      "Tanzkurs"
+     ]
+    },
+    "task_ru": "Скажи: Хорошо. Вечером у меня курс танцев."
+   },
+   {
+    "id": "ch09_d7_11",
+    "role": "O",
+    "de": "Gut, bis Sonntag!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Хорошо, до воскресенья!",
+    "nouns": [
+     {
+      "lemma": "Sonntag",
+      "art": "der",
+      "pl": "Sonntage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Gut",
+       "role": "да/нет"
+      },
+      {
+       "w": "bis Sonntag",
+       "role": "когда"
+      }
+     ],
+     "text": "Gut в начале — согласие. bis Sonntag — «до воскресенья».",
+     "topic": "word_order",
+     "why_de": "Короткий ответ: Gut + bis Sonntag (когда?). Действие из вопроса не повторяют — его уже сказали.",
+     "why_ru": "По-русски так же коротко: «Хорошо, до воскресенья».",
+     "layer": "short",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибка — считать это готовой формулой. «Хорошо, до воскресенья» — короткий ответ, его слова меняют под ситуацию."
+     },
+     "root": null,
+     "why_voice_ru": "Gut в начале — согласие. bis Sonntag — «до воскресенья»."
+    },
+    "audio": "audio_v1/ch09_d7_11.mp3",
+    "tts": "Gut, bis Sonntag!",
+    "ipa": [
+     {
+      "w": "Gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bis",
+      "ipa": "[bɪs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sonntag",
+      "ipa": "[ˈzɔnˌtaːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: G… · когда: b… S…",
+    "gap": {
+     "text": "Gut, bis ___!",
+     "answers": [
+      "Sonntag"
+     ]
+    },
+    "task_ru": "Скажи: Хорошо, до воскресенья!"
+   },
+   {
+    "id": "ch09_d7_12",
+    "role": "H",
+    "de": "Tschüss!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Пока!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Tschüss",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Tschüss — «пока»: прощание между знакомыми.",
+     "topic": "word_order",
+     "why_de": "Разговорное прощание: друзьям, соседям, в магазине.",
+     "why_ru": "Как русское «пока».",
+     "layer": "chunk",
+     "why_not": {
+      "wrong": "Tschüss! (на приёме в Jobcenter)",
+      "ru": "В ведомстве лучше Auf Wiedersehen: tschüss — разговорное (DWDS)."
+     },
+     "source": "tools/why_chunks.json",
+     "root": "tschüss ← франц. adieu, лат. ad Deum — «к Богу» (DWDS)",
+     "why_voice_ru": "Tschüss — «пока»: прощание между знакомыми."
+    },
+    "audio": "audio_v1/ch09_d7_12.mp3",
+    "tts": "Tschüss! Tschüss!",
+    "ipa": [
+     {
+      "w": "Tschüss",
+      "ipa": "[t͡ʃʏs]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: T…",
+    "gap": {
+     "text": "___!",
+     "answers": [
+      "Tschüss"
+     ]
+    },
+    "task_ru": "Скажи: Пока!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ }
+]

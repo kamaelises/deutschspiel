@@ -1,0 +1,3836 @@
+[
+ {
+  "item_id": "ch12_L1_words_1",
+  "id": "ch12_L1_words_1",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_001",
+  "prompt": "Что значит «Bus»?",
+  "answer": "автобус",
+  "distractors": [
+   "поезд",
+   "трамвай"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L1_words_2",
+  "id": "ch12_L1_words_2",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_002",
+  "prompt": "Что значит «Zug»?",
+  "answer": "поезд",
+  "distractors": [
+   "автобус",
+   "трамвай"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L1_words_3",
+  "id": "ch12_L1_words_3",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_003",
+  "prompt": "Что значит «Straßenbahn»?",
+  "answer": "трамвай",
+  "distractors": [
+   "автобус",
+   "поезд"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L1_words_4",
+  "id": "ch12_L1_words_4",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_004",
+  "prompt": "Что значит «zu Fuß»?",
+  "answer": "пешком",
+  "distractors": [
+   "бегом",
+   "поездом"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L1_words_5",
+  "id": "ch12_L1_words_5",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_005",
+  "prompt": "Что значит «fährst»?",
+  "answer": "едешь",
+  "distractors": [
+   "идёшь",
+   "живёшь"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L1_listen_1",
+  "id": "ch12_L1_listen_1",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d1_01",
+  "prompt": "Послушай. Где сейчас Ольга?",
+  "answer": "в Дрездене",
+  "distractors": [
+   "во Фрайберге",
+   "в Лейпциге"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d1_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L1_listen_2",
+  "id": "ch12_L1_listen_2",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d1_03",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Хорошо! Как ты едешь в Дрезден?",
+  "distractors": [
+   "Хорошо! Где ты живёшь в Дрездене?",
+   "Хорошо! Ты тоже едешь в Дрезден?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d1_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L1_listen_3",
+  "id": "ch12_L1_listen_3",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d1_04",
+  "prompt": "Послушай. На чём едет герой?",
+  "answer": "на автобусе и на поезде",
+  "distractors": [
+   "на трамвае и на поезде",
+   "на автобусе и пешком"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d1_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L1_listen_4",
+  "id": "ch12_L1_listen_4",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d1_05",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Ты в Дрездене едешь на трамвае? Трамвай хороший.",
+  "distractors": [
+   "Ты в Дрездене идёшь пешком? Трамвай хороший.",
+   "Ты едешь в Дрезден на поезде? Поезд хороший."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d1_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L1_listen_5",
+  "id": "ch12_L1_listen_5",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d1_06",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Нет, я иду пешком.",
+  "distractors": [
+   "Нет, я еду на автобусе.",
+   "Да, я иду пешком."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d1_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L1_read_1",
+  "id": "ch12_L1_read_1",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_001",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я еду на автобусе.",
+  "distractors": [
+   "Я еду на поезде.",
+   "Я иду пешком."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich fahre mit dem Bus."
+ },
+ {
+  "item_id": "ch12_L1_read_2",
+  "id": "ch12_L1_read_2",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_002",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я еду на поезде в Дрезден.",
+  "distractors": [
+   "Я еду на автобусе в Дрезден.",
+   "Я живу в Дрездене."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich fahre mit dem Zug nach Dresden."
+ },
+ {
+  "item_id": "ch12_L1_read_3",
+  "id": "ch12_L1_read_3",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_003",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я еду на трамвае.",
+  "distractors": [
+   "Я еду на автобусе.",
+   "Я еду на поезде."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich fahre mit der Straßenbahn."
+ },
+ {
+  "item_id": "ch12_L1_read_4",
+  "id": "ch12_L1_read_4",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_d1_02",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я тоже еду в Дрезден.",
+  "distractors": [
+   "Я тоже живу в Дрездене.",
+   "Ты тоже едешь в Дрезден?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich fahre auch nach Dresden."
+ },
+ {
+  "item_id": "ch12_L1_read_5",
+  "id": "ch12_L1_read_5",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_d1_04",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я еду на автобусе и на поезде.",
+  "distractors": [
+   "Я еду на автобусе или на поезде.",
+   "Я еду на трамвае и на поезде."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich fahre mit dem Bus und mit dem Zug."
+ },
+ {
+  "item_id": "ch12_L1_speak_1",
+  "id": "ch12_L1_speak_1",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_005",
+  "prompt": "Спроси Ольгу: «Как ты едешь?» fährst — «фэ:аст».",
+  "answer": "Wie fährst du?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch12_005.mp3",
+  "de": null,
+  "accept": [
+   "Wie fährst du?"
+  ]
+ },
+ {
+  "item_id": "ch12_L1_speak_2",
+  "id": "ch12_L1_speak_2",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_001",
+  "prompt": "Скажи: «Я еду на автобусе.»",
+  "answer": "Ich fahre mit dem Bus.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_001.mp3",
+  "de": null,
+  "accept": [
+   "Ich fahre mit dem Bus."
+  ]
+ },
+ {
+  "item_id": "ch12_L1_speak_3",
+  "id": "ch12_L1_speak_3",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_002",
+  "prompt": "Скажи: «Я еду на поезде в Дрезден.» Zug — «цу:к».",
+  "answer": "Ich fahre mit dem Zug nach Dresden.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_002.mp3",
+  "de": null,
+  "accept": [
+   "Ich fahre mit dem Zug nach Dresden."
+  ]
+ },
+ {
+  "item_id": "ch12_L1_speak_4",
+  "id": "ch12_L1_speak_4",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_003",
+  "prompt": "Скажи: «Я еду на трамвае.»",
+  "answer": "Ich fahre mit der Straßenbahn.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_003.mp3",
+  "de": null,
+  "accept": [
+   "Ich fahre mit der Straßenbahn."
+  ]
+ },
+ {
+  "item_id": "ch12_L1_speak_5",
+  "id": "ch12_L1_speak_5",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_d1_06",
+  "prompt": "Ответь: «Нет, я иду пешком.» Fuß — «фу:с».",
+  "answer": "Nein, ich gehe zu Fuß.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d1_06.mp3",
+  "de": null,
+  "accept": [
+   "Nein, ich gehe zu Fuß."
+  ]
+ },
+ {
+  "item_id": "ch12_L1_write_1",
+  "id": "ch12_L1_write_1",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_001",
+  "prompt": "Впиши: «Ich fahre mit ___ Bus.» (der Bus)",
+  "answer": "dem",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_001.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L1_write_2",
+  "id": "ch12_L1_write_2",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_003",
+  "prompt": "Впиши: «Ich fahre mit ___ Straßenbahn.» (die Straßenbahn)",
+  "answer": "der",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_003.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L1_write_3",
+  "id": "ch12_L1_write_3",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_002",
+  "prompt": "Впиши: «Ich fahre mit dem Zug ___ Dresden.» (в Дрезден)",
+  "answer": "nach",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_002.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L1_write_4",
+  "id": "ch12_L1_write_4",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_004",
+  "prompt": "Впиши слово: «Ich gehe zu ___.» (пешком)",
+  "answer": "Fuß",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_004.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L1_write_5",
+  "id": "ch12_L1_write_5",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_005",
+  "prompt": "Впиши слово: «Wie ___ du?» (едешь)",
+  "answer": "fährst",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch12_005.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L1_why_1",
+  "id": "ch12_L1_why_1",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_001",
+  "prompt": "Почему «mit dem Bus», а не «mit der Bus»?",
+  "answer": "Bus — der-слово: после mit у der-слов стоит dem.",
+  "distractors": [
+   "Bus — die-слово: после mit у die-слов стоит dem.",
+   "dem говорят только в ответе «да»."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich fahre mit dem Bus."
+ },
+ {
+  "item_id": "ch12_L1_why_2",
+  "id": "ch12_L1_why_2",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_003",
+  "prompt": "Почему «mit der Straßenbahn», хотя в словаре — die Straßenbahn?",
+  "answer": "Straßenbahn — die-слово: после mit у die-слов стоит der.",
+  "distractors": [
+   "Трамвай после mit стал der-словом, как Bus.",
+   "Straßenbahn — das-слово: после mit у das-слов стоит der."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich fahre mit der Straßenbahn."
+ },
+ {
+  "item_id": "ch12_L1_why_3",
+  "id": "ch12_L1_why_3",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_002",
+  "prompt": "Почему «nach Dresden», без артикля?",
+  "answer": "nach — «в» перед названием города; артикля перед городом нет.",
+  "distractors": [
+   "Артикль просто забыли: перед Dresden должно быть das, как перед Zug.",
+   "Без артикля говорят только про Дрезден, а перед другими городами он нужен."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich fahre mit dem Zug nach Dresden."
+ },
+ {
+  "item_id": "ch12_L1_why_4",
+  "id": "ch12_L1_why_4",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_004",
+  "prompt": "Почему «Ich gehe zu Fuß», а не «Ich fahre zu Fuß»?",
+  "answer": "zu Fuß — «пешком»; пешком идут, поэтому gehe.",
+  "distractors": [
+   "gehe говорят только на «ты», а на «вы» всегда fahre.",
+   "fahre говорят только про поезд, а пешком ходят иначе."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich gehe zu Fuß."
+ },
+ {
+  "item_id": "ch12_L1_why_5",
+  "id": "ch12_L1_why_5",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_d1_05",
+  "prompt": "Почему в вопросе «Fährst du in Dresden mit der Straßenbahn?» слово «Fährst» стоит первым?",
+  "answer": "Это вопрос «да/нет»: действие Fährst — впереди.",
+  "distractors": [
+   "Это вопрос «да/нет»: действие Fährst — в конце.",
+   "Так спрашивают только на «вы»."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Fährst du in Dresden mit der Straßenbahn? Die Straßenbahn ist gut."
+ },
+ {
+  "item_id": "ch12_L1_transfer_1",
+  "id": "ch12_L1_transfer_1",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_t01",
+  "prompt": "В выходные ты едешь дальше. Скажи Ольге: «Я еду на автобусе в Лейпциг.»",
+  "answer": "Ich fahre mit dem Bus nach Leipzig.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch12_t01.mp3",
+  "de": null,
+  "accept": [
+   "Ich fahre mit dem Bus nach Leipzig."
+  ]
+ },
+ {
+  "item_id": "ch12_L1_transfer_2",
+  "id": "ch12_L1_transfer_2",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_t02",
+  "prompt": "В другой день Ольга спрашивает: «Ты идёшь пешком?» Ответь ей: «Нет, я еду на трамвае.»",
+  "answer": "Nein, ich fahre mit der Straßenbahn.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch12_t02.mp3",
+  "de": null,
+  "accept": [
+   "Nein, ich fahre mit der Straßenbahn."
+  ]
+ },
+ {
+  "item_id": "ch12_L1_transfer_3",
+  "id": "ch12_L1_transfer_3",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_t02",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Нет, я еду на трамвае.",
+  "distractors": [
+   "Нет, я еду на автобусе.",
+   "Да, я еду на трамвае."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch12_t02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L1_transfer_4",
+  "id": "ch12_L1_transfer_4",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_t02",
+  "prompt": "Впиши: «Nein, ich fahre mit ___ Straßenbahn.»",
+  "answer": "der",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch12_t02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L1_transfer_5",
+  "id": "ch12_L1_transfer_5",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_t02",
+  "prompt": "Почему здесь «mit der Straßenbahn»?",
+  "answer": "Straßenbahn — die-слово: после mit у die-слов стоит der.",
+  "distractors": [
+   "Straßenbahn — das-слово: после mit у das-слов стоит der.",
+   "der — потому что это ответ «нет»."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": true,
+  "audio": null,
+  "de": "Nein, ich fahre mit der Straßenbahn."
+ },
+ {
+  "item_id": "ch12_L1_boss_1",
+  "id": "ch12_L1_boss_1",
+  "lesson": "ch12_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_004",
+  "prompt": "Послушай. Что сказали?",
+  "answer": "Я иду пешком.",
+  "distractors": [
+   "Я еду на трамвае.",
+   "Я еду на автобусе."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_004.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L2_words_1",
+  "id": "ch12_L2_words_1",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_011",
+  "prompt": "Что значит «Bahnhof»?",
+  "answer": "вокзал",
+  "distractors": [
+   "остановка",
+   "курс"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L2_words_2",
+  "id": "ch12_L2_words_2",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_012",
+  "prompt": "Что значит «Haltestelle»?",
+  "answer": "остановка",
+  "distractors": [
+   "вокзал",
+   "курс"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L2_words_3",
+  "id": "ch12_L2_words_3",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_013",
+  "prompt": "Что значит «Kurs»?",
+  "answer": "курс",
+  "distractors": [
+   "вокзал",
+   "остановка"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L2_words_4",
+  "id": "ch12_L2_words_4",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_013",
+  "prompt": "Что значит «vom Kurs»?",
+  "answer": "с курса",
+  "distractors": [
+   "на курс",
+   "к курсу"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L2_words_5",
+  "id": "ch12_L2_words_5",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_016",
+  "prompt": "Что значит «gehst»?",
+  "answer": "идёшь",
+  "distractors": [
+   "едешь",
+   "живёшь"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L2_listen_1",
+  "id": "ch12_L2_listen_1",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d2_01",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "Ольга, как мне добраться от курса до вокзала?",
+  "distractors": [
+   "Ольга, где мой курс и вокзал?",
+   "Ольга, как ты едешь от вокзала?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d2_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L2_listen_2",
+  "id": "ch12_L2_listen_2",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d2_02",
+  "prompt": "Послушай. Куда идти герою сначала?",
+  "answer": "на остановку",
+  "distractors": [
+   "на вокзал",
+   "на курс"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d2_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L2_listen_3",
+  "id": "ch12_L2_listen_3",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d2_03",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "Где остановка?",
+  "distractors": [
+   "Где вокзал?",
+   "Где курс?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d2_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L2_listen_4",
+  "id": "ch12_L2_listen_4",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d2_04",
+  "prompt": "Послушай. Как герой доедет до вокзала?",
+  "answer": "на автобусе от остановки",
+  "distractors": [
+   "пешком от курса",
+   "на трамвае от вокзала"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d2_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L2_listen_5",
+  "id": "ch12_L2_listen_5",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d2_06",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Пожалуйста! Пока!",
+  "distractors": [
+   "Спасибо! Пока!",
+   "Пожалуйста! Привет!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d2_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L2_read_1",
+  "id": "ch12_L2_read_1",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_011",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я иду на вокзал.",
+  "distractors": [
+   "Я иду с вокзала.",
+   "Я еду на вокзал."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich gehe zum Bahnhof."
+ },
+ {
+  "item_id": "ch12_L2_read_2",
+  "id": "ch12_L2_read_2",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_012",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я иду на остановку.",
+  "distractors": [
+   "Я иду с остановки.",
+   "Я иду на курс."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich gehe zur Haltestelle."
+ },
+ {
+  "item_id": "ch12_L2_read_3",
+  "id": "ch12_L2_read_3",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_013",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я иду с курса.",
+  "distractors": [
+   "Я иду на курс.",
+   "Я живу на курсе."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich komme vom Kurs."
+ },
+ {
+  "item_id": "ch12_L2_read_4",
+  "id": "ch12_L2_read_4",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_014",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я иду с остановки.",
+  "distractors": [
+   "Я иду на остановку.",
+   "Я еду с вокзала."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich komme von der Haltestelle."
+ },
+ {
+  "item_id": "ch12_L2_read_5",
+  "id": "ch12_L2_read_5",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_015",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Как мне добраться до вокзала?",
+  "distractors": [
+   "Где вокзал?",
+   "Как мне доехать до курса?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie komme ich zum Bahnhof?"
+ },
+ {
+  "item_id": "ch12_L2_speak_1",
+  "id": "ch12_L2_speak_1",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_015",
+  "prompt": "Спроси дорогу: «Как мне добраться до вокзала?» zum — «цум».",
+  "answer": "Wie komme ich zum Bahnhof?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch12_015.mp3",
+  "de": null,
+  "accept": [
+   "Wie komme ich zum Bahnhof?"
+  ]
+ },
+ {
+  "item_id": "ch12_L2_speak_2",
+  "id": "ch12_L2_speak_2",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_011",
+  "prompt": "Скажи: «Я иду на вокзал.»",
+  "answer": "Ich gehe zum Bahnhof.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_011.mp3",
+  "de": null,
+  "accept": [
+   "Ich gehe zum Bahnhof."
+  ]
+ },
+ {
+  "item_id": "ch12_L2_speak_3",
+  "id": "ch12_L2_speak_3",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_012",
+  "prompt": "Скажи: «Я иду на остановку.» zur — «цу:а».",
+  "answer": "Ich gehe zur Haltestelle.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_012.mp3",
+  "de": null,
+  "accept": [
+   "Ich gehe zur Haltestelle."
+  ]
+ },
+ {
+  "item_id": "ch12_L2_speak_4",
+  "id": "ch12_L2_speak_4",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_013",
+  "prompt": "Скажи: «Я иду с курса.» vom — «фом», не «вом».",
+  "answer": "Ich komme vom Kurs.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_013.mp3",
+  "de": null,
+  "accept": [
+   "Ich komme vom Kurs."
+  ]
+ },
+ {
+  "item_id": "ch12_L2_speak_5",
+  "id": "ch12_L2_speak_5",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_014",
+  "prompt": "Скажи: «Я иду с остановки.»",
+  "answer": "Ich komme von der Haltestelle.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_014.mp3",
+  "de": null,
+  "accept": [
+   "Ich komme von der Haltestelle."
+  ]
+ },
+ {
+  "item_id": "ch12_L2_write_1",
+  "id": "ch12_L2_write_1",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_011",
+  "prompt": "Впиши: «Ich gehe ___ Bahnhof.» (zu + dem)",
+  "answer": "zum",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_011.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L2_write_2",
+  "id": "ch12_L2_write_2",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_012",
+  "prompt": "Впиши: «Ich gehe ___ Haltestelle.» (zu + der)",
+  "answer": "zur",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_012.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L2_write_3",
+  "id": "ch12_L2_write_3",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_013",
+  "prompt": "Впиши: «Ich komme ___ Kurs.» (von + dem)",
+  "answer": "vom",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch12_013.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L2_write_4",
+  "id": "ch12_L2_write_4",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_014",
+  "prompt": "Впиши слово: «Ich komme ___ der Haltestelle.» (с)",
+  "answer": "von",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch12_014.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L2_write_5",
+  "id": "ch12_L2_write_5",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_d2_02",
+  "prompt": "Впиши слово: «Du ___ zur Haltestelle.» (идёшь)",
+  "answer": "gehst",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d2_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L2_why_1",
+  "id": "ch12_L2_why_1",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_011",
+  "prompt": "Почему «zum Bahnhof», а не «zu der Bahnhof»?",
+  "answer": "Bahnhof — der-слово: zu + dem слипаются в zum.",
+  "distractors": [
+   "zum — потому что вокзал большой и важный.",
+   "zum говорят только в вопросе у кассы."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich gehe zum Bahnhof."
+ },
+ {
+  "item_id": "ch12_L2_why_2",
+  "id": "ch12_L2_why_2",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_012",
+  "prompt": "Почему «zur Haltestelle»?",
+  "answer": "Haltestelle — die-слово: zu + der слипаются в zur.",
+  "distractors": [
+   "zur — потому что остановка маленькая и тихая.",
+   "zur — это совсем другое слово, не предлог."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich gehe zur Haltestelle."
+ },
+ {
+  "item_id": "ch12_L2_why_3",
+  "id": "ch12_L2_why_3",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_013",
+  "prompt": "Почему «vom Kurs»?",
+  "answer": "Kurs — der-слово: von + dem слипаются в vom.",
+  "distractors": [
+   "vom — потому что курс далеко от вокзала.",
+   "vom говорят только про людей и зверей."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich komme vom Kurs."
+ },
+ {
+  "item_id": "ch12_L2_why_4",
+  "id": "ch12_L2_why_4",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_015",
+  "prompt": "Почему в вопросе «Wie komme ich zum Bahnhof?» слово «komme» стоит сразу за «Wie»?",
+  "answer": "После вопрос-слова сразу идёт действие — вагон №2.",
+  "distractors": [
+   "После вопрос-слова не сразу идёт действие — вагон №2.",
+   "Так спрашивают только на «вы»."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie komme ich zum Bahnhof?"
+ },
+ {
+  "item_id": "ch12_L2_why_5",
+  "id": "ch12_L2_why_5",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_d2_04",
+  "prompt": "Почему «Dann fährst du», а не «Dann du fährst»?",
+  "answer": "После Dann действие всё равно во втором вагоне.",
+  "distractors": [
+   "Dann — вопрос, поэтому fährst впереди всех.",
+   "Так говорят только в чате, по-быстрому."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Haltestelle ist hier. Dann fährst du mit dem Bus von der Haltestelle zum Bahnhof."
+ },
+ {
+  "item_id": "ch12_L2_transfer_1",
+  "id": "ch12_L2_transfer_1",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_t03",
+  "prompt": "Ольга ждёт на курсе. Скажи ей: «Я иду от вокзала до курса.»",
+  "answer": "Ich gehe vom Bahnhof zum Kurs.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch12_t03.mp3",
+  "de": null,
+  "accept": [
+   "Ich gehe vom Bahnhof zum Kurs."
+  ]
+ },
+ {
+  "item_id": "ch12_L2_transfer_2",
+  "id": "ch12_L2_transfer_2",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_t04",
+  "prompt": "Ольга встретила тебя на остановке. Спроси её: «Ты идёшь с курса?»",
+  "answer": "Kommst du vom Kurs?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch12_t04.mp3",
+  "de": null,
+  "accept": [
+   "Kommst du vom Kurs?"
+  ]
+ },
+ {
+  "item_id": "ch12_L2_transfer_3",
+  "id": "ch12_L2_transfer_3",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_t04",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Ты идёшь с курса?",
+  "distractors": [
+   "Ты идёшь на курс?",
+   "Ты едешь с курса?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch12_t04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L2_transfer_4",
+  "id": "ch12_L2_transfer_4",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_t04",
+  "prompt": "Впиши: «Kommst du ___ Kurs?» (von + dem)",
+  "answer": "vom",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": "audio_v1/ch12_t04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L2_transfer_5",
+  "id": "ch12_L2_transfer_5",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_t04",
+  "prompt": "Почему здесь «vom Kurs»?",
+  "answer": "Kurs — der-слово: von + dem слипаются в vom.",
+  "distractors": [
+   "vom — потому что курс большой и далёкий.",
+   "Kurs — die-слово, поэтому и стоит vom."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": true,
+  "audio": null,
+  "de": "Kommst du vom Kurs?"
+ },
+ {
+  "item_id": "ch12_L2_boss_1",
+  "id": "ch12_L2_boss_1",
+  "lesson": "ch12_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_016",
+  "prompt": "Послушай. О чём спросили?",
+  "answer": "Ты идёшь на остановку?",
+  "distractors": [
+   "Ты идёшь с остановки?",
+   "Ты едешь на вокзал?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_016.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L3_words_1",
+  "id": "ch12_L3_words_1",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_018",
+  "prompt": "Что значит «Fahrkarte»?",
+  "answer": "билет",
+  "distractors": [
+   "вокзал",
+   "остановка"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L3_words_2",
+  "id": "ch12_L3_words_2",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_019",
+  "prompt": "Что значит «Gleis»?",
+  "answer": "путь",
+  "distractors": [
+   "билет",
+   "остановка"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L3_words_3",
+  "id": "ch12_L3_words_3",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_019",
+  "prompt": "Что значит «Der Zug fährt … ab»?",
+  "answer": "Поезд отправляется",
+  "distractors": [
+   "Поезд приезжает",
+   "Поезд стоит"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L3_words_4",
+  "id": "ch12_L3_words_4",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_020",
+  "prompt": "Что значит «Ich steige … um»?",
+  "answer": "Я пересаживаюсь",
+  "distractors": [
+   "Я выхожу из поезда",
+   "Я сажусь на место"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L3_words_5",
+  "id": "ch12_L3_words_5",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_d3_04",
+  "prompt": "Что значит «dort»?",
+  "answer": "там",
+  "distractors": [
+   "здесь",
+   "потом"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L3_listen_1",
+  "id": "ch12_L3_listen_1",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d3_01",
+  "prompt": "Послушай. Что попросил герой?",
+  "answer": "Один билет до Лейпцига",
+  "distractors": [
+   "Один билет до Дрездена",
+   "Два билета до Лейпцига"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d3_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L3_listen_2",
+  "id": "ch12_L3_listen_2",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d3_02",
+  "prompt": "Послушай. С какого пути уходит поезд?",
+  "answer": "с пути 3",
+  "distractors": [
+   "с пути 5",
+   "с пути 1"
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d3_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L3_listen_3",
+  "id": "ch12_L3_listen_3",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d3_03",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "Где путь 3?",
+  "distractors": [
+   "Где касса?",
+   "Где поезд на Лейпциг?"
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d3_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L3_listen_4",
+  "id": "ch12_L3_listen_4",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d3_04",
+  "prompt": "Послушай. Где герой пересаживается?",
+  "answer": "в Дрездене",
+  "distractors": [
+   "в Лейпциге",
+   "во Фрайберге"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d3_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L3_listen_5",
+  "id": "ch12_L3_listen_5",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d3_06",
+  "prompt": "Послушай. Что сказала сотрудница в конце?",
+  "answer": "Счастливого пути! Пока!",
+  "distractors": [
+   "Добро пожаловать домой! Пока!",
+   "Спокойной ночи! До завтра!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d3_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L3_read_1",
+  "id": "ch12_L3_read_1",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_018",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Один билет до Лейпцига, пожалуйста.",
+  "distractors": [
+   "Два билета до Дрездена, пожалуйста.",
+   "Я покупаю билет в Лейпциге."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Eine Fahrkarte nach Leipzig, bitte."
+ },
+ {
+  "item_id": "ch12_L3_read_2",
+  "id": "ch12_L3_read_2",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_019",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Поезд отправляется с пути 3.",
+  "distractors": [
+   "Поезд приезжает на путь 3.",
+   "Я еду с пути 3."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Der Zug fährt von Gleis drei ab."
+ },
+ {
+  "item_id": "ch12_L3_read_3",
+  "id": "ch12_L3_read_3",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_020",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я пересаживаюсь в Дрездене.",
+  "distractors": [
+   "Я живу в Дрездене.",
+   "Я выхожу в Дрездене."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich steige in Dresden um."
+ },
+ {
+  "item_id": "ch12_L3_read_4",
+  "id": "ch12_L3_read_4",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_022",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Поезд отправляется с пути 3?",
+  "distractors": [
+   "Где путь 3?",
+   "Поезд приезжает на путь 3?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Fährt der Zug von Gleis drei ab?"
+ },
+ {
+  "item_id": "ch12_L3_read_5",
+  "id": "ch12_L3_read_5",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_d3_04",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Путь 3 там. В Дрездене вы пересаживаетесь.",
+  "distractors": [
+   "Путь 3 здесь. В Дрездене вы живёте.",
+   "Поезд на пути 3. Вы едете в Дрезден."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Gleis drei ist dort. In Dresden steigen Sie um."
+ },
+ {
+  "item_id": "ch12_L3_speak_1",
+  "id": "ch12_L3_speak_1",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_018",
+  "prompt": "Попроси билет: «Один билет до Лейпцига, пожалуйста.» Fahrkarte — «фа:акарте».",
+  "answer": "Eine Fahrkarte nach Leipzig, bitte.",
+  "distractors": null,
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": "audio_v1/ch12_018.mp3",
+  "de": null,
+  "accept": [
+   "Eine Fahrkarte nach Leipzig, bitte."
+  ]
+ },
+ {
+  "item_id": "ch12_L3_speak_2",
+  "id": "ch12_L3_speak_2",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_019",
+  "prompt": "Скажи: «Поезд отправляется с пути 3.» Gleis — «глайс».",
+  "answer": "Der Zug fährt von Gleis drei ab.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_019.mp3",
+  "de": null,
+  "accept": [
+   "Der Zug fährt von Gleis drei ab."
+  ]
+ },
+ {
+  "item_id": "ch12_L3_speak_3",
+  "id": "ch12_L3_speak_3",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_020",
+  "prompt": "Скажи: «Я пересаживаюсь в Дрездене.»",
+  "answer": "Ich steige in Dresden um.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_020.mp3",
+  "de": null,
+  "accept": [
+   "Ich steige in Dresden um."
+  ]
+ },
+ {
+  "item_id": "ch12_L3_speak_4",
+  "id": "ch12_L3_speak_4",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_022",
+  "prompt": "Спроси: «Поезд отправляется с пути 3?»",
+  "answer": "Fährt der Zug von Gleis drei ab?",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_022.mp3",
+  "de": null,
+  "accept": [
+   "Fährt der Zug von Gleis drei ab?"
+  ]
+ },
+ {
+  "item_id": "ch12_L3_speak_5",
+  "id": "ch12_L3_speak_5",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_d3_03",
+  "prompt": "Спроси: «Где путь 3?»",
+  "answer": "Wo ist Gleis drei?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d3_03.mp3",
+  "de": null,
+  "accept": [
+   "Wo ist Gleis drei?"
+  ]
+ },
+ {
+  "item_id": "ch12_L3_write_1",
+  "id": "ch12_L3_write_1",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_018",
+  "prompt": "Впиши слово: «Eine ___ nach Leipzig, bitte.» (билет)",
+  "answer": "Fahrkarte",
+  "distractors": null,
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": "audio_v1/ch12_018.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L3_write_2",
+  "id": "ch12_L3_write_2",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_019",
+  "prompt": "Впиши слово: «Der Zug fährt von Gleis drei ___.» (отправляется — слово в конце)",
+  "answer": "ab",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_019.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L3_write_3",
+  "id": "ch12_L3_write_3",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_020",
+  "prompt": "Впиши слово: «Ich steige in Dresden ___.» (пересаживаюсь — слово в конце)",
+  "answer": "um",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_020.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L3_write_4",
+  "id": "ch12_L3_write_4",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_019",
+  "prompt": "Впиши слово: «Der Zug ___ von Gleis drei ab.» (отправляется)",
+  "answer": "fährt",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_019.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L3_write_5",
+  "id": "ch12_L3_write_5",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_d3_04",
+  "prompt": "Впиши слово: «Gleis drei ist ___.» (там)",
+  "answer": "dort",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d3_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L3_why_1",
+  "id": "ch12_L3_why_1",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_019",
+  "prompt": "Почему «Der Zug fährt von Gleis drei ab» — слово «ab» стоит в конце?",
+  "answer": "fährt … ab — одно действие из двух частей: ab — в конце.",
+  "distractors": [
+   "ab — просто короткое слово, поэтому оно в конце.",
+   "ab говорят только в объявлениях на вокзале."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Der Zug fährt von Gleis drei ab."
+ },
+ {
+  "item_id": "ch12_L3_why_2",
+  "id": "ch12_L3_why_2",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_020",
+  "prompt": "Почему «Ich steige in Dresden um» — слово «um» стоит в конце?",
+  "answer": "steige … um — одно действие из двух частей: um — в конце.",
+  "distractors": [
+   "um — название города, поэтому оно в конце.",
+   "steige … um — одно действие из двух частей: um — впереди."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich steige in Dresden um."
+ },
+ {
+  "item_id": "ch12_L3_why_3",
+  "id": "ch12_L3_why_3",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_022",
+  "prompt": "Почему в вопросе «Fährt der Zug von Gleis drei ab?» слово «Fährt» стоит первым?",
+  "answer": "Это вопрос «да/нет»: действие Fährt — впереди, ab — в конце.",
+  "distractors": [
+   "Это вопрос «да/нет»: действие Fährt — в конце, ab — в конце.",
+   "Так спрашивают только у кассы вокзала."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Fährt der Zug von Gleis drei ab?"
+ },
+ {
+  "item_id": "ch12_L3_why_4",
+  "id": "ch12_L3_why_4",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_018",
+  "prompt": "Почему «eine Fahrkarte», а не «ein Fahrkarte»?",
+  "answer": "Fahrkarte — die-слово: eine Fahrkarte.",
+  "distractors": [
+   "Fahrkarte — der-слово, как Bus.",
+   "eine говорят только про маленькие вещи."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Eine Fahrkarte nach Leipzig, bitte."
+ },
+ {
+  "item_id": "ch12_L3_why_5",
+  "id": "ch12_L3_why_5",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_d3_04",
+  "prompt": "Почему во фразе «In Dresden steigen Sie um» слово «steigen» стоит вторым?",
+  "answer": "В обычной фразе действие — вагон №2.",
+  "distractors": [
+   "steigen — самое длинное слово во фразе.",
+   "Sie — вежливое слово, поэтому оно первое."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Gleis drei ist dort. In Dresden steigen Sie um."
+ },
+ {
+  "item_id": "ch12_L3_transfer_1",
+  "id": "ch12_L3_transfer_1",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_t05",
+  "prompt": "У кассы в другой раз. Попроси: «Один билет до Хемница, пожалуйста.»",
+  "answer": "Eine Fahrkarte nach Chemnitz, bitte.",
+  "distractors": null,
+  "rule_id": "cards/phrases",
+  "transfer": true,
+  "audio": "audio_v1/ch12_t05.mp3",
+  "de": null,
+  "accept": [
+   "Eine Fahrkarte nach Chemnitz, bitte."
+  ]
+ },
+ {
+  "item_id": "ch12_L3_transfer_2",
+  "id": "ch12_L3_transfer_2",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_t06",
+  "prompt": "Тебе нужно сменить поезд в Хемнице. Скажи сотруднице: «Я пересаживаюсь в Хемнице.»",
+  "answer": "Ich steige in Chemnitz um.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch12_t06.mp3",
+  "de": null,
+  "accept": [
+   "Ich steige in Chemnitz um."
+  ]
+ },
+ {
+  "item_id": "ch12_L3_transfer_3",
+  "id": "ch12_L3_transfer_3",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_t06",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Я пересаживаюсь в Хемнице.",
+  "distractors": [
+   "Я выхожу в Хемнице.",
+   "Я живу в Хемнице."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch12_t06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L3_transfer_4",
+  "id": "ch12_L3_transfer_4",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_t06",
+  "prompt": "Впиши слово: «Ich steige in Chemnitz ___.» (пересаживаюсь — слово в конце)",
+  "answer": "um",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch12_t06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L3_transfer_5",
+  "id": "ch12_L3_transfer_5",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_t06",
+  "prompt": "Почему здесь «um» стоит в конце?",
+  "answer": "um — вторая часть действия, она стоит в конце.",
+  "distractors": [
+   "um — название города, поэтому оно в конце.",
+   "Chemnitz стоит в конце, а um — перед ним."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": null,
+  "de": "Ich steige in Chemnitz um."
+ },
+ {
+  "item_id": "ch12_L3_boss_1",
+  "id": "ch12_L3_boss_1",
+  "lesson": "ch12_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_019",
+  "prompt": "Послушай. Что делает поезд?",
+  "answer": "отправляется",
+  "distractors": [
+   "приезжает",
+   "стоит"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_019.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L4_words_1",
+  "id": "ch12_L4_words_1",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_024",
+  "prompt": "Что значит «geradeaus»?",
+  "answer": "прямо",
+  "distractors": [
+   "налево",
+   "направо"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L4_words_2",
+  "id": "ch12_L4_words_2",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_025",
+  "prompt": "Что значит «links»?",
+  "answer": "налево",
+  "distractors": [
+   "направо",
+   "прямо"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L4_words_3",
+  "id": "ch12_L4_words_3",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_025",
+  "prompt": "Что значит «rechts»?",
+  "answer": "направо",
+  "distractors": [
+   "налево",
+   "прямо"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L4_words_4",
+  "id": "ch12_L4_words_4",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_024",
+  "prompt": "Что значит «Geh»?",
+  "answer": "иди",
+  "distractors": [
+   "идёшь",
+   "еду"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L4_words_5",
+  "id": "ch12_L4_words_5",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_d4_04",
+  "prompt": "Что значит «dann»?",
+  "answer": "потом",
+  "distractors": [
+   "здесь",
+   "там"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L4_listen_1",
+  "id": "ch12_L4_listen_1",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d4_01",
+  "prompt": "Послушай. О чём спросил герой?",
+  "answer": "Ольга, где вокзал?",
+  "distractors": [
+   "Ольга, где остановка?",
+   "Ольга, где мой курс?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d4_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L4_listen_2",
+  "id": "ch12_L4_listen_2",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d4_02",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Иди прямо!",
+  "distractors": [
+   "Иди налево!",
+   "Иди направо!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d4_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L4_listen_3",
+  "id": "ch12_L4_listen_3",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d4_03",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "А потом?",
+  "distractors": [
+   "А где?",
+   "А как?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d4_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L4_listen_4",
+  "id": "ch12_L4_listen_4",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d4_04",
+  "prompt": "Послушай. Куда идти потом?",
+  "answer": "налево, а потом направо",
+  "distractors": [
+   "направо, а потом налево",
+   "прямо, а потом налево"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d4_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L4_listen_5",
+  "id": "ch12_L4_listen_5",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d4_06",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Пожалуйста! Пока!",
+  "distractors": [
+   "Спасибо! Пока!",
+   "Пожалуйста! Привет!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d4_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L4_read_1",
+  "id": "ch12_L4_read_1",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_024",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Иди прямо!",
+  "distractors": [
+   "Ты идёшь прямо.",
+   "Иди налево!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Geh geradeaus!"
+ },
+ {
+  "item_id": "ch12_L4_read_2",
+  "id": "ch12_L4_read_2",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_025",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Иди налево, потом направо!",
+  "distractors": [
+   "Иди направо, потом налево!",
+   "Ты идёшь налево, потом направо."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Geh links, dann rechts!"
+ },
+ {
+  "item_id": "ch12_L4_read_3",
+  "id": "ch12_L4_read_3",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_026",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Потом иди на вокзал!",
+  "distractors": [
+   "Потом ты идёшь на вокзал.",
+   "Потом иди с вокзала!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Dann geh zum Bahnhof!"
+ },
+ {
+  "item_id": "ch12_L4_read_4",
+  "id": "ch12_L4_read_4",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_d4_04",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Потом иди налево, а потом направо.",
+  "distractors": [
+   "Потом иди направо, а потом налево.",
+   "Потом ты идёшь налево, а потом направо."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Dann geh links und dann rechts."
+ },
+ {
+  "item_id": "ch12_L4_read_5",
+  "id": "ch12_L4_read_5",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_d4_05",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Налево, а потом направо. Спасибо, Ольга!",
+  "distractors": [
+   "Направо, а потом налево. Спасибо, Ольга!",
+   "Налево, а потом прямо. Пока, Ольга!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Links und dann rechts. Danke, Olga!"
+ },
+ {
+  "item_id": "ch12_L4_speak_1",
+  "id": "ch12_L4_speak_1",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_024",
+  "prompt": "Скажи Ольге: «Иди прямо!» Geh — «ге:».",
+  "answer": "Geh geradeaus!",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_024.mp3",
+  "de": null,
+  "accept": [
+   "Geh geradeaus!"
+  ]
+ },
+ {
+  "item_id": "ch12_L4_speak_2",
+  "id": "ch12_L4_speak_2",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_025",
+  "prompt": "Скажи: «Иди налево, потом направо!» rechts — «рэхьц».",
+  "answer": "Geh links, dann rechts!",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_025.mp3",
+  "de": null,
+  "accept": [
+   "Geh links, dann rechts!"
+  ]
+ },
+ {
+  "item_id": "ch12_L4_speak_3",
+  "id": "ch12_L4_speak_3",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_026",
+  "prompt": "Скажи: «Потом иди на вокзал!»",
+  "answer": "Dann geh zum Bahnhof!",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_026.mp3",
+  "de": null,
+  "accept": [
+   "Dann geh zum Bahnhof!"
+  ]
+ },
+ {
+  "item_id": "ch12_L4_speak_4",
+  "id": "ch12_L4_speak_4",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_d4_01",
+  "prompt": "Спроси Ольгу: «Ольга, где вокзал?»",
+  "answer": "Olga, wo ist der Bahnhof?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d4_01.mp3",
+  "de": null,
+  "accept": [
+   "Olga, wo ist der Bahnhof?"
+  ]
+ },
+ {
+  "item_id": "ch12_L4_speak_5",
+  "id": "ch12_L4_speak_5",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_d4_03",
+  "prompt": "Переспроси: «А потом?»",
+  "answer": "Und dann?",
+  "distractors": null,
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d4_03.mp3",
+  "de": null,
+  "accept": [
+   "Und dann?"
+  ]
+ },
+ {
+  "item_id": "ch12_L4_write_1",
+  "id": "ch12_L4_write_1",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_024",
+  "prompt": "Впиши слово: «Geh ___!» (прямо)",
+  "answer": "geradeaus",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_024.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L4_write_2",
+  "id": "ch12_L4_write_2",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_025",
+  "prompt": "Впиши слово: «Geh ___, dann rechts!» (налево)",
+  "answer": "links",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_025.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L4_write_3",
+  "id": "ch12_L4_write_3",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_025",
+  "prompt": "Впиши слово: «Geh links, dann ___!» (направо)",
+  "answer": "rechts",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_025.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L4_write_4",
+  "id": "ch12_L4_write_4",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_025",
+  "prompt": "Впиши слово: «Geh links, ___ rechts!» (потом)",
+  "answer": "dann",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_025.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L4_write_5",
+  "id": "ch12_L4_write_5",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_026",
+  "prompt": "Впиши слово: «Dann ___ zum Bahnhof!» (иди)",
+  "answer": "geh",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_026.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L4_why_1",
+  "id": "ch12_L4_why_1",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_024",
+  "prompt": "Почему «Geh geradeaus!» — без слова «ты»?",
+  "answer": "Так просят на «ты»: остаётся только основа действия.",
+  "distractors": [
+   "Так просят на «ты»: остаётся не только основа действия.",
+   "«Ты» не говорят, когда торопятся."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Geh geradeaus!"
+ },
+ {
+  "item_id": "ch12_L4_why_2",
+  "id": "ch12_L4_why_2",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_025",
+  "prompt": "Почему «Geh links», а не «Gehst links»?",
+  "answer": "Это просьба: окончание уходит, остаётся основа Geh.",
+  "distractors": [
+   "Gehst говорят только про других людей, а себе говорят Geh.",
+   "Gehst — это просьба на «вы», а не на «ты»."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Geh links, dann rechts!"
+ },
+ {
+  "item_id": "ch12_L4_why_3",
+  "id": "ch12_L4_why_3",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_026",
+  "prompt": "Почему в «Dann geh zum Bahnhof» слово «geh» стоит сразу после «Dann»?",
+  "answer": "В обычной фразе действие — вагон №2.",
+  "distractors": [
+   "geh — самое короткое слово.",
+   "После Dann всегда идёт название места."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Dann geh zum Bahnhof!"
+ },
+ {
+  "item_id": "ch12_L4_why_4",
+  "id": "ch12_L4_why_4",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_d4_04",
+  "prompt": "Почему «links» и «rechts» — с маленькой буквы?",
+  "answer": "Это слова «куда», а не предметы.",
+  "distractors": [
+   "Они короткие, поэтому с маленькой.",
+   "Это названия городов."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Dann geh links und dann rechts."
+ },
+ {
+  "item_id": "ch12_L4_why_5",
+  "id": "ch12_L4_why_5",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_d4_01",
+  "prompt": "Почему вопрос «Wo ist der Bahnhof?» начинается со слова «Wo»?",
+  "answer": "Вопрос-слово — вагон №1, действие ist — вагон №2.",
+  "distractors": [
+   "Вопрос-слово — вагон №1, действие ist — вагон №3.",
+   "Так спрашивают только на «вы»."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": null,
+  "de": "Olga, wo ist der Bahnhof?"
+ },
+ {
+  "item_id": "ch12_L4_transfer_1",
+  "id": "ch12_L4_transfer_1",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_t07",
+  "prompt": "Ольга ждёт на курсе. Скажи ей: «Иди на остановку!»",
+  "answer": "Geh zur Haltestelle!",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch12_t07.mp3",
+  "de": null,
+  "accept": [
+   "Geh zur Haltestelle!"
+  ]
+ },
+ {
+  "item_id": "ch12_L4_transfer_2",
+  "id": "ch12_L4_transfer_2",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_t08",
+  "prompt": "Объясни новичку: «Иди прямо, потом направо!»",
+  "answer": "Geh geradeaus, dann rechts!",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch12_t08.mp3",
+  "de": null,
+  "accept": [
+   "Geh geradeaus, dann rechts!"
+  ]
+ },
+ {
+  "item_id": "ch12_L4_transfer_3",
+  "id": "ch12_L4_transfer_3",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_t09",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Иди направо, потом прямо!",
+  "distractors": [
+   "Иди налево, потом прямо!",
+   "Иди прямо, потом направо!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch12_t09.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L4_transfer_4",
+  "id": "ch12_L4_transfer_4",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_t08",
+  "prompt": "Впиши слово: «Geh ___, dann rechts!» (прямо)",
+  "answer": "geradeaus",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch12_t08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L4_transfer_5",
+  "id": "ch12_L4_transfer_5",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_t08",
+  "prompt": "Почему здесь «Geh», а не «Gehst»?",
+  "answer": "Это просьба на «ты»: остаётся основа.",
+  "distractors": [
+   "Gehst — это просьба на «вы», а не на «ты».",
+   "Geh — название места: дальше идёт geradeaus."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": true,
+  "audio": null,
+  "de": "Geh geradeaus, dann rechts!"
+ },
+ {
+  "item_id": "ch12_L4_boss_1",
+  "id": "ch12_L4_boss_1",
+  "lesson": "ch12_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_025",
+  "prompt": "Послушай. Сколько поворотов в просьбе?",
+  "answer": "два",
+  "distractors": [
+   "один",
+   "три"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_025.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L5_words_1",
+  "id": "ch12_L5_words_1",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_d5_01",
+  "prompt": "Что значит «Apotheke»?",
+  "answer": "аптека",
+  "distractors": [
+   "вокзал",
+   "остановка"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L5_words_2",
+  "id": "ch12_L5_words_2",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_028",
+  "prompt": "Что значит «am Bahnhof»?",
+  "answer": "у вокзала",
+  "distractors": [
+   "на вокзал",
+   "с вокзала"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L5_words_3",
+  "id": "ch12_L5_words_3",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_029",
+  "prompt": "Что значит «an der Haltestelle»?",
+  "answer": "у остановки",
+  "distractors": [
+   "на остановку",
+   "с остановки"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L5_words_4",
+  "id": "ch12_L5_words_4",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_030",
+  "prompt": "Что значит «im Zentrum»?",
+  "answer": "в центре",
+  "distractors": [
+   "в городе",
+   "у центра"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L5_words_5",
+  "id": "ch12_L5_words_5",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_031",
+  "prompt": "Что значит «in der Stadt»?",
+  "answer": "в городе",
+  "distractors": [
+   "в центре",
+   "на вокзале"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L5_words_6",
+  "id": "ch12_L5_words_6",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_028",
+  "prompt": "Исправь ошибку: «Der Kurs ist an der Bahnhof.»",
+  "answer": "Der Kurs ist am Bahnhof.",
+  "distractors": [
+   "Der Kurs ist an die Bahnhof.",
+   "Der Kurs ist am der Bahnhof."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L5_listen_1",
+  "id": "ch12_L5_listen_1",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d5_01",
+  "prompt": "Послушай. О чём спросил герой?",
+  "answer": "Ольга, где аптека?",
+  "distractors": [
+   "Ольга, где вокзал?",
+   "Ольга, где остановка?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d5_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L5_listen_2",
+  "id": "ch12_L5_listen_2",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d5_02",
+  "prompt": "Послушай. Где аптека?",
+  "answer": "у вокзала",
+  "distractors": [
+   "у остановки",
+   "в центре"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d5_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L5_listen_3",
+  "id": "ch12_L5_listen_3",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d5_03",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "Где курс? Я в городе.",
+  "distractors": [
+   "Где курс? Я в центре.",
+   "Где аптека? Я в городе."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d5_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L5_listen_4",
+  "id": "ch12_L5_listen_4",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d5_04",
+  "prompt": "Послушай. Где курс?",
+  "answer": "в центре, у остановки",
+  "distractors": [
+   "у вокзала, в городе",
+   "в городе, у центра"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d5_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L5_listen_5",
+  "id": "ch12_L5_listen_5",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d5_06",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Пожалуйста! Пока!",
+  "distractors": [
+   "Спасибо! Пока!",
+   "Пожалуйста! Привет!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d5_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L5_read_1",
+  "id": "ch12_L5_read_1",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_028",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Курс у вокзала.",
+  "distractors": [
+   "Курс в центре.",
+   "Я иду к вокзалу."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Der Kurs ist am Bahnhof."
+ },
+ {
+  "item_id": "ch12_L5_read_2",
+  "id": "ch12_L5_read_2",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_029",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Аптека у остановки.",
+  "distractors": [
+   "Аптека в городе.",
+   "Я иду к остановке."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Apotheke ist an der Haltestelle."
+ },
+ {
+  "item_id": "ch12_L5_read_3",
+  "id": "ch12_L5_read_3",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_030",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Остановка в центре.",
+  "distractors": [
+   "Остановка у вокзала.",
+   "Курс в центре."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Haltestelle ist im Zentrum."
+ },
+ {
+  "item_id": "ch12_L5_read_4",
+  "id": "ch12_L5_read_4",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_031",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Аптека в городе.",
+  "distractors": [
+   "Аптека у вокзала.",
+   "Я живу в городе."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Apotheke ist in der Stadt."
+ },
+ {
+  "item_id": "ch12_L5_read_5",
+  "id": "ch12_L5_read_5",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_032",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Аптека у вокзала?",
+  "distractors": [
+   "Где аптека?",
+   "Аптека в центре?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ist die Apotheke am Bahnhof?"
+ },
+ {
+  "item_id": "ch12_L5_speak_1",
+  "id": "ch12_L5_speak_1",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_028",
+  "prompt": "Скажи: «Курс у вокзала.»",
+  "answer": "Der Kurs ist am Bahnhof.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_028.mp3",
+  "de": null,
+  "accept": [
+   "Der Kurs ist am Bahnhof."
+  ]
+ },
+ {
+  "item_id": "ch12_L5_speak_2",
+  "id": "ch12_L5_speak_2",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_029",
+  "prompt": "Скажи: «Аптека у остановки.»",
+  "answer": "Die Apotheke ist an der Haltestelle.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_029.mp3",
+  "de": null,
+  "accept": [
+   "Die Apotheke ist an der Haltestelle."
+  ]
+ },
+ {
+  "item_id": "ch12_L5_speak_3",
+  "id": "ch12_L5_speak_3",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_030",
+  "prompt": "Скажи: «Остановка в центре.» Zentrum — «цэнтрум».",
+  "answer": "Die Haltestelle ist im Zentrum.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_030.mp3",
+  "de": null,
+  "accept": [
+   "Die Haltestelle ist im Zentrum."
+  ]
+ },
+ {
+  "item_id": "ch12_L5_speak_4",
+  "id": "ch12_L5_speak_4",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_031",
+  "prompt": "Скажи: «Аптека в городе.» Apotheke — «апотэ:ке».",
+  "answer": "Die Apotheke ist in der Stadt.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_031.mp3",
+  "de": null,
+  "accept": [
+   "Die Apotheke ist in der Stadt."
+  ]
+ },
+ {
+  "item_id": "ch12_L5_speak_5",
+  "id": "ch12_L5_speak_5",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_d5_01",
+  "prompt": "Спроси Ольгу: «Ольга, где аптека?»",
+  "answer": "Olga, wo ist die Apotheke?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d5_01.mp3",
+  "de": null,
+  "accept": [
+   "Olga, wo ist die Apotheke?"
+  ]
+ },
+ {
+  "item_id": "ch12_L5_write_1",
+  "id": "ch12_L5_write_1",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_028",
+  "prompt": "Впиши слово: «Der Kurs ist ___ Bahnhof.» (у)",
+  "answer": "am",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_028.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L5_write_2",
+  "id": "ch12_L5_write_2",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_029",
+  "prompt": "Впиши слово: «Die Apotheke ist ___ der Haltestelle.» (у)",
+  "answer": "an",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_029.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L5_write_3",
+  "id": "ch12_L5_write_3",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_030",
+  "prompt": "Впиши слово: «Die Haltestelle ist ___ Zentrum.» (в)",
+  "answer": "im",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_030.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L5_write_4",
+  "id": "ch12_L5_write_4",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_031",
+  "prompt": "Впиши слово: «Die Apotheke ist ___ der Stadt.» (в)",
+  "answer": "in",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_031.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L5_write_5",
+  "id": "ch12_L5_write_5",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_028",
+  "prompt": "Впиши слово: «Der Kurs ist am ___.» (вокзал)",
+  "answer": "Bahnhof",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_028.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L5_why_1",
+  "id": "ch12_L5_why_1",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_028",
+  "prompt": "Почему «am Bahnhof», а не «an der Bahnhof»?",
+  "answer": "В am слиплись «у» и артикль: Bahnhof — der-слово.",
+  "distractors": [
+   "am — потому что вокзал большой.",
+   "В am слиплись «у» и артикль: Bahnhof — die-слово."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Der Kurs ist am Bahnhof."
+ },
+ {
+  "item_id": "ch12_L5_why_2",
+  "id": "ch12_L5_why_2",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_029",
+  "prompt": "Почему «an der Haltestelle»?",
+  "answer": "Haltestelle — die-слово: после an стоит der.",
+  "distractors": [
+   "der — потому что остановка маленькая.",
+   "an der — это одно слово, не предлог."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Apotheke ist an der Haltestelle."
+ },
+ {
+  "item_id": "ch12_L5_why_3",
+  "id": "ch12_L5_why_3",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_030",
+  "prompt": "Почему «im Zentrum»?",
+  "answer": "im — это «в» и артикль слитно.",
+  "distractors": [
+   "im — потому что центр большой.",
+   "im говорят только про людей."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Haltestelle ist im Zentrum."
+ },
+ {
+  "item_id": "ch12_L5_why_4",
+  "id": "ch12_L5_why_4",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_031",
+  "prompt": "Почему «in der Stadt», а не «in die Stadt»?",
+  "answer": "Здесь «где?»: Stadt — die-слово, после in стоит der.",
+  "distractors": [
+   "in die — это «где», а in der — «куда».",
+   "Здесь «где?»: Stadt — das-слово, после in стоит der."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Apotheke ist in der Stadt."
+ },
+ {
+  "item_id": "ch12_L5_why_5",
+  "id": "ch12_L5_why_5",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_d5_02",
+  "prompt": "Почему в «Die Apotheke ist am Bahnhof» слово «ist» стоит вторым?",
+  "answer": "В обычной фразе действие — вагон №2.",
+  "distractors": [
+   "ist — самое короткое слово.",
+   "В обычной фразе действие — вагон №3."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Apotheke ist am Bahnhof."
+ },
+ {
+  "item_id": "ch12_L5_transfer_1",
+  "id": "ch12_L5_transfer_1",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_t10",
+  "prompt": "Ольга спрашивает про остановку. Скажи: «Остановка у вокзала.»",
+  "answer": "Die Haltestelle ist am Bahnhof.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch12_t10.mp3",
+  "de": null,
+  "accept": [
+   "Die Haltestelle ist am Bahnhof."
+  ]
+ },
+ {
+  "item_id": "ch12_L5_transfer_2",
+  "id": "ch12_L5_transfer_2",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_t11",
+  "prompt": "Скажи Ольге: «Курс в городе.»",
+  "answer": "Der Kurs ist in der Stadt.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch12_t11.mp3",
+  "de": null,
+  "accept": [
+   "Der Kurs ist in der Stadt."
+  ]
+ },
+ {
+  "item_id": "ch12_L5_transfer_3",
+  "id": "ch12_L5_transfer_3",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_t12",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Аптека в центре.",
+  "distractors": [
+   "Аптека у центра.",
+   "Аптека в городе."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch12_t12.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L5_transfer_4",
+  "id": "ch12_L5_transfer_4",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_t11",
+  "prompt": "Впиши слово: «Der Kurs ist in der ___.» (город)",
+  "answer": "Stadt",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch12_t11.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L5_transfer_5",
+  "id": "ch12_L5_transfer_5",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_t12",
+  "prompt": "Почему в «Die Apotheke ist im Zentrum» слова Apotheke и Zentrum с большой буквы?",
+  "answer": "Слова-предметы по-немецки пишутся с большой буквы.",
+  "distractors": [
+   "С большой буквы пишут только длинные слова.",
+   "С большой буквы пишут названия городов."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": null,
+  "de": "Die Apotheke ist im Zentrum."
+ },
+ {
+  "item_id": "ch12_L5_boss_1",
+  "id": "ch12_L5_boss_1",
+  "lesson": "ch12_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_t11",
+  "prompt": "Послушай. Что сказали?",
+  "answer": "Курс в городе.",
+  "distractors": [
+   "Курс в центре, в городе.",
+   "Вокзал в городе, у курса."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch12_t11.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L6_words_1",
+  "id": "ch12_L6_words_1",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_001",
+  "prompt": "Что значит «mit dem Bus»?",
+  "answer": "на автобусе",
+  "distractors": [
+   "на поезде",
+   "пешком"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L6_words_2",
+  "id": "ch12_L6_words_2",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_004",
+  "prompt": "Что значит «zu Fuß»?",
+  "answer": "пешком",
+  "distractors": [
+   "на машине",
+   "на трамвае"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L6_words_3",
+  "id": "ch12_L6_words_3",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_018",
+  "prompt": "Что значит «Fahrkarte»?",
+  "answer": "билет",
+  "distractors": [
+   "расписание",
+   "перрон"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L6_words_4",
+  "id": "ch12_L6_words_4",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_024",
+  "prompt": "Что значит «geradeaus»?",
+  "answer": "прямо",
+  "distractors": [
+   "налево",
+   "направо"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L6_words_5",
+  "id": "ch12_L6_words_5",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_028",
+  "prompt": "Что значит «am Bahnhof»?",
+  "answer": "у вокзала",
+  "distractors": [
+   "на вокзал",
+   "с вокзала"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L6_words_6",
+  "id": "ch12_L6_words_6",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch12_011",
+  "prompt": "Исправь ошибку: «Ich gehe zu der Bahnhof.»",
+  "answer": "Ich gehe zum Bahnhof.",
+  "distractors": [
+   "Ich gehe zur Bahnhof.",
+   "Ich gehe zu dem der Bahnhof."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch12_L6_listen_1",
+  "id": "ch12_L6_listen_1",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d6_01",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Как ты едешь на вокзал?",
+  "distractors": [
+   "Где вокзал?",
+   "Как ты едешь в Дрезден?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d6_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L6_listen_2",
+  "id": "ch12_L6_listen_2",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d6_02",
+  "prompt": "Послушай. Как герой едет на вокзал?",
+  "answer": "на автобусе",
+  "distractors": [
+   "на поезде",
+   "пешком"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d6_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L6_listen_3",
+  "id": "ch12_L6_listen_3",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d6_03",
+  "prompt": "Послушай. Куда идти?",
+  "answer": "налево, потом прямо",
+  "distractors": [
+   "прямо, потом налево",
+   "направо, потом прямо"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d6_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L6_listen_4",
+  "id": "ch12_L6_listen_4",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d6_05",
+  "prompt": "Послушай. Где остановка?",
+  "answer": "у аптеки",
+  "distractors": [
+   "у вокзала",
+   "в центре"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d6_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L6_listen_5",
+  "id": "ch12_L6_listen_5",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_019",
+  "prompt": "Послушай. С какого пути отправляется поезд?",
+  "answer": "с пути 3",
+  "distractors": [
+   "с пути 1",
+   "с пути 2"
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v1/ch12_019.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L6_read_1",
+  "id": "ch12_L6_read_1",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_002",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я еду на поезде в Дрезден.",
+  "distractors": [
+   "Я иду пешком в Дрезден.",
+   "Я живу в Дрездене."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich fahre mit dem Zug nach Dresden."
+ },
+ {
+  "item_id": "ch12_L6_read_2",
+  "id": "ch12_L6_read_2",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_020",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я пересаживаюсь в Дрездене.",
+  "distractors": [
+   "Я живу в Дрездене.",
+   "Я выхожу из поезда в Дрездене."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich steige in Dresden um."
+ },
+ {
+  "item_id": "ch12_L6_read_3",
+  "id": "ch12_L6_read_3",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_018",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Один билет до Лейпцига, пожалуйста.",
+  "distractors": [
+   "Один билет из Лейпцига, пожалуйста.",
+   "Два билета до Лейпцига, пожалуйста."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Eine Fahrkarte nach Leipzig, bitte."
+ },
+ {
+  "item_id": "ch12_L6_read_4",
+  "id": "ch12_L6_read_4",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_025",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Иди налево, потом направо!",
+  "distractors": [
+   "Иди направо, потом налево!",
+   "Иди прямо, потом налево!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Geh links, dann rechts!"
+ },
+ {
+  "item_id": "ch12_L6_read_5",
+  "id": "ch12_L6_read_5",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch12_029",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Аптека у остановки.",
+  "distractors": [
+   "Аптека в городе.",
+   "Я иду к остановке."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Apotheke ist an der Haltestelle."
+ },
+ {
+  "item_id": "ch12_L6_speak_1",
+  "id": "ch12_L6_speak_1",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_001",
+  "prompt": "Скажи: «Я еду на автобусе.»",
+  "answer": "Ich fahre mit dem Bus.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_001.mp3",
+  "de": null,
+  "accept": [
+   "Ich fahre mit dem Bus."
+  ]
+ },
+ {
+  "item_id": "ch12_L6_speak_2",
+  "id": "ch12_L6_speak_2",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_004",
+  "prompt": "Скажи: «Я иду пешком.»",
+  "answer": "Ich gehe zu Fuß.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_004.mp3",
+  "de": null,
+  "accept": [
+   "Ich gehe zu Fuß."
+  ]
+ },
+ {
+  "item_id": "ch12_L6_speak_3",
+  "id": "ch12_L6_speak_3",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_018",
+  "prompt": "Скажи: «Один билет до Лейпцига, пожалуйста.»",
+  "answer": "Eine Fahrkarte nach Leipzig, bitte.",
+  "distractors": null,
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": "audio_v1/ch12_018.mp3",
+  "de": null,
+  "accept": [
+   "Eine Fahrkarte nach Leipzig, bitte."
+  ]
+ },
+ {
+  "item_id": "ch12_L6_speak_4",
+  "id": "ch12_L6_speak_4",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_024",
+  "prompt": "Скажи: «Иди прямо!»",
+  "answer": "Geh geradeaus!",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_024.mp3",
+  "de": null,
+  "accept": [
+   "Geh geradeaus!"
+  ]
+ },
+ {
+  "item_id": "ch12_L6_speak_5",
+  "id": "ch12_L6_speak_5",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_031",
+  "prompt": "Скажи: «Аптека в городе.» Apotheke — «апотэ:ке».",
+  "answer": "Die Apotheke ist in der Stadt.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_031.mp3",
+  "de": null,
+  "accept": [
+   "Die Apotheke ist in der Stadt."
+  ]
+ },
+ {
+  "item_id": "ch12_L6_write_1",
+  "id": "ch12_L6_write_1",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_001",
+  "prompt": "Впиши слово: «Ich fahre ___ dem Bus.» (на)",
+  "answer": "mit",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_001.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L6_write_2",
+  "id": "ch12_L6_write_2",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_011",
+  "prompt": "Впиши слово: «Ich gehe ___ Bahnhof.» (на вокзал, слитно)",
+  "answer": "zum",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_011.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L6_write_3",
+  "id": "ch12_L6_write_3",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_013",
+  "prompt": "Впиши слово: «Ich komme ___ Kurs.» (с курса, слитно)",
+  "answer": "vom",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch12_013.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L6_write_4",
+  "id": "ch12_L6_write_4",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_030",
+  "prompt": "Впиши слово: «Die Haltestelle ist ___ Zentrum.» (в)",
+  "answer": "im",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_030.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L6_write_5",
+  "id": "ch12_L6_write_5",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_019",
+  "prompt": "Впиши слово: «Der Zug fährt von Gleis drei ___.» (отправляется)",
+  "answer": "ab",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch12_019.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L6_why_1",
+  "id": "ch12_L6_why_1",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_001",
+  "prompt": "Почему «mit dem Bus», а не «mit der Bus»?",
+  "answer": "Bus — der-слово: после mit стоит dem.",
+  "distractors": [
+   "dem — потому что автобус большой.",
+   "mit говорят только про людей."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich fahre mit dem Bus."
+ },
+ {
+  "item_id": "ch12_L6_why_2",
+  "id": "ch12_L6_why_2",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_011",
+  "prompt": "Почему «zum Bahnhof»?",
+  "answer": "zum — это «к» и dem слитно: Bahnhof — der-слово.",
+  "distractors": [
+   "zum — это «к» и dem слитно: Bahnhof — die-слово.",
+   "zum говорят только про вокзалы."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich gehe zum Bahnhof."
+ },
+ {
+  "item_id": "ch12_L6_why_3",
+  "id": "ch12_L6_why_3",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_024",
+  "prompt": "Почему в «Geh geradeaus!» нет слова «du»?",
+  "answer": "Просьбу на «ты» говорят без du: берут основу действия.",
+  "distractors": [
+   "du — слишком длинное слово, поэтому его сокращают до Geh.",
+   "du говорят только в вопросе, а в просьбе ставят основу."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Geh geradeaus!"
+ },
+ {
+  "item_id": "ch12_L6_why_4",
+  "id": "ch12_L6_why_4",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_020",
+  "prompt": "Почему в «Ich steige in Dresden um» слово «um» стоит в конце?",
+  "answer": "Действие из двух частей: steige — вагон №2, um — в самом конце.",
+  "distractors": [
+   "Действие из двух частей: steige — вагон №3, um — в самом конце.",
+   "В конце всегда стоит город."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich steige in Dresden um."
+ },
+ {
+  "item_id": "ch12_L6_why_5",
+  "id": "ch12_L6_why_5",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_029",
+  "prompt": "Почему «an der Haltestelle»?",
+  "answer": "Haltestelle — die-слово: после an стоит der.",
+  "distractors": [
+   "der — потому что остановка маленькая.",
+   "an der — это одно слово."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Apotheke ist an der Haltestelle."
+ },
+ {
+  "item_id": "ch12_L6_transfer_1",
+  "id": "ch12_L6_transfer_1",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_t13",
+  "prompt": "Ольга спрашивает про курс. Скажи: «Ты едешь на автобусе на курс?»",
+  "answer": "Fährst du mit dem Bus zum Kurs?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch12_t13.mp3",
+  "de": null,
+  "accept": [
+   "Fährst du mit dem Bus zum Kurs?"
+  ]
+ },
+ {
+  "item_id": "ch12_L6_transfer_2",
+  "id": "ch12_L6_transfer_2",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch12_t14",
+  "prompt": "Покажи Ольге дорогу. Скажи: «Иди прямо, потом на вокзал!»",
+  "answer": "Geh geradeaus, dann zum Bahnhof!",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch12_t14.mp3",
+  "de": null,
+  "accept": [
+   "Geh geradeaus, dann zum Bahnhof!"
+  ]
+ },
+ {
+  "item_id": "ch12_L6_transfer_3",
+  "id": "ch12_L6_transfer_3",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_t15",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Вокзал в городе.",
+  "distractors": [
+   "Вокзал в центре.",
+   "Аптека в городе."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch12_t15.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L6_transfer_4",
+  "id": "ch12_L6_transfer_4",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch12_t13",
+  "prompt": "Впиши слово: «Fährst du mit dem Bus ___ Kurs?» (на, слитно)",
+  "answer": "zum",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": "audio_v1/ch12_t13.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L6_transfer_5",
+  "id": "ch12_L6_transfer_5",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch12_t15",
+  "prompt": "Почему в «Der Bahnhof ist in der Stadt» слово «ist» стоит вторым?",
+  "answer": "В обычной фразе действие — вагон №2.",
+  "distractors": [
+   "ist — самое короткое слово.",
+   "В обычной фразе действие — вагон №3."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": null,
+  "de": "Der Bahnhof ist in der Stadt."
+ },
+ {
+  "item_id": "ch12_L6_boss_1",
+  "id": "ch12_L6_boss_1",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_d6_07",
+  "prompt": "Послушай. Что сказали?",
+  "answer": "Пожалуйста! Счастливого пути!",
+  "distractors": [
+   "Пожалуйста! Пока!",
+   "Спасибо! Счастливого пути!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch12_d6_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch12_L6_boss_2",
+  "id": "ch12_L6_boss_2",
+  "lesson": "ch12_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch12_022",
+  "prompt": "Послушай. О чём спросили?",
+  "answer": "Поезд отправляется с пути 3?",
+  "distractors": [
+   "Поезд прибывает на путь 3?",
+   "Поезд пересаживается с пути 3?"
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v1/ch12_022.mp3",
+  "de": null
+ }
+]

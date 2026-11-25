@@ -1,0 +1,6272 @@
+[
+ {
+  "id": "ch11_d1",
+  "title_ru": "На курсе: у Ольги день рождения",
+  "roles": {
+   "S": "Sofia (одногруппница)",
+   "O": "Olga (одногруппница)",
+   "H": "{hero_name} (герой)",
+   "B": "Frau Becker (учительница)"
+  },
+  "lines": [
+   {
+    "id": "ch11_d1_01",
+    "role": "S",
+    "de": "Olga, hast du heute Geburtstag?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ольга, у тебя сегодня день рождения?",
+    "nouns": [
+     {
+      "lemma": "Geburtstag",
+      "art": "der",
+      "pl": "Geburtstage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Olga",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "hast",
+       "role": "действие №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "heute",
+       "role": "когда"
+      },
+      {
+       "w": "Geburtstag",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Вопрос «да/нет»: hast впереди. Дословно — «имеешь сегодня день рождения?».",
+     "topic": "questions",
+     "why_de": "Действие впереди (hast) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Olga, hast du heute Geburtstag?",
+     "why_ru": "По-русски «Ольга, у тебя сегодня день рождения» — вопрос только голосом, порядок как в ответе. По-немецки действие hast выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Olga, du hast heute Geburtstag?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Ольга, у тебя сегодня день рождения?!»). Обычный вопрос — действие впереди."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос «да/нет»: hast впереди. Дословно — «имеешь сегодня день рождения?»."
+    },
+    "audio": "audio_v1/ch11_d1_01.mp3",
+    "tts": "Olga, hast du heute Geburtstag?",
+    "ipa": [
+     {
+      "w": "Olga",
+      "ipa": "[ˈɔlɡa]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "heute",
+      "ipa": "[ˈhɔɪ̯tə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Geburtstag",
+      "ipa": "[ɡəˈbuːɐ̯t͡sˌtaːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: O… · действие (вагон №1): h… · кто: d… · когда: h… · кого-что: G…",
+    "gap": {
+     "text": "Olga, ___ du heute ___?",
+     "answers": [
+      "hast",
+      "Geburtstag"
+     ]
+    },
+    "task_ru": "Скажи: Ольга, у тебя сегодня день рождения?"
+   },
+   {
+    "id": "ch11_d1_02",
+    "role": "O",
+    "de": "Ja, ich habe heute Geburtstag.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, у меня сегодня день рождения.",
+    "nouns": [
+     {
+      "lemma": "Geburtstag",
+      "art": "der",
+      "pl": "Geburtstage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "действие №2"
+      },
+      {
+       "w": "heute",
+       "role": "когда"
+      },
+      {
+       "w": "Geburtstag",
+       "role": "кого-что"
+      }
+     ],
+     "text": "ja не занимает вагон. Дальше поезд: ich · habe · heute · Geburtstag — про себя день рождения «имеют».",
+     "topic": "verb2",
+     "why_de": "Ja не занимает вагон. Дальше: ich · habe · heute · Geburtstag: действие habe — вагон №2. Про себя день рождения «имеют»: ich habe Geburtstag.",
+     "why_ru": "По-русски «у меня сегодня день рождения». По-немецки наоборот — я имею: ich habe heute Geburtstag.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ja, ich bin heute Geburtstag.",
+      "ru": "Ошибка — bin: так получается, что я сам и есть день рождения. Про себя говорят ich habe Geburtstag."
+     },
+     "root": null,
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "ja не занимает вагон. Дальше поезд: ich · habe · heute · Geburtstag — про себя день рождения «имеют»."
+    },
+    "audio": "audio_v1/ch11_d1_02.mp3",
+    "tts": "Ja, ich habe heute Geburtstag.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "heute",
+      "ipa": "[ˈhɔɪ̯tə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Geburtstag",
+      "ipa": "[ɡəˈbuːɐ̯t͡sˌtaːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: i… · действие (вагон №2): h… · когда: h… · кого-что: G…",
+    "gap": {
+     "text": "Ja, ich ___ heute ___.",
+     "answers": [
+      "habe",
+      "Geburtstag"
+     ]
+    },
+    "task_ru": "Скажи: Да, у меня сегодня день рождения."
+   },
+   {
+    "id": "ch11_d1_03",
+    "role": "H",
+    "de": "Alles Gute zum Geburtstag, Olga!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "С днём рождения, Ольга!",
+    "nouns": [
+     {
+      "lemma": "Gute",
+      "art": "das",
+      "pl": ""
+     },
+     {
+      "lemma": "Geburtstag",
+      "art": "der",
+      "pl": "Geburtstage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Alles Gute",
+       "role": "кого-что"
+      },
+      {
+       "w": "zum Geburtstag",
+       "role": "когда"
+      },
+      {
+       "w": "Olga",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Главное поздравление, его говорят целиком. Имя — в конце, после запятой.",
+     "topic": "word_order",
+     "why_de": "Пожелание без действия: Alles Gute — всего хорошего, zum Geburtstag — ко дню рождения. Немцы говорят его целиком.",
+     "why_ru": "По-русски «С днём рождения» — тоже без действия. Разница в маленьком слове: по-русски «с», по-немецки zum — дословно: ко дню.",
+     "layer": "short",
+     "why_not": {
+      "wrong": "Alles Gute mit Geburtstag, Olga!",
+      "ru": "Калька с русского «с днём рождения» — mit. Немец так не говорит: день рождения — повод, и желают к нему: zum Geburtstag."
+     },
+     "root": null,
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "Главное поздравление, его говорят целиком. Имя — в конце, после запятой."
+    },
+    "audio": "audio_v1/ch11_d1_03.mp3",
+    "tts": "Alles Gute zum Geburtstag, Olga!",
+    "ipa": [
+     {
+      "w": "Alles",
+      "ipa": "[ˈaləs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Gute",
+      "ipa": "[ˈɡuːtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "zum",
+      "ipa": "[t͡sʊm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Geburtstag",
+      "ipa": "[ɡəˈbuːɐ̯t͡sˌtaːk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Olga",
+      "ipa": "[ˈɔlɡa]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "нет в Wiktionary: Gute",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кого-что: A… G… · когда: z… G… · привет/вежливость: O…",
+    "gap": {
+     "text": "Alles ___ zum Geburtstag, Olga!",
+     "answers": [
+      "Gute"
+     ]
+    },
+    "task_ru": "Скажи: С днём рождения, Ольга!"
+   },
+   {
+    "id": "ch11_d1_04",
+    "role": "S",
+    "de": "Herzlichen Glückwunsch!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Поздравляю от души!",
+    "nouns": [
+     {
+      "lemma": "Glückwunsch",
+      "art": "der",
+      "pl": "Glückwünsche"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Herzlichen Glückwunsch",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Второе поздравление. Glückwunsch — der-слово, поэтому Herzlichen.",
+     "topic": "articles",
+     "why_de": "Пожелание без действия, его говорят целиком. Glückwunsch — der-слово, поэтому Herzlichen, а не Herzliche.",
+     "why_ru": "По-русски «Поздравляю от души» — действие есть. По-немецки в этой формуле действия нет: дословно — сердечное пожелание счастья.",
+     "layer": "short",
+     "why_not": {
+      "wrong": "Herzliche Glückwunsch!",
+      "ru": "Частая ошибка — Herzliche вместо Herzlichen. Glückwunsch — der-слово: в пожелании перед ним Herzlichen."
+     },
+     "root": null,
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "Второе поздравление. Glückwunsch — der-слово, поэтому Herzlichen."
+    },
+    "audio": "audio_v1/ch11_d1_04.mp3",
+    "tts": "Herzlichen Glückwunsch! Herzlichen Glückwunsch!",
+    "ipa": [
+     {
+      "w": "Herzlichen",
+      "ipa": "[ˈhɛʁt͡slɪçn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Glückwunsch",
+      "ipa": "[ˈɡlʏkˌvʊnʃ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кого-что: H… G…",
+    "gap": {
+     "text": "Herzlichen ___!",
+     "answers": [
+      "Glückwunsch"
+     ]
+    },
+    "task_ru": "Скажи: Поздравляю от души!"
+   },
+   {
+    "id": "ch11_d1_05",
+    "role": "O",
+    "de": "Danke!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Спасибо!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Danke — «спасибо», готовое слово.",
+     "topic": "word_order",
+     "why_de": "Короткое спасибо: подходит почти везде.",
+     "why_ru": "Как «спасибо».",
+     "layer": "chunk",
+     "why_not": {
+      "wrong": null,
+      "ru": "Ошибки тут почти не бывает; вежливее — Danke schön."
+     },
+     "source": "tools/why_chunks.json",
+     "root": null,
+     "why_voice_ru": "Danke — «спасибо», готовое слово."
+    },
+    "audio": "audio_v1/ch11_d1_05.mp3",
+    "tts": "Danke! Danke!",
+    "ipa": [
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: D…",
+    "gap": {
+     "text": "___!",
+     "answers": [
+      "Danke"
+     ]
+    },
+    "task_ru": "Скажи: Спасибо!"
+   },
+   {
+    "id": "ch11_d1_06",
+    "role": "H",
+    "de": "Das ist für dich.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Это тебе.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Das",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "für dich",
+       "role": "кому"
+      }
+     ],
+     "text": "für dich — «для тебя». Без ist по-немецки фразы нет.",
+     "topic": "verb2",
+     "why_de": "Das · ist · für dich: действие ist — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Это тебе» — без действия «есть». По-немецки без ist фразы нет: Das ist für dich.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Das für dich.",
+      "ru": "Русская привычка — без действия, как «Это тебе». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "für dich — «для тебя». Без ist по-немецки фразы нет."
+    },
+    "audio": "audio_v1/ch11_d1_06.mp3",
+    "tts": "Das ist für dich.",
+    "ipa": [
+     {
+      "w": "Das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "für",
+      "ipa": "[fyːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "dich",
+      "ipa": "[dɪç]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… · действие (вагон №2): i… · кому: f… d…",
+    "gap": {
+     "text": "Das ___ für ___.",
+     "answers": [
+      "ist",
+      "dich"
+     ]
+    },
+    "task_ru": "Скажи: Это тебе."
+   },
+   {
+    "id": "ch11_d1_07",
+    "role": "O",
+    "de": "Ein Geschenk? Danke!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Подарок? Спасибо!",
+    "nouns": [
+     {
+      "lemma": "Geschenk",
+      "art": "das",
+      "pl": "Geschenke"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ein Geschenk",
+       "role": "кого-что"
+      },
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Ein Geschenk? — удивление: голос идёт вверх. das Geschenk → ein Geschenk.",
+     "topic": "articles",
+     "why_de": "Короткая реплика без действия: Ein Geschenk? — удивление, голос идёт вверх. Потом готовое Danke.",
+     "why_ru": "По-русски так же: «Подарок? Спасибо!» — два коротких куска.",
+     "layer": "short",
+     "why_not": {
+      "wrong": "Geschenk? Danke!",
+      "ru": "По-русски «подарок» — без маленького слова. По-немецки перед Geschenk нужно ein: один подарок."
+     },
+     "root": null,
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "Ein Geschenk? — удивление: голос идёт вверх. das Geschenk → ein Geschenk."
+    },
+    "audio": "audio_v1/ch11_d1_07.mp3",
+    "tts": "Ein Geschenk? Danke!",
+    "ipa": [
+     {
+      "w": "Ein",
+      "ipa": "[aɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Geschenk",
+      "ipa": "[ɡəˈʃɛŋk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кого-что: E… G… · привет/вежливость: D…",
+    "gap": {
+     "text": "Ein ___? Danke!",
+     "answers": [
+      "Geschenk"
+     ]
+    },
+    "task_ru": "Скажи: Подарок? Спасибо!"
+   },
+   {
+    "id": "ch11_d1_08",
+    "role": "B",
+    "de": "Viel Glück, Olga!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Удачи, Ольга!",
+    "nouns": [
+     {
+      "lemma": "Glück",
+      "art": "das",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Viel Glück",
+       "role": "кого-что"
+      },
+      {
+       "w": "Olga",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Viel Glück — «много счастья, удачи». Артикля нет: счастье не считают штуками.",
+     "topic": "word_order",
+     "why_de": "Пожелание без действия: Viel Glück — много счастья, удачи. Glück не считают штуками, поэтому артикля нет.",
+     "why_ru": "По-русски «Удачи» — одно слово. По-немецки два: Viel Glück — дословно: много удачи.",
+     "layer": "short",
+     "why_not": {
+      "wrong": "Viele Glück, Olga!",
+      "ru": "Ошибка — Viele. Viele говорят про то, что считают штуками. Glück не считают, поэтому Viel."
+     },
+     "root": null,
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "Viel Glück — «много счастья, удачи». Артикля нет: счастье не считают штуками."
+    },
+    "audio": "audio_v1/ch11_d1_08.mp3",
+    "tts": "Viel Glück, Olga!",
+    "ipa": [
+     {
+      "w": "Viel",
+      "ipa": "[fiːl]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Glück",
+      "ipa": "[ɡlʏk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Olga",
+      "ipa": "[ˈɔlɡa]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кого-что: V… G… · привет/вежливость: O…",
+    "gap": {
+     "text": "Viel ___, Olga!",
+     "answers": [
+      "Glück"
+     ]
+    },
+    "task_ru": "Скажи: Удачи, Ольга!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": "Теперь день рождения у соседа: ты принёс ему подарок и хочешь его поздравить — а он ещё не сказал, что праздник сегодня."
+  }
+ },
+ {
+  "id": "ch11_d2",
+  "title_ru": "Открытки: кого ты поздравляешь",
+  "roles": {
+   "O": "Olga (одногруппница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch11_d2_01",
+    "role": "O",
+    "de": "Wem gratulierst du?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Кого ты поздравляешь?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wem",
+       "role": "кому"
+      },
+      {
+       "w": "gratulierst",
+       "role": "действие №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      }
+     ],
+     "text": "Wem — вопрос-слово: так спрашивают, кому желают.",
+     "topic": "questions",
+     "why_de": "Вагон №1 занят: Wem. Действие gratulierst всё равно в вагоне №2, а «кто» (du) — за ним: Wem gratulierst du?",
+     "why_ru": "По-русски «Кого ты поздравляешь» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, gratulierst — вагон №2.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Wem du gratulierst?",
+      "ru": "Русский порядок: «кто» (du) перед действием, и gratulierst уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Wem — вопрос-слово: так спрашивают, кому желают."
+    },
+    "audio": "audio_v1/ch11_d2_01.mp3",
+    "tts": "Wem gratulierst du?",
+    "ipa": [
+     {
+      "w": "Wem",
+      "ipa": "[veːm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gratulierst",
+      "ipa": "[ɡʁatuˈliːɐ̯st]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кому: W… · действие (вагон №2): g… · кто: d…",
+    "gap": {
+     "text": "___ ___ du?",
+     "answers": [
+      "Wem",
+      "gratulierst"
+     ]
+    },
+    "task_ru": "Скажи: Кого ты поздравляешь?"
+   },
+   {
+    "id": "ch11_d2_02",
+    "role": "H",
+    "de": "Ich gratuliere meinem Chef.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я поздравляю моего начальника.",
+    "nouns": [
+     {
+      "lemma": "Chef",
+      "art": "der",
+      "pl": "Chefs"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "gratuliere",
+       "role": "действие №2"
+      },
+      {
+       "w": "meinem Chef",
+       "role": "кому"
+      }
+     ],
+     "text": "Chef — der-слово: после gratuliere форма meinem.",
+     "topic": "akkusativ",
+     "why_de": "После gratuliere слово стоит в форме для того, кому желают. Chef — der-слово, у него своя форма: meinem Chef.",
+     "why_ru": "По-русски поздравляют кого. По-немецки после gratuliere нужен тот, кому желают: meinem Chef.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich gratuliere meinen Chef.",
+      "ru": "Калька с русского: форма не та. После gratuliere нужно как в meinem Chef."
+     },
+     "root": null,
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "Chef — der-слово: после gratuliere форма meinem.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «кому»",
+      "items": [
+       {
+        "id": "ch11_013",
+        "de": "Ich gratuliere meiner Kollegin.",
+        "ru": "Я поздравляю мою коллегу.",
+        "audio": "audio_v1/ch11_013.mp3",
+        "lesson": "L2",
+        "part": 3,
+        "changed": {
+         "role": "кому",
+         "wagon": 3,
+         "from": "meinem Chef",
+         "to": "meiner Kollegin"
+        }
+       },
+       {
+        "id": "ch11_015",
+        "de": "Ich gratuliere meiner Mutter.",
+        "ru": "Я поздравляю мою маму.",
+        "audio": "audio_v1/ch11_015.mp3",
+        "lesson": "L2",
+        "part": 3,
+        "changed": {
+         "role": "кому",
+         "wagon": 3,
+         "from": "meinem Chef",
+         "to": "meiner Mutter"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Ich · gratuliere. В каждом примере меняется один вагон — «кому»: meinem Chef → meiner Kollegin → meiner Mutter. Действие gratuliere всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch11_d2_02.mp3",
+    "tts": "Ich gratuliere meinem Chef.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gratuliere",
+      "ipa": "[ɡʁatuˈliːʁə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "meinem",
+      "ipa": "[ˈmaɪ̯nəm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Chef",
+      "ipa": "[ʃɛf]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): g… · кому: m… C…",
+    "gap": {
+     "text": "Ich ___ meinem ___.",
+     "answers": [
+      "gratuliere",
+      "Chef"
+     ]
+    },
+    "task_ru": "Скажи: Я поздравляю моего начальника."
+   },
+   {
+    "id": "ch11_d2_03",
+    "role": "O",
+    "de": "Gratulierst du auch deiner Kollegin?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ты поздравляешь и твою коллегу?",
+    "nouns": [
+     {
+      "lemma": "Kollegin",
+      "art": "die",
+      "pl": "Kolleginnen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Gratulierst",
+       "role": "действие №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "auch",
+       "role": "добавка"
+      },
+      {
+       "w": "deiner Kollegin",
+       "role": "кому"
+      }
+     ],
+     "text": "Вопрос с ответом да или нет: действие впереди. Kollegin — die-слово, форма deiner.",
+     "topic": "questions",
+     "why_de": "Вопрос с ответом да или нет: действие Gratulierst стоит впереди, du после него. Для Kollegin — форма deiner Kollegin.",
+     "why_ru": "Русский вопрос можно задать одним голосом. По-немецки действие идёт первым: Gratulierst du auch deiner Kollegin?",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "Du gratulierst auch deiner Kollegin?",
+      "ru": "Так звучит утверждение. Для вопроса с ответом да или нет действие Gratulierst ставят первым."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "Вопрос с ответом да или нет: действие впереди. Kollegin — die-слово, форма deiner.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "действие (вагон №1) · «кто» · добавка · «кому»",
+      "items": [
+       {
+        "id": "ch11_d2_05",
+        "de": "Gratulierst du auch deiner Mutter?",
+        "ru": "Ты поздравляешь и твою маму?",
+        "audio": "audio_v1/ch11_d2_05.mp3",
+        "lesson": "L2",
+        "part": 4,
+        "changed": {
+         "role": "кому",
+         "wagon": 4,
+         "from": "deiner Kollegin",
+         "to": "deiner Mutter"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Gratulierst · du · auch. В каждом примере меняется один вагон — «кому»: deiner Kollegin → deiner Mutter. Действие Gratulierst всё так же в вагоне №1.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch11_d2_03.mp3",
+    "tts": "Gratulierst du auch deiner Kollegin?",
+    "ipa": [
+     {
+      "w": "Gratulierst",
+      "ipa": "[ɡʁatuˈliːɐ̯st]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "auch",
+      "ipa": "[aʊ̯x]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "deiner",
+      "ipa": "[ˈdaɪ̯nɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kollegin",
+      "ipa": "[ˌkɔˈleːɡɪn]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): G… · кто: d… · добавка: a… · кому: d… K…",
+    "gap": {
+     "text": "___ du auch deiner ___?",
+     "answers": [
+      "Gratulierst",
+      "Kollegin"
+     ]
+    },
+    "task_ru": "Скажи: Ты поздравляешь и твою коллегу?"
+   },
+   {
+    "id": "ch11_d2_04",
+    "role": "H",
+    "de": "Ja, ich gratuliere auch meiner Kollegin.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, я поздравляю и мою коллегу.",
+    "nouns": [
+     {
+      "lemma": "Kollegin",
+      "art": "die",
+      "pl": "Kolleginnen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "gratuliere",
+       "role": "действие №2"
+      },
+      {
+       "w": "auch",
+       "role": "добавка"
+      },
+      {
+       "w": "meiner Kollegin",
+       "role": "кому"
+      }
+     ],
+     "text": "Слово ja не занимает вагон. Kollegin — die-слово, форма meiner.",
+     "topic": "akkusativ",
+     "why_de": "После gratuliere слово стоит в форме для того, кому желают. У слов с die форма другая: meiner Kollegin.",
+     "why_ru": "По-русски поздравляют кого. По-немецки после gratuliere нужен тот, кому желают: meiner Kollegin.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich gratuliere meine Kollegin.",
+      "ru": "Калька с русского: слово осталось прежним. После gratuliere нужно как в meiner Kollegin."
+     },
+     "root": null,
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "Слово ja не занимает вагон. Kollegin — die-слово, форма meiner.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · добавка · «кому»",
+      "items": [
+       {
+        "id": "ch11_d2_06",
+        "de": "Ja, ich gratuliere auch meiner Mutter.",
+        "ru": "Да, я поздравляю и мою маму.",
+        "audio": "audio_v1/ch11_d2_06.mp3",
+        "lesson": "L2",
+        "part": 4,
+        "changed": {
+         "role": "кому",
+         "wagon": 4,
+         "from": "meiner Kollegin",
+         "to": "meiner Mutter"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: ich · gratuliere · auch. В каждом примере меняется один вагон — «кому»: meiner Kollegin → meiner Mutter. Действие gratuliere всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch11_d2_04.mp3",
+    "tts": "Ja, ich gratuliere auch meiner Kollegin.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gratuliere",
+      "ipa": "[ɡʁatuˈliːʁə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "auch",
+      "ipa": "[aʊ̯x]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "meiner",
+      "ipa": "[ˈmaɪ̯nɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kollegin",
+      "ipa": "[ˌkɔˈleːɡɪn]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: i… · действие (вагон №2): g… · добавка: a… · кому: m… K…",
+    "gap": {
+     "text": "Ja, ich ___ auch meiner ___.",
+     "answers": [
+      "gratuliere",
+      "Kollegin"
+     ]
+    },
+    "task_ru": "Скажи: Да, я поздравляю и мою коллегу."
+   },
+   {
+    "id": "ch11_d2_05",
+    "role": "O",
+    "de": "Gratulierst du auch deiner Mutter?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ты поздравляешь и твою маму?",
+    "nouns": [
+     {
+      "lemma": "Mutter",
+      "art": "die",
+      "pl": "Mütter"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Gratulierst",
+       "role": "действие №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "auch",
+       "role": "добавка"
+      },
+      {
+       "w": "deiner Mutter",
+       "role": "кому"
+      }
+     ],
+     "text": "Вопрос с ответом да или нет: действие впереди. Mutter — die-слово, форма deiner.",
+     "topic": "questions",
+     "why_de": "Вопрос с ответом да или нет: действие Gratulierst стоит впереди, du после него. Для Mutter — форма deiner Mutter.",
+     "why_ru": "Русский вопрос можно задать одним голосом. По-немецки действие идёт первым: Gratulierst du auch deiner Mutter?",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "Du gratulierst auch deiner Mutter?",
+      "ru": "Так звучит утверждение. Для вопроса с ответом да или нет действие Gratulierst ставят первым."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "Вопрос с ответом да или нет: действие впереди. Mutter — die-слово, форма deiner.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "действие (вагон №1) · «кто» · добавка · «кому»",
+      "items": [
+       {
+        "id": "ch11_d2_03",
+        "de": "Gratulierst du auch deiner Kollegin?",
+        "ru": "Ты поздравляешь и твою коллегу?",
+        "audio": "audio_v1/ch11_d2_03.mp3",
+        "lesson": "L2",
+        "part": 4,
+        "changed": {
+         "role": "кому",
+         "wagon": 4,
+         "from": "deiner Mutter",
+         "to": "deiner Kollegin"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Gratulierst · du · auch. В каждом примере меняется один вагон — «кому»: deiner Mutter → deiner Kollegin. Действие Gratulierst всё так же в вагоне №1.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch11_d2_05.mp3",
+    "tts": "Gratulierst du auch deiner Mutter?",
+    "ipa": [
+     {
+      "w": "Gratulierst",
+      "ipa": "[ɡʁatuˈliːɐ̯st]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "auch",
+      "ipa": "[aʊ̯x]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "deiner",
+      "ipa": "[ˈdaɪ̯nɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Mutter",
+      "ipa": "[ˈmʊtɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): G… · кто: d… · добавка: a… · кому: d… M…",
+    "gap": {
+     "text": "___ du auch deiner ___?",
+     "answers": [
+      "Gratulierst",
+      "Mutter"
+     ]
+    },
+    "task_ru": "Скажи: Ты поздравляешь и твою маму?"
+   },
+   {
+    "id": "ch11_d2_06",
+    "role": "H",
+    "de": "Ja, ich gratuliere auch meiner Mutter.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, я поздравляю и мою маму.",
+    "nouns": [
+     {
+      "lemma": "Mutter",
+      "art": "die",
+      "pl": "Mütter"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "gratuliere",
+       "role": "действие №2"
+      },
+      {
+       "w": "auch",
+       "role": "добавка"
+      },
+      {
+       "w": "meiner Mutter",
+       "role": "кому"
+      }
+     ],
+     "text": "Тот же поезд, другой человек: Mutter — die-слово, форма meiner.",
+     "topic": "akkusativ",
+     "why_de": "После gratuliere слово стоит в форме для того, кому желают. Mutter — die-слово, как соседние фразы: meiner Mutter.",
+     "why_ru": "По-русски поздравляют кого. По-немецки после gratuliere нужен тот, кому желают: meiner Mutter.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich gratuliere meine Mutter.",
+      "ru": "Калька с русского: слово осталось прежним. После gratuliere нужно как в meiner Mutter."
+     },
+     "root": null,
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "Тот же поезд, другой человек: Mutter — die-слово, форма meiner.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · добавка · «кому»",
+      "items": [
+       {
+        "id": "ch11_d2_04",
+        "de": "Ja, ich gratuliere auch meiner Kollegin.",
+        "ru": "Да, я поздравляю и мою коллегу.",
+        "audio": "audio_v1/ch11_d2_04.mp3",
+        "lesson": "L2",
+        "part": 4,
+        "changed": {
+         "role": "кому",
+         "wagon": 4,
+         "from": "meiner Mutter",
+         "to": "meiner Kollegin"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: ich · gratuliere · auch. В каждом примере меняется один вагон — «кому»: meiner Mutter → meiner Kollegin. Действие gratuliere всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch11_d2_06.mp3",
+    "tts": "Ja, ich gratuliere auch meiner Mutter.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gratuliere",
+      "ipa": "[ɡʁatuˈliːʁə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "auch",
+      "ipa": "[aʊ̯x]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "meiner",
+      "ipa": "[ˈmaɪ̯nɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Mutter",
+      "ipa": "[ˈmʊtɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: i… · действие (вагон №2): g… · добавка: a… · кому: m… M…",
+    "gap": {
+     "text": "Ja, ich ___ auch meiner ___.",
+     "answers": [
+      "gratuliere",
+      "Mutter"
+     ]
+    },
+    "task_ru": "Скажи: Да, я поздравляю и мою маму."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch11_d3",
+  "title_ru": "О днях рождения: im Sommer, im Mai",
+  "roles": {
+   "O": "Olga (одногруппница)",
+   "S": "Sofia (одногруппница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch11_d3_01",
+    "role": "O",
+    "de": "Sofia, hast du im Mai Geburtstag?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "София, у тебя день рождения в мае?",
+    "nouns": [
+     {
+      "lemma": "Geburtstag",
+      "art": "der",
+      "pl": "Geburtstage"
+     },
+     {
+      "lemma": "Mai",
+      "art": "der",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Sofia",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "hast",
+       "role": "действие №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "im Mai",
+       "role": "когда"
+      },
+      {
+       "w": "Geburtstag",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Вопрос «да/нет»: hast впереди. im Mai — в мае.",
+     "topic": "questions",
+     "why_de": "Действие впереди (hast) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Sofia, hast du im Mai Geburtstag?",
+     "why_ru": "По-русски «София, у тебя день рождения в мае» — вопрос только голосом, порядок как в ответе. По-немецки действие hast выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Sofia, du hast im Mai Geburtstag?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («София, у тебя день рождения в мае?!»). Обычный вопрос — действие впереди."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос «да/нет»: hast впереди. im Mai — в мае."
+    },
+    "audio": "audio_v1/ch11_d3_01.mp3",
+    "tts": "Sofia, hast du im Mai Geburtstag?",
+    "ipa": [
+     {
+      "w": "Sofia",
+      "ipa": "[zoˈfiːaː]",
+      "src": "override"
+     },
+     {
+      "w": "hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "im",
+      "ipa": "[ɪm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Mai",
+      "ipa": "[maɪ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Geburtstag",
+      "ipa": "[ɡəˈbuːɐ̯t͡sˌtaːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "мн.ч. '' Mai ≠ {'Maie'}",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: S… · действие (вагон №1): h… · кто: d… · когда: i… M… · кого-что: G…",
+    "gap": {
+     "text": "Sofia, ___ du im Mai ___?",
+     "answers": [
+      "hast",
+      "Geburtstag"
+     ]
+    },
+    "task_ru": "Скажи: София, у тебя день рождения в мае?"
+   },
+   {
+    "id": "ch11_d3_02",
+    "role": "S",
+    "de": "Nein, ich habe im Sommer Geburtstag.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Нет, у меня день рождения летом.",
+    "nouns": [
+     {
+      "lemma": "Geburtstag",
+      "art": "der",
+      "pl": "Geburtstage"
+     },
+     {
+      "lemma": "Sommer",
+      "art": "der",
+      "pl": "Sommer"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Nein",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "действие №2"
+      },
+      {
+       "w": "im Sommer",
+       "role": "когда"
+      },
+      {
+       "w": "Geburtstag",
+       "role": "кого-что"
+      }
+     ],
+     "text": "nein не занимает вагон. im Sommer — летом, то же слово im.",
+     "topic": "verb2",
+     "why_de": "Nein не занимает вагон. Дальше: ich · habe · im Sommer · Geburtstag: действие habe — вагон №2. Про себя день рождения «имеют»: ich habe Geburtstag.",
+     "why_ru": "По-русски «у меня день рождения летом». По-немецки наоборот — я имею: Ich habe im Sommer Geburtstag.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Nein, ich bin im Sommer Geburtstag.",
+      "ru": "Ошибка — bin: так получается, что я сам и есть день рождения. Про себя говорят ich habe Geburtstag."
+     },
+     "root": null,
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "nein не занимает вагон. im Sommer — летом, то же слово im.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «когда» · «что»",
+      "items": [
+       {
+        "id": "ch11_d3_06",
+        "de": "Nein, ich habe im Mai Geburtstag.",
+        "ru": "Нет, у меня день рождения в мае.",
+        "audio": "audio_v1/ch11_d3_06.mp3",
+        "lesson": "L3",
+        "part": 4,
+        "changed": {
+         "role": "когда",
+         "wagon": 3,
+         "from": "im Sommer",
+         "to": "im Mai"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: ich · habe · Geburtstag. В каждом примере меняется один вагон — «когда»: im Sommer → im Mai. Действие habe всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch11_d3_02.mp3",
+    "tts": "Nein, ich habe im Sommer Geburtstag.",
+    "ipa": [
+     {
+      "w": "Nein",
+      "ipa": "[naɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "im",
+      "ipa": "[ɪm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sommer",
+      "ipa": "[ˈzɔmɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Geburtstag",
+      "ipa": "[ɡəˈbuːɐ̯t͡sˌtaːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: N… · кто: i… · действие (вагон №2): h… · когда: i… S… · кого-что: G…",
+    "gap": {
+     "text": "Nein, ich ___ im Sommer ___.",
+     "answers": [
+      "habe",
+      "Geburtstag"
+     ]
+    },
+    "task_ru": "Скажи: Нет, у меня день рождения летом."
+   },
+   {
+    "id": "ch11_d3_03",
+    "role": "H",
+    "de": "Im Sommer ist es warm.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Летом тепло.",
+    "nouns": [
+     {
+      "lemma": "Sommer",
+      "art": "der",
+      "pl": "Sommer"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Im Sommer",
+       "role": "когда"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "es",
+       "role": "кто"
+      },
+      {
+       "w": "warm",
+       "role": "какой/как"
+      }
+     ],
+     "text": "im Sommer — летом: in + dem склеиваются в im. ist — вагон №2, es стоит за ним.",
+     "topic": "word_order",
+     "why_de": "Вагон №1 занят: Im Sommer. Действие ist всё равно в вагоне №2, а «кто» (es) — за ним: Im Sommer ist es warm.",
+     "why_ru": "По-русски «Летом тепло» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, ist — вагон №2.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Im Sommer es ist warm.",
+      "ru": "Русский порядок: «кто» (es) перед действием, и ist уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "im Sommer — летом: in + dem склеиваются в im. ist — вагон №2, es стоит за ним."
+    },
+    "audio": "audio_v1/ch11_d3_03.mp3",
+    "tts": "Im Sommer ist es warm.",
+    "ipa": [
+     {
+      "w": "Im",
+      "ipa": "[ɪm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sommer",
+      "ipa": "[ˈzɔmɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "es",
+      "ipa": "[ɛs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "warm",
+      "ipa": "[vaʁm]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "когда: I… S… · действие (вагон №2): i… · кто: e… · какой/как: w…",
+    "gap": {
+     "text": "Im ___ ___ es warm.",
+     "answers": [
+      "Sommer",
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Летом тепло."
+   },
+   {
+    "id": "ch11_d3_04",
+    "role": "S",
+    "de": "Und im Winter ist es kalt.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А зимой холодно.",
+    "nouns": [
+     {
+      "lemma": "Winter",
+      "art": "der",
+      "pl": "Winter"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "im Winter",
+       "role": "когда"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "es",
+       "role": "кто"
+      },
+      {
+       "w": "kalt",
+       "role": "какой/как"
+      }
+     ],
+     "text": "und не занимает вагон. im Winter — вагон №1, ist — №2.",
+     "topic": "word_order",
+     "why_de": "Вагон №1 занят: im Winter. Действие ist всё равно в вагоне №2, а «кто» (es) — за ним: Und im Winter ist es kalt.",
+     "why_ru": "По-русски «А зимой холодно» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, ist — вагон №2.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Und im Winter es ist kalt.",
+      "ru": "Русский порядок: «кто» (es) перед действием, и ist уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "und не занимает вагон. im Winter — вагон №1, ist — №2."
+    },
+    "audio": "audio_v1/ch11_d3_04.mp3",
+    "tts": "Und im Winter ist es kalt.",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "im",
+      "ipa": "[ɪm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Winter",
+      "ipa": "[ˈvɪntɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "es",
+      "ipa": "[ɛs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kalt",
+      "ipa": "[kalt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · когда: i… W… · действие (вагон №2): i… · кто: e… · какой/как: k…",
+    "gap": {
+     "text": "Und im ___ ___ es kalt.",
+     "answers": [
+      "Winter",
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: А зимой холодно."
+   },
+   {
+    "id": "ch11_d3_05",
+    "role": "O",
+    "de": "Hast du im Winter Geburtstag?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "У тебя день рождения зимой?",
+    "nouns": [
+     {
+      "lemma": "Geburtstag",
+      "art": "der",
+      "pl": "Geburtstage"
+     },
+     {
+      "lemma": "Winter",
+      "art": "der",
+      "pl": "Winter"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hast",
+       "role": "действие №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "im Winter",
+       "role": "когда"
+      },
+      {
+       "w": "Geburtstag",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Вопрос «да/нет»: hast впереди. im Winter — зимой.",
+     "topic": "questions",
+     "why_de": "Действие впереди (Hast) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Hast du im Winter Geburtstag?",
+     "why_ru": "По-русски «У тебя день рождения зимой» — вопрос только голосом, порядок как в ответе. По-немецки действие Hast выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Du hast im Winter Geburtstag?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («У тебя день рождения зимой?!»). Обычный вопрос — действие впереди."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос «да/нет»: hast впереди. im Winter — зимой.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "действие (вагон №1) · «кто» · «когда» · «что»",
+      "items": [
+       {
+        "id": "ch11_022",
+        "de": "Hast du im Mai Geburtstag?",
+        "ru": "У тебя день рождения в мае?",
+        "audio": "audio_v1/ch11_022.mp3",
+        "lesson": "L3",
+        "part": 3,
+        "changed": {
+         "role": "когда",
+         "wagon": 3,
+         "from": "im Winter",
+         "to": "im Mai"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Hast · du · Geburtstag. В каждом примере меняется один вагон — «когда»: im Winter → im Mai. Действие Hast всё так же в вагоне №1.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch11_d3_05.mp3",
+    "tts": "Hast du im Winter Geburtstag?",
+    "ipa": [
+     {
+      "w": "Hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "im",
+      "ipa": "[ɪm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Winter",
+      "ipa": "[ˈvɪntɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Geburtstag",
+      "ipa": "[ɡəˈbuːɐ̯t͡sˌtaːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): H… · кто: d… · когда: i… W… · кого-что: G…",
+    "gap": {
+     "text": "___ du im Winter ___?",
+     "answers": [
+      "Hast",
+      "Geburtstag"
+     ]
+    },
+    "task_ru": "Скажи: У тебя день рождения зимой?"
+   },
+   {
+    "id": "ch11_d3_06",
+    "role": "H",
+    "de": "Nein, ich habe im Mai Geburtstag.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Нет, у меня день рождения в мае.",
+    "nouns": [
+     {
+      "lemma": "Geburtstag",
+      "art": "der",
+      "pl": "Geburtstage"
+     },
+     {
+      "lemma": "Mai",
+      "art": "der",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Nein",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "действие №2"
+      },
+      {
+       "w": "im Mai",
+       "role": "когда"
+      },
+      {
+       "w": "Geburtstag",
+       "role": "кого-что"
+      }
+     ],
+     "text": "nein не занимает вагон. im Mai — в мае, то же слово im.",
+     "topic": "verb2",
+     "why_de": "Nein не занимает вагон. Дальше: ich · habe · im Mai · Geburtstag: действие habe — вагон №2. Про себя день рождения «имеют»: ich habe Geburtstag.",
+     "why_ru": "По-русски «у меня день рождения в мае». По-немецки наоборот — я имею: Ich habe im Mai Geburtstag.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Nein, ich bin im Mai Geburtstag.",
+      "ru": "Ошибка — bin: так получается, что я сам и есть день рождения. Про себя говорят ich habe Geburtstag."
+     },
+     "root": null,
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "nein не занимает вагон. im Mai — в мае, то же слово im.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «когда» · «что»",
+      "items": [
+       {
+        "id": "ch11_d3_02",
+        "de": "Nein, ich habe im Sommer Geburtstag.",
+        "ru": "Нет, у меня день рождения летом.",
+        "audio": "audio_v1/ch11_d3_02.mp3",
+        "lesson": "L3",
+        "part": 4,
+        "changed": {
+         "role": "когда",
+         "wagon": 3,
+         "from": "im Mai",
+         "to": "im Sommer"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: ich · habe · Geburtstag. В каждом примере меняется один вагон — «когда»: im Mai → im Sommer. Действие habe всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch11_d3_06.mp3",
+    "tts": "Nein, ich habe im Mai Geburtstag.",
+    "ipa": [
+     {
+      "w": "Nein",
+      "ipa": "[naɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "im",
+      "ipa": "[ɪm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Mai",
+      "ipa": "[maɪ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Geburtstag",
+      "ipa": "[ɡəˈbuːɐ̯t͡sˌtaːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "мн.ч. '' Mai ≠ {'Maie'}",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: N… · кто: i… · действие (вагон №2): h… · когда: i… M… · кого-что: G…",
+    "gap": {
+     "text": "Nein, ich ___ im Mai ___.",
+     "answers": [
+      "habe",
+      "Geburtstag"
+     ]
+    },
+    "task_ru": "Скажи: Нет, у меня день рождения в мае."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch11_d4",
+  "title_ru": "Когда день рождения: am dritten Mai",
+  "roles": {
+   "S": "Sofia (одногруппница)",
+   "O": "Olga (одногруппница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch11_d4_01",
+    "role": "S",
+    "de": "Wann hast du Geburtstag?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Когда у тебя день рождения?",
+    "nouns": [
+     {
+      "lemma": "Geburtstag",
+      "art": "der",
+      "pl": "Geburtstage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wann",
+       "role": "вопрос-слово",
+       "asks": "когда"
+      },
+      {
+       "w": "hast",
+       "role": "действие №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "Geburtstag",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Wann — когда? Действие hast — сразу за ним.",
+     "topic": "questions",
+     "why_de": "Wann — вопрос-слово, вагон №1. Действие hast — вагон №2, du — за ним.",
+     "why_ru": "По-русски «когда у тебя день рождения?». По-немецки ты имеешь: wann hast du Geburtstag.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wann du hast Geburtstag?",
+      "ru": "Ошибка — du перед hast. После вопрос-слова wann сразу идёт действие: wann hast du."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "Wann — когда? Действие hast — сразу за ним."
+    },
+    "audio": "audio_v1/ch11_d4_01.mp3",
+    "tts": "Wann hast du Geburtstag?",
+    "ipa": [
+     {
+      "w": "Wann",
+      "ipa": "[van]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Geburtstag",
+      "ipa": "[ɡəˈbuːɐ̯t͡sˌtaːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): h… · кто: d… · кого-что: G…",
+    "gap": {
+     "text": "Wann ___ du ___?",
+     "answers": [
+      "hast",
+      "Geburtstag"
+     ]
+    },
+    "task_ru": "Скажи: Когда у тебя день рождения?"
+   },
+   {
+    "id": "ch11_d4_02",
+    "role": "H",
+    "de": "Ich habe am dritten Mai Geburtstag.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "У меня день рождения третьего мая.",
+    "nouns": [
+     {
+      "lemma": "Geburtstag",
+      "art": "der",
+      "pl": "Geburtstage"
+     },
+     {
+      "lemma": "Mai",
+      "art": "der",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "действие №2"
+      },
+      {
+       "w": "am dritten Mai",
+       "role": "когда"
+      },
+      {
+       "w": "Geburtstag",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Когда? — am dritten Mai.",
+     "topic": "verb2",
+     "why_de": "ich · habe · am dritten Mai · Geburtstag: действие habe — вагон №2. Когда? — am dritten Mai: после am у числа другой хвост.",
+     "why_ru": "По-русски «у меня день рождения третьего мая»: число тоже меняет хвост. По-немецки так же: am dritten Mai. А про себя день рождения имеют: ich habe.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich habe am dritte Mai Geburtstag.",
+      "ru": "Ошибка — dritte после am. На вопрос когда? отвечают am dritten Mai."
+     },
+     "root": null,
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "Когда? — am dritten Mai.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «когда» · «что»",
+      "items": [
+       {
+        "id": "ch11_003",
+        "de": "Ich habe heute Geburtstag.",
+        "ru": "У меня сегодня день рождения.",
+        "audio": "audio_v1/ch11_003.mp3",
+        "lesson": "L1",
+        "part": 3,
+        "changed": {
+         "role": "когда",
+         "wagon": 3,
+         "from": "am dritten Mai",
+         "to": "heute"
+        }
+       },
+       {
+        "id": "ch11_021",
+        "de": "Ich habe im Mai Geburtstag.",
+        "ru": "У меня день рождения в мае.",
+        "audio": "audio_v1/ch11_021.mp3",
+        "lesson": "L3",
+        "part": 3,
+        "changed": {
+         "role": "когда",
+         "wagon": 3,
+         "from": "am dritten Mai",
+         "to": "im Mai"
+        }
+       },
+       {
+        "id": "ch11_t05",
+        "de": "Ich habe im Winter Geburtstag.",
+        "ru": "У меня день рождения зимой.",
+        "audio": "audio_v1/ch11_t05.mp3",
+        "lesson": "L3",
+        "part": 6,
+        "changed": {
+         "role": "когда",
+         "wagon": 3,
+         "from": "am dritten Mai",
+         "to": "im Winter"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Ich · habe · Geburtstag. В каждом примере меняется один вагон — «когда»: am dritten Mai → heute → im Mai → im Winter. Действие habe всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch11_d4_02.mp3",
+    "tts": "Ich habe am dritten Mai Geburtstag.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "dritten",
+      "ipa": "[ˈdʁɪtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Mai",
+      "ipa": "[maɪ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Geburtstag",
+      "ipa": "[ɡəˈbuːɐ̯t͡sˌtaːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "мн.ч. '' Mai ≠ {'Maie'}",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): h… · когда: a… d… M… · кого-что: G…",
+    "gap": {
+     "text": "Ich ___ am dritten Mai ___.",
+     "answers": [
+      "habe",
+      "Geburtstag"
+     ]
+    },
+    "task_ru": "Скажи: У меня день рождения третьего мая."
+   },
+   {
+    "id": "ch11_d4_03",
+    "role": "S",
+    "de": "Heute ist der dritte Mai!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Сегодня третье мая!",
+    "nouns": [
+     {
+      "lemma": "Mai",
+      "art": "der",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Heute",
+       "role": "когда"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "der dritte Mai",
+       "role": "кто"
+      }
+     ],
+     "text": "Какое число? — der dritte Mai, без am.",
+     "topic": "word_order",
+     "why_de": "Heute — вагон №1, действие ist — вагон №2. Какое число? — der dritte Mai: без am.",
+     "why_ru": "По-русски «сегодня третье мая» — третье, а не третьего. По-немецки так же: der dritte Mai, без am.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Heute ist am dritten Mai!",
+      "ru": "Ошибка — am: am dritten Mai отвечает на вопрос когда. На вопрос какое число отвечают der dritte Mai."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "Какое число? — der dritte Mai, без am."
+    },
+    "audio": "audio_v1/ch11_d4_03.mp3",
+    "tts": "Heute ist der dritte Mai!",
+    "ipa": [
+     {
+      "w": "Heute",
+      "ipa": "[ˈhɔɪ̯tə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "dritte",
+      "ipa": "[ˈdʁɪtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Mai",
+      "ipa": "[maɪ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "мн.ч. '' Mai ≠ {'Maie'}",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "когда: H… · действие (вагон №2): i… · кто: d… d… M…",
+    "gap": {
+     "text": "Heute ___ der dritte ___!",
+     "answers": [
+      "ist",
+      "Mai"
+     ]
+    },
+    "task_ru": "Скажи: Сегодня третье мая!"
+   },
+   {
+    "id": "ch11_d4_04",
+    "role": "O",
+    "de": "Hast du heute Geburtstag?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "У тебя сегодня день рождения?",
+    "nouns": [
+     {
+      "lemma": "Geburtstag",
+      "art": "der",
+      "pl": "Geburtstage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hast",
+       "role": "действие №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "heute",
+       "role": "когда"
+      },
+      {
+       "w": "Geburtstag",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Вопрос «да/нет»: hast впереди.",
+     "topic": "questions",
+     "why_de": "Действие впереди (Hast) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Hast du heute Geburtstag?",
+     "why_ru": "По-русски «У тебя сегодня день рождения» — вопрос только голосом, порядок как в ответе. По-немецки действие Hast выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Du hast heute Geburtstag?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («У тебя сегодня день рождения?!»). Обычный вопрос — действие впереди."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Вопрос «да/нет»: hast впереди.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "действие (вагон №1) · «кто» · «когда» · «что»",
+      "items": [
+       {
+        "id": "ch11_022",
+        "de": "Hast du im Mai Geburtstag?",
+        "ru": "У тебя день рождения в мае?",
+        "audio": "audio_v1/ch11_022.mp3",
+        "lesson": "L3",
+        "part": 3,
+        "changed": {
+         "role": "когда",
+         "wagon": 3,
+         "from": "heute",
+         "to": "im Mai"
+        }
+       },
+       {
+        "id": "ch11_d3_05",
+        "de": "Hast du im Winter Geburtstag?",
+        "ru": "У тебя день рождения зимой?",
+        "audio": "audio_v1/ch11_d3_05.mp3",
+        "lesson": "L3",
+        "part": 4,
+        "changed": {
+         "role": "когда",
+         "wagon": 3,
+         "from": "heute",
+         "to": "im Winter"
+        }
+       },
+       {
+        "id": "ch11_t06",
+        "de": "Hast du im Sommer Geburtstag?",
+        "ru": "У тебя день рождения летом?",
+        "audio": "audio_v1/ch11_t06.mp3",
+        "lesson": "L3",
+        "part": 11,
+        "changed": {
+         "role": "когда",
+         "wagon": 3,
+         "from": "heute",
+         "to": "im Sommer"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Hast · du · Geburtstag. В каждом примере меняется один вагон — «когда»: heute → im Mai → im Winter → im Sommer. Действие Hast всё так же в вагоне №1.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch11_d4_04.mp3",
+    "tts": "Hast du heute Geburtstag?",
+    "ipa": [
+     {
+      "w": "Hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "heute",
+      "ipa": "[ˈhɔɪ̯tə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Geburtstag",
+      "ipa": "[ɡəˈbuːɐ̯t͡sˌtaːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): H… · кто: d… · когда: h… · кого-что: G…",
+    "gap": {
+     "text": "___ du heute ___?",
+     "answers": [
+      "Hast",
+      "Geburtstag"
+     ]
+    },
+    "task_ru": "Скажи: У тебя сегодня день рождения?"
+   },
+   {
+    "id": "ch11_d4_05",
+    "role": "H",
+    "de": "Ja, ich habe heute Geburtstag.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, у меня сегодня день рождения.",
+    "nouns": [
+     {
+      "lemma": "Geburtstag",
+      "art": "der",
+      "pl": "Geburtstage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "действие №2"
+      },
+      {
+       "w": "heute",
+       "role": "когда"
+      },
+      {
+       "w": "Geburtstag",
+       "role": "кого-что"
+      }
+     ],
+     "text": "ja не занимает вагон. Про себя день рождения «имеют».",
+     "topic": "verb2",
+     "why_de": "Ja не занимает вагон. Дальше: ich · habe · heute · Geburtstag: действие habe — вагон №2. Про себя день рождения «имеют»: ich habe Geburtstag.",
+     "why_ru": "По-русски «у меня сегодня день рождения». По-немецки наоборот — я имею: ich habe heute Geburtstag.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ja, ich bin heute Geburtstag.",
+      "ru": "Ошибка — bin: так получается, что я сам и есть день рождения. Про себя говорят ich habe Geburtstag."
+     },
+     "root": null,
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "ja не занимает вагон. Про себя день рождения «имеют»."
+    },
+    "audio": "audio_v1/ch11_d4_05.mp3",
+    "tts": "Ja, ich habe heute Geburtstag.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "heute",
+      "ipa": "[ˈhɔɪ̯tə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Geburtstag",
+      "ipa": "[ɡəˈbuːɐ̯t͡sˌtaːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: i… · действие (вагон №2): h… · когда: h… · кого-что: G…",
+    "gap": {
+     "text": "Ja, ich ___ heute ___.",
+     "answers": [
+      "habe",
+      "Geburtstag"
+     ]
+    },
+    "task_ru": "Скажи: Да, у меня сегодня день рождения."
+   },
+   {
+    "id": "ch11_d4_06",
+    "role": "S",
+    "de": "Alles Gute zum Geburtstag!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "С днём рождения!",
+    "nouns": [
+     {
+      "lemma": "Gute",
+      "art": "das",
+      "pl": ""
+     },
+     {
+      "lemma": "Geburtstag",
+      "art": "der",
+      "pl": "Geburtstage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Alles Gute",
+       "role": "кого-что"
+      },
+      {
+       "w": "zum Geburtstag",
+       "role": "когда"
+      }
+     ],
+     "text": "Главное поздравление, его говорят целиком.",
+     "topic": "word_order",
+     "why_de": "Пожелание без действия: Alles Gute — всего хорошего, zum Geburtstag — ко дню рождения. Немцы говорят его целиком.",
+     "why_ru": "По-русски «С днём рождения» — тоже без действия. Разница в маленьком слове: по-русски «с», по-немецки zum — дословно: ко дню.",
+     "layer": "short",
+     "why_not": {
+      "wrong": "Alles Gute mit Geburtstag!",
+      "ru": "Калька с русского «с днём рождения» — mit. Немец так не говорит: день рождения — повод, и желают к нему: zum Geburtstag."
+     },
+     "root": null,
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "Главное поздравление, его говорят целиком."
+    },
+    "audio": "audio_v1/ch11_d4_06.mp3",
+    "tts": "Alles Gute zum Geburtstag!",
+    "ipa": [
+     {
+      "w": "Alles",
+      "ipa": "[ˈaləs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Gute",
+      "ipa": "[ˈɡuːtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "zum",
+      "ipa": "[t͡sʊm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Geburtstag",
+      "ipa": "[ɡəˈbuːɐ̯t͡sˌtaːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "нет в Wiktionary: Gute",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кого-что: A… G… · когда: z… G…",
+    "gap": {
+     "text": "Alles ___ zum Geburtstag!",
+     "answers": [
+      "Gute"
+     ]
+    },
+    "task_ru": "Скажи: С днём рождения!"
+   },
+   {
+    "id": "ch11_d4_07",
+    "role": "H",
+    "de": "Danke! Und wann hast du Geburtstag?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Спасибо! А когда у тебя день рождения?",
+    "nouns": [
+     {
+      "lemma": "Geburtstag",
+      "art": "der",
+      "pl": "Geburtstage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "wann",
+       "role": "вопрос-слово",
+       "asks": "когда"
+      },
+      {
+       "w": "hast",
+       "role": "действие №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "Geburtstag",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Danke — готовое слово. und не занимает вагон: wann — №1, hast — №2.",
+     "topic": "questions",
+     "why_de": "Danke — готовое слово. Und не занимает вагон. Wann — вопрос-слово, вагон №1. Действие hast — вагон №2, du — за ним.",
+     "why_ru": "По-русски «а когда у тебя день рождения?». По-немецки ты имеешь: wann hast du Geburtstag.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Danke! Und wann du hast Geburtstag?",
+      "ru": "Ошибка — du перед hast. После вопрос-слова wann сразу идёт действие: wann hast du."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "Danke — готовое слово. und не занимает вагон: wann — №1, hast — №2."
+    },
+    "audio": "audio_v1/ch11_d4_07.mp3",
+    "tts": "Danke! Und wann hast du Geburtstag?",
+    "ipa": [
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wann",
+      "ipa": "[van]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hast",
+      "ipa": "[hast]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Geburtstag",
+      "ipa": "[ɡəˈbuːɐ̯t͡sˌtaːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: D… · связка: U… · вопрос-слово: w… · действие (вагон №2): h… · кто: d… · кого-что: G…",
+    "gap": {
+     "text": "Danke! Und wann ___ du ___?",
+     "answers": [
+      "hast",
+      "Geburtstag"
+     ]
+    },
+    "task_ru": "Скажи: Спасибо! А когда у тебя день рождения?"
+   },
+   {
+    "id": "ch11_d4_08",
+    "role": "S",
+    "de": "Ich habe am ersten Juni Geburtstag.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "У меня день рождения первого июня.",
+    "nouns": [
+     {
+      "lemma": "Geburtstag",
+      "art": "der",
+      "pl": "Geburtstage"
+     },
+     {
+      "lemma": "Juni",
+      "art": "der",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "habe",
+       "role": "действие №2"
+      },
+      {
+       "w": "am ersten Juni",
+       "role": "когда"
+      },
+      {
+       "w": "Geburtstag",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Когда? — am ersten Juni: первого июня.",
+     "topic": "verb2",
+     "why_de": "ich · habe · am ersten Juni · Geburtstag: действие habe — вагон №2. Когда? — am ersten Juni: после am у числа другой хвост.",
+     "why_ru": "По-русски «у меня день рождения первого июня»: число тоже меняет хвост. По-немецки так же: am ersten Juni. А про себя день рождения имеют: ich habe.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich habe am erste Juni Geburtstag.",
+      "ru": "Ошибка — erste после am. На вопрос когда? отвечают am ersten Juni."
+     },
+     "root": null,
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "Когда? — am ersten Juni: первого июня.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «когда» · «что»",
+      "items": [
+       {
+        "id": "ch11_003",
+        "de": "Ich habe heute Geburtstag.",
+        "ru": "У меня сегодня день рождения.",
+        "audio": "audio_v1/ch11_003.mp3",
+        "lesson": "L1",
+        "part": 3,
+        "changed": {
+         "role": "когда",
+         "wagon": 3,
+         "from": "am ersten Juni",
+         "to": "heute"
+        }
+       },
+       {
+        "id": "ch11_021",
+        "de": "Ich habe im Mai Geburtstag.",
+        "ru": "У меня день рождения в мае.",
+        "audio": "audio_v1/ch11_021.mp3",
+        "lesson": "L3",
+        "part": 3,
+        "changed": {
+         "role": "когда",
+         "wagon": 3,
+         "from": "am ersten Juni",
+         "to": "im Mai"
+        }
+       },
+       {
+        "id": "ch11_t05",
+        "de": "Ich habe im Winter Geburtstag.",
+        "ru": "У меня день рождения зимой.",
+        "audio": "audio_v1/ch11_t05.mp3",
+        "lesson": "L3",
+        "part": 6,
+        "changed": {
+         "role": "когда",
+         "wagon": 3,
+         "from": "am ersten Juni",
+         "to": "im Winter"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Ich · habe · Geburtstag. В каждом примере меняется один вагон — «когда»: am ersten Juni → heute → im Mai → im Winter. Действие habe всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch11_d4_08.mp3",
+    "tts": "Ich habe am ersten Juni Geburtstag.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "habe",
+      "ipa": "[ˈhaːbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ersten",
+      "ipa": "[ˈeːɐ̯stn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Juni",
+      "ipa": "[ˈjuːni]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Geburtstag",
+      "ipa": "[ɡəˈbuːɐ̯t͡sˌtaːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "мн.ч. '' Juni ≠ {'Junis'}",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): h… · когда: a… e… J… · кого-что: G…",
+    "gap": {
+     "text": "Ich ___ am ersten Juni ___.",
+     "answers": [
+      "habe",
+      "Geburtstag"
+     ]
+    },
+    "task_ru": "Скажи: У меня день рождения первого июня."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch11_d5",
+  "title_ru": "Подарки: что подарить Ольге и начальнику",
+  "roles": {
+   "S": "Sofia (одногруппница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch11_d5_01",
+    "role": "S",
+    "de": "Was schenkst du Olga?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Что ты подаришь Ольге?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "schenkst",
+       "role": "действие №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "Olga",
+       "role": "кому"
+      }
+     ],
+     "text": "Was — что? schenkst — сразу за ним.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Was — вагон №1, действие schenkst — сразу за ним, вагон №2: Was schenkst du Olga? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Что ты подаришь Ольге» можно сказать и в другом порядке. По-немецки порядок один: Was · schenkst · du · Olga.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Was du schenkst Olga?",
+      "ru": "du встал перед schenkst — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Was — что? schenkst — сразу за ним.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "вопрос-слово · действие (вагон №2) · «кто» · «кому»",
+      "items": [
+       {
+        "id": "ch11_033",
+        "de": "Was schenkst du ihm?",
+        "ru": "Что ты ему подаришь?",
+        "audio": "audio_v1/ch11_033.mp3",
+        "lesson": "L5",
+        "part": 3,
+        "changed": {
+         "role": "кому",
+         "wagon": 4,
+         "from": "Olga",
+         "to": "ihm"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Was · schenkst · du. В каждом примере меняется один вагон — «кому»: Olga → ihm. Действие schenkst всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch11_d5_01.mp3",
+    "tts": "Was schenkst du Olga?",
+    "ipa": [
+     {
+      "w": "Was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schenkst",
+      "ipa": "[ʃɛŋkst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Olga",
+      "ipa": "[ˈɔlɡa]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): s… · кто: d… · кому: O…",
+    "gap": {
+     "text": "Was ___ du ___?",
+     "answers": [
+      "schenkst",
+      "Olga"
+     ]
+    },
+    "task_ru": "Скажи: Что ты подаришь Ольге?"
+   },
+   {
+    "id": "ch11_d5_02",
+    "role": "H",
+    "de": "Ich schenke ihr einen Kuchen.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я подарю ей пирог.",
+    "nouns": [
+     {
+      "lemma": "Kuchen",
+      "art": "der",
+      "pl": "Kuchen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "schenke",
+       "role": "действие №2"
+      },
+      {
+       "w": "ihr",
+       "role": "кому"
+      },
+      {
+       "w": "einen Kuchen",
+       "role": "кого-что"
+      }
+     ],
+     "text": "ihr — ей: имя Olga второй раз не повторяют.",
+     "topic": "verb2",
+     "why_de": "ich · schenke · ihr · einen Kuchen: действие schenke — вагон №2. ihr — кому: ей. Короткое ihr стоит перед подарком einen Kuchen.",
+     "why_ru": "По-русски «я подарю ей пирог». По-немецки так же: кому — ihr, потом что — einen Kuchen.",
+     "layer": "akk",
+     "why_not": {
+      "wrong": "Ich schenke sie einen Kuchen.",
+      "ru": "Ошибка — sie: так говорят про того, кого видят или любят. Кому дарят — ihr."
+     },
+     "root": null,
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "ihr — ей: имя Olga второй раз не повторяют."
+    },
+    "audio": "audio_v1/ch11_d5_02.mp3",
+    "tts": "Ich schenke ihr einen Kuchen.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schenke",
+      "ipa": "[ˈʃɛŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ihr",
+      "ipa": "[iːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "einen",
+      "ipa": "[ˈaɪ̯nən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kuchen",
+      "ipa": "[ˈkuːxn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): s… · кому: i… · кого-что: e… K…",
+    "gap": {
+     "text": "Ich ___ ihr einen ___.",
+     "answers": [
+      "schenke",
+      "Kuchen"
+     ]
+    },
+    "task_ru": "Скажи: Я подарю ей пирог."
+   },
+   {
+    "id": "ch11_d5_03",
+    "role": "S",
+    "de": "Und ich schenke ihr ein Buch.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А я подарю ей книгу.",
+    "nouns": [
+     {
+      "lemma": "Buch",
+      "art": "das",
+      "pl": "Bücher"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "schenke",
+       "role": "действие №2"
+      },
+      {
+       "w": "ihr",
+       "role": "кому"
+      },
+      {
+       "w": "ein Buch",
+       "role": "кого-что"
+      }
+     ],
+     "text": "und не занимает вагон. ihr — ей, короткое слово перед ein Buch.",
+     "topic": "verb2",
+     "why_de": "Und не занимает вагон. Дальше: ich · schenke · ihr · ein Buch: действие schenke — вагон №2. ihr — кому: ей. Короткое ihr стоит перед подарком ein Buch.",
+     "why_ru": "По-русски «а я подарю ей книгу». По-немецки так же: кому — ihr, потом что — ein Buch.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Und ich schenke sie ein Buch.",
+      "ru": "Ошибка — sie: так говорят про того, кого видят или любят. Кому дарят — ihr."
+     },
+     "root": null,
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "und не занимает вагон. ihr — ей, короткое слово перед ein Buch."
+    },
+    "audio": "audio_v1/ch11_d5_03.mp3",
+    "tts": "Und ich schenke ihr ein Buch.",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schenke",
+      "ipa": "[ˈʃɛŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ihr",
+      "ipa": "[iːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ein",
+      "ipa": "[aɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Buch",
+      "ipa": "[buːx]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · кто: i… · действие (вагон №2): s… · кому: i… · кого-что: e… B…",
+    "gap": {
+     "text": "Und ich ___ ihr ein ___.",
+     "answers": [
+      "schenke",
+      "Buch"
+     ]
+    },
+    "task_ru": "Скажи: А я подарю ей книгу."
+   },
+   {
+    "id": "ch11_d5_04",
+    "role": "H",
+    "de": "Mein Chef hat auch im Mai Geburtstag.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "У моего начальника тоже день рождения в мае.",
+    "nouns": [
+     {
+      "lemma": "Chef",
+      "art": "der",
+      "pl": "Chefs"
+     },
+     {
+      "lemma": "Geburtstag",
+      "art": "der",
+      "pl": "Geburtstage"
+     },
+     {
+      "lemma": "Mai",
+      "art": "der",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Mein Chef",
+       "role": "кто"
+      },
+      {
+       "w": "hat",
+       "role": "действие №2"
+      },
+      {
+       "w": "auch",
+       "role": "добавка"
+      },
+      {
+       "w": "im Mai",
+       "role": "когда"
+      },
+      {
+       "w": "Geburtstag",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Про другого — hat. im Mai — в мае, как у героя.",
+     "topic": "verb2",
+     "why_de": "Mein Chef · hat · auch · im Mai · Geburtstag: действие hat — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «У моего начальника тоже день рождения в мае» — без действия. По-немецки без hat фразы нет: Mein Chef hat auch im Mai Geburtstag.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Mein Chef auch im Mai Geburtstag.",
+      "ru": "Русская привычка — без действия, как «У моего начальника тоже день рождения в мае». Без hat немец слышит обрывок, а не фразу."
+     },
+     "root": null,
+     "why_voice_ru": "Про другого — hat. im Mai — в мае, как у героя."
+    },
+    "audio": "audio_v1/ch11_d5_04.mp3",
+    "tts": "Mein Chef hat auch im Mai Geburtstag.",
+    "ipa": [
+     {
+      "w": "Mein",
+      "ipa": "[maɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Chef",
+      "ipa": "[ʃɛf]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hat",
+      "ipa": "[hat]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "auch",
+      "ipa": "[aʊ̯x]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "im",
+      "ipa": "[ɪm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Mai",
+      "ipa": "[maɪ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Geburtstag",
+      "ipa": "[ɡəˈbuːɐ̯t͡sˌtaːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "мн.ч. '' Mai ≠ {'Maie'}",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: M… C… · действие (вагон №2): h… · добавка: a… · когда: i… M… · кого-что: G…",
+    "gap": {
+     "text": "Mein Chef ___ auch im Mai ___.",
+     "answers": [
+      "hat",
+      "Geburtstag"
+     ]
+    },
+    "task_ru": "Скажи: У моего начальника тоже день рождения в мае."
+   },
+   {
+    "id": "ch11_d5_05",
+    "role": "S",
+    "de": "Was schenkst du ihm?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Что ты ему подаришь?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "schenkst",
+       "role": "действие №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "ihm",
+       "role": "кому"
+      }
+     ],
+     "text": "ihm — ему: про начальника.",
+     "topic": "questions",
+     "why_de": "Was — вопрос-слово, вагон №1. Действие schenkst — вагон №2, du — за ним. ihm — кому: ему.",
+     "why_ru": "По-русски «что ты ему подаришь?». По-немецки так же: что — was, кому — ihm.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Was schenkst du ihn?",
+      "ru": "Ошибка — ihn: так говорят про того, кого видят или любят. Кому дарят — ihm."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "ihm — ему: про начальника.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "вопрос-слово · действие (вагон №2) · «кто» · «кому»",
+      "items": [
+       {
+        "id": "ch11_031",
+        "de": "Was schenkst du Olga?",
+        "ru": "Что ты подаришь Ольге?",
+        "audio": "audio_v1/ch11_031.mp3",
+        "lesson": "L5",
+        "part": 3,
+        "changed": {
+         "role": "кому",
+         "wagon": 4,
+         "from": "ihm",
+         "to": "Olga"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Was · schenkst · du. В каждом примере меняется один вагон — «кому»: ihm → Olga. Действие schenkst всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch11_d5_05.mp3",
+    "tts": "Was schenkst du ihm?",
+    "ipa": [
+     {
+      "w": "Was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schenkst",
+      "ipa": "[ʃɛŋkst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ihm",
+      "ipa": "[iːm]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): s… · кто: d… · кому: i…",
+    "gap": {
+     "text": "Was ___ du ___?",
+     "answers": [
+      "schenkst",
+      "ihm"
+     ]
+    },
+    "task_ru": "Скажи: Что ты ему подаришь?"
+   },
+   {
+    "id": "ch11_d5_06",
+    "role": "H",
+    "de": "Ich schenke ihm ein Buch.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я подарю ему книгу.",
+    "nouns": [
+     {
+      "lemma": "Buch",
+      "art": "das",
+      "pl": "Bücher"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "schenke",
+       "role": "действие №2"
+      },
+      {
+       "w": "ihm",
+       "role": "кому"
+      },
+      {
+       "w": "ein Buch",
+       "role": "кого-что"
+      }
+     ],
+     "text": "ihm — ему; короткое ihm перед ein Buch.",
+     "topic": "verb2",
+     "why_de": "ich · schenke · ihm · ein Buch: действие schenke — вагон №2. ihm — кому: ему. Короткое ihm стоит перед подарком ein Buch.",
+     "why_ru": "По-русски «я подарю ему книгу». По-немецки так же: кому — ihm, потом что — ein Buch.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich schenke ihn ein Buch.",
+      "ru": "Ошибка — ihn: так говорят про того, кого видят или любят. Кому дарят — ihm."
+     },
+     "root": null,
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "ihm — ему; короткое ihm перед ein Buch."
+    },
+    "audio": "audio_v1/ch11_d5_06.mp3",
+    "tts": "Ich schenke ihm ein Buch.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schenke",
+      "ipa": "[ˈʃɛŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ihm",
+      "ipa": "[iːm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ein",
+      "ipa": "[aɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Buch",
+      "ipa": "[buːx]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): s… · кому: i… · кого-что: e… B…",
+    "gap": {
+     "text": "Ich ___ ihm ein ___.",
+     "answers": [
+      "schenke",
+      "Buch"
+     ]
+    },
+    "task_ru": "Скажи: Я подарю ему книгу."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch11_d6",
+  "title_ru": "Приглашение на вечеринку",
+  "roles": {
+   "O": "Olga (одногруппница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch11_d6_01",
+    "role": "O",
+    "de": "Ich mache am Samstag eine Party.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я устраиваю в субботу вечеринку.",
+    "nouns": [
+     {
+      "lemma": "Samstag",
+      "art": "der",
+      "pl": "Samstage"
+     },
+     {
+      "lemma": "Party",
+      "art": "die",
+      "pl": "Partys"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "mache",
+       "role": "действие №2"
+      },
+      {
+       "w": "am Samstag",
+       "role": "когда"
+      },
+      {
+       "w": "eine Party",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Ольга зовёт. mache — вагон №2, потом когда, потом что.",
+     "topic": "verb2",
+     "why_de": "ich · mache · am Samstag · eine Party: действие mache — вагон №2, потом когда, потом что.",
+     "why_ru": "По-русски «я устраиваю в субботу вечеринку». По-немецки так же: ich · mache, потом am Samstag, потом eine Party.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich am Samstag mache eine Party.",
+      "ru": "Ошибка — действие mache уехало на третье место. mache — вагон №2."
+     },
+     "root": null,
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "Ольга зовёт. mache — вагон №2, потом когда, потом что."
+    },
+    "audio": "audio_v1/ch11_d6_01.mp3",
+    "tts": "Ich mache am Samstag eine Party.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mache",
+      "ipa": "[ˈmaxə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Samstag",
+      "ipa": "[ˈzamstaːk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "eine",
+      "ipa": "[ˈaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Party",
+      "ipa": "[ˈpaːɐ̯ti]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): m… · когда: a… S… · кого-что: e… P…",
+    "gap": {
+     "text": "Ich ___ am Samstag eine ___.",
+     "answers": [
+      "mache",
+      "Party"
+     ]
+    },
+    "task_ru": "Скажи: Я устраиваю в субботу вечеринку."
+   },
+   {
+    "id": "ch11_d6_02",
+    "role": "H",
+    "de": "Wann ist die Party?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Когда вечеринка?",
+    "nouns": [
+     {
+      "lemma": "Party",
+      "art": "die",
+      "pl": "Partys"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wann",
+       "role": "вопрос-слово",
+       "asks": "когда"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "die Party",
+       "role": "кто"
+      }
+     ],
+     "text": "Wann — вопрос-слово: когда? Действие ist сразу за ним.",
+     "topic": "questions",
+     "why_de": "Wann — вопрос-слово, вагон №1. ist — вагон №2, die Party — за ним.",
+     "why_ru": "По-русски «когда вечеринка?». По-немецки так же, но ist нужно: wann ist die Party.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wann die Party?",
+      "ru": "Ошибка — нет ist. После wann сразу идёт действие: wann ist."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "Wann — вопрос-слово: когда? Действие ist сразу за ним."
+    },
+    "audio": "audio_v1/ch11_d6_02.mp3",
+    "tts": "Wann ist die Party?",
+    "ipa": [
+     {
+      "w": "Wann",
+      "ipa": "[van]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Party",
+      "ipa": "[ˈpaːɐ̯ti]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): i… · кто: d… P…",
+    "gap": {
+     "text": "Wann ___ die ___?",
+     "answers": [
+      "ist",
+      "Party"
+     ]
+    },
+    "task_ru": "Скажи: Когда вечеринка?"
+   },
+   {
+    "id": "ch11_d6_03",
+    "role": "O",
+    "de": "Die Party ist ab acht Uhr.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Вечеринка с восьми часов.",
+    "nouns": [
+     {
+      "lemma": "Party",
+      "art": "die",
+      "pl": "Partys"
+     },
+     {
+      "lemma": "Uhr",
+      "art": "die",
+      "pl": "Uhren"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Die Party",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "ab acht Uhr",
+       "role": "когда"
+      }
+     ],
+     "text": "Ответ на «когда?»: ab — «с», перед временем.",
+     "topic": "verb2",
+     "why_de": "die Party · ist · ab acht Uhr: ist — вагон №2. ab acht Uhr — когда: с восьми часов.",
+     "why_ru": "По-русски «вечеринка с восьми часов» — без «есть». По-немецки ist нужно: die Party ist ab acht Uhr.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Die Party ab acht Uhr.",
+      "ru": "Ошибка — нет ist. По-русски «есть» пропускают, по-немецки — нет."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "Ответ на «когда?»: ab — «с», перед временем."
+    },
+    "audio": "audio_v1/ch11_d6_03.mp3",
+    "tts": "Die Party ist ab acht Uhr.",
+    "ipa": [
+     {
+      "w": "Die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Party",
+      "ipa": "[ˈpaːɐ̯ti]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ab",
+      "ipa": "[ap]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "acht",
+      "ipa": "[axt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Uhr",
+      "ipa": "[uːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… P… · действие (вагон №2): i… · когда: a… a… U…",
+    "gap": {
+     "text": "Die ___ ___ ab acht Uhr.",
+     "answers": [
+      "Party",
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Вечеринка с восьми часов."
+   },
+   {
+    "id": "ch11_d6_04",
+    "role": "O",
+    "de": "Kommst du zur Party?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ты придёшь на вечеринку?",
+    "nouns": [
+     {
+      "lemma": "Party",
+      "art": "die",
+      "pl": "Partys"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Kommst",
+       "role": "действие №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "zur Party",
+       "role": "куда"
+      }
+     ],
+     "text": "Приглашение вопросом: действие впереди, du за ним.",
+     "topic": "questions",
+     "why_de": "Kommst — вопрос «да/нет»: действие впереди, du сразу за ним. zur Party — куда: «на вечеринку».",
+     "why_ru": "По-русски «ты придёшь на вечеринку». По-немецки так же коротко, но действие впереди: kommst du.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "Kommst zur Party du?",
+      "ru": "Ошибка — du ушло в конец. После действия сразу du: kommst du."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "Приглашение вопросом: действие впереди, du за ним."
+    },
+    "audio": "audio_v1/ch11_d6_04.mp3",
+    "tts": "Kommst du zur Party?",
+    "ipa": [
+     {
+      "w": "Kommst",
+      "ipa": "[kɔmst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "zur",
+      "ipa": "[t͡suːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Party",
+      "ipa": "[ˈpaːɐ̯ti]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): K… · кто: d… · куда: z… P…",
+    "gap": {
+     "text": "___ du zur ___?",
+     "answers": [
+      "Kommst",
+      "Party"
+     ]
+    },
+    "task_ru": "Скажи: Ты придёшь на вечеринку?"
+   },
+   {
+    "id": "ch11_d6_05",
+    "role": "H",
+    "de": "Ja, gern! Ich komme.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, с удовольствием! Я приду.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "gern",
+       "role": "добавка"
+      },
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "komme",
+       "role": "действие №2"
+      }
+     ],
+     "text": "Ja и gern — согласие, вагон не занимают. Дальше поезд: ich · komme.",
+     "topic": "verb2",
+     "why_de": "Ja и gern — готовые слова, вагон не занимают. Дальше поезд: ich · komme — действие komme в вагоне №2.",
+     "why_ru": "По-русски «да, с удовольствием! я приду». По-немецки так же: после ja и gern — ich komme.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ja, gern! Ich kommen.",
+      "ru": "Ошибка — с ich у действия другой хвост: komme, а не kommen."
+     },
+     "root": null,
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "Ja и gern — согласие, вагон не занимают. Дальше поезд: ich · komme."
+    },
+    "audio": "audio_v1/ch11_d6_05.mp3",
+    "tts": "Ja, gern! Ich komme.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gern",
+      "ipa": "[ɡɛʁn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "komme",
+      "ipa": "[ˈkɔmə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "S3 «komme» (действие №2) стоит на месте 3"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · добавка: g… · кто: I… · действие (вагон №2): k…",
+    "gap": {
+     "text": "Ja, gern! Ich ___.",
+     "answers": [
+      "komme"
+     ]
+    },
+    "task_ru": "Скажи: Да, с удовольствием! Я приду."
+   },
+   {
+    "id": "ch11_d6_06",
+    "role": "O",
+    "de": "Sofia kann leider nicht.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "София, к сожалению, не может.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Sofia",
+       "role": "кто"
+      },
+      {
+       "w": "kann",
+       "role": "действие №2"
+      },
+      {
+       "w": "leider",
+       "role": "добавка"
+      },
+      {
+       "w": "nicht",
+       "role": "«не»"
+      }
+     ],
+     "text": "Про другого человека: kann — вагон №2, leider и nicht после.",
+     "topic": "negation",
+     "why_de": "Sofia · kann · leider · nicht: kann держит вагон №2. leider («к сожалению») и nicht идут после действия.",
+     "why_ru": "По-русски «София, к сожалению, не может». По-немецки так же: кто, потом kann, потом leider и nicht.",
+     "layer": "nicht",
+     "why_not": {
+      "wrong": "Sofia leider kann nicht.",
+      "ru": "Ошибка — kann уехало за leider. kann держит вагон №2."
+     },
+     "root": null,
+     "override": "tools/data_ch11.py WHY",
+     "why_voice_ru": "Про другого человека: kann — вагон №2, leider и nicht после.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · добавка · «не»",
+      "items": [
+       {
+        "id": "ch11_040",
+        "de": "Ich kann leider nicht.",
+        "ru": "Я, к сожалению, не могу.",
+        "audio": "audio_v1/ch11_040.mp3",
+        "lesson": "L6",
+        "part": 3,
+        "changed": {
+         "role": "кто",
+         "wagon": 1,
+         "from": "Sofia",
+         "to": "Ich"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: kann · leider · nicht. В каждом примере меняется один вагон — «кто»: Sofia → Ich. Действие kann всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch11_d6_06.mp3",
+    "tts": "Sofia kann leider nicht.",
+    "ipa": [
+     {
+      "w": "Sofia",
+      "ipa": "[zoˈfiːaː]",
+      "src": "override"
+     },
+     {
+      "w": "kann",
+      "ipa": "[kan]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "leider",
+      "ipa": "[ˈlaɪ̯dɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "nicht",
+      "ipa": "[nɪçt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: S… · действие (вагон №2): k… · добавка: l… · «не»: n…",
+    "gap": {
+     "text": "___ ___ leider nicht.",
+     "answers": [
+      "Sofia",
+      "kann"
+     ]
+    },
+    "task_ru": "Скажи: София, к сожалению, не может."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch11_d7",
+  "title_ru": "Когда празднуют: месяцы и сезоны",
+  "roles": {
+   "S": "Sofia (одногруппница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch11_d7_01",
+    "role": "S",
+    "de": "Wann feierst du Geburtstag?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Когда ты празднуешь день рождения?",
+    "nouns": [
+     {
+      "lemma": "Geburtstag",
+      "art": "der",
+      "pl": "Geburtstage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wann",
+       "role": "вопрос-слово",
+       "asks": "когда"
+      },
+      {
+       "w": "feierst",
+       "role": "действие №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "Geburtstag",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Wann — когда? feierst сразу за ним.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wann — вагон №1, действие feierst — сразу за ним, вагон №2: Wann feierst du Geburtstag? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Когда ты празднуешь день рождения» можно сказать и в другом порядке. По-немецки порядок один: Wann · feierst · du · Geburtstag.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wann du feierst Geburtstag?",
+      "ru": "du встал перед feierst — действие ушло из вагона №2. После Wann немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Wann — когда? feierst сразу за ним.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "вопрос-слово · действие (вагон №2) · «кто» · «что»",
+      "items": [
+       {
+        "id": "ch11_025",
+        "de": "Wann hast du Geburtstag?",
+        "ru": "Когда у тебя день рождения?",
+        "audio": "audio_v1/ch11_025.mp3",
+        "lesson": "L4",
+        "part": 3,
+        "changed": {
+         "role": "действие №2",
+         "wagon": 2,
+         "from": "feierst",
+         "to": "hast"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Wann · du · Geburtstag. В каждом примере меняется один вагон — действие (вагон №2): feierst → hast.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch11_d7_01.mp3",
+    "tts": "Wann feierst du Geburtstag?",
+    "ipa": [
+     {
+      "w": "Wann",
+      "ipa": "[van]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "feierst",
+      "ipa": "[ˈfaɪ̯ɐst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Geburtstag",
+      "ipa": "[ɡəˈbuːɐ̯t͡sˌtaːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): f… · кто: d… · кого-что: G…",
+    "gap": {
+     "text": "Wann ___ du ___?",
+     "answers": [
+      "feierst",
+      "Geburtstag"
+     ]
+    },
+    "task_ru": "Скажи: Когда ты празднуешь день рождения?"
+   },
+   {
+    "id": "ch11_d7_02",
+    "role": "H",
+    "de": "Ich feiere im Mai.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я праздную в мае.",
+    "nouns": [
+     {
+      "lemma": "Mai",
+      "art": "der",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "feiere",
+       "role": "действие №2"
+      },
+      {
+       "w": "im Mai",
+       "role": "когда"
+      }
+     ],
+     "text": "С ich — feiere. im Mai — когда.",
+     "topic": "verb2",
+     "why_de": "Ich · feiere · im Mai: действие feiere — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я праздную в мае» — Ich feiere im Mai. Разница одна: по-немецки feiere держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich im Mai feiere.",
+      "ru": "Действие feiere уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе feiere — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "С ich — feiere. im Mai — когда.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «когда»",
+      "items": [
+       {
+        "id": "ch11_d7_05",
+        "de": "Ich feiere im Dezember.",
+        "ru": "Я праздную в декабре.",
+        "audio": "audio_v1/ch11_d7_05.mp3",
+        "lesson": "L7",
+        "part": 4,
+        "changed": {
+         "role": "когда",
+         "wagon": 3,
+         "from": "im Mai",
+         "to": "im Dezember"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Ich · feiere. В каждом примере меняется один вагон — «когда»: im Mai → im Dezember. Действие feiere всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch11_d7_02.mp3",
+    "tts": "Ich feiere im Mai.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "feiere",
+      "ipa": "[ˈfaɪ̯əʁə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "im",
+      "ipa": "[ɪm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Mai",
+      "ipa": "[maɪ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "мн.ч. '' Mai ≠ {'Maie'}",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): f… · когда: i… M…",
+    "gap": {
+     "text": "Ich ___ im ___.",
+     "answers": [
+      "feiere",
+      "Mai"
+     ]
+    },
+    "task_ru": "Скажи: Я праздную в мае."
+   },
+   {
+    "id": "ch11_d7_03",
+    "role": "S",
+    "de": "Im Mai ist es warm.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "В мае тепло.",
+    "nouns": [
+     {
+      "lemma": "Mai",
+      "art": "der",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Im Mai",
+       "role": "когда"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "es",
+       "role": "кто"
+      },
+      {
+       "w": "warm",
+       "role": "какой/как"
+      }
+     ],
+     "text": "Время первым — ist всё равно вагон №2, es за ним.",
+     "topic": "inv",
+     "why_de": "Вагон №1 занят: Im Mai. Действие ist всё равно в вагоне №2, а «кто» (es) — за ним: Im Mai ist es warm.",
+     "why_ru": "По-русски «В мае тепло» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, ist — вагон №2.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Im Mai es ist warm.",
+      "ru": "Русский порядок: «кто» (es) перед действием, и ist уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Время первым — ist всё равно вагон №2, es за ним.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«когда» · действие (вагон №2) · «кто» · «как»",
+      "items": [
+       {
+        "id": "ch11_019",
+        "de": "Im Sommer ist es warm.",
+        "ru": "Летом тепло.",
+        "audio": "audio_v1/ch11_019.mp3",
+        "lesson": "L3",
+        "part": 3,
+        "changed": {
+         "role": "когда",
+         "wagon": 1,
+         "from": "Im Mai",
+         "to": "Im Sommer"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: ist · es · warm. В каждом примере меняется один вагон — «когда»: Im Mai → Im Sommer. Действие ist всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch11_d7_03.mp3",
+    "tts": "Im Mai ist es warm.",
+    "ipa": [
+     {
+      "w": "Im",
+      "ipa": "[ɪm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Mai",
+      "ipa": "[maɪ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "es",
+      "ipa": "[ɛs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "warm",
+      "ipa": "[vaʁm]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "мн.ч. '' Mai ≠ {'Maie'}",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "когда: I… M… · действие (вагон №2): i… · кто: e… · какой/как: w…",
+    "gap": {
+     "text": "Im ___ ___ es warm.",
+     "answers": [
+      "Mai",
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: В мае тепло."
+   },
+   {
+    "id": "ch11_d7_04",
+    "role": "H",
+    "de": "Und in Australien ist es im Mai kalt.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А в Австралии в мае холодно.",
+    "nouns": [
+     {
+      "lemma": "Mai",
+      "art": "der",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "in Australien",
+       "role": "где"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "es",
+       "role": "кто"
+      },
+      {
+       "w": "im Mai",
+       "role": "когда"
+      },
+      {
+       "w": "kalt",
+       "role": "какой/как"
+      }
+     ],
+     "text": "Und вагон не занимает. Дальше место первым, ist — №2.",
+     "topic": "inv",
+     "why_de": "Вагон №1 занят: in Australien. Действие ist всё равно в вагоне №2, а «кто» (es) — за ним: Und in Australien ist es im Mai kalt.",
+     "why_ru": "По-русски «А в Австралии в мае холодно» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, ist — вагон №2.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Und in Australien es ist im Mai kalt.",
+      "ru": "Русский порядок: «кто» (es) перед действием, и ist уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Und вагон не занимает. Дальше место первым, ist — №2."
+    },
+    "audio": "audio_v1/ch11_d7_04.mp3",
+    "tts": "Und in Australien ist es im Mai kalt.",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "in",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Australien",
+      "ipa": "[aʊ̯sˈtʁaːli̯ən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "es",
+      "ipa": "[ɛs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "im",
+      "ipa": "[ɪm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Mai",
+      "ipa": "[maɪ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kalt",
+      "ipa": "[kalt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "мн.ч. '' Mai ≠ {'Maie'}",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · где: i… A… · действие (вагон №2): i… · кто: e… · когда: i… M… · какой/как: k…",
+    "gap": {
+     "text": "Und in ___ ___ es im Mai kalt.",
+     "answers": [
+      "Australien",
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: А в Австралии в мае холодно."
+   },
+   {
+    "id": "ch11_d7_05",
+    "role": "S",
+    "de": "Ich feiere im Dezember.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я праздную в декабре.",
+    "nouns": [
+     {
+      "lemma": "Dezember",
+      "art": "der",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "feiere",
+       "role": "действие №2"
+      },
+      {
+       "w": "im Dezember",
+       "role": "когда"
+      }
+     ],
+     "text": "С ich — feiere. im Dezember — когда.",
+     "topic": "verb2",
+     "why_de": "Ich · feiere · im Dezember: действие feiere — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я праздную в декабре» — Ich feiere im Dezember. Разница одна: по-немецки feiere держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich im Dezember feiere.",
+      "ru": "Действие feiere уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе feiere — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "С ich — feiere. im Dezember — когда.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «когда»",
+      "items": [
+       {
+        "id": "ch11_044",
+        "de": "Ich feiere im Mai.",
+        "ru": "Я праздную в мае.",
+        "audio": "audio_v1/ch11_044.mp3",
+        "lesson": "L7",
+        "part": 3,
+        "changed": {
+         "role": "когда",
+         "wagon": 3,
+         "from": "im Dezember",
+         "to": "im Mai"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Ich · feiere. В каждом примере меняется один вагон — «когда»: im Dezember → im Mai. Действие feiere всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch11_d7_05.mp3",
+    "tts": "Ich feiere im Dezember.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "feiere",
+      "ipa": "[ˈfaɪ̯əʁə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "im",
+      "ipa": "[ɪm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Dezember",
+      "ipa": "[deˈt͡sɛmbɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "мн.ч. '' Dezember ≠ {'Dezember'}",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): f… · когда: i… D…",
+    "gap": {
+     "text": "Ich ___ im ___.",
+     "answers": [
+      "feiere",
+      "Dezember"
+     ]
+    },
+    "task_ru": "Скажи: Я праздную в декабре."
+   },
+   {
+    "id": "ch11_d7_06",
+    "role": "H",
+    "de": "Im Dezember ist es in Deutschland kalt.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "В декабре в Германии холодно.",
+    "nouns": [
+     {
+      "lemma": "Dezember",
+      "art": "der",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Im Dezember",
+       "role": "когда"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "es",
+       "role": "кто"
+      },
+      {
+       "w": "in Deutschland",
+       "role": "где"
+      },
+      {
+       "w": "kalt",
+       "role": "какой/как"
+      }
+     ],
+     "text": "Время первым. ist — вагон №2, es — №3, потом место.",
+     "topic": "inv",
+     "why_de": "Вагон №1 занят: Im Dezember. Действие ist всё равно в вагоне №2, а «кто» (es) — за ним: Im Dezember ist es in Deutschland kalt.",
+     "why_ru": "По-русски «В декабре в Германии холодно» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, ist — вагон №2.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Im Dezember es ist in Deutschland kalt.",
+      "ru": "Русский порядок: «кто» (es) перед действием, и ist уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Время первым. ist — вагон №2, es — №3, потом место."
+    },
+    "audio": "audio_v1/ch11_d7_06.mp3",
+    "tts": "Im Dezember ist es in Deutschland kalt.",
+    "ipa": [
+     {
+      "w": "Im",
+      "ipa": "[ɪm]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Dezember",
+      "ipa": "[deˈt͡sɛmbɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "es",
+      "ipa": "[ɛs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "in",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Deutschland",
+      "ipa": "[ˈdɔɪ̯t͡ʃˌlant]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kalt",
+      "ipa": "[kalt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "мн.ч. '' Dezember ≠ {'Dezember'}",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "когда: I… D… · действие (вагон №2): i… · кто: e… · где: i… D… · какой/как: k…",
+    "gap": {
+     "text": "Im Dezember ___ es in ___ kalt.",
+     "answers": [
+      "ist",
+      "Deutschland"
+     ]
+    },
+    "task_ru": "Скажи: В декабре в Германии холодно."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch11_d8",
+  "title_ru": "Aditas Fest: знакомство",
+  "roles": {
+   "A": "Adita (хозяйка вечеринки)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch11_d8_01",
+    "role": "A",
+    "de": "Hallo! Ich bin Adita.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Привет! Я Адита.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Hallo",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "bin",
+       "role": "действие №2"
+      },
+      {
+       "w": "Adita",
+       "role": "кто"
+      }
+     ],
+     "text": "Hallo вагон не занимает. Так называют своё имя: bin держит вагон №2.",
+     "topic": "verb2",
+     "why_de": "bin работает как знак «=»: ich = Adita. Действие держит вагон №2.",
+     "why_ru": "По-русски «Я Адита» — без «есть». По-немецки без bin нельзя: Ich bin Adita.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Hallo! Ich Adita.",
+      "ru": "Русская привычка — пропустить «есть». Без bin немец слышит обрывок, а не фразу."
+     },
+     "root": "Hallo — от holen «звать, позвать» (ahd. halōn/holōn): так окликали перевозчика (DWDS, Pfeifer); bin, bist — от древнего корня *bʰew- («быть»), а ist — от *es- (как русское «есть»); весь глагол sein собран из двух корней (DWDS, Wiktionary)",
+     "why_voice_ru": "Hallo вагон не занимает. Так называют своё имя: bin держит вагон №2."
+    },
+    "audio": "audio_v1/ch11_d8_01.mp3",
+    "tts": "Hallo! Ich bin Adita.",
+    "ipa": [
+     {
+      "w": "Hallo",
+      "ipa": "[haˈloː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bin",
+      "ipa": "[bɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Adita",
+      "ipa": null,
+      "src": "none"
+     }
+    ],
+    "check": {
+     "lt": "GERMAN_SPELLER_RULE: Adita",
+     "gender": "не внесено в nouns: Adita",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "partial",
+    "hint": "привет/вежливость: H… · кто: I… · действие (вагон №2): b… · кто: A…",
+    "gap": {
+     "text": "Hallo! Ich ___ ___.",
+     "answers": [
+      "bin",
+      "Adita"
+     ]
+    },
+    "task_ru": "Скажи: Привет! Я Адита."
+   },
+   {
+    "id": "ch11_d8_02",
+    "role": "H",
+    "de": "Woher kommst du?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Откуда ты?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Woher",
+       "role": "вопрос-слово",
+       "asks": "откуда"
+      },
+      {
+       "w": "kommst",
+       "role": "действие №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      }
+     ],
+     "text": "Woher — откуда? kommst сразу за ним.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Woher — вагон №1, действие kommst — сразу за ним, вагон №2: Woher kommst du? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Откуда ты» можно сказать и в другом порядке. По-немецки порядок один: Woher · kommst · du. Действия kommst в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Woher du kommst?",
+      "ru": "du встал перед kommst — действие ушло из вагона №2. После Woher немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Woher — откуда? kommst сразу за ним."
+    },
+    "audio": "audio_v1/ch11_d8_02.mp3",
+    "tts": "Woher kommst du?",
+    "ipa": [
+     {
+      "w": "Woher",
+      "ipa": "[voˈheːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kommst",
+      "ipa": "[kɔmst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): k… · кто: d…",
+    "gap": {
+     "text": "Woher ___ du?",
+     "answers": [
+      "kommst"
+     ]
+    },
+    "task_ru": "Скажи: Откуда ты?"
+   },
+   {
+    "id": "ch11_d8_03",
+    "role": "A",
+    "de": "Ich komme aus Indien.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я из Индии.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "komme",
+       "role": "действие №2"
+      },
+      {
+       "w": "aus Indien",
+       "role": "откуда"
+      }
+     ],
+     "text": "aus — «из». Страна без артикля.",
+     "topic": "verb2",
+     "why_de": "Ich · komme · aus Indien: действие komme — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Я из Индии» — без действия. По-немецки без komme фразы нет: Ich komme aus Indien.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich aus Indien.",
+      "ru": "Русская привычка — без действия, как «Я из Индии». Без komme немец слышит обрывок, а не фразу."
+     },
+     "root": null,
+     "why_voice_ru": "aus — «из». Страна без артикля.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «откуда»",
+      "items": [
+       {
+        "id": "ch11_050",
+        "de": "Ich komme aus Kiew.",
+        "ru": "Я из Киева.",
+        "audio": "audio_v1/ch11_050.mp3",
+        "lesson": "L8",
+        "part": 3,
+        "changed": {
+         "role": "откуда",
+         "wagon": 3,
+         "from": "aus Indien",
+         "to": "aus Kiew"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Ich · komme. В каждом примере меняется один вагон — «откуда»: aus Indien → aus Kiew. Действие komme всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch11_d8_03.mp3",
+    "tts": "Ich komme aus Indien.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "komme",
+      "ipa": "[ˈkɔmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "aus",
+      "ipa": "[aʊ̯s]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Indien",
+      "ipa": "[ˈɪndi̯ən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): k… · откуда: a… I…",
+    "gap": {
+     "text": "Ich ___ aus Indien.",
+     "answers": [
+      "komme"
+     ]
+    },
+    "task_ru": "Скажи: Я из Индии."
+   },
+   {
+    "id": "ch11_d8_04",
+    "role": "A",
+    "de": "Und woher kommst du?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А ты откуда?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "woher",
+       "role": "вопрос-слово",
+       "asks": "откуда"
+      },
+      {
+       "w": "kommst",
+       "role": "действие №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      }
+     ],
+     "text": "Und вагон не занимает. woher — вагон №1, kommst — №2.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово woher — вагон №1, действие kommst — сразу за ним, вагон №2: Und woher kommst du? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «А ты откуда» можно сказать и в другом порядке. По-немецки порядок один: woher · kommst · du. Действия kommst в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Und woher du kommst?",
+      "ru": "du встал перед kommst — действие ушло из вагона №2. После woher немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Und вагон не занимает. woher — вагон №1, kommst — №2."
+    },
+    "audio": "audio_v1/ch11_d8_04.mp3",
+    "tts": "Und woher kommst du?",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "woher",
+      "ipa": "[voˈheːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kommst",
+      "ipa": "[kɔmst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · вопрос-слово: w… · действие (вагон №2): k… · кто: d…",
+    "gap": {
+     "text": "Und woher ___ du?",
+     "answers": [
+      "kommst"
+     ]
+    },
+    "task_ru": "Скажи: А ты откуда?"
+   },
+   {
+    "id": "ch11_d8_05",
+    "role": "H",
+    "de": "Ich komme aus Kiew.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я из Киева.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "komme",
+       "role": "действие №2"
+      },
+      {
+       "w": "aus Kiew",
+       "role": "откуда"
+      }
+     ],
+     "text": "aus Kiew — из Киева. С ich — komme.",
+     "topic": "verb2",
+     "why_de": "Ich · komme · aus Kiew: действие komme — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Я из Киева» — без действия. По-немецки без komme фразы нет: Ich komme aus Kiew.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich aus Kiew.",
+      "ru": "Русская привычка — без действия, как «Я из Киева». Без komme немец слышит обрывок, а не фразу."
+     },
+     "root": null,
+     "why_voice_ru": "aus Kiew — из Киева. С ich — komme.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «откуда»",
+      "items": [
+       {
+        "id": "ch11_d8_03",
+        "de": "Ich komme aus Indien.",
+        "ru": "Я из Индии.",
+        "audio": "audio_v1/ch11_d8_03.mp3",
+        "lesson": "L8",
+        "part": 4,
+        "changed": {
+         "role": "откуда",
+         "wagon": 3,
+         "from": "aus Kiew",
+         "to": "aus Indien"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Ich · komme. В каждом примере меняется один вагон — «откуда»: aus Kiew → aus Indien. Действие komme всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch11_d8_05.mp3",
+    "tts": "Ich komme aus Kiew.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "komme",
+      "ipa": "[ˈkɔmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "aus",
+      "ipa": "[aʊ̯s]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kiew",
+      "ipa": "[ˈkiːɛf]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): k… · откуда: a… K…",
+    "gap": {
+     "text": "Ich ___ aus Kiew.",
+     "answers": [
+      "komme"
+     ]
+    },
+    "task_ru": "Скажи: Я из Киева."
+   },
+   {
+    "id": "ch11_d8_06",
+    "role": "A",
+    "de": "Was machst du?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Чем ты занимаешься?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "machst",
+       "role": "действие №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      }
+     ],
+     "text": "Was — что? machst сразу за ним.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Was — вагон №1, действие machst — сразу за ним, вагон №2: Was machst du? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Чем ты занимаешься» можно сказать и в другом порядке. По-немецки порядок один: Was · machst · du.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Was du machst?",
+      "ru": "du встал перед machst — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Was — что? machst сразу за ним."
+    },
+    "audio": "audio_v1/ch11_d8_06.mp3",
+    "tts": "Was machst du?",
+    "ipa": [
+     {
+      "w": "Was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "machst",
+      "ipa": "[maxst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): m… · кто: d…",
+    "gap": {
+     "text": "Was ___ du?",
+     "answers": [
+      "machst"
+     ]
+    },
+    "task_ru": "Скажи: Чем ты занимаешься?"
+   },
+   {
+    "id": "ch11_d8_07",
+    "role": "H",
+    "de": "Ich lerne Deutsch.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я учу немецкий.",
+    "nouns": [
+     {
+      "lemma": "Deutsch",
+      "art": "das",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "lerne",
+       "role": "действие №2"
+      },
+      {
+       "w": "Deutsch",
+       "role": "кого-что"
+      }
+     ],
+     "text": "С ich — lerne. Deutsch — что учу.",
+     "topic": "verb2",
+     "why_de": "Ich · lerne · Deutsch: действие lerne — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я учу немецкий» — Ich lerne Deutsch. Разница одна: по-немецки lerne держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich Deutsch lerne.",
+      "ru": "Действие lerne уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе lerne — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "С ich — lerne. Deutsch — что учу."
+    },
+    "audio": "audio_v1/ch11_d8_07.mp3",
+    "tts": "Ich lerne Deutsch.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "lerne",
+      "ipa": "[ˈlɛʁnə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Deutsch",
+      "ipa": "[dɔɪ̯t͡ʃ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): l… · кого-что: D…",
+    "gap": {
+     "text": "Ich ___ ___.",
+     "answers": [
+      "lerne",
+      "Deutsch"
+     ]
+    },
+    "task_ru": "Скажи: Я учу немецкий."
+   },
+   {
+    "id": "ch11_d8_08",
+    "role": "A",
+    "de": "Ich lerne auch Deutsch.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я тоже учу немецкий.",
+    "nouns": [
+     {
+      "lemma": "Deutsch",
+      "art": "das",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "lerne",
+       "role": "действие №2"
+      },
+      {
+       "w": "auch",
+       "role": "добавка"
+      },
+      {
+       "w": "Deutsch",
+       "role": "кого-что"
+      }
+     ],
+     "text": "auch — «тоже»: идёт после lerne, перед Deutsch.",
+     "topic": "verb2",
+     "why_de": "Ich · lerne · auch · Deutsch: действие lerne — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я тоже учу немецкий» — Ich lerne auch Deutsch. Разница одна: по-немецки lerne держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich auch Deutsch lerne.",
+      "ru": "Действие lerne уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе lerne — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "auch — «тоже»: идёт после lerne, перед Deutsch."
+    },
+    "audio": "audio_v1/ch11_d8_08.mp3",
+    "tts": "Ich lerne auch Deutsch.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "lerne",
+      "ipa": "[ˈlɛʁnə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "auch",
+      "ipa": "[aʊ̯x]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Deutsch",
+      "ipa": "[dɔɪ̯t͡ʃ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): l… · добавка: a… · кого-что: D…",
+    "gap": {
+     "text": "Ich ___ auch ___.",
+     "answers": [
+      "lerne",
+      "Deutsch"
+     ]
+    },
+    "task_ru": "Скажи: Я тоже учу немецкий."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch11_d9",
+  "title_ru": "Повторение: сестра и вечеринка",
+  "roles": {
+   "S": "Sofia (одногруппница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch11_d9_01",
+    "role": "S",
+    "de": "Wann hat deine Schwester Geburtstag?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Когда у твоей сестры день рождения?",
+    "nouns": [
+     {
+      "lemma": "Schwester",
+      "art": "die",
+      "pl": "Schwestern"
+     },
+     {
+      "lemma": "Geburtstag",
+      "art": "der",
+      "pl": "Geburtstage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wann",
+       "role": "вопрос-слово",
+       "asks": "когда"
+      },
+      {
+       "w": "hat",
+       "role": "действие №2"
+      },
+      {
+       "w": "deine Schwester",
+       "role": "кто"
+      },
+      {
+       "w": "Geburtstag",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Wann — когда? Действие hat сразу за ним, потом deine Schwester.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wann — вагон №1, действие hat — сразу за ним, вагон №2: Wann hat deine Schwester Geburtstag? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Когда у твоей сестры день рождения» можно сказать и в другом порядке. По-немецки порядок один: Wann · hat · deine Schwester · Geburtstag. Действия hat в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wann deine Schwester hat Geburtstag?",
+      "ru": "deine Schwester встал перед hat — действие ушло из вагона №2. После Wann немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "Wann — когда? Действие hat сразу за ним, потом deine Schwester."
+    },
+    "audio": "audio_v1/ch11_d9_01.mp3",
+    "tts": "Wann hat deine Schwester Geburtstag?",
+    "ipa": [
+     {
+      "w": "Wann",
+      "ipa": "[van]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hat",
+      "ipa": "[hat]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "deine",
+      "ipa": "[ˈdaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Schwester",
+      "ipa": "[ˈʃvɛstɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Geburtstag",
+      "ipa": "[ɡəˈbuːɐ̯t͡sˌtaːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): h… · кто: d… S… · кого-что: G…",
+    "gap": {
+     "text": "Wann ___ deine Schwester ___?",
+     "answers": [
+      "hat",
+      "Geburtstag"
+     ]
+    },
+    "task_ru": "Скажи: Когда у твоей сестры день рождения?"
+   },
+   {
+    "id": "ch11_d9_02",
+    "role": "H",
+    "de": "Meine Schwester hat am dritten Mai Geburtstag.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "У моей сестры день рождения третьего мая.",
+    "nouns": [
+     {
+      "lemma": "Schwester",
+      "art": "die",
+      "pl": "Schwestern"
+     },
+     {
+      "lemma": "Mai",
+      "art": "der",
+      "pl": ""
+     },
+     {
+      "lemma": "Geburtstag",
+      "art": "der",
+      "pl": "Geburtstage"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Meine Schwester",
+       "role": "кто"
+      },
+      {
+       "w": "hat",
+       "role": "действие №2"
+      },
+      {
+       "w": "am dritten Mai",
+       "role": "когда"
+      },
+      {
+       "w": "Geburtstag",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Про другого — hat. am dritten Mai — когда.",
+     "topic": "verb2",
+     "why_de": "Meine Schwester · hat · am dritten Mai · Geburtstag: действие hat — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «У моей сестры день рождения третьего мая» — без действия. По-немецки без hat фразы нет: Meine Schwester hat am dritten Mai Geburtstag.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Meine Schwester am dritten Mai Geburtstag.",
+      "ru": "Русская привычка — без действия, как «У моей сестры день рождения третьего мая». Без hat немец слышит обрывок, а не фразу."
+     },
+     "root": null,
+     "why_voice_ru": "Про другого — hat. am dritten Mai — когда."
+    },
+    "audio": "audio_v1/ch11_d9_02.mp3",
+    "tts": "Meine Schwester hat am dritten Mai Geburtstag.",
+    "ipa": [
+     {
+      "w": "Meine",
+      "ipa": "[ˈmaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Schwester",
+      "ipa": "[ˈʃvɛstɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hat",
+      "ipa": "[hat]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "dritten",
+      "ipa": "[ˈdʁɪtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Mai",
+      "ipa": "[maɪ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Geburtstag",
+      "ipa": "[ɡəˈbuːɐ̯t͡sˌtaːk]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "мн.ч. '' Mai ≠ {'Maie'}",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: M… S… · действие (вагон №2): h… · когда: a… d… M… · кого-что: G…",
+    "gap": {
+     "text": "Meine Schwester ___ am dritten Mai ___.",
+     "answers": [
+      "hat",
+      "Geburtstag"
+     ]
+    },
+    "task_ru": "Скажи: У моей сестры день рождения третьего мая."
+   },
+   {
+    "id": "ch11_d9_03",
+    "role": "S",
+    "de": "Was schenkst du ihr?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Что ты ей подаришь?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "schenkst",
+       "role": "действие №2"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "ihr",
+       "role": "кому"
+      }
+     ],
+     "text": "ihr — ей: сестру второй раз не называют.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Was — вагон №1, действие schenkst — сразу за ним, вагон №2: Was schenkst du ihr? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Что ты ей подаришь» можно сказать и в другом порядке. По-немецки порядок один: Was · schenkst · du · ihr.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Was du schenkst ihr?",
+      "ru": "du встал перед schenkst — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "ihr — ей: сестру второй раз не называют.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "вопрос-слово · действие (вагон №2) · «кто» · «кому»",
+      "items": [
+       {
+        "id": "ch11_031",
+        "de": "Was schenkst du Olga?",
+        "ru": "Что ты подаришь Ольге?",
+        "audio": "audio_v1/ch11_031.mp3",
+        "lesson": "L5",
+        "part": 3,
+        "changed": {
+         "role": "кому",
+         "wagon": 4,
+         "from": "ihr",
+         "to": "Olga"
+        }
+       },
+       {
+        "id": "ch11_033",
+        "de": "Was schenkst du ihm?",
+        "ru": "Что ты ему подаришь?",
+        "audio": "audio_v1/ch11_033.mp3",
+        "lesson": "L5",
+        "part": 3,
+        "changed": {
+         "role": "кому",
+         "wagon": 4,
+         "from": "ihr",
+         "to": "ihm"
+        }
+       },
+       {
+        "id": "ch11_t10",
+        "de": "Was schenkst du deiner Mutter?",
+        "ru": "Что ты подаришь своей маме?",
+        "audio": "audio_v1/ch11_t10.mp3",
+        "lesson": "L5",
+        "part": 11,
+        "changed": {
+         "role": "кому",
+         "wagon": 4,
+         "from": "ihr",
+         "to": "deiner Mutter"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Was · schenkst · du. В каждом примере меняется один вагон — «кому»: ihr → Olga → ihm → deiner Mutter. Действие schenkst всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch11_d9_03.mp3",
+    "tts": "Was schenkst du ihr?",
+    "ipa": [
+     {
+      "w": "Was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schenkst",
+      "ipa": "[ʃɛŋkst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ihr",
+      "ipa": "[iːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): s… · кто: d… · кому: i…",
+    "gap": {
+     "text": "Was ___ du ihr?",
+     "answers": [
+      "schenkst"
+     ]
+    },
+    "task_ru": "Скажи: Что ты ей подаришь?"
+   },
+   {
+    "id": "ch11_d9_04",
+    "role": "H",
+    "de": "Ich schenke meiner Schwester ein Buch.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я подарю моей сестре книгу.",
+    "nouns": [
+     {
+      "lemma": "Schwester",
+      "art": "die",
+      "pl": "Schwestern"
+     },
+     {
+      "lemma": "Buch",
+      "art": "das",
+      "pl": "Bücher"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "schenke",
+       "role": "действие №2"
+      },
+      {
+       "w": "meiner Schwester",
+       "role": "кому"
+      },
+      {
+       "w": "ein Buch",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Кому — meiner Schwester, потом что — ein Buch.",
+     "topic": "verb2",
+     "why_de": "Ich · schenke · meiner Schwester · ein Buch: действие schenke — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я подарю моей сестре книгу» — Ich schenke meiner Schwester ein Buch. Разница одна: по-немецки schenke держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich meiner Schwester ein Buch schenke.",
+      "ru": "Действие schenke уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе schenke — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Кому — meiner Schwester, потом что — ein Buch.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «кому» · «что»",
+      "items": [
+       {
+        "id": "ch11_034",
+        "de": "Ich schenke ihm ein Buch.",
+        "ru": "Я подарю ему книгу.",
+        "audio": "audio_v1/ch11_034.mp3",
+        "lesson": "L5",
+        "part": 3,
+        "changed": {
+         "role": "кому",
+         "wagon": 3,
+         "from": "meiner Schwester",
+         "to": "ihm"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Ich · schenke · ein Buch. В каждом примере меняется один вагон — «кому»: meiner Schwester → ihm. Действие schenke всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch11_d9_04.mp3",
+    "tts": "Ich schenke meiner Schwester ein Buch.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "schenke",
+      "ipa": "[ˈʃɛŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "meiner",
+      "ipa": "[ˈmaɪ̯nɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Schwester",
+      "ipa": "[ˈʃvɛstɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ein",
+      "ipa": "[aɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Buch",
+      "ipa": "[buːx]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): s… · кому: m… S… · кого-что: e… B…",
+    "gap": {
+     "text": "Ich ___ meiner Schwester ein ___.",
+     "answers": [
+      "schenke",
+      "Buch"
+     ]
+    },
+    "task_ru": "Скажи: Я подарю моей сестре книгу."
+   },
+   {
+    "id": "ch11_d9_05",
+    "role": "S",
+    "de": "Kommt deine Schwester zur Party?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Твоя сестра придёт на вечеринку?",
+    "nouns": [
+     {
+      "lemma": "Schwester",
+      "art": "die",
+      "pl": "Schwestern"
+     },
+     {
+      "lemma": "Party",
+      "art": "die",
+      "pl": "Partys"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Kommt",
+       "role": "действие №1"
+      },
+      {
+       "w": "deine Schwester",
+       "role": "кто"
+      },
+      {
+       "w": "zur Party",
+       "role": "куда"
+      }
+     ],
+     "text": "Вопрос «да/нет»: kommt впереди.",
+     "topic": "questions",
+     "why_de": "Действие впереди (Kommt) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Kommt deine Schwester zur Party?",
+     "why_ru": "По-русски «Твоя сестра придёт на вечеринку» — вопрос только голосом, порядок как в ответе. По-немецки действие Kommt выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Deine Schwester kommt zur Party?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Твоя сестра придёт на вечеринку?!»). Обычный вопрос — действие впереди."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос «да/нет»: kommt впереди."
+    },
+    "audio": "audio_v1/ch11_d9_05.mp3",
+    "tts": "Kommt deine Schwester zur Party?",
+    "ipa": [
+     {
+      "w": "Kommt",
+      "ipa": "[kɔmt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "deine",
+      "ipa": "[ˈdaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Schwester",
+      "ipa": "[ˈʃvɛstɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "zur",
+      "ipa": "[t͡suːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Party",
+      "ipa": "[ˈpaːɐ̯ti]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): K… · кто: d… S… · куда: z… P…",
+    "gap": {
+     "text": "___ deine Schwester zur ___?",
+     "answers": [
+      "Kommt",
+      "Party"
+     ]
+    },
+    "task_ru": "Скажи: Твоя сестра придёт на вечеринку?"
+   },
+   {
+    "id": "ch11_d9_06",
+    "role": "H",
+    "de": "Ja! Sie kommt ab acht Uhr.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да! Она придёт с восьми часов.",
+    "nouns": [
+     {
+      "lemma": "Uhr",
+      "art": "die",
+      "pl": "Uhren"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "kommt",
+       "role": "действие №2"
+      },
+      {
+       "w": "ab acht Uhr",
+       "role": "когда"
+      }
+     ],
+     "text": "Ja вагон не занимает. Sie — №1, kommt — №2, потом когда.",
+     "topic": "verb2",
+     "why_de": "Sie · kommt · ab acht Uhr: действие kommt — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Она придёт с восьми часов» — Sie kommt ab acht Uhr. Разница одна: по-немецки kommt держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ja! Sie ab acht Uhr kommt.",
+      "ru": "Действие kommt уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе kommt — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Ja вагон не занимает. Sie — №1, kommt — №2, потом когда."
+    },
+    "audio": "audio_v1/ch11_d9_06.mp3",
+    "tts": "Ja! Sie kommt ab acht Uhr.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kommt",
+      "ipa": "[kɔmt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ab",
+      "ipa": "[ap]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "acht",
+      "ipa": "[axt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Uhr",
+      "ipa": "[uːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: S… · действие (вагон №2): k… · когда: a… a… U…",
+    "gap": {
+     "text": "Ja! Sie ___ ab acht ___.",
+     "answers": [
+      "kommt",
+      "Uhr"
+     ]
+    },
+    "task_ru": "Скажи: Да! Она придёт с восьми часов."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ }
+]

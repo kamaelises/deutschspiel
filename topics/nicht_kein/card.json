@@ -1,0 +1,502 @@
+{
+ "topic": "nicht_kein",
+ "title": "Два «не»: kein для предмета, nicht для всего остального",
+ "minutes": 2,
+ "steps": [
+  {
+   "type": "picture",
+   "text": "kein — это ein с буквой k: «ни одного». Он садится прямо к предмету. nicht — отдельный вагон «не», он едет ближе к концу поезда.",
+   "items": [
+    {
+     "from": "ein Fahrrad",
+     "to": "kein Fahrrad",
+     "audio": "kein_fahrrad"
+    },
+    {
+     "train": [
+      {
+       "role": "кто",
+       "de": "Ich",
+       "ru": "я"
+      },
+      {
+       "role": "действие №2",
+       "de": "spiele",
+       "ru": "играю"
+      },
+      {
+       "role": "когда",
+       "de": "heute",
+       "ru": "сегодня"
+      },
+      {
+       "role": "«не»",
+       "de": "nicht",
+       "ru": "не"
+      }
+     ],
+     "audio": "spiele_nicht"
+    }
+   ],
+   "src": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "idea",
+   "text": "Почему два слова? Немец сначала говорит, о чём речь, а «не» ставит в конце — как печать «отменено» на всей фразе. А если речь о предмете «какой-то / ни одного», «не» прилипает к самому предмету: ein → kein. Перед «этим самым» предметом (den Boss, mein Auto) kein не бывает — там nicht в конце. Если «не» относится только к одной детали («не сегодня»), nicht встаёт прямо перед ней.",
+   "src": [
+    1,
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "type": "examples",
+   "text": "Послушай: где kein, где nicht?",
+   "items": [
+    "kein_fahrrad",
+    "kein_hund",
+    "keine_zeit",
+    "spiele_nicht",
+    "boss_nicht"
+   ],
+   "src": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "type": "hint",
+   "text": "nicht едет в конец, но пропускает вперёд последние «важные» вагоны: место (im Dorf), «какой» (heiß) и хвост действия. Oma wohnt nicht im Dorf. Der Kaffee ist nicht heiß.",
+   "items": [
+    "oma_nicht_dorf",
+    "kaffee_nicht"
+   ],
+   "src": [
+    4
+   ]
+  },
+  {
+   "type": "trap",
+   "text": "Тут русский мешает. «Я не знаю этого босса» хочется сказать «Ich nicht kenne den Boss» — ✗. Действие держит место №2, а nicht уезжает в конец: Ich kenne den Boss nicht. — ✓",
+   "items": [
+    {
+     "wrong": "Ich nicht kenne den Boss.",
+     "right": "Ich kenne den Boss nicht.",
+     "audio": "boss_nicht"
+    }
+   ],
+   "src": [
+    7
+   ]
+  },
+  {
+   "type": "recall",
+   "text": "Сначала скажи сам, потом проверь.",
+   "items": [
+    {
+     "q": "Скажи «нет»: «Ich habe ein Fahrrad.»",
+     "a": "Ich habe kein Fahrrad. (ein → kein)",
+     "audio": "kein_fahrrad"
+    },
+    {
+     "q": "Скажи «нет»: «Ich arbeite heute.»",
+     "a": "Ich arbeite heute nicht. (предмета нет → nicht в конец)",
+     "audio": "arbeite_nicht"
+    },
+    {
+     "q": "Найди сам: почему в «Das ist kein Spiel» стоит kein, а не nicht?",
+     "a": "Без «не» было бы ein Spiel. Где был ein — там kein.",
+     "audio": "kein_spiel",
+     "kind": "find"
+    }
+   ],
+   "src": [
+    1,
+    3,
+    8
+   ]
+  },
+  {
+   "type": "live",
+   "text": "Вживую: «не» в официальной немецкой озвучке аниме (Crunchyroll).",
+   "items": [
+    {
+     "yt": "aiWZf5-9Pps",
+     "channel": "Crunchyroll Deutschland",
+     "title": "My Hero Academia, финальный сезон — трейлер (синхрон)",
+     "start": 44,
+     "end": 50,
+     "embed": true,
+     "said_de": "Das will ich nicht.",
+     "said_ru": "Я этого не хочу.",
+     "train": [
+      {
+       "role": "что",
+       "de": "Das",
+       "ru": "это"
+      },
+      {
+       "role": "действие №2",
+       "de": "will",
+       "ru": "хочу"
+      },
+      {
+       "role": "кто",
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "role": "«не»",
+       "de": "nicht",
+       "ru": "не"
+      }
+     ],
+     "why": "Предмета с ein нет — значит nicht, и он в самом конце. Первый вагон — das («это»), поэтому «я» едет третьим."
+    },
+    {
+     "yt": "aiWZf5-9Pps",
+     "channel": "Crunchyroll Deutschland",
+     "title": "My Hero Academia, финальный сезон — трейлер (синхрон)",
+     "start": 36,
+     "end": 42,
+     "embed": true,
+     "said_de": "Es gibt mich dort nicht mehr.",
+     "said_ru": "Меня там больше нет.",
+     "train": [
+      {
+       "role": "кто",
+       "de": "Es",
+       "ru": "(оно)"
+      },
+      {
+       "role": "действие №2",
+       "de": "gibt",
+       "ru": "есть"
+      },
+      {
+       "role": "кого",
+       "de": "mich",
+       "ru": "меня"
+      },
+      {
+       "role": "где",
+       "de": "dort",
+       "ru": "там"
+      },
+      {
+       "role": "«не»",
+       "de": "nicht mehr",
+       "ru": "больше не"
+      }
+     ],
+     "why": "nicht mehr = «больше не». «Не» относится ко всей фразе — поэтому в конце, после «там»."
+    }
+   ],
+   "own": [
+    {
+     "id": "keine_angst",
+     "note": "в стиле аниме: keine + Angst (die Angst)"
+    },
+    {
+     "id": "boss_schwach",
+     "note": "в стиле игры: nicht перед «какой» (stark)"
+    }
+   ],
+   "src": [
+    1,
+    3,
+    4
+   ]
+  },
+  {
+   "type": "videos",
+   "text": "Не понял — покажи по-другому.",
+   "items": [
+    "kqsnFJNYI-A",
+    "8o-BTBR3Xhk",
+    "09HKlpu8Uyc"
+   ],
+   "src": [
+    1,
+    3
+   ]
+  }
+ ],
+ "why_examples": [
+  {
+   "de": "Ich habe kein Fahrrad.",
+   "ru": "У меня нет велосипеда.",
+   "audio": "kein_fahrrad",
+   "train": [
+    {
+     "role": "кто",
+     "de": "Ich",
+     "ru": "я"
+    },
+    {
+     "role": "действие №2",
+     "de": "habe",
+     "ru": "имею"
+    },
+    {
+     "role": "что",
+     "de": "kein Fahrrad",
+     "ru": "ни одного велосипеда"
+    }
+   ],
+   "why": "Без «не» было бы ein Fahrrad. «Не» прилипает к предмету: ein → kein. Отдельного вагона «не» тут нет."
+  },
+  {
+   "de": "Ich kenne den Boss nicht.",
+   "ru": "Я не знаю этого босса.",
+   "audio": "boss_nicht",
+   "train": [
+    {
+     "role": "кто",
+     "de": "Ich",
+     "ru": "я"
+    },
+    {
+     "role": "действие №2",
+     "de": "kenne",
+     "ru": "знаю"
+    },
+    {
+     "role": "кого",
+     "de": "den Boss",
+     "ru": "этого босса"
+    },
+    {
+     "role": "«не»",
+     "de": "nicht",
+     "ru": "не"
+    }
+   ],
+   "why": "den Boss — «этот самый» босс, с ним kein не бывает. Значит nicht — и в конец поезда."
+  },
+  {
+   "de": "Oma wohnt nicht im Dorf.",
+   "ru": "Бабушка живёт не в деревне.",
+   "audio": "oma_nicht_dorf",
+   "train": [
+    {
+     "role": "кто",
+     "de": "Oma",
+     "ru": "бабушка"
+    },
+    {
+     "role": "действие №2",
+     "de": "wohnt",
+     "ru": "живёт"
+    },
+    {
+     "role": "«не»",
+     "de": "nicht",
+     "ru": "не"
+    },
+    {
+     "role": "где",
+     "de": "im Dorf",
+     "ru": "в деревне"
+    }
+   ],
+   "why": "nicht едет к концу, но вагон «где» держится за действие и остаётся последним. Поэтому nicht встаёт перед ним."
+  }
+ ],
+ "phrases": [
+  {
+   "id": "ein_fahrrad",
+   "de": "Ich habe ein Fahrrad.",
+   "ru": "У меня есть велосипед.",
+   "audio": "audio_v1/ein_fahrrad.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "kein_fahrrad",
+   "de": "Ich habe kein Fahrrad.",
+   "ru": "У меня нет велосипеда.",
+   "audio": "audio_v1/kein_fahrrad.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "kein_hund",
+   "de": "Das ist kein Hund.",
+   "ru": "Это не собака.",
+   "audio": "audio_v1/kein_hund.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "keine_zeit",
+   "de": "Heute habe ich keine Zeit.",
+   "ru": "Сегодня у меня нет времени.",
+   "audio": "audio_v1/keine_zeit.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "spiele_nicht",
+   "de": "Ich spiele heute nicht.",
+   "ru": "Я сегодня не играю.",
+   "audio": "audio_v1/spiele_nicht.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "boss_nicht",
+   "de": "Ich kenne den Boss nicht.",
+   "ru": "Я не знаю этого босса.",
+   "audio": "audio_v1/boss_nicht.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "oma_nicht_dorf",
+   "de": "Oma wohnt nicht im Dorf.",
+   "ru": "Бабушка живёт не в деревне.",
+   "audio": "audio_v1/oma_nicht_dorf.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "kaffee_nicht",
+   "de": "Der Kaffee ist nicht heiß.",
+   "ru": "Кофе не горячий.",
+   "audio": "audio_v1/kaffee_nicht.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "arbeite_nicht",
+   "de": "Ich arbeite heute nicht.",
+   "ru": "Я сегодня не работаю.",
+   "audio": "audio_v1/arbeite_nicht.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "kein_spiel",
+   "de": "Das ist kein Spiel.",
+   "ru": "Это не игра.",
+   "audio": "audio_v1/kein_spiel.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "keine_angst",
+   "de": "Ich habe keine Angst!",
+   "ru": "Я не боюсь!",
+   "audio": "audio_v1/keine_angst.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "boss_schwach",
+   "de": "Der Boss ist nicht stark.",
+   "ru": "Босс не сильный.",
+   "audio": "audio_v1/boss_schwach.mp3",
+   "asr": "ok"
+  }
+ ],
+ "terms": [
+  {
+   "term": "kein",
+   "plain": "«ни одного»: ein + k; стоит прямо перед предметом",
+   "scheme": "ein Fahrrad → kein Fahrrad",
+   "example": "Ich habe kein Fahrrad.",
+   "find": "recall: «Найди сам…»"
+  },
+  {
+   "term": "вагон «не» (nicht)",
+   "plain": "отдельный вагон, едет ближе к концу",
+   "scheme": "поезд: … | nicht | (где / какой / хвост)",
+   "example": "Ich spiele heute nicht.",
+   "find": "recall: «Скажи нет…»"
+  }
+ ],
+ "help_by_error": {
+  "order": {
+   "show": "Поезд: вагон nicht перетащить в конец; если есть «где / какой» — поставить перед ним",
+   "phrases": [
+    "spiele_nicht",
+    "oma_nicht_dorf"
+   ],
+   "step": "hint"
+  },
+  "article": {
+   "show": "Пара «есть → нет»: ein Fahrrad → kein Fahrrad, eine Katze → keine Katze; с der/die/das — nicht",
+   "phrases": [
+    "ein_fahrrad",
+    "kein_fahrrad",
+    "boss_nicht"
+   ]
+  },
+  "verb_form": {
+   "show": "Открыть verb_endings: кончик действия с «не» не меняется",
+   "link": "verb_endings"
+  },
+  "listen": {
+   "show": "Замедлить: слушать конец фразы — там nicht; или начало предмета — там k-ein",
+   "phrases": [
+    "arbeite_nicht",
+    "keine_zeit"
+   ]
+  },
+  "word": {
+   "show": "Картинка + звук предмета (Fahrrad 🚲, Hund 🐕, Zeit ⏰) внутри фразы «есть / нет»",
+   "phrases": [
+    "ein_fahrrad",
+    "kein_hund"
+   ]
+  }
+ },
+ "videos": [
+  {
+   "yt": "kqsnFJNYI-A",
+   "author": "Deutsch mit Yehor",
+   "start": 45,
+   "end": 130,
+   "embed": true,
+   "idea": "kein — это ein с буквой k; nicht — для всего остального"
+  },
+  {
+   "yt": "8o-BTBR3Xhk",
+   "author": "Deutsch mit Yehor",
+   "start": 85,
+   "end": 170,
+   "embed": true,
+   "idea": "Где ставить nicht: в конце, но перед местом и «какой»"
+  },
+  {
+   "yt": "09HKlpu8Uyc",
+   "author": "Super Easy German",
+   "start": 63,
+   "end": 140,
+   "embed": true,
+   "idea": "nicht стоит перед тем, что отрицаем (сценка, по-немецки)"
+  }
+ ],
+ "sources": [
+  {
+   "what": "Правило kein / nicht",
+   "where": "Wiktionary «kein» [1a], «nicht» [1]",
+   "license": "проверка; CC BY-SA 4.0, тексты не копируем"
+  },
+  {
+   "what": "Карта темы и страницы",
+   "where": "Е. Чулков «Немецкий от A до Ja!», урок 8, стр. 189–194",
+   "license": "только ссылка на страницу"
+  },
+  {
+   "what": "Приёмы учителей",
+   "where": "topic.csv (Егор, Беккер, Рябенков, Super Easy German)",
+   "license": "ссылки и официальный YouTube-плеер"
+  },
+  {
+   "what": "Куски «Вживую»",
+   "where": "YouTube-канал Crunchyroll Deutschland (официальный); фраза по автосубтитрам",
+   "license": "официальный плеер, embed проверен oEmbed"
+  },
+  {
+   "what": "Голос",
+   "where": "Piper, голос Thorsten high",
+   "license": "код MIT, данные CC0"
+  }
+ ]
+}

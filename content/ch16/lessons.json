@@ -1,0 +1,5972 @@
+[
+ {
+  "id": "ch16_L1",
+  "title": "Hier riecht es herrlich! Первый рынок",
+  "pages_linie1": {
+   "pages": [
+    282,
+    283,
+    284
+   ],
+   "sections": [
+    "1 Jeder Markt ist anders.",
+    "2 Hier riecht es herrlich!"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch16_001",
+   "ch16_002",
+   "ch16_003",
+   "ch16_004",
+   "ch16_005",
+   "ch16_006",
+   "ch16_007",
+   "ch16_008"
+  ],
+  "why_ids": [
+   "ch16_003",
+   "ch16_005"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch16_d1",
+    "line_ids": [
+     "ch16_d1_01",
+     "ch16_d1_02",
+     "ch16_d1_03",
+     "ch16_d1_04",
+     "ch16_d1_05",
+     "ch16_d1_06",
+     "ch16_d1_07",
+     "ch16_d1_08",
+     "ch16_d1_09"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "У прилавка спросили, что ты ешь. Что ответишь?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch16_d1",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch16_d1_01",
+        "ch16_d1_03",
+        "ch16_d1_05",
+        "ch16_d1_07"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch16_d1",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "p, t, k с выдохом: послушай Tee, Käse, Kaffee, Kuchen и повтори",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch16_003",
+        "ch16_005",
+        "ch16_007",
+        "ch16_008"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "p, t, k с выдохом: послушай Tee, Käse, Kaffee, Kuchen и повтори — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "«здесь есть» ↔ hier gibt es: мост «es после gibt, потому что впереди hier», терминов нет",
+   "как слышу, так и пишу": "ie в riecht = «и:», ü в Gemüse; p/t/k с выдохом — на слух",
+   "учебник непонятен": "из Linie 1 — только тема и страницы 282–284; подача своя",
+   "село, живой немецкий — Netto": "рынок во Фрайберге и ценники Netto: Obst, Gemüse, Brot, Käse",
+   "любит аниме": "завязка — первый рынок нового мира; отрезки аниме — позже, после гл. 6",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин, лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Hier gibt es Brot und Käse.; перенос — Hier gibt es Tee und Kuchen.",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    282,
+    283,
+    284
+   ],
+   "phrases_ids": [
+    "ch16_010",
+    "ch16_011",
+    "ch16_012"
+   ],
+   "note": "к курсу: на стр. 282–284 — фото рынков и список запахов; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса: рынки",
+    "phrase_id": "ch16_010",
+    "picture": "улица с вывесками: Wochenmarkt, Weihnachtsmarkt, Jahrmarkt, Künstlermarkt, Gemüsemarkt, Halle",
+    "words": [
+     {
+      "de": "der Wochenmarkt",
+      "ru": "еженедельный рынок, по определённым дням"
+     },
+     {
+      "de": "der Weihnachtsmarkt",
+      "ru": "рождественский рынок"
+     },
+     {
+      "de": "der Jahrmarkt",
+      "ru": "ярмарка"
+     },
+     {
+      "de": "der Künstlermarkt",
+      "ru": "рынок ремесленников и художников"
+     },
+     {
+      "de": "der Gemüsemarkt",
+      "ru": "овощной рынок"
+     },
+     {
+      "de": "die Halle",
+      "ru": "зал, крытый рынок"
+     }
+    ],
+    "note": "эти слова есть на стр. 282–283; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch16_L1_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch16_010",
+     "prompt": "Слова курса. Послушай. Что значит «Jahrmarkt»?",
+     "answer": "ярмарка",
+     "distractors": [
+      "зал",
+      "овощной рынок"
+     ],
+     "src": "Linie 1, стр. 282–283"
+    },
+    {
+     "id": "ch16_L1_kurs_2",
+     "skill": "listen",
+     "phraseId": "ch16_011",
+     "prompt": "Что продают на рынке. Послушай. Что значит «Spielzeug»?",
+     "answer": "игрушки",
+     "distractors": [
+      "одежда",
+      "деньги"
+     ],
+     "src": "Linie 1, стр. 282–283"
+    },
+    {
+     "id": "ch16_L1_kurs_3",
+     "skill": "listen",
+     "phraseId": "ch16_012",
+     "prompt": "Еда на рынке. Послушай. Что значит «Zuckerwatte»?",
+     "answer": "сахарная вата",
+     "distractors": [
+      "миндаль",
+      "тарелка"
+     ],
+     "src": "Linie 1, стр. 283–284"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Рынок: стройка началась — первый прилавок у остановки",
+   "npc": "Olga — одногруппница (на «ты»)"
+  },
+  "covers": [
+   "L1-16-S1",
+   "L1-16-S2"
+  ],
+  "covers_partial": [
+   "L1-16-AUSSPR"
+  ],
+  "covers_note": {
+   "L1-16-S1": "рынок и что на нём есть: Markt, Stand, Honig, Fisch, Obst, Gemüse (части 3–6, 8); виды рынков и товары — «к курсу»",
+   "L1-16-S2": "еда и запахи на рынке: riecht es herrlich, Bratwurst, Brot und Käse, satt (части 3–6); Würstchen, Gewürz, Zuckerwatte — «к курсу»",
+   "L1-16-AUSSPR": "p, t, k в начале слова с выдохом (Tee, Käse, Kaffee, Markt); b/d/g на конце и Silbentrennung — в L5"
+  },
+  "goal": "После урока сможешь: сказать, что сегодня рынок, что здесь есть (мёд, рыба, фрукты, овощи), и что здесь замечательно пахнет. Essen, Trinken, Gerüche на рынке: что здесь едят и trinken (пьют).",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "В субботу вы с Ольгой идёте по рынку во Фрайберге: прилавки, запахи, очередь у сосисок.",
+      "Цель: сказать, что здесь есть, и что здесь пахнет."
+     ],
+     "voice_ru": "В учебнике глава 16 называется «Märkte» — рынки. У нас это рынок во Фрайберге. Сегодня ты скажешь, что здесь есть, чем пахнет и что ты ешь.",
+     "hook": "Загадка урока: по-русски «здесь есть мёд». Почему по-немецки es стоит после gibt: hier gibt es Honig?",
+     "anime_motif": "исекай: первый рынок нового мира — герой читает вывески и учится спрашивать у торговцев (без цитат)",
+     "npc": "Olga — одногруппница",
+     "more": "Ольга покажет прилавок, ты скажешь, что тут есть. Потом — запах и еда.",
+     "goal": "После урока сможешь: сказать, что сегодня рынок, что здесь есть (мёд, рыба, фрукты, овощи), и что здесь замечательно пахнет. Essen, Trinken, Gerüche на рынке: что здесь едят и trinken (пьют)."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch04_002",
+      "ch04_003",
+      "ch04_006"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "У прилавка спросили, что ты ешь. Что ответишь?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch04_002",
+      "ch04_003",
+      "ch04_006"
+     ],
+     "type": "retrieval: вопрос, не перечитывание",
+     "note": "фразы главы 4 (Ich habe Hunger., Was trinkst du?, Was isst du?): на них стоит весь урок"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch16_001",
+      "ch16_002",
+      "ch16_003",
+      "ch16_004",
+      "ch16_005",
+      "ch16_006",
+      "ch16_007",
+      "ch16_008"
+     ],
+     "words": [
+      "Markt · ein Stand",
+      "Honig · Fisch · Obst · Gemüse",
+      "Hier riecht es herrlich!",
+      "eine Bratwurst",
+      "Jetzt bin ich satt."
+     ],
+     "words_ru": {
+      "Markt · ein Stand": "рынок · прилавок на рынке (der Markt, der Stand)",
+      "Honig · Fisch · Obst · Gemüse": "мёд · рыба · фрукты · овощи; Obst и Gemüse — без артикля, «фрукты и овощи вообще»",
+      "Hier riecht es herrlich!": "Здесь замечательно пахнет!",
+      "eine Bratwurst": "жареная сосиска — die-слово, поэтому eine",
+      "Jetzt bin ich satt.": "Теперь я сыт."
+     },
+     "trap": "Stand — не «стенд» и не «стоять», а прилавок на рынке: ein Stand — один прилавок.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch16_L1_words_1",
+      "ch16_L1_words_2",
+      "ch16_L1_words_3",
+      "ch16_L1_words_4",
+      "ch16_L1_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch16_d1",
+     "line_ids": [
+      "ch16_d1_01",
+      "ch16_d1_02",
+      "ch16_d1_03",
+      "ch16_d1_04",
+      "ch16_d1_05",
+      "ch16_d1_06",
+      "ch16_d1_07",
+      "ch16_d1_08",
+      "ch16_d1_09"
+     ],
+     "halves": [
+      [
+       "ch16_d1_01",
+       "ch16_d1_02",
+       "ch16_d1_03",
+       "ch16_d1_04",
+       "ch16_d1_05"
+      ],
+      [
+       "ch16_d1_06",
+       "ch16_d1_07",
+       "ch16_d1_08",
+       "ch16_d1_09"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "Wochenmarkt — рынок под открытым небом: прилавки с овощами, сыром, хлебом, мёдом. В каждом городе свои дни и часы — их пишут на сайте города или на табличке у площади.",
+     "task_ids": [
+      "ch16_L1_listen_1",
+      "ch16_L1_listen_2",
+      "ch16_L1_listen_3",
+      "ch16_L1_listen_4",
+      "ch16_L1_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch16_003",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "Первым стоит hier. Действие gibt всё равно встаёт на второе место, а es уходит за него: hier, gibt, es — «здесь есть».",
+     "screen": [
+      "Hier · gibt · es · Honig und Fisch — «здесь есть мёд и рыба»",
+      "В обычной фразе действие — вагон №2: впереди может быть hier, jetzt, heute"
+     ],
+     "answer_hook": "Ответ на загадку: с hier впереди es уходит за gibt. Можно и Es gibt hier Honig — смысл тот же, но «где» уезжает назад.",
+     "second": {
+      "why_id": "ch16_005",
+      "voice_ru": "По-русски «пахнет» без «кто». По-немецки в такой фразе «кто» называют: es riecht — дословно «оно пахнет»."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch16_L1_why_1",
+      "ch16_L1_why_2",
+      "ch16_L1_why_3",
+      "ch16_L1_why_4",
+      "ch16_L1_why_5"
+     ],
+     "no_story": true,
+     "examples_button": {
+      "label": "Ещё примеры",
+      "why_ids": [
+       "ch16_003"
+      ]
+     }
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch16_009",
+     "pieces": [
+      "gibt",
+      "Käse.",
+      "Hier",
+      "es",
+      "Brot",
+      "und"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch16_d1_03",
+      "ch16_007"
+     ],
+     "prompt": "Собери сам из знакомых кусков: у соседнего прилавка хлеб и сыр. Скажи Ольге: «Здесь есть хлеб и сыр.» Вспомни, что стоит в вагоне №2.",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch16_009",
+     "transfer_task_ids": [
+      "ch16_L1_transfer_1",
+      "ch16_L1_transfer_2"
+     ],
+     "task_ids": [
+      "ch16_L1_write_1",
+      "ch16_L1_write_2",
+      "ch16_L1_write_3",
+      "ch16_L1_write_4",
+      "ch16_L1_write_5",
+      "ch16_L1_read_1",
+      "ch16_L1_read_2",
+      "ch16_L1_read_3",
+      "ch16_L1_read_4",
+      "ch16_L1_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "Käse",
+     "ipa_sym": "k",
+     "tip_ru": "В начале слова p, t, k немцы говорят с лёгким выдохом. Поднеси ладонь ко рту: на Tee и Käse почувствуешь воздух.",
+     "bridge_ru": "В русском «т» и «к» почти без выдоха. В немецком в начале слова выдох слышен: Tee, Käse, Kaffee. Сегодня — только он.",
+     "phrase_id": "ch16_007",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "Tee",
+       "ru": "тэ: — т с выдохом"
+      },
+      {
+       "de": "Käse",
+       "ru": "кэ:зэ — к с выдохом"
+      },
+      {
+       "de": "Kaffee",
+       "ru": "ка́фэ — к с выдохом"
+      },
+      {
+       "de": "Kuchen",
+       "ru": "ку:хэн — к с выдохом"
+      }
+     ],
+     "speak_task_ids": [
+      "ch16_L1_speak_1",
+      "ch16_L1_speak_2",
+      "ch16_L1_speak_3",
+      "ch16_L1_speak_4",
+      "ch16_L1_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "На рынке во Фрайберге",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Olga (на «ты»)",
+     "turns": [
+      {
+       "prompt_id": "ch16_d1_01",
+       "prompt_de": "Hallo! Heute ist Markt.",
+       "prompt_audio": "audio_v1/ch16_d1_01.mp3",
+       "expected_id": "ch16_d1_02",
+       "expected_de": "Hier ist ein Stand.",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch16_d1_03",
+       "prompt_de": "Hier gibt es Honig und Fisch.",
+       "prompt_audio": "audio_v1/ch16_d1_03.mp3",
+       "expected_id": "ch16_d1_04",
+       "expected_de": "Und hier gibt es Obst und Gemüse.",
+       "accept": [
+        {
+         "id": "ch16_004",
+         "de": "Hier gibt es Obst und Gemüse."
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch16_d1_07",
+       "prompt_de": "Ich esse eine Bratwurst.",
+       "prompt_audio": "audio_v1/ch16_d1_07.mp3",
+       "expected_id": "ch16_d1_08",
+       "expected_de": "Ich esse Brot und Käse.",
+       "accept": [
+        {
+         "id": "ch16_007",
+         "de": "Ich esse Brot und Käse."
+        }
+       ],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Отвечай тем, что видишь на прилавке: Obst und Gemüse или Brot und Käse — ИИ примет оба ответа.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch16_d1_05",
+     "task_ru": "Новичок услышал от Ольги «Hier riecht es herrlich!» и спрашивает, что за «es». Объясни ему по-русски, что она сказала.",
+     "expected_ru": "Здесь замечательно пахнет!",
+     "hint_ru": "hier — здесь; riecht — пахнет; herrlich — замечательно; es — «оно», в русском его нет",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1.2 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch16_L1_dict_1",
+      "ch16_L1_dict_2",
+      "ch16_L1_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Markt, Stand, Honig, Fisch, Obst, Gemüse, Bratwurst — слова-предметы, пишем с большой буквы. В riecht — ie даёт «и:»; в Gemüse — ü, «гэмю:зэ»."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch16_L1_boss_2",
+      "ch16_L1_transfer_3",
+      "ch16_L1_transfer_4",
+      "ch16_L1_transfer_5",
+      "ch16_L1_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Первый прилавок на рынке открыт: ты сказал, что здесь есть и чем пахнет.",
+      "Совет на завтра: на любом ценнике Netto найди слово-предмет и скажи Hier gibt es …"
+     ],
+     "npc_phrase_id": "ch16_d1_09",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: hier gibt es … — «здесь есть», es после gibt · hier riecht es … — es нужно всегда · jetzt bin ich satt — действие в вагоне №2.",
+     "next_hook": "Дальше: у рождественского прилавка Ольга спросит «Welcher Nussknacker gefällt dir?» — и появится слово welcher.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       282,
+       283,
+       284
+      ],
+      "phrases_ids": [
+       "ch16_010",
+       "ch16_011",
+       "ch16_012"
+      ],
+      "note": "к курсу: на стр. 282–284 — фото рынков и список запахов; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса: рынки",
+       "phrase_id": "ch16_010",
+       "picture": "улица с вывесками: Wochenmarkt, Weihnachtsmarkt, Jahrmarkt, Künstlermarkt, Gemüsemarkt, Halle",
+       "words": [
+        {
+         "de": "der Wochenmarkt",
+         "ru": "еженедельный рынок, по определённым дням"
+        },
+        {
+         "de": "der Weihnachtsmarkt",
+         "ru": "рождественский рынок"
+        },
+        {
+         "de": "der Jahrmarkt",
+         "ru": "ярмарка"
+        },
+        {
+         "de": "der Künstlermarkt",
+         "ru": "рынок ремесленников и художников"
+        },
+        {
+         "de": "der Gemüsemarkt",
+         "ru": "овощной рынок"
+        },
+        {
+         "de": "die Halle",
+         "ru": "зал, крытый рынок"
+        }
+       ],
+       "note": "эти слова есть на стр. 282–283; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch16_L1_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch16_010",
+        "prompt": "Слова курса. Послушай. Что значит «Jahrmarkt»?",
+        "answer": "ярмарка",
+        "distractors": [
+         "зал",
+         "овощной рынок"
+        ],
+        "src": "Linie 1, стр. 282–283"
+       },
+       {
+        "id": "ch16_L1_kurs_2",
+        "skill": "listen",
+        "phraseId": "ch16_011",
+        "prompt": "Что продают на рынке. Послушай. Что значит «Spielzeug»?",
+        "answer": "игрушки",
+        "distractors": [
+         "одежда",
+         "деньги"
+        ],
+        "src": "Linie 1, стр. 282–283"
+       },
+       {
+        "id": "ch16_L1_kurs_3",
+        "skill": "listen",
+        "phraseId": "ch16_012",
+        "prompt": "Еда на рынке. Послушай. Что значит «Zuckerwatte»?",
+        "answer": "сахарная вата",
+        "distractors": [
+         "миндаль",
+         "тарелка"
+        ],
+        "src": "Linie 1, стр. 283–284"
+       }
+      ]
+     },
+     "kurs_pages": [
+      282,
+      283,
+      284
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch16.py",
+  "new_words": [
+   "der Markt",
+   "der Stand",
+   "Hier gibt es Honig und Fisch.",
+   "Obst und Gemüse",
+   "Hier riecht es herrlich!",
+   "die Bratwurst",
+   "satt"
+  ],
+  "known_before": [
+   "Hier ist …",
+   "Ich esse …",
+   "Ich habe Hunger.",
+   "Brot und Käse",
+   "eine"
+  ],
+  "transfer_phrase_ids": [
+   "ch16_t01",
+   "ch16_t02"
+  ],
+  "built_phrase_ids": [
+   "ch16_009"
+  ],
+  "quiz_ids": [
+   "ch16_L1_words_1",
+   "ch16_L1_words_2",
+   "ch16_L1_words_3",
+   "ch16_L1_words_4",
+   "ch16_L1_words_5",
+   "ch16_L1_listen_1",
+   "ch16_L1_listen_2",
+   "ch16_L1_listen_3",
+   "ch16_L1_listen_4",
+   "ch16_L1_listen_5",
+   "ch16_L1_read_1",
+   "ch16_L1_read_2",
+   "ch16_L1_read_3",
+   "ch16_L1_read_4",
+   "ch16_L1_read_5",
+   "ch16_L1_speak_1",
+   "ch16_L1_speak_2",
+   "ch16_L1_speak_3",
+   "ch16_L1_speak_4",
+   "ch16_L1_speak_5",
+   "ch16_L1_write_1",
+   "ch16_L1_write_2",
+   "ch16_L1_write_3",
+   "ch16_L1_write_4",
+   "ch16_L1_write_5",
+   "ch16_L1_why_1",
+   "ch16_L1_why_2",
+   "ch16_L1_why_3",
+   "ch16_L1_why_4",
+   "ch16_L1_why_5",
+   "ch16_L1_transfer_1",
+   "ch16_L1_transfer_2",
+   "ch16_L1_transfer_3",
+   "ch16_L1_transfer_4",
+   "ch16_L1_transfer_5",
+   "ch16_L1_boss_1",
+   "ch16_L1_boss_2"
+  ],
+  "dictation_ids": [
+   "ch16_L1_dict_1",
+   "ch16_L1_dict_2",
+   "ch16_L1_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "В субботу вы с Ольгой идёте по рынку во Фрайберге: прилавки, запахи, очередь у сосисок. Цель: сказать, что здесь есть, и что здесь пахнет. Загадка урока: по-русски «здесь есть мёд». Почему по-немецки es стоит после gibt: hier gibt es Honig?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. На рынке во Фрайберге",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой на рынке во Фрайберге (ИИ — Ольга)",
+   "situation": "markt_stand",
+   "ai_plays": "Olga (на «ты»)",
+   "phrases": [
+    "ch16_d1_02",
+    "ch16_d1_04",
+    "ch16_004",
+    "ch16_d1_08",
+    "ch16_007"
+   ]
+  },
+  "outro": "Первый прилавок на рынке открыт: ты сказал, что здесь есть и чем пахнет. Совет на завтра: на любом ценнике Netto найди слово-предмет и скажи Hier gibt es … Дальше: у рождественского прилавка Ольга спросит «Welcher Nussknacker gefällt dir?» — и появится слово welcher.",
+  "detail_de_life": "Wochenmarkt — рынок под открытым небом: прилавки с овощами, сыром, хлебом, мёдом. В каждом городе свои дни и часы — их пишут на сайте города или на табличке у площади.",
+  "task_ids": {
+   "words": [
+    "ch16_L1_words_1",
+    "ch16_L1_words_2",
+    "ch16_L1_words_3",
+    "ch16_L1_words_4",
+    "ch16_L1_words_5"
+   ],
+   "listen": [
+    "ch16_L1_listen_1",
+    "ch16_L1_listen_2",
+    "ch16_L1_listen_3",
+    "ch16_L1_listen_4",
+    "ch16_L1_listen_5"
+   ],
+   "read": [
+    "ch16_L1_read_1",
+    "ch16_L1_read_2",
+    "ch16_L1_read_3",
+    "ch16_L1_read_4",
+    "ch16_L1_read_5"
+   ],
+   "speak": [
+    "ch16_L1_speak_1",
+    "ch16_L1_speak_2",
+    "ch16_L1_speak_3",
+    "ch16_L1_speak_4",
+    "ch16_L1_speak_5"
+   ],
+   "write": [
+    "ch16_L1_write_1",
+    "ch16_L1_write_2",
+    "ch16_L1_write_3",
+    "ch16_L1_write_4",
+    "ch16_L1_write_5"
+   ],
+   "why": [
+    "ch16_L1_why_1",
+    "ch16_L1_why_2",
+    "ch16_L1_why_3",
+    "ch16_L1_why_4",
+    "ch16_L1_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch16_L1_transfer_1",
+   "ch16_L1_transfer_2",
+   "ch16_L1_transfer_3",
+   "ch16_L1_transfer_4",
+   "ch16_L1_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch04_002",
+   "ch04_003",
+   "ch04_006"
+  ],
+  "dialog_ids": [
+   "ch16_d1"
+  ],
+  "video": "video/ch16_L1.mp4"
+ },
+ {
+  "id": "ch16_L2",
+  "title": "Der Nussknacker gefällt mir. Какой? Этот!",
+  "pages_linie1": {
+   "pages": [
+    285
+   ],
+   "sections": [
+    "3 Der Nussknacker gefällt mir."
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch16_013",
+   "ch16_014",
+   "ch16_015",
+   "ch16_016",
+   "ch16_017",
+   "ch16_018",
+   "ch16_019"
+  ],
+  "why_ids": [
+   "ch16_016",
+   "ch16_015"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch16_d2",
+    "line_ids": [
+     "ch16_d2_01",
+     "ch16_d2_02",
+     "ch16_d2_03",
+     "ch16_d2_04",
+     "ch16_d2_05",
+     "ch16_d2_06",
+     "ch16_d2_07",
+     "ch16_d2_08",
+     "ch16_d2_09"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "У прилавка ты хочешь сказать, что здесь есть. Что скажешь?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch16_d2",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch16_d2_03",
+        "ch16_d2_04",
+        "ch16_d2_06",
+        "ch16_d2_08"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch16_d2",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "kn и ö: послушай Nussknacker, Kerze, Stern, schön и повтори",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch16_016",
+        "ch16_017",
+        "ch16_018",
+        "ch16_019"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "kn и ö: послушай Nussknacker, Kerze, Stern, schön и повтори — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "«мне нравится» ↔ gefällt mir: вещь первой, «мне» после; welcher/dieser — окончание как у артикля, терминов нет",
+   "как слышу, так и пишу": "kn — слышно оба звука; ä в gefällt и ö в schön — на слух; ch в welche",
+   "учебник непонятен": "из Linie 1 — только тема и стр. 285; подача своя",
+   "село, живой немецкий — Netto": "тот же поезд — на любой вещи в Netto: Diese Lampe gefällt mir.",
+   "любит аниме": "завязка — ярмарка нового мира, выбор амулета",
+   "нагрузка по дням": "курс ≈ 20 мин, свободный ≈ 55 мин, лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Dieser Stern gefällt mir.; перенос — Welcher Stern gefällt dir?",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    285
+   ],
+   "phrases_ids": [
+    "ch16_021",
+    "ch16_022"
+   ],
+   "note": "к курсу: на стр. 285 — прилавок рождественского рынка с подписями; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса: прилавок",
+    "phrase_id": "ch16_021",
+    "picture": "прилавок: машинка, перчатки, сердце, шляпа, кольцо, носки",
+    "words": [
+     {
+      "de": "das Auto",
+      "ru": "машина (игрушечная)"
+     },
+     {
+      "de": "der Handschuh",
+      "ru": "перчатка"
+     },
+     {
+      "de": "das Herz",
+      "ru": "сердце"
+     },
+     {
+      "de": "der Hut",
+      "ru": "шляпа"
+     },
+     {
+      "de": "der Ring",
+      "ru": "кольцо"
+     },
+     {
+      "de": "die Socke",
+      "ru": "носок"
+     }
+    ],
+    "note": "эти слова есть на стр. 285; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch16_L2_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch16_021",
+     "prompt": "Слова курса. Послушай. Что значит «Handschuh»?",
+     "answer": "перчатка",
+     "distractors": [
+      "шляпа",
+      "носок"
+     ],
+     "src": "Linie 1, стр. 285"
+    },
+    {
+     "id": "ch16_L2_kurs_2",
+     "skill": "listen",
+     "phraseId": "ch16_022",
+     "prompt": "Слова курса. Послушай. Что значит «Seife»?",
+     "answer": "мыло",
+     "distractors": [
+      "воск",
+      "чашка"
+     ],
+     "src": "Linie 1, стр. 285"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Рынок: рождественский прилавок с щелкунчиками, свечами и звёздами",
+   "npc": "Olga — одногруппница (на «ты»)"
+  },
+  "covers": [
+   "L1-16-S3",
+   "L1-16-G2",
+   "L1-16-G3",
+   "B11.5",
+   "B12.5"
+  ],
+  "covers_note": {
+   "L1-16-S3": "прилавок рождественского рынка и оценка вещей: Nussknacker, Kerze, Stern, schön, gefällt mir (части 3–6, 8)",
+   "L1-16-G2": "welcher / welche «какой»: Welcher Nussknacker? Welche Kerze gefällt dir? (части 3–6)",
+   "L1-16-G3": "dieser / diese «этот» в именительном: Dieser Nussknacker, Diese Kerze; Akkusativ (diesen) — в L3",
+   "B11.5": "gefallen: вещь первой, кому — после gefällt (mir, dir)",
+   "B12.5": "dieser и welcher: окончания как у артикля (der → dieser, welcher; die → diese, welche)"
+  },
+  "goal": "После урока сможешь: спросить «какой?» (welcher / welche), показать «этот» (dieser / diese) и сказать, что тебе нравится (gefällt mir). У Weihnachtsmarktstand ты будешь bewerten Dinge: оценивать вещи.",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "В декабре вы с Ольгой стоите у прилавка рождественского рынка: щелкунчики, свечи, звёзды.",
+      "Цель: спросить «какой?», показать «этот» и сказать, что тебе нравится."
+     ],
+     "voice_ru": "В учебнике на странице 285 — прилавок рождественского рынка. Сегодня ты спросишь «какой щелкунчик?», покажешь «этот» и скажешь, что он тебе нравится.",
+     "hook": "Загадка урока: по-русски «мне нравится» начинается с «мне». Почему немец ставит mir после gefällt: Dieser Nussknacker gefällt mir?",
+     "anime_motif": "исекай: ярмарка в новом мире — герой выбирает амулет и учится говорить, какой ему по душе (без цитат)",
+     "npc": "Olga — одногруппница",
+     "more": "Ольга покажет щелкунчика, ты спросишь «какой?», потом выберешь свечу и звезду.",
+     "goal": "После урока сможешь: спросить «какой?» (welcher / welche), показать «этот» (dieser / diese) и сказать, что тебе нравится (gefällt mir). У Weihnachtsmarktstand ты будешь bewerten Dinge: оценивать вещи."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch16_002",
+      "ch16_003",
+      "ch16_005"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "У прилавка ты хочешь сказать, что здесь есть. Что скажешь?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch16_002",
+      "ch16_003",
+      "ch16_005"
+     ],
+     "type": "retrieval: вопрос, не перечитывание",
+     "note": "фразы урока 1 (Hier ist ein Stand., Hier gibt es …, Hier riecht es herrlich!): на этом поезде стоит и урок 2"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch16_013",
+      "ch16_014",
+      "ch16_015",
+      "ch16_016",
+      "ch16_017",
+      "ch16_018",
+      "ch16_019"
+     ],
+     "words": [
+      "Heute ist Weihnachtsmarkt.",
+      "einen Nussknacker · Kerze · Stern",
+      "Welcher Nussknacker? · Dieser Nussknacker.",
+      "Diese Kerze gefällt mir.",
+      "Der Stern ist schön!"
+     ],
+     "words_ru": {
+      "Heute ist Weihnachtsmarkt.": "Сегодня рождественский рынок.",
+      "einen Nussknacker · Kerze · Stern": "щелкунчик · свеча · звезда (der Nussknacker, die Kerze, der Stern)",
+      "Welcher Nussknacker? · Dieser Nussknacker.": "Какой щелкунчик? · Этот щелкунчик.",
+      "Diese Kerze gefällt mir.": "Эта свеча мне нравится.",
+      "Der Stern ist schön!": "Звезда красивая!"
+     },
+     "trap": "Nussknacker — не «орехокол» из словаря, а деревянная фигурка-щелкунчик: на рождественском рынке её продают как сувенир.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch16_L2_words_1",
+      "ch16_L2_words_2",
+      "ch16_L2_words_3",
+      "ch16_L2_words_4",
+      "ch16_L2_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch16_d2",
+     "line_ids": [
+      "ch16_d2_01",
+      "ch16_d2_02",
+      "ch16_d2_03",
+      "ch16_d2_04",
+      "ch16_d2_05",
+      "ch16_d2_06",
+      "ch16_d2_07",
+      "ch16_d2_08",
+      "ch16_d2_09"
+     ],
+     "halves": [
+      [
+       "ch16_d2_01",
+       "ch16_d2_02",
+       "ch16_d2_03",
+       "ch16_d2_04",
+       "ch16_d2_05"
+      ],
+      [
+       "ch16_d2_06",
+       "ch16_d2_07",
+       "ch16_d2_08",
+       "ch16_d2_09"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "Кружку с Glühwein на рождественском рынке дают под Pfand: вернёшь кружку — вернут залог. Дрезденский Striezelmarkt впервые упомянут в 1434 году — так пишет город Дрезден на своём сайте.",
+     "life_source": "Striezelmarkt 1434 — Landeshauptstadt Dresden, dresden.de/de/tourismus/sehen/weihnachtszeit/striezelmarkt.php; Pfand за кружку — correctiv.org, Faktencheck 15.12.2023",
+     "task_ids": [
+      "ch16_L2_listen_1",
+      "ch16_L2_listen_2",
+      "ch16_L2_listen_3",
+      "ch16_L2_listen_4",
+      "ch16_L2_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch16_016",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "Русский говорит «мне нравится». Немец ставит вещь первой: dieser Nussknacker gefällt mir — дословно «этот щелкунчик нравится мне».",
+     "screen": [
+      "Dieser Nussknacker · gefällt · mir — «этот щелкунчик мне нравится»",
+      "gefällt — вагон №2; вещь впереди, «кому» — после",
+      "Gefallen: подарок выходит вперёд",
+      "Demonstrativartikel dieser / diese: Nominativ — dieser Stern, Akkusativ — diesen Stern"
+     ],
+     "answer_hook": "Ответ на загадку: нравится вещь, поэтому она стоит первой, а mir — тот, кому нравится — идёт после gefällt.",
+     "second": {
+      "why_id": "ch16_015",
+      "voice_ru": "Welcher и dieser получают то же окончание, что и артикль: der Stern — dieser Stern, die Kerze — diese Kerze."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch16_L2_why_1",
+      "ch16_L2_why_2",
+      "ch16_L2_why_3",
+      "ch16_L2_why_4",
+      "ch16_L2_why_5"
+     ],
+     "no_story": true,
+     "examples_button": {
+      "label": "Ещё примеры",
+      "why_ids": [
+       "ch16_016"
+      ]
+     }
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch16_020",
+     "pieces": [
+      "gefällt",
+      "Stern",
+      "Dieser",
+      "mir."
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch16_d2_06",
+      "ch16_019"
+     ],
+     "prompt": "Собери сам из знакомых кусков: Ольга показывает звезду. Скажи: «Эта звезда мне нравится.» Вспомни, кто стоит первым, а что — после gefällt.",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch16_020",
+     "transfer_task_ids": [
+      "ch16_L2_transfer_1",
+      "ch16_L2_transfer_2"
+     ],
+     "task_ids": [
+      "ch16_L2_write_1",
+      "ch16_L2_write_2",
+      "ch16_L2_write_3",
+      "ch16_L2_write_4",
+      "ch16_L2_write_5",
+      "ch16_L2_read_1",
+      "ch16_L2_read_2",
+      "ch16_L2_read_3",
+      "ch16_L2_read_4",
+      "ch16_L2_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "Nussknacker",
+     "ipa_sym": "k",
+     "tip_ru": "В Nussknacker буква k не молчит: слышно к-н, как в русском «кнут». В schön буква ö — похоже на русское «ё», но губы округлены.",
+     "bridge_ru": "В русском «кн» в начале слова привычно: «кнут», «книга». В немецком kn читается так же: оба звука слышны. Сегодня — kn и ö.",
+     "phrase_id": "ch16_014",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "Nussknacker",
+       "ru": "нусскнакер — слышно к-н"
+      },
+      {
+       "de": "Kerze",
+       "ru": "кэрцэ — к с выдохом"
+      },
+      {
+       "de": "Stern",
+       "ru": "штэрн — шт в начале"
+      },
+      {
+       "de": "schön",
+       "ru": "шё:н — ö как «ё»"
+      }
+     ],
+     "speak_task_ids": [
+      "ch16_L2_speak_1",
+      "ch16_L2_speak_2",
+      "ch16_L2_speak_3",
+      "ch16_L2_speak_4",
+      "ch16_L2_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "На рождественском рынке",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Olga (на «ты»)",
+     "turns": [
+      {
+       "prompt_id": "ch16_d2_03",
+       "prompt_de": "Hier gibt es einen Nussknacker.",
+       "prompt_audio": "audio_v1/ch16_d2_03.mp3",
+       "expected_id": "ch16_d2_04",
+       "expected_de": "Welcher Nussknacker?",
+       "accept": [
+        {
+         "id": "ch16_015",
+         "de": "Welcher Nussknacker?"
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch16_d2_05",
+       "prompt_de": "Dieser Nussknacker.",
+       "prompt_audio": "audio_v1/ch16_d2_05.mp3",
+       "expected_id": "ch16_d2_06",
+       "expected_de": "Dieser Nussknacker gefällt mir!",
+       "accept": [
+        {
+         "id": "ch16_016",
+         "de": "Dieser Nussknacker gefällt mir."
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch16_d2_07",
+       "prompt_de": "Und welche Kerze gefällt dir?",
+       "prompt_audio": "audio_v1/ch16_d2_07.mp3",
+       "expected_id": "ch16_d2_08",
+       "expected_de": "Diese Kerze gefällt mir.",
+       "accept": [
+        {
+         "id": "ch16_018",
+         "de": "Diese Kerze gefällt mir."
+        }
+       ],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Выбери то, что нравится тебе: Nussknacker, Kerze или Stern — ИИ примет любой ответ.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch16_d2_06",
+     "task_ru": "Новичок услышал «Dieser Nussknacker gefällt mir!» и спрашивает: кому нравится — щелкунчику или тебе? Объясни ему по-русски.",
+     "expected_ru": "Этот щелкунчик мне нравится!",
+     "hint_ru": "dieser Nussknacker — «этот щелкунчик»; gefällt mir — «нравится мне»: нравится вещь, а «мне» — тот, кому нравится",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1.2 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch16_L2_dict_1",
+      "ch16_L2_dict_2",
+      "ch16_L2_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Nussknacker, Kerze, Stern, Weihnachtsmarkt — слова-предметы, пишем с большой буквы. В gefällt — ä, короткое «э» (перед ll); в schön — ö; в welche — ch после e."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch16_L2_boss_2",
+      "ch16_L2_transfer_3",
+      "ch16_L2_transfer_4",
+      "ch16_L2_transfer_5",
+      "ch16_L2_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Рождественский прилавок открыт: ты спросил «какой?», показал «этот» и сказал, что нравится.",
+      "Совет на завтра: возьми любую вещь дома и скажи Diese Lampe gefällt mir. или Dieser Tisch gefällt mir."
+     ],
+     "npc_phrase_id": "ch16_d2_09",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: welcher/dieser — окончание как у артикля (der → dieser, die → diese) · gefällt mir — вещь первой, «мне» после · Welche Kerze gefällt dir?",
+     "next_hook": "Дальше: Ольга хочет купить подарок — и спросит «Für wen?». Появится слово für.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       285
+      ],
+      "phrases_ids": [
+       "ch16_021",
+       "ch16_022"
+      ],
+      "note": "к курсу: на стр. 285 — прилавок рождественского рынка с подписями; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса: прилавок",
+       "phrase_id": "ch16_021",
+       "picture": "прилавок: машинка, перчатки, сердце, шляпа, кольцо, носки",
+       "words": [
+        {
+         "de": "das Auto",
+         "ru": "машина (игрушечная)"
+        },
+        {
+         "de": "der Handschuh",
+         "ru": "перчатка"
+        },
+        {
+         "de": "das Herz",
+         "ru": "сердце"
+        },
+        {
+         "de": "der Hut",
+         "ru": "шляпа"
+        },
+        {
+         "de": "der Ring",
+         "ru": "кольцо"
+        },
+        {
+         "de": "die Socke",
+         "ru": "носок"
+        }
+       ],
+       "note": "эти слова есть на стр. 285; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch16_L2_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch16_021",
+        "prompt": "Слова курса. Послушай. Что значит «Handschuh»?",
+        "answer": "перчатка",
+        "distractors": [
+         "шляпа",
+         "носок"
+        ],
+        "src": "Linie 1, стр. 285"
+       },
+       {
+        "id": "ch16_L2_kurs_2",
+        "skill": "listen",
+        "phraseId": "ch16_022",
+        "prompt": "Слова курса. Послушай. Что значит «Seife»?",
+        "answer": "мыло",
+        "distractors": [
+         "воск",
+         "чашка"
+        ],
+        "src": "Linie 1, стр. 285"
+       }
+      ]
+     },
+     "kurs_pages": [
+      285
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch16.py",
+  "new_words": [
+   "Weihnachtsmarkt",
+   "Nussknacker · Kerze · Stern",
+   "Welcher Nussknacker? · Dieser Nussknacker.",
+   "Diese Kerze gefällt mir.",
+   "schön"
+  ],
+  "known_before": [
+   "Hier ist ein Stand.",
+   "Hier gibt es …",
+   "welche",
+   "dir"
+  ],
+  "transfer_phrase_ids": [
+   "ch16_t03",
+   "ch16_t04"
+  ],
+  "built_phrase_ids": [
+   "ch16_020"
+  ],
+  "quiz_ids": [
+   "ch16_L2_words_1",
+   "ch16_L2_words_2",
+   "ch16_L2_words_3",
+   "ch16_L2_words_4",
+   "ch16_L2_words_5",
+   "ch16_L2_listen_1",
+   "ch16_L2_listen_2",
+   "ch16_L2_listen_3",
+   "ch16_L2_listen_4",
+   "ch16_L2_listen_5",
+   "ch16_L2_read_1",
+   "ch16_L2_read_2",
+   "ch16_L2_read_3",
+   "ch16_L2_read_4",
+   "ch16_L2_read_5",
+   "ch16_L2_speak_1",
+   "ch16_L2_speak_2",
+   "ch16_L2_speak_3",
+   "ch16_L2_speak_4",
+   "ch16_L2_speak_5",
+   "ch16_L2_write_1",
+   "ch16_L2_write_2",
+   "ch16_L2_write_3",
+   "ch16_L2_write_4",
+   "ch16_L2_write_5",
+   "ch16_L2_why_1",
+   "ch16_L2_why_2",
+   "ch16_L2_why_3",
+   "ch16_L2_why_4",
+   "ch16_L2_why_5",
+   "ch16_L2_transfer_1",
+   "ch16_L2_transfer_2",
+   "ch16_L2_transfer_3",
+   "ch16_L2_transfer_4",
+   "ch16_L2_transfer_5",
+   "ch16_L2_boss_1",
+   "ch16_L2_boss_2"
+  ],
+  "dictation_ids": [
+   "ch16_L2_dict_1",
+   "ch16_L2_dict_2",
+   "ch16_L2_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "В декабре вы с Ольгой стоите у прилавка рождественского рынка: щелкунчики, свечи, звёзды. Цель: спросить «какой?», показать «этот» и сказать, что тебе нравится. Загадка урока: по-русски «мне нравится» начинается с «мне». Почему немец ставит mir после gefällt: Dieser Nussknacker gefällt mir?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. На рождественском рынке",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой на рождественском рынке (ИИ — Ольга)",
+   "situation": "weihnachtsmarkt_stand",
+   "ai_plays": "Olga (на «ты»)",
+   "phrases": [
+    "ch16_d2_04",
+    "ch16_015",
+    "ch16_d2_06",
+    "ch16_016",
+    "ch16_d2_08",
+    "ch16_018"
+   ]
+  },
+  "outro": "Рождественский прилавок открыт: ты спросил «какой?», показал «этот» и сказал, что нравится. Совет на завтра: возьми любую вещь дома и скажи Diese Lampe gefällt mir. или Dieser Tisch gefällt mir. Дальше: Ольга хочет купить подарок — и спросит «Für wen?». Появится слово für.",
+  "detail_de_life": "Кружку с Glühwein на рождественском рынке дают под Pfand: вернёшь кружку — вернут залог. Дрезденский Striezelmarkt впервые упомянут в 1434 году — так пишет город Дрезден на своём сайте.",
+  "detail_de_life_source": "Striezelmarkt 1434 — Landeshauptstadt Dresden, dresden.de/de/tourismus/sehen/weihnachtszeit/striezelmarkt.php; Pfand за кружку — correctiv.org, Faktencheck 15.12.2023",
+  "task_ids": {
+   "words": [
+    "ch16_L2_words_1",
+    "ch16_L2_words_2",
+    "ch16_L2_words_3",
+    "ch16_L2_words_4",
+    "ch16_L2_words_5"
+   ],
+   "listen": [
+    "ch16_L2_listen_1",
+    "ch16_L2_listen_2",
+    "ch16_L2_listen_3",
+    "ch16_L2_listen_4",
+    "ch16_L2_listen_5"
+   ],
+   "read": [
+    "ch16_L2_read_1",
+    "ch16_L2_read_2",
+    "ch16_L2_read_3",
+    "ch16_L2_read_4",
+    "ch16_L2_read_5"
+   ],
+   "speak": [
+    "ch16_L2_speak_1",
+    "ch16_L2_speak_2",
+    "ch16_L2_speak_3",
+    "ch16_L2_speak_4",
+    "ch16_L2_speak_5"
+   ],
+   "write": [
+    "ch16_L2_write_1",
+    "ch16_L2_write_2",
+    "ch16_L2_write_3",
+    "ch16_L2_write_4",
+    "ch16_L2_write_5"
+   ],
+   "why": [
+    "ch16_L2_why_1",
+    "ch16_L2_why_2",
+    "ch16_L2_why_3",
+    "ch16_L2_why_4",
+    "ch16_L2_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch16_L2_transfer_1",
+   "ch16_L2_transfer_2",
+   "ch16_L2_transfer_3",
+   "ch16_L2_transfer_4",
+   "ch16_L2_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch16_002",
+   "ch16_003",
+   "ch16_005"
+  ],
+  "dialog_ids": [
+   "ch16_d2"
+  ],
+  "video": "video/ch16_L2.mp4"
+ },
+ {
+  "id": "ch16_L3",
+  "title": "Hast du schon ein Geschenk? Для кого?",
+  "pages_linie1": {
+   "pages": [
+    286
+   ],
+   "sections": [
+    "4 Hast du schon ein Geschenk gekauft?"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch16_023",
+   "ch16_024",
+   "ch16_025",
+   "ch16_026",
+   "ch16_027",
+   "ch16_028"
+  ],
+  "why_ids": [
+   "ch16_027",
+   "ch16_025"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch16_d3",
+    "line_ids": [
+     "ch16_d3_01",
+     "ch16_d3_02",
+     "ch16_d3_03",
+     "ch16_d3_04",
+     "ch16_d3_05",
+     "ch16_d3_06",
+     "ch16_d3_07",
+     "ch16_d3_08"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "У прилавка ты хочешь сказать, что вещь тебе нравится. Что скажешь?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch16_d3",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch16_d3_02",
+        "ch16_d3_03",
+        "ch16_d3_05",
+        "ch16_d3_07"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch16_d3",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "g на конце как «к» и ü: послушай Tag, Geburtstag, für, Geschenk и повтори",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch16_023",
+        "ch16_025",
+        "ch16_027",
+        "ch16_028"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "g на конце как «к» и ü: послушай Tag, Geburtstag, für, Geschenk и повтори — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "«для меня» ↔ für mich: после für «я» и «ты» меняют форму (ich → mich, du → dich); русский «меня/тебя» подсказывает мост; терминов нет",
+   "как слышу, так и пишу": "g на конце как «к» (Geburtstag), ü в für, ä в gefällt — на слух",
+   "учебник непонятен": "из Linie 1 — только тема и стр. 286; подача своя",
+   "село, живой немецкий — Netto": "Geschenk и Geburtstag — слова с открыток и подарочных наборов в Netto",
+   "любит аниме": "завязка — подарок наставнику; отрезки аниме — позже",
+   "нагрузка по дням": "курс ≈ 20 мин, свободный ≈ 55 мин, лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Diese Kerze ist für dich.; перенос — Die Lampe ist für Oma.",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    286
+   ],
+   "phrases_ids": [
+    "ch16_030",
+    "ch16_031",
+    "ch16_032",
+    "ch16_033"
+   ],
+   "note": "к курсу: на стр. 286 — открытки к праздникам и список подарков; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса: поводы",
+    "phrase_id": "ch16_030",
+    "picture": "открытки: младенец, свадьба, валентинка, пасхальное яйцо, ёлка",
+    "words": [
+     {
+      "de": "das Baby",
+      "ru": "младенец"
+     },
+     {
+      "de": "die Geburt",
+      "ru": "рождение"
+     },
+     {
+      "de": "die Hochzeit",
+      "ru": "свадьба"
+     },
+     {
+      "de": "der Valentinstag",
+      "ru": "День святого Валентина"
+     },
+     {
+      "de": "Ostern",
+      "ru": "Пасха"
+     },
+     {
+      "de": "Weihnachten",
+      "ru": "Рождество"
+     }
+    ],
+    "note": "эти слова есть на стр. 286; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch16_L3_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch16_030",
+     "prompt": "Слова курса. Послушай. Что значит «Hochzeit»?",
+     "answer": "свадьба",
+     "distractors": [
+      "рождение",
+      "Пасха"
+     ],
+     "src": "Linie 1, стр. 286"
+    },
+    {
+     "id": "ch16_L3_kurs_2",
+     "skill": "listen",
+     "phraseId": "ch16_031",
+     "prompt": "Что дарят. Послушай. Что значит «Gutschein»?",
+     "answer": "подарочный сертификат",
+     "distractors": [
+      "духи",
+      "книга"
+     ],
+     "src": "Linie 1, стр. 286"
+    },
+    {
+     "id": "ch16_L3_kurs_3",
+     "skill": "listen",
+     "phraseId": "ch16_032",
+     "prompt": "Кому пишут. Послушай. Что значит «Rückseite»?",
+     "answer": "оборотная сторона",
+     "distractors": [
+      "лицевая сторона",
+      "тётя"
+     ],
+     "src": "Linie 1, стр. 286"
+    },
+    {
+     "id": "ch16_L3_kurs_4",
+     "skill": "listen",
+     "phraseId": "ch16_033",
+     "prompt": "Слова со стр. 286. Послушай. Что значит «Urlaub»?",
+     "answer": "отпуск",
+     "distractors": [
+      "декабрь",
+      "груша"
+     ],
+     "src": "Linie 1, стр. 286"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Рынок: прилавок подарков — рядом со стройкой появилась почтовая лавка",
+   "npc": "Olga — одногруппница (на «ты»)"
+  },
+  "covers": [
+   "L1-16-S4",
+   "L1-16-G3",
+   "L1-16-G4",
+   "L1-16-SCHREIB",
+   "B06.7"
+  ],
+  "covers_partial": [
+   "L1-16-AUSSPR"
+  ],
+  "covers_note": {
+   "L1-16-S4": "подарки и поводы: Geburtstag, Geschenk, kaufe … für Oma (части 3–6, 8); поводы и подарки со стр. 286 — «к курсу»",
+   "L1-16-G3": "dieser в винительном: diesen Stern (der Stern → diesen), как ein → einen",
+   "L1-16-G4": "für + кого: für Oma, für mich, für dich, für wen (части 3–6, 8)",
+   "L1-16-SCHREIB": "a и ä: ä пишут, когда есть родственное слово с a (gefallen — gefällt) — часть 10",
+   "B06.7": "предлог für: после него форма «кого» (ich → mich, du → dich)",
+   "L1-16-AUSSPR": "g на конце слова как «к» (Tag, Geburtstag) — часть 7; Silbentrennung — в L5"
+  },
+  "goal": "После урока сможешь: спросить, есть ли уже подарок, сказать, что покупаешь и для кого (für Oma, für mich, für dich) и спросить «для кого?». Geschenke und Anlässe: подарки на дни рождения и праздники.",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "У бабушки скоро день рождения. На рождественском рынке вы с Ольгой выбираете подарки.",
+      "Цель: сказать, что покупаешь, и для кого."
+     ],
+     "voice_ru": "В учебнике на странице 286 — подарки и праздники. У нас у бабушки день рождения. Ты скажешь, что покупаешь, и для кого.",
+     "hook": "Загадка урока: «для меня» по-немецки — für mich, а не für ich. Почему «я» вдруг становится mich?",
+     "anime_motif": "исекай: герой выбирает подарок для мастера-наставника — и учится сказать «для кого» (без цитат)",
+     "npc": "Olga — одногруппница",
+     "more": "Ольга спросит, есть ли подарок. Ты ответишь, что покупаешь, и для кого свеча и щелкунчик.",
+     "goal": "После урока сможешь: спросить, есть ли уже подарок, сказать, что покупаешь и для кого (für Oma, für mich, für dich) и спросить «для кого?». Geschenke und Anlässe: подарки на дни рождения и праздники."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch16_016",
+      "ch16_017",
+      "ch16_018"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "У прилавка ты хочешь сказать, что вещь тебе нравится. Что скажешь?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch16_016",
+      "ch16_017",
+      "ch16_018"
+     ],
+     "type": "retrieval: вопрос, не перечитывание",
+     "note": "фразы урока 2 (Dieser Nussknacker gefällt mir., Welche Kerze gefällt dir?, Diese Kerze gefällt mir.): ими ты выбираешь подарок"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch16_023",
+      "ch16_024",
+      "ch16_025",
+      "ch16_026",
+      "ch16_027",
+      "ch16_028"
+     ],
+     "words": [
+      "Oma hat Geburtstag.",
+      "Hast du schon ein Geschenk?",
+      "Ich kaufe diesen Stern für Oma.",
+      "Und für wen ist die Kerze?",
+      "für mich · für dich"
+     ],
+     "words_ru": {
+      "Oma hat Geburtstag.": "У бабушки день рождения.",
+      "Hast du schon ein Geschenk?": "У тебя уже есть подарок?",
+      "Ich kaufe diesen Stern für Oma.": "Я покупаю эту звезду для бабушки.",
+      "Und für wen ist die Kerze?": "А для кого эта свеча?",
+      "für mich · für dich": "для меня · для тебя"
+     },
+     "trap": "Geburtstag — день рождения, а не «рождение дня». Праздник у человека, поэтому: Oma hat Geburtstag — «бабушка имеет день рождения».",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch16_L3_words_1",
+      "ch16_L3_words_2",
+      "ch16_L3_words_3",
+      "ch16_L3_words_4",
+      "ch16_L3_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch16_d3",
+     "line_ids": [
+      "ch16_d3_01",
+      "ch16_d3_02",
+      "ch16_d3_03",
+      "ch16_d3_04",
+      "ch16_d3_05",
+      "ch16_d3_06",
+      "ch16_d3_07",
+      "ch16_d3_08"
+     ],
+     "halves": [
+      [
+       "ch16_d3_01",
+       "ch16_d3_02",
+       "ch16_d3_03",
+       "ch16_d3_04"
+      ],
+      [
+       "ch16_d3_05",
+       "ch16_d3_06",
+       "ch16_d3_07",
+       "ch16_d3_08"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "К подарку в Германии часто кладут открытку: на лицевой стороне картинка, на оборотной — пожелание и подпись. Эти слова — Vorderseite и Rückseite — есть на стр. 286.",
+     "life_source": "Linie 1 A1, стр. 286 (Glückwunschkarte: Vorderseite, Rückseite)",
+     "task_ids": [
+      "ch16_L3_listen_1",
+      "ch16_L3_listen_2",
+      "ch16_L3_listen_3",
+      "ch16_L3_listen_4",
+      "ch16_L3_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch16_027",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "После für слово «я» меняет форму: ich становится mich. «Для меня» — für mich. «Для тебя» — für dich: du становится dich.",
+     "screen": [
+      "für · mich — «для меня»; für · dich — «для тебя»",
+      "Нельзя: für ich, für du — после für нужна форма «кого»",
+      "Präposition für + Akkusativ: für mich, für dich, für Oma"
+     ],
+     "answer_hook": "Ответ на загадку: после für «я» и «ты» меняют форму — ich → mich, du → dich.",
+     "second": {
+      "why_id": "ch16_025",
+      "voice_ru": "Что покупаешь, меняется так же, как ein → einen: der Stern — dieser Stern, но «покупаю эту звезду» — diesen Stern."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch16_L3_why_1",
+      "ch16_L3_why_2",
+      "ch16_L3_why_3",
+      "ch16_L3_why_4",
+      "ch16_L3_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch16_029",
+     "pieces": [
+      "ist",
+      "dich.",
+      "Diese",
+      "für",
+      "Kerze"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch16_d3_07",
+      "ch16_018"
+     ],
+     "prompt": "Собери сам из знакомых кусков: Ольга протягивает тебе свечу. Скажи ей: «Эта свеча для тебя.» Вспомни, какую форму берёт «ты» после für.",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch16_029",
+     "transfer_task_ids": [
+      "ch16_L3_transfer_1",
+      "ch16_L3_transfer_2"
+     ],
+     "task_ids": [
+      "ch16_L3_write_1",
+      "ch16_L3_write_2",
+      "ch16_L3_write_3",
+      "ch16_L3_write_4",
+      "ch16_L3_write_5",
+      "ch16_L3_read_1",
+      "ch16_L3_read_2",
+      "ch16_L3_read_3",
+      "ch16_L3_read_4",
+      "ch16_L3_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "Geburtstag",
+     "ipa_sym": "k",
+     "tip_ru": "Буква g на конце слова звучит как «к»: Tag — «та:к», Geburtstag — «гэбу:рцта:к».",
+     "bridge_ru": "В русском на конце слова звонкие звуки тоже оглушаются: «друг» — «друк». В немецком так же: g на конце — «к». Сегодня — только g на конце.",
+     "phrase_id": "ch16_023",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "Tag",
+       "ru": "та:к — g на конце как «к»"
+      },
+      {
+       "de": "Geburtstag",
+       "ru": "гэбу:рцта:к — g на конце как «к»"
+      },
+      {
+       "de": "Montag",
+       "ru": "мо:нта:к — g на конце как «к»"
+      },
+      {
+       "de": "Zug",
+       "ru": "цу:к — g на конце как «к»"
+      }
+     ],
+     "speak_task_ids": [
+      "ch16_L3_speak_1",
+      "ch16_L3_speak_2",
+      "ch16_L3_speak_3",
+      "ch16_L3_speak_4",
+      "ch16_L3_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Подарки на рынке",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Olga (на «ты»)",
+     "turns": [
+      {
+       "prompt_id": "ch16_d3_02",
+       "prompt_de": "Hast du schon ein Geschenk?",
+       "prompt_audio": "audio_v1/ch16_d3_02.mp3",
+       "expected_id": "ch16_d3_03",
+       "expected_de": "Nein. Ich kaufe diesen Stern für Oma.",
+       "accept": [
+        {
+         "id": "ch16_025",
+         "de": "Ich kaufe diesen Stern für Oma."
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch16_d3_04",
+       "prompt_de": "Und für wen ist die Kerze?",
+       "prompt_audio": "audio_v1/ch16_d3_04.mp3",
+       "expected_id": "ch16_d3_05",
+       "expected_de": "Die Kerze ist für mich.",
+       "accept": [
+        {
+         "id": "ch16_027",
+         "de": "Die Kerze ist für mich."
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch16_d3_06",
+       "prompt_de": "Und dieser Nussknacker?",
+       "prompt_audio": "audio_v1/ch16_d3_06.mp3",
+       "expected_id": "ch16_d3_07",
+       "expected_de": "Dieser Nussknacker ist für dich!",
+       "accept": [
+        {
+         "id": "ch16_028",
+         "de": "Dieser Nussknacker ist für dich!"
+        }
+       ],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Выбери подарок сам: Stern, Kerze или Nussknacker — ИИ примет любой ответ.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch16_d3_07",
+     "task_ru": "Новичок услышал «Dieser Nussknacker ist für dich!» и ищет в словаре dich. Объясни ему по-русски, что сказал герой.",
+     "expected_ru": "Этот щелкунчик для тебя!",
+     "hint_ru": "dieser Nussknacker — «этот щелкунчик»; für dich — «для тебя»: после für «ты» меняется на dich",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1.2 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch16_L3_dict_1",
+      "ch16_L3_dict_2",
+      "ch16_L3_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Geburtstag, Geschenk, Stern, Oma, Nussknacker — слова-предметы, пишем с большой буквы. Где ä: если есть родственное слово с a (gefallen — gefällt), пишут ä."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch16_L3_boss_2",
+      "ch16_L3_transfer_3",
+      "ch16_L3_transfer_4",
+      "ch16_L3_transfer_5",
+      "ch16_L3_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Почтовая лавка подарков открыта: ты сказал, что покупаешь, и для кого.",
+      "Совет на завтра: возьми вещь дома и скажи Das ist für dich. — тому, кто рядом, или вслух."
+     ],
+     "npc_phrase_id": "ch16_d3_08",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: für + кого: ich → mich, du → dich · diesen Stern (der → den, dieser → diesen) · Für wen …? — «для кого?» · gefällt — ä, потому что gefallen с a.",
+     "next_hook": "Дальше: на рынке ищут помощника в киоск — Ольга читает объявление и спрашивает «Hast du etwas gefunden?». Появятся слова etwas, nichts.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       286
+      ],
+      "phrases_ids": [
+       "ch16_030",
+       "ch16_031",
+       "ch16_032",
+       "ch16_033"
+      ],
+      "note": "к курсу: на стр. 286 — открытки к праздникам и список подарков; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса: поводы",
+       "phrase_id": "ch16_030",
+       "picture": "открытки: младенец, свадьба, валентинка, пасхальное яйцо, ёлка",
+       "words": [
+        {
+         "de": "das Baby",
+         "ru": "младенец"
+        },
+        {
+         "de": "die Geburt",
+         "ru": "рождение"
+        },
+        {
+         "de": "die Hochzeit",
+         "ru": "свадьба"
+        },
+        {
+         "de": "der Valentinstag",
+         "ru": "День святого Валентина"
+        },
+        {
+         "de": "Ostern",
+         "ru": "Пасха"
+        },
+        {
+         "de": "Weihnachten",
+         "ru": "Рождество"
+        }
+       ],
+       "note": "эти слова есть на стр. 286; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch16_L3_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch16_030",
+        "prompt": "Слова курса. Послушай. Что значит «Hochzeit»?",
+        "answer": "свадьба",
+        "distractors": [
+         "рождение",
+         "Пасха"
+        ],
+        "src": "Linie 1, стр. 286"
+       },
+       {
+        "id": "ch16_L3_kurs_2",
+        "skill": "listen",
+        "phraseId": "ch16_031",
+        "prompt": "Что дарят. Послушай. Что значит «Gutschein»?",
+        "answer": "подарочный сертификат",
+        "distractors": [
+         "духи",
+         "книга"
+        ],
+        "src": "Linie 1, стр. 286"
+       },
+       {
+        "id": "ch16_L3_kurs_3",
+        "skill": "listen",
+        "phraseId": "ch16_032",
+        "prompt": "Кому пишут. Послушай. Что значит «Rückseite»?",
+        "answer": "оборотная сторона",
+        "distractors": [
+         "лицевая сторона",
+         "тётя"
+        ],
+        "src": "Linie 1, стр. 286"
+       },
+       {
+        "id": "ch16_L3_kurs_4",
+        "skill": "listen",
+        "phraseId": "ch16_033",
+        "prompt": "Слова со стр. 286. Послушай. Что значит «Urlaub»?",
+        "answer": "отпуск",
+        "distractors": [
+         "декабрь",
+         "груша"
+        ],
+        "src": "Linie 1, стр. 286"
+       }
+      ]
+     },
+     "kurs_pages": [
+      286
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch16.py",
+  "new_words": [
+   "Oma hat Geburtstag.",
+   "Hast du schon ein Geschenk?",
+   "Ich kaufe diesen Stern für Oma.",
+   "Für wen ist die Kerze?",
+   "für mich · für dich"
+  ],
+  "known_before": [
+   "Hast du …?",
+   "dieser · diese",
+   "Die Kerze ist schön.",
+   "Danke!"
+  ],
+  "transfer_phrase_ids": [
+   "ch16_t05",
+   "ch16_t06"
+  ],
+  "built_phrase_ids": [
+   "ch16_029"
+  ],
+  "quiz_ids": [
+   "ch16_L3_words_1",
+   "ch16_L3_words_2",
+   "ch16_L3_words_3",
+   "ch16_L3_words_4",
+   "ch16_L3_words_5",
+   "ch16_L3_listen_1",
+   "ch16_L3_listen_2",
+   "ch16_L3_listen_3",
+   "ch16_L3_listen_4",
+   "ch16_L3_listen_5",
+   "ch16_L3_read_1",
+   "ch16_L3_read_2",
+   "ch16_L3_read_3",
+   "ch16_L3_read_4",
+   "ch16_L3_read_5",
+   "ch16_L3_speak_1",
+   "ch16_L3_speak_2",
+   "ch16_L3_speak_3",
+   "ch16_L3_speak_4",
+   "ch16_L3_speak_5",
+   "ch16_L3_write_1",
+   "ch16_L3_write_2",
+   "ch16_L3_write_3",
+   "ch16_L3_write_4",
+   "ch16_L3_write_5",
+   "ch16_L3_why_1",
+   "ch16_L3_why_2",
+   "ch16_L3_why_3",
+   "ch16_L3_why_4",
+   "ch16_L3_why_5",
+   "ch16_L3_transfer_1",
+   "ch16_L3_transfer_2",
+   "ch16_L3_transfer_3",
+   "ch16_L3_transfer_4",
+   "ch16_L3_transfer_5",
+   "ch16_L3_boss_1",
+   "ch16_L3_boss_2"
+  ],
+  "dictation_ids": [
+   "ch16_L3_dict_1",
+   "ch16_L3_dict_2",
+   "ch16_L3_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "У бабушки скоро день рождения. На рождественском рынке вы с Ольгой выбираете подарки. Цель: сказать, что покупаешь, и для кого. Загадка урока: «для меня» по-немецки — für mich, а не für ich. Почему «я» вдруг становится mich?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Подарки на рынке",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой выбирает подарки (ИИ — Ольга)",
+   "situation": "geschenk_markt",
+   "ai_plays": "Olga (на «ты»)",
+   "phrases": [
+    "ch16_d3_03",
+    "ch16_025",
+    "ch16_d3_05",
+    "ch16_027",
+    "ch16_d3_07",
+    "ch16_028"
+   ]
+  },
+  "outro": "Почтовая лавка подарков открыта: ты сказал, что покупаешь, и для кого. Совет на завтра: возьми вещь дома и скажи Das ist für dich. — тому, кто рядом, или вслух. Дальше: на рынке ищут помощника в киоск — Ольга читает объявление и спрашивает «Hast du etwas gefunden?». Появятся слова etwas, nichts.",
+  "detail_de_life": "К подарку в Германии часто кладут открытку: на лицевой стороне картинка, на оборотной — пожелание и подпись. Эти слова — Vorderseite и Rückseite — есть на стр. 286.",
+  "detail_de_life_source": "Linie 1 A1, стр. 286 (Glückwunschkarte: Vorderseite, Rückseite)",
+  "task_ids": {
+   "words": [
+    "ch16_L3_words_1",
+    "ch16_L3_words_2",
+    "ch16_L3_words_3",
+    "ch16_L3_words_4",
+    "ch16_L3_words_5"
+   ],
+   "listen": [
+    "ch16_L3_listen_1",
+    "ch16_L3_listen_2",
+    "ch16_L3_listen_3",
+    "ch16_L3_listen_4",
+    "ch16_L3_listen_5"
+   ],
+   "read": [
+    "ch16_L3_read_1",
+    "ch16_L3_read_2",
+    "ch16_L3_read_3",
+    "ch16_L3_read_4",
+    "ch16_L3_read_5"
+   ],
+   "speak": [
+    "ch16_L3_speak_1",
+    "ch16_L3_speak_2",
+    "ch16_L3_speak_3",
+    "ch16_L3_speak_4",
+    "ch16_L3_speak_5"
+   ],
+   "write": [
+    "ch16_L3_write_1",
+    "ch16_L3_write_2",
+    "ch16_L3_write_3",
+    "ch16_L3_write_4",
+    "ch16_L3_write_5"
+   ],
+   "why": [
+    "ch16_L3_why_1",
+    "ch16_L3_why_2",
+    "ch16_L3_why_3",
+    "ch16_L3_why_4",
+    "ch16_L3_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch16_L3_transfer_1",
+   "ch16_L3_transfer_2",
+   "ch16_L3_transfer_3",
+   "ch16_L3_transfer_4",
+   "ch16_L3_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch16_016",
+   "ch16_017",
+   "ch16_018"
+  ],
+  "dialog_ids": [
+   "ch16_d3"
+  ],
+  "video": "video/ch16_L3.mp4"
+ },
+ {
+  "id": "ch16_L4",
+  "title": "Hast du etwas gefunden? Работа на рынке",
+  "pages_linie1": {
+   "pages": [
+    287
+   ],
+   "sections": [
+    "5 Auf dem Markt arbeiten"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch16_034",
+   "ch16_035",
+   "ch16_036",
+   "ch16_037"
+  ],
+  "why_ids": [
+   "ch16_035",
+   "ch16_037"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch16_d4",
+    "line_ids": [
+     "ch16_d4_01",
+     "ch16_d4_02",
+     "ch16_d4_03",
+     "ch16_d4_04",
+     "ch16_d4_05",
+     "ch16_d4_06"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Ты покупаешь подарок для Oma. Что скажешь?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch16_d4",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch16_d4_01",
+        "ch16_d4_02",
+        "ch16_d4_04",
+        "ch16_d4_06"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch16_d4",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "ch в nichts: ихь — нихьц, повтори слово целиком",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch16_034",
+        "ch16_035",
+        "ch16_036",
+        "ch16_037"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "ch в nichts: ихь — нихьц, повтори слово целиком — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "мост: «ничего не нашёл» ↔ nichts gefunden (одно отрицание), без терминов, кроме названия рубрики",
+   "как слышу, так и пишу": "ch после i — «хь» (часть 7); gefunden, gelesen — одним словом (часть 10)",
+   "учебник непонятен": "из Linie 1 — тема и страница 287; подача своя",
+   "село, живой немецкий — Netto": "объявления на подъезде и у магазина: Aushilfe, Stundenlohn",
+   "любит аниме": "завязка — доска заданий в гильдии; отрезки аниме — позже",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин, лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Hier gibt es nichts.; перенос — Ich habe nichts gelesen., Hast du alles gefunden?, Ich habe etwas gelesen.",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    282,
+    283,
+    284,
+    286,
+    287
+   ],
+   "phrases_ids": [
+    "ch16_039",
+    "ch16_040",
+    "ch16_041",
+    "ch16_042",
+    "ch16_043",
+    "ch16_044"
+   ],
+   "note": "к курсу: на стр. 287 — Stellenanzeigen (объявления о работе на рынке); слова стр. 282–284 и 286 — повтор рынка и подарков; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса: объявления и рынок",
+    "phrase_id": "ch16_039",
+    "picture": "доска объявлений на рынке: Stellenanzeigen, прилавок глинтвейна, прилавок сосисок, словарь",
+    "words": [
+     {
+      "de": "die Anzeige",
+      "ru": "объявление"
+     },
+     {
+      "de": "die Aushilfe",
+      "ru": "помощник на подработке"
+     },
+     {
+      "de": "der Stundenlohn",
+      "ru": "почасовая оплата"
+     },
+     {
+      "de": "die Verkäuferin",
+      "ru": "продавщица"
+     },
+     {
+      "de": "der Glühwein",
+      "ru": "глинтвейн"
+     },
+     {
+      "de": "das Wörterbuch",
+      "ru": "словарь"
+     }
+    ],
+    "note": "слова страниц 282–287; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch16_L4_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch16_039",
+     "prompt": "Слова курса. Послушай. Что значит «Aushilfe»?",
+     "answer": "помощник на подработке",
+     "distractors": [
+      "продавец",
+      "студентка"
+     ],
+     "src": "Linie 1, стр. 287 (Auf dem Markt arbeiten)"
+    },
+    {
+     "id": "ch16_L4_kurs_2",
+     "skill": "listen",
+     "phraseId": "ch16_040",
+     "prompt": "Кто работает на рынке. Послушай. Что значит «Verkäuferin»?",
+     "answer": "продавщица",
+     "distractors": [
+      "студентка",
+      "покупательница"
+     ],
+     "src": "Linie 1, стр. 287"
+    },
+    {
+     "id": "ch16_L4_kurs_3",
+     "skill": "listen",
+     "phraseId": "ch16_041",
+     "prompt": "Прилавки. Послушай. Что значит «Holzspielzeug»?",
+     "answer": "деревянные игрушки",
+     "distractors": [
+      "тетрадь",
+      "электронное письмо"
+     ],
+     "src": "Linie 1, стр. 287"
+    },
+    {
+     "id": "ch16_L4_kurs_4",
+     "skill": "listen",
+     "phraseId": "ch16_042",
+     "prompt": "Слова курса. Послушай. Что значит «Wörterbuch»?",
+     "answer": "словарь",
+     "distractors": [
+      "диалог",
+      "интерес"
+     ],
+     "src": "Linie 1, стр. 282 и 284"
+    },
+    {
+     "id": "ch16_L4_kurs_5",
+     "skill": "listen",
+     "phraseId": "ch16_043",
+     "prompt": "Еда и развлечения. Послушай. Что значит «Bauchweh»?",
+     "answer": "боль в животе",
+     "distractors": [
+      "глинтвейн",
+      "креп"
+     ],
+     "src": "Linie 1, стр. 282–284"
+    },
+    {
+     "id": "ch16_L4_kurs_6",
+     "skill": "listen",
+     "phraseId": "ch16_044",
+     "prompt": "Кому дарят. Послушай. Что значит «Handschuhe»?",
+     "answer": "перчатки",
+     "distractors": [
+      "брат",
+      "отец"
+     ],
+     "src": "Linie 1, стр. 286"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Рынок: у остановки появилась доска объявлений — на ней Stellenanzeigen",
+   "npc": "Olga — одногруппница (на «ты»)"
+  },
+  "covers": [
+   "L1-16-S5",
+   "L1-16-G1",
+   "B08.4"
+  ],
+  "covers_note": {
+   "L1-16-S5": "Stellenanzeigen: Auf dem Markt arbeiten — Ольга показывает объявление, герой читает его (части 1, 3–6, 8); Anzeige, Aushilfe, Stundenlohn, Arbeitszeit — «к курсу»",
+   "L1-16-G1": "unbestimmte Pronomen: alles, etwas, nichts — «всё, что-то, ничего» на месте «что» (часть 5, why)",
+   "B08.4": "nichts — «ничего»: одного слова достаточно, nicht рядом не нужен (часть 5, why_2)"
+  },
+  "goal": "После урока сможешь: сказать, что ты кое-что нашёл, ничего не нашёл или всё прочитал (etwas, nichts, alles), и спросить об этом Ольгу.",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "На рынке у остановки доска объявлений. Ольга ищет для тебя подработку.",
+      "Stellenanzeigen: что-то нашёл, ничего не нашёл, всё прочитал. Цель: сказать это по-немецки."
+     ],
+     "voice_ru": "На рынке висит доска объявлений о работе — Stellenanzeigen. Ольга спрашивает, нашёл ли ты что-нибудь. Ты скажешь: кое-что, ничего, всё.",
+     "hook": "Загадка урока: по-русски «ничего не нашёл» — два отрицания. Как это сказать по-немецки?",
+     "anime_motif": "исекай: герой читает доску заданий в гильдии — ищет первое поручение (без цитат)",
+     "npc": "Olga — одногруппница",
+     "more": "Ольга спросит, нашёл ли ты что-нибудь. Ты ответишь и прочитаешь объявление.",
+     "goal": "После урока сможешь: сказать, что ты кое-что нашёл, ничего не нашёл или всё прочитал (etwas, nichts, alles), и спросить об этом Ольгу."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch16_023",
+      "ch16_027",
+      "ch16_028"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Ты покупаешь подарок для Oma. Что скажешь?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch16_027",
+      "ch16_028"
+     ],
+     "type": "retrieval: вопрос, не перечитывание",
+     "note": "фразы урока 3 (Oma hat Geburtstag., Die Kerze ist für mich., Dieser Nussknacker ist für dich!)"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch16_034",
+      "ch16_035",
+      "ch16_036",
+      "ch16_037"
+     ],
+     "words": [
+      "Ich habe etwas gefunden.",
+      "Ich habe nichts gefunden.",
+      "Hast du etwas gefunden?",
+      "Ich habe alles gelesen."
+     ],
+     "words_ru": {
+      "Ich habe etwas gefunden.": "Я кое-что нашёл.",
+      "Ich habe nichts gefunden.": "Я ничего не нашёл.",
+      "Hast du etwas gefunden?": "Ты что-нибудь нашёл?",
+      "Ich habe alles gelesen.": "Я всё прочитал."
+     },
+     "trap": "По-русски «ничего не нашёл» — два отрицания. По-немецки хватает одного слова: nichts, а nicht рядом не нужен.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch16_L4_words_1",
+      "ch16_L4_words_2",
+      "ch16_L4_words_3",
+      "ch16_L4_words_4",
+      "ch16_L4_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch16_d4",
+     "line_ids": [
+      "ch16_d4_01",
+      "ch16_d4_02",
+      "ch16_d4_03",
+      "ch16_d4_04",
+      "ch16_d4_05",
+      "ch16_d4_06"
+     ],
+     "halves": [
+      [
+       "ch16_d4_01",
+       "ch16_d4_02",
+       "ch16_d4_03"
+      ],
+      [
+       "ch16_d4_04",
+       "ch16_d4_05",
+       "ch16_d4_06"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "В объявлениях о работе на рынке часто пишут: Aushilfe — помощник на подработке, Stundenlohn — оплата за час, Arbeitszeit — часы работы. Эти слова есть на стр. 287 учебника.",
+     "life_source": "Linie 1 A1, стр. 287 (Stellenanzeigen auf dem Markt)",
+     "task_ids": [
+      "ch16_L4_listen_1",
+      "ch16_L4_listen_2",
+      "ch16_L4_listen_3",
+      "ch16_L4_listen_4",
+      "ch16_L4_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch16_035",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "nichts — «ничего», «не» в нём уже есть. По-русски «ничего не нашёл», по-немецки хватает одного слова: nichts, без nicht.",
+     "screen": [
+      "unbestimmte Pronomen: alles · etwas · nichts — «всё · что-то · ничего»",
+      "Ich habe nichts gefunden — без nicht: «не» уже внутри nichts",
+      "Nie, nichts, niemand: одного слова достаточно, «не» внутри"
+     ],
+     "answer_hook": "Ответ на загадку: двух отрицаний не нужно — nichts уже значит «ничего», nicht рядом не ставят.",
+     "second": {
+      "why_id": "ch16_037",
+      "voice_ru": "alles — «всё», etwas — «что-то», nichts — «ничего»: все три стоят на месте «что», после habe и перед gelesen."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch16_L4_why_1",
+      "ch16_L4_why_2",
+      "ch16_L4_why_3",
+      "ch16_L4_why_4",
+      "ch16_L4_why_5"
+     ],
+     "no_story": true,
+     "examples_button": {
+      "label": "Ещё примеры",
+      "why_ids": [
+       "ch16_035"
+      ]
+     }
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch16_038",
+     "pieces": [
+      "gibt",
+      "nichts.",
+      "Hier",
+      "es"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch16_d4_03",
+      "ch16_003"
+     ],
+     "prompt": "Собери сам из знакомых кусков: у пустого прилавка скажи Ольге: «Здесь ничего нет.»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch16_038",
+     "transfer_task_ids": [
+      "ch16_L4_transfer_1"
+     ],
+     "task_ids": [
+      "ch16_L4_write_1",
+      "ch16_L4_write_2",
+      "ch16_L4_write_3",
+      "ch16_L4_write_4",
+      "ch16_L4_write_5",
+      "ch16_L4_read_1",
+      "ch16_L4_read_2",
+      "ch16_L4_read_3",
+      "ch16_L4_read_4",
+      "ch16_L4_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "nichts",
+     "ipa_sym": "ç",
+     "tip_ru": "ch после i — тихий выдох, как шёпотом «хь»: язык у нёба, горло без напряжения. nichts — «нихьц».",
+     "bridge_ru": "Такого звука по-русски нет. Начни с «и» и спокойно выдохни: «ихь» — ich, «нихьц» — nichts.",
+     "phrase_id": "ch16_035",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "nichts",
+       "ru": "нихьц"
+      },
+      {
+       "de": "ich",
+       "ru": "ихь"
+      },
+      {
+       "de": "etwas",
+       "ru": "ЭТ-вас"
+      },
+      {
+       "de": "alles",
+       "ru": "А-лес"
+      }
+     ],
+     "speak_task_ids": [
+      "ch16_L4_speak_1",
+      "ch16_L4_speak_2",
+      "ch16_L4_speak_3",
+      "ch16_L4_speak_4",
+      "ch16_L4_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "У доски объявлений",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Olga (на «ты»)",
+     "turns": [
+      {
+       "prompt_id": "ch16_d4_01",
+       "prompt_de": "Hast du etwas gefunden?",
+       "prompt_audio": "audio_v1/ch16_d4_01.mp3",
+       "expected_id": "ch16_d4_02",
+       "expected_de": "Ich habe nichts gefunden.",
+       "accept": [
+        {
+         "id": "ch16_034",
+         "de": "Ich habe etwas gefunden."
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch16_d4_05",
+       "prompt_de": "Hast du alles gelesen?",
+       "prompt_audio": "audio_v1/ch16_d4_05.mp3",
+       "expected_id": "ch16_d4_06",
+       "expected_de": "Ich habe alles gelesen.",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Ответь за себя: нашёл что-то или нет — ИИ примет оба ответа.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch16_d4_06",
+     "task_ru": "Новичок спрашивает, прочитал ли ты объявление. Скажи ему по-немецки: ты всё прочитал.",
+     "expected_ru": "Я всё прочитал.",
+     "hint_ru": "Ich habe alles gelesen.",
+     "ai_checks": "понятно ли и верен ли смысл; прошедшее: habe … gelesen, gelesen в конце",
+     "level_note": "A1.2 — сказать «всё / ничего» о прошлом"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch16_L4_dict_1",
+      "ch16_L4_dict_2",
+      "ch16_L4_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Проверь диктант: etwas, nichts, alles — с маленькой буквы, это не предметы; gefunden и gelesen — одним словом, в конце; в nichts — ch перед t."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch16_L4_transfer_2",
+      "ch16_L4_transfer_3",
+      "ch16_L4_transfer_4",
+      "ch16_L4_transfer_5",
+      "ch16_L4_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Доска объявлений прочитана: ты сказал, что нашёл, чего нет и что прочитал.",
+      "Совет на завтра: возьми любое объявление на подъезде и скажи Ich habe alles gelesen."
+     ],
+     "npc_phrase_id": "ch16_d4_06",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: alles · etwas · nichts — «всё · что-то · ничего» на месте «что» · nichts без nicht · прошлое — habe … gefunden / gelesen.",
+     "next_hook": "Дальше: Wir feiern! — Ostern, Oktoberfest, Karneval, Weihnachten: как в Германии празднуют.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       282,
+       283,
+       284,
+       286,
+       287
+      ],
+      "phrases_ids": [
+       "ch16_039",
+       "ch16_040",
+       "ch16_041",
+       "ch16_042",
+       "ch16_043",
+       "ch16_044"
+      ],
+      "note": "к курсу: на стр. 287 — Stellenanzeigen (объявления о работе на рынке); слова стр. 282–284 и 286 — повтор рынка и подарков; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса: объявления и рынок",
+       "phrase_id": "ch16_039",
+       "picture": "доска объявлений на рынке: Stellenanzeigen, прилавок глинтвейна, прилавок сосисок, словарь",
+       "words": [
+        {
+         "de": "die Anzeige",
+         "ru": "объявление"
+        },
+        {
+         "de": "die Aushilfe",
+         "ru": "помощник на подработке"
+        },
+        {
+         "de": "der Stundenlohn",
+         "ru": "почасовая оплата"
+        },
+        {
+         "de": "die Verkäuferin",
+         "ru": "продавщица"
+        },
+        {
+         "de": "der Glühwein",
+         "ru": "глинтвейн"
+        },
+        {
+         "de": "das Wörterbuch",
+         "ru": "словарь"
+        }
+       ],
+       "note": "слова страниц 282–287; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch16_L4_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch16_039",
+        "prompt": "Слова курса. Послушай. Что значит «Aushilfe»?",
+        "answer": "помощник на подработке",
+        "distractors": [
+         "продавец",
+         "студентка"
+        ],
+        "src": "Linie 1, стр. 287 (Auf dem Markt arbeiten)"
+       },
+       {
+        "id": "ch16_L4_kurs_2",
+        "skill": "listen",
+        "phraseId": "ch16_040",
+        "prompt": "Кто работает на рынке. Послушай. Что значит «Verkäuferin»?",
+        "answer": "продавщица",
+        "distractors": [
+         "студентка",
+         "покупательница"
+        ],
+        "src": "Linie 1, стр. 287"
+       },
+       {
+        "id": "ch16_L4_kurs_3",
+        "skill": "listen",
+        "phraseId": "ch16_041",
+        "prompt": "Прилавки. Послушай. Что значит «Holzspielzeug»?",
+        "answer": "деревянные игрушки",
+        "distractors": [
+         "тетрадь",
+         "электронное письмо"
+        ],
+        "src": "Linie 1, стр. 287"
+       },
+       {
+        "id": "ch16_L4_kurs_4",
+        "skill": "listen",
+        "phraseId": "ch16_042",
+        "prompt": "Слова курса. Послушай. Что значит «Wörterbuch»?",
+        "answer": "словарь",
+        "distractors": [
+         "диалог",
+         "интерес"
+        ],
+        "src": "Linie 1, стр. 282 и 284"
+       },
+       {
+        "id": "ch16_L4_kurs_5",
+        "skill": "listen",
+        "phraseId": "ch16_043",
+        "prompt": "Еда и развлечения. Послушай. Что значит «Bauchweh»?",
+        "answer": "боль в животе",
+        "distractors": [
+         "глинтвейн",
+         "креп"
+        ],
+        "src": "Linie 1, стр. 282–284"
+       },
+       {
+        "id": "ch16_L4_kurs_6",
+        "skill": "listen",
+        "phraseId": "ch16_044",
+        "prompt": "Кому дарят. Послушай. Что значит «Handschuhe»?",
+        "answer": "перчатки",
+        "distractors": [
+         "брат",
+         "отец"
+        ],
+        "src": "Linie 1, стр. 286"
+       }
+      ]
+     },
+     "kurs_pages": [
+      282,
+      283,
+      284,
+      286,
+      287
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch16.py",
+  "new_words": [
+   "Ich habe etwas gefunden.",
+   "Ich habe nichts gefunden.",
+   "Hast du etwas gefunden?",
+   "Ich habe alles gelesen."
+  ],
+  "known_before": [
+   "Ich habe Hunger.",
+   "Hier gibt es …",
+   "für dich",
+   "Hast du …?",
+   "Danke!"
+  ],
+  "transfer_phrase_ids": [
+   "ch16_t07",
+   "ch16_t08",
+   "ch16_t09"
+  ],
+  "built_phrase_ids": [
+   "ch16_038"
+  ],
+  "quiz_ids": [
+   "ch16_L4_words_1",
+   "ch16_L4_words_2",
+   "ch16_L4_words_3",
+   "ch16_L4_words_4",
+   "ch16_L4_words_5",
+   "ch16_L4_listen_1",
+   "ch16_L4_listen_2",
+   "ch16_L4_listen_3",
+   "ch16_L4_listen_4",
+   "ch16_L4_listen_5",
+   "ch16_L4_read_1",
+   "ch16_L4_read_2",
+   "ch16_L4_read_3",
+   "ch16_L4_read_4",
+   "ch16_L4_read_5",
+   "ch16_L4_speak_1",
+   "ch16_L4_speak_2",
+   "ch16_L4_speak_3",
+   "ch16_L4_speak_4",
+   "ch16_L4_speak_5",
+   "ch16_L4_write_1",
+   "ch16_L4_write_2",
+   "ch16_L4_write_3",
+   "ch16_L4_write_4",
+   "ch16_L4_write_5",
+   "ch16_L4_why_1",
+   "ch16_L4_why_2",
+   "ch16_L4_why_3",
+   "ch16_L4_why_4",
+   "ch16_L4_why_5",
+   "ch16_L4_transfer_1",
+   "ch16_L4_transfer_2",
+   "ch16_L4_transfer_3",
+   "ch16_L4_transfer_4",
+   "ch16_L4_transfer_5",
+   "ch16_L4_boss_1"
+  ],
+  "dictation_ids": [
+   "ch16_L4_dict_1",
+   "ch16_L4_dict_2",
+   "ch16_L4_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "На рынке у остановки доска объявлений. Ольга ищет для тебя подработку. Stellenanzeigen: что-то нашёл, ничего не нашёл, всё прочитал. Цель: сказать это по-немецки. Загадка урока: по-русски «ничего не нашёл» — два отрицания. Как это сказать по-немецки?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. У доски объявлений",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой читает объявление о работе на рынке (ИИ — Ольга)",
+   "situation": "stellenanzeige_markt",
+   "ai_plays": "Olga (на «ты»)",
+   "phrases": [
+    "ch16_d4_02",
+    "ch16_034",
+    "ch16_d4_06"
+   ]
+  },
+  "outro": "Доска объявлений прочитана: ты сказал, что нашёл, чего нет и что прочитал. Совет на завтра: возьми любое объявление на подъезде и скажи Ich habe alles gelesen. Дальше: Wir feiern! — Ostern, Oktoberfest, Karneval, Weihnachten: как в Германии празднуют.",
+  "detail_de_life": "В объявлениях о работе на рынке часто пишут: Aushilfe — помощник на подработке, Stundenlohn — оплата за час, Arbeitszeit — часы работы. Эти слова есть на стр. 287 учебника.",
+  "detail_de_life_source": "Linie 1 A1, стр. 287 (Stellenanzeigen auf dem Markt)",
+  "task_ids": {
+   "words": [
+    "ch16_L4_words_1",
+    "ch16_L4_words_2",
+    "ch16_L4_words_3",
+    "ch16_L4_words_4",
+    "ch16_L4_words_5"
+   ],
+   "listen": [
+    "ch16_L4_listen_1",
+    "ch16_L4_listen_2",
+    "ch16_L4_listen_3",
+    "ch16_L4_listen_4",
+    "ch16_L4_listen_5"
+   ],
+   "read": [
+    "ch16_L4_read_1",
+    "ch16_L4_read_2",
+    "ch16_L4_read_3",
+    "ch16_L4_read_4",
+    "ch16_L4_read_5"
+   ],
+   "speak": [
+    "ch16_L4_speak_1",
+    "ch16_L4_speak_2",
+    "ch16_L4_speak_3",
+    "ch16_L4_speak_4",
+    "ch16_L4_speak_5"
+   ],
+   "write": [
+    "ch16_L4_write_1",
+    "ch16_L4_write_2",
+    "ch16_L4_write_3",
+    "ch16_L4_write_4",
+    "ch16_L4_write_5"
+   ],
+   "why": [
+    "ch16_L4_why_1",
+    "ch16_L4_why_2",
+    "ch16_L4_why_3",
+    "ch16_L4_why_4",
+    "ch16_L4_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch16_L4_transfer_1",
+   "ch16_L4_transfer_2",
+   "ch16_L4_transfer_3",
+   "ch16_L4_transfer_4",
+   "ch16_L4_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch16_023",
+   "ch16_027",
+   "ch16_028"
+  ],
+  "dialog_ids": [
+   "ch16_d4"
+  ],
+  "video": "video/ch16_L4.mp4"
+ },
+ {
+  "id": "ch16_L5",
+  "title": "Wir feiern! Праздники и хорошие решения",
+  "pages_linie1": {
+   "pages": [
+    288,
+    289
+   ],
+   "sections": [
+    "6 Wir feiern!",
+    "7 Gute Vorsätze"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch16_072",
+   "ch16_045",
+   "ch16_046",
+   "ch16_047",
+   "ch16_073",
+   "ch16_074",
+   "ch16_048",
+   "ch16_049"
+  ],
+  "why_ids": [
+   "ch16_047",
+   "ch16_048"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch16_d5",
+    "line_ids": [
+     "ch16_d5_01",
+     "ch16_d5_02",
+     "ch16_d5_03",
+     "ch16_d5_04",
+     "ch16_d5_05",
+     "ch16_d5_06",
+     "ch16_d5_07",
+     "ch16_d5_08"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Ты искал объявление о работе. Что ты сказал Ольге?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch16_d5",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch16_d5_01",
+        "ch16_d5_02",
+        "ch16_d5_03",
+        "ch16_d5_04"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch16_d5",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Silbentrennung: Weih-nach-ten, Os-tern, Vor-satz — повтори по слогам",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch16_045",
+        "ch16_046",
+        "ch16_047",
+        "ch16_048"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Silbentrennung: Weih-nach-ten, Os-tern, Vor-satz — повтори по слогам — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "мост: «праздновали» ↔ haben … gefeiert (два слова), без терминов, кроме названия рубрики",
+   "как слышу, так и пишу": "Silbentrennung (часть 7): Weih-nach-ten; ei в gefeiert (часть 10)",
+   "учебник непонятен": "из Linie 1 — темы и страницы 288–289; подача своя",
+   "село, живой немецкий — Netto": "на рынке во Фрайберге — Glühwein, Weihnachtsbaum; решения — jeden Tag",
+   "любит аниме": "завязка — обет героя на празднике гильдии; отрезки аниме — позже",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин, лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Ich esse jeden Tag Obst.; перенос — Wir feiern Ostern., Wann feiert ihr Ostern?, Ich habe Weihnachten gefeiert.",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    288,
+    289
+   ],
+   "phrases_ids": [
+    "ch16_050",
+    "ch16_051",
+    "ch16_052",
+    "ch16_053",
+    "ch16_054",
+    "ch16_055",
+    "ch16_056",
+    "ch16_057",
+    "ch16_058",
+    "ch16_059"
+   ],
+   "note": "к курсу: на стр. 288 — праздники Германии (Ostern, Oktoberfest, Karneval, Weihnachten), на стр. 289 — Gute Vorsätze: планы на год; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса: праздники и планы",
+    "phrase_id": "ch16_050",
+    "picture": "афиша праздников: ёлка, пасхальный заяц, карнавальное шествие, колесо обозрения, список решений на год",
+    "words": [
+     {
+      "de": "das Fest",
+      "ru": "праздник"
+     },
+     {
+      "de": "der Feiertag",
+      "ru": "праздничный день"
+     },
+     {
+      "de": "das Oktoberfest",
+      "ru": "Октоберфест"
+     },
+     {
+      "de": "der Karnevalsumzug",
+      "ru": "карнавальное шествие"
+     },
+     {
+      "de": "der Vorsatz",
+      "ru": "решение, намерение"
+     },
+     {
+      "de": "der Plan",
+      "ru": "план"
+     }
+    ],
+    "note": "слова страниц 288–289; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch16_L5_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch16_050",
+     "prompt": "Слова курса. Послушай. Что значит «Heiligabend»?",
+     "answer": "сочельник",
+     "distractors": [
+      "Пасха",
+      "день рождения"
+     ],
+     "src": "Linie 1, стр. 288 (Wir feiern!)"
+    },
+    {
+     "id": "ch16_L5_kurs_2",
+     "skill": "listen",
+     "phraseId": "ch16_051",
+     "prompt": "Слова курса. Послушай. Что значит «Weihnachtsbaum»?",
+     "answer": "рождественская ёлка",
+     "distractors": [
+      "пасхальный заяц",
+      "огни"
+     ],
+     "src": "Linie 1, стр. 288"
+    },
+    {
+     "id": "ch16_L5_kurs_3",
+     "skill": "listen",
+     "phraseId": "ch16_052",
+     "prompt": "Наряды. Послушай. Что значит «Lederhose»?",
+     "answer": "кожаные шорты",
+     "distractors": [
+      "костюм",
+      "маска"
+     ],
+     "src": "Linie 1, стр. 288"
+    },
+    {
+     "id": "ch16_L5_kurs_4",
+     "skill": "listen",
+     "phraseId": "ch16_053",
+     "prompt": "Слова курса. Послушай. Что значит «Kommentar»?",
+     "answer": "комментарий",
+     "distractors": [
+      "листок",
+      "взгляд"
+     ],
+     "src": "Linie 1, стр. 288"
+    },
+    {
+     "id": "ch16_L5_kurs_5",
+     "skill": "listen",
+     "phraseId": "ch16_054",
+     "prompt": "Слова курса. Послушай. Что значит «Quatsch»?",
+     "answer": "ерунда",
+     "distractors": [
+      "музыка",
+      "магазин"
+     ],
+     "src": "Linie 1, стр. 288"
+    },
+    {
+     "id": "ch16_L5_kurs_6",
+     "skill": "listen",
+     "phraseId": "ch16_055",
+     "prompt": "Профессии. Послушай. Что значит «Krankenschwester»?",
+     "answer": "медсестра",
+     "distractors": [
+      "воспитательница",
+      "программист"
+     ],
+     "src": "Linie 1, стр. 289 (Gute Vorsätze)"
+    },
+    {
+     "id": "ch16_L5_kurs_7",
+     "skill": "listen",
+     "phraseId": "ch16_056",
+     "prompt": "Учёба. Послушай. Что значит «Prüfung»?",
+     "answer": "экзамен",
+     "distractors": [
+      "доска",
+      "слово"
+     ],
+     "src": "Linie 1, стр. 289"
+    },
+    {
+     "id": "ch16_L5_kurs_8",
+     "skill": "listen",
+     "phraseId": "ch16_057",
+     "prompt": "Время. Послушай. Что значит «Wochenende»?",
+     "answer": "выходные",
+     "distractors": [
+      "неделя",
+      "год"
+     ],
+     "src": "Linie 1, стр. 289"
+    },
+    {
+     "id": "ch16_L5_kurs_9",
+     "skill": "listen",
+     "phraseId": "ch16_058",
+     "prompt": "Привычки. Послушай. Что значит «Zigaretten»?",
+     "answer": "сигареты",
+     "distractors": [
+      "шоколад",
+      "собака"
+     ],
+     "src": "Linie 1, стр. 289"
+    },
+    {
+     "id": "ch16_L5_kurs_10",
+     "skill": "listen",
+     "phraseId": "ch16_059",
+     "prompt": "Планы. Послушай. Что значит «Vorsatz»?",
+     "answer": "решение, намерение",
+     "distractors": [
+      "план",
+      "заголовок"
+     ],
+     "src": "Linie 1, стр. 289 (Gute Vorsätze)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Рынок: рядом с прилавками стоит праздничная ёлка — поселение празднует вместе",
+   "npc": "Olga и Max — одногруппники (на «ты»)"
+  },
+  "covers": [
+   "L1-16-S6",
+   "L1-16-S7",
+   "L1-16-AUSSPR",
+   "L1-16-MEDIAT",
+   "B01.9",
+   "B01.10"
+  ],
+  "covers_note": {
+   "L1-16-S6": "Wir feiern!: Ostern, Oktoberfest, Karneval, Weihnachten — Wir feiern Weihnachten., Wir haben Ostern gefeiert. (части 3–6, 8); слова праздников — «к курсу»",
+   "L1-16-S7": "Gute Vorsätze: Vorsätze und Pläne — Ich lerne jeden Tag Deutsch. (части 3–6, 8); слова Vorsatz, Plan — «к курсу»",
+   "L1-16-AUSSPR": "Silbentrennung: Weih-nach-ten, Os-tern — деление на слоги по гласным (часть 7); b, d, g и p, t, k — повтор в словах пары",
+   "L1-16-MEDIAT": "Mediation: über Feste rund um die Welt sprechen — часть 9: расскажи новичку, как празднуют",
+   "B01.9": "начало и конец слова: проверяем русские привычки — на конце слова b, d, g звучат глухо (повтор Tag, Geburtstag), в начале p, t, k — с выдохом (части 7, 10)",
+   "B01.10": "исключения и тонкости: в gefeiert буквы ei и ie читаются по-разному (часть 10); Silbentrennung (часть 7)"
+  },
+  "goal": "После урока сможешь: сказать, какой праздник вы празднуете и когда (Wir feiern Weihnachten. Im Dezember …), что праздновали (Wir haben Ostern gefeiert.) и назвать своё решение (Ich lerne jeden Tag Deutsch.).",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "На рынке праздник: ёлка, огни, Ольга и Макс. Все говорят о праздниках и о хороших решениях — Gute Vorsätze и Pläne на год.",
+      "Цель: сказать, что и когда вы празднуете, что праздновали и какое у тебя решение."
+     ],
+     "voice_ru": "В учебнике на страницах 288 и 289 — праздники и хорошие решения. Ты скажешь, когда вы празднуете Рождество, что праздновали и что решил делать ежедневно.",
+     "hook": "Загадка урока: «мы» — wir. А помощник в прошлом уже не habe. Какой?",
+     "anime_motif": "исекай: герой на празднике гильдии даёт обет — делать что-то ежедневно (без цитат)",
+     "npc": "Olga и Max — одногруппники",
+     "more": "Ольга и Макс расскажут о праздниках. Ты скажешь о своём решении.",
+     "goal": "После урока сможешь: сказать, какой праздник вы празднуете и когда (Wir feiern Weihnachten. Im Dezember …), что праздновали (Wir haben Ostern gefeiert.) и назвать своё решение (Ich lerne jeden Tag Deutsch.)."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch16_034",
+      "ch16_035",
+      "ch16_037"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Ты искал объявление о работе. Что ты сказал Ольге?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch16_034",
+      "ch16_035",
+      "ch16_037"
+     ],
+     "type": "retrieval: вопрос, не перечитывание",
+     "note": "фразы урока 4 (Ich habe etwas gefunden., Ich habe nichts gefunden., Ich habe alles gelesen.)"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch16_072",
+      "ch16_045",
+      "ch16_046",
+      "ch16_047",
+      "ch16_073",
+      "ch16_074",
+      "ch16_048",
+      "ch16_049"
+     ],
+     "words": [
+      "Was feiert ihr im Dezember?",
+      "Wir feiern Weihnachten.",
+      "Im Dezember feiern wir Weihnachten.",
+      "Wir haben Ostern gefeiert.",
+      "Und was habt ihr im April gefeiert?",
+      "Was ist dein Vorsatz?",
+      "Ich lerne jeden Tag Deutsch.",
+      "Ich esse jeden Tag Obst."
+     ],
+     "words_ru": {
+      "Was feiert ihr im Dezember?": "Что вы празднуете в декабре?",
+      "Wir feiern Weihnachten.": "Мы празднуем Рождество.",
+      "Im Dezember feiern wir Weihnachten.": "В декабре мы празднуем Рождество.",
+      "Wir haben Ostern gefeiert.": "Мы праздновали Пасху.",
+      "Und was habt ihr im April gefeiert?": "А что вы праздновали в апреле?",
+      "Was ist dein Vorsatz?": "Какое у тебя решение?",
+      "Ich lerne jeden Tag Deutsch.": "Я учу немецкий ежедневно.",
+      "Ich esse jeden Tag Obst.": "Я ем фрукты ежедневно."
+     },
+     "trap": "По-русски «празднуем» и «праздновали» — одно слово с разным окончанием. По-немецки в прошлом два слова: haben и gefeiert.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch16_L5_words_1",
+      "ch16_L5_words_2",
+      "ch16_L5_words_3",
+      "ch16_L5_words_4",
+      "ch16_L5_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch16_d5",
+     "line_ids": [
+      "ch16_d5_01",
+      "ch16_d5_02",
+      "ch16_d5_03",
+      "ch16_d5_04",
+      "ch16_d5_05",
+      "ch16_d5_06",
+      "ch16_d5_07",
+      "ch16_d5_08"
+     ],
+     "halves": [
+      [
+       "ch16_d5_01",
+       "ch16_d5_02",
+       "ch16_d5_03",
+       "ch16_d5_04"
+      ],
+      [
+       "ch16_d5_05",
+       "ch16_d5_06",
+       "ch16_d5_07",
+       "ch16_d5_08"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "Как в Linie 1 (стр. 288): праздники Германии — Ostern, Oktoberfest, Karneval, Weihnachten. Heiligabend — вечер 24 декабря, накануне Рождества.",
+     "life_source": "Linie 1 A1, стр. 288 (Wir feiern!)",
+     "task_ids": [
+      "ch16_L5_listen_1",
+      "ch16_L5_listen_2",
+      "ch16_L5_listen_3",
+      "ch16_L5_listen_4",
+      "ch16_L5_listen_5",
+      "ch16_L5_listen_6",
+      "ch16_L5_listen_7"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch16_047",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "Прошлое то же: помощник в вагоне №2, что сделано — в конце. С wir помощник haben: wir haben gefeiert. Форма проста: ge, основа, t.",
+     "screen": [
+      "wir haben … gefeiert — помощник haben, что сделано — в конце",
+      "ge + основа + t: feier → gefeiert"
+     ],
+     "answer_hook": "Ответ на загадку: с wir помощник haben — wir haben Ostern gefeiert.",
+     "second": {
+      "why_id": "ch16_048",
+      "voice_ru": "jeden Tag — «ежедневно». Слово «день» отвечает на «когда» и меняется: der Tag — jeden Tag, как diesen Stern."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch16_L5_why_1",
+      "ch16_L5_why_2",
+      "ch16_L5_why_3",
+      "ch16_L5_why_4",
+      "ch16_L5_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch16_049",
+     "pieces": [
+      "Obst.",
+      "jeden Tag",
+      "esse",
+      "Ich"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch16_048",
+      "ch16_d5_08"
+     ],
+     "prompt": "Собери сам из знакомых кусков: скажи своё решение — «Я ем фрукты ежедневно.»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch16_049",
+     "transfer_task_ids": [
+      "ch16_L5_transfer_1"
+     ],
+     "task_ids": [
+      "ch16_L5_write_1",
+      "ch16_L5_write_2",
+      "ch16_L5_write_3",
+      "ch16_L5_write_4",
+      "ch16_L5_write_5",
+      "ch16_L5_read_1",
+      "ch16_L5_read_2",
+      "ch16_L5_read_3",
+      "ch16_L5_read_4",
+      "ch16_L5_read_5",
+      "ch16_L5_read_6",
+      "ch16_L5_read_7"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "Weihnachten",
+     "ipa_sym": "Silbentrennung",
+     "tip_ru": "Слово делят на слоги по гласным: Weih-nach-ten, Os-tern, Vor-satz. Сколько гласных, столько и слогов — это Silbentrennung.",
+     "bridge_ru": "По-русски так же делят на слоги: «пра-здник». В немецком каждый слог произноси чётко, без проглатывания окончания -en: Weih-nach-ten.",
+     "phrase_id": "ch16_045",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "Weihnachten",
+       "ru": "ВАЙ-нах-тэн"
+      },
+      {
+       "de": "Ostern",
+       "ru": "О:С-терн"
+      },
+      {
+       "de": "Vorsatz",
+       "ru": "ФО:Р-заць"
+      },
+      {
+       "de": "Karneval",
+       "ru": "кар-нэ-ВАЛЬ"
+      }
+     ],
+     "speak_task_ids": [
+      "ch16_L5_speak_1",
+      "ch16_L5_speak_2",
+      "ch16_L5_speak_3",
+      "ch16_L5_speak_4",
+      "ch16_L5_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Праздник на рынке",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Ольга и Макс (на «ты»)",
+     "turns": [
+      {
+       "prompt_id": "ch16_d5_03",
+       "prompt_de": "Wir feiern Weihnachten.",
+       "prompt_audio": "audio_v1/ch16_d5_03.mp3",
+       "expected_id": "ch16_d5_04",
+       "expected_de": "Und was habt ihr im April gefeiert?",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch16_d5_06",
+       "prompt_de": "Was ist dein Vorsatz?",
+       "prompt_audio": "audio_v1/ch16_d5_06.mp3",
+       "expected_id": "ch16_d5_07",
+       "expected_de": "Ich lerne jeden Tag Deutsch.",
+       "accept": [
+        {
+         "id": "ch16_049",
+         "de": "Ich esse jeden Tag Obst."
+        }
+       ],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Спроси, что празднуют в апреле. Потом назови своё решение — любое из двух (Deutsch или Obst).",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch16_045",
+     "task_ru": "Новичок спрашивает про Feste rund um die Welt: что вы делаете на Рождество? Скажи (sprechen) ему по-немецки.",
+     "expected_ru": "Мы празднуем Рождество.",
+     "hint_ru": "Wir feiern Weihnachten.",
+     "ai_checks": "понятно ли и верен ли смысл; с wir — feiern",
+     "level_note": "A1.2 — рассказать о празднике одной фразой"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch16_L5_dict_1",
+      "ch16_L5_dict_2",
+      "ch16_L5_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Проверь диктант: Weihnachten, Ostern, Tag, Deutsch — с большой буквы; в gefeiert — ei и ie: ge-fei-ert; gefeiert — одним словом, в конце."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch16_L5_transfer_2",
+      "ch16_L5_transfer_3",
+      "ch16_L5_transfer_4",
+      "ch16_L5_transfer_5",
+      "ch16_L5_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Праздник на рынке состоялся: ты сказал, что празднуешь, когда, и какое у тебя решение.",
+      "Совет на завтра: назови одно своё Vorsatz по-немецки: Ich … jeden Tag …"
+     ],
+     "npc_phrase_id": "ch16_d5_08",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: wir feiern · wir haben … gefeiert (ge + основа + t) · jeden Tag — «ежедневно» · Im Dezember feiern wir — время впереди, действие второе.",
+     "next_hook": "Дальше: Mein Deutsch nach Kapitel 16 — проверка главы: фильмы, сайты и всё, что ты прошёл.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       288,
+       289
+      ],
+      "phrases_ids": [
+       "ch16_050",
+       "ch16_051",
+       "ch16_052",
+       "ch16_053",
+       "ch16_054",
+       "ch16_055",
+       "ch16_056",
+       "ch16_057",
+       "ch16_058",
+       "ch16_059"
+      ],
+      "note": "к курсу: на стр. 288 — праздники Германии (Ostern, Oktoberfest, Karneval, Weihnachten), на стр. 289 — Gute Vorsätze: планы на год; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса: праздники и планы",
+       "phrase_id": "ch16_050",
+       "picture": "афиша праздников: ёлка, пасхальный заяц, карнавальное шествие, колесо обозрения, список решений на год",
+       "words": [
+        {
+         "de": "das Fest",
+         "ru": "праздник"
+        },
+        {
+         "de": "der Feiertag",
+         "ru": "праздничный день"
+        },
+        {
+         "de": "das Oktoberfest",
+         "ru": "Октоберфест"
+        },
+        {
+         "de": "der Karnevalsumzug",
+         "ru": "карнавальное шествие"
+        },
+        {
+         "de": "der Vorsatz",
+         "ru": "решение, намерение"
+        },
+        {
+         "de": "der Plan",
+         "ru": "план"
+        }
+       ],
+       "note": "слова страниц 288–289; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch16_L5_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch16_050",
+        "prompt": "Слова курса. Послушай. Что значит «Heiligabend»?",
+        "answer": "сочельник",
+        "distractors": [
+         "Пасха",
+         "день рождения"
+        ],
+        "src": "Linie 1, стр. 288 (Wir feiern!)"
+       },
+       {
+        "id": "ch16_L5_kurs_2",
+        "skill": "listen",
+        "phraseId": "ch16_051",
+        "prompt": "Слова курса. Послушай. Что значит «Weihnachtsbaum»?",
+        "answer": "рождественская ёлка",
+        "distractors": [
+         "пасхальный заяц",
+         "огни"
+        ],
+        "src": "Linie 1, стр. 288"
+       },
+       {
+        "id": "ch16_L5_kurs_3",
+        "skill": "listen",
+        "phraseId": "ch16_052",
+        "prompt": "Наряды. Послушай. Что значит «Lederhose»?",
+        "answer": "кожаные шорты",
+        "distractors": [
+         "костюм",
+         "маска"
+        ],
+        "src": "Linie 1, стр. 288"
+       },
+       {
+        "id": "ch16_L5_kurs_4",
+        "skill": "listen",
+        "phraseId": "ch16_053",
+        "prompt": "Слова курса. Послушай. Что значит «Kommentar»?",
+        "answer": "комментарий",
+        "distractors": [
+         "листок",
+         "взгляд"
+        ],
+        "src": "Linie 1, стр. 288"
+       },
+       {
+        "id": "ch16_L5_kurs_5",
+        "skill": "listen",
+        "phraseId": "ch16_054",
+        "prompt": "Слова курса. Послушай. Что значит «Quatsch»?",
+        "answer": "ерунда",
+        "distractors": [
+         "музыка",
+         "магазин"
+        ],
+        "src": "Linie 1, стр. 288"
+       },
+       {
+        "id": "ch16_L5_kurs_6",
+        "skill": "listen",
+        "phraseId": "ch16_055",
+        "prompt": "Профессии. Послушай. Что значит «Krankenschwester»?",
+        "answer": "медсестра",
+        "distractors": [
+         "воспитательница",
+         "программист"
+        ],
+        "src": "Linie 1, стр. 289 (Gute Vorsätze)"
+       },
+       {
+        "id": "ch16_L5_kurs_7",
+        "skill": "listen",
+        "phraseId": "ch16_056",
+        "prompt": "Учёба. Послушай. Что значит «Prüfung»?",
+        "answer": "экзамен",
+        "distractors": [
+         "доска",
+         "слово"
+        ],
+        "src": "Linie 1, стр. 289"
+       },
+       {
+        "id": "ch16_L5_kurs_8",
+        "skill": "listen",
+        "phraseId": "ch16_057",
+        "prompt": "Время. Послушай. Что значит «Wochenende»?",
+        "answer": "выходные",
+        "distractors": [
+         "неделя",
+         "год"
+        ],
+        "src": "Linie 1, стр. 289"
+       },
+       {
+        "id": "ch16_L5_kurs_9",
+        "skill": "listen",
+        "phraseId": "ch16_058",
+        "prompt": "Привычки. Послушай. Что значит «Zigaretten»?",
+        "answer": "сигареты",
+        "distractors": [
+         "шоколад",
+         "собака"
+        ],
+        "src": "Linie 1, стр. 289"
+       },
+       {
+        "id": "ch16_L5_kurs_10",
+        "skill": "listen",
+        "phraseId": "ch16_059",
+        "prompt": "Планы. Послушай. Что значит «Vorsatz»?",
+        "answer": "решение, намерение",
+        "distractors": [
+         "план",
+         "заголовок"
+        ],
+        "src": "Linie 1, стр. 289 (Gute Vorsätze)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      288,
+      289
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch16.py",
+  "new_words": [
+   "Wir feiern Weihnachten.",
+   "Im Dezember feiern wir Weihnachten.",
+   "Wir haben Ostern gefeiert.",
+   "Ich lerne jeden Tag Deutsch."
+  ],
+  "known_before": [
+   "Ich lerne Deutsch.",
+   "Ich esse Obst.",
+   "Wann …?",
+   "im Kurs",
+   "wir"
+  ],
+  "transfer_phrase_ids": [
+   "ch16_t10",
+   "ch16_t11",
+   "ch16_t12"
+  ],
+  "built_phrase_ids": [
+   "ch16_049"
+  ],
+  "quiz_ids": [
+   "ch16_L5_words_1",
+   "ch16_L5_words_2",
+   "ch16_L5_words_3",
+   "ch16_L5_words_4",
+   "ch16_L5_words_5",
+   "ch16_L5_listen_1",
+   "ch16_L5_listen_2",
+   "ch16_L5_listen_3",
+   "ch16_L5_listen_4",
+   "ch16_L5_listen_5",
+   "ch16_L5_listen_6",
+   "ch16_L5_listen_7",
+   "ch16_L5_read_1",
+   "ch16_L5_read_2",
+   "ch16_L5_read_3",
+   "ch16_L5_read_4",
+   "ch16_L5_read_5",
+   "ch16_L5_read_6",
+   "ch16_L5_read_7",
+   "ch16_L5_speak_1",
+   "ch16_L5_speak_2",
+   "ch16_L5_speak_3",
+   "ch16_L5_speak_4",
+   "ch16_L5_speak_5",
+   "ch16_L5_write_1",
+   "ch16_L5_write_2",
+   "ch16_L5_write_3",
+   "ch16_L5_write_4",
+   "ch16_L5_write_5",
+   "ch16_L5_why_1",
+   "ch16_L5_why_2",
+   "ch16_L5_why_3",
+   "ch16_L5_why_4",
+   "ch16_L5_why_5",
+   "ch16_L5_transfer_1",
+   "ch16_L5_transfer_2",
+   "ch16_L5_transfer_3",
+   "ch16_L5_transfer_4",
+   "ch16_L5_transfer_5",
+   "ch16_L5_boss_1"
+  ],
+  "dictation_ids": [
+   "ch16_L5_dict_1",
+   "ch16_L5_dict_2",
+   "ch16_L5_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "На рынке праздник: ёлка, огни, Ольга и Макс. Все говорят о праздниках и о хороших решениях — Gute Vorsätze и Pläne на год. Цель: сказать, что и когда вы празднуете, что праздновали и какое у тебя решение. Загадка урока: «мы» — wir. А помощник в прошлом уже не habe. Какой?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Праздник на рынке",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой рассказывает Ольге и Максу, какие праздники он празднует и что решил на год (ИИ — Ольга и Макс)",
+   "situation": "fest_vorsaetze",
+   "ai_plays": "Ольга и Макс (на «ты»)",
+   "phrases": [
+    "ch16_d5_04",
+    "ch16_d5_07",
+    "ch16_049"
+   ]
+  },
+  "outro": "Праздник на рынке состоялся: ты сказал, что празднуешь, когда, и какое у тебя решение. Совет на завтра: назови одно своё Vorsatz по-немецки: Ich … jeden Tag … Дальше: Mein Deutsch nach Kapitel 16 — проверка главы: фильмы, сайты и всё, что ты прошёл.",
+  "detail_de_life": "Как в Linie 1 (стр. 288): праздники Германии — Ostern, Oktoberfest, Karneval, Weihnachten. Heiligabend — вечер 24 декабря, накануне Рождества.",
+  "detail_de_life_source": "Linie 1 A1, стр. 288 (Wir feiern!)",
+  "task_ids": {
+   "words": [
+    "ch16_L5_words_1",
+    "ch16_L5_words_2",
+    "ch16_L5_words_3",
+    "ch16_L5_words_4",
+    "ch16_L5_words_5"
+   ],
+   "listen": [
+    "ch16_L5_listen_1",
+    "ch16_L5_listen_2",
+    "ch16_L5_listen_3",
+    "ch16_L5_listen_4",
+    "ch16_L5_listen_5",
+    "ch16_L5_listen_6",
+    "ch16_L5_listen_7"
+   ],
+   "read": [
+    "ch16_L5_read_1",
+    "ch16_L5_read_2",
+    "ch16_L5_read_3",
+    "ch16_L5_read_4",
+    "ch16_L5_read_5",
+    "ch16_L5_read_6",
+    "ch16_L5_read_7"
+   ],
+   "speak": [
+    "ch16_L5_speak_1",
+    "ch16_L5_speak_2",
+    "ch16_L5_speak_3",
+    "ch16_L5_speak_4",
+    "ch16_L5_speak_5"
+   ],
+   "write": [
+    "ch16_L5_write_1",
+    "ch16_L5_write_2",
+    "ch16_L5_write_3",
+    "ch16_L5_write_4",
+    "ch16_L5_write_5"
+   ],
+   "why": [
+    "ch16_L5_why_1",
+    "ch16_L5_why_2",
+    "ch16_L5_why_3",
+    "ch16_L5_why_4",
+    "ch16_L5_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch16_L5_transfer_1",
+   "ch16_L5_transfer_2",
+   "ch16_L5_transfer_3",
+   "ch16_L5_transfer_4",
+   "ch16_L5_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch16_034",
+   "ch16_035",
+   "ch16_037"
+  ],
+  "dialog_ids": [
+   "ch16_d5"
+  ],
+  "video": "video/ch16_L5.mp4"
+ },
+ {
+  "id": "ch16_L6",
+  "title": "Mein Deutsch nach Kapitel 16: проверка главы и Filme und Webseiten",
+  "pages_linie1": {
+   "pages": [
+    296,
+    297
+   ],
+   "sections": [
+    "Mein Deutsch nach Kapitel 16",
+    "Leichter lernen"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch16_060",
+   "ch16_061",
+   "ch16_062",
+   "ch16_063",
+   "ch16_064"
+  ],
+  "why_ids": [
+   "ch16_060",
+   "ch16_062"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch16_d6",
+    "line_ids": [
+     "ch16_d6_01",
+     "ch16_d6_02",
+     "ch16_d6_03",
+     "ch16_d6_04",
+     "ch16_d6_05",
+     "ch16_d6_06"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Ты праздновал и ставил себе решения. Что ты сказал?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch16_d6",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch16_d6_01",
+        "ch16_d6_02",
+        "ch16_d6_03",
+        "ch16_d6_04"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch16_d6",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Untertitel, Fahrrad, Karneval — повтори с ударением",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch16_060",
+        "ch16_061",
+        "ch16_062",
+        "ch16_063"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Untertitel, Fahrrad, Karneval — повтори с ударением — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "мост: «видел фильм» ↔ habe … gesehen, без терминов, кроме названия рубрики",
+   "как слышу, так и пишу": "ударение в длинных словах (часть 7); gesehen, gelesen — одним словом (часть 10)",
+   "учебник непонятен": "из Linie 1 — темы и страницы 296–297; подача своя",
+   "село, живой немецкий — Netto": "на рынке во Фрайберге — афиша, фильм у прилавка; субтитры — лёгкий путь",
+   "любит аниме": "завязка — журнал навыков героя в конце арки; отрезки аниме — позже",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин, лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Ich habe Deutsch gelernt.; перенос — Hast du Untertitel gelesen?, Olga hat einen Film gesehen., Wo hast du Untertitel gelesen?",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    296,
+    297,
+    332
+   ],
+   "phrases_ids": [
+    "ch16_066",
+    "ch16_067",
+    "ch16_068",
+    "ch16_069",
+    "ch16_070",
+    "ch16_071"
+   ],
+   "note": "к курсу: слова страниц 296–297 и 332 (Filme und Webseiten, Wortliste Kapitel 16) — узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса: фильмы, сайты и повторение",
+    "phrase_id": "ch16_066",
+    "picture": "афиша кино, экран телефона с приложением, открытка с пожеланием",
+    "words": [
+     {
+      "de": "der Film",
+      "ru": "фильм"
+     },
+     {
+      "de": "die Serie",
+      "ru": "сериал"
+     },
+     {
+      "de": "die Internetseite",
+      "ru": "интернет-страница"
+     },
+     {
+      "de": "der Untertitel",
+      "ru": "субтитры"
+     },
+     {
+      "de": "die Sprache",
+      "ru": "язык"
+     },
+     {
+      "de": "die App",
+      "ru": "приложение"
+     }
+    ],
+    "note": "слова страниц 296–297; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch16_L6_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch16_066",
+     "prompt": "Слова курса. Послушай. Что значит «Internetseite»?",
+     "answer": "интернет-страница",
+     "distractors": [
+      "приложение",
+      "передача"
+     ],
+     "src": "Linie 1, стр. 296"
+    },
+    {
+     "id": "ch16_L6_kurs_2",
+     "skill": "listen",
+     "phraseId": "ch16_067",
+     "prompt": "Слова курса. Послушай. Что значит «Untertitel»?",
+     "answer": "субтитры",
+     "distractors": [
+      "сериал",
+      "язык"
+     ],
+     "src": "Linie 1, стр. 296"
+    },
+    {
+     "id": "ch16_L6_kurs_3",
+     "skill": "listen",
+     "phraseId": "ch16_068",
+     "prompt": "Слова курса. Послушай. Что значит «Nachbarin»?",
+     "answer": "соседка",
+     "distractors": [
+      "коллеги",
+      "гость"
+     ],
+     "src": "Linie 1, стр. 297"
+    },
+    {
+     "id": "ch16_L6_kurs_4",
+     "skill": "listen",
+     "phraseId": "ch16_069",
+     "prompt": "Слова курса. Послушай. Что значит «hässlich»?",
+     "answer": "некрасивый",
+     "distractors": [
+      "старомодный",
+      "типичный"
+     ],
+     "src": "Linie 1, стр. 332"
+    },
+    {
+     "id": "ch16_L6_kurs_5",
+     "skill": "listen",
+     "phraseId": "ch16_070",
+     "prompt": "Слова курса. Послушай. Что значит «braten»?",
+     "answer": "жарить",
+     "distractors": [
+      "строить",
+      "тратить"
+     ],
+     "src": "Linie 1, стр. 332"
+    },
+    {
+     "id": "ch16_L6_kurs_6",
+     "skill": "listen",
+     "phraseId": "ch16_071",
+     "prompt": "Слова курса. Послушай. Что значит «oben»?",
+     "answer": "наверху",
+     "distractors": [
+      "внизу",
+      "справа"
+     ],
+     "src": "Linie 1, стр. 332"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Рынок: вечер, на экране у прилавка идёт фильм с субтитрами — проверка главы",
+   "npc": "Olga и Max — одногруппники (на «ты»)"
+  },
+  "covers": [
+   "L1-16-REVIEW",
+   "L1-16-LERNEN"
+  ],
+  "covers_note": {
+   "L1-16-REVIEW": "Mein Deutsch nach Kapitel 16: проверка главы и повторение — Ich habe einen Film gesehen., Hast du Deutsch gelernt? (части 3–6, 8); слова страниц 296–297 и 332 — «к курсу»",
+   "L1-16-LERNEN": "Leichter lernen: Deutsch verstehen mit Filmen und Webseiten — Untertitel лесенкой: смотри фильм с субтитрами, читай Internetseite (части 1, 3, 12)"
+  },
+  "goal": "После урока сможешь: сказать, что ты видел фильм, читал субтитры и учил немецкий (Ich habe einen Film gesehen.), спросить об этом и сказать, что фильм тебе нравится. Это проверка главы и повторение; Leichter lernen: Deutsch verstehen mit Filmen und Webseiten.",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "На рынке вечер: у прилавка идёт фильм с субтитрами. Ольга и Макс проверяют, что ты уже умеешь после главы 16.",
+      "Цель: проверка главы — сказать, что видел фильм, читал субтитры, учил немецкий. Leichter lernen: Filme und Webseiten помогают понимать по-немецки."
+     ],
+     "voice_ru": "В учебнике на страницах 296 и 297 — проверка главы. Ты скажешь, что видел фильм, читал субтитры и учил немецкий, и что фильм тебе нравится.",
+     "hook": "Загадка урока: «фильм» — der Film. А в роли «что видят» он уже не der. Какой?",
+     "anime_motif": "исекай: герой в конце арки сверяет свой журнал навыков с гильдией (без цитат)",
+     "npc": "Olga и Max — одногруппники",
+     "more": "Ольга и Макс проверят тебя. Ты расскажешь, что уже умеешь.",
+     "goal": "После урока сможешь: сказать, что ты видел фильм, читал субтитры и учил немецкий (Ich habe einen Film gesehen.), спросить об этом и сказать, что фильм тебе нравится. Это проверка главы и повторение; Leichter lernen: Deutsch verstehen mit Filmen und Webseiten."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch16_045",
+      "ch16_047",
+      "ch16_048"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Ты праздновал и ставил себе решения. Что ты сказал?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch16_045",
+      "ch16_047",
+      "ch16_048"
+     ],
+     "type": "retrieval: вопрос, не перечитывание",
+     "note": "фразы урока 5 (Wir feiern Weihnachten., Wir haben Ostern gefeiert., Ich lerne jeden Tag Deutsch.)"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch16_060",
+      "ch16_061",
+      "ch16_062",
+      "ch16_063",
+      "ch16_064"
+     ],
+     "words": [
+      "Ich habe einen Film gesehen.",
+      "Hast du einen Film gesehen?",
+      "Der Film gefällt mir.",
+      "Ich habe Untertitel gelesen.",
+      "Hast du Deutsch gelernt?"
+     ],
+     "words_ru": {
+      "Ich habe einen Film gesehen.": "Я видел фильм.",
+      "Hast du einen Film gesehen?": "Ты видел фильм?",
+      "Der Film gefällt mir.": "Фильм мне нравится.",
+      "Ich habe Untertitel gelesen.": "Я читал субтитры.",
+      "Hast du Deutsch gelernt?": "Ты учил немецкий?"
+     },
+     "trap": "По-русски «фильм» везде одинаковый. По-немецки после habe он меняется: der Film — einen Film.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch16_L6_words_1",
+      "ch16_L6_words_2",
+      "ch16_L6_words_3",
+      "ch16_L6_words_4",
+      "ch16_L6_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch16_d6",
+     "line_ids": [
+      "ch16_d6_01",
+      "ch16_d6_02",
+      "ch16_d6_03",
+      "ch16_d6_04",
+      "ch16_d6_05",
+      "ch16_d6_06"
+     ],
+     "halves": [
+      [
+       "ch16_d6_01",
+       "ch16_d6_02",
+       "ch16_d6_03"
+      ],
+      [
+       "ch16_d6_04",
+       "ch16_d6_05",
+       "ch16_d6_06"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "Как в Linie 1 (стр. 296–297): проверка главы — Das kann ich. Das kenne ich. Фильмы и Internetseiten с субтитрами — лёгкий путь понимать немецкий.",
+     "life_source": "Linie 1 A1, стр. 296–297 (Mein Deutsch nach Kapitel 16)",
+     "task_ids": [
+      "ch16_L6_listen_1",
+      "ch16_L6_listen_2",
+      "ch16_L6_listen_3",
+      "ch16_L6_listen_4",
+      "ch16_L6_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch16_060",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "Прошлое: помощник haben, что сделано — в конце. Фильм после habe — то, что видят: der Film меняется на einen Film, как ein на einen.",
+     "screen": [
+      "ich habe einen Film gesehen — помощник habe, что сделано — в конце",
+      "der Film → einen Film: то, что видят, меняется, как ein → einen"
+     ],
+     "answer_hook": "Ответ на загадку: после habe — einen Film, не der Film.",
+     "second": {
+      "why_id": "ch16_062",
+      "voice_ru": "Der Film gefällt mir — фильм впереди, «мне» после. Как dieser Nussknacker gefällt mir."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch16_L6_why_1",
+      "ch16_L6_why_2",
+      "ch16_L6_why_3",
+      "ch16_L6_why_4",
+      "ch16_L6_why_5"
+     ],
+     "no_story": true,
+     "examples_button": {
+      "label": "Ещё примеры",
+      "why_ids": [
+       "ch16_062"
+      ]
+     }
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch16_065",
+     "pieces": [
+      "gelernt.",
+      "Deutsch",
+      "habe",
+      "Ich"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch16_064",
+      "ch16_d6_06"
+     ],
+     "prompt": "Собери сам из знакомых кусков: скажи — «Я учил немецкий.»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch16_065",
+     "transfer_task_ids": [
+      "ch16_L6_transfer_1"
+     ],
+     "task_ids": [
+      "ch16_L6_write_1",
+      "ch16_L6_write_2",
+      "ch16_L6_write_3",
+      "ch16_L6_write_4",
+      "ch16_L6_write_5",
+      "ch16_L6_read_1",
+      "ch16_L6_read_2",
+      "ch16_L6_read_3",
+      "ch16_L6_read_4",
+      "ch16_L6_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "Untertitel",
+     "ipa_sym": "Ударение",
+     "tip_ru": "В длинных словах ударение чаще на первом слоге: UN-ter-ti-tel, FAHR-rad. Исключение — Karneval: ударение на последнем слоге, kar-ne-VAL. Слушай и повторяй.",
+     "bridge_ru": "По-русски ударение может прыгать. В немецком составные слова чаще держат ударение на первой части: UN-ter-ti-tel.",
+     "phrase_id": "ch16_063",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "Untertitel",
+       "ru": "УН-тер-ти-тэль"
+      },
+      {
+       "de": "Fahrrad",
+       "ru": "ФА:Р-рат"
+      },
+      {
+       "de": "Karneval",
+       "ru": "кар-нэ-ВАЛЬ"
+      }
+     ],
+     "speak_task_ids": [
+      "ch16_L6_speak_1",
+      "ch16_L6_speak_2",
+      "ch16_L6_speak_3",
+      "ch16_L6_speak_4",
+      "ch16_L6_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Проверка главы на рынке",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Ольга и Макс (на «ты»)",
+     "turns": [
+      {
+       "prompt_id": "ch16_d6_01",
+       "prompt_de": "Hast du einen Film gesehen?",
+       "prompt_audio": "audio_v1/ch16_d6_01.mp3",
+       "expected_id": "ch16_d6_02",
+       "expected_de": "Ich habe einen Film gesehen.",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch16_d6_05",
+       "prompt_de": "Hast du Deutsch gelernt?",
+       "prompt_audio": "audio_v1/ch16_d6_05.mp3",
+       "expected_id": "ch16_d6_06",
+       "expected_de": "Ich habe Deutsch gelernt.",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Ответь на вопросы Ольги: фильм и немецкий. Говори целой фразой.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch16_060",
+     "task_ru": "Друг спрашивает, смотрел ли ты фильм с субтитрами. Скажи (sprechen) по-немецки, что видел фильм.",
+     "expected_ru": "Я видел фильм.",
+     "hint_ru": "Ich habe einen Film gesehen.",
+     "ai_checks": "понятно ли и верен ли смысл; после habe — einen Film",
+     "level_note": "A1.2 — рассказать, что видел"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch16_L6_dict_1",
+      "ch16_L6_dict_2",
+      "ch16_L6_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Проверь диктант: Film, Untertitel, Deutsch — с большой буквы; gesehen, gelesen, gelernt — одним словом, в конце фразы."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch16_L6_transfer_2",
+      "ch16_L6_transfer_3",
+      "ch16_L6_transfer_4",
+      "ch16_L6_transfer_5",
+      "ch16_L6_transfer_6",
+      "ch16_L6_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Проверка главы 16 пройдена: ты сказал, что видел фильм, читал субтитры и учил немецкий.",
+      "Совет на завтра: посмотри один фильм с немецкими субтитрами — Leichter lernen: Filme und Webseiten."
+     ],
+     "npc_phrase_id": "ch16_d6_06",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: haben + … gesehen / gelesen / gelernt · der Film → einen Film · Der Film gefällt mir — вещь впереди · субтитры — лёгкий путь к немецкому.",
+     "next_hook": "Дальше: новая глава — новые слова и новые фразы.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       296,
+       297,
+       332
+      ],
+      "phrases_ids": [
+       "ch16_066",
+       "ch16_067",
+       "ch16_068",
+       "ch16_069",
+       "ch16_070",
+       "ch16_071"
+      ],
+      "note": "к курсу: слова страниц 296–297 и 332 (Filme und Webseiten, Wortliste Kapitel 16) — узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса: фильмы, сайты и повторение",
+       "phrase_id": "ch16_066",
+       "picture": "афиша кино, экран телефона с приложением, открытка с пожеланием",
+       "words": [
+        {
+         "de": "der Film",
+         "ru": "фильм"
+        },
+        {
+         "de": "die Serie",
+         "ru": "сериал"
+        },
+        {
+         "de": "die Internetseite",
+         "ru": "интернет-страница"
+        },
+        {
+         "de": "der Untertitel",
+         "ru": "субтитры"
+        },
+        {
+         "de": "die Sprache",
+         "ru": "язык"
+        },
+        {
+         "de": "die App",
+         "ru": "приложение"
+        }
+       ],
+       "note": "слова страниц 296–297; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch16_L6_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch16_066",
+        "prompt": "Слова курса. Послушай. Что значит «Internetseite»?",
+        "answer": "интернет-страница",
+        "distractors": [
+         "приложение",
+         "передача"
+        ],
+        "src": "Linie 1, стр. 296"
+       },
+       {
+        "id": "ch16_L6_kurs_2",
+        "skill": "listen",
+        "phraseId": "ch16_067",
+        "prompt": "Слова курса. Послушай. Что значит «Untertitel»?",
+        "answer": "субтитры",
+        "distractors": [
+         "сериал",
+         "язык"
+        ],
+        "src": "Linie 1, стр. 296"
+       },
+       {
+        "id": "ch16_L6_kurs_3",
+        "skill": "listen",
+        "phraseId": "ch16_068",
+        "prompt": "Слова курса. Послушай. Что значит «Nachbarin»?",
+        "answer": "соседка",
+        "distractors": [
+         "коллеги",
+         "гость"
+        ],
+        "src": "Linie 1, стр. 297"
+       },
+       {
+        "id": "ch16_L6_kurs_4",
+        "skill": "listen",
+        "phraseId": "ch16_069",
+        "prompt": "Слова курса. Послушай. Что значит «hässlich»?",
+        "answer": "некрасивый",
+        "distractors": [
+         "старомодный",
+         "типичный"
+        ],
+        "src": "Linie 1, стр. 332"
+       },
+       {
+        "id": "ch16_L6_kurs_5",
+        "skill": "listen",
+        "phraseId": "ch16_070",
+        "prompt": "Слова курса. Послушай. Что значит «braten»?",
+        "answer": "жарить",
+        "distractors": [
+         "строить",
+         "тратить"
+        ],
+        "src": "Linie 1, стр. 332"
+       },
+       {
+        "id": "ch16_L6_kurs_6",
+        "skill": "listen",
+        "phraseId": "ch16_071",
+        "prompt": "Слова курса. Послушай. Что значит «oben»?",
+        "answer": "наверху",
+        "distractors": [
+         "внизу",
+         "справа"
+        ],
+        "src": "Linie 1, стр. 332"
+       }
+      ]
+     },
+     "kurs_pages": [
+      296,
+      297,
+      332
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch16.py",
+  "new_words": [
+   "Ich habe einen Film gesehen.",
+   "Hast du einen Film gesehen?",
+   "Der Film gefällt mir.",
+   "Ich habe Untertitel gelesen.",
+   "Hast du Deutsch gelernt?"
+  ],
+  "known_before": [
+   "Ich habe Deutsch gelernt.",
+   "Wir haben Ostern gefeiert.",
+   "Der Nussknacker gefällt mir.",
+   "Ich habe alles gelesen.",
+   "Hast du etwas gefunden?"
+  ],
+  "transfer_phrase_ids": [
+   "ch16_t13",
+   "ch16_t14",
+   "ch16_t15"
+  ],
+  "built_phrase_ids": [
+   "ch16_065"
+  ],
+  "quiz_ids": [
+   "ch16_L6_words_1",
+   "ch16_L6_words_2",
+   "ch16_L6_words_3",
+   "ch16_L6_words_4",
+   "ch16_L6_words_5",
+   "ch16_L6_listen_1",
+   "ch16_L6_listen_2",
+   "ch16_L6_listen_3",
+   "ch16_L6_listen_4",
+   "ch16_L6_listen_5",
+   "ch16_L6_read_1",
+   "ch16_L6_read_2",
+   "ch16_L6_read_3",
+   "ch16_L6_read_4",
+   "ch16_L6_read_5",
+   "ch16_L6_speak_1",
+   "ch16_L6_speak_2",
+   "ch16_L6_speak_3",
+   "ch16_L6_speak_4",
+   "ch16_L6_speak_5",
+   "ch16_L6_write_1",
+   "ch16_L6_write_2",
+   "ch16_L6_write_3",
+   "ch16_L6_write_4",
+   "ch16_L6_write_5",
+   "ch16_L6_why_1",
+   "ch16_L6_why_2",
+   "ch16_L6_why_3",
+   "ch16_L6_why_4",
+   "ch16_L6_why_5",
+   "ch16_L6_transfer_1",
+   "ch16_L6_transfer_2",
+   "ch16_L6_transfer_3",
+   "ch16_L6_transfer_4",
+   "ch16_L6_transfer_5",
+   "ch16_L6_transfer_6",
+   "ch16_L6_boss_1"
+  ],
+  "dictation_ids": [
+   "ch16_L6_dict_1",
+   "ch16_L6_dict_2",
+   "ch16_L6_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "На рынке вечер: у прилавка идёт фильм с субтитрами. Ольга и Макс проверяют, что ты уже умеешь после главы 16. Цель: проверка главы — сказать, что видел фильм, читал субтитры, учил немецкий. Leichter lernen: Filme und Webseiten помогают понимать по-немецки. Загадка урока: «фильм» — der Film. А в роли «что видят» он уже не der. Какой?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Проверка главы на рынке",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой рассказывает Ольге и Максу, какой фильм видел и что учил (ИИ — Ольга и Макс)",
+   "situation": "mein_deutsch_k16",
+   "ai_plays": "Ольга и Макс (на «ты»)",
+   "phrases": [
+    "ch16_d6_02",
+    "ch16_d6_06"
+   ]
+  },
+  "outro": "Проверка главы 16 пройдена: ты сказал, что видел фильм, читал субтитры и учил немецкий. Совет на завтра: посмотри один фильм с немецкими субтитрами — Leichter lernen: Filme und Webseiten. Дальше: новая глава — новые слова и новые фразы.",
+  "detail_de_life": "Как в Linie 1 (стр. 296–297): проверка главы — Das kann ich. Das kenne ich. Фильмы и Internetseiten с субтитрами — лёгкий путь понимать немецкий.",
+  "detail_de_life_source": "Linie 1 A1, стр. 296–297 (Mein Deutsch nach Kapitel 16)",
+  "task_ids": {
+   "words": [
+    "ch16_L6_words_1",
+    "ch16_L6_words_2",
+    "ch16_L6_words_3",
+    "ch16_L6_words_4",
+    "ch16_L6_words_5"
+   ],
+   "listen": [
+    "ch16_L6_listen_1",
+    "ch16_L6_listen_2",
+    "ch16_L6_listen_3",
+    "ch16_L6_listen_4",
+    "ch16_L6_listen_5"
+   ],
+   "read": [
+    "ch16_L6_read_1",
+    "ch16_L6_read_2",
+    "ch16_L6_read_3",
+    "ch16_L6_read_4",
+    "ch16_L6_read_5"
+   ],
+   "speak": [
+    "ch16_L6_speak_1",
+    "ch16_L6_speak_2",
+    "ch16_L6_speak_3",
+    "ch16_L6_speak_4",
+    "ch16_L6_speak_5"
+   ],
+   "write": [
+    "ch16_L6_write_1",
+    "ch16_L6_write_2",
+    "ch16_L6_write_3",
+    "ch16_L6_write_4",
+    "ch16_L6_write_5"
+   ],
+   "why": [
+    "ch16_L6_why_1",
+    "ch16_L6_why_2",
+    "ch16_L6_why_3",
+    "ch16_L6_why_4",
+    "ch16_L6_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch16_L6_transfer_1",
+   "ch16_L6_transfer_2",
+   "ch16_L6_transfer_3",
+   "ch16_L6_transfer_4",
+   "ch16_L6_transfer_5",
+   "ch16_L6_transfer_6"
+  ],
+  "warmup_ids": [
+   "ch16_045",
+   "ch16_047",
+   "ch16_048"
+  ],
+  "dialog_ids": [
+   "ch16_d6"
+  ],
+  "video": "video/ch16_L6.mp4"
+ }
+]

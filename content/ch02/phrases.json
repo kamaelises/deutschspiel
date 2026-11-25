@@ -1,0 +1,6925 @@
+[
+ {
+  "id": "ch02_001",
+  "de": "Wie ist deine Handynummer?",
+  "ru": "Какой у тебя номер мобильного?",
+  "nouns": [
+   {
+    "lemma": "Handynummer",
+    "art": "die",
+    "pl": "Handynummern"
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#8898482 CC BY 2.0 FR (автор mramosch)",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Wie",
+     "role": "вопрос-слово",
+     "asks": ""
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "deine Handynummer",
+     "role": "кто"
+    }
+   ],
+   "text": "На «ты»: deine — «твой». die Handynummer — die-слово, поэтому deine с -e, как meine Hausnummer. На «вы» — Ihre.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Wie — вагон №1, действие ist — сразу за ним, вагон №2: Wie ist deine Handynummer? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Какой у тебя номер мобильного» можно сказать и в другом порядке. По-немецки порядок один: Wie · ist · deine Handynummer. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Wie deine Handynummer ist?",
+    "ru": "deine Handynummer встал перед ist — действие ушло из вагона №2. После Wie немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": "Handynummer = Handy + Nummer (Handy — мобильный; Nummer — номер) — Wiktionary; ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "На «ты»: deine — «твой». die Handynummer — die-слово, поэтому deine с -e, как meine Hausnummer. На «вы» — Ihre.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "вопрос-слово · действие (вагон №2) · «кто»",
+    "items": [
+     {
+      "id": "ch02_008",
+      "de": "Wie ist Ihre Hausnummer?",
+      "ru": "Какой у вас номер дома?",
+      "audio": "audio_v4/ch02_008.mp3",
+      "lesson": "L1",
+      "part": 2,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "deine Handynummer",
+       "to": "Ihre Hausnummer"
+      }
+     },
+     {
+      "id": "ch02_003",
+      "de": "Wie ist Ihre Handynummer?",
+      "ru": "Какой у вас номер мобильного?",
+      "audio": "audio_v4/ch02_003.mp3",
+      "lesson": "L1",
+      "part": 3,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "deine Handynummer",
+       "to": "Ihre Handynummer"
+      }
+     },
+     {
+      "id": "ch02_004",
+      "de": "Wie ist deine E-Mail-Adresse?",
+      "ru": "Какой у тебя e-mail?",
+      "audio": "audio_v4/ch02_004.mp3",
+      "lesson": "L1",
+      "part": 3,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "deine Handynummer",
+       "to": "deine E-Mail-Adresse"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Wie · ist. В каждом примере меняется один вагон — «кто»: deine Handynummer → Ihre Hausnummer → Ihre Handynummer → deine E-Mail-Adresse. Действие ist всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v4/ch02_001.mp3",
+  "tts": "Wie ist deine Handynummer?",
+  "ipa": [
+   {
+    "w": "Wie",
+    "ipa": "[viː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "deine",
+    "ipa": "[ˈdaɪ̯nə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Handynummer",
+    "ipa": "[ˈhɛndiˌnʊmɐ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_002",
+  "de": "Meine Handynummer ist null, eins, sieben, eins, drei, neun, zwei, null, null, null, eins.",
+  "ru": "Мой номер мобильного — 0171 39200 01.",
+  "nouns": [
+   {
+    "lemma": "Handynummer",
+    "art": "die",
+    "pl": "Handynummern"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Meine Handynummer",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "null",
+     "role": "число"
+    },
+    {
+     "w": "eins",
+     "role": "число"
+    },
+    {
+     "w": "sieben",
+     "role": "число"
+    },
+    {
+     "w": "eins",
+     "role": "число"
+    },
+    {
+     "w": "drei",
+     "role": "число"
+    },
+    {
+     "w": "neun",
+     "role": "число"
+    },
+    {
+     "w": "zwei",
+     "role": "число"
+    },
+    {
+     "w": "null",
+     "role": "число"
+    },
+    {
+     "w": "null",
+     "role": "число"
+    },
+    {
+     "w": "null",
+     "role": "число"
+    },
+    {
+     "w": "eins",
+     "role": "число"
+    }
+   ],
+   "text": "ist как знак «=»: meine Handynummer = номер. Номер диктуют по цифрам, между группами — пауза.",
+   "topic": "verb2",
+   "why_de": "Meine Handynummer · ist · null · eins · sieben · eins · drei · neun · zwei · null · null · null · eins: действие ist — вагон №2, опора всего предложения.",
+   "why_ru": "По-русски «Мой номер мобильного — 0171 39200 01» — без действия «есть». По-немецки без ist фразы нет: Meine Handynummer ist null, eins, sieben, eins, drei, neun, zwei, null, null, null, eins.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Meine Handynummer null, eins, sieben, eins, drei, neun, zwei, null, null, null, eins.",
+    "ru": "Русская привычка — без действия, как «Мой номер мобильного — 0171 39200 01». Без ist немец слышит обрывок, а не фразу."
+   },
+   "root": "Handynummer = Handy + Nummer (Handy — мобильный; Nummer — номер) — Wiktionary; ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "ist как знак «=»: meine Handynummer = номер. Номер диктуют по цифрам, между группами — пауза."
+  },
+  "audio": "audio_v4/ch02_002.mp3",
+  "tts": "Meine Handynummer ist: null, eins, sieben, eins, drei, neun, zwei, null, null, null, eins.",
+  "ipa": [
+   {
+    "w": "Meine",
+    "ipa": "[ˈmaɪ̯nə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Handynummer",
+    "ipa": "[ˈhɛndiˌnʊmɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "null",
+    "ipa": "[nʊl]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "eins",
+    "ipa": "[aɪ̯ns]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "sieben",
+    "ipa": "[ˈziːbn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "eins",
+    "ipa": "[aɪ̯ns]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "drei",
+    "ipa": "[dʁaɪ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "neun",
+    "ipa": "[nɔɪ̯n]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "zwei",
+    "ipa": "[t͡svaɪ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "null",
+    "ipa": "[nʊl]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "null",
+    "ipa": "[nʊl]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "null",
+    "ipa": "[nʊl]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "eins",
+    "ipa": "[aɪ̯ns]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "fail: озвучка устарела (текст изменился)",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_003",
+  "de": "Wie ist Ihre Handynummer?",
+  "ru": "Какой у вас номер мобильного?",
+  "nouns": [
+   {
+    "lemma": "Handynummer",
+    "art": "die",
+    "pl": "Handynummern"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Wie",
+     "role": "вопрос-слово",
+     "asks": ""
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "Ihre Handynummer",
+     "role": "кто"
+    }
+   ],
+   "text": "На «вы»: Ihre с большой буквы — «ваш». На «ты» было бы deine. Handynummer — die-слово, поэтому Ihre с -e.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Wie — вагон №1, действие ist — сразу за ним, вагон №2: Wie ist Ihre Handynummer? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Какой у вас номер мобильного» можно сказать и в другом порядке. По-немецки порядок один: Wie · ist · Ihre Handynummer. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Wie Ihre Handynummer ist?",
+    "ru": "Ihre Handynummer встал перед ist — действие ушло из вагона №2. После Wie немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": "Handynummer = Handy + Nummer (Handy — мобильный; Nummer — номер) — Wiktionary; ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "На «вы»: Ihre с большой буквы — «ваш». На «ты» было бы deine. Handynummer — die-слово, поэтому Ihre с -e.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "вопрос-слово · действие (вагон №2) · «кто»",
+    "items": [
+     {
+      "id": "ch02_008",
+      "de": "Wie ist Ihre Hausnummer?",
+      "ru": "Какой у вас номер дома?",
+      "audio": "audio_v4/ch02_008.mp3",
+      "lesson": "L1",
+      "part": 2,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "Ihre Handynummer",
+       "to": "Ihre Hausnummer"
+      }
+     },
+     {
+      "id": "ch02_001",
+      "de": "Wie ist deine Handynummer?",
+      "ru": "Какой у тебя номер мобильного?",
+      "audio": "audio_v4/ch02_001.mp3",
+      "lesson": "L1",
+      "part": 3,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "Ihre Handynummer",
+       "to": "deine Handynummer"
+      }
+     },
+     {
+      "id": "ch02_004",
+      "de": "Wie ist deine E-Mail-Adresse?",
+      "ru": "Какой у тебя e-mail?",
+      "audio": "audio_v4/ch02_004.mp3",
+      "lesson": "L1",
+      "part": 3,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "Ihre Handynummer",
+       "to": "deine E-Mail-Adresse"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Wie · ist. В каждом примере меняется один вагон — «кто»: Ihre Handynummer → Ihre Hausnummer → deine Handynummer → deine E-Mail-Adresse. Действие ist всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v4/ch02_003.mp3",
+  "tts": "Wie ist Ihre Handynummer?",
+  "ipa": [
+   {
+    "w": "Wie",
+    "ipa": "[viː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Ihre",
+    "ipa": "[ˈiːʁə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Handynummer",
+    "ipa": "[ˈhɛndiˌnʊmɐ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_004",
+  "de": "Wie ist deine E-Mail-Adresse?",
+  "ru": "Какой у тебя e-mail?",
+  "nouns": [
+   {
+    "lemma": "E-Mail-Adresse",
+    "art": "die",
+    "pl": "E-Mail-Adressen"
+   },
+   {
+    "lemma": "Mail",
+    "art": "die",
+    "pl": "Mails"
+   },
+   {
+    "lemma": "Adresse",
+    "art": "die",
+    "pl": "Adressen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Wie",
+     "role": "вопрос-слово",
+     "asks": ""
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "deine E-Mail-Adresse",
+     "role": "кто"
+    }
+   ],
+   "text": "Длинное слово: E-Mail + Adresse. Артикль — по последней части: die Adresse → die E-Mail-Adresse → deine.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Wie — вагон №1, действие ist — сразу за ним, вагон №2: Wie ist deine E-Mail-Adresse? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Какой у тебя e-mail» можно сказать и в другом порядке. По-немецки порядок один: Wie · ist · deine E-Mail-Adresse. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Wie deine E-Mail-Adresse ist?",
+    "ru": "deine E-Mail-Adresse встал перед ist — действие ушло из вагона №2. После Wie немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": "E-Mail-Adresse = E-Mail + Adresse (Adresse — адрес) — Wiktionary; ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "Длинное слово: E-Mail + Adresse. Артикль — по последней части: die Adresse → die E-Mail-Adresse → deine.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "вопрос-слово · действие (вагон №2) · «кто»",
+    "items": [
+     {
+      "id": "ch02_008",
+      "de": "Wie ist Ihre Hausnummer?",
+      "ru": "Какой у вас номер дома?",
+      "audio": "audio_v4/ch02_008.mp3",
+      "lesson": "L1",
+      "part": 2,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "deine E-Mail-Adresse",
+       "to": "Ihre Hausnummer"
+      }
+     },
+     {
+      "id": "ch02_001",
+      "de": "Wie ist deine Handynummer?",
+      "ru": "Какой у тебя номер мобильного?",
+      "audio": "audio_v4/ch02_001.mp3",
+      "lesson": "L1",
+      "part": 3,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "deine E-Mail-Adresse",
+       "to": "deine Handynummer"
+      }
+     },
+     {
+      "id": "ch02_003",
+      "de": "Wie ist Ihre Handynummer?",
+      "ru": "Какой у вас номер мобильного?",
+      "audio": "audio_v4/ch02_003.mp3",
+      "lesson": "L1",
+      "part": 3,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "deine E-Mail-Adresse",
+       "to": "Ihre Handynummer"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Wie · ist. В каждом примере меняется один вагон — «кто»: deine E-Mail-Adresse → Ihre Hausnummer → deine Handynummer → Ihre Handynummer. Действие ist всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v4/ch02_004.mp3",
+  "tts": "Wie ist deine E-Mail-Adresse?",
+  "ipa": [
+   {
+    "w": "Wie",
+    "ipa": "[viː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "deine",
+    "ipa": "[ˈdaɪ̯nə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "E-Mail-Adresse",
+    "ipa": "[ˈiːmeɪ̯lʔaˌdʁɛsə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_005",
+  "de": "Meine E-Mail-Adresse ist Olga.Petrenko@web.de.",
+  "ru": "Мой e-mail — Olga.Petrenko@web.de (читается «Ольга пункт Петренко эт веб пункт дэ-э»).",
+  "nouns": [
+   {
+    "lemma": "E-Mail-Adresse",
+    "art": "die",
+    "pl": "E-Mail-Adressen"
+   },
+   {
+    "lemma": "Mail",
+    "art": "die",
+    "pl": "Mails"
+   },
+   {
+    "lemma": "Adresse",
+    "art": "die",
+    "pl": "Adressen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Meine E-Mail-Adresse",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "Olga.Petrenko@web.de",
+     "role": "кто"
+    }
+   ],
+   "text": "ist как знак «=»: meine E-Mail-Adresse = адрес. Адрес читают по знакам: точка — Punkt, @ — «эт», de — по буквам.",
+   "topic": "verb2",
+   "why_de": "ist работает как знак «=»: meine E-Mail-Adresse = Olga.Petrenko@web.de. Действие держит вагон №2.",
+   "why_ru": "По-русски «Мой e-mail — Olga.Petrenko@web.de (читается «Ольга пункт Петренко эт веб пункт дэ-э»)» — без «есть». По-немецки без ist нельзя: Meine E-Mail-Adresse ist Olga.Petrenko@web.de.",
+   "layer": "eq",
+   "why_not": {
+    "wrong": "Meine E-Mail-Adresse Olga.Petrenko@web.de.",
+    "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+   },
+   "root": "E-Mail-Adresse = E-Mail + Adresse (Adresse — адрес) — Wiktionary; ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "ist как знак «=»: meine E-Mail-Adresse = адрес. Адрес читают по знакам: точка — Punkt, @ — «эт», de — по буквам."
+  },
+  "audio": "audio_v4/ch02_005.mp3",
+  "tts": "Meine E-Mail-Adresse ist Olga Punkt Petrenko, ett, web Punkt D E.",
+  "ipa": [
+   {
+    "w": "Meine",
+    "ipa": "[ˈmaɪ̯nə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "E-Mail-Adresse",
+    "ipa": "[ˈiːmeɪ̯lʔaˌdʁɛsə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Olga",
+    "ipa": "[ˈɔlɡa]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Petrenko",
+    "ipa": null,
+    "src": "none"
+   },
+   {
+    "w": "web",
+    "ipa": "[veːp]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "de",
+    "ipa": null,
+    "src": "none"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "fail: озвучка устарела (текст изменился)",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "partial"
+ },
+ {
+  "id": "ch02_006",
+  "de": "Wie ist Ihre E-Mail-Adresse?",
+  "ru": "Какой у вас e-mail?",
+  "nouns": [
+   {
+    "lemma": "E-Mail-Adresse",
+    "art": "die",
+    "pl": "E-Mail-Adressen"
+   },
+   {
+    "lemma": "Mail",
+    "art": "die",
+    "pl": "Mails"
+   },
+   {
+    "lemma": "Adresse",
+    "art": "die",
+    "pl": "Adressen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Wie",
+     "role": "вопрос-слово",
+     "asks": ""
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "Ihre E-Mail-Adresse",
+     "role": "кто"
+    }
+   ],
+   "text": "На «вы»: Ihre. Артикль по последней части: die Adresse → Ihre E-Mail-Adresse.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Wie — вагон №1, действие ist — сразу за ним, вагон №2: Wie ist Ihre E-Mail-Adresse? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Какой у вас e-mail» можно сказать и в другом порядке. По-немецки порядок один: Wie · ist · Ihre E-Mail-Adresse. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Wie Ihre E-Mail-Adresse ist?",
+    "ru": "Ihre E-Mail-Adresse встал перед ist — действие ушло из вагона №2. После Wie немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": "E-Mail-Adresse = E-Mail + Adresse (Adresse — адрес) — Wiktionary; ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "На «вы»: Ihre. Артикль по последней части: die Adresse → Ihre E-Mail-Adresse.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "вопрос-слово · действие (вагон №2) · «кто»",
+    "items": [
+     {
+      "id": "ch02_008",
+      "de": "Wie ist Ihre Hausnummer?",
+      "ru": "Какой у вас номер дома?",
+      "audio": "audio_v4/ch02_008.mp3",
+      "lesson": "L1",
+      "part": 2,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "Ihre E-Mail-Adresse",
+       "to": "Ihre Hausnummer"
+      }
+     },
+     {
+      "id": "ch02_001",
+      "de": "Wie ist deine Handynummer?",
+      "ru": "Какой у тебя номер мобильного?",
+      "audio": "audio_v4/ch02_001.mp3",
+      "lesson": "L1",
+      "part": 3,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "Ihre E-Mail-Adresse",
+       "to": "deine Handynummer"
+      }
+     },
+     {
+      "id": "ch02_003",
+      "de": "Wie ist Ihre Handynummer?",
+      "ru": "Какой у вас номер мобильного?",
+      "audio": "audio_v4/ch02_003.mp3",
+      "lesson": "L1",
+      "part": 3,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "Ihre E-Mail-Adresse",
+       "to": "Ihre Handynummer"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Wie · ist. В каждом примере меняется один вагон — «кто»: Ihre E-Mail-Adresse → Ihre Hausnummer → deine Handynummer → Ihre Handynummer. Действие ist всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v4/ch02_006.mp3",
+  "tts": "Wie ist Ihre E-Mail-Adresse?",
+  "ipa": [
+   {
+    "w": "Wie",
+    "ipa": "[viː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Ihre",
+    "ipa": "[ˈiːʁə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "E-Mail-Adresse",
+    "ipa": "[ˈiːmeɪ̯lʔaˌdʁɛsə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_007",
+  "de": "Kontakt, Adresse, Restaurant, Tochter.",
+  "ru": "Контакт, адрес, ресторан, дочь.",
+  "nouns": [
+   {
+    "lemma": "Kontakt",
+    "art": "der",
+    "pl": "Kontakte"
+   },
+   {
+    "lemma": "Adresse",
+    "art": "die",
+    "pl": "Adressen"
+   },
+   {
+    "lemma": "Restaurant",
+    "art": "das",
+    "pl": "Restaurants"
+   },
+   {
+    "lemma": "Tochter",
+    "art": "die",
+    "pl": "Töchter"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Kontakt",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Adresse",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Restaurant",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Tochter",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Слова курса: der Kontakt, die Adresse, das Restaurant, die Tochter.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Kontakt — контакт · die Adresse — адрес · das Restaurant — ресторан · die Tochter — дочь.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Kontakt, die Adresse, das Restaurant, die Tochter."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: der Kontakt, die Adresse, das Restaurant, die Tochter."
+  },
+  "audio": "audio_v4/ch02_007.mp3",
+  "tts": "Kontakt, Adresse, Restaurant, Tochter.",
+  "ipa": [
+   {
+    "w": "Kontakt",
+    "ipa": "[kɔnˈtakt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Adresse",
+    "ipa": "[aˈdʁɛsə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Restaurant",
+    "ipa": "[ʁɛstoˈʁɑ̃ː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Tochter",
+    "ipa": "[ˈtɔxtɐ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_008",
+  "de": "Wie ist Ihre Hausnummer?",
+  "ru": "Какой у вас номер дома?",
+  "nouns": [
+   {
+    "lemma": "Hausnummer",
+    "art": "die",
+    "pl": "Hausnummern"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Wie",
+     "role": "вопрос-слово",
+     "asks": ""
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "Ihre Hausnummer",
+     "role": "кто"
+    }
+   ],
+   "text": "Номер спрашивают через wie, как имя.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Wie — вагон №1, действие ist — сразу за ним, вагон №2: Wie ist Ihre Hausnummer? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Какой у вас номер дома» можно сказать и в другом порядке. По-немецки порядок один: Wie · ist · Ihre Hausnummer. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Wie Ihre Hausnummer ist?",
+    "ru": "Ihre Hausnummer встал перед ist — действие ушло из вагона №2. После Wie немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "Номер спрашивают через wie, как имя."
+  },
+  "audio": "audio_v4/ch02_008.mp3",
+  "tts": "Wie ist Ihre Hausnummer?",
+  "ipa": [
+   {
+    "w": "Wie",
+    "ipa": "[viː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Ihre",
+    "ipa": "[ˈiːʁə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Hausnummer",
+    "ipa": "[ˈhaʊ̯sˌnʊmɐ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_009",
+  "de": "Meine Hausnummer ist acht.",
+  "ru": "Мой номер дома — восемь.",
+  "nouns": [
+   {
+    "lemma": "Hausnummer",
+    "art": "die",
+    "pl": "Hausnummern"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Meine Hausnummer",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "acht",
+     "role": "число"
+    }
+   ],
+   "text": "die Hausnummer → meine. ist как «=».",
+   "topic": "verb2",
+   "why_de": "Meine Hausnummer · ist · acht: действие ist — вагон №2, опора всего предложения.",
+   "why_ru": "По-русски «Мой номер дома — восемь» — без действия «есть». По-немецки без ist фразы нет: Meine Hausnummer ist acht.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Meine Hausnummer acht.",
+    "ru": "Русская привычка — без действия, как «Мой номер дома — восемь». Без ist немец слышит обрывок, а не фразу."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "die Hausnummer → meine. ist как «=»."
+  },
+  "audio": "audio_v4/ch02_009.mp3",
+  "tts": "Meine Hausnummer ist acht.",
+  "ipa": [
+   {
+    "w": "Meine",
+    "ipa": "[ˈmaɪ̯nə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Hausnummer",
+    "ipa": "[ˈhaʊ̯sˌnʊmɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "acht",
+    "ipa": "[axt]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_010",
+  "de": "Wo wohnen Sie?",
+  "ru": "Где вы живёте?",
+  "nouns": [],
+  "chunk": true,
+  "source": "tatoeba:#703779 CC BY 2.0 FR (автор Esperantostern)",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Wo",
+     "role": "вопрос-слово",
+     "asks": "где"
+    },
+    {
+     "w": "wohnen",
+     "role": "действие №2"
+    },
+    {
+     "w": "Sie",
+     "role": "кто"
+    }
+   ],
+   "text": "wo = где.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Wo — вагон №1, действие wohnen — сразу за ним, вагон №2: Wo wohnen Sie? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Где вы живёте» можно сказать и в другом порядке. По-немецки порядок один: Wo · wohnen · Sie.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Wo Sie wohnen?",
+    "ru": "Sie встал перед wohnen — действие ушло из вагона №2. После Wo немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": null,
+   "why_voice_ru": "wo = где."
+  },
+  "audio": "audio_v4/ch02_010.mp3",
+  "tts": "Wo wohnen Sie?",
+  "ipa": [
+   {
+    "w": "Wo",
+    "ipa": "[voː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "wohnen",
+    "ipa": "[ˈvoːnən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Sie",
+    "ipa": "[ziː]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_011",
+  "de": "Ich mache eine Party.",
+  "ru": "Я устраиваю пати.",
+  "nouns": [
+   {
+    "lemma": "Party",
+    "art": "die",
+    "pl": "Partys"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "mache",
+     "role": "действие №2"
+    },
+    {
+     "w": "eine Party",
+     "role": "кого-что"
+    }
+   ],
+   "text": "die Party — die-слово, поэтому eine (с -e). С ich у действия хвост -e: ich mache.",
+   "topic": "verb2",
+   "why_de": "Ich · mache · eine Party: действие mache — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Я устраиваю пати» — Ich mache eine Party. Разница одна: по-немецки mache держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich eine Party mache.",
+    "ru": "Действие mache уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе mache — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "die Party — die-слово, поэтому eine (с -e). С ich у действия хвост -e: ich mache."
+  },
+  "audio": "audio_v4/ch02_011.mp3",
+  "tts": "Ich mache eine Party.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "mache",
+    "ipa": "[ˈmaxə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "eine",
+    "ipa": "[ˈaɪ̯nə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Party",
+    "ipa": "[ˈpaːɐ̯ti]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_012",
+  "de": "Wo wohnst du?",
+  "ru": "Где ты живёшь?",
+  "nouns": [],
+  "chunk": false,
+  "source": "tatoeba:#392883 CC BY 2.0 FR (автор xtofu80)",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Wo",
+     "role": "вопрос-слово",
+     "asks": "где"
+    },
+    {
+     "w": "wohnst",
+     "role": "действие №2"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    }
+   ],
+   "text": "С du у действия хвост -st: du wohnst. Это вопрос на «ты» — другу, одногруппнику.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Wo — вагон №1, действие wohnst — сразу за ним, вагон №2: Wo wohnst du? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Где ты живёшь» можно сказать и в другом порядке. По-немецки порядок один: Wo · wohnst · du.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Wo du wohnst?",
+    "ru": "du встал перед wohnst — действие ушло из вагона №2. После Wo немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "С du у действия хвост -st: du wohnst. Это вопрос на «ты» — другу, одногруппнику."
+  },
+  "audio": "audio_v4/ch02_012.mp3",
+  "tts": "Wo wohnst du?",
+  "ipa": [
+   {
+    "w": "Wo",
+    "ipa": "[voː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "wohnst",
+    "ipa": "[voːnst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_013",
+  "de": "Meine Hausnummer ist dreizehn.",
+  "ru": "Мой номер дома — тринадцать.",
+  "nouns": [
+   {
+    "lemma": "Hausnummer",
+    "art": "die",
+    "pl": "Hausnummern"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Meine Hausnummer",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "dreizehn",
+     "role": "кто"
+    }
+   ],
+   "text": "dreizehn = drei + zehn: сначала единицы, как в русском «три-на-дцать». ist как «=».",
+   "topic": "verb2",
+   "why_de": "ist работает как знак «=»: meine Hausnummer = dreizehn. Действие держит вагон №2.",
+   "why_ru": "По-русски «Мой номер дома — тринадцать» — без «есть». По-немецки без ist нельзя: Meine Hausnummer ist dreizehn.",
+   "layer": "eq",
+   "why_not": {
+    "wrong": "Meine Hausnummer dreizehn.",
+    "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "dreizehn = drei + zehn: сначала единицы, как в русском «три-на-дцать». ist как «=»."
+  },
+  "audio": "audio_v4/ch02_013.mp3",
+  "tts": "Meine Hausnummer ist dreizehn.",
+  "ipa": [
+   {
+    "w": "Meine",
+    "ipa": "[ˈmaɪ̯nə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Hausnummer",
+    "ipa": "[ˈhaʊ̯sˌnʊmɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "dreizehn",
+    "ipa": "[ˈdʁaɪ̯t͡seːn]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_014",
+  "de": "Ist das dreizehn oder dreißig?",
+  "ru": "Это тринадцать или тридцать?",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Ist",
+     "role": "действие №1"
+    },
+    {
+     "w": "das",
+     "role": "кто"
+    },
+    {
+     "w": "dreizehn oder dreißig",
+     "role": "кто"
+    }
+   ],
+   "text": "Вопрос «или»: действие ist впереди, как в вопросе «да/нет». Но ответить «да» нельзя — надо выбрать: Das ist dreizehn. oder — «или».",
+   "topic": "questions",
+   "why_de": "Вопрос «или»: действие Ist впереди, в вагоне №1, как в вопросе «да/нет». Но «да» или «нет» тут не ответ: надо выбрать — dreizehn или dreißig. Голос: на dreizehn вверх ↗, на dreißig вниз ↘.",
+   "why_ru": "По-русски так же: «Это тринадцать или тридцать» — вопрос делает слово «или». Разница одна: по-немецки действие Ist стоит впереди, в вагоне №1. Действия Ist в русской фразе нет, а по-немецки без него вопроса нет.",
+   "layer": "alt",
+   "why_not": {
+    "wrong": "Das ist dreizehn oder dreißig?",
+    "ru": "Русский порядок: «кто» (das) перед действием. Немец поймёт, но сразу услышит ошибку: вопрос «или» начинают с действия Ist."
+   },
+   "root": null,
+   "why_voice_ru": "Вопрос «или»: действие ist впереди, как в вопросе «да/нет». Но ответить «да» нельзя — надо выбрать: Das ist dreizehn. oder — «или»."
+  },
+  "audio": "audio_v4/ch02_014.mp3",
+  "tts": "Ist das dreizehn oder dreißig?",
+  "ipa": [
+   {
+    "w": "Ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "das",
+    "ipa": "[das]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "dreizehn",
+    "ipa": "[ˈdʁaɪ̯t͡seːn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "oder",
+    "ipa": "[ˈoːdɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "dreißig",
+    "ipa": "[ˈdʁaɪ̯sɪç]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_015",
+  "de": "Meine Handynummer ist null eins sieben eins, drei neun zwei null null, zweiundvierzig.",
+  "ru": "Мой номер мобильного — 0171 39200 42.",
+  "nouns": [
+   {
+    "lemma": "Handynummer",
+    "art": "die",
+    "pl": "Handynummern"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Meine Handynummer",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "null eins sieben eins, drei neun zwei null null, zweiundvierzig",
+     "role": "кто"
+    }
+   ],
+   "text": "Номер диктуют по цифрам, в конце — пара. zweiundvierzig = zwei + und + vierzig: сначала единицы (2), потом десятки (40) — 42. Пишется слитно.",
+   "topic": "verb2",
+   "why_de": "ist работает как знак «=»: meine Handynummer = null eins sieben eins, drei neun zwei null null, zweiundvierzig. Действие держит вагон №2.",
+   "why_ru": "По-русски «Мой номер мобильного — 0171 39200 42» — без «есть». По-немецки без ist нельзя: Meine Handynummer ist null eins sieben eins, drei neun zwei null null, zweiundvierzig.",
+   "layer": "eq",
+   "why_not": {
+    "wrong": "Meine Handynummer null eins sieben eins, drei neun zwei null null, zweiundvierzig.",
+    "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+   },
+   "root": "Handynummer = Handy + Nummer (Handy — мобильный; Nummer — номер) — Wiktionary; ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "Номер диктуют по цифрам, в конце — пара. zweiundvierzig = zwei + und + vierzig: сначала единицы (2), потом десятки (40) — 42. Пишется слитно."
+  },
+  "audio": "audio_v4/ch02_015.mp3",
+  "tts": "Meine Handynummer ist: null eins sieben eins. Drei neun zwei null null. Zweiundvierzig.",
+  "ipa": [
+   {
+    "w": "Meine",
+    "ipa": "[ˈmaɪ̯nə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Handynummer",
+    "ipa": "[ˈhɛndiˌnʊmɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "null",
+    "ipa": "[nʊl]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "eins",
+    "ipa": "[aɪ̯ns]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "sieben",
+    "ipa": "[ˈziːbn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "eins",
+    "ipa": "[aɪ̯ns]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "drei",
+    "ipa": "[dʁaɪ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "neun",
+    "ipa": "[nɔɪ̯n]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "zwei",
+    "ipa": "[t͡svaɪ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "null",
+    "ipa": "[nʊl]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "null",
+    "ipa": "[nʊl]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "zweiundvierzig",
+    "ipa": "[ˈt͡svaɪ̯ʊntˌfɪʁt͡sɪç]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "GERMAN_WORD_REPEAT_RULE: null null",
+   "gender": "ok",
+   "asr": "fail: озвучка устарела (текст изменился)",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_016",
+  "de": "Wohnst du in Dresden?",
+  "ru": "Ты живёшь в Дрездене?",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Wohnst",
+     "role": "действие №1"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "in Dresden",
+     "role": "где"
+    }
+   ],
+   "text": "Вопрос «да/нет»: действие впереди. С du — хвост -st: wohnst.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Wohnst) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Wohnst du in Dresden?",
+   "why_ru": "По-русски «Ты живёшь в Дрездене» — вопрос только голосом, порядок как в ответе. По-немецки действие Wohnst выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Du wohnst in Dresden?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Ты живёшь в Дрездене?!»). Обычный вопрос — действие впереди."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "Вопрос «да/нет»: действие впереди. С du — хвост -st: wohnst."
+  },
+  "audio": "audio_v4/ch02_016.mp3",
+  "tts": "Wohnst du in Dresden?",
+  "ipa": [
+   {
+    "w": "Wohnst",
+    "ipa": "[voːnst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "in",
+    "ipa": "[ɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Dresden",
+    "ipa": "[ˈdʁeːsdn̩]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_017",
+  "de": "Nachricht, Zahl, Zettel, Problem.",
+  "ru": "Сообщение, число, записка, проблема.",
+  "nouns": [
+   {
+    "lemma": "Nachricht",
+    "art": "die",
+    "pl": "Nachrichten"
+   },
+   {
+    "lemma": "Zahl",
+    "art": "die",
+    "pl": "Zahlen"
+   },
+   {
+    "lemma": "Zettel",
+    "art": "der",
+    "pl": "Zettel"
+   },
+   {
+    "lemma": "Problem",
+    "art": "das",
+    "pl": "Probleme"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Nachricht",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Zahl",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Zettel",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Problem",
+     "role": "слово",
+     "art": "das"
+    }
+   ],
+   "text": "Слова курса: die Nachricht, die Zahl, der Zettel, das Problem.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: die Nachricht — сообщение · die Zahl — число · der Zettel — записка · das Problem — проблема.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: die Nachricht, die Zahl, der Zettel, das Problem."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: die Nachricht, die Zahl, der Zettel, das Problem."
+  },
+  "audio": "audio_v4/ch02_017.mp3",
+  "tts": "Nachricht, Zahl, Zettel, Problem.",
+  "ipa": [
+   {
+    "w": "Nachricht",
+    "ipa": "[ˈnaːxˌʁɪçt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Zahl",
+    "ipa": "[t͡saːl]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Zettel",
+    "ipa": "[ˈt͡sɛtl̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Problem",
+    "ipa": "[pʁoˈbleːm]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_018",
+  "de": "Hast du WhatsApp?",
+  "ru": "У тебя есть WhatsApp?",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Hast",
+     "role": "действие №1"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "WhatsApp",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Вопрос «да/нет»: действие hast впереди. По-немецки не «у тебя есть», а «ты имеешь»: du hast.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Hast) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Hast du WhatsApp?",
+   "why_ru": "По-русски «У тебя есть WhatsApp» — вопрос только голосом, порядок как в ответе. По-немецки действие Hast выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Du hast WhatsApp?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («У тебя есть WhatsApp?!»). Обычный вопрос — действие впереди."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "Вопрос «да/нет»: действие hast впереди. По-немецки не «у тебя есть», а «ты имеешь»: du hast."
+  },
+  "audio": "audio_v4/ch02_018.mp3",
+  "tts": "Hast du WhatsApp?",
+  "ipa": [
+   {
+    "w": "Hast",
+    "ipa": "[hast]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "WhatsApp",
+    "ipa": "[ˈvɔt͡sˌʔɛp]",
+    "src": "override"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_019",
+  "de": "Ja, ich habe WhatsApp.",
+  "ru": "Да, у меня есть WhatsApp.",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Ja",
+     "role": "да/нет"
+    },
+    {
+     "w": "ich",
+     "role": "кто"
+    },
+    {
+     "w": "habe",
+     "role": "действие №2"
+    },
+    {
+     "w": "WhatsApp",
+     "role": "кого-что"
+    }
+   ],
+   "text": "ja не занимает вагон. ich habe — «я имею», по-русски «у меня есть».",
+   "topic": "verb2",
+   "why_de": "ich · habe · WhatsApp: действие habe — вагон №2, опора всего предложения.",
+   "why_ru": "По-русски тут «у меня» и «есть»: «я» спрятан в «у меня». По-немецки говорят «я имею» — ich habe. Поэтому ich нужен: Ja, ich habe WhatsApp.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ja, habe WhatsApp.",
+    "ru": "По-русски «у меня» — не «я», поэтому хочется начать без ich. По-немецки без ich фраза обрывается."
+   },
+   "root": null,
+   "why_voice_ru": "ja не занимает вагон. ich habe — «я имею», по-русски «у меня есть»."
+  },
+  "audio": "audio_v4/ch02_019.mp3",
+  "tts": "Ja, ich habe WhatsApp.",
+  "ipa": [
+   {
+    "w": "Ja",
+    "ipa": "[jaː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "habe",
+    "ipa": "[ˈhaːbə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "WhatsApp",
+    "ipa": "[ˈvɔt͡sˌʔɛp]",
+    "src": "override"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_020",
+  "de": "Hast du auch Signal?",
+  "ru": "У тебя есть и Signal?",
+  "nouns": [
+   {
+    "lemma": "Signal",
+    "art": "das",
+    "pl": "Signale"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Hast",
+     "role": "действие №1"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "auch",
+     "role": "добавка"
+    },
+    {
+     "w": "Signal",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Вопрос «да/нет»: hast впереди. auch — «тоже», стоит после du. Сильнее звучит Signal: «и Signal тоже».",
+   "topic": "questions",
+   "why_de": "Действие впереди (Hast) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Hast du auch Signal?",
+   "why_ru": "По-русски «У тебя есть и Signal» — вопрос только голосом, порядок как в ответе. По-немецки действие Hast выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Du hast auch Signal?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («У тебя есть и Signal?!»). Обычный вопрос — действие впереди."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "Вопрос «да/нет»: hast впереди. auch — «тоже», стоит после du. Сильнее звучит Signal: «и Signal тоже»."
+  },
+  "audio": "audio_v4/ch02_020.mp3",
+  "tts": "Hast du auch Signal?",
+  "ipa": [
+   {
+    "w": "Hast",
+    "ipa": "[hast]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "auch",
+    "ipa": "[aʊ̯x]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Signal",
+    "ipa": "[zɪˈɡnaːl]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_021",
+  "de": "Nein, nur WhatsApp.",
+  "ru": "Нет, только WhatsApp.",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Nein",
+     "role": "да/нет"
+    },
+    {
+     "w": "nur WhatsApp",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Короткий ответ: действие habe понятно из вопроса. nur — «только».",
+   "topic": "word_order",
+   "why_de": "Короткий ответ: Nein + nur WhatsApp (что?). Действие из вопроса не повторяют — его уже сказали.",
+   "why_ru": "По-русски так же коротко: «Нет, только WhatsApp».",
+   "layer": "short",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — считать это готовой формулой. «Нет, только WhatsApp» — короткий ответ, его слова меняют под ситуацию."
+   },
+   "root": null,
+   "why_voice_ru": "Короткий ответ: действие habe понятно из вопроса. nur — «только»."
+  },
+  "audio": "audio_v4/ch02_021.mp3",
+  "tts": "Nein, nur WhatsApp.",
+  "ipa": [
+   {
+    "w": "Nein",
+    "ipa": "[naɪ̯n]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "nur",
+    "ipa": "[nuːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "WhatsApp",
+    "ipa": "[ˈvɔt͡sˌʔɛp]",
+    "src": "override"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_022",
+  "de": "Hat Olga auch WhatsApp?",
+  "ru": "У Ольги тоже есть WhatsApp?",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Hat",
+     "role": "действие №1"
+    },
+    {
+     "w": "Olga",
+     "role": "кто"
+    },
+    {
+     "w": "auch",
+     "role": "добавка"
+    },
+    {
+     "w": "WhatsApp",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Olga — «она»: с ней hat. auch стоит после Olga и звучит сильнее всех: «и у Ольги тоже».",
+   "topic": "questions",
+   "why_de": "Действие впереди (Hat) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Hat Olga auch WhatsApp?",
+   "why_ru": "По-русски «У Ольги тоже есть WhatsApp» — вопрос только голосом, порядок как в ответе. По-немецки действие Hat выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Olga hat auch WhatsApp?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («У Ольги тоже есть WhatsApp?!»). Обычный вопрос — действие впереди."
+   },
+   "root": null,
+   "why_voice_ru": "Olga — «она»: с ней hat. auch стоит после Olga и звучит сильнее всех: «и у Ольги тоже»."
+  },
+  "audio": "audio_v4/ch02_022.mp3",
+  "tts": "Hat Olga auch WhatsApp?",
+  "ipa": [
+   {
+    "w": "Hat",
+    "ipa": "[hat]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Olga",
+    "ipa": "[ˈɔlɡa]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "auch",
+    "ipa": "[aʊ̯x]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "WhatsApp",
+    "ipa": "[ˈvɔt͡sˌʔɛp]",
+    "src": "override"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_023",
+  "de": "Ja, Olga hat WhatsApp.",
+  "ru": "Да, у Ольги есть WhatsApp.",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Ja",
+     "role": "да/нет"
+    },
+    {
+     "w": "Olga",
+     "role": "кто"
+    },
+    {
+     "w": "hat",
+     "role": "действие №2"
+    },
+    {
+     "w": "WhatsApp",
+     "role": "кого-что"
+    }
+   ],
+   "text": "ja не занимает вагон. Olga hat — «у Ольги есть».",
+   "topic": "verb2",
+   "why_de": "Olga · hat · WhatsApp: действие hat — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Да, у Ольги есть WhatsApp» — Ja, Olga hat WhatsApp. Разница одна: по-немецки hat держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ja, Olga WhatsApp hat.",
+    "ru": "Действие hat уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе hat — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "ja не занимает вагон. Olga hat — «у Ольги есть»."
+  },
+  "audio": "audio_v4/ch02_023.mp3",
+  "tts": "Ja, Olga hat WhatsApp.",
+  "ipa": [
+   {
+    "w": "Ja",
+    "ipa": "[jaː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Olga",
+    "ipa": "[ˈɔlɡa]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "hat",
+    "ipa": "[hat]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "WhatsApp",
+    "ipa": "[ˈvɔt͡sˌʔɛp]",
+    "src": "override"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_024",
+  "de": "Hat Olga Signal?",
+  "ru": "У Ольги есть Signal?",
+  "nouns": [
+   {
+    "lemma": "Signal",
+    "art": "das",
+    "pl": "Signale"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Hat",
+     "role": "действие №1"
+    },
+    {
+     "w": "Olga",
+     "role": "кто"
+    },
+    {
+     "w": "Signal",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Вопрос «да/нет»: hat впереди. С Olga (она) — hat.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Hat) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Hat Olga Signal?",
+   "why_ru": "По-русски «У Ольги есть Signal» — вопрос только голосом, порядок как в ответе. По-немецки действие Hat выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Olga hat Signal?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («У Ольги есть Signal?!»). Обычный вопрос — действие впереди."
+   },
+   "root": null,
+   "why_voice_ru": "Вопрос «да/нет»: hat впереди. С Olga (она) — hat."
+  },
+  "audio": "audio_v4/ch02_024.mp3",
+  "tts": "Hat Olga Signal?",
+  "ipa": [
+   {
+    "w": "Hat",
+    "ipa": "[hat]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Olga",
+    "ipa": "[ˈɔlɡa]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Signal",
+    "ipa": "[zɪˈɡnaːl]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_025",
+  "de": "Antwort, Satz, Tabelle, Name.",
+  "ru": "Ответ, предложение, таблица, имя.",
+  "nouns": [
+   {
+    "lemma": "Antwort",
+    "art": "die",
+    "pl": "Antworten"
+   },
+   {
+    "lemma": "Satz",
+    "art": "der",
+    "pl": "Sätze"
+   },
+   {
+    "lemma": "Tabelle",
+    "art": "die",
+    "pl": "Tabellen"
+   },
+   {
+    "lemma": "Name",
+    "art": "der",
+    "pl": "Namen"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Antwort",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Satz",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Tabelle",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Name",
+     "role": "слово",
+     "art": "der"
+    }
+   ],
+   "text": "Слова курса: die Antwort, der Satz, die Tabelle, der Name.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: die Antwort — ответ · der Satz — предложение · die Tabelle — таблица · der Name — имя.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: die Antwort, der Satz, die Tabelle, der Name."
+   },
+   "root": "Name и русское «имя» — дальняя родня: один древний корень *h₁nómn̥ (Wiktionary)",
+   "why_voice_ru": "Слова курса: die Antwort, der Satz, die Tabelle, der Name."
+  },
+  "audio": "audio_v4/ch02_025.mp3",
+  "tts": "Antwort, Satz, Tabelle, Name.",
+  "ipa": [
+   {
+    "w": "Antwort",
+    "ipa": "[ˈantvɔʁt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Satz",
+    "ipa": "[zat͡s]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Tabelle",
+    "ipa": "[taˈbɛlə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Name",
+    "ipa": "[ˈnaːmə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_026",
+  "de": "Welche Sprachen sprichst du?",
+  "ru": "На каких языках ты говоришь?",
+  "nouns": [
+   {
+    "lemma": "Sprache",
+    "art": "die",
+    "pl": "Sprachen"
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#1290271 CC BY 2.0 FR (автор Esperantostern)",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Welche Sprachen",
+     "role": "вопрос-слово",
+     "asks": "кого-что"
+    },
+    {
+     "w": "sprichst",
+     "role": "действие №2"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    }
+   ],
+   "text": "welche Sprachen — «какие языки»: вопрос-кусок, вагон №1. С du: sprichst (а ich spreche) — e меняется на i.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Welche Sprachen — вагон №1, действие sprichst — сразу за ним, вагон №2: Welche Sprachen sprichst du? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «На каких языках ты говоришь» можно сказать и в другом порядке. По-немецки порядок один: Welche Sprachen · sprichst · du.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Welche Sprachen du sprichst?",
+    "ru": "du встал перед sprichst — действие ушло из вагона №2. После Welche Sprachen немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "welche Sprachen — «какие языки»: вопрос-кусок, вагон №1. С du: sprichst (а ich spreche) — e меняется на i."
+  },
+  "audio": "audio_v4/ch02_026.mp3",
+  "tts": "Welche Sprachen sprichst du?",
+  "ipa": [
+   {
+    "w": "Welche",
+    "ipa": "[ˈvɛlçə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Sprachen",
+    "ipa": "[ˈʃpʁaːxən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "sprichst",
+    "ipa": "[ʃpʁɪçst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_027",
+  "de": "Ich spreche Russisch und Ukrainisch.",
+  "ru": "Я говорю по-русски и по-украински.",
+  "nouns": [
+   {
+    "lemma": "Russisch",
+    "art": "das",
+    "pl": ""
+   },
+   {
+    "lemma": "Ukrainisch",
+    "art": "das",
+    "pl": ""
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "spreche",
+     "role": "действие №2"
+    },
+    {
+     "w": "Russisch und Ukrainisch",
+     "role": "кого-что"
+    }
+   ],
+   "text": "С ich: spreche (с e). Язык — с большой буквы и без артикля: Russisch, Ukrainisch.",
+   "topic": "verb2",
+   "why_de": "Ich · spreche · Russisch und Ukrainisch: действие spreche — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Я говорю по-русски и по-украински» — Ich spreche Russisch und Ukrainisch. Разница одна: по-немецки spreche держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich Russisch und Ukrainisch spreche.",
+    "ru": "Действие spreche уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе spreche — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "С ich: spreche (с e). Язык — с большой буквы и без артикля: Russisch, Ukrainisch."
+  },
+  "audio": "audio_v4/ch02_027.mp3",
+  "tts": "Ich spreche Russisch und Ukrainisch.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "spreche",
+    "ipa": "[ˈʃpʁɛçə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Russisch",
+    "ipa": "[ˈʁʊsɪʃ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "und",
+    "ipa": "[ʊnt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Ukrainisch",
+    "ipa": "[uˈkʁaɪ̯nɪʃ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_028",
+  "de": "Ich lerne Deutsch.",
+  "ru": "Я учу немецкий.",
+  "nouns": [
+   {
+    "lemma": "Deutsch",
+    "art": "das",
+    "pl": ""
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#3685927 CC BY 2.0 FR (автор Pfirsichbaeumchen)",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "lerne",
+     "role": "действие №2"
+    },
+    {
+     "w": "Deutsch",
+     "role": "кого-что"
+    }
+   ],
+   "text": "С ich у действия хвост -e: ich lerne. Deutsch — язык, с большой буквы.",
+   "topic": "verb2",
+   "why_de": "Ich · lerne · Deutsch: действие lerne — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Я учу немецкий» — Ich lerne Deutsch. Разница одна: по-немецки lerne держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich Deutsch lerne.",
+    "ru": "Действие lerne уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе lerne — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "С ich у действия хвост -e: ich lerne. Deutsch — язык, с большой буквы.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «что»",
+    "items": [
+     {
+      "id": "ch02_030",
+      "de": "Ich lerne Englisch.",
+      "ru": "Я учу английский.",
+      "audio": "audio_v4/ch02_030.mp3",
+      "lesson": "L4",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "Deutsch",
+       "to": "Englisch"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ich · lerne. В каждом примере меняется один вагон — «что»: Deutsch → Englisch. Действие lerne всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v4/ch02_028.mp3",
+  "tts": "Ich lerne Deutsch.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "lerne",
+    "ipa": "[ˈlɛʁnə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Deutsch",
+    "ipa": "[dɔɪ̯t͡ʃ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_029",
+  "de": "Was lernst du?",
+  "ru": "Что ты учишь?",
+  "nouns": [],
+  "chunk": false,
+  "source": "tatoeba:#392861 CC BY 2.0 FR (автор xtofu80)",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Was",
+     "role": "вопрос-слово",
+     "asks": "кого-что"
+    },
+    {
+     "w": "lernst",
+     "role": "действие №2"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    }
+   ],
+   "text": "was — «что». Вопрос-слово, потом действие. С du — хвост -st: du lernst.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Was — вагон №1, действие lernst — сразу за ним, вагон №2: Was lernst du? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Что ты учишь» можно сказать и в другом порядке. По-немецки порядок один: Was · lernst · du.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Was du lernst?",
+    "ru": "du встал перед lernst — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "was — «что». Вопрос-слово, потом действие. С du — хвост -st: du lernst."
+  },
+  "audio": "audio_v4/ch02_029.mp3",
+  "tts": "Was lernst du?",
+  "ipa": [
+   {
+    "w": "Was",
+    "ipa": "[vas]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "lernst",
+    "ipa": "[lɛʁnst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_030",
+  "de": "Ich lerne Englisch.",
+  "ru": "Я учу английский.",
+  "nouns": [
+   {
+    "lemma": "Englisch",
+    "art": "das",
+    "pl": ""
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#4776682 CC BY 2.0 FR (автор Germic)",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "lerne",
+     "role": "действие №2"
+    },
+    {
+     "w": "Englisch",
+     "role": "кого-что"
+    }
+   ],
+   "text": "ich lerne — тот же хвост -e. Englisch — с большой буквы.",
+   "topic": "verb2",
+   "why_de": "Ich · lerne · Englisch: действие lerne — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Я учу английский» — Ich lerne Englisch. Разница одна: по-немецки lerne держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Ich Englisch lerne.",
+    "ru": "Действие lerne уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе lerne — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "ich lerne — тот же хвост -e. Englisch — с большой буквы.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «что»",
+    "items": [
+     {
+      "id": "ch02_028",
+      "de": "Ich lerne Deutsch.",
+      "ru": "Я учу немецкий.",
+      "audio": "audio_v4/ch02_028.mp3",
+      "lesson": "L4",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 3,
+       "from": "Englisch",
+       "to": "Deutsch"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ich · lerne. В каждом примере меняется один вагон — «что»: Englisch → Deutsch. Действие lerne всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v4/ch02_030.mp3",
+  "tts": "Ich lerne Englisch.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "lerne",
+    "ipa": "[ˈlɛʁnə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Englisch",
+    "ipa": "[ˈɛŋlɪʃ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_031",
+  "de": "Sofia spricht Englisch.",
+  "ru": "Софья говорит по-английски.",
+  "nouns": [
+   {
+    "lemma": "Englisch",
+    "art": "das",
+    "pl": ""
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Sofia",
+     "role": "кто"
+    },
+    {
+     "w": "spricht",
+     "role": "действие №2"
+    },
+    {
+     "w": "Englisch",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Sofia — «она»: spricht (e → i и хвост -t).",
+   "topic": "verb2",
+   "why_de": "Sofia · spricht · Englisch: действие spricht — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Софья говорит по-английски» — Sofia spricht Englisch. Разница одна: по-немецки spricht держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Sofia Englisch spricht.",
+    "ru": "Действие spricht уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе spricht — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "Sofia — «она»: spricht (e → i и хвост -t)."
+  },
+  "audio": "audio_v4/ch02_031.mp3",
+  "tts": "Sofia spricht Englisch.",
+  "ipa": [
+   {
+    "w": "Sofia",
+    "ipa": "[zoˈfiːaː]",
+    "src": "override"
+   },
+   {
+    "w": "spricht",
+    "ipa": "[ʃpʁɪçt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Englisch",
+    "ipa": "[ˈɛŋlɪʃ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_032",
+  "de": "Sprichst du Englisch?",
+  "ru": "Ты говоришь по-английски?",
+  "nouns": [
+   {
+    "lemma": "Englisch",
+    "art": "das",
+    "pl": ""
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#376088 CC BY 2.0 FR (автор MUIRIEL)",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Sprichst",
+     "role": "действие №1"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "Englisch",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Вопрос «да/нет»: действие впереди. С du — sprichst.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Sprichst) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Sprichst du Englisch?",
+   "why_ru": "По-русски «Ты говоришь по-английски» — вопрос только голосом, порядок как в ответе. По-немецки действие Sprichst выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Du sprichst Englisch?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Ты говоришь по-английски?!»). Обычный вопрос — действие впереди."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "Вопрос «да/нет»: действие впереди. С du — sprichst."
+  },
+  "audio": "audio_v4/ch02_032.mp3",
+  "tts": "Sprichst du Englisch?",
+  "ipa": [
+   {
+    "w": "Sprichst",
+    "ipa": "[ʃpʁɪçst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Englisch",
+    "ipa": "[ˈɛŋlɪʃ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_033",
+  "de": "Land, Sprache, Porträt, Kurs.",
+  "ru": "Страна, язык, портрет, курс.",
+  "nouns": [
+   {
+    "lemma": "Land",
+    "art": "das",
+    "pl": "Länder"
+   },
+   {
+    "lemma": "Sprache",
+    "art": "die",
+    "pl": "Sprachen"
+   },
+   {
+    "lemma": "Porträt",
+    "art": "das",
+    "pl": "Porträts"
+   },
+   {
+    "lemma": "Kurs",
+    "art": "der",
+    "pl": "Kurse"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Land",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Sprache",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Porträt",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Kurs",
+     "role": "слово",
+     "art": "der"
+    }
+   ],
+   "text": "Слова курса: das Land, die Sprache, das Porträt, der Kurs.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: das Land — страна · die Sprache — язык · das Porträt — портрет · der Kurs — курс.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: das Land, die Sprache, das Porträt, der Kurs."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: das Land, die Sprache, das Porträt, der Kurs."
+  },
+  "audio": "audio_v4/ch02_033.mp3",
+  "tts": "Land, Sprache, Porträt, Kurs.",
+  "ipa": [
+   {
+    "w": "Land",
+    "ipa": "[lant]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Sprache",
+    "ipa": "[ˈʃpʁaːxə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Porträt",
+    "ipa": "[pɔʁˈtʁɛː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kurs",
+    "ipa": "[kʊʁs]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_034",
+  "de": "Dialog, Foto, Person.",
+  "ru": "Диалог, фото, человек.",
+  "nouns": [
+   {
+    "lemma": "Dialog",
+    "art": "der",
+    "pl": "Dialoge"
+   },
+   {
+    "lemma": "Foto",
+    "art": "das",
+    "pl": "Fotos"
+   },
+   {
+    "lemma": "Person",
+    "art": "die",
+    "pl": "Personen"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Dialog",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Foto",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Person",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Слова курса: der Dialog, das Foto, die Person.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Dialog — диалог · das Foto — фото · die Person — человек.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Dialog, das Foto, die Person."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: der Dialog, das Foto, die Person."
+  },
+  "audio": "audio_v1/ch02_034.mp3",
+  "tts": "Dialog, Foto, Person.",
+  "ipa": [
+   {
+    "w": "Dialog",
+    "ipa": "[diaˈloːk]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Foto",
+    "ipa": "[ˈfoːto]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Person",
+    "ipa": "[pɛʁˈzoːn]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_035",
+  "de": "Punkt, Minus, Unterstrich.",
+  "ru": "Точка, минус, нижнее подчёркивание.",
+  "nouns": [
+   {
+    "lemma": "Punkt",
+    "art": "der",
+    "pl": "Punkte"
+   },
+   {
+    "lemma": "Minus",
+    "art": "das",
+    "pl": ""
+   },
+   {
+    "lemma": "Unterstrich",
+    "art": "der",
+    "pl": "Unterstriche"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Punkt",
+     "role": "знак"
+    },
+    {
+     "w": "Minus",
+     "role": "знак"
+    },
+    {
+     "w": "Unterstrich",
+     "role": "знак"
+    }
+   ],
+   "text": "Знаки в адресе почты: der Punkt — точка, das Minus — чёрточка, der Unterstrich — нижнее подчёркивание.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а адрес по знакам: знак называют словом, остальное — как пишется.",
+   "why_ru": "По-русски тоже список, слово за словом: Punkt — точка · Minus — минус · Unterstrich — нижнее подчёркивание.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — называть знаки по-русски. По-немецки у знака своё слово: Punkt, Minus, Unterstrich."
+   },
+   "root": null,
+   "why_voice_ru": "Знаки в адресе почты: der Punkt — точка, das Minus — чёрточка, der Unterstrich — нижнее подчёркивание."
+  },
+  "audio": "audio_v1/ch02_035.mp3",
+  "tts": "Punkt, Minus, Unterstrich.",
+  "ipa": [
+   {
+    "w": "Punkt",
+    "ipa": "[pʊŋkt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Minus",
+    "ipa": "[ˈmiːnʊs]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Unterstrich",
+    "ipa": "[ˌʊntɐˈʃtʁɪç]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "мн.ч. '' Minus ≠ {'Minusse'}",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_036",
+  "de": "Frage, Wort, Satz.",
+  "ru": "Вопрос, слово, предложение.",
+  "nouns": [
+   {
+    "lemma": "Frage",
+    "art": "die",
+    "pl": "Fragen"
+   },
+   {
+    "lemma": "Wort",
+    "art": "das",
+    "pl": "Wörter"
+   },
+   {
+    "lemma": "Satz",
+    "art": "der",
+    "pl": "Sätze"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Frage",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Wort",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Satz",
+     "role": "слово",
+     "art": "der"
+    }
+   ],
+   "text": "Слова курса: die Frage, das Wort, der Satz.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: die Frage — вопрос · das Wort — слово · der Satz — предложение.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: die Frage, das Wort, der Satz."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: die Frage, das Wort, der Satz."
+  },
+  "audio": "audio_v1/ch02_036.mp3",
+  "tts": "Frage, Wort, Satz.",
+  "ipa": [
+   {
+    "w": "Frage",
+    "ipa": "[ˈfʁaːɡə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Wort",
+    "ipa": "[vɔʁt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Satz",
+    "ipa": "[zat͡s]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_037",
+  "de": "Italien, Polen, Griechenland, Bulgarien, Rumänien.",
+  "ru": "Италия, Польша, Греция, Болгария, Румыния.",
+  "nouns": [],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Italien",
+     "role": "страна"
+    },
+    {
+     "w": "Polen",
+     "role": "страна"
+    },
+    {
+     "w": "Griechenland",
+     "role": "страна"
+    },
+    {
+     "w": "Bulgarien",
+     "role": "страна"
+    },
+    {
+     "w": "Rumänien",
+     "role": "страна"
+    }
+   ],
+   "text": "Страны со стр. 34–35: эти названия — без артикля.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а названия стран: это отдельные слова. Артикля у этих названий нет.",
+   "why_ru": "По-русски тоже список, слово за словом: Italien — Италия · Polen — Польша · Griechenland — Греция · Bulgarien — Болгария · Rumänien — Румыния.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить список одним куском. Название — отдельное слово. Артикля у этих названий нет."
+   },
+   "root": null,
+   "why_voice_ru": "Страны со стр. 34–35: эти названия — без артикля."
+  },
+  "audio": "audio_v1/ch02_037.mp3",
+  "tts": "Italien, Polen, Griechenland, Bulgarien, Rumänien.",
+  "ipa": [
+   {
+    "w": "Italien",
+    "ipa": "[iˈtaːli̯ən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Polen",
+    "ipa": "[ˈpoːlən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Griechenland",
+    "ipa": "[ˈɡʁiːçn̩ˌlant]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bulgarien",
+    "ipa": "[bʊlˈɡaːʁiən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Rumänien",
+    "ipa": "[ʁuˈmɛːni̯ən]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_038",
+  "de": "Italienisch, Polnisch, Griechisch, Bulgarisch, Rumänisch.",
+  "ru": "Итальянский, польский, греческий, болгарский, румынский.",
+  "nouns": [
+   {
+    "lemma": "Italienisch",
+    "art": "das",
+    "pl": ""
+   },
+   {
+    "lemma": "Polnisch",
+    "art": "das",
+    "pl": ""
+   },
+   {
+    "lemma": "Griechisch",
+    "art": "das",
+    "pl": ""
+   },
+   {
+    "lemma": "Bulgarisch",
+    "art": "das",
+    "pl": ""
+   },
+   {
+    "lemma": "Rumänisch",
+    "art": "das",
+    "pl": ""
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Italienisch",
+     "role": "язык"
+    },
+    {
+     "w": "Polnisch",
+     "role": "язык"
+    },
+    {
+     "w": "Griechisch",
+     "role": "язык"
+    },
+    {
+     "w": "Bulgarisch",
+     "role": "язык"
+    },
+    {
+     "w": "Rumänisch",
+     "role": "язык"
+    }
+   ],
+   "text": "Языки этих стран: конец -isch, с большой буквы.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а названия языков: это отдельные слова, с большой буквы и без артикля.",
+   "why_ru": "По-русски тоже список, слово за словом: Italienisch — итальянский · Polnisch — польский · Griechisch — греческий · Bulgarisch — болгарский · Rumänisch — румынский.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — писать язык с маленькой буквы, как по-русски. По-немецки название языка — с большой: Italienisch, Polnisch, Griechisch, Bulgarisch, Rumänisch."
+   },
+   "root": null,
+   "why_voice_ru": "Языки этих стран: конец -isch, с большой буквы."
+  },
+  "audio": "audio_v1/ch02_038.mp3",
+  "tts": "Italienisch, Polnisch, Griechisch, Bulgarisch, Rumänisch.",
+  "ipa": [
+   {
+    "w": "Italienisch",
+    "ipa": "[ˌitaˈli̯eːnɪʃ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Polnisch",
+    "ipa": "[ˈpɔlnɪʃ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Griechisch",
+    "ipa": "[ˈɡʁiːçɪʃ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Bulgarisch",
+    "ipa": "[bʊlˈɡaːʁɪʃ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Rumänisch",
+    "ipa": "[ʁuˈmɛːnɪʃ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "артикль das Italienisch ≠ set()",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_039",
+  "de": "Türkei, Iran, Syrien, Indien, Deutschland.",
+  "ru": "Турция, Иран, Сирия, Индия, Германия.",
+  "nouns": [],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Türkei",
+     "role": "страна"
+    },
+    {
+     "w": "Iran",
+     "role": "страна"
+    },
+    {
+     "w": "Syrien",
+     "role": "страна"
+    },
+    {
+     "w": "Indien",
+     "role": "страна"
+    },
+    {
+     "w": "Deutschland",
+     "role": "страна"
+    }
+   ],
+   "text": "Страны со стр. 34–35. Две — с артиклем: die Türkei, der Iran.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а названия стран: это отдельные слова. Артикля у этих названий нет.",
+   "why_ru": "По-русски тоже список, слово за словом: Türkei — Турция · Iran — Иран · Syrien — Сирия · Indien — Индия · Deutschland — Германия.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить список одним куском. Название — отдельное слово. Артикля у этих названий нет."
+   },
+   "root": null,
+   "why_voice_ru": "Страны со стр. 34–35. Две — с артиклем: die Türkei, der Iran."
+  },
+  "audio": "audio_v1/ch02_039.mp3",
+  "tts": "Türkei, Iran, Syrien, Indien, Deutschland.",
+  "ipa": [
+   {
+    "w": "Türkei",
+    "ipa": "[tʏʁˈkaɪ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Iran",
+    "ipa": "[iˈʁaːn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Syrien",
+    "ipa": "[ˈzyːʁiən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Indien",
+    "ipa": "[ˈɪndi̯ən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Deutschland",
+    "ipa": "[ˈdɔɪ̯t͡ʃˌlant]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_040",
+  "de": "Türkisch, Farsi, Arabisch, Hindi, Spanisch.",
+  "ru": "Турецкий, фарси, арабский, хинди, испанский.",
+  "nouns": [
+   {
+    "lemma": "Türkisch",
+    "art": "das",
+    "pl": ""
+   },
+   {
+    "lemma": "Farsi",
+    "art": "das",
+    "pl": ""
+   },
+   {
+    "lemma": "Arabisch",
+    "art": "das",
+    "pl": ""
+   },
+   {
+    "lemma": "Hindi",
+    "art": "das",
+    "pl": ""
+   },
+   {
+    "lemma": "Spanisch",
+    "art": "das",
+    "pl": ""
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Türkisch",
+     "role": "язык"
+    },
+    {
+     "w": "Farsi",
+     "role": "язык"
+    },
+    {
+     "w": "Arabisch",
+     "role": "язык"
+    },
+    {
+     "w": "Hindi",
+     "role": "язык"
+    },
+    {
+     "w": "Spanisch",
+     "role": "язык"
+    }
+   ],
+   "text": "Языки: с большой буквы. Farsi и Hindi — без конца -isch.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а названия языков: это отдельные слова, с большой буквы и без артикля.",
+   "why_ru": "По-русски тоже список, слово за словом: Türkisch — турецкий · Farsi — фарси · Arabisch — арабский · Hindi — хинди · Spanisch — испанский.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — писать язык с маленькой буквы, как по-русски. По-немецки название языка — с большой: Türkisch, Farsi, Arabisch, Hindi, Spanisch."
+   },
+   "root": null,
+   "why_voice_ru": "Языки: с большой буквы. Farsi и Hindi — без конца -isch."
+  },
+  "audio": "audio_v1/ch02_040.mp3",
+  "tts": "Türkisch, Farsi, Arabisch, Hindi, Spanisch.",
+  "ipa": [
+   {
+    "w": "Türkisch",
+    "ipa": "[ˈtʏʁkɪʃ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Farsi",
+    "ipa": "[…]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Arabisch",
+    "ipa": "[aˈʁaːbɪʃ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Hindi",
+    "ipa": "[ˈhɪndiː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Spanisch",
+    "ipa": "[ˈʃpaːnɪʃ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "артикль das Türkisch ≠ set()",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_041",
+  "de": "Was bist du von Beruf?",
+  "ru": "Кто ты по профессии?",
+  "nouns": [
+   {
+    "lemma": "Beruf",
+    "art": "der",
+    "pl": "Berufe"
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#1319541 CC BY 2.0 FR (автор alexmaur)",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Was",
+     "role": "вопрос-слово",
+     "asks": "кто"
+    },
+    {
+     "w": "bist",
+     "role": "действие №2"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "von Beruf",
+     "role": "добавка"
+    }
+   ],
+   "text": "Профессию спрашивают через was: «что ты по профессии». С du — bist. von Beruf — «по профессии».",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Was — вагон №1, действие bist — сразу за ним, вагон №2: Was bist du von Beruf? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Кто ты по профессии» можно сказать и в другом порядке. По-немецки порядок один: Was · bist · du · von Beruf. Действия bist в русской фразе нет, а по-немецки без него вопроса нет.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Was du bist von Beruf?",
+    "ru": "du встал перед bist — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "Профессию спрашивают через was: «что ты по профессии». С du — bist. von Beruf — «по профессии»."
+  },
+  "audio": "audio_v1/ch02_041.mp3",
+  "tts": "Was bist du von Beruf?",
+  "ipa": [
+   {
+    "w": "Was",
+    "ipa": "[vas]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "bist",
+    "ipa": "[bɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "von",
+    "ipa": "[fɔn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Beruf",
+    "ipa": "[bəˈʁuːf]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_042",
+  "de": "Ich bin Lagerist.",
+  "ru": "Я кладовщик.",
+  "nouns": [
+   {
+    "lemma": "Lagerist",
+    "art": "der",
+    "pl": "Lageristen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "bin",
+     "role": "действие №2"
+    },
+    {
+     "w": "Lagerist",
+     "role": "кто"
+    }
+   ],
+   "text": "Профессия — без артикля: Ich bin Lagerist, не «ein Lagerist». bin как знак «=».",
+   "topic": "verb2",
+   "why_de": "bin работает как знак «=»: ich = Lagerist. Действие держит вагон №2.",
+   "why_ru": "По-русски «Я кладовщик» — без «есть». По-немецки без bin нельзя: Ich bin Lagerist.",
+   "layer": "eq",
+   "why_not": {
+    "wrong": "Ich Lagerist.",
+    "ru": "Русская привычка — пропустить «есть». Без bin немец слышит обрывок, а не фразу."
+   },
+   "root": "bin, bist — от древнего корня *bʰew- («быть»), а ist — от *es- (как русское «есть»); весь глагол sein собран из двух корней (DWDS, Wiktionary)",
+   "why_voice_ru": "Профессия — без артикля: Ich bin Lagerist, не «ein Lagerist». bin как знак «=»."
+  },
+  "audio": "audio_v1/ch02_042.mp3",
+  "tts": "Ich bin Lagerist.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "bin",
+    "ipa": "[bɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Lagerist",
+    "ipa": "[laːɡəˈʁɪst]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_043",
+  "de": "Olga ist Verkäuferin.",
+  "ru": "Ольга — продавщица.",
+  "nouns": [
+   {
+    "lemma": "Verkäuferin",
+    "art": "die",
+    "pl": "Verkäuferinnen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Olga",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "Verkäuferin",
+     "role": "кто"
+    }
+   ],
+   "text": "Для женщины к профессии добавляют -in: Verkäuferin. Профессия — без артикля.",
+   "topic": "verb2",
+   "why_de": "ist работает как знак «=»: Olga = Verkäuferin. Действие держит вагон №2.",
+   "why_ru": "По-русски «Ольга — продавщица» — без «есть». По-немецки без ist нельзя: Olga ist Verkäuferin.",
+   "layer": "eq",
+   "why_not": {
+    "wrong": "Olga Verkäuferin.",
+    "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "Для женщины к профессии добавляют -in: Verkäuferin. Профессия — без артикля."
+  },
+  "audio": "audio_v1/ch02_043.mp3",
+  "tts": "Olga ist Verkäuferin.",
+  "ipa": [
+   {
+    "w": "Olga",
+    "ipa": "[ˈɔlɡa]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Verkäuferin",
+    "ipa": "[fɛɐ̯ˈkɔɪ̯fəʁɪn]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_044",
+  "de": "Das ist Ahmad, er ist Koch.",
+  "ru": "Это Ахмад, он повар.",
+  "nouns": [
+   {
+    "lemma": "Koch",
+    "art": "der",
+    "pl": "Köche"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Das",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "Ahmad",
+     "role": "кто"
+    },
+    {
+     "w": "er",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "Koch",
+     "role": "кто"
+    }
+   ],
+   "text": "er — «он»: ist. Koch — без артикля.",
+   "topic": "verb2",
+   "why_de": "ist работает как знак «=»: das = Ahmad. Действие держит вагон №2.",
+   "why_ru": "По-русски «Это Ахмад, он повар» — без «есть». По-немецки без ist нельзя: Das ist Ahmad, er ist Koch.",
+   "layer": "eq",
+   "why_not": {
+    "wrong": "Das Ahmad, er ist Koch.",
+    "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "er — «он»: ist. Koch — без артикля."
+  },
+  "audio": "audio_v1/ch02_044.mp3",
+  "tts": "Das ist Ahmad, er ist Koch.",
+  "ipa": [
+   {
+    "w": "Das",
+    "ipa": "[das]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Ahmad",
+    "ipa": "[…]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "er",
+    "ipa": "[eːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Koch",
+    "ipa": "[kɔx]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_045",
+  "de": "Frau Becker ist Lehrerin.",
+  "ru": "Госпожа Беккер — учительница.",
+  "nouns": [
+   {
+    "lemma": "Lehrerin",
+    "art": "die",
+    "pl": "Lehrerinnen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Frau Becker",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "Lehrerin",
+     "role": "кто"
+    }
+   ],
+   "text": "Lehrerin — учительница: -in для женщины. Профессия — без артикля.",
+   "topic": "verb2",
+   "why_de": "ist работает как знак «=»: Frau Becker = Lehrerin. Действие держит вагон №2.",
+   "why_ru": "По-русски «Госпожа Беккер — учительница» — без «есть». По-немецки без ist нельзя: Frau Becker ist Lehrerin.",
+   "layer": "eq",
+   "why_not": {
+    "wrong": "Frau Becker Lehrerin.",
+    "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "Lehrerin — учительница: -in для женщины. Профессия — без артикля."
+  },
+  "audio": "audio_v1/ch02_045.mp3",
+  "tts": "Frau Becker ist Lehrerin.",
+  "ipa": [
+   {
+    "w": "Frau",
+    "ipa": "[fʁaʊ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Becker",
+    "ipa": "[ˈbɛkɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Lehrerin",
+    "ipa": "[ˈleːʁəʁɪn]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_046",
+  "de": "Und was bist du von Beruf?",
+  "ru": "А кто ты по профессии?",
+  "nouns": [
+   {
+    "lemma": "Beruf",
+    "art": "der",
+    "pl": "Berufe"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Und",
+     "role": "связка"
+    },
+    {
+     "w": "was",
+     "role": "вопрос-слово",
+     "asks": "кто"
+    },
+    {
+     "w": "bist",
+     "role": "действие №2"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "von Beruf",
+     "role": "добавка"
+    }
+   ],
+   "text": "Вопрос со словом was: на втором месте bist. Und — «а».",
+   "topic": "questions",
+   "why_de": "Вопрос-слово was — вагон №1, действие bist — сразу за ним, вагон №2: Und was bist du von Beruf? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «А кто ты по профессии» можно сказать и в другом порядке. По-немецки порядок один: was · bist · du · von Beruf. Действия bist в русской фразе нет, а по-немецки без него вопроса нет.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Und was du bist von Beruf?",
+    "ru": "du встал перед bist — действие ушло из вагона №2. После was немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "Вопрос со словом was: на втором месте bist. Und — «а»."
+  },
+  "audio": "audio_v1/ch02_046.mp3",
+  "tts": "Und was bist du von Beruf?",
+  "ipa": [
+   {
+    "w": "Und",
+    "ipa": "[ʊnt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "was",
+    "ipa": "[vas]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "bist",
+    "ipa": "[bɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "von",
+    "ipa": "[fɔn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Beruf",
+    "ipa": "[bəˈʁuːf]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_047",
+  "de": "Team, Firma, Mitarbeiter, Mitarbeiterin.",
+  "ru": "Команда, фирма, сотрудник, сотрудница.",
+  "nouns": [
+   {
+    "lemma": "Team",
+    "art": "das",
+    "pl": "Teams"
+   },
+   {
+    "lemma": "Firma",
+    "art": "die",
+    "pl": "Firmen"
+   },
+   {
+    "lemma": "Mitarbeiter",
+    "art": "der",
+    "pl": "Mitarbeiter"
+   },
+   {
+    "lemma": "Mitarbeiterin",
+    "art": "die",
+    "pl": "Mitarbeiterinnen"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Team",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Firma",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Mitarbeiter",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Mitarbeiterin",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Слова курса: das Team, die Firma, der Mitarbeiter, die Mitarbeiterin.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: das Team — команда · die Firma — фирма · der Mitarbeiter — сотрудник · die Mitarbeiterin — сотрудница.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: das Team, die Firma, der Mitarbeiter, die Mitarbeiterin."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: das Team, die Firma, der Mitarbeiter, die Mitarbeiterin."
+  },
+  "audio": "audio_v1/ch02_047.mp3",
+  "tts": "Team, Firma, Mitarbeiter, Mitarbeiterin.",
+  "ipa": [
+   {
+    "w": "Team",
+    "ipa": "[tiːm]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Firma",
+    "ipa": "[ˈfɪʁma]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Mitarbeiter",
+    "ipa": "[ˈmɪtʔaʁˌbaɪ̯tɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Mitarbeiterin",
+    "ipa": "[ˈmɪtˌʔaʁbaɪ̯təʁɪn]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_048",
+  "de": "Techniker, Technikerin, Informatiker, Informatikerin.",
+  "ru": "Техник, женщина-техник, ИТ-специалист, женщина — ИТ-специалист.",
+  "nouns": [
+   {
+    "lemma": "Techniker",
+    "art": "der",
+    "pl": "Techniker"
+   },
+   {
+    "lemma": "Technikerin",
+    "art": "die",
+    "pl": "Technikerinnen"
+   },
+   {
+    "lemma": "Informatiker",
+    "art": "der",
+    "pl": "Informatiker"
+   },
+   {
+    "lemma": "Informatikerin",
+    "art": "die",
+    "pl": "Informatikerinnen"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Techniker",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Technikerin",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Informatiker",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Informatikerin",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Пары «он — она»: для женщины к профессии добавляют -in.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Techniker — техник · die Technikerin — женщина-техник · der Informatiker — ИТ-специалист · die Informatikerin — женщина — ИТ-специалист.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Techniker, die Technikerin, der Informatiker, die Informatikerin."
+   },
+   "root": null,
+   "why_voice_ru": "Пары «он — она»: для женщины к профессии добавляют -in."
+  },
+  "audio": "audio_v1/ch02_048.mp3",
+  "tts": "Techniker, Technikerin, Informatiker, Informatikerin.",
+  "ipa": [
+   {
+    "w": "Techniker",
+    "ipa": "[ˈtɛçnɪkɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Technikerin",
+    "ipa": "[ˈtɛçnɪkəʁɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Informatiker",
+    "ipa": "[ɪnfɔʁˈmaːtɪkɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Informatikerin",
+    "ipa": "[ɪnfɔʁˈmaːtɪkəʁɪn]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_049",
+  "de": "Assistent, Assistentin, Praktikant, Praktikantin.",
+  "ru": "Ассистент, ассистентка, практикант, практикантка.",
+  "nouns": [
+   {
+    "lemma": "Assistent",
+    "art": "der",
+    "pl": "Assistenten"
+   },
+   {
+    "lemma": "Assistentin",
+    "art": "die",
+    "pl": "Assistentinnen"
+   },
+   {
+    "lemma": "Praktikant",
+    "art": "der",
+    "pl": "Praktikanten"
+   },
+   {
+    "lemma": "Praktikantin",
+    "art": "die",
+    "pl": "Praktikantinnen"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Assistent",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Assistentin",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Praktikant",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Praktikantin",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Пары «он — она»: Assistent — Assistentin, Praktikant — Praktikantin.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Assistent — ассистент · die Assistentin — ассистентка · der Praktikant — практикант · die Praktikantin — практикантка.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Assistent, die Assistentin, der Praktikant, die Praktikantin."
+   },
+   "root": null,
+   "why_voice_ru": "Пары «он — она»: Assistent — Assistentin, Praktikant — Praktikantin."
+  },
+  "audio": "audio_v1/ch02_049.mp3",
+  "tts": "Assistent, Assistentin, Praktikant, Praktikantin.",
+  "ipa": [
+   {
+    "w": "Assistent",
+    "ipa": "[asɪsˈtɛnt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Assistentin",
+    "ipa": "[asɪsˈtɛntɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Praktikant",
+    "ipa": "[pʁaktiˈkant]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Praktikantin",
+    "ipa": "[pʁaktiˈkantɪn]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_050",
+  "de": "Fahrer, Fahrerin, Manager, Verkäufer, Lageristin.",
+  "ru": "Водитель, женщина-водитель, менеджер, продавец, кладовщица.",
+  "nouns": [
+   {
+    "lemma": "Fahrer",
+    "art": "der",
+    "pl": "Fahrer"
+   },
+   {
+    "lemma": "Fahrerin",
+    "art": "die",
+    "pl": "Fahrerinnen"
+   },
+   {
+    "lemma": "Manager",
+    "art": "der",
+    "pl": "Manager"
+   },
+   {
+    "lemma": "Verkäufer",
+    "art": "der",
+    "pl": "Verkäufer"
+   },
+   {
+    "lemma": "Lageristin",
+    "art": "die",
+    "pl": "Lageristinnen"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Fahrer",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Fahrerin",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Manager",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Verkäufer",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Lageristin",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Профессии со стр. 36: der Fahrer, die Fahrerin, der Manager, der Verkäufer, die Lageristin.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Fahrer — водитель · die Fahrerin — женщина-водитель · der Manager — менеджер · der Verkäufer — продавец · die Lageristin — кладовщица.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Fahrer, die Fahrerin, der Manager, der Verkäufer, die Lageristin."
+   },
+   "root": null,
+   "why_voice_ru": "Профессии со стр. 36: der Fahrer, die Fahrerin, der Manager, der Verkäufer, die Lageristin."
+  },
+  "audio": "audio_v1/ch02_050.mp3",
+  "tts": "Fahrer, Fahrerin, Manager, Verkäufer, Lageristin.",
+  "ipa": [
+   {
+    "w": "Fahrer",
+    "ipa": "[ˈfaːʁɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fahrerin",
+    "ipa": "[ˈfaːʁəʁɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Manager",
+    "ipa": "[ˈmɛnɪd͡ʒɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Verkäufer",
+    "ipa": "[fɛɐ̯ˈkɔɪ̯fɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Lageristin",
+    "ipa": "[laːɡəˈʁɪstɪn]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_051",
+  "de": "Export, Homepage, Information, Monat.",
+  "ru": "Экспорт, сайт, информация, месяц.",
+  "nouns": [
+   {
+    "lemma": "Export",
+    "art": "der",
+    "pl": "Exporte"
+   },
+   {
+    "lemma": "Homepage",
+    "art": "die",
+    "pl": "Homepages"
+   },
+   {
+    "lemma": "Information",
+    "art": "die",
+    "pl": "Informationen"
+   },
+   {
+    "lemma": "Monat",
+    "art": "der",
+    "pl": "Monate"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Export",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Homepage",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Information",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Monat",
+     "role": "слово",
+     "art": "der"
+    }
+   ],
+   "text": "Слова курса: der Export, die Homepage, die Information, der Monat.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Export — экспорт · die Homepage — сайт · die Information — информация · der Monat — месяц.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Export, die Homepage, die Information, der Monat."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: der Export, die Homepage, die Information, der Monat."
+  },
+  "audio": "audio_v1/ch02_051.mp3",
+  "tts": "Export, Homepage, Information, Monat.",
+  "ipa": [
+   {
+    "w": "Export",
+    "ipa": "[ɛksˈpɔʁt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Homepage",
+    "ipa": "[ˈhɔʊ̯mpɛɪ̯t͡ʃ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Information",
+    "ipa": "[ɪnfɔʁmaˈt͡si̯oːn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Monat",
+    "ipa": "[ˈmoːnat]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_052",
+  "de": "Was ist Ihr Traumberuf?",
+  "ru": "Какая у вас профессия мечты?",
+  "nouns": [
+   {
+    "lemma": "Traumberuf",
+    "art": "der",
+    "pl": "Traumberufe"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Was",
+     "role": "вопрос-слово",
+     "asks": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "Ihr Traumberuf",
+     "role": "кто"
+    }
+   ],
+   "text": "Длинное слово: Traum + Beruf. Артикль даёт последняя часть: der Beruf → Ihr Traumberuf, без -e.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Was — вагон №1, действие ist — сразу за ним, вагон №2: Was ist Ihr Traumberuf? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Какая у вас профессия мечты» можно сказать и в другом порядке. По-немецки порядок один: Was · ist · Ihr Traumberuf. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Was Ihr Traumberuf ist?",
+    "ru": "Ihr Traumberuf встал перед ist — действие ушло из вагона №2. После Was немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "Длинное слово: Traum + Beruf. Артикль даёт последняя часть: der Beruf → Ihr Traumberuf, без -e."
+  },
+  "audio": "audio_v1/ch02_052.mp3",
+  "tts": "Was ist Ihr Traumberuf?",
+  "ipa": [
+   {
+    "w": "Was",
+    "ipa": "[vas]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Ihr",
+    "ipa": "[iːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Traumberuf",
+    "ipa": "[ˈtʁaʊ̯mbəˌʁuːf]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_053",
+  "de": "Mein Traumberuf ist Koch.",
+  "ru": "Профессия моей мечты — повар.",
+  "nouns": [
+   {
+    "lemma": "Traumberuf",
+    "art": "der",
+    "pl": "Traumberufe"
+   },
+   {
+    "lemma": "Koch",
+    "art": "der",
+    "pl": "Köche"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Mein Traumberuf",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "Koch",
+     "role": "кто"
+    }
+   ],
+   "text": "der Traumberuf → mein, без -e. ist как знак «=». Koch — профессия, без артикля.",
+   "topic": "verb2",
+   "why_de": "ist работает как знак «=»: mein Traumberuf = Koch. Действие держит вагон №2.",
+   "why_ru": "По-русски «Профессия моей мечты — повар» — без «есть». По-немецки без ist нельзя: Mein Traumberuf ist Koch.",
+   "layer": "eq",
+   "why_not": {
+    "wrong": "Mein Traumberuf Koch.",
+    "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "der Traumberuf → mein, без -e. ist как знак «=». Koch — профессия, без артикля."
+  },
+  "audio": "audio_v1/ch02_053.mp3",
+  "tts": "Mein Traumberuf ist Koch.",
+  "ipa": [
+   {
+    "w": "Mein",
+    "ipa": "[maɪ̯n]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Traumberuf",
+    "ipa": "[ˈtʁaʊ̯mbəˌʁuːf]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Koch",
+    "ipa": "[kɔx]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_054",
+  "de": "Welche Sprachen sprechen Sie?",
+  "ru": "На каких языках вы говорите?",
+  "nouns": [
+   {
+    "lemma": "Sprache",
+    "art": "die",
+    "pl": "Sprachen"
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#11653691 CC BY 2.0 FR (автор Cabo)",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Welche Sprachen",
+     "role": "вопрос-слово",
+     "asks": "кого-что"
+    },
+    {
+     "w": "sprechen",
+     "role": "действие №2"
+    },
+    {
+     "w": "Sie",
+     "role": "кто"
+    }
+   ],
+   "text": "На «вы» действие — как в словаре: sprechen Sie. На «ты» было бы sprichst du.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Welche Sprachen — вагон №1, действие sprechen — сразу за ним, вагон №2: Welche Sprachen sprechen Sie? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «На каких языках вы говорите» можно сказать и в другом порядке. По-немецки порядок один: Welche Sprachen · sprechen · Sie.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Welche Sprachen Sie sprechen?",
+    "ru": "Sie встал перед sprechen — действие ушло из вагона №2. После Welche Sprachen немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": null,
+   "why_voice_ru": "На «вы» действие — как в словаре: sprechen Sie. На «ты» было бы sprichst du."
+  },
+  "audio": "audio_v1/ch02_054.mp3",
+  "tts": "Welche Sprachen sprechen Sie?",
+  "ipa": [
+   {
+    "w": "Welche",
+    "ipa": "[ˈvɛlçə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Sprachen",
+    "ipa": "[ˈʃpʁaːxən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "sprechen",
+    "ipa": "[ˈʃpʁɛçn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Sie",
+    "ipa": "[ziː]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_055",
+  "de": "Elf, zwölf, siebzehn, siebzig.",
+  "ru": "Одиннадцать, двенадцать, семнадцать, семьдесят.",
+  "nouns": [],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "elf",
+     "role": "число"
+    },
+    {
+     "w": "zwölf",
+     "role": "число"
+    },
+    {
+     "w": "siebzehn",
+     "role": "число"
+    },
+    {
+     "w": "siebzig",
+     "role": "число"
+    }
+   ],
+   "text": "Числа, которые легко спутать: elf — 11, zwölf — 12, siebzehn — 17 (sieben без -en + zehn), siebzig — 70.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а числа: это отдельные слова, у числа свой звук.",
+   "why_ru": "По-русски тоже список, слово за словом: elf — одиннадцать · zwölf — двенадцать · siebzehn — семнадцать · siebzig — семьдесят.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — знать числа только по порядку. В анкете и по телефону число звучит одно, без соседей: проверь себя вразбивку — zwölf, siebzig, elf, siebzehn."
+   },
+   "root": null,
+   "why_voice_ru": "Числа, которые легко спутать: elf — 11, zwölf — 12, siebzehn — 17 (sieben без -en + zehn), siebzig — 70."
+  },
+  "audio": "audio_v1/ch02_055.mp3",
+  "tts": "Elf, zwölf, siebzehn, siebzig.",
+  "ipa": [
+   {
+    "w": "Elf",
+    "ipa": "[ɛlf]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "zwölf",
+    "ipa": "[t͡svœlf]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "siebzehn",
+    "ipa": "[ˈziːpt͡seːn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "siebzig",
+    "ipa": "[ˈziːpt͡sɪç]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_056",
+  "de": "Ist das siebzehn oder siebzig?",
+  "ru": "Это семнадцать или семьдесят?",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Ist",
+     "role": "действие №1"
+    },
+    {
+     "w": "das",
+     "role": "кто"
+    },
+    {
+     "w": "siebzehn oder siebzig",
+     "role": "кто"
+    }
+   ],
+   "text": "Вопрос «или»: действие ist впереди. siebzehn (17) и siebzig (70) различай по концу: -zehn и -zig.",
+   "topic": "questions",
+   "why_de": "Вопрос «или»: действие Ist впереди, в вагоне №1, как в вопросе «да/нет». Но «да» или «нет» тут не ответ: надо выбрать — siebzehn или siebzig. Голос: на siebzehn вверх ↗, на siebzig вниз ↘.",
+   "why_ru": "По-русски так же: «Это семнадцать или семьдесят» — вопрос делает слово «или». Разница одна: по-немецки действие Ist стоит впереди, в вагоне №1. Действия Ist в русской фразе нет, а по-немецки без него вопроса нет.",
+   "layer": "alt",
+   "why_not": {
+    "wrong": "Das ist siebzehn oder siebzig?",
+    "ru": "Русский порядок: «кто» (das) перед действием. Немец поймёт, но сразу услышит ошибку: вопрос «или» начинают с действия Ist."
+   },
+   "root": null,
+   "why_voice_ru": "Вопрос «или»: действие ist впереди. siebzehn (17) и siebzig (70) различай по концу: -zehn и -zig.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "действие (вагон №1) · «кто» · «кто»",
+    "items": [
+     {
+      "id": "ch02_014",
+      "de": "Ist das dreizehn oder dreißig?",
+      "ru": "Это тринадцать или тридцать?",
+      "audio": "audio_v4/ch02_014.mp3",
+      "lesson": "L2",
+      "part": 3,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "siebzehn oder siebzig",
+       "to": "dreizehn oder dreißig"
+      }
+     },
+     {
+      "id": "ch02_d3_05",
+      "de": "Ist das deine Handynummer?",
+      "ru": "Это твой номер мобильного?",
+      "audio": "audio_v4/ch02_d3_05.mp3",
+      "lesson": "L3",
+      "part": 4,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "siebzehn oder siebzig",
+       "to": "deine Handynummer"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ist · das. В каждом примере меняется один вагон — «кто»: siebzehn oder siebzig → dreizehn oder dreißig → deine Handynummer. Действие Ist всё так же в вагоне №1.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch02_056.mp3",
+  "tts": "Ist das siebzehn oder siebzig?",
+  "ipa": [
+   {
+    "w": "Ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "das",
+    "ipa": "[das]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "siebzehn",
+    "ipa": "[ˈziːpt͡seːn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "oder",
+    "ipa": "[ˈoːdɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "siebzig",
+    "ipa": "[ˈziːpt͡sɪç]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_057",
+  "de": "Sprechen Sie Englisch?",
+  "ru": "Вы говорите по-английски?",
+  "nouns": [
+   {
+    "lemma": "Englisch",
+    "art": "das",
+    "pl": ""
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#343081 CC BY 2.0 FR (автор MUIRIEL)",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Sprechen",
+     "role": "действие №1"
+    },
+    {
+     "w": "Sie",
+     "role": "кто"
+    },
+    {
+     "w": "Englisch",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Вопрос «да/нет» на «вы»: действие sprechen впереди, за ним Sie.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Sprechen) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Sprechen Sie Englisch?",
+   "why_ru": "По-русски «Вы говорите по-английски» — вопрос только голосом, порядок как в ответе. По-немецки действие Sprechen выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Sie sprechen Englisch?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Вы говорите по-английски?!»). Обычный вопрос — действие впереди."
+   },
+   "root": null,
+   "why_voice_ru": "Вопрос «да/нет» на «вы»: действие sprechen впереди, за ним Sie."
+  },
+  "audio": "audio_v1/ch02_057.mp3",
+  "tts": "Sprechen Sie Englisch?",
+  "ipa": [
+   {
+    "w": "Sprechen",
+    "ipa": "[ˈʃpʁɛçn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Sie",
+    "ipa": "[ziː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Englisch",
+    "ipa": "[ˈɛŋlɪʃ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_058",
+  "de": "Pilot, Pilotin, Polizist, Polizistin.",
+  "ru": "Пилот, женщина-пилот, полицейский, женщина-полицейский.",
+  "nouns": [
+   {
+    "lemma": "Pilot",
+    "art": "der",
+    "pl": "Piloten"
+   },
+   {
+    "lemma": "Pilotin",
+    "art": "die",
+    "pl": "Pilotinnen"
+   },
+   {
+    "lemma": "Polizist",
+    "art": "der",
+    "pl": "Polizisten"
+   },
+   {
+    "lemma": "Polizistin",
+    "art": "die",
+    "pl": "Polizistinnen"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Pilot",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Pilotin",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Polizist",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Polizistin",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Пары «он — она»: для женщины к профессии добавляют -in.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Pilot — пилот · die Pilotin — женщина-пилот · der Polizist — полицейский · die Polizistin — женщина-полицейский.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Pilot, die Pilotin, der Polizist, die Polizistin."
+   },
+   "root": null,
+   "why_voice_ru": "Пары «он — она»: для женщины к профессии добавляют -in."
+  },
+  "audio": "audio_v1/ch02_058.mp3",
+  "tts": "Pilot, Pilotin, Polizist, Polizistin.",
+  "ipa": [
+   {
+    "w": "Pilot",
+    "ipa": "[piˈloːt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Pilotin",
+    "ipa": "[piˈloːtɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Polizist",
+    "ipa": "[poliˈt͡sɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Polizistin",
+    "ipa": "[poliˈt͡sɪstɪn]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_059",
+  "de": "Friseur, Friseurin, Sänger, Sängerin.",
+  "ru": "Парикмахер, женщина-парикмахер, певец, певица.",
+  "nouns": [
+   {
+    "lemma": "Friseur",
+    "art": "der",
+    "pl": "Friseure"
+   },
+   {
+    "lemma": "Friseurin",
+    "art": "die",
+    "pl": "Friseurinnen"
+   },
+   {
+    "lemma": "Sänger",
+    "art": "der",
+    "pl": "Sänger"
+   },
+   {
+    "lemma": "Sängerin",
+    "art": "die",
+    "pl": "Sängerinnen"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Friseur",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Friseurin",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Sänger",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Sängerin",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Пары «он — она»: Friseur — Friseurin, Sänger — Sängerin.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Friseur — парикмахер · die Friseurin — женщина-парикмахер · der Sänger — певец · die Sängerin — певица.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Friseur, die Friseurin, der Sänger, die Sängerin."
+   },
+   "root": null,
+   "why_voice_ru": "Пары «он — она»: Friseur — Friseurin, Sänger — Sängerin."
+  },
+  "audio": "audio_v1/ch02_059.mp3",
+  "tts": "Friseur, Friseurin, Sänger, Sängerin.",
+  "ipa": [
+   {
+    "w": "Friseur",
+    "ipa": "[fʁiˈzøːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Friseurin",
+    "ipa": "[fʁiˈzøːʁɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Sänger",
+    "ipa": "[ˈzɛŋɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Sängerin",
+    "ipa": "[ˈzɛŋəʁɪn]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_060",
+  "de": "Schauspieler, Schauspielerin, Fußballspieler, Fußballspielerin.",
+  "ru": "Актёр, актриса, футболист, футболистка.",
+  "nouns": [
+   {
+    "lemma": "Schauspieler",
+    "art": "der",
+    "pl": "Schauspieler"
+   },
+   {
+    "lemma": "Schauspielerin",
+    "art": "die",
+    "pl": "Schauspielerinnen"
+   },
+   {
+    "lemma": "Fußballspieler",
+    "art": "der",
+    "pl": "Fußballspieler"
+   },
+   {
+    "lemma": "Fußballspielerin",
+    "art": "die",
+    "pl": "Fußballspielerinnen"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Schauspieler",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Schauspielerin",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Fußballspieler",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Fußballspielerin",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Пары «он — она»: Schauspieler — Schauspielerin, Fußballspieler — Fußballspielerin.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Schauspieler — актёр · die Schauspielerin — актриса · der Fußballspieler — футболист · die Fußballspielerin — футболистка.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Schauspieler, die Schauspielerin, der Fußballspieler, die Fußballspielerin."
+   },
+   "root": null,
+   "why_voice_ru": "Пары «он — она»: Schauspieler — Schauspielerin, Fußballspieler — Fußballspielerin."
+  },
+  "audio": "audio_v1/ch02_060.mp3",
+  "tts": "Schauspieler, Schauspielerin, Fußballspieler, Fußballspielerin.",
+  "ipa": [
+   {
+    "w": "Schauspieler",
+    "ipa": "[ˈʃaʊ̯ˌʃpiːlɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Schauspielerin",
+    "ipa": "[ˈʃaʊ̯ˌʃpiːləʁɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fußballspieler",
+    "ipa": "[ˈfuːsbalˌʃpiːlɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Fußballspielerin",
+    "ipa": "[ˈfuːsbalˌʃpiːləʁɪn]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_061",
+  "de": "Feuerwehrmann, Feuerwehrfrau, Krankenpfleger, Krankenschwester.",
+  "ru": "Пожарный, женщина-пожарный, медбрат, медсестра.",
+  "nouns": [
+   {
+    "lemma": "Feuerwehrmann",
+    "art": "der",
+    "pl": "Feuerwehrmänner"
+   },
+   {
+    "lemma": "Feuerwehrfrau",
+    "art": "die",
+    "pl": "Feuerwehrfrauen"
+   },
+   {
+    "lemma": "Krankenpfleger",
+    "art": "der",
+    "pl": "Krankenpfleger"
+   },
+   {
+    "lemma": "Krankenschwester",
+    "art": "die",
+    "pl": "Krankenschwestern"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Feuerwehrmann",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Feuerwehrfrau",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Krankenpfleger",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Krankenschwester",
+     "role": "слово",
+     "art": "die"
+    }
+   ],
+   "text": "Здесь «она» — другое слово: Feuerwehrmann — Feuerwehrfrau, Krankenpfleger — Krankenschwester.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Feuerwehrmann — пожарный · die Feuerwehrfrau — женщина-пожарный · der Krankenpfleger — медбрат · die Krankenschwester — медсестра.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Feuerwehrmann, die Feuerwehrfrau, der Krankenpfleger, die Krankenschwester."
+   },
+   "root": null,
+   "why_voice_ru": "Здесь «она» — другое слово: Feuerwehrmann — Feuerwehrfrau, Krankenpfleger — Krankenschwester."
+  },
+  "audio": "audio_v1/ch02_061.mp3",
+  "tts": "Feuerwehrmann, Feuerwehrfrau, Krankenpfleger, Krankenschwester.",
+  "ipa": [
+   {
+    "w": "Feuerwehrmann",
+    "ipa": "[ˈfɔɪ̯ɐveːɐ̯ˌman]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Feuerwehrfrau",
+    "ipa": "[ˈfɔɪ̯ɐveːɐ̯ˌfʁaʊ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Krankenpfleger",
+    "ipa": "[ˈkʁaŋkn̩ˌp͡fleːɡɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Krankenschwester",
+    "ipa": "[ˈkʁaŋkn̩ˌʃvɛstɐ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "S4 IPA «Krankenschwester»: [ˈkʁaŋkn̩ˌʃvɛstɐ] ≠ источник [ˈkʁaŋkŋ̍ˌʃvɛstɐ]"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_062",
+  "de": "Tierarzt, Tierärztin, Lehrer.",
+  "ru": "Ветеринар, женщина-ветеринар, учитель.",
+  "nouns": [
+   {
+    "lemma": "Tierarzt",
+    "art": "der",
+    "pl": "Tierärzte"
+   },
+   {
+    "lemma": "Tierärztin",
+    "art": "die",
+    "pl": "Tierärztinnen"
+   },
+   {
+    "lemma": "Lehrer",
+    "art": "der",
+    "pl": "Lehrer"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Tierarzt",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Tierärztin",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Lehrer",
+     "role": "слово",
+     "art": "der"
+    }
+   ],
+   "text": "Слова курса: der Tierarzt, die Tierärztin, der Lehrer.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Tierarzt — ветеринар · die Tierärztin — женщина-ветеринар · der Lehrer — учитель.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Tierarzt, die Tierärztin, der Lehrer."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: der Tierarzt, die Tierärztin, der Lehrer."
+  },
+  "audio": "audio_v1/ch02_062.mp3",
+  "tts": "Tierarzt, Tierärztin, Lehrer.",
+  "ipa": [
+   {
+    "w": "Tierarzt",
+    "ipa": "[ˈtiːɐˌʔaːɐ̯t͡st]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Tierärztin",
+    "ipa": "[ˈtiːɐ̯ˌʔɛːɐ̯t͡stɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Lehrer",
+    "ipa": "[ˈleːʁɐ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_063",
+  "de": "Kind, Junge, Mädchen, Idee, Kärtchen.",
+  "ru": "Ребёнок, мальчик, девочка, идея, карточка.",
+  "nouns": [
+   {
+    "lemma": "Kind",
+    "art": "das",
+    "pl": "Kinder"
+   },
+   {
+    "lemma": "Junge",
+    "art": "der",
+    "pl": "Jungen"
+   },
+   {
+    "lemma": "Mädchen",
+    "art": "das",
+    "pl": "Mädchen"
+   },
+   {
+    "lemma": "Idee",
+    "art": "die",
+    "pl": "Ideen"
+   },
+   {
+    "lemma": "Kärtchen",
+    "art": "das",
+    "pl": "Kärtchen"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Kind",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Junge",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Mädchen",
+     "role": "слово",
+     "art": "das"
+    },
+    {
+     "w": "Idee",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Kärtchen",
+     "role": "слово",
+     "art": "das"
+    }
+   ],
+   "text": "Слова курса: das Kind, der Junge, das Mädchen, die Idee, das Kärtchen.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: das Kind — ребёнок · der Junge — мальчик · das Mädchen — девочка · die Idee — идея · das Kärtchen — карточка.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: das Kind, der Junge, das Mädchen, die Idee, das Kärtchen."
+   },
+   "root": null,
+   "why_voice_ru": "Слова курса: das Kind, der Junge, das Mädchen, die Idee, das Kärtchen."
+  },
+  "audio": "audio_v1/ch02_063.mp3",
+  "tts": "Kind, Junge, Mädchen, Idee, Kärtchen.",
+  "ipa": [
+   {
+    "w": "Kind",
+    "ipa": "[kɪnt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Junge",
+    "ipa": "[ˈjʊŋə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Mädchen",
+    "ipa": "[ˈmɛːtçən]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Idee",
+    "ipa": "[iˈdeː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Kärtchen",
+    "ipa": "[ˈkɛʁtçən]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_064",
+  "de": "Freund, Freundin, Telefonnummer, Deutschkurs.",
+  "ru": "Друг, подруга, номер телефона, курс немецкого.",
+  "nouns": [
+   {
+    "lemma": "Freund",
+    "art": "der",
+    "pl": "Freunde"
+   },
+   {
+    "lemma": "Freundin",
+    "art": "die",
+    "pl": "Freundinnen"
+   },
+   {
+    "lemma": "Telefonnummer",
+    "art": "die",
+    "pl": "Telefonnummern"
+   },
+   {
+    "lemma": "Deutschkurs",
+    "art": "der",
+    "pl": "Deutschkurse"
+   }
+  ],
+  "chunk": true,
+  "source": "own",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Freund",
+     "role": "слово",
+     "art": "der"
+    },
+    {
+     "w": "Freundin",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Telefonnummer",
+     "role": "слово",
+     "art": "die"
+    },
+    {
+     "w": "Deutschkurs",
+     "role": "слово",
+     "art": "der"
+    }
+   ],
+   "text": "Слова курса: der Freund, die Freundin, die Telefonnummer, der Deutschkurs.",
+   "topic": "articles",
+   "why_de": "Это не фраза, а слова: их учим по одному, со своим артиклем.",
+   "why_ru": "По-русски тоже список, слово за словом: der Freund — друг · die Freundin — подруга · die Telefonnummer — номер телефона · der Deutschkurs — курс немецкого.",
+   "layer": "words",
+   "why_not": {
+    "wrong": null,
+    "ru": "Ошибка — учить слово без артикля. У слова свой артикль: der Freund, die Freundin, die Telefonnummer, der Deutschkurs."
+   },
+   "root": "Telefonnummer = Telefon + Nummer (Telefon — телефон; Nummer — номер) — Wiktionary; Deutschkurs = Deutsch + Kurs (Deutsch — немецкий; Kurs — курс) — Wiktionary",
+   "why_voice_ru": "Слова курса: der Freund, die Freundin, die Telefonnummer, der Deutschkurs."
+  },
+  "audio": "audio_v1/ch02_064.mp3",
+  "tts": "Freund, Freundin, Telefonnummer, Deutschkurs.",
+  "ipa": [
+   {
+    "w": "Freund",
+    "ipa": "[fʁɔɪ̯nt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Freundin",
+    "ipa": "[ˈfʁɔɪ̯ndɪn]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Telefonnummer",
+    "ipa": "[teləˈfoːnˌnʊmɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Deutschkurs",
+    "ipa": "[ˈdɔɪ̯t͡ʃˌkʊʁs]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_t01",
+  "de": "Wie ist Ihre Adresse?",
+  "ru": "Какой у вас адрес?",
+  "nouns": [
+   {
+    "lemma": "Adresse",
+    "art": "die",
+    "pl": "Adressen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch02_L1",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Wie",
+     "role": "вопрос-слово",
+     "asks": ""
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "Ihre Adresse",
+     "role": "кто"
+    }
+   ],
+   "text": "Тот же вопрос: Adresse — последняя часть слова E-Mail-Adresse, die-слово, поэтому Ihre с -e.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Wie — вагон №1, действие ist — сразу за ним, вагон №2: Wie ist Ihre Adresse? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Какой у вас адрес» можно сказать и в другом порядке. По-немецки порядок один: Wie · ist · Ihre Adresse. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Wie Ihre Adresse ist?",
+    "ru": "Ihre Adresse встал перед ist — действие ушло из вагона №2. После Wie немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "Тот же вопрос: Adresse — последняя часть слова E-Mail-Adresse, die-слово, поэтому Ihre с -e.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "вопрос-слово · действие (вагон №2) · «кто»",
+    "items": [
+     {
+      "id": "ch02_008",
+      "de": "Wie ist Ihre Hausnummer?",
+      "ru": "Какой у вас номер дома?",
+      "audio": "audio_v4/ch02_008.mp3",
+      "lesson": "L1",
+      "part": 2,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "Ihre Adresse",
+       "to": "Ihre Hausnummer"
+      }
+     },
+     {
+      "id": "ch02_001",
+      "de": "Wie ist deine Handynummer?",
+      "ru": "Какой у тебя номер мобильного?",
+      "audio": "audio_v4/ch02_001.mp3",
+      "lesson": "L1",
+      "part": 3,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "Ihre Adresse",
+       "to": "deine Handynummer"
+      }
+     },
+     {
+      "id": "ch02_003",
+      "de": "Wie ist Ihre Handynummer?",
+      "ru": "Какой у вас номер мобильного?",
+      "audio": "audio_v4/ch02_003.mp3",
+      "lesson": "L1",
+      "part": 3,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "Ihre Adresse",
+       "to": "Ihre Handynummer"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Wie · ist. В каждом примере меняется один вагон — «кто»: Ihre Adresse → Ihre Hausnummer → deine Handynummer → Ihre Handynummer. Действие ist всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v4/ch02_t01.mp3",
+  "tts": "Wie ist Ihre Adresse?",
+  "ipa": [
+   {
+    "w": "Wie",
+    "ipa": "[viː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Ihre",
+    "ipa": "[ˈiːʁə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Adresse",
+    "ipa": "[aˈdʁɛsə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_t02",
+  "de": "Wie ist deine Adresse?",
+  "ru": "Какой у тебя адрес?",
+  "nouns": [
+   {
+    "lemma": "Adresse",
+    "art": "die",
+    "pl": "Adressen"
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#3018043 CC BY 2.0 FR (автор freddy1)",
+  "transfer": true,
+  "lesson": "ch02_L1",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Wie",
+     "role": "вопрос-слово",
+     "asks": ""
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "deine Adresse",
+     "role": "кто"
+    }
+   ],
+   "text": "На «ты»: deine. die Adresse — die-слово, поэтому deine с -e.",
+   "topic": "questions",
+   "why_de": "Вопрос-слово Wie — вагон №1, действие ist — сразу за ним, вагон №2: Wie ist deine Adresse? Немец сначала говорит, ЧТО хочет узнать.",
+   "why_ru": "По-русски «Какой у тебя адрес» можно сказать и в другом порядке. По-немецки порядок один: Wie · ist · deine Adresse. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+   "layer": "wq",
+   "why_not": {
+    "wrong": "Wie deine Adresse ist?",
+    "ru": "deine Adresse встал перед ist — действие ушло из вагона №2. После Wie немец ждёт сразу действие, иначе вопроса нет."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "На «ты»: deine. die Adresse — die-слово, поэтому deine с -e.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "вопрос-слово · действие (вагон №2) · «кто»",
+    "items": [
+     {
+      "id": "ch02_008",
+      "de": "Wie ist Ihre Hausnummer?",
+      "ru": "Какой у вас номер дома?",
+      "audio": "audio_v4/ch02_008.mp3",
+      "lesson": "L1",
+      "part": 2,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "deine Adresse",
+       "to": "Ihre Hausnummer"
+      }
+     },
+     {
+      "id": "ch02_001",
+      "de": "Wie ist deine Handynummer?",
+      "ru": "Какой у тебя номер мобильного?",
+      "audio": "audio_v4/ch02_001.mp3",
+      "lesson": "L1",
+      "part": 3,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "deine Adresse",
+       "to": "deine Handynummer"
+      }
+     },
+     {
+      "id": "ch02_003",
+      "de": "Wie ist Ihre Handynummer?",
+      "ru": "Какой у вас номер мобильного?",
+      "audio": "audio_v4/ch02_003.mp3",
+      "lesson": "L1",
+      "part": 3,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "deine Adresse",
+       "to": "Ihre Handynummer"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Wie · ist. В каждом примере меняется один вагон — «кто»: deine Adresse → Ihre Hausnummer → deine Handynummer → Ihre Handynummer. Действие ist всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v4/ch02_t02.mp3",
+  "tts": "Wie ist deine Adresse?",
+  "ipa": [
+   {
+    "w": "Wie",
+    "ipa": "[viː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "deine",
+    "ipa": "[ˈdaɪ̯nə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Adresse",
+    "ipa": "[aˈdʁɛsə]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_t03",
+  "de": "Meine Hausnummer ist dreißig.",
+  "ru": "Мой номер дома — тридцать.",
+  "nouns": [
+   {
+    "lemma": "Hausnummer",
+    "art": "die",
+    "pl": "Hausnummern"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch02_L2",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Meine Hausnummer",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "dreißig",
+     "role": "кто"
+    }
+   ],
+   "text": "Тот же поезд, другое число: dreißig — 30 (конец -ßig).",
+   "topic": "verb2",
+   "why_de": "ist работает как знак «=»: meine Hausnummer = dreißig. Действие держит вагон №2.",
+   "why_ru": "По-русски «Мой номер дома — тридцать» — без «есть». По-немецки без ist нельзя: Meine Hausnummer ist dreißig.",
+   "layer": "eq",
+   "why_not": {
+    "wrong": "Meine Hausnummer dreißig.",
+    "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "Тот же поезд, другое число: dreißig — 30 (конец -ßig).",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "«кто» · действие (вагон №2) · «кто»",
+    "items": [
+     {
+      "id": "ch02_013",
+      "de": "Meine Hausnummer ist dreizehn.",
+      "ru": "Мой номер дома — тринадцать.",
+      "audio": "audio_v4/ch02_013.mp3",
+      "lesson": "L2",
+      "part": 3,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "dreißig",
+       "to": "dreizehn"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Meine Hausnummer · ist. В каждом примере меняется один вагон — «кто»: dreißig → dreizehn. Действие ist всё так же в вагоне №2.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v4/ch02_t03.mp3",
+  "tts": "Meine Hausnummer ist dreißig.",
+  "ipa": [
+   {
+    "w": "Meine",
+    "ipa": "[ˈmaɪ̯nə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Hausnummer",
+    "ipa": "[ˈhaʊ̯sˌnʊmɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "dreißig",
+    "ipa": "[ˈdʁaɪ̯sɪç]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_t04",
+  "de": "Olga, ist das deine Handynummer?",
+  "ru": "Ольга, это твой номер мобильного?",
+  "nouns": [
+   {
+    "lemma": "Handynummer",
+    "art": "die",
+    "pl": "Handynummern"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch02_L2",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Olga",
+     "role": "привет/вежливость"
+    },
+    {
+     "w": "ist",
+     "role": "действие №1"
+    },
+    {
+     "w": "das",
+     "role": "кто"
+    },
+    {
+     "w": "deine Handynummer",
+     "role": "кто"
+    }
+   ],
+   "text": "Обращение Olga не занимает вагон. Вопрос «да/нет»: действие ist впереди.",
+   "topic": "questions",
+   "why_de": "Действие впереди (ist) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Olga, ist das deine Handynummer?",
+   "why_ru": "По-русски «Ольга, это твой номер мобильного» — вопрос только голосом, порядок как в ответе. По-немецки действие ist выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Olga, das ist deine Handynummer?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Ольга, это твой номер мобильного?!»). Обычный вопрос — действие впереди."
+   },
+   "root": "Handynummer = Handy + Nummer (Handy — мобильный; Nummer — номер) — Wiktionary; ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "Обращение Olga не занимает вагон. Вопрос «да/нет»: действие ist впереди."
+  },
+  "audio": "audio_v4/ch02_t04.mp3",
+  "tts": "Olga, ist das deine Handynummer?",
+  "ipa": [
+   {
+    "w": "Olga",
+    "ipa": "[ˈɔlɡa]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "das",
+    "ipa": "[das]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "deine",
+    "ipa": "[ˈdaɪ̯nə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Handynummer",
+    "ipa": "[ˈhɛndiˌnʊmɐ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_t05",
+  "de": "Ich habe auch Signal.",
+  "ru": "У меня тоже есть Signal.",
+  "nouns": [
+   {
+    "lemma": "Signal",
+    "art": "das",
+    "pl": "Signale"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch02_L3",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Ich",
+     "role": "кто"
+    },
+    {
+     "w": "habe",
+     "role": "действие №2"
+    },
+    {
+     "w": "auch",
+     "role": "добавка"
+    },
+    {
+     "w": "Signal",
+     "role": "кого-что"
+    }
+   ],
+   "text": "auch — «тоже». ich habe — «у меня есть».",
+   "topic": "verb2",
+   "why_de": "Ich · habe · auch · Signal: действие habe — вагон №2, опора всего предложения.",
+   "why_ru": "По-русски тут «у меня» и «есть»: «я» спрятан в «у меня». По-немецки говорят «я имею» — Ich habe. Поэтому Ich нужен: Ich habe auch Signal.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Habe auch Signal.",
+    "ru": "По-русски «у меня» — не «я», поэтому хочется начать без Ich. По-немецки без Ich фраза обрывается."
+   },
+   "root": null,
+   "why_voice_ru": "auch — «тоже». ich habe — «у меня есть»."
+  },
+  "audio": "audio_v4/ch02_t05.mp3",
+  "tts": "Ich habe auch Signal.",
+  "ipa": [
+   {
+    "w": "Ich",
+    "ipa": "[ɪç]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "habe",
+    "ipa": "[ˈhaːbə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "auch",
+    "ipa": "[aʊ̯x]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Signal",
+    "ipa": "[zɪˈɡnaːl]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_t06",
+  "de": "Hast du auch eine Handynummer?",
+  "ru": "У тебя есть и номер мобильного?",
+  "nouns": [
+   {
+    "lemma": "Handynummer",
+    "art": "die",
+    "pl": "Handynummern"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch02_L3",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Hast",
+     "role": "действие №1"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "auch",
+     "role": "добавка"
+    },
+    {
+     "w": "eine Handynummer",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Вопрос «да/нет»: hast впереди. die Handynummer → eine Handynummer.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Hast) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Hast du auch eine Handynummer?",
+   "why_ru": "По-русски «У тебя есть и номер мобильного» — вопрос только голосом, порядок как в ответе. По-немецки действие Hast выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Du hast auch eine Handynummer?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («У тебя есть и номер мобильного?!»). Обычный вопрос — действие впереди."
+   },
+   "root": "Handynummer = Handy + Nummer (Handy — мобильный; Nummer — номер) — Wiktionary; du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "Вопрос «да/нет»: hast впереди. die Handynummer → eine Handynummer.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "действие (вагон №1) · «кто» · добавка · «что»",
+    "items": [
+     {
+      "id": "ch02_020",
+      "de": "Hast du auch Signal?",
+      "ru": "У тебя есть и Signal?",
+      "audio": "audio_v4/ch02_020.mp3",
+      "lesson": "L3",
+      "part": 3,
+      "changed": {
+       "role": "кого-что",
+       "wagon": 4,
+       "from": "eine Handynummer",
+       "to": "Signal"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Hast · du · auch. В каждом примере меняется один вагон — «что»: eine Handynummer → Signal. Действие Hast всё так же в вагоне №1.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v4/ch02_t06.mp3",
+  "tts": "Hast du auch eine Handynummer?",
+  "ipa": [
+   {
+    "w": "Hast",
+    "ipa": "[hast]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "auch",
+    "ipa": "[aʊ̯x]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "eine",
+    "ipa": "[ˈaɪ̯nə]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Handynummer",
+    "ipa": "[ˈhɛndiˌnʊmɐ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_t07",
+  "de": "Olga spricht Ukrainisch.",
+  "ru": "Ольга говорит по-украински.",
+  "nouns": [
+   {
+    "lemma": "Ukrainisch",
+    "art": "das",
+    "pl": ""
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch02_L4",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Olga",
+     "role": "кто"
+    },
+    {
+     "w": "spricht",
+     "role": "действие №2"
+    },
+    {
+     "w": "Ukrainisch",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Olga — «она»: spricht.",
+   "topic": "verb2",
+   "why_de": "Olga · spricht · Ukrainisch: действие spricht — вагон №2, опора всего предложения.",
+   "why_ru": "Порядок как в русском: «Ольга говорит по-украински» — Olga spricht Ukrainisch. Разница одна: по-немецки spricht держит вагон №2, даже если начать с другого слова.",
+   "layer": "v2",
+   "why_not": {
+    "wrong": "Olga Ukrainisch spricht.",
+    "ru": "Действие spricht уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе spricht — вагон №2."
+   },
+   "root": null,
+   "why_voice_ru": "Olga — «она»: spricht."
+  },
+  "audio": "audio_v4/ch02_t07.mp3",
+  "tts": "Olga spricht Ukrainisch.",
+  "ipa": [
+   {
+    "w": "Olga",
+    "ipa": "[ˈɔlɡa]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "spricht",
+    "ipa": "[ʃpʁɪçt]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Ukrainisch",
+    "ipa": "[uˈkʁaɪ̯nɪʃ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_t08",
+  "de": "Lernst du Englisch?",
+  "ru": "Ты учишь английский?",
+  "nouns": [
+   {
+    "lemma": "Englisch",
+    "art": "das",
+    "pl": ""
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#392866 CC BY 2.0 FR (автор xtofu80)",
+  "transfer": true,
+  "lesson": "ch02_L4",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Lernst",
+     "role": "действие №1"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "Englisch",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Вопрос «да/нет»: действие впереди. С du — lernst.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Lernst) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Lernst du Englisch?",
+   "why_ru": "По-русски «Ты учишь английский» — вопрос только голосом, порядок как в ответе. По-немецки действие Lernst выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Du lernst Englisch?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Ты учишь английский?!»). Обычный вопрос — действие впереди."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "Вопрос «да/нет»: действие впереди. С du — lernst."
+  },
+  "audio": "audio_v4/ch02_t08.mp3",
+  "tts": "Lernst du Englisch?",
+  "ipa": [
+   {
+    "w": "Lernst",
+    "ipa": "[lɛʁnst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Englisch",
+    "ipa": "[ˈɛŋlɪʃ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "ok",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_t09",
+  "de": "Er ist Lagerist.",
+  "ru": "Он кладовщик.",
+  "nouns": [
+   {
+    "lemma": "Lagerist",
+    "art": "der",
+    "pl": "Lageristen"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch02_L5",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Er",
+     "role": "кто"
+    },
+    {
+     "w": "ist",
+     "role": "действие №2"
+    },
+    {
+     "w": "Lagerist",
+     "role": "кто"
+    }
+   ],
+   "text": "er — «он»: ist. Профессия — без артикля.",
+   "topic": "verb2",
+   "why_de": "ist работает как знак «=»: er = Lagerist. Действие держит вагон №2.",
+   "why_ru": "По-русски «Он кладовщик» — без «есть». По-немецки без ist нельзя: Er ist Lagerist.",
+   "layer": "eq",
+   "why_not": {
+    "wrong": "Er Lagerist.",
+    "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+   },
+   "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+   "why_voice_ru": "er — «он»: ist. Профессия — без артикля."
+  },
+  "audio": "audio_v1/ch02_t09.mp3",
+  "tts": "Er ist Lagerist.",
+  "ipa": [
+   {
+    "w": "Er",
+    "ipa": "[eːɐ̯]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Lagerist",
+    "ipa": "[laːɡəˈʁɪst]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_t10",
+  "de": "Bist du auch Koch?",
+  "ru": "Ты тоже повар?",
+  "nouns": [
+   {
+    "lemma": "Koch",
+    "art": "der",
+    "pl": "Köche"
+   }
+  ],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch02_L5",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Bist",
+     "role": "действие №1"
+    },
+    {
+     "w": "du",
+     "role": "кто"
+    },
+    {
+     "w": "auch",
+     "role": "добавка"
+    },
+    {
+     "w": "Koch",
+     "role": "кто"
+    }
+   ],
+   "text": "Вопрос «да/нет»: действие bist впереди. Профессия — без артикля.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Bist) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Bist du auch Koch?",
+   "why_ru": "По-русски «Ты тоже повар» — вопрос только голосом, порядок как в ответе. По-немецки действие Bist выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Du bist auch Koch?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Ты тоже повар?!»). Обычный вопрос — действие впереди."
+   },
+   "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+   "why_voice_ru": "Вопрос «да/нет»: действие bist впереди. Профессия — без артикля."
+  },
+  "audio": "audio_v1/ch02_t10.mp3",
+  "tts": "Bist du auch Koch?",
+  "ipa": [
+   {
+    "w": "Bist",
+    "ipa": "[bɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "du",
+    "ipa": "[duː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "auch",
+    "ipa": "[aʊ̯x]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Koch",
+    "ipa": "[kɔx]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_t11",
+  "de": "Sprechen Sie Russisch?",
+  "ru": "Вы говорите по-русски?",
+  "nouns": [
+   {
+    "lemma": "Russisch",
+    "art": "das",
+    "pl": ""
+   }
+  ],
+  "chunk": false,
+  "source": "tatoeba:#5427181 CC BY 2.0 FR (автор maaster)",
+  "transfer": true,
+  "lesson": "ch02_L6",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Sprechen",
+     "role": "действие №1"
+    },
+    {
+     "w": "Sie",
+     "role": "кто"
+    },
+    {
+     "w": "Russisch",
+     "role": "кого-что"
+    }
+   ],
+   "text": "Вопрос «да/нет» на «вы»: действие sprechen впереди.",
+   "topic": "questions",
+   "why_de": "Действие впереди (Sprechen) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Sprechen Sie Russisch?",
+   "why_ru": "По-русски «Вы говорите по-русски» — вопрос только голосом, порядок как в ответе. По-немецки действие Sprechen выходит вперёд, в вагон №1.",
+   "layer": "yesno",
+   "why_not": {
+    "wrong": "≈ Sie sprechen Russisch?",
+    "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Вы говорите по-русски?!»). Обычный вопрос — действие впереди."
+   },
+   "root": null,
+   "why_voice_ru": "Вопрос «да/нет» на «вы»: действие sprechen впереди."
+  },
+  "audio": "audio_v1/ch02_t11.mp3",
+  "tts": "Sprechen Sie Russisch?",
+  "ipa": [
+   {
+    "w": "Sprechen",
+    "ipa": "[ˈʃpʁɛçn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Sie",
+    "ipa": "[ziː]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "Russisch",
+    "ipa": "[ˈʁʊsɪʃ]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ },
+ {
+  "id": "ch02_t12",
+  "de": "Ist das sieben oder siebzig?",
+  "ru": "Это семь или семьдесят?",
+  "nouns": [],
+  "chunk": false,
+  "source": "own",
+  "transfer": true,
+  "lesson": "ch02_L6",
+  "book": "Книга, урок 1 (звуки: ei, ie), стр. PDF 31; урок 3 (настоящее время, haben), стр. PDF 71; урок 4 (числа), стр. PDF 93",
+  "why": {
+   "train": [
+    {
+     "w": "Ist",
+     "role": "действие №1"
+    },
+    {
+     "w": "das",
+     "role": "кто"
+    },
+    {
+     "w": "sieben oder siebzig",
+     "role": "кто"
+    }
+   ],
+   "text": "Вопрос «или»: действие ist впереди. Ответ — одно из двух чисел.",
+   "topic": "questions",
+   "why_de": "Вопрос «или»: действие Ist впереди, в вагоне №1, как в вопросе «да/нет». Но «да» или «нет» тут не ответ: надо выбрать — sieben или siebzig. Голос: на sieben вверх ↗, на siebzig вниз ↘.",
+   "why_ru": "По-русски так же: «Это семь или семьдесят» — вопрос делает слово «или». Разница одна: по-немецки действие Ist стоит впереди, в вагоне №1. Действия Ist в русской фразе нет, а по-немецки без него вопроса нет.",
+   "layer": "alt",
+   "why_not": {
+    "wrong": "Das ist sieben oder siebzig?",
+    "ru": "Русский порядок: «кто» (das) перед действием. Немец поймёт, но сразу услышит ошибку: вопрос «или» начинают с действия Ist."
+   },
+   "root": null,
+   "why_voice_ru": "Вопрос «или»: действие ist впереди. Ответ — одно из двух чисел.",
+   "examples": {
+    "button": "Ещё примеры",
+    "frame": "действие (вагон №1) · «кто» · «кто»",
+    "items": [
+     {
+      "id": "ch02_014",
+      "de": "Ist das dreizehn oder dreißig?",
+      "ru": "Это тринадцать или тридцать?",
+      "audio": "audio_v4/ch02_014.mp3",
+      "lesson": "L2",
+      "part": 3,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "sieben oder siebzig",
+       "to": "dreizehn oder dreißig"
+      }
+     },
+     {
+      "id": "ch02_d3_05",
+      "de": "Ist das deine Handynummer?",
+      "ru": "Это твой номер мобильного?",
+      "audio": "audio_v4/ch02_d3_05.mp3",
+      "lesson": "L3",
+      "part": 4,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "sieben oder siebzig",
+       "to": "deine Handynummer"
+      }
+     },
+     {
+      "id": "ch02_056",
+      "de": "Ist das siebzehn oder siebzig?",
+      "ru": "Это семнадцать или семьдесят?",
+      "audio": "audio_v1/ch02_056.mp3",
+      "lesson": "L6",
+      "part": 3,
+      "changed": {
+       "role": "кто",
+       "wagon": 3,
+       "from": "sieben oder siebzig",
+       "to": "siebzehn oder siebzig"
+      }
+     }
+    ],
+    "notice_q": "Заметь: что не меняется?",
+    "notice_a": "Не меняется: Ist · das. В каждом примере меняется один вагон — «кто»: sieben oder siebzig → dreizehn oder dreißig → deine Handynummer → siebzehn oder siebzig. Действие Ist всё так же в вагоне №1.",
+    "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+   }
+  },
+  "audio": "audio_v1/ch02_t12.mp3",
+  "tts": "Ist das sieben oder siebzig?",
+  "ipa": [
+   {
+    "w": "Ist",
+    "ipa": "[ɪst]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "das",
+    "ipa": "[das]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "sieben",
+    "ipa": "[ˈziːbn̩]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "oder",
+    "ipa": "[ˈoːdɐ]",
+    "src": "de.wiktionary"
+   },
+   {
+    "w": "siebzig",
+    "ipa": "[ˈziːpt͡sɪç]",
+    "src": "de.wiktionary"
+   }
+  ],
+  "de_template": null,
+  "audio_regen_on_name": false,
+  "check": {
+   "lt": "ok",
+   "gender": "ok",
+   "asr": "pending",
+   "book": "ok",
+   "struct": "ok"
+  },
+  "ipa_src": "all"
+ }
+]

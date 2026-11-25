@@ -1,0 +1,3926 @@
+[
+ {
+  "item_id": "ch16_L1_words_1",
+  "id": "ch16_L1_words_1",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_001",
+  "prompt": "Что значит «Markt»?",
+  "answer": "рынок",
+  "distractors": [
+   "магазин",
+   "прилавок"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L1_words_2",
+  "id": "ch16_L1_words_2",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_002",
+  "prompt": "Что значит «Stand»?",
+  "answer": "прилавок",
+  "distractors": [
+   "рынок",
+   "тарелка"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L1_words_3",
+  "id": "ch16_L1_words_3",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_003",
+  "prompt": "Что значит «Honig»?",
+  "answer": "мёд",
+  "distractors": [
+   "рыба",
+   "хлеб"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L1_words_4",
+  "id": "ch16_L1_words_4",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_003",
+  "prompt": "Что значит «Fisch»?",
+  "answer": "рыба",
+  "distractors": [
+   "мёд",
+   "сыр"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L1_words_5",
+  "id": "ch16_L1_words_5",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_004",
+  "prompt": "Что значит «Gemüse»?",
+  "answer": "овощи",
+  "distractors": [
+   "фрукты",
+   "мёд"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L1_listen_1",
+  "id": "ch16_L1_listen_1",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d1_01",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Привет! Сегодня рыночный день.",
+  "distractors": [
+   "Привет! Сегодня выходной день.",
+   "Привет! Здесь прилавок."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d1_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L1_listen_2",
+  "id": "ch16_L1_listen_2",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d1_03",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Здесь есть мёд и рыба.",
+  "distractors": [
+   "Здесь есть хлеб и сыр.",
+   "Здесь есть фрукты и овощи."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d1_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L1_listen_3",
+  "id": "ch16_L1_listen_3",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d1_05",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Здесь замечательно пахнет!",
+  "distractors": [
+   "Здесь очень шумно!",
+   "Здесь есть прилавок."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d1_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L1_listen_4",
+  "id": "ch16_L1_listen_4",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d1_07",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Я ем жареную сосиску.",
+  "distractors": [
+   "Я ем хлеб и сыр.",
+   "Я пью чай."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d1_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L1_listen_5",
+  "id": "ch16_L1_listen_5",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d1_09",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Хорошо! Теперь я сыта.",
+  "distractors": [
+   "Хорошо! Теперь я голодна.",
+   "Хорошо! Здесь рынок."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d1_09.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L1_read_1",
+  "id": "ch16_L1_read_1",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_001",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Сегодня рыночный день.",
+  "distractors": [
+   "Здесь прилавок.",
+   "Сегодня выходной день."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Heute ist Markt."
+ },
+ {
+  "item_id": "ch16_L1_read_2",
+  "id": "ch16_L1_read_2",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_002",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Здесь прилавок.",
+  "distractors": [
+   "Сегодня рыночный день.",
+   "Здесь рыба."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Hier ist ein Stand."
+ },
+ {
+  "item_id": "ch16_L1_read_3",
+  "id": "ch16_L1_read_3",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_004",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Здесь есть фрукты и овощи.",
+  "distractors": [
+   "Здесь есть мёд и рыба.",
+   "Я ем фрукты и овощи."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Hier gibt es Obst und Gemüse."
+ },
+ {
+  "item_id": "ch16_L1_read_4",
+  "id": "ch16_L1_read_4",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_006",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я ем жареную сосиску.",
+  "distractors": [
+   "Я ем хлеб и сыр.",
+   "Здесь есть сосиска."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich esse eine Bratwurst."
+ },
+ {
+  "item_id": "ch16_L1_read_5",
+  "id": "ch16_L1_read_5",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_008",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Теперь я сыт.",
+  "distractors": [
+   "Теперь я хочу есть.",
+   "Сегодня я ем."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Jetzt bin ich satt."
+ },
+ {
+  "item_id": "ch16_L1_speak_1",
+  "id": "ch16_L1_speak_1",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_001",
+  "prompt": "Скажи: «Сегодня рыночный день.»",
+  "answer": "Heute ist Markt.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_001.mp3",
+  "de": null,
+  "accept": [
+   "Heute ist Markt."
+  ]
+ },
+ {
+  "item_id": "ch16_L1_speak_2",
+  "id": "ch16_L1_speak_2",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_002",
+  "prompt": "Покажи Ольге прилавок: «Здесь прилавок.»",
+  "answer": "Hier ist ein Stand.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_002.mp3",
+  "de": null,
+  "accept": [
+   "Hier ist ein Stand."
+  ]
+ },
+ {
+  "item_id": "ch16_L1_speak_3",
+  "id": "ch16_L1_speak_3",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_003",
+  "prompt": "Скажи: «Здесь есть мёд и рыба.»",
+  "answer": "Hier gibt es Honig und Fisch.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_003.mp3",
+  "de": null,
+  "accept": [
+   "Hier gibt es Honig und Fisch."
+  ]
+ },
+ {
+  "item_id": "ch16_L1_speak_4",
+  "id": "ch16_L1_speak_4",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_005",
+  "prompt": "Скажи Ольге: «Здесь замечательно пахнет!»",
+  "answer": "Hier riecht es herrlich!",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_005.mp3",
+  "de": null,
+  "accept": [
+   "Hier riecht es herrlich!"
+  ]
+ },
+ {
+  "item_id": "ch16_L1_speak_5",
+  "id": "ch16_L1_speak_5",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_007",
+  "prompt": "Скажи: «Я ем хлеб и сыр.»",
+  "answer": "Ich esse Brot und Käse.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_007.mp3",
+  "de": null,
+  "accept": [
+   "Ich esse Brot und Käse."
+  ]
+ },
+ {
+  "item_id": "ch16_L1_write_1",
+  "id": "ch16_L1_write_1",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_002",
+  "prompt": "Впиши: «Hier ist ein ___.» (прилавок)",
+  "answer": "Stand",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_002.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L1_write_2",
+  "id": "ch16_L1_write_2",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_003",
+  "prompt": "Впиши: «Hier gibt es Honig und ___.» (рыба)",
+  "answer": "Fisch",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_003.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L1_write_3",
+  "id": "ch16_L1_write_3",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_004",
+  "prompt": "Впиши: «Hier gibt es Obst und ___.» (овощи)",
+  "answer": "Gemüse",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_004.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L1_write_4",
+  "id": "ch16_L1_write_4",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_005",
+  "prompt": "Впиши: «Hier ___ es herrlich!» (пахнет)",
+  "answer": "riecht",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_005.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L1_write_5",
+  "id": "ch16_L1_write_5",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_006",
+  "prompt": "Впиши: «Ich esse eine ___.» (жареная сосиска)",
+  "answer": "Bratwurst",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_006.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L1_why_1",
+  "id": "ch16_L1_why_1",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_003",
+  "prompt": "Почему в «Hier gibt es …» после hier идёт gibt, а не es?",
+  "answer": "В обычной фразе действие в вагоне №2: hier — первое, gibt — второе.",
+  "distractors": [
+   "es всегда стоит первым, а hier идёт после него.",
+   "gibt в такой фразе всегда ставят в самый конец, после es."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Hier gibt es Honig und Fisch."
+ },
+ {
+  "item_id": "ch16_L1_why_2",
+  "id": "ch16_L1_why_2",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_005",
+  "prompt": "Зачем в «Hier riecht es herrlich!» слово es, если по-русски просто «пахнет»?",
+  "answer": "Немецкой фразе нужен «кто»: es — «оно» пахнет.",
+  "distractors": [
+   "es здесь значит «здесь» и просто повторяет слово hier.",
+   "es ставят только в вопросе, а в этой фразе оно лишнее."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Hier riecht es herrlich!"
+ },
+ {
+  "item_id": "ch16_L1_why_3",
+  "id": "ch16_L1_why_3",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_001",
+  "prompt": "Почему «Markt» пишется с большой буквы?",
+  "answer": "Markt — слово-предмет, такие слова пишем с большой буквы.",
+  "distractors": [
+   "Markt — самое длинное слово, его пишут с большой.",
+   "Так пишут любое слово, которое стоит сразу после heute."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Heute ist Markt."
+ },
+ {
+  "item_id": "ch16_L1_why_4",
+  "id": "ch16_L1_why_4",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_006",
+  "prompt": "Почему «eine Bratwurst», а не «ein Bratwurst»?",
+  "answer": "die Bratwurst — die-слово, поэтому eine.",
+  "distractors": [
+   "Bratwurst — der-слово, а eine тут стоит только для красоты.",
+   "eine ставят перед любой едой, какой бы ни был у неё артикль."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich esse eine Bratwurst."
+ },
+ {
+  "item_id": "ch16_L1_why_5",
+  "id": "ch16_L1_why_5",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_008",
+  "prompt": "Почему «Jetzt bin ich satt», а не «Jetzt ich bin satt»?",
+  "answer": "Действие bin в вагоне №2: jetzt — первое, bin — второе.",
+  "distractors": [
+   "ich всегда стоит сразу после jetzt, как в русском.",
+   "bin в такой фразе принято ставить в самый конец."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Jetzt bin ich satt."
+ },
+ {
+  "item_id": "ch16_L1_transfer_1",
+  "id": "ch16_L1_transfer_1",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_t01",
+  "prompt": "У соседнего прилавка чай и пирог. Скажи Ольге: «Здесь есть чай и пирог.»",
+  "answer": "Hier gibt es Tee und Kuchen.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch16_t01.mp3",
+  "de": null,
+  "accept": [
+   "Hier gibt es Tee und Kuchen."
+  ]
+ },
+ {
+  "item_id": "ch16_L1_transfer_2",
+  "id": "ch16_L1_transfer_2",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_t01",
+  "prompt": "Прочитай новую фразу. Что это значит?",
+  "answer": "Здесь есть чай и пирог.",
+  "distractors": [
+   "Здесь пахнет чаем.",
+   "Я ем чай и пирог."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": null,
+  "de": "Hier gibt es Tee und Kuchen."
+ },
+ {
+  "item_id": "ch16_L1_transfer_3",
+  "id": "ch16_L1_transfer_3",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_t02",
+  "prompt": "Вы с Ольгой во Фрайберге. Скажи: «Сегодня во Фрайберге рыночный день.»",
+  "answer": "Heute ist Markt in Freiberg.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch16_t02.mp3",
+  "de": null,
+  "accept": [
+   "Heute ist Markt in Freiberg."
+  ]
+ },
+ {
+  "item_id": "ch16_L1_transfer_4",
+  "id": "ch16_L1_transfer_4",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_t02",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Сегодня во Фрайберге рыночный день.",
+  "distractors": [
+   "Сегодня в Лейпциге рыночный день.",
+   "Во Фрайберге есть прилавок."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch16_t02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L1_transfer_5",
+  "id": "ch16_L1_transfer_5",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_t02",
+  "prompt": "Напиши по-немецки: «Сегодня во Фрайберге рыночный день.»",
+  "answer": "Heute ist Markt in Freiberg.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch16_t02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L1_boss_1",
+  "id": "ch16_L1_boss_1",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_d1_06",
+  "prompt": "Герой сказал «Ich habe Hunger». Почему habe, а не bin?",
+  "answer": "По-немецки голод «имеют»: ich habe Hunger, дословно «я имею голод».",
+  "distractors": [
+   "bin — «быть», и «я есть голод» тоже говорят, оба верны.",
+   "habe ставят только в вопросах, а в обычной фразе нужно bin."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ja! Ich habe Hunger."
+ },
+ {
+  "item_id": "ch16_L1_boss_2",
+  "id": "ch16_L1_boss_2",
+  "lesson": "ch16_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d1_08",
+  "prompt": "Послушай. Что ест герой?",
+  "answer": "Герой ест хлеб и сыр.",
+  "distractors": [
+   "Герой ест жареную сосиску.",
+   "Герой ест фрукты."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d1_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L2_words_1",
+  "id": "ch16_L2_words_1",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_014",
+  "prompt": "Что значит «Nussknacker»?",
+  "answer": "щелкунчик",
+  "distractors": [
+   "свеча",
+   "звезда"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L2_words_2",
+  "id": "ch16_L2_words_2",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_017",
+  "prompt": "Что значит «Kerze»?",
+  "answer": "свеча",
+  "distractors": [
+   "звезда",
+   "щелкунчик"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L2_words_3",
+  "id": "ch16_L2_words_3",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_019",
+  "prompt": "Что значит «Stern»?",
+  "answer": "звезда",
+  "distractors": [
+   "свеча",
+   "прилавок"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L2_words_4",
+  "id": "ch16_L2_words_4",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_019",
+  "prompt": "Что значит «schön»?",
+  "answer": "красивый",
+  "distractors": [
+   "большой",
+   "вкусный"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L2_words_5",
+  "id": "ch16_L2_words_5",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_016",
+  "prompt": "Что значит «gefällt mir»?",
+  "answer": "нравится мне",
+  "distractors": [
+   "я хочу",
+   "я покупаю"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L2_listen_1",
+  "id": "ch16_L2_listen_1",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d2_01",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Привет! Сегодня рождественский рынок.",
+  "distractors": [
+   "Привет! Сегодня рыночный день.",
+   "Привет! Здесь прилавок."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d2_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L2_listen_2",
+  "id": "ch16_L2_listen_2",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d2_04",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "Какой щелкунчик?",
+  "distractors": [
+   "Какая свеча?",
+   "Какая звезда?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d2_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L2_listen_3",
+  "id": "ch16_L2_listen_3",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d2_06",
+  "prompt": "Послушай. Что сказал герой?",
+  "answer": "Этот щелкунчик мне нравится!",
+  "distractors": [
+   "Эта свеча мне нравится!",
+   "Этот щелкунчик красивый!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d2_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L2_listen_4",
+  "id": "ch16_L2_listen_4",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d2_07",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "А какая свеча тебе нравится?",
+  "distractors": [
+   "А какой щелкунчик тебе нравится?",
+   "А какая звезда красивая?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d2_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L2_listen_5",
+  "id": "ch16_L2_listen_5",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d2_09",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Звезда красивая!",
+  "distractors": [
+   "Свеча красивая!",
+   "Звезда мне нравится!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d2_09.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L2_read_1",
+  "id": "ch16_L2_read_1",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_013",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Сегодня рождественский рынок.",
+  "distractors": [
+   "Сегодня рыночный день.",
+   "Здесь рождественский прилавок."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Heute ist Weihnachtsmarkt."
+ },
+ {
+  "item_id": "ch16_L2_read_2",
+  "id": "ch16_L2_read_2",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_015",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Какой щелкунчик?",
+  "distractors": [
+   "Этот щелкунчик.",
+   "Какая свеча?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Welcher Nussknacker?"
+ },
+ {
+  "item_id": "ch16_L2_read_3",
+  "id": "ch16_L2_read_3",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_018",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Эта свеча мне нравится.",
+  "distractors": [
+   "Эта свеча красивая.",
+   "Какая свеча тебе нравится?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Diese Kerze gefällt mir."
+ },
+ {
+  "item_id": "ch16_L2_read_4",
+  "id": "ch16_L2_read_4",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_017",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Какая свеча тебе нравится?",
+  "distractors": [
+   "Эта свеча мне нравится.",
+   "Какой щелкунчик тебе нравится?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Welche Kerze gefällt dir?"
+ },
+ {
+  "item_id": "ch16_L2_read_5",
+  "id": "ch16_L2_read_5",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_019",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Звезда красивая!",
+  "distractors": [
+   "Звезда мне нравится.",
+   "Свеча красивая!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Der Stern ist schön!"
+ },
+ {
+  "item_id": "ch16_L2_speak_1",
+  "id": "ch16_L2_speak_1",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_013",
+  "prompt": "Скажи: «Сегодня рождественский рынок.»",
+  "answer": "Heute ist Weihnachtsmarkt.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_013.mp3",
+  "de": null,
+  "accept": [
+   "Heute ist Weihnachtsmarkt."
+  ]
+ },
+ {
+  "item_id": "ch16_L2_speak_2",
+  "id": "ch16_L2_speak_2",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_015",
+  "prompt": "Спроси Ольгу: «Какой щелкунчик?»",
+  "answer": "Welcher Nussknacker?",
+  "distractors": null,
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": "audio_v1/ch16_015.mp3",
+  "de": null,
+  "accept": [
+   "Welcher Nussknacker?"
+  ]
+ },
+ {
+  "item_id": "ch16_L2_speak_3",
+  "id": "ch16_L2_speak_3",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_016",
+  "prompt": "Скажи: «Этот щелкунчик мне нравится.»",
+  "answer": "Dieser Nussknacker gefällt mir.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_016.mp3",
+  "de": null,
+  "accept": [
+   "Dieser Nussknacker gefällt mir."
+  ]
+ },
+ {
+  "item_id": "ch16_L2_speak_4",
+  "id": "ch16_L2_speak_4",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_017",
+  "prompt": "Спроси Ольгу: «Какая свеча тебе нравится?»",
+  "answer": "Welche Kerze gefällt dir?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch16_017.mp3",
+  "de": null,
+  "accept": [
+   "Welche Kerze gefällt dir?"
+  ]
+ },
+ {
+  "item_id": "ch16_L2_speak_5",
+  "id": "ch16_L2_speak_5",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_019",
+  "prompt": "Скажи: «Звезда красивая!»",
+  "answer": "Der Stern ist schön!",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_019.mp3",
+  "de": null,
+  "accept": [
+   "Der Stern ist schön!"
+  ]
+ },
+ {
+  "item_id": "ch16_L2_write_1",
+  "id": "ch16_L2_write_1",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_014",
+  "prompt": "Впиши: «Hier gibt es einen ___.» (щелкунчик)",
+  "answer": "Nussknacker",
+  "distractors": null,
+  "rule_id": "topics/akkusativ",
+  "transfer": false,
+  "audio": "audio_v1/ch16_014.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L2_write_2",
+  "id": "ch16_L2_write_2",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_015",
+  "prompt": "Впиши: «___ Nussknacker?» (какой)",
+  "answer": "Welcher",
+  "distractors": null,
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": "audio_v1/ch16_015.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L2_write_3",
+  "id": "ch16_L2_write_3",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_016",
+  "prompt": "Впиши: «___ Nussknacker gefällt mir.» (этот)",
+  "answer": "Dieser",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_016.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L2_write_4",
+  "id": "ch16_L2_write_4",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_018",
+  "prompt": "Впиши: «Diese Kerze ___ mir.» (нравится)",
+  "answer": "gefällt",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_018.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L2_write_5",
+  "id": "ch16_L2_write_5",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_019",
+  "prompt": "Впиши: «Der Stern ist ___!» (красивый)",
+  "answer": "schön",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_019.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L2_why_1",
+  "id": "ch16_L2_why_1",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_016",
+  "prompt": "Почему в «Dieser Nussknacker gefällt mir» mir стоит после gefällt?",
+  "answer": "Нравится вещь, она стоит первой; «мне» идёт после gefällt.",
+  "distractors": [
+   "mir всегда ставят в самый конец любой немецкой фразы.",
+   "gefällt в такой фразе всегда стоит последним словом."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Dieser Nussknacker gefällt mir."
+ },
+ {
+  "item_id": "ch16_L2_why_2",
+  "id": "ch16_L2_why_2",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_015",
+  "prompt": "Почему «welcher Nussknacker», а «welche Kerze»?",
+  "answer": "Окончание то же, что у артикля: der → welcher, die → welche.",
+  "distractors": [
+   "welcher — для вещей, а welche — только для людей.",
+   "Окончание зависит от того, сколько букв в слове."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Welcher Nussknacker?"
+ },
+ {
+  "item_id": "ch16_L2_why_3",
+  "id": "ch16_L2_why_3",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_018",
+  "prompt": "Почему «diese Kerze», а не «dieser Kerze»?",
+  "answer": "die Kerze — die-слово, поэтому diese, как die → diese.",
+  "distractors": [
+   "Kerze — der-слово, поэтому перед ним стоит dieser.",
+   "diese ставят только тогда, когда дальше идёт слово mir."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Diese Kerze gefällt mir."
+ },
+ {
+  "item_id": "ch16_L2_why_4",
+  "id": "ch16_L2_why_4",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_019",
+  "prompt": "Почему «Der Stern ist schön» — ist на втором месте?",
+  "answer": "Действие ist стоит вагоном №2: Der Stern — первое, ist — второе.",
+  "distractors": [
+   "ist в такой фразе ставят в самый конец, после schön.",
+   "schön в такой фразе стоит первым, перед Der Stern."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Der Stern ist schön!"
+ },
+ {
+  "item_id": "ch16_L2_why_5",
+  "id": "ch16_L2_why_5",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_013",
+  "prompt": "Почему «Weihnachtsmarkt» с большой буквы?",
+  "answer": "Weihnachtsmarkt — слово-предмет, его пишем с большой буквы.",
+  "distractors": [
+   "Это название города, поэтому его пишут с большой.",
+   "Так пишут любое слово, которое идёт после heute."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Heute ist Weihnachtsmarkt."
+ },
+ {
+  "item_id": "ch16_L2_transfer_1",
+  "id": "ch16_L2_transfer_1",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_t03",
+  "prompt": "У прилавка несколько звёзд. Спроси Ольгу: «Какая звезда тебе нравится?»",
+  "answer": "Welcher Stern gefällt dir?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch16_t03.mp3",
+  "de": null,
+  "accept": [
+   "Welcher Stern gefällt dir?"
+  ]
+ },
+ {
+  "item_id": "ch16_L2_transfer_2",
+  "id": "ch16_L2_transfer_2",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_t03",
+  "prompt": "Прочитай новую фразу. Что это значит?",
+  "answer": "Какая звезда тебе нравится?",
+  "distractors": [
+   "Какая свеча тебе нравится?",
+   "Эта звезда мне нравится."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": null,
+  "de": "Welcher Stern gefällt dir?"
+ },
+ {
+  "item_id": "ch16_L2_transfer_3",
+  "id": "ch16_L2_transfer_3",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_t04",
+  "prompt": "Ольга показывает свечу. Скажи: «Эта свеча красивая.»",
+  "answer": "Diese Kerze ist schön.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch16_t04.mp3",
+  "de": null,
+  "accept": [
+   "Diese Kerze ist schön."
+  ]
+ },
+ {
+  "item_id": "ch16_L2_transfer_4",
+  "id": "ch16_L2_transfer_4",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_t04",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Эта свеча красивая.",
+  "distractors": [
+   "Эта звезда красивая.",
+   "Эта свеча мне нравится."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch16_t04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L2_transfer_5",
+  "id": "ch16_L2_transfer_5",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_t04",
+  "prompt": "Напиши по-немецки: «Эта свеча красивая.»",
+  "answer": "Diese Kerze ist schön.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch16_t04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L2_boss_1",
+  "id": "ch16_L2_boss_1",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_d2_07",
+  "prompt": "Ольга спросила «Und welche Kerze gefällt dir?». Почему dir, а не mir?",
+  "answer": "Ольга спрашивает тебя: dir — «тебе», а mir — «мне».",
+  "distractors": [
+   "dir — вежливая форма, её говорят только незнакомым людям.",
+   "dir ставят в вопросе, а mir — только в обычной фразе."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Und welche Kerze gefällt dir?"
+ },
+ {
+  "item_id": "ch16_L2_boss_2",
+  "id": "ch16_L2_boss_2",
+  "lesson": "ch16_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d2_08",
+  "prompt": "Послушай. Что нравится герою?",
+  "answer": "Герою нравится эта свеча.",
+  "distractors": [
+   "Герою нравится эта звезда.",
+   "Герою нравится эта лампа."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d2_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L3_words_1",
+  "id": "ch16_L3_words_1",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_023",
+  "prompt": "Что значит «Geburtstag»?",
+  "answer": "день рождения",
+  "distractors": [
+   "подарок",
+   "праздник"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L3_words_2",
+  "id": "ch16_L3_words_2",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_024",
+  "prompt": "Что значит «Geschenk»?",
+  "answer": "подарок",
+  "distractors": [
+   "день рождения",
+   "открытка"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L3_words_3",
+  "id": "ch16_L3_words_3",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_025",
+  "prompt": "Что значит «kaufe»?",
+  "answer": "покупаю",
+  "distractors": [
+   "продаю",
+   "дарю"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L3_words_4",
+  "id": "ch16_L3_words_4",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_026",
+  "prompt": "Что значит «wen»?",
+  "answer": "кого",
+  "distractors": [
+   "кто",
+   "что"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L3_words_5",
+  "id": "ch16_L3_words_5",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_024",
+  "prompt": "Что значит «schon»?",
+  "answer": "уже",
+  "distractors": [
+   "ещё",
+   "только"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L3_listen_1",
+  "id": "ch16_L3_listen_1",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d3_01",
+  "prompt": "Послушай. Что сказал герой?",
+  "answer": "У бабушки день рождения.",
+  "distractors": [
+   "У бабушки есть подарок.",
+   "У бабушки есть свеча."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d3_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L3_listen_2",
+  "id": "ch16_L3_listen_2",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d3_02",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "У тебя уже есть подарок?",
+  "distractors": [
+   "У тебя уже есть открытка?",
+   "У бабушки уже есть подарок?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d3_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L3_listen_3",
+  "id": "ch16_L3_listen_3",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d3_04",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "А для кого эта свеча?",
+  "distractors": [
+   "А для кого эта звезда?",
+   "А кто купил эту свечу?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d3_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L3_listen_4",
+  "id": "ch16_L3_listen_4",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d3_07",
+  "prompt": "Послушай. Что сказал герой?",
+  "answer": "Этот щелкунчик для тебя!",
+  "distractors": [
+   "Эта свеча для тебя!",
+   "Этот щелкунчик для меня!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d3_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L3_listen_5",
+  "id": "ch16_L3_listen_5",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d3_08",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Для меня? Спасибо!",
+  "distractors": [
+   "Для тебя? Спасибо!",
+   "Для меня? Пожалуйста!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d3_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L3_read_1",
+  "id": "ch16_L3_read_1",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_023",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У бабушки день рождения.",
+  "distractors": [
+   "У бабушки есть подарок.",
+   "Бабушка покупает подарок."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Oma hat Geburtstag."
+ },
+ {
+  "item_id": "ch16_L3_read_2",
+  "id": "ch16_L3_read_2",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_024",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У тебя уже есть подарок?",
+  "distractors": [
+   "Ты уже купил подарок бабушке?",
+   "Что ты покупаешь?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Hast du schon ein Geschenk?"
+ },
+ {
+  "item_id": "ch16_L3_read_3",
+  "id": "ch16_L3_read_3",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_025",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я покупаю эту звезду для бабушки.",
+  "distractors": [
+   "Я покупаю эту свечу для бабушки.",
+   "Эта звезда мне нравится."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich kaufe diesen Stern für Oma."
+ },
+ {
+  "item_id": "ch16_L3_read_4",
+  "id": "ch16_L3_read_4",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_027",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Свеча для меня.",
+  "distractors": [
+   "Свеча для тебя.",
+   "Эта свеча мне нравится."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Kerze ist für mich."
+ },
+ {
+  "item_id": "ch16_L3_read_5",
+  "id": "ch16_L3_read_5",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_028",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Этот щелкунчик для тебя!",
+  "distractors": [
+   "Этот щелкунчик мне нравится!",
+   "Какой щелкунчик для тебя?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Dieser Nussknacker ist für dich!"
+ },
+ {
+  "item_id": "ch16_L3_speak_1",
+  "id": "ch16_L3_speak_1",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_023",
+  "prompt": "Скажи: «У бабушки день рождения.»",
+  "answer": "Oma hat Geburtstag.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_023.mp3",
+  "de": null,
+  "accept": [
+   "Oma hat Geburtstag."
+  ]
+ },
+ {
+  "item_id": "ch16_L3_speak_2",
+  "id": "ch16_L3_speak_2",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_024",
+  "prompt": "Спроси Ольгу: «У тебя уже есть подарок?»",
+  "answer": "Hast du schon ein Geschenk?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch16_024.mp3",
+  "de": null,
+  "accept": [
+   "Hast du schon ein Geschenk?"
+  ]
+ },
+ {
+  "item_id": "ch16_L3_speak_3",
+  "id": "ch16_L3_speak_3",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_025",
+  "prompt": "Скажи: «Я покупаю эту звезду для бабушки.»",
+  "answer": "Ich kaufe diesen Stern für Oma.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_025.mp3",
+  "de": null,
+  "accept": [
+   "Ich kaufe diesen Stern für Oma."
+  ]
+ },
+ {
+  "item_id": "ch16_L3_speak_4",
+  "id": "ch16_L3_speak_4",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_026",
+  "prompt": "Спроси Ольгу: «Для кого эта свеча?»",
+  "answer": "Für wen ist die Kerze?",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_026.mp3",
+  "de": null,
+  "accept": [
+   "Für wen ist die Kerze?"
+  ]
+ },
+ {
+  "item_id": "ch16_L3_speak_5",
+  "id": "ch16_L3_speak_5",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_028",
+  "prompt": "Скажи Ольге: «Этот щелкунчик для тебя!»",
+  "answer": "Dieser Nussknacker ist für dich!",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_028.mp3",
+  "de": null,
+  "accept": [
+   "Dieser Nussknacker ist für dich!"
+  ]
+ },
+ {
+  "item_id": "ch16_L3_write_1",
+  "id": "ch16_L3_write_1",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_023",
+  "prompt": "Впиши: «Oma hat ___.» (день рождения)",
+  "answer": "Geburtstag",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_023.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L3_write_2",
+  "id": "ch16_L3_write_2",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_024",
+  "prompt": "Впиши: «Hast du ___ ein Geschenk?» (уже)",
+  "answer": "schon",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch16_024.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L3_write_3",
+  "id": "ch16_L3_write_3",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_025",
+  "prompt": "Впиши: «Ich ___ diesen Stern für Oma.» (покупаю)",
+  "answer": "kaufe",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_025.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L3_write_4",
+  "id": "ch16_L3_write_4",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_027",
+  "prompt": "Впиши: «Die Kerze ist für ___.» (меня)",
+  "answer": "mich",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_027.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L3_write_5",
+  "id": "ch16_L3_write_5",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_028",
+  "prompt": "Впиши: «Dieser Nussknacker ist für ___!» (тебя)",
+  "answer": "dich",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_028.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L3_why_1",
+  "id": "ch16_L3_why_1",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_027",
+  "prompt": "Почему «für mich», а не «für ich»?",
+  "answer": "После für нужна форма «кого»: ich → mich, как «для меня».",
+  "distractors": [
+   "ich меняют на mich только тогда, когда это вопрос.",
+   "mich — вежливая форма слова ich для незнакомых людей."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Kerze ist für mich."
+ },
+ {
+  "item_id": "ch16_L3_why_2",
+  "id": "ch16_L3_why_2",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_028",
+  "prompt": "Почему «für dich», а не «für du»?",
+  "answer": "После für «ты» меняется на dich: «для тебя».",
+  "distractors": [
+   "du меняют на dich, если это слово стоит в самом конце.",
+   "dich ставят вместо du, когда говорят с бабушкой."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Dieser Nussknacker ist für dich!"
+ },
+ {
+  "item_id": "ch16_L3_why_3",
+  "id": "ch16_L3_why_3",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_025",
+  "prompt": "Почему «diesen Stern», а не «dieser Stern»?",
+  "answer": "Это то, что покупают, поэтому -er меняется на -en, как ein → einen.",
+  "distractors": [
+   "dieser Stern меняют на diesen после слова für.",
+   "diesen говорят, когда на прилавке звёзд сразу несколько."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich kaufe diesen Stern für Oma."
+ },
+ {
+  "item_id": "ch16_L3_why_4",
+  "id": "ch16_L3_why_4",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_024",
+  "prompt": "Почему «Hast du schon ein Geschenk?» начинается с hast?",
+  "answer": "Вопрос «да/нет»: действие hast стоит первым, du — за ним.",
+  "distractors": [
+   "hast ставят первым, потому что есть слово schon.",
+   "Любой немецкий вопрос всегда начинается со слова hast."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Hast du schon ein Geschenk?"
+ },
+ {
+  "item_id": "ch16_L3_why_5",
+  "id": "ch16_L3_why_5",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_023",
+  "prompt": "Почему «Oma hat Geburtstag», а не «Oma ist Geburtstag»?",
+  "answer": "День рождения по-немецки «имеют»: hat Geburtstag.",
+  "distractors": [
+   "ist ставят только тогда, когда первым стоит слово Oma.",
+   "Geburtstag — это действие, поэтому с ним нужен глагол ist."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Oma hat Geburtstag."
+ },
+ {
+  "item_id": "ch16_L3_transfer_1",
+  "id": "ch16_L3_transfer_1",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_t05",
+  "prompt": "Дедушка любит орехи. Скажи Ольге: «Я покупаю этого щелкунчика для дедушки.»",
+  "answer": "Ich kaufe diesen Nussknacker für Opa.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch16_t05.mp3",
+  "de": null,
+  "accept": [
+   "Ich kaufe diesen Nussknacker für Opa."
+  ]
+ },
+ {
+  "item_id": "ch16_L3_transfer_2",
+  "id": "ch16_L3_transfer_2",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_t05",
+  "prompt": "Прочитай новую фразу. Что это значит?",
+  "answer": "Я покупаю этого щелкунчика для дедушки.",
+  "distractors": [
+   "Я покупаю эту звезду для дедушки.",
+   "Этот щелкунчик для дедушки."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": null,
+  "de": "Ich kaufe diesen Nussknacker für Opa."
+ },
+ {
+  "item_id": "ch16_L3_transfer_3",
+  "id": "ch16_L3_transfer_3",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_t06",
+  "prompt": "Ольга держит лампу. Скажи: «Лампа для бабушки.»",
+  "answer": "Die Lampe ist für Oma.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch16_t06.mp3",
+  "de": null,
+  "accept": [
+   "Die Lampe ist für Oma."
+  ]
+ },
+ {
+  "item_id": "ch16_L3_transfer_4",
+  "id": "ch16_L3_transfer_4",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_t06",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Лампа для бабушки.",
+  "distractors": [
+   "Лампа для тебя.",
+   "Лампа красивая."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch16_t06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L3_transfer_5",
+  "id": "ch16_L3_transfer_5",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_t06",
+  "prompt": "Напиши по-немецки: «Лампа для бабушки.»",
+  "answer": "Die Lampe ist für Oma.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch16_t06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L3_boss_1",
+  "id": "ch16_L3_boss_1",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_d3_04",
+  "prompt": "Ольга спросила «Und für wen ist die Kerze?». Почему вопрос начинается с für?",
+  "answer": "Спрашивают «для кого», а für — это «для»: für wen.",
+  "distractors": [
+   "für ставят первым в любом вопросе, даже без «для кого».",
+   "für wen — вежливый вопрос, его задают только продавцу."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Und für wen ist die Kerze?"
+ },
+ {
+  "item_id": "ch16_L3_boss_2",
+  "id": "ch16_L3_boss_2",
+  "lesson": "ch16_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d3_03",
+  "prompt": "Послушай. Что покупает герой?",
+  "answer": "Герой покупает эту звезду.",
+  "distractors": [
+   "Герой покупает эту свечу.",
+   "Герой покупает этого щелкунчика."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d3_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L4_words_1",
+  "id": "ch16_L4_words_1",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_034",
+  "prompt": "Что значит «etwas»?",
+  "answer": "что-то",
+  "distractors": [
+   "ничего",
+   "всё"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L4_words_2",
+  "id": "ch16_L4_words_2",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_035",
+  "prompt": "Что значит «nichts»?",
+  "answer": "ничего",
+  "distractors": [
+   "что-то",
+   "всё"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L4_words_3",
+  "id": "ch16_L4_words_3",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_037",
+  "prompt": "Что значит «alles»?",
+  "answer": "всё",
+  "distractors": [
+   "ничего",
+   "что-то"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L4_words_4",
+  "id": "ch16_L4_words_4",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_034",
+  "prompt": "Что значит «gefunden»?",
+  "answer": "нашёл",
+  "distractors": [
+   "купил",
+   "прочитал"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L4_words_5",
+  "id": "ch16_L4_words_5",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_037",
+  "prompt": "Что значит «gelesen»?",
+  "answer": "прочитал",
+  "distractors": [
+   "нашёл",
+   "написал"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L4_listen_1",
+  "id": "ch16_L4_listen_1",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d4_01",
+  "prompt": "Послушай. О чём спросила Ольга?",
+  "answer": "Ты что-нибудь нашёл?",
+  "distractors": [
+   "Ты всё нашёл?",
+   "Ты ничего не нашёл?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d4_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L4_listen_2",
+  "id": "ch16_L4_listen_2",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d4_02",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Я ничего не нашёл.",
+  "distractors": [
+   "Я кое-что нашёл.",
+   "Я всё нашёл."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d4_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L4_listen_3",
+  "id": "ch16_L4_listen_3",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d4_03",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Здесь есть кое-что для тебя!",
+  "distractors": [
+   "Здесь ничего нет для тебя!",
+   "Здесь есть всё для тебя!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d4_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L4_listen_4",
+  "id": "ch16_L4_listen_4",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d4_04",
+  "prompt": "Послушай. Что теперь сказал герой?",
+  "answer": "Я кое-что нашёл.",
+  "distractors": [
+   "Я ничего не нашёл.",
+   "Я всё нашёл."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d4_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L4_listen_5",
+  "id": "ch16_L4_listen_5",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d4_06",
+  "prompt": "Послушай. Что сказал герой?",
+  "answer": "Я всё прочитал.",
+  "distractors": [
+   "Я ничего не прочитал.",
+   "Я кое-что прочитал."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d4_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L4_read_1",
+  "id": "ch16_L4_read_1",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_034",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я кое-что нашёл.",
+  "distractors": [
+   "Я ничего не нашёл.",
+   "Ты что-нибудь нашёл?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe etwas gefunden."
+ },
+ {
+  "item_id": "ch16_L4_read_2",
+  "id": "ch16_L4_read_2",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_035",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я ничего не нашёл.",
+  "distractors": [
+   "Я кое-что нашёл.",
+   "Здесь ничего нет."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe nichts gefunden."
+ },
+ {
+  "item_id": "ch16_L4_read_3",
+  "id": "ch16_L4_read_3",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_036",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Ты что-нибудь нашёл?",
+  "distractors": [
+   "Я кое-что нашёл.",
+   "Ты всё нашёл?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Hast du etwas gefunden?"
+ },
+ {
+  "item_id": "ch16_L4_read_4",
+  "id": "ch16_L4_read_4",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_037",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я всё прочитал.",
+  "distractors": [
+   "Я ничего не прочитал.",
+   "Я всё нашёл."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe alles gelesen."
+ },
+ {
+  "item_id": "ch16_L4_read_5",
+  "id": "ch16_L4_read_5",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_038",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Здесь ничего нет.",
+  "distractors": [
+   "Здесь есть кое-что.",
+   "Здесь всё есть."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Hier gibt es nichts."
+ },
+ {
+  "item_id": "ch16_L4_speak_1",
+  "id": "ch16_L4_speak_1",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_034",
+  "prompt": "Скажи: «Я кое-что нашёл.»",
+  "answer": "Ich habe etwas gefunden.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch16_034.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe etwas gefunden."
+  ]
+ },
+ {
+  "item_id": "ch16_L4_speak_2",
+  "id": "ch16_L4_speak_2",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_035",
+  "prompt": "Скажи: «Я ничего не нашёл.»",
+  "answer": "Ich habe nichts gefunden.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch16_035.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe nichts gefunden."
+  ]
+ },
+ {
+  "item_id": "ch16_L4_speak_3",
+  "id": "ch16_L4_speak_3",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_036",
+  "prompt": "Спроси Ольгу: «Ты что-нибудь нашёл?»",
+  "answer": "Hast du etwas gefunden?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch16_036.mp3",
+  "de": null,
+  "accept": [
+   "Hast du etwas gefunden?"
+  ]
+ },
+ {
+  "item_id": "ch16_L4_speak_4",
+  "id": "ch16_L4_speak_4",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_037",
+  "prompt": "Скажи: «Я всё прочитал.»",
+  "answer": "Ich habe alles gelesen.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch16_037.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe alles gelesen."
+  ]
+ },
+ {
+  "item_id": "ch16_L4_speak_5",
+  "id": "ch16_L4_speak_5",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_038",
+  "prompt": "Скажи у пустого прилавка: «Здесь ничего нет.»",
+  "answer": "Hier gibt es nichts.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_038.mp3",
+  "de": null,
+  "accept": [
+   "Hier gibt es nichts."
+  ]
+ },
+ {
+  "item_id": "ch16_L4_write_1",
+  "id": "ch16_L4_write_1",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_034",
+  "prompt": "Впиши: «Ich habe ___ gefunden.» (кое-что)",
+  "answer": "etwas",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch16_034.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L4_write_2",
+  "id": "ch16_L4_write_2",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_035",
+  "prompt": "Впиши: «Ich habe ___ gefunden.» (ничего)",
+  "answer": "nichts",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch16_035.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L4_write_3",
+  "id": "ch16_L4_write_3",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_036",
+  "prompt": "Впиши: «___ du etwas gefunden?» (помощник с du)",
+  "answer": "Hast",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch16_036.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L4_write_4",
+  "id": "ch16_L4_write_4",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_037",
+  "prompt": "Впиши: «Ich habe ___ gelesen.» (всё)",
+  "answer": "alles",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch16_037.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L4_write_5",
+  "id": "ch16_L4_write_5",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_038",
+  "prompt": "Впиши: «Hier ___ es nichts.» (действие в вагоне №2)",
+  "answer": "gibt",
+  "distractors": null,
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v1/ch16_038.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L4_why_1",
+  "id": "ch16_L4_why_1",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_034",
+  "prompt": "Почему в «Ich habe etwas gefunden» два слова про действие: habe и gefunden?",
+  "answer": "Это прошлое: habe — помощник в вагоне №2, а что сделано — gefunden — в конце.",
+  "distractors": [
+   "Это прошлое: habe — помощник в вагоне №3, а что сделано — gefunden — в конце.",
+   "habe и gefunden — одно слово, его просто разрезали пополам."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe etwas gefunden."
+ },
+ {
+  "item_id": "ch16_L4_why_2",
+  "id": "ch16_L4_why_2",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_035",
+  "prompt": "Почему «Ich habe nichts gefunden» без nicht, ведь по-русски есть «не»?",
+  "answer": "nichts уже значит «ничего» и содержит «не»: второе отрицание не нужно.",
+  "distractors": [
+   "nicht ставят каждый раз, когда по-русски есть «не», и перед nichts тоже.",
+   "nichts — вежливая форма слова nicht, её говорят незнакомым людям."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe nichts gefunden."
+ },
+ {
+  "item_id": "ch16_L4_why_3",
+  "id": "ch16_L4_why_3",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_036",
+  "prompt": "Почему «Hast du etwas gefunden?» начинается с hast?",
+  "answer": "Вопрос «да/нет»: помощник hast стоит первым, du — за ним, gefunden — в конце.",
+  "distractors": [
+   "hast ставят первым, потому что в вопросе есть слово etwas.",
+   "Вопрос «да/нет»: помощник hast стоит первым, du — за ним, gefunden — впереди."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Hast du etwas gefunden?"
+ },
+ {
+  "item_id": "ch16_L4_why_4",
+  "id": "ch16_L4_why_4",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_037",
+  "prompt": "Чем alles отличается от etwas и nichts?",
+  "answer": "alles — «всё», etwas — «что-то», nichts — «ничего»: три слова на месте «что».",
+  "distractors": [
+   "alles — это «ничего», а nichts — это «всё».",
+   "Все три слова значат «что-то», а различаются только на письме."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe alles gelesen."
+ },
+ {
+  "item_id": "ch16_L4_why_5",
+  "id": "ch16_L4_why_5",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_037",
+  "prompt": "Почему «Ich habe alles gelesen», а не «Ich habe gelesen alles»?",
+  "answer": "Что сделано — gelesen — уходит в самый конец, а alles стоит перед ним.",
+  "distractors": [
+   "alles всегда стоит после gelesen, как в русском.",
+   "Что сделано — gelesen — уходит в самое начало, а alles стоит перед ним."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe alles gelesen."
+ },
+ {
+  "item_id": "ch16_L4_transfer_1",
+  "id": "ch16_L4_transfer_1",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_t07",
+  "prompt": "Скажи: «Я ничего не прочитал.»",
+  "answer": "Ich habe nichts gelesen.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch16_t07.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe nichts gelesen."
+  ]
+ },
+ {
+  "item_id": "ch16_L4_transfer_2",
+  "id": "ch16_L4_transfer_2",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_t08",
+  "prompt": "Спроси Ольгу: «Ты всё нашёл?»",
+  "answer": "Hast du alles gefunden?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch16_t08.mp3",
+  "de": null,
+  "accept": [
+   "Hast du alles gefunden?"
+  ]
+ },
+ {
+  "item_id": "ch16_L4_transfer_3",
+  "id": "ch16_L4_transfer_3",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_t09",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Я кое-что прочитал.",
+  "distractors": [
+   "Я ничего не прочитал.",
+   "Я всё прочитал."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch16_t09.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L4_transfer_4",
+  "id": "ch16_L4_transfer_4",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_t08",
+  "prompt": "Напиши по-немецки: «Ты всё нашёл?»",
+  "answer": "Hast du alles gefunden?",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": "audio_v1/ch16_t08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L4_transfer_5",
+  "id": "ch16_L4_transfer_5",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_t09",
+  "prompt": "Чем «Ich habe etwas gelesen» отличается от «Ich habe nichts gelesen»?",
+  "answer": "etwas — «кое-что» (читал), nichts — «ничего» (не читал): смысл разный.",
+  "distractors": [
+   "Смысл один и тот же, различие только в громкости: nichts говорят громче.",
+   "nichts — вежливая форма слова etwas, поэтому смысл одинаковый, как у «вы» и «ты»."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": null,
+  "de": "Ich habe etwas gelesen."
+ },
+ {
+  "item_id": "ch16_L4_boss_1",
+  "id": "ch16_L4_boss_1",
+  "lesson": "ch16_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d4_05",
+  "prompt": "Послушай реплику Ольги ещё раз. О чём она спросила?",
+  "answer": "Ты всё прочитал?",
+  "distractors": [
+   "Ты что-нибудь нашёл?",
+   "Ты всё нашёл?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d4_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L5_words_1",
+  "id": "ch16_L5_words_1",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_045",
+  "prompt": "Что значит «feiern»?",
+  "answer": "праздновать",
+  "distractors": [
+   "играть",
+   "покупать"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L5_words_2",
+  "id": "ch16_L5_words_2",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_047",
+  "prompt": "Что значит «gefeiert»?",
+  "answer": "праздновали",
+  "distractors": [
+   "нашли",
+   "купили"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L5_words_3",
+  "id": "ch16_L5_words_3",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_046",
+  "prompt": "Что значит «im Dezember»?",
+  "answer": "в декабре",
+  "distractors": [
+   "в июне",
+   "в субботу"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L5_words_4",
+  "id": "ch16_L5_words_4",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_047",
+  "prompt": "Что значит «Ostern»?",
+  "answer": "Пасха",
+  "distractors": [
+   "Рождество",
+   "день рождения"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L5_words_5",
+  "id": "ch16_L5_words_5",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_048",
+  "prompt": "Что значит «jeden Tag»?",
+  "answer": "ежедневно",
+  "distractors": [
+   "каждую неделю",
+   "иногда"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L5_listen_1",
+  "id": "ch16_L5_listen_1",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d5_01",
+  "prompt": "Послушай. О чём спросил герой?",
+  "answer": "Что вы празднуете в декабре?",
+  "distractors": [
+   "Что вы праздновали в апреле?",
+   "Когда вы празднуете Рождество?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d5_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L5_listen_2",
+  "id": "ch16_L5_listen_2",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d5_02",
+  "prompt": "Послушай. Что ответила Ольга?",
+  "answer": "В декабре мы празднуем Рождество.",
+  "distractors": [
+   "В декабре мы празднуем Пасху.",
+   "В апреле мы празднуем Рождество."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d5_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L5_listen_3",
+  "id": "ch16_L5_listen_3",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d5_03",
+  "prompt": "Послушай. Что сказал Макс?",
+  "answer": "Мы празднуем Рождество.",
+  "distractors": [
+   "Мы праздновали Рождество.",
+   "Мы празднуем Пасху."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d5_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L5_listen_4",
+  "id": "ch16_L5_listen_4",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d5_04",
+  "prompt": "Послушай. О чём спросил герой?",
+  "answer": "А что вы праздновали в апреле?",
+  "distractors": [
+   "А что вы празднуете в апреле?",
+   "А что вы праздновали в декабре?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d5_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L5_listen_5",
+  "id": "ch16_L5_listen_5",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d5_05",
+  "prompt": "Послушай. Что ответила Ольга?",
+  "answer": "Мы праздновали Пасху.",
+  "distractors": [
+   "Мы празднуем Пасху.",
+   "Мы праздновали Рождество."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d5_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L5_listen_6",
+  "id": "ch16_L5_listen_6",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d5_07",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Я учу немецкий ежедневно.",
+  "distractors": [
+   "Я ем фрукты ежедневно.",
+   "Я учу немецкий раз в неделю."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d5_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L5_listen_7",
+  "id": "ch16_L5_listen_7",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d5_08",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Я ем фрукты ежедневно.",
+  "distractors": [
+   "Я учу немецкий ежедневно.",
+   "Я ем овощи ежедневно."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d5_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L5_read_1",
+  "id": "ch16_L5_read_1",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_072",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Что вы празднуете в декабре?",
+  "distractors": [
+   "Что вы праздновали в апреле?",
+   "Когда вы празднуете Рождество?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Was feiert ihr im Dezember?"
+ },
+ {
+  "item_id": "ch16_L5_read_2",
+  "id": "ch16_L5_read_2",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_073",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "А что вы праздновали в апреле?",
+  "distractors": [
+   "А что вы празднуете в апреле?",
+   "А что вы праздновали в декабре?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Und was habt ihr im April gefeiert?"
+ },
+ {
+  "item_id": "ch16_L5_read_3",
+  "id": "ch16_L5_read_3",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_045",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Мы празднуем Рождество.",
+  "distractors": [
+   "Мы празднуем Пасху.",
+   "Мы праздновали Рождество."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wir feiern Weihnachten."
+ },
+ {
+  "item_id": "ch16_L5_read_4",
+  "id": "ch16_L5_read_4",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_046",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "В декабре мы празднуем Рождество.",
+  "distractors": [
+   "В июне мы празднуем Рождество.",
+   "Когда вы празднуете Рождество?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Im Dezember feiern wir Weihnachten."
+ },
+ {
+  "item_id": "ch16_L5_read_5",
+  "id": "ch16_L5_read_5",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_047",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Мы праздновали Пасху.",
+  "distractors": [
+   "Мы празднуем Пасху.",
+   "Мы праздновали Рождество."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wir haben Ostern gefeiert."
+ },
+ {
+  "item_id": "ch16_L5_read_6",
+  "id": "ch16_L5_read_6",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_048",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я учу немецкий ежедневно.",
+  "distractors": [
+   "Я учу немецкий раз в неделю.",
+   "Я ем фрукты ежедневно."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich lerne jeden Tag Deutsch."
+ },
+ {
+  "item_id": "ch16_L5_read_7",
+  "id": "ch16_L5_read_7",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_049",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я ем фрукты ежедневно.",
+  "distractors": [
+   "Я учу немецкий ежедневно.",
+   "Я ем овощи ежедневно."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich esse jeden Tag Obst."
+ },
+ {
+  "item_id": "ch16_L5_speak_1",
+  "id": "ch16_L5_speak_1",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_045",
+  "prompt": "Скажи: «Мы празднуем Рождество.»",
+  "answer": "Wir feiern Weihnachten.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_045.mp3",
+  "de": null,
+  "accept": [
+   "Wir feiern Weihnachten."
+  ]
+ },
+ {
+  "item_id": "ch16_L5_speak_2",
+  "id": "ch16_L5_speak_2",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_046",
+  "prompt": "Скажи: «В декабре мы празднуем Рождество.»",
+  "answer": "Im Dezember feiern wir Weihnachten.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_046.mp3",
+  "de": null,
+  "accept": [
+   "Im Dezember feiern wir Weihnachten."
+  ]
+ },
+ {
+  "item_id": "ch16_L5_speak_3",
+  "id": "ch16_L5_speak_3",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_047",
+  "prompt": "Скажи: «Мы праздновали Пасху.»",
+  "answer": "Wir haben Ostern gefeiert.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch16_047.mp3",
+  "de": null,
+  "accept": [
+   "Wir haben Ostern gefeiert."
+  ]
+ },
+ {
+  "item_id": "ch16_L5_speak_4",
+  "id": "ch16_L5_speak_4",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_048",
+  "prompt": "Скажи своё решение: «Я учу немецкий ежедневно.»",
+  "answer": "Ich lerne jeden Tag Deutsch.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_048.mp3",
+  "de": null,
+  "accept": [
+   "Ich lerne jeden Tag Deutsch."
+  ]
+ },
+ {
+  "item_id": "ch16_L5_speak_5",
+  "id": "ch16_L5_speak_5",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_049",
+  "prompt": "Скажи другое решение: «Я ем фрукты ежедневно.»",
+  "answer": "Ich esse jeden Tag Obst.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_049.mp3",
+  "de": null,
+  "accept": [
+   "Ich esse jeden Tag Obst."
+  ]
+ },
+ {
+  "item_id": "ch16_L5_write_1",
+  "id": "ch16_L5_write_1",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_045",
+  "prompt": "Впиши: «Wir ___ Weihnachten.» (празднуем)",
+  "answer": "feiern",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_045.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L5_write_2",
+  "id": "ch16_L5_write_2",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_046",
+  "prompt": "Впиши: «Im ___ feiern wir Weihnachten.» (декабре)",
+  "answer": "Dezember",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_046.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L5_write_3",
+  "id": "ch16_L5_write_3",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_047",
+  "prompt": "Впиши: «Wir ___ Ostern gefeiert.» (помощник с wir)",
+  "answer": "haben",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch16_047.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L5_write_4",
+  "id": "ch16_L5_write_4",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_048",
+  "prompt": "Впиши: «Ich lerne jeden ___ Deutsch.» (день)",
+  "answer": "Tag",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_048.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L5_write_5",
+  "id": "ch16_L5_write_5",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_049",
+  "prompt": "Впиши: «Ich esse jeden Tag ___.» (фрукты)",
+  "answer": "Obst",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_049.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L5_why_1",
+  "id": "ch16_L5_why_1",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_045",
+  "prompt": "Почему «Wir feiern», а не «Wir feiert»?",
+  "answer": "С wir к основе feier добавляют -n: feier + n = wir feiern; хвост -t — для ihr.",
+  "distractors": [
+   "С wir к основе feier добавляют -en: feier + en = wir feieren.",
+   "С wir действие остаётся без хвоста: wir feier."
+  ],
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": null,
+  "de": "Wir feiern Weihnachten."
+ },
+ {
+  "item_id": "ch16_L5_why_2",
+  "id": "ch16_L5_why_2",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_046",
+  "prompt": "Почему в «Im Dezember feiern wir Weihnachten» сначала feiern, а потом wir?",
+  "answer": "Впереди стоит время — im Dezember, а действие всё равно в вагоне №2: за ним идёт wir.",
+  "distractors": [
+   "Впереди стоит время — im Dezember, а действие всё равно в вагоне №3: за ним идёт wir.",
+   "feiern ставят перед wir, потому что это вопрос."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Im Dezember feiern wir Weihnachten."
+ },
+ {
+  "item_id": "ch16_L5_why_3",
+  "id": "ch16_L5_why_3",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_047",
+  "prompt": "Почему «Wir haben Ostern gefeiert», а не «Wir habe …»?",
+  "answer": "С wir помощник haben; что сделано — gefeiert — стоит в конце.",
+  "distractors": [
+   "habe подходит и к wir: хвост -n нужен только в вопросе.",
+   "С wir помощник hat, как с Olga."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Wir haben Ostern gefeiert."
+ },
+ {
+  "item_id": "ch16_L5_why_4",
+  "id": "ch16_L5_why_4",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_047",
+  "prompt": "Как построено слово gefeiert?",
+  "answer": "ge + основа + t: feier → gefeiert.",
+  "distractors": [
+   "ge + основа + en: feier → gefeieren.",
+   "Просто основа без ge: feier."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Wir haben Ostern gefeiert."
+ },
+ {
+  "item_id": "ch16_L5_why_5",
+  "id": "ch16_L5_why_5",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_048",
+  "prompt": "Почему «jeden Tag», а не «jeder Tag»?",
+  "answer": "Это ответ на «когда»: der Tag меняется на jeden Tag, как diesen Stern.",
+  "distractors": [
+   "Это ответ на «когда»: der Tag не меняется на jeden Tag, как diesen Stern.",
+   "jeden — вежливая форма, jeder — для друзей."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich lerne jeden Tag Deutsch."
+ },
+ {
+  "item_id": "ch16_L5_transfer_1",
+  "id": "ch16_L5_transfer_1",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_t10",
+  "prompt": "Скажи: «Мы празднуем Пасху.»",
+  "answer": "Wir feiern Ostern.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch16_t10.mp3",
+  "de": null,
+  "accept": [
+   "Wir feiern Ostern."
+  ]
+ },
+ {
+  "item_id": "ch16_L5_transfer_2",
+  "id": "ch16_L5_transfer_2",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_t11",
+  "prompt": "Скажи: «Мы празднуем Рождество в декабре.»",
+  "answer": "Wir feiern Weihnachten im Dezember.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch16_t11.mp3",
+  "de": null,
+  "accept": [
+   "Wir feiern Weihnachten im Dezember."
+  ]
+ },
+ {
+  "item_id": "ch16_L5_transfer_3",
+  "id": "ch16_L5_transfer_3",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_t12",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Я праздновал Рождество.",
+  "distractors": [
+   "Я праздную Рождество.",
+   "Мы праздновали Рождество."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch16_t12.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L5_transfer_4",
+  "id": "ch16_L5_transfer_4",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_t11",
+  "prompt": "Напиши по-немецки: «Мы празднуем Рождество в декабре.»",
+  "answer": "Wir feiern Weihnachten im Dezember.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch16_t11.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L5_transfer_5",
+  "id": "ch16_L5_transfer_5",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_t12",
+  "prompt": "Почему в «Ich habe Weihnachten gefeiert» стоит habe, а не haben?",
+  "answer": "С ich помощник habe; haben — с wir.",
+  "distractors": [
+   "haben — с ich, а habe — с wir.",
+   "habe и haben ставят как угодно."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": null,
+  "de": "Ich habe Weihnachten gefeiert."
+ },
+ {
+  "item_id": "ch16_L5_boss_1",
+  "id": "ch16_L5_boss_1",
+  "lesson": "ch16_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d5_06",
+  "prompt": "Послушай реплику Макса. Что он спросил?",
+  "answer": "Какое у тебя решение?",
+  "distractors": [
+   "Когда ты празднуешь?",
+   "Что ты учишь?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d5_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L6_words_1",
+  "id": "ch16_L6_words_1",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_060",
+  "prompt": "Что значит «Film»?",
+  "answer": "фильм",
+  "distractors": [
+   "сериал",
+   "передача"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L6_words_2",
+  "id": "ch16_L6_words_2",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_060",
+  "prompt": "Что значит «gesehen»?",
+  "answer": "видел",
+  "distractors": [
+   "читал",
+   "учил"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L6_words_3",
+  "id": "ch16_L6_words_3",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_063",
+  "prompt": "Что значит «Untertitel»?",
+  "answer": "субтитры",
+  "distractors": [
+   "сериал",
+   "язык"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L6_words_4",
+  "id": "ch16_L6_words_4",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_062",
+  "prompt": "Что значит «gefällt»?",
+  "answer": "нравится",
+  "distractors": [
+   "видел",
+   "читал"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L6_words_5",
+  "id": "ch16_L6_words_5",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch16_064",
+  "prompt": "Что значит «gelernt»?",
+  "answer": "учил",
+  "distractors": [
+   "видел",
+   "читал"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch16_L6_listen_1",
+  "id": "ch16_L6_listen_1",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d6_01",
+  "prompt": "Послушай. О чём спросила Ольга?",
+  "answer": "Ты видел фильм?",
+  "distractors": [
+   "Ты читал субтитры?",
+   "Ты учил немецкий?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d6_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L6_listen_2",
+  "id": "ch16_L6_listen_2",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d6_02",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Я видел фильм.",
+  "distractors": [
+   "Я читал субтитры.",
+   "Фильм мне нравится."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d6_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L6_listen_3",
+  "id": "ch16_L6_listen_3",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d6_03",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Фильм мне нравится.",
+  "distractors": [
+   "Я видел фильм.",
+   "Ты видел фильм?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d6_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L6_listen_4",
+  "id": "ch16_L6_listen_4",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d6_05",
+  "prompt": "Послушай. О чём спросила Ольга?",
+  "answer": "Ты учил немецкий?",
+  "distractors": [
+   "Ты видел фильм?",
+   "Ты читал субтитры?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d6_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L6_listen_5",
+  "id": "ch16_L6_listen_5",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d6_06",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Я учил немецкий.",
+  "distractors": [
+   "Я видел фильм.",
+   "Я читал субтитры."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d6_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L6_read_1",
+  "id": "ch16_L6_read_1",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_060",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я видел фильм.",
+  "distractors": [
+   "Ты видел фильм?",
+   "Фильм мне нравится."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe einen Film gesehen."
+ },
+ {
+  "item_id": "ch16_L6_read_2",
+  "id": "ch16_L6_read_2",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_061",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Ты видел фильм?",
+  "distractors": [
+   "Я видел фильм.",
+   "Ты учил немецкий?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Hast du einen Film gesehen?"
+ },
+ {
+  "item_id": "ch16_L6_read_3",
+  "id": "ch16_L6_read_3",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_062",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Фильм мне нравится.",
+  "distractors": [
+   "Я видел фильм.",
+   "Я читал субтитры."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Der Film gefällt mir."
+ },
+ {
+  "item_id": "ch16_L6_read_4",
+  "id": "ch16_L6_read_4",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_063",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я читал субтитры.",
+  "distractors": [
+   "Я видел субтитры.",
+   "Ты читал субтитры?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe Untertitel gelesen."
+ },
+ {
+  "item_id": "ch16_L6_read_5",
+  "id": "ch16_L6_read_5",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch16_064",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Ты учил немецкий?",
+  "distractors": [
+   "Я учил немецкий.",
+   "Ты видел фильм?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Hast du Deutsch gelernt?"
+ },
+ {
+  "item_id": "ch16_L6_speak_1",
+  "id": "ch16_L6_speak_1",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_060",
+  "prompt": "Скажи: «Я видел фильм.»",
+  "answer": "Ich habe einen Film gesehen.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch16_060.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe einen Film gesehen."
+  ]
+ },
+ {
+  "item_id": "ch16_L6_speak_2",
+  "id": "ch16_L6_speak_2",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_061",
+  "prompt": "Скажи: «Ты видел фильм?»",
+  "answer": "Hast du einen Film gesehen?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch16_061.mp3",
+  "de": null,
+  "accept": [
+   "Hast du einen Film gesehen?"
+  ]
+ },
+ {
+  "item_id": "ch16_L6_speak_3",
+  "id": "ch16_L6_speak_3",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_062",
+  "prompt": "Скажи: «Фильм мне нравится.»",
+  "answer": "Der Film gefällt mir.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_062.mp3",
+  "de": null,
+  "accept": [
+   "Der Film gefällt mir."
+  ]
+ },
+ {
+  "item_id": "ch16_L6_speak_4",
+  "id": "ch16_L6_speak_4",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_063",
+  "prompt": "Скажи: «Я читал субтитры.»",
+  "answer": "Ich habe Untertitel gelesen.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch16_063.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe Untertitel gelesen."
+  ]
+ },
+ {
+  "item_id": "ch16_L6_speak_5",
+  "id": "ch16_L6_speak_5",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_065",
+  "prompt": "Скажи: «Я учил немецкий.»",
+  "answer": "Ich habe Deutsch gelernt.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch16_065.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe Deutsch gelernt."
+  ]
+ },
+ {
+  "item_id": "ch16_L6_write_1",
+  "id": "ch16_L6_write_1",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_060",
+  "prompt": "Впиши: «Ich habe einen ___ gesehen.» (фильм)",
+  "answer": "Film",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch16_060.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L6_write_2",
+  "id": "ch16_L6_write_2",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_061",
+  "prompt": "Впиши: «Hast du einen Film ___?» (видел)",
+  "answer": "gesehen",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch16_061.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L6_write_3",
+  "id": "ch16_L6_write_3",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_062",
+  "prompt": "Впиши: «Der Film ___ mir.» (нравится)",
+  "answer": "gefällt",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch16_062.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L6_write_4",
+  "id": "ch16_L6_write_4",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_063",
+  "prompt": "Впиши: «Ich habe Untertitel ___.» (читал)",
+  "answer": "gelesen",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch16_063.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L6_write_5",
+  "id": "ch16_L6_write_5",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_065",
+  "prompt": "Впиши: «Ich habe Deutsch ___.» (учил)",
+  "answer": "gelernt",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch16_065.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L6_why_1",
+  "id": "ch16_L6_why_1",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_060",
+  "prompt": "Почему «Ich habe einen Film gesehen», а не «Ich habe der Film gesehen»?",
+  "answer": "Фильм здесь то, что видят: der Film меняется на einen Film, как ein на einen.",
+  "distractors": [
+   "der Film не меняется: меняется только gesehen.",
+   "Фильм здесь то, что видят: der Film не меняется на einen Film, как ein на einen."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe einen Film gesehen."
+ },
+ {
+  "item_id": "ch16_L6_why_2",
+  "id": "ch16_L6_why_2",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_061",
+  "prompt": "Почему в «Hast du einen Film gesehen?» hast стоит первым?",
+  "answer": "Вопрос «да/нет»: действие hast выходит вперёд, gesehen — в конце.",
+  "distractors": [
+   "Вопрос «да/нет»: действие hast выходит вперёд, gesehen — впереди.",
+   "hast ставят в конец: gesehen идёт сразу за du."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Hast du einen Film gesehen?"
+ },
+ {
+  "item_id": "ch16_L6_why_3",
+  "id": "ch16_L6_why_3",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_062",
+  "prompt": "Почему «Der Film gefällt mir», а не «Ich gefällt der Film»?",
+  "answer": "Вещь стоит впереди: Der Film · gefällt · mir.",
+  "distractors": [
+   "Ich идёт первым, потому что говорю я.",
+   "gefällt ставят после mir, как в русском порядке."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Der Film gefällt mir."
+ },
+ {
+  "item_id": "ch16_L6_why_4",
+  "id": "ch16_L6_why_4",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_063",
+  "prompt": "Почему «Ich habe Untertitel gelesen» — без артикля?",
+  "answer": "Untertitel — множественное число, а у него нет ein.",
+  "distractors": [
+   "Untertitel — это имя, у имён нет артикля.",
+   "Артикль ставят только в вопросе."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe Untertitel gelesen."
+ },
+ {
+  "item_id": "ch16_L6_why_5",
+  "id": "ch16_L6_why_5",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_064",
+  "prompt": "Почему в «Hast du Deutsch gelernt?» gelernt — в конце?",
+  "answer": "Что сделано — в конце: hast впереди, gelernt — последним.",
+  "distractors": [
+   "Что сделано — впереди: hast впереди, gelernt — последним.",
+   "gelernt стоит в начале, как слово-вопрос."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Hast du Deutsch gelernt?"
+ },
+ {
+  "item_id": "ch16_L6_transfer_1",
+  "id": "ch16_L6_transfer_1",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_t13",
+  "prompt": "Спроси: «Ты читал субтитры?»",
+  "answer": "Hast du Untertitel gelesen?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch16_t13.mp3",
+  "de": null,
+  "accept": [
+   "Hast du Untertitel gelesen?"
+  ]
+ },
+ {
+  "item_id": "ch16_L6_transfer_2",
+  "id": "ch16_L6_transfer_2",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_t14",
+  "prompt": "Скажи: «Ольга видела фильм.»",
+  "answer": "Olga hat einen Film gesehen.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch16_t14.mp3",
+  "de": null,
+  "accept": [
+   "Olga hat einen Film gesehen."
+  ]
+ },
+ {
+  "item_id": "ch16_L6_transfer_3",
+  "id": "ch16_L6_transfer_3",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_t14",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Ольга видела фильм.",
+  "distractors": [
+   "Я видел фильм.",
+   "Ольга читала субтитры."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch16_t14.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L6_transfer_4",
+  "id": "ch16_L6_transfer_4",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch16_t14",
+  "prompt": "Напиши по-немецки: «Ольга видела фильм.»",
+  "answer": "Olga hat einen Film gesehen.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch16_t14.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch16_L6_transfer_5",
+  "id": "ch16_L6_transfer_5",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch16_t14",
+  "prompt": "Почему в «Olga hat einen Film gesehen» стоит hat, а не habe?",
+  "answer": "С Olga помощник hat; habe — только с ich.",
+  "distractors": [
+   "С Olga помощник habe; hat — только с ich.",
+   "hat и habe ставят как угодно."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": null,
+  "de": "Olga hat einen Film gesehen."
+ },
+ {
+  "item_id": "ch16_L6_transfer_6",
+  "id": "ch16_L6_transfer_6",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch16_t15",
+  "prompt": "Спроси: «Где ты читал субтитры?»",
+  "answer": "Wo hast du Untertitel gelesen?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch16_t15.mp3",
+  "de": null,
+  "accept": [
+   "Wo hast du Untertitel gelesen?"
+  ]
+ },
+ {
+  "item_id": "ch16_L6_boss_1",
+  "id": "ch16_L6_boss_1",
+  "lesson": "ch16_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch16_d6_04",
+  "prompt": "Послушай реплику Макса. Что он сказал?",
+  "answer": "Я читал субтитры.",
+  "distractors": [
+   "Я видел субтитры.",
+   "Ты читал субтитры?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch16_d6_04.mp3",
+  "de": null
+ }
+]

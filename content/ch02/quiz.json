@@ -1,0 +1,3818 @@
+[
+ {
+  "item_id": "ch02_L1_words_1",
+  "id": "ch02_L1_words_1",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_001",
+  "prompt": "Что значит «Handynummer»?",
+  "answer": "номер мобильного",
+  "distractors": [
+   "номер дома",
+   "адрес почты"
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L1_words_2",
+  "id": "ch02_L1_words_2",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_004",
+  "prompt": "Что значит «E-Mail-Adresse»?",
+  "answer": "e-mail, адрес почты",
+  "distractors": [
+   "номер мобильного",
+   "адрес дома"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L1_words_3",
+  "id": "ch02_L1_words_3",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_001",
+  "prompt": "Что значит «deine»?",
+  "answer": "твой (на «ты»)",
+  "distractors": [
+   "ваш (на «вы»)",
+   "мой"
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L1_words_4",
+  "id": "ch02_L1_words_4",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_003",
+  "prompt": "Что значит «Ihre» в вопросе учительницы?",
+  "answer": "ваш (на «вы»)",
+  "distractors": [
+   "твой (на «ты»)",
+   "мой"
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L1_words_5",
+  "id": "ch02_L1_words_5",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_002",
+  "prompt": "Что значит «null»?",
+  "answer": "ноль",
+  "distractors": [
+   "один",
+   "семь"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L1_words_6",
+  "id": "ch02_L1_words_6",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_005",
+  "prompt": "Как читают знак «@» в адресе почты?",
+  "answer": "«эт»",
+  "distractors": [
+   "«пункт»",
+   "«минус»"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L1_listen_1",
+  "id": "ch02_L1_listen_1",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d1_01",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Какой у тебя номер мобильного?",
+  "distractors": [
+   "Какой у тебя e-mail?",
+   "Где ты живёшь?"
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d1_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L1_listen_2",
+  "id": "ch02_L1_listen_2",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d1_02",
+  "prompt": "Послушай. С каких цифр начинается номер героя?",
+  "answer": "0171",
+  "distractors": [
+   "0157",
+   "0173"
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d1_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L1_listen_3",
+  "id": "ch02_L1_listen_3",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d1_04",
+  "prompt": "Послушай. Как Ольга продиктовала адрес?",
+  "answer": "Ольга пункт Петренко «эт» веб пункт дэ-э.",
+  "distractors": [
+   "Ольга Петренко «эт» веб пункт дэ-э.",
+   "Ольга пункт Петренко пункт дэ-э."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d1_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L1_listen_4",
+  "id": "ch02_L1_listen_4",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d1_05",
+  "prompt": "Послушай. Что спросила учительница?",
+  "answer": "Какой у вас номер мобильного?",
+  "distractors": [
+   "Какой у вас e-mail?",
+   "Как вас зовут?"
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d1_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L1_listen_5",
+  "id": "ch02_L1_listen_5",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d1_07",
+  "prompt": "Послушай. Какой адрес почты у учительницы?",
+  "answer": "Анна пункт Беккер «эт» веб пункт дэ-э",
+  "distractors": [
+   "Ольга пункт Петренко «эт» веб пункт дэ-э",
+   "Анна Беккер «эт» веб пункт дэ-э"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d1_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L1_read_1",
+  "id": "ch02_L1_read_1",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_001",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Какой у тебя номер мобильного?",
+  "distractors": [
+   "Какой у вас номер мобильного?",
+   "Где твой мобильный?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie ist deine Handynummer?"
+ },
+ {
+  "item_id": "ch02_L1_read_2",
+  "id": "ch02_L1_read_2",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_003",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Какой у вас номер мобильного?",
+  "distractors": [
+   "Какой у тебя номер мобильного?",
+   "Это ваш мобильный?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie ist Ihre Handynummer?"
+ },
+ {
+  "item_id": "ch02_L1_read_3",
+  "id": "ch02_L1_read_3",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_004",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Какой у тебя e-mail?",
+  "distractors": [
+   "Какой у тебя номер мобильного?",
+   "Какой у вас e-mail?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie ist deine E-Mail-Adresse?"
+ },
+ {
+  "item_id": "ch02_L1_read_4",
+  "id": "ch02_L1_read_4",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_002",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Мой номер мобильного — 0171 39200 01.",
+  "distractors": [
+   "Мой номер дома — 0170.",
+   "Твой номер мобильного — 0171 39200 01."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Meine Handynummer ist null, eins, sieben, eins, drei, neun, zwei, null, null, null, eins."
+ },
+ {
+  "item_id": "ch02_L1_read_5",
+  "id": "ch02_L1_read_5",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_005",
+  "prompt": "Прочитай адрес. Как его продиктовать по-немецки?",
+  "answer": "Ольга пункт Петренко «эт» веб пункт дэ-э.",
+  "distractors": [
+   "Ольга «эт» Петренко пункт веб дэ-э.",
+   "Ольга Петренко веб пункт дэ-э."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Meine E-Mail-Adresse ist Olga.Petrenko@web.de."
+ },
+ {
+  "item_id": "ch02_L1_speak_1",
+  "id": "ch02_L1_speak_1",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_001",
+  "prompt": "Спроси Ольгу на «ты»: «Какой у тебя номер мобильного?» wie — «ви:», deine — «дайнэ».",
+  "answer": "Wie ist deine Handynummer?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v4/ch02_001.mp3",
+  "de": null,
+  "accept": [
+   "Wie ist deine Handynummer?"
+  ]
+ },
+ {
+  "item_id": "ch02_L1_speak_2",
+  "id": "ch02_L1_speak_2",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_003",
+  "prompt": "Спроси учительницу на «вы»: «Какой у вас номер мобильного?»",
+  "answer": "Wie ist Ihre Handynummer?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v4/ch02_003.mp3",
+  "de": null,
+  "accept": [
+   "Wie ist Ihre Handynummer?"
+  ]
+ },
+ {
+  "item_id": "ch02_L1_speak_3",
+  "id": "ch02_L1_speak_3",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_002",
+  "prompt": "Продиктуй номер по цифрам: «Мой номер мобильного — 0171 39200 01.»",
+  "answer": "Meine Handynummer ist null, eins, sieben, eins, drei, neun, zwei, null, null, null, eins.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v4/ch02_002.mp3",
+  "de": null,
+  "accept": [
+   "Meine Handynummer ist null, eins, sieben, eins, drei, neun, zwei, null, null, null, eins."
+  ]
+ },
+ {
+  "item_id": "ch02_L1_speak_4",
+  "id": "ch02_L1_speak_4",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_004",
+  "prompt": "Спроси Ольгу на «ты»: «Какой у тебя e-mail?»",
+  "answer": "Wie ist deine E-Mail-Adresse?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v4/ch02_004.mp3",
+  "de": null,
+  "accept": [
+   "Wie ist deine E-Mail-Adresse?"
+  ]
+ },
+ {
+  "item_id": "ch02_L1_speak_5",
+  "id": "ch02_L1_speak_5",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_d1_03",
+  "prompt": "Спроси Ольгу в ответ: «А какой у тебя e-mail?» und — не вагон.",
+  "answer": "Und wie ist deine E-Mail-Adresse?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d1_03.mp3",
+  "de": null,
+  "accept": [
+   "Und wie ist deine E-Mail-Adresse?"
+  ]
+ },
+ {
+  "item_id": "ch02_L1_write_1",
+  "id": "ch02_L1_write_1",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_001",
+  "prompt": "Впиши: «Wie ist ___ Handynummer?» (твой)",
+  "answer": "deine",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v4/ch02_001.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L1_write_2",
+  "id": "ch02_L1_write_2",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_003",
+  "prompt": "Впиши: «Wie ist ___ Handynummer?» (ваш — на вы)",
+  "answer": "Ihre",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v4/ch02_003.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L1_write_3",
+  "id": "ch02_L1_write_3",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_004",
+  "prompt": "Впиши: «Wie ist deine ___?» (e-mail)",
+  "answer": "E-Mail-Adresse",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v4/ch02_004.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L1_write_4",
+  "id": "ch02_L1_write_4",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_002",
+  "prompt": "Впиши цифру словом: «null, eins, ___, eins» (7)",
+  "answer": "sieben",
+  "distractors": null,
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v4/ch02_002.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L1_write_5",
+  "id": "ch02_L1_write_5",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_002",
+  "prompt": "Впиши цифру словом: «sieben, eins, ___, neun» (3)",
+  "answer": "drei",
+  "distractors": null,
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v4/ch02_002.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L1_why_1",
+  "id": "ch02_L1_why_1",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_001",
+  "prompt": "Почему «deine Handynummer», а не «dein Handynummer»?",
+  "answer": "die Handynummer — die-слово, поэтому deine с -e.",
+  "distractors": [
+   "deine — потому что дальше цифры.",
+   "Так вежливее, чем dein."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie ist deine Handynummer?"
+ },
+ {
+  "item_id": "ch02_L1_why_2",
+  "id": "ch02_L1_why_2",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_003",
+  "prompt": "Почему учительница говорит «Ihre», а Ольга — «deine»?",
+  "answer": "На «вы» — Ihre («ваш»), на «ты» — deine («твой»).",
+  "distractors": [
+   "Ihre — потому что учительница старше.",
+   "Ihre — потому что вопрос длиннее."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie ist Ihre Handynummer?"
+ },
+ {
+  "item_id": "ch02_L1_why_3",
+  "id": "ch02_L1_why_3",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_004",
+  "prompt": "Почему «die E-Mail-Adresse»?",
+  "answer": "Последняя часть — die Adresse: она и даёт артикль.",
+  "distractors": [
+   "Все длинные слова — die-слова.",
+   "Потому что E-Mail стоит первым."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie ist deine E-Mail-Adresse?"
+ },
+ {
+  "item_id": "ch02_L1_why_4",
+  "id": "ch02_L1_why_4",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_005",
+  "prompt": "Почему «Meine E-Mail-Adresse», а не «Mein E-Mail-Adresse»?",
+  "answer": "die Adresse — die-слово, поэтому meine с -e.",
+  "distractors": [
+   "meine — потому что адрес длинный.",
+   "Так говорят только про почту."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Meine E-Mail-Adresse ist Olga.Petrenko@web.de."
+ },
+ {
+  "item_id": "ch02_L1_why_5",
+  "id": "ch02_L1_why_5",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_002",
+  "prompt": "Почему «ist» стоит сразу после «Meine Handynummer»?",
+  "answer": "Действие — вагон №2: Meine Handynummer · ist · номер.",
+  "distractors": [
+   "ist всегда стоит в конце фразы.",
+   "Номер — главное, поэтому он после ist."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Meine Handynummer ist null, eins, sieben, eins, drei, neun, zwei, null, null, null, eins."
+ },
+ {
+  "item_id": "ch02_L1_transfer_1",
+  "id": "ch02_L1_transfer_1",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_t01",
+  "prompt": "В Jobcenter нужен твой домашний адрес. Спроси на «вы», как спросят тебя: «Какой у вас адрес?»",
+  "answer": "Wie ist Ihre Adresse?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v4/ch02_t01.mp3",
+  "de": null,
+  "accept": [
+   "Wie ist Ihre Adresse?"
+  ]
+ },
+ {
+  "item_id": "ch02_L1_transfer_2",
+  "id": "ch02_L1_transfer_2",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_t02",
+  "prompt": "Спроси Ольгу на «ты»: «Какой у тебя адрес?»",
+  "answer": "Wie ist deine Adresse?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v4/ch02_t02.mp3",
+  "de": null,
+  "accept": [
+   "Wie ist deine Adresse?"
+  ]
+ },
+ {
+  "item_id": "ch02_L1_transfer_3",
+  "id": "ch02_L1_transfer_3",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_t02",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Какой у тебя адрес?",
+  "distractors": [
+   "Какой у тебя e-mail?",
+   "Какой у вас адрес?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v4/ch02_t02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L1_transfer_4",
+  "id": "ch02_L1_transfer_4",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_t02",
+  "prompt": "Впиши: «Wie ist deine ___?» (адрес)",
+  "answer": "Adresse",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v4/ch02_t02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L1_transfer_5",
+  "id": "ch02_L1_transfer_5",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_t02",
+  "prompt": "Почему «deine Adresse», а не «dein Adresse»?",
+  "answer": "Adresse — die-слово, поэтому deine с -e.",
+  "distractors": [
+   "deine — потому что вопрос на «вы».",
+   "dein — только для мужчин."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": true,
+  "audio": null,
+  "de": "Wie ist deine Adresse?"
+ },
+ {
+  "item_id": "ch02_L1_boss_1",
+  "id": "ch02_L1_boss_1",
+  "lesson": "ch02_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d1_06",
+  "prompt": "Послушай. Что ответил герой учительнице?",
+  "answer": "свой номер мобильного: 0171 39200 01",
+  "distractors": [
+   "свой номер дома: восемь",
+   "адрес почты Ольги по знакам"
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d1_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L2_words_1",
+  "id": "ch02_L2_words_1",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_011",
+  "prompt": "Что значит «Party»?",
+  "answer": "пати, праздник с гостями",
+  "distractors": [
+   "курс, занятие в группе",
+   "квартира, свой дом"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L2_words_2",
+  "id": "ch02_L2_words_2",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_013",
+  "prompt": "Что значит «dreizehn»?",
+  "answer": "тринадцать",
+  "distractors": [
+   "тридцать",
+   "три"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L2_words_3",
+  "id": "ch02_L2_words_3",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_014",
+  "prompt": "Что значит «dreißig»?",
+  "answer": "тридцать",
+  "distractors": [
+   "тринадцать",
+   "двадцать"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L2_words_4",
+  "id": "ch02_L2_words_4",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_014",
+  "prompt": "Что значит «oder»?",
+  "answer": "или",
+  "distractors": [
+   "и",
+   "не"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L2_words_5",
+  "id": "ch02_L2_words_5",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_015",
+  "prompt": "Что значит «zweiundvierzig»?",
+  "answer": "сорок два",
+  "distractors": [
+   "двадцать четыре",
+   "сорок"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L2_listen_1",
+  "id": "ch02_L2_listen_1",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d2_01",
+  "prompt": "Послушай. Что делает Артём?",
+  "answer": "устраивает пати",
+  "distractors": [
+   "идёт на курс",
+   "ищет квартиру"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d2_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L2_listen_2",
+  "id": "ch02_L2_listen_2",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d2_04",
+  "prompt": "Послушай. Какой номер дома у Артёма?",
+  "answer": "тринадцать",
+  "distractors": [
+   "тридцать",
+   "три"
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d2_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L2_listen_3",
+  "id": "ch02_L2_listen_3",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d2_06",
+  "prompt": "Послушай. Что уточнил Артём?",
+  "answer": "Это тринадцать.",
+  "distractors": [
+   "Это тридцать.",
+   "Это три."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d2_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L2_listen_4",
+  "id": "ch02_L2_listen_4",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d2_08",
+  "prompt": "Послушай. Какой номер мобильного у Артёма?",
+  "answer": "0171 39200 42",
+  "distractors": [
+   "0171 39200 24",
+   "0171 39200 40"
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d2_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L2_listen_5",
+  "id": "ch02_L2_listen_5",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d2_02",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "Где ты живёшь?",
+  "distractors": [
+   "Где вы живёте?",
+   "Откуда ты?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d2_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L2_read_1",
+  "id": "ch02_L2_read_1",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_011",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я устраиваю пати.",
+  "distractors": [
+   "Я иду на пати.",
+   "Ты устраиваешь пати?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich mache eine Party."
+ },
+ {
+  "item_id": "ch02_L2_read_2",
+  "id": "ch02_L2_read_2",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_012",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Где ты живёшь?",
+  "distractors": [
+   "Где вы живёте?",
+   "Откуда ты?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wo wohnst du?"
+ },
+ {
+  "item_id": "ch02_L2_read_3",
+  "id": "ch02_L2_read_3",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_013",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Мой номер дома — тринадцать.",
+  "distractors": [
+   "Мой номер дома — тридцать.",
+   "Мой номер дома — три."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Meine Hausnummer ist dreizehn."
+ },
+ {
+  "item_id": "ch02_L2_read_4",
+  "id": "ch02_L2_read_4",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_014",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это тринадцать или тридцать?",
+  "distractors": [
+   "Это тринадцать.",
+   "Это тридцать или три?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ist das dreizehn oder dreißig?"
+ },
+ {
+  "item_id": "ch02_L2_read_5",
+  "id": "ch02_L2_read_5",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_015",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Мой номер мобильного — 0171 39200 42.",
+  "distractors": [
+   "Мой номер мобильного — 0171 39200 24.",
+   "Твой номер мобильного — 0171 39200 42."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Meine Handynummer ist null eins sieben eins, drei neun zwei null null, zweiundvierzig."
+ },
+ {
+  "item_id": "ch02_L2_speak_1",
+  "id": "ch02_L2_speak_1",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_011",
+  "prompt": "Пригласи: «Я устраиваю пати.»",
+  "answer": "Ich mache eine Party.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v4/ch02_011.mp3",
+  "de": null,
+  "accept": [
+   "Ich mache eine Party."
+  ]
+ },
+ {
+  "item_id": "ch02_L2_speak_2",
+  "id": "ch02_L2_speak_2",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_012",
+  "prompt": "Спроси Артёма на «ты»: «Где ты живёшь?» wohnst — с хвостом -st.",
+  "answer": "Wo wohnst du?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v4/ch02_012.mp3",
+  "de": null,
+  "accept": [
+   "Wo wohnst du?"
+  ]
+ },
+ {
+  "item_id": "ch02_L2_speak_3",
+  "id": "ch02_L2_speak_3",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_013",
+  "prompt": "Скажи: «Мой номер дома — тринадцать.» Ударение — на DREI.",
+  "answer": "Meine Hausnummer ist dreizehn.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v4/ch02_013.mp3",
+  "de": null,
+  "accept": [
+   "Meine Hausnummer ist dreizehn."
+  ]
+ },
+ {
+  "item_id": "ch02_L2_speak_4",
+  "id": "ch02_L2_speak_4",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_014",
+  "prompt": "Переспроси: «Это тринадцать или тридцать?»",
+  "answer": "Ist das dreizehn oder dreißig?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v4/ch02_014.mp3",
+  "de": null,
+  "accept": [
+   "Ist das dreizehn oder dreißig?"
+  ]
+ },
+ {
+  "item_id": "ch02_L2_speak_5",
+  "id": "ch02_L2_speak_5",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_015",
+  "prompt": "Ты — Артём. Продиктуй свой номер парами: «Мой номер мобильного — 0171 39200 42.»",
+  "answer": "Meine Handynummer ist null eins sieben eins, drei neun zwei null null, zweiundvierzig.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v4/ch02_015.mp3",
+  "de": null,
+  "accept": [
+   "Meine Handynummer ist null eins sieben eins, drei neun zwei null null, zweiundvierzig."
+  ]
+ },
+ {
+  "item_id": "ch02_L2_write_1",
+  "id": "ch02_L2_write_1",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_011",
+  "prompt": "Впиши: «Ich mache eine ___.» (вечеринка)",
+  "answer": "Party",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v4/ch02_011.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L2_write_2",
+  "id": "ch02_L2_write_2",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_012",
+  "prompt": "Впиши: «Wo ___ du?» (живёшь)",
+  "answer": "wohnst",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v4/ch02_012.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L2_write_3",
+  "id": "ch02_L2_write_3",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_013",
+  "prompt": "Впиши число словом: «Meine Hausnummer ist ___.» (13)",
+  "answer": "dreizehn",
+  "distractors": null,
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v4/ch02_013.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L2_write_4",
+  "id": "ch02_L2_write_4",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_014",
+  "prompt": "Впиши число словом: «Ist das dreizehn oder ___?» (30)",
+  "answer": "dreißig",
+  "distractors": null,
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v4/ch02_014.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L2_write_5",
+  "id": "ch02_L2_write_5",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_015",
+  "prompt": "Впиши число словом, слитно: «null eins sieben eins, drei neun zwei null null, ___» (42)",
+  "answer": "zweiundvierzig",
+  "distractors": null,
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v4/ch02_015.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L2_why_1",
+  "id": "ch02_L2_why_1",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_015",
+  "prompt": "Почему «zweiundvierzig» — это 42, а не 24?",
+  "answer": "Единицы звучат первыми: zwei (2) + und + vierzig (40).",
+  "distractors": [
+   "Десятки звучат первыми, как по-русски.",
+   "Это 24: так читают номера телефонов."
+  ],
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": null,
+  "de": "Meine Handynummer ist null eins sieben eins, drei neun zwei null null, zweiundvierzig."
+ },
+ {
+  "item_id": "ch02_L2_why_2",
+  "id": "ch02_L2_why_2",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_013",
+  "prompt": "Почему «dreizehn» похоже на русское «тринадцать»?",
+  "answer": "И там, и там сначала единицы: drei + zehn — «три-на-дцать».",
+  "distractors": [
+   "Слово dreizehn взяли из русского.",
+   "dreizehn — это тридцать, а не 13."
+  ],
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": null,
+  "de": "Meine Hausnummer ist dreizehn."
+ },
+ {
+  "item_id": "ch02_L2_why_3",
+  "id": "ch02_L2_why_3",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_014",
+  "prompt": "Как на слух отличить dreizehn от dreißig?",
+  "answer": "По концу: -zehn — «цэ:н» (13), -ßig — «сихь» (30).",
+  "distractors": [
+   "По началу: у dreißig другое начало.",
+   "Никак: их различают только на письме."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": null,
+  "de": "Ist das dreizehn oder dreißig?"
+ },
+ {
+  "item_id": "ch02_L2_why_4",
+  "id": "ch02_L2_why_4",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_012",
+  "prompt": "Почему «Wo wohnst du?», а не «Wo wohnen du?»",
+  "answer": "С du у действия хвост -st: du wohnst.",
+  "distractors": [
+   "wohnst — потому что это вопрос.",
+   "Оба варианта верны, так короче."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Wo wohnst du?"
+ },
+ {
+  "item_id": "ch02_L2_why_5",
+  "id": "ch02_L2_why_5",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_011",
+  "prompt": "Почему «eine Party»?",
+  "answer": "die Party — die-слово, поэтому eine с -e.",
+  "distractors": [
+   "eine — значит «одна вечеринка из двух».",
+   "Так говорят только про праздники."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich mache eine Party."
+ },
+ {
+  "item_id": "ch02_L2_transfer_1",
+  "id": "ch02_L2_transfer_1",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_t03",
+  "prompt": "Скажи о себе: «Мой номер дома — тридцать.» Конец -ßig — «сихь».",
+  "answer": "Meine Hausnummer ist dreißig.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": true,
+  "audio": "audio_v4/ch02_t03.mp3",
+  "de": null,
+  "accept": [
+   "Meine Hausnummer ist dreißig."
+  ]
+ },
+ {
+  "item_id": "ch02_L2_transfer_2",
+  "id": "ch02_L2_transfer_2",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_t04",
+  "prompt": "Спроси Ольгу: «Ольга, это твой номер мобильного?» Голос в конце — вверх ↗.",
+  "answer": "Olga, ist das deine Handynummer?",
+  "distractors": null,
+  "rule_id": "topics/intonation",
+  "transfer": true,
+  "audio": "audio_v4/ch02_t04.mp3",
+  "de": null,
+  "accept": [
+   "Olga, ist das deine Handynummer?"
+  ]
+ },
+ {
+  "item_id": "ch02_L2_transfer_3",
+  "id": "ch02_L2_transfer_3",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_t04",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Ольга, это твой номер мобильного?",
+  "distractors": [
+   "Ольга, какой у тебя номер мобильного?",
+   "Ольга, это мой номер мобильного?"
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": true,
+  "audio": "audio_v4/ch02_t04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L2_transfer_4",
+  "id": "ch02_L2_transfer_4",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_t04",
+  "prompt": "Напиши по-немецки: «Ольга, это твой номер мобильного?»",
+  "answer": "Olga, ist das deine Handynummer?",
+  "distractors": null,
+  "rule_id": "cards/numbers",
+  "transfer": true,
+  "audio": "audio_v4/ch02_t04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L2_transfer_5",
+  "id": "ch02_L2_transfer_5",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_t04",
+  "prompt": "Почему «Olga, ist das deine Handynummer?» начинается с ist после имени?",
+  "answer": "Это вопрос «да/нет»: действие впереди, имя не занимает вагон.",
+  "distractors": [
+   "ist — главное слово, поэтому первое.",
+   "Так спрашивают только про номера."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": null,
+  "de": "Olga, ist das deine Handynummer?"
+ },
+ {
+  "item_id": "ch02_L2_boss_1",
+  "id": "ch02_L2_boss_1",
+  "lesson": "ch02_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d2_03",
+  "prompt": "Послушай. Где живёт Артём?",
+  "answer": "во Фрайберге",
+  "distractors": [
+   "в Дрездене",
+   "возле Фрайберга"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d2_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L3_words_1",
+  "id": "ch02_L3_words_1",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_018",
+  "prompt": "Что значит «Hast du …?»",
+  "answer": "У тебя есть …?",
+  "distractors": [
+   "Ты знаешь …?",
+   "Где у тебя …?"
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L3_words_2",
+  "id": "ch02_L3_words_2",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_019",
+  "prompt": "Что значит «ich habe»?",
+  "answer": "у меня есть",
+  "distractors": [
+   "я живу",
+   "я делаю"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L3_words_3",
+  "id": "ch02_L3_words_3",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_022",
+  "prompt": "Что значит «hat» в «Hat Olga …?»",
+  "answer": "у неё есть",
+  "distractors": [
+   "она живёт",
+   "она делает"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L3_words_4",
+  "id": "ch02_L3_words_4",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_020",
+  "prompt": "Что значит «auch»?",
+  "answer": "тоже",
+  "distractors": [
+   "только",
+   "или"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L3_words_5",
+  "id": "ch02_L3_words_5",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_021",
+  "prompt": "Что значит «nur»?",
+  "answer": "только",
+  "distractors": [
+   "тоже",
+   "или"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L3_listen_1",
+  "id": "ch02_L3_listen_1",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d3_01",
+  "prompt": "Послушай. Что спросила Софья?",
+  "answer": "У тебя есть WhatsApp?",
+  "distractors": [
+   "Какой у тебя номер?",
+   "Где ты живёшь?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d3_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L3_listen_2",
+  "id": "ch02_L3_listen_2",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d3_04",
+  "prompt": "Послушай. Что ответил герой про Signal?",
+  "answer": "Нет, только WhatsApp.",
+  "distractors": [
+   "Да, Signal тоже есть.",
+   "Нет, у меня нет мобильного."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d3_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L3_listen_3",
+  "id": "ch02_L3_listen_3",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d3_06",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Да, это мой номер мобильного.",
+  "distractors": [
+   "Нет, это номер Ольги.",
+   "Да, это мой номер дома."
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d3_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L3_listen_4",
+  "id": "ch02_L3_listen_4",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d3_07",
+  "prompt": "Послушай. Про кого спросила Софья?",
+  "answer": "про Ольгу",
+  "distractors": [
+   "про Артёма",
+   "про учительницу"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d3_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L3_listen_5",
+  "id": "ch02_L3_listen_5",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d3_08",
+  "prompt": "Послушай. Есть ли у Ольги WhatsApp?",
+  "answer": "Да, у Ольги есть WhatsApp.",
+  "distractors": [
+   "Нет, у Ольги нет WhatsApp.",
+   "Да, у Ольги есть Signal."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d3_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L3_read_1",
+  "id": "ch02_L3_read_1",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_018",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У тебя есть WhatsApp?",
+  "distractors": [
+   "У меня есть WhatsApp.",
+   "У вас есть WhatsApp?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Hast du WhatsApp?"
+ },
+ {
+  "item_id": "ch02_L3_read_2",
+  "id": "ch02_L3_read_2",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_019",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Да, у меня есть WhatsApp.",
+  "distractors": [
+   "Да, у тебя есть WhatsApp.",
+   "Нет, у меня нет WhatsApp."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ja, ich habe WhatsApp."
+ },
+ {
+  "item_id": "ch02_L3_read_3",
+  "id": "ch02_L3_read_3",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_020",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У тебя есть и Signal?",
+  "distractors": [
+   "У тебя есть только Signal?",
+   "А Signal у Ольги есть?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Hast du auch Signal?"
+ },
+ {
+  "item_id": "ch02_L3_read_4",
+  "id": "ch02_L3_read_4",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_021",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Нет, только WhatsApp.",
+  "distractors": [
+   "Да, и WhatsApp тоже.",
+   "Нет, и WhatsApp нет."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Nein, nur WhatsApp."
+ },
+ {
+  "item_id": "ch02_L3_read_5",
+  "id": "ch02_L3_read_5",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_022",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У Ольги тоже есть WhatsApp?",
+  "distractors": [
+   "У тебя тоже есть WhatsApp?",
+   "У Ольги только WhatsApp?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Hat Olga auch WhatsApp?"
+ },
+ {
+  "item_id": "ch02_L3_speak_1",
+  "id": "ch02_L3_speak_1",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_018",
+  "prompt": "Спроси Софью: «У тебя есть WhatsApp?» Голос в конце — вверх ↗.",
+  "answer": "Hast du WhatsApp?",
+  "distractors": null,
+  "rule_id": "topics/intonation",
+  "transfer": false,
+  "audio": "audio_v4/ch02_018.mp3",
+  "de": null,
+  "accept": [
+   "Hast du WhatsApp?"
+  ]
+ },
+ {
+  "item_id": "ch02_L3_speak_2",
+  "id": "ch02_L3_speak_2",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_019",
+  "prompt": "Ответь: «Да, у меня есть WhatsApp.» Голос в конце — вниз ↘.",
+  "answer": "Ja, ich habe WhatsApp.",
+  "distractors": null,
+  "rule_id": "topics/intonation",
+  "transfer": false,
+  "audio": "audio_v4/ch02_019.mp3",
+  "de": null,
+  "accept": [
+   "Ja, ich habe WhatsApp."
+  ]
+ },
+ {
+  "item_id": "ch02_L3_speak_3",
+  "id": "ch02_L3_speak_3",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_021",
+  "prompt": "Ответь коротко: «Нет, только WhatsApp.»",
+  "answer": "Nein, nur WhatsApp.",
+  "distractors": null,
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": "audio_v4/ch02_021.mp3",
+  "de": null,
+  "accept": [
+   "Nein, nur WhatsApp."
+  ]
+ },
+ {
+  "item_id": "ch02_L3_speak_4",
+  "id": "ch02_L3_speak_4",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_022",
+  "prompt": "Спроси про Ольгу: «У Ольги тоже есть WhatsApp?»",
+  "answer": "Hat Olga auch WhatsApp?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v4/ch02_022.mp3",
+  "de": null,
+  "accept": [
+   "Hat Olga auch WhatsApp?"
+  ]
+ },
+ {
+  "item_id": "ch02_L3_speak_5",
+  "id": "ch02_L3_speak_5",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_d3_06",
+  "prompt": "Ответь Софье: «Да, это мой номер мобильного.»",
+  "answer": "Ja, das ist meine Handynummer.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d3_06.mp3",
+  "de": null,
+  "accept": [
+   "Ja, das ist meine Handynummer."
+  ]
+ },
+ {
+  "item_id": "ch02_L3_write_1",
+  "id": "ch02_L3_write_1",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_018",
+  "prompt": "Впиши: «___ du WhatsApp?» (у тебя есть)",
+  "answer": "Hast",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v4/ch02_018.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L3_write_2",
+  "id": "ch02_L3_write_2",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_019",
+  "prompt": "Впиши: «Ja, ich ___ WhatsApp.» (у меня есть)",
+  "answer": "habe",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v4/ch02_019.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L3_write_3",
+  "id": "ch02_L3_write_3",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_d3_08",
+  "prompt": "Впиши: «Ja, Olga ___ WhatsApp.» (у неё есть)",
+  "answer": "hat",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d3_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L3_write_4",
+  "id": "ch02_L3_write_4",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_020",
+  "prompt": "Впиши: «Hast du ___ Signal?» (тоже)",
+  "answer": "auch",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v4/ch02_020.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L3_write_5",
+  "id": "ch02_L3_write_5",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_021",
+  "prompt": "Впиши: «Nein, ___ WhatsApp.» (только)",
+  "answer": "nur",
+  "distractors": null,
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": "audio_v4/ch02_021.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L3_why_1",
+  "id": "ch02_L3_why_1",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_018",
+  "prompt": "Почему «Hast du WhatsApp?» начинается с действия?",
+  "answer": "Это вопрос «да/нет»: действие впереди.",
+  "distractors": [
+   "hast — главное слово, поэтому первое.",
+   "Так спрашивают только про телефон."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Hast du WhatsApp?"
+ },
+ {
+  "item_id": "ch02_L3_why_2",
+  "id": "ch02_L3_why_2",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_019",
+  "prompt": "Почему «ich habe», а «du hast»?",
+  "answer": "Хвост зависит от «кто»: ich habe, du hast.",
+  "distractors": [
+   "habe — вежливо, hast — грубо.",
+   "Это два разных слова с разным смыслом."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Ja, ich habe WhatsApp."
+ },
+ {
+  "item_id": "ch02_L3_why_3",
+  "id": "ch02_L3_why_3",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_022",
+  "prompt": "Почему «Olga hat», а не «Olga habe»?",
+  "answer": "Olga — это «она»: с ней hat.",
+  "distractors": [
+   "hat — потому что это вопрос.",
+   "Olga habe — тоже верно."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": null,
+  "de": "Hat Olga auch WhatsApp?"
+ },
+ {
+  "item_id": "ch02_L3_why_4",
+  "id": "ch02_L3_why_4",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_d3_01",
+  "prompt": "Почему по-немецки не «у тебя есть», а «du hast»?",
+  "answer": "Немец говорит «ты имеешь»: du hast WhatsApp.",
+  "distractors": [
+   "По-немецки тоже говорят «у тебя есть».",
+   "du hast — значит «ты знаешь»."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Hallo, hast du WhatsApp?"
+ },
+ {
+  "item_id": "ch02_L3_why_5",
+  "id": "ch02_L3_why_5",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_021",
+  "prompt": "Почему в ответе «Nein, nur WhatsApp.» нет действия?",
+  "answer": "Короткий ответ: действие понятно из вопроса.",
+  "distractors": [
+   "Без действия отвечают только детям.",
+   "Это ошибка: нужно всегда «ich habe»."
+  ],
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": null,
+  "de": "Nein, nur WhatsApp."
+ },
+ {
+  "item_id": "ch02_L3_transfer_1",
+  "id": "ch02_L3_transfer_1",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_t05",
+  "prompt": "Ольга слышит ваш разговор. Скажи за неё: «У меня тоже есть Signal.»",
+  "answer": "Ich habe auch Signal.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v4/ch02_t05.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe auch Signal."
+  ]
+ },
+ {
+  "item_id": "ch02_L3_transfer_2",
+  "id": "ch02_L3_transfer_2",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_t06",
+  "prompt": "Спроси Ольгу: «У тебя есть и номер мобильного?» Голос в конце — вверх ↗.",
+  "answer": "Hast du auch eine Handynummer?",
+  "distractors": null,
+  "rule_id": "topics/intonation",
+  "transfer": true,
+  "audio": "audio_v4/ch02_t06.mp3",
+  "de": null,
+  "accept": [
+   "Hast du auch eine Handynummer?"
+  ]
+ },
+ {
+  "item_id": "ch02_L3_transfer_3",
+  "id": "ch02_L3_transfer_3",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_t06",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "У тебя есть и номер мобильного?",
+  "distractors": [
+   "У тебя есть WhatsApp?",
+   "Какой у тебя номер мобильного?"
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": true,
+  "audio": "audio_v4/ch02_t06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L3_transfer_4",
+  "id": "ch02_L3_transfer_4",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_t06",
+  "prompt": "Напиши по-немецки: «У тебя есть и номер мобильного?»",
+  "answer": "Hast du auch eine Handynummer?",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": "audio_v4/ch02_t06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L3_transfer_5",
+  "id": "ch02_L3_transfer_5",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_t06",
+  "prompt": "Почему «Hast du auch eine Handynummer?» начинается с Hast?",
+  "answer": "Это вопрос «да/нет»: действие впереди.",
+  "distractors": [
+   "Hast — главное слово, поэтому первое.",
+   "Так спрашивают только про номера."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": null,
+  "de": "Hast du auch eine Handynummer?"
+ },
+ {
+  "item_id": "ch02_L3_boss_1",
+  "id": "ch02_L3_boss_1",
+  "lesson": "ch02_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d3_04",
+  "prompt": "Послушай. Есть ли у героя Signal?",
+  "answer": "нет, только WhatsApp",
+  "distractors": [
+   "да, и Signal тоже",
+   "да, только Signal"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d3_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L4_words_1",
+  "id": "ch02_L4_words_1",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_026",
+  "prompt": "Что значит «Sprachen»?",
+  "answer": "языки",
+  "distractors": [
+   "страны",
+   "города"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L4_words_2",
+  "id": "ch02_L4_words_2",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_027",
+  "prompt": "Что значит «ich spreche»?",
+  "answer": "я говорю",
+  "distractors": [
+   "я учу",
+   "я живу"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L4_words_3",
+  "id": "ch02_L4_words_3",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_028",
+  "prompt": "Что значит «ich lerne»?",
+  "answer": "я учу",
+  "distractors": [
+   "я говорю",
+   "я делаю"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L4_words_4",
+  "id": "ch02_L4_words_4",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_029",
+  "prompt": "Что значит «was»?",
+  "answer": "что",
+  "distractors": [
+   "где",
+   "кто"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L4_words_5",
+  "id": "ch02_L4_words_5",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_030",
+  "prompt": "Что значит «Englisch»?",
+  "answer": "английский язык",
+  "distractors": [
+   "немецкий язык",
+   "испанский язык"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L4_listen_1",
+  "id": "ch02_L4_listen_1",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d4_01",
+  "prompt": "Послушай. Что спросила Софья?",
+  "answer": "На каких языках ты говоришь?",
+  "distractors": [
+   "Что ты учишь на курсе?",
+   "Откуда ты и где живёшь?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d4_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L4_listen_2",
+  "id": "ch02_L4_listen_2",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d4_02",
+  "prompt": "Послушай. На каких языках говорит герой?",
+  "answer": "по-русски и по-украински",
+  "distractors": [
+   "по-русски и по-немецки",
+   "по-английски и по-русски"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d4_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L4_listen_3",
+  "id": "ch02_L4_listen_3",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d4_04",
+  "prompt": "Послушай. Что учит Софья?",
+  "answer": "немецкий",
+  "distractors": [
+   "английский",
+   "русский"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d4_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L4_listen_4",
+  "id": "ch02_L4_listen_4",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d4_06",
+  "prompt": "Послушай. Откуда Софья?",
+  "answer": "из Испании",
+  "distractors": [
+   "из Италии",
+   "из Украины"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d4_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L4_listen_5",
+  "id": "ch02_L4_listen_5",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d4_07",
+  "prompt": "Послушай. На каком языке говорит Софья?",
+  "answer": "по-английски",
+  "distractors": [
+   "по-немецки",
+   "по-украински"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d4_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L4_read_1",
+  "id": "ch02_L4_read_1",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_026",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "На каких языках ты говоришь?",
+  "distractors": [
+   "Какой язык ты учишь?",
+   "На каких языках вы говорите?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Welche Sprachen sprichst du?"
+ },
+ {
+  "item_id": "ch02_L4_read_2",
+  "id": "ch02_L4_read_2",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_027",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я говорю по-русски и по-украински.",
+  "distractors": [
+   "Я учу русский и украинский.",
+   "Ты говоришь по-русски и по-украински."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich spreche Russisch und Ukrainisch."
+ },
+ {
+  "item_id": "ch02_L4_read_3",
+  "id": "ch02_L4_read_3",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_028",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я учу немецкий.",
+  "distractors": [
+   "Я говорю по-немецки.",
+   "Ты учишь немецкий."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich lerne Deutsch."
+ },
+ {
+  "item_id": "ch02_L4_read_4",
+  "id": "ch02_L4_read_4",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_029",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Что ты учишь?",
+  "distractors": [
+   "Где ты учишься?",
+   "Что ты говоришь?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Was lernst du?"
+ },
+ {
+  "item_id": "ch02_L4_read_5",
+  "id": "ch02_L4_read_5",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_d4_07",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Софья говорит по-английски.",
+  "distractors": [
+   "Софья учит английский.",
+   "Софья из Англии."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Sofia spricht Englisch."
+ },
+ {
+  "item_id": "ch02_L4_speak_1",
+  "id": "ch02_L4_speak_1",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_026",
+  "prompt": "Спроси Софью: «На каких языках ты говоришь?»",
+  "answer": "Welche Sprachen sprichst du?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v4/ch02_026.mp3",
+  "de": null,
+  "accept": [
+   "Welche Sprachen sprichst du?"
+  ]
+ },
+ {
+  "item_id": "ch02_L4_speak_2",
+  "id": "ch02_L4_speak_2",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_027",
+  "prompt": "Скажи о себе: «Я говорю по-русски и по-украински.» UkraINisch — ударение на «и».",
+  "answer": "Ich spreche Russisch und Ukrainisch.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v4/ch02_027.mp3",
+  "de": null,
+  "accept": [
+   "Ich spreche Russisch und Ukrainisch."
+  ]
+ },
+ {
+  "item_id": "ch02_L4_speak_3",
+  "id": "ch02_L4_speak_3",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_028",
+  "prompt": "Скажи: «Я учу немецкий.»",
+  "answer": "Ich lerne Deutsch.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v4/ch02_028.mp3",
+  "de": null,
+  "accept": [
+   "Ich lerne Deutsch."
+  ]
+ },
+ {
+  "item_id": "ch02_L4_speak_4",
+  "id": "ch02_L4_speak_4",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_029",
+  "prompt": "Спроси Софью: «Что ты учишь?»",
+  "answer": "Was lernst du?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v4/ch02_029.mp3",
+  "de": null,
+  "accept": [
+   "Was lernst du?"
+  ]
+ },
+ {
+  "item_id": "ch02_L4_speak_5",
+  "id": "ch02_L4_speak_5",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_d4_06",
+  "prompt": "Представь Софью: «Это Софья, она из Испании.»",
+  "answer": "Das ist Sofia, sie kommt aus Spanien.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d4_06.mp3",
+  "de": null,
+  "accept": [
+   "Das ist Sofia, sie kommt aus Spanien."
+  ]
+ },
+ {
+  "item_id": "ch02_L4_write_1",
+  "id": "ch02_L4_write_1",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_026",
+  "prompt": "Впиши: «Welche Sprachen ___ du?» (говоришь)",
+  "answer": "sprichst",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v4/ch02_026.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L4_write_2",
+  "id": "ch02_L4_write_2",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_027",
+  "prompt": "Впиши: «Ich ___ Russisch und Ukrainisch.» (говорю)",
+  "answer": "spreche",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v4/ch02_027.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L4_write_3",
+  "id": "ch02_L4_write_3",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_029",
+  "prompt": "Впиши: «___ lernst du?» (что)",
+  "answer": "Was",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v4/ch02_029.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L4_write_4",
+  "id": "ch02_L4_write_4",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_028",
+  "prompt": "Впиши: «Ich ___ Deutsch.» (учу)",
+  "answer": "lerne",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v4/ch02_028.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L4_write_5",
+  "id": "ch02_L4_write_5",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_d4_07",
+  "prompt": "Впиши: «Sofia ___ Englisch.» (говорит)",
+  "answer": "spricht",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d4_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L4_why_1",
+  "id": "ch02_L4_why_1",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_026",
+  "prompt": "Почему «du sprichst», а не «du sprechst»?",
+  "answer": "У sprechen с du e меняется на i: du sprichst.",
+  "distractors": [
+   "sprichst — потому что это вопрос.",
+   "Оба варианта верны."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Welche Sprachen sprichst du?"
+ },
+ {
+  "item_id": "ch02_L4_why_2",
+  "id": "ch02_L4_why_2",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_027",
+  "prompt": "Почему «Ich spreche Russisch» — без «по»?",
+  "answer": "По-немецки язык — просто слово: Russisch, без «по».",
+  "distractors": [
+   "«по» стоит в конце фразы.",
+   "Russisch — это «по-русски» только с ich."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich spreche Russisch und Ukrainisch."
+ },
+ {
+  "item_id": "ch02_L4_why_3",
+  "id": "ch02_L4_why_3",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_028",
+  "prompt": "Почему «ich lerne», а «du lernst»?",
+  "answer": "Хвост зависит от «кто»: ich — -e, du — -st.",
+  "distractors": [
+   "lernst — вежливое слово.",
+   "Это два разных действия."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich lerne Deutsch."
+ },
+ {
+  "item_id": "ch02_L4_why_4",
+  "id": "ch02_L4_why_4",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_029",
+  "prompt": "Что значит «was» в «Was lernst du?»",
+  "answer": "«что»: вопрос-слово, за ним сразу действие.",
+  "distractors": [
+   "«где»: спрашивают про место.",
+   "«кто»: спрашивают про человека."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Was lernst du?"
+ },
+ {
+  "item_id": "ch02_L4_why_5",
+  "id": "ch02_L4_why_5",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_d4_07",
+  "prompt": "Почему «Sofia spricht», а не «Sofia sprecht»?",
+  "answer": "Sofia — «она»: e → i и хвост -t: spricht.",
+  "distractors": [
+   "spricht — потому что Sofia из Испании.",
+   "Sofia sprecht — тоже верно."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Sofia spricht Englisch."
+ },
+ {
+  "item_id": "ch02_L4_transfer_1",
+  "id": "ch02_L4_transfer_1",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_t07",
+  "prompt": "Расскажи про Ольгу: «Ольга говорит по-украински.»",
+  "answer": "Olga spricht Ukrainisch.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v4/ch02_t07.mp3",
+  "de": null,
+  "accept": [
+   "Olga spricht Ukrainisch."
+  ]
+ },
+ {
+  "item_id": "ch02_L4_transfer_2",
+  "id": "ch02_L4_transfer_2",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_t08",
+  "prompt": "Спроси Софью: «Ты учишь английский?» Голос в конце — вверх ↗.",
+  "answer": "Lernst du Englisch?",
+  "distractors": null,
+  "rule_id": "topics/intonation",
+  "transfer": true,
+  "audio": "audio_v4/ch02_t08.mp3",
+  "de": null,
+  "accept": [
+   "Lernst du Englisch?"
+  ]
+ },
+ {
+  "item_id": "ch02_L4_transfer_3",
+  "id": "ch02_L4_transfer_3",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_t08",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Ты учишь английский?",
+  "distractors": [
+   "На каких языках ты говоришь?",
+   "Что ты учишь?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v4/ch02_t08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L4_transfer_4",
+  "id": "ch02_L4_transfer_4",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_t08",
+  "prompt": "Напиши по-немецки: «Ты учишь английский?»",
+  "answer": "Lernst du Englisch?",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": "audio_v4/ch02_t08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L4_transfer_5",
+  "id": "ch02_L4_transfer_5",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_t08",
+  "prompt": "Почему «Lernst du Englisch?» начинается с действия?",
+  "answer": "Это вопрос «да/нет»: действие впереди.",
+  "distractors": [
+   "Lernst — главное слово, поэтому первое.",
+   "Так спрашивают только про языки."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": null,
+  "de": "Lernst du Englisch?"
+ },
+ {
+  "item_id": "ch02_L4_boss_1",
+  "id": "ch02_L4_boss_1",
+  "lesson": "ch02_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d4_03",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "Что ты учишь?",
+  "distractors": [
+   "На каких языках ты говоришь?",
+   "Откуда ты?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch02_d4_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L5_words_1",
+  "id": "ch02_L5_words_1",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_041",
+  "prompt": "Что значит «von Beruf»?",
+  "answer": "по профессии",
+  "distractors": [
+   "из города",
+   "на работе"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L5_words_2",
+  "id": "ch02_L5_words_2",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_042",
+  "prompt": "Что значит «Lagerist»?",
+  "answer": "кладовщик, работник склада",
+  "distractors": [
+   "продавец в магазине",
+   "повар на кухне"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L5_words_3",
+  "id": "ch02_L5_words_3",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_043",
+  "prompt": "Что значит «Verkäuferin»?",
+  "answer": "продавщица",
+  "distractors": [
+   "учительница",
+   "кладовщица"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L5_words_4",
+  "id": "ch02_L5_words_4",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_044",
+  "prompt": "Что значит «Koch»?",
+  "answer": "повар",
+  "distractors": [
+   "продавец",
+   "учитель"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L5_words_5",
+  "id": "ch02_L5_words_5",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_045",
+  "prompt": "Что значит «Lehrerin»?",
+  "answer": "учительница",
+  "distractors": [
+   "продавщица",
+   "кладовщица"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L5_listen_1",
+  "id": "ch02_L5_listen_1",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d5_01",
+  "prompt": "Послушай. Что спросила Софья?",
+  "answer": "Кто ты по профессии?",
+  "distractors": [
+   "Кто это на фото?",
+   "Откуда ты приехал?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch02_d5_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L5_listen_2",
+  "id": "ch02_L5_listen_2",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d5_02",
+  "prompt": "Послушай. Кто герой по профессии?",
+  "answer": "кладовщик",
+  "distractors": [
+   "повар",
+   "продавец"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch02_d5_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L5_listen_3",
+  "id": "ch02_L5_listen_3",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d5_04",
+  "prompt": "Послушай. Кто Ольга по профессии?",
+  "answer": "продавщица",
+  "distractors": [
+   "учительница",
+   "повар"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch02_d5_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L5_listen_4",
+  "id": "ch02_L5_listen_4",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d5_05",
+  "prompt": "Послушай. Кто Ахмад по профессии?",
+  "answer": "повар",
+  "distractors": [
+   "кладовщик",
+   "учитель"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch02_d5_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L5_listen_5",
+  "id": "ch02_L5_listen_5",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d5_07",
+  "prompt": "Послушай. Кто на фото?",
+  "answer": "госпожа Беккер, учительница",
+  "distractors": [
+   "Ольга, продавщица",
+   "Ахмад, повар"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch02_d5_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L5_read_1",
+  "id": "ch02_L5_read_1",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_041",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Кто ты по профессии?",
+  "distractors": [
+   "Кто вы по профессии?",
+   "Откуда ты приехал?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Was bist du von Beruf?"
+ },
+ {
+  "item_id": "ch02_L5_read_2",
+  "id": "ch02_L5_read_2",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_042",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я кладовщик.",
+  "distractors": [
+   "Он кладовщик.",
+   "Я повар."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich bin Lagerist."
+ },
+ {
+  "item_id": "ch02_L5_read_3",
+  "id": "ch02_L5_read_3",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_043",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Ольга — продавщица.",
+  "distractors": [
+   "Ольга — учительница.",
+   "Ольга ищет продавщицу."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Olga ist Verkäuferin."
+ },
+ {
+  "item_id": "ch02_L5_read_4",
+  "id": "ch02_L5_read_4",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_044",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это Ахмад, он повар.",
+  "distractors": [
+   "Это Ахмад, он кладовщик.",
+   "Это Ахмад, он ищет повара."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist Ahmad, er ist Koch."
+ },
+ {
+  "item_id": "ch02_L5_read_5",
+  "id": "ch02_L5_read_5",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_045",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Госпожа Беккер — учительница.",
+  "distractors": [
+   "Госпожа Беккер — продавщица.",
+   "Госпожа Беккер ищет учительницу."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Frau Becker ist Lehrerin."
+ },
+ {
+  "item_id": "ch02_L5_speak_1",
+  "id": "ch02_L5_speak_1",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_041",
+  "prompt": "Спроси Софью на «ты»: «Кто ты по профессии?»",
+  "answer": "Was bist du von Beruf?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch02_041.mp3",
+  "de": null,
+  "accept": [
+   "Was bist du von Beruf?"
+  ]
+ },
+ {
+  "item_id": "ch02_L5_speak_2",
+  "id": "ch02_L5_speak_2",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_042",
+  "prompt": "Скажи о себе: «Я кладовщик.» Без артикля.",
+  "answer": "Ich bin Lagerist.",
+  "distractors": null,
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": "audio_v1/ch02_042.mp3",
+  "de": null,
+  "accept": [
+   "Ich bin Lagerist."
+  ]
+ },
+ {
+  "item_id": "ch02_L5_speak_3",
+  "id": "ch02_L5_speak_3",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_d5_04",
+  "prompt": "Скажи про Ольгу: «Это Ольга, она продавщица.»",
+  "answer": "Das ist Olga, sie ist Verkäuferin.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch02_d5_04.mp3",
+  "de": null,
+  "accept": [
+   "Das ist Olga, sie ist Verkäuferin."
+  ]
+ },
+ {
+  "item_id": "ch02_L5_speak_4",
+  "id": "ch02_L5_speak_4",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_d5_05",
+  "prompt": "Скажи про Ахмада: «Это Ахмад, он повар.»",
+  "answer": "Das ist Ahmad, er ist Koch.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch02_d5_05.mp3",
+  "de": null,
+  "accept": [
+   "Das ist Ahmad, er ist Koch."
+  ]
+ },
+ {
+  "item_id": "ch02_L5_speak_5",
+  "id": "ch02_L5_speak_5",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_d5_07",
+  "prompt": "Скажи про учительницу: «Это госпожа Беккер, она учительница.»",
+  "answer": "Das ist Frau Becker, sie ist Lehrerin.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch02_d5_07.mp3",
+  "de": null,
+  "accept": [
+   "Das ist Frau Becker, sie ist Lehrerin."
+  ]
+ },
+ {
+  "item_id": "ch02_L5_write_1",
+  "id": "ch02_L5_write_1",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_041",
+  "prompt": "Впиши: «Was ___ du von Beruf?» (ты — кто?)",
+  "answer": "bist",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch02_041.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L5_write_2",
+  "id": "ch02_L5_write_2",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_041",
+  "prompt": "Впиши: «Was bist du von ___?» (профессия)",
+  "answer": "Beruf",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch02_041.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L5_write_3",
+  "id": "ch02_L5_write_3",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_042",
+  "prompt": "Впиши: «Ich ___ Lagerist.» (я — кладовщик)",
+  "answer": "bin",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch02_042.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L5_write_4",
+  "id": "ch02_L5_write_4",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_043",
+  "prompt": "Впиши: «Olga ist ___.» (продавщица)",
+  "answer": "Verkäuferin",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch02_043.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L5_write_5",
+  "id": "ch02_L5_write_5",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_045",
+  "prompt": "Впиши: «Frau Becker ist ___.» (учительница)",
+  "answer": "Lehrerin",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch02_045.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L5_why_1",
+  "id": "ch02_L5_why_1",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_042",
+  "prompt": "Почему «Ich bin Lagerist», а не «Ich bin ein Lagerist»?",
+  "answer": "Профессию говорят без артикля.",
+  "distractors": [
+   "Слово Lagerist короткое, артикль ему не нужен.",
+   "После ich артикль не ставят."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich bin Lagerist."
+ },
+ {
+  "item_id": "ch02_L5_why_2",
+  "id": "ch02_L5_why_2",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_043",
+  "prompt": "Почему про Ольгу «Verkäuferin», с -in на конце?",
+  "answer": "Ольга — женщина: к профессии добавляют -in.",
+  "distractors": [
+   "-in добавляют, когда говорят на «вы».",
+   "-in значит, что продавцов много."
+  ],
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": null,
+  "de": "Olga ist Verkäuferin."
+ },
+ {
+  "item_id": "ch02_L5_why_3",
+  "id": "ch02_L5_why_3",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_041",
+  "prompt": "Почему о профессии спрашивают «Was bist du …?», а не «Wer bist du …?»",
+  "answer": "О профессии немец спрашивает через was — «что».",
+  "distractors": [
+   "wer говорят только на «вы».",
+   "wer говорят только про женщин."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Was bist du von Beruf?"
+ },
+ {
+  "item_id": "ch02_L5_why_4",
+  "id": "ch02_L5_why_4",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_d5_04",
+  "prompt": "Почему «sie ist», а «ich bin»?",
+  "answer": "Форма зависит от «кто»: ich bin, sie ist.",
+  "distractors": [
+   "ist — вежливее, чем bin.",
+   "bin говорят только в вопросе."
+  ],
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist Olga, sie ist Verkäuferin."
+ },
+ {
+  "item_id": "ch02_L5_why_5",
+  "id": "ch02_L5_why_5",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_d5_08",
+  "prompt": "Где стоит «auch» в «Ich bin auch Verkäuferin»?",
+  "answer": "Сразу после bin.",
+  "distractors": [
+   "В самом начале фразы.",
+   "В самом конце фразы."
+  ],
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich bin auch Verkäuferin."
+ },
+ {
+  "item_id": "ch02_L5_transfer_1",
+  "id": "ch02_L5_transfer_1",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_t09",
+  "prompt": "Скажи про соседа по курсу: «Он кладовщик.»",
+  "answer": "Er ist Lagerist.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": true,
+  "audio": "audio_v1/ch02_t09.mp3",
+  "de": null,
+  "accept": [
+   "Er ist Lagerist."
+  ]
+ },
+ {
+  "item_id": "ch02_L5_transfer_2",
+  "id": "ch02_L5_transfer_2",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_t10",
+  "prompt": "Спроси нового одногруппника: «Ты тоже повар?» Голос в конце — вверх ↗.",
+  "answer": "Bist du auch Koch?",
+  "distractors": null,
+  "rule_id": "topics/intonation",
+  "transfer": true,
+  "audio": "audio_v1/ch02_t10.mp3",
+  "de": null,
+  "accept": [
+   "Bist du auch Koch?"
+  ]
+ },
+ {
+  "item_id": "ch02_L5_transfer_3",
+  "id": "ch02_L5_transfer_3",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_t10",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Ты тоже повар?",
+  "distractors": [
+   "Кто ты по профессии?",
+   "Ахмад тоже повар?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch02_t10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L5_transfer_4",
+  "id": "ch02_L5_transfer_4",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_t10",
+  "prompt": "Напиши по-немецки: «Ты тоже повар?»",
+  "answer": "Bist du auch Koch?",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": "audio_v1/ch02_t10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L5_transfer_5",
+  "id": "ch02_L5_transfer_5",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_t10",
+  "prompt": "Почему «Bist du auch Koch?» начинается с Bist?",
+  "answer": "Это вопрос «да/нет»: действие впереди.",
+  "distractors": [
+   "Bist — главное слово, поэтому первое.",
+   "Так спрашивают только про профессии."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": null,
+  "de": "Bist du auch Koch?"
+ },
+ {
+  "item_id": "ch02_L5_boss_1",
+  "id": "ch02_L5_boss_1",
+  "lesson": "ch02_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d5_05",
+  "prompt": "Послушай. Что герой сказал про Ахмада?",
+  "answer": "Это Ахмад, он повар.",
+  "distractors": [
+   "Это Ахмад, он кладовщик.",
+   "Это Ольга, она продавщица."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch02_d5_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L6_words_1",
+  "id": "ch02_L6_words_1",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_052",
+  "prompt": "Что значит «Traumberuf»?",
+  "answer": "профессия мечты",
+  "distractors": [
+   "обычная работа",
+   "место работы"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L6_words_2",
+  "id": "ch02_L6_words_2",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_053",
+  "prompt": "Что значит «Mein Traumberuf ist Koch.»?",
+  "answer": "Профессия моей мечты — повар.",
+  "distractors": [
+   "Мой отец — повар.",
+   "Я хочу купить кухню."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L6_words_3",
+  "id": "ch02_L6_words_3",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_054",
+  "prompt": "Что значит «Welche Sprachen»?",
+  "answer": "какие языки",
+  "distractors": [
+   "какие страны",
+   "какие числа"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L6_words_4",
+  "id": "ch02_L6_words_4",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_056",
+  "prompt": "Что значит «siebzig»?",
+  "answer": "семьдесят",
+  "distractors": [
+   "семнадцать",
+   "семь"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L6_words_5",
+  "id": "ch02_L6_words_5",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch02_055",
+  "prompt": "Что значит «zwölf»?",
+  "answer": "двенадцать",
+  "distractors": [
+   "одиннадцать",
+   "семнадцать"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch02_L6_listen_1",
+  "id": "ch02_L6_listen_1",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d6_01",
+  "prompt": "Послушай. Что спросила Frau Wagner?",
+  "answer": "Какая у вас профессия?",
+  "distractors": [
+   "Откуда вы приехали?",
+   "Какой у вас номер?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch02_d6_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L6_listen_2",
+  "id": "ch02_L6_listen_2",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d6_04",
+  "prompt": "Послушай. Какая у героя профессия мечты?",
+  "answer": "повар",
+  "distractors": [
+   "кладовщик",
+   "учитель"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch02_d6_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L6_listen_3",
+  "id": "ch02_L6_listen_3",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d6_06",
+  "prompt": "Послушай. На каких языках говорит герой?",
+  "answer": "по-русски и по-украински",
+  "distractors": [
+   "по-английски и по-немецки",
+   "только по-русски"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch02_d6_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L6_listen_4",
+  "id": "ch02_L6_listen_4",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d6_08",
+  "prompt": "Послушай. Какой номер назвал герой?",
+  "answer": "0171 39200 17",
+  "distractors": [
+   "0171 39200 70",
+   "0171 39200 71"
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v1/ch02_d6_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L6_listen_5",
+  "id": "ch02_L6_listen_5",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d6_10",
+  "prompt": "Послушай. Какое число назвал герой?",
+  "answer": "семнадцать",
+  "distractors": [
+   "семьдесят",
+   "двенадцать"
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v1/ch02_d6_10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L6_listen_6",
+  "id": "ch02_L6_listen_6",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_d6_12",
+  "prompt": "Послушай. Какой номер дома у героя?",
+  "answer": "двенадцать",
+  "distractors": [
+   "одиннадцать",
+   "семнадцать"
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v1/ch02_d6_12.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L6_read_1",
+  "id": "ch02_L6_read_1",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_052",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Какая у вас профессия мечты?",
+  "distractors": [
+   "Какая у вас профессия?",
+   "Где вы работаете?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Was ist Ihr Traumberuf?"
+ },
+ {
+  "item_id": "ch02_L6_read_2",
+  "id": "ch02_L6_read_2",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_054",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "На каких языках вы говорите?",
+  "distractors": [
+   "Откуда вы приехали?",
+   "Сколько вам лет?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Welche Sprachen sprechen Sie?"
+ },
+ {
+  "item_id": "ch02_L6_read_3",
+  "id": "ch02_L6_read_3",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_057",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Вы говорите по-английски?",
+  "distractors": [
+   "Ты говоришь по-английски?",
+   "Вы учите английский?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Sprechen Sie Englisch?"
+ },
+ {
+  "item_id": "ch02_L6_read_4",
+  "id": "ch02_L6_read_4",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_056",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это семнадцать или семьдесят?",
+  "distractors": [
+   "Это семь или семьдесят?",
+   "Это семнадцать и семьдесят."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ist das siebzehn oder siebzig?"
+ },
+ {
+  "item_id": "ch02_L6_read_5",
+  "id": "ch02_L6_read_5",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch02_d6_08",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Мой номер мобильного — 0171 39200 17.",
+  "distractors": [
+   "Мой номер мобильного — 0171 39200 70.",
+   "Мой номер домашнего — 0171 39200 17."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Meine Handynummer ist null eins sieben eins, drei neun zwei null null, siebzehn."
+ },
+ {
+  "item_id": "ch02_L6_speak_1",
+  "id": "ch02_L6_speak_1",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_052",
+  "prompt": "Спроси на «вы»: «Какая у вас профессия мечты?»",
+  "answer": "Was ist Ihr Traumberuf?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch02_052.mp3",
+  "de": null,
+  "accept": [
+   "Was ist Ihr Traumberuf?"
+  ]
+ },
+ {
+  "item_id": "ch02_L6_speak_2",
+  "id": "ch02_L6_speak_2",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_053",
+  "prompt": "Скажи: «Профессия моей мечты — повар.»",
+  "answer": "Mein Traumberuf ist Koch.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch02_053.mp3",
+  "de": null,
+  "accept": [
+   "Mein Traumberuf ist Koch."
+  ]
+ },
+ {
+  "item_id": "ch02_L6_speak_3",
+  "id": "ch02_L6_speak_3",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_057",
+  "prompt": "Спроси на «вы»: «Вы говорите по-английски?»",
+  "answer": "Sprechen Sie Englisch?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch02_057.mp3",
+  "de": null,
+  "accept": [
+   "Sprechen Sie Englisch?"
+  ]
+ },
+ {
+  "item_id": "ch02_L6_speak_4",
+  "id": "ch02_L6_speak_4",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_d6_06",
+  "prompt": "Скажи: «Я говорю по-русски и по-украински.»",
+  "answer": "Ich spreche Russisch und Ukrainisch.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch02_d6_06.mp3",
+  "de": null,
+  "accept": [
+   "Ich spreche Russisch und Ukrainisch."
+  ]
+ },
+ {
+  "item_id": "ch02_L6_speak_5",
+  "id": "ch02_L6_speak_5",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_d6_08",
+  "prompt": "Скажи полной фразой: «Мой номер мобильного — 0171 39200 17.» Номер диктуй по цифрам, в конце — пара.",
+  "answer": "Meine Handynummer ist null eins sieben eins, drei neun zwei null null, siebzehn.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch02_d6_08.mp3",
+  "de": null,
+  "accept": [
+   "Meine Handynummer ist null eins sieben eins, drei neun zwei null null, siebzehn."
+  ]
+ },
+ {
+  "item_id": "ch02_L6_write_1",
+  "id": "ch02_L6_write_1",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_052",
+  "prompt": "Впиши: «Was ist ___ Traumberuf?» (ваш)",
+  "answer": "Ihr",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch02_052.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L6_write_2",
+  "id": "ch02_L6_write_2",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_053",
+  "prompt": "Впиши: «Mein Traumberuf ___ Koch.» (— это)",
+  "answer": "ist",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch02_053.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L6_write_3",
+  "id": "ch02_L6_write_3",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_056",
+  "prompt": "Впиши: «Ist das siebzehn ___ siebzig?» (или)",
+  "answer": "oder",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch02_056.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L6_write_4",
+  "id": "ch02_L6_write_4",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_057",
+  "prompt": "Впиши: «___ Sie Englisch?» (говорите)",
+  "answer": "Sprechen",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch02_057.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L6_write_5",
+  "id": "ch02_L6_write_5",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_d6_10",
+  "prompt": "Впиши: «Das ist ___.» (семнадцать)",
+  "answer": "siebzehn",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch02_d6_10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L6_why_1",
+  "id": "ch02_L6_why_1",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_052",
+  "prompt": "Почему «Ihr Traumberuf», а не «Ihre Traumberuf»?",
+  "answer": "Der Beruf — слово с der: -e не нужно.",
+  "distractors": [
+   "Потому что Traumberuf — длинное слово.",
+   "-e добавляют только на «ты»."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": null,
+  "de": "Was ist Ihr Traumberuf?"
+ },
+ {
+  "item_id": "ch02_L6_why_2",
+  "id": "ch02_L6_why_2",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_056",
+  "prompt": "Почему «Ist das siebzehn oder siebzig?» начинается с Ist?",
+  "answer": "Это вопрос «или»: действие впереди.",
+  "distractors": [
+   "Ist — главное слово, поэтому первое.",
+   "Так спрашивают только про числа."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": null,
+  "de": "Ist das siebzehn oder siebzig?"
+ },
+ {
+  "item_id": "ch02_L6_why_3",
+  "id": "ch02_L6_why_3",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_054",
+  "prompt": "Почему в «Welche Sprachen sprechen Sie?» действие sprechen стоит вторым?",
+  "answer": "В вопросе со словом welche действие стоит на втором месте.",
+  "distractors": [
+   "sprechen всегда стоит вторым, даже в «да/нет»-вопросе.",
+   "Потому что Sie — вежливое слово."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Welche Sprachen sprechen Sie?"
+ },
+ {
+  "item_id": "ch02_L6_why_4",
+  "id": "ch02_L6_why_4",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_054",
+  "prompt": "Почему на «вы» — «sprechen Sie», а не «sprichst Sie»?",
+  "answer": "С Sie действие стоит как в словаре: sprechen.",
+  "distractors": [
+   "sprichst — только для женщин.",
+   "sprechen — только в письме."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Welche Sprachen sprechen Sie?"
+ },
+ {
+  "item_id": "ch02_L6_why_5",
+  "id": "ch02_L6_why_5",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_053",
+  "prompt": "Почему «Mein Traumberuf ist Koch» — без ein перед Koch?",
+  "answer": "Профессию говорят без артикля.",
+  "distractors": [
+   "Слово Koch короткое, артикль ему не нужен.",
+   "После ist артикль не ставят."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Mein Traumberuf ist Koch."
+ },
+ {
+  "item_id": "ch02_L6_transfer_1",
+  "id": "ch02_L6_transfer_1",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_t11",
+  "prompt": "Спроси на «вы»: «Вы говорите по-русски?»",
+  "answer": "Sprechen Sie Russisch?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch02_t11.mp3",
+  "de": null,
+  "accept": [
+   "Sprechen Sie Russisch?"
+  ]
+ },
+ {
+  "item_id": "ch02_L6_transfer_2",
+  "id": "ch02_L6_transfer_2",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch02_t12",
+  "prompt": "Спроси: «Это семь или семьдесят?»",
+  "answer": "Ist das sieben oder siebzig?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch02_t12.mp3",
+  "de": null,
+  "accept": [
+   "Ist das sieben oder siebzig?"
+  ]
+ },
+ {
+  "item_id": "ch02_L6_transfer_3",
+  "id": "ch02_L6_transfer_3",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_t12",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Это семь или семьдесят?",
+  "distractors": [
+   "Это семь и семьдесят.",
+   "Какой это номер?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch02_t12.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L6_transfer_4",
+  "id": "ch02_L6_transfer_4",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch02_t12",
+  "prompt": "Напиши по-немецки: «Это семь или семьдесят?»",
+  "answer": "Ist das sieben oder siebzig?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch02_t12.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch02_L6_transfer_5",
+  "id": "ch02_L6_transfer_5",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch02_t12",
+  "prompt": "Почему «Ist das sieben oder siebzig?» начинается с Ist?",
+  "answer": "Это вопрос «или»: действие впереди.",
+  "distractors": [
+   "Ist — главное слово, поэтому первое.",
+   "Так спрашивают только про числа."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": null,
+  "de": "Ist das sieben oder siebzig?"
+ },
+ {
+  "item_id": "ch02_L6_boss_1",
+  "id": "ch02_L6_boss_1",
+  "lesson": "ch02_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch02_056",
+  "prompt": "Послушай. Какие два числа сравнивают?",
+  "answer": "семнадцать или семьдесят",
+  "distractors": [
+   "семь или семьдесят",
+   "семнадцать или семь"
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v1/ch02_056.mp3",
+  "de": null
+ }
+]

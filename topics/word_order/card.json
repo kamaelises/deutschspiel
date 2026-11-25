@@ -1,0 +1,509 @@
+{
+ "topic": "word_order",
+ "title": "Поезд: действие — вагон №2",
+ "minutes": 2,
+ "steps": [
+  {
+   "type": "picture",
+   "text": "Немецкая фраза — это поезд. Вагон №2 всегда занимает ДЕЙСТВИЕ — это паровоз. В вагон №1 можно посадить кого угодно: «я», «сегодня», «в деревне».",
+   "items": [
+    {
+     "train": [
+      {
+       "role": "кто",
+       "de": "Ich",
+       "ru": "я"
+      },
+      {
+       "role": "действие №2",
+       "de": "spiele",
+       "ru": "играю"
+      },
+      {
+       "role": "когда",
+       "de": "heute",
+       "ru": "сегодня"
+      }
+     ],
+     "audio": "ich_spiele_heute"
+    },
+    {
+     "train": [
+      {
+       "role": "когда",
+       "de": "Heute",
+       "ru": "сегодня"
+      },
+      {
+       "role": "действие №2",
+       "de": "spiele",
+       "ru": "играю"
+      },
+      {
+       "role": "кто",
+       "de": "ich",
+       "ru": "я"
+      }
+     ],
+     "audio": "heute_spiele_ich"
+    }
+   ],
+   "src": [
+    1,
+    4
+   ],
+   "scheme": {
+    "de": "Ich | kaufe | Brot.",
+    "roles": [
+     "кто?",
+     "что делает? (действие)",
+     "что?"
+    ]
+   }
+  },
+  {
+   "type": "idea",
+   "text": "Почему так? Немец, слушая фразу, всегда знает, где искать «что происходит»: сразу после первого вагона. Поэтому остальные вагоны можно переставлять, а действие стоит на месте, как паровоз. По-русски «сегодня я играю» — «я» лезет вперёд. По-немецки место №2 уже занято действием, и «я» садится в вагон №3. Смысл тот же — первый вагон просто показывает, с чего ты начинаешь рассказ.",
+   "src": [
+    1,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "type": "examples",
+   "text": "Нажми — послушай — повтори вслух. Смотри: действие всегда второе.",
+   "items": [
+    "heute_spiele_ich",
+    "abend_musik",
+    "dorf_oma",
+    "jetzt_dran",
+    "morgen_frei"
+   ],
+   "src": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "hint",
+   "text": "«Место №2» — это не второе слово, а второй ВАГОН. Heute kaufe ich Brot: «Heute» — вагон 1, «kaufe» — вагон 2 (действие). Вагон — ответ на один вопрос: «Am Abend» (когда?) — два слова, но один вагон.",
+   "items": [
+    "heute_brot",
+    "abend_musik",
+    "dorf_oma"
+   ],
+   "src": [
+    2
+   ]
+  },
+  {
+   "type": "trap",
+   "text": "Тут русский мешает. «Сегодня я играю» хочется сказать как «Heute ich spiele» — ✗. Место №2 только для действия: Heute spiele ich — ✓.",
+   "items": [
+    {
+     "wrong": "Heute ich spiele.",
+     "right": "Heute spiele ich.",
+     "audio": "heute_spiele_ich"
+    }
+   ],
+   "src": [
+    3,
+    6
+   ]
+  },
+  {
+   "type": "recall",
+   "text": "Сначала ответь сам (вслух), потом проверь.",
+   "items": [
+    {
+     "q": "Собери поезд: [Musik] [höre] [Am Abend] [ich]",
+     "a": "Am Abend höre ich Musik.",
+     "audio": "abend_musik"
+    },
+    {
+     "q": "Почини поезд: «Morgen ich habe frei.»",
+     "a": "Morgen habe ich frei.",
+     "audio": "morgen_frei"
+    },
+    {
+     "q": "Начни с «Jetzt»: «Ich bin dran.» → ?",
+     "a": "Jetzt bin ich dran.",
+     "audio": "jetzt_dran"
+    },
+    {
+     "q": "Найди сам: какое слово — действие (вагон №2) во фразе «Im Dorf wohnt meine Oma»?",
+     "a": "wohnt («живёт»). «Im Dorf» — два слова, но один вагон.",
+     "audio": "dorf_oma",
+     "kind": "find"
+    }
+   ],
+   "src": [
+    1,
+    3,
+    12
+   ]
+  },
+  {
+   "type": "live",
+   "text": "Вживую: так говорят герои аниме (официальная немецкая озвучка Crunchyroll).",
+   "items": [
+    {
+     "yt": "z4TkzDX9jFk",
+     "channel": "Crunchyroll Deutschland",
+     "title": "HAIKYU!! Das Play-off der Müllhalde — трейлер",
+     "start": 8,
+     "end": 16,
+     "embed": true,
+     "said_de": "In letzter Zeit sind wir ziemlich gut.",
+     "said_ru": "В последнее время мы довольно хороши.",
+     "train": [
+      {
+       "role": "когда",
+       "de": "In letzter Zeit",
+       "ru": "в последнее время"
+      },
+      {
+       "role": "действие №2",
+       "de": "sind",
+       "ru": "(есть)"
+      },
+      {
+       "role": "кто",
+       "de": "wir",
+       "ru": "мы"
+      },
+      {
+       "role": "какие",
+       "de": "ziemlich gut",
+       "ru": "довольно хороши"
+      }
+     ],
+     "why": "Первый вагон — «в последнее время»: три слова, но один вопрос «когда?». Действие sind стоит вторым, а «мы» (wir) уже за ним — в вагоне №3."
+    },
+    {
+     "yt": "SrPLyEhd598",
+     "channel": "Crunchyroll Deutschland",
+     "title": "Frieren — «Kurz und schmerzlos»",
+     "start": 28,
+     "end": 36,
+     "embed": true,
+     "said_de": "Gegen diesen Faden kann ich tatsächlich nichts unternehmen.",
+     "said_ru": "Против этой нити я и правда ничего не могу сделать.",
+     "train": [
+      {
+       "role": "против чего",
+       "de": "Gegen diesen Faden",
+       "ru": "против этой нити"
+      },
+      {
+       "role": "действие №2",
+       "de": "kann",
+       "ru": "могу"
+      },
+      {
+       "role": "кто",
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "role": "как",
+       "de": "tatsächlich nichts",
+       "ru": "и правда ничего"
+      },
+      {
+       "role": "хвост действия",
+       "de": "unternehmen",
+       "ru": "сделать"
+      }
+     ],
+     "why": "Первый вагон — «против этой нити». На №2 — kann («могу»), «я» — в вагоне №3, а само действие unternehmen («сделать») уехало в последний вагон: немец ждёт его до конца фразы."
+    }
+   ],
+   "own": [
+    {
+     "id": "welt_retten",
+     "note": "в стиле аниме"
+    },
+    {
+     "id": "turm_boss",
+     "note": "в стиле игры: где? — действие — кто"
+    }
+   ],
+   "src": [
+    1,
+    3,
+    7
+   ]
+  },
+  {
+   "type": "videos",
+   "text": "Не понял — покажи по-другому: кусок видео другого учителя.",
+   "items": [
+    "-mxNBwpx98U",
+    "vLe-gT_EKXI",
+    "DxvYY6aJUhA"
+   ],
+   "src": [
+    1,
+    2,
+    3
+   ]
+  }
+ ],
+ "why_examples": [
+  {
+   "de": "Heute spiele ich.",
+   "ru": "Сегодня я играю.",
+   "audio": "heute_spiele_ich",
+   "train": [
+    {
+     "role": "когда",
+     "de": "Heute",
+     "ru": "сегодня"
+    },
+    {
+     "role": "действие №2",
+     "de": "spiele",
+     "ru": "играю"
+    },
+    {
+     "role": "кто",
+     "de": "ich",
+     "ru": "я"
+    }
+   ],
+   "why": "Первый вагон занят словом «сегодня». Место №2 — всегда действие, поэтому «я» едет в вагоне №3."
+  },
+  {
+   "de": "Im Dorf wohnt meine Oma.",
+   "ru": "В деревне живёт моя бабушка.",
+   "audio": "dorf_oma",
+   "train": [
+    {
+     "role": "где",
+     "de": "Im Dorf",
+     "ru": "в деревне"
+    },
+    {
+     "role": "действие №2",
+     "de": "wohnt",
+     "ru": "живёт"
+    },
+    {
+     "role": "кто",
+     "de": "meine Oma",
+     "ru": "моя бабушка"
+    }
+   ],
+   "why": "«Im Dorf» — два слова, но один вагон: отвечает на «где?». «Meine Oma» — тоже один вагон. Действие всё равно второе."
+  },
+  {
+   "de": "Heute rufe ich Oma an.",
+   "ru": "Сегодня я звоню бабушке.",
+   "audio": "oma_anrufen",
+   "train": [
+    {
+     "role": "когда",
+     "de": "Heute",
+     "ru": "сегодня"
+    },
+    {
+     "role": "действие №2",
+     "de": "rufe",
+     "ru": "звоню"
+    },
+    {
+     "role": "кто",
+     "de": "ich",
+     "ru": "я"
+    },
+    {
+     "role": "кого",
+     "de": "Oma",
+     "ru": "бабушке"
+    },
+    {
+     "role": "хвост действия",
+     "de": "an",
+     "ru": "(хвостик от anrufen)"
+    }
+   ],
+   "why": "Действие anrufen («звонить») режется на два куска: главный кусок rufe — на №2, хвостик an — в последнем вагоне. Немец ждёт конец фразы, чтобы узнать всё действие."
+  }
+ ],
+ "phrases": [
+  {
+   "id": "ich_spiele_heute",
+   "de": "Ich spiele heute.",
+   "ru": "Я сегодня играю.",
+   "audio": "audio_v1/ich_spiele_heute.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "heute_spiele_ich",
+   "de": "Heute spiele ich.",
+   "ru": "Сегодня я играю.",
+   "audio": "audio_v1/heute_spiele_ich.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "abend_musik",
+   "de": "Am Abend höre ich Musik.",
+   "ru": "Вечером я слушаю музыку.",
+   "audio": "audio_v1/abend_musik.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "dorf_oma",
+   "de": "Im Dorf wohnt meine Oma.",
+   "ru": "В деревне живёт моя бабушка.",
+   "audio": "audio_v1/dorf_oma.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "jetzt_dran",
+   "de": "Jetzt bin ich dran.",
+   "ru": "Теперь моя очередь.",
+   "audio": "audio_v1/jetzt_dran.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "morgen_frei",
+   "de": "Morgen habe ich frei.",
+   "ru": "Завтра у меня выходной.",
+   "audio": "audio_v1/morgen_frei.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "oma_anrufen",
+   "de": "Heute rufe ich Oma an.",
+   "ru": "Сегодня я звоню бабушке.",
+   "audio": "audio_v1/oma_anrufen.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "welt_retten",
+   "de": "Heute rette ich die Welt.",
+   "ru": "Сегодня я спасаю мир.",
+   "audio": "audio_v1/welt_retten.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "turm_boss",
+   "de": "Im Turm wartet der Boss.",
+   "ru": "В башне ждёт босс.",
+   "audio": "audio_v1/turm_boss.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "heute_brot",
+   "de": "Heute kaufe ich Brot.",
+   "ru": "Сегодня я покупаю хлеб.",
+   "audio": "audio_v1/heute_brot.mp3",
+   "asr": "ok"
+  }
+ ],
+ "videos": [
+  {
+   "yt": "-mxNBwpx98U",
+   "author": "Deutsch mit Yehor",
+   "start": 84,
+   "end": 167,
+   "embed": true,
+   "idea": "Место — не слово, а ответ на один вопрос; действие на втором месте"
+  },
+  {
+   "yt": "vLe-gT_EKXI",
+   "author": "Школа німецької (Ihor Kolesnykov)",
+   "start": 129,
+   "end": 214,
+   "embed": true,
+   "idea": "«Am Montag ich lerne» — неверно: считаем места и переставляем (по-украински)"
+  },
+  {
+   "yt": "DxvYY6aJUhA",
+   "author": "Илья Рябенков",
+   "start": 0,
+   "end": 20,
+   "embed": true,
+   "idea": "Порядок слов за 20 секунд: действие на втором месте"
+  }
+ ],
+ "sources": [
+  {
+   "what": "Правило «действие на месте №2; в вопросе да/нет — №1; хвост действия — в конце»",
+   "where": "Duden online «Satzklammer»; Wiktionary «Satzklammer», «Vorfeld», «Inversion»",
+   "license": "проверка, тексты не копируем"
+  },
+  {
+   "what": "Карта темы и страницы",
+   "where": "Е. Чулков «Немецкий от A до Ja!», урок 7, стр. 166–171; урок 9, стр. 213–214",
+   "license": "только ссылка на страницу"
+  },
+  {
+   "what": "Приёмы учителей",
+   "where": "topic.csv (Беккер, Егор, Рябенков, Колесников, Super Easy German, DW)",
+   "license": "ссылки и официальный YouTube-плеер; ничего не скачиваем"
+  },
+  {
+   "what": "Куски «Вживую»",
+   "where": "YouTube-канал Crunchyroll Deutschland (официальный); фраза найдена по автосубтитрам",
+   "license": "официальный плеер, embed проверен oEmbed"
+  },
+  {
+   "what": "Голос",
+   "where": "Piper, голос Thorsten high",
+   "license": "код MIT, данные CC0"
+  }
+ ],
+ "terms": [
+  {
+   "term": "действие (вагон №2)",
+   "plain": "то, что происходит: играю, живёт, покупаю",
+   "scheme": "поезд, вагон №2 — паровоз",
+   "example": "Heute kaufe ich Brot.",
+   "find": "recall: «Найди сам…»"
+  },
+  {
+   "term": "вагон",
+   "plain": "кусок фразы, который отвечает на один вопрос (кто? когда? где? что?)",
+   "scheme": "поезд из вагонов",
+   "example": "Am Abend | höre | ich | Musik.",
+   "find": "recall: «Собери поезд»"
+  }
+ ],
+ "help_by_error": {
+  "order": {
+   "show": "Поезд: вагоны фразы на экране, неверный вагон отцепляется; перетащи действие на место №2",
+   "phrases": [
+    "heute_spiele_ich",
+    "heute_brot"
+   ],
+   "step": "picture"
+  },
+  "article": {
+   "show": "Это не про порядок: открыть карточку «der · die · das» (articles) и показать слово в 3 фразах",
+   "link": "articles"
+  },
+  "verb_form": {
+   "show": "Открыть карточку «кончик действия» (verb_endings): та же фраза с другим «кто»",
+   "link": "verb_endings"
+  },
+  "listen": {
+   "show": "Замедлить (0.7) и проиграть фразу по вагонам с паузами; потом целиком",
+   "phrases": [
+    "abend_musik",
+    "dorf_oma"
+   ]
+  },
+  "word": {
+   "show": "Картинка + звук незнакомого слова, потом слово внутри знакомой фразы",
+   "phrases": [
+    "morgen_frei",
+    "jetzt_dran"
+   ]
+  }
+ }
+}

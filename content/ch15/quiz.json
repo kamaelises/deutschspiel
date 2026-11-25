@@ -1,0 +1,3800 @@
+[
+ {
+  "item_id": "ch15_L1_words_1",
+  "id": "ch15_L1_words_1",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_001",
+  "prompt": "Что значит «Ich habe … gelernt»?",
+  "answer": "я учил — это уже было",
+  "distractors": [
+   "я учу — сейчас",
+   "я буду учить — потом"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L1_words_2",
+  "id": "ch15_L1_words_2",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_002",
+  "prompt": "Что значит «in der Schule»?",
+  "answer": "в школе",
+  "distractors": [
+   "на курсе",
+   "в селе"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L1_words_3",
+  "id": "ch15_L1_words_3",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_003",
+  "prompt": "Что значит «im Kurs»?",
+  "answer": "на курсе",
+  "distractors": [
+   "в школе",
+   "в селе"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L1_words_4",
+  "id": "ch15_L1_words_4",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_004",
+  "prompt": "Что значит «wann»?",
+  "answer": "когда",
+  "distractors": [
+   "где",
+   "кто"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L1_words_5",
+  "id": "ch15_L1_words_5",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_005",
+  "prompt": "Что значит «mit sieben Jahren»?",
+  "answer": "в семь лет",
+  "distractors": [
+   "семь лет назад",
+   "через семь лет"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L1_listen_1",
+  "id": "ch15_L1_listen_1",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d1_01",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Ты хорошо говоришь по-немецки!",
+  "distractors": [
+   "Ты хорошо говоришь по-английски!",
+   "Ты учишь немецкий на курсе?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d1_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L1_listen_2",
+  "id": "ch15_L1_listen_2",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d1_02",
+  "prompt": "Послушай. Где герой научился немецкому?",
+  "answer": "на курсе",
+  "distractors": [
+   "в школе",
+   "в селе"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d1_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L1_listen_3",
+  "id": "ch15_L1_listen_3",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d1_03",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Где ты учил английский?",
+  "distractors": [
+   "Когда ты учил английский?",
+   "Где ты учишь немецкий?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d1_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L1_listen_4",
+  "id": "ch15_L1_listen_4",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d1_04",
+  "prompt": "Послушай. Где герой учил английский?",
+  "answer": "в школе",
+  "distractors": [
+   "на курсе",
+   "в Германии"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d1_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L1_listen_5",
+  "id": "ch15_L1_listen_5",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d1_06",
+  "prompt": "Послушай. В каком возрасте герой это учил?",
+  "answer": "в семь лет",
+  "distractors": [
+   "в шесть лет",
+   "в тринадцать лет"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d1_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L1_read_1",
+  "id": "ch15_L1_read_1",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_001",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я учил английский.",
+  "distractors": [
+   "Я учу английский.",
+   "Ты учил английский."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe Englisch gelernt."
+ },
+ {
+  "item_id": "ch15_L1_read_2",
+  "id": "ch15_L1_read_2",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_d1_02",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Спасибо! Этому я научился на курсе.",
+  "distractors": [
+   "Спасибо! Я учусь на курсе.",
+   "Спасибо! Этому я научился в школе."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Danke! Das habe ich im Kurs gelernt."
+ },
+ {
+  "item_id": "ch15_L1_read_3",
+  "id": "ch15_L1_read_3",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_003",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "На курсе.",
+  "distractors": [
+   "В школе.",
+   "Курс немецкого."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Im Kurs."
+ },
+ {
+  "item_id": "ch15_L1_read_4",
+  "id": "ch15_L1_read_4",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_004",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Когда ты это учил?",
+  "distractors": [
+   "Где ты это учил?",
+   "Что ты учил?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wann hast du das gelernt?"
+ },
+ {
+  "item_id": "ch15_L1_read_5",
+  "id": "ch15_L1_read_5",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_005",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "В семь лет.",
+  "distractors": [
+   "Семь лет назад.",
+   "С семи часов."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Mit sieben Jahren."
+ },
+ {
+  "item_id": "ch15_L1_speak_1",
+  "id": "ch15_L1_speak_1",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_001",
+  "prompt": "Скажи: «Я учил английский.» Ударение — на lernt: geLERNT.",
+  "answer": "Ich habe Englisch gelernt.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch15_001.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe Englisch gelernt."
+  ]
+ },
+ {
+  "item_id": "ch15_L1_speak_2",
+  "id": "ch15_L1_speak_2",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_d1_02",
+  "prompt": "Ответь на похвалу: «Спасибо! Этому я научился на курсе.»",
+  "answer": "Danke! Das habe ich im Kurs gelernt.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d1_02.mp3",
+  "de": null,
+  "accept": [
+   "Danke! Das habe ich im Kurs gelernt."
+  ]
+ },
+ {
+  "item_id": "ch15_L1_speak_3",
+  "id": "ch15_L1_speak_3",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_d1_04",
+  "prompt": "Скажи: «Я учил английский в школе.»",
+  "answer": "Ich habe Englisch in der Schule gelernt.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d1_04.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe Englisch in der Schule gelernt."
+  ]
+ },
+ {
+  "item_id": "ch15_L1_speak_4",
+  "id": "ch15_L1_speak_4",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_004",
+  "prompt": "Спроси Ольгу, когда она это учила.",
+  "answer": "Wann hast du das gelernt?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch15_004.mp3",
+  "de": null,
+  "accept": [
+   "Wann hast du das gelernt?"
+  ]
+ },
+ {
+  "item_id": "ch15_L1_speak_5",
+  "id": "ch15_L1_speak_5",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_005",
+  "prompt": "Ответь: «В семь лет.»",
+  "answer": "Mit sieben Jahren.",
+  "distractors": null,
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": "audio_v1/ch15_005.mp3",
+  "de": null,
+  "accept": [
+   "Mit sieben Jahren."
+  ]
+ },
+ {
+  "item_id": "ch15_L1_write_1",
+  "id": "ch15_L1_write_1",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_001",
+  "prompt": "Впиши: «Ich habe Englisch ___.» (учил)",
+  "answer": "gelernt",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch15_001.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L1_write_2",
+  "id": "ch15_L1_write_2",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_d1_04",
+  "prompt": "Впиши: «Ich ___ Englisch in der Schule gelernt.» (помощник для ich)",
+  "answer": "habe",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d1_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L1_write_3",
+  "id": "ch15_L1_write_3",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_004",
+  "prompt": "Впиши: «___ hast du das gelernt?» (когда)",
+  "answer": "Wann",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch15_004.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L1_write_4",
+  "id": "ch15_L1_write_4",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_d1_03",
+  "prompt": "Впиши: «Wo ___ du Englisch gelernt?» (помощник для du)",
+  "answer": "hast",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d1_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L1_write_5",
+  "id": "ch15_L1_write_5",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_d1_02",
+  "prompt": "Впиши: «Danke! Das habe ich im ___ gelernt.» (на курсе)",
+  "answer": "Kurs",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d1_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L1_why_1",
+  "id": "ch15_L1_why_1",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_001",
+  "prompt": "Почему «учил» по-немецки — два слова: habe … gelernt?",
+  "answer": "habe включает «уже было», gelernt говорит, что сделано.",
+  "distractors": [
+   "habe значит «у меня есть», gelernt — «английский».",
+   "Два слова нужны только в вопросе, в ответе — одно."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe Englisch gelernt."
+ },
+ {
+  "item_id": "ch15_L1_why_2",
+  "id": "ch15_L1_why_2",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_d1_04",
+  "prompt": "Почему gelernt стоит в самом конце?",
+  "answer": "Помощник habe — вагон №2, gelernt — последний вагон.",
+  "distractors": [
+   "Это вопрос, а в вопросе действие стоит в конце.",
+   "Schule — die-слово и отодвигает действие в конец."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe Englisch in der Schule gelernt."
+ },
+ {
+  "item_id": "ch15_L1_why_3",
+  "id": "ch15_L1_why_3",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_004",
+  "prompt": "Почему «Wann hast du …», а не «Wann du hast …»?",
+  "answer": "После вопрос-слова wann сразу идёт помощник hast.",
+  "distractors": [
+   "Помощник hast важнее, чем du, и стоит раньше.",
+   "Так строят вопрос только на «ты», не на «вы»."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Wann hast du das gelernt?"
+ },
+ {
+  "item_id": "ch15_L1_why_4",
+  "id": "ch15_L1_why_4",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_d1_02",
+  "prompt": "Почему «Das habe ich», а не «Das ich habe»?",
+  "answer": "Впереди Das, помощник habe держит вагон №2 — ich уходит за него.",
+  "distractors": [
+   "Если ich стоит после habe, значит, это вопрос к себе.",
+   "Das и habe — одно слово, его нельзя разрывать."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Danke! Das habe ich im Kurs gelernt."
+ },
+ {
+  "item_id": "ch15_L1_why_5",
+  "id": "ch15_L1_why_5",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_003",
+  "prompt": "Что такое «im» в «Im Kurs»?",
+  "answer": "Это in и dem, склеенные вместе: «на курсе».",
+  "distractors": [
+   "Это отдельное слово «мой»: «мой курс».",
+   "Это in с ошибкой: m вместо n."
+  ],
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": null,
+  "de": "Im Kurs."
+ },
+ {
+  "item_id": "ch15_L1_transfer_1",
+  "id": "ch15_L1_transfer_1",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_t01",
+  "prompt": "Расскажи про Ольгу: «Ольга учила английский в школе.» С Olga помощник — hat.",
+  "answer": "Olga hat Englisch in der Schule gelernt.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch15_t01.mp3",
+  "de": null,
+  "accept": [
+   "Olga hat Englisch in der Schule gelernt."
+  ]
+ },
+ {
+  "item_id": "ch15_L1_transfer_2",
+  "id": "ch15_L1_transfer_2",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_t02",
+  "prompt": "Скажи: «Я учил немецкий на курсе.»",
+  "answer": "Ich habe Deutsch im Kurs gelernt.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch15_t02.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe Deutsch im Kurs gelernt."
+  ]
+ },
+ {
+  "item_id": "ch15_L1_transfer_3",
+  "id": "ch15_L1_transfer_3",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_t02",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Я учил немецкий на курсе.",
+  "distractors": [
+   "Я учил английский в школе.",
+   "Где ты учил немецкий?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch15_t02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L1_transfer_4",
+  "id": "ch15_L1_transfer_4",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_t02",
+  "prompt": "Напиши по-немецки: «Я учил немецкий на курсе.»",
+  "answer": "Ich habe Deutsch im Kurs gelernt.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch15_t02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L1_transfer_5",
+  "id": "ch15_L1_transfer_5",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_t02",
+  "prompt": "Почему в «Ich habe Deutsch im Kurs gelernt» слово gelernt в конце?",
+  "answer": "Помощник habe — вагон №2, а что сделано — gelernt — уходит в конец.",
+  "distractors": [
+   "gelernt говорят последним ради ударения.",
+   "Помощник habe — вагон №2, а что сделано — gelernt — уходит вперёд."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": null,
+  "de": "Ich habe Deutsch im Kurs gelernt."
+ },
+ {
+  "item_id": "ch15_L1_transfer_6",
+  "id": "ch15_L1_transfer_6",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_t03",
+  "prompt": "Спроси Ольгу, где она учила немецкий.",
+  "answer": "Wo hast du Deutsch gelernt?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch15_t03.mp3",
+  "de": null,
+  "accept": [
+   "Wo hast du Deutsch gelernt?"
+  ]
+ },
+ {
+  "item_id": "ch15_L1_boss_1",
+  "id": "ch15_L1_boss_1",
+  "lesson": "ch15_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d1_05",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Когда ты это учил?",
+  "distractors": [
+   "Где ты это учил?",
+   "Что ты учил в школе?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d1_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L2_words_1",
+  "id": "ch15_L2_words_1",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_013",
+  "prompt": "Что значит «von wem»?",
+  "answer": "от кого",
+  "distractors": [
+   "где",
+   "когда"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L2_words_2",
+  "id": "ch15_L2_words_2",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_014",
+  "prompt": "Что значит «von meinem Onkel»?",
+  "answer": "у (от) моего дяди",
+  "distractors": [
+   "у (от) моей мамы",
+   "у (от) моего друга"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L2_words_3",
+  "id": "ch15_L2_words_3",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_015",
+  "prompt": "Что значит «von meiner Mutter»?",
+  "answer": "от моей мамы",
+  "distractors": [
+   "от дяди",
+   "от друга"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L2_words_4",
+  "id": "ch15_L2_words_4",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_016",
+  "prompt": "Что значит «von meinem Freund»?",
+  "answer": "от моего друга",
+  "distractors": [
+   "от моей мамы",
+   "от моего дяди"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L2_words_5",
+  "id": "ch15_L2_words_5",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_017",
+  "prompt": "Что значит «Ich habe Englisch … gelernt»?",
+  "answer": "я учил английский",
+  "distractors": [
+   "я учу английский",
+   "я говорю по-английски"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L2_listen_1",
+  "id": "ch15_L2_listen_1",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d2_01",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Ты хорошо говоришь по-английски!",
+  "distractors": [
+   "Ты хорошо говоришь по-немецки!",
+   "Ты учишь английский?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d2_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L2_listen_2",
+  "id": "ch15_L2_listen_2",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d2_02",
+  "prompt": "Послушай. От кого герой научился английскому?",
+  "answer": "от дяди",
+  "distractors": [
+   "от мамы",
+   "от друга"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d2_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L2_listen_3",
+  "id": "ch15_L2_listen_3",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d2_04",
+  "prompt": "Послушай. От кого герой научился немецкому?",
+  "answer": "от друга",
+  "distractors": [
+   "от дяди",
+   "от мамы"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d2_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L2_listen_4",
+  "id": "ch15_L2_listen_4",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d2_05",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Я учила английский у моей мамы.",
+  "distractors": [
+   "Я учила английский в школе.",
+   "Я учу английский с мамой."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d2_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L2_read_1",
+  "id": "ch15_L2_read_1",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_013",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "От кого ты этому научился?",
+  "distractors": [
+   "Где ты этому научился?",
+   "Когда ты этому научился?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Von wem hast du das gelernt?"
+ },
+ {
+  "item_id": "ch15_L2_read_2",
+  "id": "ch15_L2_read_2",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_014",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Этому я научился у моего дяди.",
+  "distractors": [
+   "Этому я научился у своей мамы.",
+   "Этому я научился в школе."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe das von meinem Onkel gelernt."
+ },
+ {
+  "item_id": "ch15_L2_read_3",
+  "id": "ch15_L2_read_3",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_015",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "От моей мамы.",
+  "distractors": [
+   "От дяди.",
+   "Мама дома."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Von meiner Mutter."
+ },
+ {
+  "item_id": "ch15_L2_read_4",
+  "id": "ch15_L2_read_4",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_016",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "От моего друга.",
+  "distractors": [
+   "Мой друг дома.",
+   "От моей мамы."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Von meinem Freund."
+ },
+ {
+  "item_id": "ch15_L2_read_5",
+  "id": "ch15_L2_read_5",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_017",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я учил английский у моей мамы.",
+  "distractors": [
+   "Я учу английский с мамой.",
+   "Мама учила английский."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe Englisch von meiner Mutter gelernt."
+ },
+ {
+  "item_id": "ch15_L2_speak_1",
+  "id": "ch15_L2_speak_1",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_013",
+  "prompt": "Спроси Ольгу: «От кого ты этому научился?» Von — «ф».",
+  "answer": "Von wem hast du das gelernt?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch15_013.mp3",
+  "de": null,
+  "accept": [
+   "Von wem hast du das gelernt?"
+  ]
+ },
+ {
+  "item_id": "ch15_L2_speak_2",
+  "id": "ch15_L2_speak_2",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_014",
+  "prompt": "Скажи: «Этому я научился у моего дяди.»",
+  "answer": "Ich habe das von meinem Onkel gelernt.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch15_014.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe das von meinem Onkel gelernt."
+  ]
+ },
+ {
+  "item_id": "ch15_L2_speak_3",
+  "id": "ch15_L2_speak_3",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_015",
+  "prompt": "Ответь коротко: «От моей мамы.»",
+  "answer": "Von meiner Mutter.",
+  "distractors": null,
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": "audio_v1/ch15_015.mp3",
+  "de": null,
+  "accept": [
+   "Von meiner Mutter."
+  ]
+ },
+ {
+  "item_id": "ch15_L2_speak_4",
+  "id": "ch15_L2_speak_4",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_016",
+  "prompt": "Ответь коротко: «От моего друга.»",
+  "answer": "Von meinem Freund.",
+  "distractors": null,
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": "audio_v1/ch15_016.mp3",
+  "de": null,
+  "accept": [
+   "Von meinem Freund."
+  ]
+ },
+ {
+  "item_id": "ch15_L2_speak_5",
+  "id": "ch15_L2_speak_5",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_017",
+  "prompt": "Скажи: «Я учил английский у моей мамы.»",
+  "answer": "Ich habe Englisch von meiner Mutter gelernt.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch15_017.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe Englisch von meiner Mutter gelernt."
+  ]
+ },
+ {
+  "item_id": "ch15_L2_write_1",
+  "id": "ch15_L2_write_1",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_014",
+  "prompt": "Впиши: «Ich habe das von ___ Onkel gelernt.» (моего)",
+  "answer": "meinem",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch15_014.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L2_write_2",
+  "id": "ch15_L2_write_2",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_015",
+  "prompt": "Впиши: «Von ___ Mutter.» (моей)",
+  "answer": "meiner",
+  "distractors": null,
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": "audio_v1/ch15_015.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L2_write_3",
+  "id": "ch15_L2_write_3",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_016",
+  "prompt": "Впиши: «Von meinem ___.» (друга)",
+  "answer": "Freund",
+  "distractors": null,
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": "audio_v1/ch15_016.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L2_write_4",
+  "id": "ch15_L2_write_4",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_013",
+  "prompt": "Впиши: «Von ___ hast du das gelernt?» (кого)",
+  "answer": "wem",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch15_013.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L2_write_5",
+  "id": "ch15_L2_write_5",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_017",
+  "prompt": "Впиши: «Ich habe Englisch ___ meiner Mutter gelernt.» (от)",
+  "answer": "von",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch15_017.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L2_why_1",
+  "id": "ch15_L2_why_1",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_014",
+  "prompt": "Почему «von meinem Onkel», а не «von mein Onkel»?",
+  "answer": "После von слово «мой» меняется: der-слово — meinem.",
+  "distractors": [
+   "Потому что Onkel — вежливое слово.",
+   "После von слово «мой» не меняется: der-слово — meinem."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe das von meinem Onkel gelernt."
+ },
+ {
+  "item_id": "ch15_L2_why_2",
+  "id": "ch15_L2_why_2",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_015",
+  "prompt": "Почему «von meiner Mutter», а не «von meinem Mutter»?",
+  "answer": "Mutter — die-слово: после von для него meiner.",
+  "distractors": [
+   "Mutter — мужское слово, поэтому meiner.",
+   "Оба варианта верны."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Von meiner Mutter."
+ },
+ {
+  "item_id": "ch15_L2_why_3",
+  "id": "ch15_L2_why_3",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_016",
+  "prompt": "Почему «von meinem Freund»?",
+  "answer": "Freund — der-слово: после von для него meinem.",
+  "distractors": [
+   "Freund — die-слово, поэтому meinem.",
+   "Freund — die-слово: после von для него meinem."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Von meinem Freund."
+ },
+ {
+  "item_id": "ch15_L2_why_4",
+  "id": "ch15_L2_why_4",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_013",
+  "prompt": "Почему «Von wem hast du …», а не «Von wem du hast …»?",
+  "answer": "После вопрос-куска сразу идёт помощник hast.",
+  "distractors": [
+   "Помощник hast важнее, чем du, и стоит раньше.",
+   "Так строят вопрос только на «ты»."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Von wem hast du das gelernt?"
+ },
+ {
+  "item_id": "ch15_L2_why_5",
+  "id": "ch15_L2_why_5",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_017",
+  "prompt": "Почему в «Ich habe Englisch von meiner Mutter gelernt» gelernt в конце?",
+  "answer": "Помощник habe — вагон №2, а что сделано — gelernt — в конец.",
+  "distractors": [
+   "gelernt говорят последним ради ударения.",
+   "Помощник habe — вагон №3, а что сделано — gelernt — в конец."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe Englisch von meiner Mutter gelernt."
+ },
+ {
+  "item_id": "ch15_L2_transfer_1",
+  "id": "ch15_L2_transfer_1",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_t04",
+  "prompt": "Скажи: «Я учил английский у моего друга.» der Freund — после von: meinem.",
+  "answer": "Ich habe Englisch von meinem Freund gelernt.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch15_t04.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe Englisch von meinem Freund gelernt."
+  ]
+ },
+ {
+  "item_id": "ch15_L2_transfer_2",
+  "id": "ch15_L2_transfer_2",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_t06",
+  "prompt": "Скажи: «Этому я научился у моей мамы.»",
+  "answer": "Ich habe das von meiner Mutter gelernt.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch15_t06.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe das von meiner Mutter gelernt."
+  ]
+ },
+ {
+  "item_id": "ch15_L2_transfer_3",
+  "id": "ch15_L2_transfer_3",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_t06",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Этому я научился у моей мамы.",
+  "distractors": [
+   "Этому я научился у дяди.",
+   "Я учил английский у моей мамы."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch15_t06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L2_transfer_4",
+  "id": "ch15_L2_transfer_4",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_t06",
+  "prompt": "Напиши по-немецки: «Этому я научился у моей мамы.»",
+  "answer": "Ich habe das von meiner Mutter gelernt.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch15_t06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L2_transfer_5",
+  "id": "ch15_L2_transfer_5",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_t06",
+  "prompt": "Почему в «Ich habe das von meiner Mutter gelernt» стоит meiner?",
+  "answer": "Mutter — die-слово: после von для него meiner.",
+  "distractors": [
+   "Mutter говорят без артикля, поэтому meiner.",
+   "meiner — это просто другое написание meinem."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": true,
+  "audio": null,
+  "de": "Ich habe das von meiner Mutter gelernt."
+ },
+ {
+  "item_id": "ch15_L2_transfer_6",
+  "id": "ch15_L2_transfer_6",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_t05",
+  "prompt": "Спроси Ольгу, у кого она учила английский.",
+  "answer": "Von wem hast du Englisch gelernt?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch15_t05.mp3",
+  "de": null,
+  "accept": [
+   "Von wem hast du Englisch gelernt?"
+  ]
+ },
+ {
+  "item_id": "ch15_L2_boss_1",
+  "id": "ch15_L2_boss_1",
+  "lesson": "ch15_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d2_03",
+  "prompt": "Послушай реплику Ольги ещё раз. Что она хочет узнать?",
+  "answer": "У кого ты учил немецкий?",
+  "distractors": [
+   "Где ты учил немецкий?",
+   "У кого ты учил английский?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d2_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L3_words_1",
+  "id": "ch15_L3_words_1",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_020",
+  "prompt": "Что значит «Klavier»?",
+  "answer": "пианино",
+  "distractors": [
+   "гитара",
+   "барабан"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L3_words_2",
+  "id": "ch15_L3_words_2",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_021",
+  "prompt": "Что значит «ich spiele»?",
+  "answer": "я играю",
+  "distractors": [
+   "я учу",
+   "я говорю"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L3_words_3",
+  "id": "ch15_L3_words_3",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_022",
+  "prompt": "Что значит «nicht» в «Spielst du nicht Gitarre?»",
+  "answer": "не",
+  "distractors": [
+   "да",
+   "ещё"
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L3_words_4",
+  "id": "ch15_L3_words_4",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_023",
+  "prompt": "Что значит ответ «Doch»?",
+  "answer": "нет, наоборот: играю",
+  "distractors": [
+   "да, не играю",
+   "может быть"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L3_words_5",
+  "id": "ch15_L3_words_5",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_024",
+  "prompt": "Что значит «kein» в «Ich spiele kein Klavier»?",
+  "answer": "не",
+  "distractors": [
+   "да",
+   "ещё"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L3_listen_1",
+  "id": "ch15_L3_listen_1",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d3_01",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Ты играешь на пианино?",
+  "distractors": [
+   "Ты играешь на гитаре?",
+   "Ты учишь пианино?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d3_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L3_listen_2",
+  "id": "ch15_L3_listen_2",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d3_02",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Да, я играю на пианино.",
+  "distractors": [
+   "Нет, я не играю на пианино.",
+   "Да, я играю на гитаре."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d3_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L3_listen_3",
+  "id": "ch15_L3_listen_3",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d3_03",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Ты не играешь на гитаре?",
+  "distractors": [
+   "Ты играешь на гитаре?",
+   "Ты не играешь на пианино?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d3_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L3_listen_4",
+  "id": "ch15_L3_listen_4",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d3_04",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Да, играю — и на гитаре тоже.",
+  "distractors": [
+   "Нет, я не играю на гитаре.",
+   "Да, я не играю на гитаре."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d3_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L3_listen_5",
+  "id": "ch15_L3_listen_5",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d3_06",
+  "prompt": "Послушай. Что ответила Ольга?",
+  "answer": "Нет, я не играю на пианино.",
+  "distractors": [
+   "Да, я играю на пианино.",
+   "Нет, я не играю на гитаре."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d3_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L3_read_1",
+  "id": "ch15_L3_read_1",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_020",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Ты играешь на пианино?",
+  "distractors": [
+   "Ты учишь пианино?",
+   "Я играю на пианино."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Spielst du Klavier?"
+ },
+ {
+  "item_id": "ch15_L3_read_2",
+  "id": "ch15_L3_read_2",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_021",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Да, я играю на пианино.",
+  "distractors": [
+   "Нет, я не играю на пианино.",
+   "Да, ты играешь на пианино."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ja, ich spiele Klavier."
+ },
+ {
+  "item_id": "ch15_L3_read_3",
+  "id": "ch15_L3_read_3",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_022",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Ты не играешь на гитаре?",
+  "distractors": [
+   "Ты играешь на гитаре?",
+   "Я не играю на гитаре."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Spielst du nicht Gitarre?"
+ },
+ {
+  "item_id": "ch15_L3_read_4",
+  "id": "ch15_L3_read_4",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_023",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Да, играю — и на гитаре тоже.",
+  "distractors": [
+   "Нет, я не играю на гитаре.",
+   "Да, я тоже не играю."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Doch, ich spiele auch Gitarre."
+ },
+ {
+  "item_id": "ch15_L3_read_5",
+  "id": "ch15_L3_read_5",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_024",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Нет, я не играю на пианино.",
+  "distractors": [
+   "Да, играю — и на пианино тоже.",
+   "Да, я играю на пианино."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Nein, ich spiele kein Klavier."
+ },
+ {
+  "item_id": "ch15_L3_speak_1",
+  "id": "ch15_L3_speak_1",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_020",
+  "prompt": "Спроси Ольгу: «Ты играешь на пианино?»",
+  "answer": "Spielst du Klavier?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch15_020.mp3",
+  "de": null,
+  "accept": [
+   "Spielst du Klavier?"
+  ]
+ },
+ {
+  "item_id": "ch15_L3_speak_2",
+  "id": "ch15_L3_speak_2",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_021",
+  "prompt": "Ответь: «Да, я играю на пианино.»",
+  "answer": "Ja, ich spiele Klavier.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch15_021.mp3",
+  "de": null,
+  "accept": [
+   "Ja, ich spiele Klavier."
+  ]
+ },
+ {
+  "item_id": "ch15_L3_speak_3",
+  "id": "ch15_L3_speak_3",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_022",
+  "prompt": "Спроси Ольгу: «Ты не играешь на гитаре?»",
+  "answer": "Spielst du nicht Gitarre?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch15_022.mp3",
+  "de": null,
+  "accept": [
+   "Spielst du nicht Gitarre?"
+  ]
+ },
+ {
+  "item_id": "ch15_L3_speak_4",
+  "id": "ch15_L3_speak_4",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_023",
+  "prompt": "Ответь на вопрос с «не»: «Да, играю — и на гитаре тоже.» Doch звучит сильнее всего.",
+  "answer": "Doch, ich spiele auch Gitarre.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch15_023.mp3",
+  "de": null,
+  "accept": [
+   "Doch, ich spiele auch Gitarre."
+  ]
+ },
+ {
+  "item_id": "ch15_L3_speak_5",
+  "id": "ch15_L3_speak_5",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_024",
+  "prompt": "Ответь: «Нет, я не играю на пианино.»",
+  "answer": "Nein, ich spiele kein Klavier.",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch15_024.mp3",
+  "de": null,
+  "accept": [
+   "Nein, ich spiele kein Klavier."
+  ]
+ },
+ {
+  "item_id": "ch15_L3_write_1",
+  "id": "ch15_L3_write_1",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_020",
+  "prompt": "Впиши: «___ du Klavier?» (играешь)",
+  "answer": "Spielst",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch15_020.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L3_write_2",
+  "id": "ch15_L3_write_2",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_021",
+  "prompt": "Впиши: «Ja, ich ___ Klavier.» (играю)",
+  "answer": "spiele",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch15_021.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L3_write_3",
+  "id": "ch15_L3_write_3",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_022",
+  "prompt": "Впиши: «Spielst du ___ Gitarre?» (не)",
+  "answer": "nicht",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch15_022.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L3_write_4",
+  "id": "ch15_L3_write_4",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_023",
+  "prompt": "Впиши: «___, ich spiele auch Gitarre.» (нет, играю)",
+  "answer": "Doch",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch15_023.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L3_write_5",
+  "id": "ch15_L3_write_5",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_024",
+  "prompt": "Впиши: «Nein, ich spiele ___ Klavier.» (не)",
+  "answer": "kein",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch15_024.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L3_why_1",
+  "id": "ch15_L3_why_1",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_020",
+  "prompt": "Почему «Spielst du Klavier?» начинается с действия?",
+  "answer": "Это вопрос «да/нет»: действие впереди.",
+  "distractors": [
+   "Spielst — главное слово, поэтому первое.",
+   "Так спрашивают только про музыку."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Spielst du Klavier?"
+ },
+ {
+  "item_id": "ch15_L3_why_2",
+  "id": "ch15_L3_why_2",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_021",
+  "prompt": "Почему «ich spiele», а «du spielst»?",
+  "answer": "Хвост зависит от «кто»: ich — -e, du — -st.",
+  "distractors": [
+   "spielst — вежливое слово.",
+   "Хвост зависит от «кого-что»: ich — -e, du — -st."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Ja, ich spiele Klavier."
+ },
+ {
+  "item_id": "ch15_L3_why_3",
+  "id": "ch15_L3_why_3",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_023",
+  "prompt": "Почему на «Spielst du nicht Gitarre?» отвечают «Doch», а не «Ja»?",
+  "answer": "doch значит «нет, наоборот: играю».",
+  "distractors": [
+   "doch значит «может быть», это вежливый ответ.",
+   "Ja и doch — одно и то же слово."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Doch, ich spiele auch Gitarre."
+ },
+ {
+  "item_id": "ch15_L3_why_4",
+  "id": "ch15_L3_why_4",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_024",
+  "prompt": "Когда на вопрос с «не» («Spielst du nicht …?») отвечают «Nein»?",
+  "answer": "Когда правда не играешь: Nein, ich spiele kein Klavier.",
+  "distractors": [
+   "Когда на самом деле играешь: тогда Nein, ich spiele Klavier.",
+   "На такой вопрос nein не отвечают: нужно только Doch или Ja."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Nein, ich spiele kein Klavier."
+ },
+ {
+  "item_id": "ch15_L3_why_5",
+  "id": "ch15_L3_why_5",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_023",
+  "prompt": "Что значит «Doch.» как целый ответ?",
+  "answer": "«Нет, наоборот»: он опровергает «не» в вопросе.",
+  "distractors": [
+   "«Да, конечно» — так отвечают на любой вопрос, даже с «не».",
+   "«Не знаю»: так отвечают, когда не слышали вопрос."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Doch, ich spiele auch Gitarre."
+ },
+ {
+  "item_id": "ch15_L3_transfer_1",
+  "id": "ch15_L3_transfer_1",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_t07",
+  "prompt": "Спроси Ольгу: «Ты играешь на гитаре?»",
+  "answer": "Spielst du Gitarre?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch15_t07.mp3",
+  "de": null,
+  "accept": [
+   "Spielst du Gitarre?"
+  ]
+ },
+ {
+  "item_id": "ch15_L3_transfer_2",
+  "id": "ch15_L3_transfer_2",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_t08",
+  "prompt": "Спроси Ольгу: «Ты не играешь на пианино?» Голос в конце — вверх ↗.",
+  "answer": "Spielst du nicht Klavier?",
+  "distractors": null,
+  "rule_id": "topics/intonation",
+  "transfer": true,
+  "audio": "audio_v1/ch15_t08.mp3",
+  "de": null,
+  "accept": [
+   "Spielst du nicht Klavier?"
+  ]
+ },
+ {
+  "item_id": "ch15_L3_transfer_3",
+  "id": "ch15_L3_transfer_3",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_t08",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Ты не играешь на пианино?",
+  "distractors": [
+   "Ты играешь на пианино?",
+   "Ты не играешь на гитаре?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch15_t08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L3_transfer_4",
+  "id": "ch15_L3_transfer_4",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_t08",
+  "prompt": "Напиши по-немецки: «Ты не играешь на пианино?»",
+  "answer": "Spielst du nicht Klavier?",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": "audio_v1/ch15_t08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L3_transfer_5",
+  "id": "ch15_L3_transfer_5",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_t08",
+  "prompt": "Почему «Spielst du nicht Klavier?» начинается с действия?",
+  "answer": "Это вопрос «да/нет»: действие впереди, nicht — перед Klavier.",
+  "distractors": [
+   "Spielst — главное слово, поэтому первое.",
+   "Это вопрос «да/нет»: действие впереди, nicht — после Klavier."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": null,
+  "de": "Spielst du nicht Klavier?"
+ },
+ {
+  "item_id": "ch15_L3_transfer_6",
+  "id": "ch15_L3_transfer_6",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_t09",
+  "prompt": "Скажи: «Я тоже играю на пианино.»",
+  "answer": "Ich spiele auch Klavier.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch15_t09.mp3",
+  "de": null,
+  "accept": [
+   "Ich spiele auch Klavier."
+  ]
+ },
+ {
+  "item_id": "ch15_L3_boss_1",
+  "id": "ch15_L3_boss_1",
+  "lesson": "ch15_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d3_05",
+  "prompt": "Послушай реплику героя. Что он спросил?",
+  "answer": "Ты тоже играешь на пианино?",
+  "distractors": [
+   "Ты играешь на гитаре?",
+   "Ты не играешь на пианино?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d3_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L4_words_1",
+  "id": "ch15_L4_words_1",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_027",
+  "prompt": "Что значит «der Ausflug»?",
+  "answer": "экскурсия, поездка",
+  "distractors": [
+   "праздник",
+   "письмо"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L4_words_2",
+  "id": "ch15_L4_words_2",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_028",
+  "prompt": "Что значит «Entschuldigung»?",
+  "answer": "извините",
+  "distractors": [
+   "спасибо",
+   "до свидания"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L4_words_3",
+  "id": "ch15_L4_words_3",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_028",
+  "prompt": "Что значит «Grippe»?",
+  "answer": "грипп",
+  "distractors": [
+   "лес",
+   "боль"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L4_words_4",
+  "id": "ch15_L4_words_4",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_029",
+  "prompt": "Что значит «morgen»?",
+  "answer": "завтра",
+  "distractors": [
+   "вчера",
+   "сегодня"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L4_words_5",
+  "id": "ch15_L4_words_5",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_030",
+  "prompt": "Что значит «Gute Besserung»?",
+  "answer": "выздоравливай",
+  "distractors": [
+   "доброе утро",
+   "спокойной ночи"
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L4_listen_1",
+  "id": "ch15_L4_listen_1",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d4_01",
+  "prompt": "Послушай. Что написала Frau Becker?",
+  "answer": "Экскурсия завтра.",
+  "distractors": [
+   "Экскурсия сегодня.",
+   "Курс завтра."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d4_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L4_listen_2",
+  "id": "ch15_L4_listen_2",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d4_02",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Извините, у меня грипп.",
+  "distractors": [
+   "Извините, я опоздал.",
+   "Спасибо, у меня грипп."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d4_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L4_listen_3",
+  "id": "ch15_L4_listen_3",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d4_03",
+  "prompt": "Послушай. Что герой сообщил про завтра?",
+  "answer": "Завтра меня не будет на курсе.",
+  "distractors": [
+   "Завтра я буду на курсе.",
+   "Завтра курса нет."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d4_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L4_listen_4",
+  "id": "ch15_L4_listen_4",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_029",
+  "prompt": "Послушай. Что сказали?",
+  "answer": "Завтра меня не будет на курсе.",
+  "distractors": [
+   "Завтра я иду на курс.",
+   "Меня нет на курсе сегодня."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_029.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L4_read_1",
+  "id": "ch15_L4_read_1",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_027",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Экскурсия завтра.",
+  "distractors": [
+   "Экскурсия сегодня.",
+   "Завтра курс."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Der Ausflug ist morgen."
+ },
+ {
+  "item_id": "ch15_L4_read_2",
+  "id": "ch15_L4_read_2",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_028",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Извините, у меня грипп.",
+  "distractors": [
+   "Извините, у меня болит голова.",
+   "Спасибо, у меня грипп."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Entschuldigung, ich habe Grippe."
+ },
+ {
+  "item_id": "ch15_L4_read_3",
+  "id": "ch15_L4_read_3",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_029",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Завтра меня не будет на курсе.",
+  "distractors": [
+   "Я не хожу на курс.",
+   "Сегодня меня нет на курсе."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich bin morgen nicht im Kurs."
+ },
+ {
+  "item_id": "ch15_L4_read_4",
+  "id": "ch15_L4_read_4",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_030",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Жаль! Выздоравливай!",
+  "distractors": [
+   "Жаль! До завтра!",
+   "Рад! Выздоравливай!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Schade! Gute Besserung!"
+ },
+ {
+  "item_id": "ch15_L4_read_5",
+  "id": "ch15_L4_read_5",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_031",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Меня нет на курсе.",
+  "distractors": [
+   "Я не люблю курс.",
+   "Курса нет."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich bin nicht im Kurs."
+ },
+ {
+  "item_id": "ch15_L4_speak_1",
+  "id": "ch15_L4_speak_1",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_027",
+  "prompt": "Скажи: «Экскурсия завтра.»",
+  "answer": "Der Ausflug ist morgen.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch15_027.mp3",
+  "de": null,
+  "accept": [
+   "Der Ausflug ist morgen."
+  ]
+ },
+ {
+  "item_id": "ch15_L4_speak_2",
+  "id": "ch15_L4_speak_2",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_028",
+  "prompt": "Извинись перед учительницей: «Извините, у меня грипп.»",
+  "answer": "Entschuldigung, ich habe Grippe.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch15_028.mp3",
+  "de": null,
+  "accept": [
+   "Entschuldigung, ich habe Grippe."
+  ]
+ },
+ {
+  "item_id": "ch15_L4_speak_3",
+  "id": "ch15_L4_speak_3",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_029",
+  "prompt": "Скажи: «Завтра меня не будет на курсе.»",
+  "answer": "Ich bin morgen nicht im Kurs.",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch15_029.mp3",
+  "de": null,
+  "accept": [
+   "Ich bin morgen nicht im Kurs."
+  ]
+ },
+ {
+  "item_id": "ch15_L4_speak_4",
+  "id": "ch15_L4_speak_4",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_030",
+  "prompt": "Скажи больному: «Жаль! Выздоравливай!»",
+  "answer": "Schade! Gute Besserung!",
+  "distractors": null,
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": "audio_v1/ch15_030.mp3",
+  "de": null,
+  "accept": [
+   "Schade! Gute Besserung!"
+  ]
+ },
+ {
+  "item_id": "ch15_L4_speak_5",
+  "id": "ch15_L4_speak_5",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_031",
+  "prompt": "Скажи коротко: «Меня нет на курсе.»",
+  "answer": "Ich bin nicht im Kurs.",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch15_031.mp3",
+  "de": null,
+  "accept": [
+   "Ich bin nicht im Kurs."
+  ]
+ },
+ {
+  "item_id": "ch15_L4_write_1",
+  "id": "ch15_L4_write_1",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_027",
+  "prompt": "Впиши: «Der Ausflug ist ___.» (завтра)",
+  "answer": "morgen",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch15_027.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L4_write_2",
+  "id": "ch15_L4_write_2",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_028",
+  "prompt": "Впиши: «Entschuldigung, ich ___ Grippe.» (имею)",
+  "answer": "habe",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch15_028.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L4_write_3",
+  "id": "ch15_L4_write_3",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_029",
+  "prompt": "Впиши: «Ich ___ morgen nicht im Kurs.» (нахожусь)",
+  "answer": "bin",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch15_029.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L4_write_4",
+  "id": "ch15_L4_write_4",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_031",
+  "prompt": "Впиши: «Ich bin ___ im Kurs.» (не)",
+  "answer": "nicht",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch15_031.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L4_write_5",
+  "id": "ch15_L4_write_5",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_030",
+  "prompt": "Впиши: «Schade! Gute ___!» (выздоровление)",
+  "answer": "Besserung",
+  "distractors": null,
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": "audio_v1/ch15_030.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L4_why_1",
+  "id": "ch15_L4_why_1",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_028",
+  "prompt": "Почему «ich habe Grippe», а не «ich bin Grippe»?",
+  "answer": "Болезнь по-немецки «имеют»: ich habe Grippe.",
+  "distractors": [
+   "Grippe — действие, поэтому нужен bin.",
+   "bin и habe значат одно и то же."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Entschuldigung, ich habe Grippe."
+ },
+ {
+  "item_id": "ch15_L4_why_2",
+  "id": "ch15_L4_why_2",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_029",
+  "prompt": "Почему «nicht im Kurs», а не «im Kurs nicht»?",
+  "answer": "nicht ставят перед тем, что отрицают: перед im Kurs.",
+  "distractors": [
+   "nicht стоит в конце, как gelernt в прошедшем времени.",
+   "Оба порядка одинаковы: nicht можно ставить где угодно."
+  ],
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich bin morgen nicht im Kurs."
+ },
+ {
+  "item_id": "ch15_L4_why_3",
+  "id": "ch15_L4_why_3",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_027",
+  "prompt": "Почему в «Der Ausflug ist morgen» стоит ist?",
+  "answer": "ist работает как знак «=»: Ausflug = завтра.",
+  "distractors": [
+   "ist — это вопрос, поэтому и стоит перед Ausflug.",
+   "ist значит «был»: экскурсия уже прошла."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Der Ausflug ist morgen."
+ },
+ {
+  "item_id": "ch15_L4_why_4",
+  "id": "ch15_L4_why_4",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_030",
+  "prompt": "Что такое «Schade! Gute Besserung!»?",
+  "answer": "Две готовые формулы: «жаль» и пожелание больному.",
+  "distractors": [
+   "Один вопрос: Schade спрашивает, а Gute Besserung отвечает.",
+   "Просьба к учительнице: сначала Schade, потом Besserung."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Schade! Gute Besserung!"
+ },
+ {
+  "item_id": "ch15_L4_why_5",
+  "id": "ch15_L4_why_5",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_029",
+  "prompt": "Почему «Ich bin morgen nicht im Kurs» — с bin, а не с habe?",
+  "answer": "Где ты находишься, говорят через bin.",
+  "distractors": [
+   "habe тоже можно: Ich habe morgen nicht im Kurs.",
+   "bin — только в вопросах."
+  ],
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich bin morgen nicht im Kurs."
+ },
+ {
+  "item_id": "ch15_L4_transfer_1",
+  "id": "ch15_L4_transfer_1",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_t10",
+  "prompt": "Напиши учительнице вслух: «Извините, завтра меня не будет на курсе.»",
+  "answer": "Entschuldigung, ich bin morgen nicht im Kurs.",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": true,
+  "audio": "audio_v1/ch15_t10.mp3",
+  "de": null,
+  "accept": [
+   "Entschuldigung, ich bin morgen nicht im Kurs."
+  ]
+ },
+ {
+  "item_id": "ch15_L4_transfer_2",
+  "id": "ch15_L4_transfer_2",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_t11",
+  "prompt": "Скажи: «Экскурсия не завтра.»",
+  "answer": "Der Ausflug ist nicht morgen.",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": true,
+  "audio": "audio_v1/ch15_t11.mp3",
+  "de": null,
+  "accept": [
+   "Der Ausflug ist nicht morgen."
+  ]
+ },
+ {
+  "item_id": "ch15_L4_transfer_3",
+  "id": "ch15_L4_transfer_3",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_t11",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Экскурсия не завтра.",
+  "distractors": [
+   "Экскурсия завтра.",
+   "Экскурсия сегодня."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch15_t11.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L4_transfer_4",
+  "id": "ch15_L4_transfer_4",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_t11",
+  "prompt": "Напиши по-немецки: «Экскурсия не завтра.»",
+  "answer": "Der Ausflug ist nicht morgen.",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": true,
+  "audio": "audio_v1/ch15_t11.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L4_transfer_5",
+  "id": "ch15_L4_transfer_5",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_t11",
+  "prompt": "Почему в «Der Ausflug ist nicht morgen» nicht стоит перед morgen?",
+  "answer": "nicht ставят перед тем, что отрицают: тут — «не завтра».",
+  "distractors": [
+   "nicht всегда стоит в конце фразы, как и gespielt в прошлом.",
+   "Так nicht говорят только про экскурсии, а про другое — иначе."
+  ],
+  "rule_id": "topics/nicht_kein",
+  "transfer": true,
+  "audio": null,
+  "de": "Der Ausflug ist nicht morgen."
+ },
+ {
+  "item_id": "ch15_L4_boss_1",
+  "id": "ch15_L4_boss_1",
+  "lesson": "ch15_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d4_04",
+  "prompt": "Послушай реплику учительницы ещё раз. Что она сказала?",
+  "answer": "Жаль! Выздоравливай!",
+  "distractors": [
+   "Спасибо! Выздоравливай!",
+   "Жаль! До свидания!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d4_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L5_words_1",
+  "id": "ch15_L5_words_1",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_033",
+  "prompt": "Что значит «der Podcast»?",
+  "answer": "подкаст",
+  "distractors": [
+   "песня",
+   "новости"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L5_words_2",
+  "id": "ch15_L5_words_2",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_034",
+  "prompt": "Что значит «das Bilderbuch»?",
+  "answer": "книжка с картинками",
+  "distractors": [
+   "словарь",
+   "тетрадь"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L5_words_3",
+  "id": "ch15_L5_words_3",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_035",
+  "prompt": "Что значит «die Notiz»?",
+  "answer": "заметка",
+  "distractors": [
+   "письмо",
+   "открытка"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L5_words_4",
+  "id": "ch15_L5_words_4",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_036",
+  "prompt": "Что значит «das Instrument»?",
+  "answer": "музыкальный инструмент",
+  "distractors": [
+   "песня",
+   "праздник"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L5_words_5",
+  "id": "ch15_L5_words_5",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_036",
+  "prompt": "Кто такие «ihr» в «Spielt ihr …?»?",
+  "answer": "вы (несколько друзей)",
+  "distractors": [
+   "мы",
+   "они"
+  ],
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L5_listen_1",
+  "id": "ch15_L5_listen_1",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d5_01",
+  "prompt": "Послушай. Что Ольга прочитала с плаката?",
+  "answer": "Слушайте подкасты на немецком!",
+  "distractors": [
+   "Слушайте радио на немецком!",
+   "Смотрите видео на немецком!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d5_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L5_listen_2",
+  "id": "ch15_L5_listen_2",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d5_02",
+  "prompt": "Послушай. Какой совет прочитал герой?",
+  "answer": "Читайте книжки с картинками!",
+  "distractors": [
+   "Рисуйте картинки!",
+   "Читайте новости!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d5_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L5_listen_3",
+  "id": "ch15_L5_listen_3",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d5_03",
+  "prompt": "Послушай. Что ещё советует Ольга?",
+  "answer": "Пишите заметки!",
+  "distractors": [
+   "Пишите письма!",
+   "Читайте заметки!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d5_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L5_listen_4",
+  "id": "ch15_L5_listen_4",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d5_04",
+  "prompt": "Послушай. О чём спросил Макс?",
+  "answer": "Вы играете на каком-нибудь инструменте?",
+  "distractors": [
+   "Вы поёте в хоре?",
+   "Ты играешь на пианино?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d5_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L5_listen_5",
+  "id": "ch15_L5_listen_5",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d5_05",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Да, я играю на пианино.",
+  "distractors": [
+   "Нет, я не играю на пианино.",
+   "Да, я учу пианино."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d5_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L5_read_1",
+  "id": "ch15_L5_read_1",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_033",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Слушайте подкасты на немецком!",
+  "distractors": [
+   "Вы слушаете подкасты на немецком?",
+   "Я слушаю подкасты на немецком."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Hört Podcasts auf Deutsch!"
+ },
+ {
+  "item_id": "ch15_L5_read_2",
+  "id": "ch15_L5_read_2",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_034",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Читайте книжки с картинками!",
+  "distractors": [
+   "Вы читаете книжки с картинками?",
+   "Я читаю книжки с картинками."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Lest Bilderbücher!"
+ },
+ {
+  "item_id": "ch15_L5_read_3",
+  "id": "ch15_L5_read_3",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_035",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Пишите заметки!",
+  "distractors": [
+   "Вы пишете заметки?",
+   "Пишите письма!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Schreibt Notizen!"
+ },
+ {
+  "item_id": "ch15_L5_read_4",
+  "id": "ch15_L5_read_4",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_036",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Вы играете на каком-нибудь инструменте?",
+  "distractors": [
+   "Играйте на инструменте!",
+   "Ты играешь на инструменте?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Spielt ihr ein Instrument?"
+ },
+ {
+  "item_id": "ch15_L5_read_5",
+  "id": "ch15_L5_read_5",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_038",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Вы слушаете подкасты на немецком?",
+  "distractors": [
+   "Слушайте подкасты на немецком!",
+   "Ты слушаешь подкасты на немецком?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Hört ihr Podcasts auf Deutsch?"
+ },
+ {
+  "item_id": "ch15_L5_speak_1",
+  "id": "ch15_L5_speak_1",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_033",
+  "prompt": "Посоветуй друзьям: «Слушайте подкасты на немецком!»",
+  "answer": "Hört Podcasts auf Deutsch!",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch15_033.mp3",
+  "de": null,
+  "accept": [
+   "Hört Podcasts auf Deutsch!"
+  ]
+ },
+ {
+  "item_id": "ch15_L5_speak_2",
+  "id": "ch15_L5_speak_2",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_034",
+  "prompt": "Посоветуй друзьям: «Читайте книжки с картинками!»",
+  "answer": "Lest Bilderbücher!",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch15_034.mp3",
+  "de": null,
+  "accept": [
+   "Lest Bilderbücher!"
+  ]
+ },
+ {
+  "item_id": "ch15_L5_speak_3",
+  "id": "ch15_L5_speak_3",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_035",
+  "prompt": "Посоветуй друзьям: «Пишите заметки!»",
+  "answer": "Schreibt Notizen!",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch15_035.mp3",
+  "de": null,
+  "accept": [
+   "Schreibt Notizen!"
+  ]
+ },
+ {
+  "item_id": "ch15_L5_speak_4",
+  "id": "ch15_L5_speak_4",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_036",
+  "prompt": "Спроси двоих друзей: «Вы играете на каком-нибудь инструменте?»",
+  "answer": "Spielt ihr ein Instrument?",
+  "distractors": null,
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": "audio_v1/ch15_036.mp3",
+  "de": null,
+  "accept": [
+   "Spielt ihr ein Instrument?"
+  ]
+ },
+ {
+  "item_id": "ch15_L5_speak_5",
+  "id": "ch15_L5_speak_5",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_038",
+  "prompt": "Спроси друзей: «Вы слушаете подкасты на немецком?»",
+  "answer": "Hört ihr Podcasts auf Deutsch?",
+  "distractors": null,
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": "audio_v1/ch15_038.mp3",
+  "de": null,
+  "accept": [
+   "Hört ihr Podcasts auf Deutsch?"
+  ]
+ },
+ {
+  "item_id": "ch15_L5_write_1",
+  "id": "ch15_L5_write_1",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_033",
+  "prompt": "Впиши: «___ Podcasts auf Deutsch!» (слушайте — друзьям)",
+  "answer": "Hört",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch15_033.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L5_write_2",
+  "id": "ch15_L5_write_2",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_034",
+  "prompt": "Впиши: «___ Bilderbücher!» (читайте — друзьям)",
+  "answer": "Lest",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch15_034.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L5_write_3",
+  "id": "ch15_L5_write_3",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_035",
+  "prompt": "Впиши: «Schreibt ___!» (заметки)",
+  "answer": "Notizen",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch15_035.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L5_write_4",
+  "id": "ch15_L5_write_4",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_036",
+  "prompt": "Впиши: «Spielt ___ ein Instrument?» (вы — друзья)",
+  "answer": "ihr",
+  "distractors": null,
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": "audio_v1/ch15_036.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L5_write_5",
+  "id": "ch15_L5_write_5",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_038",
+  "prompt": "Впиши: «Hört ihr ___ auf Deutsch?» (подкасты)",
+  "answer": "Podcasts",
+  "distractors": null,
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": "audio_v1/ch15_038.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L5_why_1",
+  "id": "ch15_L5_why_1",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_033",
+  "prompt": "Почему «Hört Podcasts!», а не «Ihr hört Podcasts!»?",
+  "answer": "Просьба к друзьям: форму ihr hört берут без ihr — Hört!",
+  "distractors": [
+   "Ihr hört Podcasts! — тоже просьба, с ihr она звучит вежливее.",
+   "Hört — форма для одного друга, а для группы нужен ihr."
+  ],
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": null,
+  "de": "Hört Podcasts auf Deutsch!"
+ },
+ {
+  "item_id": "ch15_L5_why_2",
+  "id": "ch15_L5_why_2",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_036",
+  "prompt": "Почему в «Spielt ihr ein Instrument?» ihr есть, а в «Hört Podcasts!» нет?",
+  "answer": "В вопросе ihr остаётся, а в просьбе к друзьям ihr убирают.",
+  "distractors": [
+   "ihr ставят только с глаголом spielen, с hören его не бывает.",
+   "Без ihr фраза тоже вопрос, только на «ты» к одному другу."
+  ],
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": null,
+  "de": "Spielt ihr ein Instrument?"
+ },
+ {
+  "item_id": "ch15_L5_why_3",
+  "id": "ch15_L5_why_3",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_034",
+  "prompt": "Почему друзьям говорят «Lest», а не «Lesen»?",
+  "answer": "С ihr говорят ihr lest; просьба к друзьям — та же форма: Lest!",
+  "distractors": [
+   "Lesen — форма для друзей, а Lest говорят только учителю на «вы».",
+   "Lest — прошедшее время: так говорят о книге, которую уже прочитали."
+  ],
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": null,
+  "de": "Lest Bilderbücher!"
+ },
+ {
+  "item_id": "ch15_L5_why_4",
+  "id": "ch15_L5_why_4",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_033",
+  "prompt": "Как сказать «Слушайте подкасты!» одному человеку на «вы»?",
+  "answer": "На «вы» Sie остаётся после действия: Hören Sie Podcasts!",
+  "distractors": [
+   "Так же, как друзьям: Hört Podcasts! — на «вы» форма не меняется.",
+   "Sie убирают, как ihr у друзей: Hören Podcasts! — без Sie."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Hört Podcasts auf Deutsch!"
+ },
+ {
+  "item_id": "ch15_L5_why_5",
+  "id": "ch15_L5_why_5",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_035",
+  "prompt": "Почему в «Schreibt Notizen!» действие стоит первым?",
+  "answer": "Это просьба: действие впереди, в вагоне №1, — сразу ясно, что делать.",
+  "distractors": [
+   "Notizen — вопрос-слово, а вопрос-слово всегда стоит в конце фразы.",
+   "Действие первым бывает только в вопросе, а точка в конце — ошибка."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Schreibt Notizen!"
+ },
+ {
+  "item_id": "ch15_L5_transfer_1",
+  "id": "ch15_L5_transfer_1",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_t12",
+  "prompt": "Посоветуй друзьям: «Читайте книжки с картинками на немецком!»",
+  "answer": "Lest Bilderbücher auf Deutsch!",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch15_t12.mp3",
+  "de": null,
+  "accept": [
+   "Lest Bilderbücher auf Deutsch!"
+  ]
+ },
+ {
+  "item_id": "ch15_L5_transfer_2",
+  "id": "ch15_L5_transfer_2",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_t13",
+  "prompt": "Спроси двоих друзей: «Вы играете на пианино?»",
+  "answer": "Spielt ihr Klavier?",
+  "distractors": null,
+  "rule_id": "topics/pronouns",
+  "transfer": true,
+  "audio": "audio_v1/ch15_t13.mp3",
+  "de": null,
+  "accept": [
+   "Spielt ihr Klavier?"
+  ]
+ },
+ {
+  "item_id": "ch15_L5_transfer_3",
+  "id": "ch15_L5_transfer_3",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_t13",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Вы играете на пианино?",
+  "distractors": [
+   "Ты играешь на пианино?",
+   "Играйте на пианино!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch15_t13.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L5_transfer_4",
+  "id": "ch15_L5_transfer_4",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_t14",
+  "prompt": "Напиши друзьям по-немецки: «Играйте на пианино!»",
+  "answer": "Spielt Klavier!",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch15_t14.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L5_transfer_5",
+  "id": "ch15_L5_transfer_5",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_t13",
+  "prompt": "Почему в «Spielt ihr Klavier?» есть ihr?",
+  "answer": "Это вопрос к друзьям: в вопросе ihr остаётся после действия.",
+  "distractors": [
+   "ihr нужен всегда, и в просьбе тоже: Ihr spielt Klavier! — верно.",
+   "ihr стоит потому, что Klavier — das-слово, а не der-слово."
+  ],
+  "rule_id": "topics/pronouns",
+  "transfer": true,
+  "audio": null,
+  "de": "Spielt ihr Klavier?"
+ },
+ {
+  "item_id": "ch15_L5_boss_1",
+  "id": "ch15_L5_boss_1",
+  "lesson": "ch15_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d5_06",
+  "prompt": "Послушай реплику Ольги ещё раз. Что она сказала?",
+  "answer": "Я играю на гитаре.",
+  "distractors": [
+   "Я играю на пианино.",
+   "Ты играешь на гитаре?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d5_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L6_words_1",
+  "id": "ch15_L6_words_1",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_043",
+  "prompt": "Что значит «der Fußball»?",
+  "answer": "футбол",
+  "distractors": [
+   "теннис",
+   "хобби"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L6_words_2",
+  "id": "ch15_L6_words_2",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_045",
+  "prompt": "Что значит «der Club»?",
+  "answer": "клуб",
+  "distractors": [
+   "класс",
+   "курс"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L6_words_3",
+  "id": "ch15_L6_words_3",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_043",
+  "prompt": "Что значит «gespielt» в «Ich habe Fußball gespielt»?",
+  "answer": "играл",
+  "distractors": [
+   "учил",
+   "писал"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L6_words_4",
+  "id": "ch15_L6_words_4",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_046",
+  "prompt": "Какой помощник стоит с «Olga» («она»)?",
+  "answer": "hat",
+  "distractors": [
+   "habe",
+   "hast"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L6_words_5",
+  "id": "ch15_L6_words_5",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch15_044",
+  "prompt": "Что значит «wo» в «Wo hast du Fußball gespielt?»?",
+  "answer": "где",
+  "distractors": [
+   "когда",
+   "от кого"
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch15_L6_listen_1",
+  "id": "ch15_L6_listen_1",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d6_01",
+  "prompt": "Послушай. О чём спросила Ольга?",
+  "answer": "Ты играл в футбол?",
+  "distractors": [
+   "Ты играешь в футбол?",
+   "Ты не играл в футбол?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d6_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L6_listen_2",
+  "id": "ch15_L6_listen_2",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d6_02",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Я играл в футбол.",
+  "distractors": [
+   "Я играю в футбол.",
+   "Я не играл в футбол."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d6_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L6_listen_3",
+  "id": "ch15_L6_listen_3",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d6_03",
+  "prompt": "Послушай. О чём спросила Ольга теперь?",
+  "answer": "Где ты играл в футбол?",
+  "distractors": [
+   "Где ты учил немецкий?",
+   "Когда ты играл в футбол?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d6_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L6_listen_4",
+  "id": "ch15_L6_listen_4",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d6_04",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Я играл в футбол в клубе.",
+  "distractors": [
+   "Я играю в футбол в клубе.",
+   "Я играл в футбол в школе."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d6_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L6_listen_5",
+  "id": "ch15_L6_listen_5",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d6_05",
+  "prompt": "Послушай. Что сказал Макс?",
+  "answer": "Ольга играла в футбол в клубе.",
+  "distractors": [
+   "Ольга играет в футбол в клубе.",
+   "Ольга учила немецкий в клубе."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d6_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L6_read_1",
+  "id": "ch15_L6_read_1",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_043",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я играл в футбол.",
+  "distractors": [
+   "Я играю в футбол.",
+   "Ты играл в футбол?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe Fußball gespielt."
+ },
+ {
+  "item_id": "ch15_L6_read_2",
+  "id": "ch15_L6_read_2",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_044",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Где ты играл в футбол?",
+  "distractors": [
+   "Ты играл в футбол?",
+   "Где ты учил немецкий?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wo hast du Fußball gespielt?"
+ },
+ {
+  "item_id": "ch15_L6_read_3",
+  "id": "ch15_L6_read_3",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_045",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я играл в футбол в клубе.",
+  "distractors": [
+   "Я играл в футбол в школе.",
+   "Я играю в футбол в клубе."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe im Club Fußball gespielt."
+ },
+ {
+  "item_id": "ch15_L6_read_4",
+  "id": "ch15_L6_read_4",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_046",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Ольга играла в футбол в клубе.",
+  "distractors": [
+   "Ольга играет в футбол в клубе.",
+   "Я играл в футбол в клубе."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Olga hat im Club Fußball gespielt."
+ },
+ {
+  "item_id": "ch15_L6_read_5",
+  "id": "ch15_L6_read_5",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch15_047",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я играл в футбол в школе.",
+  "distractors": [
+   "Я играл в футбол в клубе.",
+   "В школе я играю в футбол."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe in der Schule Fußball gespielt."
+ },
+ {
+  "item_id": "ch15_L6_speak_1",
+  "id": "ch15_L6_speak_1",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_043",
+  "prompt": "Скажи: «Я играл в футбол.»",
+  "answer": "Ich habe Fußball gespielt.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch15_043.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe Fußball gespielt."
+  ]
+ },
+ {
+  "item_id": "ch15_L6_speak_2",
+  "id": "ch15_L6_speak_2",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_044",
+  "prompt": "Спроси друга: «Где ты играл в футбол?»",
+  "answer": "Wo hast du Fußball gespielt?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch15_044.mp3",
+  "de": null,
+  "accept": [
+   "Wo hast du Fußball gespielt?"
+  ]
+ },
+ {
+  "item_id": "ch15_L6_speak_3",
+  "id": "ch15_L6_speak_3",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_045",
+  "prompt": "Скажи: «Я играл в футбол в клубе.»",
+  "answer": "Ich habe im Club Fußball gespielt.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch15_045.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe im Club Fußball gespielt."
+  ]
+ },
+ {
+  "item_id": "ch15_L6_speak_4",
+  "id": "ch15_L6_speak_4",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_046",
+  "prompt": "Скажи про Ольгу: «Ольга играла в футбол в клубе.»",
+  "answer": "Olga hat im Club Fußball gespielt.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch15_046.mp3",
+  "de": null,
+  "accept": [
+   "Olga hat im Club Fußball gespielt."
+  ]
+ },
+ {
+  "item_id": "ch15_L6_speak_5",
+  "id": "ch15_L6_speak_5",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_047",
+  "prompt": "Скажи: «Я играл в футбол в школе.»",
+  "answer": "Ich habe in der Schule Fußball gespielt.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch15_047.mp3",
+  "de": null,
+  "accept": [
+   "Ich habe in der Schule Fußball gespielt."
+  ]
+ },
+ {
+  "item_id": "ch15_L6_write_1",
+  "id": "ch15_L6_write_1",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_043",
+  "prompt": "Впиши: «Ich habe Fußball ___.» (играл)",
+  "answer": "gespielt",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch15_043.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L6_write_2",
+  "id": "ch15_L6_write_2",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_044",
+  "prompt": "Впиши: «Wo ___ du Fußball gespielt?» (помощник с du)",
+  "answer": "hast",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch15_044.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L6_write_3",
+  "id": "ch15_L6_write_3",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_045",
+  "prompt": "Впиши: «Ich habe ___ Club Fußball gespielt.» (в клубе)",
+  "answer": "im",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch15_045.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L6_write_4",
+  "id": "ch15_L6_write_4",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_046",
+  "prompt": "Впиши: «Olga ___ im Club Fußball gespielt.» (помощник с Olga)",
+  "answer": "hat",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch15_046.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L6_write_5",
+  "id": "ch15_L6_write_5",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_047",
+  "prompt": "Впиши: «Ich habe in der ___ Fußball gespielt.» (школа)",
+  "answer": "Schule",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": "audio_v1/ch15_047.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L6_why_1",
+  "id": "ch15_L6_why_1",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_043",
+  "prompt": "Почему в «Ich habe Fußball gespielt» два слова про действие: habe и gespielt?",
+  "answer": "Это прошлое: habe — помощник в вагоне №2, а что сделано — gespielt — в конце.",
+  "distractors": [
+   "Это прошлое: habe — помощник в вагоне №3, а что сделано — gespielt — в конце.",
+   "habe и gespielt — одно слово, его просто разрезали пополам."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe Fußball gespielt."
+ },
+ {
+  "item_id": "ch15_L6_why_2",
+  "id": "ch15_L6_why_2",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_044",
+  "prompt": "Почему в «Wo hast du Fußball gespielt?» слово gespielt стоит в самом конце?",
+  "answer": "В прошедшем то, что сделано, стоит в конце: после wo, hast, du и Fußball.",
+  "distractors": [
+   "Все слова в вопросе идут по алфавиту, поэтому gespielt последнее.",
+   "gespielt — вопрос-слово, а такие слова всегда стоят в конце."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Wo hast du Fußball gespielt?"
+ },
+ {
+  "item_id": "ch15_L6_why_3",
+  "id": "ch15_L6_why_3",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_045",
+  "prompt": "Почему «im Club», а не «in Club»?",
+  "answer": "im — это in и dem вместе: der Club после in «где?» — im Club.",
+  "distractors": [
+   "im — это ihm: «ему в клубе».",
+   "in Club — тоже верно, а im говорят только в вежливой речи."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe im Club Fußball gespielt."
+ },
+ {
+  "item_id": "ch15_L6_why_4",
+  "id": "ch15_L6_why_4",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_046",
+  "prompt": "Почему «Olga hat», а не «Olga habe»?",
+  "answer": "С Olga («она») помощник hat; а gespielt остаётся таким же, как с ich.",
+  "distractors": [
+   "С Olga («она») помощник habe; а gespielt остаётся таким же, как с ich.",
+   "С Olga и gespielt меняется — получится gespielen."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Olga hat im Club Fußball gespielt."
+ },
+ {
+  "item_id": "ch15_L6_why_5",
+  "id": "ch15_L6_why_5",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_043",
+  "prompt": "Почему gelernt и gespielt устроены одинаково?",
+  "answer": "Обе формы собраны по схеме ge + основа + t: lern → gelernt, spiel → gespielt.",
+  "distractors": [
+   "gelernt — особая форма, а gespielt собрано иначе: у него другой корень, без ge.",
+   "Оба слова — это просто основа без ge и без t: lern и spiel — готовые слова."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe Fußball gespielt."
+ },
+ {
+  "item_id": "ch15_L6_transfer_1",
+  "id": "ch15_L6_transfer_1",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_t15",
+  "prompt": "Спроси друга: «Ты играл на гитаре?»",
+  "answer": "Hast du Gitarre gespielt?",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch15_t15.mp3",
+  "de": null,
+  "accept": [
+   "Hast du Gitarre gespielt?"
+  ]
+ },
+ {
+  "item_id": "ch15_L6_transfer_2",
+  "id": "ch15_L6_transfer_2",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch15_t16",
+  "prompt": "Скажи про Ольгу: «Ольга играла на пианино.»",
+  "answer": "Olga hat Klavier gespielt.",
+  "distractors": null,
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": "audio_v1/ch15_t16.mp3",
+  "de": null,
+  "accept": [
+   "Olga hat Klavier gespielt."
+  ]
+ },
+ {
+  "item_id": "ch15_L6_transfer_3",
+  "id": "ch15_L6_transfer_3",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_t17",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Где ты играл на гитаре?",
+  "distractors": [
+   "Ты играл на гитаре?",
+   "Где ты учил немецкий?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch15_t17.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L6_transfer_4",
+  "id": "ch15_L6_transfer_4",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch15_t17",
+  "prompt": "Напиши по-немецки: «Где ты играл на гитаре?»",
+  "answer": "Wo hast du Gitarre gespielt?",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": "audio_v1/ch15_t17.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch15_L6_transfer_5",
+  "id": "ch15_L6_transfer_5",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch15_t16",
+  "prompt": "Почему в «Olga hat Klavier gespielt» стоит hat, а не habe?",
+  "answer": "Olga — «она», с ней помощник hat; gespielt не меняется.",
+  "distractors": [
+   "habe — для всех женщин, hat — только для мужчин.",
+   "hat — это вопрос-слово, а Klavier — помощник."
+  ],
+  "rule_id": "topics/perfekt",
+  "transfer": true,
+  "audio": null,
+  "de": "Olga hat Klavier gespielt."
+ },
+ {
+  "item_id": "ch15_L6_boss_1",
+  "id": "ch15_L6_boss_1",
+  "lesson": "ch15_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch15_d6_07",
+  "prompt": "Послушай реплику героя ещё раз. Что он ответил Максу?",
+  "answer": "На курсе и у моего друга.",
+  "distractors": [
+   "В школе и у моей мамы.",
+   "На курсе и в клубе."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch15_d6_07.mp3",
+  "de": null
+ }
+]

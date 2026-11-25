@@ -1,0 +1,5150 @@
+[
+ {
+  "item_id": "ch05_L1_words_1",
+  "id": "ch05_L1_words_1",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_001",
+  "prompt": "Что значит «am Montag»?",
+  "answer": "в понедельник",
+  "distractors": [
+   "в субботу",
+   "в воскресенье"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L1_words_2",
+  "id": "ch05_L1_words_2",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_003",
+  "prompt": "Что значит «wann»?",
+  "answer": "когда",
+  "distractors": [
+   "где",
+   "что"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L1_words_3",
+  "id": "ch05_L1_words_3",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_003",
+  "prompt": "Что значит «Zeit»?",
+  "answer": "время",
+  "distractors": [
+   "неделя",
+   "день"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L1_words_4",
+  "id": "ch05_L1_words_4",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_005",
+  "prompt": "Что значит «Mittwoch»?",
+  "answer": "среда",
+  "distractors": [
+   "вторник",
+   "четверг"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L1_words_5",
+  "id": "ch05_L1_words_5",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_005",
+  "prompt": "Что значит «Donnerstag»?",
+  "answer": "четверг",
+  "distractors": [
+   "вторник",
+   "пятница"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L1_words_6",
+  "id": "ch05_L1_words_6",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_005",
+  "prompt": "Что значит «Sonntag»?",
+  "answer": "воскресенье",
+  "distractors": [
+   "суббота",
+   "понедельник"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L1_listen_1",
+  "id": "ch05_L1_listen_1",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d1_01",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Что ты делаешь в понедельник?",
+  "distractors": [
+   "Когда у тебя есть время?",
+   "Что ты делаешь в субботу?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d1_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L1_listen_2",
+  "id": "ch05_L1_listen_2",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d1_02",
+  "prompt": "Послушай. В какие дни герой учит немецкий?",
+  "answer": "в понедельник и во вторник",
+  "distractors": [
+   "в субботу и в воскресенье",
+   "в среду и в четверг"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d1_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L1_listen_3",
+  "id": "ch05_L1_listen_3",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d1_05",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Когда у тебя есть время?",
+  "distractors": [
+   "Что ты делаешь в понедельник?",
+   "Где ты живёшь?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d1_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L1_listen_4",
+  "id": "ch05_L1_listen_4",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d1_06",
+  "prompt": "Послушай. Когда у героя есть время?",
+  "answer": "в субботу и в воскресенье",
+  "distractors": [
+   "в понедельник и во вторник",
+   "только в пятницу"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d1_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L1_listen_5",
+  "id": "ch05_L1_listen_5",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d1_07",
+  "prompt": "Послушай. В какой день вечеринка у Ольги?",
+  "answer": "в субботу",
+  "distractors": [
+   "в воскресенье",
+   "в пятницу"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d1_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L1_read_1",
+  "id": "ch05_L1_read_1",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_002",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "В понедельник я учу немецкий.",
+  "distractors": [
+   "В понедельник ты учишь немецкий.",
+   "Во вторник я учу немецкий."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Montag lerne ich Deutsch."
+ },
+ {
+  "item_id": "ch05_L1_read_2",
+  "id": "ch05_L1_read_2",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_004",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "В субботу у меня есть время.",
+  "distractors": [
+   "В субботу у тебя есть время.",
+   "В воскресенье у меня есть время."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Samstag habe ich Zeit."
+ },
+ {
+  "item_id": "ch05_L1_read_3",
+  "id": "ch05_L1_read_3",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_003",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Когда у тебя есть время?",
+  "distractors": [
+   "Что ты делаешь в субботу?",
+   "Когда ты учишь немецкий?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wann hast du Zeit?"
+ },
+ {
+  "item_id": "ch05_L1_read_4",
+  "id": "ch05_L1_read_4",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_d1_04",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "В среду, в четверг и в пятницу я тоже учусь.",
+  "distractors": [
+   "В среду, в четверг и в пятницу у меня есть время.",
+   "Во вторник, в среду и в четверг я тоже учусь."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Mittwoch, am Donnerstag und am Freitag lerne ich auch."
+ },
+ {
+  "item_id": "ch05_L1_read_5",
+  "id": "ch05_L1_read_5",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_d1_08",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Спасибо! В субботу я приду.",
+  "distractors": [
+   "Спасибо! В воскресенье я приду.",
+   "Спасибо! В субботу я учу немецкий."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Danke! Am Samstag komme ich."
+ },
+ {
+  "item_id": "ch05_L1_speak_1",
+  "id": "ch05_L1_speak_1",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_001",
+  "prompt": "Спроси Ольгу: «Что ты делаешь в понедельник?»",
+  "answer": "Was machst du am Montag?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch05_001.mp3",
+  "de": null,
+  "accept": [
+   "Was machst du am Montag?"
+  ]
+ },
+ {
+  "item_id": "ch05_L1_speak_2",
+  "id": "ch05_L1_speak_2",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_002",
+  "prompt": "Скажи: «В понедельник я учу немецкий.» День — первым, действие — сразу за ним.",
+  "answer": "Am Montag lerne ich Deutsch.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_002.mp3",
+  "de": null,
+  "accept": [
+   "Am Montag lerne ich Deutsch."
+  ]
+ },
+ {
+  "item_id": "ch05_L1_speak_3",
+  "id": "ch05_L1_speak_3",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_003",
+  "prompt": "Спроси Ольгу: «Когда у тебя есть время?»",
+  "answer": "Wann hast du Zeit?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch05_003.mp3",
+  "de": null,
+  "accept": [
+   "Wann hast du Zeit?"
+  ]
+ },
+ {
+  "item_id": "ch05_L1_speak_4",
+  "id": "ch05_L1_speak_4",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_004",
+  "prompt": "Скажи: «В субботу у меня есть время.»",
+  "answer": "Am Samstag habe ich Zeit.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_004.mp3",
+  "de": null,
+  "accept": [
+   "Am Samstag habe ich Zeit."
+  ]
+ },
+ {
+  "item_id": "ch05_L1_speak_5",
+  "id": "ch05_L1_speak_5",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_d1_08",
+  "prompt": "Ответь на приглашение: «Спасибо! В субботу я приду.»",
+  "answer": "Danke! Am Samstag komme ich.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d1_08.mp3",
+  "de": null,
+  "accept": [
+   "Danke! Am Samstag komme ich."
+  ]
+ },
+ {
+  "item_id": "ch05_L1_write_1",
+  "id": "ch05_L1_write_1",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_003",
+  "prompt": "Впиши: «___ hast du Zeit?» (когда)",
+  "answer": "Wann",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch05_003.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L1_write_2",
+  "id": "ch05_L1_write_2",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_001",
+  "prompt": "Впиши: «Was machst du ___ Montag?» (в)",
+  "answer": "am",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch05_001.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L1_write_3",
+  "id": "ch05_L1_write_3",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_002",
+  "prompt": "Впиши: «Am Montag ___ ich Deutsch.» (учу)",
+  "answer": "lerne",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_002.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L1_write_4",
+  "id": "ch05_L1_write_4",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_004",
+  "prompt": "Впиши день: «Am ___ habe ich Zeit.» (в субботу)",
+  "answer": "Samstag",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_004.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L1_write_5",
+  "id": "ch05_L1_write_5",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_005",
+  "prompt": "Впиши день: «Montag, Dienstag, ___, Donnerstag» (среда)",
+  "answer": "Mittwoch",
+  "distractors": null,
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_005.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L1_why_1",
+  "id": "ch05_L1_why_1",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_002",
+  "prompt": "Почему «Am Montag lerne ich», а не «Am Montag ich lerne»?",
+  "answer": "Вагон №1 занят: Am Montag. Действие lerne — вагон №2, ich — за ним.",
+  "distractors": [
+   "После дня недели ich не говорят.",
+   "lerne — короткое слово, поэтому оно впереди."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Montag lerne ich Deutsch."
+ },
+ {
+  "item_id": "ch05_L1_why_2",
+  "id": "ch05_L1_why_2",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_001",
+  "prompt": "Почему «machst», а не «mache»?",
+  "answer": "С du у действия хвост -st: du machst.",
+  "distractors": [
+   "machst — потому что это вопрос.",
+   "С am Montag действие получает -st."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Was machst du am Montag?"
+ },
+ {
+  "item_id": "ch05_L1_why_3",
+  "id": "ch05_L1_why_3",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_003",
+  "prompt": "Почему «hast» стоит сразу после «Wann»?",
+  "answer": "wann — вопрос-слово, за ним сразу действие hast.",
+  "distractors": [
+   "hast стоит перед du только в вопросе про время.",
+   "Потому что Zeit — die-слово."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": null,
+  "de": "Wann hast du Zeit?"
+ },
+ {
+  "item_id": "ch05_L1_why_4",
+  "id": "ch05_L1_why_4",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_004",
+  "prompt": "Почему «habe ich», а не «ich habe»?",
+  "answer": "День в вагоне №1, действие habe — вагон №2, ich — за ним.",
+  "distractors": [
+   "Со словом Zeit ich ставят после действия.",
+   "Так говорят только про субботу."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Samstag habe ich Zeit."
+ },
+ {
+  "item_id": "ch05_L1_why_5",
+  "id": "ch05_L1_why_5",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_005",
+  "prompt": "Почему «Montag» пишется с большой буквы?",
+  "answer": "Дни недели — der-слова (слова-предметы): der Montag.",
+  "distractors": [
+   "Потому что Montag — первый день недели.",
+   "С большой пишут слово после am."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag."
+ },
+ {
+  "item_id": "ch05_L1_transfer_1",
+  "id": "ch05_L1_transfer_1",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_t01",
+  "prompt": "Спроси Артёма, когда он занимается: «Когда ты учишь немецкий?»",
+  "answer": "Wann lernst du Deutsch?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t01.mp3",
+  "de": null,
+  "accept": [
+   "Wann lernst du Deutsch?"
+  ]
+ },
+ {
+  "item_id": "ch05_L1_transfer_2",
+  "id": "ch05_L1_transfer_2",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_t02",
+  "prompt": "Скажи про воскресенье: «В воскресенье я учу немецкий.» Начни с дня.",
+  "answer": "Am Sonntag lerne ich Deutsch.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t02.mp3",
+  "de": null,
+  "accept": [
+   "Am Sonntag lerne ich Deutsch."
+  ]
+ },
+ {
+  "item_id": "ch05_L1_transfer_3",
+  "id": "ch05_L1_transfer_3",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_t02",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "В воскресенье я учу немецкий.",
+  "distractors": [
+   "В субботу я учу немецкий.",
+   "В воскресенье у меня есть время."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L1_transfer_4",
+  "id": "ch05_L1_transfer_4",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_t02",
+  "prompt": "Впиши день: «Am ___ lerne ich Deutsch.» (в воскресенье)",
+  "answer": "Sonntag",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L1_transfer_5",
+  "id": "ch05_L1_transfer_5",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_t02",
+  "prompt": "Почему «Am Sonntag lerne ich», а не «Am Sonntag ich lerne»?",
+  "answer": "Вагон №1 занят: Am Sonntag. Действие lerne — вагон №2, ich — за ним.",
+  "distractors": [
+   "В воскресенье ich ставят в конец.",
+   "lerne — это вопрос, поэтому оно впереди."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": null,
+  "de": "Am Sonntag lerne ich Deutsch."
+ },
+ {
+  "item_id": "ch05_L1_boss_1",
+  "id": "ch05_L1_boss_1",
+  "lesson": "ch05_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d1_04",
+  "prompt": "Послушай. В какие ещё дни герой учится?",
+  "answer": "в среду, в четверг и в пятницу",
+  "distractors": [
+   "в понедельник и во вторник",
+   "в субботу и в воскресенье"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d1_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L2_words_1",
+  "id": "ch05_L2_words_1",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_012",
+  "prompt": "Что значит «spät» в вопросе «Wie spät ist es?»",
+  "answer": "поздно",
+  "distractors": [
+   "рано",
+   "сейчас"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L2_words_2",
+  "id": "ch05_L2_words_2",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_013",
+  "prompt": "Что значит «Uhr» в «dreizehn Uhr»?",
+  "answer": "час (по часам)",
+  "distractors": [
+   "минута в часе",
+   "день недели"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L2_words_3",
+  "id": "ch05_L2_words_3",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_015",
+  "prompt": "Что значит «um» в «um dreizehn Uhr»?",
+  "answer": "в (во сколько)",
+  "distractors": [
+   "до (до какого часа)",
+   "после (после какого часа)"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L2_words_4",
+  "id": "ch05_L2_words_4",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_014",
+  "prompt": "Что значит «der Bus»?",
+  "answer": "автобус",
+  "distractors": [
+   "поезд",
+   "такси"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L2_words_5",
+  "id": "ch05_L2_words_5",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_016",
+  "prompt": "Что значит «der Termin»?",
+  "answer": "приём, назначенное время",
+  "distractors": [
+   "день рождения, праздник",
+   "работа, занятость"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L2_words_6",
+  "id": "ch05_L2_words_6",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_014",
+  "prompt": "Что значит «fährt»?",
+  "answer": "едет",
+  "distractors": [
+   "живёт",
+   "учится"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L2_listen_1",
+  "id": "ch05_L2_listen_1",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d2_01",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "Сколько сейчас времени?",
+  "distractors": [
+   "Когда едет автобус?",
+   "Во сколько приём?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d2_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L2_listen_2",
+  "id": "ch05_L2_listen_2",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d2_02",
+  "prompt": "Послушай. Который час?",
+  "answer": "тринадцать часов",
+  "distractors": [
+   "тринадцать тридцать",
+   "тридцать часов"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d2_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L2_listen_3",
+  "id": "ch05_L2_listen_3",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d2_04",
+  "prompt": "Послушай. Во сколько едет автобус?",
+  "answer": "в тринадцать тридцать",
+  "distractors": [
+   "в тринадцать часов",
+   "в четырнадцать часов"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d2_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L2_listen_4",
+  "id": "ch05_L2_listen_4",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d2_06",
+  "prompt": "Послушай. Что ответила Ольга?",
+  "answer": "Да, у меня приём.",
+  "distractors": [
+   "Да, у меня автобус.",
+   "Нет, у меня нет времени."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d2_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L2_listen_5",
+  "id": "ch05_L2_listen_5",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d2_08",
+  "prompt": "Послушай. Во сколько приём у Ольги?",
+  "answer": "в четырнадцать часов",
+  "distractors": [
+   "в тринадцать часов",
+   "в тринадцать тридцать"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d2_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L2_read_1",
+  "id": "ch05_L2_read_1",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_012",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Сколько сейчас времени?",
+  "distractors": [
+   "Когда едет автобус?",
+   "Сколько стоит билет?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie spät ist es?"
+ },
+ {
+  "item_id": "ch05_L2_read_2",
+  "id": "ch05_L2_read_2",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_014",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Когда едет автобус?",
+  "distractors": [
+   "Ты едешь на автобусе?",
+   "Когда у тебя приём?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wann fährt der Bus?"
+ },
+ {
+  "item_id": "ch05_L2_read_3",
+  "id": "ch05_L2_read_3",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_015",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Автобус едет в тринадцать тридцать.",
+  "distractors": [
+   "Автобус едет в тринадцать часов.",
+   "Автобус едет в четырнадцать тридцать."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Der Bus fährt um dreizehn Uhr dreißig."
+ },
+ {
+  "item_id": "ch05_L2_read_4",
+  "id": "ch05_L2_read_4",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_016",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Во сколько у меня приём?",
+  "distractors": [
+   "Когда едет автобус?",
+   "Какой сегодня день?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Um wie viel Uhr habe ich einen Termin?"
+ },
+ {
+  "item_id": "ch05_L2_read_5",
+  "id": "ch05_L2_read_5",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_d2_09",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я тоже еду в тринадцать тридцать.",
+  "distractors": [
+   "Я тоже учусь в тринадцать тридцать.",
+   "Ты тоже едешь в тринадцать тридцать?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich fahre auch um dreizehn Uhr dreißig."
+ },
+ {
+  "item_id": "ch05_L2_speak_1",
+  "id": "ch05_L2_speak_1",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_012",
+  "prompt": "Спроси, который час: «Сколько сейчас времени?»",
+  "answer": "Wie spät ist es?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch05_012.mp3",
+  "de": null,
+  "accept": [
+   "Wie spät ist es?"
+  ]
+ },
+ {
+  "item_id": "ch05_L2_speak_2",
+  "id": "ch05_L2_speak_2",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_014",
+  "prompt": "Спроси Ольгу: «Когда едет автобус?»",
+  "answer": "Wann fährt der Bus?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch05_014.mp3",
+  "de": null,
+  "accept": [
+   "Wann fährt der Bus?"
+  ]
+ },
+ {
+  "item_id": "ch05_L2_speak_3",
+  "id": "ch05_L2_speak_3",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_016",
+  "prompt": "Спроси: «Во сколько у меня приём?» Приём — «einen Termin».",
+  "answer": "Um wie viel Uhr habe ich einen Termin?",
+  "distractors": null,
+  "rule_id": "topics/akkusativ",
+  "transfer": false,
+  "audio": "audio_v1/ch05_016.mp3",
+  "de": null,
+  "accept": [
+   "Um wie viel Uhr habe ich einen Termin?"
+  ]
+ },
+ {
+  "item_id": "ch05_L2_speak_4",
+  "id": "ch05_L2_speak_4",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_d2_05",
+  "prompt": "Спроси Ольгу: «Ты тоже едешь?»",
+  "answer": "Fährst du auch?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d2_05.mp3",
+  "de": null,
+  "accept": [
+   "Fährst du auch?"
+  ]
+ },
+ {
+  "item_id": "ch05_L2_speak_5",
+  "id": "ch05_L2_speak_5",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_d2_09",
+  "prompt": "Скажи: «Я тоже еду в тринадцать тридцать.»",
+  "answer": "Ich fahre auch um dreizehn Uhr dreißig.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d2_09.mp3",
+  "de": null,
+  "accept": [
+   "Ich fahre auch um dreizehn Uhr dreißig."
+  ]
+ },
+ {
+  "item_id": "ch05_L2_write_1",
+  "id": "ch05_L2_write_1",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_012",
+  "prompt": "Впиши: «Wie ___ ist es?» (поздно)",
+  "answer": "spät",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch05_012.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L2_write_2",
+  "id": "ch05_L2_write_2",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_013",
+  "prompt": "Впиши: «Es ist dreizehn ___.» (часов)",
+  "answer": "Uhr",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch05_013.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L2_write_3",
+  "id": "ch05_L2_write_3",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_014",
+  "prompt": "Впиши: «Wann ___ der Bus?» (едет)",
+  "answer": "fährt",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch05_014.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L2_write_4",
+  "id": "ch05_L2_write_4",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_016",
+  "prompt": "Впиши: «___ wie viel Uhr habe ich einen Termin?» (во)",
+  "answer": "Um",
+  "distractors": null,
+  "rule_id": "topics/akkusativ",
+  "transfer": false,
+  "audio": "audio_v1/ch05_016.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L2_write_5",
+  "id": "ch05_L2_write_5",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_d2_05",
+  "prompt": "Впиши: «___ du auch?» (ты едешь)",
+  "answer": "Fährst",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d2_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L2_why_1",
+  "id": "ch05_L2_why_1",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_015",
+  "prompt": "Почему «um dreizehn Uhr dreißig», а не «um dreißig Uhr dreizehn»?",
+  "answer": "Сначала часы, потом Uhr, потом минуты: dreizehn Uhr dreißig.",
+  "distractors": [
+   "Сначала минуты, потом Uhr, потом часы: так читают расписание.",
+   "Число больше всегда идёт первым, а Uhr стоит в самом конце."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Der Bus fährt um dreizehn Uhr dreißig."
+ },
+ {
+  "item_id": "ch05_L2_why_2",
+  "id": "ch05_L2_why_2",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_014",
+  "prompt": "Почему «der Bus fährt», а не «der Bus fahre»?",
+  "answer": "С «он, она, оно» у действия хвост -t, а a меняется на ä: fährt.",
+  "distractors": [
+   "После слова Bus действие всегда меняет a на ä, с любым лицом.",
+   "ä появляется только в вопросе, а хвост -t даёт слово Bus."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Wann fährt der Bus?"
+ },
+ {
+  "item_id": "ch05_L2_why_3",
+  "id": "ch05_L2_why_3",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_d2_05",
+  "prompt": "Почему «Fährst du», а не «Fahrst du»?",
+  "answer": "С du у действия хвост -st, а гласная a меняется на ä.",
+  "distractors": [
+   "ä в вопросе нужна, чтобы голос шёл вверх.",
+   "ä ставят, когда фраза длиннее трёх слов."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Fährst du auch?"
+ },
+ {
+  "item_id": "ch05_L2_why_4",
+  "id": "ch05_L2_why_4",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_016",
+  "prompt": "Почему «Um wie viel Uhr habe ich einen Termin?», а не «Wie viel Uhr um habe ich einen Termin?»",
+  "answer": "Um едет вперёд вместе с «wie viel Uhr»: это один кусок в вагоне №1.",
+  "distractors": [
+   "Um — отдельный вагон, он всегда стоит после wie viel Uhr.",
+   "Потому что Uhr — слово с артиклем die, а такие слова идут впереди."
+  ],
+  "rule_id": "topics/akkusativ",
+  "transfer": false,
+  "audio": null,
+  "de": "Um wie viel Uhr habe ich einen Termin?"
+ },
+ {
+  "item_id": "ch05_L2_why_5",
+  "id": "ch05_L2_why_5",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_013",
+  "prompt": "Почему «Es ist dreizehn Uhr», а не «Es dreizehn Uhr»?",
+  "answer": "ist — вагон №2, знак «=»: es = dreizehn Uhr.",
+  "distractors": [
+   "Потому что dreizehn — длинное слово.",
+   "Потому что Uhr — die-слово."
+  ],
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": null,
+  "de": "Es ist dreizehn Uhr."
+ },
+ {
+  "item_id": "ch05_L2_transfer_1",
+  "id": "ch05_L2_transfer_1",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_t03",
+  "prompt": "Спроси Ольгу: «Когда ты едешь?»",
+  "answer": "Wann fährst du?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t03.mp3",
+  "de": null,
+  "accept": [
+   "Wann fährst du?"
+  ]
+ },
+ {
+  "item_id": "ch05_L2_transfer_2",
+  "id": "ch05_L2_transfer_2",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_t04",
+  "prompt": "Скажи Ольге своё время: «Я еду в четырнадцать тридцать.»",
+  "answer": "Ich fahre um vierzehn Uhr dreißig.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t04.mp3",
+  "de": null,
+  "accept": [
+   "Ich fahre um vierzehn Uhr dreißig."
+  ]
+ },
+ {
+  "item_id": "ch05_L2_transfer_3",
+  "id": "ch05_L2_transfer_3",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_t04",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Я еду в четырнадцать тридцать.",
+  "distractors": [
+   "Я еду в тринадцать тридцать.",
+   "Ты едешь в четырнадцать тридцать?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L2_transfer_4",
+  "id": "ch05_L2_transfer_4",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_t04",
+  "prompt": "Впиши: «Ich ___ um vierzehn Uhr dreißig.» (еду)",
+  "answer": "fahre",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L2_transfer_5",
+  "id": "ch05_L2_transfer_5",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_t04",
+  "prompt": "Почему «Ich fahre», а не «Ich fähre»?",
+  "answer": "С ich гласная a остаётся, хвост -e: ä — только с du и с «он, она, оно».",
+  "distractors": [
+   "Потому что fahre — это вопрос, а в вопросах ä не нужна.",
+   "Потому что слово Uhr стоит после fahre и ä не любит."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": true,
+  "audio": null,
+  "de": "Ich fahre um vierzehn Uhr dreißig."
+ },
+ {
+  "item_id": "ch05_L2_boss_1",
+  "id": "ch05_L2_boss_1",
+  "lesson": "ch05_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_d2_08",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Приём в четырнадцать часов.",
+  "distractors": [
+   "Приём в тринадцать часов.",
+   "Автобус едет в четырнадцать часов."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Der Termin ist um vierzehn Uhr."
+ },
+ {
+  "item_id": "ch05_L3_words_1",
+  "id": "ch05_L3_words_1",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_023",
+  "prompt": "Что значит «am Morgen»?",
+  "answer": "утром",
+  "distractors": [
+   "вечером",
+   "ночью"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L3_words_2",
+  "id": "ch05_L3_words_2",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_024",
+  "prompt": "Что значит «mittags»?",
+  "answer": "днём, в полдень",
+  "distractors": [
+   "утром, по утрам",
+   "вечером, по вечерам"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L3_words_3",
+  "id": "ch05_L3_words_3",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_025",
+  "prompt": "Что значит «am Abend»?",
+  "answer": "вечером",
+  "distractors": [
+   "утром",
+   "днём"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L3_words_4",
+  "id": "ch05_L3_words_4",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_022",
+  "prompt": "Что значит «stehst … auf» вместе?",
+  "answer": "встаёшь",
+  "distractors": [
+   "ложишься",
+   "стоишь"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L3_words_5",
+  "id": "ch05_L3_words_5",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_025",
+  "prompt": "Что значит «kaufe … ein» вместе?",
+  "answer": "делаю покупки",
+  "distractors": [
+   "продаю товары",
+   "покупаю билет"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L3_words_6",
+  "id": "ch05_L3_words_6",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_026",
+  "prompt": "Что значит «siehst … fern» вместе?",
+  "answer": "смотришь телевизор",
+  "distractors": [
+   "смотришь вдаль",
+   "смотришь в окно"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L3_listen_1",
+  "id": "ch05_L3_listen_1",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d3_01",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Когда ты встаёшь?",
+  "distractors": [
+   "Когда ты едешь?",
+   "Что ты делаешь днём?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d3_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L3_listen_2",
+  "id": "ch05_L3_listen_2",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d3_02",
+  "prompt": "Послушай. Во сколько встаёт герой?",
+  "answer": "в семь часов",
+  "distractors": [
+   "в восемь часов",
+   "в тринадцать часов"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d3_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L3_listen_3",
+  "id": "ch05_L3_listen_3",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d3_04",
+  "prompt": "Послушай. Что герой делает днём?",
+  "answer": "готовит",
+  "distractors": [
+   "убирает",
+   "делает покупки"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d3_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L3_listen_4",
+  "id": "ch05_L3_listen_4",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d3_06",
+  "prompt": "Послушай. Что герой делает вечером?",
+  "answer": "делает покупки",
+  "distractors": [
+   "готовит",
+   "смотрит телевизор"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d3_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L3_listen_5",
+  "id": "ch05_L3_listen_5",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d3_09",
+  "prompt": "Послушай. Во сколько встаёт Ольга?",
+  "answer": "в восемь часов",
+  "distractors": [
+   "в семь часов",
+   "в девять часов"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d3_09.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L3_read_1",
+  "id": "ch05_L3_read_1",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_022",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Когда ты встаёшь?",
+  "distractors": [
+   "Когда ты едешь?",
+   "Во сколько приём?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wann stehst du auf?"
+ },
+ {
+  "item_id": "ch05_L3_read_2",
+  "id": "ch05_L3_read_2",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_023",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Утром я встаю в семь часов.",
+  "distractors": [
+   "Вечером я встаю в семь часов.",
+   "Утром я встаю в восемь часов."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Morgen stehe ich um sieben Uhr auf."
+ },
+ {
+  "item_id": "ch05_L3_read_3",
+  "id": "ch05_L3_read_3",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_025",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Вечером я делаю покупки.",
+  "distractors": [
+   "Днём я делаю покупки.",
+   "Вечером я готовлю."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Abend kaufe ich ein."
+ },
+ {
+  "item_id": "ch05_L3_read_4",
+  "id": "ch05_L3_read_4",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_026",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Ты вечером смотришь телевизор?",
+  "distractors": [
+   "Я вечером смотрю телевизор.",
+   "Ты днём смотришь телевизор?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Siehst du am Abend fern?"
+ },
+ {
+  "item_id": "ch05_L3_read_5",
+  "id": "ch05_L3_read_5",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_d3_08",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Нет, вечером я навожу порядок.",
+  "distractors": [
+   "Нет, днём я навожу порядок.",
+   "Да, вечером я навожу порядок."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Nein, am Abend räume ich auf."
+ },
+ {
+  "item_id": "ch05_L3_speak_1",
+  "id": "ch05_L3_speak_1",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_022",
+  "prompt": "Спроси Ольгу: «Когда ты встаёшь?»",
+  "answer": "Wann stehst du auf?",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_022.mp3",
+  "de": null,
+  "accept": [
+   "Wann stehst du auf?"
+  ]
+ },
+ {
+  "item_id": "ch05_L3_speak_2",
+  "id": "ch05_L3_speak_2",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_023",
+  "prompt": "Скажи: «Утром я встаю в семь часов.»",
+  "answer": "Am Morgen stehe ich um sieben Uhr auf.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_023.mp3",
+  "de": null,
+  "accept": [
+   "Am Morgen stehe ich um sieben Uhr auf."
+  ]
+ },
+ {
+  "item_id": "ch05_L3_speak_3",
+  "id": "ch05_L3_speak_3",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_024",
+  "prompt": "Скажи: «Днём я готовлю.»",
+  "answer": "Mittags koche ich.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_024.mp3",
+  "de": null,
+  "accept": [
+   "Mittags koche ich."
+  ]
+ },
+ {
+  "item_id": "ch05_L3_speak_4",
+  "id": "ch05_L3_speak_4",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_025",
+  "prompt": "Скажи: «Вечером я делаю покупки.»",
+  "answer": "Am Abend kaufe ich ein.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_025.mp3",
+  "de": null,
+  "accept": [
+   "Am Abend kaufe ich ein."
+  ]
+ },
+ {
+  "item_id": "ch05_L3_speak_5",
+  "id": "ch05_L3_speak_5",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_026",
+  "prompt": "Спроси: «Ты вечером смотришь телевизор?»",
+  "answer": "Siehst du am Abend fern?",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_026.mp3",
+  "de": null,
+  "accept": [
+   "Siehst du am Abend fern?"
+  ]
+ },
+ {
+  "item_id": "ch05_L3_write_1",
+  "id": "ch05_L3_write_1",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_022",
+  "prompt": "Впиши: «Wann stehst du ___?» (приставка)",
+  "answer": "auf",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch05_022.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L3_write_2",
+  "id": "ch05_L3_write_2",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_025",
+  "prompt": "Впиши: «Am Abend kaufe ich ___.» (приставка)",
+  "answer": "ein",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_025.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L3_write_3",
+  "id": "ch05_L3_write_3",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_026",
+  "prompt": "Впиши: «___ du am Abend fern?» (ты смотришь)",
+  "answer": "Siehst",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch05_026.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L3_write_4",
+  "id": "ch05_L3_write_4",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_027",
+  "prompt": "Впиши: «Am Abend räume ich ___.» (приставка)",
+  "answer": "auf",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_027.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L3_write_5",
+  "id": "ch05_L3_write_5",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_024",
+  "prompt": "Впиши: «___ koche ich.» (днём)",
+  "answer": "Mittags",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_024.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L3_why_1",
+  "id": "ch05_L3_why_1",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_022",
+  "prompt": "Почему «Wann stehst du auf?», а не «Wann aufstehst du?»",
+  "answer": "aufstehen разваливается: stehst — вагон №2, а auf уходит в самый конец.",
+  "distractors": [
+   "Потому что после wann нужно ставить приставку впереди, перед действием.",
+   "Потому что auf — это вопрос-слово, как wann, и оно идёт вторым."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Wann stehst du auf?"
+ },
+ {
+  "item_id": "ch05_L3_why_2",
+  "id": "ch05_L3_why_2",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_025",
+  "prompt": "Почему «Am Abend kaufe ich ein», а не «Am Abend ich kaufe ein»?",
+  "answer": "Вагон №1 занят временем, но kaufe всё равно вагон №2, а ein — в конец.",
+  "distractors": [
+   "Потому что слово Abend — это действие, а действие стоит после ich.",
+   "Потому что ich обязано стоять сразу после времени, перед kaufe."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Abend kaufe ich ein."
+ },
+ {
+  "item_id": "ch05_L3_why_3",
+  "id": "ch05_L3_why_3",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_026",
+  "prompt": "Почему «Siehst du am Abend fern?» начинается с действия?",
+  "answer": "Это вопрос «да/нет»: действие идёт вперёд, а fern остаётся в конце.",
+  "distractors": [
+   "Вопрос-слово Abend требует, чтобы действие стояло первым.",
+   "fern нельзя ставить в конец, поэтому действие уходит вперёд."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Siehst du am Abend fern?"
+ },
+ {
+  "item_id": "ch05_L3_why_4",
+  "id": "ch05_L3_why_4",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_026",
+  "prompt": "Почему «siehst», а не «sehst»?",
+  "answer": "С du у sehen гласная e меняется на ie: du siehst.",
+  "distractors": [
+   "Потому что fern — слово с ie.",
+   "Потому что Abend стоит после действия."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Siehst du am Abend fern?"
+ },
+ {
+  "item_id": "ch05_L3_why_5",
+  "id": "ch05_L3_why_5",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_027",
+  "prompt": "Почему «Am Abend räume ich auf», а не «Am Abend räume auf ich»?",
+  "answer": "Приставка auf уходит в самый конец фразы, после ich.",
+  "distractors": [
+   "Потому что ich стоит в конце фразы.",
+   "Потому что Abend просит приставку рядом."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Abend räume ich auf."
+ },
+ {
+  "item_id": "ch05_L3_transfer_1",
+  "id": "ch05_L3_transfer_1",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_t05",
+  "prompt": "Спроси: «Ты днём смотришь телевизор?»",
+  "answer": "Siehst du mittags fern?",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t05.mp3",
+  "de": null,
+  "accept": [
+   "Siehst du mittags fern?"
+  ]
+ },
+ {
+  "item_id": "ch05_L3_transfer_2",
+  "id": "ch05_L3_transfer_2",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_t06",
+  "prompt": "Скажи: «Днём я навожу порядок.»",
+  "answer": "Mittags räume ich auf.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t06.mp3",
+  "de": null,
+  "accept": [
+   "Mittags räume ich auf."
+  ]
+ },
+ {
+  "item_id": "ch05_L3_transfer_3",
+  "id": "ch05_L3_transfer_3",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_t06",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Днём я навожу порядок.",
+  "distractors": [
+   "Вечером я навожу порядок.",
+   "Днём я готовлю."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L3_transfer_4",
+  "id": "ch05_L3_transfer_4",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_t06",
+  "prompt": "Впиши: «___ räume ich auf.» (днём)",
+  "answer": "Mittags",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L3_transfer_5",
+  "id": "ch05_L3_transfer_5",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_t06",
+  "prompt": "Почему в «Mittags räume ich auf» приставка auf стоит в конце?",
+  "answer": "aufräumen разваливается: räume — вагон №2, а auf уходит в самый конец.",
+  "distractors": [
+   "Слово mittags в начале фразы всегда отправляет auf в конец.",
+   "С ich любая приставка уезжает в конец, а с du стоит рядом."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": null,
+  "de": "Mittags räume ich auf."
+ },
+ {
+  "item_id": "ch05_L3_boss_1",
+  "id": "ch05_L3_boss_1",
+  "lesson": "ch05_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_d3_09",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я встаю утром в восемь часов.",
+  "distractors": [
+   "Я встаю утром в семь часов.",
+   "Я встаю вечером в восемь часов."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich stehe am Morgen um acht Uhr auf."
+ },
+ {
+  "item_id": "ch05_L4_words_1",
+  "id": "ch05_L4_words_1",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_031",
+  "prompt": "Что значит «halb drei»?",
+  "answer": "2:30, половина третьего",
+  "distractors": [
+   "3:30, три с половиной",
+   "3:00, ровно три"
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L4_words_2",
+  "id": "ch05_L4_words_2",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_032",
+  "prompt": "Что значит «Viertel nach drei»?",
+  "answer": "3:15, четверть четвёртого",
+  "distractors": [
+   "2:45, без четверти три",
+   "3:45, без четверти четыре"
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L4_words_3",
+  "id": "ch05_L4_words_3",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_033",
+  "prompt": "Что значит «Viertel vor vier»?",
+  "answer": "3:45, без четверти четыре",
+  "distractors": [
+   "4:15, четверть пятого",
+   "3:15, четверть четвёртого"
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L4_words_4",
+  "id": "ch05_L4_words_4",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_035",
+  "prompt": "Что значит «von … bis»?",
+  "answer": "с … до (с какого до какого)",
+  "distractors": [
+   "в … и после (после какого часа)",
+   "от … и дальше (без конца)"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L4_words_5",
+  "id": "ch05_L4_words_5",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_034",
+  "prompt": "Что значит «offen»?",
+  "answer": "открыто",
+  "distractors": [
+   "закрыто",
+   "далеко"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L4_words_6",
+  "id": "ch05_L4_words_6",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_036",
+  "prompt": "Что значит «Wie lange»?",
+  "answer": "как долго",
+  "distractors": [
+   "как рано",
+   "как часто"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L4_listen_1",
+  "id": "ch05_L4_listen_1",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d4_01",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "Когда открыт кабинет врача?",
+  "distractors": [
+   "Когда едет автобус?",
+   "Сколько сейчас времени?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d4_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L4_listen_2",
+  "id": "ch05_L4_listen_2",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d4_02",
+  "prompt": "Послушай. С какого до какого часа открыт кабинет?",
+  "answer": "с восьми до тринадцати часов",
+  "distractors": [
+   "с восьми до девяти часов",
+   "с тринадцати до восьми часов"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d4_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L4_listen_3",
+  "id": "ch05_L4_listen_3",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d4_04",
+  "prompt": "Послушай. Сколько сейчас времени?",
+  "answer": "2:45, без четверти три",
+  "distractors": [
+   "3:15, четверть четвёртого",
+   "2:15, четверть третьего"
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d4_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L4_listen_4",
+  "id": "ch05_L4_listen_4",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d4_06",
+  "prompt": "Послушай. До какого часа у Ольги есть время?",
+  "answer": "до половины четвёртого",
+  "distractors": [
+   "до трёх часов",
+   "до половины третьего"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d4_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L4_listen_5",
+  "id": "ch05_L4_listen_5",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d4_08",
+  "prompt": "Послушай. Во сколько едет Ольга?",
+  "answer": "в три пятнадцать",
+  "distractors": [
+   "в три тридцать",
+   "в три часа"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d4_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L4_read_1",
+  "id": "ch05_L4_read_1",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_031",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Сейчас половина третьего.",
+  "distractors": [
+   "Сейчас три с половиной часа.",
+   "Сейчас половина четвёртого."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Es ist halb drei."
+ },
+ {
+  "item_id": "ch05_L4_read_2",
+  "id": "ch05_L4_read_2",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_032",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Сейчас четверть четвёртого.",
+  "distractors": [
+   "Сейчас без четверти три.",
+   "Сейчас четверть третьего."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Es ist Viertel nach drei."
+ },
+ {
+  "item_id": "ch05_L4_read_3",
+  "id": "ch05_L4_read_3",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_033",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Сейчас без четверти четыре.",
+  "distractors": [
+   "Сейчас четверть пятого.",
+   "Сейчас без четверти три."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Es ist Viertel vor vier."
+ },
+ {
+  "item_id": "ch05_L4_read_4",
+  "id": "ch05_L4_read_4",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_035",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Кабинет врача открыт с восьми до тринадцати часов.",
+  "distractors": [
+   "Кабинет врача открыт с тринадцати до восьми часов.",
+   "Кабинет врача закрыт с восьми до тринадцати часов."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Praxis ist von acht bis dreizehn Uhr offen."
+ },
+ {
+  "item_id": "ch05_L4_read_5",
+  "id": "ch05_L4_read_5",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_036",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Как долго у тебя есть время?",
+  "distractors": [
+   "Когда у тебя есть время?",
+   "Сколько тебе лет?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie lange hast du Zeit?"
+ },
+ {
+  "item_id": "ch05_L4_speak_1",
+  "id": "ch05_L4_speak_1",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_034",
+  "prompt": "Спроси: «Когда открыт кабинет врача?»",
+  "answer": "Wann ist die Praxis offen?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch05_034.mp3",
+  "de": null,
+  "accept": [
+   "Wann ist die Praxis offen?"
+  ]
+ },
+ {
+  "item_id": "ch05_L4_speak_2",
+  "id": "ch05_L4_speak_2",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_035",
+  "prompt": "Скажи: «Кабинет врача открыт с восьми до тринадцати часов.»",
+  "answer": "Die Praxis ist von acht bis dreizehn Uhr offen.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_035.mp3",
+  "de": null,
+  "accept": [
+   "Die Praxis ist von acht bis dreizehn Uhr offen."
+  ]
+ },
+ {
+  "item_id": "ch05_L4_speak_3",
+  "id": "ch05_L4_speak_3",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_031",
+  "prompt": "Скажи: «Сейчас половина третьего.»",
+  "answer": "Es ist halb drei.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch05_031.mp3",
+  "de": null,
+  "accept": [
+   "Es ist halb drei."
+  ]
+ },
+ {
+  "item_id": "ch05_L4_speak_4",
+  "id": "ch05_L4_speak_4",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_032",
+  "prompt": "Скажи: «Сейчас четверть четвёртого.»",
+  "answer": "Es ist Viertel nach drei.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch05_032.mp3",
+  "de": null,
+  "accept": [
+   "Es ist Viertel nach drei."
+  ]
+ },
+ {
+  "item_id": "ch05_L4_speak_5",
+  "id": "ch05_L4_speak_5",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_036",
+  "prompt": "Спроси Ольгу: «Как долго у тебя есть время?»",
+  "answer": "Wie lange hast du Zeit?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch05_036.mp3",
+  "de": null,
+  "accept": [
+   "Wie lange hast du Zeit?"
+  ]
+ },
+ {
+  "item_id": "ch05_L4_write_1",
+  "id": "ch05_L4_write_1",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_031",
+  "prompt": "Впиши: «Es ist ___ drei.» (половина)",
+  "answer": "halb",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch05_031.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L4_write_2",
+  "id": "ch05_L4_write_2",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_032",
+  "prompt": "Впиши: «Es ist Viertel ___ drei.» (после)",
+  "answer": "nach",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch05_032.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L4_write_3",
+  "id": "ch05_L4_write_3",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_033",
+  "prompt": "Впиши: «Es ist Viertel ___ vier.» (до)",
+  "answer": "vor",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch05_033.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L4_write_4",
+  "id": "ch05_L4_write_4",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_035",
+  "prompt": "Впиши: «Die Praxis ist ___ acht bis dreizehn Uhr offen.» (с)",
+  "answer": "von",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_035.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L4_write_5",
+  "id": "ch05_L4_write_5",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_036",
+  "prompt": "Впиши: «Wie ___ hast du Zeit?» (долго)",
+  "answer": "lange",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch05_036.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L4_why_1",
+  "id": "ch05_L4_why_1",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_031",
+  "prompt": "Почему «halb drei» — это 2:30, а не 3:30?",
+  "answer": "halb считает до следующего часа: до трёх ещё полчаса, это 2:30.",
+  "distractors": [
+   "Потому что halb — это «после трёх» и считает вперёд.",
+   "Потому что в немецких часах полчаса идут назад."
+  ],
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": null,
+  "de": "Es ist halb drei."
+ },
+ {
+  "item_id": "ch05_L4_why_2",
+  "id": "ch05_L4_why_2",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_032",
+  "prompt": "Почему «Viertel nach drei» — это 3:15?",
+  "answer": "nach — «после»: четверть часа после трёх.",
+  "distractors": [
+   "Потому что nach — «до»: четверть до трёх.",
+   "Потому что Viertel — это сорок пять минут."
+  ],
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": null,
+  "de": "Es ist Viertel nach drei."
+ },
+ {
+  "item_id": "ch05_L4_why_3",
+  "id": "ch05_L4_why_3",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_033",
+  "prompt": "Почему «Viertel vor vier» — это 3:45?",
+  "answer": "vor — «до»: четверть часа до четырёх.",
+  "distractors": [
+   "Потому что vor — «после»: четверть после четырёх.",
+   "Потому что Viertel — это пять минут."
+  ],
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": null,
+  "de": "Es ist Viertel vor vier."
+ },
+ {
+  "item_id": "ch05_L4_why_4",
+  "id": "ch05_L4_why_4",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_035",
+  "prompt": "Почему в «von acht bis dreizehn Uhr» слово Uhr стоит один раз, в конце?",
+  "answer": "Uhr относится к обоим числам: с восьми до тринадцати часов.",
+  "distractors": [
+   "Потому что Uhr — это действие, а действие уезжает в конец.",
+   "Потому что перед bis слово Uhr нельзя ставить после числа."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Praxis ist von acht bis dreizehn Uhr offen."
+ },
+ {
+  "item_id": "ch05_L4_why_5",
+  "id": "ch05_L4_why_5",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_036",
+  "prompt": "Почему «Wie lange hast du Zeit?», а не «Wie lange du hast Zeit?»",
+  "answer": "После Wie lange сразу идёт действие hast — вагон №2.",
+  "distractors": [
+   "lange — это действие, поэтому оно стоит сразу за Wie.",
+   "du всегда идёт сразу после вопрос-слова, а hast — потом."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie lange hast du Zeit?"
+ },
+ {
+  "item_id": "ch05_L4_transfer_1",
+  "id": "ch05_L4_transfer_1",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_t07",
+  "prompt": "Скажи: «Автобус едет в восемь пятнадцать.»",
+  "answer": "Der Bus fährt um Viertel nach acht.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t07.mp3",
+  "de": null,
+  "accept": [
+   "Der Bus fährt um Viertel nach acht."
+  ]
+ },
+ {
+  "item_id": "ch05_L4_transfer_2",
+  "id": "ch05_L4_transfer_2",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_t08",
+  "prompt": "Скажи: «Кабинет врача открыт с половины восьмого до тринадцати часов.»",
+  "answer": "Die Praxis ist von halb acht bis dreizehn Uhr offen.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t08.mp3",
+  "de": null,
+  "accept": [
+   "Die Praxis ist von halb acht bis dreizehn Uhr offen."
+  ]
+ },
+ {
+  "item_id": "ch05_L4_transfer_3",
+  "id": "ch05_L4_transfer_3",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_t08",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Кабинет врача открыт с половины восьмого до тринадцати часов.",
+  "distractors": [
+   "Кабинет врача открыт с половины восьмого до половины девятого.",
+   "Кабинет врача закрыт с половины восьмого до тринадцати часов."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L4_transfer_4",
+  "id": "ch05_L4_transfer_4",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_t08",
+  "prompt": "Впиши: «Die Praxis ist von ___ acht bis dreizehn Uhr offen.» (половина)",
+  "answer": "halb",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L4_transfer_5",
+  "id": "ch05_L4_transfer_5",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_t08",
+  "prompt": "Почему в «von halb acht bis dreizehn Uhr» слово halb стоит перед acht?",
+  "answer": "halb — «половина» следующего часа: halb acht — это 7:30.",
+  "distractors": [
+   "Потому что halb — это приставка к слову Uhr.",
+   "Потому что halb заменяет предлог von."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": null,
+  "de": "Die Praxis ist von halb acht bis dreizehn Uhr offen."
+ },
+ {
+  "item_id": "ch05_L4_boss_1",
+  "id": "ch05_L4_boss_1",
+  "lesson": "ch05_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_d4_06",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У меня есть время до половины четвёртого.",
+  "distractors": [
+   "У меня есть время до трёх часов.",
+   "У меня есть время до половины третьего."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe bis halb vier Zeit."
+ },
+ {
+  "item_id": "ch05_L5_words_1",
+  "id": "ch05_L5_words_1",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_040",
+  "prompt": "Что значит «Wochenende»?",
+  "answer": "уик-энд",
+  "distractors": [
+   "рабочий день",
+   "неделя"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L5_words_2",
+  "id": "ch05_L5_words_2",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_041",
+  "prompt": "Что значит «ein Picknick machen»?",
+  "answer": "устраивать пикник",
+  "distractors": [
+   "готовить обед",
+   "делать покупки"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L5_words_3",
+  "id": "ch05_L5_words_3",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_042",
+  "prompt": "Что значит «lade … ein» вместе?",
+  "answer": "приглашаю",
+  "distractors": [
+   "заряжаю",
+   "загружаю"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L5_words_4",
+  "id": "ch05_L5_words_4",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_043",
+  "prompt": "Что значит «rufe … an» вместе?",
+  "answer": "звоню по телефону",
+  "distractors": [
+   "зову к себе домой",
+   "кричу очень громко"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L5_words_5",
+  "id": "ch05_L5_words_5",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_044",
+  "prompt": "Что значит «nicht»?",
+  "answer": "не (частица отрицания)",
+  "distractors": [
+   "нет (ответ на вопрос)",
+   "никто (ни один человек)"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L5_words_6",
+  "id": "ch05_L5_words_6",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_045",
+  "prompt": "Что значит «besuche»?",
+  "answer": "навещаю",
+  "distractors": [
+   "покупаю",
+   "приглашаю"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L5_listen_1",
+  "id": "ch05_L5_listen_1",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d5_01",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "У тебя есть время в уик-энд?",
+  "distractors": [
+   "Когда у тебя есть время?",
+   "Когда открыт кабинет врача?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d5_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L5_listen_2",
+  "id": "ch05_L5_listen_2",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d5_03",
+  "prompt": "Послушай. Когда у Ольги пикник?",
+  "answer": "в субботу в тринадцать часов",
+  "distractors": [
+   "в воскресенье в тринадцать часов",
+   "в субботу в четырнадцать часов"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d5_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L5_listen_3",
+  "id": "ch05_L5_listen_3",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d5_05",
+  "prompt": "Послушай. Что делает Ольга?",
+  "answer": "приглашает друзей",
+  "distractors": [
+   "навещает друзей",
+   "звонит друзьям"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d5_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L5_listen_4",
+  "id": "ch05_L5_listen_4",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d5_06",
+  "prompt": "Послушай. Когда герой позвонит?",
+  "answer": "в пятницу",
+  "distractors": [
+   "в субботу",
+   "в воскресенье"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d5_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L5_listen_5",
+  "id": "ch05_L5_listen_5",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d5_08",
+  "prompt": "Послушай. Что герой делает в воскресенье?",
+  "answer": "не встаёт",
+  "distractors": [
+   "встаёт в семь часов",
+   "навещает друзей"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d5_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L5_read_1",
+  "id": "ch05_L5_read_1",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_040",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У тебя есть время в уик-энд?",
+  "distractors": [
+   "Когда у тебя есть время?",
+   "У тебя есть время в воскресенье?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Hast du am Wochenende Zeit?"
+ },
+ {
+  "item_id": "ch05_L5_read_2",
+  "id": "ch05_L5_read_2",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_041",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "В субботу я устраиваю пикник.",
+  "distractors": [
+   "В воскресенье я устраиваю пикник.",
+   "В субботу я иду на пикник."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Samstag mache ich ein Picknick."
+ },
+ {
+  "item_id": "ch05_L5_read_3",
+  "id": "ch05_L5_read_3",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_042",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я приглашаю друзей.",
+  "distractors": [
+   "Я навещаю друзей.",
+   "Я звоню друзьям."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich lade Freunde ein."
+ },
+ {
+  "item_id": "ch05_L5_read_4",
+  "id": "ch05_L5_read_4",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_043",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я позвоню в пятницу.",
+  "distractors": [
+   "Я позвоню в субботу.",
+   "Я не позвоню в пятницу."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich rufe am Freitag an."
+ },
+ {
+  "item_id": "ch05_L5_read_5",
+  "id": "ch05_L5_read_5",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_044",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "В воскресенье я не встаю.",
+  "distractors": [
+   "В воскресенье я встаю.",
+   "В субботу я не встаю."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Sonntag stehe ich nicht auf."
+ },
+ {
+  "item_id": "ch05_L5_speak_1",
+  "id": "ch05_L5_speak_1",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_040",
+  "prompt": "Спроси: «У тебя есть время в уик-энд?»",
+  "answer": "Hast du am Wochenende Zeit?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch05_040.mp3",
+  "de": null,
+  "accept": [
+   "Hast du am Wochenende Zeit?"
+  ]
+ },
+ {
+  "item_id": "ch05_L5_speak_2",
+  "id": "ch05_L5_speak_2",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_041",
+  "prompt": "Скажи: «В субботу я устраиваю пикник.»",
+  "answer": "Am Samstag mache ich ein Picknick.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_041.mp3",
+  "de": null,
+  "accept": [
+   "Am Samstag mache ich ein Picknick."
+  ]
+ },
+ {
+  "item_id": "ch05_L5_speak_3",
+  "id": "ch05_L5_speak_3",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_042",
+  "prompt": "Скажи: «Я приглашаю друзей.»",
+  "answer": "Ich lade Freunde ein.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_042.mp3",
+  "de": null,
+  "accept": [
+   "Ich lade Freunde ein."
+  ]
+ },
+ {
+  "item_id": "ch05_L5_speak_4",
+  "id": "ch05_L5_speak_4",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_043",
+  "prompt": "Скажи: «Я позвоню в пятницу.»",
+  "answer": "Ich rufe am Freitag an.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_043.mp3",
+  "de": null,
+  "accept": [
+   "Ich rufe am Freitag an."
+  ]
+ },
+ {
+  "item_id": "ch05_L5_speak_5",
+  "id": "ch05_L5_speak_5",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_044",
+  "prompt": "Скажи: «В воскресенье я не встаю.»",
+  "answer": "Am Sonntag stehe ich nicht auf.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_044.mp3",
+  "de": null,
+  "accept": [
+   "Am Sonntag stehe ich nicht auf."
+  ]
+ },
+ {
+  "item_id": "ch05_L5_write_1",
+  "id": "ch05_L5_write_1",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_040",
+  "prompt": "Впиши: «Hast du am ___ Zeit?» (уик-энд)",
+  "answer": "Wochenende",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch05_040.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L5_write_2",
+  "id": "ch05_L5_write_2",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_042",
+  "prompt": "Впиши: «Ich lade Freunde ___.» (приставка)",
+  "answer": "ein",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_042.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L5_write_3",
+  "id": "ch05_L5_write_3",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_043",
+  "prompt": "Впиши: «Ich rufe am Freitag ___.» (приставка)",
+  "answer": "an",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_043.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L5_write_4",
+  "id": "ch05_L5_write_4",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_044",
+  "prompt": "Впиши: «Am Sonntag stehe ich ___ auf.» (не)",
+  "answer": "nicht",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_044.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L5_write_5",
+  "id": "ch05_L5_write_5",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_045",
+  "prompt": "Впиши: «Ich ___ am Sonntag Freunde.» (навещаю)",
+  "answer": "besuche",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_045.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L5_why_1",
+  "id": "ch05_L5_why_1",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_044",
+  "prompt": "Почему «Am Sonntag stehe ich nicht auf», а не «Am Sonntag stehe ich auf nicht»?",
+  "answer": "nicht стоит почти в конце, но перед последним вагоном — перед auf.",
+  "distractors": [
+   "Потому что nicht должно стоять после приставки auf.",
+   "Потому что nicht — действие, а действие идёт в вагон №2 после ich."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Sonntag stehe ich nicht auf."
+ },
+ {
+  "item_id": "ch05_L5_why_2",
+  "id": "ch05_L5_why_2",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_042",
+  "prompt": "Почему «Ich lade Freunde ein», а не «Ich ein lade Freunde»?",
+  "answer": "einladen разваливается: lade — вагон №2, а ein уходит в самый конец.",
+  "distractors": [
+   "Потому что Freunde просит приставку впереди.",
+   "Потому что ich стоит после приставки ein."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich lade Freunde ein."
+ },
+ {
+  "item_id": "ch05_L5_why_3",
+  "id": "ch05_L5_why_3",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_043",
+  "prompt": "Почему «Ich rufe am Freitag an», а не «Ich rufe an am Freitag»?",
+  "answer": "Приставка an уходит в самый конец, после времени am Freitag.",
+  "distractors": [
+   "Потому что am Freitag должно стоять после приставки.",
+   "Потому что rufe держит приставку an рядом с собой."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich rufe am Freitag an."
+ },
+ {
+  "item_id": "ch05_L5_why_4",
+  "id": "ch05_L5_why_4",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_040",
+  "prompt": "Почему «Hast du am Wochenende Zeit?» начинается с hast?",
+  "answer": "Это вопрос «да/нет»: действие идёт вперёд, в вагон №1.",
+  "distractors": [
+   "Потому что am Wochenende — вопрос-слово.",
+   "Потому что Zeit нельзя ставить в конец."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Hast du am Wochenende Zeit?"
+ },
+ {
+  "item_id": "ch05_L5_why_5",
+  "id": "ch05_L5_why_5",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_045",
+  "prompt": "Почему Wochenende пишется с большой буквы?",
+  "answer": "Это слово-предмет, существительное: das Wochenende.",
+  "distractors": [
+   "Потому что оно стоит после am.",
+   "Потому что это длинное слово."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich besuche am Sonntag Freunde."
+ },
+ {
+  "item_id": "ch05_L5_transfer_1",
+  "id": "ch05_L5_transfer_1",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_t09",
+  "prompt": "Скажи: «Я позвоню в воскресенье.»",
+  "answer": "Ich rufe am Sonntag an.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t09.mp3",
+  "de": null,
+  "accept": [
+   "Ich rufe am Sonntag an."
+  ]
+ },
+ {
+  "item_id": "ch05_L5_transfer_2",
+  "id": "ch05_L5_transfer_2",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_t10",
+  "prompt": "Скажи: «В субботу я не позвоню.»",
+  "answer": "Am Samstag rufe ich nicht an.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t10.mp3",
+  "de": null,
+  "accept": [
+   "Am Samstag rufe ich nicht an."
+  ]
+ },
+ {
+  "item_id": "ch05_L5_transfer_3",
+  "id": "ch05_L5_transfer_3",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_t10",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "В субботу я не позвоню.",
+  "distractors": [
+   "В субботу я позвоню.",
+   "В воскресенье я не позвоню."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L5_transfer_4",
+  "id": "ch05_L5_transfer_4",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_t10",
+  "prompt": "Впиши: «Am Samstag ___ ich nicht an.» (позвоню)",
+  "answer": "rufe",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L5_transfer_5",
+  "id": "ch05_L5_transfer_5",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_t10",
+  "prompt": "Почему в «Am Samstag rufe ich nicht an» слово nicht стоит перед an?",
+  "answer": "nicht — почти в конце, но перед последним вагоном: перед an.",
+  "distractors": [
+   "Потому что nicht — это приставка к слову an.",
+   "Потому что nicht идёт сразу после ich."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": null,
+  "de": "Am Samstag rufe ich nicht an."
+ },
+ {
+  "item_id": "ch05_L5_boss_1",
+  "id": "ch05_L5_boss_1",
+  "lesson": "ch05_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_d5_03",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "В субботу в тринадцать часов я устраиваю пикник.",
+  "distractors": [
+   "В воскресенье в тринадцать часов я устраиваю пикник.",
+   "В субботу в четырнадцать часов я устраиваю пикник."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Samstag um dreizehn Uhr mache ich ein Picknick."
+ },
+ {
+  "item_id": "ch05_L6_words_1",
+  "id": "ch05_L6_words_1",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_050",
+  "prompt": "Что значит «morgen» с маленькой буквы?",
+  "answer": "завтра",
+  "distractors": [
+   "утро",
+   "вчера"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L6_words_2",
+  "id": "ch05_L6_words_2",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_051",
+  "prompt": "Что значит «frühstücke»?",
+  "answer": "завтракаю",
+  "distractors": [
+   "ужинаю",
+   "готовлю"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L6_words_3",
+  "id": "ch05_L6_words_3",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_052",
+  "prompt": "Что значит «Fußball spielen»?",
+  "answer": "играть в футбол",
+  "distractors": [
+   "смотреть футбол",
+   "читать о футболе"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L6_words_4",
+  "id": "ch05_L6_words_4",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_053",
+  "prompt": "Что значит «Musik hören»?",
+  "answer": "слушать музыку",
+  "distractors": [
+   "играть музыку",
+   "смотреть кино"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L6_words_5",
+  "id": "ch05_L6_words_5",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_054",
+  "prompt": "Что значит «die Woche planen»?",
+  "answer": "планировать неделю",
+  "distractors": [
+   "планировать отпуск",
+   "приглашать на неделю"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L6_words_6",
+  "id": "ch05_L6_words_6",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_050",
+  "prompt": "Что значит «Was machst du»?",
+  "answer": "что ты делаешь",
+  "distractors": [
+   "что ты видишь",
+   "где ты живёшь"
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L6_listen_1",
+  "id": "ch05_L6_listen_1",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d6_03",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Что ты делаешь завтра?",
+  "distractors": [
+   "Что ты делаешь вечером?",
+   "Когда ты встаёшь?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d6_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L6_listen_2",
+  "id": "ch05_L6_listen_2",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d6_04",
+  "prompt": "Послушай. Во сколько герой завтракает завтра?",
+  "answer": "в восемь часов",
+  "distractors": [
+   "в семь часов",
+   "в девять часов"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d6_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L6_listen_3",
+  "id": "ch05_L6_listen_3",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d6_06",
+  "prompt": "Послушай. До какого часа у героя есть время?",
+  "answer": "до половины четвёртого",
+  "distractors": [
+   "до трёх часов",
+   "до половины третьего"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d6_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L6_listen_4",
+  "id": "ch05_L6_listen_4",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d6_08",
+  "prompt": "Послушай. Что герой делает в субботу?",
+  "answer": "играет в футбол",
+  "distractors": [
+   "слушает музыку",
+   "планирует неделю"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d6_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L6_listen_5",
+  "id": "ch05_L6_listen_5",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d6_12",
+  "prompt": "Послушай. Что герой делает в воскресенье?",
+  "answer": "планирует неделю",
+  "distractors": [
+   "играет в футбол",
+   "слушает музыку"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d6_12.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L6_read_1",
+  "id": "ch05_L6_read_1",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_050",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Что ты делаешь завтра?",
+  "distractors": [
+   "Что ты делаешь вечером?",
+   "Что ты делаешь в субботу?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Was machst du morgen?"
+ },
+ {
+  "item_id": "ch05_L6_read_2",
+  "id": "ch05_L6_read_2",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_051",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Завтра я завтракаю в восемь часов.",
+  "distractors": [
+   "Сегодня я завтракаю в восемь часов.",
+   "Завтра я завтракаю в семь часов."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich frühstücke morgen um acht Uhr."
+ },
+ {
+  "item_id": "ch05_L6_read_3",
+  "id": "ch05_L6_read_3",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_052",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "В субботу я играю в футбол.",
+  "distractors": [
+   "В воскресенье я играю в футбол.",
+   "В субботу я смотрю футбол."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Samstag spiele ich Fußball."
+ },
+ {
+  "item_id": "ch05_L6_read_4",
+  "id": "ch05_L6_read_4",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_053",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Вечером я слушаю музыку.",
+  "distractors": [
+   "Утром я слушаю музыку.",
+   "Вечером я играю музыку."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Abend höre ich Musik."
+ },
+ {
+  "item_id": "ch05_L6_read_5",
+  "id": "ch05_L6_read_5",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_054",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "В воскресенье я планирую неделю.",
+  "distractors": [
+   "В субботу я планирую неделю.",
+   "В воскресенье я планирую отпуск."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Sonntag plane ich die Woche."
+ },
+ {
+  "item_id": "ch05_L6_speak_1",
+  "id": "ch05_L6_speak_1",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_050",
+  "prompt": "Спроси: «Что ты делаешь завтра?»",
+  "answer": "Was machst du morgen?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch05_050.mp3",
+  "de": null,
+  "accept": [
+   "Was machst du morgen?"
+  ]
+ },
+ {
+  "item_id": "ch05_L6_speak_2",
+  "id": "ch05_L6_speak_2",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_051",
+  "prompt": "Скажи: «Завтра я завтракаю в восемь часов.»",
+  "answer": "Ich frühstücke morgen um acht Uhr.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_051.mp3",
+  "de": null,
+  "accept": [
+   "Ich frühstücke morgen um acht Uhr."
+  ]
+ },
+ {
+  "item_id": "ch05_L6_speak_3",
+  "id": "ch05_L6_speak_3",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_052",
+  "prompt": "Скажи: «В субботу я играю в футбол.»",
+  "answer": "Am Samstag spiele ich Fußball.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_052.mp3",
+  "de": null,
+  "accept": [
+   "Am Samstag spiele ich Fußball."
+  ]
+ },
+ {
+  "item_id": "ch05_L6_speak_4",
+  "id": "ch05_L6_speak_4",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_053",
+  "prompt": "Скажи: «Вечером я слушаю музыку.»",
+  "answer": "Am Abend höre ich Musik.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_053.mp3",
+  "de": null,
+  "accept": [
+   "Am Abend höre ich Musik."
+  ]
+ },
+ {
+  "item_id": "ch05_L6_speak_5",
+  "id": "ch05_L6_speak_5",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_054",
+  "prompt": "Скажи: «В воскресенье я планирую неделю.»",
+  "answer": "Am Sonntag plane ich die Woche.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_054.mp3",
+  "de": null,
+  "accept": [
+   "Am Sonntag plane ich die Woche."
+  ]
+ },
+ {
+  "item_id": "ch05_L6_write_1",
+  "id": "ch05_L6_write_1",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_050",
+  "prompt": "Впиши: «Was machst du ___?» (завтра)",
+  "answer": "morgen",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch05_050.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L6_write_2",
+  "id": "ch05_L6_write_2",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_051",
+  "prompt": "Впиши: «Ich ___ morgen um acht Uhr.» (завтракаю)",
+  "answer": "frühstücke",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_051.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L6_write_3",
+  "id": "ch05_L6_write_3",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_052",
+  "prompt": "Впиши: «Am Samstag ___ ich Fußball.» (играю)",
+  "answer": "spiele",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_052.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L6_write_4",
+  "id": "ch05_L6_write_4",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_053",
+  "prompt": "Впиши: «Am Abend ___ ich Musik.» (слушаю)",
+  "answer": "höre",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_053.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L6_write_5",
+  "id": "ch05_L6_write_5",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_054",
+  "prompt": "Впиши: «Am Sonntag ___ ich die Woche.» (планирую)",
+  "answer": "plane",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_054.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L6_why_1",
+  "id": "ch05_L6_why_1",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_050",
+  "prompt": "Почему «Was machst du morgen?», а не «Was du machst morgen?»",
+  "answer": "После Was сразу идёт действие machst — вагон №2.",
+  "distractors": [
+   "morgen — вопрос-слово, поэтому machst идёт вперёд.",
+   "du всегда идёт сразу после Was, а machst — за ним."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Was machst du morgen?"
+ },
+ {
+  "item_id": "ch05_L6_why_2",
+  "id": "ch05_L6_why_2",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_051",
+  "prompt": "Почему «frühstücke», а не «frühstückt»?",
+  "answer": "С ich у действия хвост -e: ich frühstücke.",
+  "distractors": [
+   "С ich у действия хвост -t: ich frühstückt.",
+   "С ich гласная меняется на ü: ich frühstück."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich frühstücke morgen um acht Uhr."
+ },
+ {
+  "item_id": "ch05_L6_why_3",
+  "id": "ch05_L6_why_3",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_052",
+  "prompt": "Почему «Am Samstag spiele ich Fußball», а не «Am Samstag ich spiele Fußball»?",
+  "answer": "Вагон №1 занят временем, но spiele всё равно вагон №2.",
+  "distractors": [
+   "ich всегда стоит перед действием, даже после времени.",
+   "Fußball — вагон №2, поэтому spiele уходит в начало."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Samstag spiele ich Fußball."
+ },
+ {
+  "item_id": "ch05_L6_why_4",
+  "id": "ch05_L6_why_4",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_054",
+  "prompt": "Почему Woche пишется с большой буквы?",
+  "answer": "Это слово-предмет, существительное: die Woche.",
+  "distractors": [
+   "С большой буквы пишут любое слово после die.",
+   "Длинные слова в немецком пишут с большой буквы."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Sonntag plane ich die Woche."
+ },
+ {
+  "item_id": "ch05_L6_why_5",
+  "id": "ch05_L6_why_5",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_053",
+  "prompt": "Почему «Am Abend höre ich Musik», а не «Am Abend ich höre Musik»?",
+  "answer": "Вагон №1 занят временем, но höre всё равно вагон №2.",
+  "distractors": [
+   "Musik — вагон №2, поэтому höre уходит в начало.",
+   "ich всегда стоит перед действием, даже после времени."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Abend höre ich Musik."
+ },
+ {
+  "item_id": "ch05_L6_transfer_1",
+  "id": "ch05_L6_transfer_1",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_t11",
+  "prompt": "Скажи: «В субботу я слушаю музыку.»",
+  "answer": "Am Samstag höre ich Musik.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t11.mp3",
+  "de": null,
+  "accept": [
+   "Am Samstag höre ich Musik."
+  ]
+ },
+ {
+  "item_id": "ch05_L6_transfer_2",
+  "id": "ch05_L6_transfer_2",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_t12",
+  "prompt": "Скажи: «Завтра я не завтракаю.»",
+  "answer": "Ich frühstücke morgen nicht.",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t12.mp3",
+  "de": null,
+  "accept": [
+   "Ich frühstücke morgen nicht."
+  ]
+ },
+ {
+  "item_id": "ch05_L6_transfer_3",
+  "id": "ch05_L6_transfer_3",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_t12",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Завтра я не завтракаю.",
+  "distractors": [
+   "Завтра я завтракаю.",
+   "Сегодня я не завтракаю."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t12.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L6_transfer_4",
+  "id": "ch05_L6_transfer_4",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_t12",
+  "prompt": "Впиши: «Ich ___ morgen nicht.» (завтракаю)",
+  "answer": "frühstücke",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t12.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L6_transfer_5",
+  "id": "ch05_L6_transfer_5",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_t12",
+  "prompt": "Почему в «Ich frühstücke morgen nicht» слово nicht стоит в самом конце?",
+  "answer": "После nicht нет хвоста, поэтому nicht — в самом конце фразы.",
+  "distractors": [
+   "Потому что nicht — это приставка к слову frühstücke.",
+   "Потому что nicht идёт сразу после ich."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": true,
+  "audio": null,
+  "de": "Ich frühstücke morgen nicht."
+ },
+ {
+  "item_id": "ch05_L6_boss_1",
+  "id": "ch05_L6_boss_1",
+  "lesson": "ch05_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_d6_06",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У меня есть время до половины четвёртого.",
+  "distractors": [
+   "У меня есть время до трёх часов.",
+   "У меня есть время до половины третьего."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe bis halb vier Zeit."
+ },
+ {
+  "item_id": "ch05_L7_words_1",
+  "id": "ch05_L7_words_1",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_057",
+  "prompt": "Что значит «kaufe … ein»?",
+  "answer": "делаю покупки",
+  "distractors": [
+   "готовлю еду",
+   "звоню другу"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L7_words_2",
+  "id": "ch05_L7_words_2",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_058",
+  "prompt": "Что значит «räume … auf»?",
+  "answer": "убираю",
+  "distractors": [
+   "встаю",
+   "звоню"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L7_words_3",
+  "id": "ch05_L7_words_3",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_059",
+  "prompt": "Что значит «sehe … fern»?",
+  "answer": "смотрю телевизор",
+  "distractors": [
+   "слушаю радио",
+   "смотрю в окно"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L7_words_4",
+  "id": "ch05_L7_words_4",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_060",
+  "prompt": "Что значит «Siehst du am Samstag fern?»",
+  "answer": "Ты смотришь в субботу телевизор?",
+  "distractors": [
+   "Ты смотришь в воскресенье телевизор?",
+   "Ты слушаешь в субботу радио?"
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L7_words_5",
+  "id": "ch05_L7_words_5",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_061",
+  "prompt": "Что значит «fahre … Rad»?",
+  "answer": "катаюсь на велосипеде",
+  "distractors": [
+   "езжу на автобусе",
+   "звоню"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L7_listen_1",
+  "id": "ch05_L7_listen_1",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d7_02",
+  "prompt": "Послушай. Что герой делает в субботу?",
+  "answer": "делает покупки",
+  "distractors": [
+   "убирает дом",
+   "ездит на велосипеде"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d7_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L7_listen_2",
+  "id": "ch05_L7_listen_2",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d7_04",
+  "prompt": "Послушай. Что герой делает в воскресенье?",
+  "answer": "убирает дом",
+  "distractors": [
+   "готовит еду",
+   "ездит на метро"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d7_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L7_listen_3",
+  "id": "ch05_L7_listen_3",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d7_06",
+  "prompt": "Послушай. Когда герой смотрит телевизор?",
+  "answer": "в субботу",
+  "distractors": [
+   "в воскресенье",
+   "в понедельник"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d7_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L7_listen_4",
+  "id": "ch05_L7_listen_4",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d7_08",
+  "prompt": "Послушай. Во сколько герой встаёт в воскресенье?",
+  "answer": "в восемь часов",
+  "distractors": [
+   "в семь часов",
+   "в девять часов"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d7_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L7_listen_5",
+  "id": "ch05_L7_listen_5",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d7_10",
+  "prompt": "Послушай. На чём герой катается в воскресенье?",
+  "answer": "на велосипеде",
+  "distractors": [
+   "на автобусе",
+   "на машине"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d7_10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L7_read_1",
+  "id": "ch05_L7_read_1",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_057",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "В субботу я делаю покупки.",
+  "distractors": [
+   "В воскресенье я делаю покупки.",
+   "В субботу я убираю."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Samstag kaufe ich ein."
+ },
+ {
+  "item_id": "ch05_L7_read_2",
+  "id": "ch05_L7_read_2",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_058",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "В воскресенье я убираю.",
+  "distractors": [
+   "В субботу я убираю.",
+   "В воскресенье я делаю покупки."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Sonntag räume ich auf."
+ },
+ {
+  "item_id": "ch05_L7_read_3",
+  "id": "ch05_L7_read_3",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_059",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "В воскресенье я смотрю телевизор.",
+  "distractors": [
+   "В воскресенье я слушаю радио.",
+   "В субботу я смотрю телевизор."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Sonntag sehe ich fern."
+ },
+ {
+  "item_id": "ch05_L7_read_4",
+  "id": "ch05_L7_read_4",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_060",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Ты смотришь в субботу телевизор?",
+  "distractors": [
+   "Ты смотришь в воскресенье телевизор?",
+   "Я смотрю в субботу телевизор."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Siehst du am Samstag fern?"
+ },
+ {
+  "item_id": "ch05_L7_read_5",
+  "id": "ch05_L7_read_5",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_061",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "В воскресенье я катаюсь на велосипеде.",
+  "distractors": [
+   "В субботу я езжу на велосипеде.",
+   "В воскресенье я убираю."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Sonntag fahre ich Rad."
+ },
+ {
+  "item_id": "ch05_L7_speak_1",
+  "id": "ch05_L7_speak_1",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_057",
+  "prompt": "Скажи: «В субботу я делаю покупки.»",
+  "answer": "Am Samstag kaufe ich ein.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_057.mp3",
+  "de": null,
+  "accept": [
+   "Am Samstag kaufe ich ein."
+  ]
+ },
+ {
+  "item_id": "ch05_L7_speak_2",
+  "id": "ch05_L7_speak_2",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_058",
+  "prompt": "Скажи: «В воскресенье я убираю.»",
+  "answer": "Am Sonntag räume ich auf.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_058.mp3",
+  "de": null,
+  "accept": [
+   "Am Sonntag räume ich auf."
+  ]
+ },
+ {
+  "item_id": "ch05_L7_speak_3",
+  "id": "ch05_L7_speak_3",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_059",
+  "prompt": "Скажи: «В воскресенье я смотрю телевизор.»",
+  "answer": "Am Sonntag sehe ich fern.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_059.mp3",
+  "de": null,
+  "accept": [
+   "Am Sonntag sehe ich fern."
+  ]
+ },
+ {
+  "item_id": "ch05_L7_speak_4",
+  "id": "ch05_L7_speak_4",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_060",
+  "prompt": "Спроси: «Ты смотришь в субботу телевизор?»",
+  "answer": "Siehst du am Samstag fern?",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_060.mp3",
+  "de": null,
+  "accept": [
+   "Siehst du am Samstag fern?"
+  ]
+ },
+ {
+  "item_id": "ch05_L7_speak_5",
+  "id": "ch05_L7_speak_5",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_061",
+  "prompt": "Скажи: «В воскресенье я катаюсь на велосипеде.»",
+  "answer": "Am Sonntag fahre ich Rad.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_061.mp3",
+  "de": null,
+  "accept": [
+   "Am Sonntag fahre ich Rad."
+  ]
+ },
+ {
+  "item_id": "ch05_L7_write_1",
+  "id": "ch05_L7_write_1",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_057",
+  "prompt": "Впиши: «Am Samstag ___ ich ein.» (делаю покупки)",
+  "answer": "kaufe",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_057.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L7_write_2",
+  "id": "ch05_L7_write_2",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_058",
+  "prompt": "Впиши: «Am Sonntag ___ ich auf.» (убираю)",
+  "answer": "räume",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_058.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L7_write_3",
+  "id": "ch05_L7_write_3",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_059",
+  "prompt": "Впиши: «Am Sonntag ___ ich fern.» (смотрю)",
+  "answer": "sehe",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_059.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L7_write_4",
+  "id": "ch05_L7_write_4",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_060",
+  "prompt": "Впиши: «Siehst du am Samstag ___?» (приставка)",
+  "answer": "fern",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch05_060.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L7_write_5",
+  "id": "ch05_L7_write_5",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_061",
+  "prompt": "Впиши: «Am Sonntag ___ ich Rad.» (катаюсь)",
+  "answer": "fahre",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_061.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L7_why_1",
+  "id": "ch05_L7_why_1",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_057",
+  "prompt": "Почему «Am Samstag kaufe ich ein», а не «Am Samstag ich kaufe ein»?",
+  "answer": "Вагон №1 занят временем, но kaufe всё равно вагон №2.",
+  "distractors": [
+   "ich всегда стоит перед действием, даже после времени.",
+   "ein — вагон №2, поэтому действие уходит в начало."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Samstag kaufe ich ein."
+ },
+ {
+  "item_id": "ch05_L7_why_2",
+  "id": "ch05_L7_why_2",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_058",
+  "prompt": "Почему в «Am Sonntag räume ich auf» слово auf стоит в самом конце?",
+  "answer": "Приставка auf уезжает в конец.",
+  "distractors": [
+   "Потому что auf — вагон №2.",
+   "Потому что auf — это время."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Sonntag räume ich auf."
+ },
+ {
+  "item_id": "ch05_L7_why_3",
+  "id": "ch05_L7_why_3",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_059",
+  "prompt": "Почему «sehe … fern» разделено на два места?",
+  "answer": "fern — приставка, она уезжает в конец.",
+  "distractors": [
+   "Потому что fern — это время дня.",
+   "Потому что sehe — вагон №1, не №2."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Sonntag sehe ich fern."
+ },
+ {
+  "item_id": "ch05_L7_why_4",
+  "id": "ch05_L7_why_4",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_060",
+  "prompt": "Почему «Siehst», а не «Sehst»?",
+  "answer": "У sehen с du гласная меняется: e → ie, du siehst.",
+  "distractors": [
+   "С du у sehen хвост -t, а гласная та же: du seht.",
+   "С du гласная не меняется, только хвост -st: du sehst."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Siehst du am Samstag fern?"
+ },
+ {
+  "item_id": "ch05_L7_why_5",
+  "id": "ch05_L7_why_5",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_061",
+  "prompt": "Почему Rad пишется с большой буквы?",
+  "answer": "Это слово-предмет, существительное: das Rad.",
+  "distractors": [
+   "С большой буквы пишут любое слово после fahre.",
+   "Короткие слова в немецком пишут с большой буквы."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Sonntag fahre ich Rad."
+ },
+ {
+  "item_id": "ch05_L7_transfer_1",
+  "id": "ch05_L7_transfer_1",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_t13",
+  "prompt": "Скажи: «В пятницу я делаю покупки.»",
+  "answer": "Am Freitag kaufe ich ein.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t13.mp3",
+  "de": null,
+  "accept": [
+   "Am Freitag kaufe ich ein."
+  ]
+ },
+ {
+  "item_id": "ch05_L7_transfer_2",
+  "id": "ch05_L7_transfer_2",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_t14",
+  "prompt": "Скажи: «В субботу я не смотрю телевизор.»",
+  "answer": "Am Samstag sehe ich nicht fern.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t14.mp3",
+  "de": null,
+  "accept": [
+   "Am Samstag sehe ich nicht fern."
+  ]
+ },
+ {
+  "item_id": "ch05_L7_transfer_3",
+  "id": "ch05_L7_transfer_3",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_t14",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "В субботу я не смотрю телевизор.",
+  "distractors": [
+   "В субботу я смотрю телевизор.",
+   "В воскресенье я не смотрю телевизор."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t14.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L7_transfer_4",
+  "id": "ch05_L7_transfer_4",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_t14",
+  "prompt": "Впиши: «Am Samstag ___ ich nicht fern.» (смотрю)",
+  "answer": "sehe",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t14.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L7_transfer_5",
+  "id": "ch05_L7_transfer_5",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_t14",
+  "prompt": "Почему в «Am Samstag sehe ich nicht fern» слово nicht стоит перед fern?",
+  "answer": "nicht — перед последним вагоном, перед хвостом fern.",
+  "distractors": [
+   "Потому что nicht — это приставка к слову sehe.",
+   "Потому что nicht идёт сразу после Am Samstag."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": true,
+  "audio": null,
+  "de": "Am Samstag sehe ich nicht fern."
+ },
+ {
+  "item_id": "ch05_L7_boss_1",
+  "id": "ch05_L7_boss_1",
+  "lesson": "ch05_L7",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_d7_12",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У меня есть время до половины четвёртого.",
+  "distractors": [
+   "У меня есть время до трёх часов.",
+   "У меня есть время до половины третьего."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe bis halb vier Zeit."
+ },
+ {
+  "item_id": "ch05_L8_words_1",
+  "id": "ch05_L8_words_1",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_064",
+  "prompt": "Что значит «lade … ein»?",
+  "answer": "приглашаю",
+  "distractors": [
+   "навещаю",
+   "убираю"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L8_words_2",
+  "id": "ch05_L8_words_2",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_065",
+  "prompt": "Что значит «besuche»?",
+  "answer": "навещаю",
+  "distractors": [
+   "звоню",
+   "убираю"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L8_words_3",
+  "id": "ch05_L8_words_3",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_066",
+  "prompt": "Что значит «Wir machen am Sonntag ein Picknick»?",
+  "answer": "В воскресенье мы устраиваем пикник.",
+  "distractors": [
+   "В воскресенье мы покупаем еду.",
+   "В субботу мы устраиваем пикник."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L8_words_4",
+  "id": "ch05_L8_words_4",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_067",
+  "prompt": "Что значит «Vormittags»?",
+  "answer": "до обеда",
+  "distractors": [
+   "после обеда",
+   "в полдень"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L8_words_5",
+  "id": "ch05_L8_words_5",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch05_068",
+  "prompt": "Что значит «Nachmittags»?",
+  "answer": "после обеда",
+  "distractors": [
+   "до обеда",
+   "в полдень"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch05_L8_listen_1",
+  "id": "ch05_L8_listen_1",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d8_02",
+  "prompt": "Послушай. Когда у героя есть время в воскресенье?",
+  "answer": "после обеда",
+  "distractors": [
+   "до обеда",
+   "в полдень"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d8_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L8_listen_2",
+  "id": "ch05_L8_listen_2",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d8_04",
+  "prompt": "Послушай. Когда герой делает покупки?",
+  "answer": "до обеда",
+  "distractors": [
+   "после обеда",
+   "в полдень"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d8_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L8_listen_3",
+  "id": "ch05_L8_listen_3",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d8_05",
+  "prompt": "Послушай. Кого приглашает Ольга?",
+  "answer": "друзей",
+  "distractors": [
+   "соседей",
+   "учителя"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d8_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L8_listen_4",
+  "id": "ch05_L8_listen_4",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d8_06",
+  "prompt": "Послушай. Что герой делает в субботу?",
+  "answer": "навещает друзей",
+  "distractors": [
+   "приглашает друзей",
+   "делает покупки"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d8_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L8_listen_5",
+  "id": "ch05_L8_listen_5",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_d8_08",
+  "prompt": "Послушай. Во сколько герой встаёт в воскресенье?",
+  "answer": "в восемь часов",
+  "distractors": [
+   "в семь часов",
+   "в девять часов"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch05_d8_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L8_read_1",
+  "id": "ch05_L8_read_1",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_064",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "В воскресенье я приглашаю друзей.",
+  "distractors": [
+   "В воскресенье я навещаю друзей.",
+   "В субботу я приглашаю друзей."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Sonntag lade ich Freunde ein."
+ },
+ {
+  "item_id": "ch05_L8_read_2",
+  "id": "ch05_L8_read_2",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_065",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "В субботу я навещаю друзей.",
+  "distractors": [
+   "В воскресенье я навещаю друзей.",
+   "В субботу я приглашаю друзей."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Samstag besuche ich Freunde."
+ },
+ {
+  "item_id": "ch05_L8_read_3",
+  "id": "ch05_L8_read_3",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_066",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "В воскресенье мы устраиваем пикник.",
+  "distractors": [
+   "В субботу мы устраиваем пикник.",
+   "В воскресенье мы покупаем еду."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wir machen am Sonntag ein Picknick."
+ },
+ {
+  "item_id": "ch05_L8_read_4",
+  "id": "ch05_L8_read_4",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_067",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "До обеда я делаю покупки.",
+  "distractors": [
+   "После обеда я делаю покупки.",
+   "До обеда я убираю."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Vormittags kaufe ich ein."
+ },
+ {
+  "item_id": "ch05_L8_read_5",
+  "id": "ch05_L8_read_5",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_068",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "После обеда у меня есть время.",
+  "distractors": [
+   "До обеда у меня есть время.",
+   "После обеда я делаю покупки."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Nachmittags habe ich Zeit."
+ },
+ {
+  "item_id": "ch05_L8_speak_1",
+  "id": "ch05_L8_speak_1",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_064",
+  "prompt": "Скажи: «В воскресенье я приглашаю друзей.»",
+  "answer": "Am Sonntag lade ich Freunde ein.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_064.mp3",
+  "de": null,
+  "accept": [
+   "Am Sonntag lade ich Freunde ein."
+  ]
+ },
+ {
+  "item_id": "ch05_L8_speak_2",
+  "id": "ch05_L8_speak_2",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_065",
+  "prompt": "Скажи: «В субботу я навещаю друзей.»",
+  "answer": "Am Samstag besuche ich Freunde.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_065.mp3",
+  "de": null,
+  "accept": [
+   "Am Samstag besuche ich Freunde."
+  ]
+ },
+ {
+  "item_id": "ch05_L8_speak_3",
+  "id": "ch05_L8_speak_3",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_066",
+  "prompt": "Скажи: «В воскресенье мы устраиваем пикник.» Пикник — «ein Picknick».",
+  "answer": "Wir machen am Sonntag ein Picknick.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_066.mp3",
+  "de": null,
+  "accept": [
+   "Wir machen am Sonntag ein Picknick."
+  ]
+ },
+ {
+  "item_id": "ch05_L8_speak_4",
+  "id": "ch05_L8_speak_4",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_067",
+  "prompt": "Скажи: «До обеда я делаю покупки.»",
+  "answer": "Vormittags kaufe ich ein.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_067.mp3",
+  "de": null,
+  "accept": [
+   "Vormittags kaufe ich ein."
+  ]
+ },
+ {
+  "item_id": "ch05_L8_speak_5",
+  "id": "ch05_L8_speak_5",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_068",
+  "prompt": "Скажи: «После обеда у меня есть время.»",
+  "answer": "Nachmittags habe ich Zeit.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_068.mp3",
+  "de": null,
+  "accept": [
+   "Nachmittags habe ich Zeit."
+  ]
+ },
+ {
+  "item_id": "ch05_L8_write_1",
+  "id": "ch05_L8_write_1",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_064",
+  "prompt": "Впиши: «Am Sonntag ___ ich Freunde ein.» (приглашаю)",
+  "answer": "lade",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_064.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L8_write_2",
+  "id": "ch05_L8_write_2",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_065",
+  "prompt": "Впиши: «Am Samstag ___ ich Freunde.» (навещаю)",
+  "answer": "besuche",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_065.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L8_write_3",
+  "id": "ch05_L8_write_3",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_066",
+  "prompt": "Впиши: «Wir ___ am Sonntag ein Picknick.» (устраиваем)",
+  "answer": "machen",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_066.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L8_write_4",
+  "id": "ch05_L8_write_4",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_067",
+  "prompt": "Впиши: «___ kaufe ich ein.» (до обеда)",
+  "answer": "Vormittags",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_067.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L8_write_5",
+  "id": "ch05_L8_write_5",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_068",
+  "prompt": "Впиши: «___ habe ich Zeit.» (после обеда)",
+  "answer": "Nachmittags",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch05_068.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L8_why_1",
+  "id": "ch05_L8_why_1",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_064",
+  "prompt": "Почему «Am Sonntag lade ich Freunde ein», а не «Am Sonntag ich lade Freunde ein»?",
+  "answer": "Вагон №1 занят временем, но lade всё равно вагон №2.",
+  "distractors": [
+   "ich всегда стоит перед действием, даже после времени.",
+   "ein — вагон №2, поэтому действие уходит в начало."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Sonntag lade ich Freunde ein."
+ },
+ {
+  "item_id": "ch05_L8_why_2",
+  "id": "ch05_L8_why_2",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_065",
+  "prompt": "Почему Freunde пишется с большой буквы?",
+  "answer": "Это слово-предмет, существительное: der Freund.",
+  "distractors": [
+   "Последнее слово фразы всегда пишут с большой буквы.",
+   "Длинные слова в немецком пишут с большой буквы."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Am Samstag besuche ich Freunde."
+ },
+ {
+  "item_id": "ch05_L8_why_3",
+  "id": "ch05_L8_why_3",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_066",
+  "prompt": "Почему «Wir machen», а не «Wir mache»?",
+  "answer": "С wir у действия хвост -en: wir machen.",
+  "distractors": [
+   "С wir у действия хвост -e: wir mache.",
+   "С wir у действия хвост -st: wir machst."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Wir machen am Sonntag ein Picknick."
+ },
+ {
+  "item_id": "ch05_L8_why_4",
+  "id": "ch05_L8_why_4",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_067",
+  "prompt": "Почему перед «Vormittags» нет слова am?",
+  "answer": "Слово vormittags уже значит «до обеда».",
+  "distractors": [
+   "Потому что am стоит в конце.",
+   "Потому что vormittags — это действие."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Vormittags kaufe ich ein."
+ },
+ {
+  "item_id": "ch05_L8_why_5",
+  "id": "ch05_L8_why_5",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_068",
+  "prompt": "Почему в «Nachmittags habe ich Zeit» после первого слова идёт habe?",
+  "answer": "Вагон №1 занят временем, действие — вагон №2.",
+  "distractors": [
+   "ich всегда идёт вторым, а habe — сразу за ним.",
+   "Zeit должно стоять рядом с первым словом фразы."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Nachmittags habe ich Zeit."
+ },
+ {
+  "item_id": "ch05_L8_transfer_1",
+  "id": "ch05_L8_transfer_1",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_t15",
+  "prompt": "Скажи: «В воскресенье я навещаю друзей.»",
+  "answer": "Am Sonntag besuche ich Freunde.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t15.mp3",
+  "de": null,
+  "accept": [
+   "Am Sonntag besuche ich Freunde."
+  ]
+ },
+ {
+  "item_id": "ch05_L8_transfer_2",
+  "id": "ch05_L8_transfer_2",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch05_t16",
+  "prompt": "Скажи: «В субботу мы устраиваем пикник.» Пикник — «ein Picknick».",
+  "answer": "Am Samstag machen wir ein Picknick.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t16.mp3",
+  "de": null,
+  "accept": [
+   "Am Samstag machen wir ein Picknick."
+  ]
+ },
+ {
+  "item_id": "ch05_L8_transfer_3",
+  "id": "ch05_L8_transfer_3",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch05_t16",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "В субботу мы устраиваем пикник.",
+  "distractors": [
+   "В субботу мы покупаем еду.",
+   "В воскресенье мы устраиваем пикник."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t16.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L8_transfer_4",
+  "id": "ch05_L8_transfer_4",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch05_t16",
+  "prompt": "Впиши: «Am Samstag ___ wir ein Picknick.» (устраиваем)",
+  "answer": "machen",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch05_t16.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch05_L8_transfer_5",
+  "id": "ch05_L8_transfer_5",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch05_t16",
+  "prompt": "Почему в «Am Samstag machen wir ein Picknick» слово machen стоит вторым?",
+  "answer": "Вагон №1 занят временем, но machen всё равно вагон №2.",
+  "distractors": [
+   "wir всегда идёт вторым, а machen — сразу за ним.",
+   "Picknick должно стоять рядом с первым словом фразы."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": null,
+  "de": "Am Samstag machen wir ein Picknick."
+ },
+ {
+  "item_id": "ch05_L8_boss_1",
+  "id": "ch05_L8_boss_1",
+  "lesson": "ch05_L8",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch05_d8_10",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "У меня есть время до половины четвёртого.",
+  "distractors": [
+   "У меня есть время до трёх часов.",
+   "У меня есть время до половины третьего."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich habe bis halb vier Zeit."
+ }
+]

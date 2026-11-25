@@ -1,0 +1,1778 @@
+{
+ "book": "Die neue Linie 1 A1 (Klett, 2022)",
+ "note": "Только названия тем и цели своими словами (кратко). Тексты учебника не копируются. Цели (SPRECHEN), разделы и страницы — из оглавления и карты учебника автора (private\\linie1\\toc_manual.json, research\\linie1\\chapters_map.json).",
+ "chapters": [
+  {
+   "n": 1,
+   "module": "A1.1",
+   "title_de": "Herzlich willkommen!",
+   "title_ru": "Добро пожаловать!",
+   "goals_ru": [
+    "поздороваться и представиться",
+    "спросить «как дела?» и ответить",
+    "сказать, откуда ты и где живёшь",
+    "продиктовать по буквам",
+    "представить другого",
+    "спросить и дать личные данные",
+    "страны и города; попрощаться"
+   ],
+   "grammar_ru": [
+    "kommen, wohnen, heißen, sein",
+    "вопросы wie? wer? woher? wo?"
+   ],
+   "goals_src": "SPRECHEN из research\\linie1\\chapters_map.json (учебник автора); goals_ru — краткий перевод",
+   "source": "Klett Probekapitel A1 (Inhalt, SPRECHEN): https://www.klett-sprachen.de/downloads/33643/die-neue-linie-1-oesterreich-probekapitel-a1/pdf ; https://klett.cz/uploads/66a23e5c0232e-w641670_daf_die_neue_linie_1_probekapitel_a1_260722_web.pdf ; private\\linie1\\toc_manual.json (оглавление учебника автора)",
+   "refs": {
+    "linie1": {
+     "kapitel": 1,
+     "pages": [
+      14,
+      29
+     ],
+     "kursbuch_pages": [
+      14,
+      21
+     ],
+     "uebungen_pages": [
+      22,
+      27
+     ],
+     "note": "страницы — из private\\linie1\\toc_manual.json; страницы по разделам — research\\linie1\\chapters_map.json (когда будет)"
+    },
+    "book_chulkov": "урок 2, стр. PDF 42"
+   },
+   "grammar_de_toc": [
+    "Verben und Personalpronomen kommen, wohnen, heißen, sein",
+    "Fragewörter wie? wer? woher? wo?",
+    "W-Fragen und Antworten"
+   ],
+   "goals_de": [
+    "jemanden begrüßen",
+    "sich vorstellen",
+    "fragen, wie es jemandem geht",
+    "die Herkunft nennen",
+    "buchstabieren",
+    "den Wohnort nennen",
+    "jemanden vorstellen",
+    "persönliche Informationen erfragen und geben",
+    "Länder und Städte benennen",
+    "sich verabschieden"
+   ],
+   "sections": [
+    {
+     "page": 14,
+     "section": "1 Bülent Keser in der Firma",
+     "topic": "Begrüßung im Büro / Videokonferenz",
+     "type": "lesson"
+    },
+    {
+     "page": 16,
+     "section": "3 Ich, du und Sie",
+     "topic": "du oder Sie; Wie geht's?",
+     "type": "lesson"
+    },
+    {
+     "page": 17,
+     "section": "4 Woher kommst du? | 5 Buchstabieren",
+     "topic": "Länder und Städte; Alphabet",
+     "type": "lesson"
+    },
+    {
+     "page": 18,
+     "section": "6 Wo wohnst du jetzt? | 7 Das ist Adita.",
+     "topic": "Wohnort nennen; jemanden vorstellen",
+     "type": "lesson"
+    },
+    {
+     "page": 19,
+     "section": "8 Die Anmeldung",
+     "topic": "Formular; Zahlen 0 bis 10",
+     "type": "lesson"
+    },
+    {
+     "page": 20,
+     "section": "9 Wie, woher, wo …?",
+     "topic": "W-Fragen",
+     "type": "lesson"
+    },
+    {
+     "page": 21,
+     "section": "10 Deutschland und die Nachbarländer",
+     "topic": "Nachbarländer, Städte in Deutschland, Verabschiedung",
+     "type": "lesson"
+    },
+    {
+     "page": 29,
+     "section": "Mein Deutsch nach Kapitel 1",
+     "topic": "Das kann ich / Das kenne ich",
+     "type": "review"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "module": "A1.1",
+   "title_de": "Kontakte",
+   "title_ru": "Контакты",
+   "goals_ru": [
+    "e-mail и числа 11–100",
+    "спросить и дать контакты (телефон, адрес)",
+    "где живу, откуда, какие языки, кем работаю"
+   ],
+   "grammar_ru": [
+    "sprechen, lernen, haben",
+    "вопрос was?",
+    "вопросы да/нет и ответы"
+   ],
+   "goals_src": "SPRECHEN из research\\linie1\\chapters_map.json (учебник автора); goals_ru — краткий перевод",
+   "source": "Klett Probekapitel A1 (Inhalt, SPRECHEN): https://www.klett-sprachen.de/downloads/33643/die-neue-linie-1-oesterreich-probekapitel-a1/pdf ; https://klett.cz/uploads/66a23e5c0232e-w641670_daf_die_neue_linie_1_probekapitel_a1_260722_web.pdf ; private\\linie1\\toc_manual.json (оглавление учебника автора)",
+   "refs": {
+    "linie1": {
+     "kapitel": 2,
+     "pages": [
+      30,
+      45
+     ],
+     "kursbuch_pages": [
+      30,
+      37
+     ],
+     "uebungen_pages": [
+      38,
+      43
+     ],
+     "note": "страницы — из private\\linie1\\toc_manual.json; страницы по разделам — research\\linie1\\chapters_map.json (когда будет)"
+    },
+    "book_chulkov": "урок 3, стр. PDF 66; урок 4, стр. PDF 88"
+   },
+   "grammar_de_toc": [
+    "Verben und Personalpronomen sprechen, lernen, haben",
+    "Fragewort was?",
+    "Ja/Nein-Fragen, Antworten"
+   ],
+   "goals_de": [
+    "E-Mail-Adressen nennen",
+    "Zahlen von 11 bis 100 nennen",
+    "Kontaktdaten erfragen und nennen",
+    "persönliche Angaben machen: Wohnort, Herkunftsland, Sprachen, Beruf"
+   ],
+   "sections": [
+    {
+     "page": 30,
+     "section": "1 Die Kontakte von Mila und Adita",
+     "topic": "Kontaktdaten",
+     "type": "lesson"
+    },
+    {
+     "page": 31,
+     "section": "2 Wie ist deine E-Mail-Adresse?",
+     "topic": "E-Mail-Adressen",
+     "type": "lesson"
+    },
+    {
+     "page": 32,
+     "section": "3 Artem macht eine Party. | 4 Zahlen von 11 bis 100",
+     "topic": "Einladung; Zahlen 11–100",
+     "type": "lesson"
+    },
+    {
+     "page": 33,
+     "section": "5 Neue Kontakte",
+     "topic": "Handynummer, E-Mail, soziale Medien",
+     "type": "lesson"
+    },
+    {
+     "page": 34,
+     "section": "6 Partygespräche",
+     "topic": "Smalltalk auf der Party: Herkunft, Sprachen, Wohnort",
+     "type": "lesson"
+    },
+    {
+     "page": 35,
+     "section": "7 Porträts",
+     "topic": "Länder und Sprachen; Kurzporträt",
+     "type": "lesson"
+    },
+    {
+     "page": 36,
+     "section": "8 Das Team",
+     "topic": "Berufe in der Firma",
+     "type": "lesson"
+    },
+    {
+     "page": 37,
+     "section": "9 Traumberufe | 10 Unser Kurs",
+     "topic": "Traumberufe von Kindern; Kursporträt",
+     "type": "lesson"
+    },
+    {
+     "page": 45,
+     "section": "Mein Deutsch nach Kapitel 2",
+     "topic": "Das kann ich / Das kenne ich",
+     "type": "review"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "module": "A1.1",
+   "title_de": "Wie heißt das auf Deutsch?",
+   "title_ru": "Как это по-немецки?",
+   "goals_ru": [
+    "назвать предметы",
+    "спросить, как слово по-немецки",
+    "спросить и рассказать о вещи",
+    "здания и места в городе"
+   ],
+   "grammar_ru": [
+    "der/die/das",
+    "ein/eine, kein/keine",
+    "mein/dein",
+    "просьбы на «Sie»",
+    "der/die/das → er/sie/es"
+   ],
+   "goals_src": "SPRECHEN из research\\linie1\\chapters_map.json (учебник автора); goals_ru — краткий перевод",
+   "source": "Klett Probekapitel A1 (Inhalt, SPRECHEN): https://www.klett-sprachen.de/downloads/33643/die-neue-linie-1-oesterreich-probekapitel-a1/pdf ; https://klett.cz/uploads/66a23e5c0232e-w641670_daf_die_neue_linie_1_probekapitel_a1_260722_web.pdf ; private\\linie1\\toc_manual.json (оглавление учебника автора)",
+   "refs": {
+    "linie1": {
+     "kapitel": 3,
+     "pages": [
+      50,
+      65
+     ],
+     "kursbuch_pages": [
+      50,
+      57
+     ],
+     "uebungen_pages": [
+      58,
+      63
+     ],
+     "note": "страницы — из private\\linie1\\toc_manual.json; страницы по разделам — research\\linie1\\chapters_map.json (когда будет)"
+    },
+    "book_chulkov": "урок 5, стр. PDF 114"
+   },
+   "grammar_de_toc": [
+    "bestimmter Artikel",
+    "unbestimmter Artikel: ein, eine",
+    "Negativartikel: kein, keine",
+    "Possessivartikel: mein/meine, dein/deine …",
+    "Artikel und Personalpronomen",
+    "Aufforderungen und Bitten: Sie"
+   ],
+   "goals_de": [
+    "Dinge benennen",
+    "nach Wörtern fragen",
+    "fragen, wie etwas auf Deutsch heißt",
+    "Informationen zu Dingen erfragen und geben",
+    "über Gebäude und Orte in der Stadt sprechen"
+   ],
+   "sections": [
+    {
+     "page": 50,
+     "section": "1 Was ist das?",
+     "topic": "Gegenstände zu Hause und im Büro",
+     "type": "lesson"
+    },
+    {
+     "page": 51,
+     "section": "1 Was ist das? | 2 Wichtige Dinge",
+     "topic": "Gegenstände; wichtige Dinge",
+     "type": "lesson"
+    },
+    {
+     "page": 52,
+     "section": "3 Im Kursraum",
+     "topic": "Gegenstände im Kursraum",
+     "type": "lesson"
+    },
+    {
+     "page": 53,
+     "section": "4 Wo ist mein Schlüssel?",
+     "topic": "Wem gehört das?",
+     "type": "lesson"
+    },
+    {
+     "page": 54,
+     "section": "5 Das ist keine Katze.",
+     "topic": "Zeichenrätsel",
+     "type": "lesson"
+    },
+    {
+     "page": 55,
+     "section": "6 Mein Computer ist kaputt.",
+     "topic": "Dinge funktionieren nicht / sind weg",
+     "type": "lesson"
+    },
+    {
+     "page": 56,
+     "section": "7 Wiederholen Sie bitte.",
+     "topic": "Bitten und Aufforderungen im Büro/Kurs",
+     "type": "lesson"
+    },
+    {
+     "page": 57,
+     "section": "8 Das ist meine Stadt.",
+     "topic": "Gebäude und Orte in der Stadt",
+     "type": "lesson"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "module": "A1.1",
+   "title_de": "Einen Kaffee, bitte.",
+   "title_ru": "Кофе, пожалуйста.",
+   "goals_ru": [
+    "еда и напитки, цены",
+    "заказать и заплатить в кафе",
+    "спросить «как дела?», спланировать праздник курса",
+    "количество"
+   ],
+   "grammar_ru": [
+    "möchten, arbeiten",
+    "сложные слова",
+    "ein/einen (кого-что)",
+    "единственное и множественное"
+   ],
+   "goals_src": "SPRECHEN из research\\linie1\\chapters_map.json (учебник автора); goals_ru — краткий перевод",
+   "source": "Klett Probekapitel A1 (Inhalt, SPRECHEN): https://www.klett-sprachen.de/downloads/33643/die-neue-linie-1-oesterreich-probekapitel-a1/pdf ; https://klett.cz/uploads/66a23e5c0232e-w641670_daf_die_neue_linie_1_probekapitel_a1_260722_web.pdf ; private\\linie1\\toc_manual.json (оглавление учебника автора)",
+   "refs": {
+    "linie1": {
+     "kapitel": 4,
+     "pages": [
+      66,
+      81
+     ],
+     "kursbuch_pages": [
+      66,
+      73
+     ],
+     "uebungen_pages": [
+      74,
+      79
+     ],
+     "note": "страницы — из private\\linie1\\toc_manual.json; страницы по разделам — research\\linie1\\chapters_map.json (когда будет)"
+    },
+    "book_chulkov": null
+   },
+   "grammar_de_toc": [
+    "Verben und Personalpronomen möchten, arbeiten",
+    "Komposita",
+    "unbestimmter Artikel: Nominativ und Akkusativ Singular",
+    "Artikel in Singular und Plural",
+    "Nomen in Singular und Plural"
+   ],
+   "goals_de": [
+    "Speisen und Getränke benennen",
+    "Preise erfragen und nennen",
+    "im Café bestellen und bezahlen",
+    "nach dem Befinden fragen und darauf antworten",
+    "ein Kursfest planen",
+    "Mengen angeben"
+   ],
+   "sections": []
+  },
+  {
+   "n": 5,
+   "module": "A1.1",
+   "title_de": "Die Woche von Familie Berger",
+   "title_ru": "Неделя семьи Бергер",
+   "goals_ru": [
+    "будни и свободное время, дни недели",
+    "время: который час",
+    "договориться о встрече, часы работы"
+   ],
+   "grammar_ru": [
+    "глаголы с меняющейся гласной",
+    "отделяемые приставки",
+    "wie? wann? wie lange?",
+    "am, um, von … bis"
+   ],
+   "goals_src": "SPRECHEN из research\\linie1\\chapters_map.json (учебник автора); goals_ru — краткий перевод",
+   "source": "Klett Probekapitel A1 (Inhalt, SPRECHEN): https://www.klett-sprachen.de/downloads/33643/die-neue-linie-1-oesterreich-probekapitel-a1/pdf ; https://klett.cz/uploads/66a23e5c0232e-w641670_daf_die_neue_linie_1_probekapitel_a1_260722_web.pdf ; private\\linie1\\toc_manual.json (оглавление учебника автора)",
+   "refs": {
+    "linie1": {
+     "kapitel": 5,
+     "pages": [
+      86,
+      101
+     ],
+     "kursbuch_pages": [
+      86,
+      93
+     ],
+     "uebungen_pages": [
+      94,
+      99
+     ],
+     "note": "страницы — из private\\linie1\\toc_manual.json; страницы по разделам — research\\linie1\\chapters_map.json (когда будет)"
+    },
+    "book_chulkov": null
+   },
+   "grammar_de_toc": [
+    "Verben mit Vokalwechsel",
+    "trennbare Verben",
+    "Fragewörter wie? wann? wie lange?",
+    "Präpositionen am, um, von … bis"
+   ],
+   "goals_de": [
+    "über Alltags- und Freizeitaktivitäten sprechen",
+    "die Wochentage benennen",
+    "nach der Uhrzeit fragen und sagen, wie spät es ist",
+    "Termine erfragen und Auskunft zu Terminen geben",
+    "Tageszeiten angeben",
+    "Aussagen zum Tagesablauf machen",
+    "Öffnungszeiten erfragen und nennen",
+    "sich verabreden"
+   ],
+   "sections": [
+    {
+     "page": 87,
+     "section": "1",
+     "topic": "Alltagsaktivitäten, Wochentage",
+     "type": "lesson"
+    },
+    {
+     "page": 88,
+     "section": "2",
+     "topic": "Uhrzeiten (offiziell)",
+     "type": "lesson"
+    },
+    {
+     "page": 89,
+     "section": "3",
+     "topic": "Termine",
+     "type": "lesson"
+    },
+    {
+     "page": 90,
+     "section": "4",
+     "topic": "Tageszeiten, Tagesablauf",
+     "type": "lesson"
+    },
+    {
+     "page": 91,
+     "section": "5",
+     "topic": "Uhrzeiten inoffiziell, Öffnungszeiten",
+     "type": "lesson"
+    },
+    {
+     "page": 92,
+     "section": "6",
+     "topic": "Das Wochenende, Freizeitaktivitäten",
+     "type": "lesson"
+    },
+    {
+     "page": 93,
+     "section": "7",
+     "topic": "Die Verabredung",
+     "type": "lesson"
+    },
+    {
+     "page": 101,
+     "section": "Mein Deutsch nach Kapitel 5 (Das kann ich / Das kenne ich)",
+     "topic": "Kapitelzusammenfassung Kapitel 5",
+     "type": "review"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "module": "A1.1",
+   "title_de": "Das schmeckt gut!",
+   "title_ru": "Вкусно!",
+   "goals_ru": [
+    "продукты, упаковки, количество",
+    "разговор в магазине, цена",
+    "комплименты; что люблю есть"
+   ],
+   "grammar_ru": [
+    "den/die/das (кого-что)",
+    "mögen, nehmen",
+    "места в предложении"
+   ],
+   "goals_src": "SPRECHEN из research\\linie1\\chapters_map.json (учебник автора); goals_ru — краткий перевод",
+   "source": "Klett Probekapitel A1 (Inhalt, SPRECHEN): https://www.klett-sprachen.de/downloads/33643/die-neue-linie-1-oesterreich-probekapitel-a1/pdf ; https://klett.cz/uploads/66a23e5c0232e-w641670_daf_die_neue_linie_1_probekapitel_a1_260722_web.pdf ; private\\linie1\\toc_manual.json (оглавление учебника автора)",
+   "refs": {
+    "linie1": {
+     "kapitel": 6,
+     "pages": [
+      102,
+      117
+     ],
+     "kursbuch_pages": [
+      102,
+      109
+     ],
+     "uebungen_pages": [
+      110,
+      115
+     ],
+     "note": "страницы — из private\\linie1\\toc_manual.json; страницы по разделам — research\\linie1\\chapters_map.json (когда будет)"
+    },
+    "book_chulkov": null
+   },
+   "grammar_de_toc": [
+    "bestimmter Artikel: Akkusativ",
+    "Verben und Personalpronomen mögen, nehmen",
+    "Positionen im Satz"
+   ],
+   "goals_de": [
+    "Lebensmittel, Verpackungen und Mengen benennen",
+    "Einkaufsgespräche führen",
+    "nach dem Preis fragen und darauf antworten",
+    "Komplimente machen",
+    "über Vorlieben beim Essen und über Gewohnheiten sprechen"
+   ],
+   "sections": [
+    {
+     "page": 102,
+     "section": "1",
+     "topic": "Lebensmittel (Kapitelstart)",
+     "type": "lesson"
+    },
+    {
+     "page": 103,
+     "section": "2",
+     "topic": "Essen am Wochenende, Gerichte",
+     "type": "lesson"
+    },
+    {
+     "page": 104,
+     "section": "3",
+     "topic": "Tim auf dem Markt; Mengen und Verpackungen",
+     "type": "lesson"
+    },
+    {
+     "page": 105,
+     "section": "4",
+     "topic": "Was kosten die Spaghetti? Preise, Angebote",
+     "type": "lesson"
+    },
+    {
+     "page": 106,
+     "section": "5–6",
+     "topic": "Die Einladung; Das Abendessen",
+     "type": "lesson"
+    },
+    {
+     "page": 107,
+     "section": "6c–7",
+     "topic": "Gespräche beim Essen; Komplimente",
+     "type": "lesson"
+    },
+    {
+     "page": 108,
+     "section": "8",
+     "topic": "Was magst du? Vorlieben beim Essen",
+     "type": "lesson"
+    },
+    {
+     "page": 109,
+     "section": "9",
+     "topic": "Frühstück in Deutschland",
+     "type": "lesson"
+    },
+    {
+     "page": 117,
+     "section": "Mein Deutsch nach Kapitel 6",
+     "topic": "Kapitelzusammenfassung Kapitel 6",
+     "type": "review"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "module": "A1.1",
+   "title_de": "Meine Familie und ich",
+   "title_ru": "Моя семья и я",
+   "goals_ru": [
+    "семья, семейное положение, возраст",
+    "что люблю, что могу и что должен",
+    "попросить помощи, small talk",
+    "страна, язык, национальность",
+    "рассказать о событии"
+   ],
+   "grammar_ru": [
+    "mein/dein …",
+    "war, hatte",
+    "können, müssen",
+    "скобка с können/müssen"
+   ],
+   "goals_src": "SPRECHEN из research\\linie1\\chapters_map.json (учебник автора); goals_ru — краткий перевод",
+   "source": "Klett Probekapitel A1 (Inhalt, SPRECHEN): https://www.klett-sprachen.de/downloads/33643/die-neue-linie-1-oesterreich-probekapitel-a1/pdf ; https://klett.cz/uploads/66a23e5c0232e-w641670_daf_die_neue_linie_1_probekapitel_a1_260722_web.pdf ; private\\linie1\\toc_manual.json (оглавление учебника автора)",
+   "refs": {
+    "linie1": {
+     "kapitel": 7,
+     "pages": [
+      122,
+      137
+     ],
+     "kursbuch_pages": [
+      122,
+      129
+     ],
+     "uebungen_pages": [
+      130,
+      135
+     ],
+     "note": "страницы — из private\\linie1\\toc_manual.json; страницы по разделам — research\\linie1\\chapters_map.json (когда будет)"
+    },
+    "book_chulkov": null
+   },
+   "grammar_de_toc": [
+    "Possessivartikel Singular",
+    "Präteritum von sein und haben",
+    "Modalverben können, müssen",
+    "Satzklammer mit Modalverben"
+   ],
+   "goals_de": [
+    "über die Familie sprechen",
+    "Angaben zu Familie, Familienstand und Alter machen",
+    "über Vorlieben sprechen",
+    "sagen, was man tun kann und muss",
+    "um Hilfe bitten",
+    "Smalltalk machen",
+    "Angaben zu Land, Sprache und Nationalität machen",
+    "über eine Veranstaltung berichten"
+   ],
+   "sections": [
+    {
+     "page": 122,
+     "section": "1",
+     "topic": "Jennys Familie (Kapitelstart), Familienwörter",
+     "type": "lesson"
+    },
+    {
+     "page": 123,
+     "section": "1d–f",
+     "topic": "Nachrichten der Familie; offiziell und privat",
+     "type": "lesson"
+    },
+    {
+     "page": 124,
+     "section": "2",
+     "topic": "Jennys Homepage",
+     "type": "lesson"
+    },
+    {
+     "page": 125,
+     "section": "3–4",
+     "topic": "Ihre Lieblingsfarbe; Farben; Familienstand; ich-Laut und ach-Laut",
+     "type": "lesson"
+    },
+    {
+     "page": 126,
+     "section": "5",
+     "topic": "Ich muss den Elternabend organisieren",
+     "type": "lesson"
+    },
+    {
+     "page": 127,
+     "section": "6",
+     "topic": "Jenny hat Stress; Elternabend organisieren",
+     "type": "lesson"
+    },
+    {
+     "page": 128,
+     "section": "7",
+     "topic": "Gespräche beim Elternabend; Land, Sprache, Nationalität",
+     "type": "lesson"
+    },
+    {
+     "page": 129,
+     "section": "8",
+     "topic": "Nach dem Elternabend; Treffen und Feste",
+     "type": "lesson"
+    },
+    {
+     "page": 137,
+     "section": "Mein Deutsch nach Kapitel 7",
+     "topic": "Kapitelzusammenfassung Kapitel 7",
+     "type": "review"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "module": "A1.1",
+   "title_de": "Hier wohnen wir.",
+   "title_ru": "Здесь мы живём.",
+   "goals_ru": [
+    "комнаты и мебель, описать квартиру",
+    "желания и намерения",
+    "правила и запреты",
+    "жильё в других странах, квартира мечты"
+   ],
+   "grammar_ru": [
+    "unser/euer …",
+    "wollen, dürfen",
+    "скобка с wollen/dürfen"
+   ],
+   "goals_src": "SPRECHEN из research\\linie1\\chapters_map.json (учебник автора); goals_ru — краткий перевод",
+   "source": "Klett Probekapitel A1 (Inhalt, SPRECHEN): https://www.klett-sprachen.de/downloads/33643/die-neue-linie-1-oesterreich-probekapitel-a1/pdf ; https://klett.cz/uploads/66a23e5c0232e-w641670_daf_die_neue_linie_1_probekapitel_a1_260722_web.pdf ; private\\linie1\\toc_manual.json (оглавление учебника автора)",
+   "refs": {
+    "linie1": {
+     "kapitel": 8,
+     "pages": [
+      138,
+      153
+     ],
+     "kursbuch_pages": [
+      138,
+      145
+     ],
+     "uebungen_pages": [
+      146,
+      151
+     ],
+     "note": "страницы — из private\\linie1\\toc_manual.json; страницы по разделам — research\\linie1\\chapters_map.json (когда будет)"
+    },
+    "book_chulkov": null
+   },
+   "grammar_de_toc": [
+    "Possessivartikel Plural",
+    "Modalverben wollen, dürfen",
+    "Satzklammer mit Modalverben"
+   ],
+   "goals_de": [
+    "Zimmer und Möbel benennen",
+    "eine Wohnung beschreiben",
+    "Wünsche und Absichten ausdrücken",
+    "über Regeln und Verbote sprechen",
+    "über das Wohnen in anderen Ländern sprechen",
+    "über Traumwohnungen sprechen"
+   ],
+   "sections": [
+    {
+     "page": 138,
+     "section": "1",
+     "topic": "Herzlich willkommen: Zimmer und Möbel (Kapitelstart)",
+     "type": "lesson"
+    },
+    {
+     "page": 139,
+     "section": "1c–d",
+     "topic": "Zimmer und Möbel; Was gibt es in der Wohnung?",
+     "type": "lesson"
+    },
+    {
+     "page": 140,
+     "section": "2",
+     "topic": "Eure Wohnung ist sehr schön; Gegensätze",
+     "type": "lesson"
+    },
+    {
+     "page": 141,
+     "section": "3",
+     "topic": "Wir wollen zusammen wohnen!",
+     "type": "lesson"
+    },
+    {
+     "page": 142,
+     "section": "4",
+     "topic": "Wir suchen eine Wohnung; Wohnungsanzeigen; große Zahlen",
+     "type": "lesson"
+    },
+    {
+     "page": 143,
+     "section": "5",
+     "topic": "Davi fragt im Forum Wohnen; Regeln und Verbote",
+     "type": "lesson"
+    },
+    {
+     "page": 144,
+     "section": "6",
+     "topic": "Wohnen in Deutschland",
+     "type": "lesson"
+    },
+    {
+     "page": 145,
+     "section": "7",
+     "topic": "Wir haben eine neue Wohnung; Traumwohnung",
+     "type": "lesson"
+    },
+    {
+     "page": 153,
+     "section": "Mein Deutsch nach Kapitel 8",
+     "topic": "Kapitelzusammenfassung Kapitel 8",
+     "type": "review"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "module": "A1.2",
+   "title_de": "Endlich Freizeit!",
+   "title_ru": "Наконец-то свободное время!",
+   "goals_ru": [
+    "о свободном времени",
+    "указать время",
+    "договориться о встрече",
+    "рассказать о прошлом",
+    "рассказать, что и когда делал(а)",
+    "о рабочем времени"
+   ],
+   "grammar_ru": [
+    "er/sie/es → ihn/sie/es (кого-что)",
+    "mein → meinen (кого-что)",
+    "wohin? in + кого-что",
+    "прошедшее с haben (habe gemacht)"
+   ],
+   "goals_src": "SPRECHEN из research\\linie1\\chapters_map.json (учебник автора); goals_ru — краткий перевод",
+   "source": "Klett Transkript A1.2 (Kapitel 9–16, заголовки): https://www.klett-international.com/en/downloads/30861/die-5fneue-5flinie-5f1-5fa1-2e2-2c-5ftranskript-5fzum-5fkurs-2d-5fund-5f-dcbungsbuch/pdf ; Klett Arbeitsblätter Grammatik A1.2: https://www.klett-international.com/de/downloads/33684/die-5fneue-5flinie-5f1-5fa1-2e2-5f-96-5farbeitsbl-e4tter-5fgrammatik/pdf ; private\\linie1\\toc_manual.json (оглавление учебника автора)",
+   "refs": {
+    "linie1": {
+     "kapitel": 9,
+     "pages": [
+      158,
+      173
+     ],
+     "kursbuch_pages": [
+      158,
+      165
+     ],
+     "uebungen_pages": [
+      166,
+      171
+     ],
+     "note": "страницы — из private\\linie1\\toc_manual.json; страницы по разделам — research\\linie1\\chapters_map.json (когда будет)"
+    },
+    "book_chulkov": null
+   },
+   "grammar_de_toc": [
+    "Personalpronomen im Nominativ und Akkusativ",
+    "Possessivartikel im Akkusativ",
+    "Wohin? in + Akkusativ",
+    "Perfekt mit haben",
+    "Partizip II"
+   ],
+   "goals_de": [
+    "über Freizeitaktivitäten sprechen",
+    "Zeitangaben machen",
+    "sich verabreden",
+    "über Vergangenes sprechen",
+    "erzählen, was man wann gemacht hat",
+    "über Arbeitszeiten sprechen"
+   ],
+   "sections": [
+    {
+     "page": 158,
+     "section": "1",
+     "topic": "Freizeitaktivitäten (Kapitelstart, A1.2)",
+     "type": "lesson"
+    },
+    {
+     "page": 159,
+     "section": "1c–d",
+     "topic": "Wie oft? Häufigkeitsangaben",
+     "type": "lesson"
+    },
+    {
+     "page": 160,
+     "section": "2",
+     "topic": "Kommst du mit? Chats",
+     "type": "lesson"
+    },
+    {
+     "page": 161,
+     "section": "3",
+     "topic": "Was machen wir am Samstag? Veranstaltungen",
+     "type": "lesson"
+    },
+    {
+     "page": 162,
+     "section": "4",
+     "topic": "Was hast du gemacht? Gestern und heute",
+     "type": "lesson"
+    },
+    {
+     "page": 163,
+     "section": "5",
+     "topic": "Ich habe alles gegessen; Zeitangaben Vergangenheit",
+     "type": "lesson"
+    },
+    {
+     "page": 164,
+     "section": "6",
+     "topic": "Wer arbeitet wann? Berufe, Arbeitszeiten",
+     "type": "lesson"
+    },
+    {
+     "page": 165,
+     "section": "7",
+     "topic": "Das möchte ich machen; Kursangebote",
+     "type": "lesson"
+    },
+    {
+     "page": 173,
+     "section": "Mein Deutsch nach Kapitel 9 (Das kann ich / Das kenne ich)",
+     "topic": "Freizeit, Verabredungen, Kurse",
+     "type": "review"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "module": "A1.2",
+   "title_de": "Neu hier?",
+   "title_ru": "Новенький здесь?",
+   "goals_ru": [
+    "что важно в новой стране",
+    "о прошлом",
+    "об опыте работы",
+    "что уже сделал(а)",
+    "рабочие указания и просьбы",
+    "сообщить личные данные",
+    "переспросить",
+    "попросить помощи",
+    "о своей биографии"
+   ],
+   "grammar_ru": [
+    "прошедшее с sein (bin gefahren)",
+    "прошедшее у отделяемых (habe angerufen)",
+    "прошедшее у -ieren и be-/er-/ver- (ohne ge-)"
+   ],
+   "goals_src": "SPRECHEN из research\\linie1\\chapters_map.json (учебник автора); goals_ru — краткий перевод",
+   "source": "Klett Transkript A1.2 (Kapitel 9–16, заголовки): https://www.klett-international.com/en/downloads/30861/die-5fneue-5flinie-5f1-5fa1-2e2-2c-5ftranskript-5fzum-5fkurs-2d-5fund-5f-dcbungsbuch/pdf ; Klett Arbeitsblätter Grammatik A1.2: https://www.klett-international.com/de/downloads/33684/die-5fneue-5flinie-5f1-5fa1-2e2-5f-96-5farbeitsbl-e4tter-5fgrammatik/pdf ; private\\linie1\\toc_manual.json (оглавление учебника автора)",
+   "refs": {
+    "linie1": {
+     "kapitel": 10,
+     "pages": [
+      174,
+      189
+     ],
+     "kursbuch_pages": [
+      174,
+      181
+     ],
+     "uebungen_pages": [
+      182,
+      187
+     ],
+     "note": "страницы — из private\\linie1\\toc_manual.json; страницы по разделам — research\\linie1\\chapters_map.json (когда будет)"
+    },
+    "book_chulkov": null
+   },
+   "grammar_de_toc": [
+    "Perfekt mit sein",
+    "Perfekt bei trennbaren Verben",
+    "Perfekt der Verben auf -ieren und der Verben mit be-, er-, ver-",
+    "Partizip II"
+   ],
+   "goals_de": [
+    "sagen, was in einem neuen Land wichtig ist",
+    "über Vergangenes sprechen",
+    "über Arbeitserfahrungen sprechen",
+    "sagen, was man schon gemacht hat",
+    "Arbeitsanweisungen und Aufforderungen formulieren",
+    "persönliche Daten mitteilen",
+    "Verständnisfragen stellen",
+    "um Hilfe bitten",
+    "über die eigene Biografie sprechen"
+   ],
+   "sections": [
+    {
+     "page": 174,
+     "section": "1 Endlich da!",
+     "topic": "Willkommenszentrum: Wohnen, Familie, Arbeit",
+     "type": "lesson"
+    },
+    {
+     "page": 175,
+     "section": "2 Neu in einem Land",
+     "topic": "Was ist wichtig in einem neuen Land: Mobilität, Deutsch lernen, Alltag",
+     "type": "lesson"
+    },
+    {
+     "page": 176,
+     "section": "3 So bin ich hierher gekommen.",
+     "topic": "Kurzporträt: neu in Deutschland",
+     "type": "lesson"
+    },
+    {
+     "page": 177,
+     "section": "4 Arbeitserfahrungen",
+     "topic": "Was hat man schon gemacht: Arbeitserfahrungen",
+     "type": "lesson"
+    },
+    {
+     "page": 178,
+     "section": "5 Im Personalbüro",
+     "topic": "Gespräch im Personalbüro",
+     "type": "lesson"
+    },
+    {
+     "page": 179,
+     "section": "6 Bei der Arbeit",
+     "topic": "Arbeitsanweisungen in der Küche",
+     "type": "lesson"
+    },
+    {
+     "page": 180,
+     "section": "7 Die Anmeldung",
+     "topic": "Anmeldung im Bürgeramt, Formular",
+     "type": "lesson"
+    },
+    {
+     "page": 181,
+     "section": "8 Neubürger/innen stellen sich vor.",
+     "topic": "Kurzvorstellungen, Biografie, Jahreszahlen",
+     "type": "lesson"
+    },
+    {
+     "page": 189,
+     "section": "Mein Deutsch nach Kapitel 10 (Das kann ich / Das kenne ich)",
+     "topic": "Vergangenes, Arbeitserfahrungen, Aufforderungen, persönliche Daten",
+     "type": "review"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "module": "A1.2",
+   "title_de": "Alles Gute!",
+   "title_ru": "Всего хорошего!",
+   "goals_ru": [
+    "о подарках",
+    "поздравить",
+    "сказать, кого поздравляешь",
+    "когда день рождения",
+    "что делаешь в разные времена года",
+    "что кому даришь",
+    "о дне рождения",
+    "о праздниках и обычаях",
+    "small talk"
+   ],
+   "grammar_ru": [
+    "meinem/meiner (кому)",
+    "первый, второй… (порядковые числа, дата)",
+    "mir/dir (кому)",
+    "im/am/ab — время",
+    "bei + кому"
+   ],
+   "goals_src": "SPRECHEN из research\\linie1\\chapters_map.json (учебник автора); goals_ru — краткий перевод",
+   "source": "Klett Transkript A1.2 (Kapitel 9–16, заголовки): https://www.klett-international.com/en/downloads/30861/die-5fneue-5flinie-5f1-5fa1-2e2-2c-5ftranskript-5fzum-5fkurs-2d-5fund-5f-dcbungsbuch/pdf ; Klett Arbeitsblätter Grammatik A1.2: https://www.klett-international.com/de/downloads/33684/die-5fneue-5flinie-5f1-5fa1-2e2-5f-96-5farbeitsbl-e4tter-5fgrammatik/pdf ; private\\linie1\\toc_manual.json (оглавление учебника автора)",
+   "refs": {
+    "linie1": {
+     "kapitel": 11,
+     "pages": [
+      194,
+      209
+     ],
+     "kursbuch_pages": [
+      194,
+      201
+     ],
+     "uebungen_pages": [
+      202,
+      207
+     ],
+     "note": "страницы — из private\\linie1\\toc_manual.json; страницы по разделам — research\\linie1\\chapters_map.json (когда будет)"
+    },
+    "book_chulkov": null
+   },
+   "grammar_de_toc": [
+    "Possessivartikel im Dativ",
+    "Ordinalzahlen",
+    "Personalpronomen im Dativ",
+    "temporale Präpositionen im, am, ab",
+    "bei + Dativ"
+   ],
+   "goals_de": [
+    "über Geschenke sprechen",
+    "Glückwünsche aussprechen",
+    "sagen, wem man gratuliert",
+    "sagen und fragen, wann man Geburtstag hat",
+    "sagen, was man in den Jahreszeiten macht",
+    "sagen und fragen, was man wem schenkt",
+    "über Geburtstage berichten",
+    "über Geburtstagsbräuche und Feste sprechen",
+    "Smalltalk machen"
+   ],
+   "sections": [
+    {
+     "page": 194,
+     "section": "1 Alles Gute!",
+     "topic": "Geburtstag im Büro, Glückwünsche",
+     "type": "lesson"
+    },
+    {
+     "page": 195,
+     "section": "1 Alles Gute! (Fortsetzung)",
+     "topic": "Geburtstagsfeier, Geschenke",
+     "type": "lesson"
+    },
+    {
+     "page": 196,
+     "section": "2 Hast du deinem Chef schon gratuliert? | 3 Frühling, Sommer, Herbst und Winter",
+     "topic": "Wem gratulieren; Jahreszeiten und Monate",
+     "type": "lesson"
+    },
+    {
+     "page": 197,
+     "section": "3d UND SIE? | 4 Geburtstage",
+     "topic": "Aktivitäten in den Jahreszeiten; Geburtstage, Datum",
+     "type": "lesson"
+    },
+    {
+     "page": 198,
+     "section": "5 Ich mache ein Fest.",
+     "topic": "Einladung zur Party, Zusage und Absage",
+     "type": "lesson"
+    },
+    {
+     "page": 199,
+     "section": "6 Hast du eine Idee?",
+     "topic": "Geschenke: was man wem schenkt",
+     "type": "lesson"
+    },
+    {
+     "page": 200,
+     "section": "7 Drei Feste",
+     "topic": "Berichte über Geburtstagsfeste, Bräuche",
+     "type": "lesson"
+    },
+    {
+     "page": 201,
+     "section": "8 Aditas Fest",
+     "topic": "Smalltalk auf einer Party",
+     "type": "lesson"
+    },
+    {
+     "page": 209,
+     "section": "Mein Deutsch nach Kapitel 11 (Das kann ich / Das kenne ich)",
+     "topic": "Glückwünsche, Geschenke, Einladungen, Feste, Smalltalk",
+     "type": "review"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "module": "A1.2",
+   "title_de": "Unterwegs",
+   "title_ru": "В пути",
+   "goals_ru": [
+    "места в городе",
+    "каким транспортом ездишь",
+    "откуда и куда",
+    "о поездах и пересадках",
+    "просьбы",
+    "описать дорогу",
+    "рассказать о городе"
+   ],
+   "grammar_ru": [
+    "dem/der (кому)",
+    "von, nach, zu, mit + кому",
+    "просьба на «du»",
+    "in/an + где"
+   ],
+   "goals_src": "SPRECHEN из research\\linie1\\chapters_map.json (учебник автора); goals_ru — краткий перевод",
+   "source": "Klett Transkript A1.2 (Kapitel 9–16, заголовки): https://www.klett-international.com/en/downloads/30861/die-5fneue-5flinie-5f1-5fa1-2e2-2c-5ftranskript-5fzum-5fkurs-2d-5fund-5f-dcbungsbuch/pdf ; Klett Arbeitsblätter Grammatik A1.2: https://www.klett-international.com/de/downloads/33684/die-5fneue-5flinie-5f1-5fa1-2e2-5f-96-5farbeitsbl-e4tter-5fgrammatik/pdf ; private\\linie1\\toc_manual.json (оглавление учебника автора)",
+   "refs": {
+    "linie1": {
+     "kapitel": 12,
+     "pages": [
+      210,
+      225
+     ],
+     "kursbuch_pages": [
+      210,
+      217
+     ],
+     "uebungen_pages": [
+      218,
+      223
+     ],
+     "note": "страницы — из private\\linie1\\toc_manual.json; страницы по разделам — research\\linie1\\chapters_map.json (когда будет)"
+    },
+    "book_chulkov": null
+   },
+   "grammar_de_toc": [
+    "bestimmter Artikel im Dativ",
+    "Präpositionen von, nach, zu, mit + Dativ",
+    "Imperativ: du-Form",
+    "Präpositionen in und an + Dativ"
+   ],
+   "goals_de": [
+    "Orte in der Stadt nennen",
+    "sagen, welche Verkehrsmittel man benutzt",
+    "Start und Ziel nennen",
+    "über Zugverbindungen sprechen",
+    "Aufforderungen formulieren",
+    "einen Weg beschreiben",
+    "eine Stadt vorstellen"
+   ],
+   "sections": [
+    {
+     "page": 210,
+     "section": "1 Ich komme nach Bremen!",
+     "topic": "Chat: Reise nach Bremen, Konzert",
+     "type": "lesson"
+    },
+    {
+     "page": 211,
+     "section": "1 Ich komme nach Bremen! (Fortsetzung) | 2 In der Stadt",
+     "topic": "Orte in der Stadt",
+     "type": "lesson"
+    },
+    {
+     "page": 212,
+     "section": "3 Ich fahre mit …",
+     "topic": "Verkehrsmittel",
+     "type": "lesson"
+    },
+    {
+     "page": 213,
+     "section": "4 Von der Sprachschule zum Bahnhof",
+     "topic": "Start und Ziel",
+     "type": "lesson"
+    },
+    {
+     "page": 214,
+     "section": "5 Am Bahnhof",
+     "topic": "Fahrkarte, Durchsagen, Zugverbindungen",
+     "type": "lesson"
+    },
+    {
+     "page": 215,
+     "section": "6 Ankunft in Bremen",
+     "topic": "Wegbeschreibung, Stadtplan",
+     "type": "lesson"
+    },
+    {
+     "page": 216,
+     "section": "7 Unterwegs in Bremen",
+     "topic": "Orte auf dem Stadtplan, Wege beschreiben",
+     "type": "lesson"
+    },
+    {
+     "page": 217,
+     "section": "8 Ein Stadtporträt",
+     "topic": "Stadtporträt Bremen, Himmelsrichtungen",
+     "type": "lesson"
+    },
+    {
+     "page": 225,
+     "section": "Mein Deutsch nach Kapitel 12 (Das kann ich / Das kenne ich)",
+     "topic": "Verkehrsmittel, Start und Ziel, Aufforderungen, Wege, Stadt vorstellen",
+     "type": "review"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "module": "A1.2",
+   "title_de": "Gute Besserung!",
+   "title_ru": "Выздоравливай!",
+   "goals_ru": [
+    "сказать, что болен(на)",
+    "советы и указания",
+    "записаться к врачу",
+    "разговор с врачом",
+    "разговор в аптеке",
+    "что делаешь для здоровья"
+   ],
+   "grammar_ru": [
+    "sollen",
+    "und, oder, aber"
+   ],
+   "goals_src": "SPRECHEN из research\\linie1\\chapters_map.json (учебник автора); goals_ru — краткий перевод",
+   "source": "Klett Transkript A1.2 (Kapitel 9–16, заголовки): https://www.klett-international.com/en/downloads/30861/die-5fneue-5flinie-5f1-5fa1-2e2-2c-5ftranskript-5fzum-5fkurs-2d-5fund-5f-dcbungsbuch/pdf ; Klett Arbeitsblätter Grammatik A1.2: https://www.klett-international.com/de/downloads/33684/die-5fneue-5flinie-5f1-5fa1-2e2-5f-96-5farbeitsbl-e4tter-5fgrammatik/pdf ; private\\linie1\\toc_manual.json (оглавление учебника автора)",
+   "refs": {
+    "linie1": {
+     "kapitel": 13,
+     "pages": [
+      230,
+      245
+     ],
+     "kursbuch_pages": [
+      230,
+      237
+     ],
+     "uebungen_pages": [
+      238,
+      243
+     ],
+     "note": "страницы — из private\\linie1\\toc_manual.json; страницы по разделам — research\\linie1\\chapters_map.json (когда будет)"
+    },
+    "book_chulkov": null
+   },
+   "grammar_de_toc": [
+    "Modalverb sollen",
+    "Satzverbindungen mit und, oder, aber"
+   ],
+   "goals_de": [
+    "sagen, dass man krank ist",
+    "Aufforderungen formulieren und wiedergeben",
+    "einen Arzttermin vereinbaren",
+    "ein Gespräch mit dem Arzt/der Ärztin führen",
+    "ein Gespräch in der Apotheke führen",
+    "sagen, was man für die Gesundheit macht"
+   ],
+   "sections": [
+    {
+     "page": 230,
+     "section": "1 Gesundheit!",
+     "topic": "Krankheit am Arbeitsplatz",
+     "type": "lesson"
+    },
+    {
+     "page": 231,
+     "section": "1 Gesundheit! (Fortsetzung)",
+     "topic": "Gespräche am Arbeitsplatz, Arzt, Versichertenkarte",
+     "type": "lesson"
+    },
+    {
+     "page": 232,
+     "section": "2 Ein Arzttermin",
+     "topic": "Arzttermin, Homepage einer Praxis, Aufforderungen",
+     "type": "lesson"
+    },
+    {
+     "page": 233,
+     "section": "3 Der Körper | 4 Praxis Dr. Pohl, guten Tag!",
+     "topic": "Körperteile; Arzttermin am Telefon",
+     "type": "lesson"
+    },
+    {
+     "page": 234,
+     "section": "5 Beim Arzt",
+     "topic": "Gespräch mit der Ärztin",
+     "type": "lesson"
+    },
+    {
+     "page": 235,
+     "section": "6 In der Apotheke",
+     "topic": "Medikamente kaufen, Dosierung",
+     "type": "lesson"
+    },
+    {
+     "page": 236,
+     "section": "7 Fit bleiben!",
+     "topic": "Flyer eines Fitnessstudios, Verabredung",
+     "type": "lesson"
+    },
+    {
+     "page": 237,
+     "section": "7e | 8 Sport als Beruf",
+     "topic": "Sport mit Freunden verabreden; Berufsporträt Fitnesstrainer",
+     "type": "lesson"
+    },
+    {
+     "page": 245,
+     "section": "Mein Deutsch nach Kapitel 13 (Das kann ich / Das kenne ich)",
+     "topic": "Krankheit, Körperteile, Aufforderungen, Arzttermin, Arztgespräch",
+     "type": "review"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "module": "A1.2",
+   "title_de": "Was kann ich für Sie tun?",
+   "title_ru": "Чем могу помочь?",
+   "goals_ru": [
+    "о своих задачах на работе",
+    "решить проблему в разговоре",
+    "вежливо общаться",
+    "объяснить причину",
+    "рассказать, что после чего",
+    "запросить информацию",
+    "о рабочих местах"
+   ],
+   "grammar_ru": [
+    "denn — «потому что»",
+    "seit, vor + кому",
+    "einem/einer (кому)"
+   ],
+   "goals_src": "SPRECHEN из research\\linie1\\chapters_map.json (учебник автора); goals_ru — краткий перевод",
+   "source": "Klett Transkript A1.2 (Kapitel 9–16, заголовки): https://www.klett-international.com/en/downloads/30861/die-5fneue-5flinie-5f1-5fa1-2e2-2c-5ftranskript-5fzum-5fkurs-2d-5fund-5f-dcbungsbuch/pdf ; Klett Arbeitsblätter Grammatik A1.2: https://www.klett-international.com/de/downloads/33684/die-5fneue-5flinie-5f1-5fa1-2e2-5f-96-5farbeitsbl-e4tter-5fgrammatik/pdf ; private\\linie1\\toc_manual.json (оглавление учебника автора)",
+   "refs": {
+    "linie1": {
+     "kapitel": 14,
+     "pages": [
+      246,
+      261
+     ],
+     "kursbuch_pages": [
+      246,
+      253
+     ],
+     "uebungen_pages": [
+      254,
+      259
+     ],
+     "note": "страницы — из private\\linie1\\toc_manual.json; страницы по разделам — research\\linie1\\chapters_map.json (когда будет)"
+    },
+    "book_chulkov": null
+   },
+   "grammar_de_toc": [
+    "Satzverbindungen mit denn",
+    "Präpositionen seit und vor + Dativ",
+    "unbestimmter Artikel im Dativ"
+   ],
+   "goals_de": [
+    "über eigene Aufgaben sprechen",
+    "Gespräche zur Problemlösung führen",
+    "freundlich kommunizieren",
+    "etwas begründen",
+    "über zeitliche Abläufe berichten",
+    "Informationen erbitten",
+    "über Arbeitsplätze sprechen"
+   ],
+   "sections": [
+    {
+     "page": 246,
+     "section": "1 Szenen im Hotel",
+     "topic": "Orte und Tätigkeiten im Hotel",
+     "type": "lesson"
+    },
+    {
+     "page": 247,
+     "section": "1 Szenen im Hotel (Fortsetzung)",
+     "topic": "Servicesituationen, Berufe im Service",
+     "type": "lesson"
+    },
+    {
+     "page": 248,
+     "section": "2 Rezeption und Haustechnik",
+     "topic": "Reservierung per E-Mail, Telefongespräche, To-Do-Liste",
+     "type": "lesson"
+    },
+    {
+     "page": 249,
+     "section": "3 Einen Moment, bitte.",
+     "topic": "Check-in an der Rezeption, freundliche Reaktionen",
+     "type": "lesson"
+    },
+    {
+     "page": 250,
+     "section": "4 Zwei Arbeitsplätze",
+     "topic": "Porträts: Hotelkauffrau und Haustechniker",
+     "type": "lesson"
+    },
+    {
+     "page": 251,
+     "section": "5 Vor einem Jahr …",
+     "topic": "Zeitpunkte und Dauer: vor und seit",
+     "type": "lesson"
+    },
+    {
+     "page": 252,
+     "section": "6 Eine neue Stelle",
+     "topic": "Stellenanzeigen, E-Mail mit Anfrage",
+     "type": "lesson"
+    },
+    {
+     "page": 253,
+     "section": "7 Radio Leipzig: Arbeitswelt",
+     "topic": "Radiointerview zum Thema Arbeit im Service",
+     "type": "lesson"
+    },
+    {
+     "page": 261,
+     "section": "Mein Deutsch nach Kapitel 14 (Das kann ich / Das kenne ich)",
+     "topic": "Aufgaben, Problemlösung, Personeninfos, zeitliche Abläufe, E-Mail-Anfrage",
+     "type": "review"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "module": "A1.2",
+   "title_de": "Ein Leben lang lernen",
+   "title_ru": "Учиться всю жизнь",
+   "goals_ru": [
+    "опыт учёбы",
+    "чему у кого научился(лась)",
+    "что умею (не) хорошо",
+    "ответить на «не…?» (doch)",
+    "советы по учёбе",
+    "что хочу выучить"
+   ],
+   "grammar_ru": [
+    "von + кому",
+    "ja, nein, doch",
+    "просьба на «ihr»"
+   ],
+   "goals_src": "SPRECHEN из research\\linie1\\chapters_map.json (учебник автора); goals_ru — краткий перевод",
+   "source": "Klett Transkript A1.2 (Kapitel 9–16, заголовки): https://www.klett-international.com/en/downloads/30861/die-5fneue-5flinie-5f1-5fa1-2e2-2c-5ftranskript-5fzum-5fkurs-2d-5fund-5f-dcbungsbuch/pdf ; Klett Arbeitsblätter Grammatik A1.2: https://www.klett-international.com/de/downloads/33684/die-5fneue-5flinie-5f1-5fa1-2e2-5f-96-5farbeitsbl-e4tter-5fgrammatik/pdf ; private\\linie1\\toc_manual.json (оглавление учебника автора)",
+   "refs": {
+    "linie1": {
+     "kapitel": 15,
+     "pages": [
+      266,
+      281
+     ],
+     "kursbuch_pages": [
+      266,
+      273
+     ],
+     "uebungen_pages": [
+      274,
+      279
+     ],
+     "note": "страницы — из private\\linie1\\toc_manual.json; страницы по разделам — research\\linie1\\chapters_map.json (когда будет)"
+    },
+    "book_chulkov": null
+   },
+   "grammar_de_toc": [
+    "Präposition von + Dativ",
+    "ja, nein, doch",
+    "Imperativ: ihr-Form"
+   ],
+   "goals_de": [
+    "über Lernerfahrungen sprechen",
+    "sagen, was man von wem gelernt hat",
+    "darüber sprechen, was man (nicht) gut kann",
+    "auf negative Fragen oder Aussagen reagieren",
+    "Lerntipps geben",
+    "sagen, was man lernen möchte"
+   ],
+   "sections": [
+    {
+     "page": 266,
+     "section": "1 Das habe ich gelernt.",
+     "topic": "Lernorte",
+     "type": "lesson"
+    },
+    {
+     "page": 267,
+     "section": "1 Das habe ich gelernt.",
+     "topic": "Wann lernt man das?",
+     "type": "lesson"
+    },
+    {
+     "page": 268,
+     "section": "2 Das habe ich von meinem Onkel gelernt.",
+     "topic": "Von wem gelernt?",
+     "type": "lesson"
+    },
+    {
+     "page": 269,
+     "section": "3 Das kann ich gut!",
+     "topic": "Das Fest im Kindergarten; Aktivitäten",
+     "type": "lesson"
+    },
+    {
+     "page": 270,
+     "section": "4 Die Entschuldigung",
+     "topic": "Schreiben vom Kindergarten; Entschuldigung",
+     "type": "lesson"
+    },
+    {
+     "page": 271,
+     "section": "5 Ein Instrument lernen",
+     "topic": "Musikinstrumente",
+     "type": "lesson"
+    },
+    {
+     "page": 272,
+     "section": "6 Mit allen Sinnen lernen",
+     "topic": "Lerntipps",
+     "type": "lesson"
+    },
+    {
+     "page": 273,
+     "section": "7 Andere Sprachen lernen",
+     "topic": "Lernbiografien",
+     "type": "lesson"
+    },
+    {
+     "page": 281,
+     "section": "Mein Deutsch nach Kapitel 15",
+     "topic": "Das kann ich / Das kenne ich",
+     "type": "review"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "module": "A1.2",
+   "title_de": "Märkte",
+   "title_ru": "Рынки",
+   "goals_ru": [
+    "неопределённое количество",
+    "что хочу купить",
+    "что нравится",
+    "что купил(а) и для кого",
+    "о праздниках",
+    "планы и добрые намерения"
+   ],
+   "grammar_ru": [
+    "alles, etwas, nichts",
+    "welch-?",
+    "dieser/diesen",
+    "für + кого-что"
+   ],
+   "goals_src": "SPRECHEN из research\\linie1\\chapters_map.json (учебник автора); goals_ru — краткий перевод",
+   "source": "Klett Transkript A1.2 (Kapitel 9–16, заголовки): https://www.klett-international.com/en/downloads/30861/die-5fneue-5flinie-5f1-5fa1-2e2-2c-5ftranskript-5fzum-5fkurs-2d-5fund-5f-dcbungsbuch/pdf ; Klett Arbeitsblätter Grammatik A1.2: https://www.klett-international.com/de/downloads/33684/die-5fneue-5flinie-5f1-5fa1-2e2-5f-96-5farbeitsbl-e4tter-5fgrammatik/pdf ; private\\linie1\\toc_manual.json (оглавление учебника автора)",
+   "refs": {
+    "linie1": {
+     "kapitel": 16,
+     "pages": [
+      282,
+      297
+     ],
+     "kursbuch_pages": [
+      282,
+      289
+     ],
+     "uebungen_pages": [
+      290,
+      295
+     ],
+     "note": "страницы — из private\\linie1\\toc_manual.json; страницы по разделам — research\\linie1\\chapters_map.json (когда будет)"
+    },
+    "book_chulkov": null
+   },
+   "grammar_de_toc": [
+    "unbestimmte Pronomen alles, etwas, nichts",
+    "Fragewort Welch-…?",
+    "Demonstrativartikel im Nominativ und Akkusativ",
+    "Präposition für + Akkusativ"
+   ],
+   "goals_de": [
+    "unbestimmte Mengen angeben",
+    "sagen, was man kaufen möchte",
+    "sagen, was einem gefällt",
+    "sagen, was man für wen gekauft hat",
+    "über Feste sprechen",
+    "gute Vorsätze und Pläne formulieren"
+   ],
+   "sections": [
+    {
+     "page": 282,
+     "section": "1 Jeder Markt ist anders.",
+     "topic": "Märkte",
+     "type": "lesson"
+    },
+    {
+     "page": 283,
+     "section": "1 Jeder Markt ist anders.",
+     "topic": "Tätigkeiten auf Märkten",
+     "type": "lesson"
+    },
+    {
+     "page": 284,
+     "section": "2 Hier riecht es herrlich!",
+     "topic": "Essen, Trinken, Gerüche auf dem Markt",
+     "type": "lesson"
+    },
+    {
+     "page": 285,
+     "section": "3 Der Nussknacker gefällt mir.",
+     "topic": "Weihnachtsmarktstand, Dinge bewerten",
+     "type": "lesson"
+    },
+    {
+     "page": 286,
+     "section": "4 Hast du schon ein Geschenk gekauft?",
+     "topic": "Geschenke und Anlässe",
+     "type": "lesson"
+    },
+    {
+     "page": 287,
+     "section": "5 Auf dem Markt arbeiten",
+     "topic": "Stellenanzeigen, Jobs auf dem Markt",
+     "type": "lesson"
+    },
+    {
+     "page": 288,
+     "section": "6 Wir feiern!",
+     "topic": "Feste in Deutschland (Ostern, Oktoberfest, Karneval, Weihnachten)",
+     "type": "lesson"
+    },
+    {
+     "page": 289,
+     "section": "7 Gute Vorsätze",
+     "topic": "Vorsätze und Pläne",
+     "type": "lesson"
+    },
+    {
+     "page": 297,
+     "section": "Mein Deutsch nach Kapitel 16",
+     "topic": "Das kann ich / Das kenne ich",
+     "type": "review"
+    }
+   ]
+  }
+ ],
+ "how_rule": "Из Linie 1 берём только «что» (тема, слова, страница). «Как» — своё: ситуация → звук → картинка → «почему так». Тексты и упражнения учебника не пересказываем (WISHES п.25).",
+ "haltestellen": [
+  {
+   "id": "A",
+   "title": "Haltestelle A",
+   "pages": [
+    46,
+    49
+   ],
+   "after_chapter": 2
+  },
+  {
+   "id": "B",
+   "title": "Haltestelle B",
+   "pages": [
+    82,
+    85
+   ],
+   "after_chapter": 4
+  },
+  {
+   "id": "C",
+   "title": "Haltestelle/Testtraining C",
+   "pages": [
+    118,
+    121
+   ],
+   "after_chapter": 6
+  },
+  {
+   "id": "D",
+   "title": "Haltestelle/Testtraining D",
+   "pages": [
+    154,
+    157
+   ],
+   "after_chapter": 8
+  },
+  {
+   "id": "E",
+   "title": "Haltestelle/Testtraining E",
+   "pages": [
+    190,
+    193
+   ],
+   "after_chapter": 10
+  },
+  {
+   "id": "F",
+   "title": "Haltestelle/Testtraining F",
+   "pages": [
+    226,
+    229
+   ],
+   "after_chapter": 12
+  },
+  {
+   "id": "G",
+   "title": "Haltestelle/Testtraining G",
+   "pages": [
+    262,
+    265
+   ],
+   "after_chapter": 14
+  },
+  {
+   "id": "H",
+   "title": "Haltestelle/Testtraining H",
+   "pages": [
+    298,
+    301
+   ],
+   "after_chapter": 16
+  }
+ ]
+}

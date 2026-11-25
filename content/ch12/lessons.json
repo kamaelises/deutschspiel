@@ -1,0 +1,5912 @@
+[
+ {
+  "id": "ch12_L1",
+  "title": "Ich fahre mit dem Bus. На чём ты едешь",
+  "pages_linie1": {
+   "pages": [
+    210,
+    211,
+    212
+   ],
+   "sections": [
+    "1 Ich komme nach Bremen!",
+    "3 Ich fahre mit …"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch12_001",
+   "ch12_002",
+   "ch12_003",
+   "ch12_004",
+   "ch12_005"
+  ],
+  "why_ids": [
+   "ch12_001",
+   "ch12_002"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch12_d1",
+    "line_ids": [
+     "ch12_d1_01",
+     "ch12_d1_02",
+     "ch12_d1_03",
+     "ch12_d1_04",
+     "ch12_d1_05",
+     "ch12_d1_06"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Новый сосед спрашивает, где ты живёшь. Как он спросит на «ты» и что ты ответишь?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch12_d1",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch12_d1_02",
+        "ch12_d1_03",
+        "ch12_d1_04",
+        "ch12_d1_06"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch12_d1",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Звук «ц»: послушай Zug, zu, Fuß, Bus и повтори",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch12_002",
+        "ch12_003",
+        "ch12_d1_06",
+        "ch12_d1_02"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Звук «ц»: послушай Zug, zu, Fuß, Bus и повтори — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "артикль после mit — через пары «слово из словаря → кусок с mit»: der Bus → mit dem Bus, die Straßenbahn → mit der Straßenbahn; слово «Dativ» — одной строкой, как название на курсе",
+   "как слышу, так и пишу": "звук дня: z = «ц» (Zug, zu); диктант: слова-предметы с большой буквы, ä и немое h в fährst",
+   "учебник непонятен": "из Linie 1 — только темы и страницы 210–212; подача своя",
+   "село, живой немецкий — Netto": "ситуация автора: из села автобусом во Фрайберг, дальше поездом в Дрезден",
+   "любит аниме": "завязка — герой исекая впервые выезжает из стартовой деревни",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин (все 12 + 24 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Fährst du mit dem Zug nach Freiberg?; перенос — Ich fahre mit dem Bus nach Leipzig., Nein, ich fahre mit der Straßenbahn.",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    210,
+    211,
+    212
+   ],
+   "phrases_ids": [
+    "ch12_007"
+   ],
+   "note": "к курсу: на стр. 210–211 — чат о поездке на концерт в Бремен, на стр. 212 — картинки транспорта; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch12_007",
+    "picture": "улица: машина, велосипед, самолёт в небе, корабль на реке, афиша концерта",
+    "words": [
+     {
+      "de": "das Auto",
+      "ru": "машина"
+     },
+     {
+      "de": "das Fahrrad",
+      "ru": "велосипед"
+     },
+     {
+      "de": "das Flugzeug",
+      "ru": "самолёт"
+     },
+     {
+      "de": "das Schiff",
+      "ru": "корабль"
+     },
+     {
+      "de": "das Verkehrsmittel",
+      "ru": "вид транспорта"
+     },
+     {
+      "de": "das Konzert",
+      "ru": "концерт"
+     }
+    ],
+    "note": "эти слова есть на стр. 210–212; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch12_L1_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch12_007",
+     "prompt": "Слова курса. Послушай. Что значит «Fahrrad»?",
+     "answer": "велосипед",
+     "distractors": [
+      "самолёт",
+      "машина"
+     ],
+     "src": "Linie 1, стр. 212 (Ich fahre mit …)"
+    },
+    {
+     "id": "ch12_L1_kurs_2",
+     "skill": "listen",
+     "phraseId": "ch12_007",
+     "prompt": "Слова курса. Послушай. Что значит «Flugzeug»?",
+     "answer": "самолёт",
+     "distractors": [
+      "корабль",
+      "концерт"
+     ],
+     "src": "Linie 1, стр. 212 (Ich fahre mit …)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Вокзал: первая остановка — автобус из села в город",
+   "npc": "Olga — одногруппница (на «ты»)"
+  },
+  "covers": [
+   "L1-12-S3",
+   "B11.2"
+  ],
+  "covers_partial": [
+   "L1-12-S1",
+   "L1-12-G1",
+   "L1-12-G2"
+  ],
+  "covers_note": {
+   "L1-12-S3": "на чём едешь: mit dem Bus, mit dem Zug, mit der Straßenbahn, zu Fuß; вопрос Wie fährst du? (части 3–4, 8); «к курсу» — Auto, Fahrrad, Flugzeug, Schiff, Verkehrsmittel",
+   "B11.2": "меняется артикль, а не слово: der Bus → mit dem Bus, die Straßenbahn → mit der Straßenbahn («это der не от der-слов») — часть 5, слои фраз 001 и 003",
+   "L1-12-S1": "чат о поездке: Ich fahre auch nach Dresden (сцена — чат с Ольгой); концерт и Бремен — только «к курсу»",
+   "L1-12-G1": "артикль после mit: der → dem, die → der (часть 5); das → dem и остальные предлоги — уроки 2 и 5",
+   "L1-12-G2": "mit и nach (части 3–5); von и zu — урок 2"
+  },
+  "goal": "После урока сможешь: сказать, на чём едешь (mit dem Bus, mit dem Zug, mit der Straßenbahn) и куда (nach Dresden), спросить «Как ты едешь?» и ответить «Я иду пешком».",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Ольга пишет из Дрездена: приезжай.",
+      "Цель: сказать, на чём ты едешь и куда."
+     ],
+     "voice_ru": "Ты живёшь в селе, а Ольга зовёт в Дрезден. Автобус, поезд, трамвай — сегодня ты напишешь ей, на чём едешь. И узнаешь, почему у автобуса вдруг другой артикль.",
+     "hook": "Загадка урока: автобус — der Bus, трамвай — die Straßenbahn. А едешь ты mit dem Bus и mit der Straßenbahn. Куда делся der и откуда он взялся у трамвая?",
+     "anime_motif": "исекай: герой впервые выезжает из стартовой деревни в большой город (без цитат)",
+     "npc": "Olga — одногруппница",
+     "more": "Ольга спросит, как ты едешь. Ты ответишь: автобус, потом поезд. По Дрездену пойдёшь пешком.",
+     "goal": "После урока сможешь: сказать, на чём едешь (mit dem Bus, mit dem Zug, mit der Straßenbahn) и куда (nach Dresden), спросить «Как ты едешь?» и ответить «Я иду пешком»."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch12_008",
+      "ch12_009",
+      "ch12_010"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Новый сосед спрашивает, где ты живёшь. Как он спросит на «ты» и что ты ответишь?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch01_047",
+      "ch01_090",
+      "ch01_t27"
+     ],
+     "type": "retrieval: вопрос, не перечитывание",
+     "note": "фразы главы 1 (ch01_047, ch01_090, ch01_t27) — те же, в главе 12 под своими id"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch12_001",
+      "ch12_002",
+      "ch12_003",
+      "ch12_004",
+      "ch12_005"
+     ],
+     "words": [
+      "der Bus · mit dem Bus",
+      "der Zug · mit dem Zug",
+      "die Straßenbahn · mit der Straßenbahn",
+      "ich gehe zu Fuß",
+      "du fährst"
+     ],
+     "words_ru": {
+      "der Bus · mit dem Bus": "автобус · на автобусе",
+      "der Zug · mit dem Zug": "поезд · на поезде",
+      "die Straßenbahn · mit der Straßenbahn": "трамвай · на трамвае",
+      "ich gehe zu Fuß": "я иду пешком",
+      "du fährst": "ты едешь"
+     },
+     "trap": "По-русски «еду на автобусе». По-немецки не «на», а mit: Ich fahre mit dem Bus.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch12_L1_words_1",
+      "ch12_L1_words_2",
+      "ch12_L1_words_3",
+      "ch12_L1_words_4",
+      "ch12_L1_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch12_d1",
+     "line_ids": [
+      "ch12_d1_01",
+      "ch12_d1_02",
+      "ch12_d1_03",
+      "ch12_d1_04",
+      "ch12_d1_05",
+      "ch12_d1_06"
+     ],
+     "halves": [
+      [
+       "ch12_d1_01",
+       "ch12_d1_02",
+       "ch12_d1_03"
+      ],
+      [
+       "ch12_d1_04",
+       "ch12_d1_05",
+       "ch12_d1_06"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "Deutschland-Ticket — билет по подписке (Abo, оплата раз в месяц) на автобусы, трамваи и региональные поезда (RB, RE, S-Bahn) по всей Германии. В 2026 году он стоит 63 евро в месяц. В поездах ICE, IC и EC он не действует.",
+     "task_ids": [
+      "ch12_L1_listen_1",
+      "ch12_L1_listen_2",
+      "ch12_L1_listen_3",
+      "ch12_L1_listen_4",
+      "ch12_L1_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch12_001",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "После mit артикль меняется. У der-слов он становится dem: mit dem Bus. У die-слов — der: mit der Straßenbahn. Само слово не меняется.",
+     "screen": [
+      "der Bus → Ich · fahre · mit dem Bus.",
+      "die Straßenbahn → Ich · fahre · mit der Straßenbahn."
+     ],
+     "answer_hook": "Ответ на загадку: после mit артикль меняется. der Bus → mit dem Bus. die Straßenbahn → mit der Straßenbahn: это не новый род, так выглядит die после mit. На курсе эту форму артикля называют Dativ.",
+     "second": {
+      "why_id": "ch12_002",
+      "voice_ru": "Куда едешь — nach и название города: nach Dresden. Артикля перед городом нет. А in Dresden — это где ты уже есть."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch12_L1_why_1",
+      "ch12_L1_why_2",
+      "ch12_L1_why_3",
+      "ch12_L1_why_4",
+      "ch12_L1_why_5"
+     ],
+     "no_story": true,
+     "examples_button": {
+      "label": "Ещё примеры",
+      "why_ids": [
+       "ch12_001"
+      ]
+     }
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch12_006",
+     "pieces": [
+      "nach Freiberg?",
+      "mit dem Zug",
+      "du",
+      "Fährst"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch12_d1_05",
+      "ch12_002"
+     ],
+     "prompt": "Собери сам из знакомых кусков: Ольга собирается во Фрайберг. Спроси её: «Ты едешь на поезде во Фрайберг?»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch12_006",
+     "transfer_task_ids": [
+      "ch12_L1_transfer_1"
+     ],
+     "task_ids": [
+      "ch12_L1_write_1",
+      "ch12_L1_write_2",
+      "ch12_L1_write_3",
+      "ch12_L1_write_4",
+      "ch12_L1_write_5",
+      "ch12_L1_read_1",
+      "ch12_L1_read_2",
+      "ch12_L1_read_3",
+      "ch12_L1_read_4",
+      "ch12_L1_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "Zug",
+     "ipa_sym": "t͡s",
+     "tip_ru": "Буква z читается «ц»: Zug — «цу:к», zu — «цу:». Буква g на конце слова звучит как «к»: Zug — «цу:к».",
+     "bridge_ru": "Русская привычка — читать z как «з». По-немецки z — это «ц», как в слове «цирк».",
+     "phrase_id": "ch12_002",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "Zug",
+       "ru": "цу:к — z = «ц», долгое «у»"
+      },
+      {
+       "de": "zu",
+       "ru": "цу: — z = «ц»"
+      },
+      {
+       "de": "Fuß",
+       "ru": "фу:с — долгое «у», ß = «с»"
+      },
+      {
+       "de": "Bus",
+       "ru": "бус — короткое «у»"
+      }
+     ],
+     "speak_task_ids": [
+      "ch12_L1_speak_1",
+      "ch12_L1_speak_2",
+      "ch12_L1_speak_3",
+      "ch12_L1_speak_4",
+      "ch12_L1_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Как ты едешь?",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Olga (на «ты») — спрашивает в чате, отвечаешь ты",
+     "turns": [
+      {
+       "prompt_id": "ch12_d1_01",
+       "prompt_de": "Hallo! Ich bin in Dresden. Und du?",
+       "prompt_audio": "audio_v1/ch12_d1_01.mp3",
+       "expected_id": "ch12_d1_02",
+       "expected_de": "Ich fahre auch nach Dresden.",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch12_d1_03",
+       "prompt_de": "Gut! Wie fährst du nach Dresden?",
+       "prompt_audio": "audio_v1/ch12_d1_03.mp3",
+       "expected_id": "ch12_002",
+       "expected_de": "Ich fahre mit dem Zug nach Dresden.",
+       "accept": [
+        {
+         "id": "ch12_001",
+         "de": "Ich fahre mit dem Bus."
+        },
+        {
+         "id": "ch12_d1_04",
+         "de": "Ich fahre mit dem Bus und mit dem Zug."
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch12_d1_05",
+       "prompt_de": "Fährst du in Dresden mit der Straßenbahn? Die Straßenbahn ist gut.",
+       "prompt_audio": "audio_v1/ch12_d1_05.mp3",
+       "expected_id": "ch12_d1_06",
+       "expected_de": "Nein, ich gehe zu Fuß.",
+       "accept": [
+        {
+         "id": "ch12_003",
+         "de": "Ich fahre mit der Straßenbahn."
+        }
+       ],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Ольга пишет из Дрездена. Отвечай целой фразой: Ich fahre mit … или Ich gehe zu Fuß.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch12_005",
+     "task_ru": "Новичок на курсе не понял вопрос соседа по парте. Объясни ему по-русски, о чём его спросили.",
+     "expected_ru": "Как ты едешь?",
+     "hint_ru": "wie — как; fährst — едешь; du — ты",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch12_L1_dict_1",
+      "ch12_L1_dict_2",
+      "ch12_L1_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Слова-предметы пишутся с большой буквы: Bus, Zug, Fuß. Звук «ц» пишется буквой z: Zug, zu. В слове fährst — ä с двумя точками и буква h, которую не слышно."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch12_L1_transfer_2",
+      "ch12_L1_transfer_3",
+      "ch12_L1_transfer_4",
+      "ch12_L1_transfer_5",
+      "ch12_L1_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Ольга ждёт тебя в Дрездене. У вокзала в твоём поселении появилась первая остановка.",
+      "Совет на завтра: по дороге скажи про себя, на чём едешь: Ich fahre mit … или Ich gehe zu Fuß."
+     ],
+     "npc_phrase_id": "ch12_d1_03",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: der Bus → mit dem Bus · der Zug → mit dem Zug · die Straßenbahn → mit der Straßenbahn · zu Fuß · nach Dresden. Автобус, поезд, трамвай на курсе называют одним словом: Verkehrsmittel — транспорт.",
+     "next_hook": "Дальше: от курса до вокзала. «От» и «до» — и почему вокзал вдруг zum, а школа — zur?",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       210,
+       211,
+       212
+      ],
+      "phrases_ids": [
+       "ch12_007"
+      ],
+      "note": "к курсу: на стр. 210–211 — чат о поездке на концерт в Бремен, на стр. 212 — картинки транспорта; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch12_007",
+       "picture": "улица: машина, велосипед, самолёт в небе, корабль на реке, афиша концерта",
+       "words": [
+        {
+         "de": "das Auto",
+         "ru": "машина"
+        },
+        {
+         "de": "das Fahrrad",
+         "ru": "велосипед"
+        },
+        {
+         "de": "das Flugzeug",
+         "ru": "самолёт"
+        },
+        {
+         "de": "das Schiff",
+         "ru": "корабль"
+        },
+        {
+         "de": "das Verkehrsmittel",
+         "ru": "вид транспорта"
+        },
+        {
+         "de": "das Konzert",
+         "ru": "концерт"
+        }
+       ],
+       "note": "эти слова есть на стр. 210–212; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch12_L1_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch12_007",
+        "prompt": "Слова курса. Послушай. Что значит «Fahrrad»?",
+        "answer": "велосипед",
+        "distractors": [
+         "самолёт",
+         "машина"
+        ],
+        "src": "Linie 1, стр. 212 (Ich fahre mit …)"
+       },
+       {
+        "id": "ch12_L1_kurs_2",
+        "skill": "listen",
+        "phraseId": "ch12_007",
+        "prompt": "Слова курса. Послушай. Что значит «Flugzeug»?",
+        "answer": "самолёт",
+        "distractors": [
+         "корабль",
+         "концерт"
+        ],
+        "src": "Linie 1, стр. 212 (Ich fahre mit …)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      210,
+      211,
+      212
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch12.py",
+  "new_words": [
+   "Ich fahre …",
+   "Wie fährst du?",
+   "mit dem Bus",
+   "mit dem Zug",
+   "mit der Straßenbahn",
+   "nach Dresden",
+   "Ich gehe zu Fuß."
+  ],
+  "known_before": [
+   "Wo wohnst du?",
+   "Ich wohne bei Freiberg.",
+   "Ich wohne in Dresden.",
+   "Ich bin …",
+   "in Dresden",
+   "Und du?",
+   "auch",
+   "Gut!",
+   "Ja / Nein",
+   "der / die / das"
+  ],
+  "transfer_phrase_ids": [
+   "ch12_t01",
+   "ch12_t02"
+  ],
+  "built_phrase_ids": [
+   "ch12_006"
+  ],
+  "quiz_ids": [
+   "ch12_L1_words_1",
+   "ch12_L1_words_2",
+   "ch12_L1_words_3",
+   "ch12_L1_words_4",
+   "ch12_L1_words_5",
+   "ch12_L1_listen_1",
+   "ch12_L1_listen_2",
+   "ch12_L1_listen_3",
+   "ch12_L1_listen_4",
+   "ch12_L1_listen_5",
+   "ch12_L1_read_1",
+   "ch12_L1_read_2",
+   "ch12_L1_read_3",
+   "ch12_L1_read_4",
+   "ch12_L1_read_5",
+   "ch12_L1_speak_1",
+   "ch12_L1_speak_2",
+   "ch12_L1_speak_3",
+   "ch12_L1_speak_4",
+   "ch12_L1_speak_5",
+   "ch12_L1_write_1",
+   "ch12_L1_write_2",
+   "ch12_L1_write_3",
+   "ch12_L1_write_4",
+   "ch12_L1_write_5",
+   "ch12_L1_why_1",
+   "ch12_L1_why_2",
+   "ch12_L1_why_3",
+   "ch12_L1_why_4",
+   "ch12_L1_why_5",
+   "ch12_L1_transfer_1",
+   "ch12_L1_transfer_2",
+   "ch12_L1_transfer_3",
+   "ch12_L1_transfer_4",
+   "ch12_L1_transfer_5",
+   "ch12_L1_boss_1"
+  ],
+  "dictation_ids": [
+   "ch12_L1_dict_1",
+   "ch12_L1_dict_2",
+   "ch12_L1_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Ольга пишет из Дрездена: приезжай. Цель: сказать, на чём ты едешь и куда. Загадка урока: автобус — der Bus, трамвай — die Straßenbahn. А едешь ты mit dem Bus и mit der Straßenbahn. Куда делся der и откуда он взялся у трамвая?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Как ты едешь?",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой в чате (ИИ — Ольга: спрашивает, как ты доберёшься)",
+   "situation": "verkehrsmittel_nennen",
+   "ai_plays": "Olga (на «ты») — спрашивает в чате, отвечаешь ты",
+   "phrases": [
+    "ch12_d1_02",
+    "ch12_002",
+    "ch12_001",
+    "ch12_d1_04",
+    "ch12_d1_06",
+    "ch12_003"
+   ]
+  },
+  "outro": "Ольга ждёт тебя в Дрездене. У вокзала в твоём поселении появилась первая остановка. Совет на завтра: по дороге скажи про себя, на чём едешь: Ich fahre mit … или Ich gehe zu Fuß. Дальше: от курса до вокзала. «От» и «до» — и почему вокзал вдруг zum, а школа — zur?",
+  "detail_de_life": "Deutschland-Ticket — билет по подписке (Abo, оплата раз в месяц) на автобусы, трамваи и региональные поезда (RB, RE, S-Bahn) по всей Германии. В 2026 году он стоит 63 евро в месяц. В поездах ICE, IC и EC он не действует.",
+  "task_ids": {
+   "words": [
+    "ch12_L1_words_1",
+    "ch12_L1_words_2",
+    "ch12_L1_words_3",
+    "ch12_L1_words_4",
+    "ch12_L1_words_5"
+   ],
+   "listen": [
+    "ch12_L1_listen_1",
+    "ch12_L1_listen_2",
+    "ch12_L1_listen_3",
+    "ch12_L1_listen_4",
+    "ch12_L1_listen_5"
+   ],
+   "read": [
+    "ch12_L1_read_1",
+    "ch12_L1_read_2",
+    "ch12_L1_read_3",
+    "ch12_L1_read_4",
+    "ch12_L1_read_5"
+   ],
+   "speak": [
+    "ch12_L1_speak_1",
+    "ch12_L1_speak_2",
+    "ch12_L1_speak_3",
+    "ch12_L1_speak_4",
+    "ch12_L1_speak_5"
+   ],
+   "write": [
+    "ch12_L1_write_1",
+    "ch12_L1_write_2",
+    "ch12_L1_write_3",
+    "ch12_L1_write_4",
+    "ch12_L1_write_5"
+   ],
+   "why": [
+    "ch12_L1_why_1",
+    "ch12_L1_why_2",
+    "ch12_L1_why_3",
+    "ch12_L1_why_4",
+    "ch12_L1_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch12_L1_transfer_1",
+   "ch12_L1_transfer_2",
+   "ch12_L1_transfer_3",
+   "ch12_L1_transfer_4",
+   "ch12_L1_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch12_008",
+   "ch12_009",
+   "ch12_010"
+  ],
+  "dialog_ids": [
+   "ch12_d1"
+  ],
+  "video": "video/ch12_L1.mp4"
+ },
+ {
+  "id": "ch12_L2",
+  "title": "Vom Kurs zum Bahnhof. Откуда и куда",
+  "pages_linie1": {
+   "pages": [
+    211,
+    213
+   ],
+   "sections": [
+    "2 In der Stadt",
+    "4 Von der Sprachschule zum Bahnhof"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch12_011",
+   "ch12_012",
+   "ch12_013",
+   "ch12_014",
+   "ch12_015",
+   "ch12_016"
+  ],
+  "why_ids": [
+   "ch12_011",
+   "ch12_013"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch12_d2",
+    "line_ids": [
+     "ch12_d2_01",
+     "ch12_d2_02",
+     "ch12_d2_03",
+     "ch12_d2_04",
+     "ch12_d2_05",
+     "ch12_d2_06"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Ольга спрашивает, как ты едешь. Что ты ответишь?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch12_d2",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch12_d2_01",
+        "ch12_d2_02",
+        "ch12_d2_03",
+        "ch12_d2_04"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch12_d2",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Звук «ф» в v: послушай von, vom, Vorname и повтори",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch12_011",
+        "ch12_012",
+        "ch12_013",
+        "ch12_d2_02"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Звук «ф» в v: послушай von, vom, Vorname и повтори — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "zum / zur / vom — через пары «слово из словаря → кусок с zu / von»: der Bahnhof → zum Bahnhof, die Haltestelle → zur Haltestelle; тот же артикль, что после mit",
+   "как слышу, так и пишу": "звук дня: v = «ф» (von, vom); диктант: слитно zum, zur, vom, слова-предметы с большой буквы",
+   "учебник непонятен": "из Linie 1 — только темы и страницы 211, 213; подача своя",
+   "село, живой немецкий — Netto": "ситуация автора: с курса на остановку и на автобусе до вокзала",
+   "любит аниме": "завязка — герой в городе спрашивает путь до ворот",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин (все 12 + 24 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Gehst du zur Haltestelle?; перенос — Ich gehe vom Bahnhof zum Kurs., Kommst du vom Bahnhof?",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    211,
+    213
+   ],
+   "phrases_ids": [
+    "ch12_017"
+   ],
+   "note": "к курсу: на стр. 211 — карта города с местами (порт, рынок, парк, кино), на стр. 213 — пути от школы до вокзала; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch12_017",
+    "picture": "карта города: порт, рынок, парк, кино",
+    "words": [
+     {
+      "de": "der Hafen",
+      "ru": "порт"
+     },
+     {
+      "de": "der Markt",
+      "ru": "рынок"
+     },
+     {
+      "de": "der Park",
+      "ru": "парк"
+     },
+     {
+      "de": "das Kino",
+      "ru": "кино"
+     },
+     {
+      "de": "die Stadt",
+      "ru": "город"
+     }
+    ],
+    "note": "эти слова есть на стр. 211; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch12_L2_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch12_017",
+     "prompt": "Слова курса. Послушай. Что значит «Markt»?",
+     "answer": "рынок",
+     "distractors": [
+      "порт",
+      "парк"
+     ],
+     "src": "Linie 1, стр. 211 (In der Stadt)"
+    },
+    {
+     "id": "ch12_L2_kurs_2",
+     "skill": "listen",
+     "phraseId": "ch12_017",
+     "prompt": "Слова курса. Послушай. Что значит «Kino»?",
+     "answer": "кино",
+     "distractors": [
+      "кафе",
+      "город"
+     ],
+     "src": "Linie 1, стр. 211 (In der Stadt)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Вокзал: путь от курса до платформы",
+   "npc": "Olga — одногруппница (на «ты»)"
+  },
+  "covers": [
+   "L1-12-S4",
+   "B11.7",
+   "B14.5"
+  ],
+  "covers_partial": [
+   "L1-12-S2",
+   "L1-12-G2",
+   "L1-12-G1",
+   "B14.6"
+  ],
+  "covers_note": {
+   "L1-12-S4": "путь от места до места: vom Kurs zum Bahnhof, von der Haltestelle zum Bahnhof, Wie komme ich zum Bahnhof? (части 3–5, 8)",
+   "B11.7": "предлоги von и zu берут тот же артикль, что и mit: der-слово → dem, die-слово → der (часть 5)",
+   "B14.5": "zu — куда, von — откуда: zum Bahnhof, vom Kurs (части 3–5)",
+   "L1-12-S2": "карта города: «к курсу» — Hafen, Markt, Park, Kino, Stadt; места города для рассказа — урок 5",
+   "L1-12-G2": "von и zu + dem / der (часть 5); nach — урок 1; mit — урок 1",
+   "L1-12-G1": "артикль dem / der после предлога (часть 5); in и an — урок 5",
+   "B14.6": "по-русски «на вокзал, на остановку» — по-немецки zu (часть 5, слой фраз 011, 012)"
+  },
+  "goal": "После урока сможешь: спросить дорогу (Wie komme ich zum Bahnhof?), сказать, куда идёшь (zum Bahnhof, zur Haltestelle) и откуда (vom Kurs, von der Haltestelle).",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Урок на курсе кончился, пора ехать.",
+      "Цель: узнать у Ольги дорогу и сказать, откуда и куда."
+     ],
+     "voice_ru": "После курса надо добраться до вокзала. Ты спрашиваешь Ольгу, как дойти и доехать. Сегодня учим два слова: откуда и куда.",
+     "hook": "Загадка урока: вокзал — der Bahnhof, остановка — die Haltestelle. А идёшь ты zum Bahnhof и zur Haltestelle. Куда делись der и die?",
+     "anime_motif": "исекай: герой в гильдии спрашивает путь до городских ворот (без цитат)",
+     "npc": "Olga — одногруппница",
+     "more": "Ольга объяснит дорогу: сначала пешком до остановки, потом на автобусе до вокзала.",
+     "goal": "После урока сможешь: спросить дорогу (Wie komme ich zum Bahnhof?), сказать, куда идёшь (zum Bahnhof, zur Haltestelle) и откуда (vom Kurs, von der Haltestelle)."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch12_001",
+      "ch12_004",
+      "ch12_005"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Ольга спрашивает, как ты едешь. Что ты ответишь?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch12_001",
+      "ch12_004",
+      "ch12_005"
+     ],
+     "type": "retrieval: вопрос, не перечитывание",
+     "note": "фразы урока 1 этой главы"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch12_011",
+      "ch12_012",
+      "ch12_013",
+      "ch12_014",
+      "ch12_015",
+      "ch12_016"
+     ],
+     "words": [
+      "der Bahnhof · zum Bahnhof",
+      "die Haltestelle · zur Haltestelle",
+      "der Kurs · vom Kurs · von der Haltestelle",
+      "du gehst · hier · dann"
+     ],
+     "words_ru": {
+      "der Bahnhof · zum Bahnhof": "вокзал · на вокзал",
+      "die Haltestelle · zur Haltestelle": "остановка · на остановку",
+      "der Kurs · vom Kurs · von der Haltestelle": "курс · с курса · с остановки",
+      "du gehst · hier · dann": "ты идёшь · здесь · потом"
+     },
+     "trap": "По-русски «иду на вокзал, на остановку». По-немецки не «на», а zu: Ich gehe zum Bahnhof.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch12_L2_words_1",
+      "ch12_L2_words_2",
+      "ch12_L2_words_3",
+      "ch12_L2_words_4",
+      "ch12_L2_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch12_d2",
+     "line_ids": [
+      "ch12_d2_01",
+      "ch12_d2_02",
+      "ch12_d2_03",
+      "ch12_d2_04",
+      "ch12_d2_05",
+      "ch12_d2_06"
+     ],
+     "halves": [
+      [
+       "ch12_d2_01",
+       "ch12_d2_02",
+       "ch12_d2_03"
+      ],
+      [
+       "ch12_d2_04",
+       "ch12_d2_05",
+       "ch12_d2_06"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "На указателях по всей Германии стоят короткие слитные формы: «Zum Bahnhof», «Zur Stadtmitte». Это те же zum и zur, что в уроке: zu и артикль сливаются в одно слово.",
+     "task_ids": [
+      "ch12_L2_listen_1",
+      "ch12_L2_listen_2",
+      "ch12_L2_listen_3",
+      "ch12_L2_listen_4",
+      "ch12_L2_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch12_011",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "Куда — zu, откуда — von. Артикль после них как после mit: у der-слов dem, у die-слов der. Zu и dem сливаются в zum.",
+     "screen": [
+      "der Bahnhof → Ich · gehe · zum Bahnhof.",
+      "die Haltestelle → Ich · gehe · zur Haltestelle."
+     ],
+     "answer_hook": "Ответ на загадку: der и die никуда не делись. Они слились с zu: zu dem → zum, zu der → zur. Откуда — von: von dem → vom. Форма артикля та же, что после mit.",
+     "second": {
+      "why_id": "ch12_013",
+      "voice_ru": "Откуда — von. Kurs — der-слово, поэтому von dem, и в речи сливается в vom. Для die-слов — von der: von der Haltestelle."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch12_L2_why_1",
+      "ch12_L2_why_2",
+      "ch12_L2_why_3",
+      "ch12_L2_why_4",
+      "ch12_L2_why_5"
+     ],
+     "no_story": true,
+     "examples_button": {
+      "label": "Ещё примеры",
+      "why_ids": [
+       "ch12_011",
+       "ch12_013"
+      ]
+     }
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch12_016",
+     "pieces": [
+      "zur Haltestelle?",
+      "du",
+      "Gehst"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch12_d2_02",
+      "ch12_d2_03"
+     ],
+     "prompt": "Собери сам из знакомых кусков: спроси Ольгу, идёт ли она на остановку: «Ты идёшь на остановку?»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch12_016",
+     "transfer_task_ids": [
+      "ch12_L2_transfer_1"
+     ],
+     "task_ids": [
+      "ch12_L2_write_1",
+      "ch12_L2_write_2",
+      "ch12_L2_write_3",
+      "ch12_L2_write_4",
+      "ch12_L2_write_5",
+      "ch12_L2_read_1",
+      "ch12_L2_read_2",
+      "ch12_L2_read_3",
+      "ch12_L2_read_4",
+      "ch12_L2_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "von",
+     "ipa_sym": "f",
+     "tip_ru": "Буква v в немецких словах читается «ф»: von — «фон», vom — «фом». Не «в».",
+     "bridge_ru": "Русская привычка — читать v как «в». По-немецки v в таких словах — это «ф»; «в» пишется буквой w.",
+     "phrase_id": "ch12_014",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "von",
+       "ru": "фон — v = «ф»"
+      },
+      {
+       "de": "vom",
+       "ru": "фом — v = «ф»"
+      },
+      {
+       "de": "Vorname",
+       "ru": "фо:рна:мэ — v = «ф»"
+      },
+      {
+       "de": "zum",
+       "ru": "цум — z = «ц»"
+      },
+      {
+       "de": "zur",
+       "ru": "цу:а — z = «ц»"
+      }
+     ],
+     "speak_task_ids": [
+      "ch12_L2_speak_1",
+      "ch12_L2_speak_2",
+      "ch12_L2_speak_3",
+      "ch12_L2_speak_4",
+      "ch12_L2_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Как пройти?",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Olga и новичок: ты объясняешь дорогу",
+     "turns": [
+      {
+       "prompt_id": "ch12_d2_01",
+       "prompt_de": "Olga, wie komme ich vom Kurs zum Bahnhof?",
+       "prompt_audio": "audio_v1/ch12_d2_01.mp3",
+       "expected_id": "ch12_d2_02",
+       "expected_de": "Du gehst zur Haltestelle.",
+       "accept": [
+        {
+         "id": "ch12_012",
+         "de": "Ich gehe zur Haltestelle."
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch12_d2_02",
+       "prompt_de": "Du gehst zur Haltestelle.",
+       "prompt_audio": "audio_v1/ch12_d2_02.mp3",
+       "expected_id": "ch12_d2_03",
+       "expected_de": "Wo ist die Haltestelle?",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch12_d2_05",
+       "prompt_de": "Danke, Olga!",
+       "prompt_audio": "audio_v1/ch12_d2_05.mp3",
+       "expected_id": "ch12_d2_06",
+       "expected_de": "Bitte! Tschüss!",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Отвечай целой фразой: Du gehst zur Haltestelle. / Wo ist die Haltestelle?",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch12_d2_02",
+     "task_ru": "Новичок на курсе не понял, что сказала Ольга. Объясни ему по-русски, куда идти.",
+     "expected_ru": "Ты идёшь на остановку.",
+     "hint_ru": "du — ты; gehst — идёшь; zur Haltestelle — на остановку",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch12_L2_dict_1",
+      "ch12_L2_dict_2",
+      "ch12_L2_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Слова-предметы пишутся с большой буквы: Bahnhof, Haltestelle. Слитно пишут zum, zur, vom: не «zu dem». Звук «ф» в слове von пишется буквой v."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch12_L2_transfer_2",
+      "ch12_L2_transfer_3",
+      "ch12_L2_transfer_4",
+      "ch12_L2_transfer_5",
+      "ch12_L2_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Ты знаешь, как дойти до остановки и доехать до вокзала.",
+      "Совет на завтра: по дороге на курс скажи про себя, куда идёшь: Ich gehe zum … или zur …"
+     ],
+     "npc_phrase_id": "ch12_d2_06",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: zum Bahnhof · zur Haltestelle · vom Kurs · von der Haltestelle · Wie komme ich zum Bahnhof? На курсе эту форму артикля называют Dativ.",
+     "next_hook": "Дальше: сам вокзал. Fahrkarte, Gleis, Abfahrt — и объявление, из которого надо вытащить главное.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       211,
+       213
+      ],
+      "phrases_ids": [
+       "ch12_017"
+      ],
+      "note": "к курсу: на стр. 211 — карта города с местами (порт, рынок, парк, кино), на стр. 213 — пути от школы до вокзала; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch12_017",
+       "picture": "карта города: порт, рынок, парк, кино",
+       "words": [
+        {
+         "de": "der Hafen",
+         "ru": "порт"
+        },
+        {
+         "de": "der Markt",
+         "ru": "рынок"
+        },
+        {
+         "de": "der Park",
+         "ru": "парк"
+        },
+        {
+         "de": "das Kino",
+         "ru": "кино"
+        },
+        {
+         "de": "die Stadt",
+         "ru": "город"
+        }
+       ],
+       "note": "эти слова есть на стр. 211; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch12_L2_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch12_017",
+        "prompt": "Слова курса. Послушай. Что значит «Markt»?",
+        "answer": "рынок",
+        "distractors": [
+         "порт",
+         "парк"
+        ],
+        "src": "Linie 1, стр. 211 (In der Stadt)"
+       },
+       {
+        "id": "ch12_L2_kurs_2",
+        "skill": "listen",
+        "phraseId": "ch12_017",
+        "prompt": "Слова курса. Послушай. Что значит «Kino»?",
+        "answer": "кино",
+        "distractors": [
+         "кафе",
+         "город"
+        ],
+        "src": "Linie 1, стр. 211 (In der Stadt)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      211,
+      213
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch12.py",
+  "new_words": [
+   "zum Bahnhof",
+   "zur Haltestelle",
+   "vom Kurs",
+   "von der Haltestelle",
+   "Wie komme ich zum Bahnhof?",
+   "Du gehst …",
+   "Dann …",
+   "hier"
+  ],
+  "known_before": [
+   "Ich fahre mit dem Bus.",
+   "Ich gehe zu Fuß.",
+   "Wie fährst du?",
+   "mit dem Bus",
+   "nach Dresden",
+   "Wo ist …?",
+   "Danke!",
+   "Bitte!",
+   "Tschüss!",
+   "Olga",
+   "Ich komme aus …",
+   "der / die / das"
+  ],
+  "transfer_phrase_ids": [
+   "ch12_t03",
+   "ch12_t04"
+  ],
+  "built_phrase_ids": [
+   "ch12_016"
+  ],
+  "quiz_ids": [
+   "ch12_L2_words_1",
+   "ch12_L2_words_2",
+   "ch12_L2_words_3",
+   "ch12_L2_words_4",
+   "ch12_L2_words_5",
+   "ch12_L2_listen_1",
+   "ch12_L2_listen_2",
+   "ch12_L2_listen_3",
+   "ch12_L2_listen_4",
+   "ch12_L2_listen_5",
+   "ch12_L2_read_1",
+   "ch12_L2_read_2",
+   "ch12_L2_read_3",
+   "ch12_L2_read_4",
+   "ch12_L2_read_5",
+   "ch12_L2_speak_1",
+   "ch12_L2_speak_2",
+   "ch12_L2_speak_3",
+   "ch12_L2_speak_4",
+   "ch12_L2_speak_5",
+   "ch12_L2_write_1",
+   "ch12_L2_write_2",
+   "ch12_L2_write_3",
+   "ch12_L2_write_4",
+   "ch12_L2_write_5",
+   "ch12_L2_why_1",
+   "ch12_L2_why_2",
+   "ch12_L2_why_3",
+   "ch12_L2_why_4",
+   "ch12_L2_why_5",
+   "ch12_L2_transfer_1",
+   "ch12_L2_transfer_2",
+   "ch12_L2_transfer_3",
+   "ch12_L2_transfer_4",
+   "ch12_L2_transfer_5",
+   "ch12_L2_boss_1"
+  ],
+  "dictation_ids": [
+   "ch12_L2_dict_1",
+   "ch12_L2_dict_2",
+   "ch12_L2_dict_3"
+  ],
+  "status": "на проверку (2)",
+  "minutes": "20",
+  "intro": "Урок на курсе кончился, пора ехать. Цель: узнать у Ольги дорогу и сказать, откуда и куда. Загадка урока: вокзал — der Bahnhof, остановка — die Haltestelle. А идёшь ты zum Bahnhof и zur Haltestelle. Куда делись der и die?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Как пройти?",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "новичок на курсе спрашивает дорогу (ИИ — Ольга; ты объясняешь)",
+   "situation": "weg_zum_bahnhof",
+   "ai_plays": "Olga и новичок: ты объясняешь дорогу",
+   "phrases": [
+    "ch12_d2_02",
+    "ch12_012",
+    "ch12_d2_03",
+    "ch12_d2_06"
+   ]
+  },
+  "outro": "Ты знаешь, как дойти до остановки и доехать до вокзала. Совет на завтра: по дороге на курс скажи про себя, куда идёшь: Ich gehe zum … или zur … Дальше: сам вокзал. Fahrkarte, Gleis, Abfahrt — и объявление, из которого надо вытащить главное.",
+  "detail_de_life": "На указателях по всей Германии стоят короткие слитные формы: «Zum Bahnhof», «Zur Stadtmitte». Это те же zum и zur, что в уроке: zu и артикль сливаются в одно слово.",
+  "task_ids": {
+   "words": [
+    "ch12_L2_words_1",
+    "ch12_L2_words_2",
+    "ch12_L2_words_3",
+    "ch12_L2_words_4",
+    "ch12_L2_words_5"
+   ],
+   "listen": [
+    "ch12_L2_listen_1",
+    "ch12_L2_listen_2",
+    "ch12_L2_listen_3",
+    "ch12_L2_listen_4",
+    "ch12_L2_listen_5"
+   ],
+   "read": [
+    "ch12_L2_read_1",
+    "ch12_L2_read_2",
+    "ch12_L2_read_3",
+    "ch12_L2_read_4",
+    "ch12_L2_read_5"
+   ],
+   "speak": [
+    "ch12_L2_speak_1",
+    "ch12_L2_speak_2",
+    "ch12_L2_speak_3",
+    "ch12_L2_speak_4",
+    "ch12_L2_speak_5"
+   ],
+   "write": [
+    "ch12_L2_write_1",
+    "ch12_L2_write_2",
+    "ch12_L2_write_3",
+    "ch12_L2_write_4",
+    "ch12_L2_write_5"
+   ],
+   "why": [
+    "ch12_L2_why_1",
+    "ch12_L2_why_2",
+    "ch12_L2_why_3",
+    "ch12_L2_why_4",
+    "ch12_L2_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch12_L2_transfer_1",
+   "ch12_L2_transfer_2",
+   "ch12_L2_transfer_3",
+   "ch12_L2_transfer_4",
+   "ch12_L2_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch12_001",
+   "ch12_004",
+   "ch12_005"
+  ],
+  "dialog_ids": [
+   "ch12_d2"
+  ],
+  "video": "video/ch12_L2.mp4"
+ },
+ {
+  "id": "ch12_L3",
+  "title": "Am Bahnhof. Билет и путь",
+  "pages_linie1": {
+   "pages": [
+    214
+   ],
+   "sections": [
+    "5 Am Bahnhof"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch12_018",
+   "ch12_019",
+   "ch12_020",
+   "ch12_022"
+  ],
+  "why_ids": [
+   "ch12_019",
+   "ch12_020"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch12_d3",
+    "line_ids": [
+     "ch12_d3_01",
+     "ch12_d3_02",
+     "ch12_d3_03",
+     "ch12_d3_04",
+     "ch12_d3_05",
+     "ch12_d3_06"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Как спросить дорогу и сказать, откуда ты идёшь?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch12_d3",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch12_d3_01",
+        "ch12_d3_02",
+        "ch12_d3_03",
+        "ch12_d3_05"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch12_d3",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Звуки l и ei: послушай Gleis, Reise, Fahrkarte и повтори",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch12_018",
+        "ch12_019",
+        "ch12_020",
+        "ch12_d3_03"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Звуки l и ei: послушай Gleis, Reise, Fahrkarte и повтори — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "fährt … ab и steige … um — через картинку «поезд из двух частей»: первая во втором вагоне, маленькая вторая — в конец",
+   "как слышу, так и пишу": "звуки дня: l твёрдая, ei = «ай» (Gleis, Reise); диктант: ab и um с маленькой буквы в конце",
+   "учебник непонятен": "из Linie 1 — только тема и страница 214; подача своя",
+   "село, живой немецкий — Netto": "ситуация автора: билет на вокзале во Фрайберге и пересадка в Дрездене",
+   "любит аниме": "завязка — герой ловит в объявлении глашатая только главное",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин (все 12 + 24 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Fährt der Zug von Gleis drei ab?; перенос — Ich steige in Chemnitz um., Eine Fahrkarte nach Chemnitz, bitte.",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    214
+   ],
+   "phrases_ids": [
+    "ch12_023"
+   ],
+   "note": "к курсу: на стр. 214 — вокзал: билет, Durchsagen (объявления), Zugverbindungen (расписание и пересадки); слова курса узнавать на слух; объявление понимают по опорным словам: Zug, город, Gleis, ab",
+   "listen_only_ids": [
+    "ch12_021"
+   ],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch12_023",
+    "picture": "вокзал: табло Abfahrt и Ankunft, расписание, перрон, автомат для билетов, динамик с объявлением",
+    "words": [
+     {
+      "de": "die Abfahrt",
+      "ru": "отправление"
+     },
+     {
+      "de": "die Ankunft",
+      "ru": "прибытие"
+     },
+     {
+      "de": "der Fahrplan",
+      "ru": "расписание"
+     },
+     {
+      "de": "der Bahnsteig",
+      "ru": "перрон"
+     },
+     {
+      "de": "der Automat",
+      "ru": "автомат"
+     },
+     {
+      "de": "die Durchsage",
+      "ru": "объявление"
+     }
+    ],
+    "note": "эти слова есть на стр. 214; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch12_L3_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch12_023",
+     "prompt": "Слова курса. Послушай. Что значит «Fahrplan»?",
+     "answer": "расписание",
+     "distractors": [
+      "прибытие",
+      "автомат"
+     ],
+     "src": "Linie 1, стр. 214 (Am Bahnhof)"
+    },
+    {
+     "id": "ch12_L3_kurs_2",
+     "skill": "listen",
+     "phraseId": "ch12_021",
+     "prompt": "Объявление на вокзале. Послушай. С какого пути уходит поезд в Лейпциг?",
+     "answer": "с пути 3",
+     "distractors": [
+      "с пути 5",
+      "с пути 1"
+     ],
+     "src": "Linie 1, стр. 214 (Am Bahnhof, Durchsagen)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Вокзал: касса и путь",
+   "npc": "Frau Wagner — сотрудница вокзала (на «вы»)"
+  },
+  "covers": [
+   "L1-12-S5"
+  ],
+  "covers_partial": [
+   "L1-12-LERNEN",
+   "L1-12-AUSSPR",
+   "L1-12-S4"
+  ],
+  "covers_note": {
+   "L1-12-S5": "Fahrkarte, Durchsage, Zugverbindung: билет (часть 4), объявление и пересадка — Der Zug nach Leipzig fährt von Gleis drei ab; In Dresden steigen Sie um (части 3–5, 8); «к курсу» — Abfahrt, Ankunft, Fahrplan, Bahnsteig, Automat, Durchsage",
+   "L1-12-LERNEN": "понять немецкий в Alltag: Durchsage (объявление) понимают по опорным словам — Zug, город, Gleis, ab; остальное можно не verstehen (kurs-задание)",
+   "L1-12-AUSSPR": "звук l (твёрдая «л», Gleis) и r (Reise, Fahrkarte) — часть 7; длинные Sätze — в уроке 5",
+   "L1-12-S4": "Start und Ziel: von Gleis drei, nach Leipzig, in Dresden (части 3–4)"
+  },
+  "goal": "После урока сможешь: попросить билет (Eine Fahrkarte nach Leipzig, bitte.), понять в объявлении, с какого пути уходит поезд (Der Zug fährt von Gleis drei ab.) и сказать, где пересаживаешься (Ich steige in Dresden um.).",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Ты на вокзале во Фрайберге. Нужен билет и путь.",
+      "Цель: купить билет, понять объявление и найти свой поезд."
+     ],
+     "voice_ru": "Сегодня вокзал: ты покупаешь билет, слушаешь объявление и ищешь нужный путь. Главное — вытащить из объявления опорные слова и не бояться остального.",
+     "hook": "Загадка урока: по-русски «поезд отправляется» — одно слово. А по-немецки в объявлении слышно «fährt», а потом, в самом конце, ещё «ab». Куда делась вторая половинка?",
+     "anime_motif": "исекай: герой у ворот гильдии ловит в объявлении глашатая только главное — номер ворот (без цитат)",
+     "npc": "Frau Wagner — сотрудница вокзала",
+     "more": "Сотрудница назовёт путь и скажет, где пересаживаться. Ты повторишь, чтобы не ошибиться.",
+     "goal": "После урока сможешь: попросить билет (Eine Fahrkarte nach Leipzig, bitte.), понять в объявлении, с какого пути уходит поезд (Der Zug fährt von Gleis drei ab.) и сказать, где пересаживаешься (Ich steige in Dresden um.)."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch12_011",
+      "ch12_013",
+      "ch12_015"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Как спросить дорогу и сказать, откуда ты идёшь?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch12_011",
+      "ch12_013",
+      "ch12_015"
+     ],
+     "type": "retrieval: вопрос, не перечитывание",
+     "note": "фразы урока 2 этой главы"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch12_018",
+      "ch12_019",
+      "ch12_020",
+      "ch12_022"
+     ],
+     "words": [
+      "eine Fahrkarte",
+      "Gleis drei",
+      "der Zug fährt … ab",
+      "ich steige … um · Sie steigen … um",
+      "dort · Gute Reise!"
+     ],
+     "words_ru": {
+      "eine Fahrkarte": "один билет",
+      "Gleis drei": "путь 3",
+      "der Zug fährt … ab": "поезд отправляется",
+      "ich steige … um · Sie steigen … um": "я пересаживаюсь · вы пересаживаетесь",
+      "dort · Gute Reise!": "там · счастливого пути!"
+     },
+     "trap": "По-русски «поезд отправляется». По-немецки действие из двух частей: fährt … ab. Первая часть во втором вагоне, вторая уезжает в конец.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch12_L3_words_1",
+      "ch12_L3_words_2",
+      "ch12_L3_words_3",
+      "ch12_L3_words_4",
+      "ch12_L3_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch12_d3",
+     "line_ids": [
+      "ch12_d3_01",
+      "ch12_d3_02",
+      "ch12_d3_03",
+      "ch12_d3_04",
+      "ch12_d3_05",
+      "ch12_d3_06"
+     ],
+     "halves": [
+      [
+       "ch12_d3_01",
+       "ch12_d3_02",
+       "ch12_d3_03"
+      ],
+      [
+       "ch12_d3_04",
+       "ch12_d3_05",
+       "ch12_d3_06"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "На табло вокзала два списка: Abfahrt — поезда, которые уезжают, и Ankunft — поезда, которые приезжают. Рядом с каждым поездом стоит номер пути: Gleis 3.",
+     "life_source": "Duden online: Abfahrt, Ankunft; Linie 1, стр. 214 (Am Bahnhof)",
+     "task_ids": [
+      "ch12_L3_listen_1",
+      "ch12_L3_listen_2",
+      "ch12_L3_listen_3",
+      "ch12_L3_listen_4",
+      "ch12_L3_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch12_019",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "Действие бывает из двух частей: fährt и ab, steige и um. Первая — во втором вагоне, маленькая вторая — в самом конце фразы.",
+     "screen": [
+      "Der Zug · fährt · von Gleis drei · ab.",
+      "Ich · steige · in Dresden · um."
+     ],
+     "answer_hook": "Ответ на загадку: ab никуда не делось — это вторая половинка действия. fährt … ab значит «отправляется»: половинки разъехались, первая во втором вагоне, вторая в конце.",
+     "second": {
+      "why_id": "ch12_020",
+      "voice_ru": "То же у steige … um. Место посередине — in Dresden, где пересаживаешься. А um — в самом конце."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch12_L3_why_1",
+      "ch12_L3_why_2",
+      "ch12_L3_why_3",
+      "ch12_L3_why_4",
+      "ch12_L3_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch12_022",
+     "pieces": [
+      "ab?",
+      "von Gleis drei",
+      "der Zug",
+      "Fährt"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch12_d3_02",
+      "ch12_d3_03"
+     ],
+     "prompt": "Собери сам из знакомых кусков: спроси сотрудницу: «Поезд отправляется с пути 3?»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch12_022",
+     "transfer_task_ids": [
+      "ch12_L3_transfer_1"
+     ],
+     "task_ids": [
+      "ch12_L3_write_1",
+      "ch12_L3_write_2",
+      "ch12_L3_write_3",
+      "ch12_L3_write_4",
+      "ch12_L3_write_5",
+      "ch12_L3_read_1",
+      "ch12_L3_read_2",
+      "ch12_L3_read_3",
+      "ch12_L3_read_4",
+      "ch12_L3_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "Gleis",
+     "ipa_sym": "l",
+     "tip_ru": "Немецкая буква l светлая: она не такая твёрдая, как русская «л», и не мягкая, как «ль»: Gleis — «глайс». Сочетание ei читается «ай».",
+     "bridge_ru": "Русская привычка — смягчать л перед гласной и читать ei как «эй». По-немецки l — между «л» и «ль», а ei — это «ай».",
+     "phrase_id": "ch12_019",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "Gleis",
+       "ru": "глайс — l между «л» и «ль», ei = «ай»"
+      },
+      {
+       "de": "Reise",
+       "ru": "райзе — ei = «ай», r в горле"
+      },
+      {
+       "de": "Fahrkarte",
+       "ru": "фа:акарте — r после гласной почти «а»"
+      }
+     ],
+     "speak_task_ids": [
+      "ch12_L3_speak_1",
+      "ch12_L3_speak_2",
+      "ch12_L3_speak_3",
+      "ch12_L3_speak_4",
+      "ch12_L3_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "У кассы",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Frau Wagner (на «вы») — сотрудница вокзала, отвечаешь ты",
+     "turns": [
+      {
+       "prompt_id": "ch12_d3_02",
+       "prompt_de": "Bitte. Der Zug fährt von Gleis drei ab.",
+       "prompt_audio": "audio_v1/ch12_d3_02.mp3",
+       "expected_id": "ch12_d3_03",
+       "expected_de": "Wo ist Gleis drei?",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch12_d3_04",
+       "prompt_de": "Gleis drei ist dort. In Dresden steigen Sie um.",
+       "prompt_audio": "audio_v1/ch12_d3_04.mp3",
+       "expected_id": "ch12_d3_05",
+       "expected_de": "Ich steige in Dresden um. Danke!",
+       "accept": [
+        {
+         "id": "ch12_020",
+         "de": "Ich steige in Dresden um."
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch12_d3_02",
+       "prompt_de": "Bitte. Der Zug fährt von Gleis drei ab.",
+       "prompt_audio": "audio_v1/ch12_d3_02.mp3",
+       "expected_id": "ch12_022",
+       "expected_de": "Fährt der Zug von Gleis drei ab?",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Отвечай целой фразой: Wo ist Gleis drei? / Ich steige in Dresden um.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch12_019",
+     "task_ru": "Новичок на курсе не понял, что сказала сотрудница вокзала. Объясни ему по-русски, откуда уходит поезд.",
+     "expected_ru": "Поезд отправляется с пути 3.",
+     "hint_ru": "der Zug — поезд; fährt … ab — отправляется; von Gleis drei — с пути 3",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch12_L3_dict_1",
+      "ch12_L3_dict_2",
+      "ch12_L3_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Слова-предметы пишутся с большой буквы: Fahrkarte, Gleis, Zug. Маленькие ab и um — с маленькой буквы, в конце: fährt … ab, steige … um. Звук «ай» пишется ei: Gleis."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch12_L3_transfer_2",
+      "ch12_L3_transfer_3",
+      "ch12_L3_transfer_4",
+      "ch12_L3_transfer_5",
+      "ch12_L3_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Ты купил билет, нашёл путь и знаешь, где пересаживаться.",
+      "Совет на завтра: услышишь объявление — лови только опорные слова: поезд, город, путь."
+     ],
+     "npc_phrase_id": "ch12_d3_06",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: Eine Fahrkarte nach … , bitte. · Der Zug fährt von Gleis … ab. · Ich steige in … um. · Gute Reise!",
+     "next_hook": "Дальше: Geh geradeaus! Как показать дорогу на «ты»: прямо, налево, направо.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       214
+      ],
+      "phrases_ids": [
+       "ch12_023"
+      ],
+      "note": "к курсу: на стр. 214 — вокзал: билет, Durchsagen (объявления), Zugverbindungen (расписание и пересадки); слова курса узнавать на слух; объявление понимают по опорным словам: Zug, город, Gleis, ab",
+      "listen_only_ids": [
+       "ch12_021"
+      ],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch12_023",
+       "picture": "вокзал: табло Abfahrt и Ankunft, расписание, перрон, автомат для билетов, динамик с объявлением",
+       "words": [
+        {
+         "de": "die Abfahrt",
+         "ru": "отправление"
+        },
+        {
+         "de": "die Ankunft",
+         "ru": "прибытие"
+        },
+        {
+         "de": "der Fahrplan",
+         "ru": "расписание"
+        },
+        {
+         "de": "der Bahnsteig",
+         "ru": "перрон"
+        },
+        {
+         "de": "der Automat",
+         "ru": "автомат"
+        },
+        {
+         "de": "die Durchsage",
+         "ru": "объявление"
+        }
+       ],
+       "note": "эти слова есть на стр. 214; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch12_L3_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch12_023",
+        "prompt": "Слова курса. Послушай. Что значит «Fahrplan»?",
+        "answer": "расписание",
+        "distractors": [
+         "прибытие",
+         "автомат"
+        ],
+        "src": "Linie 1, стр. 214 (Am Bahnhof)"
+       },
+       {
+        "id": "ch12_L3_kurs_2",
+        "skill": "listen",
+        "phraseId": "ch12_021",
+        "prompt": "Объявление на вокзале. Послушай. С какого пути уходит поезд в Лейпциг?",
+        "answer": "с пути 3",
+        "distractors": [
+         "с пути 5",
+         "с пути 1"
+        ],
+        "src": "Linie 1, стр. 214 (Am Bahnhof, Durchsagen)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      214
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch12.py",
+  "new_words": [
+   "Eine Fahrkarte …, bitte.",
+   "Gleis drei",
+   "Der Zug fährt … ab.",
+   "Ich steige … um.",
+   "dort",
+   "Gute Reise!"
+  ],
+  "known_before": [
+   "zum Bahnhof",
+   "vom Kurs",
+   "Wie komme ich zum Bahnhof?",
+   "Ich fahre mit dem Zug.",
+   "nach Dresden",
+   "Wo ist …?",
+   "Danke!",
+   "Bitte!",
+   "Tschüss!",
+   "Guten Tag!",
+   "Sie",
+   "eins … zehn"
+  ],
+  "transfer_phrase_ids": [
+   "ch12_t05",
+   "ch12_t06"
+  ],
+  "built_phrase_ids": [
+   "ch12_022"
+  ],
+  "quiz_ids": [
+   "ch12_L3_words_1",
+   "ch12_L3_words_2",
+   "ch12_L3_words_3",
+   "ch12_L3_words_4",
+   "ch12_L3_words_5",
+   "ch12_L3_listen_1",
+   "ch12_L3_listen_2",
+   "ch12_L3_listen_3",
+   "ch12_L3_listen_4",
+   "ch12_L3_listen_5",
+   "ch12_L3_read_1",
+   "ch12_L3_read_2",
+   "ch12_L3_read_3",
+   "ch12_L3_read_4",
+   "ch12_L3_read_5",
+   "ch12_L3_speak_1",
+   "ch12_L3_speak_2",
+   "ch12_L3_speak_3",
+   "ch12_L3_speak_4",
+   "ch12_L3_speak_5",
+   "ch12_L3_write_1",
+   "ch12_L3_write_2",
+   "ch12_L3_write_3",
+   "ch12_L3_write_4",
+   "ch12_L3_write_5",
+   "ch12_L3_why_1",
+   "ch12_L3_why_2",
+   "ch12_L3_why_3",
+   "ch12_L3_why_4",
+   "ch12_L3_why_5",
+   "ch12_L3_transfer_1",
+   "ch12_L3_transfer_2",
+   "ch12_L3_transfer_3",
+   "ch12_L3_transfer_4",
+   "ch12_L3_transfer_5",
+   "ch12_L3_boss_1"
+  ],
+  "dictation_ids": [
+   "ch12_L3_dict_1",
+   "ch12_L3_dict_2",
+   "ch12_L3_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Ты на вокзале во Фрайберге. Нужен билет и путь. Цель: купить билет, понять объявление и найти свой поезд. Загадка урока: по-русски «поезд отправляется» — одно слово. А по-немецки в объявлении слышно «fährt», а потом, в самом конце, ещё «ab». Куда делась вторая половинка?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. У кассы",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "пассажир у кассы (ИИ — сотрудница вокзала; ты спрашиваешь про путь и пересадку)",
+   "situation": "fahrkarte_gleis",
+   "ai_plays": "Frau Wagner (на «вы») — сотрудница вокзала, отвечаешь ты",
+   "phrases": [
+    "ch12_d3_03",
+    "ch12_d3_05",
+    "ch12_020",
+    "ch12_022"
+   ]
+  },
+  "outro": "Ты купил билет, нашёл путь и знаешь, где пересаживаться. Совет на завтра: услышишь объявление — лови только опорные слова: поезд, город, путь. Дальше: Geh geradeaus! Как показать дорогу на «ты»: прямо, налево, направо.",
+  "detail_de_life": "На табло вокзала два списка: Abfahrt — поезда, которые уезжают, и Ankunft — поезда, которые приезжают. Рядом с каждым поездом стоит номер пути: Gleis 3.",
+  "detail_de_life_source": "Duden online: Abfahrt, Ankunft; Linie 1, стр. 214 (Am Bahnhof)",
+  "task_ids": {
+   "words": [
+    "ch12_L3_words_1",
+    "ch12_L3_words_2",
+    "ch12_L3_words_3",
+    "ch12_L3_words_4",
+    "ch12_L3_words_5"
+   ],
+   "listen": [
+    "ch12_L3_listen_1",
+    "ch12_L3_listen_2",
+    "ch12_L3_listen_3",
+    "ch12_L3_listen_4",
+    "ch12_L3_listen_5"
+   ],
+   "read": [
+    "ch12_L3_read_1",
+    "ch12_L3_read_2",
+    "ch12_L3_read_3",
+    "ch12_L3_read_4",
+    "ch12_L3_read_5"
+   ],
+   "speak": [
+    "ch12_L3_speak_1",
+    "ch12_L3_speak_2",
+    "ch12_L3_speak_3",
+    "ch12_L3_speak_4",
+    "ch12_L3_speak_5"
+   ],
+   "write": [
+    "ch12_L3_write_1",
+    "ch12_L3_write_2",
+    "ch12_L3_write_3",
+    "ch12_L3_write_4",
+    "ch12_L3_write_5"
+   ],
+   "why": [
+    "ch12_L3_why_1",
+    "ch12_L3_why_2",
+    "ch12_L3_why_3",
+    "ch12_L3_why_4",
+    "ch12_L3_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch12_L3_transfer_1",
+   "ch12_L3_transfer_2",
+   "ch12_L3_transfer_3",
+   "ch12_L3_transfer_4",
+   "ch12_L3_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch12_011",
+   "ch12_013",
+   "ch12_015"
+  ],
+  "dialog_ids": [
+   "ch12_d3"
+  ],
+  "video": "video/ch12_L3.mp4"
+ },
+ {
+  "id": "ch12_L4",
+  "title": "Geh geradeaus! Как показать дорогу",
+  "pages_linie1": {
+   "pages": [
+    215
+   ],
+   "sections": [
+    "6 Ankunft in Bremen"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch12_024",
+   "ch12_025",
+   "ch12_026"
+  ],
+  "why_ids": [
+   "ch12_024",
+   "ch12_d4_04"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch12_d4",
+    "line_ids": [
+     "ch12_d4_01",
+     "ch12_d4_02",
+     "ch12_d4_03",
+     "ch12_d4_04",
+     "ch12_d4_05",
+     "ch12_d4_06"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Как попросить билет и сказать, где пересаживаешься?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch12_d4",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch12_d4_01",
+        "ch12_d4_02",
+        "ch12_d4_04",
+        "ch12_d4_05"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch12_d4",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Звук «хь»: послушай rechts, ich, links и повтори",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch12_024",
+        "ch12_025",
+        "ch12_026",
+        "ch12_d4_02"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Звук «хь»: послушай rechts, ich, links и повтори — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "просьба на «ты» — через пару «ты идёшь → иди»: в русском окончание тоже уходит; по-немецки gehst → Geh",
+   "как слышу, так и пишу": "звук дня: ch после e = тихое «хь» (rechts, ich); диктант: просьба с большой буквы, links и rechts с маленькой",
+   "учебник непонятен": "из Linie 1 — только тема и страница 215; подача своя",
+   "село, живой немецкий — Netto": "ситуация автора: спросить дорогу у одногруппницы и дойти до вокзала",
+   "любит аниме": "завязка — герой у карты гильдии слушает, как пройти от ворот до рынка",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин (все 12 + 24 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Dann geh zum Bahnhof!; перенос — Geh zur Haltestelle!, Geh geradeaus, dann rechts!",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    215
+   ],
+   "phrases_ids": [
+    "ch12_027"
+   ],
+   "note": "к курсу: на стр. 215 — сообщение Ольги из Бремена: Wegbeschreibung (описание пути) и Stadtplan (план города); слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch12_027",
+    "picture": "план города: вход, выход, перекрёсток, центр, дорога, улица",
+    "words": [
+     {
+      "de": "der Eingang",
+      "ru": "вход"
+     },
+     {
+      "de": "der Ausgang",
+      "ru": "выход"
+     },
+     {
+      "de": "die Kreuzung",
+      "ru": "перекрёсток"
+     },
+     {
+      "de": "das Zentrum",
+      "ru": "центр"
+     },
+     {
+      "de": "der Weg",
+      "ru": "дорога"
+     },
+     {
+      "de": "die Straße",
+      "ru": "улица"
+     }
+    ],
+    "note": "эти слова есть на стр. 215; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch12_L4_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch12_027",
+     "prompt": "Слова курса. Послушай. Что значит «Kreuzung»?",
+     "answer": "перекрёсток",
+     "distractors": [
+      "вход",
+      "центр"
+     ],
+     "src": "Linie 1, стр. 215 (Ankunft in Bremen)"
+    },
+    {
+     "id": "ch12_L4_kurs_2",
+     "skill": "listen",
+     "phraseId": "ch12_027",
+     "prompt": "Слова курса. Послушай. Что значит «Ausgang»?",
+     "answer": "выход",
+     "distractors": [
+      "вход",
+      "улица"
+     ],
+     "src": "Linie 1, стр. 215 (Ankunft in Bremen)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Вокзал: путь от курса до станции словами и жестами",
+   "npc": "Olga — одногруппница (на «ты»)"
+  },
+  "covers": [
+   "L1-12-S6",
+   "L1-12-G3",
+   "B17.2",
+   "B14.7"
+  ],
+  "covers_partial": [
+   "L1-12-MEDIAT",
+   "L1-12-AUSSPR"
+  ],
+  "covers_note": {
+   "L1-12-S6": "Wegbeschreibung: Geh geradeaus! Geh links, dann rechts! (части 3–5, 8); Stadtplan — «к курсу»: Eingang, Ausgang, Kreuzung, Zentrum, Weg, Straße",
+   "L1-12-G3": "просьба на «ты»: основа действия без «ты» и без окончания — Geh! (часть 5, слои фраз 024–026)",
+   "B17.2": "форма du: откуда берётся короткая просьба — ты идёшь → Geh! (часть 5)",
+   "B14.7": "направление: links, rechts, geradeaus (части 3–4)",
+   "L1-12-MEDIAT": "объяснить дорогу новичку без немецкого — словами и жестами (часть 9)",
+   "L1-12-AUSSPR": "звук ch после e и i: rechts, ich — тихое «хь» (часть 7); l и r — урок 3"
+  },
+  "goal": "После урока сможешь: попросить на «ты» идти прямо, налево, направо (Geh geradeaus! Geh links, dann rechts!) и объяснить новичку дорогу к вокзалу.",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Ты в Дрездене. Вокзал рядом, но куда идти?",
+      "Цель: попросить дорогу и показать её на «ты»."
+     ],
+     "voice_ru": "Ты спрашиваешь Ольгу, где вокзал. Она отвечает короткими просьбами: прямо, налево, направо. Сегодня учим так же показывать дорогу.",
+     "hook": "Загадка урока: «ты идёшь» — gehst. А когда просишь «иди!», слышно только Geh. Куда пропали «ты» и окончание?",
+     "anime_motif": "исекай: герой у карты гильдии слушает, как пройти от ворот до рынка (без цитат)",
+     "npc": "Olga — одногруппница",
+     "more": "Ольга назовёт путь тремя короткими просьбами. Ты повторишь его и поблагодаришь.",
+     "goal": "После урока сможешь: попросить на «ты» идти прямо, налево, направо (Geh geradeaus! Geh links, dann rechts!) и объяснить новичку дорогу к вокзалу."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch12_018",
+      "ch12_019",
+      "ch12_020"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Как попросить билет и сказать, где пересаживаешься?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch12_018",
+      "ch12_019",
+      "ch12_020"
+     ],
+     "type": "retrieval: вопрос, не перечитывание",
+     "note": "фразы урока 3 этой главы"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch12_024",
+      "ch12_025",
+      "ch12_026"
+     ],
+     "words": [
+      "geh · geradeaus",
+      "links · rechts",
+      "Dann geh …"
+     ],
+     "words_ru": {
+      "geh · geradeaus": "иди · прямо",
+      "links · rechts": "налево · направо",
+      "Dann geh …": "потом иди …"
+     },
+     "trap": "По-русски «иди прямо!» — без «ты». По-немецки тоже: Geh geradeaus! Окончание уходит, остаётся основа.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch12_L4_words_1",
+      "ch12_L4_words_2",
+      "ch12_L4_words_3",
+      "ch12_L4_words_4",
+      "ch12_L4_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch12_d4",
+     "line_ids": [
+      "ch12_d4_01",
+      "ch12_d4_02",
+      "ch12_d4_03",
+      "ch12_d4_04",
+      "ch12_d4_05",
+      "ch12_d4_06"
+     ],
+     "halves": [
+      [
+       "ch12_d4_01",
+       "ch12_d4_02",
+       "ch12_d4_03"
+      ],
+      [
+       "ch12_d4_04",
+       "ch12_d4_05",
+       "ch12_d4_06"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "На указателях у вокзалов и в зданиях стоят слова Eingang — вход и Ausgang — выход, рядом стрелка. Они показывают направление так же коротко, как просьба «Иди прямо!».",
+     "life_source": "Linie 1, стр. 215; Duden online: Eingang, Ausgang",
+     "task_ids": [
+      "ch12_L4_listen_1",
+      "ch12_L4_listen_2",
+      "ch12_L4_listen_3",
+      "ch12_L4_listen_4",
+      "ch12_L4_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch12_024",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "Просьба на «ты»: берём действие и убираем «ты» и окончание. Ты идёшь — иди: Geh! Действие стоит первым, дальше — куда.",
+     "screen": [
+      "Ты идёшь → Geh geradeaus!",
+      "Потом → Dann geh links."
+     ],
+     "answer_hook": "Ответ на загадку: «ты» и окончание не потерялись. В просьбе на «ты» остаётся только основа действия — Geh.",
+     "second": {
+      "why_id": "ch12_d4_04",
+      "voice_ru": "Если фраза начата со слова «потом» — Dann, действие всё равно сразу за ним: Dann geh links."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch12_L4_why_1",
+      "ch12_L4_why_2",
+      "ch12_L4_why_3",
+      "ch12_L4_why_4",
+      "ch12_L4_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch12_026",
+     "pieces": [
+      "zum Bahnhof!",
+      "geh",
+      "Dann"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch12_d4_04",
+      "ch12_011"
+     ],
+     "prompt": "Собери сам из знакомых кусков: скажи Ольге: «Потом иди на вокзал!»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch12_026",
+     "transfer_task_ids": [
+      "ch12_L4_transfer_1"
+     ],
+     "task_ids": [
+      "ch12_L4_write_1",
+      "ch12_L4_write_2",
+      "ch12_L4_write_3",
+      "ch12_L4_write_4",
+      "ch12_L4_write_5",
+      "ch12_L4_read_1",
+      "ch12_L4_read_2",
+      "ch12_L4_read_3",
+      "ch12_L4_read_4",
+      "ch12_L4_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "rechts",
+     "ipa_sym": "ç",
+     "tip_ru": "Буквы ch после e и i читаются тихим «хь», как будто дышишь на очки: rechts — «рэхьц». Не «ч» и не твёрдое «х».",
+     "bridge_ru": "Русская привычка — читать ch как «ч» или как твёрдое «х». По-немецки после e и i это тихое «хь».",
+     "phrase_id": "ch12_025",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "rechts",
+       "ru": "рэхьц — ch = «хь»"
+      },
+      {
+       "de": "ich",
+       "ru": "ихь — ch = «хь»"
+      },
+      {
+       "de": "links",
+       "ru": "линкс — n перед k как в слове «банк»"
+      }
+     ],
+     "speak_task_ids": [
+      "ch12_L4_speak_1",
+      "ch12_L4_speak_2",
+      "ch12_L4_speak_3",
+      "ch12_L4_speak_4",
+      "ch12_L4_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Как пройти?",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "новичок на курсе (ты объясняешь дорогу Ольгиными словами)",
+     "turns": [
+      {
+       "prompt_id": "ch12_d4_01",
+       "prompt_de": "Olga, wo ist der Bahnhof?",
+       "prompt_audio": "audio_v1/ch12_d4_01.mp3",
+       "expected_id": "ch12_d4_02",
+       "expected_de": "Geh geradeaus!",
+       "accept": [
+        {
+         "id": "ch12_024",
+         "de": "Geh geradeaus!"
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch12_d4_03",
+       "prompt_de": "Und dann?",
+       "prompt_audio": "audio_v1/ch12_d4_03.mp3",
+       "expected_id": "ch12_d4_04",
+       "expected_de": "Dann geh links und dann rechts.",
+       "accept": [
+        {
+         "id": "ch12_025",
+         "de": "Geh links, dann rechts!"
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch12_d4_05",
+       "prompt_de": "Links und dann rechts. Danke, Olga!",
+       "prompt_audio": "audio_v1/ch12_d4_05.mp3",
+       "expected_id": "ch12_d4_06",
+       "expected_de": "Bitte! Tschüss!",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Отвечай целой фразой: Geh geradeaus! / Dann geh links und dann rechts.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch12_025",
+     "task_ru": "Новичок на курсе не знает немецкого. Объясни ему по-русски и покажи жестами, куда идти.",
+     "expected_ru": "Иди налево, потом направо!",
+     "hint_ru": "geh — иди; links — налево; dann — потом; rechts — направо",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch12_L4_dict_1",
+      "ch12_L4_dict_2",
+      "ch12_L4_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Просьба начинается с большой буквы: Geh geradeaus! Слова links, rechts, dann — с маленькой. Тихое «хь» в rechts пишется буквами ch."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch12_L4_transfer_2",
+      "ch12_L4_transfer_3",
+      "ch12_L4_transfer_4",
+      "ch12_L4_transfer_5",
+      "ch12_L4_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Ты умеешь показать дорогу: прямо, налево, направо.",
+      "Совет на завтра: по дороге на курс скажи про себя: Geh geradeaus! Geh links! Geh rechts!"
+     ],
+     "npc_phrase_id": "ch12_d4_06",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: Geh geradeaus! · Geh links, dann rechts! · Dann geh zum Bahnhof! На курсе эту форму называют Imperativ.",
+     "next_hook": "Дальше: Wo ist die Apotheke? Места в городе и слова im, am, an der: где что находится.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       215
+      ],
+      "phrases_ids": [
+       "ch12_027"
+      ],
+      "note": "к курсу: на стр. 215 — сообщение Ольги из Бремена: Wegbeschreibung (описание пути) и Stadtplan (план города); слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch12_027",
+       "picture": "план города: вход, выход, перекрёсток, центр, дорога, улица",
+       "words": [
+        {
+         "de": "der Eingang",
+         "ru": "вход"
+        },
+        {
+         "de": "der Ausgang",
+         "ru": "выход"
+        },
+        {
+         "de": "die Kreuzung",
+         "ru": "перекрёсток"
+        },
+        {
+         "de": "das Zentrum",
+         "ru": "центр"
+        },
+        {
+         "de": "der Weg",
+         "ru": "дорога"
+        },
+        {
+         "de": "die Straße",
+         "ru": "улица"
+        }
+       ],
+       "note": "эти слова есть на стр. 215; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch12_L4_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch12_027",
+        "prompt": "Слова курса. Послушай. Что значит «Kreuzung»?",
+        "answer": "перекрёсток",
+        "distractors": [
+         "вход",
+         "центр"
+        ],
+        "src": "Linie 1, стр. 215 (Ankunft in Bremen)"
+       },
+       {
+        "id": "ch12_L4_kurs_2",
+        "skill": "listen",
+        "phraseId": "ch12_027",
+        "prompt": "Слова курса. Послушай. Что значит «Ausgang»?",
+        "answer": "выход",
+        "distractors": [
+         "вход",
+         "улица"
+        ],
+        "src": "Linie 1, стр. 215 (Ankunft in Bremen)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      215
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch12.py",
+  "new_words": [
+   "Geh geradeaus!",
+   "links",
+   "rechts",
+   "Dann geh …",
+   "Und dann?"
+  ],
+  "known_before": [
+   "zum Bahnhof",
+   "Wo ist …?",
+   "Du gehst …",
+   "Olga",
+   "Danke!",
+   "Bitte!",
+   "Tschüss!",
+   "dann",
+   "und",
+   "dort",
+   "der / die / das"
+  ],
+  "transfer_phrase_ids": [
+   "ch12_t07",
+   "ch12_t08",
+   "ch12_t09"
+  ],
+  "built_phrase_ids": [
+   "ch12_026"
+  ],
+  "quiz_ids": [
+   "ch12_L4_words_1",
+   "ch12_L4_words_2",
+   "ch12_L4_words_3",
+   "ch12_L4_words_4",
+   "ch12_L4_words_5",
+   "ch12_L4_listen_1",
+   "ch12_L4_listen_2",
+   "ch12_L4_listen_3",
+   "ch12_L4_listen_4",
+   "ch12_L4_listen_5",
+   "ch12_L4_read_1",
+   "ch12_L4_read_2",
+   "ch12_L4_read_3",
+   "ch12_L4_read_4",
+   "ch12_L4_read_5",
+   "ch12_L4_speak_1",
+   "ch12_L4_speak_2",
+   "ch12_L4_speak_3",
+   "ch12_L4_speak_4",
+   "ch12_L4_speak_5",
+   "ch12_L4_write_1",
+   "ch12_L4_write_2",
+   "ch12_L4_write_3",
+   "ch12_L4_write_4",
+   "ch12_L4_write_5",
+   "ch12_L4_why_1",
+   "ch12_L4_why_2",
+   "ch12_L4_why_3",
+   "ch12_L4_why_4",
+   "ch12_L4_why_5",
+   "ch12_L4_transfer_1",
+   "ch12_L4_transfer_2",
+   "ch12_L4_transfer_3",
+   "ch12_L4_transfer_4",
+   "ch12_L4_transfer_5",
+   "ch12_L4_boss_1"
+  ],
+  "dictation_ids": [
+   "ch12_L4_dict_1",
+   "ch12_L4_dict_2",
+   "ch12_L4_dict_3"
+  ],
+  "status": "на проверку (2)",
+  "minutes": "20",
+  "intro": "Ты в Дрездене. Вокзал рядом, но куда идти? Цель: попросить дорогу и показать её на «ты». Загадка урока: «ты идёшь» — gehst. А когда просишь «иди!», слышно только Geh. Куда пропали «ты» и окончание?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Как пройти?",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "ты объясняешь новичку дорогу (ИИ — новичок на курсе; без слов — жестами)",
+   "situation": "weg_beschreiben",
+   "ai_plays": "новичок на курсе (ты объясняешь дорогу Ольгиными словами)",
+   "phrases": [
+    "ch12_d4_02",
+    "ch12_024",
+    "ch12_d4_04",
+    "ch12_025",
+    "ch12_d4_06"
+   ]
+  },
+  "outro": "Ты умеешь показать дорогу: прямо, налево, направо. Совет на завтра: по дороге на курс скажи про себя: Geh geradeaus! Geh links! Geh rechts! Дальше: Wo ist die Apotheke? Места в городе и слова im, am, an der: где что находится.",
+  "detail_de_life": "На указателях у вокзалов и в зданиях стоят слова Eingang — вход и Ausgang — выход, рядом стрелка. Они показывают направление так же коротко, как просьба «Иди прямо!».",
+  "detail_de_life_source": "Linie 1, стр. 215; Duden online: Eingang, Ausgang",
+  "task_ids": {
+   "words": [
+    "ch12_L4_words_1",
+    "ch12_L4_words_2",
+    "ch12_L4_words_3",
+    "ch12_L4_words_4",
+    "ch12_L4_words_5"
+   ],
+   "listen": [
+    "ch12_L4_listen_1",
+    "ch12_L4_listen_2",
+    "ch12_L4_listen_3",
+    "ch12_L4_listen_4",
+    "ch12_L4_listen_5"
+   ],
+   "read": [
+    "ch12_L4_read_1",
+    "ch12_L4_read_2",
+    "ch12_L4_read_3",
+    "ch12_L4_read_4",
+    "ch12_L4_read_5"
+   ],
+   "speak": [
+    "ch12_L4_speak_1",
+    "ch12_L4_speak_2",
+    "ch12_L4_speak_3",
+    "ch12_L4_speak_4",
+    "ch12_L4_speak_5"
+   ],
+   "write": [
+    "ch12_L4_write_1",
+    "ch12_L4_write_2",
+    "ch12_L4_write_3",
+    "ch12_L4_write_4",
+    "ch12_L4_write_5"
+   ],
+   "why": [
+    "ch12_L4_why_1",
+    "ch12_L4_why_2",
+    "ch12_L4_why_3",
+    "ch12_L4_why_4",
+    "ch12_L4_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch12_L4_transfer_1",
+   "ch12_L4_transfer_2",
+   "ch12_L4_transfer_3",
+   "ch12_L4_transfer_4",
+   "ch12_L4_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch12_018",
+   "ch12_019",
+   "ch12_020"
+  ],
+  "dialog_ids": [
+   "ch12_d4"
+  ],
+  "video": "video/ch12_L4.mp4"
+ },
+ {
+  "id": "ch12_L5",
+  "title": "Wo ist die Apotheke? Где что находится",
+  "pages_linie1": {
+   "pages": [
+    216,
+    217
+   ],
+   "sections": [
+    "7 Unterwegs in Bremen",
+    "8 Ein Stadtportrat"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch12_028",
+   "ch12_029",
+   "ch12_030",
+   "ch12_031"
+  ],
+  "why_ids": [
+   "ch12_028",
+   "ch12_029"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch12_d5",
+    "line_ids": [
+     "ch12_d5_01",
+     "ch12_d5_02",
+     "ch12_d5_03",
+     "ch12_d5_04",
+     "ch12_d5_05",
+     "ch12_d5_06"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Как показать дорогу на «ты»?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch12_d5",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch12_d5_01",
+        "ch12_d5_02",
+        "ch12_d5_03",
+        "ch12_d5_04"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch12_d5",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Звуки «т» и «ц»: послушай Apotheke, Bibliothek, Zentrum и повтори",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch12_028",
+        "ch12_029",
+        "ch12_030",
+        "ch12_031"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Звуки «т» и «ц»: послушай Apotheke, Bibliothek, Zentrum и повтори — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "где что находится — через пары «слово из словаря → кусок с an / in»: der Bahnhof → am Bahnhof, die Haltestelle → an der Haltestelle; тот же артикль, что после mit, zu и von",
+   "как слышу, так и пишу": "звуки дня: th = «т» (Apotheke), z = «ц» (Zentrum); диктант: слитно am, im, раздельно an der, in der",
+   "учебник непонятен": "из Linie 1 — только темы и страницы 216, 217; подача своя",
+   "село, живой немецкий — Netto": "ситуация автора: найти аптеку и курс в городе",
+   "любит аниме": "завязка — герой на карте города ищет лавку целителя",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин (все 12 + 24 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Ist die Apotheke am Bahnhof?; перенос — Die Haltestelle ist am Bahnhof., Der Kurs ist in der Stadt.",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    216,
+    217
+   ],
+   "phrases_ids": [
+    "ch12_033"
+   ],
+   "note": "к курсу: на стр. 216 — Stadtplan города: Orte (ратуша, музей, собор, река, рыночная площадь, банк); на стр. 217 — Stadtportrait (рассказ о городе) и Himmelsrichtungen: Norden, Osten, Süden, Westen; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch12_033",
+    "picture": "план города: ратуша, музей, собор, река, рыночная площадь, банк",
+    "words": [
+     {
+      "de": "das Rathaus",
+      "ru": "ратуша"
+     },
+     {
+      "de": "das Museum",
+      "ru": "музей"
+     },
+     {
+      "de": "der Dom",
+      "ru": "собор"
+     },
+     {
+      "de": "der Fluss",
+      "ru": "река"
+     },
+     {
+      "de": "der Marktplatz",
+      "ru": "рыночная площадь"
+     },
+     {
+      "de": "die Bank",
+      "ru": "банк"
+     }
+    ],
+    "note": "эти слова есть на стр. 216; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch12_L5_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch12_033",
+     "prompt": "Слова курса. Послушай. Что значит «Rathaus»?",
+     "answer": "ратуша",
+     "distractors": [
+      "музей",
+      "банк"
+     ],
+     "src": "Linie 1, стр. 216 (Unterwegs in Bremen)"
+    },
+    {
+     "id": "ch12_L5_kurs_2",
+     "skill": "listen",
+     "phraseId": "ch12_033",
+     "prompt": "Слова курса. Послушай. Что значит «Fluss»?",
+     "answer": "река",
+     "distractors": [
+      "собор",
+      "рынок"
+     ],
+     "src": "Linie 1, стр. 216 (Unterwegs in Bremen)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Вокзал и город: где аптека, где курс",
+   "npc": "Olga — одногруппница (на «ты»)"
+  },
+  "covers": [
+   "L1-12-S7",
+   "L1-12-G4",
+   "B14.2",
+   "B15.1"
+  ],
+  "covers_partial": [
+   "L1-12-S8",
+   "L1-12-SCHREIB",
+   "L1-12-AUSSPR",
+   "L1-12-S2"
+  ],
+  "covers_note": {
+   "L1-12-S7": "Orte auf dem Stadtplan: Wo ist die Apotheke? Die Apotheke ist am Bahnhof. (части 3–5, 8); «к курсу» — Rathaus, Museum, Dom, Fluss, Marktplatz, Bank",
+   "L1-12-G4": "in и an + Dativ: am (an + dem), im (in + dem), an der, in der (часть 5, слои фраз 028–031)",
+   "B14.2": "после предлога артикль меняется: der-слово и слово среднего рода → dem (am, im), die-слово → der (части 3–5)",
+   "B15.1": "in и an отвечают на «где?»: in der Stadt, am Bahnhof (части 3–5); «куда?» — урок 2",
+   "L1-12-S8": "Stadtportrait и Himmelsrichtungen (Norden, Osten, Süden, Westen) — «к курсу», узнавать на слух",
+   "L1-12-SCHREIB": "исправить текст: найти ошибку в предложении про am / an der (задание-исправление в части 6)",
+   "L1-12-AUSSPR": "звук th = «т» (Apotheke), z = «ц» (Zentrum) — часть 7",
+   "L1-12-S2": "Orte in der Stadt: Apotheke, Zentrum, Stadt, Haltestelle, Bahnhof (части 3–4)"
+  },
+  "goal": "После урока сможешь: спросить, где аптека (Wo ist die Apotheke?), и сказать, где что находится: am Bahnhof, an der Haltestelle, im Zentrum, in der Stadt.",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Ты в городе. Нужна аптека, а на курс — позже.",
+      "Цель: спросить, где что находится, и сказать, где ты."
+     ],
+     "voice_ru": "Ты в городе и ищешь аптеку. Ольга объясняет, где что находится: у вокзала, в центре, у остановки. Сегодня учим говорить «где» по-немецки.",
+     "hook": "Загадка урока: вокзал — der Bahnhof, но аптека у вокзала — am Bahnhof. А остановка — die Haltestelle — и вдруг an der Haltestelle, без слипания. Почему am, но an der?",
+     "anime_motif": "исекай: герой на карте города ищет лавку целителя (без цитат)",
+     "npc": "Olga — одногруппница",
+     "more": "Ольга назовёт, где аптека и где курс. Ты спросишь и поблагодаришь.",
+     "goal": "После урока сможешь: спросить, где аптека (Wo ist die Apotheke?), и сказать, где что находится: am Bahnhof, an der Haltestelle, im Zentrum, in der Stadt."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch12_024",
+      "ch12_025",
+      "ch12_026"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Как показать дорогу на «ты»?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch12_024",
+      "ch12_025",
+      "ch12_026"
+     ],
+     "type": "retrieval: вопрос, не перечитывание",
+     "note": "фразы урока 4 этой главы"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch12_028",
+      "ch12_029",
+      "ch12_030",
+      "ch12_031"
+     ],
+     "words": [
+      "die Apotheke",
+      "am Bahnhof",
+      "an der Haltestelle",
+      "im Zentrum",
+      "in der Stadt"
+     ],
+     "words_ru": {
+      "die Apotheke": "аптека",
+      "am Bahnhof": "у вокзала",
+      "an der Haltestelle": "у остановки",
+      "im Zentrum": "в центре",
+      "in der Stadt": "в городе"
+     },
+     "trap": "По-русски «у вокзала, в центре, в городе» — меняется конец слова. По-немецки меняется артикль: am Bahnhof, im Zentrum, in der Stadt.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch12_L5_words_1",
+      "ch12_L5_words_2",
+      "ch12_L5_words_3",
+      "ch12_L5_words_4",
+      "ch12_L5_words_5",
+      "ch12_L5_words_6"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch12_d5",
+     "line_ids": [
+      "ch12_d5_01",
+      "ch12_d5_02",
+      "ch12_d5_03",
+      "ch12_d5_04",
+      "ch12_d5_05",
+      "ch12_d5_06"
+     ],
+     "halves": [
+      [
+       "ch12_d5_01",
+       "ch12_d5_02",
+       "ch12_d5_03"
+      ],
+      [
+       "ch12_d5_04",
+       "ch12_d5_05",
+       "ch12_d5_06"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "Над входом аптеки в Германии висит красная буква A. Это знак аптек: по нему аптеку видно издалека.",
+     "life_source": "ABDA (Bundesvereinigung Deutscher Apothekerverbände): Das rote Apotheken-A (abda.de)",
+     "task_ids": [
+      "ch12_L5_listen_1",
+      "ch12_L5_listen_2",
+      "ch12_L5_listen_3",
+      "ch12_L5_listen_4",
+      "ch12_L5_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch12_028",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "Где что находится — an и in. Артикль меняется: у der-слов и слов среднего рода dem слипается — am, im. У die-слов — der: an der.",
+     "screen": [
+      "der Bahnhof → Die Apotheke · ist · am Bahnhof.",
+      "die Haltestelle → Die Apotheke · ist · an der Haltestelle."
+     ],
+     "answer_hook": "Ответ на загадку: am — это an и dem вместе, слипание у der-слов и слов среднего рода. У die-слов артикль другой: der, и слипания нет — an der.",
+     "second": {
+      "why_id": "ch12_029",
+      "voice_ru": "Haltestelle — die-слово. После an её артикль становится der: an der Haltestelle. Слипания нет."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch12_L5_why_1",
+      "ch12_L5_why_2",
+      "ch12_L5_why_3",
+      "ch12_L5_why_4",
+      "ch12_L5_why_5"
+     ],
+     "no_story": true,
+     "examples_button": {
+      "label": "Ещё примеры",
+      "why_ids": [
+       "ch12_029"
+      ]
+     }
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch12_032",
+     "pieces": [
+      "am Bahnhof?",
+      "die Apotheke",
+      "Ist"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch12_d5_02",
+      "ch12_028"
+     ],
+     "prompt": "Собери сам из знакомых кусков: спроси Ольгу: «Аптека у вокзала?»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch12_032",
+     "transfer_task_ids": [
+      "ch12_L5_transfer_1"
+     ],
+     "task_ids": [
+      "ch12_L5_write_1",
+      "ch12_L5_write_2",
+      "ch12_L5_write_3",
+      "ch12_L5_write_4",
+      "ch12_L5_write_5",
+      "ch12_L5_read_1",
+      "ch12_L5_read_2",
+      "ch12_L5_read_3",
+      "ch12_L5_read_4",
+      "ch12_L5_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "Apotheke",
+     "ipa_sym": "t",
+     "tip_ru": "Сочетание th в немецких словах читается просто «т»: Apotheke — «апотэ:ке». Это не английское th и не «з».",
+     "bridge_ru": "Русская привычка — читать h отдельно или как английское th. По-немецки в th буква h не слышна: это «т».",
+     "phrase_id": "ch12_031",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "Apotheke",
+       "ru": "апотэ:ке — th = «т»"
+      },
+      {
+       "de": "Bibliothek",
+       "ru": "библиотэ:к — th = «т»"
+      },
+      {
+       "de": "Zentrum",
+       "ru": "цэнтрум — z = «ц»"
+      }
+     ],
+     "speak_task_ids": [
+      "ch12_L5_speak_1",
+      "ch12_L5_speak_2",
+      "ch12_L5_speak_3",
+      "ch12_L5_speak_4",
+      "ch12_L5_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Где аптека?",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "новичок на курсе (ты — Ольга, отвечаешь, где что находится)",
+     "turns": [
+      {
+       "prompt_id": "ch12_d5_01",
+       "prompt_de": "Olga, wo ist die Apotheke?",
+       "prompt_audio": "audio_v1/ch12_d5_01.mp3",
+       "expected_id": "ch12_d5_02",
+       "expected_de": "Die Apotheke ist am Bahnhof.",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch12_d5_03",
+       "prompt_de": "Wo ist der Kurs? Ich bin in der Stadt.",
+       "prompt_audio": "audio_v1/ch12_d5_03.mp3",
+       "expected_id": "ch12_d5_04",
+       "expected_de": "Der Kurs ist im Zentrum, an der Haltestelle.",
+       "accept": [
+        {
+         "id": "ch12_030",
+         "de": "Die Haltestelle ist im Zentrum."
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch12_d5_05",
+       "prompt_de": "Danke, Olga!",
+       "prompt_audio": "audio_v1/ch12_d5_05.mp3",
+       "expected_id": "ch12_d5_06",
+       "expected_de": "Bitte! Tschüss!",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Отвечай целой фразой: Die Apotheke ist am Bahnhof. / Der Kurs ist im Zentrum.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch12_d5_04",
+     "task_ru": "Новичок на курсе не понял, что сказала Ольга. Объясни ему по-русски, где курс.",
+     "expected_ru": "Курс в центре, у остановки.",
+     "hint_ru": "der Kurs — курс; im Zentrum — в центре; an der Haltestelle — у остановки",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch12_L5_dict_1",
+      "ch12_L5_dict_2",
+      "ch12_L5_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Слитно пишут am и im. Раздельно — an der и in der. Слова-предметы с большой буквы: Bahnhof, Haltestelle, Zentrum, Apotheke. Звук «т» в Apotheke пишется th."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch12_L5_transfer_2",
+      "ch12_L5_transfer_3",
+      "ch12_L5_transfer_4",
+      "ch12_L5_transfer_5",
+      "ch12_L5_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Ты знаешь, где что находится в городе: у вокзала, в центре, у остановки.",
+      "Совет на завтра: по дороге назови про себя три места: Der Bahnhof ist … Die Haltestelle ist …"
+     ],
+     "npc_phrase_id": "ch12_d5_06",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: am Bahnhof · an der Haltestelle · im Zentrum · in der Stadt · Wo ist die Apotheke?",
+     "next_hook": "Дальше: итог главы — «Mein Deutsch nach Kapitel 12»: на чём едешь, откуда и куда, как пройти и где что находится.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       216,
+       217
+      ],
+      "phrases_ids": [
+       "ch12_033"
+      ],
+      "note": "к курсу: на стр. 216 — Stadtplan города: Orte (ратуша, музей, собор, река, рыночная площадь, банк); на стр. 217 — Stadtportrait (рассказ о городе) и Himmelsrichtungen: Norden, Osten, Süden, Westen; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch12_033",
+       "picture": "план города: ратуша, музей, собор, река, рыночная площадь, банк",
+       "words": [
+        {
+         "de": "das Rathaus",
+         "ru": "ратуша"
+        },
+        {
+         "de": "das Museum",
+         "ru": "музей"
+        },
+        {
+         "de": "der Dom",
+         "ru": "собор"
+        },
+        {
+         "de": "der Fluss",
+         "ru": "река"
+        },
+        {
+         "de": "der Marktplatz",
+         "ru": "рыночная площадь"
+        },
+        {
+         "de": "die Bank",
+         "ru": "банк"
+        }
+       ],
+       "note": "эти слова есть на стр. 216; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch12_L5_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch12_033",
+        "prompt": "Слова курса. Послушай. Что значит «Rathaus»?",
+        "answer": "ратуша",
+        "distractors": [
+         "музей",
+         "банк"
+        ],
+        "src": "Linie 1, стр. 216 (Unterwegs in Bremen)"
+       },
+       {
+        "id": "ch12_L5_kurs_2",
+        "skill": "listen",
+        "phraseId": "ch12_033",
+        "prompt": "Слова курса. Послушай. Что значит «Fluss»?",
+        "answer": "река",
+        "distractors": [
+         "собор",
+         "рынок"
+        ],
+        "src": "Linie 1, стр. 216 (Unterwegs in Bremen)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      216,
+      217
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch12.py",
+  "new_words": [
+   "Wo ist die Apotheke?",
+   "am Bahnhof",
+   "an der Haltestelle",
+   "im Zentrum",
+   "in der Stadt"
+  ],
+  "known_before": [
+   "zum Bahnhof",
+   "Geh geradeaus!",
+   "links",
+   "rechts",
+   "Wo ist …?",
+   "Ich bin …",
+   "Danke!",
+   "Bitte!",
+   "Tschüss!",
+   "der Kurs",
+   "der / die / das"
+  ],
+  "transfer_phrase_ids": [
+   "ch12_t10",
+   "ch12_t11",
+   "ch12_t12"
+  ],
+  "built_phrase_ids": [
+   "ch12_032"
+  ],
+  "quiz_ids": [
+   "ch12_L5_words_1",
+   "ch12_L5_words_2",
+   "ch12_L5_words_3",
+   "ch12_L5_words_4",
+   "ch12_L5_words_5",
+   "ch12_L5_words_6",
+   "ch12_L5_listen_1",
+   "ch12_L5_listen_2",
+   "ch12_L5_listen_3",
+   "ch12_L5_listen_4",
+   "ch12_L5_listen_5",
+   "ch12_L5_read_1",
+   "ch12_L5_read_2",
+   "ch12_L5_read_3",
+   "ch12_L5_read_4",
+   "ch12_L5_read_5",
+   "ch12_L5_speak_1",
+   "ch12_L5_speak_2",
+   "ch12_L5_speak_3",
+   "ch12_L5_speak_4",
+   "ch12_L5_speak_5",
+   "ch12_L5_write_1",
+   "ch12_L5_write_2",
+   "ch12_L5_write_3",
+   "ch12_L5_write_4",
+   "ch12_L5_write_5",
+   "ch12_L5_why_1",
+   "ch12_L5_why_2",
+   "ch12_L5_why_3",
+   "ch12_L5_why_4",
+   "ch12_L5_why_5",
+   "ch12_L5_transfer_1",
+   "ch12_L5_transfer_2",
+   "ch12_L5_transfer_3",
+   "ch12_L5_transfer_4",
+   "ch12_L5_transfer_5",
+   "ch12_L5_boss_1"
+  ],
+  "dictation_ids": [
+   "ch12_L5_dict_1",
+   "ch12_L5_dict_2",
+   "ch12_L5_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Ты в городе. Нужна аптека, а на курс — позже. Цель: спросить, где что находится, и сказать, где ты. Загадка урока: вокзал — der Bahnhof, но аптека у вокзала — am Bahnhof. А остановка — die Haltestelle — и вдруг an der Haltestelle, без слипания. Почему am, но an der?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Где аптека?",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "ты показываешь на плане города (ИИ — новичок: спрашивает, где аптека и курс)",
+   "situation": "wo_ist_apotheke",
+   "ai_plays": "новичок на курсе (ты — Ольга, отвечаешь, где что находится)",
+   "phrases": [
+    "ch12_d5_02",
+    "ch12_d5_04",
+    "ch12_030",
+    "ch12_d5_06"
+   ]
+  },
+  "outro": "Ты знаешь, где что находится в городе: у вокзала, в центре, у остановки. Совет на завтра: по дороге назови про себя три места: Der Bahnhof ist … Die Haltestelle ist … Дальше: итог главы — «Mein Deutsch nach Kapitel 12»: на чём едешь, откуда и куда, как пройти и где что находится.",
+  "detail_de_life": "Над входом аптеки в Германии висит красная буква A. Это знак аптек: по нему аптеку видно издалека.",
+  "detail_de_life_source": "ABDA (Bundesvereinigung Deutscher Apothekerverbände): Das rote Apotheken-A (abda.de)",
+  "task_ids": {
+   "words": [
+    "ch12_L5_words_1",
+    "ch12_L5_words_2",
+    "ch12_L5_words_3",
+    "ch12_L5_words_4",
+    "ch12_L5_words_5",
+    "ch12_L5_words_6"
+   ],
+   "listen": [
+    "ch12_L5_listen_1",
+    "ch12_L5_listen_2",
+    "ch12_L5_listen_3",
+    "ch12_L5_listen_4",
+    "ch12_L5_listen_5"
+   ],
+   "read": [
+    "ch12_L5_read_1",
+    "ch12_L5_read_2",
+    "ch12_L5_read_3",
+    "ch12_L5_read_4",
+    "ch12_L5_read_5"
+   ],
+   "speak": [
+    "ch12_L5_speak_1",
+    "ch12_L5_speak_2",
+    "ch12_L5_speak_3",
+    "ch12_L5_speak_4",
+    "ch12_L5_speak_5"
+   ],
+   "write": [
+    "ch12_L5_write_1",
+    "ch12_L5_write_2",
+    "ch12_L5_write_3",
+    "ch12_L5_write_4",
+    "ch12_L5_write_5"
+   ],
+   "why": [
+    "ch12_L5_why_1",
+    "ch12_L5_why_2",
+    "ch12_L5_why_3",
+    "ch12_L5_why_4",
+    "ch12_L5_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch12_L5_transfer_1",
+   "ch12_L5_transfer_2",
+   "ch12_L5_transfer_3",
+   "ch12_L5_transfer_4",
+   "ch12_L5_transfer_5",
+   "ch12_L5_boss_1"
+  ],
+  "warmup_ids": [
+   "ch12_024",
+   "ch12_025",
+   "ch12_026"
+  ],
+  "dialog_ids": [
+   "ch12_d5"
+  ],
+  "video": "video/ch12_L5.mp4"
+ },
+ {
+  "id": "ch12_L6",
+  "title": "Mein Deutsch nach Kapitel 12: проверка главы",
+  "pages_linie1": {
+   "pages": [
+    224,
+    225
+   ],
+   "sections": [
+    "Mein Deutsch nach Kapitel 12",
+    "Richtig schreiben"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch12_001",
+   "ch12_011",
+   "ch12_025",
+   "ch12_029"
+  ],
+  "why_ids": [
+   "ch12_011",
+   "ch12_029"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch12_d6",
+    "line_ids": [
+     "ch12_d6_01",
+     "ch12_d6_02",
+     "ch12_d6_03",
+     "ch12_d6_04",
+     "ch12_d6_05",
+     "ch12_d6_06",
+     "ch12_d6_07"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Пять уроков — пять умений. Вспомни по одной фразе из уроков."
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch12_d6",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch12_d6_01",
+        "ch12_d6_02",
+        "ch12_d6_03",
+        "ch12_d6_05"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch12_d6",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Слова курса на слух: послушай цепочки 034-048 и назови знакомые слова",
+      "min": 5,
+      "uses": {
+       "phrase_ids": [
+        "ch12_034",
+        "ch12_039",
+        "ch12_041",
+        "ch12_042"
+       ]
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch12_001",
+        "ch12_011",
+        "ch12_029",
+        "ch12_030"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Слова курса на слух: послушай цепочки 034-048 и назови знакомые слова — 5 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 57
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "повтор через пары «слово из словаря → кусок с предлогом»: der Bus → mit dem Bus, der Bahnhof → zum Bahnhof, die Haltestelle → zur Haltestelle",
+   "как слышу, так и пишу": "диктант: слитно zum, zur, vom, am, im; раздельно mit dem, an der, in der; st в начале слова — «шт»",
+   "учебник непонятен": "из Linie 1 — только темы и страницы 224, 225; подача своя",
+   "село, живой немецкий — Netto": "ситуация автора: доехать до вокзала и найти остановку",
+   "любит аниме": "завязка — конец арки: испытание гильдии и допуск в новый город",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1-6, 11, 12), свободный ≈ 55 мин (все 12 + 24 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Fährt der Zug von Gleis drei ab?; перенос — Fährst du mit dem Bus zum Kurs?, Der Bahnhof ist in der Stadt.",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    224,
+    225
+   ],
+   "phrases_ids": [
+    "ch12_034"
+   ],
+   "note": "к курсу: стр. 225 — самопроверка главы («Das kann ich»): Verkehrsmittel, Start und Ziel, Aufforderungen, Wege, Stadt vorstellen. На курсе слова страниц 210-217 и 224 звучат в заданиях и текстах — узнавать на слух, учить не надо",
+   "listen_only_ids": [
+    "ch12_035",
+    "ch12_036",
+    "ch12_037",
+    "ch12_038",
+    "ch12_039",
+    "ch12_040",
+    "ch12_041",
+    "ch12_042",
+    "ch12_043",
+    "ch12_044",
+    "ch12_045",
+    "ch12_046",
+    "ch12_047",
+    "ch12_048"
+   ],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch12_034",
+    "picture": "афиша и чат: фестиваль, фильм, музыка, спорт, кафе, кофе",
+    "words": [
+     {
+      "de": "der Chat",
+      "ru": "чат"
+     },
+     {
+      "de": "das Festival",
+      "ru": "фестиваль"
+     },
+     {
+      "de": "der Film",
+      "ru": "фильм"
+     },
+     {
+      "de": "die Musik",
+      "ru": "музыка"
+     },
+     {
+      "de": "der Sport",
+      "ru": "спорт"
+     },
+     {
+      "de": "das Café",
+      "ru": "кафе"
+     },
+     {
+      "de": "der Kaffee",
+      "ru": "кофе"
+     }
+    ],
+    "note": "слова страниц 210-211; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch12_L6_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch12_034",
+     "prompt": "Слова курса. Послушай. Что значит «Festival»?",
+     "answer": "фестиваль",
+     "distractors": [
+      "фильм",
+      "кофе"
+     ],
+     "src": "Linie 1, стр. 210-211 (Chat, Festival, Film, Musik, Sport, Café, Kaffee)"
+    },
+    {
+     "id": "ch12_L6_kurs_2",
+     "skill": "listen",
+     "phraseId": "ch12_035",
+     "prompt": "Слова курса. Послушай. Что значит «Cousine»?",
+     "answer": "двоюродная сестра",
+     "distractors": [
+      "двоюродный брат",
+      "подруга"
+     ],
+     "src": "Linie 1, стр. 211-213 (Cousin, Cousine, Freunde, Karte, Schiffe, U-Bahn, S-Bahn)"
+    },
+    {
+     "id": "ch12_L6_kurs_3",
+     "skill": "listen",
+     "phraseId": "ch12_036",
+     "prompt": "Слова курса. Послушай. Что значит «Sprachschule»?",
+     "answer": "языковая школа",
+     "distractors": [
+      "супермаркет",
+      "рюкзак"
+     ],
+     "src": "Linie 1, стр. 213 (Arbeit, Schule, Sprachschule, Deutschkurs, Rucksack, Supermarkt)"
+    },
+    {
+     "id": "ch12_L6_kurs_4",
+     "skill": "listen",
+     "phraseId": "ch12_037",
+     "prompt": "Слова курса. Послушай. Что значит «Gepäck»?",
+     "answer": "багаж",
+     "distractors": [
+      "билет",
+      "дата"
+     ],
+     "src": "Linie 1, стр. 214 (Auskunft, Datum, Gepäck, Hinfahrt, Rückfahrt)"
+    },
+    {
+     "id": "ch12_L6_kurs_5",
+     "skill": "listen",
+     "phraseId": "ch12_038",
+     "prompt": "Слова курса. Послушай. Что значит «Reservierung»?",
+     "answer": "бронирование",
+     "distractors": [
+      "расписание",
+      "время"
+     ],
+     "src": "Linie 1, стр. 214 (Klasse, Reiseverbindung, Reservierung, Sparpreis, Verbindung)"
+    },
+    {
+     "id": "ch12_L6_kurs_6",
+     "skill": "listen",
+     "phraseId": "ch12_039",
+     "prompt": "Слова курса. Послушай. Что значит «Stadtplan»?",
+     "answer": "план города",
+     "distractors": [
+      "главный вокзал",
+      "номер дома"
+     ],
+     "src": "Linie 1, стр. 215-216 (Hauptbahnhof, Hausnummer, Kursraum, Plan, Stadtplan)"
+    },
+    {
+     "id": "ch12_L6_kurs_7",
+     "skill": "listen",
+     "phraseId": "ch12_040",
+     "prompt": "Слова курса. Послушай. Что значит «Reisebüro»?",
+     "answer": "турагентство",
+     "distractors": [
+      "плакат",
+      "магазин"
+     ],
+     "src": "Linie 1, стр. 216-217 (Post-Shop, Reisebüro, Touristeninformation, Angebot, Laden, Plakat)"
+    },
+    {
+     "id": "ch12_L6_kurs_8",
+     "skill": "listen",
+     "phraseId": "ch12_041",
+     "prompt": "Слова курса. Послушай. Что значит «Westen»?",
+     "answer": "запад",
+     "distractors": [
+      "север",
+      "юг"
+     ],
+     "src": "Linie 1, стр. 217 (Himmelsrichtungen: Norden, Osten, Süden, Westen)"
+    },
+    {
+     "id": "ch12_L6_kurs_9",
+     "skill": "listen",
+     "phraseId": "ch12_042",
+     "prompt": "Слова курса. Послушай. Что значит «Sehenswürdigkeit»?",
+     "answer": "достопримечательность",
+     "distractors": [
+      "университет",
+      "замок"
+     ],
+     "src": "Linie 1, стр. 217 (Stadtporträt, Einwohner, Sehenswürdigkeiten, Universität, Schloss)"
+    },
+    {
+     "id": "ch12_L6_kurs_10",
+     "skill": "listen",
+     "phraseId": "ch12_043",
+     "prompt": "Слова курса. Послушай. Что значит «Schifffahrt»?",
+     "answer": "судоходство",
+     "distractors": [
+      "ветроэнергетика",
+      "лодка"
+     ],
+     "src": "Linie 1, стр. 217 (Industrie, Flugzeugbau, Wirtschaft, Windenergie, Schifffahrt, Boot)"
+    },
+    {
+     "id": "ch12_L6_kurs_11",
+     "skill": "listen",
+     "phraseId": "ch12_044",
+     "prompt": "Слова курса. Послушай. Что значит «Märchen»?",
+     "answer": "сказка",
+     "distractors": [
+      "собака",
+      "свободное время"
+     ],
+     "src": "Linie 1, стр. 217 (Freizeit, Märchen, Esel, Hund, Katze, Hahn)"
+    },
+    {
+     "id": "ch12_L6_kurs_12",
+     "skill": "listen",
+     "phraseId": "ch12_045",
+     "prompt": "Слова курса. Послушай. Что значит «Küche»?",
+     "answer": "кухня",
+     "distractors": [
+      "ванная",
+      "квартира"
+     ],
+     "src": "Linie 1, стр. 224 (Anzeigen, Schilder, Bad, Küche, Restaurant, Wohnung)"
+    },
+    {
+     "id": "ch12_L6_kurs_13",
+     "skill": "listen",
+     "phraseId": "ch12_046",
+     "prompt": "Слова курса. Послушай. Что значит «umsteigen»?",
+     "answer": "пересаживаться",
+     "distractors": [
+      "выходить",
+      "ждать"
+     ],
+     "src": "Linie 1, стр. 324-325 (ankommen, aussteigen, einsteigen, umsteigen, warten)"
+    },
+    {
+     "id": "ch12_L6_kurs_14",
+     "skill": "listen",
+     "phraseId": "ch12_047",
+     "prompt": "Слова курса. Послушай. Что значит «unterwegs»?",
+     "answer": "в пути",
+     "distractors": [
+      "редко",
+      "лучше"
+     ],
+     "src": "Linie 1, стр. 324 (Achtung, besser, direkt, selten, unterwegs)"
+    },
+    {
+     "id": "ch12_L6_kurs_15",
+     "skill": "listen",
+     "phraseId": "ch12_048",
+     "prompt": "Слова курса. Послушай. Что значит «Wegbeschreibung»?",
+     "answer": "описание пути",
+     "distractors": [
+      "известный",
+      "через"
+     ],
+     "src": "Linie 1, стр. 325 (bekannt, berühmt, durch, Wegbeschreibung)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Остановка маршрута: глава 12 пройдена — вокзал позади, впереди следующий город",
+   "npc": "Olga — одногруппница (на «ты»)",
+   "quest": "Проверка главы: 10 заданий, нужно 85 %"
+  },
+  "covers": [
+   "L1-12-REVIEW",
+   "L1-12-S1",
+   "L1-12-S2",
+   "L1-12-S4",
+   "L1-12-S5",
+   "L1-12-S6",
+   "L1-12-S7",
+   "L1-12-S8",
+   "L1-12-AUSSPR",
+   "L1-12-SCHREIB",
+   "L1-12-MEDIAT",
+   "L1-12-LERNEN",
+   "L1-12-G1",
+   "L1-12-G2",
+   "L1-12-G3",
+   "L1-12-G4",
+   "B14.6",
+   "B17.2"
+  ],
+  "covers_note": {
+   "L1-12-REVIEW": "стр. 225 «Mein Deutsch nach Kapitel 12»: смешанный повтор уроков 1-5 (части 2, 5-8, 10), проверка главы — переносы и босс (часть 11), список «Das kann ich» (часть 12); тема — Verkehrsmittel, Start und Ziel, Aufforderungen, Wege, Stadt vorstellen",
+   "L1-12-S1": "стр. 210-211: Chat, Festival, Konzert, Café — слова курса (цепочка 034, ch12_007), Orte in der Stadt — сцена d6",
+   "L1-12-S2": "Orte in der Stadt: Bahnhof, Haltestelle, Apotheke — сцена d6 и слои фраз",
+   "L1-12-S4": "Start und Ziel: vom Kurs zum Bahnhof, откуда и куда — вопрос Wie fährst du zum Bahnhof? (d6_01) и «Das kann ich»",
+   "L1-12-S5": "Durchsage и Zugverbindung: Der Zug fährt von Gleis drei ab; Ich steige in Dresden um — повтор в части 2 и в «Das kann ich»",
+   "L1-12-S6": "Wegbeschreibung и Stadtplan: Geh links, dann geradeaus! (d6_03), слово Stadtplan — слова курса (ch12_039)",
+   "L1-12-S7": "Orte auf dem Stadtplan, Wege beschreiben: Wo ist die Haltestelle? Die Haltestelle ist an der Apotheke. (d6_04, d6_05)",
+   "L1-12-S8": "Stadtporträt und Himmelsrichtungen: Norden, Osten, Süden, Westen, Stadtporträt — слова курса (ch12_041, ch12_042)",
+   "L1-12-AUSSPR": "Aussprache: lange Sätze — говори длинную фразу целиком, без пауз (часть 7); st = «шт» в Straßenbahn",
+   "L1-12-SCHREIB": "Richtig schreiben: Texte korrigieren — исправить ошибку в предложении (задание в части 6 и «Das kann ich»)",
+   "L1-12-MEDIAT": "Mediation: den Weg mithilfe von Gesten erklären (erklären, Gesten) — часть 9: объясни по-русски, где остановка, и покажи рукой, где аптека",
+   "L1-12-LERNEN": "Leichter lernen: Deutsch im Alltag verstehen — слова курса на слух (цепочки 034-048)",
+   "L1-12-G1": "bestimmter Artikel im Dativ: dem Bus, dem Bahnhof, der Haltestelle, der Apotheke — повтор в частях 3, 5",
+   "L1-12-G2": "Präpositionen mit, zu, von, nach + Dativ: mit dem Bus, zum Bahnhof, vom Kurs — повтор в частях 2-5",
+   "L1-12-G3": "Imperativ, du-Form: Geh links! — просьба на «ты» без слова du (d6_03, часть 5)",
+   "L1-12-G4": "Präpositionen in und an + Dativ: an der Apotheke, in der Stadt, am Bahnhof — повтор в части 5",
+   "B14.6": "русские предлоги: одно «на» — разные адреса: на автобусе — mit dem, на вокзал — zum, на остановку — zur (часть 5)",
+   "B17.2": "форма du: просьба Geh! — основа действия без du (часть 5, d6_03)"
+  },
+  "goal": "После урока сможешь: сказать, на чём едешь, назвать Start und Ziel, понять Durchsage и Zugverbindung, попросить и дать Wegbeschreibung, сказать, где что находится, и пройти проверку главы 12.",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Остановка: глава 12 позади. Сегодня — проверка главы.",
+      "Цель: на чём едешь, откуда и куда, как пройти, где что находится."
+     ],
+     "voice_ru": "Глава 12 пройдена. Ольга проверяет, как ты доберёшься до вокзала: на чём поедешь, как пройти и где остановка. Потом — проверка главы.",
+     "hook": "Загадка урока: mit dem Bus, zum Bahnhof, an der Haltestelle — везде другой артикль. Что в них общего?",
+     "anime_motif": "исекай: конец арки — герой проходит испытание гильдии и получает допуск в новый город (без цитат)",
+     "npc": "Olga — одногруппница",
+     "more": "Новой грамматики нет: те же поезда, что в уроках 1-5. В конце — проверка главы.",
+     "goal": "После урока сможешь: сказать, на чём едешь, назвать Start und Ziel, понять Durchsage и Zugverbindung, попросить и дать Wegbeschreibung, сказать, где что находится, и пройти проверку главы 12."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch12_001",
+      "ch12_011",
+      "ch12_018",
+      "ch12_024"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Пять уроков — пять умений. Вспомни по одной фразе из уроков."
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch12_028",
+      "ch12_029"
+     ],
+     "type": "retrieval: вопрос, не перечитывание"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch12_001",
+      "ch12_011",
+      "ch12_025",
+      "ch12_029"
+     ],
+     "words": [
+      "mit dem Bus",
+      "zum Bahnhof",
+      "Geh links, dann geradeaus",
+      "an der Apotheke"
+     ],
+     "words_ru": {
+      "mit dem Bus": "на автобусе",
+      "zum Bahnhof": "на вокзал",
+      "Geh links, dann geradeaus": "иди налево, потом прямо",
+      "an der Apotheke": "у аптеки"
+     },
+     "trap": "По-русски «на автобусе, на вокзал» — везде «на». По-немецки у каждого адреса свой кусок: mit dem, zum.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch12_L6_words_1",
+      "ch12_L6_words_2",
+      "ch12_L6_words_3",
+      "ch12_L6_words_4",
+      "ch12_L6_words_5",
+      "ch12_L6_words_6"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch12_d6",
+     "line_ids": [
+      "ch12_d6_01",
+      "ch12_d6_02",
+      "ch12_d6_03",
+      "ch12_d6_04",
+      "ch12_d6_05",
+      "ch12_d6_06",
+      "ch12_d6_07"
+     ],
+     "halves": [
+      [
+       "ch12_d6_01",
+       "ch12_d6_02",
+       "ch12_d6_03"
+      ],
+      [
+       "ch12_d6_04",
+       "ch12_d6_05",
+       "ch12_d6_06",
+       "ch12_d6_07"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "В немецких городах остановки трамвая и автобуса обозначены жёлтым кружком с зелёной буквой H. По этому знаку остановку видно издалека.",
+     "life_source": "Haltestellenzeichen (Zeichen 224 StVO): gelbes Rund mit grünem H",
+     "task_ids": [
+      "ch12_L6_listen_1",
+      "ch12_L6_listen_2",
+      "ch12_L6_listen_3",
+      "ch12_L6_listen_4",
+      "ch12_L6_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "заклинание: повтор",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch12_011",
+     "title": "Почему так",
+     "world_name": "заклинание: повтор",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "После предлога артикль меняется: у der-слов — dem (mit dem, zum), у die-слов — der (mit der, an der). Просьба на «ты» — без du.",
+     "screen": [
+      "der Bus → mit dem Bus · der Bahnhof → zum Bahnhof",
+      "die Haltestelle → zur Haltestelle · an der Haltestelle"
+     ],
+     "answer_hook": "Ответ на загадку: после предлога артикль меняется. der-слова и слова среднего рода — dem (слипается: zum, am, im), die-слова — der (mit der, zur, an der).",
+     "second": {
+      "why_id": "ch12_029",
+      "voice_ru": "Haltestelle — die-слово. После an её артикль становится der: an der Haltestelle. Слипания нет."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch12_L6_why_1",
+      "ch12_L6_why_2",
+      "ch12_L6_why_3",
+      "ch12_L6_why_4",
+      "ch12_L6_why_5"
+     ],
+     "no_story": true,
+     "examples_button": {
+      "label": "Ещё примеры",
+      "why_ids": [
+       "ch12_011",
+       "ch12_029"
+      ]
+     }
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch12_022",
+     "pieces": [
+      "von Gleis drei ab?",
+      "Fährt",
+      "der Zug"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch12_019",
+      "ch12_005"
+     ],
+     "prompt": "Собери сам из знакомых кусков: спроси: «Поезд отправляется с пути 3?»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch12_022",
+     "transfer_task_ids": [
+      "ch12_L6_transfer_1",
+      "ch12_L6_transfer_2"
+     ],
+     "task_ids": [
+      "ch12_L6_write_1",
+      "ch12_L6_write_2",
+      "ch12_L6_write_3",
+      "ch12_L6_write_4",
+      "ch12_L6_write_5",
+      "ch12_L6_read_1",
+      "ch12_L6_read_2",
+      "ch12_L6_read_3",
+      "ch12_L6_read_4",
+      "ch12_L6_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "Straßenbahn",
+     "ipa_sym": "ʃt",
+     "tip_ru": "st в начале слова читается «шт»: Straßenbahn — «штра:сэнба:н». Длинную фразу (lange Sätze) читай целиком, без пауз: Ich fahre mit dem Bus zum Bahnhof.",
+     "bridge_ru": "Русский глаз видит st и читает «ст». По-немецки в начале слова это «шт»: Stuttgart — «штутгарт».",
+     "phrase_id": "ch12_003",
+     "game": "«Скажи это»",
+     "speak_task_ids": [
+      "ch12_L6_speak_1",
+      "ch12_L6_speak_2",
+      "ch12_L6_speak_3",
+      "ch12_L6_speak_4",
+      "ch12_L6_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Дорога на вокзал",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Ольга (одногруппница, на «ты»)",
+     "turns": [
+      {
+       "prompt_id": "ch12_d6_01",
+       "prompt_de": "Wie fährst du zum Bahnhof?",
+       "prompt_audio": "audio_v1/ch12_d6_01.mp3",
+       "expected_id": "ch12_d6_02",
+       "expected_de": "Ich fahre mit dem Bus zum Bahnhof.",
+       "accept": [
+        {
+         "id": "ch12_001",
+         "de": "Ich fahre mit dem Bus."
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch12_d6_04",
+       "prompt_de": "Olga, und wo ist die Haltestelle?",
+       "prompt_audio": "audio_v1/ch12_d6_04.mp3",
+       "expected_id": "ch12_d6_05",
+       "expected_de": "Die Haltestelle ist an der Apotheke.",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch12_d6_06",
+       "prompt_de": "Danke, Olga! Tschüss!",
+       "prompt_audio": "audio_v1/ch12_d6_06.mp3",
+       "expected_id": "ch12_d6_07",
+       "expected_de": "Bitte! Gute Reise!",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Wege beschreiben — опиши путь: отвечай целой фразой: Ich fahre mit dem Bus zum Bahnhof. / Die Haltestelle ist an der Apotheke.",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch12_d6_05",
+     "task_ru": "Новичок на курсе не понял Ольгу. Объясни ему по-русски, где остановка, и покажи рукой, где аптека. Mediation: den Weg mithilfe von Gesten erklären — объяснить дорогу жестами.",
+     "expected_ru": "Остановка у аптеки.",
+     "hint_ru": "die Haltestelle — остановка; an der Apotheke — у аптеки",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch12_L6_dict_1",
+      "ch12_L6_dict_2",
+      "ch12_L6_dict_3",
+      "ch12_L6_dict_4"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Richtig schreiben: Texte korrigieren — сверь тетрадь с экраном и исправь ошибки. Слитно пишут zum, zur, vom, am, im. Раздельно — mit dem, an der, in der. Слова-предметы с большой буквы: Bus, Bahnhof, Haltestelle, Zentrum. В конце вопроса — знак «?»."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch12_L6_boss_2",
+      "ch12_L6_transfer_3",
+      "ch12_L6_transfer_4",
+      "ch12_L6_transfer_5",
+      "ch12_L6_boss_1"
+     ],
+     "pass_percent": 85,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Остановка пройдена: глава 12 — твоя. Ольга: «Gute Reise!»",
+      "Совет на завтра: скажи вслух три фразы: на чём едешь, куда идёшь, где остановка."
+     ],
+     "npc_phrase_id": "ch12_d6_07",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: mit dem Bus · zum Bahnhof · Geh links, dann geradeaus! · an der Apotheke · Gute Reise!",
+     "can_do": {
+      "title": "Das kann ich — это я уже умею (глава 12)",
+      "items": [
+       {
+        "ru": "сказать, на чём едешь",
+        "de": "Ich fahre mit dem Bus. · Ich gehe zu Fuß."
+       },
+       {
+        "ru": "назвать Start und Ziel: откуда и куда",
+        "de": "Ich komme vom Kurs zum Bahnhof."
+       },
+       {
+        "ru": "купить билет и понять Durchsage",
+        "de": "Eine Fahrkarte nach Leipzig, bitte. · Der Zug fährt von Gleis drei ab."
+       },
+       {
+        "ru": "понять Zugverbindung: пересадку",
+        "de": "Ich steige in Dresden um."
+       },
+       {
+        "ru": "попросить и дать Wegbeschreibung на «ты»",
+        "de": "Geh links, dann geradeaus!"
+       },
+       {
+        "ru": "найти место на Stadtplan",
+        "de": "Wo ist die Haltestelle? · Die Haltestelle ist an der Apotheke."
+       },
+       {
+        "ru": "сказать, где что находится (Orte)",
+        "de": "am Bahnhof · im Zentrum · an der Haltestelle · in der Stadt"
+       },
+       {
+        "ru": "узнать Himmelsrichtungen и слова Stadtporträt",
+        "de": "Norden, Osten, Süden, Westen · Stadtzentrum · Sehenswürdigkeiten"
+       },
+       {
+        "ru": "Präpositionen mit, zu, von, nach, in, an: артикль после них меняется",
+        "de": "mit dem Bus · zur Haltestelle · vom Kurs"
+       },
+       {
+        "ru": "du-Form: просьба на «ты» без слова du",
+        "de": "Geh! · Geh geradeaus!"
+       },
+       {
+        "ru": "Texte korrigieren: найти ошибку в предложении",
+        "de": "Ich gehe zu der Bahnhof. → Ich gehe zum Bahnhof."
+       },
+       {
+        "ru": "объяснить дорогу жестами (Mediation: erklären, Gesten)",
+        "de": "Geh links! — и рука налево"
+       }
+      ]
+     },
+     "next_hook": "Дальше — следующая глава курса.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       210,
+       211,
+       212,
+       213,
+       214,
+       215,
+       216,
+       217,
+       224,
+       225
+      ],
+      "phrases_ids": [
+       "ch12_034"
+      ],
+      "note": "к курсу: стр. 225 — самопроверка главы («Das kann ich»): Verkehrsmittel, Start und Ziel, Aufforderungen, Wege, Stadt vorstellen. На курсе слова страниц 210-217 и 224 звучат в заданиях и текстах — узнавать на слух, учить не надо",
+      "listen_only_ids": [
+       "ch12_035",
+       "ch12_036",
+       "ch12_037",
+       "ch12_038",
+       "ch12_039",
+       "ch12_040",
+       "ch12_041",
+       "ch12_042",
+       "ch12_043",
+       "ch12_044",
+       "ch12_045",
+       "ch12_046",
+       "ch12_047",
+       "ch12_048"
+      ],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch12_034",
+       "picture": "афиша и чат: фестиваль, фильм, музыка, спорт, кафе, кофе",
+       "words": [
+        {
+         "de": "der Chat",
+         "ru": "чат"
+        },
+        {
+         "de": "das Festival",
+         "ru": "фестиваль"
+        },
+        {
+         "de": "der Film",
+         "ru": "фильм"
+        },
+        {
+         "de": "die Musik",
+         "ru": "музыка"
+        },
+        {
+         "de": "der Sport",
+         "ru": "спорт"
+        },
+        {
+         "de": "das Café",
+         "ru": "кафе"
+        },
+        {
+         "de": "der Kaffee",
+         "ru": "кофе"
+        }
+       ],
+       "note": "слова страниц 210-211; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch12_L6_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch12_034",
+        "prompt": "Слова курса. Послушай. Что значит «Festival»?",
+        "answer": "фестиваль",
+        "distractors": [
+         "фильм",
+         "кофе"
+        ],
+        "src": "Linie 1, стр. 210-211 (Chat, Festival, Film, Musik, Sport, Café, Kaffee)"
+       },
+       {
+        "id": "ch12_L6_kurs_2",
+        "skill": "listen",
+        "phraseId": "ch12_035",
+        "prompt": "Слова курса. Послушай. Что значит «Cousine»?",
+        "answer": "двоюродная сестра",
+        "distractors": [
+         "двоюродный брат",
+         "подруга"
+        ],
+        "src": "Linie 1, стр. 211-213 (Cousin, Cousine, Freunde, Karte, Schiffe, U-Bahn, S-Bahn)"
+       },
+       {
+        "id": "ch12_L6_kurs_3",
+        "skill": "listen",
+        "phraseId": "ch12_036",
+        "prompt": "Слова курса. Послушай. Что значит «Sprachschule»?",
+        "answer": "языковая школа",
+        "distractors": [
+         "супермаркет",
+         "рюкзак"
+        ],
+        "src": "Linie 1, стр. 213 (Arbeit, Schule, Sprachschule, Deutschkurs, Rucksack, Supermarkt)"
+       },
+       {
+        "id": "ch12_L6_kurs_4",
+        "skill": "listen",
+        "phraseId": "ch12_037",
+        "prompt": "Слова курса. Послушай. Что значит «Gepäck»?",
+        "answer": "багаж",
+        "distractors": [
+         "билет",
+         "дата"
+        ],
+        "src": "Linie 1, стр. 214 (Auskunft, Datum, Gepäck, Hinfahrt, Rückfahrt)"
+       },
+       {
+        "id": "ch12_L6_kurs_5",
+        "skill": "listen",
+        "phraseId": "ch12_038",
+        "prompt": "Слова курса. Послушай. Что значит «Reservierung»?",
+        "answer": "бронирование",
+        "distractors": [
+         "расписание",
+         "время"
+        ],
+        "src": "Linie 1, стр. 214 (Klasse, Reiseverbindung, Reservierung, Sparpreis, Verbindung)"
+       },
+       {
+        "id": "ch12_L6_kurs_6",
+        "skill": "listen",
+        "phraseId": "ch12_039",
+        "prompt": "Слова курса. Послушай. Что значит «Stadtplan»?",
+        "answer": "план города",
+        "distractors": [
+         "главный вокзал",
+         "номер дома"
+        ],
+        "src": "Linie 1, стр. 215-216 (Hauptbahnhof, Hausnummer, Kursraum, Plan, Stadtplan)"
+       },
+       {
+        "id": "ch12_L6_kurs_7",
+        "skill": "listen",
+        "phraseId": "ch12_040",
+        "prompt": "Слова курса. Послушай. Что значит «Reisebüro»?",
+        "answer": "турагентство",
+        "distractors": [
+         "плакат",
+         "магазин"
+        ],
+        "src": "Linie 1, стр. 216-217 (Post-Shop, Reisebüro, Touristeninformation, Angebot, Laden, Plakat)"
+       },
+       {
+        "id": "ch12_L6_kurs_8",
+        "skill": "listen",
+        "phraseId": "ch12_041",
+        "prompt": "Слова курса. Послушай. Что значит «Westen»?",
+        "answer": "запад",
+        "distractors": [
+         "север",
+         "юг"
+        ],
+        "src": "Linie 1, стр. 217 (Himmelsrichtungen: Norden, Osten, Süden, Westen)"
+       },
+       {
+        "id": "ch12_L6_kurs_9",
+        "skill": "listen",
+        "phraseId": "ch12_042",
+        "prompt": "Слова курса. Послушай. Что значит «Sehenswürdigkeit»?",
+        "answer": "достопримечательность",
+        "distractors": [
+         "университет",
+         "замок"
+        ],
+        "src": "Linie 1, стр. 217 (Stadtporträt, Einwohner, Sehenswürdigkeiten, Universität, Schloss)"
+       },
+       {
+        "id": "ch12_L6_kurs_10",
+        "skill": "listen",
+        "phraseId": "ch12_043",
+        "prompt": "Слова курса. Послушай. Что значит «Schifffahrt»?",
+        "answer": "судоходство",
+        "distractors": [
+         "ветроэнергетика",
+         "лодка"
+        ],
+        "src": "Linie 1, стр. 217 (Industrie, Flugzeugbau, Wirtschaft, Windenergie, Schifffahrt, Boot)"
+       },
+       {
+        "id": "ch12_L6_kurs_11",
+        "skill": "listen",
+        "phraseId": "ch12_044",
+        "prompt": "Слова курса. Послушай. Что значит «Märchen»?",
+        "answer": "сказка",
+        "distractors": [
+         "собака",
+         "свободное время"
+        ],
+        "src": "Linie 1, стр. 217 (Freizeit, Märchen, Esel, Hund, Katze, Hahn)"
+       },
+       {
+        "id": "ch12_L6_kurs_12",
+        "skill": "listen",
+        "phraseId": "ch12_045",
+        "prompt": "Слова курса. Послушай. Что значит «Küche»?",
+        "answer": "кухня",
+        "distractors": [
+         "ванная",
+         "квартира"
+        ],
+        "src": "Linie 1, стр. 224 (Anzeigen, Schilder, Bad, Küche, Restaurant, Wohnung)"
+       },
+       {
+        "id": "ch12_L6_kurs_13",
+        "skill": "listen",
+        "phraseId": "ch12_046",
+        "prompt": "Слова курса. Послушай. Что значит «umsteigen»?",
+        "answer": "пересаживаться",
+        "distractors": [
+         "выходить",
+         "ждать"
+        ],
+        "src": "Linie 1, стр. 324-325 (ankommen, aussteigen, einsteigen, umsteigen, warten)"
+       },
+       {
+        "id": "ch12_L6_kurs_14",
+        "skill": "listen",
+        "phraseId": "ch12_047",
+        "prompt": "Слова курса. Послушай. Что значит «unterwegs»?",
+        "answer": "в пути",
+        "distractors": [
+         "редко",
+         "лучше"
+        ],
+        "src": "Linie 1, стр. 324 (Achtung, besser, direkt, selten, unterwegs)"
+       },
+       {
+        "id": "ch12_L6_kurs_15",
+        "skill": "listen",
+        "phraseId": "ch12_048",
+        "prompt": "Слова курса. Послушай. Что значит «Wegbeschreibung»?",
+        "answer": "описание пути",
+        "distractors": [
+         "известный",
+         "через"
+        ],
+        "src": "Linie 1, стр. 325 (bekannt, berühmt, durch, Wegbeschreibung)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      224,
+      225
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch12.py",
+  "new_words": [
+   "Wie fährst du zum Bahnhof?",
+   "Geh links, dann geradeaus!",
+   "an der Apotheke"
+  ],
+  "known_before": [
+   "mit dem Bus",
+   "mit dem Zug",
+   "zu Fuß",
+   "nach Dresden",
+   "zum Bahnhof",
+   "zur Haltestelle",
+   "vom Kurs",
+   "Eine Fahrkarte nach Leipzig, bitte.",
+   "Ich steige in Dresden um.",
+   "Geh geradeaus!",
+   "links",
+   "rechts",
+   "dann",
+   "am Bahnhof",
+   "an der Haltestelle",
+   "im Zentrum",
+   "in der Stadt",
+   "Wo ist …?",
+   "Danke!",
+   "Bitte!",
+   "Tschüss!",
+   "Gute Reise!",
+   "Olga",
+   "und",
+   "Gut"
+  ],
+  "transfer_phrase_ids": [
+   "ch12_t13",
+   "ch12_t14",
+   "ch12_t15"
+  ],
+  "built_phrase_ids": [
+   "ch12_022"
+  ],
+  "quiz_ids": [
+   "ch12_L6_words_1",
+   "ch12_L6_words_2",
+   "ch12_L6_words_3",
+   "ch12_L6_words_4",
+   "ch12_L6_words_5",
+   "ch12_L6_words_6",
+   "ch12_L6_listen_1",
+   "ch12_L6_listen_2",
+   "ch12_L6_listen_3",
+   "ch12_L6_listen_4",
+   "ch12_L6_listen_5",
+   "ch12_L6_read_1",
+   "ch12_L6_read_2",
+   "ch12_L6_read_3",
+   "ch12_L6_read_4",
+   "ch12_L6_read_5",
+   "ch12_L6_speak_1",
+   "ch12_L6_speak_2",
+   "ch12_L6_speak_3",
+   "ch12_L6_speak_4",
+   "ch12_L6_speak_5",
+   "ch12_L6_write_1",
+   "ch12_L6_write_2",
+   "ch12_L6_write_3",
+   "ch12_L6_write_4",
+   "ch12_L6_write_5",
+   "ch12_L6_why_1",
+   "ch12_L6_why_2",
+   "ch12_L6_why_3",
+   "ch12_L6_why_4",
+   "ch12_L6_why_5",
+   "ch12_L6_transfer_1",
+   "ch12_L6_transfer_2",
+   "ch12_L6_transfer_3",
+   "ch12_L6_transfer_4",
+   "ch12_L6_transfer_5",
+   "ch12_L6_boss_1",
+   "ch12_L6_boss_2"
+  ],
+  "dictation_ids": [
+   "ch12_L6_dict_1",
+   "ch12_L6_dict_2",
+   "ch12_L6_dict_3",
+   "ch12_L6_dict_4"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Остановка: глава 12 позади. Сегодня — проверка главы. Цель: на чём едешь, откуда и куда, как пройти, где что находится. Загадка урока: mit dem Bus, zum Bahnhof, an der Haltestelle — везде другой артикль. Что в них общего?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Дорога на вокзал",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "ты едешь на вокзал (ИИ — Ольга: спрашивает, на чём ты едешь, и показывает дорогу)",
+   "situation": "wo_ist_apotheke",
+   "ai_plays": "Ольга (одногруппница, на «ты»)",
+   "phrases": [
+    "ch12_d6_02",
+    "ch12_001",
+    "ch12_d6_05",
+    "ch12_d6_07"
+   ]
+  },
+  "outro": "Остановка пройдена: глава 12 — твоя. Ольга: «Gute Reise!» Совет на завтра: скажи вслух три фразы: на чём едешь, куда идёшь, где остановка. Дальше — следующая глава курса.",
+  "detail_de_life": "В немецких городах остановки трамвая и автобуса обозначены жёлтым кружком с зелёной буквой H. По этому знаку остановку видно издалека.",
+  "detail_de_life_source": "Haltestellenzeichen (Zeichen 224 StVO): gelbes Rund mit grünem H",
+  "task_ids": {
+   "words": [
+    "ch12_L6_words_1",
+    "ch12_L6_words_2",
+    "ch12_L6_words_3",
+    "ch12_L6_words_4",
+    "ch12_L6_words_5",
+    "ch12_L6_words_6"
+   ],
+   "listen": [
+    "ch12_L6_listen_1",
+    "ch12_L6_listen_2",
+    "ch12_L6_listen_3",
+    "ch12_L6_listen_4",
+    "ch12_L6_listen_5"
+   ],
+   "read": [
+    "ch12_L6_read_1",
+    "ch12_L6_read_2",
+    "ch12_L6_read_3",
+    "ch12_L6_read_4",
+    "ch12_L6_read_5"
+   ],
+   "speak": [
+    "ch12_L6_speak_1",
+    "ch12_L6_speak_2",
+    "ch12_L6_speak_3",
+    "ch12_L6_speak_4",
+    "ch12_L6_speak_5"
+   ],
+   "write": [
+    "ch12_L6_write_1",
+    "ch12_L6_write_2",
+    "ch12_L6_write_3",
+    "ch12_L6_write_4",
+    "ch12_L6_write_5"
+   ],
+   "why": [
+    "ch12_L6_why_1",
+    "ch12_L6_why_2",
+    "ch12_L6_why_3",
+    "ch12_L6_why_4",
+    "ch12_L6_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch12_L6_transfer_1",
+   "ch12_L6_transfer_2",
+   "ch12_L6_transfer_3",
+   "ch12_L6_transfer_4",
+   "ch12_L6_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch12_001",
+   "ch12_011",
+   "ch12_018",
+   "ch12_024"
+  ],
+  "dialog_ids": [
+   "ch12_d6"
+  ],
+  "video": "video/ch12_L6.mp4"
+ }
+]

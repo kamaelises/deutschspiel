@@ -1,0 +1,5730 @@
+[
+ {
+  "id": "ch13_L1",
+  "title": "Was ist los? Я заболел",
+  "pages_linie1": {
+   "pages": [
+    230,
+    231
+   ],
+   "sections": [
+    "1 Gesundheit!"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch13_001",
+   "ch13_002",
+   "ch13_003",
+   "ch13_004",
+   "ch13_005",
+   "ch13_006",
+   "ch13_007",
+   "ch13_008"
+  ],
+  "why_ids": [
+   "ch13_002",
+   "ch13_001"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch13_d1",
+    "line_ids": [
+     "ch13_d1_01",
+     "ch13_d1_02",
+     "ch13_d1_03",
+     "ch13_d1_04",
+     "ch13_d1_05",
+     "ch13_d1_06",
+     "ch13_d1_07",
+     "ch13_d1_08",
+     "ch13_d1_09",
+     "ch13_d1_10"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Одногруппница спросила, как дела. Что ответишь?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch13_d1",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch13_d1_01",
+        "ch13_d1_02",
+        "ch13_d1_03",
+        "ch13_d1_05"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch13_d1",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Звук ie: 3 слова части 7 — за голосом",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch13_001",
+        "ch13_002",
+        "ch13_004",
+        "ch13_005"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Звук ie: 3 слова части 7 — за голосом — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "мост «я болен» / «у меня кашель»: bin — какой ты, habe — что у тебя есть; без терминов",
+   "как слышу, так и пишу": "ie = «и:» (Fieber); большая буква у болезней",
+   "учебник непонятен": "из Linie 1 — только темы и страницы 230–231; подача своя",
+   "село, живой немецкий — Netto": "болезнь на курсе и у соседей; карта страхования — реальная деталь Германии",
+   "любит аниме": "завязка — герой впервые заболел в новом мире; отрезки аниме — позже, после гл. 6",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин (все 12 + 24 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Hast du auch Husten?; перенос — Olga hat Fieber.",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    230,
+    231
+   ],
+   "phrases_ids": [
+    "ch13_010",
+    "ch13_011"
+   ],
+   "note": "к курсу: на стр. 230–231 — разговоры о болезни и карта страхования; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch13_010",
+    "picture": "стр. 230–231: врач, болезнь, карта страхования",
+    "words": [
+     {
+      "de": "die Gesundheit",
+      "ru": "здоровье"
+     },
+     {
+      "de": "die Krankheit",
+      "ru": "болезнь"
+     },
+     {
+      "de": "der Arzt",
+      "ru": "врач"
+     },
+     {
+      "de": "die Ärztin",
+      "ru": "врач (женщина)"
+     }
+    ],
+    "note": "эти слова есть на стр. 230–231; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch13_L1_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch13_010",
+     "prompt": "Слова курса. Послушай. Что значит «Krankheit»?",
+     "answer": "болезнь",
+     "distractors": [
+      "здоровье",
+      "врач"
+     ],
+     "src": "Linie 1, стр. 230 (Krankheit)"
+    },
+    {
+     "id": "ch13_L1_kurs_2",
+     "skill": "listen",
+     "phraseId": "ch13_011",
+     "prompt": "Слова курса. Послушай. Что значит «Apotheke»?",
+     "answer": "аптека",
+     "distractors": [
+      "постель",
+      "суп"
+     ],
+     "src": "Linie 1, стр. 231 (Apotheke)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Постройка «врач»: стройка начата — герой впервые заболел в новом мире",
+   "npc": "Olga — одногруппница (на «ты»)"
+  },
+  "covers": [
+   "L1-13-S1"
+  ],
+  "covers_note": {
+   "L1-13-S1": "болезнь на курсе: krank, Husten, Schnupfen, Fieber, Erkältung, Gute Besserung (сцена, части 3–6, 8); «к курсу» — Krankheit, Arzt, Ärztin, Versichertenkarte (стр. 230–231)"
+  },
+  "goal": "После урока сможешь: сказать, что ты болен и что у тебя болит (кашель, насморк, температура), спросить «Что случилось?» и пожелать «Поправляйся!». (Linie 1: Krankheit am Arbeitsplatz, Gespräche am Arbeitsplatz und beim Arzt, Versichertenkarte.)",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Перемена на курсе: тебе нехорошо, Ольга это видит.",
+      "Цель: сказать, что ты болен и что у тебя болит."
+     ],
+     "voice_ru": "На перемене Ольга спрашивает, как дела, а ты чувствуешь себя плохо. Сегодня скажешь по-немецки: я болен, у меня кашель, насморк, температура.",
+     "hook": "Загадка урока: «Я болен» — ich bin krank, а «у меня кашель» — ich habe Husten. Почему в одном случае bin, а в другом habe?",
+     "anime_motif": "исекай: герой впервые заболел в новом мире — местные не знают его слабостей, а он учится просить о помощи (без цитат)",
+     "npc": "Olga — одногруппница",
+     "more": "Ольга спросит, что случилось. Ты скажешь, что у тебя кашель и насморк, и ответишь про температуру.",
+     "goal": "После урока сможешь: сказать, что ты болен и что у тебя болит (кашель, насморк, температура), спросить «Что случилось?» и пожелать «Поправляйся!». (Linie 1: Krankheit am Arbeitsplatz, Gespräche am Arbeitsplatz und beim Arzt, Versichertenkarte.)"
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch13_012",
+      "ch13_013",
+      "ch13_014"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Одногруппница спросила, как дела. Что ответишь?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch01_013",
+      "ch01_016",
+      "ch02_018"
+     ],
+     "type": "retrieval: вопрос, не перечитывание",
+     "note": "фразы глав 1–2 (ch01_013, ch01_016, ch02_018) — те же, в главе 13 под своими id"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch13_001",
+      "ch13_002",
+      "ch13_003",
+      "ch13_004",
+      "ch13_005",
+      "ch13_006",
+      "ch13_007",
+      "ch13_008"
+     ],
+     "words": [
+      "Ich bin krank. · Nicht so gut.",
+      "Ich habe Husten und Schnupfen.",
+      "Ich habe Fieber.",
+      "Du hast eine Erkältung.",
+      "Was ist los? · Gute Besserung!"
+     ],
+     "words_ru": {
+      "Ich bin krank. · Nicht so gut.": "Я болен. · Не очень хорошо.",
+      "Ich habe Husten und Schnupfen.": "У меня кашель и насморк.",
+      "Ich habe Fieber.": "У меня температура.",
+      "Du hast eine Erkältung.": "У тебя простуда.",
+      "Was ist los? · Gute Besserung!": "Что случилось? · Поправляйся!"
+     },
+     "trap": "«Я болен» — ich bin krank. А «у меня кашель, насморк, температура» — ich habe …: болезнь немец «имеет», как вещь. Слова «есть» здесь нет.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch13_L1_words_1",
+      "ch13_L1_words_2",
+      "ch13_L1_words_3",
+      "ch13_L1_words_4",
+      "ch13_L1_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch13_d1",
+     "line_ids": [
+      "ch13_d1_01",
+      "ch13_d1_02",
+      "ch13_d1_03",
+      "ch13_d1_04",
+      "ch13_d1_05",
+      "ch13_d1_06",
+      "ch13_d1_07",
+      "ch13_d1_08",
+      "ch13_d1_09",
+      "ch13_d1_10"
+     ],
+     "halves": [
+      [
+       "ch13_d1_01",
+       "ch13_d1_02",
+       "ch13_d1_03",
+       "ch13_d1_04",
+       "ch13_d1_05"
+      ],
+      [
+       "ch13_d1_06",
+       "ch13_d1_07",
+       "ch13_d1_08",
+       "ch13_d1_09",
+       "ch13_d1_10"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "У врача в Германии сначала просят карту страхования — Gesundheitskarte: её предъявляют до начала лечения (SGB V § 15). В срочном случае карту можно донести позже.",
+     "life_source": "SGB V § 15 Abs. 2 und Abs. 5 (gesetze-im-internet.de/sgb_5/__15.html)",
+     "task_ids": [
+      "ch13_L1_listen_1",
+      "ch13_L1_listen_2",
+      "ch13_L1_listen_3",
+      "ch13_L1_listen_4",
+      "ch13_L1_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch13_002",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "Болезнь немец «имеет», как вещь: ich habe Husten. А krank — это какой ты сейчас, поэтому там bin: ich bin krank.",
+     "screen": [
+      "Ich · habe · Husten. (болезнь «имеют»)",
+      "Ich · bin · krank. (какой я сейчас)"
+     ],
+     "answer_hook": "Ответ на загадку: Husten, Fieber, Schnupfen — это то, что у тебя есть, поэтому habe. krank — это какой ты, поэтому bin.",
+     "second": {
+      "why_id": "ch13_001",
+      "voice_ru": "krank говорит, какой ты сейчас. Для «какой» немцу нужен bin: ich bin krank."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch13_L1_why_1",
+      "ch13_L1_why_2",
+      "ch13_L1_why_3",
+      "ch13_L1_why_4",
+      "ch13_L1_why_5"
+     ],
+     "no_story": true,
+     "examples_button": {
+      "label": "Ещё примеры",
+      "why_ids": [
+       "ch13_002"
+      ]
+     }
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch13_009",
+     "pieces": [
+      "Husten?",
+      "du",
+      "Hast",
+      "auch"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch13_d1_06",
+      "ch13_d1_05"
+     ],
+     "prompt": "Собери сам из знакомых кусков: Ольга тоже кашляет? Спроси её: «У тебя тоже кашель?»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch13_009",
+     "transfer_task_ids": [
+      "ch13_L1_transfer_1"
+     ],
+     "task_ids": [
+      "ch13_L1_write_1",
+      "ch13_L1_write_2",
+      "ch13_L1_write_3",
+      "ch13_L1_write_4",
+      "ch13_L1_write_5",
+      "ch13_L1_read_1",
+      "ch13_L1_read_2",
+      "ch13_L1_read_3",
+      "ch13_L1_read_4",
+      "ch13_L1_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "Fieber",
+     "ipa_sym": "iː",
+     "tip_ru": "Пишется ie — звучит долгое «и:»: Fieber — «фи:бэр», wie — «ви:», Sie — «зи:». Не «и-э»: две буквы — один длинный звук.",
+     "bridge_ru": "По-русски такого нет: две буквы, один звук. Немец не говорит «фи-э-бэр», только «фи:бэр».",
+     "phrase_id": "ch13_004",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "Fieber",
+       "ru": "фи:бэр — ie = «и:»"
+      },
+      {
+       "de": "wie",
+       "ru": "ви: — ie = «и:»"
+      },
+      {
+       "de": "Sie",
+       "ru": "зи: — ie = «и:»"
+      }
+     ],
+     "speak_task_ids": [
+      "ch13_L1_speak_1",
+      "ch13_L1_speak_2",
+      "ch13_L1_speak_3",
+      "ch13_L1_speak_4",
+      "ch13_L1_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Перемена: что с тобой?",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Olga (на «ты»)",
+     "turns": [
+      {
+       "prompt_id": "ch13_d1_01",
+       "prompt_de": "Hallo! Wie geht es dir?",
+       "prompt_audio": "audio_v1/ch13_d1_01.mp3",
+       "expected_id": "ch13_d1_02",
+       "expected_de": "Nicht so gut.",
+       "accept": [
+        {
+         "id": "ch13_008",
+         "de": "Nicht so gut."
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch13_d1_03",
+       "prompt_de": "Was ist los?",
+       "prompt_audio": "audio_v1/ch13_d1_03.mp3",
+       "expected_id": "ch13_d1_05",
+       "expected_de": "Ich habe Husten und Schnupfen.",
+       "accept": [
+        {
+         "id": "ch13_002",
+         "de": "Ich habe Husten."
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch13_d1_06",
+       "prompt_de": "Hast du auch Fieber?",
+       "prompt_audio": "audio_v1/ch13_d1_06.mp3",
+       "expected_id": "ch13_d1_07",
+       "expected_de": "Ja, ich habe Fieber.",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Отвечай правду о себе: ИИ примет «Ich habe Husten», «Ich habe Fieber» и «Nicht so gut».",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch13_d1_06",
+     "task_ru": "Новичок не понял, что спросила Ольга, и молчит. Объясни ему по-русски, что это за вопрос и как коротко ответить.",
+     "expected_ru": "А температура у тебя тоже есть?",
+     "hint_ru": "вопрос «да или нет»: действие впереди; ответ — Ja, ich habe Fieber. или Nein.",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1.1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch13_L1_dict_1",
+      "ch13_L1_dict_2",
+      "ch13_L1_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Husten, Fieber, Erkältung — слова-предметы, пишутся с большой буквы. Fieber слышишь «фи:бэр» — пишешь ie."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch13_L1_transfer_2",
+      "ch13_L1_transfer_3",
+      "ch13_L1_transfer_4",
+      "ch13_L1_transfer_5",
+      "ch13_L1_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Постройка «врач» начата: ты можешь сказать, что болен.",
+      "Совет на завтра: скажи вслух три фразы — Ich bin krank. Ich habe Husten. Ich habe Fieber."
+     ],
+     "npc_phrase_id": "ch13_d1_09",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: Ich bin krank. · Ich habe Husten / Schnupfen / Fieber. · Was ist los? · Gute Besserung!",
+     "verbs": {
+      "title": "bin или habe: болезнь",
+      "voice_ru": "krank — какой ты: ich bin krank. Husten, Fieber — что у тебя есть: ich habe Husten.",
+      "table_on_tap": [
+       [
+        "ich bin",
+        "krank"
+       ],
+       [
+        "ich habe",
+        "Husten / Schnupfen / Fieber"
+       ]
+      ]
+     },
+     "next_hook": "Дальше: чтобы попасть к врачу, нужно записаться на приём. Сначала тебе скажут: Du sollst zum Arzt gehen.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       230,
+       231
+      ],
+      "phrases_ids": [
+       "ch13_010",
+       "ch13_011"
+      ],
+      "note": "к курсу: на стр. 230–231 — разговоры о болезни и карта страхования; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch13_010",
+       "picture": "стр. 230–231: врач, болезнь, карта страхования",
+       "words": [
+        {
+         "de": "die Gesundheit",
+         "ru": "здоровье"
+        },
+        {
+         "de": "die Krankheit",
+         "ru": "болезнь"
+        },
+        {
+         "de": "der Arzt",
+         "ru": "врач"
+        },
+        {
+         "de": "die Ärztin",
+         "ru": "врач (женщина)"
+        }
+       ],
+       "note": "эти слова есть на стр. 230–231; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch13_L1_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch13_010",
+        "prompt": "Слова курса. Послушай. Что значит «Krankheit»?",
+        "answer": "болезнь",
+        "distractors": [
+         "здоровье",
+         "врач"
+        ],
+        "src": "Linie 1, стр. 230 (Krankheit)"
+       },
+       {
+        "id": "ch13_L1_kurs_2",
+        "skill": "listen",
+        "phraseId": "ch13_011",
+        "prompt": "Слова курса. Послушай. Что значит «Apotheke»?",
+        "answer": "аптека",
+        "distractors": [
+         "постель",
+         "суп"
+        ],
+        "src": "Linie 1, стр. 231 (Apotheke)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      230,
+      231
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch13.py",
+  "new_words": [
+   "krank",
+   "Husten",
+   "Schnupfen",
+   "Fieber",
+   "die Erkältung",
+   "Was ist los?",
+   "Gute Besserung!",
+   "Nicht so gut."
+  ],
+  "known_before": [
+   "Wie geht es dir?",
+   "Es geht so.",
+   "Hast du …?",
+   "Hallo!",
+   "Danke!",
+   "Tschüss!",
+   "Ja",
+   "auch",
+   "eine",
+   "und"
+  ],
+  "transfer_phrase_ids": [
+   "ch13_t01",
+   "ch13_t02"
+  ],
+  "built_phrase_ids": [
+   "ch13_009"
+  ],
+  "quiz_ids": [
+   "ch13_L1_words_1",
+   "ch13_L1_words_2",
+   "ch13_L1_words_3",
+   "ch13_L1_words_4",
+   "ch13_L1_words_5",
+   "ch13_L1_listen_1",
+   "ch13_L1_listen_2",
+   "ch13_L1_listen_3",
+   "ch13_L1_listen_4",
+   "ch13_L1_listen_5",
+   "ch13_L1_read_1",
+   "ch13_L1_read_2",
+   "ch13_L1_read_3",
+   "ch13_L1_read_4",
+   "ch13_L1_read_5",
+   "ch13_L1_speak_1",
+   "ch13_L1_speak_2",
+   "ch13_L1_speak_3",
+   "ch13_L1_speak_4",
+   "ch13_L1_speak_5",
+   "ch13_L1_write_1",
+   "ch13_L1_write_2",
+   "ch13_L1_write_3",
+   "ch13_L1_write_4",
+   "ch13_L1_write_5",
+   "ch13_L1_why_1",
+   "ch13_L1_why_2",
+   "ch13_L1_why_3",
+   "ch13_L1_why_4",
+   "ch13_L1_why_5",
+   "ch13_L1_transfer_1",
+   "ch13_L1_transfer_2",
+   "ch13_L1_transfer_3",
+   "ch13_L1_transfer_4",
+   "ch13_L1_transfer_5",
+   "ch13_L1_boss_1"
+  ],
+  "dictation_ids": [
+   "ch13_L1_dict_1",
+   "ch13_L1_dict_2",
+   "ch13_L1_dict_3"
+  ],
+  "status": "на проверку (текст, без звука)",
+  "minutes": "20",
+  "intro": "Перемена на курсе: тебе нехорошо, Ольга это видит. Цель: сказать, что ты болен и что у тебя болит. Загадка урока: «Я болен» — ich bin krank, а «у меня кашель» — ich habe Husten. Почему в одном случае bin, а в другом habe?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Перемена: что с тобой?",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой на перемене курса (ИИ — Ольга)",
+   "situation": "kurs_krank",
+   "ai_plays": "Olga (на «ты»)",
+   "phrases": [
+    "ch13_d1_02",
+    "ch13_008",
+    "ch13_d1_05",
+    "ch13_002",
+    "ch13_d1_07"
+   ]
+  },
+  "outro": "Постройка «врач» начата: ты можешь сказать, что болен. Совет на завтра: скажи вслух три фразы — Ich bin krank. Ich habe Husten. Ich habe Fieber. Дальше: чтобы попасть к врачу, нужно записаться на приём. Сначала тебе скажут: Du sollst zum Arzt gehen.",
+  "detail_de_life": "У врача в Германии сначала просят карту страхования — Gesundheitskarte: её предъявляют до начала лечения (SGB V § 15). В срочном случае карту можно донести позже.",
+  "detail_de_life_source": "SGB V § 15 Abs. 2 und Abs. 5 (gesetze-im-internet.de/sgb_5/__15.html)",
+  "task_ids": {
+   "words": [
+    "ch13_L1_words_1",
+    "ch13_L1_words_2",
+    "ch13_L1_words_3",
+    "ch13_L1_words_4",
+    "ch13_L1_words_5"
+   ],
+   "listen": [
+    "ch13_L1_listen_1",
+    "ch13_L1_listen_2",
+    "ch13_L1_listen_3",
+    "ch13_L1_listen_4",
+    "ch13_L1_listen_5"
+   ],
+   "read": [
+    "ch13_L1_read_1",
+    "ch13_L1_read_2",
+    "ch13_L1_read_3",
+    "ch13_L1_read_4",
+    "ch13_L1_read_5"
+   ],
+   "speak": [
+    "ch13_L1_speak_1",
+    "ch13_L1_speak_2",
+    "ch13_L1_speak_3",
+    "ch13_L1_speak_4",
+    "ch13_L1_speak_5"
+   ],
+   "write": [
+    "ch13_L1_write_1",
+    "ch13_L1_write_2",
+    "ch13_L1_write_3",
+    "ch13_L1_write_4",
+    "ch13_L1_write_5"
+   ],
+   "why": [
+    "ch13_L1_why_1",
+    "ch13_L1_why_2",
+    "ch13_L1_why_3",
+    "ch13_L1_why_4",
+    "ch13_L1_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch13_L1_transfer_1",
+   "ch13_L1_transfer_2",
+   "ch13_L1_transfer_3",
+   "ch13_L1_transfer_4",
+   "ch13_L1_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch13_012",
+   "ch13_013",
+   "ch13_014"
+  ],
+  "dialog_ids": [
+   "ch13_d1"
+  ],
+  "video": "video/ch13_L1.mp4"
+ },
+ {
+  "id": "ch13_L2",
+  "title": "Sie sollen heute kommen: запись к врачу",
+  "pages_linie1": {
+   "pages": [
+    232,
+    233
+   ],
+   "sections": [
+    "2 Ein Arzttermin",
+    "4 Praxis, guten Tag!"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch13_015",
+   "ch13_016",
+   "ch13_017",
+   "ch13_018",
+   "ch13_019",
+   "ch13_020"
+  ],
+  "why_ids": [
+   "ch13_015",
+   "ch13_018"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch13_d2",
+    "line_ids": [
+     "ch13_d2_01",
+     "ch13_d2_02",
+     "ch13_d2_03",
+     "ch13_d2_04",
+     "ch13_d2_05",
+     "ch13_d2_06",
+     "ch13_d2_07",
+     "ch13_d2_08",
+     "ch13_d2_09"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Что ты скажешь, если плохо себя чувствуешь?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch13_d2",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch13_d2_01",
+        "ch13_d2_03",
+        "ch13_d2_04",
+        "ch13_d2_05"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch13_d2",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Звук u: 3 слова части 7 — за голосом",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch13_015",
+        "ch13_016",
+        "ch13_018",
+        "ch13_019"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Звук u: 3 слова части 7 — за голосом — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "мост «мне надо прийти» → ich soll heute kommen: soll вторым, kommen в конец; без терминов",
+   "как слышу, так и пишу": "Uhr: h не читается, u долгое; большая буква у Termin, Uhr, Praxis",
+   "учебник непонятен": "из Linie 1 — только темы и страницы 232–233; подача своя",
+   "село, живой немецкий — Netto": "запись к врачу по телефону — настоящая ситуация; номер 116117 для вечера и выходных",
+   "любит аниме": "завязка — герой идёт к местному лекарю; отрезки аниме — позже, после гл. 6",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин (все 12 + 24 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Soll ich heute kommen?; перенос — Olga soll heute kommen.",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    232,
+    233
+   ],
+   "phrases_ids": [
+    "ch13_022"
+   ],
+   "note": "к курсу: на стр. 232–233 — сайт приёмной врача, Aufforderungen, запись по телефону; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch13_022",
+    "picture": "стр. 232–234: приёмная врача, рецепт",
+    "words": [
+     {
+      "de": "die Sprechstunde",
+      "ru": "приём у врача"
+     },
+     {
+      "de": "das Rezept",
+      "ru": "рецепт"
+     },
+     {
+      "de": "der Termin",
+      "ru": "приём по записи"
+     }
+    ],
+    "note": "эти слова есть на стр. 232–234; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch13_L2_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch13_022",
+     "prompt": "Слова курса. Послушай. Что значит «Rezept»?",
+     "answer": "рецепт",
+     "distractors": [
+      "приём у врача",
+      "запись на приём"
+     ],
+     "src": "Linie 1, стр. 234 (Rezept)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Постройка «врач»: герой записывается на приём — по телефону, на «Sie»",
+   "npc": "Регистратура приёмной врача Вагнера (на «Sie»)"
+  },
+  "covers": [
+   "L1-13-S2",
+   "L1-13-S4",
+   "L1-13-G1"
+  ],
+  "covers_note": {
+   "L1-13-S2": "запись к врачу, Aufforderungen: Sie sollen heute kommen; Ich soll … (слова курса: Sprechstunde, Rezept)",
+   "L1-13-S4": "звонок в приёмную: Praxis …, guten Tag! / Ich möchte einen Termin. / Um neun Uhr.",
+   "L1-13-G1": "sollen: ich soll, du sollst, Sie sollen; второе действие в конец; Soll ich …?"
+  },
+  "goal": "После урока сможешь: позвонить в приёмную врача, сказать «Я хочу записаться на приём», понять «Вам надо прийти сегодня в девять» и передать это словами «Мне надо прийти». (Linie 1: Arzttermin am Telefon, Aufforderungen.)",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "У тебя температура. Пора записаться к врачу.",
+      "Цель: позвонить в приёмную и записаться."
+     ],
+     "voice_ru": "У тебя температура, и нужно записаться к врачу. Сегодня позвонишь в приёмную, скажешь, что хочешь записаться, и поймёшь, когда прийти.",
+     "hook": "Загадка урока: регистратура говорит «Sie sollen heute kommen», а ты потом передаёшь: «Ich soll heute kommen». Почему kommen стоит в самом конце?",
+     "anime_motif": "исекай: герой впервые идёт к местному лекарю — надо записаться и понять, когда прийти (без цитат)",
+     "npc": "Регистратура приёмной врача Вагнера",
+     "more": "Регистратура ответит на «Sie». Ты скажешь про температуру, попросишь приём и услышишь время.",
+     "goal": "После урока сможешь: позвонить в приёмную врача, сказать «Я хочу записаться на приём», понять «Вам надо прийти сегодня в девять» и передать это словами «Мне надо прийти». (Linie 1: Arzttermin am Telefon, Aufforderungen.)"
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch13_001",
+      "ch13_004",
+      "ch13_006"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Что ты скажешь, если плохо себя чувствуешь?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch13_001",
+      "ch13_004",
+      "ch13_006"
+     ],
+     "type": "retrieval: вопрос, не перечитывание",
+     "note": "фразы урока 1 (ch13_001, ch13_004, ch13_006)"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch13_015",
+      "ch13_016",
+      "ch13_017",
+      "ch13_018",
+      "ch13_019",
+      "ch13_020"
+     ],
+     "words": [
+      "Praxis Wagner, guten Tag!",
+      "Ich möchte einen Termin.",
+      "Der Arzt sagt, Sie sollen heute kommen.",
+      "Um neun Uhr.",
+      "Ich habe Fieber."
+     ],
+     "words_ru": {
+      "Praxis Wagner, guten Tag!": "Приёмная врача Вагнера, добрый день!",
+      "Ich möchte einen Termin.": "Я хочу записаться на приём.",
+      "Der Arzt sagt, Sie sollen heute kommen.": "Врач говорит, вам надо прийти сегодня.",
+      "Um neun Uhr.": "В девять часов.",
+      "Ich habe Fieber.": "У меня температура."
+     },
+     "trap": "По-русски «Мне надо прийти» — два действия рядом. По-немецки soll стоит вторым, а kommen уходит в самый конец: ich soll heute kommen.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch13_L2_words_1",
+      "ch13_L2_words_2",
+      "ch13_L2_words_3",
+      "ch13_L2_words_4",
+      "ch13_L2_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch13_d2",
+     "line_ids": [
+      "ch13_d2_01",
+      "ch13_d2_02",
+      "ch13_d2_03",
+      "ch13_d2_04",
+      "ch13_d2_05",
+      "ch13_d2_06",
+      "ch13_d2_07",
+      "ch13_d2_08",
+      "ch13_d2_09"
+     ],
+     "halves": [
+      [
+       "ch13_d2_01",
+       "ch13_d2_02",
+       "ch13_d2_03",
+       "ch13_d2_04"
+      ],
+      [
+       "ch13_d2_05",
+       "ch13_d2_06",
+       "ch13_d2_07",
+       "ch13_d2_08",
+       "ch13_d2_09"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "Если приёмная закрыта (вечер, выходные), в Германии можно позвонить по номеру 116117 — это врачебная дежурная служба; звонок бесплатный (116117.de). При угрозе жизни звонят 112.",
+     "life_source": "116117.de (Kassenärztliche Bundesvereinigung): ärztlicher Bereitschaftsdienst",
+     "task_ids": [
+      "ch13_L2_listen_1",
+      "ch13_L2_listen_2",
+      "ch13_L2_listen_3",
+      "ch13_L2_listen_4",
+      "ch13_L2_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch13_015",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "soll — «мне велели». Оно стоит вторым, а второе действие kommen уходит в самый конец: ich soll heute kommen.",
+     "screen": [
+      "Ich · soll · heute · kommen.",
+      "действие вторым, второе действие — в конец"
+     ],
+     "answer_hook": "Ответ на загадку: soll занимает место действия, а kommen — второе действие, поэтому оно в самом конце.",
+     "second": {
+      "why_id": "ch13_018",
+      "voice_ru": "Termin — der-слово. После möchte он «кого-что», поэтому einen Termin."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch13_L2_why_1",
+      "ch13_L2_why_2",
+      "ch13_L2_why_3",
+      "ch13_L2_why_4",
+      "ch13_L2_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch13_021",
+     "pieces": [
+      "kommen?",
+      "ich",
+      "Soll",
+      "heute"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch13_d2_05",
+      "ch13_d2_03"
+     ],
+     "prompt": "Собери сам из знакомых кусков: спроси регистратуру «Мне прийти сегодня?»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch13_021",
+     "transfer_task_ids": [
+      "ch13_L2_transfer_1"
+     ],
+     "task_ids": [
+      "ch13_L2_write_1",
+      "ch13_L2_write_2",
+      "ch13_L2_write_3",
+      "ch13_L2_write_4",
+      "ch13_L2_write_5",
+      "ch13_L2_read_1",
+      "ch13_L2_read_2",
+      "ch13_L2_read_3",
+      "ch13_L2_read_4",
+      "ch13_L2_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "Uhr",
+     "ipa_sym": "uː",
+     "tip_ru": "Uhr — «у:р»: u долгое, а h после него не читается. Оно только показывает, что гласный долгий.",
+     "bridge_ru": "По-русски такого нет: буква h на месте, а звука нет. Немец говорит «у:р», не «у-хр».",
+     "phrase_id": "ch13_019",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "Uhr",
+       "ru": "у:р — u долгое"
+      },
+      {
+       "de": "du",
+       "ru": "ду: — u долгое"
+      },
+      {
+       "de": "gut",
+       "ru": "гу:т — u долгое"
+      }
+     ],
+     "speak_task_ids": [
+      "ch13_L2_speak_1",
+      "ch13_L2_speak_2",
+      "ch13_L2_speak_3",
+      "ch13_L2_speak_4",
+      "ch13_L2_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Звонок в приёмную врача",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "регистратура (на «Sie»)",
+     "turns": [
+      {
+       "prompt_id": "ch13_d2_01",
+       "prompt_de": "Praxis Wagner, guten Tag!",
+       "prompt_audio": "audio_v1/ch13_d2_01.mp3",
+       "expected_id": "ch13_d2_04",
+       "expected_de": "Ich möchte einen Termin.",
+       "accept": [
+        {
+         "id": "ch13_018",
+         "de": "Ich möchte einen Termin."
+        },
+        {
+         "id": "ch13_d2_02",
+         "de": "Guten Tag!"
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch13_d2_06",
+       "prompt_de": "Um neun Uhr.",
+       "prompt_audio": "audio_v1/ch13_d2_06.mp3",
+       "expected_id": "ch13_d2_07",
+       "expected_de": "Ja, danke!",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch13_d2_08",
+       "prompt_de": "Gute Besserung! Auf Wiedersehen!",
+       "prompt_audio": "audio_v1/ch13_d2_08.mp3",
+       "expected_id": "ch13_d2_09",
+       "expected_de": "Danke! Auf Wiedersehen!",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Говори правду о себе: ИИ примет «Ich möchte einen Termin» и «Ich habe Fieber».",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch13_d2_05",
+     "task_ru": "Новичок не понял, что сказала регистратура, и молчит. Объясни ему по-русски, что ему надо сделать и когда.",
+     "expected_ru": "Врач говорит, вам надо прийти сегодня.",
+     "hint_ru": "sollen — «надо, велено»; kommen — прийти; heute — сегодня.",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1.1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch13_L2_dict_1",
+      "ch13_L2_dict_2",
+      "ch13_L2_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Termin, Uhr, Praxis — слова-предметы, пишутся с большой буквы. soll — с одной l в начале, sollen — с двумя l."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch13_L2_transfer_2",
+      "ch13_L2_transfer_3",
+      "ch13_L2_transfer_4",
+      "ch13_L2_transfer_5",
+      "ch13_L2_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Ты записался на приём: умеешь сказать «Ich möchte einen Termin».",
+      "Совет на завтра: скажи вслух три фразы — Ich soll heute kommen. Ich möchte einen Termin. Um neun Uhr."
+     ],
+     "npc_phrase_id": "ch13_d2_08",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: Ich soll … kommen. · Sie sollen … kommen. · Ich möchte einen Termin. · Um neun Uhr.",
+     "verbs": {
+      "title": "soll, sollst, sollen",
+      "voice_ru": "soll — мне велели. ich soll, du sollst, Sie sollen. Второе действие kommen — в самом конце.",
+      "table_on_tap": [
+       [
+        "ich soll",
+        "heute kommen"
+       ],
+       [
+        "du sollst",
+        "heute kommen"
+       ],
+       [
+        "Sie sollen",
+        "heute kommen"
+       ]
+      ]
+     },
+     "next_hook": "Дальше: у врача. Что болит? Части тела и «Mein Kopf tut weh».",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       232,
+       233
+      ],
+      "phrases_ids": [
+       "ch13_022"
+      ],
+      "note": "к курсу: на стр. 232–233 — сайт приёмной врача, Aufforderungen, запись по телефону; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch13_022",
+       "picture": "стр. 232–234: приёмная врача, рецепт",
+       "words": [
+        {
+         "de": "die Sprechstunde",
+         "ru": "приём у врача"
+        },
+        {
+         "de": "das Rezept",
+         "ru": "рецепт"
+        },
+        {
+         "de": "der Termin",
+         "ru": "приём по записи"
+        }
+       ],
+       "note": "эти слова есть на стр. 232–234; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch13_L2_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch13_022",
+        "prompt": "Слова курса. Послушай. Что значит «Rezept»?",
+        "answer": "рецепт",
+        "distractors": [
+         "приём у врача",
+         "запись на приём"
+        ],
+        "src": "Linie 1, стр. 234 (Rezept)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      232,
+      233
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch13.py",
+  "new_words": [
+   "soll",
+   "sollen",
+   "sollst",
+   "heute",
+   "Ich möchte",
+   "einen Termin",
+   "um … Uhr",
+   "Praxis"
+  ],
+  "known_before": [
+   "Ich habe Fieber.",
+   "Ich bin krank.",
+   "Was ist los?",
+   "kommen",
+   "neun",
+   "Danke!",
+   "Auf Wiedersehen!",
+   "Gute Besserung!"
+  ],
+  "transfer_phrase_ids": [
+   "ch13_t03",
+   "ch13_t04"
+  ],
+  "built_phrase_ids": [
+   "ch13_021"
+  ],
+  "quiz_ids": [
+   "ch13_L2_words_1",
+   "ch13_L2_words_2",
+   "ch13_L2_words_3",
+   "ch13_L2_words_4",
+   "ch13_L2_words_5",
+   "ch13_L2_listen_1",
+   "ch13_L2_listen_2",
+   "ch13_L2_listen_3",
+   "ch13_L2_listen_4",
+   "ch13_L2_listen_5",
+   "ch13_L2_read_1",
+   "ch13_L2_read_2",
+   "ch13_L2_read_3",
+   "ch13_L2_read_4",
+   "ch13_L2_read_5",
+   "ch13_L2_speak_1",
+   "ch13_L2_speak_2",
+   "ch13_L2_speak_3",
+   "ch13_L2_speak_4",
+   "ch13_L2_speak_5",
+   "ch13_L2_write_1",
+   "ch13_L2_write_2",
+   "ch13_L2_write_3",
+   "ch13_L2_write_4",
+   "ch13_L2_write_5",
+   "ch13_L2_why_1",
+   "ch13_L2_why_2",
+   "ch13_L2_why_3",
+   "ch13_L2_why_4",
+   "ch13_L2_why_5",
+   "ch13_L2_transfer_1",
+   "ch13_L2_transfer_2",
+   "ch13_L2_transfer_3",
+   "ch13_L2_transfer_4",
+   "ch13_L2_transfer_5",
+   "ch13_L2_boss_1"
+  ],
+  "dictation_ids": [
+   "ch13_L2_dict_1",
+   "ch13_L2_dict_2",
+   "ch13_L2_dict_3"
+  ],
+  "status": "на проверку (текст, без звука)",
+  "minutes": "20",
+  "intro": "У тебя температура. Пора записаться к врачу. Цель: позвонить в приёмную и записаться. Загадка урока: регистратура говорит «Sie sollen heute kommen», а ты потом передаёшь: «Ich soll heute kommen». Почему kommen стоит в самом конце?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Звонок в приёмную врача",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой звонит в приёмную (ИИ — регистратура)",
+   "situation": "kurs_termin",
+   "ai_plays": "регистратура (на «Sie»)",
+   "phrases": [
+    "ch13_d2_04",
+    "ch13_018",
+    "ch13_d2_02",
+    "ch13_d2_07",
+    "ch13_d2_09"
+   ]
+  },
+  "outro": "Ты записался на приём: умеешь сказать «Ich möchte einen Termin». Совет на завтра: скажи вслух три фразы — Ich soll heute kommen. Ich möchte einen Termin. Um neun Uhr. Дальше: у врача. Что болит? Части тела и «Mein Kopf tut weh».",
+  "detail_de_life": "Если приёмная закрыта (вечер, выходные), в Германии можно позвонить по номеру 116117 — это врачебная дежурная служба; звонок бесплатный (116117.de). При угрозе жизни звонят 112.",
+  "detail_de_life_source": "116117.de (Kassenärztliche Bundesvereinigung): ärztlicher Bereitschaftsdienst",
+  "task_ids": {
+   "words": [
+    "ch13_L2_words_1",
+    "ch13_L2_words_2",
+    "ch13_L2_words_3",
+    "ch13_L2_words_4",
+    "ch13_L2_words_5"
+   ],
+   "listen": [
+    "ch13_L2_listen_1",
+    "ch13_L2_listen_2",
+    "ch13_L2_listen_3",
+    "ch13_L2_listen_4",
+    "ch13_L2_listen_5"
+   ],
+   "read": [
+    "ch13_L2_read_1",
+    "ch13_L2_read_2",
+    "ch13_L2_read_3",
+    "ch13_L2_read_4",
+    "ch13_L2_read_5"
+   ],
+   "speak": [
+    "ch13_L2_speak_1",
+    "ch13_L2_speak_2",
+    "ch13_L2_speak_3",
+    "ch13_L2_speak_4",
+    "ch13_L2_speak_5"
+   ],
+   "write": [
+    "ch13_L2_write_1",
+    "ch13_L2_write_2",
+    "ch13_L2_write_3",
+    "ch13_L2_write_4",
+    "ch13_L2_write_5"
+   ],
+   "why": [
+    "ch13_L2_why_1",
+    "ch13_L2_why_2",
+    "ch13_L2_why_3",
+    "ch13_L2_why_4",
+    "ch13_L2_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch13_L2_transfer_1",
+   "ch13_L2_transfer_2",
+   "ch13_L2_transfer_3",
+   "ch13_L2_transfer_4",
+   "ch13_L2_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch13_001",
+   "ch13_004",
+   "ch13_006"
+  ],
+  "dialog_ids": [
+   "ch13_d2"
+  ],
+  "video": "video/ch13_L2.mp4"
+ },
+ {
+  "id": "ch13_L3",
+  "title": "У врача: Mein Kopf tut weh",
+  "pages_linie1": {
+   "pages": [
+    233,
+    234
+   ],
+   "sections": [
+    "3 Der Körper",
+    "5 Beim Arzt"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch13_023",
+   "ch13_024",
+   "ch13_025",
+   "ch13_026",
+   "ch13_027",
+   "ch13_028"
+  ],
+  "why_ids": [
+   "ch13_023",
+   "ch13_027"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch13_d3",
+    "line_ids": [
+     "ch13_d3_01",
+     "ch13_d3_02",
+     "ch13_d3_03",
+     "ch13_d3_04",
+     "ch13_d3_05",
+     "ch13_d3_06",
+     "ch13_d3_07",
+     "ch13_d3_08",
+     "ch13_d3_09"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Ты звонишь в приёмную. Что скажешь и что услышишь?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch13_d3",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch13_d3_01",
+        "ch13_d3_02",
+        "ch13_d3_05",
+        "ch13_d3_08"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch13_d3",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Звуки f, v, w: 3 слова части 7 — за голосом",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch13_023",
+        "ch13_024",
+        "ch13_027",
+        "ch13_028"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Звуки f, v, w: 3 слова части 7 — за голосом — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "мост «у меня болит голова» → mein Kopf tut weh: болит сама голова; tut вторым, weh в конец; без терминов",
+   "как слышу, так и пишу": "v = «ф» (viel), w = «в» (wie); большая буква у Kopf, Bauch, Hals, Mund",
+   "учебник непонятен": "из Linie 1 — только темы и страницы 233–234; подача своя",
+   "село, живой немецкий — Netto": "приём у врача — настоящая ситуация; больничный на работе (EntgFG § 5)",
+   "любит аниме": "завязка — местный лекарь и пересказ его совета спутнику; отрезки аниме — позже, после гл. 6",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин (все 12 + 24 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — пересказ совета: Ich soll viel trinken.; перенос — Sie sollen den Mund öffnen.",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    233,
+    234
+   ],
+   "phrases_ids": [
+    "ch13_030"
+   ],
+   "note": "к курсу: на стр. 233 — рисунок тела с подписями, на стр. 234 — разговор с врачом; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch13_030",
+    "picture": "стр. 233: тело человека с подписями",
+    "words": [
+     {
+      "de": "das Auge",
+      "ru": "глаз"
+     },
+     {
+      "de": "die Nase",
+      "ru": "нос"
+     },
+     {
+      "de": "das Bein",
+      "ru": "нога"
+     },
+     {
+      "de": "der Rücken",
+      "ru": "спина"
+     }
+    ],
+    "note": "эти слова есть на стр. 233; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch13_L3_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch13_030",
+     "prompt": "Слова курса. Послушай. Что значит «Rücken»?",
+     "answer": "спина",
+     "distractors": [
+      "нога",
+      "глаз"
+     ],
+     "src": "Linie 1, стр. 233 (Rücken)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Постройка «врач»: герой у врача — говорит, что болит, и понимает совет",
+   "npc": "Dr. Wagner — врач (Ärztin, на «Sie»)"
+  },
+  "covers": [
+   "L1-13-S3",
+   "L1-13-S5",
+   "L1-13-MEDIAT",
+   "L1-13-AUSSPR"
+  ],
+  "covers_note": {
+   "L1-13-S3": "Der Körper: Kopf, Bauch, Hals, Mund (сцена, части 3–6); слова курса — Auge, Ohr, Nase, Hand, Bein, Rücken (стр. 233)",
+   "L1-13-S5": "Beim Arzt: Was fehlt Ihnen? / Mein Kopf tut weh. / Öffnen Sie bitte den Mund. / Trinken Sie viel Tee!",
+   "L1-13-MEDIAT": "часть 9: передать соседу по-русски совет врача (Trinken Sie viel Tee!); часть 6 и перенос: пересказ через sollen — Ich soll viel trinken, Sie sollen den Mund öffnen.",
+   "L1-13-AUSSPR": "часть 7: f, v, w — viel [f], Fieber [f], wie [v]"
+  },
+  "goal": "После урока сможешь: сказать врачу, что болит (голова, живот, горло), понять «Что вас беспокоит?», «Откройте рот», совет «Пейте много чая!» и передать его: Ich soll viel trinken. (Linie 1: Körperteile, Gespräch beim Arzt.)",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Ты пришёл к врачу. Болит голова и горло.",
+      "Цель: сказать, что болит, и понять совет врача."
+     ],
+     "voice_ru": "Ты записался и пришёл к врачу. Сегодня скажешь, что у тебя болит, поймёшь просьбы врача и её совет — и передашь его другому.",
+     "hook": "Загадка урока: по-русски «у меня болит голова», а немец говорит «Mein Kopf tut weh». Где тут «у меня» и почему weh в самом конце?",
+     "anime_motif": "исекай: местный лекарь осматривает героя и даёт совет — герой должен понять его и пересказать спутнику (без цитат)",
+     "npc": "Dr. Wagner — врач",
+     "more": "Врач спросит, что тебя беспокоит, попросит открыть рот и даст совет.",
+     "goal": "После урока сможешь: сказать врачу, что болит (голова, живот, горло), понять «Что вас беспокоит?», «Откройте рот», совет «Пейте много чая!» и передать его: Ich soll viel trinken. (Linie 1: Körperteile, Gespräch beim Arzt.)"
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch13_018",
+      "ch13_016",
+      "ch13_019"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Ты звонишь в приёмную. Что скажешь и что услышишь?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch13_018",
+      "ch13_016",
+      "ch13_019"
+     ],
+     "type": "retrieval: вопрос, не перечитывание",
+     "note": "фразы урока 2 (ch13_018, ch13_016, ch13_019)"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch13_023",
+      "ch13_024",
+      "ch13_025",
+      "ch13_026",
+      "ch13_027",
+      "ch13_028"
+     ],
+     "words": [
+      "Mein Kopf tut weh.",
+      "Mein Bauch tut weh. · Mein Hals tut weh.",
+      "Was fehlt Ihnen?",
+      "Öffnen Sie bitte den Mund.",
+      "Trinken Sie viel Tee!"
+     ],
+     "words_ru": {
+      "Mein Kopf tut weh.": "У меня болит голова.",
+      "Mein Bauch tut weh. · Mein Hals tut weh.": "У меня болит живот. · У меня болит горло.",
+      "Was fehlt Ihnen?": "Что вас беспокоит?",
+      "Öffnen Sie bitte den Mund.": "Откройте, пожалуйста, рот.",
+      "Trinken Sie viel Tee!": "Пейте много чая!"
+     },
+     "trap": "По-русски «у меня болит голова». Немец говорит про саму голову: mein Kopf tut weh — «моя голова делает больно». tut стоит вторым, weh уходит в конец.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch13_L3_words_1",
+      "ch13_L3_words_2",
+      "ch13_L3_words_3",
+      "ch13_L3_words_4",
+      "ch13_L3_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch13_d3",
+     "line_ids": [
+      "ch13_d3_01",
+      "ch13_d3_02",
+      "ch13_d3_03",
+      "ch13_d3_04",
+      "ch13_d3_05",
+      "ch13_d3_06",
+      "ch13_d3_07",
+      "ch13_d3_08",
+      "ch13_d3_09"
+     ],
+     "halves": [
+      [
+       "ch13_d3_01",
+       "ch13_d3_02",
+       "ch13_d3_03",
+       "ch13_d3_04"
+      ],
+      [
+       "ch13_d3_05",
+       "ch13_d3_06",
+       "ch13_d3_07",
+       "ch13_d3_08",
+       "ch13_d3_09"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "Если работаешь и заболел, работодателю сообщают сразу. Если болезнь длится дольше трёх календарных дней, нужна справка врача. С государственной страховкой бумагу работодателю не носят: данные идут через больничную кассу (EntgFG § 5).",
+     "life_source": "EntgFG § 5 Abs. 1 Satz 1–2 und Abs. 1a (gesetze-im-internet.de/entgfg/__5.html)",
+     "task_ids": [
+      "ch13_L3_listen_1",
+      "ch13_L3_listen_2",
+      "ch13_L3_listen_3",
+      "ch13_L3_listen_4",
+      "ch13_L3_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch13_023",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "Немец говорит про саму голову: mein Kopf tut weh. tut — действие, оно второе. weh — его вторая часть, она уходит в самый конец.",
+     "screen": [
+      "Mein Kopf · tut · weh.",
+      "tut вторым, weh — в самом конце"
+     ],
+     "answer_hook": "Ответ на загадку: «у меня» по-немецки нет — болит сама голова: mein Kopf. tut weh — одно действие из двух частей: tut вторым, weh в конце.",
+     "second": {
+      "why_id": "ch13_027",
+      "voice_ru": "Просьба на «вы»: действие Öffnen первое, потом Sie. bitte места не занимает."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch13_L3_why_1",
+      "ch13_L3_why_2",
+      "ch13_L3_why_3",
+      "ch13_L3_why_4",
+      "ch13_L3_why_5"
+     ],
+     "no_story": true,
+     "examples_button": {
+      "label": "Ещё примеры",
+      "why_ids": [
+       "ch13_023"
+      ]
+     }
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch13_029",
+     "pieces": [
+      "trinken.",
+      "soll",
+      "Ich",
+      "viel"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch13_d3_08",
+      "ch13_015"
+     ],
+     "prompt": "Собери сам из знакомых кусков: перескажи совет врача про себя — «Мне надо много пить.»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch13_029",
+     "transfer_task_ids": [
+      "ch13_L3_transfer_1"
+     ],
+     "task_ids": [
+      "ch13_L3_write_1",
+      "ch13_L3_write_2",
+      "ch13_L3_write_3",
+      "ch13_L3_write_4",
+      "ch13_L3_write_5",
+      "ch13_L3_read_1",
+      "ch13_L3_read_2",
+      "ch13_L3_read_3",
+      "ch13_L3_read_4",
+      "ch13_L3_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "viel",
+     "ipa_sym": "f",
+     "tip_ru": "Буква v в немецких словах часто звучит как «ф»: viel — «фи:ль», как f в Fieber. А w звучит как русское «в»: wie — «ви:».",
+     "bridge_ru": "По-русски v нет, а «в» пишут через в. В немецком «ф» пишут f или v, а «в» — через w.",
+     "phrase_id": "ch13_028",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "viel",
+       "ru": "фи:ль — v = «ф»"
+      },
+      {
+       "de": "Fieber",
+       "ru": "фи:бэр — f = «ф»"
+      },
+      {
+       "de": "wie",
+       "ru": "ви: — w = «в»"
+      }
+     ],
+     "speak_task_ids": [
+      "ch13_L3_speak_1",
+      "ch13_L3_speak_2",
+      "ch13_L3_speak_3",
+      "ch13_L3_speak_4",
+      "ch13_L3_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "У врача: что болит?",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "врач (на «Sie»)",
+     "turns": [
+      {
+       "prompt_id": "ch13_d3_01",
+       "prompt_de": "Guten Tag! Was fehlt Ihnen?",
+       "prompt_audio": "audio_v1/ch13_d3_01.mp3",
+       "expected_id": "ch13_d3_02",
+       "expected_de": "Mein Kopf tut weh.",
+       "accept": [
+        {
+         "id": "ch13_024",
+         "de": "Mein Bauch tut weh."
+        },
+        {
+         "id": "ch13_025",
+         "de": "Mein Hals tut weh."
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch13_d3_05",
+       "prompt_de": "Tut der Hals weh?",
+       "prompt_audio": "audio_v1/ch13_d3_05.mp3",
+       "expected_id": "ch13_d3_06",
+       "expected_de": "Ja, mein Hals tut weh.",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch13_d3_08",
+       "prompt_de": "Trinken Sie viel Tee!",
+       "prompt_audio": "audio_v1/ch13_d3_08.mp3",
+       "expected_id": "ch13_d3_09",
+       "expected_de": "Danke! Auf Wiedersehen!",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Говори правду о себе: ИИ примет «Mein Kopf / Bauch / Hals tut weh».",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch13_d3_08",
+     "task_ru": "Mediation: in einem Gespräch beim Arzt vermitteln — передать слова врача. Ты пришёл к врачу с соседом, он почти не понимает по-немецки. Врач сказала ему: «Trinken Sie viel Tee!» Объясни соседу по-русски, что ему надо делать.",
+     "expected_ru": "Пейте много чая!",
+     "hint_ru": "Trinken Sie … — просьба на «вы»: «пейте»; viel Tee — много чая.",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1.1 — передаём по-русски (Mediation); позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch13_L3_dict_1",
+      "ch13_L3_dict_2",
+      "ch13_L3_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Kopf, Bauch, Hals, Mund — слова-предметы, с большой буквы. viel слышишь «фи:ль», а пишешь v."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch13_L3_transfer_2",
+      "ch13_L3_transfer_3",
+      "ch13_L3_transfer_4",
+      "ch13_L3_transfer_5",
+      "ch13_L3_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Ты был у врача: умеешь сказать, что болит, и понять совет.",
+      "Совет на завтра: скажи вслух три фразы — Mein Kopf tut weh. Mein Hals tut weh. Ich soll viel trinken."
+     ],
+     "npc_phrase_id": "ch13_d3_08",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: Mein Kopf / Bauch / Hals tut weh. · Was fehlt Ihnen? · Öffnen Sie bitte den Mund. · Trinken Sie viel Tee! → Ich soll viel trinken.",
+     "verbs": {
+      "title": "tut weh: что болит",
+      "voice_ru": "Болит сама часть тела: mein Kopf tut weh. tut вторым, weh — в конце.",
+      "table_on_tap": [
+       [
+        "Mein Kopf",
+        "tut weh"
+       ],
+       [
+        "Mein Bauch",
+        "tut weh"
+       ],
+       [
+        "Mein Hals",
+        "tut weh"
+       ]
+      ]
+     },
+     "next_hook": "Дальше: в аптеке. Врач дала совет, а таблетки купишь сам.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       233,
+       234
+      ],
+      "phrases_ids": [
+       "ch13_030"
+      ],
+      "note": "к курсу: на стр. 233 — рисунок тела с подписями, на стр. 234 — разговор с врачом; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch13_030",
+       "picture": "стр. 233: тело человека с подписями",
+       "words": [
+        {
+         "de": "das Auge",
+         "ru": "глаз"
+        },
+        {
+         "de": "die Nase",
+         "ru": "нос"
+        },
+        {
+         "de": "das Bein",
+         "ru": "нога"
+        },
+        {
+         "de": "der Rücken",
+         "ru": "спина"
+        }
+       ],
+       "note": "эти слова есть на стр. 233; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch13_L3_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch13_030",
+        "prompt": "Слова курса. Послушай. Что значит «Rücken»?",
+        "answer": "спина",
+        "distractors": [
+         "нога",
+         "глаз"
+        ],
+        "src": "Linie 1, стр. 233 (Rücken)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      233,
+      234
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch13.py",
+  "new_words": [
+   "Mein Kopf tut weh.",
+   "Bauch",
+   "Hals",
+   "Was fehlt Ihnen?",
+   "Öffnen Sie bitte …",
+   "Mund",
+   "viel trinken"
+  ],
+  "known_before": [
+   "Ich habe Fieber.",
+   "Sie sollen … kommen.",
+   "Ich soll …",
+   "mein",
+   "bitte",
+   "Sie haben",
+   "eine Erkältung",
+   "auch",
+   "Danke!",
+   "Auf Wiedersehen!"
+  ],
+  "transfer_phrase_ids": [
+   "ch13_t05",
+   "ch13_t06"
+  ],
+  "built_phrase_ids": [
+   "ch13_029"
+  ],
+  "quiz_ids": [
+   "ch13_L3_words_1",
+   "ch13_L3_words_2",
+   "ch13_L3_words_3",
+   "ch13_L3_words_4",
+   "ch13_L3_words_5",
+   "ch13_L3_listen_1",
+   "ch13_L3_listen_2",
+   "ch13_L3_listen_3",
+   "ch13_L3_listen_4",
+   "ch13_L3_listen_5",
+   "ch13_L3_read_1",
+   "ch13_L3_read_2",
+   "ch13_L3_read_3",
+   "ch13_L3_read_4",
+   "ch13_L3_read_5",
+   "ch13_L3_speak_1",
+   "ch13_L3_speak_2",
+   "ch13_L3_speak_3",
+   "ch13_L3_speak_4",
+   "ch13_L3_speak_5",
+   "ch13_L3_write_1",
+   "ch13_L3_write_2",
+   "ch13_L3_write_3",
+   "ch13_L3_write_4",
+   "ch13_L3_write_5",
+   "ch13_L3_why_1",
+   "ch13_L3_why_2",
+   "ch13_L3_why_3",
+   "ch13_L3_why_4",
+   "ch13_L3_why_5",
+   "ch13_L3_transfer_1",
+   "ch13_L3_transfer_2",
+   "ch13_L3_transfer_3",
+   "ch13_L3_transfer_4",
+   "ch13_L3_transfer_5",
+   "ch13_L3_boss_1"
+  ],
+  "dictation_ids": [
+   "ch13_L3_dict_1",
+   "ch13_L3_dict_2",
+   "ch13_L3_dict_3"
+  ],
+  "status": "на проверку (текст, без звука)",
+  "minutes": "20",
+  "intro": "Ты пришёл к врачу. Болит голова и горло. Цель: сказать, что болит, и понять совет врача. Загадка урока: по-русски «у меня болит голова», а немец говорит «Mein Kopf tut weh». Где тут «у меня» и почему weh в самом конце?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. У врача: что болит?",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой у врача (ИИ — врач)",
+   "situation": "kurs_arzt",
+   "ai_plays": "врач (на «Sie»)",
+   "phrases": [
+    "ch13_d3_02",
+    "ch13_024",
+    "ch13_025",
+    "ch13_d3_06",
+    "ch13_d3_09"
+   ]
+  },
+  "outro": "Ты был у врача: умеешь сказать, что болит, и понять совет. Совет на завтра: скажи вслух три фразы — Mein Kopf tut weh. Mein Hals tut weh. Ich soll viel trinken. Дальше: в аптеке. Врач дала совет, а таблетки купишь сам.",
+  "detail_de_life": "Если работаешь и заболел, работодателю сообщают сразу. Если болезнь длится дольше трёх календарных дней, нужна справка врача. С государственной страховкой бумагу работодателю не носят: данные идут через больничную кассу (EntgFG § 5).",
+  "detail_de_life_source": "EntgFG § 5 Abs. 1 Satz 1–2 und Abs. 1a (gesetze-im-internet.de/entgfg/__5.html)",
+  "task_ids": {
+   "words": [
+    "ch13_L3_words_1",
+    "ch13_L3_words_2",
+    "ch13_L3_words_3",
+    "ch13_L3_words_4",
+    "ch13_L3_words_5"
+   ],
+   "listen": [
+    "ch13_L3_listen_1",
+    "ch13_L3_listen_2",
+    "ch13_L3_listen_3",
+    "ch13_L3_listen_4",
+    "ch13_L3_listen_5"
+   ],
+   "read": [
+    "ch13_L3_read_1",
+    "ch13_L3_read_2",
+    "ch13_L3_read_3",
+    "ch13_L3_read_4",
+    "ch13_L3_read_5"
+   ],
+   "speak": [
+    "ch13_L3_speak_1",
+    "ch13_L3_speak_2",
+    "ch13_L3_speak_3",
+    "ch13_L3_speak_4",
+    "ch13_L3_speak_5"
+   ],
+   "write": [
+    "ch13_L3_write_1",
+    "ch13_L3_write_2",
+    "ch13_L3_write_3",
+    "ch13_L3_write_4",
+    "ch13_L3_write_5"
+   ],
+   "why": [
+    "ch13_L3_why_1",
+    "ch13_L3_why_2",
+    "ch13_L3_why_3",
+    "ch13_L3_why_4",
+    "ch13_L3_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch13_L3_transfer_1",
+   "ch13_L3_transfer_2",
+   "ch13_L3_transfer_3",
+   "ch13_L3_transfer_4",
+   "ch13_L3_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch13_018",
+   "ch13_016",
+   "ch13_019"
+  ],
+  "dialog_ids": [
+   "ch13_d3"
+  ],
+  "video": "video/ch13_L3.mp4"
+ },
+ {
+  "id": "ch13_L4",
+  "title": "В аптеке: aber, oder, sondern",
+  "pages_linie1": {
+   "pages": [
+    235
+   ],
+   "sections": [
+    "6 In der Apotheke"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch13_031",
+   "ch13_032",
+   "ch13_033",
+   "ch13_034",
+   "ch13_035",
+   "ch13_036"
+  ],
+  "why_ids": [
+   "ch13_034",
+   "ch13_036"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch13_d4",
+    "line_ids": [
+     "ch13_d4_01",
+     "ch13_d4_02",
+     "ch13_d4_03",
+     "ch13_d4_04",
+     "ch13_d4_05",
+     "ch13_d4_06",
+     "ch13_d4_07",
+     "ch13_d4_08",
+     "ch13_d4_09"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Ты у врача. Что скажешь и что услышишь?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch13_d4",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch13_d4_02",
+        "ch13_d4_03",
+        "ch13_d4_05",
+        "ch13_d4_06"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch13_d4",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Двойные согласные: 3 слова части 7 — за голосом",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch13_031",
+        "ch13_032",
+        "ch13_034",
+        "ch13_036"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Двойные согласные: 3 слова части 7 — за голосом — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "мост «но» = aber, «а» после «не» = sondern; союз у порога места не занимает; без терминов",
+   "как слышу, так и пишу": "двойная согласная = короткий гласный (Tabletten, kommen, sollen); запятая перед aber/sondern",
+   "учебник непонятен": "из Linie 1 — только темы и страница 235; подача своя",
+   "село, живой немецкий — Netto": "аптека — настоящая ситуация; доплата за рецепт (SGB V § 61)",
+   "любит аниме": "завязка — лавка травника; отрезки аниме — позже, после гл. 6",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин (все 12 + 24 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Ich trinke Tee und ich nehme Tropfen.; перенос — Ich möchte keine Tropfen, sondern Tabletten.",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    235
+   ],
+   "phrases_ids": [
+    "ch13_038"
+   ],
+   "note": "к курсу: на стр. 235 — разговор в аптеке и как принимать лекарство; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch13_038",
+    "picture": "стр. 235: аптека, лекарства",
+    "words": [
+     {
+      "de": "der Hustensaft",
+      "ru": "сироп от кашля"
+     },
+     {
+      "de": "die Halsschmerzen",
+      "ru": "боль в горле"
+     },
+     {
+      "de": "die Bauchschmerzen",
+      "ru": "боль в животе"
+     }
+    ],
+    "note": "эти слова есть на стр. 235; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch13_L4_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch13_038",
+     "prompt": "Слова курса. Послушай. Что значит «Hustensaft»?",
+     "answer": "сироп от кашля",
+     "distractors": [
+      "капли от насморка",
+      "таблетки от боли"
+     ],
+     "src": "Linie 1, стр. 235 (Hustensaft)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Постройка «врач»: после врача герой идёт в аптеку",
+   "npc": "Apothekerin — аптекарь (на «Sie»)"
+  },
+  "covers": [
+   "L1-13-S6",
+   "L1-13-G2",
+   "L1-13-SCHREIB",
+   "B07.4",
+   "B08.3",
+   "B18.2"
+  ],
+  "covers_note": {
+   "L1-13-S6": "In der Apotheke: etwas gegen Husten, Tabletten oder Tropfen, Dosierung «dreimal am Tag zehn Tropfen» (сцена, части 3–6, 8)",
+   "L1-13-G2": "und/oder/aber: две фразы через und и aber (союз у порога, действие снова второе); oder — выбор",
+   "L1-13-SCHREIB": "часть 7 и 10: двойная согласная после короткого гласного — Tabletten, kommen, sollen",
+   "B07.4": "союз у порога: und/aber/sondern места не занимают (why_1, часть 5)",
+   "B08.3": "keine …, sondern: исправляем одну деталь (why_2, перенос)",
+   "B18.2": "aber «но» и sondern «а»: возражаем или исправляем (why_2, words_5)"
+  },
+  "goal": "После урока сможешь: попросить в аптеке что-нибудь от кашля, выбрать «таблетки или капли», поправить «не таблетки, а капли», понять, как принимать, и соединять две фразы через und и aber. (Linie 1: Medikamente kaufen, Dosierung.)",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "После врача — в аптеку. У тебя кашель.",
+      "Цель: купить лекарство и понять, как его принимать."
+     ],
+     "voice_ru": "Врач дала совет, и ты идёшь в аптеку. Сегодня попросишь что-нибудь от кашля, выберешь таблетки или капли и поймёшь, сколько раз в день их принимать.",
+     "hook": "Загадка урока: по-русски «но» и «а» — два разных слова. По-немецки тоже: aber и sondern. Когда какое?",
+     "anime_motif": "исекай: герой впервые в лавке травника — выбирает зелье и запоминает, как его пить (без цитат)",
+     "npc": "Apothekerin — аптекарь",
+     "more": "Аптекарь спросит, что ты хочешь, предложит таблетки или капли и скажет, как принимать.",
+     "goal": "После урока сможешь: попросить в аптеке что-нибудь от кашля, выбрать «таблетки или капли», поправить «не таблетки, а капли», понять, как принимать, и соединять две фразы через und и aber. (Linie 1: Medikamente kaufen, Dosierung.)"
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch13_023",
+      "ch13_026",
+      "ch13_028"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Ты у врача. Что скажешь и что услышишь?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch13_023",
+      "ch13_026",
+      "ch13_028"
+     ],
+     "type": "retrieval: вопрос, не перечитывание",
+     "note": "фразы урока 3 (ch13_023, ch13_026, ch13_028)"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch13_031",
+      "ch13_032",
+      "ch13_033",
+      "ch13_034",
+      "ch13_035",
+      "ch13_036"
+     ],
+     "words": [
+      "Haben Sie etwas gegen Husten?",
+      "Möchten Sie Tabletten oder Tropfen?",
+      "Nehmen Sie dreimal am Tag zehn Tropfen.",
+      "Ich habe Husten, aber ich habe kein Fieber. · Ich nehme Tropfen und ich trinke viel Tee.",
+      "Ich möchte keine Tabletten, sondern Tropfen."
+     ],
+     "words_ru": {
+      "Haben Sie etwas gegen Husten?": "У вас есть что-нибудь от кашля?",
+      "Möchten Sie Tabletten oder Tropfen?": "Вы хотите таблетки или капли?",
+      "Nehmen Sie dreimal am Tag zehn Tropfen.": "Принимайте по десять капель три раза в день.",
+      "Ich habe Husten, aber ich habe kein Fieber. · Ich nehme Tropfen und ich trinke viel Tee.": "У меня кашель, но температуры у меня нет. · Я принимаю капли и пью много чая.",
+      "Ich möchte keine Tabletten, sondern Tropfen.": "Я хочу не таблетки, а капли."
+     },
+     "trap": "После «не» (kein, keine, nicht) русское «а» — это sondern: keine Tabletten, sondern Tropfen. А «но» без исправления — aber.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch13_L4_words_1",
+      "ch13_L4_words_2",
+      "ch13_L4_words_3",
+      "ch13_L4_words_4",
+      "ch13_L4_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch13_d4",
+     "line_ids": [
+      "ch13_d4_01",
+      "ch13_d4_02",
+      "ch13_d4_03",
+      "ch13_d4_04",
+      "ch13_d4_05",
+      "ch13_d4_06",
+      "ch13_d4_07",
+      "ch13_d4_08",
+      "ch13_d4_09"
+     ],
+     "halves": [
+      [
+       "ch13_d4_01",
+       "ch13_d4_02",
+       "ch13_d4_03",
+       "ch13_d4_04"
+      ],
+      [
+       "ch13_d4_05",
+       "ch13_d4_06",
+       "ch13_d4_07",
+       "ch13_d4_08",
+       "ch13_d4_09"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "За лекарство по рецепту взрослый с государственной страховкой доплачивает в аптеке 10 % цены — но не меньше 5 € и не больше 10 €, и не больше цены самого лекарства (SGB V § 61).",
+     "life_source": "SGB V § 61 Satz 1 (gesetze-im-internet.de/sgb_5/__61.html)",
+     "task_ids": [
+      "ch13_L4_listen_1",
+      "ch13_L4_listen_2",
+      "ch13_L4_listen_3",
+      "ch13_L4_listen_4",
+      "ch13_L4_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch13_034",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "Satzverbindungen mit und, oder, aber: aber, und, oder, sondern стоят у порога второй фразы и места не занимают. Дальше обычный поезд: ich · habe · kein Fieber.",
+     "screen": [
+      "Ich habe Husten, | aber | ich · habe · kein Fieber.",
+      "союз у порога: действие снова второе"
+     ],
+     "answer_hook": "Ответ на загадку: «но» — aber: Ich habe Husten, aber ich habe kein Fieber. «а» после «не» — sondern: keine Tabletten, sondern Tropfen.",
+     "second": {
+      "why_id": "ch13_036",
+      "voice_ru": "После «не» — keine Tabletten — исправляем деталь словом sondern: keine Tabletten, sondern Tropfen."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch13_L4_why_1",
+      "ch13_L4_why_2",
+      "ch13_L4_why_3",
+      "ch13_L4_why_4",
+      "ch13_L4_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch13_037",
+     "pieces": [
+      "Tropfen.",
+      "nehme",
+      "ich",
+      "und",
+      "Tee",
+      "trinke",
+      "Ich"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch13_d4_07",
+      "ch13_035"
+     ],
+     "prompt": "Собери сам из знакомых кусков: «Я пью чай и принимаю капли.»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch13_037",
+     "transfer_task_ids": [
+      "ch13_L4_transfer_1"
+     ],
+     "task_ids": [
+      "ch13_L4_write_1",
+      "ch13_L4_write_2",
+      "ch13_L4_write_3",
+      "ch13_L4_write_4",
+      "ch13_L4_write_5",
+      "ch13_L4_read_1",
+      "ch13_L4_read_2",
+      "ch13_L4_read_3",
+      "ch13_L4_read_4",
+      "ch13_L4_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "Tabletten",
+     "ipa_sym": "ɛ",
+     "tip_ru": "Две одинаковые согласные — знак: гласный перед ними короткий. Tabletten — «таблэтн»: e короткое и резкое, tt звучит как одно t.",
+     "bridge_ru": "По-русски двойная буква тянет звук. По-немецки наоборот: tt, mm, ll не тянут, а делают гласный перед ними коротким.",
+     "phrase_id": "ch13_032",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "Tabletten",
+       "ru": "таблэтн — tt: e короткое"
+      },
+      {
+       "de": "kommen",
+       "ru": "комэн — mm: o короткое"
+      },
+      {
+       "de": "sollen",
+       "ru": "золэн — ll: o короткое"
+      }
+     ],
+     "speak_task_ids": [
+      "ch13_L4_speak_1",
+      "ch13_L4_speak_2",
+      "ch13_L4_speak_3",
+      "ch13_L4_speak_4",
+      "ch13_L4_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "В аптеке: от кашля",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "аптекарь (на «Sie»)",
+     "turns": [
+      {
+       "prompt_id": "ch13_d4_01",
+       "prompt_de": "Guten Tag! Was möchten Sie?",
+       "prompt_audio": "audio_v1/ch13_d4_01.mp3",
+       "expected_id": "ch13_d4_02",
+       "expected_de": "Ich habe Husten, aber ich habe kein Fieber.",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch13_d4_04",
+       "prompt_de": "Möchten Sie Tabletten oder Tropfen?",
+       "prompt_audio": "audio_v1/ch13_d4_04.mp3",
+       "expected_id": "ch13_d4_05",
+       "expected_de": "Ich möchte keine Tabletten, sondern Tropfen.",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch13_d4_06",
+       "prompt_de": "Nehmen Sie dreimal am Tag zehn Tropfen.",
+       "prompt_audio": "audio_v1/ch13_d4_06.mp3",
+       "expected_id": "ch13_d4_07",
+       "expected_de": "Ich nehme Tropfen und ich trinke viel Tee.",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Говори правду о себе: ИИ примет «Haben Sie etwas gegen Husten?» и «Ich habe Husten, aber ich habe kein Fieber».",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch13_d4_06",
+     "task_ru": "Новичок купил капли, но не понял, что сказала аптекарь. Объясни ему по-русски, как принимать лекарство.",
+     "expected_ru": "Принимайте по десять капель три раза в день.",
+     "hint_ru": "dreimal am Tag — три раза в день; zehn Tropfen — десять капель.",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1.1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch13_L4_dict_1",
+      "ch13_L4_dict_2",
+      "ch13_L4_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Wörter mit Doppelkonsonanten: Tabletten — двойное tt: e перед ним короткое. Tropfen, Husten, Fieber — с большой буквы. Перед aber и sondern — запятая."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch13_L4_transfer_2",
+      "ch13_L4_transfer_3",
+      "ch13_L4_transfer_4",
+      "ch13_L4_transfer_5",
+      "ch13_L4_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Ты купил лекарство: умеешь попросить, выбрать и понять, как принимать.",
+      "Совет на завтра: скажи вслух — Ich habe Husten, aber ich habe kein Fieber. Ich möchte keine Tabletten, sondern Tropfen."
+     ],
+     "npc_phrase_id": "ch13_d4_08",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: Haben Sie etwas gegen …? · … oder …? · …, aber … · keine …, sondern …",
+     "verbs": {
+      "title": "aber или sondern",
+      "voice_ru": "Просто «но» — aber. «а» после «не» — sondern.",
+      "table_on_tap": [
+       [
+        "Ich habe Husten,",
+        "aber ich habe kein Fieber."
+       ],
+       [
+        "keine Tabletten,",
+        "sondern Tropfen."
+       ]
+      ]
+     },
+     "next_hook": "Дальше: fit bleiben — что ты делаешь для здоровья. Спорт с друзьями.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       235
+      ],
+      "phrases_ids": [
+       "ch13_038"
+      ],
+      "note": "к курсу: на стр. 235 — разговор в аптеке и как принимать лекарство; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch13_038",
+       "picture": "стр. 235: аптека, лекарства",
+       "words": [
+        {
+         "de": "der Hustensaft",
+         "ru": "сироп от кашля"
+        },
+        {
+         "de": "die Halsschmerzen",
+         "ru": "боль в горле"
+        },
+        {
+         "de": "die Bauchschmerzen",
+         "ru": "боль в животе"
+        }
+       ],
+       "note": "эти слова есть на стр. 235; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch13_L4_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch13_038",
+        "prompt": "Слова курса. Послушай. Что значит «Hustensaft»?",
+        "answer": "сироп от кашля",
+        "distractors": [
+         "капли от насморка",
+         "таблетки от боли"
+        ],
+        "src": "Linie 1, стр. 235 (Hustensaft)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      235
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch13.py",
+  "new_words": [
+   "etwas gegen Husten",
+   "Tabletten oder Tropfen",
+   "Nehmen Sie …",
+   "dreimal am Tag",
+   "aber",
+   "sondern"
+  ],
+  "known_before": [
+   "Ich habe Husten.",
+   "Ich habe Fieber.",
+   "Ich möchte …",
+   "Möchten Sie …?",
+   "oder",
+   "und",
+   "kein / keine",
+   "Tee",
+   "zehn",
+   "Gute Besserung!",
+   "Auf Wiedersehen!"
+  ],
+  "transfer_phrase_ids": [
+   "ch13_t07",
+   "ch13_t08"
+  ],
+  "built_phrase_ids": [
+   "ch13_037"
+  ],
+  "quiz_ids": [
+   "ch13_L4_words_1",
+   "ch13_L4_words_2",
+   "ch13_L4_words_3",
+   "ch13_L4_words_4",
+   "ch13_L4_words_5",
+   "ch13_L4_listen_1",
+   "ch13_L4_listen_2",
+   "ch13_L4_listen_3",
+   "ch13_L4_listen_4",
+   "ch13_L4_listen_5",
+   "ch13_L4_read_1",
+   "ch13_L4_read_2",
+   "ch13_L4_read_3",
+   "ch13_L4_read_4",
+   "ch13_L4_read_5",
+   "ch13_L4_speak_1",
+   "ch13_L4_speak_2",
+   "ch13_L4_speak_3",
+   "ch13_L4_speak_4",
+   "ch13_L4_speak_5",
+   "ch13_L4_write_1",
+   "ch13_L4_write_2",
+   "ch13_L4_write_3",
+   "ch13_L4_write_4",
+   "ch13_L4_write_5",
+   "ch13_L4_why_1",
+   "ch13_L4_why_2",
+   "ch13_L4_why_3",
+   "ch13_L4_why_4",
+   "ch13_L4_why_5",
+   "ch13_L4_transfer_1",
+   "ch13_L4_transfer_2",
+   "ch13_L4_transfer_3",
+   "ch13_L4_transfer_4",
+   "ch13_L4_transfer_5",
+   "ch13_L4_boss_1"
+  ],
+  "dictation_ids": [
+   "ch13_L4_dict_1",
+   "ch13_L4_dict_2",
+   "ch13_L4_dict_3"
+  ],
+  "status": "на проверку (текст, без звука)",
+  "minutes": "20",
+  "intro": "После врача — в аптеку. У тебя кашель. Цель: купить лекарство и понять, как его принимать. Загадка урока: по-русски «но» и «а» — два разных слова. По-немецки тоже: aber и sondern. Когда какое?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. В аптеке: от кашля",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой в аптеке (ИИ — аптекарь)",
+   "situation": "kurs_apotheke",
+   "ai_plays": "аптекарь (на «Sie»)",
+   "phrases": [
+    "ch13_d4_02",
+    "ch13_d4_05",
+    "ch13_d4_07"
+   ]
+  },
+  "outro": "Ты купил лекарство: умеешь попросить, выбрать и понять, как принимать. Совет на завтра: скажи вслух — Ich habe Husten, aber ich habe kein Fieber. Ich möchte keine Tabletten, sondern Tropfen. Дальше: fit bleiben — что ты делаешь для здоровья. Спорт с друзьями.",
+  "detail_de_life": "За лекарство по рецепту взрослый с государственной страховкой доплачивает в аптеке 10 % цены — но не меньше 5 € и не больше 10 €, и не больше цены самого лекарства (SGB V § 61).",
+  "detail_de_life_source": "SGB V § 61 Satz 1 (gesetze-im-internet.de/sgb_5/__61.html)",
+  "task_ids": {
+   "words": [
+    "ch13_L4_words_1",
+    "ch13_L4_words_2",
+    "ch13_L4_words_3",
+    "ch13_L4_words_4",
+    "ch13_L4_words_5"
+   ],
+   "listen": [
+    "ch13_L4_listen_1",
+    "ch13_L4_listen_2",
+    "ch13_L4_listen_3",
+    "ch13_L4_listen_4",
+    "ch13_L4_listen_5"
+   ],
+   "read": [
+    "ch13_L4_read_1",
+    "ch13_L4_read_2",
+    "ch13_L4_read_3",
+    "ch13_L4_read_4",
+    "ch13_L4_read_5"
+   ],
+   "speak": [
+    "ch13_L4_speak_1",
+    "ch13_L4_speak_2",
+    "ch13_L4_speak_3",
+    "ch13_L4_speak_4",
+    "ch13_L4_speak_5"
+   ],
+   "write": [
+    "ch13_L4_write_1",
+    "ch13_L4_write_2",
+    "ch13_L4_write_3",
+    "ch13_L4_write_4",
+    "ch13_L4_write_5"
+   ],
+   "why": [
+    "ch13_L4_why_1",
+    "ch13_L4_why_2",
+    "ch13_L4_why_3",
+    "ch13_L4_why_4",
+    "ch13_L4_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch13_L4_transfer_1",
+   "ch13_L4_transfer_2",
+   "ch13_L4_transfer_3",
+   "ch13_L4_transfer_4",
+   "ch13_L4_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch13_023",
+   "ch13_026",
+   "ch13_028"
+  ],
+  "dialog_ids": [
+   "ch13_d4"
+  ],
+  "video": "video/ch13_L4.mp4"
+ },
+ {
+  "id": "ch13_L5",
+  "title": "Fit bleiben! Спорт с другом",
+  "pages_linie1": {
+   "pages": [
+    236,
+    237
+   ],
+   "sections": [
+    "7 Fit bleiben!",
+    "8 Sport als Beruf"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch13_039",
+   "ch13_040",
+   "ch13_041",
+   "ch13_042",
+   "ch13_043",
+   "ch13_044",
+   "ch13_045"
+  ],
+  "why_ids": [
+   "ch13_043",
+   "ch13_042"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch13_d5",
+    "line_ids": [
+     "ch13_d5_01",
+     "ch13_d5_02",
+     "ch13_d5_03",
+     "ch13_d5_04",
+     "ch13_d5_05",
+     "ch13_d5_06",
+     "ch13_d5_07",
+     "ch13_d5_08",
+     "ch13_d5_09"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Ты в аптеке. Что скажешь?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch13_d5",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch13_d5_01",
+        "ch13_d5_03",
+        "ch13_d5_05",
+        "ch13_d5_06"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch13_d5",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Звук sp = «шп»: 3 слова части 7 — за голосом",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch13_039",
+        "ch13_040",
+        "ch13_042",
+        "ch13_044"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Звук sp = «шп»: 3 слова части 7 — за голосом — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "мост «в субботу я пойду» → am Samstag komme ich mit: вагон №1 занято — действие второе; без терминов",
+   "как слышу, так и пишу": "sp = «шп» (Sport); zweimal одним словом",
+   "учебник непонятен": "из Linie 1 — только темы и страницы 236–237; подача своя",
+   "село, живой немецкий — Netto": "спорт с друзьями и курсы здоровья от кассы (SGB V § 20)",
+   "любит аниме": "завязка — тренировка с подругой из гильдии; отрезки аниме — позже, после гл. 6",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин (все 12 + 24 мин на материале урока), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Hast du am Samstag Zeit?; перенос — …, aber am Samstag habe ich Zeit.",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    236,
+    237
+   ],
+   "phrases_ids": [
+    "ch13_047"
+   ],
+   "note": "к курсу: на стр. 236 — флаер фитнес-клуба, на стр. 237 — договориться о спорте и профессия тренера; слова курса узнавать на слух",
+   "listen_only_ids": [],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch13_047",
+    "picture": "стр. 236–237: фитнес-клуб, тренер",
+    "words": [
+     {
+      "de": "der Trainer",
+      "ru": "тренер"
+     },
+     {
+      "de": "die Trainerin",
+      "ru": "тренер (женщина)"
+     },
+     {
+      "de": "die Sauna",
+      "ru": "сауна"
+     },
+     {
+      "de": "das Krafttraining",
+      "ru": "силовая тренировка"
+     }
+    ],
+    "note": "эти слова есть на стр. 236–237; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch13_L5_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch13_047",
+     "prompt": "Слова курса. Послушай. Что значит «Trainerin»?",
+     "answer": "тренер (женщина)",
+     "distractors": [
+      "подруга по спорту",
+      "врач в клубе"
+     ],
+     "src": "Linie 1, стр. 237 (Trainerin)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Постройка «врач» готова: герой здоров и думает, как не заболеть снова",
+   "npc": "Olga — одногруппница (на «ты»)"
+  },
+  "covers": [
+   "L1-13-S7",
+   "L1-13-S8",
+   "L1-13-LERNEN",
+   "B18.1"
+  ],
+  "covers_note": {
+   "L1-13-S7": "Fit bleiben: Was machst du für die Gesundheit? · Ich schwimme zweimal in der Woche. · Kommst du heute mit? · договориться (Wann hast du Zeit? Am Samstag um zehn Uhr.)",
+   "L1-13-S8": "Sport als Beruf: Meine Freundin arbeitet im Fitnessstudio; слова курса Trainer, Trainerin (стр. 237)",
+   "L1-13-LERNEN": "Situationen planen: часть 12 — перед разговором запиши 3 фразы, что скажешь и что можешь услышать",
+   "B18.1": "союзы-«соединители» (und, aber): у порога, место не занимают; после aber am Samstag — вагон №1, действие второе"
+  },
+  "goal": "После урока сможешь: рассказать, что делаешь для здоровья и как часто, позвать друга «Пойдёшь со мной?» и ответить «Сегодня нет, но в субботу — да». (Linie 1: Verabredung, Berufsporträt Fitnesstrainer.)",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Ты здоров! Ольга зовёт тебя в фитнес-клуб.",
+      "Цель: рассказать о спорте и договориться о встрече."
+     ],
+     "voice_ru": "Ты снова здоров. Ольга спрашивает, что ты делаешь для здоровья, и зовёт в фитнес-клуб. Сегодня договоришься, когда пойдёте.",
+     "hook": "Загадка урока: «…, aber am Samstag komme ich mit». Почему после am Samstag сначала komme, а не ich?",
+     "anime_motif": "исекай: после болезни герой тренируется с новой подругой из гильдии (без цитат)",
+     "npc": "Olga — одногруппница",
+     "more": "Ольга спросит про спорт и позовёт с собой. Сегодня ты не можешь, а в субботу — да.",
+     "goal": "После урока сможешь: рассказать, что делаешь для здоровья и как часто, позвать друга «Пойдёшь со мной?» и ответить «Сегодня нет, но в субботу — да». (Linie 1: Verabredung, Berufsporträt Fitnesstrainer.)"
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch13_031",
+      "ch13_034",
+      "ch13_036"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Ты в аптеке. Что скажешь?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch13_031",
+      "ch13_034",
+      "ch13_036"
+     ],
+     "type": "retrieval: вопрос, не перечитывание",
+     "note": "фразы урока 4 (ch13_031, ch13_034, ch13_036)"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch13_039",
+      "ch13_040",
+      "ch13_041",
+      "ch13_042",
+      "ch13_043",
+      "ch13_044",
+      "ch13_045"
+     ],
+     "words": [
+      "Was machst du für die Gesundheit?",
+      "Ich mache gern Sport. · Ich schwimme zweimal in der Woche.",
+      "Kommst du heute mit?",
+      "Ich habe heute keine Zeit, aber am Samstag komme ich mit.",
+      "Wann hast du Zeit? · Meine Freundin arbeitet im Fitnessstudio."
+     ],
+     "words_ru": {
+      "Was machst du für die Gesundheit?": "Что ты делаешь для здоровья?",
+      "Ich mache gern Sport. · Ich schwimme zweimal in der Woche.": "Я люблю заниматься спортом. · Я плаваю два раза в неделю.",
+      "Kommst du heute mit?": "Ты пойдёшь сегодня со мной?",
+      "Ich habe heute keine Zeit, aber am Samstag komme ich mit.": "Сегодня у меня нет времени, но в субботу я пойду вместе.",
+      "Wann hast du Zeit? · Meine Freundin arbeitet im Fitnessstudio.": "Когда у тебя есть время? · Моя подруга работает в фитнес-клубе."
+     },
+     "trap": "После aber можно начать с «когда»: aber am Samstag … Тогда действие komme сразу второе, а ich — после него: aber am Samstag komme ich mit.",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch13_L5_words_1",
+      "ch13_L5_words_2",
+      "ch13_L5_words_3",
+      "ch13_L5_words_4",
+      "ch13_L5_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch13_d5",
+     "line_ids": [
+      "ch13_d5_01",
+      "ch13_d5_02",
+      "ch13_d5_03",
+      "ch13_d5_04",
+      "ch13_d5_05",
+      "ch13_d5_06",
+      "ch13_d5_07",
+      "ch13_d5_08",
+      "ch13_d5_09"
+     ],
+     "halves": [
+      [
+       "ch13_d5_01",
+       "ch13_d5_02",
+       "ch13_d5_03",
+       "ch13_d5_04"
+      ],
+      [
+       "ch13_d5_05",
+       "ch13_d5_06",
+       "ch13_d5_07",
+       "ch13_d5_08",
+       "ch13_d5_09"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "Больничные кассы в Германии по закону предлагают курсы для здоровья — профилактику (например, движение, спина). Какие курсы и сколько оплачивают — спроси в своей кассе (SGB V § 20).",
+     "life_source": "SGB V § 20 Abs. 1 (gesetze-im-internet.de/sgb_5/__20.html)",
+     "task_ids": [
+      "ch13_L5_listen_1",
+      "ch13_L5_listen_2",
+      "ch13_L5_listen_3",
+      "ch13_L5_listen_4",
+      "ch13_L5_listen_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch13_043",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "aber у порога, места не занимает. Дальше am Samstag — вагон №1, поэтому komme сразу второе, ich — после него, mit — в конце.",
+     "screen": [
+      "…, | aber | am Samstag · komme · ich · mit.",
+      "вагон №1 занято — действие второе"
+     ],
+     "answer_hook": "Ответ на загадку: aber места не занимает, а am Samstag уже в вагоне №1. Действие всегда второе — komme, и только потом ich.",
+     "second": {
+      "why_id": "ch13_042",
+      "voice_ru": "Вопрос «да/нет»: kommst впереди. mit — часть действия «пойти вместе», оно уходит в самый конец."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch13_L5_why_1",
+      "ch13_L5_why_2",
+      "ch13_L5_why_3",
+      "ch13_L5_why_4",
+      "ch13_L5_why_5"
+     ],
+     "no_story": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch13_046",
+     "pieces": [
+      "Zeit?",
+      "am Samstag",
+      "du",
+      "Hast"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch13_d5_07",
+      "ch13_d5_08"
+     ],
+     "prompt": "Собери сам из знакомых кусков: спроси Ольгу «У тебя есть время в субботу?»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch13_046",
+     "transfer_task_ids": [
+      "ch13_L5_transfer_1"
+     ],
+     "task_ids": [
+      "ch13_L5_write_1",
+      "ch13_L5_write_2",
+      "ch13_L5_write_3",
+      "ch13_L5_write_4",
+      "ch13_L5_write_5",
+      "ch13_L5_read_1",
+      "ch13_L5_read_2",
+      "ch13_L5_read_3",
+      "ch13_L5_read_4",
+      "ch13_L5_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "Sport",
+     "ipa_sym": "ʃp",
+     "tip_ru": "sp в начале слова звучит «шп»: Sport — «шпорт», spielen — «шпи:лен». Не «спорт», как по-русски.",
+     "bridge_ru": "По-русски «спорт» — с «с». Немец в начале слова говорит «шп»: Sport.",
+     "phrase_id": "ch13_041",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "Sport",
+       "ru": "шпорт — sp = «шп»"
+      },
+      {
+       "de": "spielen",
+       "ru": "шпи:лен — sp = «шп»"
+      },
+      {
+       "de": "Sprechstunde",
+       "ru": "шпрэхштундэ — sp = «шп»"
+      }
+     ],
+     "speak_task_ids": [
+      "ch13_L5_speak_1",
+      "ch13_L5_speak_2",
+      "ch13_L5_speak_3",
+      "ch13_L5_speak_4",
+      "ch13_L5_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Fit bleiben: пойдёшь со мной?",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Olga (на «ты»)",
+     "turns": [
+      {
+       "prompt_id": "ch13_d5_01",
+       "prompt_de": "Was machst du für die Gesundheit?",
+       "prompt_audio": "audio_v1/ch13_d5_01.mp3",
+       "expected_id": "ch13_d5_02",
+       "expected_de": "Ich mache gern Sport.",
+       "accept": [
+        {
+         "id": "ch13_040",
+         "de": "Ich schwimme zweimal in der Woche."
+        },
+        {
+         "id": "ch13_d5_03",
+         "de": "Ich schwimme zweimal in der Woche."
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch13_d5_05",
+       "prompt_de": "Kommst du heute mit?",
+       "prompt_audio": "audio_v1/ch13_d5_05.mp3",
+       "expected_id": "ch13_d5_06",
+       "expected_de": "Ich habe heute keine Zeit, aber am Samstag komme ich mit.",
+       "accept": [],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch13_d5_07",
+       "prompt_de": "Wann hast du Zeit?",
+       "prompt_audio": "audio_v1/ch13_d5_07.mp3",
+       "expected_id": "ch13_d5_08",
+       "expected_de": "Am Samstag um zehn Uhr.",
+       "accept": [],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Говори правду о себе: ИИ примет «Ich mache gern Sport» и «Ich schwimme zweimal in der Woche».",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch13_d5_06",
+     "task_ru": "Новичок слышал ответ героя Ольге, но не понял. Объясни ему по-русски, что сказал герой.",
+     "expected_ru": "Сегодня у меня нет времени, но в субботу я пойду вместе.",
+     "hint_ru": "keine Zeit — нет времени; aber — но; am Samstag — в субботу; mitkommen — пойти вместе.",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1.1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch13_L5_dict_1",
+      "ch13_L5_dict_2",
+      "ch13_L5_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Woche, Zeit, Sport — с большой буквы. zweimal — одним словом. Sport слышишь «шпорт», а пишешь sp."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch13_L5_transfer_2",
+      "ch13_L5_transfer_3",
+      "ch13_L5_transfer_4",
+      "ch13_L5_transfer_5",
+      "ch13_L5_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Ты договорился о спорте: умеешь позвать и ответить «нет, но в субботу — да».",
+      "Совет на завтра (как в учебнике — «Situationen planen»): перед разговором запиши 3 фразы — что скажешь и что можешь услышать."
+     ],
+     "npc_phrase_id": "ch13_d5_09",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: Was machst du für die Gesundheit? · Ich … zweimal in der Woche. · Kommst du … mit? · …, aber am Samstag komme ich mit.",
+     "verbs": {
+      "title": "aber + когда: действие второе",
+      "voice_ru": "aber места не занимает. Если дальше «когда», действие сразу за ним.",
+      "table_on_tap": [
+       [
+        "aber ich",
+        "komme am Samstag mit"
+       ],
+       [
+        "aber am Samstag",
+        "komme ich mit"
+       ]
+      ]
+     },
+     "next_hook": "Дальше: проверка главы 13 — Mein Deutsch nach Kapitel 13.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       236,
+       237
+      ],
+      "phrases_ids": [
+       "ch13_047"
+      ],
+      "note": "к курсу: на стр. 236 — флаер фитнес-клуба, на стр. 237 — договориться о спорте и профессия тренера; слова курса узнавать на слух",
+      "listen_only_ids": [],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch13_047",
+       "picture": "стр. 236–237: фитнес-клуб, тренер",
+       "words": [
+        {
+         "de": "der Trainer",
+         "ru": "тренер"
+        },
+        {
+         "de": "die Trainerin",
+         "ru": "тренер (женщина)"
+        },
+        {
+         "de": "die Sauna",
+         "ru": "сауна"
+        },
+        {
+         "de": "das Krafttraining",
+         "ru": "силовая тренировка"
+        }
+       ],
+       "note": "эти слова есть на стр. 236–237; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch13_L5_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch13_047",
+        "prompt": "Слова курса. Послушай. Что значит «Trainerin»?",
+        "answer": "тренер (женщина)",
+        "distractors": [
+         "подруга по спорту",
+         "врач в клубе"
+        ],
+        "src": "Linie 1, стр. 237 (Trainerin)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      236,
+      237
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch13.py",
+  "new_words": [
+   "für die Gesundheit",
+   "zweimal in der Woche",
+   "Kommst du … mit?",
+   "Ich habe keine Zeit, aber …",
+   "Wann hast du Zeit?"
+  ],
+  "known_before": [
+   "Ich mache …",
+   "Ich schwimme.",
+   "gern",
+   "Sport",
+   "Fitnessstudio",
+   "am Samstag",
+   "um zehn Uhr",
+   "Zeit",
+   "aber",
+   "Tschüss!"
+  ],
+  "transfer_phrase_ids": [
+   "ch13_t09",
+   "ch13_t10"
+  ],
+  "built_phrase_ids": [
+   "ch13_046"
+  ],
+  "quiz_ids": [
+   "ch13_L5_words_1",
+   "ch13_L5_words_2",
+   "ch13_L5_words_3",
+   "ch13_L5_words_4",
+   "ch13_L5_words_5",
+   "ch13_L5_listen_1",
+   "ch13_L5_listen_2",
+   "ch13_L5_listen_3",
+   "ch13_L5_listen_4",
+   "ch13_L5_listen_5",
+   "ch13_L5_read_1",
+   "ch13_L5_read_2",
+   "ch13_L5_read_3",
+   "ch13_L5_read_4",
+   "ch13_L5_read_5",
+   "ch13_L5_speak_1",
+   "ch13_L5_speak_2",
+   "ch13_L5_speak_3",
+   "ch13_L5_speak_4",
+   "ch13_L5_speak_5",
+   "ch13_L5_write_1",
+   "ch13_L5_write_2",
+   "ch13_L5_write_3",
+   "ch13_L5_write_4",
+   "ch13_L5_write_5",
+   "ch13_L5_why_1",
+   "ch13_L5_why_2",
+   "ch13_L5_why_3",
+   "ch13_L5_why_4",
+   "ch13_L5_why_5",
+   "ch13_L5_transfer_1",
+   "ch13_L5_transfer_2",
+   "ch13_L5_transfer_3",
+   "ch13_L5_transfer_4",
+   "ch13_L5_transfer_5",
+   "ch13_L5_boss_1"
+  ],
+  "dictation_ids": [
+   "ch13_L5_dict_1",
+   "ch13_L5_dict_2",
+   "ch13_L5_dict_3"
+  ],
+  "status": "на проверку (текст, без звука)",
+  "minutes": "20",
+  "intro": "Ты здоров! Ольга зовёт тебя в фитнес-клуб. Цель: рассказать о спорте и договориться о встрече. Загадка урока: «…, aber am Samstag komme ich mit». Почему после am Samstag сначала komme, а не ich?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Fit bleiben: пойдёшь со мной?",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "герой договаривается о спорте (ИИ — Ольга)",
+   "situation": "kurs_sport",
+   "ai_plays": "Olga (на «ты»)",
+   "phrases": [
+    "ch13_d5_02",
+    "ch13_040",
+    "ch13_d5_03",
+    "ch13_d5_06",
+    "ch13_d5_08"
+   ]
+  },
+  "outro": "Ты договорился о спорте: умеешь позвать и ответить «нет, но в субботу — да». Совет на завтра (как в учебнике — «Situationen planen»): перед разговором запиши 3 фразы — что скажешь и что можешь услышать. Дальше: проверка главы 13 — Mein Deutsch nach Kapitel 13.",
+  "detail_de_life": "Больничные кассы в Германии по закону предлагают курсы для здоровья — профилактику (например, движение, спина). Какие курсы и сколько оплачивают — спроси в своей кассе (SGB V § 20).",
+  "detail_de_life_source": "SGB V § 20 Abs. 1 (gesetze-im-internet.de/sgb_5/__20.html)",
+  "task_ids": {
+   "words": [
+    "ch13_L5_words_1",
+    "ch13_L5_words_2",
+    "ch13_L5_words_3",
+    "ch13_L5_words_4",
+    "ch13_L5_words_5"
+   ],
+   "listen": [
+    "ch13_L5_listen_1",
+    "ch13_L5_listen_2",
+    "ch13_L5_listen_3",
+    "ch13_L5_listen_4",
+    "ch13_L5_listen_5"
+   ],
+   "read": [
+    "ch13_L5_read_1",
+    "ch13_L5_read_2",
+    "ch13_L5_read_3",
+    "ch13_L5_read_4",
+    "ch13_L5_read_5"
+   ],
+   "speak": [
+    "ch13_L5_speak_1",
+    "ch13_L5_speak_2",
+    "ch13_L5_speak_3",
+    "ch13_L5_speak_4",
+    "ch13_L5_speak_5"
+   ],
+   "write": [
+    "ch13_L5_write_1",
+    "ch13_L5_write_2",
+    "ch13_L5_write_3",
+    "ch13_L5_write_4",
+    "ch13_L5_write_5"
+   ],
+   "why": [
+    "ch13_L5_why_1",
+    "ch13_L5_why_2",
+    "ch13_L5_why_3",
+    "ch13_L5_why_4",
+    "ch13_L5_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch13_L5_transfer_1",
+   "ch13_L5_transfer_2",
+   "ch13_L5_transfer_3",
+   "ch13_L5_transfer_4",
+   "ch13_L5_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch13_031",
+   "ch13_034",
+   "ch13_036"
+  ],
+  "dialog_ids": [
+   "ch13_d5"
+  ],
+  "video": "video/ch13_L5.mp4"
+ },
+ {
+  "id": "ch13_L6",
+  "title": "Mein Deutsch nach Kapitel 13: проверка главы",
+  "pages_linie1": {
+   "pages": [
+    245
+   ],
+   "sections": [
+    "Mein Deutsch nach Kapitel 13"
+   ],
+   "src": "research\\linie1\\chapters_map.json"
+  },
+  "phrases_ids": [
+   "ch13_048",
+   "ch13_049",
+   "ch13_050",
+   "ch13_051",
+   "ch13_052",
+   "ch13_053",
+   "ch13_054"
+  ],
+  "why_ids": [
+   "ch13_052",
+   "ch13_049"
+  ],
+  "scenes": [
+   {
+    "dialog": "ch13_d6",
+    "line_ids": [
+     "ch13_d6_01",
+     "ch13_d6_02",
+     "ch13_d6_03",
+     "ch13_d6_04",
+     "ch13_d6_05",
+     "ch13_d6_06",
+     "ch13_d6_07",
+     "ch13_d6_08",
+     "ch13_d6_09"
+    ]
+   }
+  ],
+  "warmup": [
+   "Что ты уже умеешь?",
+   "Ты в клубе. Что скажешь?"
+  ],
+  "day_modes": {
+   "course": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     11,
+     12
+    ],
+    "note": "говорение в день курса — в части 6 (собрать и сказать) и в боссе (speak)",
+    "time_min": 20
+   },
+   "free": {
+    "parts": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "note": "≈ 45–60 мин: все 12 частей + доп. практика на материале урока (plus_items)",
+    "plus_items": [
+     {
+      "what": "Сцена ещё раз: медленно (0.7) и обычный темп, без текста",
+      "min": 4,
+      "uses": {
+       "dialog": "ch13_d6",
+       "speed": [
+        0.7,
+        1.0
+       ]
+      }
+     },
+     {
+      "what": "Shadowing: 4 реплики сцены, каждую 3 раза за голосом",
+      "min": 5,
+      "uses": {
+       "game": "shadowing",
+       "phrase_ids": [
+        "ch13_d6_01",
+        "ch13_d6_03",
+        "ch13_d6_05",
+        "ch13_d6_06"
+       ]
+      }
+     },
+     {
+      "what": "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация",
+      "min": 8,
+      "uses": {
+       "dialog": "ch13_d6",
+       "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "what": "Звуки «ф» и «в»: viel, Fieber, weh — за голосом",
+      "min": 3,
+      "uses": {
+       "pairs": "part 7"
+      }
+     },
+     {
+      "what": "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану",
+      "min": 4,
+      "uses": {
+       "dictation_phrase_ids": [
+        "ch13_048",
+        "ch13_049",
+        "ch13_051",
+        "ch13_053"
+       ],
+       "mode": "тетрадь"
+      }
+     }
+    ],
+    "plus": [
+     "Сцена ещё раз: медленно (0.7) и обычный темп, без текста — 4 мин",
+     "Shadowing: 4 реплики сцены, каждую 3 раза за голосом — 5 мин",
+     "Разговор по 5 ступеням: с переводом → подсказки → пропуски → свободно → новая вариация — 8 мин",
+     "Звуки «ф» и «в»: viel, Fieber, weh — за голосом — 3 мин",
+     "Диктант на бумаге: 4 фразы урока в тетрадь, потом сверка по экрану — 4 мин"
+    ],
+    "time_min": 55
+   },
+   "light": {
+    "parts": [
+     2,
+     4,
+     12
+    ],
+    "note": "только повтор и сцена, без новых заданий",
+    "time_min": 6
+   }
+  },
+  "author_fit": {
+   "думает по-русски, правил не учил": "мост «в субботу я пойду» → Am Samstag komme ich mit: после am Samstag действие сразу второе",
+   "как слышу, так и пишу": "v в viel = «ф», w в weh = «в»; tt в Tabletten, Wörter mit Doppelkonsonanten",
+   "учебник непонятен": "из Linie 1 — только темы и страница 245; подача своя",
+   "село, живой немецкий — Netto": "ситуация автора: справка от врача и поход к врачу (EntgFG § 5)",
+   "любит аниме": "завязка — проверка у лекаря гильдии перед новым этапом",
+   "нагрузка по дням": "курс ≈ 20 мин (части 1–6, 11, 12), свободный ≈ 55 мин (все 12 + доп. практика), лёгкий ≈ 6 мин (2, 4, 12)",
+   "цель — думать по-немецки": "«собери сам» — Ich soll Tropfen nehmen.; перенос — Ich trinke zweimal am Tag Tee., Mein Bauch tut heute weh.",
+   "улучшать идеи автора": "идеи → WISHES, доводим до лучшей версии"
+  },
+  "kurs": {
+   "pages": [
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    244,
+    245
+   ],
+   "phrases_ids": [
+    "ch13_056"
+   ],
+   "note": "к курсу: стр. 245 — самопроверка главы («Das kann ich»): Krankheit, Körperteile, Aufforderungen, Arzttermin, Arztgespräch. На курсе слова страниц 230–237 и 244 звучат в заданиях и текстах — узнавать на слух, учить не надо",
+   "listen_only_ids": [
+    "ch13_057",
+    "ch13_058",
+    "ch13_059",
+    "ch13_060",
+    "ch13_061",
+    "ch13_062",
+    "ch13_063",
+    "ch13_064",
+    "ch13_065",
+    "ch13_066",
+    "ch13_067",
+    "ch13_068"
+   ],
+   "course_words": {
+    "title": "Слова курса",
+    "phrase_id": "ch13_056",
+    "picture": "стр. 230–231: болезнь на работе, карта страхования, лекарства",
+    "words": [
+     {
+      "de": "das Fieberthermometer",
+      "ru": "градусник"
+     },
+     {
+      "de": "die E-Mail",
+      "ru": "электронная почта"
+     },
+     {
+      "de": "das Essen",
+      "ru": "еда"
+     },
+     {
+      "de": "die Gesundheitskarte",
+      "ru": "карта здоровья"
+     },
+     {
+      "de": "die Küche",
+      "ru": "кухня"
+     },
+     {
+      "de": "die Medikamente",
+      "ru": "лекарства"
+     },
+     {
+      "de": "die Nachricht",
+      "ru": "сообщение"
+     },
+     {
+      "de": "die Versichertenkarte",
+      "ru": "карта страхования"
+     }
+    ],
+    "note": "слова страниц 230–231; учить не надо — узнавать на слух"
+   },
+   "tasks": [
+    {
+     "id": "ch13_L6_kurs_1",
+     "skill": "listen",
+     "phraseId": "ch13_056",
+     "prompt": "Слова курса. Послушай. Что значит «Fieberthermometer»?",
+     "answer": "градусник",
+     "distractors": [
+      "тонометр",
+      "таблетка"
+     ],
+     "src": "Linie 1, стр. 230–231 (Fieberthermometer, E-Mail, Essen, Gesundheitskarte, Küche, Medikamente, Nachricht, Versichertenkarte)"
+    },
+    {
+     "id": "ch13_L6_kurs_2",
+     "skill": "listen",
+     "phraseId": "ch13_057",
+     "prompt": "Слова курса. Послушай. Что значит «Fachärztin»?",
+     "answer": "врач-специалистка",
+     "distractors": [
+      "медсестра",
+      "регистратор"
+     ],
+     "src": "Linie 1, стр. 232 (Allgemeinmedizin, Arzttermin, Chef, Fachärztin, Homepage, Patienten, Praxiszeiten)"
+    },
+    {
+     "id": "ch13_L6_kurs_3",
+     "skill": "listen",
+     "phraseId": "ch13_058",
+     "prompt": "Слова курса. Послушай. Что значит «Knie»?",
+     "answer": "колено",
+     "distractors": [
+      "локоть",
+      "плечо"
+     ],
+     "src": "Linie 1, стр. 233 (Arm, Finger, Fuß, Haar, Knie, Körper, Körperteil)"
+    },
+    {
+     "id": "ch13_L6_kurs_4",
+     "skill": "listen",
+     "phraseId": "ch13_059",
+     "prompt": "Слова курса. Послушай. Что значит «Ohrenschmerzen»?",
+     "answer": "боль в ушах",
+     "distractors": [
+      "боль в горле",
+      "боль в спине"
+     ],
+     "src": "Linie 1, стр. 234 (Antwort, Anweisungen, Arztbesuch, Kontrolle, Kopfschmerzen, Ohrenschmerzen, Patient)"
+    },
+    {
+     "id": "ch13_L6_kurs_5",
+     "skill": "listen",
+     "phraseId": "ch13_060",
+     "prompt": "Слова курса. Послушай. Что значит «Taschentücher»?",
+     "answer": "носовые платки",
+     "distractors": [
+      "пластыри",
+      "полотенца"
+     ],
+     "src": "Linie 1, стр. 234–235 (Patientin, Reservierung, Serviette, Vormittag, Wasser, Kreditkarte, Nasenspray, Taschentücher)"
+    },
+    {
+     "id": "ch13_L6_kurs_6",
+     "skill": "listen",
+     "phraseId": "ch13_061",
+     "prompt": "Слова курса. Послушай. Что значит «Gruppenkurse»?",
+     "answer": "групповые курсы",
+     "distractors": [
+      "индивидуальные курсы",
+      "курсы вождения"
+     ],
+     "src": "Linie 1, стр. 236 (Einzelkurs, Einzeltraining, Ernährung, Fitness, Flyer, Gruppenkurse, Kurse, Nachrichten)"
+    },
+    {
+     "id": "ch13_L6_kurs_7",
+     "skill": "listen",
+     "phraseId": "ch13_062",
+     "prompt": "Слова курса. Послушай. Что значит «Spaziergang»?",
+     "answer": "прогулка",
+     "distractors": [
+      "плавание",
+      "тренировка"
+     ],
+     "src": "Linie 1, стр. 236 (Preise, Programme, Rückentraining, Schwimmen, Spaziergang, Tipps, Training, Yoga)"
+    },
+    {
+     "id": "ch13_L6_kurs_8",
+     "skill": "listen",
+     "phraseId": "ch13_063",
+     "prompt": "Слова курса. Послушай. Что значит «Ausbildung»?",
+     "answer": "обучение профессии",
+     "distractors": [
+      "отпуск",
+      "зарплата"
+     ],
+     "src": "Linie 1, стр. 237 (Arbeitszeiten, Ausbildung, Basketball, Beruf, Eltern, Fitnesstrainer, Fleisch, Freund)"
+    },
+    {
+     "id": "ch13_L6_kurs_9",
+     "skill": "listen",
+     "phraseId": "ch13_064",
+     "prompt": "Слова курса. Послушай. Что значит «Fußballverein»?",
+     "answer": "футбольный клуб",
+     "distractors": [
+      "футбольное поле",
+      "футбольный мяч"
+     ],
+     "src": "Linie 1, стр. 237 (Fußballtrainer, Fußballverein, Geld, Gemüse, Größe, Ideen, Interesse, Job)"
+    },
+    {
+     "id": "ch13_L6_kurs_10",
+     "skill": "listen",
+     "phraseId": "ch13_065",
+     "prompt": "Слова курса. Послушай. Что значит «Physiotherapeut»?",
+     "answer": "физиотерапевт",
+     "distractors": [
+      "фармацевт",
+      "фитнес-тренер"
+     ],
+     "src": "Linie 1, стр. 237 (Kindergarten, Lust, Mannschaft, Physiotherapeut, Praktikum, Salat, Schule, Schulmannschaft)"
+    },
+    {
+     "id": "ch13_L6_kurs_11",
+     "skill": "listen",
+     "phraseId": "ch13_066",
+     "prompt": "Слова курса. Послушай. Что значит «Sportarten»?",
+     "answer": "виды спорта",
+     "distractors": [
+      "спортивные площадки",
+      "спортивные ботинки"
+     ],
+     "src": "Linie 1, стр. 237, 244 (Schüler, Sportarten, Themen, Anmeldung, Dame, Hobby, Meter, Oktober)"
+    },
+    {
+     "id": "ch13_L6_kurs_12",
+     "skill": "listen",
+     "phraseId": "ch13_067",
+     "prompt": "Слова курса. Послушай. Что значит «Situationskarten»?",
+     "answer": "карточки ситуаций",
+     "distractors": [
+      "карты города",
+      "банковские карты"
+     ],
+     "src": "Linie 1, стр. 244 (Situationskarten, Sohn, Sonne, Telefon, Teller, Yoga-Kurs, Doktor, Schmerz)"
+    },
+    {
+     "id": "ch13_L6_kurs_13",
+     "skill": "listen",
+     "phraseId": "ch13_068",
+     "prompt": "Слова курса. Послушай. Что значит «wehtun»?",
+     "answer": "болеть",
+     "distractors": [
+      "закрывать",
+      "делать"
+     ],
+     "src": "Linie 1, стр. 326–327 (krankschreiben, schließen, wehtun, wiederkommen, tun, bar, lieber, vegan)"
+    }
+   ]
+  },
+  "frame": {
+   "build": "Остановка маршрута: глава 13 пройдена — герой записан к врачу, знает, что велено пить, и договорился о спорте",
+   "npc": "Olga — одногруппница (на «ты»)",
+   "quest": "Проверка главы: 10 заданий, нужно 85 %"
+  },
+  "covers": [
+   "L1-13-REVIEW",
+   "B09.5"
+  ],
+  "covers_note": {
+   "L1-13-REVIEW": "стр. 245 «Mein Deutsch nach Kapitel 13»: смешанный повтор уроков 1–5 (части 2, 3, 5–8, 10), проверка главы — переносы и босс (часть 11), «Das kann ich» (часть 12); тема — Krankheit, Körperteile, Aufforderungen, Arzttermin, Arztgespräch",
+   "B09.5": "Вежливость: кто просит и кто помогает — Geh zum Arzt!, Trink viel Tee! (просьба на «ты»), Ich soll Tropfen nehmen. (передаём волю врача) (части 3–6, сцена d6)"
+  },
+  "goal": "После урока сможешь: рассказать, что болит, понять совет врача и передать его, попросить лекарство в аптеке, позвать друга в клуб, ответить «сегодня нет, но в субботу — да» и пройти проверку главы 13.",
+  "parts": [
+   {
+    "n": 1,
+    "type": "завязка",
+    "title": "Завязка",
+    "linie1": "вход в главу",
+    "game": null,
+    "data": {
+     "screen": [
+      "Глава 13 подходит к концу: проверка.",
+      "Цель: показать, что умеешь — болезнь, врач, аптека, спорт."
+     ],
+     "voice_ru": "Последний урок главы. Ольга зовёт тебя в клуб, а ты ещё кашляешь. По дороге повторим всё: что болит, что велел врач, как договориться на субботу.",
+     "hook": "Загадка урока: «…, aber am Samstag komme ich mit». Почему после am Samstag сразу komme, а не ich?",
+     "anime_motif": "исекай: перед новым этапом герой проходит проверку у лекаря гильдии",
+     "npc": "Olga — одногруппница",
+     "more": "Ольга позовёт тебя в клуб. Сегодня ты болен, но в субботу — готов.",
+     "goal": "После урока сможешь: рассказать, что болит, понять совет врача и передать его, попросить лекарство в аптеке, позвать друга в клуб, ответить «сегодня нет, но в субботу — да» и пройти проверку главы 13."
+    },
+    "time_min": 1
+   },
+   {
+    "n": 2,
+    "type": "разминка",
+    "title": "Разминка",
+    "linie1": null,
+    "game": "быстрый выбор",
+    "data": {
+     "phrase_ids": [
+      "ch13_039",
+      "ch13_040",
+      "ch13_041"
+     ],
+     "screen": [
+      "Что ты уже умеешь?",
+      "Ты в клубе. Что скажешь?"
+     ],
+     "game": "быстрый выбор",
+     "from_last_lesson": [
+      "ch13_039",
+      "ch13_040",
+      "ch13_041"
+     ],
+     "type": "retrieval: вопрос, не перечитывание",
+     "note": "фразы урока 5 (ch13_039, ch13_040, ch13_041)"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 3,
+    "type": "слова до сцены",
+    "title": "Новые слова",
+    "world_name": "ресурсы",
+    "linie1": "Wortschatz",
+    "game": "«Услышь и выбери»",
+    "data": {
+     "phrase_ids": [
+      "ch13_048",
+      "ch13_049",
+      "ch13_050",
+      "ch13_051",
+      "ch13_052",
+      "ch13_053",
+      "ch13_054"
+     ],
+     "words": [
+      "Ich habe Husten und Fieber.",
+      "Geh zum Arzt!",
+      "Ich habe um neun Uhr einen Termin.",
+      "Trink viel Tee!",
+      "Ich habe heute Husten, aber am Samstag komme ich mit. · Kommst du am Samstag um zehn Uhr mit? · Ich komme gern mit."
+     ],
+     "words_ru": {
+      "Ich habe Husten und Fieber.": "У меня кашель и температура.",
+      "Geh zum Arzt!": "Иди к врачу!",
+      "Ich habe um neun Uhr einen Termin.": "У меня в девять запись на приём.",
+      "Trink viel Tee!": "Пей много чая!",
+      "Ich habe heute Husten, aber am Samstag komme ich mit. · Kommst du am Samstag um zehn Uhr mit? · Ich komme gern mit.": "Сегодня у меня кашель, но в субботу я пойду вместе. · Ты пойдёшь со мной в субботу в десять? · Я с удовольствием пойду вместе."
+     },
+     "trap": "После am Samstag действие сразу второе: Am Samstag komme ich …. Просьба на «ты» начинается с действия: Geh! Trink!",
+     "steps": [
+      "показать: картинка + звук",
+      "понять: перевод по нажатию",
+      "вместе: повтори за голосом",
+      "сам: назови по картинке"
+     ],
+     "game": "«Услышь и выбери»",
+     "task_ids": [
+      "ch13_L6_words_1",
+      "ch13_L6_words_2",
+      "ch13_L6_words_3",
+      "ch13_L6_words_4",
+      "ch13_L6_words_5"
+     ]
+    },
+    "time_min": 4
+   },
+   {
+    "n": 4,
+    "type": "сцена",
+    "title": "Сцена",
+    "linie1": "Sprechen A/B (Hören)",
+    "game": null,
+    "data": {
+     "dialog": "ch13_d6",
+     "line_ids": [
+      "ch13_d6_01",
+      "ch13_d6_02",
+      "ch13_d6_03",
+      "ch13_d6_04",
+      "ch13_d6_05",
+      "ch13_d6_06",
+      "ch13_d6_07",
+      "ch13_d6_08",
+      "ch13_d6_09"
+     ],
+     "halves": [
+      [
+       "ch13_d6_01",
+       "ch13_d6_02",
+       "ch13_d6_03",
+       "ch13_d6_04"
+      ],
+      [
+       "ch13_d6_05",
+       "ch13_d6_06",
+       "ch13_d6_07",
+       "ch13_d6_08",
+       "ch13_d6_09"
+      ]
+     ],
+     "passes": [
+      "только звук — угадай, кто и о чём",
+      "по репликам: перевод и «Как читать» по нажатию",
+      "целиком с текстом"
+     ],
+     "life_detail": "Если болезнь длится дольше трёх календарных дней, работодатель вправе потребовать справку врача — о болезни и о её сроке. Работодатель может запросить справку и раньше, с первого дня (EntgFG § 5).",
+     "life_source": "EntgFG § 5 Abs. 1 Satz 2 (gesetze-im-internet.de/entgfg/__5.html)",
+     "task_ids": [
+      "ch13_L6_listen_1",
+      "ch13_L6_listen_2",
+      "ch13_L6_listen_3",
+      "ch13_L6_listen_4",
+      "ch13_L6_listen_5",
+      "ch13_L6_listen_6"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 5,
+    "type": "почему так",
+    "title": "Почему так",
+    "world_name": "новое заклинание",
+    "linie1": "Grammatik",
+    "game": "«Поезд»",
+    "data": {
+     "why_id": "ch13_052",
+     "title": "Почему так",
+     "world_name": "новое заклинание",
+     "book_note": "В «Книгу заклинаний» правило попадёт, когда станет «твёрдо» (после повторов).",
+     "voice_ru": "aber у порога, места не занимает. Дальше am Samstag — вагон №1, поэтому komme — сразу второе, потом ich, а mit уходит в самый конец.",
+     "screen": [
+      "…, | aber | am Samstag · komme · ich · mit.",
+      "вагон №1 занято — komme второе, mit — в конце"
+     ],
+     "answer_hook": "Ответ на загадку: aber места не занимает, am Samstag — вагон №1, поэтому komme — второе, ich — после него, а mit — в самом конце.",
+     "second": {
+      "why_id": "ch13_049",
+      "voice_ru": "Просьба на «ты»: действие Geh — впереди, слова «ты» нет. zum — «к» и артикль слитно."
+     },
+     "more": [
+      "why_de",
+      "why_ru",
+      "why_not",
+      "root"
+     ],
+     "task_ids": [
+      "ch13_L6_why_1",
+      "ch13_L6_why_2",
+      "ch13_L6_why_3",
+      "ch13_L6_why_4",
+      "ch13_L6_why_5"
+     ],
+     "no_story": true,
+     "examples_button": {
+      "label": "Ещё примеры",
+      "why_ids": [
+       "ch13_052"
+      ]
+     }
+    },
+    "time_min": 3
+   },
+   {
+    "n": 6,
+    "type": "собери сам",
+    "title": "Собери сам",
+    "world_name": "колдуй сам",
+    "linie1": "Übungen",
+    "game": "«Поезд»-сборка",
+    "data": {
+     "build_phrase_id": "ch13_055",
+     "pieces": [
+      "nehmen.",
+      "soll",
+      "Ich",
+      "Tropfen"
+     ],
+     "pieces_shuffled": true,
+     "known_from": [
+      "ch13_015",
+      "ch13_037"
+     ],
+     "prompt": "Собери сам из знакомых кусков: скажи Ольге, что велел врач — «Мне надо принимать капли.»",
+     "fading": [
+      "поезд с ролями",
+      "первые буквы",
+      "без подсказки"
+     ],
+     "game": "«Поезд»-сборка",
+     "answer_id": "ch13_055",
+     "transfer_task_ids": [
+      "ch13_L6_transfer_1"
+     ],
+     "task_ids": [
+      "ch13_L6_write_1",
+      "ch13_L6_write_2",
+      "ch13_L6_write_3",
+      "ch13_L6_write_4",
+      "ch13_L6_write_5",
+      "ch13_L6_read_1",
+      "ch13_L6_read_2",
+      "ch13_L6_read_3",
+      "ch13_L6_read_4",
+      "ch13_L6_read_5"
+     ]
+    },
+    "time_min": 3
+   },
+   {
+    "n": 7,
+    "type": "звук дня",
+    "title": "Звук дня",
+    "linie1": "Aussprache",
+    "game": "«Скажи это»",
+    "data": {
+     "word": "viel",
+     "ipa_sym": "f",
+     "tip_ru": "Повтор звука «ф» и «в»: v в viel и f в Fieber звучат одинаково — «ф». А w звучит как русское «в»: weh, wie.",
+     "bridge_ru": "По-русски «ф» и «в» — две разные буквы. В немецком «ф» пишут f или v, а «в» — только w.",
+     "phrase_id": "ch13_051",
+     "game": "«Скажи это»",
+     "pairs": [
+      {
+       "de": "viel",
+       "ru": "фи:ль — v = «ф»"
+      },
+      {
+       "de": "Fieber",
+       "ru": "фи:бэр — f = «ф»"
+      },
+      {
+       "de": "weh",
+       "ru": "ве: — w = «в»"
+      }
+     ],
+     "speak_task_ids": [
+      "ch13_L6_speak_1",
+      "ch13_L6_speak_2",
+      "ch13_L6_speak_3",
+      "ch13_L6_speak_4",
+      "ch13_L6_speak_5"
+     ]
+    },
+    "time_min": 2
+   },
+   {
+    "n": 8,
+    "type": "разговор с жителем",
+    "title": "Болезнь, врач и суббота: проверка",
+    "linie1": "Sprechen",
+    "game": "ролевая с ИИ",
+    "data": {
+     "ai_plays": "Olga (на «ты»)",
+     "turns": [
+      {
+       "prompt_id": "ch13_d6_01",
+       "prompt_de": "Kommst du heute mit?",
+       "prompt_audio": "audio_v1/ch13_d6_01.mp3",
+       "expected_id": "ch13_d6_02",
+       "expected_de": "Nein, ich habe Husten und Fieber.",
+       "accept": [
+        {
+         "id": "ch13_048",
+         "de": "Ich habe Husten und Fieber."
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch13_d6_03",
+       "prompt_de": "Geh zum Arzt!",
+       "prompt_audio": "audio_v1/ch13_d6_03.mp3",
+       "expected_id": "ch13_d6_04",
+       "expected_de": "Ich habe um neun Uhr einen Termin.",
+       "accept": [
+        {
+         "id": "ch13_050",
+         "de": "Ich habe um neun Uhr einen Termin."
+        }
+       ],
+       "accept_any_name": false
+      },
+      {
+       "prompt_id": "ch13_d6_07",
+       "prompt_de": "Gut! Kommst du am Samstag um zehn Uhr mit?",
+       "prompt_audio": "audio_v1/ch13_d6_07.mp3",
+       "expected_id": "ch13_d6_08",
+       "expected_de": "Ja, ich komme gern mit.",
+       "accept": [
+        {
+         "id": "ch13_054",
+         "de": "Ich komme gern mit."
+        }
+       ],
+       "accept_any_name": false
+      }
+     ],
+     "note": "Говори правду о себе: ИИ примет «Ich habe Husten und Fieber.» и «Ich komme gern mit.»",
+     "rule": "ИИ говорит только фразами, показанными в частях 3–4 (WORLD §4.1)"
+    },
+    "time_min": 4
+   },
+   {
+    "n": 9,
+    "type": "помоги новичку",
+    "title": "Помоги новичку",
+    "linie1": "Mediation",
+    "game": null,
+    "data": {
+     "phrase_id": "ch13_d6_05",
+     "task_ru": "Новичок слышал совет Ольги, но не понял. Объясни ему по-русски, что надо делать.",
+     "expected_ru": "Хорошо! Пей много чая!",
+     "hint_ru": "Trink — просьба на «ты»: «пей»; viel Tee — много чая.",
+     "ai_checks": "понятно ли и верен ли смысл (не дословность)",
+     "level_note": "A1.1 — объясняем по-русски; позже — по-немецки"
+    },
+    "time_min": 2
+   },
+   {
+    "n": 10,
+    "type": "диктант",
+    "title": "Диктант",
+    "world_name": "запись в Летопись",
+    "linie1": "Richtig schreiben",
+    "game": "диктант",
+    "data": {
+     "dictation_ids": [
+      "ch13_L6_dict_1",
+      "ch13_L6_dict_2",
+      "ch13_L6_dict_3"
+     ],
+     "modes": [
+      "экран",
+      "тетрадь"
+     ],
+     "error_types": [
+      "listen",
+      "spelling",
+      "capital"
+     ],
+     "tip_ru": "Arzt, Termin, Uhr, Samstag — слова-предметы, с большой буквы. Перед aber — запятая."
+    },
+    "time_min": 3
+   },
+   {
+    "n": 11,
+    "type": "мини-босс",
+    "title": "Проверка",
+    "world_name": "мини-босс",
+    "linie1": "Übungen / Test",
+    "game": "босс",
+    "data": {
+     "task_ids": [
+      "ch13_L6_transfer_2",
+      "ch13_L6_transfer_3",
+      "ch13_L6_transfer_4",
+      "ch13_L6_transfer_5",
+      "ch13_L6_boss_1"
+     ],
+     "pass_percent": 80,
+     "has_transfer": true
+    },
+    "time_min": 3
+   },
+   {
+    "n": 12,
+    "type": "развязка",
+    "title": "Итог",
+    "linie1": "Leichter lernen",
+    "game": "поселение",
+    "data": {
+     "screen": [
+      "Ты прошёл главу 13: умеешь рассказать про болезнь, понять врача, попросить лекарство и договориться о спорте.",
+      "Совет на завтра: скажи вслух три фразы — Ich habe Husten. Trink viel Tee! Am Samstag komme ich mit."
+     ],
+     "npc_phrase_id": "ch13_d6_09",
+     "coins": 10,
+     "more": "В «Мой немецкий блокнот»: Mein Kopf tut weh. · Geh zum Arzt! · Trink viel Tee! · Am Samstag komme ich mit.",
+     "verbs": {
+      "title": "Am Samstag / Geh!: действие впереди",
+      "voice_ru": "Если впереди «когда» — am Samstag, — действие сразу второе, а ich идёт после него. А просьба на «ты» начинается с действия: Geh! Trink!",
+      "table_on_tap": [
+       [
+        "Am Samstag",
+        "komme ich mit"
+       ],
+       [
+        "Geh",
+        "zum Arzt!"
+       ]
+      ]
+     },
+     "next_hook": "Дальше: глава 14 — первый день в отеле.",
+     "summary": {
+      "solid": "задания босса и диктанта без ошибки — «твёрдо»",
+      "shaky": "ошибки босса и диктанта — «шатко», завтра в повтор"
+     },
+     "self_rating": [
+      "понятно",
+      "интересно",
+      "сложно"
+     ],
+     "transfer_task_ids": [],
+     "kurs": {
+      "pages": [
+       230,
+       231,
+       232,
+       233,
+       234,
+       235,
+       236,
+       237,
+       244,
+       245
+      ],
+      "phrases_ids": [
+       "ch13_056"
+      ],
+      "note": "к курсу: стр. 245 — самопроверка главы («Das kann ich»): Krankheit, Körperteile, Aufforderungen, Arzttermin, Arztgespräch. На курсе слова страниц 230–237 и 244 звучат в заданиях и текстах — узнавать на слух, учить не надо",
+      "listen_only_ids": [
+       "ch13_057",
+       "ch13_058",
+       "ch13_059",
+       "ch13_060",
+       "ch13_061",
+       "ch13_062",
+       "ch13_063",
+       "ch13_064",
+       "ch13_065",
+       "ch13_066",
+       "ch13_067",
+       "ch13_068"
+      ],
+      "course_words": {
+       "title": "Слова курса",
+       "phrase_id": "ch13_056",
+       "picture": "стр. 230–231: болезнь на работе, карта страхования, лекарства",
+       "words": [
+        {
+         "de": "das Fieberthermometer",
+         "ru": "градусник"
+        },
+        {
+         "de": "die E-Mail",
+         "ru": "электронная почта"
+        },
+        {
+         "de": "das Essen",
+         "ru": "еда"
+        },
+        {
+         "de": "die Gesundheitskarte",
+         "ru": "карта здоровья"
+        },
+        {
+         "de": "die Küche",
+         "ru": "кухня"
+        },
+        {
+         "de": "die Medikamente",
+         "ru": "лекарства"
+        },
+        {
+         "de": "die Nachricht",
+         "ru": "сообщение"
+        },
+        {
+         "de": "die Versichertenkarte",
+         "ru": "карта страхования"
+        }
+       ],
+       "note": "слова страниц 230–231; учить не надо — узнавать на слух"
+      },
+      "tasks": [
+       {
+        "id": "ch13_L6_kurs_1",
+        "skill": "listen",
+        "phraseId": "ch13_056",
+        "prompt": "Слова курса. Послушай. Что значит «Fieberthermometer»?",
+        "answer": "градусник",
+        "distractors": [
+         "тонометр",
+         "таблетка"
+        ],
+        "src": "Linie 1, стр. 230–231 (Fieberthermometer, E-Mail, Essen, Gesundheitskarte, Küche, Medikamente, Nachricht, Versichertenkarte)"
+       },
+       {
+        "id": "ch13_L6_kurs_2",
+        "skill": "listen",
+        "phraseId": "ch13_057",
+        "prompt": "Слова курса. Послушай. Что значит «Fachärztin»?",
+        "answer": "врач-специалистка",
+        "distractors": [
+         "медсестра",
+         "регистратор"
+        ],
+        "src": "Linie 1, стр. 232 (Allgemeinmedizin, Arzttermin, Chef, Fachärztin, Homepage, Patienten, Praxiszeiten)"
+       },
+       {
+        "id": "ch13_L6_kurs_3",
+        "skill": "listen",
+        "phraseId": "ch13_058",
+        "prompt": "Слова курса. Послушай. Что значит «Knie»?",
+        "answer": "колено",
+        "distractors": [
+         "локоть",
+         "плечо"
+        ],
+        "src": "Linie 1, стр. 233 (Arm, Finger, Fuß, Haar, Knie, Körper, Körperteil)"
+       },
+       {
+        "id": "ch13_L6_kurs_4",
+        "skill": "listen",
+        "phraseId": "ch13_059",
+        "prompt": "Слова курса. Послушай. Что значит «Ohrenschmerzen»?",
+        "answer": "боль в ушах",
+        "distractors": [
+         "боль в горле",
+         "боль в спине"
+        ],
+        "src": "Linie 1, стр. 234 (Antwort, Anweisungen, Arztbesuch, Kontrolle, Kopfschmerzen, Ohrenschmerzen, Patient)"
+       },
+       {
+        "id": "ch13_L6_kurs_5",
+        "skill": "listen",
+        "phraseId": "ch13_060",
+        "prompt": "Слова курса. Послушай. Что значит «Taschentücher»?",
+        "answer": "носовые платки",
+        "distractors": [
+         "пластыри",
+         "полотенца"
+        ],
+        "src": "Linie 1, стр. 234–235 (Patientin, Reservierung, Serviette, Vormittag, Wasser, Kreditkarte, Nasenspray, Taschentücher)"
+       },
+       {
+        "id": "ch13_L6_kurs_6",
+        "skill": "listen",
+        "phraseId": "ch13_061",
+        "prompt": "Слова курса. Послушай. Что значит «Gruppenkurse»?",
+        "answer": "групповые курсы",
+        "distractors": [
+         "индивидуальные курсы",
+         "курсы вождения"
+        ],
+        "src": "Linie 1, стр. 236 (Einzelkurs, Einzeltraining, Ernährung, Fitness, Flyer, Gruppenkurse, Kurse, Nachrichten)"
+       },
+       {
+        "id": "ch13_L6_kurs_7",
+        "skill": "listen",
+        "phraseId": "ch13_062",
+        "prompt": "Слова курса. Послушай. Что значит «Spaziergang»?",
+        "answer": "прогулка",
+        "distractors": [
+         "плавание",
+         "тренировка"
+        ],
+        "src": "Linie 1, стр. 236 (Preise, Programme, Rückentraining, Schwimmen, Spaziergang, Tipps, Training, Yoga)"
+       },
+       {
+        "id": "ch13_L6_kurs_8",
+        "skill": "listen",
+        "phraseId": "ch13_063",
+        "prompt": "Слова курса. Послушай. Что значит «Ausbildung»?",
+        "answer": "обучение профессии",
+        "distractors": [
+         "отпуск",
+         "зарплата"
+        ],
+        "src": "Linie 1, стр. 237 (Arbeitszeiten, Ausbildung, Basketball, Beruf, Eltern, Fitnesstrainer, Fleisch, Freund)"
+       },
+       {
+        "id": "ch13_L6_kurs_9",
+        "skill": "listen",
+        "phraseId": "ch13_064",
+        "prompt": "Слова курса. Послушай. Что значит «Fußballverein»?",
+        "answer": "футбольный клуб",
+        "distractors": [
+         "футбольное поле",
+         "футбольный мяч"
+        ],
+        "src": "Linie 1, стр. 237 (Fußballtrainer, Fußballverein, Geld, Gemüse, Größe, Ideen, Interesse, Job)"
+       },
+       {
+        "id": "ch13_L6_kurs_10",
+        "skill": "listen",
+        "phraseId": "ch13_065",
+        "prompt": "Слова курса. Послушай. Что значит «Physiotherapeut»?",
+        "answer": "физиотерапевт",
+        "distractors": [
+         "фармацевт",
+         "фитнес-тренер"
+        ],
+        "src": "Linie 1, стр. 237 (Kindergarten, Lust, Mannschaft, Physiotherapeut, Praktikum, Salat, Schule, Schulmannschaft)"
+       },
+       {
+        "id": "ch13_L6_kurs_11",
+        "skill": "listen",
+        "phraseId": "ch13_066",
+        "prompt": "Слова курса. Послушай. Что значит «Sportarten»?",
+        "answer": "виды спорта",
+        "distractors": [
+         "спортивные площадки",
+         "спортивные ботинки"
+        ],
+        "src": "Linie 1, стр. 237, 244 (Schüler, Sportarten, Themen, Anmeldung, Dame, Hobby, Meter, Oktober)"
+       },
+       {
+        "id": "ch13_L6_kurs_12",
+        "skill": "listen",
+        "phraseId": "ch13_067",
+        "prompt": "Слова курса. Послушай. Что значит «Situationskarten»?",
+        "answer": "карточки ситуаций",
+        "distractors": [
+         "карты города",
+         "банковские карты"
+        ],
+        "src": "Linie 1, стр. 244 (Situationskarten, Sohn, Sonne, Telefon, Teller, Yoga-Kurs, Doktor, Schmerz)"
+       },
+       {
+        "id": "ch13_L6_kurs_13",
+        "skill": "listen",
+        "phraseId": "ch13_068",
+        "prompt": "Слова курса. Послушай. Что значит «wehtun»?",
+        "answer": "болеть",
+        "distractors": [
+         "закрывать",
+         "делать"
+        ],
+        "src": "Linie 1, стр. 326–327 (krankschreiben, schließen, wehtun, wiederkommen, tun, bar, lieber, vegan)"
+       }
+      ]
+     },
+     "kurs_pages": [
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      244,
+      245
+     ]
+    },
+    "time_min": 1
+   }
+  ],
+  "episode": true,
+  "spec": "tools/data_episode_ch13.py",
+  "new_words": [
+   "Geh zum Arzt!",
+   "Ich habe um neun Uhr einen Termin.",
+   "Trink viel Tee!",
+   "Ich komme gern mit."
+  ],
+  "known_before": [
+   "Ich habe Husten.",
+   "Mein Kopf tut weh.",
+   "Ich soll heute kommen.",
+   "einen Termin",
+   "Trinken Sie viel Tee!",
+   "Tropfen",
+   "aber",
+   "am Samstag",
+   "Kommst du heute mit?",
+   "um zehn Uhr",
+   "Zeit",
+   "gern",
+   "Tschüss!",
+   "Olga",
+   "und",
+   "Gut"
+  ],
+  "transfer_phrase_ids": [
+   "ch13_t11",
+   "ch13_t12"
+  ],
+  "built_phrase_ids": [
+   "ch13_055"
+  ],
+  "quiz_ids": [
+   "ch13_L6_words_1",
+   "ch13_L6_words_2",
+   "ch13_L6_words_3",
+   "ch13_L6_words_4",
+   "ch13_L6_words_5",
+   "ch13_L6_listen_1",
+   "ch13_L6_listen_2",
+   "ch13_L6_listen_3",
+   "ch13_L6_listen_4",
+   "ch13_L6_listen_5",
+   "ch13_L6_listen_6",
+   "ch13_L6_read_1",
+   "ch13_L6_read_2",
+   "ch13_L6_read_3",
+   "ch13_L6_read_4",
+   "ch13_L6_read_5",
+   "ch13_L6_speak_1",
+   "ch13_L6_speak_2",
+   "ch13_L6_speak_3",
+   "ch13_L6_speak_4",
+   "ch13_L6_speak_5",
+   "ch13_L6_write_1",
+   "ch13_L6_write_2",
+   "ch13_L6_write_3",
+   "ch13_L6_write_4",
+   "ch13_L6_write_5",
+   "ch13_L6_why_1",
+   "ch13_L6_why_2",
+   "ch13_L6_why_3",
+   "ch13_L6_why_4",
+   "ch13_L6_why_5",
+   "ch13_L6_transfer_1",
+   "ch13_L6_transfer_2",
+   "ch13_L6_transfer_3",
+   "ch13_L6_transfer_4",
+   "ch13_L6_transfer_5",
+   "ch13_L6_boss_1"
+  ],
+  "dictation_ids": [
+   "ch13_L6_dict_1",
+   "ch13_L6_dict_2",
+   "ch13_L6_dict_3"
+  ],
+  "status": "на проверку (1)",
+  "minutes": "20",
+  "intro": "Глава 13 подходит к концу: проверка. Цель: показать, что умеешь — болезнь, врач, аптека, спорт. Загадка урока: «…, aber am Samstag komme ich mit». Почему после am Samstag сразу komme, а не ich?",
+  "steps": [
+   "1. Завязка",
+   "2. Разминка",
+   "3. Новые слова",
+   "4. Сцена",
+   "5. Почему так",
+   "6. Собери сам",
+   "7. Звук дня",
+   "8. Болезнь, врач и суббота: проверка",
+   "9. Помоги новичку",
+   "10. Диктант",
+   "11. Проверка",
+   "12. Итог"
+  ],
+  "games": [
+   "быстрый выбор",
+   "«Услышь и выбери»",
+   "«Поезд»",
+   "«Поезд»-сборка",
+   "«Скажи это»",
+   "ролевая с ИИ",
+   "диктант",
+   "босс",
+   "поселение"
+  ],
+  "roleplay": {
+   "role": "ты болен, но договариваешься о субботе (ИИ — Ольга: зовёт с собой, ты отвечаешь про врача и субботу)",
+   "situation": "kurs_sport",
+   "ai_plays": "Olga (на «ты»)",
+   "phrases": [
+    "ch13_d6_02",
+    "ch13_048",
+    "ch13_d6_04",
+    "ch13_050",
+    "ch13_d6_08",
+    "ch13_054"
+   ]
+  },
+  "outro": "Ты прошёл главу 13: умеешь рассказать про болезнь, понять врача, попросить лекарство и договориться о спорте. Совет на завтра: скажи вслух три фразы — Ich habe Husten. Trink viel Tee! Am Samstag komme ich mit. Дальше: глава 14 — первый день в отеле.",
+  "detail_de_life": "Если болезнь длится дольше трёх календарных дней, работодатель вправе потребовать справку врача — о болезни и о её сроке. Работодатель может запросить справку и раньше, с первого дня (EntgFG § 5).",
+  "detail_de_life_source": "EntgFG § 5 Abs. 1 Satz 2 (gesetze-im-internet.de/entgfg/__5.html)",
+  "task_ids": {
+   "words": [
+    "ch13_L6_words_1",
+    "ch13_L6_words_2",
+    "ch13_L6_words_3",
+    "ch13_L6_words_4",
+    "ch13_L6_words_5"
+   ],
+   "listen": [
+    "ch13_L6_listen_1",
+    "ch13_L6_listen_2",
+    "ch13_L6_listen_3",
+    "ch13_L6_listen_4",
+    "ch13_L6_listen_5",
+    "ch13_L6_listen_6"
+   ],
+   "read": [
+    "ch13_L6_read_1",
+    "ch13_L6_read_2",
+    "ch13_L6_read_3",
+    "ch13_L6_read_4",
+    "ch13_L6_read_5"
+   ],
+   "speak": [
+    "ch13_L6_speak_1",
+    "ch13_L6_speak_2",
+    "ch13_L6_speak_3",
+    "ch13_L6_speak_4",
+    "ch13_L6_speak_5"
+   ],
+   "write": [
+    "ch13_L6_write_1",
+    "ch13_L6_write_2",
+    "ch13_L6_write_3",
+    "ch13_L6_write_4",
+    "ch13_L6_write_5"
+   ],
+   "why": [
+    "ch13_L6_why_1",
+    "ch13_L6_why_2",
+    "ch13_L6_why_3",
+    "ch13_L6_why_4",
+    "ch13_L6_why_5"
+   ]
+  },
+  "transfer_ids": [
+   "ch13_L6_transfer_1",
+   "ch13_L6_transfer_2",
+   "ch13_L6_transfer_3",
+   "ch13_L6_transfer_4",
+   "ch13_L6_transfer_5"
+  ],
+  "warmup_ids": [
+   "ch13_039",
+   "ch13_040",
+   "ch13_041"
+  ],
+  "dialog_ids": [
+   "ch13_d6"
+  ],
+  "video": "video/ch13_L6.mp4"
+ }
+]

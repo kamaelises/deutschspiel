@@ -1,0 +1,4172 @@
+[
+ {
+  "id": "ch01_quiz_1",
+  "skill": "listen",
+  "phraseId": "ch01_d7_01",
+  "prompt": "Послушай. Что спросили?",
+  "answer": "Откуда вы?",
+  "distractors": [
+   "Где вы живёте?",
+   "Как вас зовут?"
+  ],
+  "audio": "audio_v4/ch01_d7_01.mp3",
+  "item_id": "ch01_quiz_1",
+  "rule_id": "topics/questions",
+  "transfer": false
+ },
+ {
+  "id": "ch01_quiz_2",
+  "skill": "read",
+  "phraseId": "ch01_061",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я здесь новенький.",
+  "distractors": [
+   "Я здесь живу.",
+   "Я из Германии."
+  ],
+  "de": "Ich bin neu hier.",
+  "item_id": "ch01_quiz_2",
+  "rule_id": "topics/word_order",
+  "transfer": false
+ },
+ {
+  "id": "ch01_quiz_3",
+  "skill": "speak",
+  "phraseId": "ch01_d6_02",
+  "prompt": "Скажи по-немецки: «Меня зовут {hero_name}».",
+  "answer": "Ich heiße Max.",
+  "distractors": null,
+  "item_id": "ch01_quiz_3",
+  "rule_id": "topics/word_order",
+  "transfer": false
+ },
+ {
+  "id": "ch01_quiz_4",
+  "skill": "write",
+  "phraseId": "ch01_050",
+  "prompt": "Впиши слово: «___ Dorf ist klein.»",
+  "answer": "Das",
+  "distractors": [
+   "Der",
+   "Die"
+  ],
+  "audio": "audio_v1/ch01_050.mp3",
+  "item_id": "ch01_quiz_4",
+  "rule_id": "cards/articles",
+  "transfer": false
+ },
+ {
+  "id": "ch01_quiz_5",
+  "skill": "why",
+  "phraseId": "ch01_052",
+  "prompt": "Почему ich стоит после wohne?",
+  "answer": "Начали с «когда» — действие всё равно на месте 2, а ich уходит за него. Главный закон поезда.",
+  "distractors": [
+   "Потому что ich всегда стоит в конце.",
+   "Потому что это вопрос."
+  ],
+  "de": "Jetzt wohne ich in Deutschland.",
+  "item_id": "ch01_quiz_5",
+  "rule_id": "topics/word_order",
+  "transfer": false
+ },
+ {
+  "skill": "words",
+  "phraseId": "ch01_001",
+  "prompt": "Какой артикль: ___ Morgen?",
+  "answer": "der",
+  "distractors": [
+   "die",
+   "das"
+  ],
+  "id": "ch01_test_1",
+  "item_id": "ch01_test_1",
+  "rule_id": "cards/articles",
+  "transfer": false
+ },
+ {
+  "skill": "words",
+  "phraseId": "ch01_002",
+  "prompt": "Какой артикль: ___ Tag?",
+  "answer": "der",
+  "distractors": [
+   "die",
+   "das"
+  ],
+  "id": "ch01_test_2",
+  "item_id": "ch01_test_2",
+  "rule_id": "cards/articles",
+  "transfer": false
+ },
+ {
+  "skill": "listen",
+  "phraseId": "ch01_011",
+  "prompt": "Послушай. Что сказали?",
+  "answer": "Добро пожаловать в Германию!",
+  "distractors": [
+   "Так себе.",
+   "Меня зовут {hero_name}."
+  ],
+  "audio": "audio_v1/ch01_011.mp3",
+  "id": "ch01_test_3",
+  "item_id": "ch01_test_3",
+  "rule_id": "cards/phrases",
+  "transfer": false
+ },
+ {
+  "skill": "listen",
+  "phraseId": "ch01_056",
+  "prompt": "Послушай. Что сказали?",
+  "answer": "Мы теперь живём здесь.",
+  "distractors": [
+   "Это в Саксонии.",
+   "Мы на курсе немецкого."
+  ],
+  "audio": "audio_v1/ch01_056.mp3",
+  "id": "ch01_test_4",
+  "item_id": "ch01_test_4",
+  "rule_id": "topics/word_order",
+  "transfer": false
+ },
+ {
+  "skill": "write",
+  "phraseId": "ch01_101",
+  "prompt": "Собери поезд из вагонов: Nachbarland · Sprache · Musik",
+  "answer": "Musik, Sprache, Nachbarland.",
+  "distractors": null,
+  "id": "ch01_test_5",
+  "item_id": "ch01_test_5",
+  "rule_id": "cards/articles",
+  "transfer": false
+ },
+ {
+  "item_id": "ch01_L1_words_1",
+  "id": "ch01_L1_words_1",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_d4_03",
+  "prompt": "Что значит «Name»?",
+  "answer": "имя",
+  "distractors": [
+   "утро",
+   "сосед"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L1_words_2",
+  "id": "ch01_L1_words_2",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_001",
+  "prompt": "Какой артикль: ___ Morgen?",
+  "answer": "der",
+  "distractors": [
+   "die",
+   "das"
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L1_words_3",
+  "id": "ch01_L1_words_3",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_007",
+  "prompt": "Как сказать «До свидания!»?",
+  "answer": "Auf Wiedersehen!",
+  "distractors": [
+   "Guten Morgen!",
+   "Ich bin {hero_name}."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L1_words_4",
+  "id": "ch01_L1_words_4",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_069",
+  "prompt": "Что значит «ich bin»?",
+  "answer": "я — …",
+  "distractors": [
+   "ты — …",
+   "он — …"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L1_words_5",
+  "id": "ch01_L1_words_5",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_d4_03",
+  "prompt": "Что значит «mein»?",
+  "answer": "мой",
+  "distractors": [
+   "твой",
+   "ваш"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L1_listen_1",
+  "id": "ch01_L1_listen_1",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d4_01",
+  "prompt": "Послушай. Что сказал сосед?",
+  "answer": "Доброе утро!",
+  "distractors": [
+   "До свидания!",
+   "Пока!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v3/ch01_d4_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L1_listen_2",
+  "id": "ch01_L1_listen_2",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d4_02",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Доброе утро! Я {hero_name}.",
+  "distractors": [
+   "До свидания! Пока!",
+   "Меня зовут Шмидт."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v3/ch01_d4_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L1_listen_3",
+  "id": "ch01_L1_listen_3",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d4_03",
+  "prompt": "Послушай. Как зовут соседа?",
+  "answer": "Шмидт",
+  "distractors": [
+   "Морген",
+   "Вагнер"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d4_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L1_listen_4",
+  "id": "ch01_L1_listen_4",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d4_04",
+  "prompt": "Послушай. Что сказал герой?",
+  "answer": "До свидания!",
+  "distractors": [
+   "Доброе утро!",
+   "Пока!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d4_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L1_listen_5",
+  "id": "ch01_L1_listen_5",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d4_05",
+  "prompt": "Послушай. Сосед прощается или здоровается?",
+  "answer": "прощается: «Пока!»",
+  "distractors": [
+   "здоровается: «Привет!»",
+   "знакомится: «Я — сосед»"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d4_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L1_read_1",
+  "id": "ch01_L1_read_1",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_001",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Доброе утро!",
+  "distractors": [
+   "До свидания!",
+   "Меня зовут…"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Guten Morgen!"
+ },
+ {
+  "item_id": "ch01_L1_read_2",
+  "id": "ch01_L1_read_2",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_007",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "До свидания!",
+  "distractors": [
+   "Доброе утро!",
+   "Я здесь."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Auf Wiedersehen!"
+ },
+ {
+  "item_id": "ch01_L1_read_3",
+  "id": "ch01_L1_read_3",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_d4_03",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Меня зовут Шмидт.",
+  "distractors": [
+   "Доброе утро, Шмидт.",
+   "До свидания, Шмидт."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Mein Name ist Schmidt."
+ },
+ {
+  "item_id": "ch01_L1_read_4",
+  "id": "ch01_L1_read_4",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_069",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я {hero_name}.",
+  "distractors": [
+   "Доброе утро, {hero_name}!",
+   "Пока, {hero_name}!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich bin {hero_name}."
+ },
+ {
+  "item_id": "ch01_L1_read_5",
+  "id": "ch01_L1_read_5",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_d4_05",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Пока!",
+  "distractors": [
+   "Утро!",
+   "Я тут!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Tschüss!"
+ },
+ {
+  "item_id": "ch01_L1_speak_1",
+  "id": "ch01_L1_speak_1",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_001",
+  "prompt": "Скажи по-немецки: «Доброе утро!»",
+  "answer": "Guten Morgen!",
+  "distractors": null,
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": "audio_v1/ch01_001.mp3",
+  "de": null,
+  "accept": [
+   "Guten Morgen!"
+  ]
+ },
+ {
+  "item_id": "ch01_L1_speak_2",
+  "id": "ch01_L1_speak_2",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_069",
+  "prompt": "Скажи по-немецки: «Я {hero_name}» (со своим именем).",
+  "answer": "Ich bin {hero_name}.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v3/ch01_069.mp3",
+  "de": null,
+  "accept_pattern": "Ich bin <любое имя>.",
+  "accept_any_name": true,
+  "accept": [
+   "Ich bin {hero_name}."
+  ]
+ },
+ {
+  "item_id": "ch01_L1_speak_3",
+  "id": "ch01_L1_speak_3",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_007",
+  "prompt": "Скажи по-немецки: «До свидания!»",
+  "answer": "Auf Wiedersehen!",
+  "distractors": null,
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": "audio_v1/ch01_007.mp3",
+  "de": null,
+  "accept": [
+   "Auf Wiedersehen!"
+  ]
+ },
+ {
+  "item_id": "ch01_L1_speak_4",
+  "id": "ch01_L1_speak_4",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_t16",
+  "prompt": "Скажи по-немецки: «Привет, я {hero_name}» (со своим именем). Слушай своё ich.",
+  "answer": "Hallo, ich bin {hero_name}.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v3/ch01_t16.mp3",
+  "de": null,
+  "accept_pattern": "Hallo, ich bin <любое имя>.",
+  "accept_any_name": true,
+  "accept": [
+   "Hallo, ich bin {hero_name}."
+  ]
+ },
+ {
+  "item_id": "ch01_L1_speak_5",
+  "id": "ch01_L1_speak_5",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_d4_02",
+  "prompt": "Скажи по-немецки: «Доброе утро! Я {hero_name}» (со своим именем).",
+  "answer": "Guten Morgen! Ich bin {hero_name}.",
+  "distractors": null,
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": "audio_v3/ch01_d4_02.mp3",
+  "de": null,
+  "accept_pattern": "Guten Morgen! Ich bin <любое имя>.",
+  "accept_any_name": true,
+  "accept": [
+   "Guten Morgen! Ich bin {hero_name}."
+  ]
+ },
+ {
+  "item_id": "ch01_L1_write_1",
+  "id": "ch01_L1_write_1",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_001",
+  "prompt": "Впиши: «Guten ___!» (утро)",
+  "answer": "Morgen",
+  "distractors": null,
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": "audio_v1/ch01_001.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L1_write_2",
+  "id": "ch01_L1_write_2",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_069",
+  "prompt": "Впиши: «Ich ___ {hero_name}.»",
+  "answer": "bin",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v3/ch01_069.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L1_write_3",
+  "id": "ch01_L1_write_3",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_d4_03",
+  "prompt": "Впиши: «Mein Name ___ Schmidt.»",
+  "answer": "ist",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d4_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L1_write_4",
+  "id": "ch01_L1_write_4",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_007",
+  "prompt": "Впиши: «Auf ___!»",
+  "answer": "Wiedersehen",
+  "distractors": null,
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": "audio_v1/ch01_007.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L1_write_5",
+  "id": "ch01_L1_write_5",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_d4_03",
+  "prompt": "Впиши: «___ Name ist Schmidt.»",
+  "answer": "Mein",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d4_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L1_why_1",
+  "id": "ch01_L1_why_1",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_069",
+  "prompt": "Почему bin стоит вторым?",
+  "answer": "В рассказе действие стоит в вагоне №2.",
+  "distractors": [
+   "Потому что bin — самое важное слово.",
+   "Порядок свободный, как в русском."
+  ],
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich bin {hero_name}."
+ },
+ {
+  "item_id": "ch01_L1_why_2",
+  "id": "ch01_L1_why_2",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_d4_03",
+  "prompt": "Что делает ist во фразе «Mein Name ist Schmidt»?",
+  "answer": "Работает как знак «=».",
+  "distractors": [
+   "Показывает вопрос.",
+   "Значит «не» перед словом."
+  ],
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": null,
+  "de": "Mein Name ist Schmidt."
+ },
+ {
+  "item_id": "ch01_L1_why_3",
+  "id": "ch01_L1_why_3",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_069",
+  "prompt": "Почему нельзя сказать «Ich {hero_name}.»?",
+  "answer": "Без bin фразы нет: bin — знак «=».",
+  "distractors": [
+   "Можно: немцы тоже пропускают «есть».",
+   "Нельзя: имя должно стоять первым."
+  ],
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich bin {hero_name}."
+ },
+ {
+  "item_id": "ch01_L1_why_4",
+  "id": "ch01_L1_why_4",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_007",
+  "prompt": "Откуда слово Wiedersehen?",
+  "answer": "wieder — снова, sehen — видеть.",
+  "distractors": [
+   "Это фамилия соседа.",
+   "Это старое слово «утро»."
+  ],
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": null,
+  "de": "Auf Wiedersehen!"
+ },
+ {
+  "item_id": "ch01_L1_why_5",
+  "id": "ch01_L1_why_5",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_d4_05",
+  "prompt": "Почему сосед сказал Tschüss, а не Auf Wiedersehen?",
+  "answer": "Tschüss — попроще, по-соседски.",
+  "distractors": [
+   "Tschüss значит «доброе утро».",
+   "Потому что сейчас вечер."
+  ],
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": null,
+  "de": "Tschüss!"
+ },
+ {
+  "item_id": "ch01_L1_transfer_1",
+  "id": "ch01_L1_transfer_1",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_021",
+  "prompt": "Скажи про себя так же, как сосед: «Меня зовут {hero_name}» (Mein Name ist …).",
+  "answer": "Mein Name ist {hero_name}.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": true,
+  "audio": "audio_v3/ch01_021.mp3",
+  "de": null,
+  "accept_pattern": "Mein Name ist <любое имя>.",
+  "accept_any_name": true,
+  "accept": [
+   "Mein Name ist {hero_name}."
+  ]
+ },
+ {
+  "item_id": "ch01_L1_transfer_2",
+  "id": "ch01_L1_transfer_2",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_t17",
+  "prompt": "Скажи по-немецки: «Привет, меня зовут {hero_name}».",
+  "answer": "Hallo, mein Name ist {hero_name}.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": true,
+  "audio": "audio_v4/ch01_t17.mp3",
+  "de": null,
+  "accept_pattern": "Hallo, mein Name ist <любое имя>.",
+  "accept_any_name": true,
+  "accept": [
+   "Hallo, mein Name ist {hero_name}."
+  ]
+ },
+ {
+  "item_id": "ch01_L1_transfer_3",
+  "id": "ch01_L1_transfer_3",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_t17",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Привет, меня зовут {hero_name}.",
+  "distractors": [
+   "Доброе утро, меня зовут {hero_name}.",
+   "Пока, до завтра, {hero_name}!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v4/ch01_t17.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L1_transfer_4",
+  "id": "ch01_L1_transfer_4",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_t17",
+  "prompt": "Впиши: «Hallo, mein Name ___ {hero_name}.»",
+  "answer": "ist",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": true,
+  "audio": "audio_v4/ch01_t17.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L1_boss_1",
+  "id": "ch01_L1_boss_1",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_t17",
+  "prompt": "Почему в «Hallo, mein Name ist …» mein Name стоит первым?",
+  "answer": "Hallo не занимает вагон.",
+  "distractors": [
+   "Hallo стоит в вагоне №1, mein Name — в вагоне №2.",
+   "Так совпало: порядок тут свободный."
+  ],
+  "rule_id": "topics/sein",
+  "transfer": true,
+  "audio": null,
+  "de": "Hallo, mein Name ist {hero_name}."
+ },
+ {
+  "item_id": "ch01_L1_boss_2",
+  "id": "ch01_L1_boss_2",
+  "lesson": "ch01_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d4_05",
+  "prompt": "Послушай. Кому так можно сказать?",
+  "answer": "«Пока!» — соседу, другу",
+  "distractors": [
+   "«Пока!» — только начальнику",
+   "«Пока!» — только в Jobcenter"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d4_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L2_words_1",
+  "id": "ch01_L2_words_1",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_003",
+  "prompt": "Что значит «Abend»?",
+  "answer": "вечер",
+  "distractors": [
+   "утро",
+   "ночь"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L2_words_2",
+  "id": "ch01_L2_words_2",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_004",
+  "prompt": "Какой артикль: ___ Nacht?",
+  "answer": "die",
+  "distractors": [
+   "der",
+   "das"
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L2_words_3",
+  "id": "ch01_L2_words_3",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_002",
+  "prompt": "Какой артикль: ___ Tag?",
+  "answer": "der",
+  "distractors": [
+   "die",
+   "das"
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L2_words_4",
+  "id": "ch01_L2_words_4",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_014",
+  "prompt": "Что значит «gut»?",
+  "answer": "хорошо",
+  "distractors": [
+   "плохо",
+   "спасибо"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L2_words_5",
+  "id": "ch01_L2_words_5",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_018",
+  "prompt": "Что значит «Sie» во фразе «Wie heißen Sie?»?",
+  "answer": "вы",
+  "distractors": [
+   "ты",
+   "он"
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L2_listen_1",
+  "id": "ch01_L2_listen_1",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d5_01",
+  "prompt": "Послушай. Что спросила учительница?",
+  "answer": "Добрый день! Как вас зовут?",
+  "distractors": [
+   "Добрый вечер! Как у вас дела?",
+   "Спокойной ночи!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d5_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L2_listen_2",
+  "id": "ch01_L2_listen_2",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d5_02",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Меня зовут {hero_name}.",
+  "distractors": [
+   "Как вас зовут?",
+   "Спасибо, хорошо."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d5_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L2_listen_3",
+  "id": "ch01_L2_listen_3",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d5_03",
+  "prompt": "Послушай. Что спросил сосед?",
+  "answer": "Добрый вечер! Как у вас дела?",
+  "distractors": [
+   "Добрый день! Как вас зовут?",
+   "Доброе утро!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d5_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L2_listen_4",
+  "id": "ch01_L2_listen_4",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d5_04",
+  "prompt": "Послушай. Как дела у героя?",
+  "answer": "хорошо",
+  "distractors": [
+   "так себе",
+   "плохо"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d5_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L2_listen_5",
+  "id": "ch01_L2_listen_5",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d5_05",
+  "prompt": "Послушай. Сосед здоровается или прощается?",
+  "answer": "прощается: «Спокойной ночи!»",
+  "distractors": [
+   "здоровается: «Добрый вечер!»",
+   "знакомится: «Как вас зовут?»"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d5_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L2_read_1",
+  "id": "ch01_L2_read_1",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_002",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Добрый день!",
+  "distractors": [
+   "Добрый вечер!",
+   "Спокойной ночи!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Guten Tag!"
+ },
+ {
+  "item_id": "ch01_L2_read_2",
+  "id": "ch01_L2_read_2",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_003",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Добрый вечер!",
+  "distractors": [
+   "Добрый день!",
+   "Доброе утро!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Guten Abend!"
+ },
+ {
+  "item_id": "ch01_L2_read_3",
+  "id": "ch01_L2_read_3",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_004",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Спокойной ночи!",
+  "distractors": [
+   "Добрый вечер!",
+   "До свидания!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Gute Nacht!"
+ },
+ {
+  "item_id": "ch01_L2_read_4",
+  "id": "ch01_L2_read_4",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_012",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Как у вас дела?",
+  "distractors": [
+   "Как вас зовут?",
+   "Кто вы?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie geht es Ihnen?"
+ },
+ {
+  "item_id": "ch01_L2_read_5",
+  "id": "ch01_L2_read_5",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_018",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Как вас зовут?",
+  "distractors": [
+   "Как у вас дела?",
+   "Где вы?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie heißen Sie?"
+ },
+ {
+  "item_id": "ch01_L2_speak_1",
+  "id": "ch01_L2_speak_1",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_002",
+  "prompt": "Скажи по-немецки: «Добрый день!» Слушай конец: Tag — «та:к».",
+  "answer": "Guten Tag!",
+  "distractors": null,
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": "audio_v1/ch01_002.mp3",
+  "de": null,
+  "accept": [
+   "Guten Tag!"
+  ]
+ },
+ {
+  "item_id": "ch01_L2_speak_2",
+  "id": "ch01_L2_speak_2",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_003",
+  "prompt": "Скажи по-немецки: «Добрый вечер!» Слушай конец: Abend — «…бэнт».",
+  "answer": "Guten Abend!",
+  "distractors": null,
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": "audio_v1/ch01_003.mp3",
+  "de": null,
+  "accept": [
+   "Guten Abend!"
+  ]
+ },
+ {
+  "item_id": "ch01_L2_speak_3",
+  "id": "ch01_L2_speak_3",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_014",
+  "prompt": "Ответь по-немецки: «Спасибо, хорошо.» В gut буква t и пишется, и слышится: «гу:т».",
+  "answer": "Danke, gut.",
+  "distractors": null,
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": "audio_v1/ch01_014.mp3",
+  "de": null,
+  "accept": [
+   "Danke, gut."
+  ]
+ },
+ {
+  "item_id": "ch01_L2_speak_4",
+  "id": "ch01_L2_speak_4",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_018",
+  "prompt": "Спроси по-немецки на «вы»: «Как вас зовут?»",
+  "answer": "Wie heißen Sie?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch01_018.mp3",
+  "de": null,
+  "accept": [
+   "Wie heißen Sie?"
+  ]
+ },
+ {
+  "item_id": "ch01_L2_speak_5",
+  "id": "ch01_L2_speak_5",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_004",
+  "prompt": "Скажи по-немецки: «Спокойной ночи!»",
+  "answer": "Gute Nacht!",
+  "distractors": null,
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": "audio_v1/ch01_004.mp3",
+  "de": null,
+  "accept": [
+   "Gute Nacht!"
+  ]
+ },
+ {
+  "item_id": "ch01_L2_write_1",
+  "id": "ch01_L2_write_1",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_002",
+  "prompt": "Впиши: «___ Tag!» (днём)",
+  "answer": "Guten",
+  "distractors": null,
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": "audio_v1/ch01_002.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L2_write_2",
+  "id": "ch01_L2_write_2",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_004",
+  "prompt": "Впиши: «___ Nacht!» (на прощание поздно вечером)",
+  "answer": "Gute",
+  "distractors": null,
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": "audio_v1/ch01_004.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L2_write_3",
+  "id": "ch01_L2_write_3",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_003",
+  "prompt": "Впиши: «Guten ___!» (вечер)",
+  "answer": "Abend",
+  "distractors": null,
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": "audio_v1/ch01_003.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L2_write_4",
+  "id": "ch01_L2_write_4",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_012",
+  "prompt": "Впиши: «Wie geht es ___?» (вам)",
+  "answer": "Ihnen",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch01_012.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L2_write_5",
+  "id": "ch01_L2_write_5",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_018",
+  "prompt": "Впиши: «Wie ___ Sie?» (как зовут)",
+  "answer": "heißen",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch01_018.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L2_why_1",
+  "id": "ch01_L2_why_1",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_d5_05",
+  "prompt": "Почему Gute Nacht, а не Guten Nacht?",
+  "answer": "Nacht — die-слово, поэтому Gute.",
+  "distractors": [
+   "Ночью говорят короче.",
+   "Gute — потому что это прощание."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Gute Nacht!"
+ },
+ {
+  "item_id": "ch01_L2_why_2",
+  "id": "ch01_L2_why_2",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_d5_03",
+  "prompt": "Почему Guten Abend, а не Gute Abend?",
+  "answer": "Abend — der-слово, поэтому Guten.",
+  "distractors": [
+   "Вечером говорят длиннее.",
+   "Guten — потому что дальше вопрос."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Guten Abend! Wie geht es Ihnen?"
+ },
+ {
+  "item_id": "ch01_L2_why_3",
+  "id": "ch01_L2_why_3",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_d5_01",
+  "prompt": "Почему днём Guten Tag, а не Gute Tag?",
+  "answer": "Tag — der-слово, поэтому Guten.",
+  "distractors": [
+   "Днём говорят длиннее.",
+   "Gute — только с именем."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Guten Tag! Wie heißen Sie?"
+ },
+ {
+  "item_id": "ch01_L2_why_4",
+  "id": "ch01_L2_why_4",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_004",
+  "prompt": "У какого слова пожелание начинается с Gute, а не с Guten?",
+  "answer": "у die-слова: die Nacht",
+  "distractors": [
+   "у der-слова: der Tag",
+   "у слова вечера: der Abend"
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Gute Nacht!"
+ },
+ {
+  "item_id": "ch01_L2_why_5",
+  "id": "ch01_L2_why_5",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_d5_05",
+  "prompt": "Когда говорят Gute Nacht?",
+  "answer": "Поздно вечером, на прощание.",
+  "distractors": [
+   "Утром при встрече.",
+   "Днём в магазине."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Gute Nacht!"
+ },
+ {
+  "item_id": "ch01_L2_transfer_1",
+  "id": "ch01_L2_transfer_1",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_t19",
+  "prompt": "Скажи сам: днём на курсе поздоровайся с учительницей и спроси, как у неё дела.",
+  "answer": "Guten Tag! Wie geht es Ihnen?",
+  "distractors": null,
+  "rule_id": "cards/articles",
+  "transfer": true,
+  "audio": "audio_v4/ch01_t19.mp3",
+  "de": null,
+  "accept": [
+   "Guten Tag! Wie geht es Ihnen?"
+  ]
+ },
+ {
+  "item_id": "ch01_L2_transfer_2",
+  "id": "ch01_L2_transfer_2",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_t20",
+  "prompt": "Вечер, новый сосед. Поздоровайся и назови себя: «Добрый вечер! Меня зовут {hero_name}» (со своим именем).",
+  "answer": "Guten Abend! Mein Name ist {hero_name}.",
+  "distractors": null,
+  "rule_id": "cards/articles",
+  "transfer": true,
+  "audio": "audio_v4/ch01_t20.mp3",
+  "de": null,
+  "accept_pattern": "Guten Abend! Mein Name ist <любое имя>.",
+  "accept_any_name": true,
+  "accept": [
+   "Guten Abend! Mein Name ist {hero_name}."
+  ]
+ },
+ {
+  "item_id": "ch01_L2_transfer_3",
+  "id": "ch01_L2_transfer_3",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_t20",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Добрый вечер! Меня зовут {hero_name}.",
+  "distractors": [
+   "Доброе утро! Меня зовут {hero_name}.",
+   "Спокойной ночи, {hero_name}!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v4/ch01_t20.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L2_transfer_4",
+  "id": "ch01_L2_transfer_4",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_t20",
+  "prompt": "Впиши: «___ Abend! Mein Name ist {hero_name}.»",
+  "answer": "Guten",
+  "distractors": null,
+  "rule_id": "cards/articles",
+  "transfer": true,
+  "audio": "audio_v4/ch01_t20.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L2_boss_1",
+  "id": "ch01_L2_boss_1",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_t20",
+  "prompt": "Вечер. Новый сосед спросил: «Wie heißen Sie?» Что ответишь?",
+  "answer": "Guten Abend! Mein Name ist {hero_name}.",
+  "distractors": [
+   "Gute Nacht! Mein Name ist {hero_name}.",
+   "Guten Abend! Wie heißen Sie, {hero_name}?"
+  ],
+  "rule_id": "cards/articles",
+  "transfer": true,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L2_boss_2",
+  "id": "ch01_L2_boss_2",
+  "lesson": "ch01_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d5_01",
+  "prompt": "Послушай. Когда и как так говорят?",
+  "answer": "днём, на «вы»: «Добрый день! Как вас зовут?»",
+  "distractors": [
+   "поздно вечером: «Спокойной ночи!»",
+   "другу, на «ты»: «Привет! Как тебя зовут?»"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d5_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L3_words_1",
+  "id": "ch01_L3_words_1",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_019",
+  "prompt": "Что значит «du»?",
+  "answer": "ты",
+  "distractors": [
+   "вы",
+   "я"
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L3_words_2",
+  "id": "ch01_L3_words_2",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_013",
+  "prompt": "Что значит «dir» во фразе «Wie geht es dir?»?",
+  "answer": "тебе",
+  "distractors": [
+   "вам",
+   "мне"
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L3_words_3",
+  "id": "ch01_L3_words_3",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_016",
+  "prompt": "Что значит «Es geht so.»?",
+  "answer": "Так себе.",
+  "distractors": [
+   "Спасибо, хорошо.",
+   "Простите, что?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L3_words_4",
+  "id": "ch01_L3_words_4",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_034",
+  "prompt": "Что значит «schreibt»?",
+  "answer": "пишет",
+  "distractors": [
+   "читает",
+   "говорит"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L3_words_5",
+  "id": "ch01_L3_words_5",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_031",
+  "prompt": "Как переспросить, если не расслышал?",
+  "answer": "Wie bitte?",
+  "distractors": [
+   "Danke, gut.",
+   "Es geht so."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L3_listen_1",
+  "id": "ch01_L3_listen_1",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d6_01",
+  "prompt": "Послушай. Что спросила Ольга?",
+  "answer": "Привет! Меня зовут Ольга. Как тебя зовут?",
+  "distractors": [
+   "Привет! Как у тебя дела?",
+   "Как это пишется?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d6_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L3_listen_2",
+  "id": "ch01_L3_listen_2",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d6_03",
+  "prompt": "Послушай. О чём спросила Ольга?",
+  "answer": "как у тебя дела",
+  "distractors": [
+   "как тебя зовут",
+   "как это пишется"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d6_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L3_listen_3",
+  "id": "ch01_L3_listen_3",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d6_05",
+  "prompt": "Послушай. Как дела у Ольги?",
+  "answer": "так себе",
+  "distractors": [
+   "хорошо",
+   "отлично"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d6_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L3_listen_4",
+  "id": "ch01_L3_listen_4",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d6_08",
+  "prompt": "Послушай. Что хочет учительница?",
+  "answer": "узнать, как пишется имя",
+  "distractors": [
+   "узнать, как дела",
+   "попрощаться"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d6_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L3_listen_5",
+  "id": "ch01_L3_listen_5",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d6_09",
+  "prompt": "Послушай. Что сказал герой?",
+  "answer": "Простите, что?",
+  "distractors": [
+   "Спасибо!",
+   "Так себе."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d6_09.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L3_read_1",
+  "id": "ch01_L3_read_1",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_019",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Как тебя зовут?",
+  "distractors": [
+   "Как вас зовут?",
+   "Как у тебя дела?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie heißt du?"
+ },
+ {
+  "item_id": "ch01_L3_read_2",
+  "id": "ch01_L3_read_2",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_013",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Как у тебя дела?",
+  "distractors": [
+   "Как у вас дела?",
+   "Как тебя зовут?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie geht es dir?"
+ },
+ {
+  "item_id": "ch01_L3_read_3",
+  "id": "ch01_L3_read_3",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_020",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Меня зовут {hero_name}.",
+  "distractors": [
+   "Как тебя зовут, {hero_name}?",
+   "Пока, {hero_name}!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich heiße {hero_name}."
+ },
+ {
+  "item_id": "ch01_L3_read_4",
+  "id": "ch01_L3_read_4",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_034",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Как это пишется?",
+  "distractors": [
+   "Как тебя зовут?",
+   "Простите, что?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie schreibt man das?"
+ },
+ {
+  "item_id": "ch01_L3_read_5",
+  "id": "ch01_L3_read_5",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_d6_04",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Спасибо, хорошо. А у тебя?",
+  "distractors": [
+   "Так себе. А у тебя?",
+   "Привет! Как у тебя дела?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Danke, gut. Und dir?"
+ },
+ {
+  "item_id": "ch01_L3_speak_1",
+  "id": "ch01_L3_speak_1",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_019",
+  "prompt": "Спроси по-немецки на «ты»: «Как тебя зовут?» Слушай ei: heißt — «хайст».",
+  "answer": "Wie heißt du?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch01_019.mp3",
+  "de": null,
+  "accept": [
+   "Wie heißt du?"
+  ]
+ },
+ {
+  "item_id": "ch01_L3_speak_2",
+  "id": "ch01_L3_speak_2",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_020",
+  "prompt": "Скажи по-немецки через heiße: «Меня зовут {hero_name}» (со своим именем).",
+  "answer": "Ich heiße {hero_name}.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v3/ch01_020.mp3",
+  "de": null,
+  "accept_pattern": "Ich heiße <любое имя>.",
+  "accept_any_name": true,
+  "accept": [
+   "Ich heiße {hero_name}."
+  ]
+ },
+ {
+  "item_id": "ch01_L3_speak_3",
+  "id": "ch01_L3_speak_3",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_013",
+  "prompt": "Спроси по-немецки на «ты»: «Как у тебя дела?»",
+  "answer": "Wie geht es dir?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch01_013.mp3",
+  "de": null,
+  "accept": [
+   "Wie geht es dir?"
+  ]
+ },
+ {
+  "item_id": "ch01_L3_speak_4",
+  "id": "ch01_L3_speak_4",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_d6_04",
+  "prompt": "Ответь и спроси обратно: «Спасибо, хорошо. А у тебя?»",
+  "answer": "Danke, gut. Und dir?",
+  "distractors": null,
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d6_04.mp3",
+  "de": null,
+  "accept": [
+   "Danke, gut. Und dir?"
+  ]
+ },
+ {
+  "item_id": "ch01_L3_speak_5",
+  "id": "ch01_L3_speak_5",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_031",
+  "prompt": "Переспроси по-немецки: «Простите, что?»",
+  "answer": "Wie bitte?",
+  "distractors": null,
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": "audio_v1/ch01_031.mp3",
+  "de": null,
+  "accept": [
+   "Wie bitte?"
+  ]
+ },
+ {
+  "item_id": "ch01_L3_write_1",
+  "id": "ch01_L3_write_1",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_019",
+  "prompt": "Впиши: «Wie ___ du?»",
+  "answer": "heißt",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch01_019.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L3_write_2",
+  "id": "ch01_L3_write_2",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_020",
+  "prompt": "Впиши: «Ich ___ {hero_name}.»",
+  "answer": "heiße",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v3/ch01_020.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L3_write_3",
+  "id": "ch01_L3_write_3",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_013",
+  "prompt": "Впиши: «Wie geht es ___?» (тебе)",
+  "answer": "dir",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch01_013.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L3_write_4",
+  "id": "ch01_L3_write_4",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_034",
+  "prompt": "Впиши: «Wie schreibt ___ das?»",
+  "answer": "man",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch01_034.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L3_write_5",
+  "id": "ch01_L3_write_5",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_016",
+  "prompt": "Впиши: «Es geht ___.» (так себе)",
+  "answer": "so",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch01_016.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L3_why_1",
+  "id": "ch01_L3_why_1",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_019",
+  "prompt": "Почему heißt, а не heißen?",
+  "answer": "С du у действия хвост -t: du heißt.",
+  "distractors": [
+   "Так короче.",
+   "heißen — только в вопросе."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie heißt du?"
+ },
+ {
+  "item_id": "ch01_L3_why_2",
+  "id": "ch01_L3_why_2",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_020",
+  "prompt": "Почему Ich heiße, а не Ich heißt?",
+  "answer": "С ich у действия хвост -e: ich heiße.",
+  "distractors": [
+   "heißt — только для имён.",
+   "Можно и так, и так."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich heiße {hero_name}."
+ },
+ {
+  "item_id": "ch01_L3_why_3",
+  "id": "ch01_L3_why_3",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_013",
+  "prompt": "Почему dir, а не Ihnen?",
+  "answer": "С другом — на «ты»: dir. Ihnen — на «вы».",
+  "distractors": [
+   "dir — вежливее.",
+   "Ihnen — только вечером."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie geht es dir?"
+ },
+ {
+  "item_id": "ch01_L3_why_4",
+  "id": "ch01_L3_why_4",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_019",
+  "prompt": "Кому говорят «Wie heißt du?»",
+  "answer": "другу, одногруппнику — на «ты»",
+  "distractors": [
+   "учительнице в первый день",
+   "в Jobcenter"
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie heißt du?"
+ },
+ {
+  "item_id": "ch01_L3_why_5",
+  "id": "ch01_L3_why_5",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_034",
+  "prompt": "Что значит man в «Wie schreibt man das?»",
+  "answer": "«люди вообще»: как русское «пишут».",
+  "distractors": [
+   "«мужчина»: тот, кто пишет.",
+   "«я»: так немец говорит о себе."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie schreibt man das?"
+ },
+ {
+  "item_id": "ch01_L3_transfer_1",
+  "id": "ch01_L3_transfer_1",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_t23",
+  "prompt": "Познакомься сам на «ты»: «Привет! Меня зовут {hero_name}. Как тебя зовут?» (со своим именем).",
+  "answer": "Hallo! Ich heiße {hero_name}. Wie heißt du?",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v4/ch01_t23.mp3",
+  "de": null,
+  "accept_pattern": "Hallo! Ich heiße <любое имя>. Wie heißt du?",
+  "accept_any_name": true,
+  "accept": [
+   "Hallo! Ich heiße {hero_name}. Wie heißt du?"
+  ]
+ },
+ {
+  "item_id": "ch01_L3_transfer_2",
+  "id": "ch01_L3_transfer_2",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_t22",
+  "prompt": "Ответь другу честно и спроси обратно: «Так себе. А у тебя?»",
+  "answer": "Es geht so. Und dir?",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v4/ch01_t22.mp3",
+  "de": null,
+  "accept": [
+   "Es geht so. Und dir?"
+  ]
+ },
+ {
+  "item_id": "ch01_L3_transfer_3",
+  "id": "ch01_L3_transfer_3",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_t22",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Так себе. А у тебя?",
+  "distractors": [
+   "Спасибо, хорошо. А у тебя?",
+   "Привет! Как у тебя дела?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v4/ch01_t22.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L3_transfer_4",
+  "id": "ch01_L3_transfer_4",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_t22",
+  "prompt": "Впиши: «Es geht so. ___ dir?» (а у тебя?)",
+  "answer": "Und",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": "audio_v4/ch01_t22.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L3_boss_1",
+  "id": "ch01_L3_boss_1",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_t22",
+  "prompt": "Кому так скажешь: «Es geht so. Und dir?»",
+  "answer": "другу или одногруппнику — на «ты»",
+  "distractors": [
+   "учительнице в первый день — на «вы»",
+   "в Jobcenter, на приёме"
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": null,
+  "de": "Es geht so. Und dir?"
+ },
+ {
+  "item_id": "ch01_L3_boss_2",
+  "id": "ch01_L3_boss_2",
+  "lesson": "ch01_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d6_10",
+  "prompt": "Послушай. Учительница повторила вопрос. Что ей нужно?",
+  "answer": "как пишется твоё имя — по буквам",
+  "distractors": [
+   "где ты живёшь — твой адрес",
+   "как у тебя дела — хорошо ли"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d6_10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L4_words_1",
+  "id": "ch01_L4_words_1",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_036",
+  "prompt": "Что значит «woher»?",
+  "answer": "откуда",
+  "distractors": [
+   "когда",
+   "почему"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L4_words_2",
+  "id": "ch01_L4_words_2",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_038",
+  "prompt": "Что значит «aus» во фразе «Ich komme aus der Ukraine»?",
+  "answer": "из",
+  "distractors": [
+   "в",
+   "на"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L4_words_3",
+  "id": "ch01_L4_words_3",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_025",
+  "prompt": "Что значит «wer»?",
+  "answer": "кто",
+  "distractors": [
+   "откуда",
+   "как"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L4_words_4",
+  "id": "ch01_L4_words_4",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_044",
+  "prompt": "Что значит «Kommen Sie aus Polen?»",
+  "answer": "Вы из Польши?",
+  "distractors": [
+   "Откуда вы?",
+   "Вы в Польше?"
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L4_words_5",
+  "id": "ch01_L4_words_5",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_045",
+  "prompt": "Кому говорят «ihr» в «Woher kommt ihr?»",
+  "answer": "двоим и больше, с кем ты на «ты»",
+  "distractors": [
+   "одному человеку — на «вы»",
+   "только учительнице на уроке"
+  ],
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L4_listen_1",
+  "id": "ch01_L4_listen_1",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d7_01",
+  "prompt": "Послушай. Что спросила учительница?",
+  "answer": "Откуда вы?",
+  "distractors": [
+   "Как вас зовут?",
+   "Как у вас дела?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d7_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L4_listen_2",
+  "id": "ch01_L4_listen_2",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d7_02",
+  "prompt": "Послушай. Откуда герой?",
+  "answer": "из Украины",
+  "distractors": [
+   "из Польши",
+   "из Сирии"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d7_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L4_listen_3",
+  "id": "ch01_L4_listen_3",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d7_05",
+  "prompt": "Послушай мелодию. Какой это вопрос?",
+  "answer": "вопрос «да/нет» («Вы из Польши?»): голос в конце вверх",
+  "distractors": [
+   "вопрос с вопрос-словом («Откуда вы?»): голос вниз",
+   "рассказ («Я из Польши.»): голос вниз"
+  ],
+  "rule_id": "topics/intonation",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d7_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L4_listen_4",
+  "id": "ch01_L4_listen_4",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d7_06",
+  "prompt": "Послушай. Что ответила Ольга?",
+  "answer": "Да, я из Польши.",
+  "distractors": [
+   "Нет, я из Украины.",
+   "Да, меня зовут Ольга."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d7_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L4_listen_5",
+  "id": "ch01_L4_listen_5",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d7_08",
+  "prompt": "Послушай. Откуда братья?",
+  "answer": "из Сирии",
+  "distractors": [
+   "из Польши",
+   "из Украины"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d7_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L4_read_1",
+  "id": "ch01_L4_read_1",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_036",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Откуда вы?",
+  "distractors": [
+   "Кто вы?",
+   "Как вас зовут?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Woher kommen Sie?"
+ },
+ {
+  "item_id": "ch01_L4_read_2",
+  "id": "ch01_L4_read_2",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_038",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я из Украины.",
+  "distractors": [
+   "Я в Украине.",
+   "Мы из Украины."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich komme aus der Ukraine."
+ },
+ {
+  "item_id": "ch01_L4_read_3",
+  "id": "ch01_L4_read_3",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_d7_03",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "А кто это?",
+  "distractors": [
+   "А как это?",
+   "А откуда это?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Und wer ist das?"
+ },
+ {
+  "item_id": "ch01_L4_read_4",
+  "id": "ch01_L4_read_4",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_d7_07",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Откуда вы (друзья, двое и больше)?",
+  "distractors": [
+   "Откуда ты?",
+   "Вы откуда? (вежливо, одному)"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Woher kommt ihr?"
+ },
+ {
+  "item_id": "ch01_L4_read_5",
+  "id": "ch01_L4_read_5",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_d7_08",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Мы из Сирии.",
+  "distractors": [
+   "Я из Сирии.",
+   "Вы из Сирии?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wir kommen aus Syrien."
+ },
+ {
+  "item_id": "ch01_L4_speak_1",
+  "id": "ch01_L4_speak_1",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_036",
+  "prompt": "Спроси по-немецки на «вы»: «Откуда вы?» Голос в конце — вниз ↘.",
+  "answer": "Woher kommen Sie?",
+  "distractors": null,
+  "rule_id": "topics/intonation",
+  "transfer": false,
+  "audio": "audio_v1/ch01_036.mp3",
+  "de": null,
+  "accept": [
+   "Woher kommen Sie?"
+  ]
+ },
+ {
+  "item_id": "ch01_L4_speak_2",
+  "id": "ch01_L4_speak_2",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_038",
+  "prompt": "Скажи по-немецки: «Я из Украины.» Голос в конце — вниз ↘.",
+  "answer": "Ich komme aus der Ukraine.",
+  "distractors": null,
+  "rule_id": "topics/intonation",
+  "transfer": false,
+  "audio": "audio_v1/ch01_038.mp3",
+  "de": null,
+  "accept": [
+   "Ich komme aus der Ukraine."
+  ]
+ },
+ {
+  "item_id": "ch01_L4_speak_3",
+  "id": "ch01_L4_speak_3",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_044",
+  "prompt": "Спроси по-немецки: «Вы из Польши?» Голос в конце — вверх ↗.",
+  "answer": "Kommen Sie aus Polen?",
+  "distractors": null,
+  "rule_id": "topics/intonation",
+  "transfer": false,
+  "audio": "audio_v1/ch01_044.mp3",
+  "de": null,
+  "accept": [
+   "Kommen Sie aus Polen?"
+  ]
+ },
+ {
+  "item_id": "ch01_L4_speak_4",
+  "id": "ch01_L4_speak_4",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_025",
+  "prompt": "Спроси по-немецки: «Кто это?»",
+  "answer": "Wer ist das?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch01_025.mp3",
+  "de": null,
+  "accept": [
+   "Wer ist das?"
+  ]
+ },
+ {
+  "item_id": "ch01_L4_speak_5",
+  "id": "ch01_L4_speak_5",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_d7_04",
+  "prompt": "Представь одногруппницу: «Это Ольга.»",
+  "answer": "Das ist Olga.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d7_04.mp3",
+  "de": null,
+  "accept": [
+   "Das ist Olga."
+  ]
+ },
+ {
+  "item_id": "ch01_L4_write_1",
+  "id": "ch01_L4_write_1",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_036",
+  "prompt": "Впиши: «___ kommen Sie?» (откуда)",
+  "answer": "Woher",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch01_036.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L4_write_2",
+  "id": "ch01_L4_write_2",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_038",
+  "prompt": "Впиши: «Ich komme ___ der Ukraine.» (из)",
+  "answer": "aus",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1/ch01_038.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L4_write_3",
+  "id": "ch01_L4_write_3",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_044",
+  "prompt": "Впиши: «___ Sie aus Polen?»",
+  "answer": "Kommen",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch01_044.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L4_write_4",
+  "id": "ch01_L4_write_4",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_045",
+  "prompt": "Впиши: «Woher ___ ihr?»",
+  "answer": "kommt",
+  "distractors": null,
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": "audio_v1/ch01_045.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L4_write_5",
+  "id": "ch01_L4_write_5",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_d7_08",
+  "prompt": "Впиши: «___ kommen aus Syrien.» (мы)",
+  "answer": "Wir",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d7_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L4_why_1",
+  "id": "ch01_L4_why_1",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_036",
+  "prompt": "Почему «Woher kommen Sie?», а не «Woher Sie kommen?»",
+  "answer": "После вопрос-слова сразу действие — вагон №2.",
+  "distractors": [
+   "Порядок свободный, как в русском.",
+   "Sie должно стоять в конце."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Woher kommen Sie?"
+ },
+ {
+  "item_id": "ch01_L4_why_2",
+  "id": "ch01_L4_why_2",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_044",
+  "prompt": "Почему в «Kommen Sie aus Polen?» kommen стоит первым?",
+  "answer": "Это вопрос «да/нет»: действие выходит вперёд.",
+  "distractors": [
+   "Так вежливее.",
+   "kommen — главное слово, поэтому первое."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Kommen Sie aus Polen?"
+ },
+ {
+  "item_id": "ch01_L4_why_3",
+  "id": "ch01_L4_why_3",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_d7_06",
+  "prompt": "Почему в «Ja, ich komme aus Polen.» ich стоит сразу после ja?",
+  "answer": "ja не занимает вагон: поезд начинается с ich.",
+  "distractors": [
+   "ja — это действие.",
+   "После ja порядок свободный."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Ja, ich komme aus Polen."
+ },
+ {
+  "item_id": "ch01_L4_why_4",
+  "id": "ch01_L4_why_4",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_045",
+  "prompt": "Почему «Woher kommt ihr?», а не «Woher kommen ihr?»",
+  "answer": "С ihr у действия хвост -t: ihr kommt.",
+  "distractors": [
+   "kommt — короче.",
+   "kommen — только в вопросе."
+  ],
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": null,
+  "de": "Woher kommt ihr?"
+ },
+ {
+  "item_id": "ch01_L4_why_5",
+  "id": "ch01_L4_why_5",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_038",
+  "prompt": "Почему «aus der Ukraine», а не «aus Ukraine»?",
+  "answer": "Ukraine — страна с артиклем: die Ukraine → aus der Ukraine.",
+  "distractors": [
+   "Так короче, а артикль тут не важен.",
+   "der — потому что дальше идёт вопрос."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich komme aus der Ukraine."
+ },
+ {
+  "item_id": "ch01_L4_transfer_1",
+  "id": "ch01_L4_transfer_1",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_t25",
+  "prompt": "Кассирша спросила: «Kommen Sie aus der Ukraine?» Ответь сам: «Да, я из Украины.»",
+  "answer": "Ja, ich komme aus der Ukraine.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v4/ch01_t25.mp3",
+  "de": null,
+  "accept": [
+   "Ja, ich komme aus der Ukraine."
+  ]
+ },
+ {
+  "item_id": "ch01_L4_transfer_2",
+  "id": "ch01_L4_transfer_2",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_t26",
+  "prompt": "Спроси соседа на «вы»: «Вы из Дрездена?» Голос в конце — вверх ↗.",
+  "answer": "Kommen Sie aus Dresden?",
+  "distractors": null,
+  "rule_id": "topics/intonation",
+  "transfer": true,
+  "audio": "audio_v4/ch01_t26.mp3",
+  "de": null,
+  "accept": [
+   "Kommen Sie aus Dresden?"
+  ]
+ },
+ {
+  "item_id": "ch01_L4_transfer_3",
+  "id": "ch01_L4_transfer_3",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_t26",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Вы из Дрездена?",
+  "distractors": [
+   "Откуда вы? Из Дрездена?",
+   "Я из Дрездена."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v4/ch01_t26.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L4_transfer_4",
+  "id": "ch01_L4_transfer_4",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_t26",
+  "prompt": "Впиши город: «Kommen Sie aus ___?» (Дрезден)",
+  "answer": "Dresden",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": "audio_v4/ch01_t26.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L4_boss_1",
+  "id": "ch01_L4_boss_1",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_t26",
+  "prompt": "Почему «aus Dresden» без артикля, а «aus der Ukraine» — с ним?",
+  "answer": "Город — без артикля; Ukraine — страна с артиклем.",
+  "distractors": [
+   "Dresden — короткое слово, артикль ему не нужен.",
+   "В вопросе артикль пропускают, а в ответе — нет."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": true,
+  "audio": null,
+  "de": "Kommen Sie aus Dresden?"
+ },
+ {
+  "item_id": "ch01_L4_boss_2",
+  "id": "ch01_L4_boss_2",
+  "lesson": "ch01_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d7_07",
+  "prompt": "Послушай. Кому так говорят — «Woher kommt ihr?»",
+  "answer": "«Откуда вы?» — двоим друзьям, с кем ты на «ты»",
+  "distractors": [
+   "«Откуда вы?» — одному человеку, вежливо",
+   "«Откуда вы?» — учительнице на уроке"
+  ],
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d7_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L5_words_1",
+  "id": "ch01_L5_words_1",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_046",
+  "prompt": "Что значит «wo»?",
+  "answer": "где",
+  "distractors": [
+   "откуда",
+   "когда"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L5_words_2",
+  "id": "ch01_L5_words_2",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_048",
+  "prompt": "Что значит «wohne»?",
+  "answer": "живу",
+  "distractors": [
+   "иду",
+   "пишу"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L5_words_3",
+  "id": "ch01_L5_words_3",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_077",
+  "prompt": "Что значит «Hausnummer»?",
+  "answer": "номер дома",
+  "distractors": [
+   "улица",
+   "телефон"
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L5_words_4",
+  "id": "ch01_L5_words_4",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_078",
+  "prompt": "Что значит «acht»?",
+  "answer": "восемь",
+  "distractors": [
+   "шесть",
+   "десять"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L5_words_5",
+  "id": "ch01_L5_words_5",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_022",
+  "prompt": "Что значит «Vorname»?",
+  "answer": "имя",
+  "distractors": [
+   "фамилия",
+   "адрес"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L5_listen_1",
+  "id": "ch01_L5_listen_1",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d8_01",
+  "prompt": "Послушай. Что спросила сотрудница?",
+  "answer": "Добрый день! Как ваше имя?",
+  "distractors": [
+   "Добрый день! Откуда вы?",
+   "Добрый день! Где вы живёте?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d8_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L5_listen_2",
+  "id": "ch01_L5_listen_2",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d8_04",
+  "prompt": "Послушай. Где живёт герой?",
+  "answer": "возле Фрайберга",
+  "distractors": [
+   "во Фрайберге",
+   "в Дрездене"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d8_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L5_listen_3",
+  "id": "ch01_L5_listen_3",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d8_06",
+  "prompt": "Послушай. Какой номер дома?",
+  "answer": "восемь",
+  "distractors": [
+   "шесть",
+   "десять"
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d8_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L5_listen_4",
+  "id": "ch01_L5_listen_4",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d8_08",
+  "prompt": "Послушай. Кого представил герой?",
+  "answer": "госпожу Вагнер",
+  "distractors": [
+   "господина Шмидта",
+   "Ольгу"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d8_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L5_listen_5",
+  "id": "ch01_L5_listen_5",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d8_10",
+  "prompt": "Послушай. Где живёт Frau Wagner?",
+  "answer": "во Фрайберге",
+  "distractors": [
+   "возле Фрайберга",
+   "в Лейпциге"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d8_10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L5_read_1",
+  "id": "ch01_L5_read_1",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_046",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Где вы живёте?",
+  "distractors": [
+   "Откуда вы?",
+   "Как вас зовут?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wo wohnen Sie?"
+ },
+ {
+  "item_id": "ch01_L5_read_2",
+  "id": "ch01_L5_read_2",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_048",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я живу в Саксонии.",
+  "distractors": [
+   "Я из Саксонии.",
+   "Вы живёте в Саксонии?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich wohne in Sachsen."
+ },
+ {
+  "item_id": "ch01_L5_read_3",
+  "id": "ch01_L5_read_3",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_077",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Какой у вас номер дома?",
+  "distractors": [
+   "Как ваше имя?",
+   "Где вы живёте?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie ist Ihre Hausnummer?"
+ },
+ {
+  "item_id": "ch01_L5_read_4",
+  "id": "ch01_L5_read_4",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_d8_04",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я живу возле Фрайберга.",
+  "distractors": [
+   "Я из Фрайберга.",
+   "Я живу во Фрайберге."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich wohne bei Freiberg."
+ },
+ {
+  "item_id": "ch01_L5_read_5",
+  "id": "ch01_L5_read_5",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_d8_08",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это госпожа Вагнер.",
+  "distractors": [
+   "Это моя соседка.",
+   "Где госпожа Вагнер?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist Frau Wagner."
+ },
+ {
+  "item_id": "ch01_L5_speak_1",
+  "id": "ch01_L5_speak_1",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_046",
+  "prompt": "Спроси по-немецки на «вы»: «Где вы живёте?» Долгое «о:» в wohnen.",
+  "answer": "Wo wohnen Sie?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1fix/ch01_046.mp3",
+  "de": null,
+  "accept": [
+   "Wo wohnen Sie?"
+  ]
+ },
+ {
+  "item_id": "ch01_L5_speak_2",
+  "id": "ch01_L5_speak_2",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_048",
+  "prompt": "Скажи по-немецки: «Я живу в Саксонии.»",
+  "answer": "Ich wohne in Sachsen.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1fix/ch01_048.mp3",
+  "de": null,
+  "accept": [
+   "Ich wohne in Sachsen."
+  ]
+ },
+ {
+  "item_id": "ch01_L5_speak_3",
+  "id": "ch01_L5_speak_3",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_078",
+  "prompt": "Скажи по-немецки: «Мой номер дома — восемь.»",
+  "answer": "Meine Hausnummer ist acht.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v3/ch01_078.mp3",
+  "de": null,
+  "accept": [
+   "Meine Hausnummer ist acht."
+  ]
+ },
+ {
+  "item_id": "ch01_L5_speak_4",
+  "id": "ch01_L5_speak_4",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_077",
+  "prompt": "Спроси по-немецки на «вы»: «Какой у вас номер дома?»",
+  "answer": "Wie ist Ihre Hausnummer?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v3/ch01_077.mp3",
+  "de": null,
+  "accept": [
+   "Wie ist Ihre Hausnummer?"
+  ]
+ },
+ {
+  "item_id": "ch01_L5_speak_5",
+  "id": "ch01_L5_speak_5",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_d8_08",
+  "prompt": "Представь хозяйку дома: «Это госпожа Вагнер.»",
+  "answer": "Das ist Frau Wagner.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d8_08.mp3",
+  "de": null,
+  "accept": [
+   "Das ist Frau Wagner."
+  ]
+ },
+ {
+  "item_id": "ch01_L5_write_1",
+  "id": "ch01_L5_write_1",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_046",
+  "prompt": "Впиши: «___ wohnen Sie?» (где)",
+  "answer": "Wo",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1fix/ch01_046.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L5_write_2",
+  "id": "ch01_L5_write_2",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_048",
+  "prompt": "Впиши: «Ich ___ in Sachsen.» (живу)",
+  "answer": "wohne",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v1fix/ch01_048.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L5_write_3",
+  "id": "ch01_L5_write_3",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_078",
+  "prompt": "Впиши: «Meine Hausnummer ist ___.» (8)",
+  "answer": "acht",
+  "distractors": null,
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v3/ch01_078.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L5_write_4",
+  "id": "ch01_L5_write_4",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_077",
+  "prompt": "Впиши: «Wie ist Ihre ___?» (номер дома)",
+  "answer": "Hausnummer",
+  "distractors": null,
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v3/ch01_077.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L5_write_5",
+  "id": "ch01_L5_write_5",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_d8_04",
+  "prompt": "Впиши: «Ich wohne ___ Freiberg.» (под, возле)",
+  "answer": "bei",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d8_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L5_why_1",
+  "id": "ch01_L5_why_1",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_046",
+  "prompt": "Почему на «Wo wohnen Sie?» не отвечают «Ich komme aus …»?",
+  "answer": "Wo спрашивает «где вы живёте?» — ответ: Ich wohne in/bei …",
+  "distractors": [
+   "Wo и woher — одно и то же, ответ любой.",
+   "Ich komme aus … — ответ только на «ты»."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Wo wohnen Sie?"
+ },
+ {
+  "item_id": "ch01_L5_why_2",
+  "id": "ch01_L5_why_2",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_d8_04",
+  "prompt": "Почему «bei Freiberg», а не «in Freiberg»?",
+  "answer": "Герой живёт рядом с городом: bei — «возле».",
+  "distractors": [
+   "bei — вежливее, чем in.",
+   "in — только для стран, не для городов."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich wohne bei Freiberg."
+ },
+ {
+  "item_id": "ch01_L5_why_3",
+  "id": "ch01_L5_why_3",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_d8_10",
+  "prompt": "Почему у Frau Wagner — «in Freiberg»?",
+  "answer": "Она живёт в самом городе: in — «в».",
+  "distractors": [
+   "in — потому что это ответ «да».",
+   "in — потому что она хозяйка дома."
+  ],
+  "rule_id": "cards/phrases",
+  "transfer": false,
+  "audio": null,
+  "de": "Ja, in Freiberg."
+ },
+ {
+  "item_id": "ch01_L5_why_4",
+  "id": "ch01_L5_why_4",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_078",
+  "prompt": "Почему «Meine Hausnummer», а не «Mein Hausnummer»?",
+  "answer": "die Hausnummer — die-слово, поэтому meine с -e.",
+  "distractors": [
+   "Так короче и проще сказать.",
+   "meine — потому что дальше число."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Meine Hausnummer ist acht."
+ },
+ {
+  "item_id": "ch01_L5_why_5",
+  "id": "ch01_L5_why_5",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_048",
+  "prompt": "Почему «Ich wohne», а не «Ich wohnen»?",
+  "answer": "С ich у действия хвост -e: ich wohne.",
+  "distractors": [
+   "wohnen — только в вопросе.",
+   "Можно и так, и так."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich wohne in Sachsen."
+ },
+ {
+  "item_id": "ch01_L5_transfer_1",
+  "id": "ch01_L5_transfer_1",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_t27",
+  "prompt": "Скажи о себе, как будто ты переехал в Дрезден: «Я живу в Дрездене.»",
+  "answer": "Ich wohne in Dresden.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v4/ch01_t27.mp3",
+  "de": null,
+  "accept": [
+   "Ich wohne in Dresden."
+  ]
+ },
+ {
+  "item_id": "ch01_L5_transfer_2",
+  "id": "ch01_L5_transfer_2",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_t28",
+  "prompt": "Спроси нового знакомого на «вы»: «Вы живёте в Хемнице?» Голос в конце — вверх ↗.",
+  "answer": "Wohnen Sie in Chemnitz?",
+  "distractors": null,
+  "rule_id": "topics/intonation",
+  "transfer": true,
+  "audio": "audio_v4/ch01_t28.mp3",
+  "de": null,
+  "accept": [
+   "Wohnen Sie in Chemnitz?"
+  ]
+ },
+ {
+  "item_id": "ch01_L5_transfer_3",
+  "id": "ch01_L5_transfer_3",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_t28",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Вы живёте в Хемнице?",
+  "distractors": [
+   "Вы из Хемница?",
+   "Я живу в Хемнице."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v4/ch01_t28.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L5_transfer_4",
+  "id": "ch01_L5_transfer_4",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_t28",
+  "prompt": "Впиши город: «Wohnen Sie in ___?» (Хемниц)",
+  "answer": "Chemnitz",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": "audio_v4/ch01_t28.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L5_boss_1",
+  "id": "ch01_L5_boss_1",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_t28",
+  "prompt": "Почему «Wohnen Sie in Chemnitz?» начинается с действия?",
+  "answer": "Это вопрос «да/нет»: действие впереди.",
+  "distractors": [
+   "Wohnen — главное слово, поэтому первое.",
+   "Так спрашивают только в ведомстве."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": true,
+  "audio": null,
+  "de": "Wohnen Sie in Chemnitz?"
+ },
+ {
+  "item_id": "ch01_L5_boss_2",
+  "id": "ch01_L5_boss_2",
+  "lesson": "ch01_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d8_05",
+  "prompt": "Послушай. Что нужно сотруднице?",
+  "answer": "номер дома",
+  "distractors": [
+   "имя по буквам",
+   "откуда ты"
+  ],
+  "rule_id": "cards/numbers",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d8_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L6_words_1",
+  "id": "ch01_L6_words_1",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_091",
+  "prompt": "Что значит «Familienname»?",
+  "answer": "фамилия",
+  "distractors": [
+   "имя",
+   "адрес"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L6_words_2",
+  "id": "ch01_L6_words_2",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_093",
+  "prompt": "Что значит «Land»?",
+  "answer": "страна",
+  "distractors": [
+   "город",
+   "улица"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L6_words_3",
+  "id": "ch01_L6_words_3",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_094",
+  "prompt": "Что значит «Stadt»?",
+  "answer": "город",
+  "distractors": [
+   "страна",
+   "улица"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L6_words_4",
+  "id": "ch01_L6_words_4",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_096",
+  "prompt": "Что значит «Postleitzahl»?",
+  "answer": "почтовый индекс",
+  "distractors": [
+   "улица",
+   "населённый пункт"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L6_words_5",
+  "id": "ch01_L6_words_5",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_096",
+  "prompt": "Что значит «Straße»?",
+  "answer": "улица",
+  "distractors": [
+   "город",
+   "страна"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L6_words_6",
+  "id": "ch01_L6_words_6",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch01_097",
+  "prompt": "Что значит «Anmeldung»?",
+  "answer": "регистрация",
+  "distractors": [
+   "приглашение",
+   "расписание"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch01_L6_listen_1",
+  "id": "ch01_L6_listen_1",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d9_02",
+  "prompt": "Послушай. Что спросила учительница?",
+  "answer": "Как ваша фамилия?",
+  "distractors": [
+   "Как ваше имя?",
+   "Какой у вас адрес?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d9_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L6_listen_2",
+  "id": "ch01_L6_listen_2",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d9_04",
+  "prompt": "Послушай. О чём спросила учительница?",
+  "answer": "откуда герой и как зовётся страна",
+  "distractors": [
+   "где живёт герой и как зовётся город",
+   "как фамилия героя"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d9_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L6_listen_3",
+  "id": "ch01_L6_listen_3",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d9_08",
+  "prompt": "Послушай. Что входит в адрес?",
+  "answer": "улица, дом, индекс, населённый пункт",
+  "distractors": [
+   "имя, фамилия, страна, населённый пункт",
+   "улица, телефон, страна, населённый пункт"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d9_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L6_listen_4",
+  "id": "ch01_L6_listen_4",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d9_10",
+  "prompt": "Послушай. Кого представил герой?",
+  "answer": "господина Шмидта",
+  "distractors": [
+   "госпожу Беккер",
+   "Ольгу"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d9_10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L6_listen_5",
+  "id": "ch01_L6_listen_5",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d9_12",
+  "prompt": "Послушай. Что герой сказал о курсе?",
+  "answer": "Курс хороший.",
+  "distractors": [
+   "Курс во Фрайберге.",
+   "Курс — завтра."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d9_12.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L6_read_1",
+  "id": "ch01_L6_read_1",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_091",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Как ваша фамилия?",
+  "distractors": [
+   "Как ваше имя?",
+   "Как вас зовут?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie ist Ihr Familienname?"
+ },
+ {
+  "item_id": "ch01_L6_read_2",
+  "id": "ch01_L6_read_2",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_092",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это мой адрес.",
+  "distractors": [
+   "Это моя фамилия.",
+   "Где мой адрес?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist meine Adresse."
+ },
+ {
+  "item_id": "ch01_L6_read_3",
+  "id": "ch01_L6_read_3",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_d9_04",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Откуда вы? Как зовётся страна?",
+  "distractors": [
+   "Где вы живёте? Как зовётся город?",
+   "Откуда вы? Как зовётся город?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Woher kommen Sie? Wie heißt das Land?"
+ },
+ {
+  "item_id": "ch01_L6_read_4",
+  "id": "ch01_L6_read_4",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_d9_11",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Добрый день! Как курс?",
+  "distractors": [
+   "Добрый день! Где курс?",
+   "Добрый день! Как дела?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Guten Tag! Wie ist der Kurs?"
+ },
+ {
+  "item_id": "ch01_L6_read_5",
+  "id": "ch01_L6_read_5",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_d9_03",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Моя фамилия — Петренко.",
+  "distractors": [
+   "Моё имя — Петренко.",
+   "Меня зовут Ольга."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Mein Familienname ist Petrenko."
+ },
+ {
+  "item_id": "ch01_L6_speak_1",
+  "id": "ch01_L6_speak_1",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_091",
+  "prompt": "Спроси по-немецки на «вы»: «Как ваша фамилия?»",
+  "answer": "Wie ist Ihr Familienname?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v4/ch01_091.mp3",
+  "de": null,
+  "accept": [
+   "Wie ist Ihr Familienname?"
+  ]
+ },
+ {
+  "item_id": "ch01_L6_speak_2",
+  "id": "ch01_L6_speak_2",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_092",
+  "prompt": "Покажи анкету и скажи по-немецки: «Это мой адрес.»",
+  "answer": "Das ist meine Adresse.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v4/ch01_092.mp3",
+  "de": null,
+  "accept": [
+   "Das ist meine Adresse."
+  ]
+ },
+ {
+  "item_id": "ch01_L6_speak_3",
+  "id": "ch01_L6_speak_3",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_094",
+  "prompt": "Спроси по-немецки: «Как зовётся город?» В начале Stadt — «шт».",
+  "answer": "Wie heißt die Stadt?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v4/ch01_094.mp3",
+  "de": null,
+  "accept": [
+   "Wie heißt die Stadt?"
+  ]
+ },
+ {
+  "item_id": "ch01_L6_speak_4",
+  "id": "ch01_L6_speak_4",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_d9_10",
+  "prompt": "Представь соседа: «Это господин Шмидт.»",
+  "answer": "Das ist Herr Schmidt.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d9_10.mp3",
+  "de": null,
+  "accept": [
+   "Das ist Herr Schmidt."
+  ]
+ },
+ {
+  "item_id": "ch01_L6_speak_5",
+  "id": "ch01_L6_speak_5",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_095",
+  "prompt": "Скажи по-немецки: «Курс хороший.»",
+  "answer": "Der Kurs ist gut.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v4/ch01_095.mp3",
+  "de": null,
+  "accept": [
+   "Der Kurs ist gut."
+  ]
+ },
+ {
+  "item_id": "ch01_L6_write_1",
+  "id": "ch01_L6_write_1",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_091",
+  "prompt": "Впиши: «Wie ist Ihr ___?» (фамилия)",
+  "answer": "Familienname",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v4/ch01_091.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L6_write_2",
+  "id": "ch01_L6_write_2",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_092",
+  "prompt": "Впиши: «Das ist ___ Adresse.» (мой — для die-слова)",
+  "answer": "meine",
+  "distractors": null,
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": "audio_v4/ch01_092.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L6_write_3",
+  "id": "ch01_L6_write_3",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_093",
+  "prompt": "Впиши: «Wie heißt das ___?» (страна)",
+  "answer": "Land",
+  "distractors": null,
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": "audio_v4/ch01_093.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L6_write_4",
+  "id": "ch01_L6_write_4",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_094",
+  "prompt": "Впиши: «Wie heißt ___ Stadt?» (артикль)",
+  "answer": "die",
+  "distractors": null,
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": "audio_v4/ch01_094.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L6_write_5",
+  "id": "ch01_L6_write_5",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_095",
+  "prompt": "Впиши: «Der ___ ist gut.» (курс)",
+  "answer": "Kurs",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v4/ch01_095.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L6_why_1",
+  "id": "ch01_L6_why_1",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_091",
+  "prompt": "Почему «Ihr Familienname», а не «Ihre Familienname»?",
+  "answer": "der Familienname — der-слово, поэтому Ihr без -e.",
+  "distractors": [
+   "Ihr — потому что это вопрос.",
+   "Ihre говорят про адрес, а Ihr — про людей."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie ist Ihr Familienname?"
+ },
+ {
+  "item_id": "ch01_L6_why_2",
+  "id": "ch01_L6_why_2",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_092",
+  "prompt": "Почему «meine Adresse», а не «mein Adresse»?",
+  "answer": "die Adresse — die-слово, поэтому meine с -e.",
+  "distractors": [
+   "meine — потому что адрес пишут на бумаге.",
+   "Адрес длиннее имени, поэтому и слово длиннее."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist meine Adresse."
+ },
+ {
+  "item_id": "ch01_L6_why_3",
+  "id": "ch01_L6_why_3",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_094",
+  "prompt": "В вопросе про город действие стоит сразу после Wie. Почему?",
+  "answer": "После вопрос-слова действие занимает вагон №2.",
+  "distractors": [
+   "Действие — короткое слово, оно стоит ближе к началу.",
+   "Так спрашивают о городах, а о людях — иначе."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie heißt die Stadt?"
+ },
+ {
+  "item_id": "ch01_L6_why_4",
+  "id": "ch01_L6_why_4",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_095",
+  "prompt": "Почему «Der Kurs ist gut», а не «Der Kurs gut»?",
+  "answer": "По-немецки без ist нельзя: ist — как знак «=».",
+  "distractors": [
+   "ist добавляют, чтобы звучало вежливо.",
+   "Без ist получится вопрос."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Der Kurs ist gut."
+ },
+ {
+  "item_id": "ch01_L6_why_5",
+  "id": "ch01_L6_why_5",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_d9_05",
+  "prompt": "Почему «aus der Ukraine», а не «aus Ukraine»?",
+  "answer": "Ukraine — страна с артиклем die; после aus — der.",
+  "distractors": [
+   "der — потому что герой мужчина и говорит о себе.",
+   "Так говорят про все страны, даже без артикля."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich komme aus der Ukraine."
+ },
+ {
+  "item_id": "ch01_L6_transfer_1",
+  "id": "ch01_L6_transfer_1",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_t29",
+  "prompt": "Одногруппница Мария рассказывает о себе. Скажи за неё по-немецки: «Я из Италии. Я живу в Германии.»",
+  "answer": "Ich komme aus Italien. Ich wohne in Deutschland.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v4/ch01_t29.mp3",
+  "de": null,
+  "accept": [
+   "Ich komme aus Italien. Ich wohne in Deutschland."
+  ]
+ },
+ {
+  "item_id": "ch01_L6_transfer_2",
+  "id": "ch01_L6_transfer_2",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_t30",
+  "prompt": "Послушай новую фразу одногруппника. Откуда он и где живёт?",
+  "answer": "из Испании, живёт в Гамбурге",
+  "distractors": [
+   "из Италии, живёт в Гамбурге",
+   "из Испании, живёт в Берлине"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v4/ch01_t30.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L6_transfer_3",
+  "id": "ch01_L6_transfer_3",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch01_t37",
+  "prompt": "Впиши страну: «Marokko, Tunesien, ___.» (Египет)",
+  "answer": "Ägypten",
+  "distractors": null,
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v4/ch01_t37.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L6_transfer_4",
+  "id": "ch01_L6_transfer_4",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_t32",
+  "prompt": "Скажи за одногруппника из Турции: «Я из Турции. Я живу во Франкфурте.» Турция — страна с артиклем.",
+  "answer": "Ich komme aus der Türkei. Ich wohne in Frankfurt.",
+  "distractors": null,
+  "rule_id": "cards/articles",
+  "transfer": true,
+  "audio": "audio_v4/ch01_t32.mp3",
+  "de": null,
+  "accept": [
+   "Ich komme aus der Türkei. Ich wohne in Frankfurt."
+  ]
+ },
+ {
+  "item_id": "ch01_L6_transfer_5",
+  "id": "ch01_L6_transfer_5",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_t33",
+  "prompt": "Послушай новую фразу. Откуда эти двое?",
+  "answer": "из Словакии",
+  "distractors": [
+   "из Словении",
+   "из Чехии"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v4/ch01_t33.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L6_transfer_6",
+  "id": "ch01_L6_transfer_6",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch01_t34",
+  "prompt": "Спроси нового одногруппника на «вы»: «Вы живёте в Кёльне?» Голос в конце — вверх ↗.",
+  "answer": "Wohnen Sie in Köln?",
+  "distractors": null,
+  "rule_id": "topics/intonation",
+  "transfer": true,
+  "audio": "audio_v4/ch01_t34.mp3",
+  "de": null,
+  "accept": [
+   "Wohnen Sie in Köln?"
+  ]
+ },
+ {
+  "item_id": "ch01_L6_transfer_7",
+  "id": "ch01_L6_transfer_7",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_t35",
+  "prompt": "Прочитай новую фразу. Что это значит?",
+  "answer": "Мы из Индии. Мы живём возле Ростока.",
+  "distractors": [
+   "Мы из Индии. Мы живём в Ростоке.",
+   "Я из Индии. Я живу возле Ростока."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": null,
+  "de": "Wir kommen aus Indien. Wir wohnen bei Rostock."
+ },
+ {
+  "item_id": "ch01_L6_transfer_8",
+  "id": "ch01_L6_transfer_8",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_t38",
+  "prompt": "Новичок ищет на карте Африку. Послушай. Какие страны назвала учительница?",
+  "answer": "Кения, Эритрея, Южная Африка.",
+  "distractors": [
+   "Кения, Эфиопия, Южная Африка.",
+   "Гана, Эритрея, Южная Африка."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v4/ch01_t38.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L6_transfer_9",
+  "id": "ch01_L6_transfer_9",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_t40",
+  "prompt": "Прочитай названия на карте. Что это за страны?",
+  "answer": "Мексика, США, Австралия.",
+  "distractors": [
+   "Мексика, США, Австрия.",
+   "Марокко, США, Австралия."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": null,
+  "de": "Mexiko, die USA, Australien."
+ },
+ {
+  "item_id": "ch01_L6_transfer_10",
+  "id": "ch01_L6_transfer_10",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_084",
+  "prompt": "Послушай: соседи Германии на западе и юге. Какие страны назвали?",
+  "answer": "Франция, Бельгия, Люксембург, Швейцария.",
+  "distractors": [
+   "Франция, Бельгия, Люксембург, Швеция.",
+   "Франция, Болгария, Люксембург, Швейцария."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v4/ch01_084.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L6_transfer_11",
+  "id": "ch01_L6_transfer_11",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_085",
+  "prompt": "Прочитай: соседи Германии на севере и западе. Что это за страны?",
+  "answer": "Дания, Нидерланды.",
+  "distractors": [
+   "Дания, Норвегия.",
+   "Германия, Нидерланды."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": null,
+  "de": "Dänemark, die Niederlande."
+ },
+ {
+  "item_id": "ch01_L6_transfer_12",
+  "id": "ch01_L6_transfer_12",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_t36",
+  "prompt": "Послушай новую цепочку: учительница показывает страны на карте. Какие?",
+  "answer": "Болгария, Румыния, Хорватия.",
+  "distractors": [
+   "Болгария, Румыния, Словакия.",
+   "Бельгия, Румыния, Хорватия."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v4/ch01_t36.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L6_transfer_13",
+  "id": "ch01_L6_transfer_13",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch01_t31",
+  "prompt": "Прочитай новую фразу. Что это значит?",
+  "answer": "Мы из Бразилии. Мы живём в Мюнхене.",
+  "distractors": [
+   "Мы из Бразилии. Мы живём возле Мюнхена.",
+   "Я из Бразилии. Я живу в Мюнхене."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": null,
+  "de": "Wir kommen aus Brasilien. Wir wohnen in München."
+ },
+ {
+  "item_id": "ch01_L6_transfer_14",
+  "id": "ch01_L6_transfer_14",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_t39",
+  "prompt": "Послушай новую цепочку. Какие страны назвали?",
+  "answer": "Афганистан, Ирак, Иран.",
+  "distractors": [
+   "Афганистан, Ирак, Италия.",
+   "Австралия, Ирак, Иран."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v4/ch01_t39.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L6_boss_1",
+  "id": "ch01_L6_boss_1",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d4_03",
+  "prompt": "Послушай. Как сосед назвал себя?",
+  "answer": "он назвал фамилию — Шмидт",
+  "distractors": [
+   "он назвал своё имя",
+   "он спросил, как дела"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d4_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch01_L6_boss_2",
+  "id": "ch01_L6_boss_2",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_d5_05",
+  "prompt": "Почему «Gute Nacht», но «Guten Abend»?",
+  "answer": "Nacht — die-слово: Gute, без -n. Abend — der-слово: Guten.",
+  "distractors": [
+   "Ночью говорят короче и тише, чем вечером, поэтому Gute.",
+   "Gute говорят на «ты», а Guten — вежливо, на «вы»."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Gute Nacht!"
+ },
+ {
+  "item_id": "ch01_L6_boss_3",
+  "id": "ch01_L6_boss_3",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch01_077",
+  "prompt": "Почему «Ihre Hausnummer», но «Ihr Vorname»?",
+  "answer": "die Hausnummer — die-слово: Ihre с -e. der Vorname — der-слово: Ihr.",
+  "distractors": [
+   "Hausnummer — это число, а с числами всегда говорят Ihre, с -e.",
+   "Ihre — вежливее, чем Ihr: про номер дома говорят вежливее."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie ist Ihre Hausnummer?"
+ },
+ {
+  "item_id": "ch01_L6_boss_4",
+  "id": "ch01_L6_boss_4",
+  "lesson": "ch01_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch01_d9_06",
+  "prompt": "Послушай. Что хочет узнать учительница?",
+  "answer": "где живёт герой и как зовётся город",
+  "distractors": [
+   "откуда герой и как зовётся страна",
+   "как фамилия героя и какой адрес"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v4/ch01_d9_06.mp3",
+  "de": null
+ }
+]

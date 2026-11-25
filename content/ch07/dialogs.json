@@ -1,0 +1,4748 @@
+[
+ {
+  "id": "ch07_d1",
+  "title_ru": "Фото на перемене",
+  "roles": {
+   "O": "Olga (одногруппница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch07_d1_01",
+    "role": "O",
+    "de": "Das ist meine Familie.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Это моя семья.",
+    "nouns": [
+     {
+      "lemma": "Familie",
+      "art": "die",
+      "pl": "Familien"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Das",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "meine Familie",
+       "role": "кто"
+      }
+     ],
+     "text": "die Familie — die-слово, поэтому meine с -e.",
+     "topic": "articles",
+     "why_de": "ist работает как знак «=»: das = meine Familie. Действие держит вагон №2. Справа та же роль «кто», поэтому артикль не меняется: meine Familie.",
+     "why_ru": "По-русски «Это моя семья» — без «есть». По-немецки без ist нельзя: Das ist meine Familie.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Das meine Familie.",
+      "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "die Familie — die-слово, поэтому meine с -e.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «кто»",
+      "items": [
+       {
+        "id": "ch07_002",
+        "de": "Das ist mein Bruder.",
+        "ru": "Это мой брат.",
+        "audio": "audio_v1/ch07_002.mp3",
+        "lesson": "L1",
+        "part": 3,
+        "changed": {
+         "role": "кто",
+         "wagon": 3,
+         "from": "meine Familie",
+         "to": "mein Bruder"
+        }
+       },
+       {
+        "id": "ch07_004",
+        "de": "Das ist mein Vater.",
+        "ru": "Это мой папа.",
+        "audio": "audio_v1/ch07_004.mp3",
+        "lesson": "L1",
+        "part": 3,
+        "changed": {
+         "role": "кто",
+         "wagon": 3,
+         "from": "meine Familie",
+         "to": "mein Vater"
+        }
+       },
+       {
+        "id": "ch07_005",
+        "de": "Das ist meine Mutter.",
+        "ru": "Это моя мама.",
+        "audio": "audio_v1/ch07_005.mp3",
+        "lesson": "L1",
+        "part": 3,
+        "changed": {
+         "role": "кто",
+         "wagon": 3,
+         "from": "meine Familie",
+         "to": "meine Mutter"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Das · ist. В каждом примере меняется один вагон — «кто»: meine Familie → mein Bruder → mein Vater → meine Mutter. Действие ist всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch07_d1_01.mp3",
+    "tts": "Das ist meine Familie.",
+    "ipa": [
+     {
+      "w": "Das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "meine",
+      "ipa": "[ˈmaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Familie",
+      "ipa": "[faˈmiːli̯ə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… · действие (вагон №2): i… · кто: m… F…",
+    "gap": {
+     "text": "Das ___ meine ___.",
+     "answers": [
+      "ist",
+      "Familie"
+     ]
+    },
+    "task_ru": "Скажи: Это моя семья."
+   },
+   {
+    "id": "ch07_d1_02",
+    "role": "H",
+    "de": "Wer ist das?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Кто это?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wer",
+       "role": "вопрос-слово",
+       "asks": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "das",
+       "role": "кто"
+      }
+     ],
+     "text": "Вопрос из главы 2: wer — «кто», за ним действие ist.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wer — вагон №1, действие ist — сразу за ним, вагон №2: Wer ist das? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Кто это» можно сказать и в другом порядке. По-немецки порядок один: Wer · ist · das. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wer das ist?",
+      "ru": "das встал перед ist — действие ушло из вагона №2. После Wer немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Вопрос из главы 2: wer — «кто», за ним действие ist."
+    },
+    "audio": "audio_v1/ch07_d1_02.mp3",
+    "tts": "Wer ist das?",
+    "ipa": [
+     {
+      "w": "Wer",
+      "ipa": "[veːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): i… · кто: d…",
+    "gap": {
+     "text": "Wer ___ das?",
+     "answers": [
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Кто это?"
+   },
+   {
+    "id": "ch07_d1_03",
+    "role": "O",
+    "de": "Das ist mein Vater.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Это мой папа.",
+    "nouns": [
+     {
+      "lemma": "Vater",
+      "art": "der",
+      "pl": "Väter"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Das",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "mein Vater",
+       "role": "кто"
+      }
+     ],
+     "text": "der Vater — der-слово, поэтому mein без -e.",
+     "topic": "articles",
+     "why_de": "ist работает как знак «=»: das = mein Vater. Действие держит вагон №2. Справа та же роль «кто», поэтому артикль не меняется: mein Vater.",
+     "why_ru": "По-русски «Это мой папа» — без «есть». По-немецки без ist нельзя: Das ist mein Vater.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Das mein Vater.",
+      "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "der Vater — der-слово, поэтому mein без -e.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · «кто»",
+      "items": [
+       {
+        "id": "ch07_001",
+        "de": "Das ist meine Familie.",
+        "ru": "Это моя семья.",
+        "audio": "audio_v1/ch07_001.mp3",
+        "lesson": "L1",
+        "part": 3,
+        "changed": {
+         "role": "кто",
+         "wagon": 3,
+         "from": "mein Vater",
+         "to": "meine Familie"
+        }
+       },
+       {
+        "id": "ch07_002",
+        "de": "Das ist mein Bruder.",
+        "ru": "Это мой брат.",
+        "audio": "audio_v1/ch07_002.mp3",
+        "lesson": "L1",
+        "part": 3,
+        "changed": {
+         "role": "кто",
+         "wagon": 3,
+         "from": "mein Vater",
+         "to": "mein Bruder"
+        }
+       },
+       {
+        "id": "ch07_005",
+        "de": "Das ist meine Mutter.",
+        "ru": "Это моя мама.",
+        "audio": "audio_v1/ch07_005.mp3",
+        "lesson": "L1",
+        "part": 3,
+        "changed": {
+         "role": "кто",
+         "wagon": 3,
+         "from": "mein Vater",
+         "to": "meine Mutter"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Das · ist. В каждом примере меняется один вагон — «кто»: mein Vater → meine Familie → mein Bruder → meine Mutter. Действие ist всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch07_d1_03.mp3",
+    "tts": "Das ist mein Vater.",
+    "ipa": [
+     {
+      "w": "Das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mein",
+      "ipa": "[maɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Vater",
+      "ipa": "[ˈfaːtɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… · действие (вагон №2): i… · кто: m… V…",
+    "gap": {
+     "text": "Das ___ mein ___.",
+     "answers": [
+      "ist",
+      "Vater"
+     ]
+    },
+    "task_ru": "Скажи: Это мой папа."
+   },
+   {
+    "id": "ch07_d1_04",
+    "role": "H",
+    "de": "Ist das dein Bruder?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Это твой брат?",
+    "nouns": [
+     {
+      "lemma": "Bruder",
+      "art": "der",
+      "pl": "Brüder"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ist",
+       "role": "действие №1"
+      },
+      {
+       "w": "das",
+       "role": "кто"
+      },
+      {
+       "w": "dein Bruder",
+       "role": "кто"
+      }
+     ],
+     "text": "Вопрос «да/нет»: действие ist впереди. Ольге — на «ты»: dein. der Bruder — der-слово, поэтому dein без -e.",
+     "topic": "questions",
+     "why_de": "Действие впереди (Ist) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Ist das dein Bruder?",
+     "why_ru": "По-русски «Это твой брат» — вопрос только голосом, порядок как в ответе. По-немецки действие Ist выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Das ist dein Bruder?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Это твой брат?!»). Обычный вопрос — действие впереди."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос «да/нет»: действие ist впереди. Ольге — на «ты»: dein. der Bruder — der-слово, поэтому dein без -e.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "действие (вагон №1) · «кто» · «кто»",
+      "items": [
+       {
+        "id": "ch07_003",
+        "de": "Ist das deine Schwester?",
+        "ru": "Это твоя сестра?",
+        "audio": "audio_v1/ch07_003.mp3",
+        "lesson": "L1",
+        "part": 3,
+        "changed": {
+         "role": "кто",
+         "wagon": 3,
+         "from": "dein Bruder",
+         "to": "deine Schwester"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Ist · das. В каждом примере меняется один вагон — «кто»: dein Bruder → deine Schwester. Действие Ist всё так же в вагоне №1.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch07_d1_04.mp3",
+    "tts": "Ist das dein Bruder?",
+    "ipa": [
+     {
+      "w": "Ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "dein",
+      "ipa": "[daɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Bruder",
+      "ipa": "[ˈbʁuːdɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): I… · кто: d… · кто: d… B…",
+    "gap": {
+     "text": "___ das dein ___?",
+     "answers": [
+      "Ist",
+      "Bruder"
+     ]
+    },
+    "task_ru": "Скажи: Это твой брат?"
+   },
+   {
+    "id": "ch07_d1_05",
+    "role": "O",
+    "de": "Ja, das ist mein Bruder Nico.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, это мой брат Нико.",
+    "nouns": [
+     {
+      "lemma": "Bruder",
+      "art": "der",
+      "pl": "Brüder"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "das",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "mein Bruder Nico",
+       "role": "кто"
+      }
+     ],
+     "text": "Ja не занимает вагон. der Bruder — der-слово: mein без -e. Имя стоит сразу после слова Bruder.",
+     "topic": "articles",
+     "why_de": "Ja — не вагон, дальше тот же поезд: кто · ist · кто, и ist работает как знак «=»: das = mein Bruder Nico. Справа та же роль «кто», поэтому артикль не меняется: mein Bruder Nico.",
+     "why_ru": "По-русски «Да, это мой брат Нико» — без «есть». По-немецки без ist нельзя: Ja, das ist mein Bruder Nico.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Ja, das mein Bruder Nico.",
+      "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Ja не занимает вагон. der Bruder — der-слово: mein без -e. Имя стоит сразу после слова Bruder."
+    },
+    "audio": "audio_v1/ch07_d1_05.mp3",
+    "tts": "Ja, das ist mein Bruder Nico.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mein",
+      "ipa": "[maɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Bruder",
+      "ipa": "[ˈbʁuːdɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Nico",
+      "ipa": null,
+      "src": "none"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "partial",
+    "hint": "да/нет: J… · кто: d… · действие (вагон №2): i… · кто: m… B… N…",
+    "gap": {
+     "text": "Ja, das ___ mein Bruder ___.",
+     "answers": [
+      "ist",
+      "Nico"
+     ]
+    },
+    "task_ru": "Скажи: Да, это мой брат Нико."
+   },
+   {
+    "id": "ch07_d1_06",
+    "role": "H",
+    "de": "Ist das deine Schwester?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Это твоя сестра?",
+    "nouns": [
+     {
+      "lemma": "Schwester",
+      "art": "die",
+      "pl": "Schwestern"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ist",
+       "role": "действие №1"
+      },
+      {
+       "w": "das",
+       "role": "кто"
+      },
+      {
+       "w": "deine Schwester",
+       "role": "кто"
+      }
+     ],
+     "text": "Вопрос «да/нет»: действие ist впереди. die Schwester — die-слово, поэтому deine с -e.",
+     "topic": "questions",
+     "why_de": "Действие впереди (Ist) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Ist das deine Schwester?",
+     "why_ru": "По-русски «Это твоя сестра» — вопрос только голосом, порядок как в ответе. По-немецки действие Ist выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Das ist deine Schwester?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Это твоя сестра?!»). Обычный вопрос — действие впереди."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос «да/нет»: действие ist впереди. die Schwester — die-слово, поэтому deine с -e.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "действие (вагон №1) · «кто» · «кто»",
+      "items": [
+       {
+        "id": "ch07_007",
+        "de": "Ist das dein Bruder?",
+        "ru": "Это твой брат?",
+        "audio": "audio_v1/ch07_007.mp3",
+        "lesson": "L1",
+        "part": 3,
+        "changed": {
+         "role": "кто",
+         "wagon": 3,
+         "from": "deine Schwester",
+         "to": "dein Bruder"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Ist · das. В каждом примере меняется один вагон — «кто»: deine Schwester → dein Bruder. Действие Ist всё так же в вагоне №1.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch07_d1_06.mp3",
+    "tts": "Ist das deine Schwester?",
+    "ipa": [
+     {
+      "w": "Ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "deine",
+      "ipa": "[ˈdaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Schwester",
+      "ipa": "[ˈʃvɛstɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): I… · кто: d… · кто: d… S…",
+    "gap": {
+     "text": "___ das deine ___?",
+     "answers": [
+      "Ist",
+      "Schwester"
+     ]
+    },
+    "task_ru": "Скажи: Это твоя сестра?"
+   },
+   {
+    "id": "ch07_d1_07",
+    "role": "O",
+    "de": "Nein, das ist meine Mutter.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Нет, это моя мама.",
+    "nouns": [
+     {
+      "lemma": "Mutter",
+      "art": "die",
+      "pl": "Mütter"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Nein",
+       "role": "да/нет"
+      },
+      {
+       "w": "das",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "meine Mutter",
+       "role": "кто"
+      }
+     ],
+     "text": "Nein не занимает вагон: das — вагон №1, ist — вагон №2. die Mutter — die-слово: meine.",
+     "topic": "articles",
+     "why_de": "Nein — не вагон, дальше тот же поезд: кто · ist · кто, и ist работает как знак «=»: das = meine Mutter. Справа та же роль «кто», поэтому артикль не меняется: meine Mutter.",
+     "why_ru": "По-русски «Нет, это моя мама» — без «есть». По-немецки без ist нельзя: Nein, das ist meine Mutter.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Nein, das meine Mutter.",
+      "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Nein не занимает вагон: das — вагон №1, ist — вагон №2. die Mutter — die-слово: meine."
+    },
+    "audio": "audio_v1/ch07_d1_07.mp3",
+    "tts": "Nein, das ist meine Mutter.",
+    "ipa": [
+     {
+      "w": "Nein",
+      "ipa": "[naɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "meine",
+      "ipa": "[ˈmaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Mutter",
+      "ipa": "[ˈmʊtɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: N… · кто: d… · действие (вагон №2): i… · кто: m… M…",
+    "gap": {
+     "text": "Nein, das ___ meine ___.",
+     "answers": [
+      "ist",
+      "Mutter"
+     ]
+    },
+    "task_ru": "Скажи: Нет, это моя мама."
+   },
+   {
+    "id": "ch07_d1_08",
+    "role": "O",
+    "de": "Und das sind meine Oma und mein Opa.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А это мои бабушка и дедушка.",
+    "nouns": [
+     {
+      "lemma": "Oma",
+      "art": "die",
+      "pl": "Omas"
+     },
+     {
+      "lemma": "Opa",
+      "art": "der",
+      "pl": "Opas"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "das",
+       "role": "кто"
+      },
+      {
+       "w": "sind",
+       "role": "действие №2"
+      },
+      {
+       "w": "meine Oma und mein Opa",
+       "role": "кто"
+      }
+     ],
+     "text": "Und в начале не занимает вагон. Людей двое — поэтому sind, а не ist. die Oma: meine. der Opa: mein.",
+     "topic": "articles",
+     "why_de": "Und — не вагон, дальше тот же поезд: кто · sind · кто, и sind работает как знак «=»: das = meine Oma und mein Opa. Справа та же роль «кто», поэтому артикль не меняется: meine Oma und mein Opa.",
+     "why_ru": "По-русски «А это мои бабушка и дедушка» — без «есть». По-немецки без sind нельзя: Und das sind meine Oma und mein Opa.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Und das meine Oma und mein Opa.",
+      "ru": "Русская привычка — пропустить «есть». Без sind немец слышит обрывок, а не фразу."
+     },
+     "root": null,
+     "why_voice_ru": "Und в начале не занимает вагон. Людей двое — поэтому sind, а не ist. die Oma: meine. der Opa: mein."
+    },
+    "audio": "audio_v1/ch07_d1_08.mp3",
+    "tts": "Und das sind meine Oma und mein Opa.",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "sind",
+      "ipa": "[zɪnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "meine",
+      "ipa": "[ˈmaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Oma",
+      "ipa": "[ˈoːma]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mein",
+      "ipa": "[maɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Opa",
+      "ipa": "[ˈoːpa]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · кто: d… · действие (вагон №2): s… · кто: m… O… u… m… O…",
+    "gap": {
+     "text": "Und das ___ meine Oma und mein ___.",
+     "answers": [
+      "sind",
+      "Opa"
+     ]
+    },
+    "task_ru": "Скажи: А это мои бабушка и дедушка."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch07_d2",
+  "title_ru": "Анкета соседа",
+  "roles": {
+   "O": "Olga (одногруппница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch07_d2_01",
+    "role": "O",
+    "de": "Herr Wagner ist mein Nachbar.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Господин Вагнер — мой сосед.",
+    "nouns": [
+     {
+      "lemma": "Herr",
+      "art": "der",
+      "pl": "Herren"
+     },
+     {
+      "lemma": "Nachbar",
+      "art": "der",
+      "pl": "Nachbarn"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Herr Wagner",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "mein Nachbar",
+       "role": "кто"
+      }
+     ],
+     "text": "ist как знак «=»: Herr Wagner = мой сосед. der Nachbar — der-слово: mein без -e.",
+     "topic": "articles",
+     "why_de": "ist работает как знак «=»: Herr Wagner = mein Nachbar. Действие держит вагон №2. Справа та же роль «кто», поэтому артикль не меняется: mein Nachbar.",
+     "why_ru": "По-русски «Господин Вагнер — мой сосед» — без «есть». По-немецки без ist нельзя: Herr Wagner ist mein Nachbar.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Herr Wagner mein Nachbar.",
+      "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "ist как знак «=»: Herr Wagner = мой сосед. der Nachbar — der-слово: mein без -e."
+    },
+    "audio": "audio_v1/ch07_d2_01.mp3",
+    "tts": "Herr Wagner ist mein Nachbar.",
+    "ipa": [
+     {
+      "w": "Herr",
+      "ipa": "[hɛʁ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wagner",
+      "ipa": "[ˈvaːɡnɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "mein",
+      "ipa": "[maɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Nachbar",
+      "ipa": "[ˈnaxˌbaːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: H… W… · действие (вагон №2): i… · кто: m… N…",
+    "gap": {
+     "text": "Herr ___ ___ mein Nachbar.",
+     "answers": [
+      "Wagner",
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Господин Вагнер — мой сосед."
+   },
+   {
+    "id": "ch07_d2_02",
+    "role": "H",
+    "de": "Wie alt ist er?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Сколько ему лет?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wie alt",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "er",
+       "role": "кто"
+      }
+     ],
+     "text": "Возраст спрашивают через wie alt. Действие ist — вагон №2.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wie alt — вагон №1, действие ist — сразу за ним, вагон №2: Wie alt ist er? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Сколько ему лет» можно сказать и в другом порядке. По-немецки порядок один: Wie alt · ist · er. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wie alt er ist?",
+      "ru": "er встал перед ist — действие ушло из вагона №2. После Wie alt немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Возраст спрашивают через wie alt. Действие ist — вагон №2."
+    },
+    "audio": "audio_v1/ch07_d2_02.mp3",
+    "tts": "Wie alt ist er?",
+    "ipa": [
+     {
+      "w": "Wie",
+      "ipa": "[viː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "alt",
+      "ipa": "[alt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "er",
+      "ipa": "[eːɐ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… a… · действие (вагон №2): i… · кто: e…",
+    "gap": {
+     "text": "Wie alt ___ er?",
+     "answers": [
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Сколько ему лет?"
+   },
+   {
+    "id": "ch07_d2_03",
+    "role": "O",
+    "de": "Er ist zweiundvierzig Jahre alt.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Ему сорок два года.",
+    "nouns": [
+     {
+      "lemma": "Jahr",
+      "art": "das",
+      "pl": "Jahre"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Er",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "zweiundvierzig Jahre alt",
+       "role": "кто"
+      }
+     ],
+     "text": "Возраст: er ist + число + Jahre alt.",
+     "topic": "verb2",
+     "why_de": "ist работает как знак «=»: er = zweiundvierzig Jahre alt. Действие держит вагон №2.",
+     "why_ru": "По-русски «Ему сорок два года» — без «есть». По-немецки без ist нельзя: Er ist zweiundvierzig Jahre alt.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Er zweiundvierzig Jahre alt.",
+      "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Возраст: er ist + число + Jahre alt."
+    },
+    "audio": "audio_v1/ch07_d2_03.mp3",
+    "tts": "Er ist zweiundvierzig Jahre alt.",
+    "ipa": [
+     {
+      "w": "Er",
+      "ipa": "[eːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "zweiundvierzig",
+      "ipa": "[ˈt͡svaɪ̯ʊntˌfɪʁt͡sɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Jahre",
+      "ipa": "[ˈjaːʁə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "alt",
+      "ipa": "[alt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: E… · действие (вагон №2): i… · кто: z… J… a…",
+    "gap": {
+     "text": "Er ___ zweiundvierzig Jahre ___.",
+     "answers": [
+      "ist",
+      "alt"
+     ]
+    },
+    "task_ru": "Скажи: Ему сорок два года."
+   },
+   {
+    "id": "ch07_d2_04",
+    "role": "H",
+    "de": "Ist er verheiratet?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Он женат?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ist",
+       "role": "действие №1"
+      },
+      {
+       "w": "er",
+       "role": "кто"
+      },
+      {
+       "w": "verheiratet",
+       "role": "кто"
+      }
+     ],
+     "text": "Вопрос «да/нет»: действие ist впереди.",
+     "topic": "questions",
+     "why_de": "Действие впереди (Ist) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Ist er verheiratet?",
+     "why_ru": "По-русски «Он женат» — вопрос только голосом, порядок как в ответе. По-немецки действие Ist выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Er ist verheiratet?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Он женат?!»). Обычный вопрос — действие впереди."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос «да/нет»: действие ist впереди."
+    },
+    "audio": "audio_v1/ch07_d2_04.mp3",
+    "tts": "Ist er verheiratet?",
+    "ipa": [
+     {
+      "w": "Ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "er",
+      "ipa": "[eːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "verheiratet",
+      "ipa": "[fɛɐ̯ˈhaɪ̯ʁaːtət]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): I… · кто: e… · кто: v…",
+    "gap": {
+     "text": "___ er ___?",
+     "answers": [
+      "Ist",
+      "verheiratet"
+     ]
+    },
+    "task_ru": "Скажи: Он женат?"
+   },
+   {
+    "id": "ch07_d2_05",
+    "role": "O",
+    "de": "Ja, seine Frau heißt Anna, und sein Bruder ist ledig.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, его жену зовут Анна, а его брат не женат.",
+    "nouns": [
+     {
+      "lemma": "Frau",
+      "art": "die",
+      "pl": "Frauen"
+     },
+     {
+      "lemma": "Bruder",
+      "art": "der",
+      "pl": "Brüder"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "seine Frau",
+       "role": "кто"
+      },
+      {
+       "w": "heißt",
+       "role": "действие №2"
+      },
+      {
+       "w": "Anna",
+       "role": "кто"
+      },
+      {
+       "w": "und",
+       "role": "связка"
+      },
+      {
+       "w": "sein Bruder",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "ledig",
+       "role": "кто"
+      }
+     ],
+     "text": "Ja не занимает вагон. sein — «его» (владелец он); die Frau — die-слово: seine. sein Bruder: der Bruder — der-слово, окончания нет.",
+     "topic": "articles",
+     "why_de": "Ja — не вагон, дальше тот же поезд: кто · ist · кто, и ist работает как знак «=»: sein Bruder = ledig.",
+     "why_ru": "По-русски «Да, его жену зовут Анна, а его брат не женат» — без «есть». По-немецки без ist нельзя: Ja, seine Frau heißt Anna, und sein Bruder ist ledig.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Ja, seine Frau Anna, und sein Bruder ist ledig.",
+      "ru": "Русская привычка — пропустить «есть». Без heißt немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Ja не занимает вагон. sein — «его» (владелец он); die Frau — die-слово: seine. sein Bruder: der Bruder — der-слово, окончания нет."
+    },
+    "audio": "audio_v1/ch07_d2_05.mp3",
+    "tts": "Ja, seine Frau heißt Anna, und sein Bruder ist ledig.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "seine",
+      "ipa": "[ˈzaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Frau",
+      "ipa": "[fʁaʊ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "heißt",
+      "ipa": "[haɪ̯st]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Anna",
+      "ipa": "[ˈana]",
+      "src": "override"
+     },
+     {
+      "w": "und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "sein",
+      "ipa": "[zaɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Bruder",
+      "ipa": "[ˈbʁuːdɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ledig",
+      "ipa": "[ˈleːdɪç]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: s… F… · действие (вагон №2): h… · кто: A… · связка: u… · кто: s… B… · действие (вагон №2): i… · кто: l…",
+    "gap": {
+     "text": "Ja, seine ___ ___ Anna, und sein Bruder ist ledig.",
+     "answers": [
+      "Frau",
+      "heißt"
+     ]
+    },
+    "task_ru": "Скажи: Да, его жену зовут Анна, а его брат не женат."
+   },
+   {
+    "id": "ch07_d2_06",
+    "role": "H",
+    "de": "Und was ist ihre Lieblingsfarbe?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А какой у неё любимый цвет?",
+    "nouns": [
+     {
+      "lemma": "Lieblingsfarbe",
+      "art": "die",
+      "pl": "Lieblingsfarben"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "was",
+       "role": "вопрос-слово",
+       "asks": "кого-что"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "ihre Lieblingsfarbe",
+       "role": "кто"
+      }
+     ],
+     "text": "Und не занимает вагон. ihr — «её» (владелец Anna, она); die Lieblingsfarbe — die-слово: ihre.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово was — вагон №1, действие ist — сразу за ним, вагон №2: Und was ist ihre Lieblingsfarbe? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «А какой у неё любимый цвет» можно сказать и в другом порядке. По-немецки порядок один: was · ist · ihre Lieblingsfarbe. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Und was ihre Lieblingsfarbe ist?",
+      "ru": "ihre Lieblingsfarbe встал перед ist — действие ушло из вагона №2. После was немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Und не занимает вагон. ihr — «её» (владелец Anna, она); die Lieblingsfarbe — die-слово: ihre."
+    },
+    "audio": "audio_v1/ch07_d2_06.mp3",
+    "tts": "Und was ist ihre Lieblingsfarbe?",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "was",
+      "ipa": "[vas]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ihre",
+      "ipa": "[ˈiːʁə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Lieblingsfarbe",
+      "ipa": "[ˈliːplɪŋsˌfaʁbə]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · вопрос-слово: w… · действие (вагон №2): i… · кто: i… L…",
+    "gap": {
+     "text": "Und was ___ ihre ___?",
+     "answers": [
+      "ist",
+      "Lieblingsfarbe"
+     ]
+    },
+    "task_ru": "Скажи: А какой у неё любимый цвет?"
+   },
+   {
+    "id": "ch07_d2_07",
+    "role": "O",
+    "de": "Ihre Lieblingsfarbe ist grün.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Её любимый цвет — зелёный.",
+    "nouns": [
+     {
+      "lemma": "Lieblingsfarbe",
+      "art": "die",
+      "pl": "Lieblingsfarben"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ihre Lieblingsfarbe",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "grün",
+       "role": "кто"
+      }
+     ],
+     "text": "ihr — «её»; die Lieblingsfarbe — die-слово: ihre. grün после ist — без изменений.",
+     "topic": "articles",
+     "why_de": "ist работает как знак «=»: Ihre Lieblingsfarbe = grün. Действие держит вагон №2.",
+     "why_ru": "По-русски «Её любимый цвет — зелёный» — без «есть». По-немецки без ist нельзя: Ihre Lieblingsfarbe ist grün.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Ihre Lieblingsfarbe grün.",
+      "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "ihr — «её»; die Lieblingsfarbe — die-слово: ihre. grün после ist — без изменений."
+    },
+    "audio": "audio_v1/ch07_d2_07.mp3",
+    "tts": "Ihre Lieblingsfarbe ist grün.",
+    "ipa": [
+     {
+      "w": "Ihre",
+      "ipa": "[ˈiːʁə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Lieblingsfarbe",
+      "ipa": "[ˈliːplɪŋsˌfaʁbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "grün",
+      "ipa": "[ɡʁyːn]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… L… · действие (вагон №2): i… · кто: g…",
+    "gap": {
+     "text": "Ihre ___ ___ grün.",
+     "answers": [
+      "Lieblingsfarbe",
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Её любимый цвет — зелёный."
+   },
+   {
+    "id": "ch07_d2_08",
+    "role": "O",
+    "de": "Seine Lieblingsfarbe ist blau.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Его любимый цвет — синий.",
+    "nouns": [
+     {
+      "lemma": "Lieblingsfarbe",
+      "art": "die",
+      "pl": "Lieblingsfarben"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Seine Lieblingsfarbe",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "blau",
+       "role": "кто"
+      }
+     ],
+     "text": "sein — «его» (владелец Herr Wagner, он); die Lieblingsfarbe — die-слово: seine.",
+     "topic": "articles",
+     "why_de": "ist работает как знак «=»: Seine Lieblingsfarbe = blau. Действие держит вагон №2.",
+     "why_ru": "По-русски «Его любимый цвет — синий» — без «есть». По-немецки без ist нельзя: Seine Lieblingsfarbe ist blau.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Seine Lieblingsfarbe blau.",
+      "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "sein — «его» (владелец Herr Wagner, он); die Lieblingsfarbe — die-слово: seine."
+    },
+    "audio": "audio_v1/ch07_d2_08.mp3",
+    "tts": "Seine Lieblingsfarbe ist blau.",
+    "ipa": [
+     {
+      "w": "Seine",
+      "ipa": "[ˈzaɪ̯nə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Lieblingsfarbe",
+      "ipa": "[ˈliːplɪŋsˌfaʁbə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "blau",
+      "ipa": "[blaʊ̯]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: S… L… · действие (вагон №2): i… · кто: b…",
+    "gap": {
+     "text": "Seine ___ ___ blau.",
+     "answers": [
+      "Lieblingsfarbe",
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Его любимый цвет — синий."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch07_d3",
+  "title_ru": "Помощь с собранием",
+  "roles": {
+   "O": "Olga (одногруппница)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch07_d3_01",
+    "role": "O",
+    "de": "Ich muss den Elternabend organisieren.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Мне нужно организовать родительское собрание.",
+    "nouns": [
+     {
+      "lemma": "Elternabend",
+      "art": "der",
+      "pl": "Elternabende"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "muss",
+       "role": "пульт №2"
+      },
+      {
+       "w": "den Elternabend",
+       "role": "кого-что"
+      },
+      {
+       "w": "organisieren",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "muss — «пульт» в вагоне №2; organisieren уходит в конец. der Elternabend в роли «кого-что»: den.",
+     "topic": "modal",
+     "why_de": "«Пульт» держит вагон №2, а главное действие уходит в конец: Ich muss den Elternabend organisieren.",
+     "why_ru": "По-русски «Мне нужно организовать родительское собрание» — действия рядом; по-немецки между ними помещается остальное: Ich muss den Elternabend organisieren.",
+     "layer": "modal",
+     "why_not": {
+      "wrong": "Ich muss organisieren den Elternabend.",
+      "ru": "По-русски «Мне нужно организовать родительское собрание» — оба действия рядом. По-немецки organisieren сразу за muss — ошибка: оно ждёт в самом конце."
+     },
+     "root": null,
+     "why_voice_ru": "muss — «пульт» в вагоне №2; organisieren уходит в конец. der Elternabend в роли «кого-что»: den."
+    },
+    "audio": "audio_v1/ch07_d3_01.mp3",
+    "tts": "Ich muss den Elternabend organisieren.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "muss",
+      "ipa": "[mʊs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "den",
+      "ipa": "[deːn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Elternabend",
+      "ipa": "[ˈɛltɐnˌʔaːbn̩t]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "organisieren",
+      "ipa": "[ɔʁɡaniˈziːʁən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · пульт (вагон №2): m… · кого-что: d… E… · хвост действия: o…",
+    "gap": {
+     "text": "Ich ___ den ___ organisieren.",
+     "answers": [
+      "muss",
+      "Elternabend"
+     ]
+    },
+    "task_ru": "Скажи: Мне нужно организовать родительское собрание."
+   },
+   {
+    "id": "ch07_d3_02",
+    "role": "H",
+    "de": "Kann ich helfen?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Могу я помочь?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Kann",
+       "role": "пульт №1"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "helfen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет»: «пульт» kann впереди, helfen — в конце.",
+     "topic": "modal",
+     "why_de": "Вопрос «да/нет»: «пульт» Kann встаёт впереди, а главное действие — в самый конец: Kann ich helfen?",
+     "why_ru": "По-русски «Могу я помочь» — вопрос голосом; по-немецки вопрос делает «пульт» впереди, главное действие ждёт в конце: Kann ich helfen?",
+     "layer": "modal",
+     "why_not": {
+      "wrong": "Kann helfen ich?",
+      "ru": "По-русски «Могу я помочь» — оба действия рядом. По-немецки helfen сразу за Kann — ошибка: оно ждёт в самом конце."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос «да/нет»: «пульт» kann впереди, helfen — в конце."
+    },
+    "audio": "audio_v1/ch07_d3_02.mp3",
+    "tts": "Kann ich helfen?",
+    "ipa": [
+     {
+      "w": "Kann",
+      "ipa": "[kan]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "helfen",
+      "ipa": "[ˈhɛlfn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "пульт (вагон №1): K… · кто: i… · хвост действия: h…",
+    "gap": {
+     "text": "___ ich helfen?",
+     "answers": [
+      "Kann"
+     ]
+    },
+    "task_ru": "Скажи: Могу я помочь?"
+   },
+   {
+    "id": "ch07_d3_03",
+    "role": "O",
+    "de": "Ja, kannst du die Getränke kaufen?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, ты можешь купить напитки?",
+    "nouns": [
+     {
+      "lemma": "Getränk",
+      "art": "das",
+      "pl": "Getränke"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "kannst",
+       "role": "пульт №1"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "die Getränke",
+       "role": "кого-что"
+      },
+      {
+       "w": "kaufen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Ja не занимает вагон. На «ты» — kannst. kaufen — в конец.",
+     "topic": "modal",
+     "why_de": "Вопрос «да/нет»: «пульт» kannst встаёт впереди, а главное действие — в самый конец: Ja, kannst du die Getränke kaufen?",
+     "why_ru": "По-русски «Да, ты можешь купить напитки» — вопрос голосом; по-немецки вопрос делает «пульт» впереди, главное действие ждёт в конце: Ja, kannst du die Getränke kaufen?",
+     "layer": "modal",
+     "why_not": {
+      "wrong": "Ja, kannst kaufen du die Getränke?",
+      "ru": "По-русски «Да, ты можешь купить напитки» — оба действия рядом. По-немецки kaufen сразу за kannst — ошибка: оно ждёт в самом конце."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Ja не занимает вагон. На «ты» — kannst. kaufen — в конец."
+    },
+    "audio": "audio_v1/ch07_d3_03.mp3",
+    "tts": "Ja, kannst du die Getränke kaufen?",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kannst",
+      "ipa": "[kanst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Getränke",
+      "ipa": "[ɡəˈtʁɛŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kaufen",
+      "ipa": "[ˈkaʊ̯fn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · пульт (вагон №1): k… · кто: d… · кого-что: d… G… · хвост действия: k…",
+    "gap": {
+     "text": "Ja, ___ du die ___ kaufen?",
+     "answers": [
+      "kannst",
+      "Getränke"
+     ]
+    },
+    "task_ru": "Скажи: Да, ты можешь купить напитки?"
+   },
+   {
+    "id": "ch07_d3_04",
+    "role": "H",
+    "de": "Ja, ich kann die Getränke kaufen.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, я могу купить напитки.",
+    "nouns": [
+     {
+      "lemma": "Getränk",
+      "art": "das",
+      "pl": "Getränke"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "kann",
+       "role": "пульт №2"
+      },
+      {
+       "w": "die Getränke",
+       "role": "кого-что"
+      },
+      {
+       "w": "kaufen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Ответ повторяет рамку: kann … kaufen.",
+     "topic": "modal",
+     "why_de": "«Пульт» держит вагон №2, а главное действие уходит в конец: Ja, ich kann die Getränke kaufen.",
+     "why_ru": "По-русски «Да, я могу купить напитки» — действия рядом; по-немецки между ними помещается остальное: Ja, ich kann die Getränke kaufen.",
+     "layer": "modal",
+     "why_not": {
+      "wrong": "Ja, ich kann kaufen die Getränke.",
+      "ru": "По-русски «Да, я могу купить напитки» — оба действия рядом. По-немецки kaufen сразу за kann — ошибка: оно ждёт в самом конце."
+     },
+     "root": null,
+     "why_voice_ru": "Ответ повторяет рамку: kann … kaufen."
+    },
+    "audio": "audio_v1/ch07_d3_04.mp3",
+    "tts": "Ja, ich kann die Getränke kaufen.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kann",
+      "ipa": "[kan]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Getränke",
+      "ipa": "[ɡəˈtʁɛŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kaufen",
+      "ipa": "[ˈkaʊ̯fn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · кто: i… · пульт (вагон №2): k… · кого-что: d… G… · хвост действия: k…",
+    "gap": {
+     "text": "Ja, ich ___ die ___ kaufen.",
+     "answers": [
+      "kann",
+      "Getränke"
+     ]
+    },
+    "task_ru": "Скажи: Да, я могу купить напитки."
+   },
+   {
+    "id": "ch07_d3_05",
+    "role": "O",
+    "de": "Und du musst die Stühle bringen.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "А ты должен принести стулья.",
+    "nouns": [
+     {
+      "lemma": "Stuhl",
+      "art": "der",
+      "pl": "Stühle"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Und",
+       "role": "связка"
+      },
+      {
+       "w": "du",
+       "role": "кто"
+      },
+      {
+       "w": "musst",
+       "role": "пульт №2"
+      },
+      {
+       "w": "die Stühle",
+       "role": "кого-что"
+      },
+      {
+       "w": "bringen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Und не занимает вагон. На «ты» — musst, с хвостом -st.",
+     "topic": "modal",
+     "why_de": "«Пульт» держит вагон №2, а главное действие уходит в конец: Und du musst die Stühle bringen.",
+     "why_ru": "По-русски «А ты должен принести стулья» — действия рядом; по-немецки между ними помещается остальное: Und du musst die Stühle bringen.",
+     "layer": "modal",
+     "why_not": {
+      "wrong": "Und du musst bringen die Stühle.",
+      "ru": "По-русски «А ты должен принести стулья» — оба действия рядом. По-немецки bringen сразу за musst — ошибка: оно ждёт в самом конце."
+     },
+     "root": "du и русское «ты» — один древний корень *tū̌ (как латинское tū; DWDS, Pfeifer)",
+     "why_voice_ru": "Und не занимает вагон. На «ты» — musst, с хвостом -st."
+    },
+    "audio": "audio_v1/ch07_d3_05.mp3",
+    "tts": "Und du musst die Stühle bringen.",
+    "ipa": [
+     {
+      "w": "Und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "du",
+      "ipa": "[duː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "musst",
+      "ipa": "[mʊst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Stühle",
+      "ipa": "[ˈʃtyːlə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bringen",
+      "ipa": "[ˈbʁɪŋən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "связка: U… · кто: d… · пульт (вагон №2): m… · кого-что: d… S… · хвост действия: b…",
+    "gap": {
+     "text": "Und du ___ die ___ bringen.",
+     "answers": [
+      "musst",
+      "Stühle"
+     ]
+    },
+    "task_ru": "Скажи: А ты должен принести стулья."
+   },
+   {
+    "id": "ch07_d3_06",
+    "role": "H",
+    "de": "Muss ich auch das Wasser bringen?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Мне тоже нужно принести воду?",
+    "nouns": [
+     {
+      "lemma": "Wasser",
+      "art": "das",
+      "pl": "Wasser"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Muss",
+       "role": "пульт №1"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "auch",
+       "role": "добавка"
+      },
+      {
+       "w": "das Wasser",
+       "role": "кого-что"
+      },
+      {
+       "w": "bringen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Вопрос «да/нет»: «пульт» muss впереди, bringen — в конце. auch — «тоже».",
+     "topic": "modal",
+     "why_de": "Вопрос «да/нет»: «пульт» Muss встаёт впереди, а главное действие — в самый конец: Muss ich auch das Wasser bringen?",
+     "why_ru": "По-русски «Мне тоже нужно принести воду» — вопрос голосом; по-немецки вопрос делает «пульт» впереди, главное действие ждёт в конце: Muss ich auch das Wasser bringen?",
+     "layer": "modal",
+     "why_not": {
+      "wrong": "Muss bringen ich auch das Wasser?",
+      "ru": "По-русски «Мне тоже нужно принести воду» — оба действия рядом. По-немецки bringen сразу за Muss — ошибка: оно ждёт в самом конце."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос «да/нет»: «пульт» muss впереди, bringen — в конце. auch — «тоже»."
+    },
+    "audio": "audio_v1/ch07_d3_06.mp3",
+    "tts": "Muss ich auch das Wasser bringen?",
+    "ipa": [
+     {
+      "w": "Muss",
+      "ipa": "[mʊs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "auch",
+      "ipa": "[aʊ̯x]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wasser",
+      "ipa": "[ˈvasɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bringen",
+      "ipa": "[ˈbʁɪŋən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "пульт (вагон №1): M… · кто: i… · добавка: a… · кого-что: d… W… · хвост действия: b…",
+    "gap": {
+     "text": "___ ich auch das ___ bringen?",
+     "answers": [
+      "Muss",
+      "Wasser"
+     ]
+    },
+    "task_ru": "Скажи: Мне тоже нужно принести воду?"
+   },
+   {
+    "id": "ch07_d3_07",
+    "role": "O",
+    "de": "Nein, Herr Wagner kann das Wasser bringen.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Нет, господин Вагнер может принести воду.",
+    "nouns": [
+     {
+      "lemma": "Herr",
+      "art": "der",
+      "pl": "Herren"
+     },
+     {
+      "lemma": "Wasser",
+      "art": "das",
+      "pl": "Wasser"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Nein",
+       "role": "да/нет"
+      },
+      {
+       "w": "Herr Wagner",
+       "role": "кто"
+      },
+      {
+       "w": "kann",
+       "role": "пульт №2"
+      },
+      {
+       "w": "das Wasser",
+       "role": "кого-что"
+      },
+      {
+       "w": "bringen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "Nein не занимает вагон. У «он» та же форма, что у «я»: Herr Wagner kann.",
+     "topic": "modal",
+     "why_de": "«Пульт» держит вагон №2, а главное действие уходит в конец: Nein, Herr Wagner kann das Wasser bringen.",
+     "why_ru": "По-русски «Нет, господин Вагнер может принести воду» — действия рядом; по-немецки между ними помещается остальное: Nein, Herr Wagner kann das Wasser bringen.",
+     "layer": "modal",
+     "why_not": {
+      "wrong": "Nein, Herr Wagner kann bringen das Wasser.",
+      "ru": "По-русски «Нет, господин Вагнер может принести воду» — оба действия рядом. По-немецки bringen сразу за kann — ошибка: оно ждёт в самом конце."
+     },
+     "root": null,
+     "why_voice_ru": "Nein не занимает вагон. У «он» та же форма, что у «я»: Herr Wagner kann."
+    },
+    "audio": "audio_v1/ch07_d3_07.mp3",
+    "tts": "Nein, Herr Wagner kann das Wasser bringen.",
+    "ipa": [
+     {
+      "w": "Nein",
+      "ipa": "[naɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Herr",
+      "ipa": "[hɛʁ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wagner",
+      "ipa": "[ˈvaːɡnɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kann",
+      "ipa": "[kan]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wasser",
+      "ipa": "[ˈvasɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bringen",
+      "ipa": "[ˈbʁɪŋən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: N… · кто: H… W… · пульт (вагон №2): k… · кого-что: d… W… · хвост действия: b…",
+    "gap": {
+     "text": "Nein, Herr Wagner ___ das ___ bringen.",
+     "answers": [
+      "kann",
+      "Wasser"
+     ]
+    },
+    "task_ru": "Скажи: Нет, господин Вагнер может принести воду."
+   },
+   {
+    "id": "ch07_d3_08",
+    "role": "H",
+    "de": "Gut. Ich muss weg, tschüss!",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Хорошо. Мне нужно уйти, пока!",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Gut",
+       "role": "да/нет"
+      },
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "muss",
+       "role": "действие №2"
+      },
+      {
+       "w": "weg",
+       "role": "хвост действия"
+      },
+      {
+       "w": "tschüss",
+       "role": "привет/вежливость"
+      }
+     ],
+     "text": "Gut и tschüss не считаются за место. weg — хвост действия wegmüssen («нужно уйти»): он в конце.",
+     "topic": "modal",
+     "why_de": "Ich · muss · weg: действие muss — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Мне нужно уйти, пока» — без «я». По-немецки Ich нужен: Ich muss weg, tschüss!",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Gut. Muss weg, tschüss!",
+      "ru": "По-русски «Мне нужно уйти, пока» — без «я». По-немецки без Ich фраза обрывается."
+     },
+     "root": null,
+     "why_voice_ru": "Gut и tschüss не считаются за место. weg — хвост действия wegmüssen («нужно уйти»): он в конце."
+    },
+    "audio": "audio_v1/ch07_d3_08.mp3",
+    "tts": "Gut. Ich muss weg, tschüss!",
+    "ipa": [
+     {
+      "w": "Gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "muss",
+      "ipa": "[mʊs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "weg",
+      "ipa": "[vɛk]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "tschüss",
+      "ipa": "[t͡ʃʏs]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: G… · кто: I… · действие (вагон №2): m… · хвост действия: w… · привет/вежливость: t…",
+    "gap": {
+     "text": "Gut. Ich ___ weg, tschüss!",
+     "answers": [
+      "muss"
+     ]
+    },
+    "task_ru": "Скажи: Хорошо. Мне нужно уйти, пока!"
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch07_d4",
+  "title_ru": "Знакомство на собрании",
+  "roles": {
+   "O": "Olga (одногруппница)",
+   "H": "{hero_name} (герой)",
+   "M": "Maria (мама ученика, на «вы»)"
+  },
+  "lines": [
+   {
+    "id": "ch07_d4_01",
+    "role": "O",
+    "de": "Das ist Maria. Sie ist Italienerin.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Это Мария. Она итальянка.",
+    "nouns": [
+     {
+      "lemma": "Italienerin",
+      "art": "die",
+      "pl": "Italienerinnen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Das",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "Maria",
+       "role": "кто"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "Italienerin",
+       "role": "кто"
+      }
+     ],
+     "text": "Представить человека: Das ist + имя. Потом о ней: sie ist Italienerin — к Italiener добавлено -in.",
+     "topic": "verb2",
+     "why_de": "ist работает как знак «=»: das = Maria. Действие держит вагон №2.",
+     "why_ru": "По-русски «Это Мария» — без «есть». По-немецки без ist нельзя: Das ist Maria.",
+     "layer": "eq",
+     "why_not": {
+      "wrong": "Das Maria. Sie ist Italienerin.",
+      "ru": "Русская привычка — пропустить «есть». Без ist немец слышит обрывок, а не фразу."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Представить человека: Das ist + имя. Потом о ней: sie ist Italienerin — к Italiener добавлено -in."
+    },
+    "audio": "audio_v1/ch07_d4_01.mp3",
+    "tts": "Das ist Maria. Sie ist Italienerin.",
+    "ipa": [
+     {
+      "w": "Das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Maria",
+      "ipa": "[maˈʁiːa]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Italienerin",
+      "ipa": "[itaˈli̯eːnəʁɪn]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… · действие (вагон №2): i… · кто: M… · кто: S… · действие (вагон №2): i… · кто: I…",
+    "gap": {
+     "text": "Das ___ ___. Sie ist Italienerin.",
+     "answers": [
+      "ist",
+      "Maria"
+     ]
+    },
+    "task_ru": "Скажи: Это Мария. Она итальянка."
+   },
+   {
+    "id": "ch07_d4_02",
+    "role": "H",
+    "de": "Guten Abend. Woher kommen Sie?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Добрый вечер. Откуда вы?",
+    "nouns": [
+     {
+      "lemma": "Abend",
+      "art": "der",
+      "pl": "Abende"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Guten Abend",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Woher",
+       "role": "вопрос-слово",
+       "asks": "откуда"
+      },
+      {
+       "w": "kommen",
+       "role": "действие №2"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      }
+     ],
+     "text": "Guten Abend не занимает вагон. Незнакомой — на «вы»: kommen Sie.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Woher — вагон №1, действие kommen — сразу за ним, вагон №2: Woher kommen Sie? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Откуда вы» можно сказать и в другом порядке. По-немецки порядок один: Woher · kommen · Sie. Действия kommen в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Guten Abend. Woher Sie kommen?",
+      "ru": "Sie встал перед kommen — действие ушло из вагона №2. После Woher немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "Guten Abend не занимает вагон. Незнакомой — на «вы»: kommen Sie."
+    },
+    "audio": "audio_v1/ch07_d4_02.mp3",
+    "tts": "Guten Abend. Woher kommen Sie?",
+    "ipa": [
+     {
+      "w": "Guten",
+      "ipa": "[ˈɡuːtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Abend",
+      "ipa": "[ˈaːbn̩t]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Woher",
+      "ipa": "[voˈheːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kommen",
+      "ipa": "[ˈkɔmən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… A… · вопрос-слово: W… · действие (вагон №2): k… · кто: S…",
+    "gap": {
+     "text": "Guten Abend. Woher ___ Sie?",
+     "answers": [
+      "kommen"
+     ]
+    },
+    "task_ru": "Скажи: Добрый вечер. Откуда вы?"
+   },
+   {
+    "id": "ch07_d4_03",
+    "role": "M",
+    "de": "Ich komme aus Italien. Ich wohne in Köln.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я из Италии. Я живу в Кёльне.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "komme",
+       "role": "действие №2"
+      },
+      {
+       "w": "aus Italien",
+       "role": "откуда"
+      },
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "wohne",
+       "role": "действие №2"
+      },
+      {
+       "w": "in Köln",
+       "role": "где"
+      }
+     ],
+     "text": "Откуда — aus + страна: Ich komme aus Italien. Где живёт — in + город: Ich wohne in Köln.",
+     "topic": "verb2",
+     "why_de": "Ich · komme · aus Italien: действие komme — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Я из Италии» — без действия. По-немецки без komme фразы нет: Ich komme aus Italien.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich aus Italien. Ich wohne in Köln.",
+      "ru": "Русская привычка — без действия, как «Я из Италии». Без komme немец слышит обрывок, а не фразу."
+     },
+     "root": null,
+     "why_voice_ru": "Откуда — aus + страна: Ich komme aus Italien. Где живёт — in + город: Ich wohne in Köln."
+    },
+    "audio": "audio_v1/ch07_d4_03.mp3",
+    "tts": "Ich komme aus Italien. Ich wohne in Köln.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "komme",
+      "ipa": "[ˈkɔmə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "aus",
+      "ipa": "[aʊ̯s]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Italien",
+      "ipa": "[iˈtaːli̯ən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wohne",
+      "ipa": "[ˈvoːnə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "in",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Köln",
+      "ipa": "[kœln]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): k… · откуда: a… I… · кто: I… · действие (вагон №2): w… · где: i… K…",
+    "gap": {
+     "text": "Ich ___ aus Italien. Ich wohne in ___.",
+     "answers": [
+      "komme",
+      "Köln"
+     ]
+    },
+    "task_ru": "Скажи: Я из Италии. Я живу в Кёльне."
+   },
+   {
+    "id": "ch07_d4_04",
+    "role": "H",
+    "de": "Welche Sprachen sprechen Sie?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "На каких языках вы говорите?",
+    "nouns": [
+     {
+      "lemma": "Sprache",
+      "art": "die",
+      "pl": "Sprachen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Welche Sprachen",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "sprechen",
+       "role": "действие №2"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      }
+     ],
+     "text": "Вопрос-слово welche — вагон №1, действие sprechen — сразу за ним.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Welche Sprachen — вагон №1, действие sprechen — сразу за ним, вагон №2: Welche Sprachen sprechen Sie? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «На каких языках вы говорите» можно сказать и в другом порядке. По-немецки порядок один: Welche Sprachen · sprechen · Sie.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Welche Sprachen Sie sprechen?",
+      "ru": "Sie встал перед sprechen — действие ушло из вагона №2. После Welche Sprachen немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос-слово welche — вагон №1, действие sprechen — сразу за ним."
+    },
+    "audio": "audio_v1/ch07_d4_04.mp3",
+    "tts": "Welche Sprachen sprechen Sie?",
+    "ipa": [
+     {
+      "w": "Welche",
+      "ipa": "[ˈvɛlçə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sprachen",
+      "ipa": "[ˈʃpʁaːxən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "sprechen",
+      "ipa": "[ˈʃpʁɛçn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… S… · действие (вагон №2): s… · кто: S…",
+    "gap": {
+     "text": "Welche Sprachen ___ Sie?",
+     "answers": [
+      "sprechen"
+     ]
+    },
+    "task_ru": "Скажи: На каких языках вы говорите?"
+   },
+   {
+    "id": "ch07_d4_05",
+    "role": "M",
+    "de": "Ich spreche Italienisch und Deutsch.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я говорю по-итальянски и по-немецки.",
+    "nouns": [
+     {
+      "lemma": "Italienisch",
+      "art": "das",
+      "pl": ""
+     },
+     {
+      "lemma": "Deutsch",
+      "art": "das",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "spreche",
+       "role": "действие №2"
+      },
+      {
+       "w": "Italienisch und Deutsch",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Языки — с большой буквы и без артикля.",
+     "topic": "verb2",
+     "why_de": "Ich · spreche · Italienisch und Deutsch: действие spreche — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я говорю по-итальянски и по-немецки» — Ich spreche Italienisch und Deutsch. Разница одна: по-немецки spreche держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich Italienisch und Deutsch spreche.",
+      "ru": "Действие spreche уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе spreche — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Языки — с большой буквы и без артикля."
+    },
+    "audio": "audio_v1/ch07_d4_05.mp3",
+    "tts": "Ich spreche Italienisch und Deutsch.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "spreche",
+      "ipa": "[ˈʃpʁɛçə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Italienisch",
+      "ipa": "[ˌitaˈli̯eːnɪʃ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "und",
+      "ipa": "[ʊnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Deutsch",
+      "ipa": "[dɔɪ̯t͡ʃ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "артикль das Italienisch ≠ set()",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): s… · кого-что: I… u… D…",
+    "gap": {
+     "text": "Ich ___ Italienisch und ___.",
+     "answers": [
+      "spreche",
+      "Deutsch"
+     ]
+    },
+    "task_ru": "Скажи: Я говорю по-итальянски и по-немецки."
+   },
+   {
+    "id": "ch07_d4_06",
+    "role": "H",
+    "de": "Kennen Sie Frau Schulz?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Вы знаете госпожу Шульц?",
+    "nouns": [
+     {
+      "lemma": "Frau",
+      "art": "die",
+      "pl": "Frauen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Kennen",
+       "role": "действие №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "Frau Schulz",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Вопрос «да/нет»: действие kennen впереди. kennen — знать человека.",
+     "topic": "questions",
+     "why_de": "Действие впереди (Kennen) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Kennen Sie Frau Schulz?",
+     "why_ru": "По-русски «Вы знаете госпожу Шульц» — вопрос только голосом, порядок как в ответе. По-немецки действие Kennen выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Sie kennen Frau Schulz?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Вы знаете госпожу Шульц?!»). Обычный вопрос — действие впереди."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос «да/нет»: действие kennen впереди. kennen — знать человека."
+    },
+    "audio": "audio_v1/ch07_d4_06.mp3",
+    "tts": "Kennen Sie Frau Schulz?",
+    "ipa": [
+     {
+      "w": "Kennen",
+      "ipa": "[ˈkɛnən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Frau",
+      "ipa": "[fʁaʊ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Schulz",
+      "ipa": "[ʃʊlt͡s]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "действие (вагон №1): K… · кто: S… · кого-что: F… S…",
+    "gap": {
+     "text": "___ Sie Frau ___?",
+     "answers": [
+      "Kennen",
+      "Schulz"
+     ]
+    },
+    "task_ru": "Скажи: Вы знаете госпожу Шульц?"
+   },
+   {
+    "id": "ch07_d4_07",
+    "role": "M",
+    "de": "Nein, ich kenne sie nicht.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Нет, я её не знаю.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Nein",
+       "role": "да/нет"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "kenne",
+       "role": "действие №2"
+      },
+      {
+       "w": "sie",
+       "role": "кого-что"
+      },
+      {
+       "w": "nicht",
+       "role": "«не»"
+      }
+     ],
+     "text": "Nein не занимает вагон. sie здесь — «её» (госпожа Шульц), не «она».",
+     "topic": "negation",
+     "why_de": "nicht ставят перед тем, что отрицают; если «нет» относится ко всему, nicht уходит в конец: Nein, ich kenne sie nicht.",
+     "why_ru": "По-русски «Нет, я её не знаю» — «не» перед действием. По-немецки nicht — в конце: Nein, ich kenne sie nicht.",
+     "layer": "nicht",
+     "why_not": {
+      "wrong": "Nein, ich nicht kenne sie.",
+      "ru": "Русский порядок «Нет, я её не знаю»: «не» перед действием. По-немецки nicht перед kenne не встаёт — уходит дальше, чаще в конец."
+     },
+     "root": null,
+     "why_voice_ru": "Nein не занимает вагон. sie здесь — «её» (госпожа Шульц), не «она»."
+    },
+    "audio": "audio_v1/ch07_d4_07.mp3",
+    "tts": "Nein, ich kenne sie nicht.",
+    "ipa": [
+     {
+      "w": "Nein",
+      "ipa": "[naɪ̯n]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "kenne",
+      "ipa": "[ˈkɛnə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "nicht",
+      "ipa": "[nɪçt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: N… · кто: i… · действие (вагон №2): k… · кого-что: s… · «не»: n…",
+    "gap": {
+     "text": "Nein, ich ___ sie nicht.",
+     "answers": [
+      "kenne"
+     ]
+    },
+    "task_ru": "Скажи: Нет, я её не знаю."
+   },
+   {
+    "id": "ch07_d4_08",
+    "role": "H",
+    "de": "Wer ist sie? Ich weiß das nicht.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Кто она? Я этого не знаю.",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wer",
+       "role": "вопрос-слово",
+       "asks": "кто"
+      },
+      {
+       "w": "ist",
+       "role": "действие №2"
+      },
+      {
+       "w": "sie",
+       "role": "кто"
+      },
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "weiß",
+       "role": "действие №2"
+      },
+      {
+       "w": "das",
+       "role": "кого-что"
+      },
+      {
+       "w": "nicht",
+       "role": "«не»"
+      }
+     ],
+     "text": "Кто она — это сведения, факт: поэтому weiß, а не kenne.",
+     "topic": "negation",
+     "why_de": "Вопрос-слово Wer — вагон №1, действие ist — сразу за ним, вагон №2: Wer ist sie? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Кто она» можно сказать и в другом порядке. По-немецки порядок один: Wer · ist · sie. Действия ist в русской фразе нет, а по-немецки без него вопроса нет.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wer sie ist? Ich weiß das nicht.",
+      "ru": "sie встал перед ist — действие ушло из вагона №2. После Wer немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": "ist и русское «есть» — один древний корень *es- (DWDS, Wiktionary)",
+     "why_voice_ru": "Кто она — это сведения, факт: поэтому weiß, а не kenne."
+    },
+    "audio": "audio_v1/ch07_d4_08.mp3",
+    "tts": "Wer ist sie? Ich weiß das nicht.",
+    "ipa": [
+     {
+      "w": "Wer",
+      "ipa": "[veːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ist",
+      "ipa": "[ɪst]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "weiß",
+      "ipa": "[vaɪ̯s]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "das",
+      "ipa": "[das]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "nicht",
+      "ipa": "[nɪçt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): i… · кто: s… · кто: I… · действие (вагон №2): w… · кого-что: d… · «не»: n…",
+    "gap": {
+     "text": "Wer ___ sie? Ich weiß das nicht.",
+     "answers": [
+      "ist"
+     ]
+    },
+    "task_ru": "Скажи: Кто она? Я этого не знаю."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch07_d5",
+  "title_ru": "После собрания",
+  "roles": {
+   "H": "{hero_name} (герой)",
+   "O": "Olga (одногруппница)"
+  },
+  "lines": [
+   {
+    "id": "ch07_d5_01",
+    "role": "H",
+    "de": "Wie war der Elternabend?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Как прошло родительское собрание?",
+    "nouns": [
+     {
+      "lemma": "Elternabend",
+      "art": "der",
+      "pl": "Elternabende"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Wie",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "war",
+       "role": "действие №2"
+      },
+      {
+       "w": "der Elternabend",
+       "role": "кто"
+      }
+     ],
+     "text": "Вопрос-слово wie — вагон №1, действие war — сразу за ним.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wie — вагон №1, действие war — сразу за ним, вагон №2: Wie war der Elternabend? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Как прошло родительское собрание» можно сказать и в другом порядке. По-немецки порядок один: Wie · war · der Elternabend.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Wie der Elternabend war?",
+      "ru": "der Elternabend встал перед war — действие ушло из вагона №2. После Wie немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "Вопрос-слово wie — вагон №1, действие war — сразу за ним."
+    },
+    "audio": "audio_v1/ch07_d5_01.mp3",
+    "tts": "Wie war der Elternabend?",
+    "ipa": [
+     {
+      "w": "Wie",
+      "ipa": "[viː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "war",
+      "ipa": "[vaːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Elternabend",
+      "ipa": "[ˈɛltɐnˌʔaːbn̩t]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "вопрос-слово: W… · действие (вагон №2): w… · кто: d… E…",
+    "gap": {
+     "text": "Wie ___ der ___?",
+     "answers": [
+      "war",
+      "Elternabend"
+     ]
+    },
+    "task_ru": "Скажи: Как прошло родительское собрание?"
+   },
+   {
+    "id": "ch07_d5_02",
+    "role": "O",
+    "de": "Der Elternabend war gut.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Собрание прошло хорошо.",
+    "nouns": [
+     {
+      "lemma": "Elternabend",
+      "art": "der",
+      "pl": "Elternabende"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Der Elternabend",
+       "role": "кто"
+      },
+      {
+       "w": "war",
+       "role": "действие №2"
+      },
+      {
+       "w": "gut",
+       "role": "какой/как"
+      }
+     ],
+     "text": "war — прошедшее от sein: ist → war. Подлежащее — der Elternabend.",
+     "topic": "verb2",
+     "why_de": "Der Elternabend · war · gut: действие war — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Собрание прошло хорошо» — Der Elternabend war gut. Разница одна: по-немецки war держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Der Elternabend gut war.",
+      "ru": "Действие war уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе war — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "war — прошедшее от sein: ist → war. Подлежащее — der Elternabend."
+    },
+    "audio": "audio_v1/ch07_d5_02.mp3",
+    "tts": "Der Elternabend war gut.",
+    "ipa": [
+     {
+      "w": "Der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Elternabend",
+      "ipa": "[ˈɛltɐnˌʔaːbn̩t]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "war",
+      "ipa": "[vaːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… E… · действие (вагон №2): w… · какой/как: g…",
+    "gap": {
+     "text": "Der ___ ___ gut.",
+     "answers": [
+      "Elternabend",
+      "war"
+     ]
+    },
+    "task_ru": "Скажи: Собрание прошло хорошо."
+   },
+   {
+    "id": "ch07_d5_03",
+    "role": "H",
+    "de": "Die Gäste hatten Durst.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Гости хотели пить.",
+    "nouns": [
+     {
+      "lemma": "Gast",
+      "art": "der",
+      "pl": "Gäste"
+     },
+     {
+      "lemma": "Durst",
+      "art": "der",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Die Gäste",
+       "role": "кто"
+      },
+      {
+       "w": "hatten",
+       "role": "действие №2"
+      },
+      {
+       "w": "Durst",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Гостей много — hatten. Durst — «жажда».",
+     "topic": "verb2",
+     "why_de": "Die Gäste · hatten · Durst: действие hatten — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Гости хотели пить» — другая конструкция: по-немецки дословно — иметь жажду: hatten Durst. Die Gäste hatten Durst. Действие hatten держит вагон №2.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Die Gäste Durst hatten.",
+      "ru": "Действие hatten уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе hatten — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "Гостей много — hatten. Durst — «жажда»."
+    },
+    "audio": "audio_v1/ch07_d5_03.mp3",
+    "tts": "Die Gäste hatten Durst.",
+    "ipa": [
+     {
+      "w": "Die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Gäste",
+      "ipa": "[ˈɡɛstə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hatten",
+      "ipa": "[ˈhatn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Durst",
+      "ipa": "[dʊʁst]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: D… G… · действие (вагон №2): h… · кого-что: D…",
+    "gap": {
+     "text": "Die Gäste ___ ___.",
+     "answers": [
+      "hatten",
+      "Durst"
+     ]
+    },
+    "task_ru": "Скажи: Гости хотели пить."
+   },
+   {
+    "id": "ch07_d5_04",
+    "role": "O",
+    "de": "Ich hatte Hunger.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я хотела есть.",
+    "nouns": [
+     {
+      "lemma": "Hunger",
+      "art": "der",
+      "pl": ""
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "hatte",
+       "role": "действие №2"
+      },
+      {
+       "w": "Hunger",
+       "role": "кого-что"
+      }
+     ],
+     "text": "hatte — прошедшее от haben: habe → hatte.",
+     "topic": "verb2",
+     "why_de": "Ich · hatte · Hunger: действие hatte — вагон №2, опора всего предложения.",
+     "why_ru": "По-русски «Я хотела есть» — другая конструкция: по-немецки дословно — иметь голод: hatte Hunger. Ich hatte Hunger. Действие hatte держит вагон №2.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich Hunger hatte.",
+      "ru": "Действие hatte уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе hatte — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "hatte — прошедшее от haben: habe → hatte."
+    },
+    "audio": "audio_v1/ch07_d5_04.mp3",
+    "tts": "Ich hatte Hunger.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "hatte",
+      "ipa": "[ˈhatə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Hunger",
+      "ipa": "[ˈhʊŋɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): h… · кого-что: H…",
+    "gap": {
+     "text": "Ich ___ ___.",
+     "answers": [
+      "hatte",
+      "Hunger"
+     ]
+    },
+    "task_ru": "Скажи: Я хотела есть."
+   },
+   {
+    "id": "ch07_d5_05",
+    "role": "H",
+    "de": "Ich trinke gern Tee.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я люблю пить чай.",
+    "nouns": [
+     {
+      "lemma": "Tee",
+      "art": "der",
+      "pl": "Tees"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "trinke",
+       "role": "действие №2"
+      },
+      {
+       "w": "gern",
+       "role": "добавка"
+      },
+      {
+       "w": "Tee",
+       "role": "кого-что"
+      }
+     ],
+     "text": "gern — «охотно»: стоит после действия.",
+     "topic": "word_order",
+     "why_de": "Ich · trinke · gern · Tee: действие trinke — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я люблю пить чай» — Ich trinke gern Tee. Разница одна: по-немецки trinke держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich gern Tee trinke.",
+      "ru": "Действие trinke уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе trinke — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "gern — «охотно»: стоит после действия."
+    },
+    "audio": "audio_v1/ch07_d5_05.mp3",
+    "tts": "Ich trinke gern Tee.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "trinke",
+      "ipa": "[ˈtʁɪŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gern",
+      "ipa": "[ɡɛʁn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tee",
+      "ipa": "[teː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): t… · добавка: g… · кого-что: T…",
+    "gap": {
+     "text": "Ich ___ gern ___.",
+     "answers": [
+      "trinke",
+      "Tee"
+     ]
+    },
+    "task_ru": "Скажи: Я люблю пить чай."
+   },
+   {
+    "id": "ch07_d5_06",
+    "role": "O",
+    "de": "Ich trinke lieber Wasser.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я охотнее пью воду.",
+    "nouns": [
+     {
+      "lemma": "Wasser",
+      "art": "das",
+      "pl": "Wasser"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "trinke",
+       "role": "действие №2"
+      },
+      {
+       "w": "lieber",
+       "role": "добавка"
+      },
+      {
+       "w": "Wasser",
+       "role": "кого-что"
+      }
+     ],
+     "text": "lieber — «охотнее»: из двух выбираешь то, что нравится больше.",
+     "topic": "word_order",
+     "why_de": "Ich · trinke · lieber · Wasser: действие trinke — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я охотнее пью воду» — Ich trinke lieber Wasser. Разница одна: по-немецки trinke держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich lieber Wasser trinke.",
+      "ru": "Действие trinke уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе trinke — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "lieber — «охотнее»: из двух выбираешь то, что нравится больше."
+    },
+    "audio": "audio_v1/ch07_d5_06.mp3",
+    "tts": "Ich trinke lieber Wasser.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "trinke",
+      "ipa": "[ˈtʁɪŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "lieber",
+      "ipa": "[ˈliːbɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wasser",
+      "ipa": "[ˈvasɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): t… · добавка: l… · кого-что: W…",
+    "gap": {
+     "text": "Ich ___ lieber ___.",
+     "answers": [
+      "trinke",
+      "Wasser"
+     ]
+    },
+    "task_ru": "Скажи: Я охотнее пью воду."
+   },
+   {
+    "id": "ch07_d5_07",
+    "role": "H",
+    "de": "Ich trinke Kaffee am liebsten.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Охотнее всего я пью кофе.",
+    "nouns": [
+     {
+      "lemma": "Kaffee",
+      "art": "der",
+      "pl": "Kaffees"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "trinke",
+       "role": "действие №2"
+      },
+      {
+       "w": "Kaffee am liebsten",
+       "role": "кого-что"
+      }
+     ],
+     "text": "am liebsten — «охотнее всего»: из всех самое любимое.",
+     "topic": "word_order",
+     "why_de": "Ich · trinke · Kaffee am liebsten: действие trinke — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Охотнее всего я пью кофе» — Ich trinke Kaffee am liebsten. Разница одна: по-немецки trinke держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich Kaffee am liebsten trinke.",
+      "ru": "Действие trinke уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе trinke — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "am liebsten — «охотнее всего»: из всех самое любимое."
+    },
+    "audio": "audio_v1/ch07_d5_07.mp3",
+    "tts": "Ich trinke Kaffee am liebsten.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "trinke",
+      "ipa": "[ˈtʁɪŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kaffee",
+      "ipa": "[ˈkafe]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "am",
+      "ipa": "[am]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "liebsten",
+      "ipa": "[ˈliːpstn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): t… · кого-что: K… a… l…",
+    "gap": {
+     "text": "Ich ___ Kaffee am ___.",
+     "answers": [
+      "trinke",
+      "liebsten"
+     ]
+    },
+    "task_ru": "Скажи: Охотнее всего я пью кофе."
+   },
+   {
+    "id": "ch07_d5_08",
+    "role": "O",
+    "de": "Ich trinke auch gern Kaffee.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я тоже люблю пить кофе.",
+    "nouns": [
+     {
+      "lemma": "Kaffee",
+      "art": "der",
+      "pl": "Kaffees"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "trinke",
+       "role": "действие №2"
+      },
+      {
+       "w": "auch",
+       "role": "добавка"
+      },
+      {
+       "w": "gern",
+       "role": "добавка"
+      },
+      {
+       "w": "Kaffee",
+       "role": "кого-что"
+      }
+     ],
+     "text": "auch — «тоже», gern — «охотно»: оба слова стоят после действия.",
+     "topic": "word_order",
+     "why_de": "Ich · trinke · auch · gern · Kaffee: действие trinke — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я тоже люблю пить кофе» — Ich trinke auch gern Kaffee. Разница одна: по-немецки trinke держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich auch gern Kaffee trinke.",
+      "ru": "Действие trinke уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе trinke — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "auch — «тоже», gern — «охотно»: оба слова стоят после действия."
+    },
+    "audio": "audio_v1/ch07_d5_08.mp3",
+    "tts": "Ich trinke auch gern Kaffee.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "trinke",
+      "ipa": "[ˈtʁɪŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "auch",
+      "ipa": "[aʊ̯x]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gern",
+      "ipa": "[ɡɛʁn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kaffee",
+      "ipa": "[ˈkafe]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): t… · добавка: a… · добавка: g… · кого-что: K…",
+    "gap": {
+     "text": "Ich ___ auch gern ___.",
+     "answers": [
+      "trinke",
+      "Kaffee"
+     ]
+    },
+    "task_ru": "Скажи: Я тоже люблю пить кофе."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ },
+ {
+  "id": "ch07_d6",
+  "title_ru": "Вечер в школе",
+  "roles": {
+   "W": "Herr Wagner (сосед, на «вы»)",
+   "H": "{hero_name} (герой)"
+  },
+  "lines": [
+   {
+    "id": "ch07_d6_01",
+    "role": "W",
+    "de": "Guten Abend. Wie war der Elternabend?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Добрый вечер. Как прошло родительское собрание?",
+    "nouns": [
+     {
+      "lemma": "Abend",
+      "art": "der",
+      "pl": "Abende"
+     },
+     {
+      "lemma": "Elternabend",
+      "art": "der",
+      "pl": "Elternabende"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Guten Abend",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Wie",
+       "role": "вопрос-слово",
+       "asks": ""
+      },
+      {
+       "w": "war",
+       "role": "действие №2"
+      },
+      {
+       "w": "der Elternabend",
+       "role": "кто"
+      }
+     ],
+     "text": "Guten Abend не занимает вагон. Вопрос-слово wie — вагон №1, действие war — сразу за ним.",
+     "topic": "questions",
+     "why_de": "Вопрос-слово Wie — вагон №1, действие war — сразу за ним, вагон №2: Wie war der Elternabend? Немец сначала говорит, ЧТО хочет узнать.",
+     "why_ru": "По-русски «Как прошло родительское собрание» можно сказать и в другом порядке. По-немецки порядок один: Wie · war · der Elternabend.",
+     "layer": "wq",
+     "why_not": {
+      "wrong": "Guten Abend. Wie der Elternabend war?",
+      "ru": "der Elternabend встал перед war — действие ушло из вагона №2. После Wie немец ждёт сразу действие, иначе вопроса нет."
+     },
+     "root": null,
+     "why_voice_ru": "Guten Abend не занимает вагон. Вопрос-слово wie — вагон №1, действие war — сразу за ним."
+    },
+    "audio": "audio_v1/ch07_d6_01.mp3",
+    "tts": "Guten Abend. Wie war der Elternabend?",
+    "ipa": [
+     {
+      "w": "Guten",
+      "ipa": "[ˈɡuːtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Abend",
+      "ipa": "[ˈaːbn̩t]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wie",
+      "ipa": "[viː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "war",
+      "ipa": "[vaːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "der",
+      "ipa": "[deːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Elternabend",
+      "ipa": "[ˈɛltɐnˌʔaːbn̩t]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: G… A… · вопрос-слово: W… · действие (вагон №2): w… · кто: d… E…",
+    "gap": {
+     "text": "Guten Abend. Wie ___ der ___?",
+     "answers": [
+      "war",
+      "Elternabend"
+     ]
+    },
+    "task_ru": "Скажи: Добрый вечер. Как прошло родительское собрание?"
+   },
+   {
+    "id": "ch07_d6_02",
+    "role": "H",
+    "de": "Gut. Ich muss die Stühle bringen.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Хорошо. Мне нужно принести стулья.",
+    "nouns": [
+     {
+      "lemma": "Stuhl",
+      "art": "der",
+      "pl": "Stühle"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Gut",
+       "role": "да/нет"
+      },
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "muss",
+       "role": "пульт №2"
+      },
+      {
+       "w": "die Stühle",
+       "role": "кого-что"
+      },
+      {
+       "w": "bringen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "muss — «пульт»: стоит вторым; что нужно сделать — bringen — в самом конце.",
+     "topic": "modal",
+     "why_de": "«Пульт» держит вагон №2, а главное действие уходит в конец: Ich muss die Stühle bringen.",
+     "why_ru": "По-русски «Мне нужно принести стулья» — действия рядом; по-немецки между ними помещается остальное: Ich muss die Stühle bringen.",
+     "layer": "modal",
+     "why_not": {
+      "wrong": "Gut. Ich muss bringen die Stühle.",
+      "ru": "По-русски «Мне нужно принести стулья» — оба действия рядом. По-немецки bringen сразу за muss — ошибка: оно ждёт в самом конце."
+     },
+     "root": null,
+     "why_voice_ru": "muss — «пульт»: стоит вторым; что нужно сделать — bringen — в самом конце."
+    },
+    "audio": "audio_v1/ch07_d6_02.mp3",
+    "tts": "Gut. Ich muss die Stühle bringen.",
+    "ipa": [
+     {
+      "w": "Gut",
+      "ipa": "[ɡuːt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "muss",
+      "ipa": "[mʊs]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "die",
+      "ipa": "[diː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Stühle",
+      "ipa": "[ˈʃtyːlə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bringen",
+      "ipa": "[ˈbʁɪŋən]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: G… · кто: I… · пульт (вагон №2): m… · кого-что: d… S… · хвост действия: b…",
+    "gap": {
+     "text": "Gut. Ich ___ die ___ bringen.",
+     "answers": [
+      "muss",
+      "Stühle"
+     ]
+    },
+    "task_ru": "Скажи: Хорошо. Мне нужно принести стулья."
+   },
+   {
+    "id": "ch07_d6_03",
+    "role": "W",
+    "de": "Kann ich helfen?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Могу я помочь?",
+    "nouns": [],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Kann",
+       "role": "пульт №1"
+      },
+      {
+       "w": "ich",
+       "role": "кто"
+      },
+      {
+       "w": "helfen",
+       "role": "хвост действия"
+      }
+     ],
+     "text": "kann — «пульт»: в вопросе первым, helfen — в конец.",
+     "topic": "modal",
+     "why_de": "Вопрос «да/нет»: «пульт» Kann встаёт впереди, а главное действие — в самый конец: Kann ich helfen?",
+     "why_ru": "По-русски «Могу я помочь» — вопрос голосом; по-немецки вопрос делает «пульт» впереди, главное действие ждёт в конце: Kann ich helfen?",
+     "layer": "modal",
+     "why_not": {
+      "wrong": "Kann helfen ich?",
+      "ru": "По-русски «Могу я помочь» — оба действия рядом. По-немецки helfen сразу за Kann — ошибка: оно ждёт в самом конце."
+     },
+     "root": null,
+     "why_voice_ru": "kann — «пульт»: в вопросе первым, helfen — в конец."
+    },
+    "audio": "audio_v1/ch07_d6_03.mp3",
+    "tts": "Kann ich helfen?",
+    "ipa": [
+     {
+      "w": "Kann",
+      "ipa": "[kan]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "helfen",
+      "ipa": "[ˈhɛlfn̩]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "пульт (вагон №1): K… · кто: i… · хвост действия: h…",
+    "gap": {
+     "text": "___ ich helfen?",
+     "answers": [
+      "Kann"
+     ]
+    },
+    "task_ru": "Скажи: Могу я помочь?"
+   },
+   {
+    "id": "ch07_d6_04",
+    "role": "H",
+    "de": "Ja, bitte. Kennen Sie Frau Schulz?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, пожалуйста. Вы знаете госпожу Шульц?",
+    "nouns": [
+     {
+      "lemma": "Frau",
+      "art": "die",
+      "pl": "Frauen"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "bitte",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Kennen",
+       "role": "действие №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "Frau Schulz",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Kennen Sie …? — вопрос «да/нет»: действие впереди; kennen — знать человека лично.",
+     "topic": "questions",
+     "why_de": "Действие впереди (Kennen) — сигнал «вопрос да/нет» уже с первого слова, ещё до интонации: Kennen Sie Frau Schulz?",
+     "why_ru": "По-русски «Вы знаете госпожу Шульц» — вопрос только голосом, порядок как в ответе. По-немецки действие Kennen выходит вперёд, в вагон №1.",
+     "layer": "yesno",
+     "why_not": {
+      "wrong": "≈ Ja, bitte. Sie kennen Frau Schulz?",
+      "ru": "Это не ошибка, но звучит иначе: так переспрашивают с удивлением («Вы знаете госпожу Шульц?!»). Обычный вопрос — действие впереди."
+     },
+     "root": null,
+     "why_voice_ru": "Kennen Sie …? — вопрос «да/нет»: действие впереди; kennen — знать человека лично."
+    },
+    "audio": "audio_v1/ch07_d6_04.mp3",
+    "tts": "Ja, bitte. Kennen Sie Frau Schulz?",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "bitte",
+      "ipa": "[ˈbɪtə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Kennen",
+      "ipa": "[ˈkɛnən]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Frau",
+      "ipa": "[fʁaʊ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Schulz",
+      "ipa": "[ʃʊlt͡s]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "не внесено в nouns: Kennen",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · привет/вежливость: b… · действие (вагон №1): K… · кто: S… · кого-что: F… S…",
+    "gap": {
+     "text": "Ja, bitte. ___ Sie Frau ___?",
+     "answers": [
+      "Kennen",
+      "Schulz"
+     ]
+    },
+    "task_ru": "Скажи: Да, пожалуйста. Вы знаете госпожу Шульц?"
+   },
+   {
+    "id": "ch07_d6_05",
+    "role": "W",
+    "de": "Ja, in Leipzig wohnt ihr Bruder.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Да, в Лейпциге живёт её брат.",
+    "nouns": [
+     {
+      "lemma": "Bruder",
+      "art": "der",
+      "pl": "Brüder"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ja",
+       "role": "да/нет"
+      },
+      {
+       "w": "in Leipzig",
+       "role": "где"
+      },
+      {
+       "w": "wohnt",
+       "role": "действие №2"
+      },
+      {
+       "w": "ihr Bruder",
+       "role": "кто"
+      }
+     ],
+     "text": "ihr — «её»: брат госпожи Шульц. Место впереди — wohnt всё равно вторым.",
+     "topic": "word_order",
+     "why_de": "Вагон №1 занят: in Leipzig. Действие wohnt всё равно в вагоне №2, а «кто» (ihr Bruder) — за ним: Ja, in Leipzig wohnt ihr Bruder.",
+     "why_ru": "По-русски «Да, в Лейпциге живёт её брат» — порядок свободный. По-немецки свободен только вагон №1: что бы там ни стояло, wohnt — вагон №2.",
+     "layer": "inv",
+     "why_not": {
+      "wrong": "Ja, in Leipzig ihr Bruder wohnt.",
+      "ru": "Русский порядок: «кто» (ihr Bruder) перед действием, и wohnt уехало в вагон №3. Немец поймёт, но сразу услышит ошибку."
+     },
+     "root": null,
+     "why_voice_ru": "ihr — «её»: брат госпожи Шульц. Место впереди — wohnt всё равно вторым."
+    },
+    "audio": "audio_v1/ch07_d6_05.mp3",
+    "tts": "Ja, in Leipzig wohnt ihr Bruder.",
+    "ipa": [
+     {
+      "w": "Ja",
+      "ipa": "[jaː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "in",
+      "ipa": "[ɪn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Leipzig",
+      "ipa": "[ˈlaɪ̯pt͡sɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "wohnt",
+      "ipa": "[voːnt]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "ihr",
+      "ipa": "[iːɐ̯]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Bruder",
+      "ipa": "[ˈbʁuːdɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "да/нет: J… · где: i… L… · действие (вагон №2): w… · кто: i… B…",
+    "gap": {
+     "text": "Ja, in ___ ___ ihr Bruder.",
+     "answers": [
+      "Leipzig",
+      "wohnt"
+     ]
+    },
+    "task_ru": "Скажи: Да, в Лейпциге живёт её брат."
+   },
+   {
+    "id": "ch07_d6_06",
+    "role": "H",
+    "de": "Danke. Möchten Sie Tee oder Wasser?",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Спасибо. Хотите чай или воду?",
+    "nouns": [
+     {
+      "lemma": "Tee",
+      "art": "der",
+      "pl": "Tees"
+     },
+     {
+      "lemma": "Wasser",
+      "art": "das",
+      "pl": "Wasser"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Danke",
+       "role": "привет/вежливость"
+      },
+      {
+       "w": "Möchten",
+       "role": "действие №1"
+      },
+      {
+       "w": "Sie",
+       "role": "кто"
+      },
+      {
+       "w": "Tee oder Wasser",
+       "role": "кого-что"
+      }
+     ],
+     "text": "Danke не занимает вагон. Вопрос с oder: выбрать одно из двух. Möchten Sie — вежливо, на «вы».",
+     "topic": "questions",
+     "why_de": "Вопрос «или»: действие Möchten впереди, в вагоне №1, как в вопросе «да/нет». Но «да» или «нет» тут не ответ: надо выбрать — Tee или Wasser. Голос: на Tee вверх ↗, на Wasser вниз ↘.",
+     "why_ru": "По-русски так же: «Хотите чай или воду» — вопрос делает слово «или». Разница одна: по-немецки действие Möchten стоит впереди, в вагоне №1.",
+     "layer": "alt",
+     "why_not": {
+      "wrong": "Danke. Sie möchten Tee oder Wasser?",
+      "ru": "Русский порядок: «кто» (Sie) перед действием. Немец поймёт, но сразу услышит ошибку: вопрос «или» начинают с действия Möchten."
+     },
+     "root": null,
+     "why_voice_ru": "Danke не занимает вагон. Вопрос с oder: выбрать одно из двух. Möchten Sie — вежливо, на «вы»."
+    },
+    "audio": "audio_v1/ch07_d6_06.mp3",
+    "tts": "Danke. Möchten Sie Tee oder Wasser?",
+    "ipa": [
+     {
+      "w": "Danke",
+      "ipa": "[ˈdaŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Möchten",
+      "ipa": "[ˈmœçtn̩]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Sie",
+      "ipa": "[ziː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tee",
+      "ipa": "[teː]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "oder",
+      "ipa": "[ˈoːdɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wasser",
+      "ipa": "[ˈvasɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "не внесено в nouns: Möchten",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "привет/вежливость: D… · действие (вагон №1): M… · кто: S… · кого-что: T… o… W…",
+    "gap": {
+     "text": "Danke. ___ Sie Tee oder ___?",
+     "answers": [
+      "Möchten",
+      "Wasser"
+     ]
+    },
+    "task_ru": "Скажи: Спасибо. Хотите чай или воду?"
+   },
+   {
+    "id": "ch07_d6_07",
+    "role": "W",
+    "de": "Ich trinke gern Tee.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я люблю пить чай.",
+    "nouns": [
+     {
+      "lemma": "Tee",
+      "art": "der",
+      "pl": "Tees"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "trinke",
+       "role": "действие №2"
+      },
+      {
+       "w": "gern",
+       "role": "добавка"
+      },
+      {
+       "w": "Tee",
+       "role": "кого-что"
+      }
+     ],
+     "text": "gern — «охотно»: стоит после действия.",
+     "topic": "word_order",
+     "why_de": "Ich · trinke · gern · Tee: действие trinke — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я люблю пить чай» — Ich trinke gern Tee. Разница одна: по-немецки trinke держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich gern Tee trinke.",
+      "ru": "Действие trinke уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе trinke — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "gern — «охотно»: стоит после действия.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · добавка · «что»",
+      "items": [
+       {
+        "id": "ch07_t10",
+        "de": "Ich trinke lieber Tee.",
+        "ru": "Я охотнее пью чай.",
+        "audio": "audio_v1/ch07_t10.mp3",
+        "lesson": "L5",
+        "part": 11,
+        "changed": {
+         "role": "добавка",
+         "wagon": 3,
+         "from": "gern",
+         "to": "lieber"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Ich · trinke · Tee. В каждом примере меняется один вагон — добавка: gern → lieber. Действие trinke всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch07_d6_07.mp3",
+    "tts": "Ich trinke gern Tee.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "trinke",
+      "ipa": "[ˈtʁɪŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "gern",
+      "ipa": "[ɡɛʁn]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Tee",
+      "ipa": "[teː]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): t… · добавка: g… · кого-что: T…",
+    "gap": {
+     "text": "Ich ___ gern ___.",
+     "answers": [
+      "trinke",
+      "Tee"
+     ]
+    },
+    "task_ru": "Скажи: Я люблю пить чай."
+   },
+   {
+    "id": "ch07_d6_08",
+    "role": "H",
+    "de": "Ich trinke lieber Wasser.",
+    "de_template": null,
+    "audio_regen_on_name": false,
+    "ru": "Я охотнее пью воду.",
+    "nouns": [
+     {
+      "lemma": "Wasser",
+      "art": "das",
+      "pl": "Wasser"
+     }
+    ],
+    "source": "own",
+    "why": {
+     "train": [
+      {
+       "w": "Ich",
+       "role": "кто"
+      },
+      {
+       "w": "trinke",
+       "role": "действие №2"
+      },
+      {
+       "w": "lieber",
+       "role": "добавка"
+      },
+      {
+       "w": "Wasser",
+       "role": "кого-что"
+      }
+     ],
+     "text": "lieber — «охотнее»: из двух выбираешь то, что нравится больше.",
+     "topic": "word_order",
+     "why_de": "Ich · trinke · lieber · Wasser: действие trinke — вагон №2, опора всего предложения.",
+     "why_ru": "Порядок как в русском: «Я охотнее пью воду» — Ich trinke lieber Wasser. Разница одна: по-немецки trinke держит вагон №2, даже если начать с другого слова.",
+     "layer": "v2",
+     "why_not": {
+      "wrong": "Ich lieber Wasser trinke.",
+      "ru": "Действие trinke уехало в конец. Так звучит хвост длинной фразы после «что» или «потому что»; в простой фразе trinke — вагон №2."
+     },
+     "root": null,
+     "why_voice_ru": "lieber — «охотнее»: из двух выбираешь то, что нравится больше.",
+     "examples": {
+      "button": "Ещё примеры",
+      "frame": "«кто» · действие (вагон №2) · добавка · «что»",
+      "items": [
+       {
+        "id": "ch07_t10",
+        "de": "Ich trinke lieber Tee.",
+        "ru": "Я охотнее пью чай.",
+        "audio": "audio_v1/ch07_t10.mp3",
+        "lesson": "L5",
+        "part": 11,
+        "changed": {
+         "role": "кого-что",
+         "wagon": 4,
+         "from": "Wasser",
+         "to": "Tee"
+        }
+       }
+      ],
+      "notice_q": "Заметь: что не меняется?",
+      "notice_a": "Не меняется: Ich · trinke · lieber. В каждом примере меняется один вагон — «что»: Wasser → Tee. Действие trinke всё так же в вагоне №2.",
+      "src": "tools/why_examples.py v2: только проверенные фразы главы, показанные не позже этой (урок и часть), не перенос этого урока"
+     }
+    },
+    "audio": "audio_v1/ch07_d6_08.mp3",
+    "tts": "Ich trinke lieber Wasser.",
+    "ipa": [
+     {
+      "w": "Ich",
+      "ipa": "[ɪç]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "trinke",
+      "ipa": "[ˈtʁɪŋkə]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "lieber",
+      "ipa": "[ˈliːbɐ]",
+      "src": "de.wiktionary"
+     },
+     {
+      "w": "Wasser",
+      "ipa": "[ˈvasɐ]",
+      "src": "de.wiktionary"
+     }
+    ],
+    "check": {
+     "lt": "ok",
+     "gender": "ok",
+     "asr": "pending",
+     "book": "ok",
+     "struct": "ok"
+    },
+    "ipa_src": "all",
+    "hint": "кто: I… · действие (вагон №2): t… · добавка: l… · кого-что: W…",
+    "gap": {
+     "text": "Ich ___ lieber ___.",
+     "answers": [
+      "trinke",
+      "Wasser"
+     ]
+    },
+    "task_ru": "Скажи: Я охотнее пью воду."
+   }
+  ],
+  "levels": {
+   "1": "диалог с переводом (de + ru)",
+   "2": "подсказки: поле hint у реплики",
+   "3": "пропуски: поле gap у реплики",
+   "4": "свободно: звучит реплика собеседника, автор отвечает сам по задаче task_ru",
+   "5": ""
+  }
+ }
+]

@@ -1,0 +1,505 @@
+{
+ "topic": "perfekt",
+ "title": "Прошлое: помощник на №2, «уже сделано» — в последнем вагоне",
+ "minutes": 2,
+ "steps": [
+  {
+   "type": "picture",
+   "text": "Тот же поезд, что с kann и muss. На №2 — помощник hat или ist. В последнем вагоне — действие в форме «уже сделано»: gespielt, gekauft, gesehen.",
+   "items": [
+    {
+     "train": [
+      {
+       "role": "когда",
+       "de": "Gestern",
+       "ru": "вчера"
+      },
+      {
+       "role": "помощник №2",
+       "de": "habe",
+       "ru": "(помощник)"
+      },
+      {
+       "role": "кто",
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "role": "что",
+       "de": "Fußball",
+       "ru": "в футбол"
+      },
+      {
+       "role": "хвост действия",
+       "de": "gespielt",
+       "ru": "играл"
+      }
+     ],
+     "audio": "gestern_gespielt"
+    }
+   ],
+   "src": [
+    1
+   ]
+  },
+  {
+   "type": "idea",
+   "text": "Почему так? Помощник на №2 сразу говорит: «это уже было» и кто это сделал (у него кончик: habe, hast, hat). А что именно было — немец узнаёт в конце. Форма в конце одна для всех: ich habe gespielt, wir haben gespielt. Помощника не переводим — он просто «включает прошлое».",
+   "src": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "examples",
+   "text": "Послушай: помощник на №2, ge-… в конце.",
+   "items": [
+    "gestern_gespielt",
+    "brot_gekauft",
+    "film_gesehen",
+    "pizza_gegessen",
+    "sonntag_gemacht"
+   ],
+   "src": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "hint",
+   "text": "Форма «уже сделано»: убираем -en, впереди ge-, в конце -t: spielen → gespielt, kaufen → gekauft. Некоторые — на -en: sehen → gesehen, essen → gegessen (их запоминаем во фразах). Помощник ist — когда человек сам куда-то переместился: Oma ist nach Berlin gefahren.",
+   "items": [
+    "brot_gekauft",
+    "oma_gefahren"
+   ],
+   "src": [
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "type": "trap",
+   "text": "Тут русский мешает. «Я работал» — одно слово, и хочется «Ich gearbeitet» — ✗. Немецкому нужны обе части: Ich habe gestern gearbeitet — ✓",
+   "items": [
+    {
+     "wrong": "Ich gearbeitet gestern.",
+     "right": "Ich habe gestern gearbeitet.",
+     "audio": "habe_gearbeitet"
+    }
+   ],
+   "src": [
+    7
+   ]
+  },
+  {
+   "type": "recall",
+   "text": "Сначала скажи сам, потом проверь.",
+   "items": [
+    {
+     "q": "Скажи в прошлом: «Ich spiele.»",
+     "a": "Ich habe gespielt.",
+     "audio": "habe_gespielt"
+    },
+    {
+     "q": "Скажи в прошлом: «Ich fahre nach Hause.» (сам переместился → ist/bin)",
+     "a": "Ich bin nach Hause gefahren.",
+     "audio": "nach_hause"
+    },
+    {
+     "q": "Найди сам две части: «Am Abend haben wir Pizza gegessen.»",
+     "a": "haben — помощник на №2, gegessen — последний вагон.",
+     "audio": "pizza_gegessen",
+     "kind": "find"
+    }
+   ],
+   "src": [
+    1,
+    4
+   ]
+  },
+  {
+   "type": "live",
+   "text": "Вживую: прошлое в официальной немецкой озвучке аниме (Crunchyroll).",
+   "items": [
+    {
+     "yt": "iY78JEbp3-4",
+     "channel": "Crunchyroll Deutschland",
+     "title": "Welcome to Demon School! Iruma-kun, 4 сезон",
+     "start": 48,
+     "end": 54,
+     "embed": true,
+     "said_de": "Dieses Liebeslied habe ich nur für dich geschrieben.",
+     "said_ru": "Эту песню о любви я написал только для тебя.",
+     "train": [
+      {
+       "role": "что",
+       "de": "Dieses Liebeslied",
+       "ru": "эту песню о любви"
+      },
+      {
+       "role": "помощник №2",
+       "de": "habe",
+       "ru": "(помощник)"
+      },
+      {
+       "role": "кто",
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "role": "для кого",
+       "de": "nur für dich",
+       "ru": "только для тебя"
+      },
+      {
+       "role": "хвост действия",
+       "de": "geschrieben",
+       "ru": "написал"
+      }
+     ],
+     "why": "Первый вагон — «эту песню», помощник habe — №2, «я» — №3, а «написал» (geschrieben) — в самом конце."
+    },
+    {
+     "yt": "cSVJeaNQ3Ww",
+     "channel": "Crunchyroll Deutschland",
+     "title": "Detektiv Conan, фильм 28 — трейлер (синхрон)",
+     "start": 38,
+     "end": 45,
+     "embed": true,
+     "said_de": "Was ist damals passiert?",
+     "said_ru": "Что тогда случилось?",
+     "train": [
+      {
+       "role": "вопрос-слово",
+       "de": "Was",
+       "ru": "что"
+      },
+      {
+       "role": "помощник №2",
+       "de": "ist",
+       "ru": "(помощник)"
+      },
+      {
+       "role": "когда",
+       "de": "damals",
+       "ru": "тогда"
+      },
+      {
+       "role": "хвост действия",
+       "de": "passiert",
+       "ru": "случилось"
+      }
+     ],
+     "why": "Вопрос-слово — №1, помощник — №2. «Случиться» (passieren) берёт помощника ist — так работает это слово."
+    }
+   ],
+   "own": [
+    {
+     "id": "boss_besiegt",
+     "note": "в стиле игры: habe … besiegt"
+    },
+    {
+     "id": "welt_gerettet",
+     "note": "в стиле аниме: haben … gerettet"
+    }
+   ],
+   "src": [
+    1,
+    4
+   ]
+  },
+  {
+   "type": "videos",
+   "text": "Не понял — покажи по-другому.",
+   "items": [
+    "B9FXAvK1O9E",
+    "H7-yA5ozA-4",
+    "KWvLgNQfWf8"
+   ],
+   "src": [
+    1
+   ]
+  }
+ ],
+ "why_examples": [
+  {
+   "de": "Gestern habe ich Fußball gespielt.",
+   "ru": "Вчера я играл в футбол.",
+   "audio": "gestern_gespielt",
+   "train": [
+    {
+     "role": "когда",
+     "de": "Gestern",
+     "ru": "вчера"
+    },
+    {
+     "role": "помощник №2",
+     "de": "habe",
+     "ru": "(помощник)"
+    },
+    {
+     "role": "кто",
+     "de": "ich",
+     "ru": "я"
+    },
+    {
+     "role": "что",
+     "de": "Fußball",
+     "ru": "в футбол"
+    },
+    {
+     "role": "хвост действия",
+     "de": "gespielt",
+     "ru": "играл"
+    }
+   ],
+   "why": "Начали с «вчера» — помощник habe всё равно второй, «я» — третий. «Играл» — в последнем вагоне."
+  },
+  {
+   "de": "Oma ist nach Berlin gefahren.",
+   "ru": "Бабушка поехала в Берлин.",
+   "audio": "oma_gefahren",
+   "train": [
+    {
+     "role": "кто",
+     "de": "Oma",
+     "ru": "бабушка"
+    },
+    {
+     "role": "помощник №2",
+     "de": "ist",
+     "ru": "(помощник)"
+    },
+    {
+     "role": "куда",
+     "de": "nach Berlin",
+     "ru": "в Берлин"
+    },
+    {
+     "role": "хвост действия",
+     "de": "gefahren",
+     "ru": "поехала"
+    }
+   ],
+   "why": "Бабушка сама переместилась из деревни в Берлин — поэтому помощник ist, а не hat."
+  },
+  {
+   "de": "Wir haben einen Film gesehen.",
+   "ru": "Мы посмотрели фильм.",
+   "audio": "film_gesehen",
+   "train": [
+    {
+     "role": "кто",
+     "de": "Wir",
+     "ru": "мы"
+    },
+    {
+     "role": "помощник №2",
+     "de": "haben",
+     "ru": "(помощник)"
+    },
+    {
+     "role": "кого-что",
+     "de": "einen Film",
+     "ru": "фильм"
+    },
+    {
+     "role": "хвост действия",
+     "de": "gesehen",
+     "ru": "посмотрели"
+    }
+   ],
+   "why": "Кончик -en у помощника (wir haben), а gesehen одинаковое для всех. sehen — из тех, что кончаются на -en."
+  }
+ ],
+ "phrases": [
+  {
+   "id": "gestern_gespielt",
+   "de": "Gestern habe ich Fußball gespielt.",
+   "ru": "Вчера я играл в футбол.",
+   "audio": "audio_v1/gestern_gespielt.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "brot_gekauft",
+   "de": "Heute habe ich Brot gekauft.",
+   "ru": "Сегодня я купил хлеб.",
+   "audio": "audio_v1/brot_gekauft.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "film_gesehen",
+   "de": "Wir haben einen Film gesehen.",
+   "ru": "Мы посмотрели фильм.",
+   "audio": "audio_v1/film_gesehen.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "oma_gefahren",
+   "de": "Oma ist nach Berlin gefahren.",
+   "ru": "Бабушка поехала в Берлин.",
+   "audio": "audio_v1/oma_gefahren.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "sonntag_gemacht",
+   "de": "Was hast du am Sonntag gemacht?",
+   "ru": "Что ты делал в воскресенье?",
+   "audio": "audio_v1/sonntag_gemacht.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "habe_gespielt",
+   "de": "Ich habe gespielt.",
+   "ru": "Я играл.",
+   "audio": "audio_v1/habe_gespielt.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "nach_hause",
+   "de": "Ich bin nach Hause gefahren.",
+   "ru": "Я поехал домой.",
+   "audio": "audio_v1/nach_hause.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "pizza_gegessen",
+   "de": "Am Abend haben wir Pizza gegessen.",
+   "ru": "Вечером мы ели пиццу.",
+   "audio": "audio_v1/pizza_gegessen.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "habe_gearbeitet",
+   "de": "Ich habe gestern gearbeitet.",
+   "ru": "Я вчера работал.",
+   "audio": "audio_v1/habe_gearbeitet.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "boss_besiegt",
+   "de": "Ich habe den Boss besiegt!",
+   "ru": "Я победил босса!",
+   "audio": "audio_v1/boss_besiegt.mp3",
+   "asr": "ok"
+  },
+  {
+   "id": "welt_gerettet",
+   "de": "Wir haben die Welt gerettet!",
+   "ru": "Мы спасли мир!",
+   "audio": "audio_v1/welt_gerettet.mp3",
+   "asr": "ok"
+  }
+ ],
+ "terms": [
+  {
+   "term": "помощник (hat / ist)",
+   "plain": "слово на №2, которое «включает прошлое» и несёт кончик под «кто»",
+   "scheme": "поезд: … | помощник №2 | … | ge…t",
+   "example": "Ich habe gespielt.",
+   "find": "recall: «Найди сам…»"
+  },
+  {
+   "term": "форма «уже сделано» (ge…t / ge…en)",
+   "plain": "действие в конце фразы о прошлом; одинаковое для всех «кто»",
+   "scheme": "spielen → gespielt, sehen → gesehen",
+   "example": "Wir haben einen Film gesehen.",
+   "find": "recall: «Найди сам…»"
+  }
+ ],
+ "help_by_error": {
+  "order": {
+   "show": "Поезд: помощник на №2, ge-форму перетащить в последний вагон",
+   "phrases": [
+    "gestern_gespielt",
+    "pizza_gegessen"
+   ],
+   "step": "picture"
+  },
+  "verb_form": {
+   "show": "Две полки: помощник меняет кончик (habe / hast / hat / haben), ge-форма — нет; spielen → gespielt",
+   "phrases": [
+    "habe_gespielt",
+    "film_gesehen"
+   ],
+   "step": "hint"
+  },
+  "article": {
+   "show": "Открыть карточку «кого / что»: einen Film",
+   "link": "akkusativ"
+  },
+  "listen": {
+   "show": "Замедлить: слушать конец фразы — ge… в последнем слове значит «уже было»",
+   "phrases": [
+    "brot_gekauft",
+    "sonntag_gemacht"
+   ]
+  },
+  "word": {
+   "show": "Пары картинкой «сейчас → вчера»: spiele → habe gespielt, fahre → bin gefahren + звук",
+   "phrases": [
+    "habe_gespielt",
+    "nach_hause"
+   ]
+  }
+ },
+ "videos": [
+  {
+   "yt": "B9FXAvK1O9E",
+   "author": "Deutsch mit Yehor",
+   "start": 20,
+   "end": 84,
+   "embed": true,
+   "idea": "Как строится прошлое: помощник + ge-форма в конце"
+  },
+  {
+   "yt": "H7-yA5ozA-4",
+   "author": "Школа німецької (Ihor Kolesnykov)",
+   "start": 66,
+   "end": 205,
+   "embed": true,
+   "idea": "ge- + основа + -t шаг за шагом (по-украински)"
+  },
+  {
+   "yt": "KWvLgNQfWf8",
+   "author": "Илья Рябенков",
+   "start": 147,
+   "end": 200,
+   "embed": true,
+   "idea": "war и hatte — «был» и «имел» (коротко)"
+  }
+ ],
+ "sources": [
+  {
+   "what": "Рамка прошлого",
+   "where": "Duden online «Satzklammer» (Sie hat gestern ein Buch gekauft.)",
+   "license": "проверка"
+  },
+  {
+   "what": "Формы ge…t / ge…en и помощник haben / sein",
+   "where": "Wiktionary (de): Partizip II, Hilfsverb (spielen, kaufen, sehen, fahren, essen, passieren, tanzen)",
+   "license": "проверка; CC BY-SA 4.0"
+  },
+  {
+   "what": "Карта темы и страницы",
+   "where": "Е. Чулков «Немецкий от A до Ja!», урок 13, стр. 309–318",
+   "license": "только ссылка на страницу"
+  },
+  {
+   "what": "Приёмы учителей",
+   "where": "topic.csv (Егор, Колесников, Беккер, Рябенков)",
+   "license": "ссылки и официальный YouTube-плеер"
+  },
+  {
+   "what": "Куски «Вживую»",
+   "where": "YouTube-канал Crunchyroll Deutschland (официальный); фраза по автосубтитрам",
+   "license": "официальный плеер, embed проверен oEmbed"
+  },
+  {
+   "what": "Голос",
+   "where": "Piper, голос Thorsten high",
+   "license": "код MIT, данные CC0"
+  }
+ ]
+}

@@ -1,0 +1,4160 @@
+[
+ {
+  "item_id": "ch07_L1_words_1",
+  "id": "ch07_L1_words_1",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_001",
+  "prompt": "Что значит «Familie»?",
+  "answer": "семья",
+  "distractors": [
+   "фамилия",
+   "родители"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L1_words_2",
+  "id": "ch07_L1_words_2",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_002",
+  "prompt": "Что значит «Bruder»?",
+  "answer": "брат",
+  "distractors": [
+   "папа",
+   "дедушка"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L1_words_3",
+  "id": "ch07_L1_words_3",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_003",
+  "prompt": "Что значит «Schwester»?",
+  "answer": "сестра",
+  "distractors": [
+   "мама",
+   "бабушка"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L1_words_4",
+  "id": "ch07_L1_words_4",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_004",
+  "prompt": "Что значит «Vater»?",
+  "answer": "папа, отец",
+  "distractors": [
+   "брат",
+   "дедушка"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L1_words_5",
+  "id": "ch07_L1_words_5",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_005",
+  "prompt": "Что значит «Mutter»?",
+  "answer": "мама, мать",
+  "distractors": [
+   "сестра",
+   "бабушка"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L1_words_6",
+  "id": "ch07_L1_words_6",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_006",
+  "prompt": "Что значит «Oma»?",
+  "answer": "бабушка",
+  "distractors": [
+   "мама",
+   "сестра"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L1_words_7",
+  "id": "ch07_L1_words_7",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_007",
+  "prompt": "Что значит «dein» в вопросе героя?",
+  "answer": "твой (на «ты»)",
+  "distractors": [
+   "мой",
+   "ваш (на «вы»)"
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L1_listen_1",
+  "id": "ch07_L1_listen_1",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d1_01",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Это моя семья.",
+  "distractors": [
+   "Это моя сестра.",
+   "Это мой номер."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d1_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L1_listen_2",
+  "id": "ch07_L1_listen_2",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d1_03",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Это мой папа.",
+  "distractors": [
+   "Это мой брат.",
+   "Это мой дедушка."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d1_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L1_listen_3",
+  "id": "ch07_L1_listen_3",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d1_04",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "Это твой брат?",
+  "distractors": [
+   "Это твой папа?",
+   "Это твоя сестра?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d1_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L1_listen_4",
+  "id": "ch07_L1_listen_4",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d1_07",
+  "prompt": "Послушай. Что ответила Ольга?",
+  "answer": "Нет, это моя мама.",
+  "distractors": [
+   "Да, это моя сестра.",
+   "Нет, это моя бабушка."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d1_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L1_listen_5",
+  "id": "ch07_L1_listen_5",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d1_08",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "А это мои бабушка и дедушка.",
+  "distractors": [
+   "А это мои мама и папа.",
+   "А это мои брат и сестра."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d1_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L1_read_1",
+  "id": "ch07_L1_read_1",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_002",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это мой брат.",
+  "distractors": [
+   "Это твой брат.",
+   "Это мой папа."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist mein Bruder."
+ },
+ {
+  "item_id": "ch07_L1_read_2",
+  "id": "ch07_L1_read_2",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_003",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это твоя сестра?",
+  "distractors": [
+   "Это моя сестра.",
+   "Это твоя мама?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ist das deine Schwester?"
+ },
+ {
+  "item_id": "ch07_L1_read_3",
+  "id": "ch07_L1_read_3",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_004",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это мой папа.",
+  "distractors": [
+   "Это твой папа?",
+   "Это мой брат."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist mein Vater."
+ },
+ {
+  "item_id": "ch07_L1_read_4",
+  "id": "ch07_L1_read_4",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_005",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это моя мама.",
+  "distractors": [
+   "Это моя бабушка.",
+   "Это твоя мама?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist meine Mutter."
+ },
+ {
+  "item_id": "ch07_L1_read_5",
+  "id": "ch07_L1_read_5",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_006",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Это мои бабушка и дедушка.",
+  "distractors": [
+   "Это мои мама и папа.",
+   "Это мои брат и сестра."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Das sind meine Oma und mein Opa."
+ },
+ {
+  "item_id": "ch07_L1_speak_1",
+  "id": "ch07_L1_speak_1",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_d1_02",
+  "prompt": "Ольга показывает фото. Спроси: «Кто это?»",
+  "answer": "Wer ist das?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d1_02.mp3",
+  "de": null,
+  "accept": [
+   "Wer ist das?"
+  ]
+ },
+ {
+  "item_id": "ch07_L1_speak_2",
+  "id": "ch07_L1_speak_2",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_d1_04",
+  "prompt": "Спроси Ольгу на «ты»: «Это твой брат?» Bruder — «бру:да».",
+  "answer": "Ist das dein Bruder?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d1_04.mp3",
+  "de": null,
+  "accept": [
+   "Ist das dein Bruder?"
+  ]
+ },
+ {
+  "item_id": "ch07_L1_speak_3",
+  "id": "ch07_L1_speak_3",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_003",
+  "prompt": "Спроси Ольгу на «ты»: «Это твоя сестра?» Schwester — «швэста».",
+  "answer": "Ist das deine Schwester?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch07_003.mp3",
+  "de": null,
+  "accept": [
+   "Ist das deine Schwester?"
+  ]
+ },
+ {
+  "item_id": "ch07_L1_speak_4",
+  "id": "ch07_L1_speak_4",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_002",
+  "prompt": "Скажи за Ольгу: «Это мой брат.»",
+  "answer": "Das ist mein Bruder.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch07_002.mp3",
+  "de": null,
+  "accept": [
+   "Das ist mein Bruder."
+  ]
+ },
+ {
+  "item_id": "ch07_L1_speak_5",
+  "id": "ch07_L1_speak_5",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_005",
+  "prompt": "Скажи за Ольгу: «Это моя мама.» Mutter — «мута».",
+  "answer": "Das ist meine Mutter.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch07_005.mp3",
+  "de": null,
+  "accept": [
+   "Das ist meine Mutter."
+  ]
+ },
+ {
+  "item_id": "ch07_L1_speak_6",
+  "id": "ch07_L1_speak_6",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_006",
+  "prompt": "Скажи за Ольгу: «Это мои бабушка и дедушка.»",
+  "answer": "Das sind meine Oma und mein Opa.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch07_006.mp3",
+  "de": null,
+  "accept": [
+   "Das sind meine Oma und mein Opa."
+  ]
+ },
+ {
+  "item_id": "ch07_L1_write_1",
+  "id": "ch07_L1_write_1",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_002",
+  "prompt": "Впиши: «Das ist ___ Bruder.» (мой)",
+  "answer": "mein",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch07_002.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L1_write_2",
+  "id": "ch07_L1_write_2",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_005",
+  "prompt": "Впиши: «Das ist ___ Mutter.» (моя)",
+  "answer": "meine",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch07_005.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L1_write_3",
+  "id": "ch07_L1_write_3",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_d1_04",
+  "prompt": "Впиши: «Ist das ___ Bruder?» (твой)",
+  "answer": "dein",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d1_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L1_write_4",
+  "id": "ch07_L1_write_4",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_003",
+  "prompt": "Впиши: «Ist das ___ Schwester?» (твоя)",
+  "answer": "deine",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch07_003.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L1_write_5",
+  "id": "ch07_L1_write_5",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_006",
+  "prompt": "Впиши: «Das ___ meine Oma und mein Opa.» (их двое)",
+  "answer": "sind",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch07_006.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L1_write_6",
+  "id": "ch07_L1_write_6",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_004",
+  "prompt": "Впиши: «Das ist mein ___.» (папа)",
+  "answer": "Vater",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch07_004.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L1_why_1",
+  "id": "ch07_L1_why_1",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_002",
+  "prompt": "Почему «mein Bruder», а не «meine Bruder»?",
+  "answer": "der Bruder — der-слово: mein без -e.",
+  "distractors": [
+   "mein — потому что брат на фото один.",
+   "meine говорят женщины, mein — мужчины."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist mein Bruder."
+ },
+ {
+  "item_id": "ch07_L1_why_2",
+  "id": "ch07_L1_why_2",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_005",
+  "prompt": "Почему «meine Mutter», а не «mein Mutter»?",
+  "answer": "die Mutter — die-слово, поэтому meine с -e.",
+  "distractors": [
+   "meine — потому что говорит Ольга, женщина.",
+   "mein — только про мужчин в семье."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Das ist meine Mutter."
+ },
+ {
+  "item_id": "ch07_L1_why_3",
+  "id": "ch07_L1_why_3",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_003",
+  "prompt": "Почему «deine Schwester», а не «dein Schwester»?",
+  "answer": "die Schwester — die-слово: deine с -e.",
+  "distractors": [
+   "deine — потому что это вопрос, не ответ.",
+   "dein говорят на «вы», deine — на «ты»."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Ist das deine Schwester?"
+ },
+ {
+  "item_id": "ch07_L1_why_4",
+  "id": "ch07_L1_why_4",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_006",
+  "prompt": "Почему «Das sind meine Oma und mein Opa», а не «Das ist …»?",
+  "answer": "Людей двое — поэтому sind, а не ist.",
+  "distractors": [
+   "sind — потому что Oma с большой буквы.",
+   "sind говорят только о семье."
+  ],
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": null,
+  "de": "Das sind meine Oma und mein Opa."
+ },
+ {
+  "item_id": "ch07_L1_why_5",
+  "id": "ch07_L1_why_5",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_d1_07",
+  "prompt": "Почему в «Nein, das ist meine Mutter.» действие «ist» — третье слово?",
+  "answer": "Nein не в счёт: das — вагон №1, ist — №2.",
+  "distractors": [
+   "После nein действие уходит в конец фразы.",
+   "В ответах ist всегда третий вагон."
+  ],
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": null,
+  "de": "Nein, das ist meine Mutter."
+ },
+ {
+  "item_id": "ch07_L1_transfer_1",
+  "id": "ch07_L1_transfer_1",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_t01",
+  "prompt": "На фото рядом с Ольгой пожилой мужчина. Спроси её на «ты»: «Это твой дедушка?»",
+  "answer": "Ist das dein Opa?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch07_t01.mp3",
+  "de": null,
+  "accept": [
+   "Ist das dein Opa?"
+  ]
+ },
+ {
+  "item_id": "ch07_L1_transfer_2",
+  "id": "ch07_L1_transfer_2",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_t02",
+  "prompt": "На новом фото — пожилая пара. Спроси Ольгу: «Это твои бабушка и дедушка?»",
+  "answer": "Sind das deine Oma und dein Opa?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch07_t02.mp3",
+  "de": null,
+  "accept": [
+   "Sind das deine Oma und dein Opa?"
+  ]
+ },
+ {
+  "item_id": "ch07_L1_transfer_3",
+  "id": "ch07_L1_transfer_3",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_t02",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Это твои бабушка и дедушка?",
+  "distractors": [
+   "Это мои бабушка и дедушка.",
+   "Это твой дедушка?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch07_t02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L1_transfer_4",
+  "id": "ch07_L1_transfer_4",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_t02",
+  "prompt": "Впиши: «___ das deine Oma und dein Opa?» (их двое)",
+  "answer": "Sind",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch07_t02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L1_transfer_5",
+  "id": "ch07_L1_transfer_5",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_t02",
+  "prompt": "Почему «Sind das deine Oma und dein Opa?», а не «Ist das …»?",
+  "answer": "Людей двое — поэтому sind, а не ist.",
+  "distractors": [
+   "Sind — потому что это вопрос.",
+   "Ist говорят только о мужчинах."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": null,
+  "de": "Sind das deine Oma und dein Opa?"
+ },
+ {
+  "item_id": "ch07_L1_boss_1",
+  "id": "ch07_L1_boss_1",
+  "lesson": "ch07_L1",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d1_05",
+  "prompt": "Послушай. Что ответила Ольга?",
+  "answer": "Да, это мой брат Нико.",
+  "distractors": [
+   "Нет, это мой папа Нико.",
+   "Да, это мой дедушка Нико."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d1_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L2_words_1",
+  "id": "ch07_L2_words_1",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_015",
+  "prompt": "Что значит «Nachbar»?",
+  "answer": "сосед",
+  "distractors": [
+   "брат",
+   "студент"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L2_words_2",
+  "id": "ch07_L2_words_2",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_016",
+  "prompt": "Что значит «Wie alt ist er?»",
+  "answer": "Сколько ему лет?",
+  "distractors": [
+   "Как его зовут?",
+   "Откуда он?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L2_words_3",
+  "id": "ch07_L2_words_3",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_017",
+  "prompt": "Что значит «zweiundvierzig Jahre alt»?",
+  "answer": "сорок два года",
+  "distractors": [
+   "двадцать четыре года",
+   "сорок два дня"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L2_words_4",
+  "id": "ch07_L2_words_4",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_018",
+  "prompt": "Что значит «verheiratet»?",
+  "answer": "женат (замужем)",
+  "distractors": [
+   "не женат",
+   "в разводе"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L2_words_5",
+  "id": "ch07_L2_words_5",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_023",
+  "prompt": "Что значит «ledig»?",
+  "answer": "не женат",
+  "distractors": [
+   "в разводе",
+   "женат"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L2_words_6",
+  "id": "ch07_L2_words_6",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_021",
+  "prompt": "Что значит «blau»?",
+  "answer": "синий",
+  "distractors": [
+   "зелёный",
+   "красный"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L2_words_7",
+  "id": "ch07_L2_words_7",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_022",
+  "prompt": "Что значит «grün»?",
+  "answer": "зелёный",
+  "distractors": [
+   "синий",
+   "серый"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L2_listen_1",
+  "id": "ch07_L2_listen_1",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d2_01",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Господин Вагнер — мой сосед.",
+  "distractors": [
+   "Господин Вагнер — мой брат.",
+   "Это мой сосед?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d2_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L2_listen_2",
+  "id": "ch07_L2_listen_2",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d2_02",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "Сколько ему лет?",
+  "distractors": [
+   "Сколько ей лет?",
+   "Он женат?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d2_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L2_listen_3",
+  "id": "ch07_L2_listen_3",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d2_03",
+  "prompt": "Послушай. Сколько лет Herr Wagner?",
+  "answer": "сорок два года",
+  "distractors": [
+   "двадцать четыре года",
+   "тридцать два года"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d2_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L2_listen_4",
+  "id": "ch07_L2_listen_4",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d2_05",
+  "prompt": "Послушай. Что ответила Ольга?",
+  "answer": "Да, его жену зовут Анна, а его брат не женат.",
+  "distractors": [
+   "Нет, его жену зовут Анна, а его брат женат.",
+   "Да, её мужа зовут Анна, а его брат не женат."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d2_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L2_listen_5",
+  "id": "ch07_L2_listen_5",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d2_07",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Её любимый цвет — зелёный.",
+  "distractors": [
+   "Его любимый цвет — зелёный.",
+   "Её любимый цвет — синий."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d2_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L2_read_1",
+  "id": "ch07_L2_read_1",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_015",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Господин Вагнер — мой сосед.",
+  "distractors": [
+   "Господин Вагнер — твой сосед.",
+   "Господин Вагнер — мой брат."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Herr Wagner ist mein Nachbar."
+ },
+ {
+  "item_id": "ch07_L2_read_2",
+  "id": "ch07_L2_read_2",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_018",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Он женат?",
+  "distractors": [
+   "Она замужем?",
+   "Он не женат?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ist er verheiratet?"
+ },
+ {
+  "item_id": "ch07_L2_read_3",
+  "id": "ch07_L2_read_3",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_019",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Его жену зовут Анна.",
+  "distractors": [
+   "Её мужа зовут Анна.",
+   "Мою жену зовут Анна."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Seine Frau heißt Anna."
+ },
+ {
+  "item_id": "ch07_L2_read_4",
+  "id": "ch07_L2_read_4",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_020",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "В Лейпциге живёт её брат.",
+  "distractors": [
+   "В Лейпциге живёт его брат.",
+   "В Лейпциге живёт её сестра."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "In Leipzig wohnt ihr Bruder."
+ },
+ {
+  "item_id": "ch07_L2_read_5",
+  "id": "ch07_L2_read_5",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_021",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Его любимый цвет — синий.",
+  "distractors": [
+   "Её любимый цвет — синий.",
+   "Его любимый цвет — зелёный."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Seine Lieblingsfarbe ist blau."
+ },
+ {
+  "item_id": "ch07_L2_speak_1",
+  "id": "ch07_L2_speak_1",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_d2_02",
+  "prompt": "Спроси Ольгу: «Сколько ему лет?»",
+  "answer": "Wie alt ist er?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d2_02.mp3",
+  "de": null,
+  "accept": [
+   "Wie alt ist er?"
+  ]
+ },
+ {
+  "item_id": "ch07_L2_speak_2",
+  "id": "ch07_L2_speak_2",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_018",
+  "prompt": "Спроси: «Он женат?»",
+  "answer": "Ist er verheiratet?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch07_018.mp3",
+  "de": null,
+  "accept": [
+   "Ist er verheiratet?"
+  ]
+ },
+ {
+  "item_id": "ch07_L2_speak_3",
+  "id": "ch07_L2_speak_3",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_015",
+  "prompt": "Скажи за Ольгу: «Господин Вагнер — мой сосед.»",
+  "answer": "Herr Wagner ist mein Nachbar.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch07_015.mp3",
+  "de": null,
+  "accept": [
+   "Herr Wagner ist mein Nachbar."
+  ]
+ },
+ {
+  "item_id": "ch07_L2_speak_4",
+  "id": "ch07_L2_speak_4",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_019",
+  "prompt": "Скажи за Ольгу: «Его жену зовут Анна.»",
+  "answer": "Seine Frau heißt Anna.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch07_019.mp3",
+  "de": null,
+  "accept": [
+   "Seine Frau heißt Anna."
+  ]
+ },
+ {
+  "item_id": "ch07_L2_speak_5",
+  "id": "ch07_L2_speak_5",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_020",
+  "prompt": "Скажи за Ольгу: «В Лейпциге живёт её брат.»",
+  "answer": "In Leipzig wohnt ihr Bruder.",
+  "distractors": null,
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": "audio_v1/ch07_020.mp3",
+  "de": null,
+  "accept": [
+   "In Leipzig wohnt ihr Bruder."
+  ]
+ },
+ {
+  "item_id": "ch07_L2_speak_6",
+  "id": "ch07_L2_speak_6",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_022",
+  "prompt": "Скажи за Ольгу: «Её любимый цвет — зелёный.»",
+  "answer": "Ihre Lieblingsfarbe ist grün.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch07_022.mp3",
+  "de": null,
+  "accept": [
+   "Ihre Lieblingsfarbe ist grün."
+  ]
+ },
+ {
+  "item_id": "ch07_L2_write_1",
+  "id": "ch07_L2_write_1",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_021",
+  "prompt": "Впиши: «___ Lieblingsfarbe ist blau.» (его)",
+  "answer": "Seine",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch07_021.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L2_write_2",
+  "id": "ch07_L2_write_2",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_022",
+  "prompt": "Впиши: «___ Lieblingsfarbe ist grün.» (её)",
+  "answer": "Ihre",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch07_022.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L2_write_3",
+  "id": "ch07_L2_write_3",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_020",
+  "prompt": "Впиши: «In Leipzig wohnt ___ Bruder.» (её)",
+  "answer": "ihr",
+  "distractors": null,
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": "audio_v1/ch07_020.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L2_write_4",
+  "id": "ch07_L2_write_4",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_023",
+  "prompt": "Впиши: «___ Bruder ist ledig.» (его)",
+  "answer": "Sein",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch07_023.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L2_write_5",
+  "id": "ch07_L2_write_5",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_017",
+  "prompt": "Впиши: «Er ist zweiundvierzig ___ alt.» (года)",
+  "answer": "Jahre",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch07_017.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L2_write_6",
+  "id": "ch07_L2_write_6",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_016",
+  "prompt": "Впиши: «___ alt ist er?» (как)",
+  "answer": "Wie",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch07_016.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L2_why_1",
+  "id": "ch07_L2_why_1",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_019",
+  "prompt": "Почему «seine Frau», а не «ihre Frau»?",
+  "answer": "Говорим о нём (er): значит sein. А -e — от слова: die Frau — die-слово.",
+  "distractors": [
+   "Потому что Anna — женщина.",
+   "Потому что Frau — слово женского рода, поэтому всегда ihre."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Seine Frau heißt Anna."
+ },
+ {
+  "item_id": "ch07_L2_why_2",
+  "id": "ch07_L2_why_2",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_020",
+  "prompt": "Почему «ihr Bruder», а не «ihre Bruder»?",
+  "answer": "Владелец — она: ihr. der Bruder — без -e.",
+  "distractors": [
+   "Потому что Bruder — мужчина, поэтому ihr.",
+   "Потому что после ihr никогда не ставят -e."
+  ],
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": null,
+  "de": "In Leipzig wohnt ihr Bruder."
+ },
+ {
+  "item_id": "ch07_L2_why_3",
+  "id": "ch07_L2_why_3",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_021",
+  "prompt": "Почему «Seine Lieblingsfarbe», а не «Sein Lieblingsfarbe»?",
+  "answer": "die Lieblingsfarbe — die-слово, поэтому -e: seine.",
+  "distractors": [
+   "Потому что blau — женское слово.",
+   "Потому что у мужчины любимый цвет всегда с -e."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Seine Lieblingsfarbe ist blau."
+ },
+ {
+  "item_id": "ch07_L2_why_4",
+  "id": "ch07_L2_why_4",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_022",
+  "prompt": "Почему «Ihre Lieblingsfarbe», а не «Ihr Lieblingsfarbe»?",
+  "answer": "die Lieblingsfarbe — die-слово, поэтому -e: ihre.",
+  "distractors": [
+   "Потому что Anna — женщина, поэтому всегда -e.",
+   "Потому что grün стоит после ist."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Ihre Lieblingsfarbe ist grün."
+ },
+ {
+  "item_id": "ch07_L2_why_5",
+  "id": "ch07_L2_why_5",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_017",
+  "prompt": "Почему «Er ist zweiundvierzig Jahre alt», а не «Er zweiundvierzig Jahre alt»?",
+  "answer": "В немецкой фразе нужно действие — ist.",
+  "distractors": [
+   "Потому что Jahre — слово во множественном числе.",
+   "Потому что возраст говорят только с hat."
+  ],
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": null,
+  "de": "Er ist zweiundvierzig Jahre alt."
+ },
+ {
+  "item_id": "ch07_L2_transfer_1",
+  "id": "ch07_L2_transfer_1",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_t03",
+  "prompt": "Скажи за Ольгу: «Её сестра живёт в Лейпциге.»",
+  "answer": "Ihre Schwester wohnt in Leipzig.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch07_t03.mp3",
+  "de": null,
+  "accept": [
+   "Ihre Schwester wohnt in Leipzig."
+  ]
+ },
+ {
+  "item_id": "ch07_L2_transfer_2",
+  "id": "ch07_L2_transfer_2",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_t04",
+  "prompt": "Спроси Ольгу про брата Анны: «Сколько лет её брату?»",
+  "answer": "Wie alt ist ihr Bruder?",
+  "distractors": null,
+  "rule_id": "topics/pronouns",
+  "transfer": true,
+  "audio": "audio_v1/ch07_t04.mp3",
+  "de": null,
+  "accept": [
+   "Wie alt ist ihr Bruder?"
+  ]
+ },
+ {
+  "item_id": "ch07_L2_transfer_3",
+  "id": "ch07_L2_transfer_3",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_t04",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Сколько лет её брату?",
+  "distractors": [
+   "Сколько лет его жене?",
+   "Сколько ему лет?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch07_t04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L2_transfer_4",
+  "id": "ch07_L2_transfer_4",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_t04",
+  "prompt": "Впиши: «Wie alt ist ___ Bruder?» (её)",
+  "answer": "ihr",
+  "distractors": null,
+  "rule_id": "topics/pronouns",
+  "transfer": true,
+  "audio": "audio_v1/ch07_t04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L2_transfer_5",
+  "id": "ch07_L2_transfer_5",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_t04",
+  "prompt": "Почему «ihr Bruder», а не «ihre Bruder»?",
+  "answer": "der Bruder — der-слово: ihr без -e.",
+  "distractors": [
+   "Потому что Bruder — мужчина, поэтому ihr.",
+   "Потому что после ihr никогда не ставят -e."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": true,
+  "audio": null,
+  "de": "Wie alt ist ihr Bruder?"
+ },
+ {
+  "item_id": "ch07_L2_boss_1",
+  "id": "ch07_L2_boss_1",
+  "lesson": "ch07_L2",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d2_08",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Его любимый цвет — синий.",
+  "distractors": [
+   "Её любимый цвет — синий.",
+   "Его любимый цвет — зелёный."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d2_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L3_words_1",
+  "id": "ch07_L3_words_1",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_030",
+  "prompt": "Что значит «Ich muss den Elternabend organisieren.»?",
+  "answer": "Мне нужно организовать родительское собрание.",
+  "distractors": [
+   "Я хочу организовать родительское собрание.",
+   "Я организовал родительское собрание."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L3_words_2",
+  "id": "ch07_L3_words_2",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_031",
+  "prompt": "Что значит «Ich kann die Getränke kaufen.»?",
+  "answer": "Я могу купить напитки.",
+  "distractors": [
+   "Я должен купить напитки.",
+   "Я купил напитки."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L3_words_3",
+  "id": "ch07_L3_words_3",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_032",
+  "prompt": "Что значит «Kannst du helfen?»",
+  "answer": "Ты можешь помочь?",
+  "distractors": [
+   "Ты должен помочь?",
+   "Я могу помочь?"
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L3_words_4",
+  "id": "ch07_L3_words_4",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_033",
+  "prompt": "Что значит «Du musst die Stühle bringen.»?",
+  "answer": "Ты должен принести стулья.",
+  "distractors": [
+   "Ты можешь принести стулья.",
+   "Я принесу стулья."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L3_words_5",
+  "id": "ch07_L3_words_5",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_034",
+  "prompt": "Что значит «Herr Wagner kann das Wasser bringen.»?",
+  "answer": "Господин Вагнер может принести воду.",
+  "distractors": [
+   "Господин Вагнер должен принести воду.",
+   "Господин Вагнер принёс воду."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L3_words_6",
+  "id": "ch07_L3_words_6",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_035",
+  "prompt": "Что значит «Ich kann das.»?",
+  "answer": "Я это могу.",
+  "distractors": [
+   "Я это знаю.",
+   "Я это хочу."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L3_words_7",
+  "id": "ch07_L3_words_7",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_036",
+  "prompt": "Что значит «Ich muss weg.»?",
+  "answer": "Мне нужно уйти.",
+  "distractors": [
+   "Я не могу уйти.",
+   "Я иду домой."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L3_listen_1",
+  "id": "ch07_L3_listen_1",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d3_01",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Мне нужно организовать родительское собрание.",
+  "distractors": [
+   "Я организовала родительское собрание.",
+   "Мне нужно купить напитки."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d3_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L3_listen_2",
+  "id": "ch07_L3_listen_2",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d3_02",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "Могу я помочь?",
+  "distractors": [
+   "Ты можешь помочь?",
+   "Мне нужно помочь?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d3_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L3_listen_3",
+  "id": "ch07_L3_listen_3",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d3_03",
+  "prompt": "Послушай. О чём попросила Ольга?",
+  "answer": "купить напитки",
+  "distractors": [
+   "принести стулья",
+   "организовать собрание"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d3_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L3_listen_4",
+  "id": "ch07_L3_listen_4",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d3_05",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "А ты должен принести стулья.",
+  "distractors": [
+   "А я должна принести стулья.",
+   "А ты можешь принести стулья."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d3_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L3_listen_5",
+  "id": "ch07_L3_listen_5",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d3_07",
+  "prompt": "Послушай. Кто принесёт воду?",
+  "answer": "господин Вагнер",
+  "distractors": [
+   "Ольга и герой",
+   "только герой"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d3_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L3_read_1",
+  "id": "ch07_L3_read_1",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_030",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Мне нужно организовать родительское собрание.",
+  "distractors": [
+   "Я могу организовать родительское собрание.",
+   "Мне нужно купить напитки."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich muss den Elternabend organisieren."
+ },
+ {
+  "item_id": "ch07_L3_read_2",
+  "id": "ch07_L3_read_2",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_031",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я могу купить напитки.",
+  "distractors": [
+   "Мне нужно купить напитки.",
+   "Я могу принести стулья."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich kann die Getränke kaufen."
+ },
+ {
+  "item_id": "ch07_L3_read_3",
+  "id": "ch07_L3_read_3",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_032",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Ты можешь помочь?",
+  "distractors": [
+   "Я могу помочь?",
+   "Ты должен помочь?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Kannst du helfen?"
+ },
+ {
+  "item_id": "ch07_L3_read_4",
+  "id": "ch07_L3_read_4",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_033",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Ты должен принести стулья.",
+  "distractors": [
+   "Ты можешь принести стулья.",
+   "Я должен принести стулья."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Du musst die Stühle bringen."
+ },
+ {
+  "item_id": "ch07_L3_read_5",
+  "id": "ch07_L3_read_5",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_036",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Мне нужно уйти.",
+  "distractors": [
+   "Я могу уйти.",
+   "Мне не нужно уйти."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich muss weg."
+ },
+ {
+  "item_id": "ch07_L3_speak_1",
+  "id": "ch07_L3_speak_1",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_d3_02",
+  "prompt": "Предложи помощь: «Могу я помочь?»",
+  "answer": "Kann ich helfen?",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d3_02.mp3",
+  "de": null,
+  "accept": [
+   "Kann ich helfen?"
+  ]
+ },
+ {
+  "item_id": "ch07_L3_speak_2",
+  "id": "ch07_L3_speak_2",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_032",
+  "prompt": "Спроси Ольгу: «Ты можешь помочь?»",
+  "answer": "Kannst du helfen?",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch07_032.mp3",
+  "de": null,
+  "accept": [
+   "Kannst du helfen?"
+  ]
+ },
+ {
+  "item_id": "ch07_L3_speak_3",
+  "id": "ch07_L3_speak_3",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_030",
+  "prompt": "Скажи за Ольгу: «Мне нужно организовать (это) родительское собрание.»",
+  "answer": "Ich muss den Elternabend organisieren.",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch07_030.mp3",
+  "de": null,
+  "accept": [
+   "Ich muss den Elternabend organisieren."
+  ]
+ },
+ {
+  "item_id": "ch07_L3_speak_4",
+  "id": "ch07_L3_speak_4",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_031",
+  "prompt": "Скажи: «Я могу купить напитки.»",
+  "answer": "Ich kann die Getränke kaufen.",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch07_031.mp3",
+  "de": null,
+  "accept": [
+   "Ich kann die Getränke kaufen."
+  ]
+ },
+ {
+  "item_id": "ch07_L3_speak_5",
+  "id": "ch07_L3_speak_5",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_033",
+  "prompt": "Скажи за Ольгу: «Ты должен принести стулья.»",
+  "answer": "Du musst die Stühle bringen.",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch07_033.mp3",
+  "de": null,
+  "accept": [
+   "Du musst die Stühle bringen."
+  ]
+ },
+ {
+  "item_id": "ch07_L3_speak_6",
+  "id": "ch07_L3_speak_6",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_036",
+  "prompt": "Скажи на прощание: «Мне нужно уйти.»",
+  "answer": "Ich muss weg.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch07_036.mp3",
+  "de": null,
+  "accept": [
+   "Ich muss weg."
+  ]
+ },
+ {
+  "item_id": "ch07_L3_write_1",
+  "id": "ch07_L3_write_1",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_030",
+  "prompt": "Впиши: «Ich ___ den Elternabend organisieren.» (нужно)",
+  "answer": "muss",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch07_030.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L3_write_2",
+  "id": "ch07_L3_write_2",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_031",
+  "prompt": "Впиши: «Ich ___ die Getränke kaufen.» (могу)",
+  "answer": "kann",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch07_031.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L3_write_3",
+  "id": "ch07_L3_write_3",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_032",
+  "prompt": "Впиши: «___ du helfen?» (можешь)",
+  "answer": "Kannst",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch07_032.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L3_write_4",
+  "id": "ch07_L3_write_4",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_033",
+  "prompt": "Впиши: «Du ___ die Stühle bringen.» (должен)",
+  "answer": "musst",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch07_033.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L3_write_5",
+  "id": "ch07_L3_write_5",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_033",
+  "prompt": "Впиши: «Du musst die Stühle ___.» (принести)",
+  "answer": "bringen",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch07_033.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L3_write_6",
+  "id": "ch07_L3_write_6",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_031",
+  "prompt": "Впиши: «Ich kann die Getränke ___.» (купить)",
+  "answer": "kaufen",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch07_031.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L3_why_1",
+  "id": "ch07_L3_why_1",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_030",
+  "prompt": "Почему «Ich muss den Elternabend organisieren», а не «Ich muss organisieren den Elternabend»?",
+  "answer": "Второе действие — в конце: muss … organisieren.",
+  "distractors": [
+   "Потому что organisieren — очень длинное слово.",
+   "Потому что после muss всегда сразу идёт den."
+  ],
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich muss den Elternabend organisieren."
+ },
+ {
+  "item_id": "ch07_L3_why_2",
+  "id": "ch07_L3_why_2",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_031",
+  "prompt": "Почему «Ich kann die Getränke kaufen», а не «Ich kaufen kann die Getränke»?",
+  "answer": "kann держит вагон №2, а kaufen уходит в конец.",
+  "distractors": [
+   "Потому что kaufen — вопрос.",
+   "Потому что Getränke — слово во множественном числе."
+  ],
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich kann die Getränke kaufen."
+ },
+ {
+  "item_id": "ch07_L3_why_3",
+  "id": "ch07_L3_why_3",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_032",
+  "prompt": "Почему в «Kannst du helfen?» слово kannst — первое?",
+  "answer": "Вопрос «да/нет»: kannst впереди, helfen — в конце.",
+  "distractors": [
+   "Потому что kannst — самое важное слово фразы.",
+   "Потому что в вопросах du всегда стоит в конце."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Kannst du helfen?"
+ },
+ {
+  "item_id": "ch07_L3_why_4",
+  "id": "ch07_L3_why_4",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_034",
+  "prompt": "Почему «Herr Wagner kann», а не «Herr Wagner kannst»?",
+  "answer": "У «он» форма как у «я»: kann. -st — только у du.",
+  "distractors": [
+   "Потому что Herr — вежливое слово, без -st.",
+   "Потому что Wagner — фамилия, а не имя."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Herr Wagner kann das Wasser bringen."
+ },
+ {
+  "item_id": "ch07_L3_why_5",
+  "id": "ch07_L3_why_5",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_036",
+  "prompt": "Почему в «Ich muss weg.» слово weg стоит в конце?",
+  "answer": "weg — хвост действия wegmüssen: он в конце.",
+  "distractors": [
+   "Потому что weg — самое короткое слово.",
+   "Потому что после muss всегда идёт weg."
+  ],
+  "rule_id": "topics/verb_endings",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich muss weg."
+ },
+ {
+  "item_id": "ch07_L3_transfer_1",
+  "id": "ch07_L3_transfer_1",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_t05",
+  "prompt": "Спроси Ольгу: «Могу я принести стулья?»",
+  "answer": "Kann ich die Stühle bringen?",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": true,
+  "audio": "audio_v1/ch07_t05.mp3",
+  "de": null,
+  "accept": [
+   "Kann ich die Stühle bringen?"
+  ]
+ },
+ {
+  "item_id": "ch07_L3_transfer_2",
+  "id": "ch07_L3_transfer_2",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_t06",
+  "prompt": "Скажи за Ольгу: «Мне нужно принести стулья.»",
+  "answer": "Ich muss die Stühle bringen.",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": true,
+  "audio": "audio_v1/ch07_t06.mp3",
+  "de": null,
+  "accept": [
+   "Ich muss die Stühle bringen."
+  ]
+ },
+ {
+  "item_id": "ch07_L3_transfer_3",
+  "id": "ch07_L3_transfer_3",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_t06",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Мне нужно принести стулья.",
+  "distractors": [
+   "Я могу принести стулья.",
+   "Мне нужно купить напитки."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch07_t06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L3_transfer_4",
+  "id": "ch07_L3_transfer_4",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_t05",
+  "prompt": "Впиши: «___ ich die Stühle bringen?» (могу)",
+  "answer": "Kann",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": true,
+  "audio": "audio_v1/ch07_t05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L3_transfer_5",
+  "id": "ch07_L3_transfer_5",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_t06",
+  "prompt": "Почему в «Ich muss die Stühle bringen» слово bringen стоит в конце?",
+  "answer": "muss держит вагон №2, а второе действие bringen уходит в конец.",
+  "distractors": [
+   "muss держит вагон №2, а первое действие bringen уходит в конец.",
+   "Потому что Stühle — слово во множественном числе."
+  ],
+  "rule_id": "topics/modal",
+  "transfer": true,
+  "audio": null,
+  "de": "Ich muss die Stühle bringen."
+ },
+ {
+  "item_id": "ch07_L3_boss_1",
+  "id": "ch07_L3_boss_1",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d3_08",
+  "prompt": "Послушай. Что сказал герой в конце?",
+  "answer": "Хорошо. Мне нужно уйти, пока!",
+  "distractors": [
+   "Хорошо. Я могу прийти!",
+   "Хорошо. Мне нужно купить напитки!"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d3_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L3_boss_2",
+  "id": "ch07_L3_boss_2",
+  "lesson": "ch07_L3",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_037",
+  "prompt": "Прочитай и выбери перевод.",
+  "answer": "Ты можешь принести стулья?",
+  "distractors": [
+   "Ты должен принести стулья.",
+   "Я могу принести стулья."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Kannst du die Stühle bringen?"
+ },
+ {
+  "item_id": "ch07_L4_words_1",
+  "id": "ch07_L4_words_1",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_040",
+  "prompt": "Что значит «Sie ist Italienerin.»?",
+  "answer": "Она итальянка.",
+  "distractors": [
+   "Она из Италии.",
+   "Он итальянец."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L4_words_2",
+  "id": "ch07_L4_words_2",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_041",
+  "prompt": "Что значит «Welche Sprachen sprechen Sie?»",
+  "answer": "На каких языках вы говорите?",
+  "distractors": [
+   "Откуда вы приехали в Германию?",
+   "Какой язык вы сейчас учите?"
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L4_words_3",
+  "id": "ch07_L4_words_3",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_042",
+  "prompt": "Что значит «Ich spreche Italienisch und Deutsch.»?",
+  "answer": "Я говорю по-итальянски и по-немецки.",
+  "distractors": [
+   "Я учу итальянский и немецкий.",
+   "Я живу в Италии и Германии."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L4_words_4",
+  "id": "ch07_L4_words_4",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_043",
+  "prompt": "Что значит «Kennen Sie Frau Schulz?»",
+  "answer": "Вы знаете госпожу Шульц?",
+  "distractors": [
+   "Вы видели госпожу Шульц?",
+   "Вы знаете, где госпожа Шульц?"
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L4_words_5",
+  "id": "ch07_L4_words_5",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_044",
+  "prompt": "Что значит «Ich kenne sie nicht.»?",
+  "answer": "Я её не знаю.",
+  "distractors": [
+   "Я её не вижу.",
+   "Я этого не знаю."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L4_words_6",
+  "id": "ch07_L4_words_6",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_045",
+  "prompt": "Что значит «Ich weiß das nicht.»?",
+  "answer": "Я этого не знаю.",
+  "distractors": [
+   "Я её не знаю.",
+   "Я этого не хочу."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L4_words_7",
+  "id": "ch07_L4_words_7",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_d4_01",
+  "prompt": "Что значит «Das ist Maria. Sie ist Italienerin.»?",
+  "answer": "Это Мария. Она итальянка.",
+  "distractors": [
+   "Это Мария. Она из Италии.",
+   "Это Мария. Он итальянец."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L4_listen_1",
+  "id": "ch07_L4_listen_1",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d4_01",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Это Мария. Она итальянка.",
+  "distractors": [
+   "Это Мария. Она из Италии.",
+   "Это Ольга. Она итальянка."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d4_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L4_listen_2",
+  "id": "ch07_L4_listen_2",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d4_02",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "Добрый вечер. Откуда вы?",
+  "distractors": [
+   "Добрый вечер. Как вас зовут?",
+   "Добрый вечер. Где вы живёте?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d4_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L4_listen_3",
+  "id": "ch07_L4_listen_3",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d4_04",
+  "prompt": "Послушай. О чём спросил герой?",
+  "answer": "на каких языках она говорит",
+  "distractors": [
+   "откуда она приехала сюда",
+   "кого она знает на собрании"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d4_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L4_listen_4",
+  "id": "ch07_L4_listen_4",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d4_05",
+  "prompt": "Послушай. Что сказала Мария?",
+  "answer": "Я говорю по-итальянски и по-немецки.",
+  "distractors": [
+   "Я говорю по-итальянски и по-английски.",
+   "Я учу итальянский и немецкий."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d4_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L4_listen_5",
+  "id": "ch07_L4_listen_5",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d4_07",
+  "prompt": "Послушай. Что ответила Мария?",
+  "answer": "Нет, я её не знаю.",
+  "distractors": [
+   "Да, я её знаю.",
+   "Нет, я этого не знаю."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d4_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L4_read_1",
+  "id": "ch07_L4_read_1",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_040",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Она итальянка.",
+  "distractors": [
+   "Он итальянец.",
+   "Она из Италии."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Sie ist Italienerin."
+ },
+ {
+  "item_id": "ch07_L4_read_2",
+  "id": "ch07_L4_read_2",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_041",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "На каких языках вы говорите?",
+  "distractors": [
+   "Откуда вы?",
+   "Вы говорите по-немецки?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Welche Sprachen sprechen Sie?"
+ },
+ {
+  "item_id": "ch07_L4_read_3",
+  "id": "ch07_L4_read_3",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_043",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Вы знаете госпожу Шульц?",
+  "distractors": [
+   "Госпожа Шульц вас знает?",
+   "Вы знаете, где госпожа Шульц?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Kennen Sie Frau Schulz?"
+ },
+ {
+  "item_id": "ch07_L4_read_4",
+  "id": "ch07_L4_read_4",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_044",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я её не знаю.",
+  "distractors": [
+   "Я её не вижу.",
+   "Она меня не знает."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich kenne sie nicht."
+ },
+ {
+  "item_id": "ch07_L4_read_5",
+  "id": "ch07_L4_read_5",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_045",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я этого не знаю.",
+  "distractors": [
+   "Я его не знаю.",
+   "Мы этого не знаем."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich weiß das nicht."
+ },
+ {
+  "item_id": "ch07_L4_speak_1",
+  "id": "ch07_L4_speak_1",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_d4_02",
+  "prompt": "Поздоровайся и спроси Марию на «вы»: «Добрый вечер. Откуда вы?»",
+  "answer": "Guten Abend. Woher kommen Sie?",
+  "distractors": null,
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d4_02.mp3",
+  "de": null,
+  "accept": [
+   "Guten Abend. Woher kommen Sie?"
+  ]
+ },
+ {
+  "item_id": "ch07_L4_speak_2",
+  "id": "ch07_L4_speak_2",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_041",
+  "prompt": "Спроси Марию: «На каких языках вы говорите?»",
+  "answer": "Welche Sprachen sprechen Sie?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch07_041.mp3",
+  "de": null,
+  "accept": [
+   "Welche Sprachen sprechen Sie?"
+  ]
+ },
+ {
+  "item_id": "ch07_L4_speak_3",
+  "id": "ch07_L4_speak_3",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_043",
+  "prompt": "Спроси Марию: «Вы знаете госпожу Шульц?»",
+  "answer": "Kennen Sie Frau Schulz?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch07_043.mp3",
+  "de": null,
+  "accept": [
+   "Kennen Sie Frau Schulz?"
+  ]
+ },
+ {
+  "item_id": "ch07_L4_speak_4",
+  "id": "ch07_L4_speak_4",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_044",
+  "prompt": "Скажи: «Я её не знаю.»",
+  "answer": "Ich kenne sie nicht.",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch07_044.mp3",
+  "de": null,
+  "accept": [
+   "Ich kenne sie nicht."
+  ]
+ },
+ {
+  "item_id": "ch07_L4_speak_5",
+  "id": "ch07_L4_speak_5",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_042",
+  "prompt": "Скажи за Марию: «Я говорю по-итальянски и по-немецки.»",
+  "answer": "Ich spreche Italienisch und Deutsch.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch07_042.mp3",
+  "de": null,
+  "accept": [
+   "Ich spreche Italienisch und Deutsch."
+  ]
+ },
+ {
+  "item_id": "ch07_L4_speak_6",
+  "id": "ch07_L4_speak_6",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_040",
+  "prompt": "Скажи за Ольгу: «Она итальянка.»",
+  "answer": "Sie ist Italienerin.",
+  "distractors": null,
+  "rule_id": "topics/sein",
+  "transfer": false,
+  "audio": "audio_v1/ch07_040.mp3",
+  "de": null,
+  "accept": [
+   "Sie ist Italienerin."
+  ]
+ },
+ {
+  "item_id": "ch07_L4_write_1",
+  "id": "ch07_L4_write_1",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_040",
+  "prompt": "Впиши: «Sie ist ___.» (итальянка)",
+  "answer": "Italienerin",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch07_040.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L4_write_2",
+  "id": "ch07_L4_write_2",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_043",
+  "prompt": "Впиши: «___ Sie Frau Schulz?» (знаете человека)",
+  "answer": "Kennen",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch07_043.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L4_write_3",
+  "id": "ch07_L4_write_3",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_044",
+  "prompt": "Впиши: «Ich ___ sie nicht.» (знаю человека)",
+  "answer": "kenne",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch07_044.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L4_write_4",
+  "id": "ch07_L4_write_4",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_045",
+  "prompt": "Впиши: «Ich ___ das nicht.» (знаю факт)",
+  "answer": "weiß",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": "audio_v1/ch07_045.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L4_write_5",
+  "id": "ch07_L4_write_5",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_042",
+  "prompt": "Впиши: «Ich spreche Italienisch ___ Deutsch.» (и)",
+  "answer": "und",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch07_042.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L4_write_6",
+  "id": "ch07_L4_write_6",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_041",
+  "prompt": "Впиши: «Welche ___ sprechen Sie?» (языки)",
+  "answer": "Sprachen",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch07_041.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L4_why_1",
+  "id": "ch07_L4_why_1",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_044",
+  "prompt": "Почему «Ich kenne sie nicht», а не «Ich weiß sie nicht»?",
+  "answer": "Человека знают лично — kennen.",
+  "distractors": [
+   "Потому что sie — слово женского рода.",
+   "Потому что weiß говорят только на «вы»."
+  ],
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich kenne sie nicht."
+ },
+ {
+  "item_id": "ch07_L4_why_2",
+  "id": "ch07_L4_why_2",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_045",
+  "prompt": "Почему «Ich weiß das nicht», а не «Ich kenne das nicht»?",
+  "answer": "das здесь — сведения, факт: для фактов нужен weiß.",
+  "distractors": [
+   "Потому что das — слово среднего рода.",
+   "Потому что kenne нельзя ставить с nicht."
+  ],
+  "rule_id": "topics/nicht_kein",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich weiß das nicht."
+ },
+ {
+  "item_id": "ch07_L4_why_3",
+  "id": "ch07_L4_why_3",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_043",
+  "prompt": "Почему «Kennen Sie Frau Schulz?», а не «Wissen Sie Frau Schulz?»",
+  "answer": "Людей знают лично — kennen.",
+  "distractors": [
+   "Потому что Frau — слово женского рода.",
+   "Потому что wissen нельзя на «вы»."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Kennen Sie Frau Schulz?"
+ },
+ {
+  "item_id": "ch07_L4_why_4",
+  "id": "ch07_L4_why_4",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_040",
+  "prompt": "Почему «Italienerin», а не «Italiener»?",
+  "answer": "Говорим о женщине: к слову Italiener добавляют -in.",
+  "distractors": [
+   "Потому что Sie стоит в начале.",
+   "Потому что Italienerin — название страны."
+  ],
+  "rule_id": "cards/articles",
+  "transfer": false,
+  "audio": null,
+  "de": "Sie ist Italienerin."
+ },
+ {
+  "item_id": "ch07_L4_why_5",
+  "id": "ch07_L4_why_5",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_042",
+  "prompt": "Почему «Italienisch» и «Deutsch» с большой буквы?",
+  "answer": "Названия языков пишут с большой буквы.",
+  "distractors": [
+   "Потому что они стоят в конце фразы.",
+   "Потому что это названия стран."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich spreche Italienisch und Deutsch."
+ },
+ {
+  "item_id": "ch07_L4_transfer_1",
+  "id": "ch07_L4_transfer_1",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_t07",
+  "prompt": "Спроси Марию: «Вы знаете госпожу Беккер?»",
+  "answer": "Kennen Sie Frau Becker?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch07_t07.mp3",
+  "de": null,
+  "accept": [
+   "Kennen Sie Frau Becker?"
+  ]
+ },
+ {
+  "item_id": "ch07_L4_transfer_2",
+  "id": "ch07_L4_transfer_2",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_t08",
+  "prompt": "Скажи Марии: «Я этого тоже не знаю.»",
+  "answer": "Ich weiß das auch nicht.",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": true,
+  "audio": "audio_v1/ch07_t08.mp3",
+  "de": null,
+  "accept": [
+   "Ich weiß das auch nicht."
+  ]
+ },
+ {
+  "item_id": "ch07_L4_transfer_3",
+  "id": "ch07_L4_transfer_3",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_t08",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Я этого тоже не знаю.",
+  "distractors": [
+   "Я её тоже не знаю.",
+   "Я этого не знаю."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch07_t08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L4_transfer_4",
+  "id": "ch07_L4_transfer_4",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_t08",
+  "prompt": "Впиши: «Ich ___ das auch nicht.» (знаю факт)",
+  "answer": "weiß",
+  "distractors": null,
+  "rule_id": "topics/nicht_kein",
+  "transfer": true,
+  "audio": "audio_v1/ch07_t08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L4_transfer_5",
+  "id": "ch07_L4_transfer_5",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_t08",
+  "prompt": "Почему «Ich weiß das auch nicht», а не «Ich kenne das auch nicht»?",
+  "answer": "das здесь — сведения, факт: для фактов нужен weiß.",
+  "distractors": [
+   "Потому что auch меняет глагол.",
+   "Потому что kenne говорят только на «вы»."
+  ],
+  "rule_id": "topics/nicht_kein",
+  "transfer": true,
+  "audio": null,
+  "de": "Ich weiß das auch nicht."
+ },
+ {
+  "item_id": "ch07_L4_boss_1",
+  "id": "ch07_L4_boss_1",
+  "lesson": "ch07_L4",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d4_08",
+  "prompt": "Послушай. Что сказал герой?",
+  "answer": "Кто она? Я этого не знаю.",
+  "distractors": [
+   "Кто она? Я её не знаю.",
+   "Где она? Я это знаю."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d4_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L5_words_1",
+  "id": "ch07_L5_words_1",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_051",
+  "prompt": "Что значит «Wie war der Elternabend?»",
+  "answer": "Как прошло родительское собрание?",
+  "distractors": [
+   "Когда будет родительское собрание?",
+   "Где проходит родительское собрание?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L5_words_2",
+  "id": "ch07_L5_words_2",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_052",
+  "prompt": "Что значит «Ich hatte Hunger.»?",
+  "answer": "Я хотел есть.",
+  "distractors": [
+   "Я хочу есть.",
+   "Я хотел пить."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L5_words_3",
+  "id": "ch07_L5_words_3",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_053",
+  "prompt": "Что значит «Die Gäste hatten Durst.»?",
+  "answer": "Гости хотели пить.",
+  "distractors": [
+   "Гости хотят пить.",
+   "Гости хотели есть."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L5_words_4",
+  "id": "ch07_L5_words_4",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_054",
+  "prompt": "Что значит «Ich trinke gern Tee.»?",
+  "answer": "Я люблю пить чай.",
+  "distractors": [
+   "Я не пью чай.",
+   "Я охотнее пью воду."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L5_words_5",
+  "id": "ch07_L5_words_5",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_055",
+  "prompt": "Что значит «Ich trinke lieber Wasser.»?",
+  "answer": "Я охотнее пью воду.",
+  "distractors": [
+   "Я люблю пить воду.",
+   "Я пью воду, чай и кофе."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L5_words_6",
+  "id": "ch07_L5_words_6",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_056",
+  "prompt": "Что значит «Ich trinke Kaffee am liebsten.»?",
+  "answer": "Охотнее всего я пью кофе.",
+  "distractors": [
+   "Я пью кофе, когда хочу.",
+   "Я люблю пить кофе."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L5_listen_1",
+  "id": "ch07_L5_listen_1",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d5_01",
+  "prompt": "Послушай. Что спросил герой?",
+  "answer": "Как прошло родительское собрание?",
+  "distractors": [
+   "Когда было родительское собрание?",
+   "Кто был на родительском собрании?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d5_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L5_listen_2",
+  "id": "ch07_L5_listen_2",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d5_02",
+  "prompt": "Послушай. Что ответила Ольга?",
+  "answer": "Собрание прошло хорошо.",
+  "distractors": [
+   "Собрание прошло плохо.",
+   "Собрание ещё идёт."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d5_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L5_listen_3",
+  "id": "ch07_L5_listen_3",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d5_03",
+  "prompt": "Послушай. Что сказал герой?",
+  "answer": "Гости хотели пить.",
+  "distractors": [
+   "Гости хотели есть.",
+   "Гости ушли."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d5_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L5_listen_4",
+  "id": "ch07_L5_listen_4",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d5_04",
+  "prompt": "Послушай. Что сказала Ольга?",
+  "answer": "Я хотела есть.",
+  "distractors": [
+   "Я хотела пить.",
+   "Я хочу есть."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d5_04.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L5_listen_5",
+  "id": "ch07_L5_listen_5",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d5_06",
+  "prompt": "Послушай. Что ответила Ольга?",
+  "answer": "Я охотнее пью воду.",
+  "distractors": [
+   "Я люблю пить чай.",
+   "Я охотнее пью кофе."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d5_06.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L5_read_1",
+  "id": "ch07_L5_read_1",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_051",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Как прошло родительское собрание?",
+  "distractors": [
+   "Когда было родительское собрание?",
+   "Где было родительское собрание?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie war der Elternabend?"
+ },
+ {
+  "item_id": "ch07_L5_read_2",
+  "id": "ch07_L5_read_2",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_052",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я хотел есть.",
+  "distractors": [
+   "Я хочу есть.",
+   "Я хотел пить."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich hatte Hunger."
+ },
+ {
+  "item_id": "ch07_L5_read_3",
+  "id": "ch07_L5_read_3",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_054",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я люблю пить чай.",
+  "distractors": [
+   "Я не люблю чай.",
+   "Я охотнее пью воду."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich trinke gern Tee."
+ },
+ {
+  "item_id": "ch07_L5_read_4",
+  "id": "ch07_L5_read_4",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_055",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я охотнее пью воду.",
+  "distractors": [
+   "Я люблю воду.",
+   "Я охотнее пью чай."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich trinke lieber Wasser."
+ },
+ {
+  "item_id": "ch07_L5_read_5",
+  "id": "ch07_L5_read_5",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_056",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Охотнее всего я пью кофе.",
+  "distractors": [
+   "Я пью кофе иногда.",
+   "Кофе я пью охотнее воды."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich trinke Kaffee am liebsten."
+ },
+ {
+  "item_id": "ch07_L5_speak_1",
+  "id": "ch07_L5_speak_1",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_d5_01",
+  "prompt": "Спроси Ольгу: «Как прошло родительское собрание?»",
+  "answer": "Wie war der Elternabend?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d5_01.mp3",
+  "de": null,
+  "accept": [
+   "Wie war der Elternabend?"
+  ]
+ },
+ {
+  "item_id": "ch07_L5_speak_2",
+  "id": "ch07_L5_speak_2",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_052",
+  "prompt": "Скажи: «Я хотел есть.»",
+  "answer": "Ich hatte Hunger.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch07_052.mp3",
+  "de": null,
+  "accept": [
+   "Ich hatte Hunger."
+  ]
+ },
+ {
+  "item_id": "ch07_L5_speak_3",
+  "id": "ch07_L5_speak_3",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_053",
+  "prompt": "Скажи: «Гости хотели пить.»",
+  "answer": "Die Gäste hatten Durst.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch07_053.mp3",
+  "de": null,
+  "accept": [
+   "Die Gäste hatten Durst."
+  ]
+ },
+ {
+  "item_id": "ch07_L5_speak_4",
+  "id": "ch07_L5_speak_4",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_054",
+  "prompt": "Скажи: «Я люблю пить чай.»",
+  "answer": "Ich trinke gern Tee.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch07_054.mp3",
+  "de": null,
+  "accept": [
+   "Ich trinke gern Tee."
+  ]
+ },
+ {
+  "item_id": "ch07_L5_speak_5",
+  "id": "ch07_L5_speak_5",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_055",
+  "prompt": "Скажи: «Я охотнее пью воду.»",
+  "answer": "Ich trinke lieber Wasser.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch07_055.mp3",
+  "de": null,
+  "accept": [
+   "Ich trinke lieber Wasser."
+  ]
+ },
+ {
+  "item_id": "ch07_L5_speak_6",
+  "id": "ch07_L5_speak_6",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_056",
+  "prompt": "Скажи: «Охотнее всего я пью кофе.»",
+  "answer": "Ich trinke Kaffee am liebsten.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch07_056.mp3",
+  "de": null,
+  "accept": [
+   "Ich trinke Kaffee am liebsten."
+  ]
+ },
+ {
+  "item_id": "ch07_L5_write_1",
+  "id": "ch07_L5_write_1",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_051",
+  "prompt": "Впиши: «Wie ___ der Elternabend?» (было)",
+  "answer": "war",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch07_051.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L5_write_2",
+  "id": "ch07_L5_write_2",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_052",
+  "prompt": "Впиши: «Ich ___ Hunger.» (было, прошедшее от haben)",
+  "answer": "hatte",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch07_052.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L5_write_3",
+  "id": "ch07_L5_write_3",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_053",
+  "prompt": "Впиши: «Die Gäste ___ Durst.» (было у многих)",
+  "answer": "hatten",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch07_053.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L5_write_4",
+  "id": "ch07_L5_write_4",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_054",
+  "prompt": "Впиши: «Ich trinke ___ Tee.» (с удовольствием)",
+  "answer": "gern",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch07_054.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L5_write_5",
+  "id": "ch07_L5_write_5",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_055",
+  "prompt": "Впиши: «Ich trinke ___ Wasser.» (охотнее)",
+  "answer": "lieber",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch07_055.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L5_write_6",
+  "id": "ch07_L5_write_6",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_056",
+  "prompt": "Впиши: «Ich trinke Kaffee am ___.» (охотнее всего)",
+  "answer": "liebsten",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch07_056.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L5_why_1",
+  "id": "ch07_L5_why_1",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_051",
+  "prompt": "Почему «Wie war der Elternabend?», а не «Wie ist der Elternabend?»",
+  "answer": "Собрание уже прошло: ist в прошлом — это war.",
+  "distractors": [
+   "Потому что Wie всегда требует war.",
+   "Потому что Elternabend — слово мужского рода."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie war der Elternabend?"
+ },
+ {
+  "item_id": "ch07_L5_why_2",
+  "id": "ch07_L5_why_2",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_052",
+  "prompt": "Почему «Ich hatte Hunger», а не «Ich habe Hunger»?",
+  "answer": "Речь о прошлом: habe в прошлом — hatte.",
+  "distractors": [
+   "Потому что Hunger — слово мужского рода.",
+   "Потому что habe нельзя с ich."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich hatte Hunger."
+ },
+ {
+  "item_id": "ch07_L5_why_3",
+  "id": "ch07_L5_why_3",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_053",
+  "prompt": "Почему «Die Gäste hatten», а не «Die Gäste hatte»?",
+  "answer": "Гостей много: к hatte добавляется -n.",
+  "distractors": [
+   "Потому что Durst стоит в конце.",
+   "Потому что hatten говорят только в вопросе."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Die Gäste hatten Durst."
+ },
+ {
+  "item_id": "ch07_L5_why_4",
+  "id": "ch07_L5_why_4",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_055",
+  "prompt": "Почему «Ich trinke lieber Wasser», а не «Ich trinke gern Wasser»?",
+  "answer": "lieber — «охотнее»: выбираешь воду, а не чай.",
+  "distractors": [
+   "Потому что Wasser — слово среднего рода.",
+   "Потому что gern нельзя с trinke."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich trinke lieber Wasser."
+ },
+ {
+  "item_id": "ch07_L5_why_5",
+  "id": "ch07_L5_why_5",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_056",
+  "prompt": "Что значит am liebsten в «Ich trinke Kaffee am liebsten»?",
+  "answer": "«Охотнее всего»: самое любимое из всех.",
+  "distractors": [
+   "«Лучше, чем вода, но не всегда».",
+   "«Иногда и совсем немного»."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich trinke Kaffee am liebsten."
+ },
+ {
+  "item_id": "ch07_L5_transfer_1",
+  "id": "ch07_L5_transfer_1",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_t09",
+  "prompt": "Скажи: «Я хотел пить.»",
+  "answer": "Ich hatte Durst.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch07_t09.mp3",
+  "de": null,
+  "accept": [
+   "Ich hatte Durst."
+  ]
+ },
+ {
+  "item_id": "ch07_L5_transfer_2",
+  "id": "ch07_L5_transfer_2",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_t10",
+  "prompt": "Скажи Ольге: «Я охотнее пью чай.»",
+  "answer": "Ich trinke lieber Tee.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch07_t10.mp3",
+  "de": null,
+  "accept": [
+   "Ich trinke lieber Tee."
+  ]
+ },
+ {
+  "item_id": "ch07_L5_transfer_3",
+  "id": "ch07_L5_transfer_3",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_t10",
+  "prompt": "Послушай новую фразу. Что сказали?",
+  "answer": "Я охотнее пью чай.",
+  "distractors": [
+   "Я охотно пью чай.",
+   "Я охотнее пью воду."
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch07_t10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L5_transfer_4",
+  "id": "ch07_L5_transfer_4",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_t10",
+  "prompt": "Напиши по-немецки: «Я охотнее пью чай.»",
+  "answer": "Ich trinke lieber Tee.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": "audio_v1/ch07_t10.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L5_transfer_5",
+  "id": "ch07_L5_transfer_5",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_t10",
+  "prompt": "Почему «Ich trinke lieber Tee», а не «Ich trinke am liebsten Tee»?",
+  "answer": "Здесь выбор между двумя вещами: для двух — lieber.",
+  "distractors": [
+   "Потому что Tee — слово мужского рода.",
+   "Потому что am liebsten нельзя с trinke."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": true,
+  "audio": null,
+  "de": "Ich trinke lieber Tee."
+ },
+ {
+  "item_id": "ch07_L5_boss_1",
+  "id": "ch07_L5_boss_1",
+  "lesson": "ch07_L5",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d5_07",
+  "prompt": "Послушай. Что сказал герой?",
+  "answer": "Охотнее всего я пью кофе.",
+  "distractors": [
+   "Охотнее всего я пью воду.",
+   "Я люблю пить кофе и чай."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d5_07.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L6_words_1",
+  "id": "ch07_L6_words_1",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_051",
+  "prompt": "Что значит «Wie war der Elternabend?»",
+  "answer": "Как прошло родительское собрание?",
+  "distractors": [
+   "Когда будет родительское собрание?",
+   "Где проходит родительское собрание?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L6_words_2",
+  "id": "ch07_L6_words_2",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_060",
+  "prompt": "Что значит «Kann ich helfen?»",
+  "answer": "Могу я помочь?",
+  "distractors": [
+   "Ты можешь помочь?",
+   "Мне нужно помочь."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L6_words_3",
+  "id": "ch07_L6_words_3",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_043",
+  "prompt": "Что значит «Kennen Sie Frau Schulz?»",
+  "answer": "Вы знаете госпожу Шульц?",
+  "distractors": [
+   "Вы видели госпожу Шульц?",
+   "Вы знаете, где госпожа Шульц?"
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L6_words_4",
+  "id": "ch07_L6_words_4",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_052",
+  "prompt": "Что значит «Ich hatte Hunger.»?",
+  "answer": "Я хотел есть.",
+  "distractors": [
+   "Я хочу есть.",
+   "Я хотел пить."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L6_words_5",
+  "id": "ch07_L6_words_5",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "words",
+  "phraseId": "ch07_055",
+  "prompt": "Что значит «Ich trinke lieber Wasser.»?",
+  "answer": "Я охотнее пью воду.",
+  "distractors": [
+   "Я люблю пить воду.",
+   "Я пью воду, чай и кофе."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": null
+ },
+ {
+  "item_id": "ch07_L6_listen_1",
+  "id": "ch07_L6_listen_1",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d6_01",
+  "prompt": "Послушай. Что спросил господин Вагнер?",
+  "answer": "Добрый вечер. Как прошло родительское собрание?",
+  "distractors": [
+   "Добрый вечер. Когда будет родительское собрание?",
+   "Добрый вечер. Где проходит родительское собрание?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d6_01.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L6_listen_2",
+  "id": "ch07_L6_listen_2",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d6_02",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Хорошо. Мне нужно принести стулья.",
+  "distractors": [
+   "Хорошо. Мне нужно принести воду.",
+   "Хорошо. Я могу принести стулья."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d6_02.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L6_listen_3",
+  "id": "ch07_L6_listen_3",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d6_03",
+  "prompt": "Послушай. Что предложил господин Вагнер?",
+  "answer": "помочь",
+  "distractors": [
+   "принести воду",
+   "уйти домой"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d6_03.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L6_listen_4",
+  "id": "ch07_L6_listen_4",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d6_05",
+  "prompt": "Послушай. Что сказал господин Вагнер?",
+  "answer": "Да, в Лейпциге живёт её брат.",
+  "distractors": [
+   "Да, в Лейпциге живёт его брат.",
+   "Да, в Лейпциге живёт её сестра."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d6_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L6_listen_5",
+  "id": "ch07_L6_listen_5",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d6_08",
+  "prompt": "Послушай. Что ответил герой?",
+  "answer": "Я охотнее пью воду.",
+  "distractors": [
+   "Я люблю пить чай.",
+   "Я охотнее пью кофе."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d6_08.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L6_read_1",
+  "id": "ch07_L6_read_1",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_060",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Могу я помочь?",
+  "distractors": [
+   "Ты поможешь мне?",
+   "Мне нужно помочь."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Kann ich helfen?"
+ },
+ {
+  "item_id": "ch07_L6_read_2",
+  "id": "ch07_L6_read_2",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_043",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Вы знаете госпожу Шульц?",
+  "distractors": [
+   "Госпожа Шульц вас знает?",
+   "Вы знаете, где госпожа Шульц?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Kennen Sie Frau Schulz?"
+ },
+ {
+  "item_id": "ch07_L6_read_3",
+  "id": "ch07_L6_read_3",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_052",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я хотел есть.",
+  "distractors": [
+   "Я хочу есть.",
+   "Я хотел пить."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich hatte Hunger."
+ },
+ {
+  "item_id": "ch07_L6_read_4",
+  "id": "ch07_L6_read_4",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_055",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "Я охотнее пью воду.",
+  "distractors": [
+   "Я люблю воду.",
+   "Я охотнее пью чай."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich trinke lieber Wasser."
+ },
+ {
+  "item_id": "ch07_L6_read_5",
+  "id": "ch07_L6_read_5",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "read",
+  "phraseId": "ch07_020",
+  "prompt": "Прочитай. Что это значит?",
+  "answer": "В Лейпциге живёт её брат.",
+  "distractors": [
+   "В Лейпциге живёт его брат.",
+   "В Лейпциге живёт её сестра."
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": null,
+  "de": "In Leipzig wohnt ihr Bruder."
+ },
+ {
+  "item_id": "ch07_L6_speak_1",
+  "id": "ch07_L6_speak_1",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_d6_02",
+  "prompt": "Скажи: «Хорошо. Мне нужно принести стулья.»",
+  "answer": "Gut. Ich muss die Stühle bringen.",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d6_02.mp3",
+  "de": null,
+  "accept": [
+   "Gut. Ich muss die Stühle bringen."
+  ]
+ },
+ {
+  "item_id": "ch07_L6_speak_2",
+  "id": "ch07_L6_speak_2",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_051",
+  "prompt": "Спроси господина Вагнера: «Как прошло родительское собрание?»",
+  "answer": "Wie war der Elternabend?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch07_051.mp3",
+  "de": null,
+  "accept": [
+   "Wie war der Elternabend?"
+  ]
+ },
+ {
+  "item_id": "ch07_L6_speak_3",
+  "id": "ch07_L6_speak_3",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_060",
+  "prompt": "Предложи помощь: «Могу я помочь?»",
+  "answer": "Kann ich helfen?",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch07_060.mp3",
+  "de": null,
+  "accept": [
+   "Kann ich helfen?"
+  ]
+ },
+ {
+  "item_id": "ch07_L6_speak_4",
+  "id": "ch07_L6_speak_4",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_043",
+  "prompt": "Спроси господина Вагнера: «Вы знаете госпожу Шульц?»",
+  "answer": "Kennen Sie Frau Schulz?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch07_043.mp3",
+  "de": null,
+  "accept": [
+   "Kennen Sie Frau Schulz?"
+  ]
+ },
+ {
+  "item_id": "ch07_L6_speak_5",
+  "id": "ch07_L6_speak_5",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_052",
+  "prompt": "Скажи: «Я хотел есть.»",
+  "answer": "Ich hatte Hunger.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch07_052.mp3",
+  "de": null,
+  "accept": [
+   "Ich hatte Hunger."
+  ]
+ },
+ {
+  "item_id": "ch07_L6_speak_6",
+  "id": "ch07_L6_speak_6",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_055",
+  "prompt": "Скажи: «Я охотнее пью воду.»",
+  "answer": "Ich trinke lieber Wasser.",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch07_055.mp3",
+  "de": null,
+  "accept": [
+   "Ich trinke lieber Wasser."
+  ]
+ },
+ {
+  "item_id": "ch07_L6_write_1",
+  "id": "ch07_L6_write_1",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_051",
+  "prompt": "Впиши: «Wie ___ der Elternabend?» (было)",
+  "answer": "war",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": "audio_v1/ch07_051.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L6_write_2",
+  "id": "ch07_L6_write_2",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_060",
+  "prompt": "Впиши: «Kann ich ___?» (помочь)",
+  "answer": "helfen",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": "audio_v1/ch07_060.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L6_write_3",
+  "id": "ch07_L6_write_3",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_043",
+  "prompt": "Впиши: «___ Sie Frau Schulz?» (знаете человека)",
+  "answer": "Kennen",
+  "distractors": null,
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": "audio_v1/ch07_043.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L6_write_4",
+  "id": "ch07_L6_write_4",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_052",
+  "prompt": "Впиши: «Ich ___ Hunger.» (было, прошедшее от haben)",
+  "answer": "hatte",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch07_052.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L6_write_5",
+  "id": "ch07_L6_write_5",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_055",
+  "prompt": "Впиши: «Ich trinke ___ Wasser.» (охотнее)",
+  "answer": "lieber",
+  "distractors": null,
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": "audio_v1/ch07_055.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L6_write_6",
+  "id": "ch07_L6_write_6",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_d6_05",
+  "prompt": "Впиши: «Ja, in Leipzig ___ ihr Bruder.» (живёт)",
+  "answer": "wohnt",
+  "distractors": null,
+  "rule_id": "topics/pronouns",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d6_05.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L6_why_1",
+  "id": "ch07_L6_why_1",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_060",
+  "prompt": "Почему «Kann ich helfen?», а не «Kann ich helfe?»",
+  "answer": "После kann действие — в конце и без изменений: helfen.",
+  "distractors": [
+   "Потому что helfe говорят только в вопросе, не в ответе.",
+   "Потому что kann меняет форму слова ich."
+  ],
+  "rule_id": "topics/modal",
+  "transfer": false,
+  "audio": null,
+  "de": "Kann ich helfen?"
+ },
+ {
+  "item_id": "ch07_L6_why_2",
+  "id": "ch07_L6_why_2",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_043",
+  "prompt": "Почему «Kennen Sie Frau Schulz?», а не «Wissen Sie Frau Schulz?»",
+  "answer": "Госпожу Шульц знают лично: для людей kennen.",
+  "distractors": [
+   "Потому что Frau — слово женского рода.",
+   "Потому что wissen нельзя на «вы»."
+  ],
+  "rule_id": "topics/du_sie",
+  "transfer": false,
+  "audio": null,
+  "de": "Kennen Sie Frau Schulz?"
+ },
+ {
+  "item_id": "ch07_L6_why_3",
+  "id": "ch07_L6_why_3",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_051",
+  "prompt": "Почему «Wie war der Elternabend?», а не «Wie ist der Elternabend?»",
+  "answer": "Собрание уже прошло: ist в прошлом — это war.",
+  "distractors": [
+   "Потому что Wie всегда требует war.",
+   "Потому что Elternabend — слово мужского рода."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": false,
+  "audio": null,
+  "de": "Wie war der Elternabend?"
+ },
+ {
+  "item_id": "ch07_L6_why_4",
+  "id": "ch07_L6_why_4",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_052",
+  "prompt": "Почему «Ich hatte Hunger», а не «Ich habe Hunger»?",
+  "answer": "Речь о прошлом: habe в прошлом — hatte.",
+  "distractors": [
+   "Потому что Hunger — слово мужского рода.",
+   "Потому что habe нельзя с ich."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich hatte Hunger."
+ },
+ {
+  "item_id": "ch07_L6_why_5",
+  "id": "ch07_L6_why_5",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_055",
+  "prompt": "Почему «Ich trinke lieber Wasser», а не «Ich trinke gern Wasser»?",
+  "answer": "lieber — «охотнее»: выбираешь воду, а не чай.",
+  "distractors": [
+   "Потому что Wasser — слово среднего рода.",
+   "Потому что gern нельзя с trinke."
+  ],
+  "rule_id": "topics/word_order",
+  "transfer": false,
+  "audio": null,
+  "de": "Ich trinke lieber Wasser."
+ },
+ {
+  "item_id": "ch07_L6_transfer_1",
+  "id": "ch07_L6_transfer_1",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_t11",
+  "prompt": "Предложи господину Вагнеру: «Могу я принести воду?»",
+  "answer": "Kann ich Wasser bringen?",
+  "distractors": null,
+  "rule_id": "topics/modal",
+  "transfer": true,
+  "audio": "audio_v1/ch07_t11.mp3",
+  "de": null,
+  "accept": [
+   "Kann ich Wasser bringen?"
+  ]
+ },
+ {
+  "item_id": "ch07_L6_transfer_2",
+  "id": "ch07_L6_transfer_2",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "speak",
+  "phraseId": "ch07_t12",
+  "prompt": "Спроси: «Как прошёл вечер?»",
+  "answer": "Wie war der Abend?",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch07_t12.mp3",
+  "de": null,
+  "accept": [
+   "Wie war der Abend?"
+  ]
+ },
+ {
+  "item_id": "ch07_L6_transfer_3",
+  "id": "ch07_L6_transfer_3",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_t12",
+  "prompt": "Послушай новую фразу. Что спросили?",
+  "answer": "Как прошёл вечер?",
+  "distractors": [
+   "Как прошло родительское собрание?",
+   "Когда будет вечер?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": true,
+  "audio": "audio_v1/ch07_t12.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L6_transfer_4",
+  "id": "ch07_L6_transfer_4",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "write",
+  "phraseId": "ch07_t12",
+  "prompt": "Впиши: «Wie war der ___?» (вечер)",
+  "answer": "Abend",
+  "distractors": null,
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": "audio_v1/ch07_t12.mp3",
+  "de": null
+ },
+ {
+  "item_id": "ch07_L6_transfer_5",
+  "id": "ch07_L6_transfer_5",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "why",
+  "phraseId": "ch07_t12",
+  "prompt": "Почему «Wie war der Abend?», а не «Wie ist der Abend?»",
+  "answer": "Вечер уже прошёл: ist в прошлом — это war.",
+  "distractors": [
+   "Потому что Wie всегда требует war.",
+   "Потому что Abend — слово мужского рода."
+  ],
+  "rule_id": "topics/questions",
+  "transfer": true,
+  "audio": null,
+  "de": "Wie war der Abend?"
+ },
+ {
+  "item_id": "ch07_L6_boss_1",
+  "id": "ch07_L6_boss_1",
+  "lesson": "ch07_L6",
+  "lesson_task": true,
+  "skill": "listen",
+  "phraseId": "ch07_d6_06",
+  "prompt": "Послушай. Что предложил герой?",
+  "answer": "Спасибо. Хотите чай или воду?",
+  "distractors": [
+   "Спасибо. Хотите чай или кофе?",
+   "Спасибо. Вы пьёте чай или воду?"
+  ],
+  "rule_id": "cards/words",
+  "transfer": false,
+  "audio": "audio_v1/ch07_d6_06.mp3",
+  "de": null
+ }
+]
