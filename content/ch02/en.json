@@ -3,7 +3,7 @@
   "chapter": "ch02",
   "v": 1,
   "by": "EN-1",
-  "updated": "25.11 09:12",
+  "updated": "25.11 11:33",
   "lessons": [
    "pool",
    "ch02_L1",
@@ -11,7 +11,8 @@
    "ch02_L3",
    "ch02_L4",
    "ch02_L5",
-   "ch02_L6"
+   "ch02_L6",
+   "all"
   ]
  },
  "phrases": {
@@ -198,7 +199,16 @@
    }
   },
   "ch02_007": {
-   "en": "Contact, address, restaurant, daughter."
+   "en": "Contact, address, restaurant, daughter.",
+   "why": {
+    "text_en": "Course words: der Kontakt, die Adresse, das Restaurant, die Tochter.",
+    "why_de_en": "This is not a sentence but words: learn them one by one, each with its article.",
+    "why_en": "In English, word by word: der Kontakt — contact · die Adresse — address · das Restaurant — restaurant · die Tochter — daughter.",
+    "why_not": {
+     "en": "Mistake: learning a word without its article. Each word has its own: der Kontakt, die Adresse, das Restaurant, die Tochter."
+    },
+    "why_voice_en": "Course words: der Kontakt, die Adresse, das Restaurant, die Tochter."
+   }
   },
   "ch02_008": {
    "en": "What is your house number?",
@@ -315,7 +325,16 @@
    }
   },
   "ch02_017": {
-   "en": "Message, number, note, problem."
+   "en": "Message, number, note, problem.",
+   "why": {
+    "text_en": "Course words: die Nachricht, die Zahl, der Zettel, das Problem.",
+    "why_de_en": "This is not a sentence but words: learn them one by one, each with its article.",
+    "why_en": "In English, word by word: die Nachricht — message · die Zahl — number · der Zettel — note · das Problem — problem.",
+    "why_not": {
+     "en": "Mistake: learning a word without its article. Each word has its own: die Nachricht, die Zahl, der Zettel, das Problem."
+    },
+    "why_voice_en": "Course words: die Nachricht, die Zahl, der Zettel, das Problem."
+   }
   },
   "ch02_018": {
    "en": "Do you have WhatsApp?",
@@ -380,7 +399,16 @@
    }
   },
   "ch02_023": {
-   "en": "Yes, Olga has WhatsApp."
+   "en": "Yes, Olga has WhatsApp.",
+   "why": {
+    "text_en": "ja doesn't take a car. Olga hat means \"Olga has\".",
+    "why_de_en": "Olga · hat · WhatsApp: the action hat is car #2, the backbone of the sentence.",
+    "why_en": "Like English \"Yes, Olga has WhatsApp\": Ja, Olga hat WhatsApp. hat = has: with one person the verb ends in -t, as English ends in -s.",
+    "why_not": {
+     "en": "The action hat moved to the end. That's how the tail of a long sentence after \"that\" or \"because\" sounds; in a simple sentence hat is car #2."
+    },
+    "why_voice_en": "ja doesn't take a car. Olga hat means \"Olga has\"."
+   }
   },
   "ch02_024": {
    "en": "Does Olga have Signal?",
@@ -395,7 +423,17 @@
    }
   },
   "ch02_025": {
-   "en": "Answer, sentence, table, name."
+   "en": "Answer, sentence, table, name.",
+   "why": {
+    "text_en": "Course words: die Antwort, der Satz, die Tabelle, der Name.",
+    "why_de_en": "This is not a sentence but words: learn them one by one, each with its article.",
+    "why_en": "In English, word by word: die Antwort — answer · der Satz — sentence · die Tabelle — table · der Name — name.",
+    "why_not": {
+     "en": "Mistake: learning a word without its article. Each word has its own: die Antwort, der Satz, die Tabelle, der Name."
+    },
+    "root_en": "Name and English \"name\" are related: one ancient root, *h₁nómn̥ (Wiktionary)",
+    "why_voice_en": "Course words: die Antwort, der Satz, die Tabelle, der Name."
+   }
   },
   "ch02_026": {
    "en": "What languages do you speak? (du)",
@@ -488,7 +526,16 @@
    }
   },
   "ch02_031": {
-   "en": "Sofia speaks English."
+   "en": "Sofia speaks English.",
+   "why": {
+    "text_en": "Sofia is \"she\": spricht (e → i and the -t ending).",
+    "why_de_en": "Sofia · spricht · Englisch: the action spricht is car #2, the backbone of the sentence.",
+    "why_en": "Like English \"Sofia speaks English\": Sofia spricht Englisch. With she, English adds -s; German changes \"e\" to \"i\" and adds -t: spricht.",
+    "why_not": {
+     "en": "The action spricht moved to the end. That's how the tail of a long sentence after \"that\" or \"because\" sounds; in a simple sentence spricht is car #2."
+    },
+    "why_voice_en": "Sofia is \"she\": spricht (e → i and the -t ending)."
+   }
   },
   "ch02_032": {
    "en": "Do you speak English? (du)",
@@ -504,28 +551,100 @@
    }
   },
   "ch02_033": {
-   "en": "Country, language, portrait, course."
+   "en": "Country, language, portrait, course.",
+   "why": {
+    "text_en": "Course words: das Land, die Sprache, das Porträt, der Kurs.",
+    "why_de_en": "This is not a sentence but words: learn them one by one, each with its article.",
+    "why_en": "In English, word by word: das Land — country · die Sprache — language · das Porträt — portrait · der Kurs — course.",
+    "why_not": {
+     "en": "Mistake: learning a word without its article. Each word has its own: das Land, die Sprache, das Porträt, der Kurs."
+    },
+    "why_voice_en": "Course words: das Land, die Sprache, das Porträt, der Kurs."
+   }
   },
   "ch02_034": {
-   "en": "Dialog, photo, person."
+   "en": "Dialog, photo, person.",
+   "why": {
+    "text_en": "Course words: der Dialog, das Foto, die Person.",
+    "why_de_en": "This is not a sentence but words: learn them one by one, each with its article.",
+    "why_en": "In English, word by word: der Dialog — dialog · das Foto — photo · die Person — person.",
+    "why_not": {
+     "en": "Mistake: learning a word without its article. Each word has its own: der Dialog, das Foto, die Person."
+    },
+    "why_voice_en": "Course words: der Dialog, das Foto, die Person."
+   }
   },
   "ch02_035": {
-   "en": "Dot, hyphen, underscore."
+   "en": "Dot, hyphen, underscore.",
+   "why": {
+    "text_en": "Signs in an email address: der Punkt — dot, das Minus — hyphen, der Unterstrich — underscore.",
+    "why_de_en": "This isn't a sentence but an address, sign by sign: a sign is named by a word, the rest as it's written.",
+    "why_en": "In English, word by word: Punkt — dot · Minus — hyphen · Unterstrich — underscore.",
+    "why_not": {
+     "en": "Mistake: naming the signs in English (\"dot\", \"dash\"). In German each sign has its own word: Punkt, Minus, Unterstrich."
+    },
+    "why_voice_en": "Signs in an email address: der Punkt — dot, das Minus — hyphen, der Unterstrich — underscore."
+   }
   },
   "ch02_036": {
-   "en": "Question, word, sentence."
+   "en": "Question, word, sentence.",
+   "why": {
+    "text_en": "Course words: die Frage, das Wort, der Satz.",
+    "why_de_en": "This is not a sentence but words: learn them one by one, each with its article.",
+    "why_en": "In English, word by word: die Frage — question · das Wort — word · der Satz — sentence.",
+    "why_not": {
+     "en": "Mistake: learning a word without its article. Each word has its own: die Frage, das Wort, der Satz."
+    },
+    "why_voice_en": "Course words: die Frage, das Wort, der Satz."
+   }
   },
   "ch02_037": {
-   "en": "Italy, Poland, Greece, Bulgaria, Romania."
+   "en": "Italy, Poland, Greece, Bulgaria, Romania.",
+   "why": {
+    "text_en": "Countries from pp. 34–35: these names take no article.",
+    "why_de_en": "This is not a sentence but country names: separate words. These names have no article.",
+    "why_en": "In English, word by word: Italien — Italy · Polen — Poland · Griechenland — Greece · Bulgarien — Bulgaria · Rumänien — Romania.",
+    "why_not": {
+     "en": "Mistake: learning the list as one block. Each name is a separate word. These names have no article."
+    },
+    "why_voice_en": "Countries from pp. 34–35: these names take no article."
+   }
   },
   "ch02_038": {
-   "en": "Italian, Polish, Greek, Bulgarian, Romanian."
+   "en": "Italian, Polish, Greek, Bulgarian, Romanian.",
+   "why": {
+    "text_en": "The languages of these countries end in -isch and are capitalized.",
+    "why_de_en": "This isn't a sentence but language names: separate words, capitalized and without an article.",
+    "why_en": "In English, word by word: Italienisch — Italian · Polnisch — Polish · Griechisch — Greek · Bulgarisch — Bulgarian · Rumänisch — Romanian.",
+    "why_not": {
+     "en": "As in English, language names are capitalized: Italienisch, Polnisch, Griechisch, Bulgarisch, Rumänisch. Mistake: writing them lowercase."
+    },
+    "why_voice_en": "The languages of these countries end in -isch and are capitalized."
+   }
   },
   "ch02_039": {
-   "en": "Turkey, Iran, Syria, India, Germany."
+   "en": "Turkey, Iran, Syria, India, Germany.",
+   "why": {
+    "text_en": "Countries from pp. 34–35. Two take an article: die Türkei, der Iran.",
+    "why_de_en": "This is not a sentence but country names: separate words. These names have no article.",
+    "why_en": "In English, word by word: Türkei — Turkey · Iran — Iran · Syrien — Syria · Indien — India · Deutschland — Germany.",
+    "why_not": {
+     "en": "Mistake: learning the list as one block. Each name is a separate word. These names have no article."
+    },
+    "why_voice_en": "Countries from pp. 34–35. Two take an article: die Türkei, der Iran."
+   }
   },
   "ch02_040": {
-   "en": "Turkish, Farsi, Arabic, Hindi, Spanish."
+   "en": "Turkish, Farsi, Arabic, Hindi, Spanish.",
+   "why": {
+    "text_en": "Languages are capitalized. Farsi and Hindi have no -isch ending.",
+    "why_de_en": "This isn't a sentence but language names: separate words, capitalized and without an article.",
+    "why_en": "In English, word by word: Türkisch — Turkish · Farsi — Farsi · Arabisch — Arabic · Hindi — Hindi · Spanisch — Spanish.",
+    "why_not": {
+     "en": "As in English, language names are capitalized: Türkisch, Farsi, Arabisch, Hindi, Spanisch. Mistake: writing them lowercase."
+    },
+    "why_voice_en": "Languages are capitalized. Farsi and Hindi have no -isch ending."
+   }
   },
   "ch02_041": {
    "en": "What do you do for a living? (du)",
@@ -606,19 +725,64 @@
    }
   },
   "ch02_047": {
-   "en": "Team, company, employee (m), employee (f)."
+   "en": "Team, company, employee (m), employee (f).",
+   "why": {
+    "text_en": "Course words: das Team, die Firma, der Mitarbeiter, die Mitarbeiterin.",
+    "why_de_en": "This is not a sentence but words: learn them one by one, each with its article.",
+    "why_en": "In English, word by word: das Team — team · die Firma — company · der Mitarbeiter — employee · die Mitarbeiterin — employee (a woman).",
+    "why_not": {
+     "en": "Mistake: learning a word without its article. Each word has its own: das Team, die Firma, der Mitarbeiter, die Mitarbeiterin."
+    },
+    "why_voice_en": "Course words: das Team, die Firma, der Mitarbeiter, die Mitarbeiterin."
+   }
   },
   "ch02_048": {
-   "en": "Technician (m), technician (f), IT specialist (m), IT specialist (f)."
+   "en": "Technician (m), technician (f), IT specialist (m), IT specialist (f).",
+   "why": {
+    "text_en": "\"He / she\" pairs: for a woman, -in is added to the job.",
+    "why_de_en": "This is not a sentence but words: learn them one by one, each with its article.",
+    "why_en": "In English, word by word: der Techniker — technician · die Technikerin — technician (a woman) · der Informatiker — IT specialist · die Informatikerin — IT specialist (a woman).",
+    "why_not": {
+     "en": "Mistake: learning a word without its article. Each word has its own: der Techniker, die Technikerin, der Informatiker, die Informatikerin."
+    },
+    "why_voice_en": "\"He / she\" pairs: for a woman, -in is added to the job."
+   }
   },
   "ch02_049": {
-   "en": "Assistant (m), assistant (f), intern (m), intern (f)."
+   "en": "Assistant (m), assistant (f), intern (m), intern (f).",
+   "why": {
+    "text_en": "\"He / she\" pairs: Assistent — Assistentin, Praktikant — Praktikantin.",
+    "why_de_en": "This is not a sentence but words: learn them one by one, each with its article.",
+    "why_en": "In English, word by word: der Assistent — assistant · die Assistentin — assistant (a woman) · der Praktikant — intern · die Praktikantin — intern (a woman).",
+    "why_not": {
+     "en": "Mistake: learning a word without its article. Each word has its own: der Assistent, die Assistentin, der Praktikant, die Praktikantin."
+    },
+    "why_voice_en": "\"He / she\" pairs: Assistent — Assistentin, Praktikant — Praktikantin."
+   }
   },
   "ch02_050": {
-   "en": "Driver (m), driver (f), manager, salesman, warehouse worker (f)."
+   "en": "Driver (m), driver (f), manager, salesman, warehouse worker (f).",
+   "why": {
+    "text_en": "Jobs from p. 36: der Fahrer, die Fahrerin, der Manager, der Verkäufer, die Lageristin.",
+    "why_de_en": "This is not a sentence but words: learn them one by one, each with its article.",
+    "why_en": "In English, word by word: der Fahrer — driver · die Fahrerin — driver (a woman) · der Manager — manager · der Verkäufer — salesman · die Lageristin — warehouse worker (a woman).",
+    "why_not": {
+     "en": "Mistake: learning a word without its article. Each word has its own: der Fahrer, die Fahrerin, der Manager, der Verkäufer, die Lageristin."
+    },
+    "why_voice_en": "Jobs from p. 36: der Fahrer, die Fahrerin, der Manager, der Verkäufer, die Lageristin."
+   }
   },
   "ch02_051": {
-   "en": "Export, website, information, month."
+   "en": "Export, website, information, month.",
+   "why": {
+    "text_en": "Course words: der Export, die Homepage, die Information, der Monat.",
+    "why_de_en": "This is not a sentence but words: learn them one by one, each with its article.",
+    "why_en": "In English, word by word: der Export — export · die Homepage — website · die Information — information · der Monat — month.",
+    "why_not": {
+     "en": "Mistake: learning a word without its article. Each word has its own: der Export, die Homepage, die Information, der Monat."
+    },
+    "why_voice_en": "Course words: der Export, die Homepage, die Information, der Monat."
+   }
   },
   "ch02_052": {
    "en": "What is your dream job? (Sie)",
@@ -715,25 +879,89 @@
    }
   },
   "ch02_058": {
-   "en": "Pilot (m), pilot (f), police officer (m), police officer (f)."
+   "en": "Pilot (m), pilot (f), police officer (m), police officer (f).",
+   "why": {
+    "text_en": "\"He / she\" pairs: for a woman, -in is added to the job.",
+    "why_de_en": "This is not a sentence but words: learn them one by one, each with its article.",
+    "why_en": "In English, word by word: der Pilot — pilot · die Pilotin — pilot (a woman) · der Polizist — police officer · die Polizistin — police officer (a woman).",
+    "why_not": {
+     "en": "Mistake: learning a word without its article. Each word has its own: der Pilot, die Pilotin, der Polizist, die Polizistin."
+    },
+    "why_voice_en": "\"He / she\" pairs: for a woman, -in is added to the job."
+   }
   },
   "ch02_059": {
-   "en": "Hairdresser (m), hairdresser (f), singer (m), singer (f)."
+   "en": "Hairdresser (m), hairdresser (f), singer (m), singer (f).",
+   "why": {
+    "text_en": "\"He / she\" pairs: Friseur — Friseurin, Sänger — Sängerin.",
+    "why_de_en": "This is not a sentence but words: learn them one by one, each with its article.",
+    "why_en": "In English, word by word: der Friseur — hairdresser · die Friseurin — hairdresser (a woman) · der Sänger — singer · die Sängerin — singer (a woman).",
+    "why_not": {
+     "en": "Mistake: learning a word without its article. Each word has its own: der Friseur, die Friseurin, der Sänger, die Sängerin."
+    },
+    "why_voice_en": "\"He / she\" pairs: Friseur — Friseurin, Sänger — Sängerin."
+   }
   },
   "ch02_060": {
-   "en": "Actor, actress, soccer player (m), soccer player (f)."
+   "en": "Actor, actress, soccer player (m), soccer player (f).",
+   "why": {
+    "text_en": "\"He / she\" pairs: Schauspieler — Schauspielerin, Fußballspieler — Fußballspielerin.",
+    "why_de_en": "This is not a sentence but words: learn them one by one, each with its article.",
+    "why_en": "In English, word by word: der Schauspieler — actor · die Schauspielerin — actress · der Fußballspieler — soccer player · die Fußballspielerin — soccer player (a woman).",
+    "why_not": {
+     "en": "Mistake: learning a word without its article. Each word has its own: der Schauspieler, die Schauspielerin, der Fußballspieler, die Fußballspielerin."
+    },
+    "why_voice_en": "\"He / she\" pairs: Schauspieler — Schauspielerin, Fußballspieler — Fußballspielerin."
+   }
   },
   "ch02_061": {
-   "en": "Firefighter (m), firefighter (f), nurse (m), nurse (f)."
+   "en": "Firefighter (m), firefighter (f), nurse (m), nurse (f).",
+   "why": {
+    "text_en": "Here \"she\" is a different word: Feuerwehrmann — Feuerwehrfrau, Krankenpfleger — Krankenschwester.",
+    "why_de_en": "This is not a sentence but words: learn them one by one, each with its article.",
+    "why_en": "In English, word by word: der Feuerwehrmann — firefighter · die Feuerwehrfrau — firefighter (a woman) · der Krankenpfleger — nurse (a man) · die Krankenschwester — nurse.",
+    "why_not": {
+     "en": "Mistake: learning a word without its article. Each word has its own: der Feuerwehrmann, die Feuerwehrfrau, der Krankenpfleger, die Krankenschwester."
+    },
+    "why_voice_en": "Here \"she\" is a different word: Feuerwehrmann — Feuerwehrfrau, Krankenpfleger — Krankenschwester."
+   }
   },
   "ch02_062": {
-   "en": "Vet (m), vet (f), teacher."
+   "en": "Vet (m), vet (f), teacher.",
+   "why": {
+    "text_en": "Course words: der Tierarzt, die Tierärztin, der Lehrer.",
+    "why_de_en": "This is not a sentence but words: learn them one by one, each with its article.",
+    "why_en": "In English, word by word: der Tierarzt — vet · die Tierärztin — vet (a woman) · der Lehrer — teacher.",
+    "why_not": {
+     "en": "Mistake: learning a word without its article. Each word has its own: der Tierarzt, die Tierärztin, der Lehrer."
+    },
+    "why_voice_en": "Course words: der Tierarzt, die Tierärztin, der Lehrer."
+   }
   },
   "ch02_063": {
-   "en": "Child, boy, girl, idea, card."
+   "en": "Child, boy, girl, idea, card.",
+   "why": {
+    "text_en": "Course words: das Kind, der Junge, das Mädchen, die Idee, das Kärtchen.",
+    "why_de_en": "This is not a sentence but words: learn them one by one, each with its article.",
+    "why_en": "In English, word by word: das Kind — child · der Junge — boy · das Mädchen — girl · die Idee — idea · das Kärtchen — little card.",
+    "why_not": {
+     "en": "Mistake: learning a word without its article. Each word has its own: das Kind, der Junge, das Mädchen, die Idee, das Kärtchen."
+    },
+    "why_voice_en": "Course words: das Kind, der Junge, das Mädchen, die Idee, das Kärtchen."
+   }
   },
   "ch02_064": {
-   "en": "Friend (m), friend (f), phone number, German course."
+   "en": "Friend (m), friend (f), phone number, German course.",
+   "why": {
+    "text_en": "Course words: der Freund, die Freundin, die Telefonnummer, der Deutschkurs.",
+    "why_de_en": "This is not a sentence but words: learn them one by one, each with its article.",
+    "why_en": "In English, word by word: der Freund — friend · die Freundin — friend (a woman) · die Telefonnummer — phone number · der Deutschkurs — German course.",
+    "why_not": {
+     "en": "Mistake: learning a word without its article. Each word has its own: der Freund, die Freundin, die Telefonnummer, der Deutschkurs."
+    },
+    "root_en": "Telefonnummer = Telefon + Nummer (Telefon: phone; Nummer: number) — Wiktionary; Deutschkurs = Deutsch + Kurs (Deutsch: German; Kurs: course) — Wiktionary",
+    "why_voice_en": "Course words: der Freund, die Freundin, die Telefonnummer, der Deutschkurs."
+   }
   },
   "ch02_t01": {
    "en": "What is your address?",

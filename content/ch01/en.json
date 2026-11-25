@@ -3,7 +3,7 @@
   "chapter": "ch01",
   "v": 1,
   "by": "EN-1",
-  "updated": "25.11 08:59",
+  "updated": "25.11 11:45",
   "lessons": [
    "ch01_L1",
    "pool",
@@ -11,7 +11,8 @@
    "ch01_L3",
    "ch01_L4",
    "ch01_L5",
-   "ch01_L6"
+   "ch01_L6",
+   "all"
   ]
  },
  "lessons": {
@@ -2195,19 +2196,66 @@
    }
   },
   "ch01_006": {
-   "en": "Bye!"
+   "en": "Bye!",
+   "why": {
+    "text_en": "A simpler goodbye: for friends, neighbors, in a shop. To a boss or at an office: Auf Wiedersehen.",
+    "why_de_en": "A casual goodbye: to friends, neighbors, in a shop.",
+    "why_en": "Like English \"bye\": short and casual. Tschüss — Bye! The polite \"goodbye\" is Auf Wiedersehen.",
+    "why_not": {
+     "wrong_en": "Tschüss! (at the Jobcenter)",
+     "en": "At an office, Auf Wiedersehen is better: tschüss is casual (DWDS)."
+    },
+    "root_en": "tschüss ← French adieu, Latin ad Deum \"to God\" (DWDS)",
+    "why_voice_en": "A simpler goodbye: for friends, neighbors, in a shop. To a boss or at an office: Auf Wiedersehen."
+   }
   },
   "ch01_008": {
-   "en": "See you tomorrow!"
+   "en": "See you tomorrow!",
+   "why": {
+    "text_en": "bis means \"until\". A set phrase: learn it whole, like \"hi\".",
+    "why_de_en": "A set formula: bis means \"until\", morgen means \"tomorrow\".",
+    "why_en": "Just like English \"See you tomorrow\" — Bis morgen.",
+    "why_not": {
+     "en": "morgen here means \"tomorrow\", lowercase. Morgen with a capital means \"morning\"."
+    },
+    "why_voice_en": "bis means \"until\". A set phrase: learn it whole, like \"hi\"."
+   }
   },
   "ch01_009": {
-   "en": "See you soon!"
+   "en": "See you soon!",
+   "why": {
+    "text_en": "bald means \"soon\". A set phrase: learn it whole, like \"hi\".",
+    "why_de_en": "A set formula: bis means \"until\", bald means \"soon\".",
+    "why_en": "Just like English \"See you soon\" — Bis bald.",
+    "why_not": {
+     "en": "bald means \"soon\"; it isn't a thing, so it's lowercase."
+    },
+    "why_voice_en": "bald means \"soon\". A set phrase: learn it whole, like \"hi\"."
+   }
   },
   "ch01_010": {
-   "en": "Welcome!"
+   "en": "Welcome!",
+   "why": {
+    "text_en": "A set phrase: learn it whole, like \"hi\".",
+    "why_de_en": "A set formula for guests: say it whole.",
+    "why_en": "Just like English \"Welcome\" — Herzlich willkommen.",
+    "why_not": {
+     "en": "The words don't change: always Herzlich willkommen!"
+    },
+    "why_voice_en": "A set phrase: learn it whole, like \"hi\"."
+   }
   },
   "ch01_011": {
-   "en": "Welcome to Germany!"
+   "en": "Welcome to Germany!",
+   "why": {
+    "text_en": "in + country = \"in\". Deutschland takes no article, like most countries.",
+    "why_de_en": "Willkommen is a set formula; then a piece word by word: in Deutschland (where? a place).",
+    "why_en": "English is just as short: Welcome to Germany — Willkommen in Deutschland. Note: German says in, not \"to\".",
+    "why_not": {
+     "en": "Mistake: dropping the little in. You need the whole piece in Deutschland; the name alone isn't an answer."
+    },
+    "why_voice_en": "in + country = \"in\". Deutschland takes no article, like most countries."
+   }
   },
   "ch01_012": {
    "en": "How are you? (Sie)",
@@ -2262,7 +2310,16 @@
    }
   },
   "ch01_015": {
-   "en": "I'm fine."
+   "en": "I'm fine.",
+   "why": {
+    "text_en": "\"To me it goes well\". It starts with \"to whom\", but the action is still in car #2.",
+    "why_de_en": "Car #1 is taken: Mir. The action geht is still car #2, and the \"who\" (es) comes after it: Mir geht es gut.",
+    "why_en": "English: I'm fine. German: Mir geht es gut, literally \"to me goes it well\". Whatever stands in car #1, geht is car #2.",
+    "why_not": {
+     "en": "English order (es geht) pushed geht to car #3. A German will understand you but will hear the mistake right away."
+    },
+    "why_voice_en": "\"To me it goes well\". It starts with \"to whom\", but the action is still in car #2."
+   }
   },
   "ch01_016": {
    "en": "So-so.",
@@ -2277,7 +2334,16 @@
    }
   },
   "ch01_017": {
-   "en": "And you?"
+   "en": "And you?",
+   "why": {
+    "text_en": "Returning the question: und doesn't take a car; Ihnen means \"to you\" (Sie).",
+    "why_de_en": "A short question back: Und Ihnen? means \"and you?\". There's no action: it's a set piece.",
+    "why_en": "Like English \"And you?\": the same question, only short.",
+    "why_not": {
+     "en": "To \"Wie geht es Ihnen?\" you ask back with Ihnen (\"to you\"), as in the question itself. Sie means \"you\" as the subject and doesn't fit here."
+    },
+    "why_voice_en": "Returning the question: und doesn't take a car; Ihnen means \"to you\" (Sie)."
+   }
   },
   "ch01_018": {
    "en": "What's your name? (Sie)",
@@ -2358,10 +2424,30 @@
    }
   },
   "ch01_023": {
-   "en": "Olga is my neighbor."
+   "en": "Olga is my neighbor.",
+   "why": {
+    "text_en": "die Nachbarin → meine Nachbarin (with -e). ist works like \"=\".",
+    "why_de_en": "ist works like an \"=\" sign: Olga = meine Nachbarin. The action holds car #2. On the right is the same \"who\" role, so the article doesn't change: meine Nachbarin.",
+    "why_en": "English: Olga is my neighbor. German: Olga ist meine Nachbarin. Same order; meine gets -e because Nachbarin is a die-word.",
+    "why_not": {
+     "en": "Don't drop ist: \"Mein Name …\" without ist is a fragment, just like \"My name …\" without the word is."
+    },
+    "root_en": "Nachbarin = Nachbar + -in; Nachbar and English neighbor: one old word, \"near-dweller\" (Wiktionary); ist and English is: one root *es- (DWDS)",
+    "why_voice_en": "die Nachbarin → meine Nachbarin (with -e). ist works like \"=\"."
+   }
   },
   "ch01_024": {
-   "en": "What's your name? (Sie)"
+   "en": "What's your name? (Sie)",
+   "why": {
+    "text_en": "Polite, with Sie: capitalized Ihr means \"your\".",
+    "why_de_en": "Car #1 is the question word Wie, and the action ist comes right after it, car #2: Wie ist Ihr Name? A German first says WHAT he wants to know.",
+    "why_en": "English: What is your name? German asks \"how\": Wie · ist · Ihr Name, not Was. That's the trap for English speakers.",
+    "why_not": {
+     "en": "Ihr Name went before ist, so the action left car #2. After Wie a German expects the action at once, or it's not a question."
+    },
+    "root_en": "ist and English is: one old root *es- (DWDS, Wiktionary); Name and English name: one old root *h₁nómn̥ (Wiktionary)",
+    "why_voice_en": "Polite, with Sie: capitalized Ihr means \"your\"."
+   }
   },
   "ch01_025": {
    "en": "Who is that?",
@@ -2416,10 +2502,30 @@
    }
   },
   "ch01_027": {
-   "en": "This is Ms. Wagner, my neighbor."
+   "en": "This is Ms. Wagner, my neighbor.",
+   "why": {
+    "text_en": "die Nachbarin → meine Nachbarin: for a die-word, mein + e.",
+    "why_de_en": "ist works like an \"=\" sign: das = Frau Wagner, meine Nachbarin. The action holds car #2.",
+    "why_en": "English: This is Mrs. Wagner, my neighbor. German: Das ist Frau Wagner, meine Nachbarin. Same order; Frau is the polite \"Mrs.\".",
+    "why_not": {
+     "en": "Don't drop ist: \"Mein Name …\" without ist is a fragment, just like \"My name …\" without the word is."
+    },
+    "root_en": "Nachbarin = Nachbar + -in; Nachbar and English neighbor: one old word, \"near-dweller\" (Wiktionary); ist and English is: one root *es- (DWDS)",
+    "why_voice_en": "die Nachbarin → meine Nachbarin: for a die-word, mein + e."
+   }
   },
   "ch01_028": {
-   "en": "This is my husband."
+   "en": "This is my husband.",
+   "why": {
+    "text_en": "der Mann → mein Mann (no ending).",
+    "why_de_en": "ist works like an \"=\" sign: das = mein Mann. The action holds car #2. On the right is the same \"who\" role, so the article doesn't change: mein Mann.",
+    "why_en": "English: This is my husband. German: Das ist mein Mann. Same order; Mann means both \"man\" and \"husband\".",
+    "why_not": {
+     "en": "Don't drop ist: \"Mein Name …\" without ist is a fragment, just like \"My name …\" without the word is."
+    },
+    "root_en": "ist and English is: one old root *es- (DWDS, Wiktionary)",
+    "why_voice_en": "der Mann → mein Mann (no ending)."
+   }
   },
   "ch01_029": {
    "en": "This is my wife.",
@@ -2449,7 +2555,16 @@
    }
   },
   "ch01_030": {
-   "en": "Nice to meet you."
+   "en": "Nice to meet you.",
+   "why": {
+    "text_en": "\"It pleases me\". People often say it short: \"Freut mich!\"",
+    "why_de_en": "Es · freut · mich: the action freut is car #2, the backbone of the sentence.",
+    "why_en": "English: Nice to meet you. German: Es freut mich, literally \"it pleases me\". In speech the es is often dropped: Freut mich.",
+    "why_not": {
+     "en": "English habit: \"Nice to meet you\" has no real verb. Without freut a German hears a fragment, not a sentence."
+    },
+    "why_voice_en": "\"It pleases me\". People often say it short: \"Freut mich!\""
+   }
   },
   "ch01_031": {
    "en": "Sorry, what?",
@@ -2464,10 +2579,28 @@
    }
   },
   "ch01_032": {
-   "en": "Once more, please."
+   "en": "Once more, please.",
+   "why": {
+    "text_en": "A set phrase: learn it whole, like \"hi\".",
+    "why_de_en": "A set request to repeat: noch einmal means \"once more\".",
+    "why_en": "Like English \"Once more, please\" — Noch einmal, bitte.",
+    "why_not": {
+     "en": "\"Once more\" is noch einmal. wieder (\"again\") alone isn't used this way."
+    },
+    "why_voice_en": "A set phrase: learn it whole, like \"hi\"."
+   }
   },
   "ch01_033": {
-   "en": "Please speak slowly."
+   "en": "Please speak slowly.",
+   "why": {
+    "text_en": "A request with Sie: the action goes first, Sie right after it. bitte doesn't take a car.",
+    "why_de_en": "A request with Sie: the action sprechen goes first + Sie: Bitte sprechen Sie langsam. That way a German shows at once that he expects an action.",
+    "why_en": "English: Please speak slowly, with no \"you\". German needs Sie right after sprechen.",
+    "why_not": {
+     "en": "English drops \"you\" in a request: \"Please speak slowly\". In German, without Sie it's not a polite request but a mistake."
+    },
+    "why_voice_en": "A request with Sie: the action goes first, Sie right after it. bitte doesn't take a car."
+   }
   },
   "ch01_034": {
    "en": "How do you spell that?",
@@ -2482,7 +2615,16 @@
    }
   },
   "ch01_035": {
-   "en": "I don't understand that."
+   "en": "I don't understand that.",
+   "why": {
+    "text_en": "nicht goes to the end, after the \"what\".",
+    "why_de_en": "nicht goes before what it negates; if the \"no\" is about the whole thing, nicht goes to the end: Ich verstehe das nicht.",
+    "why_en": "English: I don't understand that. German needs no \"don't\": Ich verstehe das nicht, with nicht at the end.",
+    "why_not": {
+     "en": "English habit: \"not\" next to the verb (I don't understand). In German nicht doesn't go before verstehe: it moves further back, usually to the end."
+    },
+    "why_voice_en": "nicht goes to the end, after the \"what\"."
+   }
   },
   "ch01_036": {
    "en": "Where are you from? (Sie)",
@@ -2497,7 +2639,17 @@
    }
   },
   "ch01_037": {
-   "en": "Where are you from? (du)"
+   "en": "Where are you from? (du)",
+   "why": {
+    "text_en": "With du the action ends in -st: kommst.",
+    "why_de_en": "Car #1 is the question word Woher, and the action kommst comes right after it, car #2: Woher kommst du? A German first says WHAT he wants to know.",
+    "why_en": "English: Where are you from? German: Woher kommst du?, literally \"where-from come you\". German needs the action kommst.",
+    "why_not": {
+     "en": "du went before kommst, so the action left car #2. After Woher a German expects the action at once, or it's not a question."
+    },
+    "root_en": "du and English thou (the old \"you\" for friends) are one old root *tū̌, like Latin tū (DWDS, Pfeifer, Wiktionary)",
+    "why_voice_en": "With du the action ends in -st: kommst."
+   }
   },
   "ch01_038": {
    "en": "I'm from Ukraine.",
@@ -2524,16 +2676,52 @@
    }
   },
   "ch01_040": {
-   "en": "I'm from Ukraine too."
+   "en": "I'm from Ukraine too.",
+   "why": {
+    "text_en": "auch (\"too\") comes right after the action.",
+    "why_de_en": "Ich · komme · auch · aus der Ukraine: the action komme is car #2, the backbone of the sentence.",
+    "why_en": "English: I'm from Ukraine too. German says \"I come\": Ich komme auch aus der Ukraine. And auch comes before aus, not at the end like \"too\".",
+    "why_not": {
+     "en": "Without the action, like \"I too from Ukraine\": without komme a German hears a fragment, not a sentence."
+    },
+    "why_voice_en": "auch (\"too\") comes right after the action."
+   }
   },
   "ch01_041": {
-   "en": "I'm from Kyiv."
+   "en": "I'm from Kyiv.",
+   "why": {
+    "text_en": "A city takes no article: aus Kiew.",
+    "why_de_en": "Ich · komme · aus Kiew: the action komme is car #2, the backbone of the sentence.",
+    "why_en": "English: I'm from Kyiv. German: Ich komme aus Kiew, literally \"I come from Kyiv\". Kyiv is Kiew in German.",
+    "why_not": {
+     "en": "Without the action, like \"I from Kyiv\": without komme a German hears a fragment, not a sentence."
+    },
+    "why_voice_en": "A city takes no article: aus Kiew."
+   }
   },
   "ch01_042": {
-   "en": "He is from Syria."
+   "en": "He is from Syria.",
+   "why": {
+    "text_en": "With er/sie the action ends in -t: kommt.",
+    "why_de_en": "Er · kommt · aus Syrien: the action kommt is car #2, the backbone of the sentence.",
+    "why_en": "English: He's from Syria. German: Er kommt aus Syrien, literally \"he comes from Syria\".",
+    "why_not": {
+     "en": "Without the action, like \"He from Syria\": without kommt a German hears a fragment, not a sentence."
+    },
+    "why_voice_en": "With er/sie the action ends in -t: kommt."
+   }
   },
   "ch01_043": {
-   "en": "She is from Turkey."
+   "en": "She is from Turkey.",
+   "why": {
+    "text_en": "die Türkei is also a country with an article, like die Ukraine.",
+    "why_de_en": "Sie · kommt · aus der Türkei: the action kommt is car #2, the backbone of the sentence.",
+    "why_en": "English: She's from Turkey. German: Sie kommt aus der Türkei. Unlike English, this country has an article: der Türkei.",
+    "why_not": {
+     "en": "Without the action, like \"She from Turkey\": without kommt a German hears a fragment, not a sentence."
+    },
+    "why_voice_en": "die Türkei is also a country with an article, like die Ukraine."
+   }
   },
   "ch01_044": {
    "en": "Are you from Poland?",
@@ -2572,7 +2760,17 @@
    }
   },
   "ch01_047": {
-   "en": "Where do you live? (du)"
+   "en": "Where do you live? (du)",
+   "why": {
+    "text_en": "With du: wohnst.",
+    "why_de_en": "Car #1 is the question word Wo, and the action wohnst comes right after it, car #2: Wo wohnst du? A German first says WHAT he wants to know.",
+    "why_en": "English: Where do you live? German needs no \"do\": Wo · wohnst · du.",
+    "why_not": {
+     "en": "du went before wohnst, so the action left car #2. After Wo a German expects the action at once, or it's not a question."
+    },
+    "root_en": "du and English thou (the old \"you\" for friends) are one old root *tū̌, like Latin tū (DWDS, Pfeifer, Wiktionary)",
+    "why_voice_en": "With du: wohnst."
+   }
   },
   "ch01_048": {
    "en": "I live in Saxony.",
@@ -2601,16 +2799,53 @@
    }
   },
   "ch01_049": {
-   "en": "I live in a village."
+   "en": "I live in a village.",
+   "why": {
+    "text_en": "das Dorf. After in, answering \"where?\", ein → einem. For now take the piece whole.",
+    "why_de_en": "Ich · wohne · in einem Dorf: the action wohne is car #2, the backbone of the sentence.",
+    "why_en": "English: I live in a village. German: Ich wohne in einem Dorf. Same order; wohne holds car #2 even if you start with another word.",
+    "why_not": {
+     "en": "The action wohne moved to the end. That's how the tail of a long sentence after \"that\" or \"because\" sounds; in a simple sentence wohne is car #2."
+    },
+    "why_voice_en": "das Dorf. After in, answering \"where?\", ein → einem. For now take the piece whole."
+   }
   },
   "ch01_050": {
-   "en": "The village is small."
+   "en": "The village is small.",
+   "why": {
+    "text_en": "das Dorf is a das-word; English \"village\" gives no hint, so learn the article with the word.",
+    "why_de_en": "Das Dorf · ist · klein: the action ist is car #2, the backbone of the sentence.",
+    "why_en": "English: The village is small. German: Das Dorf ist klein. Just like \"is\", ist can't be dropped.",
+    "why_not": {
+     "en": "Without ist, like English \"The village small.\": a German hears a fragment, not a sentence."
+    },
+    "root_en": "ist and English is: one old root *es- (DWDS, Wiktionary)",
+    "why_voice_en": "das Dorf is a das-word; English \"village\" gives no hint, so learn the article with the word."
+   }
   },
   "ch01_051": {
-   "en": "Now I live in Germany."
+   "en": "Now I live in Germany.",
+   "why": {
+    "text_en": "Order of the tail: first \"when\", then \"where\".",
+    "why_de_en": "Ich · wohne · jetzt · in Deutschland: the action wohne is car #2, the backbone of the sentence.",
+    "why_en": "English: I live in Germany now. German: Ich wohne jetzt in Deutschland. English puts \"now\" at the end; German puts \"when\" before \"where\".",
+    "why_not": {
+     "en": "The action wohne moved to the end. That's how the tail of a long sentence after \"that\" or \"because\" sounds; in a simple sentence wohne is car #2."
+    },
+    "why_voice_en": "Order of the tail: first \"when\", then \"where\"."
+   }
   },
   "ch01_052": {
-   "en": "Now I live in Germany."
+   "en": "Now I live in Germany.",
+   "why": {
+    "text_en": "It starts with \"when\", but the action is still in car #2, and ich moves behind it. The main law of the train.",
+    "why_de_en": "Car #1 is taken: Jetzt. The action wohne is still car #2, and the \"who\" (ich) comes after it: Jetzt wohne ich in Deutschland.",
+    "why_en": "English: Now I live in Germany. German: Jetzt wohne ich in Deutschland. English keeps \"I live\"; in German wohne stays car #2, so ich moves behind it.",
+    "why_not": {
+     "en": "English order: the \"who\" (ich) before the action, and wohne slid to car #3. A German will understand, but hears the mistake at once."
+    },
+    "why_voice_en": "It starts with \"when\", but the action is still in car #2, and ich moves behind it. The main law of the train."
+   }
   },
   "ch01_053": {
    "en": "Do you live in Leipzig?",
@@ -2639,31 +2874,115 @@
    }
   },
   "ch01_054": {
-   "en": "No, I live near Freiberg."
+   "en": "No, I live near Freiberg.",
+   "why": {
+    "text_en": "nein doesn't take a car, so ich is still car #1. bei means \"near\".",
+    "why_de_en": "ich · wohne · bei Freiberg: the action wohne is car #2, the backbone of the sentence.",
+    "why_en": "English: No, I live near Freiberg. German: Nein, ich wohne bei Freiberg. Same order; bei here means \"near\".",
+    "why_not": {
+     "en": "The action wohne moved to the end. That's how the tail of a long sentence after \"that\" or \"because\" sounds; in a simple sentence wohne is car #2."
+    },
+    "why_voice_en": "nein doesn't take a car, so ich is still car #1. bei means \"near\"."
+   }
   },
   "ch01_055": {
-   "en": "He lives in Dresden."
+   "en": "He lives in Dresden.",
+   "why": {
+    "text_en": "With er the action ends in -t.",
+    "why_de_en": "Er · wohnt · in Dresden: the action wohnt is car #2, the backbone of the sentence.",
+    "why_en": "English: He lives in Dresden. German: Er wohnt in Dresden. Same order; -t works like English -s: lives, wohnt.",
+    "why_not": {
+     "en": "The action wohnt moved to the end. That's how the tail of a long sentence after \"that\" or \"because\" sounds; in a simple sentence wohnt is car #2."
+    },
+    "why_voice_en": "With er the action ends in -t."
+   }
   },
   "ch01_056": {
-   "en": "We live here now."
+   "en": "We live here now.",
+   "why": {
+    "text_en": "Again: \"when\" before \"where\".",
+    "why_de_en": "Wir · wohnen · jetzt · hier: the action wohnen is car #2, the backbone of the sentence.",
+    "why_en": "English: We live here now. German: Wir wohnen jetzt hier. \"When\" (jetzt) comes before \"where\" (hier).",
+    "why_not": {
+     "en": "The action wohnen moved to the end. That's how the tail of a long sentence after \"that\" or \"because\" sounds; in a simple sentence wohnen is car #2."
+    },
+    "why_voice_en": "Again: \"when\" before \"where\"."
+   }
   },
   "ch01_057": {
-   "en": "Do you live here too?"
+   "en": "Do you live here too?",
+   "why": {
+    "text_en": "Yes/no question: the action first.",
+    "why_de_en": "The action in front (Wohnen) signals a yes/no question from the very first word, even before the melody: Wohnen Sie auch hier?",
+    "why_en": "English: Do you live here too? German: Wohnen Sie auch hier? The verb itself goes first; no \"do\" needed.",
+    "why_not": {
+     "en": "Not a mistake, but it sounds different: like English \"You live here too?!\", it's a surprised double-check. A normal question puts the action first."
+    },
+    "why_voice_en": "Yes/no question: the action first."
+   }
   },
   "ch01_058": {
-   "en": "I live on Hauptstraße."
+   "en": "I live on Hauptstraße.",
+   "why": {
+    "text_en": "English says \"on the street\"; German says \"in the street\": in der Straße.",
+    "why_de_en": "Ich · wohne · in der Hauptstraße: the action wohne is car #2, the backbone of the sentence.",
+    "why_en": "English: I live on Hauptstraße. German: Ich wohne in der Hauptstraße, with in, not \"on\".",
+    "why_not": {
+     "en": "The action wohne moved to the end. That's how the tail of a long sentence after \"that\" or \"because\" sounds; in a simple sentence wohne is car #2."
+    },
+    "why_voice_en": "English says \"on the street\"; German says \"in the street\": in der Straße."
+   }
   },
   "ch01_059": {
-   "en": "Where is that?"
+   "en": "Where is that?",
+   "why": {
+    "text_en": "Question word in car #1, action in car #2.",
+    "why_de_en": "Car #1 is the question word Wo, and the action ist comes right after it, car #2: Wo ist das? A German first says WHAT he wants to know.",
+    "why_en": "English: Where is that? German: Wo · ist · das. Here the order is the same as in English.",
+    "why_not": {
+     "en": "das went before ist, so the action left car #2. After Wo a German expects the action at once, or it's not a question."
+    },
+    "root_en": "ist and English is: one old root *es- (DWDS, Wiktionary)",
+    "why_voice_en": "Question word in car #1, action in car #2."
+   }
   },
   "ch01_060": {
-   "en": "It's in Saxony."
+   "en": "It's in Saxony.",
+   "why": {
+    "text_en": "ist + a place means \"is located\".",
+    "why_de_en": "Das · ist · in Sachsen: the action ist is car #2, the backbone of the sentence.",
+    "why_en": "English: That's in Saxony. German: Das ist in Sachsen. Just like \"is\", ist can't be dropped.",
+    "why_not": {
+     "en": "Without ist, like English \"That in Saxony.\": a German hears a fragment, not a sentence."
+    },
+    "root_en": "ist and English is: one old root *es- (DWDS, Wiktionary)",
+    "why_voice_en": "ist + a place means \"is located\"."
+   }
   },
   "ch01_061": {
-   "en": "I'm new here."
+   "en": "I'm new here.",
+   "why": {
+    "text_en": "bin is \"am\" for ich. English never drops \"am\", and German can't drop bin either.",
+    "why_de_en": "Ich · bin · neu · hier: the action bin is car #2, the backbone of the sentence.",
+    "why_en": "English: I'm new here. German: Ich bin neu hier. Same order: bin = \"am\".",
+    "why_not": {
+     "en": "Without bin, like English \"I new here.\": a German hears a fragment, not a sentence."
+    },
+    "root_en": "bin, bist: from the old root *bʰew- (\"be\"), like English be; ist: from *es-, like English is. The verb sein is made of two roots (DWDS, Wiktionary)",
+    "why_voice_en": "bin is \"am\" for ich. English never drops \"am\", and German can't drop bin either."
+   }
   },
   "ch01_062": {
-   "en": "Are you Ms. Wagner?"
+   "en": "Are you Ms. Wagner?",
+   "why": {
+    "text_en": "Yes/no question: sind goes first.",
+    "why_de_en": "The action in front (Sind) signals a yes/no question from the very first word, even before the melody: Sind Sie Frau Wagner?",
+    "why_en": "English: Are you Mrs. Wagner? German: Sind Sie Frau Wagner? The same order as in English: the verb first.",
+    "why_not": {
+     "en": "Not a mistake, but it sounds different: like English \"You're Mrs. Wagner?!\", it's a surprised double-check. A normal question puts the action first."
+    },
+    "why_voice_en": "Yes/no question: sind goes first."
+   }
   },
   "ch01_063": {
    "en": "Yes, that's me.",
@@ -2679,40 +2998,152 @@
    }
   },
   "ch01_064": {
-   "en": "Who is the teacher?"
+   "en": "Who is the teacher?",
+   "why": {
+    "text_en": "die Lehrerin is a woman, der Lehrer a man.",
+    "why_de_en": "Car #1 is the question word Wer, and the action ist comes right after it, car #2: Wer ist die Lehrerin? A German first says WHAT he wants to know.",
+    "why_en": "English: Who is the teacher? German: Wer · ist · die Lehrerin. Same order; -in shows the teacher is a woman.",
+    "why_not": {
+     "en": "die Lehrerin went before ist, so the action left car #2. After Wer a German expects the action at once, or it's not a question."
+    },
+    "root_en": "ist and English is: one old root *es- (DWDS, Wiktionary)",
+    "why_voice_en": "die Lehrerin is a woman, der Lehrer a man."
+   }
   },
   "ch01_065": {
-   "en": "We're in a German course."
+   "en": "We're in a German course.",
+   "why": {
+    "text_en": "im = in + dem: der Kurs → im Kurs (\"where\").",
+    "why_de_en": "Wir · sind · im Deutschkurs: the action sind is car #2, the backbone of the sentence.",
+    "why_en": "English: We're in the German course. German: Wir sind im Deutschkurs. sind = \"are\"; Deutschkurs is one word.",
+    "why_not": {
+     "en": "Without sind, like English \"We in the German course.\": a German hears a fragment, not a sentence."
+    },
+    "root_en": "Deutschkurs = Deutsch + Kurs (Deutsch: German; Kurs: course) — Wiktionary",
+    "why_voice_en": "im = in + dem: der Kurs → im Kurs (\"where\")."
+   }
   },
   "ch01_066": {
-   "en": "Hello, I'm {hero_name}, your new neighbor."
+   "en": "Hello, I'm {hero_name}, your new neighbor.",
+   "why": {
+    "text_en": "Hallo doesn't take a car: the train starts with ich. der Nachbar → Ihr neuer Nachbar.",
+    "why_de_en": "Hallo isn't a car; then the same train: who · bin · who, and bin works like an \"=\" sign: ich = {hero_name}, Ihr neuer Nachbar.",
+    "why_en": "English: Hello, I'm {hero_name}, your new neighbor. German: Hallo, ich bin {hero_name}, Ihr neuer Nachbar. Same order; bin = \"am\".",
+    "why_not": {
+     "en": "Don't drop bin: \"Ich …\" without bin is a fragment, just like \"I …\" without am. And bin means am, not \"been\"."
+    },
+    "root_en": "Hallo: from holen \"to call, fetch\" (OHG halōn/holōn), how people called the ferryman (DWDS, Pfeifer); bin, bist: from the old root *bʰew- (\"be\"), like English be; ist: from *es-, like English is. The verb sein is made of two roots (DWDS, Wiktionary)",
+    "why_voice_en": "Hallo doesn't take a car: the train starts with ich. der Nachbar → Ihr neuer Nachbar."
+   }
   },
   "ch01_067": {
-   "en": "Good morning, Mr. Schmidt!"
+   "en": "Good morning, Mr. Schmidt!",
+   "why": {
+    "text_en": "With a neighbor, Sie: Herr + surname.",
+    "why_de_en": "With a neighbor, Sie: a greeting + Herr + surname.",
+    "why_en": "Like English \"Good morning, Mr. Schmidt\": a normal greeting for a neighbor in German.",
+    "why_not": {
+     "en": "To a neighbor with Sie, use Herr: Herr Schmidt. The surname alone sounds rude."
+    },
+    "root_en": "Morgen: Germanic *murgina-, the same root as English morning and morrow (as in tomorrow) (DWDS, Pfeifer, Wiktionary)",
+    "why_voice_en": "With a neighbor, Sie: Herr + surname."
+   }
   },
   "ch01_068": {
-   "en": "Have a nice day!"
+   "en": "Have a nice day!",
+   "why": {
+    "text_en": "Said when leaving a shop or neighbors. A set phrase: learn it whole, like \"hi\".",
+    "why_de_en": "A set wish when leaving: \"(have) a nice rest of the day\".",
+    "why_en": "Like English \"Have a nice day!\" — Schönen Tag noch!",
+    "why_not": {
+     "en": "Say the wish whole: Schönen Tag noch! (like Guten Morgen)."
+    },
+    "why_voice_en": "Said when leaving a shop or neighbors. A set phrase: learn it whole, like \"hi\"."
+   }
   },
   "ch01_070": {
-   "en": "Please spell it."
+   "en": "Please spell it.",
+   "why": {
+    "text_en": "A request with Sie: the action goes first, then Sie. That's how they'll ask you at the Bürgerbüro.",
+    "why_de_en": "A request with Sie: the action Buchstabieren goes first + Sie: Buchstabieren Sie bitte. That way a German shows at once that he expects an action.",
+    "why_en": "English: Please spell it, with no \"you\". German needs Sie right after Buchstabieren.",
+    "why_not": {
+     "en": "English drops \"you\" in a request: \"Please spell it\". In German, without Sie it's not a polite request but a mistake."
+    },
+    "why_voice_en": "A request with Sie: the action goes first, then Sie. That's how they'll ask you at the Bürgerbüro."
+   }
   },
   "ch01_071": {
-   "en": "O, L, G, A."
+   "en": "O, L, G, A.",
+   "why": {
+    "text_en": "A name letter by letter: that's how you spell it on a form or on the phone.",
+    "why_de_en": "This isn't a sentence but letters: say them one by one, the German way.",
+    "why_en": "German letter names differ from English: O — \"oh\" · L — \"el\" · G — \"gay\" · A — \"ah\".",
+    "why_not": {
+     "en": "Mistake: saying the letters the English way. German letters have their own names: \"oh\", \"el\", \"gay\", \"ah\". G is \"gay\", not \"gee\"."
+    },
+    "why_voice_en": "A name letter by letter: that's how you spell it on a form or on the phone."
+   }
   },
   "ch01_072": {
-   "en": "A, B, C, D, E, F, G."
+   "en": "A, B, C, D, E, F, G.",
+   "why": {
+    "text_en": "The German alphabet is Latin, like English, but the letters have their own names: C is \"tsay\", G is \"gay\".",
+    "why_de_en": "This isn't a sentence but letters: say them one by one, the German way.",
+    "why_en": "German letter names differ from English: A — \"ah\" · B — \"bay\" · C — \"tsay\" · D — \"day\" · E — \"ay\" · F — \"ef\" · G — \"gay\".",
+    "why_not": {
+     "en": "Mistake: using English letter names. German letters have their own: \"ah\", \"bay\", \"tsay\", \"day\", \"ay\", \"ef\", \"gay\". E sounds like the English name of A."
+    },
+    "why_voice_en": "The German alphabet is Latin, like English, but the letters have their own names: C is \"tsay\", G is \"gay\"."
+   }
   },
   "ch01_073": {
-   "en": "H, I, J, K, L, M, N."
+   "en": "H, I, J, K, L, M, N.",
+   "why": {
+    "text_en": "H is \"hah\", J is \"yot\".",
+    "why_de_en": "This isn't a sentence but letters: say them one by one, the German way.",
+    "why_en": "German letter names differ from English: H — \"hah\" · I — \"ee\" · J — \"yot\" · K — \"kah\" · L — \"el\" · M — \"em\" · N — \"en\".",
+    "why_not": {
+     "en": "Mistake: using English letter names. German letters have their own: \"hah\", \"ee\", \"yot\", \"kah\", \"el\", \"em\", \"en\". The German letter \"I\" is said \"ee\", not \"eye\"."
+    },
+    "why_voice_en": "H is \"hah\", J is \"yot\"."
+   }
   },
   "ch01_074": {
-   "en": "Zero, one, two, three."
+   "en": "Zero, one, two, three.",
+   "why": {
+    "text_en": "Numbers are separate words: first listen in order, then test yourself in random order.",
+    "why_de_en": "This isn't a sentence but numbers: separate words, each with its own sound.",
+    "why_en": "In English, word by word: null — zero · eins — one · zwei — two · drei — three.",
+    "why_not": {
+     "en": "Mistake: knowing numbers only in order. On a form or on the phone a number comes alone: test yourself in random order: eins, drei, null, zwei."
+    },
+    "why_voice_en": "Numbers are separate words: first listen in order, then test yourself in random order."
+   }
   },
   "ch01_075": {
-   "en": "Four, five, six, seven."
+   "en": "Four, five, six, seven.",
+   "why": {
+    "text_en": "ü in fünf: lips as for \"oo\", tongue as for \"ee\".",
+    "why_de_en": "This isn't a sentence but numbers: separate words, each with its own sound.",
+    "why_en": "In English, word by word: vier — four · fünf — five · sechs — six · sieben — seven.",
+    "why_not": {
+     "en": "Mistake: knowing numbers only in order. On a form or on the phone a number comes alone: test yourself in random order: fünf, sieben, vier, sechs."
+    },
+    "why_voice_en": "ü in fünf: lips as for \"oo\", tongue as for \"ee\"."
+   }
   },
   "ch01_076": {
-   "en": "Eight, nine, ten."
+   "en": "Eight, nine, ten.",
+   "why": {
+    "text_en": "z in zehn sounds like \"ts\".",
+    "why_de_en": "This isn't a sentence but numbers: separate words, each with its own sound.",
+    "why_en": "In English, word by word: acht — eight · neun — nine · zehn — ten.",
+    "why_not": {
+     "en": "Mistake: knowing numbers only in order. On a form or on the phone a number comes alone: test yourself in random order: neun, acht, zehn."
+    },
+    "why_voice_en": "z in zehn sounds like \"ts\"."
+   }
   },
   "ch01_077": {
    "en": "What is your house number?",
@@ -2741,19 +3172,64 @@
    }
   },
   "ch01_079": {
-   "en": "Thank you!"
+   "en": "Thank you!",
+   "why": {
+    "text_en": "A short \"thank you\": for everyone, always.",
+    "why_de_en": "A short thank-you: it fits almost everywhere.",
+    "why_en": "Like English \"Thanks!\". Danke — Thanks! Danke and English thank are the same old word.",
+    "why_not": {
+     "en": "Hard to get wrong; more polite: Danke schön."
+    },
+    "why_voice_en": "A short \"thank you\": for everyone, always."
+   }
   },
   "ch01_080": {
-   "en": "Hi! (in northern Germany)"
+   "en": "Hi! (in northern Germany)",
+   "why": {
+    "text_en": "This is how people greet in northern Germany (Hamburg, Bremen, Schleswig-Holstein), at any time of day.",
+    "why_de_en": "A northern German greeting. It's used at any time of day, morning and evening.",
+    "why_en": "Like English \"hi\": one short word.",
+    "why_not": {
+     "en": "Mistake: thinking Moin is only for the morning: in the north it's used all day (de.wiktionary)."
+    },
+    "why_voice_en": "This is how people greet in northern Germany (Hamburg, Bremen, Schleswig-Holstein), at any time of day."
+   }
   },
   "ch01_081": {
-   "en": "Hello! (in the south and in Austria)"
+   "en": "Hello! (in the south and in Austria)",
+   "why": {
+    "text_en": "This is how people greet in southern Germany and Austria.",
+    "why_de_en": "A greeting of southern Germany and Austria. It's used with strangers and in shops too.",
+    "why_en": "Like a polite English \"hello\".",
+    "why_not": {
+     "en": "Mistake: taking it literally, like a prayer (\"greet God\"). It's just \"hello\" in the south and in Austria."
+    },
+    "why_voice_en": "This is how people greet in southern Germany and Austria."
+   }
   },
   "ch01_082": {
-   "en": "Hi! / Bye! (in Bavaria and Austria)"
+   "en": "Hi! / Bye! (in Bavaria and Austria)",
+   "why": {
+    "text_en": "In Bavaria and Austria it means both \"hi\" and \"bye\".",
+    "why_de_en": "In southern Germany and Austria, with people you know: both when meeting and when leaving.",
+    "why_en": "Like English \"hi\" and \"bye\" in one word.",
+    "why_not": {
+     "en": "Mistake: saying Servus to a stranger at an office: it's a word for friends (DWDS). The polite one is Grüß Gott."
+    },
+    "why_voice_en": "In Bavaria and Austria it means both \"hi\" and \"bye\"."
+   }
   },
   "ch01_083": {
-   "en": "Poland, Czechia, Austria."
+   "en": "Poland, Czechia, Austria.",
+   "why": {
+    "text_en": "Germany's neighbors to the east and south. Saxony borders Poland and the Czech Republic.",
+    "why_de_en": "This is not a sentence but country names: separate words. These names have no article.",
+    "why_en": "A list, word by word, just like in English: Polen — Poland · Tschechien — Czechia · Österreich — Austria.",
+    "why_not": {
+     "en": "Mistake: learning the list as one block. Each name is a separate word. These names have no article."
+    },
+    "why_voice_en": "Germany's neighbors to the east and south. Saxony borders Poland and the Czech Republic."
+   }
   },
   "ch01_084": {
    "en": "France, Belgium, Luxembourg, Switzerland.",
@@ -2780,16 +3256,52 @@
    }
   },
   "ch01_086": {
-   "en": "Question, answer, sentence, period."
+   "en": "Question, answer, sentence, period.",
+   "why": {
+    "text_en": "Course words: this is how the teacher talks about tasks. die Frage, die Antwort, der Satz, der Punkt.",
+    "why_de_en": "This is not a sentence but words: learn them one by one, each with its article.",
+    "why_en": "In English, word by word: die Frage — question · die Antwort — answer · der Satz — sentence · der Punkt — period.",
+    "why_not": {
+     "en": "Mistake: learning a word without its article. English \"the\" won't tell you; each word has its own: die Frage, die Antwort, der Satz, der Punkt."
+    },
+    "why_voice_en": "Course words: this is how the teacher talks about tasks. die Frage, die Antwort, der Satz, der Punkt."
+   }
   },
   "ch01_087": {
-   "en": "Form, exercise, text, notebook."
+   "en": "Form, exercise, text, notebook.",
+   "why": {
+    "text_en": "Course words: das Formular, die Übung, der Text, das Heft.",
+    "why_de_en": "This is not a sentence but words: learn them one by one, each with its article.",
+    "why_en": "In English, word by word: das Formular — form · die Übung — exercise · der Text — text · das Heft — notebook.",
+    "why_not": {
+     "en": "Mistake: learning a word without its article. Each word has its own: das Formular, die Übung, der Text, das Heft."
+    },
+    "why_voice_en": "Course words: das Formular, die Übung, der Text, das Heft."
+   }
   },
   "ch01_088": {
-   "en": "Chapter, page, table."
+   "en": "Chapter, page, table.",
+   "why": {
+    "text_en": "Course words: das Kapitel, die Seite, die Tabelle.",
+    "why_de_en": "This is not a sentence but words: learn them one by one, each with its article.",
+    "why_en": "In English, word by word: das Kapitel — chapter · die Seite — page · die Tabelle — table.",
+    "why_not": {
+     "en": "Mistake: learning a word without its article. Each word has its own: das Kapitel, die Seite, die Tabelle."
+    },
+    "why_voice_en": "Course words: das Kapitel, die Seite, die Tabelle."
+   }
   },
   "ch01_089": {
-   "en": "Dialog, photo, speech bubble."
+   "en": "Dialog, photo, speech bubble.",
+   "why": {
+    "text_en": "Course words: der Dialog, das Foto, die Sprechblase.",
+    "why_de_en": "This is not a sentence but words: learn them one by one, each with its article.",
+    "why_en": "In English, word by word: der Dialog — dialog · das Foto — photo · die Sprechblase — speech bubble.",
+    "why_not": {
+     "en": "Mistake: learning a word without its article. Each word has its own: der Dialog, das Foto, die Sprechblase."
+    },
+    "why_voice_en": "Course words: der Dialog, das Foto, die Sprechblase."
+   }
   },
   "ch01_090": {
    "en": "I live near Freiberg.",
@@ -3013,16 +3525,53 @@
    }
   },
   "ch01_098": {
-   "en": "Lesson, homework, vocabulary, question mark."
+   "en": "Lesson, homework, vocabulary, question mark.",
+   "why": {
+    "text_en": "Course words: der Unterricht, die Hausaufgaben, der Wortschatz, das Fragezeichen. Hausaufgaben is usually plural.",
+    "why_de_en": "This is not a sentence but words: learn them one by one, each with its article.",
+    "why_en": "In English, word by word: der Unterricht — lesson · Hausaufgaben — homework · der Wortschatz — vocabulary · das Fragezeichen — question mark.",
+    "why_not": {
+     "en": "Mistake: learning a word without its article. Each word has its own: der Unterricht, der Wortschatz, das Fragezeichen."
+    },
+    "why_voice_en": "Course words: der Unterricht, die Hausaufgaben, der Wortschatz, das Fragezeichen. Hausaufgaben is usually plural."
+   }
   },
   "ch01_099": {
-   "en": "Company, person, greeting, conversation."
+   "en": "Company, person, greeting, conversation.",
+   "why": {
+    "text_en": "Course words from pp. 14–16: die Firma, die Person, die Begrüßung, das Gespräch.",
+    "why_de_en": "This is not a sentence but words: learn them one by one, each with its article.",
+    "why_en": "In English, word by word: die Firma — company · die Person — person · die Begrüßung — greeting · das Gespräch — conversation.",
+    "why_not": {
+     "en": "Mistake: learning a word without its article. Each word has its own: die Firma, die Person, die Begrüßung, das Gespräch."
+    },
+    "why_voice_en": "Course words from pp. 14–16: die Firma, die Person, die Begrüßung, das Gespräch."
+   }
   },
   "ch01_100": {
-   "en": "Assistant, phone, phone number, number, figure."
+   "en": "Assistant, phone, phone number, number, figure.",
+   "why": {
+    "text_en": "Course words from p. 19: die Assistentin, das Telefon, die Telefonnummer, die Nummer, die Zahl.",
+    "why_de_en": "This is not a sentence but words: learn them one by one, each with its article.",
+    "why_en": "In English, word by word: die Assistentin — assistant (a woman) · das Telefon — phone · die Telefonnummer — phone number · die Nummer — number · die Zahl — figure.",
+    "why_not": {
+     "en": "Mistake: learning a word without its article. Each word has its own: die Assistentin, das Telefon, die Telefonnummer, die Nummer, die Zahl."
+    },
+    "root_en": "Telefonnummer = Telefon + Nummer (Telefon: phone; Nummer: number) — Wiktionary",
+    "why_voice_en": "Course words from p. 19: die Assistentin, das Telefon, die Telefonnummer, die Nummer, die Zahl."
+   }
   },
   "ch01_101": {
-   "en": "Music, language, neighboring country."
+   "en": "Music, language, neighboring country.",
+   "why": {
+    "text_en": "Course words from pp. 17 and 21: die Musik, die Sprache, das Nachbarland (\"neighboring country\").",
+    "why_de_en": "This is not a sentence but words: learn them one by one, each with its article.",
+    "why_en": "In English, word by word: die Musik — music · die Sprache — language · das Nachbarland — neighboring country.",
+    "why_not": {
+     "en": "Mistake: learning a word without its article. Each word has its own: die Musik, die Sprache, das Nachbarland."
+    },
+    "why_voice_en": "Course words from pp. 17 and 21: die Musik, die Sprache, das Nachbarland (\"neighboring country\")."
+   }
   },
   "ch01_t01": {
    "en": "Good evening and welcome!",
@@ -3714,76 +4263,349 @@
   "ch01_d1": {
    "lines": {
     "ch01_d1_01": {
-     "en": "Good morning!"
+     "en": "Good morning!",
+     "why": {
+      "text_en": "It's morning, so: Guten Morgen.",
+      "why_de_en": "A ready-made wish: \"(I wish you a) good morning\". Germans say it as one block.",
+      "why_en": "Just like English \"Good morning!\": a fixed greeting you learn as one piece. Guten Morgen — Good morning. The words are even related: gut ≈ good, Morgen ≈ morning.",
+      "why_not": {
+       "en": "Common mistake: Gute instead of Guten. Learn the whole block: Guten Morgen. Why it works this way comes in later lessons."
+      },
+      "root_en": "Morgen: Germanic *murgina-, the same root as English morning and morrow (as in tomorrow) (DWDS, Pfeifer, Wiktionary)",
+      "why_voice_en": "It's morning, so: Guten Morgen."
+     },
+     "hint_en": "greeting/politeness: G… M…",
+     "task_en": "Say: Good morning!"
     },
     "ch01_d1_02": {
-     "en": "Good morning!"
+     "en": "Good morning!",
+     "why": {
+      "text_en": "They answer the same way.",
+      "why_de_en": "A ready-made wish: \"(I wish you a) good morning\". Germans say it as one block.",
+      "why_en": "Just like English \"Good morning!\": a fixed greeting you learn as one piece. Guten Morgen — Good morning. The words are even related: gut ≈ good, Morgen ≈ morning.",
+      "why_not": {
+       "en": "Common mistake: Gute instead of Guten. Learn the whole block: Guten Morgen. Why it works this way comes in later lessons."
+      },
+      "root_en": "Morgen: Germanic *murgina-, the same root as English morning and morrow (as in tomorrow) (DWDS, Pfeifer, Wiktionary)",
+      "why_voice_en": "They answer the same way."
+     },
+     "hint_en": "greeting/politeness: G… M…",
+     "task_en": "Say: Good morning!"
     },
     "ch01_d1_03": {
-     "en": "I'm {hero_name}, your new neighbor."
+     "en": "I'm {hero_name}, your new neighbor.",
+     "why": {
+      "text_en": "bin as \"=\": I = {hero_name} = neighbor.",
+      "why_de_en": "bin works like an \"=\" sign: ich = {hero_name}, Ihr neuer Nachbar. The action holds car #2.",
+      "why_en": "English: I'm {hero_name}, your new neighbor. German: Ich bin {hero_name}, Ihr neuer Nachbar. Same order; bin = \"am\".",
+      "why_not": {
+       "en": "Don't drop bin: \"Ich …\" without bin is a fragment, just like \"I …\" without am. And bin means am, not \"been\"."
+      },
+      "root_en": "bin, bist: from the old root *bʰew- (\"be\"), like English be; ist: from *es-, like English is. The verb sein is made of two roots (DWDS, Wiktionary)",
+      "why_voice_en": "bin as \"=\": I = {hero_name} = neighbor."
+     },
+     "hint_en": "who: I… · action (car #2): b… · who: M… I… n… N…",
+     "task_en": "Say: I'm {hero_name}, your new neighbor."
     },
     "ch01_d1_04": {
-     "en": "My name is Schmidt."
+     "en": "My name is Schmidt.",
+     "why": {
+      "text_en": "Name means \"name\"; with Sie, Germans often give only the surname.",
+      "why_de_en": "ist works like an \"=\" sign: mein Name = Schmidt. The action holds car #2.",
+      "why_en": "Word for word like English: Mein Name ist Schmidt — My name is Schmidt. ist = is, and it sits in car #2, just like is.",
+      "why_not": {
+       "en": "Don't drop ist: \"Mein Name …\" without ist is a fragment, just like \"My name …\" without the word is."
+      },
+      "root_en": "Name and English name: one old root *h₁nómn̥ (Wiktionary); ist and English is: one old root *es- (DWDS, Wiktionary)",
+      "why_voice_en": "Name means \"name\"; with Sie, Germans often give only the surname."
+     },
+     "hint_en": "who: M… N… · action (car #2): i… · who: S…",
+     "task_en": "Say: My name is Schmidt."
     },
     "ch01_d1_05": {
-     "en": "Where are you from? (Sie)"
+     "en": "Where are you from? (Sie)",
+     "why": {
+      "text_en": "Question word, then the action.",
+      "why_de_en": "The question word Woher is car #1, the action kommen comes right after it, car #2: Woher kommen Sie? A German first says WHAT he wants to know.",
+      "why_en": "English splits it: Where … from? German packs it into one word: Woher kommen Sie? — Where do you come from? And no \"do\": the verb comes right after Woher.",
+      "why_not": {
+       "en": "Sie went before kommen, so the action left car #2. After Woher a German expects the verb at once, or it's not a question."
+      },
+      "why_voice_en": "Question word, then the action."
+     },
+     "hint_en": "question word: W… · action (car #2): k… · who: S…",
+     "task_en": "Say: Where are you from? (Sie)"
     },
     "ch01_d1_06": {
-     "en": "I'm from Ukraine."
+     "en": "I'm from Ukraine.",
+     "why": {
+      "why_de_en": "Ich · komme · aus der Ukraine: the action komme is car #2, the backbone of the sentence.",
+      "why_en": "Like English \"I come from Ukraine\": Ich komme aus der Ukraine — I come from Ukraine. German keeps the verb; like English \"the Netherlands\", Ukraine takes an article.",
+      "why_not": {
+       "en": "Don't drop the verb: \"Ich aus der Ukraine\" is a fragment, like \"I from Ukraine\" in English. Keep komme."
+      }
+     },
+     "hint_en": "who: I… · action (car #2): k… · where from: a… d… U…",
+     "task_en": "Say: I'm from Ukraine."
     },
     "ch01_d1_07": {
-     "en": "Welcome to the village!"
+     "en": "Welcome to the village!",
+     "why": {
+      "text_en": "das Dorf → im Dorf (\"where\").",
+      "why_de_en": "Herzlich willkommen is a set formula; then a piece word by word: im Dorf (where? a place).",
+      "why_en": "English is just as short: Welcome to the village — Herzlich willkommen im Dorf. German says \"in the\", not \"to\".",
+      "why_not": {
+       "en": "Mistake: dropping the little im. You need the whole piece im Dorf; the name alone isn't an answer."
+      },
+      "why_voice_en": "das Dorf → im Dorf (\"where\")."
+     },
+     "hint_en": "greeting/politeness: H… w… · where: i… D…",
+     "task_en": "Say: Welcome to the village!"
     },
     "ch01_d1_08": {
-     "en": "Thanks, goodbye!"
+     "en": "Thanks, goodbye!",
+     "why": {
+      "text_en": "A polite goodbye to a neighbor, with Sie.",
+      "why_de_en": "Here are 2 set phrases in a row: Danke + auf Wiedersehen. Learn each one whole; there is no action, so no train.",
+      "why_en": "English does the same: 2 blocks in a row. Danke, auf Wiedersehen — Thank you, goodbye.",
+      "why_not": {
+       "en": "Mistake: gluing it all into one and translating word by word. These are 2 blocks; learn each one whole: Danke · auf Wiedersehen."
+      },
+      "root_en": "Wiedersehen = wieder + sehen (wieder means again; sehen means see) (Wiktionary)",
+      "why_voice_en": "A polite goodbye to a neighbor, with Sie."
+     },
+     "hint_en": "greeting/politeness: D… · greeting/politeness: a… W…",
+     "task_en": "Say: Thank you, goodbye!"
     }
+   },
+   "title_en": "The new neighbor",
+   "roles": {
+    "A_en": "{hero_name} (hero)"
+   },
+   "levels": {
+    "1_en": "dialog with translation (de + en)",
+    "2_en": "hints: the line's hint field",
+    "3_en": "gaps: the line's gap field",
+    "4_en": "free: the other person's line plays, you answer on your own following task_ru",
+    "5_en": "Now you meet your neighbor in the evening (Guten Abend), and he asks where you live."
    }
   },
   "ch01_d2": {
    "lines": {
     "ch01_d2_01": {
-     "en": "Good day, I'm Ms. Becker."
+     "en": "Good day, I'm Ms. Becker.",
+     "why": {
+      "text_en": "The greeting doesn't take a car; the train starts with ich.",
+      "why_de_en": "Guten Tag isn't a car; then the same train: who · bin · who, and bin works like an \"=\" sign: ich = Frau Becker.",
+      "why_en": "English: Good day, I'm Mrs. Becker. German: Guten Tag, ich bin Frau Becker. Same order; bin = \"am\".",
+      "why_not": {
+       "en": "Don't drop bin: \"Ich …\" without bin is a fragment, just like \"I …\" without am. And bin means am, not \"been\"."
+      },
+      "root_en": "bin, bist: from the old root *bʰew- (\"be\"), like English be; ist: from *es-, like English is. The verb sein is made of two roots (DWDS, Wiktionary)",
+      "why_voice_en": "The greeting doesn't take a car; the train starts with ich."
+     },
+     "hint_en": "greeting/politeness: G… T… · who: i… · action (car #2): b… · who: F… B…",
+     "task_en": "Say: Good day, I'm Mrs. Becker."
     },
     "ch01_d2_02": {
-     "en": "What's your name? (Sie)"
+     "en": "What's your name? (Sie)",
+     "why": {
+      "text_en": "Question word, action, then Sie.",
+      "why_de_en": "The question word Wie is car #1, the action heißen comes right after it, car #2: Wie heißen Sie? A German first says WHAT he wants to know.",
+      "why_en": "Like English \"What is your name?\": question word first, then the verb. Wie heißen Sie? — literally \"How are you called?\". German never adds \"do\" here.",
+      "why_not": {
+       "en": "Sie went before heißen, so the action left car #2. After Wie a German expects the verb at once, just as \"What your name is?\" sounds wrong in English."
+      },
+      "why_voice_en": "Question word, action, then Sie."
+     },
+     "hint_en": "question word: W… · action (car #2): h… · who: S…",
+     "task_en": "Say: What's your name? (Sie)"
     },
     "ch01_d2_03": {
-     "en": "My name is {hero_name}."
+     "en": "My name is {hero_name}.",
+     "why": {
+      "text_en": "With ich: heiße.",
+      "why_de_en": "Ich · heiße · {hero_name}: the action heiße is car #2, the backbone of the sentence.",
+      "why_en": "Like English, the \"I\" must be there: Ich heiße {hero_name} — I'm called {hero_name}. With ich the verb ends in -e: heiße.",
+      "why_not": {
+       "en": "Don't drop Ich: \"Heiße {hero_name}\" is cut off, like \"Am called {hero_name}\" in English."
+      },
+      "why_voice_en": "With ich: heiße."
+     },
+     "hint_en": "who: I… · action (car #2): h… · who: {hero_name}",
+     "task_en": "Say: My name is {hero_name}."
     },
     "ch01_d2_04": {
-     "en": "Where are you from, {hero_name}?"
+     "en": "Where are you from, {hero_name}?",
+     "why": {
+      "text_en": "The name at the end just addresses the person.",
+      "why_de_en": "Car #1 is the question word Woher, and the action kommen comes right after it, car #2: Woher kommen Sie, {hero_name}? A German first says WHAT he wants to know.",
+      "why_en": "English: Where are you from, {hero_name}? German: Woher · kommen · Sie, {hero_name}, literally \"where-from come you\". German needs the action kommen.",
+      "why_not": {
+       "en": "Sie went before kommen, so the action left car #2. After Woher a German expects the verb at once, or it's not a question."
+      },
+      "why_voice_en": "The name at the end just addresses the person."
+     },
+     "hint_en": "question word: W… · action (car #2): k… · who: S… M…",
+     "task_en": "Say: Where are you from, {hero_name}?"
     },
     "ch01_d2_05": {
-     "en": "I'm from Ukraine."
+     "en": "I'm from Ukraine.",
+     "why": {
+      "text_en": "aus der Ukraine: take the piece whole.",
+      "why_de_en": "Ich · komme · aus der Ukraine: the action komme is car #2, the backbone of the sentence.",
+      "why_en": "Like English \"I come from Ukraine\": Ich komme aus der Ukraine — I come from Ukraine. German keeps the verb; like English \"the Netherlands\", Ukraine takes an article.",
+      "why_not": {
+       "en": "Don't drop the verb: \"Ich aus der Ukraine\" is a fragment, like \"I from Ukraine\" in English. Keep komme."
+      },
+      "why_voice_en": "aus der Ukraine: take the piece whole."
+     },
+     "hint_en": "who: I… · action (car #2): k… · where from: a… d… U…",
+     "task_en": "Say: I'm from Ukraine."
     },
     "ch01_d2_06": {
-     "en": "My name is Ahmad, I'm from Syria."
+     "en": "My name is Ahmad, I'm from Syria.",
+     "why": {
+      "text_en": "Two short trains in a row, each with its action in car #2.",
+      "why_de_en": "ist works like an \"=\" sign: mein Name = Ahmad. The action holds car #2.",
+      "why_en": "English: My name is Ahmad, I'm from Syria. German: Mein Name ist Ahmad, ich komme aus Syrien. The first half matches English word for word.",
+      "why_not": {
+       "en": "Don't drop ist: \"Mein Name …\" without ist is a fragment, just like \"My name …\" without the word is."
+      },
+      "root_en": "Name and English name: one old root *h₁nómn̥ (Wiktionary); ist and English is: one old root *es- (DWDS, Wiktionary)",
+      "why_voice_en": "Two short trains in a row, each with its action in car #2."
+     },
+     "hint_en": "who: M… N… · action (car #2): i… · who: A… · who: i… · action (car #2): k… · from where: a… S…",
+     "task_en": "Say: My name is Ahmad, I'm from Syria."
     },
     "ch01_d2_07": {
-     "en": "Where do you live? (Sie)"
+     "en": "Where do you live? (Sie)",
+     "why": {
+      "text_en": "wo means \"where\".",
+      "why_de_en": "The question word Wo is car #1, the action wohnen comes right after it, car #2: Wo wohnen Sie? A German first says WHAT he wants to know.",
+      "why_en": "Like English \"Where do you live?\", but without \"do\": Wo wohnen Sie? Careful: wo looks like \"who\" but means where; wer means who.",
+      "why_not": {
+       "en": "Sie went before wohnen, so the action left car #2. After Wo a German expects the verb at once, or it's not a question."
+      },
+      "why_voice_en": "wo means \"where\"."
+     },
+     "hint_en": "question word: W… · action (car #2): w… · who: S…",
+     "task_en": "Say: Where do you live?"
     },
     "ch01_d2_08": {
-     "en": "I live in a village near Freiberg."
+     "en": "I live in a village near Freiberg.",
+     "why": {
+      "text_en": "Two \"where\"s in a row: in a village + near Freiberg.",
+      "why_de_en": "Ich · wohne · in einem Dorf bei Freiberg: the action wohne is car #2, the backbone of the sentence.",
+      "why_en": "English: I live in a village near Freiberg. German: Ich wohne in einem Dorf bei Freiberg. Same order; bei means \"near\".",
+      "why_not": {
+       "en": "The action wohne moved to the end. That's how the tail of a long sentence after \"that\" or \"because\" sounds; in a simple sentence wohne is car #2."
+      },
+      "why_voice_en": "Two \"where\"s in a row: in a village + near Freiberg."
+     },
+     "hint_en": "who: I… · action (car #2): w… · where: i… e… D… b… F…",
+     "task_en": "Say: I live in a village near Freiberg."
     }
+   },
+   "title_en": "First day at the course",
+   "roles": {
+    "O_en": "{hero_name} (hero)"
+   },
+   "levels": {
+    "1_en": "dialog with translation (de + en)",
+    "2_en": "hints: the line's hint field",
+    "3_en": "gaps: the line's gap field",
+    "4_en": "free: the other person's line plays, you answer on your own following task_ru",
+    "5_en": "A new course member: ask his name, where he's from and where he lives."
    }
   },
   "ch01_d3": {
    "lines": {
     "ch01_d3_01": {
-     "en": "Hi Olga, how are you?"
+     "en": "Hi Olga, how are you?",
+     "why": {
+      "text_en": "With a friend, du: dir.",
+      "why_de_en": "Car #1 is the question word wie, and the action geht comes right after it, car #2: Hallo, Olga, wie geht es dir? A German first says WHAT he wants to know.",
+      "why_en": "English: Hi, Olga, how are you? German: wie · geht · es · dir, literally \"how goes it to you\". German needs the action geht.",
+      "why_not": {
+       "en": "es went before geht, so the action left car #2. After wie a German expects the action at once, or it's not a question."
+      },
+      "root_en": "Hallo: from holen \"to call, fetch\" (OHG halōn/holōn), how people called the ferryman (DWDS, Pfeifer); dir is a form of du (\"to you\"); du and English thou: one old root *tū̌ (DWDS, Pfeifer)",
+      "why_voice_en": "With a friend, du: dir."
+     },
+     "hint_en": "greeting/politeness: H… · greeting/politeness: O… · question word: w… · action (car #2): g… · who: e… · to whom: d…",
+     "task_en": "Say: Hi, Olga, how are you?"
     },
     "ch01_d3_02": {
-     "en": "Fine, thanks, and you?"
+     "en": "Fine, thanks, and you?",
+     "why": {
+      "text_en": "Return the question briefly: und dir?",
+      "why_de_en": "A short answer + a question back: Danke, gut means \"thanks, fine\"; und dir? means \"and you?\". There's no action: these are set pieces.",
+      "why_en": "Just like English \"Fine, thanks. And you?\": short, then the question back. Danke, gut. Und dir? — Fine, thanks. And you?",
+      "why_not": {
+       "en": "English \"And you?\" tempts you to say Und du?, but the question was Wie geht es dir?, so you return dir: Und dir?"
+      },
+      "root_en": "dir is a form of du (\"to you\"); du and English thou: one old root *tū̌ (DWDS, Pfeifer)",
+      "why_voice_en": "Return the question briefly: und dir?"
+     },
+     "hint_en": "greeting/politeness: D… · which/how: g… · link: u… · to whom: d…",
+     "task_en": "Say: Thanks, fine, and you?"
     },
     "ch01_d3_03": {
-     "en": "So-so, I'm tired."
+     "en": "So-so, I'm tired.",
+     "why": {
+      "text_en": "Two short trains; each has its action in car #2.",
+      "why_de_en": "bin works like an \"=\" sign. The action holds car #2.",
+      "why_en": "English: So-so, I'm tired. German: Es geht so, ich bin müde. As in English, you can't drop \"am\": bin.",
+      "why_not": {
+       "en": "Dropping the verb, like \"It so, I tired\": without geht a German hears a fragment, not a sentence."
+      },
+      "root_en": "bin, bist: from the old root *bʰew- (\"be\"), like English be; ist: from *es-, like English is. The verb sein is made of two roots (DWDS, Wiktionary)",
+      "why_voice_en": "Two short trains; each has its action in car #2."
+     },
+     "hint_en": "who: E… · action (car #2): g… · which/how: s… · who: i… · action (car #2): b… · which/how: m…",
+     "task_en": "Say: So-so, I'm tired."
     },
     "ch01_d3_04": {
-     "en": "See you tomorrow, then!"
+     "en": "See you tomorrow, then!",
+     "why": {
+      "text_en": "dann means \"then\".",
+      "why_de_en": "dann (\"then\") + the set formula bis morgen.",
+      "why_en": "Just like English \"See you tomorrow, then\" — Dann bis morgen.",
+      "why_not": {
+       "en": "morgen here means \"tomorrow\", lowercase. Morgen with a capital means \"morning\"."
+      },
+      "why_voice_en": "dann means \"then\"."
+     },
+     "hint_en": "greeting/politeness: D… b… m…",
+     "task_en": "Say: See you tomorrow, then!"
     },
     "ch01_d3_05": {
-     "en": "Yes, see you tomorrow, bye!"
+     "en": "Yes, see you tomorrow, bye!",
+     "why": {
+      "text_en": "Saying bye to a friend: tschüss.",
+      "why_de_en": "Here are 3 set phrases in a row: Ja + bis morgen + tschüss. Learn each one whole; there is no action, so no train.",
+      "why_en": "English does the same: 3 blocks in a row. Ja, bis morgen, tschüss — Yes, see you tomorrow, bye.",
+      "why_not": {
+       "en": "Mistake: gluing it all into one and translating word by word. These are 3 blocks; learn each one whole: Ja · bis morgen · tschüss."
+      },
+      "why_voice_en": "Saying bye to a friend: tschüss."
+     },
+     "hint_en": "yes/no: J… · greeting/politeness: b… m… · greeting/politeness: t…",
+     "task_en": "Say: Yes, see you tomorrow, bye!"
     }
+   },
+   "title_en": "How are you?",
+   "roles": {
+    "A_en": "{hero_name} (hero)",
+    "B_en": "Olga (a neighbor)"
+   },
+   "levels": {
+    "1_en": "dialog with translation (de + en)",
+    "2_en": "hints: the line's hint field",
+    "3_en": "gaps: the line's gap field",
+    "4_en": "free: the other person's line plays, you answer on your own following task_ru",
+    "5_en": "Tell your friend you're fine and say goodbye until tomorrow."
    }
   },
   "ch01_d5": {
@@ -6298,6 +7120,61 @@
     "where the hero is from, the country's name",
     "the hero's last name and address"
    ]
+  },
+  "ch01_quiz_1": {
+   "prompt_en": "Listen. What was asked?",
+   "answer_en": "Where are you from? (Sie)",
+   "distractors_en": [
+    "Where do you live? (Sie)",
+    "What's your name? (Sie)"
+   ]
+  },
+  "ch01_quiz_2": {
+   "prompt_en": "Read it. What does it mean?",
+   "answer_en": "I'm new here.",
+   "distractors_en": [
+    "I live here.",
+    "I'm from Germany."
+   ]
+  },
+  "ch01_quiz_3": {
+   "prompt_en": "Say in German: \"My name is {hero_name}\"."
+  },
+  "ch01_quiz_4": {
+   "prompt_en": "Fill in the word: \"___ Dorf ist klein.\""
+  },
+  "ch01_quiz_5": {
+   "prompt_en": "Why does ich come after wohne?",
+   "answer_en": "It starts with \"when\": the action is still in place 2, and ich moves behind it. The main law of the train.",
+   "distractors_en": [
+    "Because ich always comes at the end.",
+    "Because it's a question."
+   ]
+  },
+  "ch01_test_1": {
+   "prompt_en": "Which article: ___ Morgen?"
+  },
+  "ch01_test_2": {
+   "prompt_en": "Which article: ___ Tag?"
+  },
+  "ch01_test_3": {
+   "prompt_en": "Listen. What was said?",
+   "answer_en": "Welcome to Germany!",
+   "distractors_en": [
+    "So-so.",
+    "My name is {hero_name}."
+   ]
+  },
+  "ch01_test_4": {
+   "prompt_en": "Listen. What was said?",
+   "answer_en": "We live here now.",
+   "distractors_en": [
+    "It's in Saxony.",
+    "We're in a German course."
+   ]
+  },
+  "ch01_test_5": {
+   "prompt_en": "Build the train from the cars: Nachbarland · Sprache · Musik"
   }
  },
  "youtube": {
