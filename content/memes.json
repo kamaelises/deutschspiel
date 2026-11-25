@@ -1,0 +1,219 @@
+{
+ "_about": "Мемы в уроках (25.11, помощник «Мемы»). Проверка и таблица для автора: python -X utf8 tasks/memes_build.py -> tasks/MEMES.md. gif = embed GIPHY по проверенному id; photo = хотлинк Wikimedia Commons (автор + лицензия); text = своя шутка. origin: ru|ua|de|world. at: hard|end (необязательно).",
+ "ch01_L1": [
+  { "id": "m01_1", "type": "gif", "origin": "world", "src": "https://giphy.com/embed/6brH8dM3zeMyA", "link": "https://giphy.com/gifs/6brH8dM3zeMyA", "credit": "GIPHY · Success Kid", "at": "end",
+    "de": "Guten Morgen!", "ru": "Когда первое «Guten Morgen» вышло без запинки.", "en": "When your first «Guten Morgen» comes out perfectly." }
+ ],
+ "ch01_L2": [
+  { "id": "m01_2", "type": "text", "origin": "ru", "src": "🙂",  "credit": "своя шутка DeutschSpiel",
+    "de": "Wie geht es Ihnen? — Gut, danke.", "ru": "Русское «норм» по-немецки — «Gut, danke». Даже если день так себе.", "en": "Russian «norm» in German is «Gut, danke» — even on a so-so day.",
+    "why_ru": "На «Wie geht es Ihnen?» обычно отвечают коротко: «Gut, danke». Это вежливость, а не отчёт о жизни.", "why_en": "«Wie geht es Ihnen?» usually gets a short «Gut, danke» — politeness, not a life report." }
+ ],
+ "ch01_L4": [
+  { "id": "m01_3", "type": "text", "origin": "ua", "src": "😮", "credit": "своя шутка DeutschSpiel", "at": "hard",
+    "de": "Ich komme aus der Ukraine.", "ru": "Йой! Даже у страны есть артикль: aus der Ukraine.", "en": "Oh my! Even the country has an article: aus der Ukraine.",
+    "why_ru": "Большинство стран без артикля (aus Polen), но некоторые женского рода: die Ukraine, die Schweiz, die Türkei → aus der …", "why_en": "Most countries take no article (aus Polen), but some are feminine: die Ukraine, die Schweiz, die Türkei → aus der …" }
+ ],
+ "ch01_L6": [
+  { "id": "m01_4", "type": "gif", "origin": "world", "src": "https://giphy.com/embed/WRQBXSCnEFJIuxktnw", "link": "https://giphy.com/gifs/WRQBXSCnEFJIuxktnw", "credit": "GIPHY · Confused math lady",
+    "de": "Familienname? Vorname? Postleitzahl?", "ru": "Первая немецкая анкета — и вот такое лицо.", "en": "Your first German form — and this face.",
+    "why_ru": "Длинное слово читай по частям: Post-leit-zahl (индекс), Familien-name (фамилия), Vor-name (имя).", "why_en": "Read long words in parts: Post-leit-zahl (postcode), Familien-name (surname), Vor-name (first name)." }
+ ],
+ "ch02_L2": [
+  { "id": "m02_1", "type": "gif", "origin": "world", "src": "https://giphy.com/embed/3ELtfmA4Apkju", "link": "https://giphy.com/gifs/3ELtfmA4Apkju", "credit": "GIPHY · Blinking guy", "at": "hard",
+    "de": "zweiundvierzig", "ru": "Когда узнал, что 42 по-немецки — «два-и-сорок».", "en": "When you learn that 42 in German is «two-and-forty».",
+    "why_ru": "В числах 21–99 единицы идут первыми: zwei + und + vierzig = 42.", "why_en": "In 21–99 the units come first: zwei + und + vierzig = 42." }
+ ],
+ "ch02_L3": [
+  { "id": "m02_2", "type": "text", "origin": "de", "src": "🔒", "credit": "своя шутка DeutschSpiel",
+    "de": "Hast du WhatsApp? — Nur Signal.", "ru": "Тот самый немецкий сосед, который бережёт свои данные.", "en": "That German neighbour who really cares about data privacy.",
+    "why_ru": "Вопрос «да/нет» начинается с глагола: Hast du …?", "why_en": "A yes/no question starts with the verb: Hast du …?" }
+ ],
+ "ch02_L5": [
+  { "id": "m02_3", "type": "text", "origin": "ru", "src": "👷", "credit": "своя шутка DeutschSpiel", "at": "hard",
+    "de": "Ich bin Praktikant.", "ru": "«Я у мамы инженер» по-немецки звучит честнее: Ich bin Praktikant.", "en": "The Russian meme «I'm an engineer at my mom's» sounds more honest in German: Ich bin Praktikant.",
+    "why_ru": "Профессия — без артикля: Ich bin Praktikant (не «ein Praktikant»).", "why_en": "Jobs take no article: Ich bin Praktikant (not «ein Praktikant»)." }
+ ],
+ "ch02_L6": [
+  { "id": "m02_4", "type": "gif", "origin": "world", "src": "https://giphy.com/embed/111ebonMs90YLu", "link": "https://giphy.com/gifs/111ebonMs90YLu", "credit": "GIPHY · Thumbs up kid", "at": "end",
+    "de": "Mein Traumberuf: Pilot!", "ru": "Когда в анкете спросили про Traumberuf, а ты уже знаешь слово.", "en": "When the form asks for your Traumberuf and you already know the word." }
+ ],
+ "ch03_L3": [
+  { "id": "m03_1", "type": "gif", "origin": "world", "src": "https://giphy.com/embed/6nWhy3ulBL7GSCvKw6", "link": "https://giphy.com/gifs/6nWhy3ulBL7GSCvKw6", "credit": "GIPHY · Surprised Pikachu", "at": "hard",
+    "de": "Das ist keine Katze.", "ru": "Das ist keine Katze. Это… ну, ты понял.", "en": "Das ist keine Katze. It's… well, you know.",
+    "why_ru": "Существительное отрицают словом kein/keine, а не nicht: Das ist keine Katze.", "why_en": "Nouns are negated with kein/keine, not nicht: Das ist keine Katze." }
+ ],
+ "ch03_L4": [
+  { "id": "m03_2", "type": "gif", "origin": "world", "src": "https://giphy.com/embed/Z1BTGhofioRxK", "link": "https://giphy.com/gifs/Z1BTGhofioRxK", "credit": "GIPHY · This Is Fine (KC Green)", "at": "end",
+    "de": "Mein Laptop ist kaputt.", "ru": "Laptop kaputt, Handy kaputt, а ты: «Всё хорошо».", "en": "Laptop kaputt, phone kaputt, and you: «This is fine».",
+    "why_ru": "Немецкое kaputt — просто «сломан». Русское «капут» (всему конец) — драматичнее.", "why_en": "German kaputt just means «broken» — much less dramatic than it sounds." }
+ ],
+ "ch03_L6": [
+  { "id": "m03_3", "type": "text", "origin": "de", "src": "🚉", "credit": "своя шутка DeutschSpiel · идиома по Duden",
+    "de": "Ich verstehe nur Bahnhof.", "ru": "«Понимаю только вокзал» — так немцы говорят «ничего не понимаю». Фраза первого месяца в Германии.", "en": "«I only understand train station» — the German way to say «I don't understand a thing».",
+    "why_ru": "Идиома nur Bahnhof verstehen = ничего не понимать (Duden).", "why_en": "Idiom nur Bahnhof verstehen = not to understand anything (Duden)." }
+ ],
+ "ch04_L2": [
+  { "id": "m04_1", "type": "text", "origin": "ru", "src": "☕", "credit": "своя шутка DeutschSpiel", "at": "hard",
+    "de": "Ich möchte einen Kaffee, bitte.", "ru": "Русское «Мне кофе» в немецком кафе звучит как приказ. Волшебное слово — möchte.", "en": "A blunt «Coffee for me» sounds like an order. The magic word is möchte.",
+    "why_ru": "möchte — вежливое «хотел бы»; «Ich will» в кафе звучит резко.", "why_en": "möchte is the polite «would like»; «Ich will» sounds harsh in a café." }
+ ],
+ "ch04_L3": [
+  { "id": "m04_2", "type": "photo", "origin": "de", "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Korb_mit_Br%C3%B6tchen.JPG/500px-Korb_mit_Br%C3%B6tchen.JPG", "page": "https://commons.wikimedia.org/wiki/File:Korb_mit_Br%C3%B6tchen.JPG", "credit": "Фото: 3268zauber, CC BY-SA 3.0 · Wikimedia Commons", "alt": "Корзина с булочками", "at": "hard",
+    "de": "Käse + Brötchen = Käsebrötchen", "ru": "Немецкое слово — как конструктор: собираешь сам, главное — в конце.", "en": "A German word is like building blocks: you build it yourself, the main part comes last.",
+    "why_ru": "В составном слове главное — последняя часть, она даёт и род: der Käse + das Brötchen = das Käsebrötchen.", "why_en": "In a compound the last part is the main one and gives the gender: der Käse + das Brötchen = das Käsebrötchen." }
+ ],
+ "ch04_L4": [
+  { "id": "m04_3", "type": "text", "origin": "ua", "src": "💳", "credit": "своя шутка DeutschSpiel",
+    "de": "Mit Karte, bitte.", "ru": "Дома картой платишь даже за семечки. В немецком кафе: «Nur bar!» — привыкай носить наличные.", "en": "At home you pay by card even for sunflower seeds. In a German café: «Nur bar!» — carry some cash.",
+    "why_ru": "В Германии в маленьких кафе и пекарнях до сих пор часто берут только наличные — спрашивай заранее.", "why_en": "Small German cafés and bakeries still often take cash only — ask first." }
+ ],
+ "ch04_L8": [
+  { "id": "m04_4", "type": "text", "origin": "de", "src": "🧾", "credit": "своя шутка DeutschSpiel", "at": "end",
+    "de": "Zusammen oder getrennt?", "ru": "Самый немецкий вопрос в кафе: платим вместе или каждый за себя?", "en": "The most German question in a café: together or separately?",
+    "why_ru": "Официант часто сам спрашивает: zusammen (вместе) или getrennt (раздельно) — делить счёт здесь нормально.", "why_en": "Waiters often ask: zusammen (together) or getrennt (separately) — splitting the bill is normal here." }
+ ],
+ "ch05_L2": [
+  { "id": "m05_1", "type": "gif", "origin": "world", "src": "https://giphy.com/embed/tXL4FHPSnVJ0A", "link": "https://giphy.com/gifs/tXL4FHPSnVJ0A", "credit": "GIPHY · Still waiting", "at": "end",
+    "de": "Um acht Uhr!", "ru": "Встреча в 8:00. Немец пришёл в 7:55 — и уже ждёт тебя.", "en": "Meeting at 8:00. The German arrived at 7:55 — and is already waiting for you." }
+ ],
+ "ch05_L4": [
+  { "id": "m05_2", "type": "text", "origin": "ru", "src": "🕢", "credit": "своя шутка DeutschSpiel", "at": "hard",
+    "de": "Um halb acht.", "ru": "«Полвосьмого» — и по-русски, и по-немецки 7:30. Наконец-то что-то совпало!", "en": "«Half eight» means 7:30 in German — just like in Russian. Finally something matches!",
+    "why_ru": "halb acht = половина пути к восьми = 7:30. Как русское «полвосьмого», а не английское half eight (8:30).", "why_en": "halb acht = halfway to eight = 7:30, unlike British «half eight» (8:30)." }
+ ],
+ "ch05_L5": [
+  { "id": "m05_3", "type": "text", "origin": "de", "src": "🔒", "credit": "своя шутка DeutschSpiel",
+    "de": "Sonntag: Supermarkt zu.", "ru": "Воскресенье в Германии: магазины закрыты, а хлеб ты купить забыл.", "en": "Sunday in Germany: shops closed, and you forgot to buy bread.",
+    "why_ru": "По законам о часах работы магазинов в воскресенье почти всё закрыто; открыты заправки, магазины на вокзалах, утром — часть пекарен.", "why_en": "Shop-hours laws close almost everything on Sunday; petrol stations, station shops and some bakeries (mornings) stay open." }
+ ],
+ "ch06_L1": [
+  { "id": "m06_1", "type": "text", "origin": "ru", "src": "🥔", "credit": "своя шутка DeutschSpiel · этимология по Фасмеру", "at": "hard",
+    "de": "die Kartoffel", "ru": "«Картофель» — это и есть немецкая Kartoffel. Слово переехало к нам раньше, чем ты.", "en": "Russian «kartofel» is the German Kartoffel. The word moved east long before you did.",
+    "why_ru": "Русское «картофель» и украинское «картопля» — заимствования из немецкого Kartoffel (словарь Фасмера).", "why_en": "Russian «kartofel» and Ukrainian «kartoplia» are borrowed from German Kartoffel (Vasmer's dictionary)." },
+  { "id": "m06_2", "type": "text", "origin": "ua", "src": "🍲", "credit": "своя шутка DeutschSpiel", "at": "end",
+    "de": "Heute: Kartoffelsuppe.", "ru": "Бабушка смотрит на немецкий картофельный суп: «А борщ где?»", "en": "Grandma looks at the German potato soup: «And where is the borscht?»" }
+ ],
+ "ch06_L3": [
+  { "id": "m06_3", "type": "photo", "origin": "de", "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Bottle_reverse_vending_machines_at_the_Lidl%2C_Bunde_%282019%29.jpg/500px-Bottle_reverse_vending_machines_at_the_Lidl%2C_Bunde_%282019%29.jpg", "page": "https://commons.wikimedia.org/wiki/File:Bottle_reverse_vending_machines_at_the_Lidl,_Bunde_(2019).jpg", "credit": "Фото: Donald Trung Quoc Don, CC BY-SA 4.0 · Wikimedia Commons", "alt": "Автоматы для сдачи бутылок в супермаркете", "at": "hard",
+    "de": "fünfundzwanzig Cent Pfand", "ru": "Немецкий квест: собрать бутылки, найти Pfandautomat, получить чек.", "en": "German side quest: collect bottles, find the Pfand machine, get the receipt.",
+    "why_ru": "Pfand — залог за бутылку: 0,25 € за одноразовую. Сдаёшь в автомат в магазине — получаешь чек на кассу.", "why_en": "Pfand is a bottle deposit: €0.25 per single-use bottle. The shop machine gives you a receipt for the till." },
+  { "id": "m06_4", "type": "gif", "origin": "world", "src": "https://giphy.com/embed/sIIhZliB2McAo", "link": "https://giphy.com/gifs/sIIhZliB2McAo", "credit": "GIPHY · Nyan Cat", "at": "end",
+    "de": "Bar oder mit Karte?", "ru": "Касса в Netto: товары летят со скоростью кота-радуги, а ты ещё ищешь кошелёк.", "en": "Netto checkout: groceries fly at rainbow-cat speed while you're still looking for your wallet.",
+    "why_ru": "Готовь деньги заранее: на кассе спросят «Bar oder mit Karte?» — наличными или картой.", "why_en": "Have your money ready: the cashier asks «Bar oder mit Karte?» — cash or card." }
+ ],
+ "ch07_L1": [
+  { "id": "m07_1", "type": "text", "origin": "ua", "src": "👪", "credit": "своя шутка DeutschSpiel",
+    "de": "Mutter, Bruder, Schwester", "ru": "Mutter — мати, Bruder — брат, Schwester — сестра. Немецкий — наш дальний родственник!", "en": "Mutter — maty, Bruder — brat, Schwester — sestra. German is a distant relative!",
+    "why_ru": "Это не случайность: немецкий, украинский и русский — индоевропейские языки, у слов семьи общие корни.", "why_en": "Not a coincidence: German, Ukrainian and Russian are Indo-European, family words share roots." }
+ ],
+ "ch07_L3": [
+  { "id": "m07_2", "type": "gif", "origin": "world", "src": "https://giphy.com/embed/d3mlE7uhX8KFgEmY", "link": "https://giphy.com/gifs/d3mlE7uhX8KFgEmY", "credit": "GIPHY · Roll Safe", "at": "hard",
+    "de": "Ich muss heute Kekse kaufen.", "ru": "Почему немцы не перебивают? Главный глагол в конце — приходится дослушать.", "en": "Why don't Germans interrupt? The main verb is at the end — you have to listen till the end.",
+    "why_ru": "С muss, kann второй глагол уходит в самый конец: Ich muss heute Kekse kaufen.", "why_en": "With muss, kann the second verb goes to the very end: Ich muss heute Kekse kaufen." }
+ ],
+ "ch08_L4": [
+  { "id": "m08_1", "type": "text", "origin": "ru", "src": "🏠", "credit": "своя шутка DeutschSpiel",
+    "de": "Miete und Nebenkosten", "ru": "«Квартира за 400 €!» — «Есть нюанс: плюс Nebenkosten».", "en": "«Flat for €400!» — «There's a catch: plus Nebenkosten».",
+    "why_ru": "Kaltmiete — только аренда; Nebenkosten — отопление, вода, мусор. Смотри Warmmiete (всё вместе).", "why_en": "Kaltmiete is rent only; Nebenkosten are heating, water, rubbish. Look at Warmmiete (everything)." }
+ ],
+ "ch08_L5": [
+  { "id": "m08_2", "type": "text", "origin": "de", "src": "🤫", "credit": "своя шутка DeutschSpiel", "at": "end",
+    "de": "Sonntag: nicht laut!", "ru": "Воскресенье в немецком доме: дрель нельзя, пылесос — лучше не надо.", "en": "Sunday in a German house: no drilling, and better skip the vacuum cleaner.",
+    "why_ru": "В правилах дома (Hausordnung) обычно тишина ночью и в воскресенье — Ruhezeit.", "why_en": "House rules (Hausordnung) usually ask for quiet at night and on Sundays — Ruhezeit." }
+ ],
+ "ch09_L2": [
+  { "id": "m09_1", "type": "gif", "origin": "world", "src": "https://giphy.com/embed/TbRkubcqlgBksEqMv4", "link": "https://giphy.com/gifs/TbRkubcqlgBksEqMv4", "credit": "GIPHY · Happy cat", "at": "end",
+    "de": "Kommst du mit? — Ja, gern!", "ru": "Когда зовут на пикник, а ты уже умеешь ответить «Ja, gern!».", "en": "When they invite you to a picnic and you can already say «Ja, gern!»." }
+ ],
+ "ch09_L4": [
+  { "id": "m09_2", "type": "gif", "origin": "world", "src": "https://giphy.com/embed/9uoYC7cjcU6w8", "link": "https://giphy.com/gifs/9uoYC7cjcU6w8", "credit": "GIPHY · Excited well done", "at": "hard",
+    "de": "gespielt, gemacht, gelernt", "ru": "Когда понял схему ge…t и сказал первое прошедшее время.", "en": "When you get the ge…t pattern and say your first past tense.",
+    "why_ru": "Perfekt у правильных глаголов: ge + основа + t: spielen → gespielt, machen → gemacht.", "why_en": "Perfekt of regular verbs: ge + stem + t: spielen → gespielt, machen → gemacht." }
+ ],
+ "ch10_L3": [
+  { "id": "m10_1", "type": "text", "origin": "ru", "src": "🗂️", "credit": "своя шутка DeutschSpiel",
+    "de": "Formular ausgefüllt. Termin?", "ru": "Ждун в Bürgeramt: анкета заполнена, а Termin — через месяц.", "en": "Waiting at the Bürgeramt: form done, but the Termin is next month.",
+    "why_ru": "Ведомства (Bürgeramt, Ausländerbehörde) работают по записи — Termin. Без неё часто не примут.", "why_en": "Offices (Bürgeramt, Ausländerbehörde) work by appointment — Termin. Without one you often won't be seen." }
+ ],
+ "ch10_L4": [
+  { "id": "m10_2", "type": "text", "origin": "de", "src": "🪧", "credit": "своя шутка DeutschSpiel", "at": "end",
+    "de": "Bitte die Hände waschen!", "ru": "В Германии есть табличка на всё. Даже на то, что ты и так собирался сделать.", "en": "Germany has a sign for everything. Even for what you were going to do anyway.",
+    "why_ru": "На табличках просьба — инфинитивом в конце: Bitte … waschen. Вежливо и сразу для всех.", "why_en": "Signs use the infinitive at the end: Bitte … waschen. Polite and for everyone." }
+ ],
+ "ch11_L1": [
+  { "id": "m11_1", "type": "text", "origin": "de", "src": "🎂", "credit": "своя шутка DeutschSpiel", "at": "end",
+    "de": "Herzlichen Glückwunsch zum Geburtstag!", "ru": "Немцы тоже не поздравляют заранее — плохая примета. Прямо как у нас!", "en": "Germans don't congratulate early either — bad luck. Just like at home!",
+    "why_ru": "Поздравлять до дня рождения не принято (говорят: man soll nicht vorfeiern) — как и в русской и украинской традиции.", "why_en": "Congratulating before the day is avoided (man soll nicht vorfeiern) — as in Russian and Ukrainian tradition." }
+ ],
+ "ch11_L3": [
+  { "id": "m11_2", "type": "text", "origin": "ua", "src": "🌧️", "credit": "своя шутка DeutschSpiel",
+    "de": "Im Winter ist es kalt.", "ru": "Немецкая зима: +3 и дождь. Украинцы: «Это же осень».", "en": "German winter: +3 °C and rain. Ukrainians: «That's autumn»." }
+ ],
+ "ch12_L1": [
+  { "id": "m12_1", "type": "text", "origin": "ua", "src": "🚆", "credit": "своя шутка DeutschSpiel", "at": "end",
+    "de": "Ich fahre mit dem Zug.", "ru": "Украинец в немецком поезде: «А где чай в подстаканнике?»", "en": "A Ukrainian on a German train: «Where's the tea in a glass holder?»" }
+ ],
+ "ch12_L2": [
+  { "id": "m12_2", "type": "text", "origin": "ru", "src": "🏛️", "credit": "своя шутка DeutschSpiel · этимология по Фасмеру",
+    "de": "Bahnhof = Bahn + Hof", "ru": "Наш «вокзал» назван в честь лондонского Воксхолла, а немецкий Bahnhof — просто «двор дороги».", "en": "Russian «vokzal» comes from London's Vauxhall; German Bahnhof is just «railway yard».",
+    "why_ru": "Bahn (дорога, поезд) + Hof (двор) = Bahnhof. «Вокзал» — по Фасмеру, от названия Vauxhall.", "why_en": "Bahn (railway) + Hof (yard) = Bahnhof. Russian «vokzal» is traced to Vauxhall (Vasmer)." }
+ ],
+ "ch12_L3": [
+  { "id": "m12_3", "type": "photo", "origin": "de", "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/GER_Wuppertal_Bahnhof_Unterbarmen_002_2016_-_ICE.jpg/500px-GER_Wuppertal_Bahnhof_Unterbarmen_002_2016_-_ICE.jpg", "page": "https://commons.wikimedia.org/wiki/File:GER_Wuppertal_Bahnhof_Unterbarmen_002_2016_-_ICE.jpg", "credit": "Фото: -wuppertaler, CC BY-SA 4.0 · Wikimedia Commons", "alt": "Поезд ICE на станции", "at": "end",
+    "de": "Der Zug kommt spät.", "ru": "Deutsche Bahn: немецкая точность — у людей, не у поездов.", "en": "Deutsche Bahn: German punctuality applies to people, not trains.",
+    "why_ru": "Дальние поезда DB часто опаздывают (по данным DB за 2024 год, вовремя — около 60 %). Слушай Durchsage и смотри Gleis.", "why_en": "DB long-distance trains are often late (DB's own 2024 figure: about 60 % on time). Listen to the Durchsage and check the Gleis." }
+ ],
+ "ch13_L1": [
+  { "id": "m13_1", "type": "text", "origin": "de", "src": "🌇", "credit": "своя шутка DeutschSpiel", "at": "end",
+    "de": "Feierabend!", "ru": "Слово, которого нет в русском: конец рабочего дня — и маленький праздник сразу.", "en": "A word English lacks: end of the working day — and a little celebration at once.",
+    "why_ru": "Feierabend = Feier (праздник) + Abend (вечер). После него о работе стараются не говорить.", "why_en": "Feierabend = Feier (celebration) + Abend (evening). After it, people try not to talk about work." }
+ ],
+ "ch13_L3": [
+  { "id": "m13_2", "type": "text", "origin": "ru", "src": "🍵", "credit": "своя шутка DeutschSpiel", "at": "hard",
+    "de": "Trinken Sie viel Tee!", "ru": "Немецкий врач при простуде: «Пейте много чая!» Бабушка одобряет.", "en": "A German doctor for a cold: «Drink lots of tea!» Grandma approves.",
+    "why_ru": "Совет на «вы»: глагол первым, потом Sie: Trinken Sie …!", "why_en": "Formal advice: verb first, then Sie: Trinken Sie …!" }
+ ],
+ "ch14_L2": [
+  { "id": "m14_1", "type": "gif", "origin": "world", "src": "https://giphy.com/embed/XD4qHZpkyUFfq", "link": "https://giphy.com/gifs/XD4qHZpkyUFfq", "credit": "GIPHY · Facepalm (The Office)", "at": "end",
+    "de": "Das Licht ist kaputt. Der Drucker ist kaputt.", "ru": "Первый день на ресепшен: всё kaputt, а ты улыбаешься гостям.", "en": "First day at reception: everything is kaputt, and you keep smiling at guests." }
+ ],
+ "ch14_L5": [
+  { "id": "m14_2", "type": "text", "origin": "ua", "src": "🤷", "credit": "своя шутка DeutschSpiel", "at": "hard",
+    "de": "Seit einem Jahr. Ich verstehe nur Bahnhof.", "ru": "— Давно в Германии? — Seit einem Jahr. — А немецкий? — Понимаю только вокзал.", "en": "— Been in Germany long? — Seit einem Jahr. — And your German? — I only understand «train station».",
+    "why_ru": "seit + сколько времени: seit einem Jahr = уже год (и до сих пор).", "why_en": "seit + a time span: seit einem Jahr = for a year (and still)." }
+ ],
+ "ch14_L8": [
+  { "id": "m14_3", "type": "text", "origin": "ua", "src": "🎨", "credit": "своя шутка DeutschSpiel",
+    "de": "Welche Farbe?", "ru": "Украинская «фарба» (краска) — родом из немецкого Farbe, через польский.", "en": "Ukrainian «farba» (paint) comes from German Farbe, via Polish.",
+    "why_ru": "Farbe → польск. farba → укр. фарба. По-немецки Farbe — и «цвет», и «краска».", "why_en": "Farbe → Polish farba → Ukrainian farba. In German Farbe means both «colour» and «paint»." }
+ ],
+ "ch15_L3": [
+  { "id": "m15_1", "type": "text", "origin": "de", "src": "💪", "credit": "своя шутка DeutschSpiel", "at": "hard",
+    "de": "Du kannst kein Deutsch? — Doch!", "ru": "Слово-суперсила: «Doch!» — «а вот и нет, ещё как да!». В русском такого одного слова нет.", "en": "A superpower word: «Doch!» — «oh yes I can!». English has no single word for it.",
+    "why_ru": "На отрицательный вопрос «да» = doch: Du kannst kein Deutsch? — Doch! (Ja здесь было бы ошибкой.)", "why_en": "Answering «yes» to a negative question = doch: Du kannst kein Deutsch? — Doch! (Ja would be wrong.)" }
+ ],
+ "ch15_L6": [
+  { "id": "m15_2", "type": "gif", "origin": "world", "src": "https://giphy.com/embed/ZIHPcum8vBonMjJSoM", "link": "https://giphy.com/gifs/ZIHPcum8vBonMjJSoM", "credit": "GIPHY · Doge: deal with it", "at": "end",
+    "de": "Mein Deutsch ist gut. Doch!", "ru": "Когда кто-то сомневается в твоём немецком после 15 глав.", "en": "When someone doubts your German after 15 chapters." }
+ ],
+ "ch16_L1": [
+  { "id": "m16_1", "type": "photo", "origin": "de", "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Dresden%2C_Striezelmarkt_--_2023_--_9306.jpg/500px-Dresden%2C_Striezelmarkt_--_2023_--_9306.jpg", "page": "https://commons.wikimedia.org/wiki/File:Dresden,_Striezelmarkt_--_2023_--_9306.jpg", "credit": "Фото: Dietmar Rabich, CC BY-SA 4.0 · Wikimedia Commons", "alt": "Рождественский рынок Striezelmarkt в Дрездене вечером", "at": "end",
+    "de": "Hier riecht es herrlich!", "ru": "Weihnachtsmarkt: пахнет корицей, жареным миндалём и Bratwurst. Кошелёк худеет.", "en": "Weihnachtsmarkt: it smells of cinnamon, roasted almonds and Bratwurst. Your wallet gets thinner." }
+ ],
+ "ch16_L2": [
+  { "id": "m16_2", "type": "text", "origin": "ru", "src": "🌰", "credit": "своя шутка DeutschSpiel", "at": "hard",
+    "de": "Der Nussknacker gefällt mir.", "ru": "Nussknacker = Nuss (орех) + knacken (щёлкать) — буквально «Щелкунчик». Перевели один в один!", "en": "Nussknacker = Nuss (nut) + knacken (to crack) — the «Shchelkunchik» in Russian is a word-for-word copy!",
+    "why_ru": "gefallen: то, что нравится, — подлежащее, а «мне» — mir: Der Nussknacker gefällt mir.", "why_en": "gefallen: the thing you like is the subject, «me» is mir: Der Nussknacker gefällt mir." }
+ ],
+ "ch16_L5": [
+  { "id": "m16_3", "type": "text", "origin": "ua", "src": "🎄", "credit": "своя шутка DeutschSpiel",
+    "de": "Heiligabend: Kartoffelsalat und Würstchen.", "ru": "У нас праздничный стол ломится, а у многих немцев в Сочельник — картофельный салат и сосиски. И все счастливы.", "en": "Our holiday table is overloaded; many Germans have potato salad and sausages on Christmas Eve. And everyone is happy.",
+    "why_ru": "Kartoffelsalat mit Würstchen — самый частый ужин в Heiligabend (24 декабря) во многих немецких семьях.", "why_en": "Kartoffelsalat mit Würstchen is the most common Christmas Eve dinner in many German families." }
+ ],
+ "ch16_L6": [
+  { "id": "m16_4", "type": "photo", "origin": "de", "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Ampelm%C3%A4nnchen_magnets_%2823006882569%29.jpg/500px-Ampelm%C3%A4nnchen_magnets_%2823006882569%29.jpg", "page": "https://commons.wikimedia.org/wiki/File:Ampelm%C3%A4nnchen_magnets_(23006882569).jpg", "credit": "Фото: Nicolas Buffler, CC BY 2.0 · Wikimedia Commons", "alt": "Магниты Ampelmännchen — зелёный и красный человечки", "at": "end",
+    "de": "Typisch deutsch!", "ru": "Ampelmännchen — человечек со светофоров ГДР. Пережил страну и стал сувениром.", "en": "Ampelmännchen — the traffic-light man of East Germany. He outlived the country and became a souvenir.",
+    "why_ru": "Восточные светофорные человечки в шляпе остались во многих городах бывшей ГДР.", "why_en": "The East German hat-wearing traffic-light men remain in many former GDR cities." }
+ ]
+}

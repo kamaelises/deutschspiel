@@ -1,0 +1,1933 @@
+{
+ "_meta": {
+  "about": "Auftrag im Alltag — 1 маленькая реальная миссия после каждого урока (tasks\\alltag_data.py -> tasks\\alltag_build.py). Слова — только изученные к уроку; LanguageTool de-DE 0 ошибок.",
+  "version": 1,
+  "count": 112,
+  "coins_default": 5
+ },
+ "missions": [
+  {
+   "id": "ch01_L1",
+   "kind": "say",
+   "place": "netto",
+   "de": [
+    "Guten Morgen!",
+    "Auf Wiedersehen!"
+   ],
+   "task_ru": "Утром на кассе Netto скажи кассиру «Guten Morgen!», а уходя — «Auf Wiedersehen!». Не идёшь в магазин — скажи соседу или в микрофон.",
+   "task_en": "In the morning at the Netto checkout say “Guten Morgen!” to the cashier, and “Auf Wiedersehen!” when you leave. Not going shopping? Say it to a neighbour or into the mic.",
+   "why_ru": "Две фразы — и ты уже говоришь с живым немцем. Кассир ответит — услышишь живое произношение.",
+   "why_en": "Two phrases and you are already talking to a real German. The cashier answers — you hear real pronunciation.",
+   "ch": 1,
+   "lesson_title": "Привет, я Max",
+   "coins": 5
+  },
+  {
+   "id": "ch01_L2",
+   "kind": "say",
+   "place": "home",
+   "de": [
+    "Guten Tag!",
+    "Guten Abend!",
+    "Gute Nacht!"
+   ],
+   "task_ru": "Сегодня поздоровайся по времени суток: днём «Guten Tag!» (на кассе или соседу), вечером «Guten Abend!», перед сном «Gute Nacht!» — хоть самой себе.",
+   "task_en": "Greet by time of day today: “Guten Tag!” in the afternoon (at the checkout or to a neighbour), “Guten Abend!” in the evening, “Gute Nacht!” before bed — even to yourself.",
+   "why_ru": "Приветствие зависит от времени: так оно запоминается вместе с моментом дня.",
+   "why_en": "The greeting depends on the time of day — linked to the moment, it sticks.",
+   "ch": 1,
+   "lesson_title": "Как дела? Как вас зовут?",
+   "coins": 5
+  },
+  {
+   "id": "ch01_L3",
+   "kind": "say",
+   "place": "home",
+   "de": [
+    "Wie schreibt man das?",
+    "M - A - X"
+   ],
+   "task_ru": "Представь, что тебя переспросили «Wie schreibt man das?». Скажи своё имя по буквам по-немецки вслух (а, бэ, цэ…).",
+   "task_en": "Imagine someone asks “Wie schreibt man das?”. Spell your name aloud letter by letter in German.",
+   "why_ru": "В Германии имя по буквам просят везде: по телефону, в Jobcenter, у врача.",
+   "why_en": "In Germany you are asked to spell your name everywhere: on the phone, at the Jobcenter, at the doctor’s.",
+   "ch": 1,
+   "lesson_title": "Как тебя зовут? Скажи по буквам",
+   "coins": 5
+  },
+  {
+   "id": "ch01_L4",
+   "kind": "write",
+   "place": "whatsapp",
+   "de": [
+    "Hallo! Ich bin …",
+    "Ich komme aus der Ukraine."
+   ],
+   "task_ru": "Напиши себе (или другу) в WhatsApp две строки по-немецки: кто ты и откуда.",
+   "task_en": "Write two lines in German to yourself (or a friend) on WhatsApp: who you are and where you are from.",
+   "why_ru": "Своя фраза о себе нужна на каждом знакомстве — пусть будет готова и под рукой.",
+   "why_en": "A ready sentence about yourself is needed at every introduction — keep it at hand.",
+   "ex": [
+    "Hallo! Ich bin Anna.",
+    "Ich komme aus der Ukraine."
+   ],
+   "ch": 1,
+   "lesson_title": "Откуда вы?",
+   "coins": 5
+  },
+  {
+   "id": "ch01_L5",
+   "kind": "form",
+   "place": "home",
+   "de": [
+    "Mein Vorname ist …",
+    "Meine Hausnummer ist …"
+   ],
+   "task_ru": "Заполни формуляр-образец ниже (как в Anmeldung): имя и номер дома. Данные остаются только в телефоне.",
+   "task_en": "Fill in the sample form below (like the Anmeldung): first name and house number. The data stays on your phone only.",
+   "why_ru": "Анкеты в Германии — на каждом шагу. Узнаёшь поля — заполняешь без страха.",
+   "why_en": "Forms are everywhere in Germany. Recognise the fields and you fill them without fear.",
+   "ex": [
+    "Mein Vorname ist Anna.",
+    "Meine Hausnummer ist acht."
+   ],
+   "fields": [
+    [
+     "Vorname",
+     "имя",
+     "first name"
+    ],
+    [
+     "Hausnummer",
+     "номер дома",
+     "house number"
+    ]
+   ],
+   "ch": 1,
+   "lesson_title": "Где вы живёте? Анкета",
+   "coins": 5
+  },
+  {
+   "id": "ch01_L6",
+   "kind": "read",
+   "place": "home",
+   "de": [
+    "Straße, Hausnummer, Postleitzahl, Ort."
+   ],
+   "task_ru": "Возьми дома любое письмо, посылку или счёт. Найди Straße, Postleitzahl и Ort и запиши, что там написано (можно чужой адрес — магазина).",
+   "task_en": "Take any letter, parcel or bill at home. Find Straße, Postleitzahl and Ort and write down what it says (a shop’s address is fine).",
+   "why_ru": "Адрес в Германии всегда в этом порядке — увидишь его в каждом письме из Jobcenter.",
+   "why_en": "A German address is always in this order — you will see it on every letter from the Jobcenter.",
+   "ch": 1,
+   "lesson_title": "Остановка: проверка главы 1",
+   "coins": 5
+  },
+  {
+   "id": "ch02_L1",
+   "kind": "say",
+   "place": "home",
+   "de": [
+    "Meine Handynummer ist …",
+    "null, eins, sieben …"
+   ],
+   "task_ru": "Продиктуй вслух свой номер мобильного по-немецки, по одной цифре. Номер нигде не сохраняется.",
+   "task_en": "Say your mobile number aloud in German, one digit at a time. The number is not saved anywhere.",
+   "why_ru": "Номер телефона спрашивают у врача, в Jobcenter, на курсе — по-немецки и быстро.",
+   "why_en": "Your phone number is asked at the doctor’s, the Jobcenter, the course — in German and fast.",
+   "ex": [
+    "Meine Handynummer ist null, eins, sieben, eins.",
+    "null, eins, sieben, eins"
+   ],
+   "ch": 2,
+   "lesson_title": "Номер и e-mail",
+   "coins": 5
+  },
+  {
+   "id": "ch02_L2",
+   "kind": "read",
+   "place": "netto",
+   "de": [
+    "dreizehn",
+    "dreißig",
+    "zweiundvierzig"
+   ],
+   "task_ru": "На ценниках или чеке Netto найди 3 числа от 11 до 100 и запиши их словами по-немецки.",
+   "task_en": "On Netto price tags or the receipt find 3 numbers from 11 to 100 and write them as German words.",
+   "why_ru": "Цены и номера вокруг тебя — бесплатный тренажёр чисел, каждый день.",
+   "why_en": "Prices and numbers around you are a free daily number trainer.",
+   "ch": 2,
+   "lesson_title": "Числа 11–100: вечеринка",
+   "coins": 5
+  },
+  {
+   "id": "ch02_L3",
+   "kind": "write",
+   "place": "whatsapp",
+   "de": [
+    "Ich habe WhatsApp.",
+    "Hast du auch Signal?"
+   ],
+   "task_ru": "Напиши в WhatsApp себе или подруге: что у тебя есть, и спроси, есть ли у неё тоже.",
+   "task_en": "Write on WhatsApp to yourself or a friend: what you have, and ask if she has it too.",
+   "why_ru": "Вопрос «да/нет» с глаголом в начале — самый частый вопрос в жизни.",
+   "why_en": "A yes/no question with the verb first is the most common question in daily life.",
+   "ch": 2,
+   "lesson_title": "Hast du WhatsApp? Вопрос «да/нет»",
+   "coins": 5
+  },
+  {
+   "id": "ch02_L4",
+   "kind": "say",
+   "place": "home",
+   "de": [
+    "Ich spreche Russisch und Ukrainisch.",
+    "Ich lerne Deutsch."
+   ],
+   "task_ru": "Скажи в микрофон (или запиши себе голосовое), на каких языках говоришь и что учишь.",
+   "task_en": "Say into the mic (or record a voice note) which languages you speak and what you are learning.",
+   "why_ru": "Этот вопрос задают на каждом знакомстве и собеседовании.",
+   "why_en": "This is asked at every introduction and job interview.",
+   "ch": 2,
+   "lesson_title": "Welche Sprachen sprichst du? Языки",
+   "coins": 5
+  },
+  {
+   "id": "ch02_L5",
+   "kind": "read",
+   "place": "street",
+   "de": [
+    "Olga ist Verkäuferin.",
+    "Was bist du von Beruf?"
+   ],
+   "task_ru": "Найди вокруг 2 слова-профессии: на двери Netto (объявление о работе), на машине мастера, в рекламе. Запиши их.",
+   "task_en": "Find 2 job words around you: on the Netto door (job ad), on a tradesman’s van, in an ad. Write them down.",
+   "why_ru": "Профессии видно на каждой улице — так слова сами попадаются на глаза.",
+   "why_en": "Jobs are written on every street — the words keep catching your eye.",
+   "ch": 2,
+   "lesson_title": "Was bist du von Beruf? Профессии",
+   "coins": 5
+  },
+  {
+   "id": "ch02_L6",
+   "kind": "form",
+   "place": "home",
+   "de": [
+    "Mein Traumberuf ist …",
+    "Ich spreche …"
+   ],
+   "task_ru": "Заполни анкету-образец, как в Jobcenter: профессия мечты и языки.",
+   "task_en": "Fill in a sample form like at the Jobcenter: dream job and languages.",
+   "why_ru": "В Jobcenter спросят именно это. Готовый ответ — меньше волнения.",
+   "why_en": "The Jobcenter asks exactly this. A ready answer means less stress.",
+   "ex": [
+    "Mein Traumberuf ist Koch.",
+    "Ich spreche Russisch und Ukrainisch."
+   ],
+   "fields": [
+    [
+     "Traumberuf",
+     "профессия мечты",
+     "dream job"
+    ],
+    [
+     "Sprachen",
+     "языки",
+     "languages"
+    ]
+   ],
+   "ch": 2,
+   "lesson_title": "Проверка главы 2: анкета в Jobcenter",
+   "coins": 5
+  },
+  {
+   "id": "ch03_L1",
+   "kind": "say",
+   "place": "home",
+   "de": [
+    "Das ist ein Tisch.",
+    "Das ist eine Lampe."
+   ],
+   "task_ru": "Пройдись по комнате и назови вслух 5 вещей с ein или eine: Tisch, Lampe, Tasche, Handy, Schlüssel.",
+   "task_en": "Walk around the room and name 5 things aloud with ein or eine: Tisch, Lampe, Tasche, Handy, Schlüssel.",
+   "why_ru": "Слово + вещь в руке = память в 2 раза крепче, чем слово в списке.",
+   "why_en": "A word plus the object in your hand sticks twice as well as a word on a list.",
+   "ch": 3,
+   "lesson_title": "Was ist das? Как это по-немецки",
+   "coins": 5
+  },
+  {
+   "id": "ch03_L2",
+   "kind": "say",
+   "place": "home",
+   "de": [
+    "Wo ist mein Kuli?",
+    "Das ist mein Heft."
+   ],
+   "task_ru": "Перед курсом собери вещи и назови вслух: «Das ist mein Heft», «Das ist meine Tasche». Не можешь найти ручку — «Wo ist mein Kuli?»",
+   "task_en": "Before the course pack your things and name them aloud: “Das ist mein Heft”, “Das ist meine Tasche”. Can’t find a pen? “Wo ist mein Kuli?”",
+   "why_ru": "mein / meine каждый день на своих вещах — и род запоминается сам.",
+   "why_en": "mein / meine on your own things every day — and the gender sticks by itself.",
+   "ch": 3,
+   "lesson_title": "Wo ist mein Kuli? В классе",
+   "coins": 5
+  },
+  {
+   "id": "ch03_L3",
+   "kind": "say",
+   "place": "home",
+   "de": [
+    "Das ist kein Hund.",
+    "Das ist keine Katze."
+   ],
+   "task_ru": "Поиграй: покажи на 3 вещи дома и «ошибись» вслух: «Das ist kein Hund. Das ist ein Tisch.»",
+   "task_en": "Play: point at 3 things at home and “get it wrong” aloud: “Das ist kein Hund. Das ist ein Tisch.”",
+   "why_ru": "Сказать «нет» — так же важно, как «да». kein/keine — с той же буквой рода.",
+   "why_en": "Saying “no” matters as much as “yes”. kein/keine keep the same gender ending.",
+   "ch": 3,
+   "lesson_title": "Das ist keine Katze. Как сказать «нет»",
+   "coins": 5
+  },
+  {
+   "id": "ch03_L4",
+   "kind": "write",
+   "place": "whatsapp",
+   "de": [
+    "Mein … ist kaputt.",
+    "Er funktioniert nicht."
+   ],
+   "task_ru": "Найди дома вещь, которая не работает (или придумай), и напиши в WhatsApp себе: что сломалось.",
+   "task_en": "Find something at home that doesn’t work (or invent one) and write to yourself on WhatsApp what is broken.",
+   "why_ru": "Сломанный кран или телефон — первое, о чём придётся писать Hausmeister.",
+   "why_en": "A broken tap or phone is the first thing you will have to write to the Hausmeister about.",
+   "ex": [
+    "Mein Computer ist kaputt.",
+    "Er funktioniert nicht."
+   ],
+   "ch": 3,
+   "lesson_title": "Mein Computer ist kaputt. Он, она, оно",
+   "coins": 5
+  },
+  {
+   "id": "ch03_L5",
+   "kind": "say",
+   "place": "course",
+   "de": [
+    "Wiederholen Sie bitte."
+   ],
+   "task_ru": "На следующем занятии курса один раз попроси преподавателя: «Wiederholen Sie bitte.» (можно написать в чат Teams).",
+   "task_en": "At your next course lesson ask the teacher once: “Wiederholen Sie bitte.” (you can type it in the Teams chat).",
+   "why_ru": "Попросить повторить — нормально. Это главная фраза ученика.",
+   "why_en": "Asking to repeat is normal. It is the learner’s key phrase.",
+   "ch": 3,
+   "lesson_title": "Wiederholen Sie bitte. Просьбы на «вы»",
+   "coins": 5
+  },
+  {
+   "id": "ch03_L6",
+   "kind": "read",
+   "place": "street",
+   "de": [
+    "Das ist der Bahnhof.",
+    "Wo ist der Markt?"
+   ],
+   "task_ru": "На улице или на карте в телефоне найди 3 места: Bahnhof, Schule, Rathaus, Markt. Запиши их с der/die/das.",
+   "task_en": "On the street or on your phone map find 3 places: Bahnhof, Schule, Rathaus, Markt. Write them with der/die/das.",
+   "why_ru": "Знакомые слова на табличках делают чужую деревню своей.",
+   "why_en": "Familiar words on signs make a strange village feel like yours.",
+   "ch": 3,
+   "lesson_title": "Das ist meine Stadt. Слова города",
+   "coins": 5
+  },
+  {
+   "id": "ch03_L7",
+   "kind": "say",
+   "place": "home",
+   "de": [
+    "Das ist ein Foto.",
+    "Das Bild gehört …"
+   ],
+   "task_ru": "Возьми фото или картинку дома и скажи вслух: что это и кому принадлежит.",
+   "task_en": "Take a photo or picture at home and say aloud what it is and whose it is.",
+   "why_ru": "Foto, Bild, Zeichnung — одно и то же? Нет: на своих вещах разница видна сразу.",
+   "why_en": "Foto, Bild, Zeichnung — the same? No: on your own things the difference is clear.",
+   "ex": [
+    "Das ist ein Foto.",
+    "Das Bild gehört Maria."
+   ],
+   "ch": 3,
+   "lesson_title": "Находки на курсе. Foto, Bild, Zeichnung",
+   "coins": 5
+  },
+  {
+   "id": "ch03_L8",
+   "kind": "read",
+   "place": "course",
+   "de": [
+    "Ergänzen Sie bitte.",
+    "Markieren Sie bitte.",
+    "Ordnen Sie bitte."
+   ],
+   "task_ru": "В учебнике Die neue Linie 1 найди 3 задания со словами Ergänzen, Markieren или Ordnen. Выпиши их.",
+   "task_en": "In the Die neue Linie 1 book find 3 tasks with Ergänzen, Markieren or Ordnen. Copy them.",
+   "why_ru": "Это слова заданий — поймёшь их, и домашка станет понятнее.",
+   "why_en": "These are task words — understand them and homework becomes clearer.",
+   "ch": 3,
+   "lesson_title": "Mein Deutsch nach Kapitel 3. Проверка главы",
+   "coins": 5
+  },
+  {
+   "id": "ch04_L1",
+   "kind": "say",
+   "place": "home",
+   "de": [
+    "Ich habe Durst.",
+    "Ich trinke Tee."
+   ],
+   "task_ru": "Когда сегодня захочешь пить или есть, скажи это вслух по-немецки — и что пьёшь или ешь.",
+   "task_en": "Today when you are thirsty or hungry, say it aloud in German — and what you drink or eat.",
+   "why_ru": "Фраза в нужный момент запоминается намертво.",
+   "why_en": "A phrase said at the right moment sticks for good.",
+   "ch": 4,
+   "lesson_title": "Kaffee oder Tee? Хочу пить, хочу есть",
+   "coins": 5
+  },
+  {
+   "id": "ch04_L2",
+   "kind": "say",
+   "place": "netto",
+   "de": [
+    "Ich möchte einen Kaffee, bitte."
+   ],
+   "task_ru": "У пекарни в Netto или дома у кофеварки скажи вслух заказ: «Ich möchte einen Kaffee, bitte.»",
+   "task_en": "At the Netto bakery corner or at your coffee maker say the order aloud: “Ich möchte einen Kaffee, bitte.”",
+   "why_ru": "möchte + bitte — вежливый заказ на все случаи.",
+   "why_en": "möchte + bitte is a polite order for every occasion.",
+   "ch": 4,
+   "lesson_title": "Ich möchte einen Kaffee: заказ",
+   "coins": 5
+  },
+  {
+   "id": "ch04_L3",
+   "kind": "read",
+   "place": "netto",
+   "de": [
+    "ein Käsebrötchen",
+    "die Tomatensuppe"
+   ],
+   "task_ru": "В Netto найди на этикетках 3 длинных слова (Käsebrötchen, Tomatensuppe…). Запиши и раздели на части.",
+   "task_en": "In Netto find 3 long words on labels (Käsebrötchen, Tomatensuppe…). Write them and split them into parts.",
+   "why_ru": "Длинное слово = несколько коротких. Артикль даёт последняя часть.",
+   "why_en": "A long word = several short ones. The last part gives the article.",
+   "ch": 4,
+   "lesson_title": "Speisekarte: длинные слова и den",
+   "coins": 5
+  },
+  {
+   "id": "ch04_L4",
+   "kind": "read",
+   "place": "netto",
+   "de": [
+    "Der Kaffee kostet … Euro."
+   ],
+   "task_ru": "Найди в Netto цену кофе и запиши фразу: «Der Kaffee kostet … Euro.»",
+   "task_en": "Find the price of coffee in Netto and write: “Der Kaffee kostet … Euro.”",
+   "why_ru": "Цены — числа, которые видишь каждый день. Хорошая практика.",
+   "why_en": "Prices are numbers you see every day — good practice.",
+   "ex": [
+    "Der Kaffee kostet fünf Euro."
+   ],
+   "ch": 4,
+   "lesson_title": "Zahlen, bitte! Цена и оплата",
+   "coins": 5
+  },
+  {
+   "id": "ch04_L5",
+   "kind": "write",
+   "place": "whatsapp",
+   "de": [
+    "Wie geht es dir?",
+    "Mir geht es gut."
+   ],
+   "task_ru": "Напиши подруге (или себе) в WhatsApp по-немецки: спроси, как дела, и скажи, как у тебя.",
+   "task_en": "Write to a friend (or yourself) on WhatsApp in German: ask how she is and say how you are.",
+   "why_ru": "Короткая переписка — живой немецкий даже в маленькой деревне.",
+   "why_en": "A short chat is real German even in a small village.",
+   "ch": 4,
+   "lesson_title": "Wie geht's? Как дела и где работаешь",
+   "coins": 5
+  },
+  {
+   "id": "ch04_L6",
+   "kind": "write",
+   "place": "home",
+   "de": [
+    "drei Brezeln",
+    "zwei Colas"
+   ],
+   "task_ru": "Напиши список покупок по-немецки с числами (drei Brezeln, zwei Colas…) — и возьми его в Netto.",
+   "task_en": "Write a German shopping list with numbers (drei Brezeln, zwei Colas…) and take it to Netto.",
+   "why_ru": "Список с множественным числом — и слова, и окончания за один поход.",
+   "why_en": "A list with plurals trains words and endings in one trip.",
+   "ch": 4,
+   "lesson_title": "Kursfest: много предметов сразу",
+   "coins": 5
+  },
+  {
+   "id": "ch04_L7",
+   "kind": "read",
+   "place": "netto",
+   "de": [
+    "Was kostet der Kuchen?",
+    "Der Kuchen kostet … Euro."
+   ],
+   "task_ru": "В Netto найди цену пирога (Kuchen) и брецеля. Запиши: «Der Kuchen kostet … Euro.»",
+   "task_en": "In Netto find the price of a cake (Kuchen) and a pretzel. Write: “Der Kuchen kostet … Euro.”",
+   "why_ru": "Спросить цену и понять ответ — основа любой покупки.",
+   "why_en": "Asking a price and understanding it is the basis of any purchase.",
+   "ex": [
+    "Was kostet der Kuchen?",
+    "Der Kuchen kostet zwei Euro."
+   ],
+   "ch": 4,
+   "lesson_title": "Проверка главы 4: полный визит в кафе",
+   "coins": 5
+  },
+  {
+   "id": "ch04_L8",
+   "kind": "read",
+   "place": "netto",
+   "de": [
+    "Das macht … Euro."
+   ],
+   "task_ru": "Возьми чек из Netto, найди итоговую сумму и скажи вслух или запиши: «Das macht … Euro.»",
+   "task_en": "Take a Netto receipt, find the total and say or write: “Das macht … Euro.”",
+   "why_ru": "Эту фразу говорит кассир — теперь ты её узнаешь на слух.",
+   "why_en": "The cashier says this phrase — now you will recognise it.",
+   "ex": [
+    "Das macht fünf Euro."
+   ],
+   "ch": 4,
+   "lesson_title": "Rechnung, bitte! Вместе или раздельно",
+   "coins": 5
+  },
+  {
+   "id": "ch04_L9",
+   "kind": "write",
+   "place": "home",
+   "de": [
+    "Hier ist die Liste.",
+    "Ich möchte zwei Käsekuchen."
+   ],
+   "task_ru": "Составь по-немецки список для праздника (что и сколько) в заметках телефона.",
+   "task_en": "Make a German party list (what and how many) in your phone notes.",
+   "why_ru": "Списки пишут все — пусть твои будут по-немецки.",
+   "why_en": "Everyone writes lists — make yours German.",
+   "ch": 4,
+   "lesson_title": "Kursfest: список и отзывы",
+   "coins": 5
+  },
+  {
+   "id": "ch04_L10",
+   "kind": "read",
+   "place": "netto",
+   "de": [
+    "das Würstchen",
+    "die Freundin"
+   ],
+   "task_ru": "На упаковках в Netto найди 3 слова на -chen, -in, -ung или -e и запиши их с артиклем по подсказке конца слова.",
+   "task_en": "On Netto packages find 3 words ending in -chen, -in, -ung or -e and write them with the article the ending suggests.",
+   "why_ru": "Конец слова подсказывает артикль — проверь правило на настоящих этикетках.",
+   "why_en": "The word ending hints at the article — test the rule on real labels.",
+   "ch": 4,
+   "lesson_title": "Какой артикль? Подсказки по концу слова",
+   "coins": 5
+  },
+  {
+   "id": "ch05_L1",
+   "kind": "write",
+   "place": "whatsapp",
+   "de": [
+    "Am Montag lerne ich Deutsch.",
+    "Am Samstag habe ich Zeit."
+   ],
+   "task_ru": "Напиши себе план недели по-немецки: 2–3 дня и что ты делаешь.",
+   "task_en": "Write yourself a weekly plan in German: 2–3 days and what you do.",
+   "why_ru": "Дни недели нужны для каждой записи к врачу и в ведомство.",
+   "why_en": "Weekdays are needed for every appointment at a doctor’s or an office.",
+   "ch": 5,
+   "lesson_title": "Моя неделя",
+   "coins": 5
+  },
+  {
+   "id": "ch05_L2",
+   "kind": "read",
+   "place": "street",
+   "de": [
+    "Wann fährt der Bus?",
+    "Der Bus fährt um … Uhr."
+   ],
+   "task_ru": "На остановке или в приложении найди время ближайшего автобуса и запиши: «Der Bus fährt um … Uhr.»",
+   "task_en": "At the bus stop or in the app find the next bus time and write: “Der Bus fährt um … Uhr.”",
+   "why_ru": "В деревне автобус — по расписанию. Время по 24 часам — как в Германии.",
+   "why_en": "In a village the bus runs by timetable. 24-hour time, the German way.",
+   "ex": [
+    "Der Bus fährt um dreizehn Uhr dreißig."
+   ],
+   "ch": 5,
+   "lesson_title": "Который час?",
+   "coins": 5
+  },
+  {
+   "id": "ch05_L3",
+   "kind": "say",
+   "place": "home",
+   "de": [
+    "Am Morgen stehe ich um … Uhr auf."
+   ],
+   "task_ru": "Утром, когда встаёшь, скажи вслух: во сколько ты встаёшь и что делаешь днём.",
+   "task_en": "In the morning when you get up, say aloud when you get up and what you do during the day.",
+   "why_ru": "aufstehen с приставкой в конце — лучше всего тренировать как раз утром.",
+   "why_en": "aufstehen with the prefix at the end is best practised right in the morning.",
+   "ex": [
+    "Am Morgen stehe ich um sieben Uhr auf."
+   ],
+   "ch": 5,
+   "lesson_title": "Мой день",
+   "coins": 5
+  },
+  {
+   "id": "ch05_L4",
+   "kind": "read",
+   "place": "netto",
+   "de": [
+    "Netto ist von … bis … Uhr offen."
+   ],
+   "task_ru": "Прочитай часы работы на двери Netto (или праксиса) и запиши: «… ist von … bis … Uhr offen.»",
+   "task_en": "Read the opening hours on the Netto door (or a doctor’s practice) and write: “… ist von … bis … Uhr offen.”",
+   "why_ru": "Öffnungszeiten висят на каждой двери — привыкай читать их сама.",
+   "why_en": "Opening hours hang on every door — get used to reading them yourself.",
+   "ex": [
+    "Die Praxis ist von acht bis dreizehn Uhr offen."
+   ],
+   "ch": 5,
+   "lesson_title": "Часы работы",
+   "coins": 5
+  },
+  {
+   "id": "ch05_L5",
+   "kind": "write",
+   "place": "whatsapp",
+   "de": [
+    "Hast du am Wochenende Zeit?"
+   ],
+   "task_ru": "Напиши подруге в WhatsApp: «Hast du am Wochenende Zeit?» — можно на немецком и с переводом.",
+   "task_en": "Write to a friend on WhatsApp: “Hast du am Wochenende Zeit?” — German, with a translation if you like.",
+   "why_ru": "Договориться о встрече — самый живой повод писать по-немецки.",
+   "why_en": "Making plans is the liveliest reason to write in German.",
+   "ch": 5,
+   "lesson_title": "Выходные и встреча",
+   "coins": 5
+  },
+  {
+   "id": "ch05_L6",
+   "kind": "say",
+   "place": "home",
+   "de": [
+    "Was machst du morgen?",
+    "Ich frühstücke morgen um … Uhr."
+   ],
+   "task_ru": "Вечером скажи вслух план на завтра: во сколько завтрак и что ты делаешь.",
+   "task_en": "In the evening say tomorrow’s plan aloud: breakfast time and what you will do.",
+   "why_ru": "План вслух — и немецкий, и порядок в голове.",
+   "why_en": "A plan said aloud trains German and clears your head.",
+   "ex": [
+    "Ich frühstücke morgen um acht Uhr."
+   ],
+   "ch": 5,
+   "lesson_title": "Mein Deutsch nach Kapitel 5",
+   "coins": 5
+  },
+  {
+   "id": "ch05_L7",
+   "kind": "write",
+   "place": "home",
+   "de": [
+    "Am Samstag kaufe ich ein.",
+    "Am Sonntag räume ich auf."
+   ],
+   "task_ru": "Напиши дела на выходные по-немецки (покупки, уборка, телевизор) — в заметки или на листок на холодильник.",
+   "task_en": "Write your weekend chores in German (shopping, tidying, TV) — in notes or on a sheet on the fridge.",
+   "why_ru": "Глаголы с приставкой лучше всего учатся на своих делах.",
+   "why_en": "Separable verbs are best learned on your own chores.",
+   "ch": 5,
+   "lesson_title": "Дела на неделе",
+   "coins": 5
+  },
+  {
+   "id": "ch05_L8",
+   "kind": "write",
+   "place": "whatsapp",
+   "de": [
+    "Am Sonntag lade ich Freunde ein.",
+    "Nachmittags habe ich Zeit."
+   ],
+   "task_ru": "Напиши себе или подруге план на воскресенье: до обеда, после обеда, кого приглашаешь.",
+   "task_en": "Write yourself or a friend a Sunday plan: morning, afternoon, whom you invite.",
+   "why_ru": "vormittags / nachmittags — так немцы договариваются о встрече.",
+   "why_en": "vormittags / nachmittags is how Germans arrange to meet.",
+   "ch": 5,
+   "lesson_title": "Планы на воскресенье",
+   "coins": 5
+  },
+  {
+   "id": "ch06_L1",
+   "kind": "say",
+   "place": "home",
+   "de": [
+    "Heute esse ich Brot und Käse."
+   ],
+   "task_ru": "За едой скажи вслух, что ты сегодня ешь и пьёшь.",
+   "task_en": "At a meal say aloud what you eat and drink today.",
+   "why_ru": "Еда — три раза в день, значит, три повторения в день.",
+   "why_en": "Food is three times a day — three repetitions a day.",
+   "ch": 6,
+   "lesson_title": "Что ты ешь сегодня?",
+   "coins": 5
+  },
+  {
+   "id": "ch06_L2",
+   "kind": "write",
+   "place": "home",
+   "de": [
+    "ein Kilo Kartoffeln",
+    "eine Flasche Öl"
+   ],
+   "task_ru": "Напиши список покупок с мерами (ein Kilo, eine Flasche) и купи по нему в Netto.",
+   "task_en": "Write a shopping list with measures (ein Kilo, eine Flasche) and shop with it at Netto.",
+   "why_ru": "Меры на упаковках те же — увидишь их на полке.",
+   "why_en": "The same measures are on the packages — you will see them on the shelf.",
+   "ch": 6,
+   "lesson_title": "На рынке: килограмм и бутылка",
+   "coins": 5
+  },
+  {
+   "id": "ch06_L3",
+   "kind": "say",
+   "place": "netto",
+   "de": [
+    "Mit Karte, bitte."
+   ],
+   "task_ru": "На кассе Netto на вопрос «Mit Karte oder bar?» ответь «Mit Karte, bitte.» Посмотри на бутылке знак Pfand.",
+   "task_en": "At the Netto checkout answer “Mit Karte oder bar?” with “Mit Karte, bitte.” Look for the Pfand sign on a bottle.",
+   "why_ru": "Этот вопрос задают почти на каждой кассе — теперь ты готова.",
+   "why_en": "This is asked at almost every checkout — now you are ready.",
+   "ch": 6,
+   "lesson_title": "Касса Netto: сколько стоит?",
+   "coins": 5
+  },
+  {
+   "id": "ch06_L4",
+   "kind": "say",
+   "place": "home",
+   "de": [
+    "Die Suppe schmeckt sehr gut!"
+   ],
+   "task_ru": "За ужином сделай комплимент еде по-немецки: «… schmeckt sehr gut!»",
+   "task_en": "At dinner compliment the food in German: “… schmeckt sehr gut!”",
+   "why_ru": "Комплимент повару — лучший способ начать разговор в гостях.",
+   "why_en": "Complimenting the cook is the best way to start a conversation as a guest.",
+   "ex": [
+    "Die Suppe schmeckt sehr gut!"
+   ],
+   "ch": 6,
+   "lesson_title": "Ужин в гостях: den Salat",
+   "coins": 5
+  },
+  {
+   "id": "ch06_L5",
+   "kind": "write",
+   "place": "whatsapp",
+   "de": [
+    "Ich mag Brötchen mit Käse.",
+    "Ich trinke gern Kaffee."
+   ],
+   "task_ru": "Напиши в WhatsApp, что ты любишь на завтрак (Ich mag …, Ich trinke gern …).",
+   "task_en": "Write on WhatsApp what you like for breakfast (Ich mag …, Ich trinke gern …).",
+   "why_ru": "О вкусах говорят все — это лёгкая тема для первого разговора.",
+   "why_en": "Everyone talks about tastes — an easy topic for a first chat.",
+   "ch": 6,
+   "lesson_title": "Что ты любишь? Завтрак, пекарня",
+   "coins": 5
+  },
+  {
+   "id": "ch06_L6",
+   "kind": "read",
+   "place": "netto",
+   "de": [
+    "Der Fisch kostet … Euro."
+   ],
+   "task_ru": "В Netto найди цену рыбы или салата и запиши: «Der Fisch kostet … Euro.»",
+   "task_en": "In Netto find the price of fish or salad and write: “Der Fisch kostet … Euro.”",
+   "why_ru": "Цены с евро и центами — проверка главы прямо в магазине.",
+   "why_en": "Prices in euros and cents — the chapter check right in the shop.",
+   "ex": [
+    "Der Fisch kostet vier Euro."
+   ],
+   "ch": 6,
+   "lesson_title": "Проверка главы 6: субботний рынок",
+   "coins": 5
+  },
+  {
+   "id": "ch07_L1",
+   "kind": "say",
+   "place": "home",
+   "de": [
+    "Das ist meine Mutter.",
+    "Das ist mein Bruder."
+   ],
+   "task_ru": "Открой семейное фото в телефоне и назови вслух 3 человек: «Das ist meine Mutter…»",
+   "task_en": "Open a family photo on your phone and name 3 people aloud: “Das ist meine Mutter…”",
+   "why_ru": "Своя семья — лучшие карточки для слов mein / meine.",
+   "why_en": "Your own family makes the best flashcards for mein / meine.",
+   "ch": 7,
+   "lesson_title": "Семейное фото: mein Bruder, meine Schwester",
+   "coins": 5
+  },
+  {
+   "id": "ch07_L2",
+   "kind": "form",
+   "place": "home",
+   "de": [
+    "Meine Lieblingsfarbe ist …",
+    "Ich bin … Jahre alt."
+   ],
+   "task_ru": "Заполни анкету-образец о себе: любимый цвет и возраст (можно придумать).",
+   "task_en": "Fill in a sample form about yourself: favourite colour and age (you can invent).",
+   "why_ru": "Возраст и семейное положение спрашивают в каждой анкете.",
+   "why_en": "Age and marital status are on every form.",
+   "ex": [
+    "Meine Lieblingsfarbe ist blau.",
+    "Ich bin zweiundvierzig Jahre alt."
+   ],
+   "fields": [
+    [
+     "Lieblingsfarbe",
+     "любимый цвет",
+     "favourite colour"
+    ],
+    [
+     "Alter",
+     "возраст",
+     "age"
+    ]
+   ],
+   "ch": 7,
+   "lesson_title": "Анкета соседа: sein, ihr и цвета",
+   "coins": 5
+  },
+  {
+   "id": "ch07_L3",
+   "kind": "write",
+   "place": "home",
+   "de": [
+    "Ich muss Wasser kaufen.",
+    "Ich kann das."
+   ],
+   "task_ru": "Напиши 2 дела на сегодня: что тебе нужно сделать (Ich muss …) и что ты можешь (Ich kann …).",
+   "task_en": "Write 2 things for today: what you must do (Ich muss …) and what you can do (Ich kann …).",
+   "why_ru": "Действие уходит в конец — на своих делах это видно лучше всего.",
+   "why_en": "The action goes to the end — easiest to see on your own tasks.",
+   "ch": 7,
+   "lesson_title": "Elternabend: ich muss, ich kann",
+   "coins": 5
+  },
+  {
+   "id": "ch07_L4",
+   "kind": "say",
+   "place": "home",
+   "de": [
+    "Ich spreche Russisch und Deutsch.",
+    "Ich weiß das nicht."
+   ],
+   "task_ru": "Скажи в микрофон, на каких языках говоришь, и честно — чего пока не знаешь: «Ich weiß das nicht.»",
+   "task_en": "Say into the mic which languages you speak — and honestly what you don’t know yet: “Ich weiß das nicht.”",
+   "why_ru": "«Не знаю» — нормальный ответ, и его надо уметь сказать.",
+   "why_en": "“I don’t know” is a normal answer — you need to be able to say it.",
+   "ch": 7,
+   "lesson_title": "На собрании: страна, язык, национальность",
+   "coins": 5
+  },
+  {
+   "id": "ch07_L5",
+   "kind": "say",
+   "place": "netto",
+   "de": [
+    "Ich trinke gern Tee.",
+    "Ich trinke lieber Wasser."
+   ],
+   "task_ru": "У полки с напитками в Netto (или дома) скажи вслух: что ты пьёшь охотно, что охотнее, что больше всего.",
+   "task_en": "At the Netto drinks shelf (or at home) say aloud what you like to drink, prefer, like most.",
+   "why_ru": "gern — lieber — am liebsten легче всего сравнивать прямо у полки.",
+   "why_en": "gern — lieber — am liebsten are easiest to compare right at the shelf.",
+   "ch": 7,
+   "lesson_title": "После собрания: как всё было и что я люблю",
+   "coins": 5
+  },
+  {
+   "id": "ch07_L6",
+   "kind": "write",
+   "place": "whatsapp",
+   "de": [
+    "Kann ich helfen?"
+   ],
+   "task_ru": "Напиши подруге или соседке по-немецки: «Kann ich helfen?» — можно себе как тренировку.",
+   "task_en": "Write to a friend or neighbour in German: “Kann ich helfen?” — or to yourself as practice.",
+   "why_ru": "Предложить помощь — быстрый путь к знакомству с соседями.",
+   "why_en": "Offering help is a quick way to get to know your neighbours.",
+   "ch": 7,
+   "lesson_title": "Проверка главы 7: вечер в школе",
+   "coins": 5
+  },
+  {
+   "id": "ch08_L1",
+   "kind": "say",
+   "place": "home",
+   "de": [
+    "Hier ist die Küche.",
+    "Es gibt ein Bad und einen Balkon."
+   ],
+   "task_ru": "Устрой экскурсию по квартире: в каждой комнате скажи вслух, что это и что есть.",
+   "task_en": "Give a tour of your flat: in each room say aloud what it is and what there is.",
+   "why_ru": "Комнаты вокруг тебя — слова, которые видишь каждый день.",
+   "why_en": "The rooms around you are words you see every day.",
+   "ch": 8,
+   "lesson_title": "Комнаты: что есть в квартире?",
+   "coins": 5
+  },
+  {
+   "id": "ch08_L2",
+   "kind": "say",
+   "place": "home",
+   "de": [
+    "Unser Sofa ist neu.",
+    "Unsere Küche ist klein."
+   ],
+   "task_ru": "Опиши вслух 2 вещи дома: «Unser … ist neu / alt / groß / klein.»",
+   "task_en": "Describe 2 things at home aloud: “Unser … ist neu / alt / groß / klein.”",
+   "why_ru": "unser / unsere — на своей мебели род запоминается быстрее.",
+   "why_en": "unser / unsere — on your own furniture the gender sticks faster.",
+   "ch": 8,
+   "lesson_title": "Мебель и описания: наш — ваш — их",
+   "coins": 5
+  },
+  {
+   "id": "ch08_L3",
+   "kind": "write",
+   "place": "home",
+   "de": [
+    "Ich will eine Wohnung mit Garten."
+   ],
+   "task_ru": "Напиши в заметках, какую квартиру или дом ты хочешь: «Ich will …»",
+   "task_en": "Write in your notes what kind of flat or house you want: “Ich will …”",
+   "why_ru": "Мечта своими словами — самая мотивирующая фраза.",
+   "why_en": "A dream in your own words is the most motivating sentence.",
+   "ch": 8,
+   "lesson_title": "Мы хотим жить вместе: wollen и рамка",
+   "coins": 5
+  },
+  {
+   "id": "ch08_L4",
+   "kind": "read",
+   "place": "netto",
+   "de": [
+    "Die Miete ist … Euro.",
+    "Nebenkosten sind noch … Euro."
+   ],
+   "task_ru": "Найди объявление о квартире (доска у Netto, газета, сайт). Запиши аренду и Nebenkosten.",
+   "task_en": "Find a flat ad (board at Netto, newspaper, website). Write down the rent and the Nebenkosten.",
+   "why_ru": "Miete и Nebenkosten — первое, что спросит Jobcenter о квартире.",
+   "why_en": "Miete and Nebenkosten are the first things the Jobcenter asks about a flat.",
+   "ex": [
+    "Die Miete ist vierhundert Euro.",
+    "Nebenkosten sind noch fünfzig Euro."
+   ],
+   "ch": 8,
+   "lesson_title": "Объявление: аренда и Nebenkosten",
+   "coins": 5
+  },
+  {
+   "id": "ch08_L5",
+   "kind": "read",
+   "place": "street",
+   "de": [
+    "Im Hof dürfen die Kinder spielen.",
+    "Am Abend darf man nicht laut sein."
+   ],
+   "task_ru": "Прочитай табличку или правила дома (Hausordnung) в подъезде или во дворе. Запиши одно правило.",
+   "task_en": "Read a sign or the house rules (Hausordnung) in your building or yard. Write down one rule.",
+   "why_ru": "Правила дома в Германии важны — лучше понимать их самой.",
+   "why_en": "House rules matter in Germany — better to understand them yourself.",
+   "ch": 8,
+   "lesson_title": "Правила дома: dürfen и man",
+   "coins": 5
+  },
+  {
+   "id": "ch08_L6",
+   "kind": "write",
+   "place": "whatsapp",
+   "de": [
+    "Es gibt einen Supermarkt und eine Schule."
+   ],
+   "task_ru": "Напиши подруге, что есть рядом с твоим домом: «Es gibt …»",
+   "task_en": "Write to a friend what there is near your home: “Es gibt …”",
+   "why_ru": "Рассказать о своём месте — частая тема на курсе и в жизни.",
+   "why_en": "Talking about where you live is a common topic on the course and in life.",
+   "ch": 8,
+   "lesson_title": "Новая квартира и квартира мечты",
+   "coins": 5
+  },
+  {
+   "id": "ch08_L7",
+   "kind": "say",
+   "place": "home",
+   "de": [
+    "Die Wohnung ist hell und ruhig.",
+    "Das Zimmer ist dunkel."
+   ],
+   "task_ru": "Опиши вслух свою комнату словами-противоположностями: hell/dunkel, ruhig/laut, modern/unmodern.",
+   "task_en": "Describe your room aloud with opposites: hell/dunkel, ruhig/laut, modern/unmodern.",
+   "why_ru": "Пары противоположностей учатся парой — в два раза быстрее.",
+   "why_en": "Opposites learned as a pair go twice as fast.",
+   "ch": 8,
+   "lesson_title": "Повтор главы: объявление, Gegensätze и правила дома",
+   "coins": 5
+  },
+  {
+   "id": "ch09_L1",
+   "kind": "write",
+   "place": "whatsapp",
+   "de": [
+    "Ich spiele oft am Computer.",
+    "Ich schwimme gern."
+   ],
+   "task_ru": "Напиши себе, что ты делаешь в свободное время и как часто (immer, oft, manchmal, nie).",
+   "task_en": "Write to yourself what you do in your free time and how often (immer, oft, manchmal, nie).",
+   "why_ru": "Хобби — первый вопрос при знакомстве.",
+   "why_en": "Hobbies are the first question when you meet someone.",
+   "ch": 9,
+   "lesson_title": "Was machst du in der Freizeit? Свободное время",
+   "coins": 5
+  },
+  {
+   "id": "ch09_L2",
+   "kind": "say",
+   "place": "home",
+   "de": [
+    "Ich nehme meinen Schlüssel mit.",
+    "Ich nehme ihn mit."
+   ],
+   "task_ru": "Выходя из дома, назови вслух 2 вещи, которые берёшь с собой: «Ich nehme … mit.»",
+   "task_en": "When leaving home, name 2 things you take with you: “Ich nehme … mit.”",
+   "why_ru": "Каждый выход из дома — тренировка mitnehmen.",
+   "why_en": "Every time you leave home is mitnehmen practice.",
+   "ch": 9,
+   "lesson_title": "Kommst du mit? Что взять с собой",
+   "coins": 5
+  },
+  {
+   "id": "ch09_L3",
+   "kind": "read",
+   "place": "street",
+   "de": [
+    "Was kostet der Eintritt?",
+    "Die Karten kosten … Euro."
+   ],
+   "task_ru": "На афише, сайте бассейна или кино найди слово Eintritt и цену. Запиши её.",
+   "task_en": "On a poster or a pool/cinema website find the word Eintritt and the price. Write it down.",
+   "why_ru": "Eintritt есть на каждой афише — теперь ты понимаешь, что это цена входа.",
+   "why_en": "Eintritt is on every poster — now you know it means the entry price.",
+   "ex": [
+    "Die Karten kosten acht Euro."
+   ],
+   "ch": 9,
+   "lesson_title": "Was machen wir am Samstag? Куда пойти",
+   "coins": 5
+  },
+  {
+   "id": "ch09_L4",
+   "kind": "write",
+   "place": "whatsapp",
+   "de": [
+    "Heute habe ich Deutsch gelernt."
+   ],
+   "task_ru": "Вечером напиши себе дневник одной-двумя фразами: что ты сегодня сделала (habe … gelernt / gespielt / gearbeitet).",
+   "task_en": "In the evening write a one-or-two-line diary: what you did today (habe … gelernt / gespielt / gearbeitet).",
+   "why_ru": "Дневник в прошедшем — лучший тренажёр Perfekt.",
+   "why_en": "A diary in the past tense is the best Perfekt trainer.",
+   "ch": 9,
+   "lesson_title": "Was hast du gestern gemacht? Вчера и сегодня",
+   "coins": 5
+  },
+  {
+   "id": "ch09_L5",
+   "kind": "write",
+   "place": "home",
+   "de": [
+    "Ich habe eine E-Mail geschrieben.",
+    "Ich habe alles gegessen."
+   ],
+   "task_ru": "Запиши 3 дела, которые ты сегодня уже сделала: написала, постирала, поела.",
+   "task_en": "Write 3 things you have already done today: wrote, washed, ate.",
+   "why_ru": "Неправильные формы запоминаются на своих делах.",
+   "why_en": "Irregular forms stick when they are your own deeds.",
+   "ch": 9,
+   "lesson_title": "Ich habe alles gegessen. Что случилось за день",
+   "coins": 5
+  },
+  {
+   "id": "ch09_L6",
+   "kind": "read",
+   "place": "street",
+   "de": [
+    "Der Bäcker arbeitet am Samstag."
+   ],
+   "task_ru": "Посмотри часы работы пекарни (Bäcker) или Netto в субботу и запиши фразу про работу в субботу.",
+   "task_en": "Check the opening hours of a bakery (Bäcker) or Netto on Saturday and write a sentence about Saturday work.",
+   "why_ru": "Кто когда работает — важно, когда живёшь в деревне.",
+   "why_en": "Who works when matters when you live in a village.",
+   "ch": 9,
+   "lesson_title": "Wer arbeitet wann? Работа и курсы",
+   "coins": 5
+  },
+  {
+   "id": "ch09_L7",
+   "kind": "write",
+   "place": "whatsapp",
+   "de": [
+    "Kommst du am Sonntag mit?"
+   ],
+   "task_ru": "Позови подругу (или себя) в WhatsApp на прогулку: «Kommst du am Sonntag mit?»",
+   "task_en": "Invite a friend (or yourself) on WhatsApp for a walk: “Kommst du am Sonntag mit?”",
+   "why_ru": "Приглашение — живой повод получить ответ по-немецки.",
+   "why_en": "An invitation is a real reason to get an answer in German.",
+   "ch": 9,
+   "lesson_title": "Mein Deutsch nach Kapitel 9. Повторение главы",
+   "coins": 5
+  },
+  {
+   "id": "ch10_L1",
+   "kind": "write",
+   "place": "whatsapp",
+   "de": [
+    "Ich bin aus der Ukraine gekommen.",
+    "Ich habe in Kiew gewohnt."
+   ],
+   "task_ru": "Напиши себе 2 фразы о том, откуда ты приехала и где жила раньше.",
+   "task_en": "Write 2 sentences about where you came from and where you lived before.",
+   "why_ru": "Эту историю расскажешь ещё много раз — пусть будет готова.",
+   "why_en": "You will tell this story many times — have it ready.",
+   "ch": 10,
+   "lesson_title": "Ich bin gekommen: откуда приехал, где жил",
+   "coins": 5
+  },
+  {
+   "id": "ch10_L2",
+   "kind": "say",
+   "place": "home",
+   "de": [
+    "Ich habe Kaffee getrunken.",
+    "Ich habe gearbeitet."
+   ],
+   "task_ru": "Скажи вслух 2 вещи, которые ты уже сделала сегодня.",
+   "task_en": "Say aloud 2 things you have already done today.",
+   "why_ru": "Perfekt — время разговоров: так немцы рассказывают о дне.",
+   "why_en": "Perfekt is the talking tense: that is how Germans tell about their day.",
+   "ch": 10,
+   "lesson_title": "Was hast du gemacht? Что ты уже делал",
+   "coins": 5
+  },
+  {
+   "id": "ch10_L3",
+   "kind": "form",
+   "place": "home",
+   "de": [
+    "Ich habe das Formular ausgefüllt."
+   ],
+   "task_ru": "Заполни формуляр-образец: фамилия, имя, улица, индекс, город. Можно выдуманные данные — всё остаётся в телефоне.",
+   "task_en": "Fill in the sample form: surname, first name, street, postcode, town. Invented data is fine — it stays on your phone.",
+   "why_ru": "Formular ausfüllen — главное дело в немецких ведомствах.",
+   "why_en": "Filling in forms is the main thing at German offices.",
+   "fields": [
+    [
+     "Familienname",
+     "фамилия",
+     "surname"
+    ],
+    [
+     "Vorname",
+     "имя",
+     "first name"
+    ],
+    [
+     "Straße",
+     "улица",
+     "street"
+    ],
+    [
+     "Postleitzahl",
+     "индекс",
+     "postcode"
+    ],
+    [
+     "Ort",
+     "город / деревня",
+     "town"
+    ]
+   ],
+   "ch": 10,
+   "lesson_title": "Formular ausgefüllt? Слово «уже сделано» с приставкой",
+   "coins": 5
+  },
+  {
+   "id": "ch10_L4",
+   "kind": "read",
+   "place": "street",
+   "de": [
+    "Hier wäscht man die Hände.",
+    "Waschen Sie bitte die Hände."
+   ],
+   "task_ru": "Найди табличку-инструкцию (туалет, кафе, вход в магазин) и выпиши её.",
+   "task_en": "Find an instruction sign (toilet, café, shop door) and copy it.",
+   "why_ru": "Таблички с man и «Sie bitte» — везде. Узнаешь форму — поймёшь просьбу.",
+   "why_en": "Signs with man and “Sie bitte” are everywhere. Spot the form — understand the request.",
+   "ch": 10,
+   "lesson_title": "Bitte die Hände waschen. Просьба на «вы» и табличка для всех",
+   "coins": 5
+  },
+  {
+   "id": "ch10_L5",
+   "kind": "write",
+   "place": "home",
+   "de": [
+    "Ich bin … geboren.",
+    "Ich bin … nach Deutschland gekommen."
+   ],
+   "task_ru": "Напиши 2–3 строки биографии: год рождения (можно не настоящий), год приезда, где училась.",
+   "task_en": "Write 2–3 lines of biography: birth year (needn’t be real), year you arrived, where you studied.",
+   "why_ru": "Lebenslauf устно и письменно — нужно для курса и работы.",
+   "why_en": "A spoken and written CV is needed for the course and for work.",
+   "ex": [
+    "Ich bin 1985 geboren.",
+    "Ich bin 2022 nach Deutschland gekommen."
+   ],
+   "ch": 10,
+   "lesson_title": "Ich bin 1985 geboren. Биография: годы и формы без ge-",
+   "coins": 5
+  },
+  {
+   "id": "ch10_L6",
+   "kind": "write",
+   "place": "course",
+   "de": [
+    "Ich habe alles verstanden.",
+    "Ich habe … nicht verstanden."
+   ],
+   "task_ru": "После занятия курса напиши себе: что поняла, а что нет (nicht перед последним словом).",
+   "task_en": "After a course lesson write to yourself: what you understood and what you didn’t (nicht before the last word).",
+   "why_ru": "Честная заметка «что не поняла» — готовый вопрос преподавателю.",
+   "why_en": "An honest “what I didn’t get” note is a ready question for the teacher.",
+   "ex": [
+    "Ich habe alles verstanden.",
+    "Ich habe den Koch nicht verstanden."
+   ],
+   "ch": 10,
+   "lesson_title": "Mein Deutsch nach Kapitel 10. Повтор: что ты уже сделал",
+   "coins": 5
+  },
+  {
+   "id": "ch11_L1",
+   "kind": "write",
+   "place": "whatsapp",
+   "de": [
+    "Alles Gute zum Geburtstag!",
+    "Viel Glück!"
+   ],
+   "task_ru": "Отправь кому-нибудь поздравление по-немецки (или сохрани в заметки на ближайший день рождения).",
+   "task_en": "Send someone a German birthday wish (or save it in notes for the next birthday).",
+   "why_ru": "Немецкое поздравление порадует любого — и это настоящая переписка.",
+   "why_en": "A German birthday wish pleases anyone — and it is a real message.",
+   "ch": 11,
+   "lesson_title": "Alles Gute! Поздравить и подарить",
+   "coins": 5
+  },
+  {
+   "id": "ch11_L2",
+   "kind": "write",
+   "place": "home",
+   "de": [
+    "Ich gratuliere meiner Mutter."
+   ],
+   "task_ru": "Запиши, кого ты поздравляешь в этом году: маму, коллегу, начальника (meiner / meinem).",
+   "task_en": "Write whom you congratulate this year: mother, colleague, boss (meiner / meinem).",
+   "why_ru": "Кому? — meiner / meinem. На своих людях запоминается легче.",
+   "why_en": "To whom? — meiner / meinem. Easier with your own people.",
+   "ch": 11,
+   "lesson_title": "Wem gratulierst du? Поздравить начальника, коллегу, маму",
+   "coins": 5
+  },
+  {
+   "id": "ch11_L3",
+   "kind": "say",
+   "place": "street",
+   "de": [
+    "Im Winter ist es kalt.",
+    "Im Sommer ist es warm."
+   ],
+   "task_ru": "Выйди на улицу и скажи вслух, какая погода и какое время года: «Im … ist es …»",
+   "task_en": "Step outside and say aloud the weather and the season: “Im … ist es …”",
+   "why_ru": "Погода — тема №1 у немцев в магазине и на остановке.",
+   "why_en": "Weather is German topic No. 1 in shops and at bus stops.",
+   "ch": 11,
+   "lesson_title": "Im Sommer, im Mai: когда день рождения",
+   "coins": 5
+  },
+  {
+   "id": "ch11_L4",
+   "kind": "read",
+   "place": "netto",
+   "de": [
+    "Heute ist der dritte Mai."
+   ],
+   "task_ru": "Найди дату на чеке Netto или в телефоне и скажи или запиши её по-немецки: «Heute ist der …»",
+   "task_en": "Find the date on a Netto receipt or your phone and say or write it in German: “Heute ist der …”",
+   "why_ru": "Даты нужны для каждого Termin.",
+   "why_en": "Dates are needed for every appointment.",
+   "ex": [
+    "Heute ist der dritte Mai."
+   ],
+   "ch": 11,
+   "lesson_title": "Am dritten Mai: дата дня рождения",
+   "coins": 5
+  },
+  {
+   "id": "ch11_L5",
+   "kind": "write",
+   "place": "home",
+   "de": [
+    "Ich schenke ihr einen Kuchen.",
+    "Ich schenke ihm ein Buch."
+   ],
+   "task_ru": "Запиши 2 идеи подарков близким: кому (ihr / ihm) и что.",
+   "task_en": "Write 2 gift ideas for people close to you: to whom (ihr / ihm) and what.",
+   "why_ru": "ihr / ihm — на настоящих подарках не перепутаешь.",
+   "why_en": "ihr / ihm — with real gifts you won’t mix them up.",
+   "ch": 11,
+   "lesson_title": "Was schenkst du ihr? Подарки",
+   "coins": 5
+  },
+  {
+   "id": "ch11_L6",
+   "kind": "write",
+   "place": "whatsapp",
+   "de": [
+    "Ich mache eine Party.",
+    "Kommst du zur Party?",
+    "Die Party ist ab acht Uhr."
+   ],
+   "task_ru": "Напиши приглашение на вечеринку по-немецки (можно себе, как черновик).",
+   "task_en": "Write a German party invitation (to yourself as a draft is fine).",
+   "why_ru": "Приглашение — 3 фразы, которые пригодятся много раз.",
+   "why_en": "An invitation is 3 sentences you will use many times.",
+   "ch": 11,
+   "lesson_title": "Kommst du zur Party? Приглашение",
+   "coins": 5
+  },
+  {
+   "id": "ch11_L7",
+   "kind": "write",
+   "place": "whatsapp",
+   "de": [
+    "Wann feierst du Geburtstag?",
+    "Im Dezember ist es kalt."
+   ],
+   "task_ru": "Спроси подругу в WhatsApp, когда она празднует день рождения, и напиши, какая погода в этом месяце.",
+   "task_en": "Ask a friend on WhatsApp when she celebrates her birthday and write what the weather is like in that month.",
+   "why_ru": "Вопрос с wann — живой повод для ответа.",
+   "why_en": "A wann question is a real reason for an answer.",
+   "ch": 11,
+   "lesson_title": "Im Dezember ist es kalt. Праздники и сезоны в мире",
+   "coins": 5
+  },
+  {
+   "id": "ch11_L8",
+   "kind": "say",
+   "place": "phone",
+   "de": [
+    "Ich komme aus Kiew.",
+    "Ich lerne Deutsch."
+   ],
+   "task_ru": "Запиши себе голосовое сообщение: представься, как на вечеринке — откуда ты и чем занимаешься. Послушай себя.",
+   "task_en": "Record yourself a voice message: introduce yourself as at a party — where you are from and what you do. Listen back.",
+   "why_ru": "Услышать себя со стороны — лучший тренер произношения.",
+   "why_en": "Hearing yourself is the best pronunciation coach.",
+   "ch": 11,
+   "lesson_title": "Woher kommst du? Знакомство на вечеринке",
+   "coins": 5
+  },
+  {
+   "id": "ch11_L9",
+   "kind": "write",
+   "place": "home",
+   "de": [
+    "Meine Schwester hat am dritten Mai Geburtstag."
+   ],
+   "task_ru": "Запиши по-немецки дни рождения 2 близких (кто и когда).",
+   "task_en": "Write the birthdays of 2 people close to you in German (who and when).",
+   "why_ru": "Даты близких — числа, которые хочется запомнить.",
+   "why_en": "Your people’s dates are numbers you want to remember.",
+   "ch": 11,
+   "lesson_title": "Mein Deutsch nach Kapitel 11. Повторение главы",
+   "coins": 5
+  },
+  {
+   "id": "ch12_L1",
+   "kind": "say",
+   "place": "street",
+   "de": [
+    "Ich gehe zu Fuß.",
+    "Ich fahre mit dem Bus."
+   ],
+   "task_ru": "По дороге в Netto или на курс скажи вслух, как ты едешь или идёшь.",
+   "task_en": "On your way to Netto or the course say aloud how you travel.",
+   "why_ru": "mit dem / mit der — в дороге легче всего запомнить.",
+   "why_en": "mit dem / mit der — easiest to remember on the way.",
+   "ch": 12,
+   "lesson_title": "Ich fahre mit dem Bus. На чём ты едешь",
+   "coins": 5
+  },
+  {
+   "id": "ch12_L2",
+   "kind": "say",
+   "place": "phone",
+   "de": [
+    "Wie komme ich zum Bahnhof?"
+   ],
+   "task_ru": "Спроси дорогу: у прохожего или у голосового помощника в телефоне на немецком — «Wie komme ich zum Bahnhof?»",
+   "task_en": "Ask the way: a passer-by or the voice assistant on your phone in German — “Wie komme ich zum Bahnhof?”",
+   "why_ru": "Голосовой помощник — терпеливый собеседник, который всегда рядом.",
+   "why_en": "A voice assistant is a patient partner who is always there.",
+   "ch": 12,
+   "lesson_title": "Vom Kurs zum Bahnhof. Откуда и куда",
+   "coins": 5
+  },
+  {
+   "id": "ch12_L3",
+   "kind": "read",
+   "place": "phone",
+   "de": [
+    "Der Zug fährt von Gleis … ab."
+   ],
+   "task_ru": "В приложении DB или на табло вокзала найди поезд и путь. Запиши: «Der Zug fährt von Gleis … ab.»",
+   "task_en": "In the DB app or on a station board find a train and its platform. Write: “Der Zug fährt von Gleis … ab.”",
+   "why_ru": "Gleis и abfahren — главные слова на любом вокзале.",
+   "why_en": "Gleis and abfahren are the key words at any station.",
+   "ex": [
+    "Der Zug fährt von Gleis drei ab."
+   ],
+   "ch": 12,
+   "lesson_title": "Am Bahnhof. Билет и путь",
+   "coins": 5
+  },
+  {
+   "id": "ch12_L4",
+   "kind": "say",
+   "place": "street",
+   "de": [
+    "Geh geradeaus!",
+    "Dann links!"
+   ],
+   "task_ru": "По дороге домой из Netto проговори маршрут вслух: geradeaus, links, rechts.",
+   "task_en": "On the way home from Netto say the route aloud: geradeaus, links, rechts.",
+   "why_ru": "Маршрут ногами + слова голосом = быстро запоминается.",
+   "why_en": "Route with your feet plus words with your voice = quick to remember.",
+   "ch": 12,
+   "lesson_title": "Geh geradeaus! Как показать дорогу",
+   "coins": 5
+  },
+  {
+   "id": "ch12_L5",
+   "kind": "write",
+   "place": "home",
+   "de": [
+    "Die Apotheke ist in der Stadt.",
+    "Netto ist im Zentrum."
+   ],
+   "task_ru": "Напиши, где в твоей деревне (или в ближайшем городе) аптека, остановка, Netto.",
+   "task_en": "Write where the pharmacy, bus stop and Netto are in your village (or the nearest town).",
+   "why_ru": "Своя карта на немецком — пригодится, когда спросят дорогу тебя.",
+   "why_en": "Your own map in German helps when someone asks you the way.",
+   "ch": 12,
+   "lesson_title": "Wo ist die Apotheke? Где что находится",
+   "coins": 5
+  },
+  {
+   "id": "ch12_L6",
+   "kind": "write",
+   "place": "whatsapp",
+   "de": [
+    "Wie fährst du zum Bahnhof?",
+    "Ich fahre mit dem Bus."
+   ],
+   "task_ru": "Спроси подругу в WhatsApp, как она едет на вокзал или на курс, и напиши, как едешь ты.",
+   "task_en": "Ask a friend on WhatsApp how she gets to the station or the course, and write how you go.",
+   "why_ru": "Короткий диалог в переписке — проверка главы в жизни.",
+   "why_en": "A short chat is a real-life chapter check.",
+   "ch": 12,
+   "lesson_title": "Mein Deutsch nach Kapitel 12: проверка главы",
+   "coins": 5
+  },
+  {
+   "id": "ch13_L1",
+   "kind": "write",
+   "place": "whatsapp",
+   "de": [
+    "Gute Besserung!"
+   ],
+   "task_ru": "Если кто-то болеет — напиши «Gute Besserung!». Если нет — сохрани фразу в заметки как шаблон.",
+   "task_en": "If someone is ill, write “Gute Besserung!”. If not, save the phrase in notes as a template.",
+   "why_ru": "Пожелать выздоровления по-немецки — маленький жест, который запоминают.",
+   "why_en": "Wishing someone well in German is a small gesture people remember.",
+   "ch": 13,
+   "lesson_title": "Was ist los? Я заболел",
+   "coins": 5
+  },
+  {
+   "id": "ch13_L2",
+   "kind": "listen",
+   "place": "phone",
+   "de": [
+    "Praxis …, guten Tag!",
+    "Ich möchte einen Termin."
+   ],
+   "task_ru": "Позвони в любую праксис вне часов работы и послушай автоответчик. Запиши 1–3 слова, которые узнала (Praxis, Termin, Uhr…).",
+   "task_en": "Call any doctor’s practice outside opening hours and listen to the answering machine. Write 1–3 words you recognised (Praxis, Termin, Uhr…).",
+   "why_ru": "Автоответчик — живой немецкий без собеседника: можно слушать сколько угодно раз.",
+   "why_en": "An answering machine is real German without a partner — listen as often as you like.",
+   "ex": [
+    "Praxis Wagner, guten Tag!",
+    "Ich möchte einen Termin."
+   ],
+   "ch": 13,
+   "lesson_title": "Sie sollen heute kommen: запись к врачу",
+   "coins": 5
+  },
+  {
+   "id": "ch13_L3",
+   "kind": "say",
+   "place": "home",
+   "de": [
+    "Mein Kopf tut weh.",
+    "Mein Hals tut weh."
+   ],
+   "task_ru": "Скажи вслух, что у тебя болит или могло бы болеть: голова, живот, горло.",
+   "task_en": "Say aloud what hurts or could hurt: head, stomach, throat.",
+   "why_ru": "У врача волнуешься — заготовленная фраза спасает.",
+   "why_en": "At the doctor’s you get nervous — a ready phrase saves you.",
+   "ch": 13,
+   "lesson_title": "У врача: Mein Kopf tut weh",
+   "coins": 5
+  },
+  {
+   "id": "ch13_L4",
+   "kind": "read",
+   "place": "netto",
+   "de": [
+    "Tabletten oder Tropfen?",
+    "etwas gegen Husten"
+   ],
+   "task_ru": "На полке Netto с лекарствами-бонбонами или в витрине аптеки найди слова Husten, Tabletten, Tropfen. Запиши, что нашла.",
+   "task_en": "On the Netto shelf with cough sweets or in a pharmacy window find the words Husten, Tabletten, Tropfen. Write what you found.",
+   "why_ru": "Слова на упаковке — ты понимаешь, что покупаешь.",
+   "why_en": "Words on the package mean you understand what you buy.",
+   "ch": 13,
+   "lesson_title": "В аптеке: aber, oder, sondern",
+   "coins": 5
+  },
+  {
+   "id": "ch13_L5",
+   "kind": "write",
+   "place": "home",
+   "de": [
+    "Ich schwimme zweimal in der Woche."
+   ],
+   "task_ru": "Напиши, что ты делаешь для здоровья и как часто (einmal, zweimal in der Woche).",
+   "task_en": "Write what you do for your health and how often (einmal, zweimal in der Woche).",
+   "why_ru": "Как часто — важный вопрос у врача.",
+   "why_en": "How often is an important question at the doctor’s.",
+   "ch": 13,
+   "lesson_title": "Fit bleiben! Спорт с другом",
+   "coins": 5
+  },
+  {
+   "id": "ch13_L6",
+   "kind": "write",
+   "place": "whatsapp",
+   "de": [
+    "Ich habe Husten und Fieber.",
+    "Am Samstag komme ich mit."
+   ],
+   "task_ru": "Напиши подруге: «Я болею, но в субботу пойду с тобой» — по-немецки.",
+   "task_en": "Write to a friend: “I’m ill, but I’ll come along on Saturday” — in German.",
+   "why_ru": "aber соединяет плохую и хорошую новость — частая фраза в жизни.",
+   "why_en": "aber joins bad and good news — a common sentence in life.",
+   "ex": [
+    "Ich habe Husten und Fieber, aber am Samstag komme ich mit."
+   ],
+   "ch": 13,
+   "lesson_title": "Mein Deutsch nach Kapitel 13: проверка главы",
+   "coins": 5
+  },
+  {
+   "id": "ch14_L1",
+   "kind": "say",
+   "place": "home",
+   "de": [
+    "Was kann ich für Sie tun?"
+   ],
+   "task_ru": "Скажи в микрофон 3 раза разным тоном, как на ресепшене: «Was kann ich für Sie tun?»",
+   "task_en": "Say into the mic 3 times in different tones, like at a reception: “Was kann ich für Sie tun?”",
+   "why_ru": "Вежливая рабочая фраза — пригодится на любой работе с людьми.",
+   "why_en": "A polite work phrase — useful in any job with people.",
+   "ch": 14,
+   "lesson_title": "Was kann ich für Sie tun? Первый день в отеле",
+   "coins": 5
+  },
+  {
+   "id": "ch14_L2",
+   "kind": "write",
+   "place": "home",
+   "de": [
+    "Das Licht ist kaputt.",
+    "Die Dusche ist kaputt."
+   ],
+   "task_ru": "Напиши черновик сообщения Hausmeister: что сломалось (свет, душ…). Отправлять не нужно.",
+   "task_en": "Write a draft message to the Hausmeister: what is broken (light, shower…). No need to send it.",
+   "why_ru": "Когда правда сломается — сообщение уже готово.",
+   "why_en": "When something really breaks, the message is ready.",
+   "ch": 14,
+   "lesson_title": "Das Licht ist kaputt. Звонок на ресепшен",
+   "coins": 5
+  },
+  {
+   "id": "ch14_L3",
+   "kind": "say",
+   "place": "phone",
+   "de": [
+    "Einen Moment, bitte."
+   ],
+   "task_ru": "Когда тебе сегодня позвонят или позовут — скажи «Einen Moment, bitte.» (можно по-немецки и дома).",
+   "task_en": "When someone calls or calls you today, say “Einen Moment, bitte.” (even at home).",
+   "why_ru": "Фраза даёт время подумать — очень полезна на немецком.",
+   "why_en": "This phrase buys you time to think — very handy in German.",
+   "ch": 14,
+   "lesson_title": "Einen Moment, bitte. Заселение гостя",
+   "coins": 5
+  },
+  {
+   "id": "ch14_L4",
+   "kind": "read",
+   "place": "street",
+   "de": [
+    "Er ist Elektroniker.",
+    "Sie arbeitet in einem Hotel."
+   ],
+   "task_ru": "На машинах мастеров, вывесках или в объявлениях найди 2 профессии. Запиши: «Er/Sie ist …»",
+   "task_en": "On tradesmen’s vans, signs or ads find 2 jobs. Write: “Er/Sie ist …”",
+   "why_ru": "Профессии вокруг — подсказка, какие работы есть рядом.",
+   "why_en": "Jobs around you hint at what work there is nearby.",
+   "ch": 14,
+   "lesson_title": "Zwei Arbeitsplätze. Две карточки у стойки",
+   "coins": 5
+  },
+  {
+   "id": "ch14_L5",
+   "kind": "write",
+   "place": "home",
+   "de": [
+    "Ich wohne seit … hier.",
+    "Ich lerne seit … Deutsch."
+   ],
+   "task_ru": "Напиши, как давно ты живёшь здесь и учишь немецкий (seit einer Woche, seit einem Monat…).",
+   "task_en": "Write how long you have lived here and been learning German (seit einer Woche, seit einem Monat…).",
+   "why_ru": "seit — частый вопрос в Jobcenter и на собеседовании.",
+   "why_en": "seit is a frequent question at the Jobcenter and job interviews.",
+   "ex": [
+    "Ich wohne seit einem Monat hier.",
+    "Ich lerne seit einem Monat Deutsch."
+   ],
+   "ch": 14,
+   "lesson_title": "Vor einem Jahr … Как давно и сколько назад",
+   "coins": 5
+  },
+  {
+   "id": "ch14_L6",
+   "kind": "read",
+   "place": "netto",
+   "de": [
+    "Wir suchen …",
+    "Haben Sie Erfahrung?"
+   ],
+   "task_ru": "На двери Netto или в газете найди объявление «Wir suchen …». Запиши, кого ищут.",
+   "task_en": "On the Netto door or in a newspaper find a “Wir suchen …” ad. Write whom they are looking for.",
+   "why_ru": "Объявления о работе читаешь сама — первый шаг к своей работе.",
+   "why_en": "Reading job ads yourself is the first step to your own job.",
+   "ex": [
+    "Wir suchen einen Nachtportier.",
+    "Haben Sie Erfahrung?"
+   ],
+   "ch": 14,
+   "lesson_title": "Eine neue Stelle. Объявление о вакансии",
+   "coins": 5
+  },
+  {
+   "id": "ch14_L7",
+   "kind": "write",
+   "place": "home",
+   "de": [
+    "Ich lerne Deutsch, denn …"
+   ],
+   "task_ru": "Допиши фразу о себе: почему ты учишь немецкий — «Ich lerne Deutsch, denn …»",
+   "task_en": "Finish the sentence about yourself: why you learn German — “Ich lerne Deutsch, denn …”",
+   "why_ru": "Своя причина — лучшая мотивация. И denn тренируется сам.",
+   "why_en": "Your own reason is the best motivation — and denn gets practised.",
+   "ex": [
+    "Ich lerne Deutsch, denn ich wohne hier."
+   ],
+   "ch": 14,
+   "lesson_title": "Radio Leipzig. Почему я здесь работаю",
+   "coins": 5
+  },
+  {
+   "id": "ch14_L8",
+   "kind": "say",
+   "place": "netto",
+   "de": [
+    "Sprechen",
+    "Straße",
+    "Stelle"
+   ],
+   "task_ru": "Найди в Netto или на улице 3 слова на st или sp и прочитай вслух: «шт», «шп».",
+   "task_en": "Find 3 words starting with st or sp in Netto or on the street and read them aloud: “sht”, “shp”.",
+   "why_ru": "Звук «шт / шп» в начале слова — сразу слышно, учила ли ты немецкий.",
+   "why_en": "The “sht / shp” sound at the start of a word shows you studied German.",
+   "ch": 14,
+   "lesson_title": "Aussprache und Schreiben. Говорим и пишем",
+   "coins": 5
+  },
+  {
+   "id": "ch14_L9",
+   "kind": "write",
+   "place": "home",
+   "de": [
+    "Ich komme aus der Ukraine.",
+    "Ich lerne seit … Deutsch."
+   ],
+   "task_ru": "Напиши короткое представление о себе (3 фразы): откуда, как давно здесь, что делаешь.",
+   "task_en": "Write a short self-introduction (3 sentences): where from, how long here, what you do.",
+   "why_ru": "Готовое представление — для курса, работы и соседей.",
+   "why_en": "A ready introduction for the course, work and neighbours.",
+   "ex": [
+    "Ich komme aus der Ukraine.",
+    "Ich lerne seit einem Monat Deutsch."
+   ],
+   "ch": 14,
+   "lesson_title": "Mein Deutsch nach Kapitel 14. Итоговая проверка",
+   "coins": 5
+  },
+  {
+   "id": "ch15_L1",
+   "kind": "write",
+   "place": "home",
+   "de": [
+    "Ich habe Englisch in der Schule gelernt."
+   ],
+   "task_ru": "Напиши, что и где ты учила: в школе, на курсе, во сколько лет.",
+   "task_en": "Write what and where you studied: at school, on a course, at what age.",
+   "why_ru": "Lernbiografie — тема экзамена DTZ.",
+   "why_en": "Your learning biography is a DTZ exam topic.",
+   "ch": 15,
+   "lesson_title": "Das habe ich gelernt. Где и когда ты это учил",
+   "coins": 5
+  },
+  {
+   "id": "ch15_L2",
+   "kind": "say",
+   "place": "home",
+   "de": [
+    "Ich habe das von meiner Mutter gelernt."
+   ],
+   "task_ru": "Вспомни, чему тебя научили близкие, и скажи вслух: «Ich habe … von meiner Mutter / meinem Freund gelernt.»",
+   "task_en": "Recall what your family taught you and say aloud: “Ich habe … von meiner Mutter / meinem Freund gelernt.”",
+   "why_ru": "von meiner / von meinem — на своих историях не путается.",
+   "why_en": "von meiner / von meinem — no mix-ups with your own stories.",
+   "ch": 15,
+   "lesson_title": "Von wem? От кого ты это узнал",
+   "coins": 5
+  },
+  {
+   "id": "ch15_L3",
+   "kind": "say",
+   "place": "home",
+   "de": [
+    "Nein, ich spiele kein Klavier.",
+    "Doch, ich spiele …"
+   ],
+   "task_ru": "Ответь вслух на вопросы: «Spielst du Klavier?», «Spielst du nicht Gitarre?» — честно про себя.",
+   "task_en": "Answer aloud: “Spielst du Klavier?”, “Spielst du nicht Gitarre?” — honestly about yourself.",
+   "why_ru": "doch — маленькое слово, которое спасает от недопонимания.",
+   "why_en": "doch is a small word that saves you from misunderstandings.",
+   "ch": 15,
+   "lesson_title": "Das kann ich gut! Что ты умеешь: ja, nein, doch",
+   "coins": 5
+  },
+  {
+   "id": "ch15_L4",
+   "kind": "write",
+   "place": "course",
+   "de": [
+    "Entschuldigung, ich bin morgen nicht im Kurs."
+   ],
+   "task_ru": "Напиши черновик сообщения преподавателю курса, что тебя завтра не будет. Отправлять не нужно.",
+   "task_en": "Write a draft message to your course teacher that you won’t be there tomorrow. No need to send it.",
+   "why_ru": "Такое сообщение когда-нибудь понадобится — пусть будет готово.",
+   "why_en": "You will need this message one day — have it ready.",
+   "ch": 15,
+   "lesson_title": "Die Entschuldigung. Сообщить, что ты не придёшь",
+   "coins": 5
+  },
+  {
+   "id": "ch15_L5",
+   "kind": "write",
+   "place": "home",
+   "de": [
+    "Hört Podcasts auf Deutsch!",
+    "Schreibt Notizen!"
+   ],
+   "task_ru": "Напиши себе стикер-совет по-немецки и повесь на холодильник: «Hört …! Lest …! Schreibt …!»",
+   "task_en": "Write yourself a German sticky-note tip and put it on the fridge: “Hört …! Lest …! Schreibt …!”",
+   "why_ru": "Стикер на виду — повторение без усилий каждый день.",
+   "why_en": "A sticky note in sight means effortless daily review.",
+   "ch": 15,
+   "lesson_title": "Mit allen Sinnen lernen. Совет сразу нескольким друзьям",
+   "coins": 5
+  },
+  {
+   "id": "ch15_L6",
+   "kind": "write",
+   "place": "home",
+   "de": [
+    "Ich habe im Club Fußball gespielt."
+   ],
+   "task_ru": "Напиши 2 фразы о своём прошлом: где и во что играла или что учила.",
+   "task_en": "Write 2 sentences about your past: where and what you played or learned.",
+   "why_ru": "Рассказ о прошлом — часть DTZ и любого знакомства.",
+   "why_en": "Talking about your past is part of the DTZ and every introduction.",
+   "ch": 15,
+   "lesson_title": "Mein Deutsch nach Kapitel 15: проверка главы и твоя Lernbiografie",
+   "coins": 5
+  },
+  {
+   "id": "ch16_L1",
+   "kind": "read",
+   "place": "netto",
+   "de": [
+    "Hier gibt es Obst und Gemüse."
+   ],
+   "task_ru": "В Netto найди отделы Obst и Gemüse (и мёд — Honig). Запиши 3 слова с табличек.",
+   "task_en": "In Netto find the Obst and Gemüse sections (and honey — Honig). Write 3 words from the signs.",
+   "why_ru": "Таблички отделов — первые немецкие слова в любом магазине.",
+   "why_en": "Section signs are the first German words in any shop.",
+   "ch": 16,
+   "lesson_title": "Hier riecht es herrlich! Первый рынок",
+   "coins": 5
+  },
+  {
+   "id": "ch16_L2",
+   "kind": "say",
+   "place": "netto",
+   "de": [
+    "Dieser Stern gefällt mir.",
+    "Diese Kerze gefällt mir."
+   ],
+   "task_ru": "На рождественской полке в Netto (или на Weihnachtsmarkt) выбери вещь и скажи вслух: «Dieser … gefällt mir.»",
+   "task_en": "At the Christmas shelf in Netto (or a Weihnachtsmarkt) pick something and say aloud: “Dieser … gefällt mir.”",
+   "why_ru": "Сейчас сезон — слова сами смотрят на тебя с полок.",
+   "why_en": "It’s the season — the words look at you from the shelves.",
+   "ch": 16,
+   "lesson_title": "Der Nussknacker gefällt mir. Какой? Этот!",
+   "coins": 5
+  },
+  {
+   "id": "ch16_L3",
+   "kind": "write",
+   "place": "home",
+   "de": [
+    "Ich kaufe diesen Stern für Oma."
+   ],
+   "task_ru": "Напиши список рождественских подарков: что и для кого (für …).",
+   "task_en": "Write a Christmas gift list: what and for whom (für …).",
+   "why_ru": "für + кто — и список, и грамматика сразу.",
+   "why_en": "für + whom — a list and grammar at once.",
+   "ch": 16,
+   "lesson_title": "Hast du schon ein Geschenk? Для кого?",
+   "coins": 5
+  },
+  {
+   "id": "ch16_L4",
+   "kind": "say",
+   "place": "home",
+   "de": [
+    "Ich habe etwas gefunden.",
+    "Ich habe nichts gefunden."
+   ],
+   "task_ru": "Когда что-то ищешь дома (ключ, телефон), скажи вслух: нашла или нет.",
+   "task_en": "When you look for something at home (key, phone), say aloud whether you found it.",
+   "why_ru": "etwas / nichts / alles — три слова на каждый день.",
+   "why_en": "etwas / nichts / alles — three words for every day.",
+   "ch": 16,
+   "lesson_title": "Hast du etwas gefunden? Работа на рынке",
+   "coins": 5
+  },
+  {
+   "id": "ch16_L5",
+   "kind": "write",
+   "place": "home",
+   "de": [
+    "Ich lerne jeden Tag Deutsch."
+   ],
+   "task_ru": "Напиши своё доброе решение (Vorsatz) на немецком и повесь на видное место.",
+   "task_en": "Write your good resolution (Vorsatz) in German and put it somewhere visible.",
+   "why_ru": "Решение на виду — и мотивация, и немецкий каждый день.",
+   "why_en": "A resolution in sight gives motivation and daily German.",
+   "ch": 16,
+   "lesson_title": "Wir feiern! Праздники и хорошие решения",
+   "coins": 5
+  },
+  {
+   "id": "ch16_L6",
+   "kind": "write",
+   "place": "phone",
+   "de": [
+    "Ich habe einen Film gesehen.",
+    "Ich habe Untertitel gelesen."
+   ],
+   "task_ru": "Посмотри короткое видео на немецком с субтитрами и напиши 1–2 фразы: что посмотрела и понравилось ли.",
+   "task_en": "Watch a short German video with subtitles and write 1–2 sentences: what you watched and whether you liked it.",
+   "why_ru": "Фильмы с субтитрами — немецкий, который всегда под рукой.",
+   "why_en": "Films with subtitles are German that is always at hand.",
+   "ch": 16,
+   "lesson_title": "Mein Deutsch nach Kapitel 16: проверка главы и Filme und Webseiten",
+   "coins": 5
+  }
+ ]
+}
